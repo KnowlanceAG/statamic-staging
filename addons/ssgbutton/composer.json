@@ -1,0 +1,28 @@
+{
+    "name": "uscreen/ssgbutton",
+    "description": "SSG in CP",
+    "autoload": {
+        "psr-4": {
+            "uscreen\\ssgbutton\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "u|screen gmbh"
+        }
+    ],
+    "support": {
+        "email": "huckels@uscreen.de"
+    },
+    "extra": {
+        "statamic": {
+            "name": "SSG Button",
+            "description": "SSG making in CP"
+        },
+        "laravel": {
+            "providers": [
+                "uscreen\\ssgbutton\\ServiceProvider"
+            ]
+        }
+    }
+}
