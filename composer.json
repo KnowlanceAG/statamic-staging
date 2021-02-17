@@ -11,8 +11,7 @@
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
         "statamic/cms": "3.0.*",
-        "statamic/ssg": "^0.2.0",
-        "uscreen/ssgbutton": "*"
+        "statamic/ssg": "^0.2.0"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",
@@ -58,11 +57,6 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
-    },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "addons/ssgbutton"
-        }
-    ]
+    }
+
 }
