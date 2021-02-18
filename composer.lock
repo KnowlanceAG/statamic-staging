@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "21599cdfac2bb221574307b1ae5eec8c",
+    "content-hash": "02c3e6060c9eed5432760102c4c1607a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6367,44 +6367,6 @@
                 }
             ],
             "time": "2021-01-19T11:40:25+00:00"
-        },
-        {
-            "name": "uscreen/cp-ssg",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "addons/cp-ssg",
-                "reference": "a40113a4033152053f025b5dc1ccdbc214044e31"
-            },
-            "type": "library",
-            "extra": {
-                "statamic": {
-                    "name": "SSG Button",
-                    "description": "SSG making in CP"
-                },
-                "laravel": {
-                    "providers": [
-                        "uscreen\\cp-ssg\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "uscreen\\cp-ssg\\": "src"
-                }
-            },
-            "authors": [
-                {
-                    "name": "u|screen gmbh"
-                }
-            ],
-            "description": "SSG in CP",
-            "support": {
-                "email": "huckels@uscreen.de"
-            },
-            "transport-options": {
-                "relative": true
-            }
         },
         {
             "name": "vlucas/phpdotenv",

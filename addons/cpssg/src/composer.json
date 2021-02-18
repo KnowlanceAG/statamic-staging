@@ -1,0 +1,28 @@
+{
+    "name": "uscreen/cpssg",
+    "description": "SSG from CP",
+    "autoload": {
+        "psr-4": {
+            "uscreen\\cpssg\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "u|screen GmbH"
+        }
+    ],
+    "support": {
+        "email": "info@uscreen.de"
+    },
+    "extra": {
+        "statamic": {
+            "name": "SSG from CP",
+            "description": "Example addon"
+        },
+        "laravel": {
+            "providers": [
+                "uscreen\\cpssg\\ServiceProvider"
+            ]
+        }
+    }
+}
