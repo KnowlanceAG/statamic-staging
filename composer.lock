@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02c3e6060c9eed5432760102c4c1607a",
+    "content-hash": "ea0aec8ef6cd771e1b3d9fae3879ee53",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3475,16 +3475,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.0.43",
+            "version": "v3.0.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "86c2b96bd1d0b135717c17944cf120b0051bf433"
+                "reference": "ef60b8aa2c60aa3112c25669838af33c4ffbc739"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/86c2b96bd1d0b135717c17944cf120b0051bf433",
-                "reference": "86c2b96bd1d0b135717c17944cf120b0051bf433",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/ef60b8aa2c60aa3112c25669838af33c4ffbc739",
+                "reference": "ef60b8aa2c60aa3112c25669838af33c4ffbc739",
                 "shasum": ""
             },
             "require": {
@@ -3551,7 +3551,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.0.43"
+                "source": "https://github.com/statamic/cms/tree/v3.0.44"
             },
             "funding": [
                 {
@@ -3559,7 +3559,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-02-11T16:12:05+00:00"
+            "time": "2021-02-17T17:02:33+00:00"
         },
         {
             "name": "statamic/ssg",
@@ -6367,6 +6367,44 @@
                 }
             ],
             "time": "2021-01-19T11:40:25+00:00"
+        },
+        {
+            "name": "uscreen/cpssg",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "addons/cpssg",
+                "reference": "d89d80d9289b42bf26ec07dd49861542b453f17d"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Example",
+                    "description": "Example addon"
+                },
+                "laravel": {
+                    "providers": [
+                        "Uscreen\\Cpssg\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Uscreen\\Cpssg\\": "src"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Jason Varga"
+                }
+            ],
+            "description": "Example Addon",
+            "support": {
+                "email": "support@statamic.com"
+            },
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "vlucas/phpdotenv",

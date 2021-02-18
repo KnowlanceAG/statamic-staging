@@ -1,9 +1,9 @@
 {
     "name": "uscreen/cpssg",
-    "description": "SSG from CP",
+    "description": "Generate static site in CP",
     "autoload": {
         "psr-4": {
-            "uscreen\\cpssg\\": "src"
+            "Uscreen\\Cpssg\\": "src"
         }
     },
     "authors": [
@@ -16,12 +16,12 @@
     },
     "extra": {
         "statamic": {
-            "name": "SSG from CP",
-            "description": "Example addon"
+            "name": "Controlpanel Static Site Generator",
+            "description": "Generate static site in CP"
         },
         "laravel": {
             "providers": [
-                "uscreen\\cpssg\\ServiceProvider"
+                "Uscreen\\Cpssg\\ServiceProvider"
             ]
         }
     }

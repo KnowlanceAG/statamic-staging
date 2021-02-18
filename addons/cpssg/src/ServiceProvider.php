@@ -1,6 +1,6 @@
 <?php
 
-namespace uscreen\cpssg;
+namespace Uscreen\Cpssg;
 
 use Statamic\Providers\AddonServiceProvider;
 
