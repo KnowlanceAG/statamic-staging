@@ -1,0 +1,22 @@
+{
+    "name": "uscreen/ssgbutton",
+    "autoload": {
+        "psr-4": {
+            "Uscreen\\Ssgbutton\\": "src"
+        }
+    },
+    "require": {
+        "statamic/ssg": "^0.2.0"
+    },
+    "extra": {
+        "statamic": {
+            "name": "Ssgbutton",
+            "description": "Ssgbutton addon"
+        },
+        "laravel": {
+            "providers": [
+                "Uscreen\\Ssgbutton\\ServiceProvider"
+            ]
+        }
+    }
+}

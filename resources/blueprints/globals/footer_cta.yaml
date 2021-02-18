@@ -1,0 +1,29 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: cta_headline
+        field:
+          input_type: text
+          antlers: false
+          display: 'CTA Überschrift'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: cta_button_text
+        field:
+          input_type: text
+          antlers: false
+          display: 'CTA Button Text'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: cta_button
+        field:
+          display: 'CTA Button link'
+          type: link
+          icon: link
+          listable: hidden

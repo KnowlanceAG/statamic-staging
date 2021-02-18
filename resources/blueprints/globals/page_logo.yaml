@@ -1,0 +1,16 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: image
+        field:
+          mode: grid
+          container: assets
+          restrict: false
+          allow_uploads: true
+          display: Bild
+          type: assets
+          icon: assets
+          instructions: 'Logo hochladen/auswählen'
+          listable: hidden

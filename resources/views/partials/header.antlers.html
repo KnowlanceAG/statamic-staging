@@ -1,0 +1,9 @@
+<header class="flex border-b border-gray-300 bg-white h-24 fixed top-0 inset-x-0">
+    <div class="container mx-auto max-w-screen-xl self-center">
+        {{ page_logo:image }}
+            <img class="max-h-9" src="{{ url }}" alt="{{ alt }}">
+        {{ /page_logo:image }}
+
+        {{ partial src="partials/menu" }}
+    </div>
+</header>

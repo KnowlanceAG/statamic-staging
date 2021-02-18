@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea0aec8ef6cd771e1b3d9fae3879ee53",
+    "content-hash": "67bdbfd91919bb8f8fc4caf7f94a2d3e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6374,13 +6374,13 @@
             "dist": {
                 "type": "path",
                 "url": "addons/cpssg",
-                "reference": "d89d80d9289b42bf26ec07dd49861542b453f17d"
+                "reference": "150663b722966e2b2a5d7d908b396c18fc86cbd3"
             },
             "type": "library",
             "extra": {
                 "statamic": {
-                    "name": "Example",
-                    "description": "Example addon"
+                    "name": "Controlpanel Static Site Generator",
+                    "description": "Generate static site in CP"
                 },
                 "laravel": {
                     "providers": [
@@ -6395,12 +6395,41 @@
             },
             "authors": [
                 {
-                    "name": "Jason Varga"
+                    "name": "u|screen GmbH"
                 }
             ],
-            "description": "Example Addon",
+            "description": "Generate static site in CP",
             "support": {
-                "email": "support@statamic.com"
+                "email": "info@uscreen.de"
+            },
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "uscreen/ssgbutton",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "addons/uscreen/ssgbutton",
+                "reference": "951628453fd87ce05623a5007588659c897f5c0e"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Ssgbutton",
+                    "description": "Ssgbutton addon"
+                },
+                "laravel": {
+                    "providers": [
+                        "Uscreen\\Ssgbutton\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Uscreen\\Ssgbutton\\": "src"
+                }
             },
             "transport-options": {
                 "relative": true
@@ -9257,7 +9286,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "uscreen/ssgbutton": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
