@@ -23,6 +23,11 @@ fields:
           fields:
             -
               import: ce_button
+        spalten:
+          display: Spalten
+          fields:
+            -
+              import: ce_grid
       display: Replicator
       type: replicator
       icon: replicator
