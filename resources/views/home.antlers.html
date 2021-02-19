@@ -1,3 +1,5 @@
-<div class="">
-    {{ content }}
+<div class="flex flex-row">
+    {{ replicator }}
+        {{ partial src="partials/content/{type}" }}
+    {{ /replicator }}
 </div>
