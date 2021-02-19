@@ -18,7 +18,6 @@ h1 {
     }
 }
 h2 {
-    font: 700 22px/36px "Montserrat", sans-serif !important;
     font-weight: 700;
     margin: 30px 0 20px;
     color: #444444;
@@ -40,8 +39,7 @@ p {
 .teaser {
     min-height: 32.5vh;
 }
-.home {
-    .teaser {
-        min-height: 69.5vh;
-    }
+
+.home .teaser {
+    min-height: 69.5vh;
 }
