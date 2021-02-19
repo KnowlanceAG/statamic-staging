@@ -1,0 +1,29 @@
+title: Replicator
+fields:
+  -
+    handle: replicator
+    field:
+      collapse: false
+      sets:
+        bild:
+          display: Bild
+          fields: {  }
+        text:
+          display: Text
+          fields:
+            -
+              import: ce_text
+        ueberschrift:
+          display: Überschrift
+          fields:
+            -
+              import: ce_headlines
+        button:
+          display: Button
+          fields:
+            -
+              import: ce_button
+      display: Replicator
+      type: replicator
+      icon: replicator
+      listable: hidden
