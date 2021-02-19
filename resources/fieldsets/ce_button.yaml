@@ -1,0 +1,32 @@
+title: Button
+fields:
+  -
+    handle: button_link
+    field:
+      display: 'Button Link'
+      type: link
+      icon: link
+      listable: hidden
+  -
+    handle: button_text
+    field:
+      input_type: text
+      antlers: false
+      display: 'Button Text'
+      type: text
+      icon: text
+      listable: hidden
+  -
+    handle: color
+    field:
+      swatches:
+        - '#FF6606'
+      theme: classic
+      lock_opacity: false
+      default_color_mode: HEXA
+      color_modes:
+        - HEXA
+      display: Color
+      type: color
+      icon: color
+      listable: hidden

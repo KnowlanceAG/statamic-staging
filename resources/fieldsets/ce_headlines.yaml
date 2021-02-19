@@ -1,0 +1,11 @@
+title: Überschriften
+fields:
+  -
+    handle: headline
+    field:
+      input_type: text
+      antlers: false
+      display: Überschrift
+      type: text
+      icon: text
+      listable: hidden
