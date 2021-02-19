@@ -28,6 +28,12 @@ module.exports = {
             fontFamily: {
                 'Montserrat': ['Montserrat', 'sans-serif']
             },
+            fontSize: {
+                sm: ['15px', '28px'],
+                base: ['16px', '28px'],
+                lg: ['22px', '36px'],
+                xl: ['24px', '32px'],
+            },
       },
     },
     variants: {},

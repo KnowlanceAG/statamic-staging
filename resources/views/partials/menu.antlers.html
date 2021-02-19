@@ -1,3 +1,13 @@
-{{mainnav_desktop}}
-    {{dump}}
-{{/mainnav_desktop}}
+<nav class="h-auto justify-end">
+    {{ nav handle="mainnav_desktop" }}
+        {{ if last }}
+            <a href="{{ url }}" class="bg-gray-500 p-2 text-white">
+                {{ title }}
+            </a>
+        {{ else }}
+            <a href="{{ url }}" {{ if is_current || is_parent }} class="current text-sm font-normal text-gray-900" {{ else }} class="text-sm font-normal text-gray-900" {{ /if }}>
+                {{ title }}
+            </a>
+        {{ /if }}
+    {{ /nav }}
+</nav>

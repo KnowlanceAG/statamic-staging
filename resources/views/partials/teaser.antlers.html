@@ -1,19 +1,18 @@
 {{ if teaser_bg }}
     {{ teaser_bg }}
-        <section class="bg-gray-100 mb-28 border-b border-gray-100 bg-cover bg-center" style="background-image: url({{url}});">
+        <section class="teaser flex items-center bg-gray-100 mb-28 border-b border-gray-100 bg-cover bg-center" style="background-image: url({{url}});">
     {{ /teaser_bg }}
 {{ else }}
-    <section class="bg-gray-100 mb-28 border-b border-gray-100">
+    <section class="teaser flex items-center bg-gray-100 mb-28 border-b border-gray-100">
 {{ /if }}
 
-    <div class="container mx-auto max-w-screen-xl">
-        <div class="text-center py-16">
-            <h1 class="mb-8 text-orange-500 font-medium text-4xl">
+    <div class="container mx-auto max-w-screen-xl flex justify-center text-center">
+        <div class="py-16">
+            <h1 class="mb-8 text-orange-500 font-bold text-4xl">
                 {{ title }}
             </h1>
             {{ teaser }}
         </div>
     </div>
-
 
 </section>
