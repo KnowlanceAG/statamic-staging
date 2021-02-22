@@ -49,51 +49,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
-updated_at: 1613994577
-replicator:
-  -
-    grid:
-      -
-        replicator:
-          -
-            text: 'Spalte 1'
-            type: new_set
-            enabled: true
-        bard:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'grid 1'
-      -
-        replicator:
-          -
-            text: 'Spalte 2'
-            type: new_set
-            enabled: true
-        bard:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'grid 2'
-      -
-        replicator:
-          -
-            text: 'Spalte 3'
-            type: new_set
-            enabled: true
-        bard:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'grid 3'
-    type: spalten
-    enabled: true
+updated_at: 1613994937
 id: home
 ---
 Welcome to your new Statamic website.
