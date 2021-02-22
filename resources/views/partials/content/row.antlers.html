@@ -1,4 +1,8 @@
-<div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-{{ grid | length }}">
+{{ if grid | length === 1 }}
+    <div class="grid grid-cols-1 gap-4">
+{{ else }}
+    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-{{ grid | length }}">
+{{ /if }}
     {{ grid }}
     <div class="column">
         {{ bard }}
