@@ -3,7 +3,7 @@ title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
-updated_at: 1614000005
+updated_at: 1614000493
 teaser_bg:
   - seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
@@ -103,6 +103,57 @@ replicator:
     bg_color: '#F9F9F9'
     type: section
     enabled: true
+    bg_fixed: false
+    bard:
+      -
+        type: heading
+        attrs:
+          level: 4
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textAlign
+                attrs:
+                  align: center
+            text: 'Der Ablauf ist ganz einfach:'
+    grid:
+      -
+        bard:
+          -
+            type: set
+            attrs:
+              values:
+                type: bilder
+                assets:
+                  - seiten/so-funktioniert-es/icon-online-anfrage.svg
+          -
+            type: heading
+            attrs:
+              level: 3
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: textAlign
+                    attrs:
+                      align: center
+                text: '1. Online-Anfrage'
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: textAlign
+                    attrs:
+                      align: center
+                text: 'Einfach & unkompliziert online anfragen – Je spezifischer Ihre Anfrage ist, umso besser sind wir in der Lage, Ihnen das bestmögliche individuelle Angebot zu unterbreiten.'
   -
     grid:
       -

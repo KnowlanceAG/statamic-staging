@@ -15,3 +15,25 @@ fields:
       type: color
       icon: color
       listable: hidden
+  -
+    handle: bg_image
+    field:
+      mode: grid
+      container: assets
+      restrict: false
+      allow_uploads: true
+      display: 'Hintergrund Bild'
+      type: assets
+      icon: assets
+      listable: hidden
+  -
+    handle: bg_fixed
+    field:
+      display: 'Hintergrund fixed'
+      type: toggle
+      icon: toggle
+      listable: hidden
+  -
+    import: bard
+  -
+    import: columns
