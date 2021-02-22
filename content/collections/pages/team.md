@@ -3,7 +3,7 @@ title: Team
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
-updated_at: 1614001336
+updated_at: 1614004915
 page_title: 'Unser Team • GWriters.de'
 teaser:
   -
@@ -80,6 +80,11 @@ replicator:
                       align: center
                 text: 'Montags bis Freitags von 9-18 Uhr und in dringenden Fällen auch an Wochenenden für Sie erreichbar.'
     type: row
+    enabled: true
+  -
+    collections:
+      - team
+    type: collection_full
     enabled: true
 id: 010a016f-92f5-482d-bcee-60b232e7c328
 ---
