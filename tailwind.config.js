@@ -14,7 +14,8 @@ module.exports = {
                 black: '#444444',
                 white: '#fff',
                 orange: {
-                    500: '#FF6606'
+                    500: '#FF6606',
+                    700: '#c14c00'
                 },
                 gray: {
                     100: '#eaeaea',
@@ -34,6 +35,9 @@ module.exports = {
                 lg: ['22px', '36px'],
                 xl: ['24px', '32px'],
             },
+            lineHeight: {
+                '14': '4.5rem',
+            }
       },
     },
     variants: {},

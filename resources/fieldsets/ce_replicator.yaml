@@ -27,8 +27,9 @@ fields:
           display: Spalten
           fields:
             -
-              import: ce_grid
+              import: columns
       display: Replicator
       type: replicator
       icon: replicator
       listable: hidden
+      instructions: 'Replicator für Content Elemente'

@@ -14,6 +14,12 @@ sections:
         handle: teaser
         field:
           always_show_set_button: false
+          sets:
+            button:
+              display: Button
+              fields:
+                -
+                  import: ce_button
           buttons:
             - h2
             - h3
@@ -26,6 +32,15 @@ sections:
             - anchor
             - image
             - table
+            - h1
+            - h4
+            - h5
+            - underline
+            - superscript
+            - subscript
+            - code
+            - codeblock
+            - horizontalrule
           save_html: false
           toolbar_mode: fixed
           link_noopener: false
@@ -52,7 +67,7 @@ sections:
       -
         import: ce_replicator
   sidebar:
-    display: Sidebar
+    display: 'Seiten Einstellungen'
     fields:
       -
         handle: slug

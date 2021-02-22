@@ -1,0 +1,16 @@
+title: Spalten
+fields:
+  -
+    handle: grid
+    field:
+      fields:
+        -
+          import: bard
+      mode: table
+      max_rows: 6
+      min_rows: 1
+      reorderable: true
+      display: Grid
+      type: grid
+      icon: grid
+      listable: hidden
