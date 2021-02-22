@@ -1,0 +1,10 @@
+title: 'Collection Selected'
+fields:
+  -
+    handle: entries
+    field:
+      mode: default
+      display: Entries
+      type: entries
+      icon: entries
+      listable: hidden

@@ -20,6 +20,11 @@ fields:
           fields:
             -
               import: team_list_full
+        collection_selected:
+          display: 'Collection Selected'
+          fields:
+            -
+              import: collection_selected
       display: Replicator
       type: replicator
       icon: replicator
