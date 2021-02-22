@@ -1,33 +1,20 @@
-title: Replicator
+title: 'Flexible Content'
 fields:
   -
     handle: replicator
     field:
       collapse: false
       sets:
-        bild:
-          display: Bild
-          fields: {  }
-        text:
-          display: Text
-          fields:
-            -
-              import: ce_text
-        ueberschrift:
-          display: Überschrift
-          fields:
-            -
-              import: ce_headlines
-        button:
-          display: Button
-          fields:
-            -
-              import: ce_button
-        spalten:
-          display: Spalten
+        row:
+          display: Row
           fields:
             -
               import: columns
+        section:
+          display: Section
+          fields:
+            -
+              import: section
       display: Replicator
       type: replicator
       icon: replicator

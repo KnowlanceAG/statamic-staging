@@ -1,7 +1,6 @@
 title: Bard
 fields:
-  -
-    handle: bard
+  - handle: bard
     field:
       always_show_set_button: false
       buttons:
@@ -37,3 +36,16 @@ fields:
       type: bard
       icon: bard
       listable: hidden
+      sets:
+        bilder:
+          display: Bilder
+          fields:
+            - import: ce_image
+        button:
+          display: Button
+          fields:
+            - import: ce_button
+        headline:
+          display: Headline
+          fields:
+            - import: ce_headlines

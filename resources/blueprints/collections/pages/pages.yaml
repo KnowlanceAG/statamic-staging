@@ -78,6 +78,15 @@ sections:
           validate:
             - required
       -
+        handle: page_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Seiten Titel'
+          type: text
+          icon: text
+          listable: hidden
+      -
         handle: parent
         field:
           type: entries

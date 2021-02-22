@@ -1,0 +1,17 @@
+title: Section
+fields:
+  -
+    handle: bg_color
+    field:
+      swatches:
+        - '#F9F9F9'
+        - '#FF6606'
+      theme: classic
+      lock_opacity: false
+      default_color_mode: HEXA
+      color_modes:
+        - HEXA
+      display: 'Hintergrund Farbe'
+      type: color
+      icon: color
+      listable: hidden
