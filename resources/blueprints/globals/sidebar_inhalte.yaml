@@ -1,0 +1,99 @@
+sections:
+  main:
+    display: 'Sidebar Inhalte'
+    fields:
+      -
+        handle: header_text
+        field:
+          placeholder: 'Ihr persönlicher Ansprechpartner'
+          input_type: text
+          antlers: false
+          display: 'Header Text'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: image
+        field:
+          mode: grid
+          container: assets
+          restrict: false
+          allow_uploads: true
+          display: Bild
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: name_position
+        field:
+          placeholder: 'Max Mustermann - Teamleiter'
+          input_type: text
+          antlers: false
+          display: 'Name und Position'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: phone
+        field:
+          input_type: text
+          antlers: false
+          display: Telefonnummer
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: email
+        field:
+          input_type: text
+          antlers: false
+          display: 'E-Mail Adresse'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: button
+        field:
+          options:
+            btn-txt: 'Button Text'
+            btn-link: 'Button Ziel'
+            btn-target: 'Button Target "Blank"'
+          display: Button
+          type: button_group
+          icon: button_group
+          listable: hidden
+      -
+        handle: description
+        field:
+          always_show_set_button: false
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          display: 'Hinweis unter Button'
+          type: bard
+          icon: bard
+          listable: hidden
+      -
+        handle: feature_liste
+        field:
+          display: 'Feature Liste'
+          type: list
+          icon: list
+          listable: hidden
