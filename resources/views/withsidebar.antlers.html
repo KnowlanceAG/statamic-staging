@@ -1,0 +1,11 @@
+<div class="grid grid-cols-3 gap-8">
+    <div class="col-span-2">
+        {{ replicator }}
+            {{ partial src="partials/content/{type}" }}
+        {{ /replicator }}
+    </div>
+    <div>
+        sidebar
+        {{ partial src="partials/sidebar" }}
+    </div>
+</div>

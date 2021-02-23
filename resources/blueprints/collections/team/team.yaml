@@ -1,7 +1,7 @@
 title: Team
 sections:
-  main:
-    display: Main
+  team_overview:
+    display: Übersicht
     fields:
       -
         handle: title
@@ -52,4 +52,48 @@ sections:
           type: link
           icon: link
           instructions: 'Link zu Seite oder Blogbeitrag'
+          listable: hidden
+  team_detail:
+    display: Detail
+    fields:
+      -
+        handle: detail_position
+        field:
+          input_type: text
+          antlers: false
+          display: 'Detail Position'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: detail_text
+        field:
+          always_show_set_button: false
+          buttons:
+            - h2
+            - h3
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - quote
+            - anchor
+            - image
+            - table
+            - h4
+            - underline
+            - superscript
+            - subscript
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          display: 'Detail Text'
+          type: bard
+          icon: bard
           listable: hidden

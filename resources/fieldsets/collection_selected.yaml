@@ -1,6 +1,13 @@
 title: 'Collection Selected'
 fields:
   -
+    handle: team_detail
+    field:
+      display: 'Team Detail Liste aktivieren'
+      type: toggle
+      icon: toggle
+      listable: hidden
+  -
     handle: entries
     field:
       mode: default
