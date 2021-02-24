@@ -4,12 +4,12 @@
         {{ col }}
             <div class="mb-12">
                 {{ post_image }}
-                    <a href="">
+                    <a href="{{ url }}">
                         <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
                     </a>
                 {{ /post_image }}
                 <h3>
-                    <a href="" class="text-black hover:text-orange-500 hover:transition-color hover:duration-200">
+                    <a href="{{ url }}" class="text-black hover:text-orange-500 hover:transition-color hover:duration-200">
                         {{ title }}
                     </a>
                 </h3>
@@ -26,12 +26,12 @@
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
                                 d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                         </svg>
-                        <!-- @todo add autor name -->
-
+                        {{ author }}
+                            {{ name }}
+                        {{ /author }}
                     </p>
                 </div>
                 <p>{{ short_text }}</p>
-                <!-- @todo get post entrie url -->
                 <a href="{{ url }}" class="px-3 py-2 my-3 inline-block border border-orange-500 text-orange-500 text-sm hover:bg-orange-500 hover:text-white hover:transition-color duration-300">ARTIKEL LESEN</a>
             </div>
         {{ /col }}
