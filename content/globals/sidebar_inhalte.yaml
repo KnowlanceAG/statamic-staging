@@ -7,18 +7,7 @@ data:
   phone: '+49 (0) 30 809 332 339'
   email: info@gwriters.de
   button: btn-link
-  description:
-    -
-      type: paragraph
-      content:
-        -
-          type: text
-          marks:
-            -
-              type: textAlign
-              attrs:
-                align: center
-          text: 'Beschreiben Sie kurz Ihre Anforderungen und wir erstellen innerhalb von wenigen Stunden ein unverbindliches & individuelles Angebot.'
+  description: 'Beschreiben Sie kurz Ihre Anforderungen und wir erstellen innerhalb von wenigen Stunden ein unverbindliches & individuelles Angebot.'
   feature_liste:
     - '100% Diskretion'
     - 'individuelle Projektbetreuer'

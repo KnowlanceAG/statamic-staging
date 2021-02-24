@@ -27,9 +27,11 @@ module.exports = {
                 }
             },
             fontFamily: {
-                'Montserrat': ['Montserrat', 'sans-serif']
+                'Montserrat': ['Montserrat', 'sans-serif'],
+                'sans': ['Montserrat', 'sans-serif']
             },
             fontSize: {
+                xs: ['13px', '26px'],
                 sm: ['15px', '28px'],
                 base: ['16px', '28px'],
                 lg: ['22px', '36px'],

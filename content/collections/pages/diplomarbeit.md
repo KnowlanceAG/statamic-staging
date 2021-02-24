@@ -47,7 +47,20 @@ replicator:
             content:
               -
                 type: text
-                text: 'Ein akademischer Ghostwriter besitzt nicht nur umfassende wissenschaftliche Kenntnisse in seinem Fachbereich, sondern auch Erfahrungen im Umgang mit wissenschaftlichen Arbeiten. Aus diesem Grund kann er ohne langwidrige Einarbeitungsphasen zu jedem Zeitpunkt der Bearbeitung unterstützend eingreifen. Oft geschieht dies direkt zu Beginn, bei der eigentlichen Themenfindung, dem Aufbau einer Diplomarbeit, deren Gliederung und Formatierung. Dies umfasst das typische Coaching einer Diplomarbeit, sowie deren Betreuung.'
+                text: 'Ein akademischer Ghostwriter besitzt nicht nur umfassende wissenschaftliche Kenntnisse in seinem Fachbereich, sondern auch Erfahrungen im Umgang mit wissenschaftlichen Arbeiten. Aus diesem Grund kann er ohne langwidrige Einarbeitungsphasen zu jedem Zeitpunkt der Bearbeitung unterstützend eingreifen. Oft geschieht dies direkt zu Beginn, bei der eigentlichen Themenfindung, dem Aufbau einer Diplomarbeit, deren '
+              -
+                type: text
+                marks:
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://test.test'
+                      target: _blank
+                      rel: nofollow
+                text: Gliederung
+              -
+                type: text
+                text: ' und Formatierung. Dies umfasst das typische Coaching einer Diplomarbeit, sowie deren Betreuung.'
           -
             type: paragraph
             content:
@@ -85,7 +98,7 @@ replicator:
     type: row
     enabled: true
 updated_by: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
-updated_at: 1614066655
+updated_at: 1614076342
 template: withsidebar
 id: 99cd8e42-b21c-4cea-a162-a9454db2375f
 ---

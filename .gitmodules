@@ -1,0 +1,3 @@
+[submodule "addons/uscreen/link-extended"]
+	path = addons/uscreen/link-extended
+	url = git@gitlab.uscreen.net:uscreen/statamic-addons/link-extended.git
