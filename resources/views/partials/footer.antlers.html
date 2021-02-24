@@ -13,10 +13,10 @@
             {{/footer_cta}}
         </div>
     </section>
-    <section class="px-4 bg-gray-100 py-8">
+    <section class="px-4 bg-gray-100 pt-20 pb-8">
         <div class="container mx-auto max-w-screen-xl flex md:justify-around">
             <div>
-                <h5 class="uppercase mb-4 font-semibold">ÜBER GWRITERS</h5>
+                <h5 class="uppercase mb-4 font-semibold text-sm">ÜBER GWRITERS</h5>
                 <p class="flex flex-col">
                     {{ nav handle="footer_first_column" }}
                         <a href="{{ url }}" class="text-xs font-sans text-gray-600 hover:text-gray-900">
@@ -26,7 +26,7 @@
                 </p>
             </div>
             <div>
-                <h5 class="uppercase mb-4 font-semibold">INFORMATIONEN</h5>
+                <h5 class="uppercase mb-4 font-semibold text-sm">INFORMATIONEN</h5>
                 <p class="flex flex-col">
                     {{ nav handle="footer_second_column" }}
                         <a href="{{ url }}" class="text-xs font-sans text-gray-600 hover:text-gray-900">
@@ -36,7 +36,7 @@
                 </p>
             </div>
             <div>
-                <h5 class="uppercase mb-4 font-semibold">AUTOREN</h5>
+                <h5 class="uppercase mb-4 font-semibold text-sm">AUTOREN</h5>
                 <p class="flex flex-col">
                     {{ nav handle="footer_third_column" }}
                         <a href="{{ url }}" class="text-xs font-sans text-gray-600 hover:text-gray-900">
@@ -47,10 +47,10 @@
             </div>
         </div>
     </section>
-    <section class="px-4 bg-gray-100 py-8">
+    <section class="px-4 bg-gray-100 pt-12 pb-16">
         <div class="container mx-auto max-w-screen-sm flex md:justify-around">
             {{ nav handle="footer_gwriters_international" }}
-                <a href="{{ url }}" alt="{{ title }}" class="text-xs font-sans text-gray-600 hover:text-gray-900" target="_blank">
+                <a href="{{ url }}" alt="{{ title }}" rel="noopener" class="flags {{ title }} text-xs font-bold font-sans text-gray-600 hover:text-gray-900" target="_blank">
                     {{ title }}
                 </a>
             {{ /nav }}
