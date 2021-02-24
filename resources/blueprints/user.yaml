@@ -1,29 +1,79 @@
-title: User
-fields:
-  -
-    handle: name
-    field:
-      type: text
-      display: Name
-  -
-    handle: email
-    field:
-      type: text
-      input: email
-      display: Email Address
-  -
-    handle: roles
-    field:
-      type: user_roles
-      width: 50
-  -
-    handle: groups
-    field:
-      type: user_groups
-      width: 50
-  -
-    handle: avatar
-    field:
-      type: assets
-      max_files: 1
-      container: assets
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: name
+        field:
+          type: text
+          display: Name
+      -
+        handle: email
+        field:
+          type: text
+          input: email
+          display: 'Email Address'
+      -
+        handle: roles
+        field:
+          type: user_roles
+          width: 50
+      -
+        handle: groups
+        field:
+          type: user_groups
+          width: 50
+      -
+        handle: avatar
+        field:
+          type: assets
+          max_files: 1
+          container: assets
+  additional_blog_stuff:
+    display: 'Additional Blog Stuff'
+    fields:
+      -
+        handle: position
+        field:
+          always_show_set_button: false
+          buttons:
+            - bold
+            - italic
+            - removeformat
+            - anchor
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          display: Position
+          type: bard
+          icon: bard
+          listable: hidden
+      -
+        handle: short_text
+        field:
+          always_show_set_button: false
+          buttons:
+            - bold
+            - italic
+            - unorderedlist
+            - orderedlist
+            - removeformat
+            - anchor
+            - image
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          display: 'Kurz Text'
+          type: bard
+          icon: bard
+          listable: hidden
