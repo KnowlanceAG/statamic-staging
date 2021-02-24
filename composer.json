@@ -19,7 +19,8 @@
         "statamic/cms": "3.0.*",
         "statamic/ssg": "^0.2.0",
         "uscreen/cpssg": "*",
-        "uscreen/ssgbutton": "dev-master"
+        "uscreen/ssgbutton": "dev-master",
+        "uscreen/link-extended": "dev-master"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",
@@ -74,6 +75,11 @@
         {
             "type": "path",
             "url": "addons/uscreen/ssgbutton"
+        },
+        {
+            "type": "path",
+            "url": "addons/uscreen/link-extended"
         }
+
     ]
 }

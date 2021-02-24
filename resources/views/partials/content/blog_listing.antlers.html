@@ -4,10 +4,14 @@
         {{ col }}
             <div class="mb-12">
                 {{ post_image }}
-                    <img class="" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
+                    <a href="">
+                        <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
+                    </a>
                 {{ /post_image }}
                 <h3>
-                    {{ title }}
+                    <a href="" class="text-black hover:text-orange-500 hover:transition-color hover:duration-200">
+                        {{ title }}
+                    </a>
                 </h3>
                 <div class="flex flex-row gap-7">
                     <p class="flex flex-row">
@@ -27,6 +31,7 @@
                     </p>
                 </div>
                 <p>{{ short_text }}</p>
+                <!-- @todo get post entrie url -->
                 <a href="{{ url }}" class="px-3 py-2 my-3 inline-block border border-orange-500 text-orange-500 text-sm hover:bg-orange-500 hover:text-white hover:transition-color duration-300">ARTIKEL LESEN</a>
             </div>
         {{ /col }}

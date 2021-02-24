@@ -1,7 +1,8 @@
 title: Blog
-template: withsidebar
-layout: blog-item
+template: blog-item
+layout: layout-without-teaser
 revisions: false
+route: '/blog/{slug}'
 date: true
 sort_dir: asc
 date_behavior:

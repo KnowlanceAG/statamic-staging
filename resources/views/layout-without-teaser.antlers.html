@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="{{ site:short_locale }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {{ if page_title }}
+            <title>{{ page_title }}</title>
+        {{ else }}
+            <title>GWriters • {{ title ?? site:name }}</title>
+        {{ /if }}
+        <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+
+        <link rel="icon" href="/assets/webseite/gwriters-logo-32x32.png" sizes="32x32">
+        <link rel="shortcut icon" href="/assets/webseite/gwriters-logo-32x32.png">
+        <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-57x57.png"
+            sizes="57x57">
+        <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-76x76.png"
+            sizes="76x76">
+        <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-120x120.png"
+            sizes="120x120">
+        <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-152x152.png"
+            sizes="114x114">
+    </head>
+    <body class="{{ id }} bg-white leading-normal text-black mt-24">
+
+        {{ partial src="partials/header" }}
+
+        <section class="px-4 py-16">
+            <div class="content container mx-auto px-2 max-w-screen-xl clear-both">
+                {{ template_content }}
+            </div>
+        </section>
+
+        {{ partial src="partials/footer" }}
+
+        <script src="{{ mix src='/js/site.js' }}"></script>
+    </body>
+</html>

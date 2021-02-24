@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb6cf7e46063c100957e4034ead23e75",
+    "content-hash": "38a0c35e01527c3e77b54a3635a191ff",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3544,16 +3544,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.0.44",
+            "version": "v3.0.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "ef60b8aa2c60aa3112c25669838af33c4ffbc739"
+                "reference": "b480356c969857ce4484b9b47cbcc14c06c99f50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/ef60b8aa2c60aa3112c25669838af33c4ffbc739",
-                "reference": "ef60b8aa2c60aa3112c25669838af33c4ffbc739",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/b480356c969857ce4484b9b47cbcc14c06c99f50",
+                "reference": "b480356c969857ce4484b9b47cbcc14c06c99f50",
                 "shasum": ""
             },
             "require": {
@@ -3620,7 +3620,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.0.44"
+                "source": "https://github.com/statamic/cms/tree/v3.0.45"
             },
             "funding": [
                 {
@@ -3628,7 +3628,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-02-17T17:02:33+00:00"
+            "time": "2021-02-22T14:45:08+00:00"
         },
         {
             "name": "statamic/ssg",
@@ -6476,12 +6476,44 @@
             }
         },
         {
+            "name": "uscreen/link-extended",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "addons/uscreen/link-extended",
+                "reference": "4bcacfd67b7505110d4bbb97b2e1c6dacb59f6a1"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Link Extended",
+                    "description": "Link Extended addon"
+                },
+                "laravel": {
+                    "providers": [
+                        "Uscreen\\LinkExtended\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Uscreen\\LinkExtended\\": "src"
+                }
+            },
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
             "name": "uscreen/ssgbutton",
             "version": "dev-master",
             "dist": {
                 "type": "path",
                 "url": "addons/uscreen/ssgbutton",
-                "reference": "951628453fd87ce05623a5007588659c897f5c0e"
+                "reference": "b6678ab173f0789fcce2b6480d4e5159a6d2cdd3"
+            },
+            "require": {
+                "statamic/ssg": "^0.2.0"
             },
             "type": "library",
             "extra": {
@@ -9356,7 +9388,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "uscreen/ssgbutton": 20
+        "uscreen/ssgbutton": 20,
+        "uscreen/link-extended": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

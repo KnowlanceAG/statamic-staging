@@ -1,6 +1,6 @@
 start:
-    yarn dev
-watch:
-    yarn watch
+	yarn
+	yarn watch
+
 build:
-    yarn prod
+	yarn build

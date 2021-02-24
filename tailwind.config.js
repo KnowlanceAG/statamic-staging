@@ -31,11 +31,12 @@ module.exports = {
                 'sans': ['Montserrat', 'sans-serif']
             },
             fontSize: {
+                '2xl': '1.65rem',
                 xs: ['13px', '26px'],
                 sm: ['15px', '28px'],
                 base: ['16px', '28px'],
                 lg: ['22px', '36px'],
-                xl: ['24px', '32px'],
+                xl: ['24px', '32px']
             },
             lineHeight: {
                 '14': '4.5rem',
