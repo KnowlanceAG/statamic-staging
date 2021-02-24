@@ -10,7 +10,6 @@
             <title>GWriters • {{ title ?? site:name }}</title>
         {{ /if }}
         <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
-
         <link rel="icon" href="/assets/webseite/gwriters-logo-32x32.png" sizes="32x32">
         <link rel="shortcut icon" href="/assets/webseite/gwriters-logo-32x32.png">
         <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-57x57.png"
@@ -21,8 +20,12 @@
             sizes="120x120">
         <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-152x152.png"
             sizes="114x114">
+
+        {{ aardvark-seo:head }}
     </head>
     <body class="{{ id }} bg-white leading-normal text-black mt-24">
+
+        {{ aardvark-seo:body }}
 
         {{ partial src="partials/header" }}
 
@@ -35,5 +38,6 @@
         {{ partial src="partials/footer" }}
 
         <script src="{{ mix src='/js/site.js' }}"></script>
+        {{ aardvark-seo:footer }}
     </body>
 </html>
