@@ -24,7 +24,8 @@ fields:
         - code
         - codeblock
         - horizontalrule
-      save_html: false
+        - anchor
+      save_html: true
       toolbar_mode: fixed
       link_noopener: false
       link_noreferrer: false
@@ -52,3 +53,18 @@ fields:
           fields:
             -
               import: ce_headlines
+        leistungen_uebersicht_4-spaltig:
+          display: 'Leistungen Übersicht 4-Spaltig'
+          fields:
+            -
+              import: ce_services_overview_four_columns
+        insert_html:
+          display: 'Insert HTML'
+          fields:
+            -
+              import: ce_html
+        link_liste:
+          display: 'Link Liste'
+          fields:
+            -
+              import: ce_toggle_services

@@ -1,0 +1,18 @@
+<div class="block text-center">
+    <div class="inline-flex flex-row mb-4">
+        {{ grid }}
+            <p class="font-bold px-6 py-4 uppercase border-b-2 border-gray-200 cursor-pointer hover:border-b-4 hover:border-orange-500">{{ headline }}</p>
+        {{ /grid }}
+    </div>
+</div>
+{{ grid }}
+    <div class="relative">
+        <div class="grid grid-cols-4">
+            {{ linkliste }}
+                <a href="{{ url }}" alt={{ title }} class="text-orange-500 text-sm">
+                    {{ title }}
+                </a>
+            {{ /linkliste }}
+        </div>
+    </div>
+{{ /grid }}

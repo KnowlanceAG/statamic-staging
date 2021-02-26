@@ -1,0 +1,16 @@
+title: 'Leistungen Überblick 4-Spaltig'
+fields:
+  -
+    handle: grid
+    field:
+      fields:
+        -
+          import: ce_hover_content_card
+      mode: stacked
+      max_rows: 4
+      min_rows: 4
+      reorderable: true
+      display: Grid
+      type: grid
+      icon: grid
+      listable: hidden

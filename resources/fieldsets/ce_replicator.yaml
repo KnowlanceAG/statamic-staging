@@ -30,6 +30,21 @@ fields:
           fields:
             -
               import: blog_listing
+        leistungen_uebersicht_-_4-spaltig:
+          display: 'Leistungen Übersicht - 4-Spaltig'
+          fields:
+            -
+              import: ce_services_overview_four_columns
+        button:
+          display: Button
+          fields:
+            -
+              import: ce_button
+        insert_html:
+          display: 'Insert HTML'
+          fields:
+            -
+              import: ce_html
       display: Replicator
       type: replicator
       icon: replicator

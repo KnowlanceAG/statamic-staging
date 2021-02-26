@@ -48,3 +48,5 @@ preferences:
         - title
         - position
         - link
+    pages:
+      after_save: continue_editing
