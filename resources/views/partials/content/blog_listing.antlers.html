@@ -4,12 +4,12 @@
         {{ col }}
             <div class="mb-20">
                 {{ post_image }}
-                    <a href="{{ url }}">
+                    <a href="{{ uri }}">
                         <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
                     </a>
                 {{ /post_image }}
                 <h3>
-                    <a href="{{ url }}" class="text-black hover:text-orange-500 hover:transition-color hover:duration-200">
+                    <a href="{{ uri }}" class="text-black hover:text-orange-500 hover:transition-color hover:duration-200">
                         {{ title }}
                     </a>
                 </h3>
