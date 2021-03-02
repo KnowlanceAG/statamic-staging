@@ -1,0 +1,22 @@
+title: 'Spalten mit Hintergrundbild'
+fields:
+  -
+    handle: bg_image
+    field:
+      mode: grid
+      container: assets
+      restrict: false
+      allow_uploads: true
+      display: Hintergrundfarbe
+      type: assets
+      icon: assets
+      listable: hidden
+  -
+    import: bard
+  -
+    handle: column_left_or_right
+    field:
+      display: 'Spalte links/rechts'
+      type: toggle
+      icon: toggle
+      listable: hidden

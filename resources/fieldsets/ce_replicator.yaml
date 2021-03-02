@@ -45,6 +45,11 @@ fields:
           fields:
             -
               import: ce_html
+        spalten_mit_hintergundbild:
+          display: 'Spalten mit Hintergundbild'
+          fields:
+            -
+              import: columns_with_image
       display: Replicator
       type: replicator
       icon: replicator

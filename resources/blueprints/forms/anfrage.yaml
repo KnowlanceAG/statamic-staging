@@ -1,0 +1,97 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: name
+        field:
+          input_type: text
+          antlers: false
+          display: Name
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: nachname
+        field:
+          input_type: text
+          antlers: false
+          display: Nachname
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: e-mail_adresse
+        field:
+          input_type: email
+          antlers: false
+          display: 'E-Mail Adresse'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: telefon
+        field:
+          input_type: text
+          antlers: false
+          display: Telefonnummer
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: fachrichtung
+        field:
+          placeholder: 'Bitte wählen'
+          options:
+            Wirtschaft: Wirtschaft
+            'Jura & Rechtswissenschaften': 'Jura & Rechtswissenschaften'
+            Informatik: Informatik
+            'Gesellschafts- & Sozialwissenschaften': 'Gesellschafts- &amp; Sozialwissenschaften'
+            'Medien & Kommunikation': 'Medien & Kommunikation'
+            'Medizin & Gesundheitswesen': 'Medizin & Gesundheitswesen'
+            'Naturwissenschaften & Mathematik': 'Naturwissenschaften & Mathematik'
+            'Sprach- & Kulturwissenschaften': 'Sprach- & Kulturwissenschaften'
+            'Technik & Ingenieurwesen': 'Technik &amp; Ingenieurwesen'
+            Geisteswissenschaften: Geisteswissenschaften
+            'Kunst / Gestaltung': 'Kunst / Gestaltung'
+            Musik: Musik
+            'Agrar- & Forstwissenschaften': 'Agrar- & Forstwissenschaften'
+            Sportwissenschaften: Sportwissenschaften
+            Interdisziplinär: Interdisziplinär
+            Sonstige: Sonstige
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: Fachrichtung
+          type: select
+          icon: select
+          listable: hidden
+      -
+        handle: arbeitsthema_spezifikationen_usw
+        field:
+          antlers: false
+          display: 'Arbeitsthema, Spezifikationen, usw.'
+          type: textarea
+          icon: textarea
+          listable: hidden
+      -
+        handle: seitenzahl
+        field:
+          input_type: text
+          antlers: false
+          display: Seitenzahl
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: lieferdatum
+        field:
+          input_type: text
+          antlers: false
+          display: Lieferdatum
+          type: text
+          icon: text
+          listable: hidden

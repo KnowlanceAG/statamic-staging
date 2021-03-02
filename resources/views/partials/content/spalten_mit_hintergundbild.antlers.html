@@ -1,0 +1,15 @@
+
+<div class="is-full">
+    <div class="bg-cover bg-no-repeat md:pt-24" {{ bg_image }} style="background-image: url({{ url }}); {{ /bg_image }}">
+        <div class="container mx-auto">
+            <div class="flex justify-end">
+                <div class="w-1/2 pr-24">
+                    {{ bard }}
+                        {{ partial src="partials/content/{type}" }}
+                    {{ /bard }}
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

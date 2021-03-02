@@ -3,7 +3,7 @@ title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
-updated_at: 1614000493
+updated_at: 1614350689
 teaser_bg:
   - seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
@@ -26,6 +26,8 @@ teaser:
       -
         type: text
         marks:
+          -
+            type: bold
           -
             type: textAlign
             attrs:
@@ -74,9 +76,6 @@ replicator:
                     attrs:
                       align: start
                 text: 'Der Ablauf bei GWriters ist mit dem Ziel, Ihnen einen schnellst- und bestmögliche Umsetzung Ihres Projekts zu ermöglichen, betont einfach gehalten. Sie als Kunde stellen einfach eine kostenlose Anfrage und erhalten dann innerhalb von wenigen Stunden ein unverbindliches Angebot, individuell abgestimmt auf Ihr Projekt. Sobald Sie diesem Angebot zustimmen, erledigen wir den Rest Sie müssen uns lediglich ein Briefing zu Ihrem Projekt zusenden, welches dem Autor als Grundlage für die zu erstellende Mustervorlage dient und mit dessen Hilfe Sie das Projekt von Anfang an in die von Ihnen gewünschte Richtung steuern können. Sie erhalten dann von uns im Laufe der Zeit mehrere Teillieferung, zu denen Sie sich dann gegebenenfalls zurückmelden oder natürlich auch Änderungswünsche äußern können. Diese werden selbstverständlich direkt umgesetzt und vor der Abschlusslieferung wird jede Arbeit von einem übergeordneten Supervisor aus demselben Fachgebiet noch einmal überprüft, um diese qualifiziert zu beurteilen. Im Anschluss wird dann noch eine professionelle Plagiatsprüfung durchgeführt, sodass Sie sich sicher sein können, ein qualitativ einwandfreies Unikat zu erhalten.'
-          -
-            type: paragraph
-            content:
               -
                 type: hard_break
                 marks:
@@ -84,6 +83,15 @@ replicator:
                     type: textAlign
                     attrs:
                       align: start
+          -
+            type: set
+            attrs:
+              values:
+                type: bilder
+                assets:
+                  - icon-ghostwriting.svg
+          -
+            type: paragraph
       -
         bard:
           -
@@ -124,36 +132,22 @@ replicator:
       -
         bard:
           -
-            type: set
-            attrs:
-              values:
-                type: bilder
-                assets:
-                  - seiten/so-funktioniert-es/icon-online-anfrage.svg
-          -
             type: heading
             attrs:
-              level: 3
+              level: 4
             content:
               -
                 type: text
                 marks:
                   -
+                    type: bold
+                  -
                     type: textAlign
                     attrs:
                       align: center
-                text: '1. Online-Anfrage'
+                text: 'Der Ablauf ist ganz einfach:'
           -
             type: paragraph
-            content:
-              -
-                type: text
-                marks:
-                  -
-                    type: textAlign
-                    attrs:
-                      align: center
-                text: 'Einfach & unkompliziert online anfragen – Je spezifischer Ihre Anfrage ist, umso besser sind wir in der Lage, Ihnen das bestmögliche individuelle Angebot zu unterbreiten.'
   -
     grid:
       -
@@ -189,8 +183,18 @@ replicator:
                     attrs:
                       align: center
                 text: "GWriters ist eine schnell wachsende deutschsprachige Plattform für die Vermittlung von hochwertigen akademischen Dienstleistungen. Wir bieten Ihnen Zugang zu derzeit bereits über 3000 wissenschaftlichen Autoren, Bearbeitern, Übersetzern & Beratern, die Sie bedarfsgerecht und schnell durch die professionelle Erstellung von Mustervorlagen für akademische Arbeiten unterstützen. Ganz egal ob Sie auf der Suche nach einemLektorat\_oder\_Korrektorat, Coaching, der Erstellung einer Mustervorlage, einer\_Übersetzung\_oder anderen Hilfestellungen sind, GWriters findet in nahezu allen Fällen den passenden akademischen Freelancer für Sie. Fragen Sie einfach ein unverbindliches Angebot an."
+          -
+            type: paragraph
     type: row
     enabled: true
 page_title: 'Wissenschaftliches Ghostwriting bei GWriters • So funktioniert es'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 id: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
 ---

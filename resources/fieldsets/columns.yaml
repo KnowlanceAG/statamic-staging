@@ -12,4 +12,4 @@ fields:
       display: Grid
       type: grid
       icon: grid
-      listable: hidden
+      listable: true
