@@ -68,3 +68,8 @@ fields:
           fields:
             -
               import: ce_toggle_services
+        video:
+          display: Video
+          fields:
+            -
+              import: video

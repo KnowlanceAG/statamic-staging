@@ -1,0 +1,14 @@
+<div class="bg-white px-2 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6" aria-label="Pagination">
+    <div class="hidden sm:block">
+        <p class="text-sm text-gray-700">
+            <span class="font-medium">{{ current_page }}</span> von <span class="font-medium">{{ total_pages }}</span> Seiten
+            (<span class="font-medium">{{ total_items }}</span> Beträge)
+        </p>
+    </div>
+    <div class="flex-1 flex justify-between sm:justify-end">
+        {{ collection:{{handle}} paginate="true" as="post" }}
+            {{ partial src="partials/custom_auto_links" }}
+        {{ /collection:{{handle}} }}
+    </div>
+
+</div>

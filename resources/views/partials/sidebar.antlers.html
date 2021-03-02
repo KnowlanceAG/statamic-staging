@@ -5,7 +5,7 @@
                 {{ header_text }}
             </h5>
         </div>
-        <div class="card-body px-8 py-12 text-center">
+        <div class="card-body px-8 pt-4 pb-12 text-center flex flex-col">
             {{ image }}
                 <img class="self-center px-8" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
             {{ /image }}
@@ -14,36 +14,39 @@
                     {{ name_position }}
                 </strong>
             </p>
-            <p class="flex justify-center">
+            <p class="flex justify-center mb-1">
                 <span class="flex flex-row gap-2">
-                    <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                         <path
                             d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                     </svg>
-                    <a href="tel:{{ phone }}" class="text-black">{{ phone }}</a>
+                    <a href="tel:{{ phone }}" class="text-black -mt-1">{{ phone }}</a>
                 </span>
             </p>
             <p class="flex justify-center">
                 <span class="flex flex-row gap-2">
-                    <svg class="w-7 h-7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                    <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                         <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                     </svg>
-                    <a href="mailto:{{ email }}" class="text-black">{{ email }}</a>
+                    <a href="mailto:{{ email }}" class="text-black -mt-1">{{ email }}</a>
                 </span>
             </p>
-            <a href="" class="px-10 py-3 mt-8 inline-block bg-orange-500 text-white font-300 uppercase hover:bg-orange-700 transition-colors duration-200">
-                Jetzt kostenlos anfragen
-                <!-- @todo -->
+            <a href="{{ link:url }}" class="arrow px-10 py-3 mt-8 inline-block bg-orange-500 text-white font-300 uppercase hover:bg-orange-700 transition-colors duration-200">
+                {{ button_text }}
             </a>
-            <p class="text-xs leading-3">
-                {{ description | markdown }}
+            <p class="mt-6 text-xs leading-4">
+                {{ description }}
             </p>
-            <div class="rating-wrapper">
-                <!-- @todo -->
-                <iframe frameborder="0" scrolling="no" title="Customer reviews powered by Trustpilot" loading="auto"
-                    src="https://widget.trustpilot.com/trustboxes/53aa8807dec7e10d38f59f32/index.html?templateId=53aa8807dec7e10d38f59f32&amp;businessunitId=50ff38960000640005212bff#locale=de-DE&amp;styleHeight=150px&amp;styleWidth=100%25&amp;theme=light"
-                    style="position: relative; height: 150px; width: 100%; border-style: none; display: block; overflow: hidden;"></iframe>
+            <div class="rating-wrapper my-4 grid grid-cols-2 gap-4">
+                <div>
+                    {{ iframe_html }}
+                </div>
+                <div>
+                    {{ logo_image }}
+                        <img class="self-center p-4" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
+                    {{ /logo_image }}
+                </div>
             </div>
             <ul class="max-w-auto mx-auto">
                 {{ feature_liste }}

@@ -52,28 +52,58 @@ sections:
           icon: text
           listable: hidden
       -
-        handle: button
+        handle: link
         field:
-          options:
-            btn-txt: 'Button Text'
-            btn-link: 'Button Ziel'
-            btn-target: 'Button Target "Blank"'
-          display: Button
-          type: button_group
-          icon: button_group
+          max_items: 1
+          mode: default
+          collections:
+            - blog
+            - pages
+          display: 'Button Link'
+          type: entries
+          icon: entries
+          listable: hidden
+      -
+        handle: button_text
+        field:
+          input_type: text
+          antlers: false
+          display: 'Button Text'
+          type: text
+          icon: text
           listable: hidden
       -
         handle: description
         field:
-          restrict: false
-          automatic_line_breaks: true
-          automatic_links: false
-          escape_markup: false
-          smartypants: false
           antlers: false
-          display: Description
-          type: markdown
-          icon: markdown
+          display: Beschreibung
+          type: textarea
+          icon: textarea
+          listable: hidden
+      -
+        handle: iframe_html
+        field:
+          theme: material
+          mode: htmlmixed
+          indent_type: tabs
+          indent_size: 4
+          key_map: default
+          line_numbers: true
+          line_wrapping: true
+          display: 'HTML Code Iframe'
+          type: code
+          icon: code
+          listable: hidden
+      -
+        handle: logo_image
+        field:
+          mode: grid
+          container: assets
+          restrict: false
+          allow_uploads: true
+          display: 'Logo Image'
+          type: assets
+          icon: assets
           listable: hidden
       -
         handle: feature_liste

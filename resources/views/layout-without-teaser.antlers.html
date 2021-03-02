@@ -23,14 +23,14 @@
 
         {{ aardvark-seo:head }}
     </head>
-    <body class="{{ id }} bg-white leading-normal text-black mt-24 body">
+    <body class="{{ id }} bg-white leading-normal text-black mt-24 body {{ template }}">
 
         {{ aardvark-seo:body }}
 
         {{ partial src="partials/header" }}
 
         <section class="px-4 py-16">
-            <div class="content container mx-auto px-2 max-w-screen-xl clear-both">
+            <div class="content container mx-auto max-w-screen-xl clear-both">
                 {{ template_content }}
             </div>
         </section>

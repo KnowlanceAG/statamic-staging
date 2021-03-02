@@ -18,7 +18,7 @@ h5 {
 h1 {
     @apply font-bold text-4xl leading-14 text-orange-500;
     strong {
-        @apply text-black;
+        @apply text-black text-2xl;
     }
 }
 h2 {
@@ -29,20 +29,25 @@ h2 {
     color: #444444;
 }
 h3 {
-    @apply mt-4 mb-2 text-lg text-black font-bold;
+    @apply mt-8 mb-6 text-lg text-black font-bold;
+}
+h4 {
+    @apply mt-6 mb-4 font-bold;
+    font-size: 20px;
 }
 strong {
     font-weight: 600;
 }
 p {
     @apply mb-4 text-sm text-black;
+    line-height: 28px;
     a {
         @apply text-orange-500;
     }
 }
-.teaser {
+[class^="leading-"] {
     p {
-        font-family: Montserrat;
+        line-height: inherit;
     }
 }
 blockquote {
@@ -51,6 +56,26 @@ blockquote {
     margin: 30px 0;
     font-size: 1.231em;
     color: #ababab;
+}
+ul,
+ol {
+    @apply mb-4;
+    li {
+    }
+}
+a.arrow {
+    position: relative;
+}
+a.arrow::after {
+    content: "";
+    width: 12px;
+    height: 28px;
+    position: absolute;
+    bottom: -36px;
+    left: -2px;
+    background-repeat: no-repeat;
+    background-size: 12px 28px;
+    background-image: url(../images/arrow-bottom-to-top4.png);
 }
 table {
     @apply my-6 border-t border-b border-black w-full;
@@ -91,6 +116,20 @@ table {
 
 .home .teaser {
     min-height: 69.5vh;
+}
+
+.blog .teaser {
+    min-height: auto;
+    @media screen and (min-width: 1024px) {
+        .container {
+            div {
+                max-width: 63% !important;
+            }
+        }
+    }
+    .justify-center {
+        justify-content: flex-start !important;
+    }
 }
 
 /* helper classes */
