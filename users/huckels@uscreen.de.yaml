@@ -39,7 +39,7 @@ short_text:
         type: text
         text: ' mit unseren Medienpartnern zuständig.'
 id: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
-password_hash: $2y$10$GKdieE66dOKsZWXprLXXO..yDbVzlyjCltHg5g3Aj7n.MQNs2Tw86
+password_hash: $2y$10$XnRnRWmIsrNiyBSLTSC8RObOrwvAVraGprj2HSsq.VBFMSeGe4fpy
 preferences:
   collections:
     team:
