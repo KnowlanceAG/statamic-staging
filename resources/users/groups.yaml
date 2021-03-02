@@ -1,4 +1,4 @@
-# admin:
-#   title: Administrators
-#   roles:
-#     - admin
+redakteure:
+  title: Redakteure
+  roles:
+    - redakteure
