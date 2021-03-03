@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "afc8559680b1fbb18405b61e378cea76",
+    "content-hash": "5e24a5eb363b38866b2cc69a6cc36a16",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -7098,6 +7098,54 @@
                 "source": "https://github.com/WithCandour/statamic-aardvark-seo/tree/2.0.9"
             },
             "time": "2021-02-23T10:36:48+00:00"
+        },
+        {
+            "name": "xndbogdan/statamic-bard-text-color",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xndbogdan/statamic-bard-text-color.git",
+                "reference": "5d3c30a7ec386eb66fdb9df47fcc11628d95c72c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xndbogdan/statamic-bard-text-color/zipball/5d3c30a7ec386eb66fdb9df47fcc11628d95c72c",
+                "reference": "5d3c30a7ec386eb66fdb9df47fcc11628d95c72c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 | ^8.0",
+                "statamic/cms": "^3.0.14"
+            },
+            "type": "statamic-addon",
+            "extra": {
+                "statamic": {
+                    "name": "Statamic Bard Text Color",
+                    "description": "Text Color plugin for statamic bard"
+                },
+                "laravel": {
+                    "providers": [
+                        "XndBogdan\\BardTextColor\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "XndBogdan\\BardTextColor\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Statamic Bard Text Color",
+            "keywords": [
+                "bard",
+                "statamic",
+                "text-color"
+            ],
+            "support": {
+                "issues": "https://github.com/xndbogdan/statamic-bard-text-color/issues",
+                "source": "https://github.com/xndbogdan/statamic-bard-text-color/tree/v1.0.2"
+            },
+            "time": "2021-02-15T10:25:17+00:00"
         }
     ],
     "packages-dev": [
