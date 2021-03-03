@@ -1,13 +1,11 @@
-{{ if grid | length === 1 }}
-    <div class="grid grid-cols-1 gap-4">
-{{ else }}
-    <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-{{ grid | length }}">
-{{ /if }}
+<div class="{{ if columns_per_row==1 }}mx-max-w-screen-md {{ else }}xl:max-w-screen-xl {{ /if }}mx-auto px-8 lg:px-0 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-{{ columns_per_row }}">
+
     {{ grid }}
-    <div class="column">
-        {{ bard }}
-            {{ partial src="partials/content/{type}" }}
-        {{ /bard }}
-    </div>
+        <div class="column">
+            {{ bard }}
+                {{ partial src="partials/content/{type}" }}
+            {{ /bard }}
+        </div>
     {{ /grid }}
+
 </div>

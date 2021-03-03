@@ -1,4 +1,4 @@
-title: Bard
+title: Editor
 fields:
   -
     handle: bard
@@ -33,7 +33,7 @@ fields:
       reading_time: false
       fullscreen: true
       allow_source: true
-      display: Bard
+      display: Editor
       type: bard
       icon: bard
       listable: hidden

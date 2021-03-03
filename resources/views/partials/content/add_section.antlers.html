@@ -1,0 +1,12 @@
+{{ if is-full }}
+    <div class="is-full" {{ if bg-color }}style="background-color: {{ bg-color }};" {{ /if }}>
+{{ /if }}
+
+    {{ columns-replicator }}
+        {{ partial src="partials/content/{type}" }}
+    {{ /columns-replicator }}
+
+{{ if is-full }}
+    </div>
+{{ /if }}
+

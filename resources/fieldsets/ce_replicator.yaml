@@ -5,51 +5,11 @@ fields:
     field:
       collapse: false
       sets:
-        row:
-          display: Row
+        add_section:
+          display: 'Add section'
           fields:
             -
-              import: columns
-        section:
-          display: Section
-          fields:
-            -
-              import: section
-        collection_full:
-          display: 'Collection Full'
-          fields:
-            -
-              import: team_list_full
-        collection_selected:
-          display: 'Collection Selected'
-          fields:
-            -
-              import: collection_selected
-        blog_listing:
-          display: 'Blog Listing'
-          fields:
-            -
-              import: blog_listing
-        leistungen_uebersicht_-_4-spaltig:
-          display: 'Leistungen Übersicht - 4-Spaltig'
-          fields:
-            -
-              import: ce_services_overview_four_columns
-        button:
-          display: Button
-          fields:
-            -
-              import: ce_button
-        insert_html:
-          display: 'Insert HTML'
-          fields:
-            -
-              import: ce_html
-        spalten_mit_hintergundbild:
-          display: 'Spalten mit Hintergundbild'
-          fields:
-            -
-              import: columns_with_image
+              import: new-columns
       display: Replicator
       type: replicator
       icon: replicator

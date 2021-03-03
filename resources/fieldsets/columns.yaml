@@ -1,15 +1,28 @@
 title: Spalten
 fields:
   -
+    handle: columns_per_row
+    field:
+      step: 1
+      min: 1
+      max: 12
+      default: 1
+      display: 'Spalten je Zeile'
+      type: range
+      icon: range
+      instructions: 'Bitte wählen ...'
+      listable: hidden
+  -
     handle: grid
     field:
       fields:
         -
           import: bard
-      mode: table
-      max_rows: 6
+      mode: stacked
       reorderable: true
-      display: Grid
+      display: Spalten
       type: grid
       icon: grid
       listable: true
+      min_rows: 1
+      add_row: 'Spalte hinzufügen'
