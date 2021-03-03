@@ -12,6 +12,8 @@ fields:
       icon: range
       instructions: 'Bitte wählen ...'
       listable: hidden
+      if:
+        grid.length: '> 1'
   -
     handle: grid
     field:
