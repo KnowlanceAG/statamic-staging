@@ -10,6 +10,16 @@ fields:
           fields:
             -
               import: new-columns
+        editor:
+          display: 'Add Editor'
+          fields:
+            -
+              import: bard
+        collection_listing:
+          display: 'Collection Listing'
+          fields:
+            -
+              import: blog_listing
       display: Replicator
       type: replicator
       icon: replicator
