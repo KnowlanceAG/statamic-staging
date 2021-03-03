@@ -2,3 +2,7 @@ name: uscreen
 super: true
 id: 790b1007-849c-4144-9e78-237388f0c603
 password_hash: $2y$10$muc127VWbxeHTPBiKkYMqeMTgcCtEfBZ3bx1ro6dPjU.20UH8g7K.
+preferences:
+  collections:
+    pages:
+      after_save: continue_editing
