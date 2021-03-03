@@ -1,8 +1,8 @@
-{{ assets }}
 <figure class="my-4">
-    <img class="self-center mb-2" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
-    {{ if alt }}
-        <figcaption class="text-center block text-gray-600">{{ alt }}</figcaption>
-    {{ /if }}
+    {{ responsive:assets alt="{alt}" class="self-center mb-2" }}
+    {{ assets }}
+        <figcaption>
+            {{ caption }}
+        </figcaption>
+    {{ /assets }}
 </figure>
-{{ /assets }}
