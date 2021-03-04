@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5e24a5eb363b38866b2cc69a6cc36a16",
+    "content-hash": "609649f6e8b9fd312befe9e42ebbbb4e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1537,16 +1537,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.29.0",
+            "version": "v8.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "d2eba352b3b3a3c515b18c5726b373fe5026733e"
+                "reference": "ab7e1c19ee0403e15fc59983b7ccb86d85db45e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/d2eba352b3b3a3c515b18c5726b373fe5026733e",
-                "reference": "d2eba352b3b3a3c515b18c5726b373fe5026733e",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/ab7e1c19ee0403e15fc59983b7ccb86d85db45e6",
+                "reference": "ab7e1c19ee0403e15fc59983b7ccb86d85db45e6",
                 "shasum": ""
             },
             "require": {
@@ -1701,7 +1701,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-02-23T14:27:41+00:00"
+            "time": "2021-03-03T14:59:13+00:00"
         },
         {
             "name": "laravel/helpers",
@@ -1761,16 +1761,16 @@
         },
         {
             "name": "laravel/tinker",
-            "version": "v2.6.0",
+            "version": "v2.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/tinker.git",
-                "reference": "daae1c43f1300fe88c05d83db6f3d8f76677ad88"
+                "reference": "04ad32c1a3328081097a181875733fa51f402083"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/tinker/zipball/daae1c43f1300fe88c05d83db6f3d8f76677ad88",
-                "reference": "daae1c43f1300fe88c05d83db6f3d8f76677ad88",
+                "url": "https://api.github.com/repos/laravel/tinker/zipball/04ad32c1a3328081097a181875733fa51f402083",
+                "reference": "04ad32c1a3328081097a181875733fa51f402083",
                 "shasum": ""
             },
             "require": {
@@ -1823,9 +1823,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/tinker/issues",
-                "source": "https://github.com/laravel/tinker/tree/v2.6.0"
+                "source": "https://github.com/laravel/tinker/tree/v2.6.1"
             },
-            "time": "2021-01-26T20:35:18+00:00"
+            "time": "2021-03-02T16:53:12+00:00"
         },
         {
             "name": "league/commonmark",
@@ -6611,44 +6611,6 @@
             "time": "2021-01-19T11:40:25+00:00"
         },
         {
-            "name": "uscreen/cpssg",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "addons/cpssg",
-                "reference": "150663b722966e2b2a5d7d908b396c18fc86cbd3"
-            },
-            "type": "library",
-            "extra": {
-                "statamic": {
-                    "name": "Controlpanel Static Site Generator",
-                    "description": "Generate static site in CP"
-                },
-                "laravel": {
-                    "providers": [
-                        "Uscreen\\Cpssg\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Uscreen\\Cpssg\\": "src"
-                }
-            },
-            "authors": [
-                {
-                    "name": "u|screen GmbH"
-                }
-            ],
-            "description": "Generate static site in CP",
-            "support": {
-                "email": "info@uscreen.de"
-            },
-            "transport-options": {
-                "relative": true
-            }
-        },
-        {
             "name": "uscreen/link-extended",
             "version": "dev-master",
             "dist": {
@@ -6671,38 +6633,6 @@
             "autoload": {
                 "psr-4": {
                     "Uscreen\\LinkExtended\\": "src"
-                }
-            },
-            "transport-options": {
-                "relative": true
-            }
-        },
-        {
-            "name": "uscreen/ssgbutton",
-            "version": "dev-master",
-            "dist": {
-                "type": "path",
-                "url": "addons/uscreen/ssgbutton",
-                "reference": "b6678ab173f0789fcce2b6480d4e5159a6d2cdd3"
-            },
-            "require": {
-                "statamic/ssg": "^0.2.0"
-            },
-            "type": "library",
-            "extra": {
-                "statamic": {
-                    "name": "Ssgbutton",
-                    "description": "Ssgbutton addon"
-                },
-                "laravel": {
-                    "providers": [
-                        "Uscreen\\Ssgbutton\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Uscreen\\Ssgbutton\\": "src"
                 }
             },
             "transport-options": {
@@ -9745,8 +9675,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "uscreen/link-extended": 20,
-        "uscreen/ssgbutton": 20
+        "uscreen/link-extended": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
