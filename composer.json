@@ -21,6 +21,7 @@
         "statamic/cms": "3.0.*",
         "statamic/ssg": "^0.2.0",
         "uscreen/link-extended": "dev-master",
+        "uscreen/cpssg": "dev-master",
         "withcandour/aardvark-seo": "^2.0",
         "xndbogdan/statamic-bard-text-color": "^1.0"
     },
@@ -73,6 +74,10 @@
         {
             "type": "path",
             "url": "addons/uscreen/link-extended"
+        },
+        {
+            "type": "path",
+            "url": "addons/cpssg"
         }
 
     ]

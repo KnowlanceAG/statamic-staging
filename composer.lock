@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "609649f6e8b9fd312befe9e42ebbbb4e",
+    "content-hash": "208d05de75573ecdfd6ec1f4ea95526d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6611,6 +6611,44 @@
             "time": "2021-01-19T11:40:25+00:00"
         },
         {
+            "name": "uscreen/cpssg",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "addons/cpssg",
+                "reference": "150663b722966e2b2a5d7d908b396c18fc86cbd3"
+            },
+            "type": "library",
+            "extra": {
+                "statamic": {
+                    "name": "Controlpanel Static Site Generator",
+                    "description": "Generate static site in CP"
+                },
+                "laravel": {
+                    "providers": [
+                        "Uscreen\\Cpssg\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Uscreen\\Cpssg\\": "src"
+                }
+            },
+            "authors": [
+                {
+                    "name": "u|screen GmbH"
+                }
+            ],
+            "description": "Generate static site in CP",
+            "support": {
+                "email": "info@uscreen.de"
+            },
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
             "name": "uscreen/link-extended",
             "version": "dev-master",
             "dist": {
@@ -9675,7 +9713,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "uscreen/link-extended": 20
+        "uscreen/link-extended": 20,
+        "uscreen/cpssg": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
