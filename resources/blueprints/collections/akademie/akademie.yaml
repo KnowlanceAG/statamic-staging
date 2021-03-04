@@ -1,4 +1,4 @@
-title: Pages
+title: Akademie
 sections:
   main:
     display: Main
@@ -37,15 +37,6 @@ sections:
             - anchor
             - image
             - table
-            - h1
-            - h4
-            - h5
-            - underline
-            - superscript
-            - subscript
-            - code
-            - codeblock
-            - horizontalrule
           save_html: false
           toolbar_mode: fixed
           link_noopener: false
@@ -65,12 +56,47 @@ sections:
           container: assets
           restrict: false
           allow_uploads: true
+          max_files: 1
           display: 'Teaser Hintergrund'
           type: assets
           icon: assets
           listable: hidden
       -
         import: ce_replicator
+      -
+        handle: downloads
+        field:
+          mode: grid
+          container: downloads
+          restrict: false
+          allow_uploads: true
+          display: Downloads
+          type: assets
+          icon: assets
+          listable: hidden
+          folder: akademie
+      -
+        handle: more_templates
+        field:
+          mode: default
+          collections:
+            - akademie
+          display: 'Weitere Vorlagen'
+          type: entries
+          icon: entries
+          instructions: 'Bitte weiter Vorlagen auswählen ...'
+          listable: hidden
+      -
+        handle: from_the_blog
+        field:
+          mode: default
+          collections:
+            - blog
+          display: 'Mehr aus unserem Blog'
+          type: entries
+          icon: entries
+          instructions: 'Bitte Blog Beiträge wählen ...'
+          listable: hidden
   sidebar:
     display: 'Seiten Einstellungen'
     fields:
@@ -94,18 +120,16 @@ sections:
       -
         handle: parent
         field:
+          mode: default
+          display: Partent
           type: entries
-          collections:
-            - pages
-          max_items: 1
-          listable: false
-          localizable: true
+          icon: entries
+          listable: hidden
       -
         handle: template
         field:
-          type: template
+          hide_partials: true
           display: Template
-          localizable: true
-  downloads:
-    display: Downloads
-    fields: {  }
+          type: template
+          icon: template
+          listable: hidden

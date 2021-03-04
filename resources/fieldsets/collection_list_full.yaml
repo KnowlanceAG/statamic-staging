@@ -1,7 +1,6 @@
-title: Collection
+title: "Collection Übersicht"
 fields:
-  -
-    handle: collections
+  - handle: collections
     field:
       mode: default
       display: Collections

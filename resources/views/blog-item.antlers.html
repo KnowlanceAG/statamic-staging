@@ -15,6 +15,7 @@
             </h1>
         {{ /if }}
 
+        {{ if hide_author_details !== true }}
         <div class="p-6 mb-6 border border-gray-200 flex flex-row gap-6">
             <div class="">
                 <span class="mt-2 inline-block h-28 w-28 rounded-full overflow-hidden bg-gray-100">
@@ -53,7 +54,7 @@
                 {{ /author }}
             </div>
         </div>
-
+        {{ /if }}
         {{ replicator }}
             {{ partial src="partials/content/{type}" }}
         {{ /replicator }}

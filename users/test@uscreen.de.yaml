@@ -8,3 +8,11 @@ preferences:
       after_save: continue_editing
     blog:
       after_save: continue_editing
+    team:
+      columns:
+        - title
+        - position
+        - photo
+  assets:
+    downloads:
+      mode: table

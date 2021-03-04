@@ -34,6 +34,14 @@ sections:
           type: assets
           icon: assets
           listable: hidden
+      -
+        handle: link
+        field:
+          display: Link
+          type: link
+          icon: link
+          instructions: 'Link zu Seite oder Blogbeitrag'
+          listable: hidden
   sidebar:
     display: Sidebar
     fields:
@@ -45,14 +53,6 @@ sections:
           localizable: true
           validate:
             - required
-      -
-        handle: link
-        field:
-          display: Link
-          type: link
-          icon: link
-          instructions: 'Link zu Seite oder Blogbeitrag'
-          listable: hidden
   team_detail:
     display: Detail
     fields:

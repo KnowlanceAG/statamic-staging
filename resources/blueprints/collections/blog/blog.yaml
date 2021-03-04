@@ -60,6 +60,14 @@ sections:
           type: users
           icon: users
           listable: hidden
+      -
+        handle: hide_author_details
+        field:
+          display: 'Autoren Details nicht anzeigen'
+          type: toggle
+          icon: toggle
+          instructions: 'Langtext und Bild werden nicht angezeigt. Autoren Name bleibt sichtbar.'
+          listable: hidden
   post_detail:
     display: 'Post Detail'
     fields:
