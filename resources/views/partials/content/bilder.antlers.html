@@ -1,8 +1,19 @@
 <figure class="my-4">
-    {{ responsive:assets alt="{alt}" class="self-center mb-2" }}
-    {{ assets }}
-        <figcaption>
-            {{ caption }}
-        </figcaption>
-    {{ /assets }}
+    {{ if link }}
+        <a href="{{ link }}">
+            {{ responsive:assets alt="{alt}" class="self-center mb-2" }}
+            {{ assets }}
+                <figcaption>
+                    {{ caption }}
+                </figcaption>
+            {{ /assets }}
+        </a>
+    {{ else }}
+        {{ responsive:assets alt="{alt}" class="self-center mb-2" }}
+        {{ assets }}
+            <figcaption>
+                {{ caption }}
+            </figcaption>
+        {{ /assets }}
+    {{ /if }}
 </figure>

@@ -49,7 +49,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1614784827
+updated_at: 1614865837
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -504,53 +504,58 @@ replicator:
   -
     columns-replicator:
       -
-        columns_per_row: '2'
+        columns_per_row: 1
         grid:
           -
             bard:
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '1'
-          -
-            bard:
+                type: set
+                attrs:
+                  values:
+                    type: link_liste
+                    grid:
+                      -
+                        headline: Arbeiten
+                        linkliste:
+                          - e969d0a5-421c-42aa-9b67-0a3859c25797
+                          - fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+                          - d118c7b2-141d-4bac-972d-c1502381a340
+                          - 3fab1586-951b-40e6-904d-e8b3ede6b6e4
+                          - b1510f04-f5f7-4d15-9be4-fc69c7add6e0
+                          - 8e94ca0e-e5de-46b9-908e-d086cd76f0c8
+                          - 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
+                          - 1298a2b5-6e23-404b-8806-26e687fda624
+                          - a016335c-333e-432d-838d-460350d21052
+                          - 1f3196aa-76e3-4c7c-9b5a-8381bb49bf4d
+                          - 5aa73dfd-f099-46d5-9660-d3fa62022264
+                          - 849140c8-c582-4340-a2bc-446126149c9f
+                          - 99cd8e42-b21c-4cea-a162-a9454db2375f
+                          - 7aff708e-5d48-409e-9242-fd82c155f5ee
+                          - 8bdfe06a-1a06-46e1-94d2-591c8f5faece
+                      -
+                        headline: Fachrichtungen
+                        linkliste:
+                          - b609ef85-dc84-4405-93d0-1b92d92ca1a4
+                          - e969d0a5-421c-42aa-9b67-0a3859c25797
+                          - fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+                          - 1e772779-291e-43ee-81ae-7726c207cd48
+                          - d118c7b2-141d-4bac-972d-c1502381a340
+                          - 3d67c472-fd10-4be3-8c4b-5021ca58ea0d
+                          - bcd13603-cc4f-4f49-8fd7-9e7ca975e616
+                          - 3fab1586-951b-40e6-904d-e8b3ede6b6e4
+                          - b1510f04-f5f7-4d15-9be4-fc69c7add6e0
+                          - 8e94ca0e-e5de-46b9-908e-d086cd76f0c8
+                          - 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
+                          - 1298a2b5-6e23-404b-8806-26e687fda624
+                          - a016335c-333e-432d-838d-460350d21052
+                          - 1f3196aa-76e3-4c7c-9b5a-8381bb49bf4d
+                          - 5aa73dfd-f099-46d5-9660-d3fa62022264
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '2'
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '3'
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '4'
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '5'
         type: row
         enabled: true
-    is-full: true
-    bg-toggle: true
-    bg-color: '#070E55'
+    is-full: false
+    bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true

@@ -1,0 +1,39 @@
+title: 'Blog Kategorien'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+          display: Kategorie
+          listable: hidden
+          input_type: text
+          antlers: false
+      -
+        handle: content
+        field:
+          type: markdown
+          localizable: true
+          display: Beschreibung
+          listable: hidden
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          validate:
+            - required

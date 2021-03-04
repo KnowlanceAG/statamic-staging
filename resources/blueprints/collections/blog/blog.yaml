@@ -38,6 +38,16 @@ sections:
     display: Sidebar
     fields:
       -
+        handle: category
+        field:
+          mode: default
+          taxonomies:
+            - blog_categories
+          display: Kategorie
+          type: terms
+          icon: taxonomy
+          listable: hidden
+      -
         handle: slug
         field:
           type: slug
