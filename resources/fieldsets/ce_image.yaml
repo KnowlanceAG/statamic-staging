@@ -11,3 +11,10 @@ fields:
       type: assets
       icon: assets
       listable: hidden
+  -
+    handle: link
+    field:
+      display: Link
+      type: link
+      icon: link
+      listable: hidden
