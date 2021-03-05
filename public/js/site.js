@@ -23,12 +23,23 @@ function menuOpener() {
   });
 }
 
+function lazzyVideo() {
+  var vidDefer = document.querySelectorAll(".lazy");
+
+  for (var i = 0; i < vidDefer.length; i++) {
+    if (vidDefer[i].getAttribute('data-src')) {
+      vidDefer[i].setAttribute('src', vidDefer[i].getAttribute('data-src'));
+    }
+  }
+}
+
 var ready = function ready(callback) {
   if (document.readyState != "loading") callback();else document.addEventListener("DOMContentLoaded", callback);
 };
 
 ready(function () {
   menuOpener();
+  lazzyVideo();
 });
 
 /***/ }),
