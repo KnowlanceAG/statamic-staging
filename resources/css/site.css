@@ -168,6 +168,10 @@ table {
     -ms-justify-content: space-between;
     justify-content: space-between;
 }
+.has-bg-image {
+    @apply bg-no-repeat;
+    background-position: top center !important;
+}
 
 .hover-content {
     &:hover {

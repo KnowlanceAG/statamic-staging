@@ -1,5 +1,7 @@
-{{ if is-full }}
-    <div class="is-full" {{ if bg-color }}style="background-color: {{ bg-color }};" {{ /if }}>
+{{ if bg-image==null }}
+    <div class="{{ if is-full }}is-full{{ /if }}" {{ if bg-color }}style="background-color: {{ bg-color }};" {{ /if }}>
+{{ else }}
+    <div class="{{ if is-full }}is-full{{ /if }} bg-cover has-bg-image" style="background-image: url({{ bg-image:url }})">
 {{ /if }}
 
     {{ columns-replicator }}

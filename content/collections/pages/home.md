@@ -49,7 +49,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1614949358
+updated_at: 1614952428
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -557,6 +557,279 @@ replicator:
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        columns_per_row: '2'
+        grid:
+          -
+            bard: null
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'GWriters auf einen Blick'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zum erfolgreichen Schreiben einer wissenschaftlichen Arbeit im Studium spielen die Fähigkeiten, Ressourcen und freie Kapazitäten eines Studenten eine maßgebende Rolle. Neben dem reinen fachlichem Know-How und einem hervorragenden Schreibtalent gehören dazu vor allem ein klar definierter Zeitplan, genügend Ressourcen für hochwertige akademische '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/fachrichtungen/literatur'
+                          target: null
+                          rel: null
+                    text: Literatur
+                  -
+                    type: text
+                    text: ' und auch Feingefühl um aus einer großen Informationssammlung relevante Quellen bei der Literaturrecherche selektieren zu können. Wenn diese Fähigkeiten im Studium noch nicht ausgiebig perfektioniert wurden oder einzelne Kapazitäten lediglich in vermindertem Maße vorhanden sind, können akademische '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://ghostwriter.de/'
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: ', Autoren und weitere spezialisierte Freelancer Hilfestellungen leisten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Gerne unterstützen wir Sie auf dem Weg zur Fertigstellung Ihrer wissenschaftlichen Arbeit bei der Ideensuche, dem Schreibprozess und der Nachkorrektur Ihres Projektes. Wir ermöglichen Ihnen den einfachen, schnellen und sicheren Zugang zu derzeit über 3000 akademischen Freelancern. Dazu gehören bei GWriters sowohl '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/ghostwriter'
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: ' und Autoren, als auch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/korrektorat/korrektor'
+                          target: null
+                          rel: null
+                    text: Korrektoren
+                  -
+                    type: text
+                    text: ', Übersetzer und Coaches. Diese unterstützen Sie bei der Erstellung, Korrektur und Bearbeitung von akademischen Texten jeder Art, z.B. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/arbeiten/doktorarbeit'
+                          target: null
+                          rel: null
+                    text: Doktorarbeiten
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/arbeiten/magisterarbeit'
+                          target: null
+                          rel: null
+                    text: Magisterarbeiten
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/arbeiten/masterarbeit'
+                          target: null
+                          rel: null
+                    text: Masterarbeiten
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: Bachelorarbeiten
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/arbeiten/diplomarbeit'
+                          target: null
+                          rel: null
+                    text: Diplomarbeiten
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/arbeiten/facharbeit'
+                          target: null
+                          rel: null
+                    text: Facharbeiten
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/arbeiten/hausarbeit'
+                          target: null
+                          rel: null
+                    text: Hausarbeiten
+                  -
+                    type: text
+                    text: '. GWriters legt Wert auf höchste Qualität bei jedem Auftrag und prüft sowohl alle Dienstleister, als auch jeden einzelnen Text durch ein mehrstufiges Qualitätssicherungssystem, selbstverständlich inklusive umfassender '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/leistungen/plagiatspruefung'
+                          target: null
+                          rel: null
+                    text: Plagiatsprüfung
+                  -
+                    type: text
+                    text: '. Jeder Auftrag wird von einem erfahrenen Supervisor überwacht und von einem persönlichen, jederzeit ansprechbaren Projektkoordinator betreut. Insbesondere ist unser Team GWriters spezialisiert auf folgende Leistungen: '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/leistungen/ghostwriting'
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/leistungen/lektorat'
+                          target: null
+                          rel: null
+                    text: Lektorat
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/leistungen/korrektorat'
+                          target: null
+                          rel: null
+                    text: Korrektorat
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/leistungen/formatierung'
+                          target: null
+                          rel: null
+                    text: Formatierung
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/leistungen/uebersetzung'
+                          target: null
+                          rel: null
+                    text: Übersetzung
+                  -
+                    type: text
+                    text: ' von akademischen Texten. Unsere Ghostwriter sind akademische Experten mit ausgezeichneten Fachkenntnissen, damit wird eine qualitativ hochwertige Dienstleistung gewährleistet.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Rechtliche Hintergründe und Legalität'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei der Inanspruchnahme von Ghostwritern im akademischen Umfeld, also beispielsweise bei der Unterstützung von Bachelor- und Masterarbeiten, sowie Dissertationen und Habilitationen muss zwingend der rechtliche Rahmen eingehalten werden. Dies bedeutet, dass weiterhin eine eigenständige Erstellungen der Arbeiten der Studenten, Doktoranden oder Habilitanden stattfinden muss. Weil jeder Student diese Zusicherung gegenüber seiner Universität bindend eingeht, verstehen unsere Texte sich dem Grunde nach nur als Vorlagen und hilfreiche Leitfäden. GWriters hält sich strikt an europäische Gesetzgebungen. Dadurch steht Ihre Zusammenarbeit mit uns von Anfang an auf einem sicheren Fundament, die Legalität ist gewährleistet und Plagiatsvorwürfe können ausgeschlossen werden.'
+        type: row
+        enabled: true
+    is-full: true
+    bg-toggle: true
+    bg-image: seiten/full-scaled.jpg
+    bg-image-fixed: true
     type: add_section
     enabled: true
 id: home
