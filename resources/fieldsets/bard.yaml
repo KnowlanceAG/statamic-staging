@@ -1,7 +1,6 @@
 title: Editor
 fields:
-  -
-    handle: bard
+  - handle: bard
     field:
       always_show_set_button: false
       buttons:
@@ -41,61 +40,46 @@ fields:
         bilder:
           display: Bilder
           fields:
-            -
-              import: ce_image
+            - import: ce_image
         button:
           display: Button
           fields:
-            -
-              import: ce_button
+            - import: ce_button
         headline:
           display: Headline
           fields:
-            -
-              import: ce_headlines
+            - import: ce_headlines
         leistungen_uebersicht_4-spaltig:
-          display: 'Leistungen Übersicht 4-Spaltig'
+          display: "Leistungen Übersicht 4-Spaltig"
           fields:
-            -
-              import: ce_services_overview_four_columns
+            - import: ce_services_overview_four_columns
         insert_html:
-          display: 'Insert HTML'
+          display: "Insert HTML"
           fields:
-            -
-              import: ce_html
+            - import: ce_html
         link_liste:
-          display: 'Link Liste'
+          display: "Link Liste"
           fields:
-            -
-              import: ce_toggle_services
+            - import: ce_toggle_services
         video:
           display: Video
           fields:
-            -
-              import: video
+            - import: video
         full_collection:
-          display: 'Collection Liste Komplett'
+          display: "Collection Liste Komplett"
           fields:
-            -
-              import: collection_list_full
+            - import: collection_list_full
         form:
           display: Form
           fields:
-            -
-              handle: form
+            - handle: form
               field:
                 max_items: 1
                 display: Form
                 type: form
                 icon: form
                 listable: hidden
-        table:
-          display: Tabelle
-          fields:
-            -
-              import: ce_table
         simple-link-list:
-          display: 'Einfache Linkliste'
+          display: "Einfache Linkliste"
           fields:
-            -
-              import: simple_link-list
+            - import: simple_link-list
