@@ -1,8 +1,8 @@
 ---
 title: Anfrage
-template: withsidebar
+template: default
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1614857838
+updated_at: 1614948655
 replicator:
   -
     bard:
@@ -10,7 +10,7 @@ replicator:
         type: set
         attrs:
           values:
-            type: new_set
+            type: form
             form: anfrage
       -
         type: paragraph
@@ -24,5 +24,75 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+teaser:
+  -
+    type: heading
+    attrs:
+      level: 1
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: start
+          -
+            type: textColor
+            attrs:
+              color: 'rgb(68, 68, 68)'
+        text: Anfrage
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: start
+          -
+            type: textColor
+            attrs:
+              color: 'rgb(68, 68, 68)'
+        text: 'Ihre Anfrage ist unverbindlich und Ihre persönlichen Daten werden streng vertraulich behandelt.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: start
+          -
+            type: textColor
+            attrs:
+              color: 'rgb(68, 68, 68)'
+        text: "Wir schützen Ihre Privatsphäre:\_"
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: start
+          -
+            type: textColor
+            attrs:
+              color: 'rgb(255, 102, 2)'
+          -
+            type: link
+            attrs:
+              href: 'https://gwriters.de/datenschutzerklaerung'
+              target: null
+              rel: null
+        text: Datenschutzerklärung
+  -
+    type: paragraph
 id: fc359a9c-afc1-43b6-a4bb-302ff072cdcf
 ---
