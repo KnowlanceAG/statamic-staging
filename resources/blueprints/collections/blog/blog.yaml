@@ -1,7 +1,7 @@
 title: Blog
 sections:
   listing:
-    display: 'Post Übersicht'
+    display: Beitragsübersicht
     fields:
       -
         handle: post_image
@@ -34,6 +34,8 @@ sections:
           type: markdown
           icon: markdown
           listable: hidden
+          validate:
+            - required
   sidebar:
     display: Sidebar
     fields:
@@ -44,6 +46,16 @@ sections:
           required: true
           validate:
             - required
+          display: Veröffentlichungsdatum
+          listable: hidden
+          mode: single
+          time_enabled: false
+          time_required: false
+          earliest_date: '1900-01-01'
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
       -
         handle: slug
         field:
@@ -60,6 +72,8 @@ sections:
           type: users
           icon: users
           listable: hidden
+          validate:
+            - required
       -
         handle: hide_author_details
         field:
@@ -79,7 +93,7 @@ sections:
           icon: taxonomy
           listable: hidden
   post_detail:
-    display: 'Post Detail'
+    display: 'Betragsdetail Seite'
     fields:
       -
         handle: teaser_image
@@ -92,6 +106,7 @@ sections:
           type: assets
           icon: assets
           listable: hidden
+          instructions: 'Optional. Wenn nicht gewählt, wird Beitragsbild verwendet.'
       -
         handle: detail_title
         field:
@@ -101,5 +116,6 @@ sections:
           type: text
           icon: text
           listable: hidden
+          instructions: 'Optional. Wenn nicht gesetzt, wird der Titel verwendet.'
       -
         import: ce_replicator
