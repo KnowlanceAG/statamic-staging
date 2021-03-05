@@ -1,14 +1,14 @@
 <!-- desktop main nav -->
-    <nav class="menu-desktop hidden lg:block lg:static lg:h-auto lg:self-center lg:justify-end">
+    <nav class="menu-desktop hidden lg:flex lg:static lg:h-auto lg:self-center lg:items-center lg:justify-end">
         {{ nav handle="mainnav_desktop" }}
             {{ if last }}
             <a href="{{ url }}"
-                class="ml-6 bg-gray-700 px-5 py-3 rounded-sm uppercase text-sm font-300 text-white hover:bg-black hover:transition-colors hover:duration-200">
+                class="ml-6 bg-gray-700 px-3 py-2 md:px-5 md:py-3 rounded-sm uppercase text-sm font-300 text-white hover:bg-black hover:transition-colors hover:duration-200">
                 {{ title }}
             </a>
             {{ else }}
             <a href="{{ url }}" {{ if is_current || is_parent }} class="my-0 ml-6 current text-sm font-normal text-orange-500" {{ else }}
-                class="my-0 ml-6 text-sm font-normal text-gray-600 hover:text-orange-500" {{ /if }}>
+                class="my-0 ml-4 xl:ml-6 text-sm font-normal text-gray-600 hover:text-orange-500" {{ /if }}>
                 {{ title }}
             </a>
             {{ /if }}
