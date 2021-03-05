@@ -1,3 +1,9 @@
-{{ replicator }}
-    {{ partial src="partials/content/{type}" }}
-{{ /replicator }}
+{{ partial src="partials/teaser" }}
+
+<section class="px-4 py-16 max-w-screen">
+    <div class="content container mx-auto max-w-screen-xl clear-both">
+        {{ replicator }}
+            {{ partial src="partials/content/{type}" }}
+        {{ /replicator }}
+    </div>
+</section>

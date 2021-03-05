@@ -47,7 +47,7 @@ replicator:
             content:
               -
                 type: text
-                text: 'Ein akademischer Ghostwriter besitzt nicht nur umfassende wissenschaftliche Kenntnisse in seinem Fachbereich, sondern auch Erfahrungen im Umgang mit wissenschaftlichen Arbeiten. Aus diesem Grund kann er ohne langwidrige Einarbeitungsphasen zu jedem Zeitpunkt der Bearbeitung unterstützend eingreifen. Oft geschieht dies direkt zu Beginn, bei der eigentlichen Themenfindung, dem Aufbau einer Diplomarbeit, deren '
+                text: 'Ein akademischer Ghostwriter besitzt nicht nur umfassende wissenschaftliche Kenntnisse in seinem Fachbereich, sondern auch Erfahrungen im Umgang mit wissenschaftlichen Arbeiten. Aus diesem Grund kann er ohne langwidrige Einarbeitungsphasen zu jedem Zeitpunkt der Bearbeitung unterstützend eingreifen. Oft geschieht dies direkt zu Beginn, bei der eigentlichen Themenfindung, dem Aufbau einer Diplomarbeit, deren'
               -
                 type: text
                 marks:
@@ -60,7 +60,7 @@ replicator:
                 text: Gliederung
               -
                 type: text
-                text: ' und Formatierung. Dies umfasst das typische Coaching einer Diplomarbeit, sowie deren Betreuung.'
+                text: 'und Formatierung. Dies umfasst das typische Coaching einer Diplomarbeit, sowie deren Betreuung.'
           -
             type: paragraph
             content:
@@ -97,8 +97,16 @@ replicator:
                 text: 'Allgemeine Kenntnisse, die für die Erstellung einer Diplomarbeit notwendig sind, werden von Fachhochschulen und Universitäten nicht ausreichend vermittelt. Die Beantwortung der Frage “Wie schreibe ich eine Diplomarbeit?” stellt sich als problematischer Prozess dar, zumal der Student einzuhaltende Formalismen der Diplomarbeit und Beispiele auf den meist schlecht gebauten Internetpräsenzen der Hochschule langwierig suchen muss. Es ist also oftmals mehr Hilfe notwendig als eine reine Textkorrektur.'
     type: row
     enabled: true
-updated_by: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
-updated_at: 1614076342
-template: withsidebar
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1614949679
+template: with-side-bar
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 id: 99cd8e42-b21c-4cea-a162-a9454db2375f
 ---

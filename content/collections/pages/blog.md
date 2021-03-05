@@ -19,9 +19,9 @@ teaser:
         type: text
         text: 'Hier bloggen die GWriters, Mitarbeiter und Gründer einer der größten Agenturen für akademische Ghostwriter, Lektoren und Coaches. Du findest in diesem Blog Informationen zur akademischen Ghostwriter-Branche, der deutschen Hochschullandschaft und zahlreiche Tipps zum Schreiben wissenschaftlicher Arbeiten.'
 page_title: 'GWriters.de • Ghostwriter Blog'
-template: blog
+template: with-side-bar
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1614775593
+updated_at: 1614949635
 replicator:
   -
     collections:

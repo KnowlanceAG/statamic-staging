@@ -1,6 +1,6 @@
 title: Blog
 template: blog-item
-layout: layout-without-teaser
+layout: layout
 revisions: false
 route: '/blog/{slug}'
 date: true
