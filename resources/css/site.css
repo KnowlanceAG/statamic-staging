@@ -83,30 +83,40 @@ a.arrow::after {
     background-size: 12px 28px;
     background-image: url(../images/arrow-bottom-to-top4.png);
 }
+
+table {
+    @apply my-8 w-full table-auto;
+    tr {
+        @apply hover:bg-gray-200;
+        &:first-child {
+            th,
+            td {
+                @apply border-0;
+            }
+        }
+        th,
+        td {
+            @apply text-left px-3 py-2 border-t border-gray-400;
+        }
+        th {
+            @apply bg-gray-300;
+        }
+        td {
+            @apply align-top;
+        }
+        p {
+            @apply mb-0;
+        }
+        ul {
+            @apply pl-4 mb-0 !important;
+        }
+    }
+}
+
 .menu-desktop,
 .menu-mobile {
     font-family: Montserrat;
     font-size: 15px;
-}
-
-table {
-    @apply my-6 border-t border-b border-black w-full;
-    tbody {
-        tr {
-            th,
-            td {
-                @apply p-2 border border-gray-300;
-                p {
-                    margin-bottom: 0;
-                }
-            }
-            th {
-                @apply bg-orange-500 text-white;
-            }
-            td {
-            }
-        }
-    }
 }
 
 .content {

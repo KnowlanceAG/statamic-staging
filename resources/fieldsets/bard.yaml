@@ -78,8 +78,8 @@ fields:
           fields:
             -
               import: collection_list_full
-        new_set:
-          display: 'New Set'
+        form:
+          display: Form
           fields:
             -
               handle: form
@@ -89,3 +89,13 @@ fields:
                 type: form
                 icon: form
                 listable: hidden
+        table:
+          display: Tabelle
+          fields:
+            -
+              import: ce_table
+        simple-link-list:
+          display: 'Einfache Linkliste'
+          fields:
+            -
+              import: simple_link-list
