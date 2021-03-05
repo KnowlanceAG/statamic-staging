@@ -1,0 +1,55 @@
+{{ form:anfrage }}
+<div class="max-w-screen-lg mx-auto pt-6 pb-12 px-2 sm:px-6 lg:pt-8 lg:pb-16 lg:px-8 forms">
+    {{ if success }}
+    <div class="bg-green-300 text-white p-2">
+        {{ form_success }}
+        {{ form_success_text }}
+        {{ /form_success }}
+    </div>
+    {{ else }}
+
+    {{ fields }}
+    <div class="w-full mb-6 md:mb-0">
+
+        {{ if type=="checkboxes" }}
+        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-8 mt-8">
+            <input type="checkbox" name="{{ handle }}" class="mr-1" />
+            {{ display }}
+            {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
+        </label>
+
+        {{ elseif type=="textarea" }}
+        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mt-4 mb-1">
+            {{ display }}
+            {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
+        </label>
+
+        {{ field }}
+
+        {{ else }}
+        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mt-4 mb-1">
+            {{ display }}
+            {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
+        </label>
+
+        {{ field }}
+
+        {{ /if }}
+
+        {{ if error }}
+        <p class="text-red-500 text-xs italic">
+            {{ form_error }}
+            {{ form_error_text }}
+            {{ /form_error }}
+        </p>
+        {{ /if }}
+    </div>
+    {{ /fields }}
+
+    <button
+        class="bg-blue-500 hover:bg-blue-700 text-white float-right font-bold py-2 px-2 rounded focus:outline-none focus:shadow-outline"
+        type="submit">Abschicken</button>
+    <p class="text-xs italic">* Pflichtfelder</p>
+    {{ /if }}
+</div>
+{{ /form:anfrage }}
