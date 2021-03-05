@@ -38,28 +38,18 @@ sections:
     display: Sidebar
     fields:
       -
-        handle: category
+        handle: date
         field:
-          mode: default
-          taxonomies:
-            - blog_categories
-          display: Kategorie
-          type: terms
-          icon: taxonomy
-          listable: hidden
+          type: date
+          required: true
+          validate:
+            - required
       -
         handle: slug
         field:
           type: slug
           required: true
           localizable: true
-          validate:
-            - required
-      -
-        handle: date
-        field:
-          type: date
-          required: true
           validate:
             - required
       -
@@ -77,6 +67,16 @@ sections:
           type: toggle
           icon: toggle
           instructions: 'Langtext und Bild werden nicht angezeigt. Autoren Name bleibt sichtbar.'
+          listable: hidden
+      -
+        handle: category
+        field:
+          mode: default
+          taxonomies:
+            - blog_categories
+          display: Kategorie
+          type: terms
+          icon: taxonomy
           listable: hidden
   post_detail:
     display: 'Post Detail'

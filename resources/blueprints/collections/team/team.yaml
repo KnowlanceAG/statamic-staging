@@ -18,7 +18,7 @@ sections:
         handle: position
         field:
           input_type: text
-          antlers: false
+          antlers: true
           display: Position
           type: text
           icon: text
