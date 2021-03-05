@@ -14,15 +14,20 @@ h3,
 h4,
 h5 {
     font-family: Montserrat;
-    color: #444;
+    @apply text-gray-550;
 }
-h1 {
-    @apply font-bold text-4xl leading-14 text-orange-500;
-    strong {
-        @apply text-2xl;
-        color: #444;
+.teaser {
+    h1 {
+        @apply text-orange-500;
+        strong {
+            @apply text-gray-550;
+        }
     }
 }
+h1 {
+    @apply font-bold text-4xl text-gray-550;
+}
+
 h2 {
     font-size: 22px;
     line-height: 36px;
@@ -40,7 +45,7 @@ strong {
     font-weight: 600;
 }
 p {
-    @apply mb-4 text-sm text-black;
+    @apply mb-4 text-sm text-gray-550;
     line-height: 28px;
     a {
         @apply text-orange-500;

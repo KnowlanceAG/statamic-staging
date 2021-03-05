@@ -1,6 +1,6 @@
 sections:
   main:
-    display: Main
+    display: 'Autor Daten für Login'
     fields:
       -
         handle: name
@@ -24,34 +24,32 @@ sections:
           type: user_groups
           width: 50
       -
+        handle: team_profil
+        field:
+          mode: default
+          collections:
+            - team
+          display: 'Team Profil'
+          type: entries
+          icon: entries
+          listable: hidden
+  additional_blog_stuff:
+    display: 'Autor Details in Blog Beiträgen'
+    fields:
+      -
         handle: avatar
         field:
           type: assets
           max_files: 1
           container: assets
-  additional_blog_stuff:
-    display: 'Additional Blog Stuff'
-    fields:
       -
         handle: position
         field:
-          always_show_set_button: false
-          buttons:
-            - bold
-            - italic
-            - removeformat
-            - anchor
-          save_html: false
-          toolbar_mode: fixed
-          link_noopener: false
-          link_noreferrer: false
-          target_blank: false
-          reading_time: false
-          fullscreen: true
-          allow_source: true
+          input_type: text
+          antlers: false
           display: Position
-          type: bard
-          icon: bard
+          type: text
+          icon: text
           listable: hidden
       -
         handle: short_text

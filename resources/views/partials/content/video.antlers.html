@@ -1,4 +1,10 @@
-<div class="flex justify-center">
-    <!-- <iframe width="750" height="422" src=“https://www.youtube-nocookie.com/embed/meinezahlen“ frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-    <iframe width="750" height="422" src="{{ video }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="flex justify-center my-8 max-w-full">
+    {{ if video | is_embeddable }}
+        <!-- Youtube and Vimeo -->
+        <iframe class="lazy" width="750" height="422" data-src="{{ video | embed_url }}" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
+    {{ else }}
+        <!-- Other HTML5 video types -->
+        <video class="lazy" data-src="{{ video | embed_url }}" ...></video>
+    {{ /if }}
 </div>
