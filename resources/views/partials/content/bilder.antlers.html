@@ -1,19 +1,27 @@
-<figure class="my-4">
+<figure class="my-8 flex {{ if img-alignment }} {{ img-alignment }} {{ else }} justify-center {{ /if }}">
     {{ if link }}
-        <a href="{{ link }}">
-            {{ responsive:assets alt="{alt}" class="self-center mb-2" }}
-            {{ assets }}
-                <figcaption>
-                    {{ caption }}
-                </figcaption>
-            {{ /assets }}
-        </a>
+        <div>
+            <a href="{{ link }}">
+                {{ responsive:assets alt="{alt}" class=" mb-2" }}
+                {{ assets }}
+                    {{ if caption }}
+                        <figcaption class="text-center">
+                            <i class="text-sm text-gray-550">{{ caption }}</i>
+                        </figcaption>
+                    {{ /if }}
+                {{ /assets }}
+            </a>
+        </div>
     {{ else }}
-        {{ responsive:assets alt="{alt}" class="self-center mb-2" }}
-        {{ assets }}
-            <figcaption>
-                {{ caption }}
-            </figcaption>
-        {{ /assets }}
+        <div>
+            {{ responsive:assets alt="{alt}" class="mb-2" }}
+            {{ assets }}
+                {{ if caption }}
+                    <figcaption class="text-center">
+                        <i class="text-sm text-gray-550">{{ caption }}</i>
+                    </figcaption>
+                {{ /if }}
+            {{ /assets }}
+        </div>
     {{ /if }}
 </figure>

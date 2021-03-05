@@ -18,3 +18,23 @@ fields:
       type: link
       icon: link
       listable: hidden
+  -
+    handle: img-alignment
+    field:
+      options:
+        justify-start: links
+        justify-end: rechts
+        justify-center: mittig
+      value: center
+      multiple: false
+      clearable: false
+      searchable: false
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: 'Bild Ausrichtung'
+      type: select
+      icon: select
+      listable: hidden
+      max_items: 1
+      instructions: 'Standart Ausrichtung ist mittig. Für andere Ausrichtung bitte wählen.'
