@@ -1,1 +1,7 @@
-<p>404 Page not found.</p>
+{{ get_content from="/404" }}
+    {{ content }}
+
+    {{ replicator }}
+        {{ partial src="partials/content/{type}" }}
+    {{ /replicator }}
+{{ /get_content}}
