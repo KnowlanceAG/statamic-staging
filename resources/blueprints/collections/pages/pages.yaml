@@ -91,6 +91,7 @@ sections:
           type: text
           icon: text
           listable: hidden
+          instructions: 'Wird im Browsertab und in den Favoriten angezeigt.'
       -
         handle: parent
         field:

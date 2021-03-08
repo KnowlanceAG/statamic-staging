@@ -1,17 +1,10 @@
 title: 'Einfache Link Liste'
 fields:
   -
-    handle: link
+    handle: links
     field:
-      display: Link
-      type: link
-      icon: link
-      listable: hidden
-  -
-    handle: array
-    field:
-      mode: dynamic
-      display: Array
-      type: array
-      icon: array
+      mode: default
+      display: Links
+      type: entries
+      icon: entries
       listable: hidden
