@@ -1,7 +1,7 @@
 title: Akademie
 sections:
   main:
-    display: Main
+    display: 'Detail Seite'
     fields:
       -
         handle: title
@@ -26,17 +26,19 @@ sections:
                 -
                   import: ce_image
           buttons:
+            - h1
             - h2
             - h3
+            - h4
             - bold
             - italic
+            - underline
             - unorderedlist
             - orderedlist
             - removeformat
             - quote
             - anchor
             - image
-            - table
           save_html: false
           toolbar_mode: fixed
           link_noopener: false
@@ -132,4 +134,54 @@ sections:
           display: Template
           type: template
           icon: template
+          listable: hidden
+  kurz_text:
+    display: 'Kurz Text'
+    fields:
+      -
+        handle: academy_short_text-headline
+        field:
+          input_type: text
+          antlers: false
+          display: Überschrift
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: academy_short_text
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Kurz Text'
+          type: markdown
+          icon: markdown
+          listable: hidden
+  teaser_text:
+    display: 'Teaser Text'
+    fields:
+      -
+        handle: academy_teaser_headline
+        field:
+          input_type: text
+          antlers: false
+          display: 'Teaser Überschrift'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: academy_teaser_text
+        field:
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+          display: 'Teaser Text'
+          type: markdown
+          icon: markdown
           listable: hidden

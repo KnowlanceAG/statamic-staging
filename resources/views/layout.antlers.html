@@ -24,8 +24,7 @@
 
         {{ aardvark-seo:head }}
     </head>
-    <body class="{{ segment_1 }} bg-white leading-normal text-black pt-24 body {{ template }}">
-
+    <body class="{{ if id=="home" }}{{ id }}{{ /if }}{{ segment_1 }} bg-white leading-normal text-black pt-24 body {{ template }}">
         {{ aardvark-seo:body }}
 
         {{ partial src="partials/header" }}

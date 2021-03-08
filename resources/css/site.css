@@ -145,7 +145,13 @@ table {
 .home .teaser {
     min-height: 69.5vh;
 }
-
+.single-col {
+    .column {
+        p {
+            @apply max-w-4xl mx-auto;
+        }
+    }
+}
 .blog .teaser {
     min-height: auto;
     @media screen and (min-width: 1024px) {

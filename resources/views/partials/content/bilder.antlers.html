@@ -1,28 +1,28 @@
 <figure class="my-8 flex {{ if img-alignment }} {{ img-alignment }} {{ else }} justify-center {{ /if }}">
     {{ if link }}
-        <div>
-            <a href="{{ link }}">
-                {{ responsive:assets alt="{alt}" class=" mb-2" }}
-                {{ assets }}
-
-                    {{ if caption }}
-                        <figcaption class="text-center">
-                            <i class="text-sm text-gray-550">{{ caption }}</i>
-                        </figcaption>
-                    {{ /if }}
-                {{ /assets }}
-            </a>
-        </div>
-    {{ else }}
-        <div>
-            {{ responsive:assets alt="{alt}" class="mb-2" }}
+        <a href="{{ link }}">
+            {{ responsive:assets alt="{alt}" class=" mb-2" }}
             {{ assets }}
+
                 {{ if caption }}
                     <figcaption class="text-center">
                         <i class="text-sm text-gray-550">{{ caption }}</i>
                     </figcaption>
                 {{ /if }}
             {{ /assets }}
-        </div>
+        </a>
+    {{ else }}
+        {{ assets }}
+            {{ if extension == 'svg' || extension == 'gif' }}
+                <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-auto" />
+            {{ else }}
+                {{ responsive:assets alt="{alt}" class="mb-2" }}
+                {{ if caption }}
+                    <figcaption class="text-center">
+                        <i class="text-sm text-gray-550">{{ caption }}</i>
+                    </figcaption>
+                {{ /if }}
+            {{ /if }}
+        {{ /assets }}
     {{ /if }}
 </figure>

@@ -3,7 +3,7 @@ title: 'GWriters Akademie'
 teaser_bg:
   - seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1614851893
+updated_at: 1615211698
 page_title: 'Die GWriters Akademie für wissenschaftliches Arbeiten'
 use_meta_keywords: false
 no_index_page: false
@@ -83,13 +83,62 @@ replicator:
               -
                 type: paragraph
           -
-            bard: null
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: academy_entries
+                    kurz_oder_langversion: false
+                    entries:
+                      - b609ef85-dc84-4405-93d0-1b92d92ca1a4
+                      - 8a46d375-fe18-42c5-ab50-a1682b5664de
+              -
+                type: paragraph
         type: row
         enabled: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        columns_per_row: 1
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - seiten/gwriters-akademie/GWAkademie_Logo_Color-1.png
+              -
+                type: paragraph
+        type: row
+        enabled: true
+    is-full: true
+    bg-toggle: true
+    bg-image: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
+    bg-image-fixed: false
+    type: add_section
+    enabled: true
+  -
+    bard:
+      -
+        type: set
+        attrs:
+          values:
+            type: academy_entries
+            kurz_oder_langversion: true
+            entries:
+              - 68703917-9254-4107-82e0-0d844a79e81a
+      -
+        type: paragraph
+    type: editor
     enabled: true
 id: 1298a2b5-6e23-404b-8806-26e687fda624
 ---

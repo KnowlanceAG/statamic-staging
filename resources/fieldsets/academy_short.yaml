@@ -1,0 +1,21 @@
+title: 'Akademie Beiträge'
+fields:
+  -
+    handle: kurz_oder_langversion
+    field:
+      display: 'Kurz oder Langversion'
+      type: toggle
+      icon: toggle
+      instructions: 'Linkbox mit Kurztext oder Graubox mit mehr Text'
+      listable: hidden
+  -
+    handle: entries
+    field:
+      mode: default
+      collections:
+        - akademie
+      display: 'Beiträge wählen'
+      type: entries
+      icon: entries
+      instructions: 'Bitte wählen ...'
+      listable: hidden

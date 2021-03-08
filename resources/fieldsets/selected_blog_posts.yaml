@@ -1,0 +1,12 @@
+title: 'Blog Beträge wählen'
+fields:
+  -
+    handle: entries
+    field:
+      mode: default
+      collections:
+        - blog
+      display: Entries
+      type: entries
+      icon: entries
+      listable: hidden

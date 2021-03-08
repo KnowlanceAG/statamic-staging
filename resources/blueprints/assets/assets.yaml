@@ -8,6 +8,11 @@ sections:
           display: 'Alt Text'
           type: text
           instructions: 'Description of the image'
+          listable: hidden
+          input_type: text
+          antlers: false
+          validate:
+            - required
       -
         handle: title
         field:
