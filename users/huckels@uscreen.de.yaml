@@ -1,7 +1,26 @@
 name: 'Anna Milena von Gersdorff'
 super: false
 avatar: team/anna-milena-von-gersdorff-gwriters.jpg
-position: 'Head of Marketing'
+position:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '(Head of '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: /fachrichtungen/marketing
+              target: null
+              rel: null
+        text: Marketing
+      -
+        type: text
+        text: )
 short_text:
   -
     type: paragraph

@@ -25,7 +25,7 @@ h5 {
     }
 }
 h1 {
-    @apply font-bold text-4xl text-gray-550;
+    @apply font-bold text-2xl lg:text-4xl text-gray-550;
 }
 
 h2 {
@@ -134,6 +134,12 @@ table {
 /* page template styles */
 .teaser {
     min-height: 32.5vh;
+}
+.team-position {
+    @apply text-gray-700 !important;
+    p {
+        color: inherit;
+    }
 }
 
 .home .teaser {
