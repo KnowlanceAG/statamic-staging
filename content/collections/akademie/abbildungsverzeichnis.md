@@ -2,7 +2,9 @@
 title: Abbildungsverzeichnis
 teaser:
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 1
     content:
       -
         type: text
@@ -105,6 +107,11 @@ replicator:
         content:
           -
             type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
             text: 'Kostenlos herunterladen und gleich einsetzen!'
     type: editor
     enabled: true
@@ -113,7 +120,7 @@ downloads:
 page_title: 'Kostenloses Abbildungsverzeichnis für Ihre Hausarbeit herunterladen'
 template: academy-item
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615209780
+updated_at: 1615214418
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
