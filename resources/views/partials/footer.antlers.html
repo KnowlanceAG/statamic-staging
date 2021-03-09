@@ -56,27 +56,27 @@
             {{ /nav }}
         </div>
     </section>
-    <section class="px-4 bg-gray-400 py-8">
-        <div class="container mx-auto max-w-screen-xl md:flex md:justify-between">
+    <section class="px-4 bg-gray-500 py-6">
+        <div class="container mx-auto max-w-screen-xl md:flex md:justify-between md:items-center">
             <div>
-                <p>
+                <p class="mb-0">
                     <span class="text-xs">{{ copyright }}{{ text }}{{ /copyright }}</span>
                 </p>
             </div>
             <div class="sm:flex sm:flex-row">
                 {{ social_media_links }}
-                    <div class="social-media-links mr-6">
+                    <div class="social-media-links mr-2 flex items-center">
                         {{ if facebook_link }}
-                            <a href="{{ facebook_link }}" target="_blank" rel="noreferrer" class="inline-block icon fb text-xs mr-4"><!-- {{ facebook_link }} --></a>
+                            <a href="{{ facebook_link }}" target="_blank" rel="noreferrer" class="inline-block icon fb text-xs mr-8"><!-- {{ facebook_link }} --></a>
                         {{ /if }}
                         {{ if youtube_link }}
-                            <a href="{{ youtube_link }}" target="_blank" rel="noreferrer" class="inline-block icon yt text-xs mr-4"><!-- {{ youtube_link }} --></a>
+                            <a href="{{ youtube_link }}" target="_blank" rel="noreferrer" class="inline-block icon yt text-xs mr-8"><!-- {{ youtube_link }} --></a>
                         {{ /if }}
                         {{ if twitter_link }}
-                            <a href="{{ twitter_link }}" target="_blank" rel="noreferrer" class="inline-block icon tw text-xs mr-4"><!-- {{ twitter_link }} --></a>
+                            <a href="{{ twitter_link }}" target="_blank" rel="noreferrer" class="inline-block icon tw text-xs mr-8"><!-- {{ twitter_link }} --></a>
                         {{ /if }}
                         {{ if instagram_link }}
-                            <a href="{{ instagram_link }}" target="_blank" rel="noreferrer" class="inline-block icon insta text-xs mr-4"><!-- {{ instagram_link }} --></a>
+                            <a href="{{ instagram_link }}" target="_blank" rel="noreferrer" class="inline-block icon insta text-xs mr-8"><!-- {{ instagram_link }} --></a>
                         {{ /if }}
                     </div>
                 {{ /social_media_links }}

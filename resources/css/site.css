@@ -51,6 +51,9 @@ p {
         @apply text-orange-500;
     }
 }
+footer .bg-gray-500 .text-xs {
+    font-size: 11px !important;
+}
 [class^="leading-"] {
     p {
         line-height: inherit;
@@ -225,15 +228,18 @@ table {
 .social-media-links {
     .icon {
         text-indent: -99999px;
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
         background-repeat: no-repeat;
+        background-position: center;
+        opacity: 0.6;
         &.fb {
             width: 25px;
-            height: 20px;
+            height: 17px;
             background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyODguNiA2MzAuMzgiPjxnIGlkPSJFYmVuZV8yIiBkYXRhLW5hbWU9IkViZW5lIDIiPjxnIGlkPSJMYXllcl8xIiBkYXRhLW5hbWU9IkxheWVyIDEiPjxnIGlkPSJfRmFjZWJvb2siIGRhdGEtbmFtZT0iI0ZhY2Vib29rIj48ZyBpZD0iQ2lyY2xlLWZsYXQiPjxwYXRoIGQ9Ik01Ny44LDYzMC4zOEgxNzMuN1YzNDIuNjhoOTYuNWwxNC40LTExMS44SDE3My43di03OS40cy0yLjctNDcsNTIuOC00N2g2Mi4xVjUuMDhTMTk5LjUtNy41MiwxNTAuNyw3cy03NCw1MC43LTg1LjQsODYuNmMwLDAtNy40LDIyLjctNy40LDQ1LjR2OTJIMHYxMTEuOEg1Ny45bC0uMSwyODcuNloiLz48L2c+PC9nPjwvZz48L2c+PC9zdmc+);
         }
         &.yt {
+            height: 22px;
             background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDIuNjUgNDIzLjUiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojMDEwMjAyO308L3N0eWxlPjwvZGVmcz48ZyBpZD0iRWJlbmVfMiIgZGF0YS1uYW1lPSJFYmVuZSAyIj48ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIj48cGF0aCBpZD0iWW91dHViZXBsYXlidXR0b24iIGNsYXNzPSJjbHMtMSIgZD0iTTI5Mi41NSwwYzY5LjQsMi4zLDE0MSw0LjIsMjEyLjUsNy4zLDU1LjksMi40LDgzLjMsMjgsOTAuNSw4NC4xLDguOSw2OS4xLDguNywxMzguNiwzLjQsMjA4YTM0Ni4xNSwzNDYuMTUsMCwwLDEtMTEuMiw2NS42Yy04LjYsMzEuMS0zMSw0OS4zLTYyLjksNTIuOS0zMC4yLDMuNC02MC43LDUuNy05MS4xLDUuNi0xMTEtLjQtMjIyLjEtLjYtMzMzLTMuOC02MS4yLTEuOC04NS45LTI1LjktOTMuNC04Ni42YTk1NS42OCw5NTUuNjgsMCwwLDEsLjktMjQzLjdjMi4xLTE2LjEsOC4yLTMyLjgsMTYuMy00Ni45LDE0LjMtMjQuNywzOS0zMy43LDY2LjUtMzQuOUMxNTcuNTUsNC45LDIyNCwyLjUsMjkyLjU1LDBabS01Mi41LDI5NS44YzUyLjgtMjguNSwxMDQuMi01Ni4yLDE1Ny41LTg1QzM0NCwxODMsMjkyLjY1LDE1Ni4zLDI0MC4wNSwxMjlaIi8+PC9nPjwvZz48L3N2Zz4=);
         }
         &.tw {
