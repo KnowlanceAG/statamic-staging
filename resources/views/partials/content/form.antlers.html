@@ -1,55 +1,65 @@
 {{ form:anfrage }}
-<div class="max-w-screen-lg mx-auto pt-6 pb-12 px-2 sm:px-6 lg:pt-8 lg:pb-16 lg:px-8 forms">
+
+<div class="forms bg-gray-200 max-w-screen-xl mx-auto pt-6 pb-12 px-2 sm:px-6 lg:pt-8 lg:pb-16 lg:px-8">
     {{ if success }}
-    <div class="bg-green-300 text-white p-2">
-        {{ form_success }}
-        {{ form_success_text }}
-        {{ /form_success }}
-    </div>
+
+        <div class="bg-green-300 text-white p-2">
+            {{ form_success }}
+                {{ form_success_text }}
+            {{ /form_success }}
+        </div>
+
     {{ else }}
 
-    {{ fields }}
-    <div class="w-full mb-6 md:mb-0">
+    <div class="flex flex-wrap">
+        {{ fields }}
+            <div class="{{ if width==50 }}w-full lg:w-1/2 {{ else }}w-full {{ /if }}mb-6 md:mb-0 pr-4">
 
-        {{ if type=="checkboxes" }}
-        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-8 mt-8">
-            <input type="checkbox" name="{{ handle }}" class="mr-1" />
-            {{ display }}
-            {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
-        </label>
+                {{ if type=="checkboxes" }}
+                    <label class="block uppercase tracking-wide text-black text-xs mb-8 mt-8">
+                        <input type="checkbox" name="{{ handle }}" class="mr-1" />
+                        {{ display }}
+                        {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
+                    </label>
 
-        {{ elseif type=="textarea" }}
-        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mt-4 mb-1">
-            {{ display }}
-            {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
-        </label>
+                {{ elseif type=="textarea" }}
+                    <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">
+                        {{ display }}
+                        {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
+                    </label>
 
-        {{ field }}
+                    {{ field }}
 
-        {{ else }}
-        <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mt-4 mb-1">
-            {{ display }}
-            {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
-        </label>
+                {{ else }}
+                    <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">
+                        {{ display }}
+                        {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
+                    </label>
 
-        {{ field }}
+                    {{ field }}
 
-        {{ /if }}
+                {{ /if }}
 
-        {{ if error }}
-        <p class="text-red-500 text-xs italic">
-            {{ form_error }}
-            {{ form_error_text }}
-            {{ /form_error }}
-        </p>
-        {{ /if }}
+                {{ if error }}
+                <p class="text-red-500 text-xs italic">
+                    {{ form_error }}
+                    {{ form_error_text }}
+                    {{ /form_error }}
+                </p>
+                {{ /if }}
+            </div>
+        {{ /fields }}
+
     </div>
-    {{ /fields }}
-
+    <div class="my-4">
+        {{ form_info_text }}
+            {{ text }}
+        {{ /form_info_text }}
+    </div>
     <button
-        class="bg-blue-500 hover:bg-blue-700 text-white float-right font-bold py-2 px-2 rounded focus:outline-none focus:shadow-outline"
-        type="submit">Abschicken</button>
-    <p class="text-xs italic">* Pflichtfelder</p>
+        class="bg-orange-500 hover:bg-orange-700 px-10 py-3 mt-8 inline-block text-white font-300 uppercase rounded-sm hover:transition-colors hover:duration-200 hover:bg-opacity-95"
+        type="submit">Anfrage absenden</button>
+
     {{ /if }}
 </div>
 {{ /form:anfrage }}
