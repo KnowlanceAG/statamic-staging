@@ -16,3 +16,11 @@ preferences:
   assets:
     downloads:
       mode: table
+  forms:
+    anfrage:
+      columns:
+        - datestamp
+        - name
+        - nachname
+        - lieferdatum
+        - e-mail_adresse
