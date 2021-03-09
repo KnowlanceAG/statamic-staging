@@ -1,0 +1,15 @@
+title: Spacer
+fields:
+  -
+    handle: padding-y
+    field:
+      step: 1
+      min: 0
+      max: 100
+      default: 2
+      prepend: 'Kein Abstand'
+      append: 'Maximaler Abstand'
+      display: 'Abstand oben und unten'
+      type: range
+      icon: range
+      listable: hidden

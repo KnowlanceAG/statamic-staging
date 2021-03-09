@@ -3,7 +3,7 @@ title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615278162
+updated_at: 1615279958
 teaser:
   -
     type: heading
@@ -154,6 +154,222 @@ replicator:
       -
         type: paragraph
     type: editor
+    enabled: true
+  -
+    is-full: true
+    bg-toggle: true
+    bg-image: seiten/unsere-experten/Zeichenflaeche-5.png
+    bg-image-fixed: true
+    type: add_section
+    enabled: true
+    columns-replicator:
+      -
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '50'
+              -
+                type: paragraph
+        type: row
+        enabled: true
+  -
+    columns-replicator:
+      -
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Neben unseren oben exemplarisch aufgeführt Experten verfügen wir noch zusätzlich über ein Team von über 3000 akademischen Ghostwritern, mit deren Qualifikationen und Kompetenzen wir nahezu jedes akademisch Themenfeld wie unter anderem auch\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/informatik'
+                          target: null
+                          rel: null
+                    text: Informatik
+                  -
+                    type: text
+                    text: ",\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/psychologie'
+                          target: null
+                          rel: null
+                    text: 'Psychologie '
+                  -
+                    type: text
+                    text: 'und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/mathematik'
+                          target: null
+                          rel: null
+                    text: 'Mathematik '
+                  -
+                    type: text
+                    text: 'abdecken können und auch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/medizin'
+                          target: null
+                          rel: null
+                    text: 'Medizin Ghostwriter'
+                  -
+                    type: text
+                    text: "\_sowie Experten für viele weitere Disziplinen finden Sie bei uns. Dabei werden die Kompetenzen unserer Ghostwriter nach strengen Auswahlverfahren geprüft und verifiziert, sodass wir Ihnen zu jeder Zeit den passenden Spezialisten zur Unterstützung bei Ihrer wissenschaftlichen Fragestellung und Ihrer akademischen Arbeit zur Verfügung stellen können."
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+        type: row
+        enabled: true
+      -
+        columns_per_row: '3'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - seiten/unsere-experten/ghostwriter_qualifikationen_gwriters-1-74x84.png
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(34, 34, 34)'
+                    text: 'Geprüfte Qualifikationen unserer Ghostwriter'
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - seiten/unsere-experten/anonymitaet_ghostwriter_gwriters-75x84.png
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(34, 34, 34)'
+                    text: 'Schutz Ihrer Daten und 100% Anonymität'
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - seiten/unsere-experten/ghostwriter_qualitaet_gwriters-64x84.png
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(34, 34, 34)'
+                    text: 'Unsere Supervisoren garantieren höchste Qualität'
+        type: row
+        enabled: true
+      -
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
+                    text: "Bei GWriters gewährleisten wir Ihre Anonymität zu 100% und\_schützen Ihre Daten streng nach den Vorgaben von DSGVO und GDPR. Die Speicherung aller Informationen erfolgt auf unseren eigenen Servern mit Standort in der Schweiz, auf die der Zugriff durch Außenstehende unmöglich ist. Darüber hinaus erhält einzig Ihr persönlicher Projektmanager Zugriff auf Ihre Informationen, selbst für Ihren akademischen Ghostwriter bleiben Sie anonym. Ebenso unbesorgt können Sie auch hinsichtlich der Qualität Ihrer Arbeit sein: jede von uns erstellte Arbeit wird von einem Team von erfahrenen und spezialisierten Supervisoren auf Qualität geprüft. So stellen wir sicher, dass Ihre Arbeit allen akademischen Standards entspricht, denn dies ist auch unser Anspruch an uns selbst."
+        type: row
+        enabled: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    type: add_section
     enabled: true
 use_meta_keywords: false
 no_index_page: false
