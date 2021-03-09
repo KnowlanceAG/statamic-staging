@@ -1,0 +1,13 @@
+title: 'Unsere Experten'
+fields:
+  -
+    handle: experts
+    field:
+      mode: default
+      collections:
+        - team
+      display: Experten
+      type: entries
+      icon: entries
+      instructions: 'Bitte Experten wählen.'
+      listable: hidden

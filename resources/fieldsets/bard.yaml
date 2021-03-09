@@ -104,3 +104,8 @@ fields:
           fields:
             -
               import: selected_blog_posts
+        experts_list:
+          display: 'Experten Liste'
+          fields:
+            -
+              import: experts_list

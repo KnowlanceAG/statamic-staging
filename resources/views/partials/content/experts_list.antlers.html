@@ -1,0 +1,20 @@
+<div class="-mt-4 mx-max-w-screen-md mx-auto px-8 lg:px-0 grid grid-cols-1 md:grid-cols-2 gap-10">
+    {{ experts }}
+
+    <div class="w-full mb-12">
+
+            {{ if link }}
+                <a href="{{ link }}">
+                    {{ responsive:photo alt="{alt}" class="rounded-full w-48 max-w-full h-auto align-middle border-none" }}
+                </a>
+            {{ else }}
+                {{ responsive:photo alt="{alt}" class="rounded-full w-48 max-w-full h-auto align-middle border-none" }}
+            {{ /if }}
+
+            <p class="mt-4 mb-0"><strong>{{ title }}</strong></p>
+            <p class="mb-4">{{ detail_position }}</p>
+            {{ detail_text }}
+        </div>
+
+    {{ /experts }}
+</div>

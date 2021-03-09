@@ -19,6 +19,9 @@ h5 {
 .teaser {
     h1 {
         @apply text-orange-500;
+        padding: 30px 0 20px;
+        line-height: 1.4;
+        font-weight: 600;
         strong {
             @apply text-gray-550;
         }
