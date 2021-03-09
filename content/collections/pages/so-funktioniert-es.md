@@ -3,7 +3,7 @@ title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1614949938
+updated_at: 1615275287
 teaser_bg:
   - seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
@@ -69,7 +69,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:

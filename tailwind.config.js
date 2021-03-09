@@ -44,6 +44,9 @@ module.exports = {
             },
             lineHeight: {
                 '14': '4.5rem',
+            },
+            padding: {
+                'py-22': '5.5rem',
             }
       },
     },
