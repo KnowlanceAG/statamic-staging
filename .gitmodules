@@ -1,3 +1,6 @@
 [submodule "addons/uscreen/link-extended"]
 	path = addons/uscreen/link-extended
 	url = git@gitlab.uscreen.net:uscreen/statamic-addons/link-extended.git
+[submodule "addons/uscreen/cpssg"]
+	path = addons/uscreen/cpssg
+	url = git@gitlab.uscreen.net:uscreen/statamic-addons/cpssg.git
