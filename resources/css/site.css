@@ -207,12 +207,19 @@ table {
 }
 
 .hover-content {
+    .hidden-content {
+        opacity: 0;
+    }
     &:hover {
         .hidden-content {
             opacity: 1 !important;
             transition: opacity 250ms ease-out;
         }
     }
+}
+.px-32 {
+    padding-left: 8rem !important;
+    padding-right: 8rem !important;
 }
 
 /* footer */
