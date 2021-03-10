@@ -20,8 +20,8 @@
         "spatie/statamic-responsive-images": "^2.5",
         "statamic/cms": "3.0.*",
         "statamic/ssg": "^0.2.0",
-        "uscreen/cpssg": "dev-master",
-        "uscreen/link-extended": "dev-master",
+        "uscreen/cpssg": "*",
+        "uscreen/link-extended": "*",
         "withcandour/aardvark-seo": "^2.0",
         "xndbogdan/statamic-bard-text-color": "^1.0"
     },
