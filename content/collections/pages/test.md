@@ -1,7 +1,7 @@
 ---
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615381171
+updated_at: 1615381187
 replicator:
   -
     bard:
@@ -10,6 +10,13 @@ replicator:
         content:
           -
             type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /home
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
             text: test
     type: editor
     enabled: true
