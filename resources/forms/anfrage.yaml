@@ -1,4 +1,5 @@
 title: Anfrage
+honeypot: emails
 email:
   -
     to: huckels@uscreen.de

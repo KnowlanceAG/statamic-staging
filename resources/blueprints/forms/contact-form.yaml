@@ -1,0 +1,58 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: name
+        field:
+          input_type: text
+          antlers: false
+          display: Name
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: email
+        field:
+          input_type: text
+          antlers: false
+          display: 'E-Mail Adresse'
+          type: text
+          icon: text
+          listable: hidden
+          validate:
+            - required
+      -
+        handle: subject
+        field:
+          input_type: text
+          antlers: false
+          display: Betreff
+          type: text
+          icon: text
+          listable: hidden
+          validate:
+            - required
+      -
+        handle: message
+        field:
+          antlers: false
+          display: Nachricht
+          type: textarea
+          icon: textarea
+          listable: hidden
+          validate:
+            - required
+      -
+        handle: upload
+        field:
+          mode: grid
+          container: formular_uploads
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: Datei-Anhang
+          type: assets
+          icon: assets
+          instructions: 'Falls Sie uns eine Datei (z.B. .doc, .pdf, .xls) mitsenden möchten, nutzen Sie die bitte die Upload-Funktion. Je mehr Informationen Sie uns zukommen lassen, umso besser können wir Ihnen helfen.'
+          listable: hidden
