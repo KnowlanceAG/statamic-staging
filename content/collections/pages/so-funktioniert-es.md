@@ -3,7 +3,7 @@ title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615455887
+updated_at: 1615462841
 teaser_bg:
   - seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
@@ -382,7 +382,7 @@ replicator:
                     text: "GWriters ist eine schnell wachsende deutschsprachige Plattform für die Vermittlung von hochwertigen akademischen Dienstleistungen. Wir bieten Ihnen Zugang zu derzeit bereits über 3000 wissenschaftlichen Autoren, Bearbeitern, Übersetzern & Beratern, die Sie bedarfsgerecht und schnell durch die professionelle Erstellung von Mustervorlagen für akademische Arbeiten unterstützen. Ganz egal ob Sie auf der Suche nach einem\_Lektorat\_oder\_Korrektorat, Coaching, der Erstellung einer Mustervorlage, einer\_Übersetzung\_oder anderen Hilfestellungen sind, GWriters findet in nahezu allen Fällen den passenden akademischen Freelancer für Sie. Fragen Sie einfach ein unverbindliches Angebot an."
         type: row
         enabled: true
-        single-col: false
+        single-col: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false

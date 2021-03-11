@@ -51,7 +51,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615460241
+updated_at: 1615462909
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -65,7 +65,8 @@ replicator:
   -
     columns-replicator:
       -
-        columns_per_row: '3'
+        columns_per_row: 1
+        single-col: false
         grid:
           -
             bard:
@@ -82,13 +83,12 @@ replicator:
                         zahl: '4,8/5'
                         beschreibung: 'Trustscore auf Trustpilot'
                       -
-                        zahl: '3.183'
+                        zahl: '4,8/5'
                         beschreibung: 'Akademische Experten'
               -
                 type: paragraph
         type: row
         enabled: true
-        single-col: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -102,71 +102,24 @@ replicator:
           -
             bard:
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                    text: 'Fragen? Rufen Sie uns einfach an:'
+                  values:
+                    type: insert_html
+                    html: |-
+                      <div class="text-center font-Montserrat">
+                          <h2 class="font-bold text-gray-550">Fragen? Rufen Sie uns einfach an:</h2>
+                          <p class="text-orange-500 hover:text-orange-700 text-4xl"><a href="tel:+49%20(0)%2030%20809%20332%20339" rel="nofollow" target="_blank">+49 (0) 30 809 332 339</a></p>
+                          <p class="text-gray-700">Mo.-Fr. 9:00-18:00</p>
+                      </div>
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                      -
-                        type: link
-                        attrs:
-                          href: 'tel:+49%20(0)%2030%20809%20332%20339'
-                          target: _blank
-                          rel: nofollow
-                    text: '+49 (0) 30 809 332 339'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(153, 153, 153)'
-                    text: 'Mo.-Fr. 9:00-18:00'
         type: row
         enabled: true
         single-col: false
     is-full: true
     bg-toggle: false
-    bg-color: '#F9F9F9'
+    bg-color: '#F2F2F2'
     bg-image-fixed: false
     type: add_section
     enabled: true
@@ -239,6 +192,7 @@ replicator:
                     type: button
                     button_text: 'ALLE LEISTUNGEN IM ÜBERBLICK'
                     color: '#3F3F3F'
+                    button_link: 'entry::849140c8-c582-4340-a2bc-446126149c9f'
               -
                 type: paragraph
         type: row

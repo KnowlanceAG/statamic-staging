@@ -2,3 +2,5 @@ redakteure:
   title: Redakteure
   roles:
     - redakteure
+admin:
+  title: Admin

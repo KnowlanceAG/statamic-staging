@@ -192,7 +192,7 @@ replicator:
 downloads:
   - akademie/Abkuerzungsverzeichnis.docx
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615210598
+updated_at: 1615463100
 academy_short_text-headline: Abkürzungsverzeichnis
 academy_short_text: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel für Ihre Arbeit.'
 use_meta_keywords: false
@@ -203,5 +203,14 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+more_templates:
+  - b609ef85-dc84-4405-93d0-1b92d92ca1a4
+  - 8a46d375-fe18-42c5-ab50-a1682b5664de
+  - 68703917-9254-4107-82e0-0d844a79e81a
+from_the_blog:
+  - 5c83c7b5-d23b-4275-8b1f-cb439f647e3b
+  - 3d67c472-fd10-4be3-8c4b-5021ca58ea0d
+  - 7bd4dfae-d5e8-426b-b5df-700427a364da
+  - 587801ba-7a2e-4de6-8fbe-c37acd2d625f
 id: 8a46d375-fe18-42c5-ab50-a1682b5664de
 ---

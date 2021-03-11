@@ -6,7 +6,8 @@ fields:
       swatches:
         - '#F9F9F9'
         - '#FF6606'
-      theme: classic
+        - '#f2f2f2'
+      theme: nano
       lock_opacity: false
       default_color_mode: HEXA
       color_modes:
