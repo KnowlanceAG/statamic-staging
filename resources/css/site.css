@@ -95,7 +95,6 @@ textarea {
     @apply p-2 w-full border border-gray-300 bg-white text-sm focus:outline-none;
 }
 input[type="file"] {
-    @apply bg-red-500;
 }
 
 select {
