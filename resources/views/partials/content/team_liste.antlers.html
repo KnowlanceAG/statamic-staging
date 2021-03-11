@@ -1,0 +1,31 @@
+<div class="is-full h-auto">
+    <div class="mx-auto max-w-screen-2xl px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {{ team_mitglieder }}
+            <div class="block">
+
+                {{ if link }}
+                <a href="{{ link }}">
+                    {{ photo }}
+                    <img class="" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }} />
+                    {{ /photo }}
+                    <h3 class="mb-0">
+                        {{ title }}
+                    </h3>
+                </a>
+                {{ else }}
+                {{ photo }}
+                <img class="" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }} />
+                {{ /photo }}
+                <h3 class="mb-0">
+                    {{ title }}
+                </h3>
+                {{ /if }}
+
+                <p>{{ position }}</p>
+
+            </div>
+            {{ /team_mitglieder }}
+        </div>
+    </div>
+</div>

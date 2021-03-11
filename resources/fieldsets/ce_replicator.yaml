@@ -15,8 +15,8 @@ fields:
           fields:
             -
               import: bard
-        collection_listing:
-          display: 'Collection Listing'
+        blog_listing:
+          display: 'Blog Listing'
           fields:
             -
               import: blog_listing

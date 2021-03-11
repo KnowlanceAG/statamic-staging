@@ -73,11 +73,6 @@ fields:
           fields:
             -
               import: video
-        full_collection:
-          display: 'Collection Liste Komplett'
-          fields:
-            -
-              import: collection_list_full
         form:
           display: Form
           fields:
@@ -100,7 +95,7 @@ fields:
             -
               import: academy_short
         blog_entries:
-          display: 'Blog Beträge'
+          display: 'Blog Beträge asuwählen'
           fields:
             -
               import: selected_blog_posts
@@ -114,3 +109,8 @@ fields:
           fields:
             -
               import: spacer
+        team_liste:
+          display: 'Team Liste'
+          fields:
+            -
+              import: team_liste

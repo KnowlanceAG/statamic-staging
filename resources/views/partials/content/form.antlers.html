@@ -1,5 +1,4 @@
-{{ form:anfrage }}
-
+{{ form:{{form.handle}} }}
 <div class="forms bg-gray-200 max-w-screen-xl mx-auto pt-6 pb-12 px-2 sm:px-6 lg:pt-8 lg:pb-16 lg:px-8">
     {{ if success }}
 
@@ -30,6 +29,14 @@
 
                     {{ field }}
 
+                {{ elseif handle=="file" }}
+                <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">
+                    {{ display }}
+                    {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
+                </label>
+
+                {{ field }}
+
                 {{ else }}
                     <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">
                         {{ display }}
@@ -58,8 +65,17 @@
     </div>
     <button
         class="bg-orange-500 hover:bg-orange-700 px-10 py-3 mt-8 inline-block text-white font-300 uppercase rounded-sm hover:transition-colors hover:duration-200 hover:bg-opacity-95"
-        type="submit">Anfrage absenden</button>
+        type="submit">
+            {{ if form.handle == 'autorenbewerbung'}}
+                BEWERBUNG ABSENDEN
+            {{ elseif form.handle == 'anfrage'}}
+                Anfrage absenden
+            {{ else }}
+                Absenden
+            {{ /if }}
+
+    </button>
 
     {{ /if }}
 </div>
-{{ /form:anfrage }}
+{{ /form:{{form.handle}} }}

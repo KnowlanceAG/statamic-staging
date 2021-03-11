@@ -1,0 +1,12 @@
+title: 'Team Liste'
+fields:
+  -
+    handle: team_mitglieder
+    field:
+      mode: default
+      collections:
+        - team
+      display: 'Team Mitglieder'
+      type: entries
+      icon: entries
+      listable: hidden

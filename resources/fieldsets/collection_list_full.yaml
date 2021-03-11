@@ -1,9 +1,10 @@
-title: "Collection Übersicht"
+title: 'Blog Übersicht'
 fields:
-  - handle: collections
+  -
+    handle: blog_listing
     field:
       mode: default
-      display: Collections
+      display: 'Blog Übersicht'
       type: collections
       icon: collections
       listable: hidden
