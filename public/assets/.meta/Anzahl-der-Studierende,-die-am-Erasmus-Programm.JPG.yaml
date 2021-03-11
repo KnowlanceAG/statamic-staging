@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Anzahl deutscher Studenten, die am ERASMUS-Programm teilnehmen'
+  title: 'Anzahl deutscher Studenten, die am ERASMUS-Programm teilnehmen'
+  caption: 'Anzahl deutscher Studenten, die am ERASMUS-Programm teilnehmen'
 size: 15414
 last_modified: 1615467424
 width: 710
