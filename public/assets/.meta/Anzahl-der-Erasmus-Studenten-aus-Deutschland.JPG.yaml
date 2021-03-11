@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Anzahl der ERASMUS-Studenten aus Deutschland von 1987/88 bis 2017'
+  title: 'Anzahl der ERASMUS-Studenten aus Deutschland von 1987/88 bis 2017'
+  caption: 'Anzahl der ERASMUS-Studenten aus Deutschland von 1987/88 bis 2017'
 size: 14474
 last_modified: 1615467417
 width: 717
