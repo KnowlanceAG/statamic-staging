@@ -12,6 +12,13 @@ sections:
           icon: text
           listable: hidden
       -
+        handle: cta_button
+        field:
+          display: 'CTA Button link'
+          type: link
+          icon: link
+          listable: hidden
+      -
         handle: cta_button_text
         field:
           input_type: text
@@ -20,10 +27,5 @@ sections:
           type: text
           icon: text
           listable: hidden
-      -
-        handle: cta_button
-        field:
-          display: 'CTA Button link'
-          type: link
-          icon: link
-          listable: hidden
+          if:
+            cta_button: 'not null'
