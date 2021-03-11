@@ -114,3 +114,8 @@ fields:
           fields:
             -
               import: team_liste
+        numbers_home:
+          display: 'Zahlen auf der Startseite - Spalten'
+          fields:
+            -
+              import: number_home

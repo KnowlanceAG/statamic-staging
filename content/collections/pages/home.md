@@ -32,6 +32,8 @@ teaser:
         type: text
         marks:
           -
+            type: bold
+          -
             type: textAlign
             attrs:
               align: center
@@ -49,7 +51,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615457229
+updated_at: 1615460241
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -68,111 +70,22 @@ replicator:
           -
             bard:
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
+                  values:
+                    type: numbers_home
+                    grid:
                       -
-                        type: bold
+                        zahl: '18.678'
+                        beschreibung: 'Kunden seit 2011'
                       -
-                        type: textAlign
-                        attrs:
-                          align: center
+                        zahl: '4,8/5'
+                        beschreibung: 'Trustscore auf Trustpilot'
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                    text: '18.678'
+                        zahl: '3.183'
+                        beschreibung: 'Akademische Experten'
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(153, 153, 153)'
-                    text: 'Kunden seit 2011'
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                    text: '4,8/5'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(153, 153, 153)'
-                    text: 'Trustscore auf Trustpilot'
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                    text: '3.183'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(153, 153, 153)'
-                    text: 'Akademische Experten'
         type: row
         enabled: true
         single-col: false
