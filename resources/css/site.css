@@ -274,3 +274,19 @@ table {
         }
     }
 }
+
+.link-list {
+    .link-list-header {
+        p {
+            &.active {
+                @apply border-b-4 border-orange-500 !important;
+            }
+        }
+    }
+    .link-list-body {
+        @apply hidden;
+        &.active {
+            @apply block;
+        }
+    }
+}
