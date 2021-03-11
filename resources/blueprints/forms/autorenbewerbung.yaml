@@ -1,0 +1,92 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: vorname
+        field:
+          input_type: text
+          antlers: false
+          display: Vorname
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+      -
+        handle: nachname
+        field:
+          input_type: text
+          antlers: false
+          display: Nachname
+          type: text
+          icon: text
+          width: 50
+          listable: hidden
+      -
+        handle: e-mail_adresse
+        field:
+          input_type: text
+          antlers: false
+          display: 'E-Mail Adresse'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: telefonnummer
+        field:
+          input_type: text
+          antlers: false
+          display: Telefonnummer
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: qualifikation
+        field:
+          options:
+            'null': 'Bitte auswählen'
+            Student: Student
+            Bachelor: Bachelor
+            Master: Master
+            Diplom: Diplom
+            Magister: Magister
+            Promotion: Promotion
+            Andere: Andere
+          multiple: false
+          clearable: false
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: Qualifikation
+          type: select
+          icon: select
+          listable: hidden
+      -
+        handle: fachbereiche_and_interessensschwerpunkte
+        field:
+          antlers: false
+          display: 'Fachbereiche & Interessensschwerpunkte'
+          type: textarea
+          icon: textarea
+          listable: hidden
+      -
+        handle: weitere_informationen
+        field:
+          antlers: false
+          display: 'Weitere Informationen'
+          type: textarea
+          icon: textarea
+          listable: hidden
+      -
+        handle: datei-anhang
+        field:
+          mode: grid
+          container: formular_uploads
+          restrict: false
+          allow_uploads: true
+          display: Datei-Anhang
+          type: assets
+          icon: assets
+          instructions: 'Anhänge wie ihren Lebenslauf, Anschreiben oder Zeugnisse o. ä. können Sie hier hochladen.'
+          listable: hidden
