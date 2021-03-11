@@ -3,7 +3,7 @@ title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615279958
+updated_at: 1615455922
 teaser:
   -
     type: heading
@@ -49,7 +49,7 @@ teaser:
     attrs:
       values:
         type: button
-        button_link: 'entry::7aff708e-5d48-409e-9242-fd82c155f5ee'
+        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'Jetzt kostenlos Anfrage'
   -
     type: paragraph

@@ -21,12 +21,12 @@ teaser:
 page_title: 'GWriters.de • Ghostwriter Blog'
 template: with-side-bar
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615190254
+updated_at: 1615457858
 replicator:
   -
     collections:
       - blog
-    type: collection_listing
+    type: blog_listing
     enabled: true
 use_meta_keywords: false
 no_index_page: false

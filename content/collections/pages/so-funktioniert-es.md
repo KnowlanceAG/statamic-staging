@@ -3,7 +3,7 @@ title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615275287
+updated_at: 1615455887
 teaser_bg:
   - seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
@@ -38,7 +38,7 @@ teaser:
     attrs:
       values:
         type: button
-        button_link: 'entry::home'
+        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
 page_title: 'Wissenschaftliches Ghostwriting bei GWriters • So funktioniert es'
@@ -77,6 +77,7 @@ replicator:
                     text: 'Unser bester Service für Ihre Zufriedenheit'
         type: row
         enabled: true
+        single-col: false
       -
         columns_per_row: '2'
         grid:
@@ -108,6 +109,7 @@ replicator:
                     text: 'Natürlich bieten wir die Möglichkeit, dass Sie sich mit Ihrem persönlichen Autor im Rahmen von anonymen Telefonkonferenzen austauschen können. Im Laufe der Bearbeitungszeit haben Sie zudem selbstverständlich jederzeit die Möglichkeit, Änderungswünsche zu äußern. Die Teillieferung geben noch einen konkreteren Einblick in die Arbeit und Sie haben hier die Möglichkeit, sich jederzeit über den aktuellen Stand Ihres Projekts zu informieren und Ihre Änderungswünsche vom Autor direkt umsetzen zu lassen. Wenn Sie über Originaldokumente verfügen, die der Autor für die Ausarbeitung der Mustervorlage benötigt, können Sie uns diese natürlich auch per Post zuschicken. Da wir aber eine möglichst schnelle Bearbeitung Ihres Auftrages sicherstellen möchten, ziehen wir den elektronischen Weg des Datenaustausches vor.'
         type: row
         enabled: true
+        single-col: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -141,6 +143,7 @@ replicator:
                     text: 'Der Ablauf ist ganz einfach:'
         type: row
         enabled: true
+        single-col: false
       -
         columns_per_row: '4'
         grid:
@@ -339,6 +342,7 @@ replicator:
                     text: 'Nach Fertigstellung des Auftrages, Qualitätsprüfung durch unsere Supervisor und Abnahme durch Sie, erhalten Sie fristgerecht die finale Version Ihrer Mustervorlage in der von Ihnen gewünschten Form.'
         type: row
         enabled: true
+        single-col: false
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
@@ -378,6 +382,7 @@ replicator:
                     text: "GWriters ist eine schnell wachsende deutschsprachige Plattform für die Vermittlung von hochwertigen akademischen Dienstleistungen. Wir bieten Ihnen Zugang zu derzeit bereits über 3000 wissenschaftlichen Autoren, Bearbeitern, Übersetzern & Beratern, die Sie bedarfsgerecht und schnell durch die professionelle Erstellung von Mustervorlagen für akademische Arbeiten unterstützen. Ganz egal ob Sie auf der Suche nach einem\_Lektorat\_oder\_Korrektorat, Coaching, der Erstellung einer Mustervorlage, einer\_Übersetzung\_oder anderen Hilfestellungen sind, GWriters findet in nahezu allen Fällen den passenden akademischen Freelancer für Sie. Fragen Sie einfach ein unverbindliches Angebot an."
         type: row
         enabled: true
+        single-col: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false

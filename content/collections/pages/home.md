@@ -41,7 +41,7 @@ teaser:
     attrs:
       values:
         type: button
-        button_link: 'entry::08690e7d-78e7-40cc-8e39-9d87681c01f7'
+        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
   -
@@ -49,7 +49,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615272666
+updated_at: 1615457229
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -175,6 +175,7 @@ replicator:
                     text: 'Akademische Experten'
         type: row
         enabled: true
+        single-col: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -249,6 +250,7 @@ replicator:
                     text: 'Mo.-Fr. 9:00-18:00'
         type: row
         enabled: true
+        single-col: false
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
@@ -281,6 +283,7 @@ replicator:
                     text: 'Unsere Leistungen im Überblick'
         type: row
         enabled: true
+        single-col: false
       -
         columns_per_row: 1
         grid:
@@ -327,6 +330,7 @@ replicator:
                 type: paragraph
         type: row
         enabled: true
+        single-col: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -377,6 +381,7 @@ replicator:
                     text: 'Basierend auf den Bewertungen bei TrustPilot. Lesen Sie hier eine Auswahl:'
         type: row
         enabled: true
+        single-col: false
       -
         columns_per_row: 1
         grid:
@@ -392,6 +397,7 @@ replicator:
                 type: paragraph
         type: row
         enabled: true
+        single-col: false
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
@@ -430,6 +436,7 @@ replicator:
                     text: 'GWriters & Team in der Presse'
         type: row
         enabled: true
+        single-col: false
       -
         columns_per_row: '6'
         grid:
@@ -501,6 +508,7 @@ replicator:
                 type: paragraph
         type: row
         enabled: true
+        single-col: false
     is-full: true
     bg-toggle: false
     bg-color: '#D6D6D6'
@@ -560,6 +568,7 @@ replicator:
                 type: paragraph
         type: row
         enabled: true
+        single-col: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -832,6 +841,7 @@ replicator:
                     text: 'Bei der Inanspruchnahme von Ghostwritern im akademischen Umfeld, also beispielsweise bei der Unterstützung von Bachelor- und Masterarbeiten, sowie Dissertationen und Habilitationen muss zwingend der rechtliche Rahmen eingehalten werden. Dies bedeutet, dass weiterhin eine eigenständige Erstellungen der Arbeiten der Studenten, Doktoranden oder Habilitanden stattfinden muss. Weil jeder Student diese Zusicherung gegenüber seiner Universität bindend eingeht, verstehen unsere Texte sich dem Grunde nach nur als Vorlagen und hilfreiche Leitfäden. GWriters hält sich strikt an europäische Gesetzgebungen. Dadurch steht Ihre Zusammenarbeit mit uns von Anfang an auf einem sicheren Fundament, die Legalität ist gewährleistet und Plagiatsvorwürfe können ausgeschlossen werden.'
         type: row
         enabled: true
+        single-col: false
     is-full: true
     bg-toggle: true
     bg-image: seiten/full-scaled.jpg
