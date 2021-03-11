@@ -1,15 +1,18 @@
 <footer>
     <section class="px-4 bg-orange-500 py-24">
         <div class="container mx-auto max-w-screen-xl flex flex-col text-center">
+            {{ footer_cta | dump }}
             {{ footer_cta }}
                 <h3 class="mt-0 text-lg text-white block font-normal">
                     {{ cta_headline }}
                 </h3>
-                <div>
-                    <a href="{{cta-button}}" class="mt-12 py-4 px-7 inline-block hover:transition-all hover:duration-300 text-white font-bold roundet border-2 border-white hover:bg-white hover:text-orange-500">
-                        {{ cta_button_text }}
-                    </a>
-                </div>
+                {{ if cta_button }}
+                    <div>
+                        <a href="{{ cta_button }}" class="mt-12 py-4 px-7 inline-block hover:transition-all hover:duration-300 text-white font-bold roundet border-2 border-white hover:bg-white hover:text-orange-500">
+                            {{ cta_button_text }}
+                        </a>
+                    </div>
+                {{ /if }}
             {{/footer_cta}}
         </div>
     </section>
