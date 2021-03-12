@@ -1,5 +1,7 @@
-data: {  }
+data:
+  alt: 'Masterarbeit Thema finden'
+  title: 'Masterarbeit Thema finden'
 size: 38018
-last_modified: 1614676232
+last_modified: 1615375573
 width: 886
 height: 499
