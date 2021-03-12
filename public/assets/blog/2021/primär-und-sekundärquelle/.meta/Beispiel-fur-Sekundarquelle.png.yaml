@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Zitieren von Statista'
+  title: 'Zitieren von Statista'
+  caption: "Sekundärquelle von Statista\_ (Quelle: Umfrage zu nachhaltigen Maßnahmen bei Geschäftsreisen der Deutschen: Statista, 2020.)"
 size: 36706
 last_modified: 1615557041
 width: 605
