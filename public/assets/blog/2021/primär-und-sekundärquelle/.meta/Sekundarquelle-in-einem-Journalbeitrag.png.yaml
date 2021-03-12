@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Sekundärquelle im Journaltext'
+  title: 'Sekundärquelle im Journaltext'
+  caption: 'Sekundärquelle im Journaltext'
 size: 13987
 last_modified: 1615557056
 width: 406
