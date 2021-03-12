@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Studiengebühren verschiedener Fernhochschule'
+  title: 'Studiengebühren verschiedener Fernhochschule'
+  caption: 'Studiengebühren verschiedener Fernhochschule (Quelle: Studieren-berufsbegleitend, 2021)'
 size: 26131
 last_modified: 1615531670
 width: 635
