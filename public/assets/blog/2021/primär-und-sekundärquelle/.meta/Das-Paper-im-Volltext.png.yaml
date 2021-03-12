@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Originaler Journalbeitrag im Volltext'
+  title: 'Originaler Journalbeitrag im Volltext'
+  caption: 'Originaler Journalbeitrag im Volltext'
 size: 11541
 last_modified: 1615557043
 width: 605
