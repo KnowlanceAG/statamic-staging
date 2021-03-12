@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Anzahl der Publikationen in Länder'
+  title: 'Anzahl der Publikationen in Länder'
+  caption: 'Ranking der Länder mit den meisten wissenschaftlichen Publikationen im Jahr 2017 (Quelle: in Anlehnung Statista, 2019)'
 size: 6742
 last_modified: 1615560700
 width: 687
