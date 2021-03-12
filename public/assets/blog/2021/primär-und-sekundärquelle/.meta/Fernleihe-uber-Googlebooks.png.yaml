@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Fernleihe über GoogleBooks'
+  title: 'Fernleihe über GoogleBooks'
+  caption: 'Fernleihe über GoogleBooks'
 size: 9128
 last_modified: 1615557045
 width: 246
