@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Journalbeitrag- Titel und Autoren'
+  title: 'Journalbeitrag- Titel und Autoren'
+  caption: 'Titel und Autoren eines Journalbeitrages'
 size: 5410
 last_modified: 1615557060
 width: 605
