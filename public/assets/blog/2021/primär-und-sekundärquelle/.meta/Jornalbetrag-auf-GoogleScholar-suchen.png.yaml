@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Orginalquelle auf GoogleScholar finden'
+  title: 'Orginalquelle auf GoogleScholar finden'
+  caption: 'Primärquelle auf Google Scholar suchen'
 size: 10849
 last_modified: 1615557049
 width: 604
