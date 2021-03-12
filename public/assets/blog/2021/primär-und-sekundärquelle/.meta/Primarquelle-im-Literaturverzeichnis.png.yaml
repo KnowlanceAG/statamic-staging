@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Primärquelle im Literaturverzeichnis'
+  title: 'Primärquelle im Literaturverzeichnis'
+  caption: 'Primärquelle im Literaturverzeichnis'
 size: 3454
 last_modified: 1615557052
 width: 423
