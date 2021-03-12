@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Primärquelle aus Statista'
+  title: 'Primärquelle aus Statista'
+  caption: 'Primärquelle von Statista (Quelle: Chefsache Business Travel Studie S.15, 2020)'
 size: 15944
 last_modified: 1615557039
 width: 605
