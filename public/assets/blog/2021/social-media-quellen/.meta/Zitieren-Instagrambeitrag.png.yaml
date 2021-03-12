@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Instragram quelle zitieren'
+  title: 'Instagram Post zitieren'
+  caption: 'Instagram Post zitieren'
 size: 63161
 last_modified: 1615552003
 width: 605
