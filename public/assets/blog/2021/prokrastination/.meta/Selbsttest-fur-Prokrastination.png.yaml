@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'selbsttest für Prokrastination'
+  title: 'selbsttest für Prokrastination'
+  caption: 'Selbsttest für Prokrastination (Quelle: Westfälische Wilhelms-Universität Münster)'
 size: 36682
 last_modified: 1615547184
 width: 600
