@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: Forschungsmodell
+  title: Forschungsmodell
 size: 17935
 last_modified: 1615551184
 width: 689
