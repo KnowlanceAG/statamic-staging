@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Sekundärquellen im Text'
+  title: 'Sekundärquellen im Text'
+  caption: 'Sekundärquelle im Text und in der Fußnote'
 size: 46017
 last_modified: 1615557054
 width: 592
