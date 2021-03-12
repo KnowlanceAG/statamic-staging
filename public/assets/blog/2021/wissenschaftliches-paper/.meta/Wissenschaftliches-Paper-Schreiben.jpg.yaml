@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Wissenschaftliches Paper schreiben'
+  title: 'Wissenschaftliches Paper schreiben'
 size: 61078
 last_modified: 1615560705
 width: 886
