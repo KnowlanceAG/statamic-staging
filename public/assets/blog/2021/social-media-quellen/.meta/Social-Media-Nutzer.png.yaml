@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Beliebtesten Social Media Kanäle'
+  title: 'Beliebtesten Social Media Kanäle'
+  caption: 'Beliebtesten Social Media Kanäle'
 size: 8699
 last_modified: 1615551997
 width: 319
