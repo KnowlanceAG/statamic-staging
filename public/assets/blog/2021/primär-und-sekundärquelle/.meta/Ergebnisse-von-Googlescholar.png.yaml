@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Suchergebnis auf Google Scholar'
+  title: 'Suchergebnis auf Google Scholar'
+  caption: 'Primärliteratur als PDF'
 size: 12532
 last_modified: 1615557044
 width: 605
