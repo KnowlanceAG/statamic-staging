@@ -1,5 +1,7 @@
-data: {  }
+data:
+  alt: 'Ghostwriter Jobs'
+  title: 'Ghostwriter Jobs'
 size: 472649
-last_modified: 1614928917
+last_modified: 1615375573
 width: 1280
 height: 720
