@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Social Media Quelle als Nachrichtenquelle'
+  title: 'Social Media Quelle als Nachrichtenquelle'
+  caption: 'Social Media Quelle als Nachrichtenquelle (Quelle: Twitter: Klavin M. Asheng, 2020, Global News: Josh K. Elliott, 2020)'
 size: 48904
 last_modified: 1615551996
 width: 731
