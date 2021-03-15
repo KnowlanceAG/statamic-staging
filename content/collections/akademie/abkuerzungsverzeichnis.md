@@ -67,8 +67,6 @@ replicator:
         attrs:
           values:
             type: bilder
-            assets:
-              - akademie/2019-09-18-Abkuerzungsverzeichnis.jpeg
       -
         type: paragraph
         content:
@@ -190,9 +188,9 @@ replicator:
     type: editor
     enabled: true
 downloads:
-  - akademie/Abkuerzungsverzeichnis.docx
+  - /assets/downloads/akademie/Abkuerzungsverzeichnis.docx
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615463100
+updated_at: 1615810577
 academy_short_text-headline: Abkürzungsverzeichnis
 academy_short_text: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel für Ihre Arbeit.'
 use_meta_keywords: false

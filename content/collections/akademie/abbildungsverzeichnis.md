@@ -116,7 +116,7 @@ replicator:
     type: editor
     enabled: true
 downloads:
-  - akademie/Abbildungsverzeichnis.docx
+  - /assets/downloads/akademie/Abbildungsverzeichnis.docx
 page_title: 'Kostenloses Abbildungsverzeichnis für Ihre Hausarbeit herunterladen'
 template: academy-item
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
