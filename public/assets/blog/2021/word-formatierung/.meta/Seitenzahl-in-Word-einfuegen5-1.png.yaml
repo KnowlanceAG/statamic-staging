@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Seitenzahl in Word einfügen'
+  title: 'Seitenzahl in Word einfügen'
+  caption: 'Schritt 4: Seitenzahl in Word formatieren'
 size: 38793
 last_modified: 1615805199
 width: 750
