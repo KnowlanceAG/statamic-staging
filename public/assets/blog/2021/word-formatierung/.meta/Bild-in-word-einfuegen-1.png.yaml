@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Bilder in Word einfügen'
+  title: 'Bilder in Word einfügen'
+  caption: 'Bilder in Word einfügen'
 size: 28182
 last_modified: 1615805182
 width: 750
