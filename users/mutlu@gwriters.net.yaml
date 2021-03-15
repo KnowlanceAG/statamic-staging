@@ -9,4 +9,4 @@ password_hash: $2y$10$agYKPsBLb9Y7TE9kUiJBu.WUe9Ttn9hDcwd.cjoOxGPEDZgSEAva6
 preferences:
   assets:
     assets:
-      mode: grid
+      mode: table
