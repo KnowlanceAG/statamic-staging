@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Quellen und Datenbanken'
+  title: 'Quellen und Datenbanken'
+  caption: 'Quellen in den Datenbanken finden-Eigene Darstellung'
 size: 22839
 last_modified: 1615814134
 width: 728
