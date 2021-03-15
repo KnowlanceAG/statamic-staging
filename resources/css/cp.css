@@ -1,1 +1,13 @@
 /* This is all you. */
+.publish-fields {
+    ul, ol {
+        @apply pl-4 text-gray-550;
+    }
+    ul {
+        @apply list-disc !important;
+    }
+
+    ol {
+        @apply list-decimal !important;
+    }
+}
