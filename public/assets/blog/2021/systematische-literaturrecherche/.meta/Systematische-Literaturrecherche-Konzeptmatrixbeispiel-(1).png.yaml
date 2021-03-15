@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Konzeptmatrixbeispiel nach Webster und Watson'
+  title: 'Konzeptmatrixbeispiel nach Webster und Watson'
+  caption: 'Konzeptmatrixbeispiel nach Webster und Watson'
 size: 13745
 last_modified: 1615799051
 width: 605
