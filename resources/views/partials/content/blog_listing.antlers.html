@@ -4,7 +4,11 @@
             <div class="mb-20">
                 {{ post_image }}
                     <a href="{{ uri }}">
-                        <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
+                        {{ if extension == 'svg' || extension == 'gif' }}
+                            <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
+                        {{ else }}
+                            {{ responsive:post_image alt="{alt}" class="mb-2 mx-auto" }}
+                        {{ /if }}
                     </a>
                 {{ /post_image }}
                 <h3>
