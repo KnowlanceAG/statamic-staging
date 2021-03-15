@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Ghostwriter werden'
+  title: 'Ghostwriter werden'
 size: 105306
 last_modified: 1615824898
 width: 741
