@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'systematische Literaturrecherche'
+  title: 'systematische Literaturrecherche'
 size: 60303
 last_modified: 1615799045
 width: 886
