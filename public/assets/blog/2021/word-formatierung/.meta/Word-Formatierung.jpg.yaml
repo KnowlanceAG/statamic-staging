@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Word formatierung'
+  title: 'Word formatierung'
 size: 48119
 last_modified: 1615800229
 width: 886
