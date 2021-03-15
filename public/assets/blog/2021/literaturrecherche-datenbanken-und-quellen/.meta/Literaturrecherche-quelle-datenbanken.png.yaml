@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'In 4 Schritten Literaturrecherche'
+  title: 'In 4 Schritten Literaturrecherche'
+  caption: 'In 4 Schritten Literaturrecherche-Eigene Darstellung'
 size: 58688
 last_modified: 1615814310
 width: 679
