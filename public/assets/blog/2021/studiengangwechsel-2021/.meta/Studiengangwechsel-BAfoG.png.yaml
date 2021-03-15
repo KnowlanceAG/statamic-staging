@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Studiengangwechsel- BAföG'
+  title: 'Studiengangwechsel- BAföG'
+  caption: 'BAföG: Studiengangwechsel'
 size: 11526
 last_modified: 1615808719
 width: 750
