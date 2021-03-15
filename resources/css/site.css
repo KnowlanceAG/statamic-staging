@@ -75,6 +75,7 @@ ol {
     li {
     }
 }
+
 a.arrow {
     position: relative;
 }
@@ -105,7 +106,7 @@ select {
 }
 
 table {
-    @apply my-8 w-full table-auto;
+    @apply my-8 block w-full table-auto overflow-x-scroll max-w-max;
     tr {
         @apply hover:bg-gray-200;
         &:first-child {
@@ -140,14 +141,19 @@ table {
 }
 
 .content {
-    ul {
-        padding-left: 2rem;
-        list-style: disc;
+    ul, ol {
+        @apply pl-8 text-gray-550;
         li {
             p {
-                margin: 0;
+                @apply m-0;
             }
         }
+    }
+    ul {
+        @apply list-disc;
+    }
+    ol {
+        @apply list-decimal;
     }
 }
 
