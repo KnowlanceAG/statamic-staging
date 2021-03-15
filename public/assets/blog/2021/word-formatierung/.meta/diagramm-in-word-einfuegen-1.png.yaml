@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Diagramm in Word einfügen'
+  title: 'Diagramm in Word einfügen'
+  caption: 'Grafik in Word einfügen'
 size: 13323
 last_modified: 1615805186
 width: 750
