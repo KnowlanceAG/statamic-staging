@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'SCImago Journal Ranking'
+  title: 'SCImago Journal Ranking'
+  caption: 'Journal Rankings, Quelle: Scimago Journal &amp; Country Rank, 2020, S. 1.'
 size: 6299
 last_modified: 1615818746
 width: 832
