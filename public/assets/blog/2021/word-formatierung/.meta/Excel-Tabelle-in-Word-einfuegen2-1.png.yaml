@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Excel-Tabelle in Word einfügen'
+  title: 'Excel-Tabelle in Word einfügen'
+  caption: 'Excel-Tabelle in Word'
 size: 17306
 last_modified: 1615805188
 width: 750

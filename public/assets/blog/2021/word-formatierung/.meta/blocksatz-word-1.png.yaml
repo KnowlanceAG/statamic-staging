@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Blocksatz in Word formatieren'
+  title: 'Blocksatz in Word formatieren'
+  caption: 'Blocksatz in Word formatieren'
 size: 16201
 last_modified: 1615805185
 width: 570
