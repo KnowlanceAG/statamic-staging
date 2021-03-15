@@ -51,7 +51,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615471929
+updated_at: 1615812312
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -163,25 +163,25 @@ replicator:
                     grid:
                       -
                         image:
-                          - icon-ghostwriting.svg
+                          - logo-startseite/icon-ghostwriting.svg
                         headline: GHOSTWRITING
                         hover_content: 'Lassen Sie Ihre wissenschaftliche Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
                         link: null
                       -
                         image:
-                          - icon-lektorat.svg
+                          - logo-startseite/icon-lektorat.svg
                         headline: LEKTORAT
                         hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
                         link: null
                       -
                         image:
-                          - icon-plagiat.svg
+                          - logo-startseite/icon-plagiat.svg
                         headline: PLAGIATSPRÜFUNG
                         hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte.'
                         link: null
                       -
                         image:
-                          - icon-uebersetzung.svg
+                          - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
                         hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische Übersetzungen von akademischen Texten, Arbeiten, usw.'
                         link: null
