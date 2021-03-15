@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Quellenangaben automatisch in Word einfügen'
+  title: 'Quellenangaben automatisch in Word einfügen'
+  caption: 'Quellenangaben automatisch in Word einfügen'
 size: 27322
 last_modified: 1615805175
 width: 750
