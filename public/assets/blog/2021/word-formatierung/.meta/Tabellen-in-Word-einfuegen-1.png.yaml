@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Tabelle in Word formatieren'
+  title: 'Tabelle in Word formatieren'
+  caption: 'Tabelle in Word formatieren'
 size: 11994
 last_modified: 1615805200
 width: 750
