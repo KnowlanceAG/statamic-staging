@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Systematische Literaturrecherche Konzeptmatrix nach Webster und Watson'
+  title: 'Systematische Literaturrecherche Konzeptmatrix nach Webster und Watson'
+  caption: 'Systematische Literaturrecherche : Konzeptmatrix nach Webster und Watson<br /> (Quelle: Webster &amp; Watson, 2002, Table 2)'
 size: 4450
 last_modified: 1615799048
 width: 605
