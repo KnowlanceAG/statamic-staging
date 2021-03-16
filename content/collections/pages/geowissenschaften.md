@@ -1063,6 +1063,15 @@ replicator:
     type: add_section
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1615887056
+updated_at: 1615887144
+template: with-side-bar
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 id: c188d9d1-5d87-4455-9bb5-9327b9fba0b2
 ---
