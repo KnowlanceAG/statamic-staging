@@ -14,10 +14,15 @@ fields:
   -
     handle: text
     field:
+      restrict: false
+      automatic_line_breaks: true
+      automatic_links: false
+      escape_markup: false
+      smartypants: false
       antlers: false
-      display: Text
-      type: textarea
-      icon: textarea
+      display: Markdown
+      type: markdown
+      icon: markdown
       listable: hidden
   -
     handle: ausrichtung
