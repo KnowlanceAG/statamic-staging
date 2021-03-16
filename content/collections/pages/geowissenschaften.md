@@ -420,19 +420,13 @@ replicator:
                           rel: null
                     text: Promotionsberatung
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "\_"
-      -
         type: heading
         attrs:
           level: 2
         content:
           -
             type: text
-            text: 'Akademische Arbeiten:'
+            text: "\_Akademische Arbeiten:"
       -
         type: bullet_list
         content:
@@ -1028,7 +1022,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1615887422
+updated_at: 1615887449
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
