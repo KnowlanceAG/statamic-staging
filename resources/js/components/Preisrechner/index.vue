@@ -1,53 +1,59 @@
 <template>
   <div id="form_preisrechner" class="p-8">
     <h2 class="text-2xl pb-8">Preisrechner</h2>
-    <div class="grid md:grid-cols-2 gap-4">
+    <div class="grid md:grid-cols-2 gap-8">
       <div>
-        <label for="service" class="block">
+        <label for="service" class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">
           Leistung
         </label>
-        <select v-model="service" id="service" class="w-full">
-          <option value="">Leistung wählen..</option>
-          <option
-            v-for="service in serviceOptions"
-            :key="service.key"
-            :value="service.value"
-          >
-            {{ service.key }}
-          </option>
-        </select>
+        <div class="section-wrapper">
+            <select v-model="service" id="service" class="w-full">
+                <option value="">Leistung wählen..</option>
+                <option
+                    v-for="service in serviceOptions"
+                    :key="service.key"
+                    :value="service.value"
+                >
+                    {{ service.key }}
+                </option>
+            </select>
+        </div>
       </div>
       <div>
-        <label for="specialField" class="block">
+        <label for="specialField" class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">
           Fachbereich
         </label>
-        <select v-model="specialField" id="specialField" class="w-full">
-          <option value="">Fachbereich wählen..</option>
-          <option
-            v-for="specialField in specialFieldOptions"
-            :key="specialField.key"
-            :value="specialField.value"
-          >
-            {{ specialField.key }}
-          </option>
-        </select>
+        <div class="section-wrapper">
+            <select v-model="specialField" id="specialField" class="w-full">
+                <option value="">Fachbereich wählen..</option>
+                <option
+                    v-for="specialField in specialFieldOptions"
+                    :key="specialField.key"
+                    :value="specialField.value"
+                >
+                    {{ specialField.key }}
+                </option>
+            </select>
+        </div>
       </div>
       <div>
-        <label for="qualityLevel" class="block">Qualitätslevel</label>
-        <select v-model="qualityLevel" id="qualityLevel" class="w-full">
-          <option value="">Qualitätslevel wählen..</option>
-          <option
-            v-for="qualityLevel in qualityLevelOptions"
-            :key="qualityLevel.key"
-            :value="qualityLevel.value"
-          >
-            {{ qualityLevel.key }}
-          </option>
-        </select>
+        <label for="qualityLevel" class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">Qualitätslevel</label>
+        <div class="section-wrapper">
+            <select v-model="qualityLevel" id="qualityLevel" class="w-full">
+                <option value="">Qualitätslevel wählen..</option>
+                <option
+                    v-for="qualityLevel in qualityLevelOptions"
+                    :key="qualityLevel.key"
+                    :value="qualityLevel.value"
+                >
+                    {{ qualityLevel.key }}
+                </option>
+             </select>
+        </div>
       </div>
-      <div class="grid md:grid-cols-3 gap-4">
+      <div class="grid lg:grid-cols-3 gap-8">
         <div>
-          <label for="pages" class="block">Seiten</label>
+          <label for="pages" class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">Seiten</label>
           <input
             v-model="pages"
             type="number"
@@ -59,28 +65,32 @@
           />
         </div>
 
-        <div class="grid grid-cols-2 col-span-2">
-          <label for="timeUnit" class="block col-span-2">
-            Zeit bis zur Abgabe
-          </label>
-          <input
-            v-model="timeUnit"
-            type="number"
-            pattern="\d*"
-            autocomplete="off"
-            max="99999"
-            id="timeUnit"
-            class="w-full"
-          />
-          <select v-model="timeType" id="timeType" class="w-full">
-            <option
-              v-for="timeType in timeTypeOptions"
-              :key="timeType.key"
-              :value="timeType.value"
-            >
-              {{ timeType.key }}
-            </option>
-          </select>
+        <div>
+            <div class="grid grid-cols-2 col-span-2">
+            <label for="timeUnit" class="block col-span-2">
+                Zeit bis zur Abgabe
+            </label>
+            <input
+                v-model="timeUnit"
+                type="number"
+                pattern="\d*"
+                autocomplete="off"
+                max="99999"
+                id="timeUnit"
+                class="w-full"
+            />
+            <div class="section-wrapper">
+                <select v-model="timeType" id="timeType" class="w-full">
+                    <option
+                    v-for="timeType in timeTypeOptions"
+                    :key="timeType.key"
+                    :value="timeType.value"
+                    >
+                    {{ timeType.key }}
+                    </option>
+                </select>
+              </div>
+            </div>
         </div>
       </div>
       <div>
