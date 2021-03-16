@@ -111,6 +111,12 @@ replicator:
             type: text
             text: .
       -
+        type: set
+        attrs:
+          values:
+            type: video
+            video: 'https://www.youtube.com/watch?v=sV14EgWNl0g'
+      -
         type: heading
         attrs:
           level: 2
@@ -1022,7 +1028,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1615887351
+updated_at: 1615887422
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
