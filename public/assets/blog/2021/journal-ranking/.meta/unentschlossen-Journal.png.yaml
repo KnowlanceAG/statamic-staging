@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Journal Ranking- Wie und wo Zeitschriften gerankt werden'
+  title: 'Journal Ranking- Wie und wo Zeitschriften gerankt werden'
 size: 180995
 last_modified: 1615818768
 width: 708

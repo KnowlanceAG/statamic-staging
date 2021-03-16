@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Google Scholar Citation: Zeitschriften Ranking'
+  title: 'Google Scholar Citation: Zeitschriften Ranking'
+  caption: 'Google Scholar Citation: Zeitschriften Ranking'
 size: 22490
 last_modified: 1615818748
 width: 856

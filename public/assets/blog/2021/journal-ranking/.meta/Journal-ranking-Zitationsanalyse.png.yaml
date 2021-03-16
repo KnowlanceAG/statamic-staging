@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Autor Ranking Liste'
+  title: 'Autor Ranking Liste'
+  caption: 'Autor Ranking Liste, Quelle: Forschungsmonitoring, 2019, o.S.'
 size: 5986
 last_modified: 1615818751
 width: 814

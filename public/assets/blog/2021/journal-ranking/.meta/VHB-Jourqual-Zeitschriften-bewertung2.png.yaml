@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'VHB-Jourqal Journal Ranking Gesamtliste'
+  title: 'VHB-Jourqal Journal Ranking Gesamtliste'
+  caption: 'Liste der Fachzeitschriften in VHB-JOURQUAL3, Quelle: VHB-Jourqal 2019, o.S.'
 size: 89817
 last_modified: 1615818773
 width: 823
