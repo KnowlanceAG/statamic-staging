@@ -10,3 +10,6 @@ preferences:
   assets:
     assets:
       mode: table
+  collections:
+    blog:
+      after_save: continue_editing
