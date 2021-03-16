@@ -1,20 +1,18 @@
 <div class="link-list">
     <div class="block text-center">
         <div class="inline-flex flex-row mb-4 link-list-header">
-            {{ grid }}
-                <p class="{{ if first }}active {{ /if }} font-bold px-6 py-4 uppercase border-b-2 border-gray-200 cursor-pointer" data-target="link-wrapper-{{ index }}">{{ headline }}</p>
-            {{ /grid }}
+            {{ taxonomy_terms }}
+                <p class="{{ if first }}active {{ /if }} font-bold px-6 py-4 uppercase border-b-2 border-gray-200 cursor-pointer" data-target="link-wrapper-{{ index }}">{{ title }}</p>
+            {{ /taxonomy_terms }}
         </div>
     </div>
-    {{ grid }}
+    {{ taxonomy_terms }}
         <div class="link-list-body relative {{ if first }}active {{ /if }}link-wrapper-{{ index }}">
             <div class="grid grid-cols-4">
-                {{ linkliste }}
-                    <a href="{{ url }}" alt={{ title }} class="text-orange-500 text-sm font-Montserrat">
-                        {{ title }}
-                    </a>
-                {{ /linkliste }}
+                {{ taxonomy }}
+                    {{ dump }}
+                {{ /taxonomy }}
             </div>
         </div>
-    {{ /grid }}
+    {{ /taxonomy_terms }}
 </div>
