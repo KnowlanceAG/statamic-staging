@@ -1,0 +1,9 @@
+title: Preisrechner
+fields:
+  -
+    handle: show_calulator
+    field:
+      display: 'Preisrechner anzeigen'
+      type: toggle
+      icon: toggle
+      listable: hidden
