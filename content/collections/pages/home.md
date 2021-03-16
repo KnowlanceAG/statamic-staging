@@ -51,7 +51,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615812312
+updated_at: 1615884361
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -394,15 +394,9 @@ replicator:
                 attrs:
                   values:
                     type: link_liste
-                    grid:
-                      -
-                        headline: Arbeiten
-                        linkliste:
-                          - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
-                      -
-                        headline: Fachrichtungen
-                        linkliste:
-                          - 1eca4337-5857-4666-9768-1f7789824f01
+                    taxonomy_terms:
+                      - arbeiten
+                      - fachrichtungen
               -
                 type: paragraph
         type: row

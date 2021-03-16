@@ -1,4 +1,6 @@
 title: Pages
+taxonomies:
+  - arbeiten_link_liste
 revisions: false
 route: '{parent_uri}/{slug}'
 structure:
