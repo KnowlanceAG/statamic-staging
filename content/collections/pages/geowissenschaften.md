@@ -16,7 +16,7 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6602!important'
+              color: '#ff6602'
         text: 'Ghostwriter Geowissenschaften'
   -
     type: paragraph
@@ -693,105 +693,250 @@ replicator:
             type: text
             text: 'Vertiefungen in den Geowissenschaften'
       -
-        type: heading
-        attrs:
-          level: 3
+        type: table
         content:
           -
-            type: text
-            text: 'Disziplinen:'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
+            type: table_row
+            content:
               -
-                type: bold
-            text: 'Geologie:'
-          -
-            type: text
-            text: ' die Forschung von Entstehung, Aufbau, Zusammensetzung, Aufstellung der Erdkruste und den dort stattfindenden Prozessen. Mit dem Ziel, zum Beispiel für Erdbeben eine wissenschaftliche Erklärung zu finden.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Teildisziplinen:'
-          -
-            type: hard_break
-          -
-            type: text
-            text: 'Angewandte Geologie, Bodenkunde, Sedimentologie, Tektonik'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
               -
-                type: bold
-            text: 'Mineralogie:'
-          -
-            type: text
-            text: ' Wissen über die Entwicklung und Eigenschaften von Mineralen zu finden. Aus Mineralen werden Gesteine aufgebaut.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Teildisziplinen:'
-          -
-            type: hard_break
-          -
-            type: text
-            text: 'Kristallografie, Petrologie, Geochemie, Angewandte Mineralogie'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: Disziplinen
               -
-                type: bold
-            text: 'Paläontologie:'
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: Teildisziplinen
           -
-            type: text
-            text: ' Die Erforschung von Lebewesen der Urzeit. Paläontologen erforschen zusammen mit den Geologen die Entwicklungsgeschichte der Organismen sowie die Historie des ganzen Planeten. Durch die Paläontologie und deren Prozesse kann die Entwicklung des Lebens auf der Erde wissenschaftlich untersucht werden.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Teildisziplinen:'
-          -
-            type: hard_break
-          -
-            type: text
-            text: 'Paläozoologie, Palägeografie, Paläobotanik'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
+            type: table_row
+            content:
               -
-                type: bold
-            text: 'Geophysik:'
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'Geologie:'
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'die Forschung von Entstehung, Aufbau, Zusammensetzung, Aufstellung der Erdkruste und den dort stattfindenden Prozessen. Mit dem Ziel, zum Beispiel für Erdbeben eine wissenschaftliche Erklärung zu finden.'
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Angewandte Geologie, Bodenkunde, Sedimentologie, Tektonik'
           -
-            type: text
-            text: ' Geophysiker erforschen die physikalischen Eigenschaften im Erdinneren und auf der Erdkruste, wie Vulkanausbrüche, Erdbeben, Erdplattenverschiebungen.'
-      -
-        type: paragraph
-        content:
+            type: table_row
+            content:
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'Mineralogie:'
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Wissen über die Entwicklung und Eigenschaften von Mineralen zu finden. Aus Mineralen werden Gesteine aufgebaut.'
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Kristallografie, Petrologie, Geochemie, Angewandte Mineralogie'
           -
-            type: text
-            text: 'Teildisziplinen:'
+            type: table_row
+            content:
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'Paläontologie:'
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Die Erforschung von Lebewesen der Urzeit. Paläontologen erforschen zusammen mit den Geologen die Entwicklungsgeschichte der Organismen sowie die Historie des ganzen Planeten. Durch die Paläontologie und deren Prozesse kann die Entwicklung des Lebens auf der Erde wissenschaftlich untersucht werden.'
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Paläozoologie, Palägeografie, Paläobotanik'
           -
-            type: hard_break
-          -
-            type: text
-            text: 'Seismologie, Angewandte Geophysik, Meteorologie'
+            type: table_row
+            content:
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'Geophysik:'
+                      -
+                        type: text
+                        text: ' '
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Geophysiker erforschen die physikalischen Eigenschaften im Erdinneren und auf der Erdkruste, wie Vulkanausbrüche, Erdbeben, Erdplattenverschiebungen.'
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Seismologie, Angewandte Geophysik, Meteorologie'
       -
         type: heading
         attrs:
@@ -1022,7 +1167,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1615887566
+updated_at: 1615888349
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
