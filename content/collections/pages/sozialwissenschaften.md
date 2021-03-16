@@ -41,7 +41,7 @@ replicator:
         content:
           -
             type: text
-            text: "\_Ein Studium der Sozialwissenschaften ist ein sehr interessantes, vielfältiges und abwechslungsreiches Studium. Das zeigt sich insbesondere darin, dass die Berufschancen danach sehr hoch sind. Aufgrund der hohen Anzahl von Absolventen in diesem Fachbereich ist für eine sozialwissenschaftliche Karriere ein hervorragender Abschluss besonders wichtig, um sich von konkurrierenden Absolventen abzusetzen. Um die eigenen Chancen auf einen guten Abschluss zu steigern, werden im Fachbereich der Sozialwissenschaften "
+            text: 'Ein Studium der Sozialwissenschaften ist ein sehr interessantes, vielfältiges und abwechslungsreiches Studium. Das zeigt sich insbesondere darin, dass die Berufschancen danach sehr hoch sind. Aufgrund der hohen Anzahl von Absolventen in diesem Fachbereich ist für eine sozialwissenschaftliche Karriere ein hervorragender Abschluss besonders wichtig, um sich von konkurrierenden Absolventen abzusetzen. Um die eigenen Chancen auf einen guten Abschluss zu steigern, werden im Fachbereich der Sozialwissenschaften '
           -
             type: text
             marks:
@@ -868,7 +868,7 @@ replicator:
                 attrs:
                   href: 'https://www.fu-berlin.de/einrichtungen/fachbereiche/fb/pol-soz/index.html'
                   target: _blank
-                  rel: 'noopener noreferrer nofollow'
+                  rel: 'noopener noreferrer'
             text: 'Freie-Universität in Berlin'
           -
             type: text
@@ -881,7 +881,7 @@ replicator:
                 attrs:
                   href: 'https://www.uni-frankfurt.de/60381510/Geistes--_-Sozialwissenschaften'
                   target: _blank
-                  rel: 'noopener noreferrer nofollow'
+                  rel: 'noopener noreferrer'
             text: 'Goethe-Universität in Frankfurt am Main'
           -
             type: text
@@ -935,6 +935,15 @@ replicator:
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1615892856
+updated_at: 1615892995
+meta_description: 'Geowissenschaften studieren? Abschluss und Unterstützung durch Experten und akademische Ghostwriter in Geowissenschaften ✅🎓'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 id: 6300bfa7-4b29-41fb-a2d9-422ef612d3d4
 ---
