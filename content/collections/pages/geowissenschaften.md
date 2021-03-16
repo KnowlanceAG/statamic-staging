@@ -1052,8 +1052,8 @@ replicator:
                 type: link
                 attrs:
                   href: 'https://www.uni-frankfurt.de/45741218/Willkommen_am_Institut_f%C3%BCr_Geowissenschaften'
-                  target: null
-                  rel: null
+                  target: _blank
+                  rel: 'noopener noreferrer'
             text: ' Johann Wolfgang-Goethe-Universität'
           -
             type: text
@@ -1065,8 +1065,8 @@ replicator:
                 type: link
                 attrs:
                   href: 'https://www.igw.uni-jena.de/'
-                  target: null
-                  rel: null
+                  target: _blank
+                  rel: 'noopener noreferrer'
             text: Friedrich-Schiller-Universität
           -
             type: text
@@ -1167,7 +1167,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1615888349
+updated_at: 1615892925
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
