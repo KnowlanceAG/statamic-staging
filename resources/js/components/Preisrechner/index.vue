@@ -1,7 +1,7 @@
 <template>
   <div id="form_preisrechner" class="p-8">
     <h2 class="text-2xl pb-8">Preisrechner</h2>
-    <div class="grid md:grid-cols-2 gap-8">
+    <div class="grid lg:grid-cols-2 gap-8">
       <div>
         <label for="service" class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">
           Leistung
@@ -53,59 +53,56 @@
       </div>
       <div class="grid lg:grid-cols-3 gap-8">
         <div>
-          <label for="pages" class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">Seiten</label>
-          <input
-            v-model="pages"
-            type="number"
-            pattern="\d*"
-            autocomplete="off"
-            max="9999"
-            id="pages"
-            class="w-full"
-          />
-        </div>
-
-        <div>
-            <div class="grid grid-cols-2 col-span-2">
-            <label for="timeUnit" class="block col-span-2">
-                Zeit bis zur Abgabe
-            </label>
+            <label for="pages" class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">Seiten</label>
             <input
-                v-model="timeUnit"
+                v-model="pages"
                 type="number"
                 pattern="\d*"
                 autocomplete="off"
-                max="99999"
-                id="timeUnit"
+                max="9999"
+                id="pages"
                 class="w-full"
             />
-            <div class="section-wrapper">
-                <select v-model="timeType" id="timeType" class="w-full">
-                    <option
-                    v-for="timeType in timeTypeOptions"
-                    :key="timeType.key"
-                    :value="timeType.value"
-                    >
-                    {{ timeType.key }}
-                    </option>
-                </select>
-              </div>
+        </div>
+        <div class="lg:col-span-2">
+            <div class="grid lg:grid-cols-2 gap-x-8">
+                <label for="timeUnit" class="block uppercase tracking-wide text-black text-xs mt-4 mb-1 col-span-2">
+                    Zeit bis zur Abgabe
+                </label>
+                <input
+                    v-model="timeUnit"
+                    type="number"
+                    pattern="\d*"
+                    autocomplete="off"
+                    max="99999"
+                    id="timeUnit"
+                    class="w-full"
+                />
+                <div class="section-wrapper">
+                    <select v-model="timeType" id="timeType" class="w-full">
+                        <option
+                        v-for="timeType in timeTypeOptions"
+                        :key="timeType.key"
+                        :value="timeType.value"
+                        >
+                        {{ timeType.key }}
+                        </option>
+                    </select>
+                </div>
             </div>
         </div>
       </div>
       <div>
-        <p>
-          <small>
+        <p class="text-xs leading-5">
             Die angezeigte Preiskalkulation dient zur Vermittlung einer groben
             Preisvorstellung. Ein individuelles &amp; unverbindliches
             Preisangebot erhalten Sie innerhalb weniger Stunden über das
             nebenstehend verlinkte Anfrageformular, per Mail oder Telefon.
-          </small>
         </p>
       </div>
       <div>
-        <div class="bg-gray-200 p-4">
-          <div v-if="result">
+        <div class="bg-gray-200">
+          <div v-if="result" class="p-4 text-green-500 bg-green-300 border border-green-400">
             <label class="control-label">berechneter Preis</label>
             <h2
               id="preisrechner_result"
@@ -116,11 +113,11 @@
             <label class="control-label">inkl. MwSt.</label>
           </div>
           <div v-else>
-            <p v-if="pagesPerDay > 50">
+            <p v-if="pagesPerDay > 50" class="p-4 text-xs leading-5 text-red-500 bg-red-300 border border-red-400">
               Es können maximal 50 Seiten pro Tag bearbeitet werden, bitte
               korrigieren Sie Ihre Eingabe.
             </p>
-            <p v-else>
+            <p v-else class="p-4 text-xs leading-5 text-green-500 bg-green-300 border border-green-400">
               Bitte alle Felder ausfüllen, vorher kann kein Preis berechnet
               werden.
             </p>
