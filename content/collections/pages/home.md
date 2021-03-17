@@ -14,7 +14,19 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Akademische Ghostwriter helfen. '
+          -
+            type: textColor
+            attrs:
+              color: '#f59e0b'
+        text: Akademische
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: ' Ghostwriter helfen. '
       -
         type: text
         marks:
@@ -51,7 +63,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615884361
+updated_at: 1615906008
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false

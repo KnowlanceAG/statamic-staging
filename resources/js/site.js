@@ -1,5 +1,3 @@
-import App from './app.js';
-
 function menuOpener() {
     var menu = document.querySelector(".menu-mobile");
     var body = document.querySelector(".body");
