@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Exposé erstellen'
+  title: 'Exposé erstellen'
 size: 46887
 last_modified: 1616086213
 width: 1024
