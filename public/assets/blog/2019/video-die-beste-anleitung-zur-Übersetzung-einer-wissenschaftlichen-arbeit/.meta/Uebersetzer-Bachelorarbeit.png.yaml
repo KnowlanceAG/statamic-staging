@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Übersetzerprogramm Bachelorarbeit'
+  title: 'Übersetzerprogramm Bachelorarbeit'
+  caption: 'Übersetzerprogramm Grammarly'
 size: 50016
 last_modified: 1616182266
 width: 750
