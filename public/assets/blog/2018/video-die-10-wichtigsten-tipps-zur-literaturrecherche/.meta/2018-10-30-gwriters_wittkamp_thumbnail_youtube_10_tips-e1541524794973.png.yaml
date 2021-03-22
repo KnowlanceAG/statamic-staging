@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Die 10 wichtigsten Tipps zur Literaturrecherche'
+  title: 'Die 10 wichtigsten Tipps zur Literaturrecherche'
 size: 185072
 last_modified: 1616440877
 width: 840
