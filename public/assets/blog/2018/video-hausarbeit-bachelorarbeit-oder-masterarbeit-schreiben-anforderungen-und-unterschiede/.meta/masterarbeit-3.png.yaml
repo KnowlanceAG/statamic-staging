@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Masterarbeit schreiben'
+  title: 'Masterarbeit schreiben'
 size: 5166
 last_modified: 1616438171
 width: 1024
