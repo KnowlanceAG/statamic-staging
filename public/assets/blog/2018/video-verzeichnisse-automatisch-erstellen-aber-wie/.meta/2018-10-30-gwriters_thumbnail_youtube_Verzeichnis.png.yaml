@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Verzeichnisse automatisch erstellen – Aber wie?'
+  title: 'Verzeichnisse automatisch erstellen – Aber wie?'
 size: 206072
 last_modified: 1616439331
 width: 1280
