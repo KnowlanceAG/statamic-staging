@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Bachelorarbeit schreiben'
+  title: 'Bachelorarbeit schreiben'
 size: 7050
 last_modified: 1616438146
 width: 1024
