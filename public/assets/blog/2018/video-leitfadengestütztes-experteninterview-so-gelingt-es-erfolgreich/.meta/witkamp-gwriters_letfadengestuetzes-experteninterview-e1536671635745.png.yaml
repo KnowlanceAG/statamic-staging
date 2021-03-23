@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Leitfadengestütztes Experteninterview - So gelingt es erfolgreich'
+  title: 'Leitfadengestütztes Experteninterview - So gelingt es erfolgreich'
 size: 202150
 last_modified: 1616490089
 width: 889
