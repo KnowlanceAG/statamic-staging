@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Powerpoint Vorlage erstellen'
+  title: 'Powerpoint Vorlage erstellen'
+  caption: 'Masterlayout-PowerPoint Präsentation'
 size: 36316
 last_modified: 1616706484
 width: 441
