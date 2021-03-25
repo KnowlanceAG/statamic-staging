@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Mustervorlage für eine Powerpointpräsentation-Bachelorarbeit'
+  title: 'Mustervorlage für eine Powerpointpräsentation-Bachelorarbeit'
+  caption: 'SMARTART-Grafiken mit Powerpoint erstellen'
 size: 23272
 last_modified: 1616706706
 width: 761
