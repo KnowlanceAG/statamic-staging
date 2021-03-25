@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Grafiken in Powerpoint einfügen'
+  title: 'Grafiken in Powerpoint einfügen'
+  caption: 'Unterschiedliche Medien in PowerPoint einfügen'
 size: 13575
 last_modified: 1616706699
 width: 533
