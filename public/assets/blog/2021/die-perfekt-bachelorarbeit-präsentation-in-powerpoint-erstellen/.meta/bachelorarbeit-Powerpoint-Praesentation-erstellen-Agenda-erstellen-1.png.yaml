@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Agendafolie Powerpoint Präsentation'
+  title: 'Agendafolie Powerpoint Präsentation'
+  caption: 'Agendafolie der Powerpoint Präsentation'
 size: 35395
 last_modified: 1616706489
 width: 750
