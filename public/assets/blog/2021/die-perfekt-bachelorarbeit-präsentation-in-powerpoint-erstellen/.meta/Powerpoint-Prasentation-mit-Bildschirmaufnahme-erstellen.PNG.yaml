@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Powerpoint Präsentation mit Bildschirmaufnahme erstellen'
+  title: 'Powerpoint Präsentation mit Bildschirmaufnahme erstellen'
+  caption: 'Bildschirmpräsentation aufzeichnen'
 size: 2533
 last_modified: 1616706720
 width: 171
