@@ -148,6 +148,9 @@ return [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
+        'e-mail_adresse' => [
+            'austria_mail' => 'test nachricht',
+        ],
     ],
 
     /*

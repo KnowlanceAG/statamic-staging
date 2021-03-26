@@ -10,71 +10,74 @@
 
     {{ else }}
 
-    <div class="flex flex-wrap">
-        {{ fields }}
-            <div class="{{ if width==50 }}w-full lg:w-1/2 {{ else }}w-full {{ /if }}mb-6 md:mb-0 pr-4">
+        <div class="flex flex-wrap">
+            {{ fields }}
+                <div class="{{ if width==50 }}w-full lg:w-1/2 {{ else }}w-full {{ /if }}mb-6 md:mb-0 pr-4">
 
-                {{ if type=="checkboxes" }}
-                    <label class="block uppercase tracking-wide text-black text-xs mb-8 mt-8">
-                        <input type="checkbox" name="{{ handle }}" class="mr-1" />
-                        {{ display }}
-                        {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
-                    </label>
+                    {{ if type=="checkboxes" }}
+                        <label class="block uppercase tracking-wide text-black text-xs mb-8 mt-8">
+                            <input type="checkbox" name="{{ handle }}" class="mr-1" />
+                            {{ display }}
+                            {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
+                        </label>
 
-                {{ elseif type=="textarea" }}
+                    {{ elseif type=="textarea" }}
+                        <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">
+                            {{ display }}
+                            {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
+                        </label>
+
+                    {{ elseif handle=="file" }}
                     <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">
                         {{ display }}
                         {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
                     </label>
 
-                    {{ field }}
 
-                {{ elseif handle=="file" }}
-                <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">
-                    {{ display }}
-                    {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
-                </label>
+                    {{ else }}
+                        <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">
+                            {{ display }}
+                            {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
+                        </label>
 
-                {{ field }}
+                    {{ /if }}
 
+                    {{ if error }}<div class="border border-red-500">{{ /if }}
+                        {{ field }}
+                    {{ if error }}</div>{{ /if }}
+
+
+                    {{ if error }}
+                        <p class="text-red-500 text-xs italic">
+                            {{ dump }}
+                            {{ if value }}
+                                {{ value }}
+                            {{ else }}
+                                {{ error }}
+                            {{ /if }}
+                        </p>
+                    {{ /if }}
+                </div>
+            {{ /fields }}
+
+        </div>
+        <div class="my-4">
+            {{ form_info_text }}
+                {{ text }}
+            {{ /form_info_text }}
+        </div>
+        <button
+            class="bg-orange-500 hover:bg-orange-700 px-10 py-3 mt-8 inline-block text-white font-300 uppercase rounded-sm hover:transition-colors hover:duration-200 hover:bg-opacity-95"
+            type="submit">
+                {{ if form.handle == 'autorenbewerbung'}}
+                    BEWERBUNG ABSENDEN
+                {{ elseif form.handle == 'anfrage'}}
+                    Anfrage absenden
                 {{ else }}
-                    <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">
-                        {{ display }}
-                        {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
-                    </label>
-
-                    {{ field }}
-
+                    Absenden
                 {{ /if }}
 
-                {{ if error }}
-                <p class="text-red-500 text-xs italic">
-                    {{ form_error }}
-                    {{ form_error_text }}
-                    {{ /form_error }}
-                </p>
-                {{ /if }}
-            </div>
-        {{ /fields }}
-
-    </div>
-    <div class="my-4">
-        {{ form_info_text }}
-            {{ text }}
-        {{ /form_info_text }}
-    </div>
-    <button
-        class="bg-orange-500 hover:bg-orange-700 px-10 py-3 mt-8 inline-block text-white font-300 uppercase rounded-sm hover:transition-colors hover:duration-200 hover:bg-opacity-95"
-        type="submit">
-            {{ if form.handle == 'autorenbewerbung'}}
-                BEWERBUNG ABSENDEN
-            {{ elseif form.handle == 'anfrage'}}
-                Anfrage absenden
-            {{ else }}
-                Absenden
-            {{ /if }}
-
-    </button>
+        </button>
 
     {{ /if }}
 </div>

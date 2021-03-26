@@ -31,6 +31,9 @@ sections:
           type: text
           icon: text
           listable: hidden
+          validate:
+            - required
+            - austria_mail
       -
         handle: telefon
         field:
@@ -71,6 +74,8 @@ sections:
           type: select
           icon: select
           listable: hidden
+          validate:
+            - required
       -
         handle: arbeitsthema_spezifikationen_usw
         field:
@@ -79,6 +84,8 @@ sections:
           type: textarea
           icon: textarea
           listable: hidden
+          validate:
+            - required
       -
         handle: seitenzahl
         field:
