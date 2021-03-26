@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'korrektorate bei gwriters'
+  title: 'korrektorate bei gwriters'
 size: 11520
 last_modified: 1616777064
 width: 180
