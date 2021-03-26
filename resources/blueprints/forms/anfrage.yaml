@@ -43,6 +43,8 @@ sections:
           type: text
           icon: text
           listable: hidden
+          validate:
+            - austria_phone
       -
         handle: fachrichtung
         field:

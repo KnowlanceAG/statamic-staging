@@ -12,7 +12,7 @@
         }
         public function validateAustriaPhone($attribute, $value, $parameters)
         {
-            return !preg_match('/\.at$/i', $value);
+            return !preg_match('/(\+43)|(0043)/i', $value);
         }
     }
 ?>

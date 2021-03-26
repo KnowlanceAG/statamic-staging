@@ -149,7 +149,10 @@ return [
             'rule-name' => 'custom-message',
         ],
         'e-mail_adresse' => [
-            'austria_mail' => 'test nachricht',
+            'austria_mail' => 'Anfragen aus Östereich können wir leider nicht bearbeiten.',
+        ],
+        'telefon' => [
+            'austria_phone' => 'Anfragen aus Östereich können wir leider nicht bearbeiten.',
         ],
     ],
 
