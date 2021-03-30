@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1617093453
+updated_at: 1617093463
 teaser:
   -
     type: heading
@@ -13,6 +13,8 @@ teaser:
       -
         type: text
         marks:
+          -
+            type: bold
           -
             type: textAlign
             attrs:
