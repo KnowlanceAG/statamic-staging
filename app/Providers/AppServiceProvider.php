@@ -40,6 +40,7 @@ class AppServiceProvider extends ServiceProvider
                 File::move($web, $oldWeb);
                 File::move($static, $web);
                 File::delete($oldWeb);
+                File::delete(CpssgController::$lockfileName);
                 Log::debug('SSG finished!');
             });
         }
