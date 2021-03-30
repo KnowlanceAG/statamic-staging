@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1617093441
+updated_at: 1617093453
 teaser:
   -
     type: heading
@@ -17,7 +17,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Hallo Weld'
+        text: 'Hallo Welt'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
