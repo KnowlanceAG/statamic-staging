@@ -36,11 +36,21 @@ class AppServiceProvider extends ServiceProvider
                 $static = base_path() . '/storage/app/static';
                 $web = base_path() . '/storage/app/web';
                 $oldWeb = base_path() . '/storage/app/web.old';
-
-                File::move($web, $oldWeb);
-                File::move($static, $web);
-                File::delete($oldWeb);
-                File::delete(CpssgController::$lockfileName);
+                if (File::exists($oldWeb)) {
+                    File::delete($oldWeb);
+                }
+                if (File::exists($web)) {
+                    File::move($web, $oldWeb);
+                }
+                if (File::exists($static)) {
+                    File::move($static, $web);
+                }
+                if (File::exists($oldWeb)) {
+                    File::delete($oldWeb);
+                }
+                if (File::exists(CpssgController::$lockfileName)) {
+                    File::delete(CpssgController::$lockfileName);
+                }
                 Log::debug('SSG finished!');
             });
         }
