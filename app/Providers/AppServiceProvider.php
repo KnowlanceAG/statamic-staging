@@ -33,13 +33,13 @@ class AppServiceProvider extends ServiceProvider
         Statamic::style('app', 'cp.css');
         if ($ssg) {
             $ssg->after(function () {
-                // restore symlink
-                Log::debug('Restoring symlink.');
-                $staticDir = base_path() . '/storage/app/static';
-                $outLink =  base_path() . '/storage/app/out';
-                File::delete($outLink);
-                File::link($staticDir, $outLink);
-                File::delete(CpssgController::$lockfileName);
+                $static = base_path() . '/storage/app/static';
+                $web = base_path() . '/storage/app/web';
+                $oldWeb = base_path() . '/storage/app/web.old';
+
+                File::move($web, $oldWeb);
+                File::move($static, $web);
+                File::delete($oldWeb);
                 Log::debug('SSG finished.');
             });
         }
