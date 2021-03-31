@@ -1,0 +1,17 @@
+{{ dateien }}
+    {{ if extension == 'svg' || extension == 'gif' }}
+        <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-auto mx-auto" />
+        {{ if caption }}
+            <figcaption class="text-center">
+                <i class="text-sm text-gray-550">{{ caption }}</i>
+            </figcaption>
+        {{ /if }}
+    {{ else }}
+        {{ responsive:dateien alt="{alt}" class="m-4 {{ float }} {{ img_size }} h-auto" }}
+        {{ if caption }}
+            <figcaption class="text-center">
+                <i class="text-sm text-gray-550">{{ caption }}</i>
+            </figcaption>
+        {{ /if }}
+    {{ /if }}
+{{ /dateien }}

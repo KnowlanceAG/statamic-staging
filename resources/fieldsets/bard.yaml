@@ -124,3 +124,9 @@ fields:
           fields:
             -
               import: bild-text
+        floating-img:
+          display: 'Floating Bild'
+          fields:
+            -
+              import: floating_img
+      container: assets

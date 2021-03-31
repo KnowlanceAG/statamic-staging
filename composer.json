@@ -10,19 +10,19 @@
     "type": "project",
     "require": {
         "php": "^7.3 || ^8.0",
-        "doublethreedigital/duplicator": "^1.2",
+        "doublethreedigital/duplicator": "1.3.0",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.3",
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
-        "optimoapps/statamic-bard-text-align": "^1.0",
-        "spatie/statamic-responsive-images": "^2.5",
+        "optimoapps/statamic-bard-text-align": "1.0.2",
+        "spatie/statamic-responsive-images": "2.5.3",
         "statamic/cms": "3.0.49",
         "statamic/ssg": "^0.2.0",
         "uscreen/cpssg": "*",
         "uscreen/link-extended": "*",
-        "withcandour/aardvark-seo": "^2.0",
+        "withcandour/aardvark-seo": "2.0.10",
         "xndbogdan/statamic-bard-text-color": "^1.0"
     },
     "require-dev": {

@@ -1,0 +1,48 @@
+title: 'Floating Bild'
+fields:
+  -
+    handle: dateien
+    field:
+      mode: grid
+      container: assets
+      restrict: false
+      allow_uploads: true
+      display: Dateien
+      type: assets
+      icon: assets
+      listable: hidden
+  -
+    handle: float
+    field:
+      options:
+        mx-auto: Zentriert
+        float-left: 'Links ausgerichtet'
+        float-right: 'Rechts ausgerichtet'
+      multiple: false
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: Ausrichtung
+      type: select
+      icon: select
+      listable: hidden
+  -
+    handle: img_size
+    field:
+      options:
+        w-auto: 'Volle Breite'
+        w-3/4: 'Dreiviertel Breite'
+        w-1/2: 'Halbe Breite'
+        w-1/4: 'Viertel Breite'
+      multiple: false
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: 'Bild Größe'
+      type: select
+      icon: select
+      listable: hidden
