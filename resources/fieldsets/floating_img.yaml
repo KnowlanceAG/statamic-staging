@@ -16,8 +16,8 @@ fields:
     field:
       options:
         mx-auto: Zentriert
-        float-left: 'Float Left'
-        float-right: 'Float Rigth'
+        float-left: 'Links ausgerichtet'
+        float-right: 'Rechts ausgerichtet'
       multiple: false
       clearable: false
       searchable: true
@@ -32,10 +32,10 @@ fields:
     handle: img_size
     field:
       options:
-        w-auto: 'Volle Größe'
-        w-1/2: 'Halbe Größe'
-        w-1/4: 'Viertel Größe'
-        w-3/4: 'Dreiviertel Größe'
+        w-auto: 'Volle Breite'
+        w-3/4: 'Dreiviertel Breite'
+        w-1/2: 'Halbe Breite'
+        w-1/4: 'Viertel Breite'
       multiple: false
       clearable: false
       searchable: true
