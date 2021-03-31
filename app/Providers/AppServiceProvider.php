@@ -37,7 +37,7 @@ class AppServiceProvider extends ServiceProvider
                 $web = base_path() . '/storage/app/web';
                 $oldWeb = base_path() . '/storage/app/web.old';
                 if (File::exists($oldWeb)) {
-                    File::delete($oldWeb);
+                    File::deleteDirectory($oldWeb);
                 }
                 if (File::exists($web)) {
                     File::move($web, $oldWeb);
@@ -46,7 +46,7 @@ class AppServiceProvider extends ServiceProvider
                     File::move($static, $web);
                 }
                 if (File::exists($oldWeb)) {
-                    File::delete($oldWeb);
+                    File::deleteDirectory($oldWeb);
                 }
                 if (File::exists(CpssgController::$lockfileName)) {
                     File::delete(CpssgController::$lockfileName);
