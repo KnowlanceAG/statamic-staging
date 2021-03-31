@@ -1,8 +1,5 @@
 <?php
 
-use App\Http\Controllers\DynamicToken;
-use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 // Route::statamic('example', 'example-view', [
 //    'title' => 'Example'
 // ]);
-Route::get('/!/DynamicToken/refresh', [DynamicToken::class, 'getRefresh']);
+
 
