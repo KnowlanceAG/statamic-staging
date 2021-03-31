@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c48cbaafeb0af35e091fa131d492c63",
+    "content-hash": "2504d399de70629f273b987d7a8040a6",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -709,21 +709,21 @@
         },
         {
             "name": "doublethreedigital/duplicator",
-            "version": "v1.2.3",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doublethreedigital/duplicator.git",
-                "reference": "14695bc617f2120e6e081b688f674664e6d9789f"
+                "reference": "a638f2ff79dc57dd8cbc273114933ae963a0d6ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doublethreedigital/duplicator/zipball/14695bc617f2120e6e081b688f674664e6d9789f",
-                "reference": "14695bc617f2120e6e081b688f674664e6d9789f",
+                "url": "https://api.github.com/repos/doublethreedigital/duplicator/zipball/a638f2ff79dc57dd8cbc273114933ae963a0d6ae",
+                "reference": "a638f2ff79dc57dd8cbc273114933ae963a0d6ae",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.3 || ^7.4 || ^8.0",
-                "statamic/cms": "3.0.*"
+                "statamic/cms": "3.0.* || 3.1.*"
             },
             "require-dev": {
                 "nunomaduro/collision": "^4.2",
@@ -751,7 +751,11 @@
                 "proprietary"
             ],
             "description": "Duplicate Entries in the Statamic 3 Control Panel",
-            "time": "2020-12-31T14:15:59+00:00"
+            "support": {
+                "issues": "https://github.com/doublethreedigital/duplicator/issues",
+                "source": "https://github.com/doublethreedigital/duplicator/tree/v1.3.0"
+            },
+            "time": "2021-03-30T20:32:56+00:00"
         },
         {
             "name": "dragonmantank/cron-expression",
@@ -1775,16 +1779,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "1.5.7",
+            "version": "1.5.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "11df9b36fd4f1d2b727a73bf14931d81373b9a54"
+                "reference": "08fa59b8e4e34ea8a773d55139ae9ac0e0aecbaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/11df9b36fd4f1d2b727a73bf14931d81373b9a54",
-                "reference": "11df9b36fd4f1d2b727a73bf14931d81373b9a54",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/08fa59b8e4e34ea8a773d55139ae9ac0e0aecbaf",
+                "reference": "08fa59b8e4e34ea8a773d55139ae9ac0e0aecbaf",
                 "shasum": ""
             },
             "require": {
@@ -1872,26 +1876,26 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-31T13:49:32+00:00"
+            "time": "2021-03-28T18:51:39+00:00"
         },
         {
             "name": "league/csv",
-            "version": "9.6.2",
+            "version": "9.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/csv.git",
-                "reference": "f28da6e483bf979bac10e2add384c90ae9983e4e"
+                "reference": "4cacd9c72c4aa8bdbef43315b2ca25c46a0f833f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/csv/zipball/f28da6e483bf979bac10e2add384c90ae9983e4e",
-                "reference": "f28da6e483bf979bac10e2add384c90ae9983e4e",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/4cacd9c72c4aa8bdbef43315b2ca25c46a0f833f",
+                "reference": "4cacd9c72c4aa8bdbef43315b2ca25c46a0f833f",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "php": ">=7.2.5"
+                "php": "^7.3 || ^8.0"
             },
             "require-dev": {
                 "ext-curl": "*",
@@ -1900,7 +1904,7 @@
                 "phpstan/phpstan": "^0.12.0",
                 "phpstan/phpstan-phpunit": "^0.12.0",
                 "phpstan/phpstan-strict-rules": "^0.12.0",
-                "phpunit/phpunit": "^8.5"
+                "phpunit/phpunit": "^9.5"
             },
             "suggest": {
                 "ext-dom": "Required to use the XMLConverter and or the HTMLConverter classes",
@@ -1956,7 +1960,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-12-10T19:40:30+00:00"
+            "time": "2021-03-26T22:08:10+00:00"
         },
         {
             "name": "league/flysystem",
@@ -2524,20 +2528,20 @@
         },
         {
             "name": "optimoapps/statamic-bard-text-align",
-            "version": "V1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OptimoApps/statamic-bard-text-align.git",
-                "reference": "ac5d1fc47f0a245561271cfc7ccb89d20c247380"
+                "reference": "20b1773abc109cc9d1f8b0a9e517bb35245c7dca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OptimoApps/statamic-bard-text-align/zipball/ac5d1fc47f0a245561271cfc7ccb89d20c247380",
-                "reference": "ac5d1fc47f0a245561271cfc7ccb89d20c247380",
+                "url": "https://api.github.com/repos/OptimoApps/statamic-bard-text-align/zipball/20b1773abc109cc9d1f8b0a9e517bb35245c7dca",
+                "reference": "20b1773abc109cc9d1f8b0a9e517bb35245c7dca",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.4",
+                "php": "^7.4|^8.0",
                 "statamic/cms": "^3.0.14"
             },
             "require-dev": {
@@ -2578,13 +2582,18 @@
                 "statamic",
                 "text-align"
             ],
+            "support": {
+                "email": "info@optimoapps.com",
+                "issues": "https://github.com/OptimoApps/statamic-bard-text-align/issues",
+                "source": "https://github.com/OptimoApps/statamic-bard-text-align/tree/v1.0.2"
+            },
             "funding": [
                 {
                     "url": "https://paypal.me/satzkumar",
                     "type": "custom"
                 }
             ],
-            "time": "2020-10-02T06:53:20+00:00"
+            "time": "2021-03-16T07:17:42+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -3545,6 +3554,10 @@
                 "schema-org",
                 "spatie"
             ],
+            "support": {
+                "issues": "https://github.com/spatie/schema-org/issues",
+                "source": "https://github.com/spatie/schema-org/tree/3.3.0"
+            },
             "funding": [
                 {
                     "url": "https://spatie.be/open-source/support-us",
@@ -3559,16 +3572,16 @@
         },
         {
             "name": "spatie/statamic-responsive-images",
-            "version": "v2.5.2",
+            "version": "v2.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/statamic-responsive-images.git",
-                "reference": "ab378a3986f423521867da99d26d50668a986d12"
+                "reference": "9fe713544dbd6a2460638f2674c1de4892d4fc79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/statamic-responsive-images/zipball/ab378a3986f423521867da99d26d50668a986d12",
-                "reference": "ab378a3986f423521867da99d26d50668a986d12",
+                "url": "https://api.github.com/repos/spatie/statamic-responsive-images/zipball/9fe713544dbd6a2460638f2674c1de4892d4fc79",
+                "reference": "9fe713544dbd6a2460638f2674c1de4892d4fc79",
                 "shasum": ""
             },
             "require": {
@@ -3602,7 +3615,11 @@
                 "MIT"
             ],
             "description": "Responsive Images for Statamic 3",
-            "time": "2021-03-05T15:24:45+00:00"
+            "support": {
+                "issues": "https://github.com/spatie/statamic-responsive-images/issues",
+                "source": "https://github.com/spatie/statamic-responsive-images/tree/v2.5.3"
+            },
+            "time": "2021-03-17T12:27:14+00:00"
         },
         {
             "name": "statamic/cms",
@@ -3874,16 +3891,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v5.2.5",
+            "version": "v5.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "938ebbadae1b0a9c9d1ec313f87f9708609f1b79"
+                "reference": "35f039df40a3b335ebf310f244cb242b3a83ac8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/938ebbadae1b0a9c9d1ec313f87f9708609f1b79",
-                "reference": "938ebbadae1b0a9c9d1ec313f87f9708609f1b79",
+                "url": "https://api.github.com/repos/symfony/console/zipball/35f039df40a3b335ebf310f244cb242b3a83ac8d",
+                "reference": "35f039df40a3b335ebf310f244cb242b3a83ac8d",
                 "shasum": ""
             },
             "require": {
@@ -3951,7 +3968,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v5.2.5"
+                "source": "https://github.com/symfony/console/tree/v5.2.6"
             },
             "funding": [
                 {
@@ -3967,7 +3984,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-06T13:42:15+00:00"
+            "time": "2021-03-28T09:42:18+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -4327,16 +4344,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.2.4",
+            "version": "v5.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "710d364200997a5afde34d9fe57bd52f3cc1e108"
+                "reference": "8c86a82f51658188119e62cff0a050a12d09836f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/710d364200997a5afde34d9fe57bd52f3cc1e108",
-                "reference": "710d364200997a5afde34d9fe57bd52f3cc1e108",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/8c86a82f51658188119e62cff0a050a12d09836f",
+                "reference": "8c86a82f51658188119e62cff0a050a12d09836f",
                 "shasum": ""
             },
             "require": {
@@ -4369,7 +4386,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v5.2.4"
+                "source": "https://github.com/symfony/filesystem/tree/v5.2.6"
             },
             "funding": [
                 {
@@ -4385,7 +4402,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-12T10:38:38+00:00"
+            "time": "2021-03-28T14:30:26+00:00"
         },
         {
             "name": "symfony/finder",
@@ -4711,16 +4728,16 @@
         },
         {
             "name": "symfony/lock",
-            "version": "v5.2.4",
+            "version": "v5.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/lock.git",
-                "reference": "9e8feb3141406dfc98ca57771fc00873b6f4b60e"
+                "reference": "b7d5a102834472f1f8fd40f09977a97496b8a23e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/lock/zipball/9e8feb3141406dfc98ca57771fc00873b6f4b60e",
-                "reference": "9e8feb3141406dfc98ca57771fc00873b6f4b60e",
+                "url": "https://api.github.com/repos/symfony/lock/zipball/b7d5a102834472f1f8fd40f09977a97496b8a23e",
+                "reference": "b7d5a102834472f1f8fd40f09977a97496b8a23e",
                 "shasum": ""
             },
             "require": {
@@ -4771,7 +4788,7 @@
                 "semaphore"
             ],
             "support": {
-                "source": "https://github.com/symfony/lock/tree/v5.2.4"
+                "source": "https://github.com/symfony/lock/tree/v5.2.6"
             },
             "funding": [
                 {
@@ -4787,20 +4804,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-15T18:55:04+00:00"
+            "time": "2021-03-28T09:42:18+00:00"
         },
         {
             "name": "symfony/mime",
-            "version": "v5.2.5",
+            "version": "v5.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/mime.git",
-                "reference": "554ba128f1955038b45db5e1fa7e93bfc683b139"
+                "reference": "1b2092244374cbe48ae733673f2ca0818b37197b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/mime/zipball/554ba128f1955038b45db5e1fa7e93bfc683b139",
-                "reference": "554ba128f1955038b45db5e1fa7e93bfc683b139",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/1b2092244374cbe48ae733673f2ca0818b37197b",
+                "reference": "1b2092244374cbe48ae733673f2ca0818b37197b",
                 "shasum": ""
             },
             "require": {
@@ -4854,7 +4871,7 @@
                 "mime-type"
             ],
             "support": {
-                "source": "https://github.com/symfony/mime/tree/v5.2.5"
+                "source": "https://github.com/symfony/mime/tree/v5.2.6"
             },
             "funding": [
                 {
@@ -4870,7 +4887,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-03-07T16:08:20+00:00"
+            "time": "2021-03-12T13:18:39+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -5828,16 +5845,16 @@
         },
         {
             "name": "symfony/string",
-            "version": "v5.2.4",
+            "version": "v5.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "4e78d7d47061fa183639927ec40d607973699609"
+                "reference": "ad0bd91bce2054103f5eaa18ebeba8d3bc2a0572"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/4e78d7d47061fa183639927ec40d607973699609",
-                "reference": "4e78d7d47061fa183639927ec40d607973699609",
+                "url": "https://api.github.com/repos/symfony/string/zipball/ad0bd91bce2054103f5eaa18ebeba8d3bc2a0572",
+                "reference": "ad0bd91bce2054103f5eaa18ebeba8d3bc2a0572",
                 "shasum": ""
             },
             "require": {
@@ -5891,7 +5908,7 @@
                 "utf8"
             ],
             "support": {
-                "source": "https://github.com/symfony/string/tree/v5.2.4"
+                "source": "https://github.com/symfony/string/tree/v5.2.6"
             },
             "funding": [
                 {
@@ -5907,7 +5924,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-16T10:20:28+00:00"
+            "time": "2021-03-17T17:12:15+00:00"
         },
         {
             "name": "symfony/translation",
@@ -6796,6 +6813,10 @@
                 "translate",
                 "translation"
             ],
+            "support": {
+                "issues": "https://github.com/whiteCube/lingua/issues",
+                "source": "https://github.com/whiteCube/lingua"
+            },
             "funding": [
                 {
                     "url": "https://github.com/whitecube",
@@ -6853,16 +6874,16 @@
         },
         {
             "name": "withcandour/aardvark-seo",
-            "version": "2.0.9",
+            "version": "2.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WithCandour/statamic-aardvark-seo.git",
-                "reference": "2dd95fada01c8650f3f1a0008fc15ef35e805843"
+                "reference": "8d2afc8b7fb2734b2a0d8ef69d86eb05b78efa8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WithCandour/statamic-aardvark-seo/zipball/2dd95fada01c8650f3f1a0008fc15ef35e805843",
-                "reference": "2dd95fada01c8650f3f1a0008fc15ef35e805843",
+                "url": "https://api.github.com/repos/WithCandour/statamic-aardvark-seo/zipball/8d2afc8b7fb2734b2a0d8ef69d86eb05b78efa8b",
+                "reference": "8d2afc8b7fb2734b2a0d8ef69d86eb05b78efa8b",
                 "shasum": ""
             },
             "require": {
@@ -6908,7 +6929,11 @@
                 "statamic",
                 "tools"
             ],
-            "time": "2021-02-23T10:36:48+00:00"
+            "support": {
+                "issues": "https://github.com/WithCandour/statamic-aardvark-seo/issues",
+                "source": "https://github.com/WithCandour/statamic-aardvark-seo/tree/2.0.10"
+            },
+            "time": "2021-03-11T09:17:28+00:00"
         },
         {
             "name": "xndbogdan/statamic-bard-text-color",
