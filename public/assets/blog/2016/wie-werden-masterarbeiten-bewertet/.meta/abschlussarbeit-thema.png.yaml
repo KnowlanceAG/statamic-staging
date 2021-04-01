@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Wie werden Masterarbeiten bewertet?'
+  title: 'Wie werden Masterarbeiten bewertet?'
 size: 83125
 last_modified: 1617285369
 width: 616
