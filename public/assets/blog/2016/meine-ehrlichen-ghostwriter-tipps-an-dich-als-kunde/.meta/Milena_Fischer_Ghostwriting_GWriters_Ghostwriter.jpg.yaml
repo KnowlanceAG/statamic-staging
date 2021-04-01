@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Ghostwriter Tipps'
+  title: 'Ghostwriter Tipps'
 size: 66154
 last_modified: 1617304891
 width: 1200
