@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Darf ich Teile meiner wissenschaftlichen Arbeiten für meine Abschlussarbeit kopieren?'
+  title: 'Darf ich Teile meiner wissenschaftlichen Arbeiten für meine Abschlussarbeit kopieren?'
 size: 94483
 last_modified: 1617302574
 width: 750
