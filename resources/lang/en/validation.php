@@ -148,7 +148,7 @@ return [
         'attribute-name' => [
             'rule-name' => 'custom-message',
         ],
-        'e-mail_adresse' => [
+        'e_mail_adresse' => [
             'austria_mail' => 'Anfragen aus Östereich können wir leider nicht bearbeiten.',
         ],
         'telefon' => [
