@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: Lektorat
+  title: Lektorat
 size: 96799
 last_modified: 1617309430
 width: 750
