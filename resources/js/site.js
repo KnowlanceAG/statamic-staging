@@ -46,7 +46,7 @@ function tabToggle() {
         var activePane = document.querySelector('.'+activePaneId);
         activePane.classList.add("active");
     }
-    for (i = 0; i < gwritersTabs.length; i++) {
+    for (var i = 0; i < gwritersTabs.length; i++) {
         gwritersTabs[i].addEventListener("click", gwritersTabClicks)
     }
 }
