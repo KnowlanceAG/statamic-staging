@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Informationensammlung zum wissenschaftlichen Essay'
+  title: 'Informationensammlung zum wissenschaftlichen Essay'
 size: 126821
 last_modified: 1617356941
 width: 750
