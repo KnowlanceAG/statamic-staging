@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Ghostwriter Preise bei GWriters'
+  title: 'Ghostwriter Preise bei GWriters'
 size: 38090
 last_modified: 1617565858
 width: 1024
