@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Informationensammlung zu wissenschaftlichen Arbeiten'
+  title: 'Informationensammlung zu wissenschaftlichen Arbeiten'
 size: 83125
 last_modified: 1617561913
 width: 616
