@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: Ghostwriter
+  title: Ghostwriter
 size: 488295
 last_modified: 1617564118
 width: 1280
