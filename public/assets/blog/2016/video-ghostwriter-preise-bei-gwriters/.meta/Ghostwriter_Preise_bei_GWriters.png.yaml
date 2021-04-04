@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Ghostwriter Preise'
+  title: 'Ghostwriter Preise'
 size: 377965
 last_modified: 1617565920
 width: 1280
