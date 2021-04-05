@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Promotion Abbruch'
+  title: 'Promotion Abbruch'
+  caption: '(Eigene Grafik in Anlehnung an: https://www.destatis.de/DE/Methoden/WISTA-Wirtschaft-und-Statistik/2019/01/neue-promovierendenstatistik-012019.pdf?__blob=publicationFile)'
 size: 6529
 last_modified: 1617617295
 width: 721
