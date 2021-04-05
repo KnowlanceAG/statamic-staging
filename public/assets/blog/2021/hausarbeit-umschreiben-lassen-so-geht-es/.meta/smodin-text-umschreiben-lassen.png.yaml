@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Smodin Texte umschreiben lassen'
+  title: 'Smodin Texte umschreiben lassen'
+  caption: 'Smodin: der Einäugige unter den Blinden'
 size: 11286
 last_modified: 1617626520
 width: 750
