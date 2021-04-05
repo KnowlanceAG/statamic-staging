@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Hausarbeit umschreiben lassen'
+  title: 'Hausarbeit umschreiben lassen'
+  caption: 'Hausarbeit &amp; andere wissenschaftliche Arbeiten umschreiben lassen'
 size: 15545
 last_modified: 1617626109
 width: 1110
