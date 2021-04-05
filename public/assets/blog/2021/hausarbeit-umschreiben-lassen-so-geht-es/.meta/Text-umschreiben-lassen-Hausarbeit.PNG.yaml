@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Duplichecker Hausarbeit umschreiben lassen'
+  title: 'Duplichecker Hausarbeit umschreiben lassen'
+  caption: 'Umschreibetool: Duplichecker'
 size: 33014
 last_modified: 1617626112
 width: 907
