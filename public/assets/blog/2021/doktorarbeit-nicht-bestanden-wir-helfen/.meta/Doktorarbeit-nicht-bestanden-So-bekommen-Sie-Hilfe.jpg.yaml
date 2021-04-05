@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Doktorarbeit nicht bestanden So bekommen Sie Hilfe'
+  title: 'Doktorarbeit nicht bestanden So bekommen Sie Hilfe'
 size: 46157
 last_modified: 1617617226
 width: 886
