@@ -24,6 +24,7 @@
         "webpack": "^5.0.0"
     },
     "dependencies": {
+        "alpinejs": "^2.8.2",
         "vue": "^2.6.12"
     }
 }
