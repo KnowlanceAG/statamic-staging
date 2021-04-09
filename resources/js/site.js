@@ -1,3 +1,5 @@
+import 'alpinejs';
+
 function menuOpener() {
     var menu = document.querySelector(".menu-mobile");
     var body = document.querySelector(".body");
