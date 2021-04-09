@@ -8,7 +8,7 @@ x-data="sending()"
     <div class="w-full grid md:grid-cols-12 gap-y-6 md:gap-x-6 pt-6 pb-12 px-2 sm:px-6 lg:pt-8 lg:pb-16 lg:px-8 bg-gray-200">
         {{# Honeypot spam protection. #}}
         <div class="hidden">
-            <label class="font-bold" for="fax">Fax <sup class="text-notice-400">*</sup></label>
+            <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1" for="fax">Fax <sup class="text-notice-400">*</sup></label>
             <input class="form-input w-full" id="fax" type="fax" name="fax" tabindex="-1" autocomplete="off"/>
         </div>
 
@@ -21,7 +21,7 @@ x-data="sending()"
                 {{ width == '75' ?= 'md:col-span-9' }}
                 {{ width == '100' ?= 'md:col-span-12' }}"
             >
-                <label class="font-bold" for="{{ handle }}">{{ trans key="{display}" }} {{ if validate | contains:required }}<sup class="text-notice-400">*</sup>{{ /if }}</label>
+                <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1" for="{{ handle }}">{{ trans key="{display}" }} {{ if validate | contains:required }}<sup class="text-red-500">*</sup>{{ /if }}</label>
                 {{# Load notification when there is a validation error with the name field. #}}
                 <template x-if="errors.{{ handle }}">
                     {{ partial src="components/notification" type="error" attribute="x-text='errors.{handle}'" }}
@@ -30,7 +30,13 @@ x-data="sending()"
             </div>
         {{ /fields }}
 
-        <div class="md:col-span-12 flex justify-end">
+        <div class="my-4 md:col-span-12">
+            {{ form_info_text }}
+                {{ text }}
+            {{ /form_info_text }}
+        </div>
+
+        <div class="md:col-span-12 flex">
             <button
             class="bg-orange-500 hover:bg-orange-700 px-10 py-3 mt-8 inline-block text-white font-300 uppercase rounded-sm hover:transition-colors hover:duration-200 hover:bg-opacity-95"
             type="submit">
