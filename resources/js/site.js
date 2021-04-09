@@ -1,3 +1,5 @@
+import 'alpinejs';
+
 function menuOpener() {
     var menu = document.querySelector(".menu-mobile");
     var body = document.querySelector(".body");
@@ -46,7 +48,7 @@ function tabToggle() {
         var activePane = document.querySelector('.'+activePaneId);
         activePane.classList.add("active");
     }
-    for (i = 0; i < gwritersTabs.length; i++) {
+    for (var i = 0; i < gwritersTabs.length; i++) {
         gwritersTabs[i].addEventListener("click", gwritersTabClicks)
     }
 }

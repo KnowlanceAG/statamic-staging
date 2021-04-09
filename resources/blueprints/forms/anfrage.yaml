@@ -23,7 +23,7 @@ sections:
           listable: hidden
           width: 50
       -
-        handle: e-mail_adresse
+        handle: e_mail_adresse
         field:
           input_type: email
           antlers: false

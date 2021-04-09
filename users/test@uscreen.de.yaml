@@ -8,6 +8,7 @@ preferences:
       after_save: continue_editing
     blog:
       after_save: continue_editing
+      per_page: 100
     team:
       columns:
         - title
@@ -23,4 +24,4 @@ preferences:
         - name
         - nachname
         - lieferdatum
-        - e-mail_adresse
+        - e_mail_adresse
