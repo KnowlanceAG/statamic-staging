@@ -1,13 +1,13 @@
 {{ dateien }}
     {{ if extension == 'svg' || extension == 'gif' }}
-        <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-auto mx-auto" />
+        <img src="{{ url }}" alt="{{ alt }}" class="my-5 {{ if float == 'float-right' }}md:ml-5{{ elseif float == 'float-left' }} md:mr-5 {{ else }}{{ /if }} md:{{ float }} w-full md:{{ img_size }} h-auto" />
         {{ if caption }}
             <figcaption class="text-center">
                 <i class="text-sm text-gray-550">{{ caption }}</i>
             </figcaption>
         {{ /if }}
     {{ else }}
-        {{ responsive:dateien alt="{alt}" class="my-5 {{ if float == 'float-right' }}md:ml-5{{ elseif float == 'float-left' }} md:mr-5 {{ else }} md:mx-5 {{ /if }} md:{{ float }} w-full md:{{ img_size }} h-auto" }}
+        {{ responsive:dateien alt="{alt}" class="my-5 {{ if float == 'float-right' }}md:ml-5{{ elseif float == 'float-left' }} md:mr-5 {{ else }}{{ /if }} md:{{ float }} w-full md:{{ img_size }} h-auto" }}
         {{ if caption }}
             <figcaption class="text-center">
                 <i class="text-sm text-gray-550">{{ caption }}</i>

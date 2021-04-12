@@ -12,6 +12,24 @@ fields:
       icon: assets
       listable: hidden
   -
+    handle: img_size
+    field:
+      options:
+        w-full: 'Volle Breite'
+        w-3/4: 'Dreiviertel Breite'
+        w-1/2: 'Halbe Breite'
+        w-1/4: 'Viertel Breite'
+      multiple: false
+      clearable: false
+      searchable: true
+      taggable: false
+      push_tags: false
+      cast_booleans: false
+      display: 'Bild Größe'
+      type: select
+      icon: select
+      listable: hidden
+  -
     handle: float
     field:
       options:
@@ -28,21 +46,5 @@ fields:
       type: select
       icon: select
       listable: hidden
-  -
-    handle: img_size
-    field:
-      options:
-        w-auto: 'Volle Breite'
-        w-3/4: 'Dreiviertel Breite'
-        w-1/2: 'Halbe Breite'
-        w-1/4: 'Viertel Breite'
-      multiple: false
-      clearable: false
-      searchable: true
-      taggable: false
-      push_tags: false
-      cast_booleans: false
-      display: 'Bild Größe'
-      type: select
-      icon: select
-      listable: hidden
+      if:
+        img_size: '!== w-full'

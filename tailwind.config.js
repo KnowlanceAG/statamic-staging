@@ -19,6 +19,12 @@ module.exports = {
                 'lg:grid-cols-10',
                 'lg:grid-cols-11',
                 'lg:grid-cols-12',
+                'md:w-1/2',
+                'md:w-1/4',
+                'md:w-3/4',
+                'md:float-right',
+                'md:float-left',
+                'md:mx-auto',
             ],
         }
     },

@@ -1,7 +1,7 @@
 ---
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1618228638
+updated_at: 1618229680
 replicator:
   -
     bard:
@@ -72,7 +72,7 @@ replicator:
             type: floating-img
             dateien:
               - team/Marcel_Kopper_GWriters-1.jpg
-            float: float-right
+            float: float-left
             img_size: w-1/4
       -
         type: paragraph
