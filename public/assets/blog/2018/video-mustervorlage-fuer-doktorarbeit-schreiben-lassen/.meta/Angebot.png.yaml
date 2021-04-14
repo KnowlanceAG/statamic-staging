@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: Angebot
 size: 652
 last_modified: 1618395661
 width: 300
