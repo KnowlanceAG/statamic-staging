@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: Anfrage
 size: 757
 last_modified: 1618395660
 width: 300
