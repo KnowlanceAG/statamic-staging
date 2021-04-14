@@ -4,3 +4,6 @@
 [submodule "addons/uscreen/cpssg"]
 	path = addons/uscreen/cpssg
 	url = git@gitlab.uscreen.net:uscreen/statamic-addons/cpssg.git
+[submodule "addons/uscreen/better-statamic-bard-text-color"]
+	path = addons/uscreen/better-statamic-bard-text-color
+	url = git@gitlab.uscreen.net:uscreen/statamic-addons/better-statamic-bard-text-color.git
