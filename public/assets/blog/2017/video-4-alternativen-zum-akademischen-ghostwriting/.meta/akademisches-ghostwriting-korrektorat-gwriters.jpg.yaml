@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Korrektorat Ghostwriter'
+  title: 'Korrektorat Ghostwriter'
 size: 10283
 last_modified: 1616708176
 width: 194
