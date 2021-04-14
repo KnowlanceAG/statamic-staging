@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Mustervorlage schreiben'
 size: 971
 last_modified: 1618395723
 width: 300
