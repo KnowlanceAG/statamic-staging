@@ -33,7 +33,7 @@ teaser:
         text: 'Hilfe vom akademischen Ghostwriter bei Ihrer Seminararbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618504258
+updated_at: 1618505088
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
@@ -48,5 +48,6 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+template: with-side-bar
 id: 686e5203-e17a-4101-809a-07c9f799ccfa
 ---
