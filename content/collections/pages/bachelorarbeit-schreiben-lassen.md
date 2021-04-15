@@ -10,19 +10,6 @@ teaser:
         type: text
         marks:
           -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Mustervorlage für Bachelorarbeit schreiben lassen '
-  -
-    type: heading
-    attrs:
-      level: 1
-    content:
-      -
-        type: text
-        marks:
-          -
             type: bold
           -
             type: textAlign
@@ -56,7 +43,7 @@ teaser:
         color: '#FF6606'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618507494
+updated_at: 1618507683
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -202,6 +189,8 @@ replicator:
           -
             type: text
             text: 'Unsere Leistungen'
+      -
+        type: paragraph
       -
         type: bullet_list
         content:
@@ -1971,6 +1960,162 @@ replicator:
                   rel: null
             text: '< zurück zur Wiki Übersicht'
     type: editor
+    enabled: true
+  -
+    columns-replicator:
+      -
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                                  target: null
+                                  rel: null
+                            text: Ghostwriting
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/lektorat'
+                                  target: null
+                                  rel: null
+                            text: Lektorat
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/uebersetzung'
+                                  target: null
+                                  rel: null
+                            text: Übersetzung
+          -
+            bard:
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/korrektorat'
+                                  target: null
+                                  rel: null
+                            text: Korrektorat
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/formatierung'
+                                  target: null
+                                  rel: null
+                            text: Formatierung
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/plagiatspruefung'
+                                  target: null
+                                  rel: null
+                            text: Plagiatsprüfung
+          -
+            bard:
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/maxqda-auswertung'
+                                  target: null
+                                  rel: null
+                            text: 'MAXQDA Auswertung'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/promotionsberatung'
+                                  target: null
+                                  rel: null
+                            text: Promotionsberatung
+        type: row
+        enabled: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    type: add_section
     enabled: true
 template: with-side-bar
 teaser_bg:
