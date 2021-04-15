@@ -31,9 +31,17 @@ teaser:
             attrs:
               align: center
         text: 'Professionelle Hilfe vom akademischen Ghostwriter bei Ihrer Bachelorarbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+  -
+    type: set
+    attrs:
+      values:
+        type: button
+        button_link: 'https://gwriters.de/anfrage'
+        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        color: '#FF6606'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618507078
+updated_at: 1618507443
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -45,14 +53,6 @@ twitter_card_type_page: summary
 replicator:
   -
     bard:
-      -
-        type: set
-        attrs:
-          values:
-            type: button
-            button_link: 'https://gwriters.de/anfrage'
-            button_text: 'JETZT KOSTENLOS ANFRAGEN'
-            color: '#FF6606'
       -
         type: paragraph
         content:
@@ -825,9 +825,6 @@ replicator:
                           target: null
                           rel: null
                     text: Zahnmedizin
-                  -
-                    type: text
-                    text: "\_"
       -
         type: heading
         attrs:
@@ -1355,6 +1352,27 @@ replicator:
       -
         type: horizontal_rule
       -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+              -
+                type: textColor
+                attrs:
+                  color: '#ffffff'
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/anfrage'
+                  target: null
+                  rel: nofollow
+            text: 'JETZT KOSTENLOS ANFRAGEN'
+      -
         type: set
         attrs:
           values:
@@ -1362,6 +1380,8 @@ replicator:
             button_link: 'https://gwriters.de/anfrage'
             button_text: 'JETZT KOSTENLOS ANFRAGEN'
             color: '#FF6606'
+      -
+        type: paragraph
       -
         type: horizontal_rule
       -
