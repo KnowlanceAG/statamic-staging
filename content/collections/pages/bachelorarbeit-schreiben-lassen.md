@@ -10,6 +10,19 @@ teaser:
         type: text
         marks:
           -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Mustervorlage für Bachelorarbeit schreiben lassen '
+  -
+    type: heading
+    attrs:
+      level: 1
+    content:
+      -
+        type: text
+        marks:
+          -
             type: bold
           -
             type: textAlign
@@ -43,7 +56,7 @@ teaser:
         color: '#FF6606'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618507467
+updated_at: 1618507494
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
