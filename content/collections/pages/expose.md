@@ -41,7 +41,7 @@ teaser:
         button_link: 'https://gwriters.de/anfrage'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618558404
+updated_at: 1618558501
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
