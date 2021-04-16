@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618587250
+updated_at: 1618587426
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -524,6 +524,144 @@ replicator:
                           target: null
                           rel: null
                     text: 'Mehr zur Plagiatsprüfung'
+        type: row
+        enabled: true
+      -
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - leistung/2018-08-31-Ubersetzung.svg
+                    img_size: w-1/4
+                    float: mx-auto
+              -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                    text: Übersetzung
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(153, 153, 153)'
+                    text: 'Sprachliche Barrieren überwinden: Unser Team erstellt hochwertige Übersetzungen von akademischen Texten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/uebersetzung'
+                          target: null
+                          rel: null
+                    text: 'Mehr zur Übersetzung'
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - leistung/icon-hat-1.svg
+                    img_size: w-1/4
+                    float: mx-auto
+              -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                    text: Promotionsberatung
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(153, 153, 153)'
+                    text: 'Verlassen Sie sich auf unsere umfassende und seriöse Promotionsberatung und führen Sie Ihre Promotion zum Erfolg.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/promotionsberatung'
+                          target: null
+                          rel: null
+                    text: 'Mehr zur Promotionsberatung'
         type: row
         enabled: true
     is-full: false
