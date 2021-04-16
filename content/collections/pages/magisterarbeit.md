@@ -360,7 +360,7 @@ replicator:
         type: row
         enabled: true
       -
-        columns_per_row: 1
+        columns_per_row: '3'
         single-col: false
         grid:
           -
@@ -1334,7 +1334,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618555598
+updated_at: 1618555620
 meta_title: 'GWriters • Mustervorlage für Magisterarbeit schreiben lassen'
 meta_description: 'Mustervorlage für Magisterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Plagiate.'
 use_meta_keywords: false
