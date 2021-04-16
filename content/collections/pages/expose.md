@@ -41,7 +41,7 @@ teaser:
         button_link: 'https://gwriters.de/anfrage'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618558384
+updated_at: 1618558404
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
@@ -1537,5 +1537,6 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+template: with-side-bar
 id: b42eb586-1305-4faf-8d59-79e53ff91373
 ---
