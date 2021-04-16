@@ -1062,9 +1062,361 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+  -
+    bard:
+      -
+        type: horizontal_rule
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+              -
+                type: textColor
+                attrs:
+                  color: '#ffffff'
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/anfrage'
+                  target: null
+                  rel: nofollow
+            text: 'JETZT KOSTENLOS ANFRAGEN'
+      -
+        type: horizontal_rule
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Zur Hausarbeit'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Um Studenten Kompetenzen auf sprachlicher, formaler, kommunikativer und organisatorischer Ebene zu vermitteln, entscheiden sich Lehrinstitute und Universitäten dazu, Hausarbeiten schreiben zu lassen. Diese sollen Studierende im Laufe des Studiums auf Examensarbeiten (z.B. Bachelorarbeit oder Masterarbeit) vorbereiten und ihnen eine Übersicht über verschiedene Forschungsbereiche und deren Lagen verschaffen. Sie sind im Umfang geringer als eine Abschlussarbeit, sind allerdings auch mit einem ansehnlichen Zeitaufwand verbunden.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Besonders für Studienanfänger, die mit dem Erstellen von wissenschaftlichen Arbeiten unerfahren sind, stellen Sie beträchtliche Schwierigkeiten dar. Hier wird häufig auf ein Coaching zurückgegriffen, um den Studenten bei der Strukturierung und Verfassung seiner Hausarbeit zu unterstützen. Auch ein Lektorat, das '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/korrektorat/korrekturlesen'
+                  target: null
+                  rel: null
+            text: Korrekturlesen
+          -
+            type: text
+            text: ' oder eine '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/leistungen/plagiatspruefung'
+                  target: null
+                  rel: null
+            text: Plagiatsprüfung
+          -
+            type: text
+            text: ' sind gerade bei den anfänglichen Hausarbeiten üblich. Es gibt auch Studenten, die einen Ghostwriter Hausarbeiten schreiben lassen. Jedoch ist solch eine Ghostwriting-Hausarbeit lediglich als Vorlage zu nutzen und nicht als Prüfuungsleistung einzureichen, man kann also nicht einfach eine Hausarbeit kaufen.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Nach einer unverbindlichen Anfrage erhalten Sie von unseren kompetenten Mitarbeitern ein kostenloses Angebot und eine individuelle Beratung. Nach ihrer Zusage und einer Anzahlung werden einzelne Teillieferungstermine geplant. Diese Termine dienen dazu, Sie über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. Zudem stellen unsere Projektmanager Ihre Anonymität und gleichzeitig auch die Anonymität des Autors sicher. Die gesamthafte Analyse wird abschließend von einem unabhängigen Lektor aus dem selben Fachbereich kontrolliert. Diese zusätzliche Kontrolle nach unserem bewährten 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Darüber hinaus wird Ihre Mustervorlage mit professioneller Software auf Plagiate geprüft. Sie erhalten somit eine hochqualitative und von Experten auf Qualität geprüfte Mustervorlage zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit.'
+      -
+        type: set
+        attrs:
+          values:
+            type: bilder
+            assets:
+              - seiten/arbeiten/hausarbeit/Hausarbeit-schreiben-lassen.jpg
+      -
+        type: paragraph
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Wie schreibt man eine Hausarbeit?'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Die Hausarbeit ist eine akademische Arbeit, die zu Hause angefertigt werden soll. Das heißt, dass der Student nicht – wie in einer Prüfung – zu einem bestimmten Thema abgefragt wird. Vielmehr wird dem Studenten eine Bearbeitungszeit eingeräumt, in welcher er diese Arbeit anzufertigen hat. Es soll eine Argumentation entwickelt werden, die allen wissenschaftlichen Standards entspricht und die Fähigkeiten des Studenten hinsichtlich der Konzeption und Organisation von Arbeitsprozessen fördert.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'In einigen Fachbereichen, wie der Medizin, Biologie und Chemie, wird zusätzlich zum schriftlichen Teil oftmals die Durchführung einer Untersuchung oder eines Experiments erwartet. Manchmal veröffentlichen Lehrstühle Muster einer Hausarbeit um Studenten Hilfe zu leisten. Wird diese Hilfe nicht geboten, bietet sich die Option, dass Studenten einen Ghostwriter ihre Hausarbeit schreiben lassen und diese Ghostwriting-Hausarbeit dann als Beispiel unterstützend nutzen.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Die Anforderungen und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich einige Formalien als gängig erwiesen.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Gliederung einer Hausarbeit'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Titelblatt'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Inhaltsverzeichnis Hausarbeit'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Einleitung'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Hauptteil'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Schluss'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Bildverzeichnis'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Literatur- und Quellenverzeichnis'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Anhang'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Formatierung einer Hausarbeit'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Schriftart: Times New Roman (oder Arial Größe 11)'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Schriftgröße: 12 Punkt'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Zeilenabstand: 1,5'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Ränder: oben und unten jeweils 2,5 cm, links und rechts jeweils 3 cm'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Absatzformat: Blocksatz (auf Trennung achten)'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Fußnoten: Schriftgröße 10'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Nummerierung: alle Seiten nummeriert, außer Titelblatt, Inhaltsverzeichnis einer Hausarbeit, Literaturverzeichnis und Anhang'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: Disclaimer
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Einige unserer Blogartikel zur Hausarbeit & Mustervorlage für Hausarbeit schreiben lassen'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/blog/hausarbeit-einleitung'
+                  target: _blank
+                  rel: 'noopener noreferrer'
+            text: 'Einleitung Hausarbeit – Was gehört rein und was nicht?'
+          -
+            type: hard_break
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/blog/erste-seminararbeit-schreiben'
+                  target: _blank
+                  rel: 'noopener noreferrer'
+            text: 'Erste Seminararbeit schreiben – 5 praktische Tipps vom Profi'
+          -
+            type: hard_break
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/blog/wissenschaftliche-hausarbeit'
+                  target: _blank
+                  rel: 'noopener noreferrer'
+            text: 'Alles über wissenschaftliche Hausarbeiten'
+          -
+            type: hard_break
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/blog/ghostwriter-agentur'
+                  target: _blank
+                  rel: 'noopener noreferrer'
+            text: 'Video: Worauf Du bei einer Ghostwriter Agentur achten solltest'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Weitere Links & Referenzen'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.germanistik.uni-bonn.de/institut/abteilungen/vergleichende-literaturwissenschaft-komparatistik/studium/studienberatung/leitfaden-zum-verfassen-einer-wissenschaftlichen-hausarbeit/view'
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
+            text: 'Leitfaden zum Verfassen einer wissenschaftlichen Hausarbeit - Universität Bonn'
+          -
+            type: hard_break
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.jura.uni-frankfurt.de/90083151/Erstellung_von_Hausarbeiten_Leitfaden_fuer_Studierende_2020_07_WEB.pdf'
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
+            text: 'Leitfaden für das Verfassen von Jura Hausarbeiten - Goethe Universität Frankfurt am Main'
+          -
+            type: hard_break
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.uni-potsdam.de/fileadmin/projects/schulpaedagogik/Dokumente/Hausarbeit_Anleitung.pdf'
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
+            text: 'Leitfaden zum Verfassen einer Hausarbeit - Uni Potsdam'
+          -
+            type: hard_break
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://geschichte.uni-greifswald.de/institut/mitarbeitende/fachschaftsrat/fsr-tipps/tipps-zum-schreiben-von-hausarbeiten/'
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
+            text: 'Tipps zum Schreiben von Hausarbeiten - Uni Greifswald'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/wiki'
+                  target: null
+                  rel: null
+            text: '< zurück zur Wiki Übersicht'
+    type: editor
+    enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618552956
+updated_at: 1618553204
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -1074,5 +1426,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+meta_title: 'GWriters • Mustervorlage für Hausarbeit schreiben lassen'
+meta_description: 'Mustervorlage für Hausarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 id: 29f507a9-89e5-433e-8246-0d00b58746db
 ---
