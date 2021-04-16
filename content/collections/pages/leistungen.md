@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618586570
+updated_at: 1618586630
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -476,7 +476,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - leistung/2018-08-31-Plagiatsprufung-(2).svg
+                      - leistung/2018-08-31-Plagiatsprufung.svg
                     img_size: w-1/4
                     float: mx-auto
               -
