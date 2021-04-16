@@ -1425,7 +1425,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618543026
+updated_at: 1618543062
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -1435,5 +1435,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+meta_title: 'GWriters • Mustervorlage für Diplomarbeit schreiben lassen'
+meta_description: 'Mustervorlage für Diplomarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 id: 99cd8e42-b21c-4cea-a162-a9454db2375f
 ---
