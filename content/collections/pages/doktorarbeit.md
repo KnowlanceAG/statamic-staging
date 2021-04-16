@@ -1078,6 +1078,10 @@ replicator:
                         marks:
                           -
                             type: bold
+                          -
+                            type: textAlign
+                            attrs:
+                              align: justify
                         text: Telefonnummer
               -
                 type: table_cell
@@ -1619,6 +1623,14 @@ replicator:
 parent: 6300bfa7-4b29-41fb-a2d9-422ef612d3d4
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618544237
+updated_at: 1618544323
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 id: 89093abd-fdd4-4830-a368-7ede1b75ca1a
 ---
