@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618585757
+updated_at: 1618586388
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -156,7 +156,24 @@ replicator:
                     img_size: w-1/4
                     float: mx-auto
               -
-                type: paragraph
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                    text: Ghostwriting
               -
                 type: paragraph
                 content:
@@ -201,6 +218,25 @@ replicator:
                     img_size: w-1/4
                     float: mx-auto
               -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                    text: Lektorat
+              -
                 type: paragraph
                 content:
                   -
@@ -244,6 +280,25 @@ replicator:
                     img_size: w-1/4
                     float: mx-auto
               -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                    text: Korrektorat
+              -
                 type: paragraph
                 content:
                   -
@@ -275,6 +330,210 @@ replicator:
                           target: null
                           rel: null
                     text: 'Mehr zum Korrektorat'
+        type: row
+        enabled: true
+      -
+        columns_per_row: '3'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - leistung/Icon-Kopie-150x150-1.png
+                    img_size: w-1/4
+                    float: mx-auto
+              -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)!important'
+                    text: 'MAXQDA Auswertung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(153, 153, 153)!important'
+                    text: 'Unsere erfahrenen Experten führen Ihre qualitative Inhaltsanalyse mittels einer professionellen MAXQDA Auswertung durch.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)!important'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/maxqda-auswertung'
+                          target: null
+                          rel: null
+                    text: 'Mehr zur MAXQDA Auswertung'
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - leistung/2018-08-31-Formatierung.svg
+                    img_size: w-1/4
+                    float: mx-auto
+              -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                    text: Formatierung
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(153, 153, 153)!important'
+                    text: 'Über den Erfolg einer akademischen Arbeit entscheidet neben inhaltlicher Qualität auch die korrekte äussere Form.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)!important'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/formatierung'
+                          target: null
+                          rel: null
+                    text: 'Mehr zur Formatierung'
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - leistung/2018-08-31-Plagiatsprufung.svg
+                    img_size: w-1/4
+                    float: mx-auto
+              -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)!important'
+                    text: Plagiatsprüfung
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(153, 153, 153)!important'
+                    text: 'Jede wissenschaftliche Arbeit sollte einer Plagiatsprüfung unterzogen werden um böse Überraschungen auszuschließen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)!important'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/plagiatspruefung'
+                          target: null
+                          rel: null
+                    text: 'Mehr zur Plagiatsprüfung'
         type: row
         enabled: true
     is-full: false
