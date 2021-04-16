@@ -351,7 +351,7 @@ replicator:
                     text: Promotionsberatung
         type: row
         enabled: true
-    is-full: true
+    is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
@@ -1035,7 +1035,7 @@ replicator:
                     text: Wirtschaftswissenschaften
         type: row
         enabled: true
-    is-full: true
+    is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
@@ -1318,7 +1318,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618546621
+updated_at: 1618546682
 meta_title: 'GWriters • Mustervorlage für Examensarbeit schreiben lassen'
 meta_description: 'Mustervorlage für Examensarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
