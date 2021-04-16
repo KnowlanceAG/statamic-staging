@@ -1309,7 +1309,7 @@ replicator:
                 attrs:
                   href: 'https://de.wikipedia.org/wiki/Master'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Master - Wikipedia'
           -
             type: hard_break
@@ -1321,7 +1321,7 @@ replicator:
                 attrs:
                   href: 'https://www.zeit.de/campus/2010/03/Studium-Master-Empfehlungsschreiben'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Masterstudium: Nicht zu empfehlen - Zeit Online'
           -
             type: hard_break
@@ -1333,7 +1333,7 @@ replicator:
                 attrs:
                   href: 'https://www.faz.net/aktuell/politik/inland/hochschulreform-in-der-bologna-falle-11877689.html'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'In der Bologna-Falle - FAZ'
       -
         type: paragraph
@@ -1355,7 +1355,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618556089
+updated_at: 1618556147
 meta_title: 'Masterarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Mustervorlage für Masterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
