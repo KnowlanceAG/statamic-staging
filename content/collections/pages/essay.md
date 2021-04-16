@@ -95,7 +95,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Mustervorlagen für Essays schreiben zu lassen, ist in allen Gesellschaftsbereichen üblich. Mustervorlagen für akademische Essays zu diversen, bewerbungs- und/oder wissenschaftsrelevanten Themen schreiben zu lassen und dann persönlich zur Verfügung zu haben, befähigt den zukunftsorientierten Menschen zu einem weltoffenen, sicheren Auftreten in allen gesellschaftlichen Kreisen. Akademische Ghostwriter schreiben mit ihrem scharfen Blick für problembezogene Details und ihrem Talent für spitzfindige Untertöne mit kritisch-konstruktivem Geschick Essays, die sowohl als schriftliche Dokumente, als auch inhaltlich in kommunikativen Diskursen verwendet werden können. Akademisches '
+            text: 'Mustervorlagen für Essays schreiben zu lassen, ist in allen Gesellschaftsbereichen üblich. Mustervorlagen für akademische Essays zu diversen, bewerbungs- und/oder wissenschaftsrelevanten Themen schreiben zu lassen und dann persönlich zur Verfügung zu haben, befähigt den zukunftsorientierten Menschen zu einem weltoffenen, sicheren Auftreten in allen gesellschaftlichen Kreisen. Akademische '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/ghostwriter'
+                  target: null
+                  rel: null
+            text: 'Ghostwriter '
+          -
+            type: text
+            text: 'schreiben mit ihrem scharfen Blick für problembezogene Details und ihrem Talent für spitzfindige Untertöne mit kritisch-konstruktivem Geschick Essays, die sowohl als schriftliche Dokumente, als auch inhaltlich in kommunikativen Diskursen verwendet werden können. Akademisches '
           -
             type: text
             marks:
@@ -1109,6 +1122,16 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618545766
+updated_at: 1618545846
+meta_title: 'GWriters • Mustervorlage für Essay schreiben lassen'
+meta_description: 'Mustervorlage für Essay schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 id: 425234fd-eb40-4dab-bb3d-95bbac5948eb
 ---
