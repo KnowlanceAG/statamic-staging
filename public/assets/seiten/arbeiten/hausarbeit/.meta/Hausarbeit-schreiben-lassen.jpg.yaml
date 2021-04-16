@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Prozess zur Erstellung einer Vorlage für eine Hausarbeit'
+  title: 'Prozess zur Erstellung einer Vorlage für eine Hausarbeit'
+  caption: 'Prozess zur Erstellung einer Vorlage für eine Hausarbeit'
 size: 21054
 last_modified: 1618553134
 width: 1032
