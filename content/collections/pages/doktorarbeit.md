@@ -1075,178 +1075,6 @@ replicator:
                     content:
                       -
                         type: text
-                        text: Telefonnummer
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: sdnjcs
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-      -
-        type: table
-        content:
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
                         marks:
                           -
                             type: bold
@@ -1473,12 +1301,6 @@ replicator:
                       -
                         type: text
                         text: 'im Preis inklusive'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "\_"
       -
         type: horizontal_rule
       -
@@ -1713,7 +1535,7 @@ replicator:
                 attrs:
                   href: 'https://www.itp1.uni-stuttgart.de/de/publikationen/'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Abschlussarbeiten - Universität Stuttgart'
           -
             type: hard_break
@@ -1725,7 +1547,7 @@ replicator:
                 attrs:
                   href: 'https://studieren.de/promovieren-doktortitel.0.html'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Der Weg zum Doktortitel - studieren.de'
           -
             type: hard_break
@@ -1737,7 +1559,7 @@ replicator:
                 attrs:
                   href: 'https://www.sueddeutsche.de/thema/Promotion'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Promotion - Süddeutsche Zeitung'
           -
             type: hard_break
@@ -1749,7 +1571,7 @@ replicator:
                 attrs:
                   href: 'https://www.karriere.de/karrierebeschleuniger-doktortitel-zwei-buchstaben-punkt-/23037918.html'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Karrierebeschleuniger Doktortitel - karriere.de'
           -
             type: hard_break
@@ -1761,7 +1583,7 @@ replicator:
                 attrs:
                   href: 'https://www.wiwo.de/erfolg/management/gehaltsreport-fuehrungskraefte-doktortitel-bringt-20-000-euro-mehr-gehalt/8920324.html'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Doktortitel bringt 20.000 Euro mehr Gehalt - Wirtschaftswoche'
           -
             type: hard_break
@@ -1773,7 +1595,7 @@ replicator:
                 attrs:
                   href: 'https://www.doccheck.com/de/detail/articles/11846-renaissance-des-doktortitels-ein-zweischneidiger-diskurs'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Renaissance des Doktortitels- ein zweischneidiger Diskurs - Doccheck'
       -
         type: paragraph
@@ -1795,7 +1617,7 @@ replicator:
 parent: 6300bfa7-4b29-41fb-a2d9-422ef612d3d4
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618544377
+updated_at: 1618544591
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1804,5 +1626,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+meta_title: 'GWriters • Mustervorlage für Doktorarbeit schreiben lassen'
+meta_description: 'Mustervorlage für Doktorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 id: 89093abd-fdd4-4830-a368-7ede1b75ca1a
 ---
