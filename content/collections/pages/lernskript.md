@@ -152,7 +152,7 @@ replicator:
         type: row
         enabled: true
       -
-        columns_per_row: 1
+        columns_per_row: '3'
         single-col: false
         grid:
           -
@@ -361,7 +361,7 @@ replicator:
         type: row
         enabled: true
       -
-        columns_per_row: 1
+        columns_per_row: '3'
         single-col: false
         grid:
           -
@@ -1051,6 +1051,17 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618554593
+updated_at: 1618555067
+template: with-side-bar
+meta_title: 'GWriters • professionelles Lernskript schreiben lassen'
+meta_description: 'Lernskript schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 id: 134ba799-3362-4166-86f7-bba4e992d7d7
 ---
