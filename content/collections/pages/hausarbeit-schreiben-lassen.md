@@ -875,7 +875,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -896,7 +896,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -917,7 +917,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -938,7 +938,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -959,7 +959,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -980,7 +980,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -1001,7 +1001,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -1022,7 +1022,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -1043,7 +1043,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -1135,8 +1135,6 @@ replicator:
             type: bilder
             assets:
               - seiten/arbeiten/hausarbeit/Hausarbeit-schreiben-lassen.jpg
-      -
-        type: paragraph
       -
         type: heading
         attrs:
@@ -1403,7 +1401,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618553266
+updated_at: 1618555421
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
