@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618587426
+updated_at: 1618587487
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -570,10 +570,6 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(153, 153, 153)'
                     text: 'Sprachliche Barrieren überwinden: Unser Team erstellt hochwertige Übersetzungen von akademischen Texten.'
               -
                 type: paragraph
@@ -585,10 +581,6 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
                       -
                         type: link
                         attrs:
