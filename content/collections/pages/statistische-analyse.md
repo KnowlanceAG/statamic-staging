@@ -51,7 +51,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Statistische Analysen gehören zu den Spezialgebieten der Autoren von GWriters. Durch fundierte statistische und mathematische Kenntnisse können Ihnen unsere Ghostwriter ein genaueste Auswertung von Zahlen- und Datenmaterial liefern.'
+            text: 'Statistische Analysen gehören zu den Spezialgebieten der Autoren von GWriters. Durch fundierte statistische und mathematische Kenntnisse können Ihnen unsere'
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/ghostwriter'
+                  target: null
+                  rel: null
+            text: ' Ghostwriter '
+          -
+            type: text
+            text: 'ein genaueste Auswertung von Zahlen- und Datenmaterial liefern.'
       -
         type: paragraph
         content:
@@ -1115,6 +1128,17 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618557356
+updated_at: 1618557509
+template: with-side-bar
+meta_title: 'GWriters • Statistische Analyse durchführen lassen'
+meta_description: 'Statistische Analysen durchführen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 id: b6ee03ca-ecab-4749-ade4-45ff821b748d
 ---
