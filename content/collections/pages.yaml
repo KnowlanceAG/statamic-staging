@@ -33,12 +33,11 @@ structure:
           entry: c188d9d1-5d87-4455-9bb5-9327b9fba0b2
         -
           entry: 6300bfa7-4b29-41fb-a2d9-422ef612d3d4
-          children:
-            -
-              entry: 89093abd-fdd4-4830-a368-7ede1b75ca1a
     -
       entry: d118c7b2-141d-4bac-972d-c1502381a340
       children:
+        -
+          entry: 89093abd-fdd4-4830-a368-7ede1b75ca1a
         -
           entry: 99cd8e42-b21c-4cea-a162-a9454db2375f
         -
