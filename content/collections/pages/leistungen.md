@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618585495
+updated_at: 1618585757
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -190,9 +190,91 @@ replicator:
                           rel: null
                     text: 'Mehr zum Ghostwriting'
           -
-            bard: null
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - leistung/icon-lektorat.svg
+                    img_size: w-1/4
+                    float: mx-auto
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#999999'
+                    text: "Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch wissenschaftlich lektorieren.\_\_"
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/leistungen/lektorat'
+                          target: null
+                          rel: null
+                    text: 'Mehr zum Lektorat'
           -
-            bard: null
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - leistung/icon-lektorat_old.svg
+                    img_size: w-1/4
+                    float: mx-auto
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#999999'
+                    text: 'Vier Augen sehen mehr als zwei. Ein professionelles Korrektorat überarbeitet sprachliche Fehler Ihrer wissenschaftlichen Arbeit.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/leistungen/korrektorat'
+                          target: null
+                          rel: null
+                    text: 'Mehr zum Korrektorat'
         type: row
         enabled: true
     is-full: false
