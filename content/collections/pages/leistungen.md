@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618588086
+updated_at: 1618588212
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -697,10 +697,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/leistungen/uebersetzung'
+                  href: 'https://gwriters.de/leistungen/uebersetzung'
                   target: null
                   rel: null
-            text: Übersetzung
+            text: 'Übersetzung '
           -
             type: text
             marks:
@@ -708,7 +708,7 @@ replicator:
                 type: textAlign
                 attrs:
                   align: center
-            text: ' von hochwertigen Texten, genauso wie die Vorbereitung, Bearbeitung & Korrektur von wissenschaftlichen Arbeiten & Veröffentlichungen. Darüber hinaus unterstützen Sie unsere freiberuflichen Mitarbeiter durch Recherchen, '
+            text: 'von hochwertigen Texten, genauso wie die Vorbereitung, Bearbeitung & Korrektur von wissenschaftlichen Arbeiten & Veröffentlichungen. Darüber hinaus unterstützen Sie unsere freiberuflichen Mitarbeiter durch Recherchen, '
           -
             type: text
             marks:
@@ -719,7 +719,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/leistungen/plagiatspruefung'
+                  href: 'https://gwriters.de/leistungen/plagiatspruefung'
                   target: null
                   rel: null
             text: Plagiatsprüfungen
