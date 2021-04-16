@@ -1070,6 +1070,16 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618545356
+updated_at: 1618545384
+meta_title: 'GWriters • Vom Ghostwriter eBook schreiben lassen'
+meta_description: 'eBook schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 id: 5659593d-2756-4e9f-a5b3-b391103d9886
 ---
