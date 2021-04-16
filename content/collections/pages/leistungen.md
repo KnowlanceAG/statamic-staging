@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618586388
+updated_at: 1618586502
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -488,15 +488,9 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textAlign
                         attrs:
                           align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)!important'
                     text: Plagiatsprüfung
               -
                 type: paragraph
@@ -511,7 +505,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(153, 153, 153)!important'
+                          color: '#999999'
                     text: 'Jede wissenschaftliche Arbeit sollte einer Plagiatsprüfung unterzogen werden um böse Überraschungen auszuschließen.'
               -
                 type: paragraph
@@ -524,13 +518,9 @@ replicator:
                         attrs:
                           align: center
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen/plagiatspruefung'
+                          href: 'http://gwriters.de/leistungen/plagiatspruefung'
                           target: null
                           rel: null
                     text: 'Mehr zur Plagiatsprüfung'
