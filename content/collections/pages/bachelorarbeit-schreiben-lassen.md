@@ -43,7 +43,7 @@ teaser:
         color: '#FF6606'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618541042
+updated_at: 1618541177
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2091,7 +2091,7 @@ replicator:
                 attrs:
                   href: 'https://www.bmbf.de/de/der-bologna-prozess-die-europaeische-studienreform-1038.html'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Bologna Prozess - Deutsches Bundesministerium für Bildung und Forschung'
           -
             type: hard_break
@@ -2103,7 +2103,7 @@ replicator:
                 attrs:
                   href: 'https://www2.daad.de/hochschulen/ausschreibungen/projekte/de/11342-foerderprogramme-finden/?projektid=57317077&s=1'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Bachelor Plus - Deutscher Akademischer Austauschdienst'
           -
             type: hard_break
@@ -2115,7 +2115,7 @@ replicator:
                 attrs:
                   href: 'http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=LEGISSUM:c11088'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Bologna Prozess - Europäisches Recht'
           -
             type: hard_break
@@ -2127,7 +2127,7 @@ replicator:
                 attrs:
                   href: 'https://de.wikipedia.org/wiki/Ghostwriter'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Ghostwriter - Wikipedia'
           -
             type: hard_break
@@ -2139,7 +2139,7 @@ replicator:
                 attrs:
                   href: 'https://de.wikipedia.org/wiki/Bachelorarbeit'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Bachelorarbeit - Wikipedia'
           -
             type: hard_break
@@ -2151,7 +2151,7 @@ replicator:
                 attrs:
                   href: 'https://www.bildungsserver.de/Zur-Einfuehrung-von-Bachelor-und-Master-Studiengaengen-in-Deutschland-2534-de.html'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Zur Einführung von Bachelor- und Masterstudiengängen - Deutscher Bildungsserver'
       -
         type: paragraph
