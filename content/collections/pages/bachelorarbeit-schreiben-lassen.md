@@ -43,7 +43,7 @@ teaser:
         color: '#FF6606'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618507711
+updated_at: 1618540475
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -189,6 +189,219 @@ replicator:
           -
             type: text
             text: 'Unsere Leistungen'
+    type: editor
+    enabled: true
+  -
+    columns-replicator:
+      -
+        columns_per_row: '3'
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: underline
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(193, 76, 0)'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/ghostwriting'
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/korrektorat'
+                          target: null
+                          rel: null
+                    text: Korrektorat
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/maxqda-auswertung'
+                          target: null
+                          rel: null
+                    text: 'MAXQDA Auswertung'
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/lektorat'
+                          target: null
+                          rel: null
+                    text: Lektorat
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/formatierung'
+                          target: null
+                          rel: null
+                    text: Formatierung
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/promotionsberatung'
+                          target: null
+                          rel: null
+                    text: Promotionsberatung
+              -
+                type: paragraph
+                content:
+                  -
+                    type: hard_break
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/uebersetzung'
+                          target: null
+                          rel: null
+                    text: Übersetzung
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/promotionsberatung'
+                          target: null
+                          rel: null
+                    text: Promotionsberatung
+        type: row
+        enabled: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard: null
+        type: row
+        enabled: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    type: add_section
+    enabled: true
+  -
+    bard:
       -
         type: paragraph
       -
@@ -1368,7 +1581,7 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: '#ffffff'
+                  color: '#ffffff!important'
               -
                 type: link
                 attrs:
@@ -1376,14 +1589,6 @@ replicator:
                   target: null
                   rel: nofollow
             text: 'JETZT KOSTENLOS ANFRAGEN'
-      -
-        type: set
-        attrs:
-          values:
-            type: button
-            button_link: 'https://gwriters.de/anfrage'
-            button_text: 'JETZT KOSTENLOS ANFRAGEN'
-            color: '#FF6606'
       -
         type: paragraph
       -
@@ -1960,162 +2165,6 @@ replicator:
                   rel: null
             text: '< zurück zur Wiki Übersicht'
     type: editor
-    enabled: true
-  -
-    columns-replicator:
-      -
-        columns_per_row: '3'
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: 'https://gwriters.de/leistungen/ghostwriting'
-                                  target: null
-                                  rel: null
-                            text: Ghostwriting
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: 'https://gwriters.de/leistungen/lektorat'
-                                  target: null
-                                  rel: null
-                            text: Lektorat
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: 'https://gwriters.de/leistungen/uebersetzung'
-                                  target: null
-                                  rel: null
-                            text: Übersetzung
-          -
-            bard:
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: 'https://gwriters.de/leistungen/korrektorat'
-                                  target: null
-                                  rel: null
-                            text: Korrektorat
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: 'https://gwriters.de/leistungen/formatierung'
-                                  target: null
-                                  rel: null
-                            text: Formatierung
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: 'https://gwriters.de/leistungen/plagiatspruefung'
-                                  target: null
-                                  rel: null
-                            text: Plagiatsprüfung
-          -
-            bard:
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: 'https://gwriters.de/leistungen/maxqda-auswertung'
-                                  target: null
-                                  rel: null
-                            text: 'MAXQDA Auswertung'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: 'https://gwriters.de/promotionsberatung'
-                                  target: null
-                                  rel: null
-                            text: Promotionsberatung
-        type: row
-        enabled: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    type: add_section
     enabled: true
 template: with-side-bar
 teaser_bg:
