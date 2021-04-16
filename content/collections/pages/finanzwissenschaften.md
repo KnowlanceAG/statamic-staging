@@ -735,6 +735,16 @@ replicator:
     enabled: true
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618582226
+updated_at: 1618582404
+meta_title: 'GWriters • Finanzwissenschaften - Ghostwriter & Lektoren'
+meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Finanzwissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 id: fdee517a-e619-4ad9-aa0a-0ac9b8aa72bc
 ---
