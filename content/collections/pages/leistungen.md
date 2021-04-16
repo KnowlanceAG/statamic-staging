@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618585178
+updated_at: 1618585495
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -152,7 +152,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - leistung/ghostwriting.PNG
+                      - leistung/icon-ghostwriting.svg
                     img_size: w-1/4
                     float: mx-auto
               -
