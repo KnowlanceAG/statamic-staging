@@ -1067,26 +1067,13 @@ replicator:
       -
         type: horizontal_rule
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: textColor
-                attrs:
-                  color: '#ffffff'
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/anfrage'
-                  target: null
-                  rel: nofollow
-            text: 'JETZT KOSTENLOS ANFRAGEN'
+        type: set
+        attrs:
+          values:
+            type: button
+            button_link: 'https://gwriters.de/anfrage'
+            button_text: 'JETZT KOSTENLOS ANFRAGEN'
+            color: '#FF6606'
       -
         type: horizontal_rule
       -
@@ -1416,7 +1403,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618553204
+updated_at: 1618553266
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
