@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618587990
+updated_at: 1618588086
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -660,6 +660,89 @@ replicator:
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
+    enabled: true
+  -
+    bard:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+            text: 'Das macht uns so besonders'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+            text: 'Die durch GWriters vermittelten akademischen Freelancer bieten Ihnen eine breite Leistungspalette rund um die speziellen Bedürfnisse im akademischen Umfeld. Dies umfasst die Redaktion, Erstellung & '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+              -
+                type: link
+                attrs:
+                  href: 'http://gwriters.de/leistungen/uebersetzung'
+                  target: null
+                  rel: null
+            text: Übersetzung
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+            text: ' von hochwertigen Texten, genauso wie die Vorbereitung, Bearbeitung & Korrektur von wissenschaftlichen Arbeiten & Veröffentlichungen. Darüber hinaus unterstützen Sie unsere freiberuflichen Mitarbeiter durch Recherchen, '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+              -
+                type: link
+                attrs:
+                  href: 'http://gwriters.de/leistungen/plagiatspruefung'
+                  target: null
+                  rel: null
+            text: Plagiatsprüfungen
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+            text: ', Coaching und verschiedene Beratungsleistungen.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+            text: 'Alle durch uns vermittelten Leistungen unterliegen einer strengen Qualitätskontrolle durch unser Team und unsere Supervisor. Die Betreuung Ihres Auftrages erfolgt durch einen festen, jederzeit erreichbaren Ansprechpartner.'
+    type: editor
     enabled: true
 id: 849140c8-c582-4340-a2bc-446126149c9f
 ---
