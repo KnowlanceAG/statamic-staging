@@ -43,7 +43,7 @@ teaser:
         color: '#FF6606'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618540959
+updated_at: 1618541042
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1588,28 +1588,13 @@ replicator:
       -
         type: horizontal_rule
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: textColor
-                attrs:
-                  color: '#ffffff!important!important'
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/anfrage'
-                  target: null
-                  rel: nofollow
-            text: 'JETZT KOSTENLOS ANFRAGEN'
-      -
-        type: paragraph
+        type: set
+        attrs:
+          values:
+            type: button
+            button_link: 'https://gwriters.de/anfrage'
+            button_text: 'JETZT KOSTENLOS ANFRAGEN'
+            color: '#FF6606'
       -
         type: horizontal_rule
       -
