@@ -1381,7 +1381,7 @@ replicator:
                 attrs:
                   href: 'http://www.cse.unsw.edu.au/~gernot/style-guide.html'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Tips and Guidance for Students Writing Papers and Reports - Gernot Heiser'
           -
             type: hard_break
@@ -1393,7 +1393,7 @@ replicator:
                 attrs:
                   href: 'https://tu-dresden.de/gsw/phil/iso/mes/ressourcen/dateien/prof/lehre/hauptseminar/Aufbau-von-Diplomarbeiten.pdf?lang=de'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Aufbau von / häufige Fehler bei Diplom- & Magisterarbeiten - TU Dresden'
           -
             type: hard_break
@@ -1405,7 +1405,7 @@ replicator:
                 attrs:
                   href: 'http://www.ruhr-uni-bochum.de/imperia/md/content/asib/ws08_09/formatierungsvorgaben.pdf'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Hilfestellungen zur Formatierung der Diplomarbeit/Masterarbeit - Ruhr Universität Bochum'
       -
         type: paragraph
@@ -1425,7 +1425,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618542986
+updated_at: 1618543026
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
