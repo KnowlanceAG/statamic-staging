@@ -31,9 +31,17 @@ teaser:
             attrs:
               align: center
         text: 'Hilfe vom akademischen Ghostwriter bei Ihrer Seminararbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+  -
+    type: set
+    attrs:
+      values:
+        type: button
+        button_link: 'https://gwriters.de/anfrage'
+        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        color: '#FF6606'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618505672
+updated_at: 1618541976
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
@@ -41,14 +49,6 @@ replicator:
     type: editor
     enabled: true
     bard:
-      -
-        type: set
-        attrs:
-          values:
-            type: button
-            button_link: 'https://gwriters.de/anfrage'
-            button_text: 'JETZT KOSTENLOS ANFRAGEN'
-            color: '#FF6606'
       -
         type: heading
         attrs:
@@ -1518,8 +1518,8 @@ replicator:
                 type: link
                 attrs:
                   href: 'https://www.avl.uni-mainz.de/hinweise-zum-erstellen-einer-seminararbeit/'
-                  target: null
-                  rel: null
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
             text: 'Hinweise zum Erstellen einer Seminararbeit - Johannes Gutenberg Universität Mainz'
           -
             type: hard_break
@@ -1530,8 +1530,8 @@ replicator:
                 type: link
                 attrs:
                   href: 'https://www.slm.uni-hamburg.de/iaa/studium/downloads/hausarbeiten-und-lektuerelisten.html'
-                  target: null
-                  rel: null
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
             text: 'Hausarbeiten und Lektürelisten - Universität Hamburg'
           -
             type: hard_break
@@ -1542,8 +1542,8 @@ replicator:
                 type: link
                 attrs:
                   href: 'https://www.uni-muenster.de/imperia/md/content/ew/personen/fuerstenau/zak_leitfaden_erstellung_seminarbeit_10-07.pdf'
-                  target: null
-                  rel: null
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
             text: 'Formvorgaben für Seminararbeiten - Westfälische Wilhelms-Universität Münster'
       -
         type: paragraph
