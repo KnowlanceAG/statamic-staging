@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618588212
+updated_at: 1618588251
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -685,7 +685,7 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: justify
             text: 'Die durch GWriters vermittelten akademischen Freelancer bieten Ihnen eine breite Leistungspalette rund um die speziellen Bedürfnisse im akademischen Umfeld. Dies umfasst die Redaktion, Erstellung & '
           -
             type: text
@@ -693,7 +693,7 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: justify
               -
                 type: link
                 attrs:
@@ -707,7 +707,7 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: justify
             text: 'von hochwertigen Texten, genauso wie die Vorbereitung, Bearbeitung & Korrektur von wissenschaftlichen Arbeiten & Veröffentlichungen. Darüber hinaus unterstützen Sie unsere freiberuflichen Mitarbeiter durch Recherchen, '
           -
             type: text
@@ -715,7 +715,7 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: justify
               -
                 type: link
                 attrs:
@@ -729,7 +729,7 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: justify
             text: ', Coaching und verschiedene Beratungsleistungen.'
       -
         type: paragraph
@@ -740,7 +740,7 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: justify
             text: 'Alle durch uns vermittelten Leistungen unterliegen einer strengen Qualitätskontrolle durch unser Team und unsere Supervisor. Die Betreuung Ihres Auftrages erfolgt durch einen festen, jederzeit erreichbaren Ansprechpartner.'
     type: editor
     enabled: true
