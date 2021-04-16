@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618588542
+updated_at: 1618589092
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -696,7 +696,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: "Die durch GWriters vermittelten akademischen Freelancer bieten Ihnen eine breite Leistungspalette rund um die speziellen Bedürfnisse im akademischen Umfeld. Dies umfasst die Redaktion, Erstellung &\_"
+                    text: 'Die durch GWriters vermittelten akademischen Freelancer bieten Ihnen eine breite Leistungspalette rund um die speziellen Bedürfnisse im akademischen Umfeld. Dies umfasst die Redaktion, Erstellung & '
                   -
                     type: text
                     marks:
@@ -707,7 +707,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen/uebersetzung'
+                          href: 'http://gwriters.de/leistungen/uebersetzung'
                           target: null
                           rel: null
                     text: Übersetzung
@@ -718,7 +718,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: "\_von hochwertigen Texten, genauso wie die Vorbereitung, Bearbeitung & Korrektur von wissenschaftlichen Arbeiten & Veröffentlichungen. Darüber hinaus unterstützen Sie unsere freiberuflichen Mitarbeiter durch Recherchen,\_"
+                    text: ' von hochwertigen Texten, genauso wie die Vorbereitung, Bearbeitung & Korrektur von wissenschaftlichen Arbeiten & Veröffentlichungen. Darüber hinaus unterstützen Sie unsere freiberuflichen Mitarbeiter durch Recherchen, '
                   -
                     type: text
                     marks:
@@ -729,7 +729,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen/plagiatspruefung'
+                          href: 'http://gwriters.de/leistungen/plagiatspruefung'
                           target: null
                           rel: null
                     text: Plagiatsprüfungen
@@ -751,10 +751,6 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
                     text: 'Alle durch uns vermittelten Leistungen unterliegen einer strengen Qualitätskontrolle durch unser Team und unsere Supervisor. Die Betreuung Ihres Auftrages erfolgt durch einen festen, jederzeit erreichbaren Ansprechpartner.'
         type: row
         enabled: true
