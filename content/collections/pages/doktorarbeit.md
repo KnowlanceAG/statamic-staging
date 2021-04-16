@@ -1075,6 +1075,178 @@ replicator:
                     content:
                       -
                         type: text
+                        text: Telefonnummer
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: sdnjcs
+          -
+            type: table_row
+            content:
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+          -
+            type: table_row
+            content:
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+          -
+            type: table_row
+            content:
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+          -
+            type: table_row
+            content:
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+          -
+            type: table_row
+            content:
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+          -
+            type: table_row
+            content:
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+      -
+        type: table
+        content:
+          -
+            type: table_row
+            content:
+              -
+                type: table_cell
+                attrs:
+                  colspan: 1
+                  rowspan: 1
+                  colwidth: null
+                  background: null
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
                         marks:
                           -
                             type: bold
@@ -1623,7 +1795,7 @@ replicator:
 parent: 6300bfa7-4b29-41fb-a2d9-422ef612d3d4
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618544323
+updated_at: 1618544377
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
