@@ -167,7 +167,7 @@ replicator:
   -
     columns-replicator:
       -
-        columns_per_row: '1'
+        columns_per_row: 1
         single-col: false
         grid:
           -
@@ -214,7 +214,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -235,7 +235,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -258,7 +258,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -279,7 +279,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -300,7 +300,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -323,7 +323,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -344,7 +344,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -355,7 +355,7 @@ replicator:
         type: row
         enabled: true
       -
-        columns_per_row: '3'
+        columns_per_row: 1
         single-col: false
         grid:
           -
@@ -391,7 +391,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(193, 76, 0)!important!important!important'
+                          color: 'rgb(193, 76, 0)!important!important'
                       -
                         type: link
                         attrs:
@@ -412,7 +412,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -433,7 +433,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -454,7 +454,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -475,7 +475,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -496,7 +496,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -517,7 +517,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -538,7 +538,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -559,7 +559,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -580,7 +580,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -601,7 +601,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -624,7 +624,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -645,7 +645,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -666,7 +666,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -687,7 +687,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -708,7 +708,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -729,7 +729,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -750,7 +750,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -771,7 +771,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -792,7 +792,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -813,7 +813,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -836,7 +836,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -853,11 +853,11 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -874,11 +874,11 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -895,11 +895,11 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -916,11 +916,11 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -937,11 +937,11 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -958,11 +958,11 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -979,11 +979,11 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -1000,11 +1000,11 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -1021,11 +1021,11 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: 'rgb(255, 102, 2)!important!important'
                       -
                         type: link
                         attrs:
@@ -1322,7 +1322,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618553383
+updated_at: 1618553559
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
