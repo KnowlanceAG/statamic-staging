@@ -1288,7 +1288,7 @@ replicator:
                 attrs:
                   href: 'https://vimeo.com/4042807'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Video: Zitieren in wissenschaftlichen Arbeiten - Universität des Saarlandes'
           -
             type: hard_break
@@ -1300,7 +1300,7 @@ replicator:
                 attrs:
                   href: 'https://www.lai.fu-berlin.de/studium/studienberatung/magister/wiss_arb/Checkliste_zur_Formatierung_wissenschaftlicher_Texte.pdf'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Checkliste zur Formatierung wissenschaftlicher Texte - FU Berlin'
           -
             type: hard_break
@@ -1312,7 +1312,7 @@ replicator:
                 attrs:
                   href: 'https://www.wiwi.hu-berlin.de/de/studium/sb/leitfaden.pdf/view'
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: 'noopener noreferrer nofollow'
             text: 'Leitfaden - Humboldt- Universität zu Berlin'
       -
         type: paragraph
@@ -1334,7 +1334,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618555620
+updated_at: 1618555710
 meta_title: 'GWriters • Mustervorlage für Magisterarbeit schreiben lassen'
 meta_description: 'Mustervorlage für Magisterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Plagiate.'
 use_meta_keywords: false
