@@ -1,7 +1,7 @@
 ---
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1618836578
+updated_at: 1618836622
 replicator:
   -
     bard:
@@ -57,9 +57,6 @@ replicator:
         content:
           -
             type: text
-            marks:
-              -
-                type: code
             text: „dsdas“
       -
         type: paragraph
