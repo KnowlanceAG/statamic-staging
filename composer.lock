@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2f0998d8e4ff25f2cf280746c983fed2",
+    "content-hash": "9f391010d95cb0867845186e6bc429c3",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -676,16 +676,16 @@
         },
         {
             "name": "doublethreedigital/duplicator",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doublethreedigital/duplicator.git",
-                "reference": "a638f2ff79dc57dd8cbc273114933ae963a0d6ae"
+                "reference": "e5fefabc628b3e31758490642d2e9d1392e6224e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doublethreedigital/duplicator/zipball/a638f2ff79dc57dd8cbc273114933ae963a0d6ae",
-                "reference": "a638f2ff79dc57dd8cbc273114933ae963a0d6ae",
+                "url": "https://api.github.com/repos/doublethreedigital/duplicator/zipball/e5fefabc628b3e31758490642d2e9d1392e6224e",
+                "reference": "e5fefabc628b3e31758490642d2e9d1392e6224e",
                 "shasum": ""
             },
             "require": {
@@ -718,7 +718,11 @@
                 "proprietary"
             ],
             "description": "Duplicate Entries in the Statamic 3 Control Panel",
-            "time": "2021-03-30T20:32:56+00:00"
+            "support": {
+                "issues": "https://github.com/doublethreedigital/duplicator/issues",
+                "source": "https://github.com/doublethreedigital/duplicator/tree/v1.3.1"
+            },
+            "time": "2021-04-13T16:01:07+00:00"
         },
         {
             "name": "dragonmantank/cron-expression",
@@ -3602,6 +3606,10 @@
                 "schema-org",
                 "spatie"
             ],
+            "support": {
+                "issues": "https://github.com/spatie/schema-org/issues",
+                "source": "https://github.com/spatie/schema-org/tree/3.3.0"
+            },
             "funding": [
                 {
                     "url": "https://spatie.be/open-source/support-us",
@@ -6920,6 +6928,10 @@
                 "translate",
                 "translation"
             ],
+            "support": {
+                "issues": "https://github.com/whiteCube/lingua/issues",
+                "source": "https://github.com/whiteCube/lingua"
+            },
             "funding": [
                 {
                     "url": "https://github.com/whitecube",
@@ -6977,16 +6989,16 @@
         },
         {
             "name": "withcandour/aardvark-seo",
-            "version": "2.0.10",
+            "version": "2.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WithCandour/statamic-aardvark-seo.git",
-                "reference": "8d2afc8b7fb2734b2a0d8ef69d86eb05b78efa8b"
+                "reference": "d4e29b97f58b42b56e255ac9e620fc87e2bae880"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WithCandour/statamic-aardvark-seo/zipball/8d2afc8b7fb2734b2a0d8ef69d86eb05b78efa8b",
-                "reference": "8d2afc8b7fb2734b2a0d8ef69d86eb05b78efa8b",
+                "url": "https://api.github.com/repos/WithCandour/statamic-aardvark-seo/zipball/d4e29b97f58b42b56e255ac9e620fc87e2bae880",
+                "reference": "d4e29b97f58b42b56e255ac9e620fc87e2bae880",
                 "shasum": ""
             },
             "require": {
@@ -7032,7 +7044,11 @@
                 "statamic",
                 "tools"
             ],
-            "time": "2021-03-11T09:17:28+00:00"
+            "support": {
+                "issues": "https://github.com/WithCandour/statamic-aardvark-seo/issues",
+                "source": "https://github.com/WithCandour/statamic-aardvark-seo/tree/2.0.11"
+            },
+            "time": "2021-04-11T13:53:02+00:00"
         },
         {
             "name": "xndbogdan/statamic-bard-text-color",

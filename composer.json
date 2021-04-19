@@ -10,7 +10,7 @@
     "type": "project",
     "require": {
         "php": "^7.3 || ^8.0",
-        "doublethreedigital/duplicator": "1.3.0",
+        "doublethreedigital/duplicator": "1.3.1",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.3",
@@ -22,7 +22,7 @@
         "statamic/ssg": "^0.4.0",
         "uscreen/cpssg": "*",
         "uscreen/link-extended": "*",
-        "withcandour/aardvark-seo": "2.0.10",
+        "withcandour/aardvark-seo": "2.0.11",
         "xndbogdan/statamic-bard-text-color": "^1.0"
     },
     "require-dev": {
