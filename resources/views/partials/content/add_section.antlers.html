@@ -7,10 +7,9 @@
 {{ else }}
     <div class="{{ if remove_spacing }}py-4 {{ else }}py-20 {{ /if }}">
 {{ /if }}
-{{ remove_spacing | dump }}
+
     {{ columns-replicator }}
         {{ partial src="partials/content/{type}" }}
     {{ /columns-replicator }}
-
 
 </div>
