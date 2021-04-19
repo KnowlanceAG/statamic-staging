@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Fehler in der Bachelorarbeit'
+  title: 'Fehler in der Bachelorarbeit'
 size: 49592
 last_modified: 1618832806
 width: 886
