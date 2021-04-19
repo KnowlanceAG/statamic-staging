@@ -70,6 +70,9 @@ class AppServiceProvider extends ServiceProvider
                 $static = base_path() . '/storage/app/static';
                 $web = base_path() . '/storage/app/web';
                 $oldWeb = base_path() . '/storage/app/web.old';
+
+                // TODO: Check success of SSG process before proceeding to move folders
+
                 if (File::exists($oldWeb)) {
                     File::deleteDirectory($oldWeb);
                 }
