@@ -1,7 +1,7 @@
 ---
 title: test
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618835903
+updated_at: 1618835937
 replicator:
   -
     bard:
@@ -84,6 +84,18 @@ replicator:
                     content:
                       -
                         type: text
+                        marks:
+                          -
+                            type: textAlign
+                            attrs:
+                              align: left
+                          -
+                            type: textColor
+                            attrs:
+                              color: 'rgb(102, 102, 102)!important'
+                        text: 'Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi.'
+                      -
+                        type: text
                         text: dsfdsf
               -
                 type: table_cell
@@ -99,6 +111,18 @@ replicator:
                       -
                         type: text
                         text: fdsffd
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textAlign
+                            attrs:
+                              align: left
+                          -
+                            type: textColor
+                            attrs:
+                              color: 'rgb(102, 102, 102)!important'
+                        text: 'Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi.'
               -
                 type: table_cell
                 attrs:
@@ -113,6 +137,18 @@ replicator:
                       -
                         type: text
                         text: sdfdgdf
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textAlign
+                            attrs:
+                              align: left
+                          -
+                            type: textColor
+                            attrs:
+                              color: 'rgb(102, 102, 102)!important'
+                        text: 'Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi.'
           -
             type: table_row
             content:
@@ -130,6 +166,18 @@ replicator:
                       -
                         type: text
                         text: cyxc
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textAlign
+                            attrs:
+                              align: left
+                          -
+                            type: textColor
+                            attrs:
+                              color: 'rgb(102, 102, 102)!important'
+                        text: 'Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi.'
               -
                 type: table_cell
                 attrs:
@@ -144,6 +192,18 @@ replicator:
                       -
                         type: text
                         text: cyxc
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textAlign
+                            attrs:
+                              align: left
+                          -
+                            type: textColor
+                            attrs:
+                              color: 'rgb(102, 102, 102)!important'
+                        text: 'Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi.'
               -
                 type: table_cell
                 attrs:
@@ -158,6 +218,18 @@ replicator:
                       -
                         type: text
                         text: cyx
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textAlign
+                            attrs:
+                              align: left
+                          -
+                            type: textColor
+                            attrs:
+                              color: 'rgb(102, 102, 102)!important'
+                        text: 'Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi.'
           -
             type: table_row
             content:
