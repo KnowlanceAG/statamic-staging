@@ -41,7 +41,7 @@ teaser:
         color: '#FF6606'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1618835523
+updated_at: 1618835768
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
@@ -141,6 +141,8 @@ replicator:
               -
                 type: bold
             text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+      -
+        type: paragraph
       -
         type: heading
         attrs:
@@ -909,7 +911,7 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: left
+                  align: center
             text: 'Wie schaffe ich es jetzt diese Vielzahl '
           -
             type: hard_break
@@ -917,14 +919,14 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: left
+                  align: center
           -
             type: text
             marks:
               -
                 type: textAlign
                 attrs:
-                  align: left
+                  align: center
             text: 'der Informationen so zu verarbeiten, '
           -
             type: hard_break
@@ -932,14 +934,14 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: left
+                  align: center
           -
             type: text
             marks:
               -
                 type: textAlign
                 attrs:
-                  align: left
+                  align: center
             text: 'dass ich diese im Rahmen einer Seminararbeit '
           -
             type: hard_break
@@ -947,14 +949,14 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: left
+                  align: center
           -
             type: text
             marks:
               -
                 type: textAlign
                 attrs:
-                  align: left
+                  align: center
             text: 'auf den Punkt bringen kann?"'
       -
         type: paragraph
