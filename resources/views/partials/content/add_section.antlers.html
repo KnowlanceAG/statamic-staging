@@ -1,13 +1,13 @@
 {{ if is-full }}
     {{ if bg-image==null }}
-        <div class="py-20 {{ if is-full }}is-full{{ /if }}" {{ if bg-color }}style="background-color: {{ bg-color }};" {{ /if }}>
+        <div class="{{ if remove_spacing }}py-4 {{ else }}py-20 {{ /if }} {{ if is-full }}is-full{{ /if }}" {{ if bg-color }}style="background-color: {{ bg-color }};" {{ /if }}>
     {{ else }}
-        <div class="py-20 {{ if is-full }}is-full{{ /if }} {{ if bg-image-fixed }}bg-fixed{{ /if }} bg-cover has-bg-image" style="background-image: url({{ bg-image:url }})">
+        <div class="{{ if remove_spacing }}py-4 {{ else }}py-20 {{ /if }} {{ if is-full }}is-full{{ /if }} {{ if bg-image-fixed }}bg-fixed{{ /if }} bg-cover has-bg-image" style="background-image: url({{ bg-image:url }})">
     {{ /if }}
 {{ else }}
-    <div class="py-20">
+    <div class="{{ if remove_spacing }}py-4 {{ else }}py-20 {{ /if }}">
 {{ /if }}
-
+{{ remove_spacing | dump }}
     {{ columns-replicator }}
         {{ partial src="partials/content/{type}" }}
     {{ /columns-replicator }}
