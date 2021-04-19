@@ -15,6 +15,6 @@
 //    'title' => 'Example'
 // ]);
 
-Route::statamic('blog/page/{page}', 'blog.index', ['load' => '3fab1586-951b-40e6-904d-e8b3ede6b6e4']);
+Route::statamic('blog/page/{page}', 'with-side-bar', ['load' => '3fab1586-951b-40e6-904d-e8b3ede6b6e4']);
 
 
