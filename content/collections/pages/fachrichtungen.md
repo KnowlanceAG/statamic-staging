@@ -1,7 +1,7 @@
 ---
 title: Fachrichtungen
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618846135
+updated_at: 1618846364
 teaser:
   -
     type: heading
