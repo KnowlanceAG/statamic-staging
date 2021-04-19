@@ -18,8 +18,8 @@
         "laravel/tinker": "^2.0",
         "optimoapps/statamic-bard-text-align": "1.0.2",
         "spatie/statamic-responsive-images": "2.5.3",
-        "statamic/cms": "3.0.49",
-        "statamic/ssg": "^0.2.0",
+        "statamic/cms": "3.1.9",
+        "statamic/ssg": "^0.4.0",
         "uscreen/cpssg": "*",
         "uscreen/link-extended": "*",
         "withcandour/aardvark-seo": "2.0.10",
@@ -58,6 +58,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
+        "pre-update-cmd": [
+            "Statamic\\Console\\Composer\\Scripts::preUpdateCmd"
+        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi",

@@ -42,6 +42,12 @@ redakteure:
     - 'delete anfrage form submissions'
     - 'access cache utility'
     - 'access search utility'
+    - 'edit other authors blog entries'
+    - 'edit other authors pages entries'
+    - 'publish other authors blog entries'
+    - 'publish other authors pages entries'
+    - 'delete other authors blog entries'
+    - 'delete other authors pages entries'
 admin:
   title: Admin
   permissions:
@@ -145,3 +151,15 @@ admin:
     - 'delete contact-form form submissions'
     - 'access cache utility'
     - 'access email utility'
+    - 'edit other authors akademie entries'
+    - 'edit other authors blog entries'
+    - 'edit other authors pages entries'
+    - 'edit other authors team entries'
+    - 'publish other authors akademie entries'
+    - 'publish other authors blog entries'
+    - 'publish other authors pages entries'
+    - 'publish other authors team entries'
+    - 'delete other authors akademie entries'
+    - 'delete other authors blog entries'
+    - 'delete other authors pages entries'
+    - 'delete other authors team entries'
