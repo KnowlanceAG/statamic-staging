@@ -40,8 +40,8 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618835479
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1618835523
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
@@ -909,7 +909,7 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: left
             text: 'Wie schaffe ich es jetzt diese Vielzahl '
           -
             type: hard_break
@@ -917,14 +917,14 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: left
           -
             type: text
             marks:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: left
             text: 'der Informationen so zu verarbeiten, '
           -
             type: hard_break
@@ -932,14 +932,14 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: left
           -
             type: text
             marks:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: left
             text: 'dass ich diese im Rahmen einer Seminararbeit '
           -
             type: hard_break
@@ -947,14 +947,14 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: left
           -
             type: text
             marks:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: left
             text: 'auf den Punkt bringen kann?"'
       -
         type: paragraph
