@@ -50,8 +50,8 @@ teaser:
     type: paragraph
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618916582
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1618928677
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -89,6 +89,7 @@ replicator:
                 type: paragraph
         type: row
         enabled: true
+        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -118,6 +119,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
     is-full: true
     bg-toggle: false
     bg-color: '#F2F2F2'
@@ -152,6 +154,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
       -
         columns_per_row: 1
         grid:
@@ -200,6 +203,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -252,6 +256,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
       -
         columns_per_row: 1
         grid:
@@ -268,6 +273,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
@@ -308,6 +314,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: '1'
       -
         columns_per_row: '6'
         grid:
@@ -380,6 +387,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: '2'
     is-full: true
     bg-toggle: false
     bg-color: '#D6D6D6'
@@ -390,7 +398,9 @@ replicator:
   -
     columns-replicator:
       -
-        columns_per_row: '1'
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
         grid:
           -
             bard:
@@ -399,18 +409,45 @@ replicator:
                 attrs:
                   values:
                     type: link_liste
-                    taxonomy_terms:
-                      - arbeiten
-                      - fachrichtungen
+                    raster:
+                      -
+                        text: Arbeiten
+                        eintraege:
+                          - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
+                          - 425234fd-eb40-4dab-bb3d-95bbac5948eb
+                          - 29f507a9-89e5-433e-8246-0d00b58746db
+                          - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
+                          - 99cd8e42-b21c-4cea-a162-a9454db2375f
+                          - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
+                          - 134ba799-3362-4166-86f7-bba4e992d7d7
+                          - 686e5203-e17a-4101-809a-07c9f799ccfa
+                          - 89093abd-fdd4-4830-a368-7ede1b75ca1a
+                          - b42eb586-1305-4faf-8d59-79e53ff91373
+                          - 5c6db140-ee4a-4a88-bf56-4153664421d4
+                          - b6ee03ca-ecab-4749-ade4-45ff821b748d
+                          - 5659593d-2756-4e9f-a5b3-b391103d9886
+                          - 62115090-7bb2-448f-bb32-a32bb5977382
+                          - aa35a1ca-0812-4402-a4d5-4a6d4aa8c1c0
+                      -
+                        text: Fachrichtungen
+                        eintraege:
+                          - bfd868ec-f81c-4805-8122-2e11008e72f2
+                          - 1eca4337-5857-4666-9768-1f7789824f01
+                          - c188d9d1-5d87-4455-9bb5-9327b9fba0b2
+                          - 6300bfa7-4b29-41fb-a2d9-422ef612d3d4
+                          - 4185143e-39e8-4a10-952f-d8139528f254
+                          - fdee517a-e619-4ad9-aa0a-0ac9b8aa72bc
+                          - 8935206f-2aaa-4c05-add4-dcf517deb92f
+              -
+                type: paragraph
         type: row
         enabled: true
-        single-col: false
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
-    remove_spacing: false
   -
     columns-replicator:
       -
@@ -622,6 +659,7 @@ replicator:
                     text: Masterarbeit
         type: row
         enabled: true
+        responsive_columns: 1
     remove_spacing: false
     is-full: false
     bg-toggle: false
@@ -896,6 +934,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
     is-full: true
     bg-toggle: true
     bg-image: seiten/full-scaled.jpg
