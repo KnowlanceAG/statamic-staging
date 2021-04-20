@@ -51,7 +51,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618915190
+updated_at: 1618915533
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -406,11 +406,12 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: numbers_home
-                    grid:
-                      -
-                        zahl: '1'
-                        beschreibung: ' Bachelorarbeit'
+                    type: simple-link-list
+                    links:
+                      - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
+                      - 425234fd-eb40-4dab-bb3d-95bbac5948eb
+                      - 29f507a9-89e5-433e-8246-0d00b58746db
+                      - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
               -
                 type: paragraph
         type: row
