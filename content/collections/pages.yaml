@@ -12,12 +12,11 @@ structure:
       entry: b42eb586-1305-4faf-8d59-79e53ff91373
     -
       entry: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
-      children:
-        -
-          entry: dafbcd3b-fd08-4c5b-94be-f2a80c140953
     -
       entry: 849140c8-c582-4340-a2bc-446126149c9f
       children:
+        -
+          entry: dafbcd3b-fd08-4c5b-94be-f2a80c140953
         -
           entry: 0328a685-5f37-4f91-bd4b-79c53adaea8d
         -
