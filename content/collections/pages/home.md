@@ -51,7 +51,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615980972
+updated_at: 1618925206
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -94,6 +94,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
   -
     columns-replicator:
       -
@@ -123,6 +124,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
   -
     columns-replicator:
       -
@@ -203,6 +205,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
   -
     columns-replicator:
       -
@@ -271,6 +274,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
   -
     columns-replicator:
       -
@@ -382,6 +386,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
   -
     columns-replicator:
       -
@@ -397,6 +402,29 @@ replicator:
                     taxonomy_terms:
                       - arbeiten
                       - fachrichtungen
+                    raster:
+                      -
+                        text: Arbeiten
+                        eintraege:
+                          - e969d0a5-421c-42aa-9b67-0a3859c25797
+                          - fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+                          - d118c7b2-141d-4bac-972d-c1502381a340
+                          - 1eca4337-5857-4666-9768-1f7789824f01
+                          - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
+                          - 3fab1586-951b-40e6-904d-e8b3ede6b6e4
+                          - b1510f04-f5f7-4d15-9be4-fc69c7add6e0
+                          - 8e94ca0e-e5de-46b9-908e-d086cd76f0c8
+                          - 99cd8e42-b21c-4cea-a162-a9454db2375f
+                          - 89093abd-fdd4-4830-a368-7ede1b75ca1a
+                          - 5659593d-2756-4e9f-a5b3-b391103d9886
+                          - 4185143e-39e8-4a10-952f-d8139528f254
+                          - 425234fd-eb40-4dab-bb3d-95bbac5948eb
+                          - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
+                          - b42eb586-1305-4faf-8d59-79e53ff91373
+                      -
+                        text: Fachbereiche
+                        eintraege:
+                          - 4185143e-39e8-4a10-952f-d8139528f254
               -
                 type: paragraph
         type: row
@@ -407,6 +435,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
   -
     columns-replicator:
       -
@@ -681,5 +710,6 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
 id: home
 ---
