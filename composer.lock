@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "11c5e851b02a558374b66a26c846f948",
+    "content-hash": "a9b687b1ea4020525c89b157f9658ef4",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2556,6 +2556,75 @@
                 "source": "https://github.com/opis/closure/tree/3.6.2"
             },
             "time": "2021-04-09T13:42:10+00:00"
+        },
+        {
+            "name": "optimoapps/statamic-bard-text-align",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OptimoApps/statamic-bard-text-align.git",
+                "reference": "20b1773abc109cc9d1f8b0a9e517bb35245c7dca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OptimoApps/statamic-bard-text-align/zipball/20b1773abc109cc9d1f8b0a9e517bb35245c7dca",
+                "reference": "20b1773abc109cc9d1f8b0a9e517bb35245c7dca",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0",
+                "statamic/cms": "^3.0.14"
+            },
+            "require-dev": {
+                "orchestra/testbench": "4.*|5.*",
+                "phpunit/phpunit": "^8.4|^9.0"
+            },
+            "type": "statamic-addon",
+            "extra": {
+                "statamic": {
+                    "name": "Statamic Bard Text Align",
+                    "description": "Text align command for bard"
+                },
+                "laravel": {
+                    "providers": [
+                        "OptimoApps\\BardTextAlign\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "OptimoApps\\BardTextAlign\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "sathish.thi@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Statamic Bard text align",
+            "homepage": "https://optimoapps.com",
+            "keywords": [
+                "bard",
+                "statamic",
+                "text-align"
+            ],
+            "support": {
+                "email": "info@optimoapps.com",
+                "issues": "https://github.com/OptimoApps/statamic-bard-text-align/issues",
+                "source": "https://github.com/OptimoApps/statamic-bard-text-align/tree/v1.0.2"
+            },
+            "funding": [
+                {
+                    "url": "https://paypal.me/satzkumar",
+                    "type": "custom"
+                }
+            ],
+            "time": "2021-03-16T07:17:42+00:00"
         },
         {
             "name": "phpoption/phpoption",
