@@ -134,4 +134,9 @@ fields:
           fields:
             -
               import: textbox-aligned
+        table:
+          display: Tabelle
+          fields:
+            -
+              import: table
       container: assets
