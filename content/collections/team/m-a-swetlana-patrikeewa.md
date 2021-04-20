@@ -4,7 +4,7 @@ photo:
   - team/svetlana_patrikeewa_ghostwriter_gwriters.png
 detail_position: 'Senior Ghostwriterin'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618952139
+updated_at: 1618952231
 detail_text:
   -
     type: paragraph
