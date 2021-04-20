@@ -1294,6 +1294,16 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618925254
+updated_at: 1618925295
+meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
+meta_description: 'Ghostwriting von GWriters.de. Preissicherheit, Qualität und Diskretion von unserer seriösen Agentur. Mehr dazu hier.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 id: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 ---
