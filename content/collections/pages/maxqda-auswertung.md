@@ -39,6 +39,7 @@ teaser:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        color: '#FF6606'
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
@@ -1270,7 +1271,7 @@ replicator:
     enabled: true
 parent: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618942589
+updated_at: 1618942687
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -1280,5 +1281,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+meta_title: 'GWriters • Die perfekte MAXQDA Auswertung für Ihre Abschlussarbeit'
+meta_description: 'MAXQDA Auswertung von akademischen Ghostwritern. Die besten Experten finden & alles zur Auswertung mit MAXQDA: Leistungen, Kosten, Preise & Ablauf.'
 id: dafbcd3b-fd08-4c5b-94be-f2a80c140953
 ---
