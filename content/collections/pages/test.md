@@ -1,7 +1,7 @@
 ---
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1618903657
+updated_at: 1618903733
 replicator:
   -
     bard:
@@ -32,7 +32,7 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: left
             text: arcu
           -
             type: hard_break
@@ -40,14 +40,14 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: left
           -
             type: text
             marks:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: left
             text: dasda
       -
         type: paragraph
