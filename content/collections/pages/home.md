@@ -51,7 +51,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618914703
+updated_at: 1618915190
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -403,11 +403,16 @@ replicator:
                       - arbeiten
                       - fachrichtungen
               -
+                type: set
+                attrs:
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '1'
+                        beschreibung: ' Bachelorarbeit'
+              -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'ssfdsgvgf sahjfnsd dskmdkslf knskdfnkdf'
         type: row
         enabled: true
         single-col: false
