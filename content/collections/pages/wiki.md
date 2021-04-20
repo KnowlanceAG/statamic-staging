@@ -1,7 +1,7 @@
 ---
 title: Glossar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618912885
+updated_at: 1618912985
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -36,9 +36,12 @@ replicator:
                 type: textAlign
                 attrs:
                   align: left
-            text: Wiki
-      -
-        type: paragraph
+              -
+                type: textColor
+                attrs:
+                  color: '#ff6602'
+                  hex: '#000'
+            text: IWiki
       -
         type: paragraph
         content:
