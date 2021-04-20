@@ -3,7 +3,7 @@ title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618953725
+updated_at: 1618953779
 teaser:
   -
     type: heading
@@ -198,10 +198,19 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
                     text: "Neben unseren oben exemplarisch aufgeführt Experten verfügen wir noch zusätzlich über ein Team von über 3000 akademischen Ghostwritern, mit deren Qualifikationen und Kompetenzen wir nahezu jedes akademisch Themenfeld wie unter anderem auch\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
                       -
                         type: link
                         attrs:
@@ -211,10 +220,19 @@ replicator:
                     text: Informatik
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
                     text: ",\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
                       -
                         type: link
                         attrs:
@@ -224,10 +242,19 @@ replicator:
                     text: 'Psychologie '
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
                     text: 'und '
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
                       -
                         type: link
                         attrs:
@@ -237,10 +264,19 @@ replicator:
                     text: 'Mathematik '
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
                     text: 'abdecken können und auch '
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
                       -
                         type: link
                         attrs:
@@ -250,6 +286,11 @@ replicator:
                     text: 'Medizin Ghostwriter'
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
                     text: "\_sowie Experten für viele weitere Disziplinen finden Sie bei uns. Dabei werden die Kompetenzen unserer Ghostwriter nach strengen Auswahlverfahren geprüft und verifiziert, sodass wir Ihnen zu jeder Zeit den passenden Spezialisten zur Unterstützung bei Ihrer wissenschaftlichen Fragestellung und Ihrer akademischen Arbeit zur Verfügung stellen können."
               -
                 type: set
@@ -362,10 +403,19 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
                     text: "Bei GWriters gewährleisten wir Ihre Anonymität zu 100% und\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
                       -
                         type: link
                         attrs:
@@ -375,10 +425,19 @@ replicator:
                     text: 'schützen Ihre Daten'
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
                     text: ' streng nach den Vorgaben von DSGVO und GDPR. Die Speicherung aller Informationen erfolgt auf unseren eigenen Servern mit Standort in der Schweiz, auf die der Zugriff durch Außenstehende unmöglich ist. Darüber hinaus erhält einzig Ihr persönlicher Projektmanager Zugriff auf Ihre Informationen, selbst für Ihren '
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
                       -
                         type: link
                         attrs:
@@ -388,6 +447,11 @@ replicator:
                     text: 'akademischen Ghostwriter'
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
                     text: ' bleiben Sie anonym. Ebenso unbesorgt können Sie auch hinsichtlich der Qualität Ihrer Arbeit sein: jede von uns erstellte Arbeit wird von einem Team von erfahrenen und spezialisierten Supervisoren auf Qualität geprüft. So stellen wir sicher, dass Ihre Arbeit allen akademischen Standards entspricht, denn dies ist auch unser Anspruch an uns selbst.'
         type: row
         enabled: true
