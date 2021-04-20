@@ -65,10 +65,12 @@
             />
         </div>
         <div class="lg:col-span-2">
-            <div class="grid lg:grid-cols-2 gap-x-8">
+            <div class="grid lg:grid-cols-2">
                 <label for="timeUnit" class="block uppercase tracking-wide text-black text-xs mt-4 mb-1 col-span-2">
                     Zeit bis zur Abgabe
                 </label>
+            </div>
+            <div class="grid lg:grid-cols-2 gap-x-8">
                 <input
                     v-model="timeUnit"
                     type="number"
@@ -76,7 +78,7 @@
                     autocomplete="off"
                     max="99999"
                     id="timeUnit"
-                    class="w-full"
+                    class="w-full pr-2"
                 />
                 <div class="section-wrapper">
                     <select v-model="timeType" id="timeType" class="w-full">

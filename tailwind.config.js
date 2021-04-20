@@ -32,6 +32,8 @@ module.exports = {
                 'md:float-left',
                 'md:mx-auto',
                 'content-center',
+                'bg-green-300',
+                'bg-green-400'
             ],
         }
     },
