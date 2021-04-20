@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618831527
+updated_at: 1618909198
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -29,6 +29,7 @@ teaser:
             type: textColor
             attrs:
               color: '#ff6602'
+              hex: '#000'
         text: 'Unsere Leistungen'
   -
     type: paragraph
@@ -669,6 +670,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: true
   -
     columns-replicator:
       -
@@ -767,5 +769,6 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
 id: 849140c8-c582-4340-a2bc-446126149c9f
 ---
