@@ -16,8 +16,8 @@ detail_text:
             attrs:
               align: justify
         text: "Nach seiner Ausbildung zum Bankkaufmann, Coach und NLP-Practitioner (DVNLP) sowie einer Weiterbildung zum Bankfachwirt und Bankbetriebswirt absolvierte Marcus Wittkamp sein Studium zum Dipl.-Betriebswirt. Als ausgewiesener Experte für die Fachbereiche BWL,\_VWL\_und\_Finanzen\_hat er in diesen Disziplinen bereits eine Vielzahl an wissenschaftlichen Arbeiten und Artikeln verfasst und kann daher auf einen breiten Erfahrungsschatz als Ghostwriter für Wirtschaftswissenschaften zurückblicken. Darüber hinaus nutzt sein einzigartiges Auge fürs Detail als einer unserer Supervisor, die die herausragende Qualität jeder von uns erstellten wissenschaftlichen Arbeit sichern."
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615277514
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1618950199
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
