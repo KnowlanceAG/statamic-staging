@@ -1014,6 +1014,16 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618943226
+updated_at: 1618943266
+meta_title: 'GWriters • Die Anleitung zur richtigen Formatierung Ihrer Hausarbeit'
+meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Formatierung: Leistungen, Kosten, Preise & Ablauf.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 id: e12620a8-faf9-4f3e-82af-5586f4a85db2
 ---
