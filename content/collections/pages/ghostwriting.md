@@ -717,6 +717,22 @@ replicator:
           -
             bard:
               -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wichtige Fachbereiche:'
+        type: row
+        enabled: true
+      -
+        columns_per_row: '3'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
                 type: paragraph
                 content:
                   -
@@ -1419,22 +1435,6 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wichtige Fachbereiche:'
-        type: row
-        enabled: true
-      -
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
                     text: 'Wie wird mein akademischer Ghostwriter bei GWriters ausgewählt?'
               -
                 type: set
@@ -1527,7 +1527,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618940231
+updated_at: 1618940428
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
 meta_description: 'Ghostwriting von GWriters.de. Preissicherheit, Qualität und Diskretion von unserer seriösen Agentur. Mehr dazu hier.'
 use_meta_keywords: false
