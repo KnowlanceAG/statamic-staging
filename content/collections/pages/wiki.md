@@ -1,7 +1,7 @@
 ---
 title: Glossar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618912662
+updated_at: 1618912706
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -19,7 +19,7 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: '9'
+            padding-y: '15'
       -
         type: paragraph
       -
@@ -37,7 +37,7 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: '#000!important'
+                  color: 'rgb(255, 102, 2)'
                   hex: '#000'
             text: Wiki
       -
