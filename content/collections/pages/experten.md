@@ -3,7 +3,7 @@ title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618952368
+updated_at: 1618953686
 teaser:
   -
     type: heading
@@ -369,7 +369,76 @@ replicator:
                         type: textAlign
                         attrs:
                           align: justify
-                    text: "Bei GWriters gewährleisten wir Ihre Anonymität zu 100% und\_schützen Ihre Daten streng nach den Vorgaben von DSGVO und GDPR. Die Speicherung aller Informationen erfolgt auf unseren eigenen Servern mit Standort in der Schweiz, auf die der Zugriff durch Außenstehende unmöglich ist. Darüber hinaus erhält einzig Ihr persönlicher Projektmanager Zugriff auf Ihre Informationen, selbst für Ihren akademischen Ghostwriter bleiben Sie anonym. Ebenso unbesorgt können Sie auch hinsichtlich der Qualität Ihrer Arbeit sein: jede von uns erstellte Arbeit wird von einem Team von erfahrenen und spezialisierten Supervisoren auf Qualität geprüft. So stellen wir sicher, dass Ihre Arbeit allen akademischen Standards entspricht, denn dies ist auch unser Anspruch an uns selbst."
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Bei GWriters gewährleisten wir Ihre Anonymität zu 100% und\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/datenschutzerklaerung'
+                          target: null
+                          rel: null
+                    text: 'schützen Ihre Daten'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "\_streng nach den Vorgaben von DSGVO und GDPR. Die Speicherung aller Informationen erfolgt auf unseren eigenen Servern mit Standort in der Schweiz, auf die der Zugriff durch Außenstehende unmöglich ist. Darüber hinaus erhält einzig Ihr persönlicher Projektmanager Zugriff auf Ihre Informationen, selbst für Ihren\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/ghostwriter'
+                          target: null
+                          rel: null
+                    text: 'akademischen Ghostwriter'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "\_bleiben Sie anonym. Ebenso unbesorgt können Sie auch hinsichtlich der Qualität Ihrer Arbeit sein: jede von uns erstellte Arbeit wird von einem Team von erfahrenen und spezialisierten Supervisoren auf Qualität geprüft. So stellen wir sicher, dass Ihre Arbeit allen akademischen Standards entspricht, denn dies ist auch unser Anspruch an uns selbst."
         type: row
         enabled: true
     is-full: false
