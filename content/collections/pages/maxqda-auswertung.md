@@ -38,6 +38,7 @@ teaser:
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+        button_text: 'JETZT KOSTENLOS ANFRAGEN'
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
@@ -1269,7 +1270,7 @@ replicator:
     enabled: true
 parent: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618942527
+updated_at: 1618942558
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
