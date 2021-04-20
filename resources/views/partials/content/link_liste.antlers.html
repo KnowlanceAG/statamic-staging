@@ -9,7 +9,7 @@
 
     {{ raster }}
         <div class="link-list-body {{ if first }}active {{ /if }}link-wrapper-{{ index }}">
-            <div class="grid grid-cols-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
                 {{ eintraege }}
                     <a href="{{ url }}" alt="{{ title }}" class="font-Montserrat text-sm text-orange-500 hover:text-orange-700 hover:underline">{{ title }}</a>
                 {{ /eintraege }}
