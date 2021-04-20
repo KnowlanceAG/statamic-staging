@@ -1,7 +1,7 @@
 ---
 title: Glossar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618913679
+updated_at: 1618913696
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
