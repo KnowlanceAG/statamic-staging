@@ -1,7 +1,7 @@
 ---
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1618836820
+updated_at: 1618903611
 replicator:
   -
     bard:
@@ -23,36 +23,6 @@ replicator:
           -
             type: text
             text: 'Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu.dasda'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: '„dasdas“ '
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: „hallo“
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: „dsdas“
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: „hello“
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: blabla
       -
         type: paragraph
         content:
