@@ -2,9 +2,9 @@
 title: 'Elena Fiedler'
 position: Projektmanagerin
 photo:
-  - team/boris-jung-gwriters.jpg
+  - team/elena-fiedler-gwriters.jpg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618950374
+updated_at: 1618950561
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
