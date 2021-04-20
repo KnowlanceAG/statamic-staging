@@ -3,7 +3,7 @@ title: Team
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618949667
+updated_at: 1618949794
 page_title: 'Unser Team • GWriters.de'
 teaser:
   -
@@ -112,6 +112,7 @@ replicator:
               - 5e6ef2df-1a94-4c96-b8d9-10fef5638544
               - c76d960c-26be-47ac-a08b-ca4dbba5e041
               - aac6ed79-e55b-4b55-8691-262232a691d3
+              - 08487631-bdf6-4971-8cf0-3e7e3cb53e44
               - 3307b3db-048f-4a08-ad53-258b009794ec
               - 59da4718-41c8-4485-9adc-f6e28f7c7844
               - c167d814-0006-480c-99b5-7dd093d04f69
