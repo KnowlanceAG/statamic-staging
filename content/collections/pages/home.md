@@ -51,7 +51,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618916004
+updated_at: 1618916158
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -402,6 +402,21 @@ replicator:
                     taxonomy_terms:
                       - arbeiten
                       - fachrichtungen
+        type: row
+        enabled: true
+        single-col: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    type: add_section
+    enabled: true
+    remove_spacing: false
+  -
+    columns-replicator:
+      -
+        columns_per_row: '4'
+        single-col: false
+        grid:
           -
             bard:
               -
@@ -607,13 +622,12 @@ replicator:
                     text: Masterarbeit
         type: row
         enabled: true
-        single-col: false
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
-    remove_spacing: false
   -
     columns-replicator:
       -
