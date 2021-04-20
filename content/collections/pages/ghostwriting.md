@@ -680,32 +680,33 @@ replicator:
             color: '#FF6606'
       -
         type: horizontal_rule
+    type: editor
+    enabled: true
+  -
+    columns-replicator:
       -
-        type: paragraph
-        content:
+        columns_per_row: '3'
+        single-col: false
+        grid:
           -
-            type: text
-            text: "\_"
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Wichtige Fachbereiche:'
-      -
-        type: bullet_list
-        content:
-          -
-            type: list_item
-            content:
+            bard:
               -
                 type: paragraph
                 content:
                   -
                     type: text
                     marks:
+                      -
+                        type: underline
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -713,9 +714,6 @@ replicator:
                           target: null
                           rel: null
                     text: Architektur
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -723,37 +721,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/bauingenieurwesen'
-                          target: null
-                          rel: null
-                    text: Bauingenieurwesen
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/biologie'
-                          target: null
-                          rel: null
-                    text: Biologie
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -761,9 +736,6 @@ replicator:
                           target: null
                           rel: null
                     text: BWL
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -771,37 +743,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/chemie'
-                          target: null
-                          rel: null
-                    text: Chemie
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/elektrotechnik'
-                          target: null
-                          rel: null
-                    text: Elektrotechnik
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -809,9 +758,6 @@ replicator:
                           target: null
                           rel: null
                     text: Erziehungswissenschaften
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -819,37 +765,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/finanzwissenschaften'
-                          target: null
-                          rel: null
-                    text: Finanzwissenschaften
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/geologie'
-                          target: null
-                          rel: null
-                    text: Geologie
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -857,9 +780,6 @@ replicator:
                           target: null
                           rel: null
                     text: Germanistik
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -867,37 +787,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/geschichte'
-                          target: null
-                          rel: null
-                    text: Geschichte
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/informatik'
-                          target: null
-                          rel: null
-                    text: Informatik
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -905,9 +802,6 @@ replicator:
                           target: null
                           rel: null
                     text: Jura
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -915,37 +809,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/kommunikationswissenschaften'
-                          target: null
-                          rel: null
-                    text: Kommunikation
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/kunst'
-                          target: null
-                          rel: null
-                    text: Kunst
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -953,9 +824,6 @@ replicator:
                           target: null
                           rel: null
                     text: Literatur
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -963,37 +831,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/marketing'
-                          target: null
-                          rel: null
-                    text: Marketing
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/maschinenbau'
-                          target: null
-                          rel: null
-                    text: Maschinenbau
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1001,9 +846,6 @@ replicator:
                           target: null
                           rel: null
                     text: Mathematik
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -1011,37 +853,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/medienwissenschaften'
-                          target: null
-                          rel: null
-                    text: Medienwissenschaften
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/medizin'
-                          target: null
-                          rel: null
-                    text: Medizin
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1049,9 +868,6 @@ replicator:
                           target: null
                           rel: null
                     text: Pflegewissenschaften
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -1059,37 +875,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/philosophie'
-                          target: null
-                          rel: null
-                    text: Philosophie
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/psychologie'
-                          target: null
-                          rel: null
-                    text: Psychologie
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1097,9 +890,6 @@ replicator:
                           target: null
                           rel: null
                     text: 'Soziale Arbeit'
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -1107,37 +897,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/soziologie'
-                          target: null
-                          rel: null
-                    text: Soziologie
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/sprachwissenschaften'
-                          target: null
-                          rel: null
-                    text: Sprachwissenschaften
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1145,15 +912,243 @@ replicator:
                           target: null
                           rel: null
                     text: VWL
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/zahnmedizin'
+                          target: null
+                          rel: null
+                    text: Zahnmedizin
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/bauingenieurwesen'
+                          target: null
+                          rel: null
+                    text: Bauingenieurwesen
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/chemie'
+                          target: null
+                          rel: null
+                    text: Chemie
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/finanzwissenschaften'
+                          target: null
+                          rel: null
+                    text: Finanzwissenschaften
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/geschichte'
+                          target: null
+                          rel: null
+                    text: Geschichte
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/kommunikationswissenschaften'
+                          target: null
+                          rel: null
+                    text: Kommunikation
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/marketing'
+                          target: null
+                          rel: null
+                    text: Marketing
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/medienwissenschaften'
+                          target: null
+                          rel: null
+                    text: Medienwissenschaften
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/philosophie'
+                          target: null
+                          rel: null
+                    text: Philosophie
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/soziologie'
+                          target: null
+                          rel: null
+                    text: Soziologie
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1162,14 +1157,220 @@ replicator:
                           rel: null
                     text: Wirtschaftsinformatik
           -
-            type: list_item
-            content:
+            bard:
               -
                 type: paragraph
                 content:
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/biologie'
+                          target: null
+                          rel: null
+                    text: Biologie
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/elektrotechnik'
+                          target: null
+                          rel: null
+                    text: Elektrotechnik
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/geologie'
+                          target: null
+                          rel: null
+                    text: Geologie
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/informatik'
+                          target: null
+                          rel: null
+                    text: Informatik
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/kunst'
+                          target: null
+                          rel: null
+                    text: Kunst
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/maschinenbau'
+                          target: null
+                          rel: null
+                    text: Maschinenbau
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/medizin'
+                          target: null
+                          rel: null
+                    text: Medizin
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/psychologie'
+                          target: null
+                          rel: null
+                    text: Psychologie
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/sprachwissenschaften'
+                          target: null
+                          rel: null
+                    text: Sprachwissenschaften
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1177,9 +1378,28 @@ replicator:
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
+        type: row
+        enabled: true
+      -
+        columns_per_row: 1
+        single-col: false
+        grid:
           -
-            type: list_item
-            content:
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wie wird mein akademischer Ghostwriter bei GWriters ausgewählt?'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: video
+                    video: 'https://youtu.be/24E4sRsn8CA'
               -
                 type: paragraph
                 content:
@@ -1187,112 +1407,85 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/zahnmedizin'
-                          target: null
-                          rel: null
-                    text: Zahnmedizin
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "\_"
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Wie wird mein akademischer Ghostwriter bei GWriters ausgewählt?'
-      -
-        type: set
-        attrs:
-          values:
-            type: video
-            video: 'https://youtu.be/24E4sRsn8CA'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
+                        type: bold
+                    text: 'Weitere Videos:'
               -
-                type: bold
-            text: 'Weitere Videos:'
-      -
-        type: bullet_list
-        content:
-          -
-            type: list_item
-            content:
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/blog/akademisches-ghostwriting-gwriters'
+                                  target: null
+                                  rel: null
+                            text: 'Akademisches Ghostwriting - Wie läuft es bei GWriters ab?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/blog/ghostwriter-auftrag-tipps'
+                                  target: null
+                                  rel: null
+                            text: 'Tipps für einen erfolgreichen Ghostwriter Auftrag'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/blog/akademische-ghostwriter-gwriters-angebot'
+                                  target: null
+                                  rel: null
+                            text: 'Wie entsteht ein Ghostwriter-Angebot bei GWriters?'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: Disclaimer
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/blog/akademisches-ghostwriting-gwriters'
-                          target: null
-                          rel: null
-                    text: 'Akademisches Ghostwriting - Wie läuft es bei GWriters ab?'
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/blog/ghostwriter-auftrag-tipps'
-                          target: null
-                          rel: null
-                    text: 'Tipps für einen erfolgreichen Ghostwriter Auftrag'
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/blog/akademische-ghostwriter-gwriters-angebot'
-                          target: null
-                          rel: null
-                    text: 'Wie entsteht ein Ghostwriter-Angebot bei GWriters?'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: Disclaimer
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-    type: editor
+                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    type: add_section
     enabled: true
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618925316
+updated_at: 1618925774
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
 meta_description: 'Ghostwriting von GWriters.de. Preissicherheit, Qualität und Diskretion von unserer seriösen Agentur. Mehr dazu hier.'
 use_meta_keywords: false
