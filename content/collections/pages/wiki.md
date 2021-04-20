@@ -1,7 +1,7 @@
 ---
 title: Glossar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615280202
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1618911080
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -14,46 +14,6 @@ page_title: 'Wiki • GWriters - Informationen zum Thema Ghostwriting'
 replicator:
   -
     bard:
-      -
-        type: heading
-        attrs:
-          level: 1
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textAlign
-                attrs:
-                  align: left
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 102, 2)'
-            text: Wiki
-      -
-        type: paragraph
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-            text: 'GWriters bietet als Plattform für akademische Dienstleistungen auch ein Wiki als Nachschlagewerk zu allen relevanten Begriffen in diesem Bereich. So können Sie wichtige Begriffe bequem direkt auf unserer Seite nachlesen.'
-      -
-        type: paragraph
-      -
-        type: paragraph
       -
         type: paragraph
         content:
@@ -943,5 +903,44 @@ replicator:
     type: editor
     enabled: true
 template: with-side-bar
+teaser:
+  -
+    type: heading
+    attrs:
+      level: 1
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: left
+          -
+            type: textColor
+            attrs:
+              color: '#000!important'
+              hex: '#000'
+        text: Wiki
+  -
+    type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: start
+          -
+            type: textColor
+            attrs:
+              color: '#000!important'
+              hex: '#000'
+        text: 'GWriters bietet als Plattform für akademische Dienstleistungen auch ein Wiki als Nachschlagewerk zu allen relevanten Begriffen in diesem Bereich. So können Sie wichtige Begriffe bequem direkt auf unserer Seite nachlesen.'
+  -
+    type: paragraph
 id: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
 ---
