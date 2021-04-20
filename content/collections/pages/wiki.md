@@ -1,7 +1,7 @@
 ---
 title: Glossar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618912623
+updated_at: 1618912641
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -15,6 +15,8 @@ replicator:
   -
     bard:
       -
+        type: paragraph
+      -
         type: heading
         attrs:
           level: 1
@@ -22,6 +24,8 @@ replicator:
           -
             type: text
             marks:
+              -
+                type: bold
               -
                 type: textAlign
                 attrs:
