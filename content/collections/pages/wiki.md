@@ -1,7 +1,7 @@
 ---
 title: Glossar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618912831
+updated_at: 1618912871
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -14,6 +14,8 @@ page_title: 'Wiki • GWriters - Informationen zum Thema Ghostwriting'
 replicator:
   -
     bard:
+      -
+        type: paragraph
       -
         type: set
         attrs:
@@ -29,16 +31,6 @@ replicator:
         content:
           -
             type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: left
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 102, 2)'
-                  hex: '#000'
             text: Wiki
       -
         type: paragraph
