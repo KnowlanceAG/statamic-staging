@@ -18,7 +18,7 @@ teaser:
           -
             type: textColor
             attrs:
-              color: 'rgb(255, 102, 2)'
+              color: '#ff6602'
               hex: '#000'
         text: Impressum
   -
@@ -45,7 +45,7 @@ teaser:
   -
     type: paragraph
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618910696
+updated_at: 1618910765
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
@@ -287,5 +287,6 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+template: with-side-bar
 id: 1f3196aa-76e3-4c7c-9b5a-8381bb49bf4d
 ---
