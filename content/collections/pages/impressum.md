@@ -10,8 +10,6 @@ teaser:
         type: text
         marks:
           -
-            type: bold
-          -
             type: textAlign
             attrs:
               align: center
@@ -40,7 +38,7 @@ teaser:
   -
     type: paragraph
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618910912
+updated_at: 1618910929
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
