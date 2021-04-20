@@ -50,8 +50,8 @@ teaser:
     type: paragraph
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1618925206
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1618916582
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -390,7 +390,7 @@ replicator:
   -
     columns-replicator:
       -
-        columns_per_row: 1
+        columns_per_row: '1'
         grid:
           -
             bard:
@@ -402,31 +402,6 @@ replicator:
                     taxonomy_terms:
                       - arbeiten
                       - fachrichtungen
-                    raster:
-                      -
-                        text: Arbeiten
-                        eintraege:
-                          - e969d0a5-421c-42aa-9b67-0a3859c25797
-                          - fc359a9c-afc1-43b6-a4bb-302ff072cdcf
-                          - d118c7b2-141d-4bac-972d-c1502381a340
-                          - 1eca4337-5857-4666-9768-1f7789824f01
-                          - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
-                          - 3fab1586-951b-40e6-904d-e8b3ede6b6e4
-                          - b1510f04-f5f7-4d15-9be4-fc69c7add6e0
-                          - 8e94ca0e-e5de-46b9-908e-d086cd76f0c8
-                          - 99cd8e42-b21c-4cea-a162-a9454db2375f
-                          - 89093abd-fdd4-4830-a368-7ede1b75ca1a
-                          - 5659593d-2756-4e9f-a5b3-b391103d9886
-                          - 4185143e-39e8-4a10-952f-d8139528f254
-                          - 425234fd-eb40-4dab-bb3d-95bbac5948eb
-                          - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
-                          - b42eb586-1305-4faf-8d59-79e53ff91373
-                      -
-                        text: Fachbereiche
-                        eintraege:
-                          - 4185143e-39e8-4a10-952f-d8139528f254
-              -
-                type: paragraph
         type: row
         enabled: true
         single-col: false
@@ -436,6 +411,223 @@ replicator:
     type: add_section
     enabled: true
     remove_spacing: false
+  -
+    columns-replicator:
+      -
+        columns_per_row: '4'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: Bachelorarbeit
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/essay'
+                          target: null
+                          rel: null
+                    text: Essay
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: Hausarbeit
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/praesentationen'
+                          target: null
+                          rel: null
+                    text: Präsentationen
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/diplomarbeit'
+                          target: null
+                          rel: null
+                    text: Diplomarbeit
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/examensarbeit'
+                          target: null
+                          rel: null
+                    text: Examensarbeit
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/lernskript'
+                          target: null
+                          rel: null
+                    text: Lernskript
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: Seminararbeit
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                          target: null
+                          rel: null
+                    text: Doktorarbeit
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/expose'
+                          target: null
+                          rel: null
+                    text: Exposé
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/magisterarbeit'
+                          target: null
+                          rel: null
+                    text: Magisterarbeit
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/statistische-analysen'
+                          target: null
+                          rel: null
+                    text: 'Statistische Analysen'
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/ebook'
+                          target: null
+                          rel: null
+                    text: eBook
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/facharbeit'
+                          target: null
+                          rel: null
+                    text: Facharbeit
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: Masterarbeit
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    type: add_section
+    enabled: false
   -
     columns-replicator:
       -

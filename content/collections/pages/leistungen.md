@@ -2,8 +2,8 @@
 title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1618915685
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1618922990
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -157,6 +157,15 @@ replicator:
                     img_size: w-1/4
                     float: mx-auto
               -
+                type: set
+                attrs:
+                  enabled: false
+                  values:
+                    type: bilder
+                    assets:
+                      - leistung/icons/pencil.svg
+                    img-alignment: justify-center
+              -
                 type: heading
                 attrs:
                   level: 4
@@ -220,6 +229,8 @@ replicator:
                       - leistung/icons/Glasses-new.svg
                     img_size: w-1/4
                     float: mx-auto
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -552,7 +563,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - leistung/icons/reload.svg
+                      - leistung/icons/secure.svg
                     img_size: w-1/4
                     float: mx-auto
               -
@@ -789,5 +800,7 @@ replicator:
     type: add_section
     enabled: false
     remove_spacing: false
+meta_title: 'GWriters • Akademische Ghostwriter Agentur'
+meta_description: 'Bei GWriters finden Sie akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer & viele andere Experten - Einfach, schnell & sicher!'
 id: 849140c8-c582-4340-a2bc-446126149c9f
 ---
