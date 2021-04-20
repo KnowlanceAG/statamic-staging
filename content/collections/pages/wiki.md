@@ -1,7 +1,7 @@
 ---
 title: Glossar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618911850
+updated_at: 1618912623
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -940,7 +940,7 @@ replicator:
             text: 'Wissenschaftliche Arbeiten und Artikel lesen'
     type: editor
     enabled: true
-template: with-side-bar
+template: without-teaser-with-sidebar
 meta_title: 'Wiki • GWriters - Informationen zum Thema Ghostwriting'
 meta_description: 'Ein Wiki über das Thema Ghostwriting, Ghostwriter Agenturen und der Erstellung von akademischen Texten. Erfahren Sie hier meh'
 id: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
