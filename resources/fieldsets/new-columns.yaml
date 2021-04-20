@@ -15,6 +15,14 @@ fields:
       icon: replicator
       listable: hidden
   -
+    handle: remove_spacing
+    field:
+      display: 'Abstand entfernen'
+      type: toggle
+      icon: toggle
+      instructions: 'Entfernt Abstand Oben und Unten.'
+      listable: hidden
+  -
     handle: is-full
     field:
       display: 'Volle Breite'

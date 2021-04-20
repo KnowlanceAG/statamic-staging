@@ -98,13 +98,14 @@ input[type="file"] {
 
 select {
     @apply p-2 py-3 w-full border border-gray-300 bg-white text-sm focus:outline-none;
+    -moz-appearance: none;
     option {
         @apply w-full;
     }
 }
 
 table {
-    @apply my-8 block w-full table-auto overflow-x-scroll max-w-max;
+    @apply my-8 min-w-full w-full table-auto overflow-x-scroll max-w-max;
     tr {
         @apply hover:bg-gray-200;
         &:first-child {
