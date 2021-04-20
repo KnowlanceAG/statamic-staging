@@ -643,6 +643,16 @@ replicator:
     enabled: true
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618946270
+updated_at: 1618946300
+meta_title: 'Unsere seriöse Promotionsberatung • GWriters'
+meta_description: 'Bei GWriters erhalten Sie eine seriöse Promotionsberatung von unseren erfahrenen akademischen Ghostwritern, Lektoren und Coaches. Auf Sie zugeschnitten!'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 id: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 ---
