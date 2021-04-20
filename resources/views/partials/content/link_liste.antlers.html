@@ -1,18 +1,19 @@
 <div class="link-list">
     <div class="block text-center">
         <div class="inline-flex flex-row mb-4 link-list-header">
-            {{ taxonomy_terms }}
-                <p class="{{ if first }}active {{ /if }} font-bold px-6 py-4 uppercase border-b-2 border-gray-200 cursor-pointer" data-target="link-wrapper-{{ index }}">{{ title }}</p>
-            {{ /taxonomy_terms }}
+            {{ raster }}
+                <p class="{{ if first }}active {{ /if }} font-bold px-6 py-4 uppercase border-b-2 border-gray-200 cursor-pointer" data-target="link-wrapper-{{ index }}">{{ text }}</p>
+            {{ /raster }}
         </div>
     </div>
-    {{ taxonomy_terms }}
-        <div class="link-list-body relative {{ if first }}active {{ /if }}link-wrapper-{{ index }}">
-            <div class="grid grid-cols-4">
-                {{ taxonomy }}
 
-                {{ /taxonomy }}
+    {{ raster }}
+        <div class="link-list-body {{ if first }}active {{ /if }}link-wrapper-{{ index }}">
+            <div class="grid grid-cols-4">
+                {{ eintraege }}
+                    <a href="{{ url }}" alt="{{ title }}" class="font-Montserrat text-sm text-orange-500 hover:text-orange-700 hover:underline">{{ title }}</a>
+                {{ /eintraege }}
             </div>
         </div>
-    {{ /taxonomy_terms }}
+    {{ /raster }}
 </div>

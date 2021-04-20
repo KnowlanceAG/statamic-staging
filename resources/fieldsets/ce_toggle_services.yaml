@@ -1,12 +1,31 @@
 title: 'Linkliste Toggle'
 fields:
   -
-    handle: taxonomy_terms
+    handle: raster
     field:
-      mode: default
-      taxonomies:
-        - arbeiten_link_liste
-      display: 'Taxonomy Terms'
-      type: terms
-      icon: taxonomy
+      fields:
+        -
+          handle: text
+          field:
+            input_type: text
+            antlers: false
+            display: Text
+            type: text
+            icon: text
+            listable: hidden
+        -
+          handle: eintraege
+          field:
+            mode: default
+            collections:
+              - pages
+            display: Einträge
+            type: entries
+            icon: entries
+            listable: hidden
+      mode: stacked
+      reorderable: true
+      display: Raster
+      type: grid
+      icon: grid
       listable: hidden
