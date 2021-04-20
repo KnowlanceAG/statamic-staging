@@ -77,7 +77,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wir bieten Ihnen ein umfassendes Korrektorat Ihrer Texte bzw. Ihrer wissenschaftlichen Arbeiten und Veröffentlichungen. Die Überprüfung auf grammatikalische und orthografische Korrektheit liegt bei uns in besten Händen. Wir garantieren die Bearbeitung Ihres akademischen Textes durch einen erfahrenen Korrektor aus betreffenden Fachgebiet, der sowohl die Fachsprache sicher beherrscht, als auch mit den Formalia wissenschaftlicher Arbeiten bestens vertraut ist. Unser Anspruch ist es, Ihre akademische Arbeit in eine Form höchster sprachlicher Akkuratesse zu bringen. Da wir auf ein großes Team reichhaltig erfahrener Korrektoren verschiedenster Fachrichtungen zurückgreifen können, ist es uns möglich, Ihre Arbeit auch kurzfristig zu bearbeiten und ein schnelles und sicheres Ergebnis zu garantieren.'
+                    text: 'Wir bieten Ihnen ein umfassendes Korrektorat Ihrer Texte bzw. Ihrer wissenschaftlichen Arbeiten und Veröffentlichungen. Die Überprüfung auf grammatikalische und orthografische Korrektheit liegt bei uns in besten Händen. Wir garantieren die Bearbeitung Ihres akademischen Textes durch einen erfahrenen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/korrektorat/korrektor'
+                          target: null
+                          rel: null
+                    text: 'Korrektor '
+                  -
+                    type: text
+                    text: 'aus betreffenden Fachgebiet, der sowohl die Fachsprache sicher beherrscht, als auch mit den Formalia wissenschaftlicher Arbeiten bestens vertraut ist. Unser Anspruch ist es, Ihre akademische Arbeit in eine Form höchster sprachlicher Akkuratesse zu bringen. Da wir auf ein großes Team reichhaltig erfahrener Korrektoren verschiedenster Fachrichtungen zurückgreifen können, ist es uns möglich, Ihre Arbeit auch kurzfristig zu bearbeiten und ein schnelles und sicheres Ergebnis zu garantieren.'
               -
                 type: paragraph
                 content:
@@ -86,7 +99,25 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Bitte beachten Sie, dass es sich bei diesem Angebot um ein Korrektorat handelt. Ein Lektorat geht über die hier angebotenen Leistungen hinaus und wird von uns selbstverständlich auch angeboten.'
+                    text: 'Bitte beachten Sie, dass es sich bei diesem Angebot um ein Korrektorat handelt. Ein'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/lektorat'
+                          target: null
+                          rel: null
+                    text: ' Lektorat'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' geht über die hier angebotenen Leistungen hinaus und wird von uns selbstverständlich auch angeboten.'
         type: row
         enabled: true
       -
@@ -801,7 +832,7 @@ replicator:
                     text: Wirtschaftswissenschaften
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -809,6 +840,17 @@ replicator:
     enabled: true
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618942002
+updated_at: 1618942098
+template: with-side-bar
+meta_title: 'Korrektorat von GWriters - Professionell, diskret und akademisch'
+meta_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden & Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 id: e36a16aa-f4fc-4352-8466-36266c196de4
 ---
