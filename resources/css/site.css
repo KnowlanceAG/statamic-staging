@@ -281,6 +281,7 @@ table {
 }
 
 .link-list {
+    @apply relative;
     .link-list-header {
         p {
             &.active {
@@ -289,9 +290,9 @@ table {
         }
     }
     .link-list-body {
-        @apply hidden;
+        @apply opacity-0 transition-all duration-100 hidden;
         &.active {
-            @apply block;
+            @apply opacity-100 duration-100 block;
         }
     }
 }
