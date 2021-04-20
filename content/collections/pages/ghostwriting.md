@@ -680,6 +680,26 @@ replicator:
             color: '#FF6606'
       -
         type: horizontal_rule
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                  hex: '#000'
+            text: 'Wichtige Fachbereiche:'
     type: editor
     enabled: true
   -
@@ -1485,7 +1505,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618925774
+updated_at: 1618925891
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
 meta_description: 'Ghostwriting von GWriters.de. Preissicherheit, Qualität und Diskretion von unserer seriösen Agentur. Mehr dazu hier.'
 use_meta_keywords: false
