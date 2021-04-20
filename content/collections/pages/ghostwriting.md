@@ -1496,7 +1496,7 @@ replicator:
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -1505,7 +1505,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618925891
+updated_at: 1618925936
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
 meta_description: 'Ghostwriting von GWriters.de. Preissicherheit, Qualität und Diskretion von unserer seriösen Agentur. Mehr dazu hier.'
 use_meta_keywords: false
