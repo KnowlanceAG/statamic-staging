@@ -1,7 +1,7 @@
 ---
 title: 'Das Unternehmen'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618954218
+updated_at: 1618954283
 teaser:
   -
     type: heading
@@ -83,7 +83,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Zur Zeit werden durch die Dienstleistungen von GWriters Kunden in Deutschland, der Schweiz und Großbritannien professionell bei Ihren akademischen Projekten aller Art unterstützt. Da wir selbstverständlich unseren Kunden auch die Möglichkeit bieten möchten, deren wissenschaftliche Ausarbeitungen in der jeweiligen Landessprache zu verfassen, beschäftigen wir auch Ghostwriter und andere akademische Freelancer in diesen und einer Vielzahl von anderen Ländern.'
+            text: 'Zur Zeit werden durch die Dienstleistungen von GWriters Kunden in Deutschland, der Schweiz und Großbritannien professionell bei Ihren akademischen Projekten aller Art unterstützt. Da wir selbstverständlich unseren Kunden auch die Möglichkeit bieten möchten, deren wissenschaftliche Ausarbeitungen in der jeweiligen Landessprache zu verfassen, beschäftigen wir auch '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/ghostwriter'
+                  target: null
+                  rel: null
+            text: Ghostwriter
+          -
+            type: text
+            text: ' und andere akademische Freelancer in diesen und einer Vielzahl von anderen Ländern.'
       -
         type: paragraph
         content:
@@ -114,5 +127,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+meta_title: 'GWriters • Seriöse akademische Ghostwriting Agentur'
+meta_description: 'GWriters ist eine schnell wachsende Web-Plattform für die Vermittlung von akademischen Freelancern, z.B. Lektoren, Autoren, Übersetzern & Coaches.'
 id: b1510f04-f5f7-4d15-9be4-fc69c7add6e0
 ---
