@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618909198
+updated_at: 1618909580
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -670,7 +670,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
-    remove_spacing: true
+    remove_spacing: false
   -
     columns-replicator:
       -
@@ -768,7 +768,71 @@ replicator:
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
-    enabled: true
+    enabled: false
     remove_spacing: false
+  -
+    columns-replicator:
+      -
+        columns_per_row: '3'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - leistung/2018-08-31-Ubersetzung.svg
+                    img-alignment: justify-center
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: gshdghcyjxcbx
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - leistung/icon-hat-1.svg
+                    img-alignment: justify-center
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'ggiukbjkbklml,.'
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - leistung/2018-08-31-Plagiatsprufung.svg
+                    img-alignment: justify-center
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'gbmb,m ,'
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    type: add_section
+    enabled: true
 id: 849140c8-c582-4340-a2bc-446126149c9f
 ---
