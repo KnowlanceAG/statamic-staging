@@ -2,8 +2,8 @@
 title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618910348
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1618916551
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -153,7 +153,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - leistung/icon-ghostwriting.svg
+                      - leistung/icons/pencil.svg
                     img_size: w-1/4
                     float: mx-auto
               -
@@ -174,6 +174,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: Ghostwriting
               -
                 type: paragraph
@@ -189,6 +190,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#999999'
+                          hex: '#000'
                     text: 'Erfahrene Autoren erstellen eine Mustervorlage für Ihre wissenschaftliche Arbeit - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
               -
                 type: paragraph
@@ -215,7 +217,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - leistung/icon-lektorat.svg
+                      - leistung/icons/Glasses-new.svg
                     img_size: w-1/4
                     float: mx-auto
               -
@@ -236,6 +238,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: Lektorat
               -
                 type: paragraph
@@ -251,6 +254,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#999999'
+                          hex: '#000'
                     text: "Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch wissenschaftlich lektorieren.\_\_"
               -
                 type: paragraph
@@ -277,7 +281,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - leistung/icon-lektorat_old.svg
+                      - leistung/icons/eraser_1.svg
                     img_size: w-1/4
                     float: mx-auto
               -
@@ -298,6 +302,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: Korrektorat
               -
                 type: paragraph
@@ -313,6 +318,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#999999'
+                          hex: '#000'
                     text: 'Vier Augen sehen mehr als zwei. Ein professionelles Korrektorat überarbeitet sprachliche Fehler Ihrer wissenschaftlichen Arbeit.'
               -
                 type: paragraph
@@ -345,7 +351,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - leistung/Icon-Kopie-150x150-1.png
+                      - leistung/icons/search-book.png
                     img_size: w-1/4
                     float: mx-auto
               -
@@ -366,6 +372,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: 'MAXQDA Auswertung'
               -
                 type: paragraph
@@ -381,6 +388,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(153, 153, 153)'
+                          hex: '#000'
                     text: 'Unsere erfahrenen Experten führen Ihre qualitative Inhaltsanalyse mittels einer professionellen MAXQDA Auswertung durch.'
               -
                 type: paragraph
@@ -396,6 +404,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -411,7 +420,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - leistung/2018-08-31-Formatierung.svg
+                      - leistung/icons/certificate_1.svg
                     img_size: w-1/4
                     float: mx-auto
               -
@@ -432,6 +441,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: Formatierung
               -
                 type: paragraph
@@ -447,6 +457,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(153, 153, 153)'
+                          hex: '#000'
                     text: 'Über den Erfolg einer akademischen Arbeit entscheidet neben inhaltlicher Qualität auch die korrekte äussere Form.'
               -
                 type: paragraph
@@ -462,6 +473,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -477,7 +489,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - leistung/2018-08-31-Plagiatsprufung.svg
+                      - leistung/icons/secure.svg
                     img_size: w-1/4
                     float: mx-auto
               -
@@ -507,6 +519,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: '#999999'
+                          hex: '#000'
                     text: 'Jede wissenschaftliche Arbeit sollte einer Plagiatsprüfung unterzogen werden um böse Überraschungen auszuschließen.'
               -
                 type: paragraph
@@ -539,7 +552,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - leistung/2018-08-31-Ubersetzung.svg
+                      - leistung/icons/secure.svg
                     img_size: w-1/4
                     float: mx-auto
               -
@@ -560,6 +573,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: Übersetzung
               -
                 type: paragraph
@@ -575,6 +589,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(153, 153, 153)'
+                          hex: '#000'
                     text: 'Sprachliche Barrieren überwinden: Unser Team erstellt hochwertige Übersetzungen von akademischen Texten.'
               -
                 type: paragraph
@@ -590,6 +605,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -605,7 +621,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - leistung/icon-hat-1.svg
+                      - leistung/icons/hat.svg
                     img_size: w-1/4
                     float: mx-auto
               -
@@ -626,6 +642,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: Promotionsberatung
               -
                 type: paragraph
@@ -641,6 +658,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(153, 153, 153)'
+                          hex: '#000'
                     text: 'Verlassen Sie sich auf unsere umfassende und seriöse Promotionsberatung und führen Sie Ihre Promotion zum Erfolg.'
               -
                 type: paragraph
@@ -656,6 +674,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
