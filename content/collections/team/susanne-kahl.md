@@ -9,23 +9,41 @@ detail_text:
     content:
       -
         type: text
-        text: "Das interdisziplinäre Arbeiten war ein Grundbestandteil der akademischen Ausbildung von Susanne Kahl, dementsprechend breitgefächert sind ihre Fachgebiete, in denen Sie für GWriters wissenschaftliche Arbeiten schreibt. Der Schwerpunkt ihrer Kompetenzen und damit auch der von ihr verfassten wissenschaftlichen Arbeiten liegt in den\_"
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: justify
+        text: 'Das interdisziplinäre Arbeiten war ein Grundbestandteil der akademischen Ausbildung von Susanne Kahl, dementsprechend breitgefächert sind ihre Fachgebiete, in denen Sie für GWriters wissenschaftliche Arbeiten schreibt. Der Schwerpunkt ihrer Kompetenzen und damit auch der von ihr verfassten wissenschaftlichen Arbeiten liegt in den'
       -
         type: text
         marks:
+          -
+            type: textAlign
+            attrs:
+              align: justify
           -
             type: link
             attrs:
               href: 'https://gwriters.de/fachrichtungen/soziologie'
               target: null
               rel: null
-        text: Sozialwissenschaften
+        text: "\_Sozialwissenschaften"
       -
         type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: justify
         text: ", Geisteswissenschaften und\_"
       -
         type: text
         marks:
+          -
+            type: textAlign
+            attrs:
+              align: justify
           -
             type: link
             attrs:
@@ -35,8 +53,21 @@ detail_text:
         text: Wirtschaftswissenschaften
       -
         type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: justify
         text: ', aber auch in der Logistik. Durch ihre Leidenschaft dafür, ihren persönlichen Horizont zu erweitern und unsere Kunden bei diversen akademischen Fragestellungen zu unterstützen, hat sich Susanne Kahl in der bereits mehrere Jahre andauernden Zusammenarbeit als eine unserer wichtigsten Expertinnen etabliert.'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618951081
+updated_at: 1618953972
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 id: 6fd5f928-d931-42b1-b5eb-8f395f5bd71e
 ---
