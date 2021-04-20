@@ -1,7 +1,7 @@
 ---
 title: 'Über Gwriters'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618954691
+updated_at: 1618954717
 teaser:
   -
     type: heading
@@ -231,5 +231,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: with-side-bar
+meta_title: 'Über uns • GWriters - DIe Ghostwriter Agentur'
+meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches und mehr finden Sie bei GWriters.de.'
 id: a429a015-f680-4717-8b76-bf0d66ce02d4
 ---
