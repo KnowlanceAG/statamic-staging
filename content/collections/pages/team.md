@@ -3,7 +3,7 @@ title: Team
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618949794
+updated_at: 1618949902
 page_title: 'Unser Team • GWriters.de'
 teaser:
   -
@@ -121,5 +121,7 @@ replicator:
         type: paragraph
     type: editor
     enabled: true
+meta_title: 'Unser Team • GWriters'
+meta_description: 'Mitarbeiter der akademischen Ghostwriter Agentur GWriters. Menschen, die sich täglich mit viel Know-How & Feingefühl um Ihre akademischen Projekte kümmern.'
 id: 010a016f-92f5-482d-bcee-60b232e7c328
 ---
