@@ -129,4 +129,9 @@ fields:
           fields:
             -
               import: floating_img
+        text_box-alignment:
+          display: 'Text Box mit Textausrichtung'
+          fields:
+            -
+              import: textbox-aligned
       container: assets
