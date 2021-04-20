@@ -1,7 +1,7 @@
 ---
 title: Glossar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618912641
+updated_at: 1618912662
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -15,6 +15,12 @@ replicator:
   -
     bard:
       -
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: '9'
+      -
         type: paragraph
       -
         type: heading
@@ -24,8 +30,6 @@ replicator:
           -
             type: text
             marks:
-              -
-                type: bold
               -
                 type: textAlign
                 attrs:
