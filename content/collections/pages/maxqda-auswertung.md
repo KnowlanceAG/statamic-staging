@@ -1269,6 +1269,15 @@ replicator:
     enabled: true
 parent: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618942508
+updated_at: 1618942527
+template: with-side-bar
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 id: dafbcd3b-fd08-4c5b-94be-f2a80c140953
 ---
