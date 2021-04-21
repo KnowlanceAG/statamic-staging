@@ -2,7 +2,7 @@
 title: Arbeiten
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618848383
+updated_at: 1619014348
 teaser:
   -
     type: heading
@@ -22,6 +22,7 @@ teaser:
             type: textColor
             attrs:
               color: 'rgb(255, 102, 2)'
+              hex: '#000'
         text: Arbeiten
   -
     type: paragraph
@@ -698,5 +699,6 @@ replicator:
     enabled: true
 meta_title: 'Arbeiten • GWriters.de'
 meta_description: 'Akademische Ghostwriter von GWriters bieten ihre Leistungen für die verschiedensten Arten von Arbeiten an. 1. Sie schreiben Mustervorlage für wissenschaftliche Arbeiten: Bachelorarbeit, Masterarbeit, Hausarbeit...2...'
+page_title: 'Arbeiten • GWriters.de'
 id: d118c7b2-141d-4bac-972d-c1502381a340
 ---
