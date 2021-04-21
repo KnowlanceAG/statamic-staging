@@ -138,11 +138,29 @@ replicator:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: gray-700
+                      hex: '#999'
                 text: '«Es liegt nicht in unserem Aufgabenbereich, zu prüfen, wie diese Texte verwertet werden.»'
               -
                 type: hard_break
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: gray-700
+                      hex: '#999'
               -
                 type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: gray-700
+                      hex: '#999'
                 text: 'Katie Stern, «Team GWriters»'
       -
         type: heading
@@ -212,11 +230,29 @@ replicator:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: gray-700
+                      hex: '#999'
                 text: '«Sollte ein Student tatsächlich eine durch uns erstellte Arbeit als Prüfungsleistung einreichen, würde es der betreffenden Hochschule wahrscheinlich nicht auffallen.»'
               -
                 type: hard_break
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: gray-700
+                      hex: '#999'
               -
                 type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: gray-700
+                      hex: '#999'
                 text: 'Katie Stern, «Team GWriters»'
       -
         type: paragraph
@@ -266,11 +302,29 @@ replicator:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: gray-700
+                      hex: '#999'
                 text: '«Sollte ein solcher Betrug während der Berufstätigkeit auffliegen, so könnte das geradezu zum Ruin der beruflichen Zukunft führen.»'
               -
                 type: hard_break
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: gray-700
+                      hex: '#999'
               -
                 type: text
+                marks:
+                  -
+                    type: textColor
+                    attrs:
+                      color: gray-700
+                      hex: '#999'
                 text: 'Paul Richli, Rektor Universität Luzern'
       -
         type: paragraph
@@ -303,7 +357,7 @@ page_title: 'Uni Luzern: Empörung über Ghostwriter'
 parent: 7aff708e-5d48-409e-9242-fd82c155f5ee
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619015314
+updated_at: 1619015400
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
