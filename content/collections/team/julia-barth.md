@@ -1,10 +1,10 @@
 ---
-title: 'Anna Milena v. Gersdorff'
-position: Marketingleiterin
+title: 'Julia Barth'
+position: Projektmanagerin
 photo:
-  - team/anna-milena-von-gersdorff-gwriters.jpg
+  - team/julia-barth-gwriters.jpg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618950099
+updated_at: 1618949953
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -13,5 +13,5 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-id: 1e772779-291e-43ee-81ae-7726c207cd48
+id: 5e6ef2df-1a94-4c96-b8d9-10fef5638544
 ---

@@ -1,5 +1,5 @@
 ---
-title: Ghostwriting
+title: 'MAXQDA Auswertung'
 teaser:
   -
     type: heading
@@ -18,7 +18,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: Ghostwriting
+        text: 'MAXQDA Auswertung'
   -
     type: paragraph
     content:
@@ -31,7 +31,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: "Erfahrene akademische Ghostwriter\_schreiben Ihre wissenschaftliche Arbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate."
+        text: 'Erfahrene akademische Experten führen als Ghostwriter MAXQDA Auswertung für Ihre wissenschaftliche Arbeit durch – schnell, diskret und mehrfach geprüft auf Qualität.'
   -
     type: set
     attrs:
@@ -40,160 +40,11 @@ teaser:
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
-  -
-    type: paragraph
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
   -
-    bard:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Das Ghostwriting von wissenschaftlichen Artikeln, Manuskripten, Arbeiten und Texten lebt von Qualität und Vertrauen. GWriters bietet mit derzeit über 3000 freiberuflichen akademischen Ghostwritern einen hochwertigen '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'http://gwriters.de/ghostwriting/ghostwriting-service'
-                  target: null
-                  rel: null
-            text: 'Ghostwriting Service'
-          -
-            type: text
-            text: ' im wissenschaftlichen Bereich.'
-          -
-            type: hard_break
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Ghostwriting stellt eine besonders hochwertige und anspruchsvolle Dienstleistung im Bereich der Redaktion von Texten dar. Dabei steht besonders die Qualität der zu erstellenden Mustervorlage im Vordergrund. Es bedarf dem Zugang zu erfahrenen wissenschaftlichen Autoren, die neben den sprachlichen Fertigkeiten auch themenspezifisches Fachwissen vorweisen können.'
-    type: editor
-    enabled: true
-  -
     columns-replicator:
-      -
-        columns_per_row: '1'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Wichtige Akademische Arbeiten:'
-        type: row
-        enabled: true
-      -
-        columns_per_row: '3'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
-                          target: null
-                          rel: null
-                    text: Bachelorarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
-                          target: null
-                          rel: null
-                    text: Hausarbeit
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/doktorarbeit'
-                          target: null
-                          rel: null
-                    text: Doktorarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
-                          target: null
-                          rel: null
-                    text: Masterarbeit
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/essay'
-                          target: null
-                          rel: null
-                    text: Essay
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
-                          target: null
-                          rel: null
-                    text: Seminararbeit
-        type: row
-        enabled: true
       -
         columns_per_row: 1
         single-col: false
@@ -201,51 +52,13 @@ replicator:
           -
             bard:
               -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Ghostwriting bei GWriters'
-              -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'GWriters bietet Ihnen Zugang zu derzeit über 3000 Autoren und Bearbeitern aus unterschiedlichen Fachrichtungen. Wir helfen Ihnen, auch für "exotische" Projekte, schnell und diskret den passenden Autor bzw. Texter zu finden. Je nach Bedarf können unsere Freelancer Sie von Beginn des Projektes an unterstützen oder auch bereits zum Teil bestehende Texte überarbeiten und abschließen. Auch Teilunterstützungen bei Ihrem Projekt durch einen unserer '
+                    text: 'Unter den Programmen zur Auswertung von qualitativer und Mixed Methods- Forschung gehört die Software MAXQDA zu den beliebtesten und erfolgreichsten Möglichkeiten, die Forschern, Studierenden und Analysten zur Verfügung stehen. MAXQDA und die Auswertung mit MAXQDA zählen zur sogenannten QDA-Software - “Qualitative Data Analysis”-Software – die somit einen Teil des Namens von MAXQDA bildet. Eingesetzt wird die MAXQDA Analyse sowohl in Wissenschaft als auch in Wirtschaft. Die Auswertung mit MAXQDA wird inzwischen in über 150 Ländern durchgeführt. Die Software existiert seit 1989 und wird ständig weiterentwickelt.'
                   -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/ghostwriter'
-                          target: null
-                          rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    text: ', beispielsweise eine strukturelle Gliederung Ihres Manuskriptes, die statistische Auswertung einer Marktanalyse oder die Übersetzung Ihrer bereits erstellten Texte, sind durch uns realisierbar. Durch unser großes Team an Ghostwritern können wir in vielen Fachbereichen einen qualifizierten, fachspezifischen Bearbeiter bieten.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Sie erhalten die gewünschte Mustervorlage pünktlich zu den vorher abgestimmten Terminen und nach Standardrichtlinien wissenschaftlicher Arbeiten formatiert. Falls Sie besondere Formatierungswünsche o.ä. haben, können natürlich auch diese umgesetzt werden. Unsere Preisgestaltung versteht sich als Gesamtpreis (siehe Preisrechner), welcher sämtliche anfallenden Kosten deckt und wird vor Auftragsbeginn in Absprache mit Ihnen festgelegt. Es treten also keine weiteren versteckten Kosten für Sie auf. Wir garantieren Ihnen vollständige Kostentransparenz. Jede von uns erstellte Mustervorlage wird durch einen Supervisor auf Richtigkeit und Qualität überprüft. Im Preis inbegriffen ist selbstverständlich auch eine automatisierte und manuelle '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/leistungen/plagiatspruefung'
-                          target: null
-                          rel: null
-                    text: Plagiatsprüfung
-                  -
-                    type: text
-                    text: .
+                    type: hard_break
               -
                 type: paragraph
                 content:
@@ -254,16 +67,25 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wir bieten Ihnen stets höchste Qualität zu einem angemessenen Preis. Alle durch uns vermittelten Leistungen unterliegen strengen Qualitätskontrollen durch unser Team und unsere Supervisor. Die Betreuung Ihres Auftrages erfolgt durch einen festen, jederzeit erreichbaren Ansprechpartner.'
-              -
-                type: paragraph
-                content:
+                    text: "Unsere Experten und Ghostwriter bei GWriters haben einen\_ mit MAXQDA. Ob Sie für Ihre Firma oder im Rahmen Ihres Studiums von einem "
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Philosophie Ghostwriter suchen, dann können Sie uns gerne sofort eine '
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: 'Ghostwriter für beispielsweise Ihre Bachelorarbeit'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' MAXQDA Hilfe benötigen, wir können Sie bei jedem Ihrer persönlichen Ziele professionell unterstützen. Für die qualitative Inhaltsanalyse mit MAXQDA ist GWriters Ihr kompetenter Ansprechpartner. Fragen Sie jetzt einfach und unverbindlich ein '
                   -
                     type: text
                     marks:
@@ -275,16 +97,13 @@ replicator:
                           href: 'https://gwriters.de/anfrage'
                           target: null
                           rel: null
-                    text: 'unverbindliche Anfrage schicken'
+                    text: 'kostenloses Angebot'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. '
-                  -
-                    type: text
-                    text: 'Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+                    text: ' an.'
               -
                 type: heading
                 attrs:
@@ -292,19 +111,25 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Leistungen auf einen Blick'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: video
-                    video: 'https://youtu.be/4gPWQpuieE4'
+                    text: 'MAXQDA Analyse: Was sie ist und was sie kann'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Mit unserem akademischen Ghostwriting-Service können wir Sie bei flexibel bei jeder Art von Projekten unterstützen. Durch die weit diversifizierten Kompetenzen unserer über 3000 Experten und Ghostwriter können wir ein breites Service Portfolio abdecken, zu dem unter anderen die folgenden Leistungen gehören:'
+                    text: 'Die MAXQDA Analyse findet ihren Einsatz bei allen Arten qualitativer Forschung. Sowohl bei Grounded Theory, Literaturreviews, Marktforschung, qualitativer Inhaltsanalyse als auch bei Mixed Methods Ansätzen wird sie genutzt. Für eine schnelle und zuverlässige Auswertung von Daten bietet MAXQDA Hilfe – wenn die MAXQDA Auswertung richtig angewendet wird.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das Ziel der Auswertung mit MAXQDA ist es, Daten zu ordnen, zu codieren und im Rahmen einer qualitativen Inhaltsanalyse auszuwerten, ohne dass es dabei zu einer Verzerrung der Ergebnisse durch Auswertende kommen kann. Das Ausgangsmaterial, das die MAXQDA Analyse möglich macht, kann aus beinahe jeder Art von Texten oder qualitativen Daten bestehen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zur Auswertung mit MAXQDA können herangezogen werden:'
               -
                 type: bullet_list
                 content:
@@ -316,7 +141,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Strukturierung & Gliederung einer Mustervorlage für Ihre akademische Arbeit'
+                            text: 'Text-, Audio-, Bild- und Videodateien'
                   -
                     type: list_item
                     content:
@@ -325,7 +150,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Schriftliche Ausformulierung Ihrer Forschungsergebnisse in Form einer Mustervorlage'
+                            text: 'Intervies Transkriptionen'
                   -
                     type: list_item
                     content:
@@ -334,7 +159,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Ergänzung oder Überarbeitung von akademischen Texten'
+                            text: 'bibliographische Daten'
                   -
                     type: list_item
                     content:
@@ -343,20 +168,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Optimierung Ihrer Texte (inkl. '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: 'http://gwriters.de/leistungen/lektorat'
-                                  target: null
-                                  rel: null
-                            text: Lektorat
-                          -
-                            type: text
-                            text: ', Korrektorat & Plagiatsprüfung)'
+                            text: Umfragen
                   -
                     type: list_item
                     content:
@@ -365,7 +177,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Unterstützung bei statistischen Datenauswertungen, Marktanalysen oder sonstigen empirischen Untersuchungen'
+                            text: Fokusgruppen-Transkripte
                   -
                     type: list_item
                     content:
@@ -374,7 +186,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: "Unterstützung auch durch englischsprachige\_Mustervorlagen, weitere Sprachen auf Anfrage"
+                            text: Excel-Tabellen
                   -
                     type: list_item
                     content:
@@ -383,7 +195,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Hilfe bei der Erstellung Ihrer wissenschaftlichen oder politischen Reden'
+                            text: PDF-Dateien
                   -
                     type: list_item
                     content:
@@ -392,7 +204,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Erstellung von hochwertigen Website-Texten zur Optimierung Ihrer Internet-Präsenz'
+                            text: Webseiten
                   -
                     type: list_item
                     content:
@@ -401,7 +213,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Verfassen von Texten und Manuskripten jeder Art'
+                            text: SPSS-Datensätze
                   -
                     type: list_item
                     content:
@@ -410,320 +222,243 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Erstellung von Präsentationen'
+                            text: Bibliographien
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Tweets
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Twitter- und YouTube-Kommentare'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: '…und vieles mehr'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unser bewährter Service, mit dem wir bereits tausende Kunden unterstützt wurde und der hundertfach positiv bewertet wurde, wird ausschließlich von ausgewiesenen Experten erbracht, die sich in jedes Thema individuell einarbeiten und Ihnen somit immer den besten Service bieten. Darüber hinaus ermöglichen wir Ihnen als '
+                    text: 'Durch verschiedene Tools zur Organisation erlaubt MAXQDA, diese Daten vor der Auswertung mit MAXQDA zu transkribieren, zu ordnen und zu organisieren. Nützlich hierbei sind Funktionen, die es erlauben, Notizen zu machen und zu kategorisieren. Dazu zählen zum Beispiel die Elemente, die bei MAXQDA Hilfe bieten, um den Überblick zu behalten, wie zum Beispiel MAXQDAs Memo Manager, Summary-Grids und Summary-Tabellen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Eine Codierung bei der MAXQDA Analyse bedeutet, dass einzelnen Textstellen bestimmte Codes zugewiesen werden, um in der MAXQDA Analyse anhand dieser Codes eine Auswertung vornehmen zu können. Diese Zuweisung erfolgt meist manuell. Die Auswertung auf Basis dieser Codes wird von der MAXQDA Analyse übernommen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sobald die Auswertung mit MAXQDA beendet ist, können die qualitativen Daten mit quantitativen verknüpft werden. Auch das kann innerhalb der MAXQDA Analyse geschehen. Zu guter Letzt bietet MAXQDA Hilfe, wenn die analysierten Daten auch visualisiert werden sollen. Die Auswertung mit MAXQDA kann durch die Darstellungen der Daten in visuellen Maps und Modellen abgeschlossen werden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein beispielhaftes Vorgehen für die qualitative Inhaltsanalyse in MAXQDA wird Ihnen in unserem folgenden Youtube-Video von einem unserer erfahrensten Senior-Ghostwriter & Supervisor einmal ausführlich dargestellt:'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: video
+                    video: 'https://youtu.be/BrsqNBkZLLQ'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Auswertung mit MAXQDA: Wie unsere Ghostwriter Sie unterstützen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie eine MAXQDA Analyse für Ihre '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/ghostwriting/ghostwriting-agentur/'
+                          href: 'http://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
                           target: null
                           rel: null
-                    text: 'Ghostwriting Agentur'
+                    text: Hausarbeit
                   -
                     type: text
-                    text: ' immer den besten Preis für unseren Premium Service zu erhalten, da wir den gesamten Ablauf Ihres Ghostwriting-Projekts durch unsere schlanken Prozesse und unsere geschulten Projektmanager optimiert haben.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
+                    text: ', '
                   -
                     type: text
-                    text: 'Über uns & unseren Service'
-              -
-                type: table
-                content:
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: Seminararbeit
                   -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Telefonnummer
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '+49 (0) 30 809 332 339'
+                    type: text
+                    text: ', Bachelorarbeit oder '
                   -
-                    type: table_row
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: table_cell
+                        type: link
                         attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'E-Mail Adresse'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: info@gwriters.de
+                          href: 'http://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: 'Masterarbeit schreiben lassen'
                   -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Webseite
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: gwriters.de
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Leistung
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: Ghostwriting
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Kosten & Preise'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'ab 80€ pro Seite'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: "100% Anonymität \_\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'vertraglich garantiert'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Supervisor
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'im Preis inklusive'
+                    type: text
+                    text: ' wollen, wenden Sie sich gerne jederzeit unverbindlich an unsere Kontaktpersonen bei GWriters. Unsere Autoren und Ghostwriter haben langjährige akademische Erfahrung in nahezu allen akademischen Fachbereichen und sind eng vertraut mit den hohen methodischen Ansprüchen qualitativer Inhaltsanalysen mit MAXQDA. Sobald wir über Ihr Thema informiert sind, suchen wir für Sie einen Autor oder eine Autorin, die Ihre Daten nicht nur optimal bearbeiten kann, sondern auch noch Expertise in ihrem Fachbereich mitbringt.'
               -
                 type: paragraph
-              -
-                type: horizontal_rule
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-              -
-                type: horizontal_rule
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        columns_per_row: '1'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
                 content:
                   -
                     type: text
-                    text: 'Wichtige Fachbereiche:'
+                    text: 'Dies ist bei der MAXQDA Analyse von Bedeutung, da die Codierung der Daten vor der Auswertung mit MAXQDA einen geübten Blick für das Potential der Ausgangsdatenlage erfordert. Der Schritt der Codierung ist von daher von großer Bedeutung und wird nicht selten von mehreren Bearbeitenden in Anspruch genommen. Dementsprechend bieten wir zur MAXQDA Analyse auch an, ein zweites Augenpaar zu sein, eine bereits bestehende Codierung zu kontrollieren oder ihren Auftrag auf Wunsch mit mehreren Autor*innen zu bearbeiten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bevor wir die Auswertung mit MAXQDA für Sie in Angriff nehmen, bräuchten wir von Ihnen Informationen zu folgenden Punkten:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Welche Daten sollen ausgewertet werden?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Sind die Daten vollständig?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Sind diese Daten bereits transkribiert?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Wenn nicht, sollen sie manuell oder mithilfe von MAXQDA transkribiert werden?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Haben Sie bereits Notizen und Kommentare angelegt und Sortierungen vorgenommen?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Haben Sie Ihre Daten bereits codiert?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Haben Sie spezifische Wünsche bei der Codierung?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Soll die MAXQDA Analyse mit Visualisierungen abgeschlossen werden?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'In welchem Dokument würden Sie die MAXQDA Auswertung gerne erhalten? HTML-, txt-, CSV- oder Excel-Datei?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Sollen die Daten noch mit anderen Daten, zum Beispiel quantitativen Datensätzen, verknüpft oder verglichen werden?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Sollen die Auswertungen noch interpretiert werden?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Für unsere Ghostwriter spielt es keine Rolle, auf welchem Betriebssystem Sie arbeiten, da die MAXQDA Analyse sowohl auf Mac als auch auf Windows komplett funktionsfähig und zwischen beiden Systemen kompatibel ist.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Aufgrund der diversifizierten Kompetenzen und Qualifikationen unserer Ghostwriter können wir Ihnen die Hilfe MAXQDA oder auch vollständige Auswertungen mit MAXQDA in nahezu allen akademischen Fachbereichen anbieten. Hier eine Übersicht der wichtigsten Fachbereiche:'
         type: row
         enabled: true
       -
@@ -732,30 +467,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: underline
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/architektur'
-                          target: null
-                          rel: null
-                    text: Architektur
               -
                 type: paragraph
                 content:
@@ -1435,13 +1146,19 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wie wird mein akademischer Ghostwriter bei GWriters ausgewählt?'
+                    text: 'MAXQDA: Hilfe bei GWriters'
               -
-                type: set
-                attrs:
-                  values:
-                    type: video
-                    video: 'https://youtu.be/24E4sRsn8CA'
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sollten Sie sich mit den Fragen zur Auswertung mit MAXQDA bei den GWriters noch nicht auseinandergesetzt oder keine Antworten dazu haben, stellt auch das kein Problem dar. Unsere Projektleitenden beraten Sie jederzeit unverbindlich und setzen Sie gerne in Kontakt mit unseren Kundenberatern und Ghostwritern, die mit Ihnen per E-Mail oder in einer Telefonkonferenz das mögliche Vorgehen bei der MAXQDA Analyse Ihrer Daten besprechen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie also bei MAXQDA Hilfe und Unterstützung suchen, kontaktieren Sie und gerne per E-Mail oder Telefon. Ob kleine Bestandteile Ihrer Auswertung mit MAXQDA, oder die gesamte MAXQDA Auswertung von der Einspeisung der Daten bis zur Visualisierung in einer Map – wir finden mit Ihnen zusammen die ideale Form, Ihre Daten zu bearbeiten.'
               -
                 type: paragraph
                 content:
@@ -1450,72 +1167,100 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Weitere Videos:'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: 'https://gwriters.de/blog/akademisches-ghostwriting-gwriters'
-                                  target: null
-                                  rel: null
-                            text: 'Akademisches Ghostwriting - Wie läuft es bei GWriters ab?'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: 'https://gwriters.de/blog/ghostwriter-auftrag-tipps'
-                                  target: null
-                                  rel: null
-                            text: 'Tipps für einen erfolgreichen Ghostwriter Auftrag'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: 'https://gwriters.de/blog/akademische-ghostwriter-gwriters-angebot'
-                                  target: null
-                                  rel: null
-                            text: 'Wie entsteht ein Ghostwriter-Angebot bei GWriters?'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: Disclaimer
+                    text: 'Unsere Blogartikel zum Thema MAXQDA Auswertung:'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/blog/qualitative-inhaltsanalyse-voraussetzungen'
+                          target: null
+                          rel: null
+                    text: 'Qualitative Inhaltsanalyse – Voraussetzungen und Ablauf'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/blog/leitfadengestuetztes-experteninterview'
+                          target: null
+                          rel: null
+                    text: 'Leitfadengestütztes Experteninterview – So gelingt es erfolgreich'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/blog/qualitative-quantitative-methoden'
+                          target: null
+                          rel: null
+                    text: 'Qualitative & quantitative Methoden beim Schreiben wissenschaftlicher Arbeiten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/blog/qualitative-inhaltsanalyse-mayring-beispiele'
+                          target: null
+                          rel: null
+                    text: 'Qualitative Inhaltsanalyse nach Mayring erklärt am Beispiel'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Weiterführende Links:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://de.wikipedia.org/wiki/MAXQDA'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Wikipedia Artikel'
+                  -
+                    type: text
+                    text: ' zum Thema MAXQDA'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.maxqda.de/was-ist-maxqda'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: Herstellerseite
+                  -
+                    type: text
+                    text: ' von MAXQDA'
         type: row
         enabled: true
     remove_spacing: true
@@ -1524,12 +1269,10 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
-parent: 849140c8-c582-4340-a2bc-446126149c9f
-template: with-side-bar
+parent: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618940747
-meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
-meta_description: 'Ghostwriting von GWriters.de. Preissicherheit, Qualität und Diskretion von unserer seriösen Agentur. Mehr dazu hier.'
+updated_at: 1618942974
+template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1538,5 +1281,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-id: 0328a685-5f37-4f91-bd4b-79c53adaea8d
+meta_title: 'GWriters • Die perfekte MAXQDA Auswertung für Ihre Abschlussarbeit'
+meta_description: 'MAXQDA Auswertung von akademischen Ghostwritern. Die besten Experten finden & alles zur Auswertung mit MAXQDA: Leistungen, Kosten, Preise & Ablauf.'
+id: dafbcd3b-fd08-4c5b-94be-f2a80c140953
 ---

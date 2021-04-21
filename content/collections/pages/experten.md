@@ -2,8 +2,8 @@
 title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615455922
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1618953851
 teaser:
   -
     type: heading
@@ -141,6 +141,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
   -
     bard:
       -
@@ -151,6 +152,10 @@ replicator:
             experts:
               - 1afd0ee6-02cf-44ee-86a3-9d7b2992ad91
               - bdab7ac8-0923-4d8c-b848-caa250aa5e62
+              - e65628a8-8ea2-415d-aaa6-fe989df6a568
+              - ba5d8a21-c7c4-4743-931e-ef2dfef89cc9
+              - 6fd5f928-d931-42b1-b5eb-8f395f5bd71e
+              - ece9c0d8-5e69-4361-a79d-acbdb0675182
       -
         type: paragraph
     type: editor
@@ -179,6 +184,7 @@ replicator:
                 type: paragraph
         type: row
         enabled: true
+    remove_spacing: false
   -
     columns-replicator:
       -
@@ -353,17 +359,36 @@ replicator:
                     padding-y: '30'
               -
                 type: paragraph
-              -
-                type: paragraph
                 content:
+                  -
+                    type: text
+                    text: "Bei GWriters gewährleisten wir Ihre Anonymität zu 100% und\_"
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
+                        type: link
                         attrs:
-                          align: justify
-                    text: "Bei GWriters gewährleisten wir Ihre Anonymität zu 100% und\_schützen Ihre Daten streng nach den Vorgaben von DSGVO und GDPR. Die Speicherung aller Informationen erfolgt auf unseren eigenen Servern mit Standort in der Schweiz, auf die der Zugriff durch Außenstehende unmöglich ist. Darüber hinaus erhält einzig Ihr persönlicher Projektmanager Zugriff auf Ihre Informationen, selbst für Ihren akademischen Ghostwriter bleiben Sie anonym. Ebenso unbesorgt können Sie auch hinsichtlich der Qualität Ihrer Arbeit sein: jede von uns erstellte Arbeit wird von einem Team von erfahrenen und spezialisierten Supervisoren auf Qualität geprüft. So stellen wir sicher, dass Ihre Arbeit allen akademischen Standards entspricht, denn dies ist auch unser Anspruch an uns selbst."
+                          href: 'https://gwriters.de/datenschutzerklaerung'
+                          target: null
+                          rel: null
+                    text: 'schützen Ihre Daten'
+                  -
+                    type: text
+                    text: ' streng nach den Vorgaben von DSGVO und GDPR. Die Speicherung aller Informationen erfolgt auf unseren eigenen Servern mit Standort in der Schweiz, auf die der Zugriff durch Außenstehende unmöglich ist. Darüber hinaus erhält einzig Ihr persönlicher Projektmanager Zugriff auf Ihre Informationen, selbst für Ihren '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/ghostwriter'
+                          target: null
+                          rel: null
+                    text: 'akademischen Ghostwriter'
+                  -
+                    type: text
+                    text: ' bleiben Sie anonym. Ebenso unbesorgt können Sie auch hinsichtlich der Qualität Ihrer Arbeit sein: jede von uns erstellte Arbeit wird von einem Team von erfahrenen und spezialisierten Supervisoren auf Qualität geprüft. So stellen wir sicher, dass Ihre Arbeit allen akademischen Standards entspricht, denn dies ist auch unser Anspruch an uns selbst.'
         type: row
         enabled: true
     is-full: false
@@ -371,6 +396,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
