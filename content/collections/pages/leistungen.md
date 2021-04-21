@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619006918
+updated_at: 1619007264
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -352,7 +352,7 @@ replicator:
                   values:
                     type: bilder
                     assets:
-                      - leistung/icons/YXNzZXRzL2xlaXN0dW5nL2ljb25zL3NlYXJjaC1ib29rLnBuZw==.webp
+                      - leistung/icons/search-book.png
                     link: 'entry::dafbcd3b-fd08-4c5b-94be-f2a80c140953'
                     img-alignment: justify-center
               -
