@@ -128,19 +128,6 @@ replicator:
           -
             type: text
             text: 'Ebenso wie Kopper ist auch Thomas Nemet, Gründer und CEO des Konkurrenten Acad Write mit Sitz in Zürich, darauf bedacht, wenig Angriffsfläche zu bieten. Keine Ghostwriting-Agentur rühmt sich damit, abgabefertige Abschlussarbeiten anzubieten. Nemet spricht stattdessen von „Hilfestellungen“ und fügt hinzu: „Wir weisen unsere Kunden darauf hin, dass sie die Arbeiten nicht 1:1 abgeben, sondern lediglich für die weitere private Recherche nutzen dürfen.“'
-      -
-        type: paragraph
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: italic
-            text: ' '
-      -
-        type: paragraph
     type: editor
     enabled: true
   -
@@ -216,7 +203,7 @@ replicator:
 parent: 8bdfe06a-1a06-46e1-94d2-591c8f5faece
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619017085
+updated_at: 1619017115
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
