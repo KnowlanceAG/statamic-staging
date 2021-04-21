@@ -4,11 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        {{ if page_title }}
-            <title>{{ page_title }}</title>
-        {{ else }}
-            <title>GWriters • {{ title ?? site:name }}</title>
-        {{ /if }}
+
         <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
 
         <link rel="icon" href="/assets/webseite/gwriters-logo-32x32.png" sizes="32x32">
@@ -23,6 +19,7 @@
             sizes="114x114">
 
         {{ aardvark-seo:head }}
+
     </head>
     <body class="{{ if id=="home" }}{{ id }}{{ /if }}{{ segment_1 }} bg-white leading-normal text-black pt-24 body {{ template }}">
         {{ aardvark-seo:body }}

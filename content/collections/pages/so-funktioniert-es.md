@@ -3,7 +3,7 @@ title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1617093349
+updated_at: 1618988554
 teaser_bg:
   - seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
@@ -78,6 +78,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
       -
         columns_per_row: '2'
         grid:
@@ -110,11 +111,13 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
   -
     columns-replicator:
       -
@@ -144,6 +147,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
       -
         columns_per_row: '4'
         grid:
@@ -343,12 +347,14 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
   -
     columns-replicator:
       -
@@ -383,10 +389,14 @@ replicator:
         type: row
         enabled: true
         single-col: true
+        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
+meta_title: 'Wissenschaftliches Ghostwriting bei GWriters • So funktioniert es'
+meta_description: 'Möchten Sie Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen? So funktioniert es - in 4 einfachen Schritten.'
 id: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
 ---
