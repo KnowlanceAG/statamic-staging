@@ -94,6 +94,7 @@ sections:
           type: code
           icon: code
           listable: hidden
+          width: 50
       -
         handle: logo_image
         field:
@@ -105,6 +106,7 @@ sections:
           type: assets
           icon: assets
           listable: hidden
+          width: 50
       -
         handle: feature_liste
         field:

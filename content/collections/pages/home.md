@@ -51,7 +51,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1618928677
+updated_at: 1618986057
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -107,13 +107,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: insert_html
-                    html: |-
-                      <div class="text-center font-Montserrat">
-                          <h2 class="font-bold text-gray-550">Fragen? Rufen Sie uns einfach an:</h2>
-                          <p class="text-orange-500 hover:text-orange-700 text-4xl"><a href="tel:+49%20(0)%2030%20809%20332%20339" rel="nofollow" target="_blank">+49 (0) 30 809 332 339</a></p>
-                          <p class="text-gray-700">Mo.-Fr. 9:00-18:00</p>
-                      </div>
+                    type: phone_cta
+                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
+                    open: 'Mo.-Fr. 9:00-18:00'
               -
                 type: paragraph
         type: row

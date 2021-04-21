@@ -53,6 +53,22 @@ function tabToggle() {
     }
 }
 
+function getLocale() {
+    const tld = window.location.origin.split('.').pop();
+    return tld;
+}
+
+function setLocalizedContent () {
+    const curr = getLocale();
+    const body = document.body;
+
+    if(curr == 'ch') {
+        body.classList.add('ch');
+    } else {
+        body.classList.add('de');
+    }
+}
+
 var ready = (callback) => {
   if (document.readyState != "loading") callback();
   else document.addEventListener("DOMContentLoaded", callback);
@@ -62,4 +78,5 @@ ready(() => {
     menuOpener();
     lazzyVideo();
     tabToggle();
+    setLocalizedContent();
 });

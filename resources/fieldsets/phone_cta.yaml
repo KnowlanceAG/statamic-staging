@@ -1,0 +1,28 @@
+title: 'Telefon CTA'
+fields:
+  -
+    handle: cta_text
+    field:
+      input_type: text
+      antlers: false
+      display: 'CTA Text'
+      type: text
+      icon: text
+      listable: hidden
+  -
+    handle: telefonnummer
+    field:
+      display: Telefonnummer
+      type: section
+      icon: section
+      instructions: 'Die Telefonnummer kommt aus Globalen Inhalten...'
+      listable: hidden
+  -
+    handle: open
+    field:
+      input_type: text
+      antlers: false
+      display: Öffnungszeiten
+      type: text
+      icon: text
+      listable: hidden

@@ -1,0 +1,43 @@
+sections:
+  contact_de:
+    display: Deutschland
+    fields:
+      -
+        handle: phone-de
+        field:
+          input_type: text
+          antlers: false
+          display: Telefonnummer
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: mail-address-de
+        field:
+          input_type: text
+          antlers: false
+          display: 'E-Mail Adresse'
+          type: text
+          icon: text
+          listable: hidden
+  contact_ch:
+    display: Schweiz
+    fields:
+      -
+        handle: phone-ch
+        field:
+          input_type: text
+          antlers: false
+          display: Telefonnummer
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: mail-address-ch
+        field:
+          input_type: text
+          antlers: false
+          display: 'E-Mail Adresse'
+          type: text
+          icon: text
+          listable: hidden

@@ -296,3 +296,19 @@ table {
         }
     }
 }
+
+.visible-de,
+.visible-ch {
+    display: none;
+}
+
+body.de {
+    .visible-de {
+        display: inline;
+    }
+}
+body.ch {
+    .visible-ch {
+        display: inline;
+    }
+}

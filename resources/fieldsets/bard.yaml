@@ -139,4 +139,9 @@ fields:
           fields:
             -
               import: table
+        phone_cta:
+          display: 'Telefon CTA'
+          fields:
+            -
+              import: phone_cta
       container: assets
