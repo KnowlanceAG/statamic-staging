@@ -78,13 +78,78 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Von der Seminar- bis zur Doktorarbeit bieten Ghostwriter ihre Dienste für fast jede akademische Schrift an. Ihre Kunden erhoffen sich davon bessere Karrierechancen – und ignorieren das rechtliche Risiko.'
+                    text: 'Von der Seminar- bis zur'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                          target: null
+                          rel: null
+                    text: ' Doktorarbeit'
+                  -
+                    type: text
+                    text: ' bieten Ghostwriter ihre Dienste für fast jede akademische Schrift an. Ihre Kunden erhoffen sich davon bessere Karrierechancen – und ignorieren das rechtliche Risiko.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Marcel Kopper hätte es sich leicht machen können. Nur wenige Prüfungen und die Masterarbeit trennen ihn noch von seinem Universitätsabschluss. Als Gründer und Vorstandsmitglied von GWriters führt Kopper nebenbei ein Unternehmen, das sich auf akademisches Ghostwriting spezialisiert hat. Essays, Bachelorarbeiten, sogar Dissertationen: So ziemlich alles, was Studierende im Laufe ihres Studiums aus ihrer eigenen Geisteskraft zu schöpfen haben, bietet GWriters als Service an und ist damit eine der größten'
+                    text: 'Marcel Kopper hätte es sich leicht machen können. Nur wenige Prüfungen und die'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: ' Masterarbeit '
+                  -
+                    type: text
+                    text: 'trennen ihn noch von seinem Universitätsabschluss. Als Gründer und Vorstandsmitglied von GWriters führt Kopper nebenbei ein Unternehmen, das sich auf akademisches '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/ghostwriting'
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: ' spezialisiert hat. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/essay'
+                          target: null
+                          rel: null
+                    text: Essays
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: Bachelorarbeiten
+                  -
+                    type: text
+                    text: ', sogar Dissertationen: So ziemlich alles, was Studierende im Laufe ihres Studiums aus ihrer eigenen Geisteskraft zu schöpfen haben, bietet GWriters als Service an und ist damit eine der größten'
               -
                 type: paragraph
                 content:
@@ -212,7 +277,7 @@ replicator:
 parent: 8bdfe06a-1a06-46e1-94d2-591c8f5faece
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619017586
+updated_at: 1619018537
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
