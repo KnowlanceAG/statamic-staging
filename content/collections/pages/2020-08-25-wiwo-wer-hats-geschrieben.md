@@ -277,7 +277,7 @@ replicator:
 parent: 8bdfe06a-1a06-46e1-94d2-591c8f5faece
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619018537
+updated_at: 1619018586
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -286,5 +286,8 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+page_title: 'Wirtschaftswoche: Wer hat’s geschrieben? • GWriters'
+meta_title: 'Wirtschaftswoche: Wer hat’s geschrieben? • GWriters'
+meta_description: 'Artikel in der Wirtschaftswoche über GWriters mit Marcel Kopper im Interview. Erfahren Sie mehr über uns & profitieren Sie von unserem Ghostwriter Service.'
 id: 92015515-8649-491e-9e4b-2193dfaeba02
 ---
