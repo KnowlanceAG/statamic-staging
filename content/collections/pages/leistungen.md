@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619005602
+updated_at: 1619005732
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -703,7 +703,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
-    remove_spacing: false
+    remove_spacing: true
   -
     columns-replicator:
       -
@@ -712,10 +712,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
               -
                 type: set
                 attrs:
@@ -779,6 +775,10 @@ replicator:
                             type: text
                             text: 'Alle durch uns vermittelten Leistungen unterliegen einer strengen Qualitätskontrolle durch unser Team und unsere Supervisor. Die Betreuung Ihres Auftrages erfolgt durch einen festen, jederzeit erreichbaren Ansprechpartner.'
                     text_ausrichtung: text-center
+              -
+                type: heading
+                attrs:
+                  level: 2
               -
                 type: paragraph
         type: row
