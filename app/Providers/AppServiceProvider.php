@@ -4,7 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Statamic\Statamic;
-use Statamic\StaticSite\Generator;
+use Uscreen\Cpssg\CpssgGenerator;
 
 use Statamic\Facades\Entry;
 use App\UrlPaginator as UrlPaginator;
@@ -13,23 +13,24 @@ use Illuminate\Support\Facades\Log;
 
 class AppServiceProvider extends ServiceProvider
 {
-    private $ssgConfig;
-
-    private function blogUrls()
+    private static function blogUrls()
     {
-      // The URL of the listing.
-      $url = '/blog';
+        // The URL of the listing.
+        $url = '/blog';
 
-      // The number of entries per page, according to your collection tag.
-      $perPage = 10;
+        // The number of entries per page, according to your collection tag.
+        $perPage = 10;
 
-      // The total number of entries in the collection.
-      // Make sure to mimic whatever params/filters are on the collection tag.
-      $total = Entry::query()->where('collection', 'blog')->where('status', 'published')->count();
+        // The total number of entries in the collection.
+        // Make sure to mimic whatever params/filters are on the collection tag.
+        $total = Entry::query()
+            ->where('collection', 'blog')
+            ->where('status', 'published')
+            ->count();
 
-      return collect(range(1, ceil($total / $perPage)))
-        ->map(fn ($page) => $url.'/page/'.$page)
-        ->all();
+        return collect(range(1, ceil($total / $perPage)))
+            ->map(fn($page) => $url . '/page/' . $page)
+            ->all();
     }
 
     /**
@@ -39,7 +40,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
     }
 
     /**
@@ -47,51 +47,41 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot(Generator $ssg = null)
+    public function boot(CpssgGenerator $ssg = null)
     {
-      // Statamic::script('app', 'cp');
-      Statamic::style('app', 'cp.css');
+        // Statamic::script('app', 'cp');
+        Statamic::style('app', 'cp.css');
 
-      $this->app->extend(LengthAwarePaginator::class, function ($paginator) {
-        $options = $paginator->getOptions();
-        $options['path'] = preg_replace('/\/page\/\d+$/', '', $options['path']);
+        $this->app->extend(LengthAwarePaginator::class, function ($paginator) {
+            $options = $paginator->getOptions();
+            $options['path'] = preg_replace(
+                '/\/page\/\d+$/',
+                '',
+                $options['path']
+            );
 
-        return $this->app->makeWith(UrlPaginator::class, [
-            'items' => $paginator->getCollection(),
-            'total' => $paginator->total(),
-            'perPage' => $paginator->perPage(),
-            'currentPage' => $paginator->currentPage(),
-            'options' => $options,
-        ]);
-      });
+            return $this->app->makeWith(UrlPaginator::class, [
+                'items' => $paginator->getCollection(),
+                'total' => $paginator->total(),
+                'perPage' => $paginator->perPage(),
+                'currentPage' => $paginator->currentPage(),
+                'options' => $options,
+            ]);
+        });
 
-      UrlPaginator::currentPageResolver(function () {
-          return optional($this->app['request']->route())->parameter('page');
-      });
+        UrlPaginator::currentPageResolver(function () {
+            return optional($this->app['request']->route())->parameter('page');
+        });
 
+        // Log::debug('default config: ', config('statamic.ssg'));
+    }
 
-      if (!isset($this->ssgConfig)) {
-        $this->ssgConfig = config('statamic.ssg');
-        $this->ssgConfig['base_url'] = config('cpssg.static_site_url');
-        $this->ssgConfig['urls'] = array_merge(
-            $this->ssgConfig['urls'],
-            $this->blogUrls()
-        );
-
-        config(['statamic.ssg' => $this->ssgConfig]);
-        if ($ssg) {
-          $ssg->setConfig(config('statamic.ssg'));
-        }
-      }
-
-      $this->app->beforeResolving(Generator::class, function ($generator) {
+    public static function ssgConfiguration()
+    {
         $config = config('statamic.ssg');
         $config['base_url'] = config('cpssg.static_site_url');
-        $config['urls'] = array_merge(
-            $config['urls'],
-            $this->blogUrls()
-        );
-        config(['statamic.ssg' => $this->ssgConfig]);
-      });
+        $config['urls'] = array_merge($config['urls'], self::blogUrls());
+        config(['statamic.ssg' => $config]);
+        return $config;
     }
 }
