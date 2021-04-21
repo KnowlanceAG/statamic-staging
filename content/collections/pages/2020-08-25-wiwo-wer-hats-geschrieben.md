@@ -66,6 +66,14 @@ replicator:
                     type: text
                     text: ' Philipp Frohn'
               -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - presse/wirtschaftswoche-gwriters-presse.png
+                    img-alignment: justify-start
+              -
                 type: paragraph
                 content:
                   -
@@ -204,7 +212,7 @@ replicator:
 parent: 8bdfe06a-1a06-46e1-94d2-591c8f5faece
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619017400
+updated_at: 1619017483
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
