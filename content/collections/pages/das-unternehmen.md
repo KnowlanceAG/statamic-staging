@@ -1,7 +1,7 @@
 ---
 title: 'Das Unternehmen'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618954283
+updated_at: 1619009172
 teaser:
   -
     type: heading
@@ -129,5 +129,6 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 meta_title: 'GWriters • Seriöse akademische Ghostwriting Agentur'
 meta_description: 'GWriters ist eine schnell wachsende Web-Plattform für die Vermittlung von akademischen Freelancern, z.B. Lektoren, Autoren, Übersetzern & Coaches.'
+page_title: 'GWriters • Seriöse akademische Ghostwriting Agentur'
 id: b1510f04-f5f7-4d15-9be4-fc69c7add6e0
 ---
