@@ -18,6 +18,14 @@ replicator:
                   hex: '#ff6606'
             text: 'Uni Luzern: Empörung über Ghostwriter'
       -
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: '10'
+      -
+        type: paragraph
+      -
         type: paragraph
         content:
           -
@@ -295,7 +303,7 @@ page_title: 'Uni Luzern: Empörung über Ghostwriter'
 parent: 7aff708e-5d48-409e-9242-fd82c155f5ee
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619015271
+updated_at: 1619015295
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
