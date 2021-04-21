@@ -3,4 +3,6 @@ redakteure:
   roles:
     - redakteure
 admin:
-  title: Admin
+  title: Administratoren
+  roles:
+    - admin
