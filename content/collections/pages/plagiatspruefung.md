@@ -125,6 +125,7 @@ replicator:
                     text: 'Wichtige Fachbereiche:'
         type: row
         enabled: true
+        responsive_columns: 1
       -
         columns_per_row: '3'
         single-col: false
@@ -821,6 +822,7 @@ replicator:
                     text: Wirtschaftswissenschaften
         type: row
         enabled: true
+        responsive_columns: 1
     remove_spacing: true
     is-full: false
     bg-toggle: false
@@ -829,7 +831,7 @@ replicator:
     enabled: true
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618945689
+updated_at: 1619013773
 template: with-side-bar
 meta_title: 'Die GWriters Plagiatsprüfung - Mehr Sicherheit für Ihre Abschlussarbeit'
 meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Plagiatsprüfung: Leistungen, Ablauf, Kosten & Preise.'
@@ -841,5 +843,6 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+page_title: 'Die GWriters Plagiatsprüfung - Mehr Sicherheit für Ihre Abschlussarbeit'
 id: fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
 ---
