@@ -3,7 +3,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619008195
+updated_at: 1619008235
 replicator:
   -
     columns-replicator:
@@ -90,14 +90,6 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Bitte geben Sie außerdem nur die reinen Textseiten (Normseite ca. 1800 Zeichen inkl. Leerzeichen) an. Bei dem Ghostwriting sind die Plagiatsprüfung, das Lektorat durch einen Supervisor, alle Verzeichnisse, Deckblatt etc. natürlich im Preis inbegriffen. Wir bieten Qualität – und das zu fairen Preisen.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '0'
-              -
-                type: paragraph
         type: row
         enabled: true
         responsive_columns: 1
