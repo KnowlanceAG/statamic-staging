@@ -17,6 +17,7 @@ teaser:
             type: textColor
             attrs:
               color: '#ff6602'
+              hex: '#000'
         text: 'Mustervorlage für Exposé schreiben lassen'
   -
     type: paragraph
@@ -41,7 +42,7 @@ teaser:
         button_link: 'https://gwriters.de/anfrage'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618558501
+updated_at: 1619009194
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
@@ -126,6 +127,7 @@ replicator:
                     text: 'Unsere Leistungen'
         type: row
         enabled: true
+        responsive_columns: 1
       -
         columns_per_row: '3'
         single-col: false
@@ -298,6 +300,7 @@ replicator:
                     text: Promotionsberatung
         type: row
         enabled: true
+        responsive_columns: 1
       -
         columns_per_row: 1
         single-col: false
@@ -314,6 +317,7 @@ replicator:
                     text: 'Wichtige Fachbereiche:'
         type: row
         enabled: true
+        responsive_columns: 1
       -
         columns_per_row: '3'
         single-col: false
@@ -979,11 +983,13 @@ replicator:
                     text: Wirtschaftswissenschaften
         type: row
         enabled: true
+        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
   -
     bard:
       -
@@ -1538,5 +1544,6 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: with-side-bar
+page_title: 'GWriters • Mustervorlage für Exposé schreiben lassen'
 id: b42eb586-1305-4faf-8d59-79e53ff91373
 ---
