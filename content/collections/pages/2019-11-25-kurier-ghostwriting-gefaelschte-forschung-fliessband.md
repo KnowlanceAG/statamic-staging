@@ -346,7 +346,7 @@ replicator:
     enabled: true
 parent: 8bdfe06a-1a06-46e1-94d2-591c8f5faece
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619021370
+updated_at: 1619021406
 template: without-teaser-with-sidebar
 use_meta_keywords: false
 no_index_page: false
@@ -356,5 +356,6 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+page_title: 'Ghostwriting: Über gefälschte Forschung am Fließband'
 id: 4cf21ef2-992d-4758-a280-ff0d2aac2bb9
 ---
