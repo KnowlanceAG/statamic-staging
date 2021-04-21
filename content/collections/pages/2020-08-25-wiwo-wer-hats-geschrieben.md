@@ -161,8 +161,6 @@ replicator:
                     padding-y: '8'
               -
                 type: paragraph
-              -
-                type: paragraph
                 content:
                   -
                     type: text
@@ -197,8 +195,6 @@ replicator:
                   -
                     type: text
                     text: 'Von der Seminar- bis zur Doktorarbeit bieten Ghostwriter ihre Dienste für fast jede akademische Schrift an. Ihre Kunden erhoffen sich davon bessere Karrierechancen – und ignorieren das rechtliche Risiko.'
-              -
-                type: paragraph
               -
                 type: paragraph
                 content:
@@ -332,7 +328,7 @@ replicator:
 parent: 8bdfe06a-1a06-46e1-94d2-591c8f5faece
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619017273
+updated_at: 1619017302
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
