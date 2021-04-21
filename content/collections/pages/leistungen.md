@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619005921
+updated_at: 1619006769
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -150,21 +150,13 @@ replicator:
               -
                 type: set
                 attrs:
-                  values:
-                    type: floating-img
-                    dateien:
-                      - leistung/icons/pencil.svg
-                    img_size: w-1/4
-                    float: mx-auto
-              -
-                type: set
-                attrs:
                   enabled: false
                   values:
                     type: bilder
                     assets:
                       - leistung/icons/pencil.svg
                     img-alignment: justify-center
+                    link: 'entry::0328a685-5f37-4f91-bd4b-79c53adaea8d'
               -
                 type: heading
                 attrs:
@@ -224,13 +216,11 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
-                    dateien:
+                    type: bilder
+                    assets:
                       - leistung/icons/Glasses-new.svg
-                    img_size: w-1/4
-                    float: mx-auto
-              -
-                type: paragraph
+                    link: 'entry::659e7e81-6d07-4eea-9ef2-325e72618036'
+                    img-alignment: justify-center
               -
                 type: heading
                 attrs:
@@ -290,11 +280,11 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
-                    dateien:
+                    type: bilder
+                    assets:
                       - leistung/icons/eraser_1.svg
-                    img_size: w-1/4
-                    float: mx-auto
+                    link: 'entry::e36a16aa-f4fc-4352-8466-36266c196de4'
+                    img-alignment: justify-center
               -
                 type: heading
                 attrs:
@@ -361,11 +351,11 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
-                    dateien:
+                    type: bilder
+                    assets:
                       - leistung/icons/search-book.png
-                    img_size: w-1/4
-                    float: mx-auto
+                    link: 'entry::dafbcd3b-fd08-4c5b-94be-f2a80c140953'
+                    img-alignment: justify-center
               -
                 type: heading
                 attrs:
@@ -430,11 +420,11 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
-                    dateien:
+                    type: bilder
+                    assets:
                       - leistung/icons/certificate_1.svg
-                    img_size: w-1/4
-                    float: mx-auto
+                    link: 'entry::e12620a8-faf9-4f3e-82af-5586f4a85db2'
+                    img-alignment: justify-center
               -
                 type: heading
                 attrs:
@@ -499,11 +489,11 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
-                    dateien:
+                    type: bilder
+                    assets:
                       - leistung/icons/secure.svg
-                    img_size: w-1/4
-                    float: mx-auto
+                    link: 'entry::fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8'
+                    img-alignment: justify-center
               -
                 type: heading
                 attrs:
@@ -563,11 +553,11 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
-                    dateien:
-                      - leistung/icons/secure.svg
-                    img_size: w-1/4
-                    float: mx-auto
+                    type: bilder
+                    assets:
+                      - leistung/icons/reload.svg
+                    link: 'entry::7cad538c-ad74-4617-825e-bbac46ebf310'
+                    img-alignment: justify-center
               -
                 type: heading
                 attrs:
@@ -632,11 +622,11 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
-                    dateien:
+                    type: bilder
+                    assets:
                       - leistung/icons/hat.svg
-                    img_size: w-1/4
-                    float: mx-auto
+                    link: 'entry::6dd15231-c8e7-43fe-949e-af68de19ab1b'
+                    img-alignment: justify-center
               -
                 type: heading
                 attrs:
