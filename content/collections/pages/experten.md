@@ -3,7 +3,7 @@ title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618953851
+updated_at: 1619014240
 teaser:
   -
     type: heading
@@ -83,6 +83,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
       -
         columns_per_row: 1
         grid:
@@ -136,6 +137,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -184,6 +186,7 @@ replicator:
                 type: paragraph
         type: row
         enabled: true
+        responsive_columns: 1
     remove_spacing: false
   -
     columns-replicator:
@@ -261,6 +264,7 @@ replicator:
                 type: paragraph
         type: row
         enabled: true
+        responsive_columns: 1
       -
         columns_per_row: '3'
         single-col: false
@@ -345,6 +349,7 @@ replicator:
                     text: 'Unsere Supervisoren garantieren höchste Qualität'
         type: row
         enabled: true
+        responsive_columns: 1
       -
         columns_per_row: 1
         single-col: false
@@ -391,6 +396,7 @@ replicator:
                     text: ' bleiben Sie anonym. Ebenso unbesorgt können Sie auch hinsichtlich der Qualität Ihrer Arbeit sein: jede von uns erstellte Arbeit wird von einem Team von erfahrenen und spezialisierten Supervisoren auf Qualität geprüft. So stellen wir sicher, dass Ihre Arbeit allen akademischen Standards entspricht, denn dies ist auch unser Anspruch an uns selbst.'
         type: row
         enabled: true
+        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -406,6 +412,8 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'Unsere Experten • GWriters'
+meta_title: 'Unsere Experten • GWriters'
+meta_description: 'Bei GWriters setzen wir auf Diskretion und Transparenz! Erfahren Sie hier mehr über unsere akademischen Ghostwriter und wie diese Sie unterstützen.'
 id: 08690e7d-78e7-40cc-8e39-9d87681c01f7
 content:
   -
