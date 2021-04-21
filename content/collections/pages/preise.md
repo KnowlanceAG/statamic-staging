@@ -3,7 +3,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619008153
+updated_at: 1619008195
 replicator:
   -
     columns-replicator:
@@ -29,6 +29,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(34, 34, 34)'
+                          hex: '#000'
                     text: 'Unsere Preise'
               -
                 type: paragraph
@@ -44,6 +45,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: "Der nachfolgende Preis-Rechner dient als Orientierungshilfe für die Ghostwriter Preise von GWriters. Die angegebenen Preise für\_"
                   -
                     type: text
@@ -56,6 +58,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -85,7 +88,16 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: 'Bitte geben Sie außerdem nur die reinen Textseiten (Normseite ca. 1800 Zeichen inkl. Leerzeichen) an. Bei dem Ghostwriting sind die Plagiatsprüfung, das Lektorat durch einen Supervisor, alle Verzeichnisse, Deckblatt etc. natürlich im Preis inbegriffen. Wir bieten Qualität – und das zu fairen Preisen.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '0'
+              -
+                type: paragraph
         type: row
         enabled: true
         responsive_columns: 1
