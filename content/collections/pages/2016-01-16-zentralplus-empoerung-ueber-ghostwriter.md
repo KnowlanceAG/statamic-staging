@@ -6,7 +6,7 @@ replicator:
       -
         type: heading
         attrs:
-          level: 2
+          level: 1
         content:
           -
             type: text
@@ -14,8 +14,8 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: '#ff6606!important'
-                  hex: '#000'
+                  color: orange-500
+                  hex: '#ff6606'
             text: 'Uni Luzern: Empörung über Ghostwriter'
       -
         type: paragraph
@@ -295,6 +295,14 @@ page_title: 'Uni Luzern: Empörung über Ghostwriter'
 parent: 7aff708e-5d48-409e-9242-fd82c155f5ee
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619015226
+updated_at: 1619015271
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 id: 1da8ed35-e488-4182-8ff8-e52b28560e51
 ---
