@@ -3,7 +3,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618922990
+updated_at: 1619005299
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -350,6 +350,7 @@ replicator:
                     text: 'Mehr zum Korrektorat'
         type: row
         enabled: true
+        responsive_columns: 1
       -
         columns_per_row: '3'
         single-col: false
@@ -551,6 +552,7 @@ replicator:
                     text: 'Mehr zur Plagiatsprüfung'
         type: row
         enabled: true
+        responsive_columns: 1
       -
         columns_per_row: '2'
         single-col: true
@@ -695,6 +697,7 @@ replicator:
                     text: 'Mehr zur Promotionsberatung'
         type: row
         enabled: true
+        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -794,11 +797,12 @@ replicator:
                     text: 'Alle durch uns vermittelten Leistungen unterliegen einer strengen Qualitätskontrolle durch unser Team und unsere Supervisor. Die Betreuung Ihres Auftrages erfolgt durch einen festen, jederzeit erreichbaren Ansprechpartner.'
         type: row
         enabled: true
+        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
-    enabled: false
+    enabled: true
     remove_spacing: false
 meta_title: 'GWriters • Akademische Ghostwriter Agentur'
 meta_description: 'Bei GWriters finden Sie akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer & viele andere Experten - Einfach, schnell & sicher!'
