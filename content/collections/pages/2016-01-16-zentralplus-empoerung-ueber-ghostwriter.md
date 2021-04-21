@@ -22,7 +22,7 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: '10'
+            padding-y: '8'
       -
         type: paragraph
       -
@@ -303,7 +303,7 @@ page_title: 'Uni Luzern: Empörung über Ghostwriter'
 parent: 7aff708e-5d48-409e-9242-fd82c155f5ee
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619015295
+updated_at: 1619015314
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
