@@ -257,7 +257,7 @@ replicator:
     enabled: true
 parent: 8bdfe06a-1a06-46e1-94d2-591c8f5faece
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619019333
+updated_at: 1619019355
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -266,5 +266,8 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+page_title: 'Forschung & Lehre: Zwischen Original und Plagiat • GWriters'
+meta_title: 'Forschung & Lehre: Zwischen Original und Plagiat • GWriters'
+meta_description: 'Artikel von in Forschung und Lehre über akademisches Ghostwriting. Erfahren Sie mehr über uns und profitieren Sie von unserem Ghostwriter Service.'
 id: a2117d1b-b415-4bf6-8e25-0472d2fbf108
 ---
