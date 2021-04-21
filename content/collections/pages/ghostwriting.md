@@ -104,6 +104,7 @@ replicator:
                     text: 'Wichtige Akademische Arbeiten:'
         type: row
         enabled: true
+        responsive_columns: 1
       -
         columns_per_row: '3'
         single-col: false
@@ -194,6 +195,7 @@ replicator:
                     text: Seminararbeit
         type: row
         enabled: true
+        responsive_columns: 1
       -
         columns_per_row: 1
         single-col: false
@@ -702,6 +704,7 @@ replicator:
                 type: horizontal_rule
         type: row
         enabled: true
+        responsive_columns: 1
     remove_spacing: true
     is-full: false
     bg-toggle: false
@@ -726,6 +729,7 @@ replicator:
                     text: 'Wichtige Fachbereiche:'
         type: row
         enabled: true
+        responsive_columns: 1
       -
         columns_per_row: '3'
         single-col: false
@@ -1422,6 +1426,7 @@ replicator:
                     text: Wirtschaftswissenschaften
         type: row
         enabled: true
+        responsive_columns: 1
       -
         columns_per_row: 1
         single-col: false
@@ -1518,6 +1523,7 @@ replicator:
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
         type: row
         enabled: true
+        responsive_columns: 1
     remove_spacing: true
     is-full: false
     bg-toggle: false
@@ -1527,7 +1533,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618940747
+updated_at: 1619013654
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
 meta_description: 'Ghostwriting von GWriters.de. Preissicherheit, Qualität und Diskretion von unserer seriösen Agentur. Mehr dazu hier.'
 use_meta_keywords: false
@@ -1538,5 +1544,6 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+page_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
 id: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 ---
