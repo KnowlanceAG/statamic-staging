@@ -133,7 +133,7 @@ replicator:
         attrs:
           values:
             type: insert_html
-            html: '<div style="text-indent:10px;">10px einzug</div> „Die mangelnde Betreuung der Studenten an den Unis spielt uns in die Hände“         Marcel Kopper -Gründer der Agentur GWriters'
+            html: "\t\t„Die mangelnde Betreuung der Studenten an den Unis spielt uns in die Hände“         \t\tMarcel Kopper -Gründer der Agentur GWriters"
       -
         type: paragraph
       -
@@ -187,7 +187,7 @@ replicator:
 parent: 8bdfe06a-1a06-46e1-94d2-591c8f5faece
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619016941
+updated_at: 1619016971
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
