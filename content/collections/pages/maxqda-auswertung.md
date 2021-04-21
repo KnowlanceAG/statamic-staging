@@ -461,6 +461,7 @@ replicator:
                     text: 'Aufgrund der diversifizierten Kompetenzen und Qualifikationen unserer Ghostwriter können wir Ihnen die Hilfe MAXQDA oder auch vollständige Auswertungen mit MAXQDA in nahezu allen akademischen Fachbereichen anbieten. Hier eine Übersicht der wichtigsten Fachbereiche:'
         type: row
         enabled: true
+        responsive_columns: 1
       -
         columns_per_row: '3'
         single-col: false
@@ -1133,6 +1134,7 @@ replicator:
                     text: Wirtschaftswissenschaften
         type: row
         enabled: true
+        responsive_columns: 1
       -
         columns_per_row: 1
         single-col: false
@@ -1263,6 +1265,7 @@ replicator:
                     text: ' von MAXQDA'
         type: row
         enabled: true
+        responsive_columns: 1
     remove_spacing: true
     is-full: false
     bg-toggle: false
@@ -1271,7 +1274,7 @@ replicator:
     enabled: true
 parent: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618942974
+updated_at: 1619009267
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -1283,5 +1286,6 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 meta_title: 'GWriters • Die perfekte MAXQDA Auswertung für Ihre Abschlussarbeit'
 meta_description: 'MAXQDA Auswertung von akademischen Ghostwritern. Die besten Experten finden & alles zur Auswertung mit MAXQDA: Leistungen, Kosten, Preise & Ablauf.'
+page_title: 'GWriters • Die perfekte MAXQDA Auswertung für Ihre Abschlussarbeit'
 id: dafbcd3b-fd08-4c5b-94be-f2a80c140953
 ---
