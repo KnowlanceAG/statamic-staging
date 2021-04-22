@@ -1,7 +1,7 @@
 ---
 title: 'GWriters Stipendium'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619099331
+updated_at: 1619099359
 teaser:
   -
     type: heading
@@ -84,6 +84,8 @@ teaser:
     attrs:
       values:
         type: button
+        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+        button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
