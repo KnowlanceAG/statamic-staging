@@ -46,6 +46,7 @@ fields:
         text-left: 'Text links'
         text-right: 'Text rechts'
         text-center: 'Text zentriert'
+        text-justify: 'Text Blocksatz'
       multiple: false
       max_items: 1
       clearable: false
