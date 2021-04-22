@@ -1,7 +1,7 @@
 ---
 title: 'GWriters Stipendium'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619099359
+updated_at: 1619099482
 teaser:
   -
     type: heading
@@ -33,7 +33,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Ihr Talent verdient Förderung! Unsere '
+        text: 'Ihr Talent verdient Förderung! Unsere'
       -
         type: text
         marks:
@@ -46,10 +46,10 @@ teaser:
           -
             type: link
             attrs:
-              href: 'http://gwriters.de/ghostwriting/ghostwriting-agentur/'
-              target: _blank
-              rel: noopener
-        text: 'Ghostwriter Agentur'
+              href: 'https://gwriters.de/ghostwriting/ghostwriting-agentur/'
+              target: null
+              rel: null
+        text: ' Ghostwriter Agentur'
       -
         type: text
         marks:
