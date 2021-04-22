@@ -3,7 +3,7 @@ title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619014240
+updated_at: 1619096991
 teaser:
   -
     type: heading
@@ -90,50 +90,57 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Transparenz, Professionalität und Diskretion sind die Grundsätze unseres\_"
-                  -
-                    type: text
-                    marks:
+                type: set
+                attrs:
+                  values:
+                    type: text_box-alignment
+                    bard:
                       -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/leistungen/ghostwriting'
-                          target: null
-                          rel: null
-                    text: 'akademischen Ghostwriting Services'
-                  -
-                    type: text
-                    text: ". Bei GWriters setzen wir auf ein außergewöhnliches Serviceerlebnis mit einer engen und persönlichen Betreuung durch individuelle Projektmanager sowie erfahrene akademische Experten. Denn es ist unser Ziel, dass Sie in jeder Phase Ihres Projekts ein gutes Gefühl haben. Während Sie bei uns\_ absolute Anonymität und Diskretion genießen, möchten wir uns und unserem Service zu diesem Zweck ein Gesicht geben, um nicht nur als undurchsichtige Agentur, sondern als Ihr verlässlicher Ansprechpartner für alle Arten von akademischen Projekten gesehen zu werden. daher stellen wir Ihnen im Folgenden eine Auswahl unserer renommiertesten Experten und\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/bwl'
-                          target: null
-                          rel: null
-                    text: 'Ghostwritern aus der BWL'
-                  -
-                    type: text
-                    text: ", VWL,\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/jura'
-                          target: null
-                          rel: null
-                    text: Jura
-                  -
-                    type: text
-                    text: "\_und anderen akademischen Disziplinen vor."
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: "Transparenz, Professionalität und Diskretion sind die Grundsätze unseres\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                                  target: null
+                                  rel: null
+                            text: 'akademischen Ghostwriting Services'
+                          -
+                            type: text
+                            text: ". Bei GWriters setzen wir auf ein außergewöhnliches Serviceerlebnis mit einer engen und persönlichen Betreuung durch individuelle Projektmanager sowie erfahrene akademische Experten. Denn es ist unser Ziel, dass Sie in jeder Phase Ihres Projekts ein gutes Gefühl haben. Während Sie bei uns\_ absolute Anonymität und Diskretion genießen, möchten wir uns und unserem Service zu diesem Zweck ein Gesicht geben, um nicht nur als undurchsichtige Agentur, sondern als Ihr verlässlicher Ansprechpartner für alle Arten von akademischen Projekten gesehen zu werden. daher stellen wir Ihnen im Folgenden eine Auswahl unserer renommiertesten Experten und\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/fachrichtungen/bwl'
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwritern aus der BWL'
+                          -
+                            type: text
+                            text: ", VWL,\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/fachrichtungen/jura'
+                                  target: null
+                                  rel: null
+                            text: Jura
+                          -
+                            type: text
+                            text: "\_und anderen akademischen Disziplinen vor."
+                    text_ausrichtung: text-justify
         type: row
         enabled: true
         single-col: false
@@ -197,63 +204,70 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Neben unseren oben exemplarisch aufgeführt Experten verfügen wir noch zusätzlich über ein Team von über 3000 akademischen Ghostwritern, mit deren Qualifikationen und Kompetenzen wir nahezu jedes akademisch Themenfeld wie unter anderem auch\_"
-                  -
-                    type: text
-                    marks:
+                type: set
+                attrs:
+                  values:
+                    type: text_box-alignment
+                    bard:
                       -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/informatik'
-                          target: null
-                          rel: null
-                    text: Informatik
-                  -
-                    type: text
-                    text: ",\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/psychologie'
-                          target: null
-                          rel: null
-                    text: 'Psychologie '
-                  -
-                    type: text
-                    text: 'und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/mathematik'
-                          target: null
-                          rel: null
-                    text: 'Mathematik '
-                  -
-                    type: text
-                    text: 'abdecken können und auch '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/medizin'
-                          target: null
-                          rel: null
-                    text: 'Medizin Ghostwriter'
-                  -
-                    type: text
-                    text: "\_sowie Experten für viele weitere Disziplinen finden Sie bei uns. Dabei werden die Kompetenzen unserer Ghostwriter nach strengen Auswahlverfahren geprüft und verifiziert, sodass wir Ihnen zu jeder Zeit den passenden Spezialisten zur Unterstützung bei Ihrer wissenschaftlichen Fragestellung und Ihrer akademischen Arbeit zur Verfügung stellen können."
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: "Neben unseren oben exemplarisch aufgeführt Experten verfügen wir noch zusätzlich über ein Team von über 3000 akademischen Ghostwritern, mit deren Qualifikationen und Kompetenzen wir nahezu jedes akademisch Themenfeld wie unter anderem auch\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/fachrichtungen/informatik'
+                                  target: null
+                                  rel: null
+                            text: Informatik
+                          -
+                            type: text
+                            text: ",\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/fachrichtungen/psychologie'
+                                  target: null
+                                  rel: null
+                            text: 'Psychologie '
+                          -
+                            type: text
+                            text: 'und '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/fachrichtungen/mathematik'
+                                  target: null
+                                  rel: null
+                            text: 'Mathematik '
+                          -
+                            type: text
+                            text: 'abdecken können und auch '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/fachrichtungen/medizin'
+                                  target: null
+                                  rel: null
+                            text: 'Medizin Ghostwriter'
+                          -
+                            type: text
+                            text: "\_sowie Experten für viele weitere Disziplinen finden Sie bei uns. Dabei werden die Kompetenzen unserer Ghostwriter nach strengen Auswahlverfahren geprüft und verifiziert, sodass wir Ihnen zu jeder Zeit den passenden Spezialisten zur Unterstützung bei Ihrer wissenschaftlichen Fragestellung und Ihrer akademischen Arbeit zur Verfügung stellen können."
+                    text_ausrichtung: text-justify
               -
                 type: set
                 attrs:
@@ -363,37 +377,44 @@ replicator:
                     type: spacer
                     padding-y: '30'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Bei GWriters gewährleisten wir Ihre Anonymität zu 100% und\_"
-                  -
-                    type: text
-                    marks:
+                type: set
+                attrs:
+                  values:
+                    type: text_box-alignment
+                    bard:
                       -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/datenschutzerklaerung'
-                          target: null
-                          rel: null
-                    text: 'schützen Ihre Daten'
-                  -
-                    type: text
-                    text: ' streng nach den Vorgaben von DSGVO und GDPR. Die Speicherung aller Informationen erfolgt auf unseren eigenen Servern mit Standort in der Schweiz, auf die der Zugriff durch Außenstehende unmöglich ist. Darüber hinaus erhält einzig Ihr persönlicher Projektmanager Zugriff auf Ihre Informationen, selbst für Ihren '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/ghostwriter'
-                          target: null
-                          rel: null
-                    text: 'akademischen Ghostwriter'
-                  -
-                    type: text
-                    text: ' bleiben Sie anonym. Ebenso unbesorgt können Sie auch hinsichtlich der Qualität Ihrer Arbeit sein: jede von uns erstellte Arbeit wird von einem Team von erfahrenen und spezialisierten Supervisoren auf Qualität geprüft. So stellen wir sicher, dass Ihre Arbeit allen akademischen Standards entspricht, denn dies ist auch unser Anspruch an uns selbst.'
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: "Bei GWriters gewährleisten wir Ihre Anonymität zu 100% und\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/datenschutzerklaerung'
+                                  target: null
+                                  rel: null
+                            text: 'schützen Ihre Daten'
+                          -
+                            type: text
+                            text: ' streng nach den Vorgaben von DSGVO und GDPR. Die Speicherung aller Informationen erfolgt auf unseren eigenen Servern mit Standort in der Schweiz, auf die der Zugriff durch Außenstehende unmöglich ist. Darüber hinaus erhält einzig Ihr persönlicher Projektmanager Zugriff auf Ihre Informationen, selbst für Ihren '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/ghostwriter'
+                                  target: null
+                                  rel: null
+                            text: 'akademischen Ghostwriter'
+                          -
+                            type: text
+                            text: ' bleiben Sie anonym. Ebenso unbesorgt können Sie auch hinsichtlich der Qualität Ihrer Arbeit sein: jede von uns erstellte Arbeit wird von einem Team von erfahrenen und spezialisierten Supervisoren auf Qualität geprüft. So stellen wir sicher, dass Ihre Arbeit allen akademischen Standards entspricht, denn dies ist auch unser Anspruch an uns selbst.'
+                    text_ausrichtung: text-justify
         type: row
         enabled: true
         responsive_columns: 1
