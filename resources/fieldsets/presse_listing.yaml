@@ -1,0 +1,10 @@
+title: 'Presse Listing'
+fields:
+  -
+    handle: collections
+    field:
+      mode: default
+      display: Collections
+      type: collections
+      icon: collections
+      listable: hidden

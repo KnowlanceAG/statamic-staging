@@ -1,4 +1,4 @@
-title: Blog
+title: Presse
 sections:
   listing:
     display: Beitragsübersicht
@@ -44,10 +44,6 @@ sections:
         field:
           type: date
           required: true
-          validate:
-            - required
-          display: Veröffentlichungsdatum
-          listable: hidden
           mode: single
           time_enabled: false
           time_required: false
@@ -56,6 +52,11 @@ sections:
           inline: false
           columns: 1
           rows: 1
+          display: 'Datum der Veröffentlichung'
+          icon: date
+          listable: hidden
+          validate:
+            - required
       -
         handle: slug
         field:
@@ -65,32 +66,49 @@ sections:
           validate:
             - required
       -
-        handle: author
+        handle: published_at
         field:
-          mode: select
+          mode: single
+          time_enabled: false
+          time_required: false
+          earliest_date: '1900-01-01'
+          full_width: false
+          inline: false
+          columns: 1
+          rows: 1
+          display: 'Datum der Publikation'
+          type: date
+          icon: date
+          instructions: extern
+          listable: hidden
+      -
+        handle: published_in_name
+        field:
+          input_type: text
+          antlers: false
+          display: 'Erschiene in (Name)'
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: published_in_link
+        field:
+          input_type: text
+          antlers: false
+          display: 'Erschienen in (link)'
+          type: text
+          icon: text
+          listable: hidden
+          if:
+            published_in_name: 'not empty'
+      -
+        handle: external_author
+        field:
+          input_type: text
+          antlers: false
           display: Autor
-          type: users
-          icon: users
-          listable: hidden
-          validate:
-            - required
-      -
-        handle: hide_author_details
-        field:
-          display: 'Autoren Details nicht anzeigen'
-          type: toggle
-          icon: toggle
-          instructions: 'Langtext und Bild werden nicht angezeigt. Autoren Name bleibt sichtbar.'
-          listable: hidden
-      -
-        handle: category
-        field:
-          mode: default
-          taxonomies:
-            - blog_categories
-          display: Kategorie
-          type: terms
-          icon: taxonomy
+          type: text
+          icon: text
           listable: hidden
   post_detail:
     display: 'Beitragsdetail Seite'
