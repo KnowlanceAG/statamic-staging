@@ -5,6 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        {{ if meta_title }}
+
+        {{ elseif page_title }}
+            <title>{{ page_title }}</title>
+        {{ else }}
+            <title>GWriters • {{ title ?? site:name }}</title>
+        {{ /if }}
+
         <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
 
         <link rel="icon" href="/assets/webseite/gwriters-logo-32x32.png" sizes="32x32">
