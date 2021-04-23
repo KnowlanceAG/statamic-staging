@@ -1,16 +1,16 @@
-<figure class="my-8 flex flex-col {{ if img-alignment }}{{ img-alignment }}{{ else }}justify-center{{ /if }}">
+<figure class="my-8 flex {{ if img-alignment }}{{ img-alignment }}{{ else }}justify-center{{ /if }}">
     {{ if link }}
         <a href="{{ link }}">
             {{ assets }}
                 {{ if extension == 'svg' || extension == 'gif' }}
-                    <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-auto mx-auto" />
+                    <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-auto" />
                     {{ if caption }}
                         <figcaption class="text-center">
                             <i class="text-sm text-gray-550">{{ caption }}</i>
                         </figcaption>
                     {{ /if }}
                 {{ else }}
-                    {{ responsive:assets alt="{alt}" class="mx-auto" }}
+                    {{ responsive:assets alt="{alt}" class="" }}
                     {{ if caption }}
                         <figcaption class="text-center">
                             <i class="text-sm text-gray-550">{{ caption }}</i>
@@ -22,14 +22,14 @@
     {{ else }}
         {{ assets }}
             {{ if extension == 'svg' || extension == 'gif' }}
-                <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-auto mx-auto" />
+                <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-auto" />
                 {{ if caption }}
                     <figcaption class="text-center">
                         <i class="text-sm text-gray-550">{{ caption }}</i>
                     </figcaption>
                 {{ /if }}
             {{ else }}
-                {{ responsive:assets alt="{alt}" class="mx-auto" }}
+                {{ responsive:assets alt="{alt}" class="" }}
                 {{ if caption }}
                     <figcaption class="text-center">
                         <i class="text-sm text-gray-550">{{ caption }}</i>

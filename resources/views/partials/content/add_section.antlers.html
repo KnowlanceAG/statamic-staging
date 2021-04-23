@@ -1,11 +1,11 @@
 {{ if is-full }}
     {{ if bg-image==null }}
-        <div class="{{ if remove_spacing }}py-4 {{ else }}py-20 {{ /if }} {{ if is-full }}is-full{{ /if }}" {{ if bg-color }}style="background-color: {{ bg-color }};" {{ /if }}>
+        <div class="{{ if border }}border-t-4 border-b-4 border-orange-500 {{ /if }}{{ if remove_spacing }}py-4 {{ else }}py-20 {{ /if }} {{ if is-full }}is-full{{ /if }}" {{ if bg-color }}style="background-color: {{ bg-color }};" {{ /if }}>
     {{ else }}
-        <div class="{{ if remove_spacing }}py-4 {{ else }}py-20 {{ /if }} {{ if is-full }}is-full{{ /if }} {{ if bg-image-fixed }}bg-fixed{{ /if }} bg-cover has-bg-image" style="background-image: url({{ bg-image:url }})">
+        <div class="{{ if border }}border-t-4 border-b-4 border-orange-500 {{ /if }}{{ if remove_spacing }}py-4 {{ else }}py-20 {{ /if }} {{ if is-full }}is-full{{ /if }} {{ if bg-image-fixed }}bg-fixed{{ /if }} bg-cover has-bg-image" style="background-image: url({{ bg-image:url }})">
     {{ /if }}
 {{ else }}
-    <div class="{{ if remove_spacing }}py-4 {{ else }}py-20 {{ /if }}">
+    <div class="{{ if border }}border-t-4 border-b-4 border-orange-500 {{ /if }}{{ if remove_spacing }}py-4 {{ else }}py-40 {{ /if }}">
 {{ /if }}
 
     {{ columns-replicator }}

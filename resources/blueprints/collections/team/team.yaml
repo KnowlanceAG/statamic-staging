@@ -66,34 +66,4 @@ sections:
           icon: text
           listable: hidden
       -
-        handle: detail_text
-        field:
-          always_show_set_button: false
-          buttons:
-            - h2
-            - h3
-            - bold
-            - italic
-            - unorderedlist
-            - orderedlist
-            - removeformat
-            - quote
-            - anchor
-            - image
-            - table
-            - h4
-            - underline
-            - superscript
-            - subscript
-          save_html: false
-          toolbar_mode: fixed
-          link_noopener: false
-          link_noreferrer: false
-          target_blank: false
-          reading_time: false
-          fullscreen: true
-          allow_source: true
-          display: 'Detail Text'
-          type: bard
-          icon: bard
-          listable: hidden
+        import: bard

@@ -312,3 +312,9 @@ body.ch {
         display: inline;
     }
 }
+
+.image-wrapper {
+    picture {
+        float: right;
+    }
+}

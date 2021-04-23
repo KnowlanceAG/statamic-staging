@@ -6,7 +6,7 @@ photo:
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
 updated_at: 1619084455
 detail_position: 'Chief Operating Officer'
-detail_text:
+bard:
   -
     type: paragraph
     content:

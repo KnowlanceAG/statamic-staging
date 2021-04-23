@@ -82,3 +82,11 @@ fields:
       listable: hidden
       if:
         bg-toggle: '=== true'
+  -
+    handle: border
+    field:
+      display: Border
+      type: toggle
+      icon: toggle
+      instructions: 'Orange Linien Ober- und Unterhalb.'
+      listable: hidden

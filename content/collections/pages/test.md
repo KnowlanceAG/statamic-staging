@@ -1,7 +1,7 @@
 ---
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619072752
+updated_at: 1619160098
 replicator:
   -
     bard:
@@ -11,6 +11,16 @@ replicator:
           -
             type: text
             text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.'
+      -
+        type: set
+        attrs:
+          values:
+            type: bilder
+            assets:
+              - Logo-PTA.jpeg
+            img-alignment: justify-end
+      -
+        type: paragraph
       -
         type: paragraph
         content:

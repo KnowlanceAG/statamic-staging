@@ -2,8 +2,8 @@
 title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619096991
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1619161682
 teaser:
   -
     type: heading
@@ -292,6 +292,7 @@ replicator:
                     type: bilder
                     assets:
                       - seiten/unsere-experten/ghostwriter_qualifikationen_gwriters-1-74x84.png
+                    img-alignment: justify-center
               -
                 type: paragraph
                 content:
@@ -308,6 +309,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(34, 34, 34)'
+                          hex: '#000'
                     text: 'Geprüfte Qualifikationen unserer Ghostwriter'
           -
             bard:
@@ -318,6 +320,7 @@ replicator:
                     type: bilder
                     assets:
                       - seiten/unsere-experten/anonymitaet_ghostwriter_gwriters-75x84.png
+                    img-alignment: justify-center
               -
                 type: paragraph
                 content:
@@ -334,6 +337,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(34, 34, 34)'
+                          hex: '#000'
                     text: 'Schutz Ihrer Daten und 100% Anonymität'
           -
             bard:
@@ -344,6 +348,7 @@ replicator:
                     type: bilder
                     assets:
                       - seiten/unsere-experten/ghostwriter_qualitaet_gwriters-64x84.png
+                    img-alignment: justify-center
               -
                 type: paragraph
                 content:
@@ -360,6 +365,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(34, 34, 34)'
+                          hex: '#000'
                     text: 'Unsere Supervisoren garantieren höchste Qualität'
         type: row
         enabled: true
