@@ -3,6 +3,7 @@ data:
   title: 'Akzeptanzrate der wissenschaftlichen Publikationen'
   caption: 'Die Gesamtzahl der akzeptierten Artikel aus der Gesamtzahl der im selben Jahr eingereichten Artikel (Quelle: in Anlehnung Elsevier, 2021)'
 size: 25972
-last_modified: 1615560698
+last_modified: 1616757646
 width: 731
 height: 407
+mime_type: image/png

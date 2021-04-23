@@ -12,6 +12,7 @@ return [
   | Expecting a comma-separated list of hosts matching the referrer of the
   | requestion resource.
   */
-  'allowed_hosts' => explode(',', preg_replace('/\s+/', '', env('CPSSG_ALLOWED_HOSTS', '')))
+  'allowed_hosts' => explode(',', preg_replace('/\s+/', '', env('CPSSG_ALLOWED_HOSTS', ''))),
+  'static_site_url' => env('STATIC_SITE_URL', 'https://gwriter.uscreen.me/')
 
 ];

@@ -8,6 +8,7 @@
 
     {{ links:segments }}
 
+
     {{ first }}
         {{ if page == current_page }}
             <li class="relative inline-flex items-center px-2 border border-orange-500 text-sm font-medium rounded-md text-orange-500 bg-white hover:bg-orange-500 hover:text-white active"><span>{{ page }}</span></li>
@@ -15,6 +16,22 @@
             <li class="relative inline-flex items-center px-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-orange-500 hover:text-white"><a href="{{ url }}">{{ page }}</a></li>
         {{ /if }}
     {{ /first }}
+
+    {{ if slider }}
+        <li class="disabled relative inline-flex items-center px-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white"><span>...</span></li>
+    {{ /if }}
+
+    {{ slider }}
+        {{ if page == current_page }}
+            <li class="relative inline-flex items-center px-2 border border-orange-500 text-sm font-medium rounded-md text-orange-500 bg-white hover:bg-orange-500 hover:text-white active"><span>{{ page }}</span></li>
+        {{ else }}
+            <li class="relative inline-flex items-center px-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-orange-500 hover:text-white"><a href="{{ url }}">{{ page }}</a></li>
+        {{ /if }}
+    {{ /slider }}
+
+    {{ if slider || (!slider && last) }}
+    <li class="disabled relative inline-flex items-center px-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white"><span>...</span></li>
+    {{ /if }}
 
     {{ last }}
         {{ if page == current_page }}
