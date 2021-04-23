@@ -1,7 +1,7 @@
 ---
 title: 'GWriters Stipendium'
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619099482
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1619166104
 teaser:
   -
     type: heading
@@ -22,63 +22,52 @@ teaser:
               hex: '#ff6606'
         text: 'Das GWriters Stipendium'
   -
+    type: set
+    attrs:
+      values:
+        type: text_box-alignment
+        bard:
+          -
+            type: paragraph
+            content:
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'Ihr Talent verdient Förderung! Unsere'
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                  -
+                    type: link
+                    attrs:
+                      href: 'https://gwriters.de/ghostwriting/ghostwriting-agentur/'
+                      target: null
+                      rel: null
+                text: ' Ghostwriter Agentur'
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: ' unterstützt begabte und'
+              -
+                type: hard_break
+                marks:
+                  -
+                    type: bold
+              -
+                type: text
+                marks:
+                  -
+                    type: bold
+                text: 'innovativ denkende Studierende mit unserem neuen GWriters Stipendium.'
+        text_ausrichtung: text-center
+  -
     type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Ihr Talent verdient Förderung! Unsere'
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: link
-            attrs:
-              href: 'https://gwriters.de/ghostwriting/ghostwriting-agentur/'
-              target: null
-              rel: null
-        text: ' Ghostwriter Agentur'
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: ' unterstützt begabte und'
-      -
-        type: hard_break
-        marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'innovativ denkende Studierende mit unserem neuen GWriters Stipendium.'
   -
     type: set
     attrs:
