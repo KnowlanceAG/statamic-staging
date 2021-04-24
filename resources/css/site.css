@@ -318,3 +318,7 @@ body.ch {
         float: right;
     }
 }
+
+.accordion-tab.active .content {
+    @apply h-auto max-h-full !important;
+}

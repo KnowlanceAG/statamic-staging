@@ -1,9 +1,10 @@
 ---
+id: 7aff708e-5d48-409e-9242-fd82c155f5ee
 title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619163110
+updated_at: 1619255849
 replicator:
   -
     columns-replicator:
@@ -649,7 +650,6 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für alle anderen Fachbereiche beginnen ab\_"
                   -
                     type: text
@@ -664,7 +664,6 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: '80,- € pro Normseite'
               -
                 type: set
@@ -691,7 +690,6 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: 'Benötigen Sie eine statistische Auswertung, technische Zeichnung oder haben Sie sonstige besondere Anforderungen?'
               -
                 type: set
@@ -773,11 +771,829 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: accordion-wrapper
+                    items:
+                      -
+                        headline: 'Mustervorlage für Seminararbeit'
+                        accordion_content:
+                          -
+                            type: table
+                            content:
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: Fachbereich
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: BWL
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(255, 255, 255)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: Umfang
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(255, 255, 255)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: '10 Seiten'
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: 'Zusätzliche Faktoren'
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: '-'
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(255, 255, 255)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: 'Literatur vorhanden'
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(255, 255, 255)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: Ja
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: Preis
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: 'ab 80,- € pro Normseite'
+                        active: true
+                      -
+                        headline: 'Mustervorlage für Bachelorarbeit'
+                        accordion_content:
+                          -
+                            type: table
+                            content:
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: Fachbereich
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: Sozialwissenschaften
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(255, 255, 255)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: Umfang
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(255, 255, 255)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: '40 Seiten'
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: 'Zusätzliche Faktoren'
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: 'Empirie / stat. Auswertung'
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(255, 255, 255)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: 'Literatur vorhanden'
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(255, 255, 255)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: Nein
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: Preis
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: 'ab 80,- € pro Normseite'
+                        active: false
+                      -
+                        headline: 'Mustervorlage für Masterarbeit'
+                        accordion_content:
+                          -
+                            type: table
+                            content:
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: Fachbereich
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: Psychologie
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(255, 255, 255)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: Umfang
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(255, 255, 255)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: '60 Seiten'
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: 'Zusätzliche Faktoren'
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: 'Empirie / stat. Auswertung; Präsentation für Kolloqium'
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(255, 255, 255)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: 'Literatur vorhanden'
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(255, 255, 255)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: Nein
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: Preis
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: 'rgb(247, 247, 247)'
+                                    content:
+                                      -
+                                        type: paragraph
+                                        content:
+                                          -
+                                            type: text
+                                            marks:
+                                              -
+                                                type: bold
+                                              -
+                                                type: textAlign
+                                                attrs:
+                                                  align: left
+                                              -
+                                                type: textColor
+                                                attrs:
+                                                  color: 'rgb(51, 51, 51)'
+                                            text: 'ab 80,- € pro Normseite'
+                        active: false
+              -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: Accordion
         type: row
         enabled: true
       -
@@ -933,5 +1749,4 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-id: 7aff708e-5d48-409e-9242-fd82c155f5ee
 ---

@@ -53,6 +53,33 @@ function tabToggle() {
     }
 }
 
+function accordionToogle() {
+    var accordionTabs = document.querySelectorAll("div.accordion-tab");
+
+    function accordionTabClicks(tabClickEvent) {
+        for (var i = 0; i < accordionTabs.length; i++) {
+            accordionTabs[i].classList.remove("active");
+        }
+
+        var clickedTab = tabClickEvent.currentTarget;
+        clickedTab.classList.add("active");
+        tabClickEvent.preventDefault();
+        var accordionTabsContent = document.querySelectorAll("div.accordion-tab.content");
+
+        for (i = 0; i < accordionTabsContent.length; i++) {
+            accordionTabsContent[i].classList.remove("active");
+        }
+
+        var anchorReference = tabClickEvent.target;
+        var activePaneId = anchorReference.getAttribute("data-target");
+        var activePane = document.querySelector('.'+activePaneId);
+        activePane.classList.add("active");
+    }
+    for (var i = 0; i < accordionTabs.length; i++) {
+        accordionTabs[i].addEventListener("click", accordionTabClicks)
+    }
+}
+
 function getLocale() {
     const tld = window.location.origin.split('.').pop();
     return tld;
@@ -78,5 +105,6 @@ ready(() => {
     menuOpener();
     lazzyVideo();
     tabToggle();
+    accordionToogle();
     setLocalizedContent();
 });

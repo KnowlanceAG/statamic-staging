@@ -1,0 +1,14 @@
+<div class="accordion">
+    {{ items }}
+        <div class="accordion-tab">
+            <div class="header block px-2 py-0 bg-gray-400" data-target="#accordion-tab-{{ index }}">
+                <h3 class="uppercase hover:text-white hover:cursor-pointer">{{ headline }}</h3>
+            </div>
+            <div id="accordion-tab-{{ index }}" class="content overflow-hidden transition-height duration-500 ease-in-out h-0">
+                {{ accordion_content }}
+                    {{ partial src="partials/content/{type}" }}
+                {{ /accordion_content }}
+            </div>
+        </div>
+    {{ /items }}
+</div>

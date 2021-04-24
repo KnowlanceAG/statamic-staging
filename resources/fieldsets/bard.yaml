@@ -144,4 +144,11 @@ fields:
           fields:
             -
               import: phone_cta
+        accordion-wrapper:
+          display: Accordion
+          fields:
+            -
+              import: accordion
       container: assets
+      enable_input_rules: true
+      enable_paste_rules: true
