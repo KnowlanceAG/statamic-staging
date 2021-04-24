@@ -84,6 +84,9 @@ module.exports = {
             },
             padding: {
                 'py-22': '5.5rem',
+            },
+            transitionProperty: {
+                'height': 'height'
             }
       },
     },
