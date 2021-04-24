@@ -18,7 +18,7 @@
         "laravel/tinker": "^2.0",
         "optimoapps/statamic-bard-text-align": "1.0.2",
         "spatie/statamic-responsive-images": "2.5.3",
-        "statamic/cms": "3.1.9",
+        "statamic/cms": "3.1.10",
         "statamic/ssg": "^0.4.0",
         "uscreen/cpssg": "*",
         "uscreen/link-extended": "*",
