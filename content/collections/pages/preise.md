@@ -4,7 +4,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619341644
+updated_at: 1619342352
 replicator:
   -
     columns-replicator:
@@ -91,6 +91,7 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Bitte geben Sie außerdem nur die reinen Textseiten (Normseite ca. 1800 Zeichen inkl. Leerzeichen) an. Bei dem Ghostwriting sind die Plagiatsprüfung, das Lektorat durch einen Supervisor, alle Verzeichnisse, Deckblatt etc. natürlich im Preis inbegriffen. Wir bieten Qualität – und das zu fairen Preisen.'
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -117,6 +118,7 @@ replicator:
                     show_calulator: true
               -
                 type: paragraph
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -177,6 +179,7 @@ replicator:
                     spacing_top: false
               -
                 type: paragraph
+            show_as_card: false
         type: row
         enabled: true
     remove_spacing: false
@@ -260,6 +263,7 @@ replicator:
                     text_ausrichtung: text-left
               -
                 type: paragraph
+            show_as_card: false
         type: row
         enabled: true
       -
@@ -287,6 +291,7 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'In unseren Preisen enthalten sind:'
+            show_as_card: false
         type: row
         enabled: true
       -
@@ -341,6 +346,7 @@ replicator:
                     text_ausrichtung: text-left
               -
                 type: paragraph
+            show_as_card: false
           -
             bard:
               -
@@ -391,6 +397,7 @@ replicator:
                     text_ausrichtung: text-left
               -
                 type: paragraph
+            show_as_card: false
           -
             bard:
               -
@@ -441,6 +448,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
+            show_as_card: false
           -
             bard:
               -
@@ -491,6 +499,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
+            show_as_card: false
           -
             bard:
               -
@@ -541,6 +550,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
+            show_as_card: false
           -
             bard:
               -
@@ -589,6 +599,7 @@ replicator:
                             type: text
                             text: '. Hierfür verwenden wir die gleiche Software, wie sie auch von Universitäten verwendet wird.'
                     text_ausrichtung: text-left
+            show_as_card: false
         type: row
         enabled: true
     remove_spacing: false
@@ -628,6 +639,7 @@ replicator:
                     text_ausrichtung: text-left
               -
                 type: paragraph
+            show_as_card: false
         type: row
         enabled: true
       -
@@ -676,6 +688,7 @@ replicator:
                     spacing_top: false
               -
                 type: paragraph
+            show_as_card: true
           -
             bard:
               -
@@ -703,12 +716,13 @@ replicator:
                     spacing_top: false
               -
                 type: paragraph
+            show_as_card: true
         type: row
         enabled: true
     remove_spacing: false
     is-full: true
     bg-toggle: false
-    bg-color: '#F9F9F9'
+    bg-color: '#D6D6D6'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -764,6 +778,7 @@ replicator:
                     text_ausrichtung: text-left
               -
                 type: paragraph
+            show_as_card: false
         type: row
         enabled: true
       -
@@ -1630,6 +1645,7 @@ replicator:
                         active: false
               -
                 type: paragraph
+            show_as_card: false
         type: row
         enabled: true
       -
@@ -1768,6 +1784,7 @@ replicator:
                 content:
                   -
                     type: hard_break
+            show_as_card: false
         type: row
         enabled: true
     remove_spacing: false
