@@ -18,9 +18,11 @@ fields:
           field:
             always_show_set_button: false
             sets:
-              neues_set:
-                display: 'Neues Set'
-                fields: {  }
+              button:
+                display: Button
+                fields:
+                  -
+                    import: ce_button
             buttons:
               - h2
               - h3

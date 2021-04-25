@@ -33,7 +33,8 @@ module.exports = {
                 'md:mx-auto',
                 'content-center',
                 'bg-green-300',
-                'bg-green-400'
+                'bg-green-400',
+                'cursor-pointer'
             ],
         }
     },

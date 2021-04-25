@@ -4,7 +4,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619255849
+updated_at: 1619341644
 replicator:
   -
     columns-replicator:
@@ -174,6 +174,7 @@ replicator:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    spacing_top: false
               -
                 type: paragraph
         type: row
@@ -672,6 +673,7 @@ replicator:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    spacing_top: false
               -
                 type: paragraph
           -
@@ -698,6 +700,7 @@ replicator:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT BERATEN LASSEN'
+                    spacing_top: false
               -
                 type: paragraph
         type: row
@@ -1047,6 +1050,17 @@ replicator:
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
                                             text: 'ab 80,- € pro Normseite'
+                          -
+                            type: set
+                            attrs:
+                              values:
+                                type: button
+                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                button_align: justify-end
+                                spacing_top: true
+                          -
+                            type: paragraph
                         active: true
                       -
                         headline: 'Mustervorlage für Bachelorarbeit'
@@ -1319,6 +1333,17 @@ replicator:
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
                                             text: 'ab 80,- € pro Normseite'
+                          -
+                            type: set
+                            attrs:
+                              values:
+                                type: button
+                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                spacing_top: true
+                                button_align: justify-end
+                          -
+                            type: paragraph
                         active: false
                       -
                         headline: 'Mustervorlage für Masterarbeit'
@@ -1591,6 +1616,17 @@ replicator:
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
                                             text: 'ab 80,- € pro Normseite'
+                          -
+                            type: set
+                            attrs:
+                              values:
+                                type: button
+                                button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                                button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                                spacing_top: true
+                                button_align: justify-end
+                          -
+                            type: paragraph
                         active: false
               -
                 type: paragraph

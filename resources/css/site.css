@@ -319,6 +319,9 @@ body.ch {
     }
 }
 
+.accordion-tab .content {
+    @apply h-auto max-h-0;
+}
 .accordion-tab.active .content {
-    @apply h-auto max-h-full !important;
+    @apply h-auto max-h-96 !important;
 }
