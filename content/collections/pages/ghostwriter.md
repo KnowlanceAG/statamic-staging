@@ -45,7 +45,7 @@ teaser:
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619436780
+updated_at: 1619437086
 replicator:
   -
     bard:
@@ -154,6 +154,8 @@ replicator:
         type: paragraph
         content:
           -
+            type: hard_break
+          -
             type: text
             text: 'Handelt es sich um ein bekanntes Vergleichsportal wie '
           -
@@ -250,7 +252,6 @@ replicator:
           values:
             type: button
             button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-            button_text: 'JETZT KOSTENLOS ANFRAGEN'
             color: '#FF6606'
             spacing_top: false
       -
@@ -306,26 +307,14 @@ replicator:
             type: text
             text: Anonymität
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: '[caption id="attachment_2105" align="alignleft" width="300"]'
-          -
-            type: image
-            attrs:
-              src: null
-              alt: Ghostwriter
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/wp-content/uploads/2017/02/ghostwriter.jpg'
-                  target: null
-                  rel: null
-          -
-            type: text
-            text: ' Ghostwriter bevorzugen Anonymität[/caption]'
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/ghostwriter.jpg
+            img_size: w-3/4
+            float: float-left
       -
         type: paragraph
         content:
