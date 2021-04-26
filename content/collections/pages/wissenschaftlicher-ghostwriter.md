@@ -284,5 +284,17 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619457066
+updated_at: 1619457105
+page_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'
+template: with-side-bar
+meta_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'
+meta_description: 'Sie möchten eine Mustervorlage für Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen? Finden Sie hier Ihren Ghostwriter!'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
