@@ -45,7 +45,7 @@ teaser:
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619438044
+updated_at: 1619438074
 replicator:
   -
     bard:
@@ -500,4 +500,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: with-side-bar
+page_title: 'GWriters • Ghostwriter - Wer und was ist das?'
+meta_title: 'GWriters • Ghostwriter - Wer und was ist das?'
+meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Ghostwriting: Leistungen, Ablauf, Kosten & Preise.'
 ---
