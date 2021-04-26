@@ -227,5 +227,16 @@ replicator:
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619469390
+updated_at: 1619469411
+page_title: 'Korrektorat Preise - sicher und fair • GWriters'
+meta_title: 'Korrektorat Preise - sicher und fair • GWriters'
+meta_description: 'Möchten Sie die aktuellen Korrektorat Preise erfahren? Die Ghostwriter Agentur GWriters.de arbeitet diskret, qualitativ und zu fairen Preisen.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
