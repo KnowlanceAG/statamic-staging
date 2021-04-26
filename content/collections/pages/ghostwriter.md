@@ -45,7 +45,7 @@ teaser:
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619437281
+updated_at: 1619438044
 replicator:
   -
     bard:
@@ -108,7 +108,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Beim akademischen Ghostwriting handelt es sich um das Verfassen von Mustervorlagen für wissenschaftliche Texte nach individuellen Vorgaben der Kunden. Dabei kann es sich um die Vorlage für eine Masterarbeit oder Dissertation handeln., auch kommt es häufig dazu, dass sich Studenten Mustervorlagen für die eigene '
+            text: 'Beim akademischen '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  target: null
+                  rel: null
+            text: Ghostwriting
+          -
+            type: text
+            text: ' handelt es sich um das Verfassen von Mustervorlagen für wissenschaftliche Texte nach individuellen Vorgaben der Kunden. Dabei kann es sich um die Vorlage für eine Masterarbeit oder Dissertation handeln., auch kommt es häufig dazu, dass sich Studenten Mustervorlagen für die eigene '
           -
             type: text
             marks:
@@ -229,7 +242,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Oft lassen sich solche Portale daran erkennen, dass nur eine einzige Ghostwriter Agentur bzw. die verschiedenen Portale einer Agentur empfohlen werden. Besonders auffällig ist dies bspw. auf ghostwritingerfahrungen.com, wo die drei Portale einer osteuropäischen Agentur bereits auf der Startseite verlinkt werden. Oft können Sie Ghostwriter Vergleiche auch auf einfache Weise selbst testen: Können Sie selbst Ghostwriter Bewertungen hinzufügen? Falls dies nicht funktionieren sollte, können Sie davon ausgehen, dass auch die anderen Ghostwriter Bewertungen nur vom Seitenbetreiber selbst hinzugefügt worden sind. Von solchen gefälschten Vergleichsportalen und den dort beworbenen Ghostwriter Agenturen sollten Sie sich unbedingt fern halten.'
+            text: 'Oft lassen sich solche Portale daran erkennen, dass nur eine einzige Ghostwriter Agentur bzw. die verschiedenen Portale einer Agentur empfohlen werden. Besonders auffällig ist dies bspw. auf ghostwritingerfahrungen.com, wo die drei Portale einer osteuropäischen Agentur bereits auf der '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/'
+                  target: null
+                  rel: null
+            text: 'Startseite '
+          -
+            type: text
+            text: 'verlinkt werden. Oft können Sie Ghostwriter Vergleiche auch auf einfache Weise selbst testen: Können Sie selbst Ghostwriter Bewertungen hinzufügen? Falls dies nicht funktionieren sollte, können Sie davon ausgehen, dass auch die anderen Ghostwriter Bewertungen nur vom Seitenbetreiber selbst hinzugefügt worden sind. Von solchen gefälschten Vergleichsportalen und den dort beworbenen Ghostwriter Agenturen sollten Sie sich unbedingt fern halten.'
       -
         type: heading
         attrs:
@@ -243,7 +269,33 @@ replicator:
         content:
           -
             type: text
-            text: 'Auch die Webseite eines Ghostwriters oder einer Ghostwriting Agentur stellt ein wichtiges Kriterium für dessen Seriosität dar. Erhalten Sie genügend Hintergrundinformationen über den Ghostwriter oder die Ghostwriter Agentur? Enthält die Webseite ein ordentliches Impressum und eine DSGVO-konforme Datenschutzerklärung? All dies sind Fragen, die Sie sich unbedingt stellen sollten, wenn Sie eine einen seriösen Ghostwriter finden möchten.'
+            text: 'Auch die Webseite eines Ghostwriters oder einer Ghostwriting Agentur stellt ein wichtiges Kriterium für dessen Seriosität dar. Erhalten Sie genügend Hintergrundinformationen über den Ghostwriter oder die Ghostwriter Agentur? Enthält die Webseite ein ordentliches'
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/impressum'
+                  target: null
+                  rel: null
+            text: ' Impressum'
+          -
+            type: text
+            text: ' und eine DSGVO-konforme '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/datenschutzerklaerung'
+                  target: null
+                  rel: null
+            text: Datenschutzerklärung
+          -
+            type: text
+            text: '? All dies sind Fragen, die Sie sich unbedingt stellen sollten, wenn Sie eine einen seriösen Ghostwriter finden möchten.'
       -
         type: horizontal_rule
       -
@@ -322,7 +374,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Grundsätzlich kommt es in den seltensten Fällen vor, dass Ghostwriter als solche auch in der Öffentlichkeit gezeigt werden. Gerade akademische Ghostwriter verpflichten sich zu Stillschweigen und werden bei der Zusammenarbeit mit einer entsprechenden Agentur niemals (anders als beispielsweise bei Autobiographien) einen persönlichen Kontakt zum Auftraggeber haben. Die Anonymität steht an oberster Stelle um nicht zuletzt gerade den Auftraggeber zu schützen. Dem Kunden wird bei Vorlagen für Diplomarbeiten dringend davon abgeraten, den Text zu übernehmen, sondern diesen tatsächlich nur als Vorlage zur Bearbeitung zu sehen.'
+            text: 'Grundsätzlich kommt es in den seltensten Fällen vor, dass Ghostwriter als solche auch in der Öffentlichkeit gezeigt werden. Gerade akademische Ghostwriter verpflichten sich zu Stillschweigen und werden bei der Zusammenarbeit mit einer entsprechenden Agentur niemals (anders als beispielsweise bei Autobiographien) einen persönlichen Kontakt zum Auftraggeber haben. Die Anonymität steht an oberster Stelle um nicht zuletzt gerade den Auftraggeber zu schützen. Dem Kunden wird bei Vorlagen für'
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/arbeiten/diplomarbeit'
+                  target: null
+                  rel: null
+            text: ' Diplomarbeiten '
+          -
+            type: text
+            text: 'dringend davon abgeraten, den Text zu übernehmen, sondern diesen tatsächlich nur als Vorlage zur Bearbeitung zu sehen.'
       -
         type: heading
         attrs:
