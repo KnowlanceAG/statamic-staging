@@ -217,7 +217,7 @@ replicator:
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619470042
+updated_at: 1619470083
 page_title: 'Korrekturlesen von wissenschaftlichen Texten • GWriters'
 meta_title: 'Korrekturlesen von wissenschaftlichen Texten • GWriters'
 meta_description: 'Benötigen Sie einen Textkorrektor für Ihre Abschlussarbeit? GWriters.de bietet Ihnen qualitätsgeprüfte Korrektoren zu fairen Preisen.'
