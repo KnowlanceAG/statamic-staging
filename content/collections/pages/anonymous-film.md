@@ -150,7 +150,7 @@ replicator:
     enabled: true
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619429158
+updated_at: 1619429191
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 use_meta_keywords: false
@@ -161,4 +161,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+page_title: 'Anonymous (Film) Rezension • GWriters'
+meta_title: 'Anonymous (Film) Rezension • GWriters'
+meta_description: 'Eine Rezension zum Ghostwriter-Film Anonymous von Roland Emmerich von GWriters.de.'
 ---
