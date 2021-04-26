@@ -168,8 +168,8 @@ replicator:
                 type: link
                 attrs:
                   href: 'https://www.youtube.com/watch?v=IOmI_5j1ApI'
-                  target: null
-                  rel: nofollow
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
             text: 'Trailer Ghostwriter-Der Film'
       -
         type: heading
@@ -217,12 +217,6 @@ replicator:
             spacing_top: false
       -
         type: horizontal_rule
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "\_"
       -
         type: heading
         attrs:
@@ -342,7 +336,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619447694
+updated_at: 1619447771
 meta_title: 'GWriters • professioneller akademischer Ghostwriter gesucht?'
 meta_description: 'Sie benötigen einen Ghostwriter? Wenn Ghostwriter gesucht werden, ist unsere Ghostwriting Agentur der beste Partner für seriösen Service!'
 use_meta_keywords: false
