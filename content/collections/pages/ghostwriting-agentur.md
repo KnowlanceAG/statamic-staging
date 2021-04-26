@@ -87,8 +87,8 @@ replicator:
                 type: link
                 attrs:
                   href: 'https://www.sueddeutsche.de/bildung/zeitdruck-im-bachelor-studium-menschen-sind-keine-lernmaschinen-1.1185528'
-                  target: null
-                  rel: null
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
             text: 'Zeitdruck in einem modernen Studium'
           -
             type: text
@@ -236,8 +236,6 @@ replicator:
             color: '#FF6606'
             spacing_top: false
       -
-        type: paragraph
-      -
         type: horizontal_rule
       -
         type: paragraph
@@ -336,5 +334,13 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619454245
+updated_at: 1619454415
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
