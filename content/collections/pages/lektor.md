@@ -41,6 +41,7 @@ teaser:
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         spacing_top: false
+        color: '#FF6606'
   -
     type: paragraph
 teaser_bg:
@@ -312,7 +313,7 @@ replicator:
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619471174
+updated_at: 1619471183
 page_title: 'Finden Sie Ihren akademischen Lektor bei unserer Ghostwriting Agentur'
 meta_title: 'Finden Sie Ihren akademischen Lektor bei unserer Ghostwriting Agentur'
 meta_description: 'Ihr persönlicher akademischer Lektor für Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit. Qualitativ, diskret und zum fairen Preis.'
