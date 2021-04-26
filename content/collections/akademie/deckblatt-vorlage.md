@@ -99,7 +99,7 @@ replicator:
 downloads:
   - akademie/Deckblatt.docx
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619476479
+updated_at: 1619476514
 from_the_blog:
   - 52b1f199-5d82-4ebe-bbb6-21df3afd97b9
   - dabfe654-ec77-4680-89a4-94467547a605
@@ -116,4 +116,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+page_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
+meta_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
+meta_description: '➡️➡️➡️ Hier finden Sie die perfekte Deckblatt Vorlage für Ihre eigene Abschlussarbeit, die Sie selber für Ihre Arbeit individualisieren können ✍️.'
 ---
