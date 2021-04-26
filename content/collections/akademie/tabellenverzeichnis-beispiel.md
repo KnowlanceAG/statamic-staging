@@ -103,7 +103,7 @@ replicator:
           values:
             type: bilder
             assets:
-              - akademie/Tabellenverzeichnis-724x1024.jpg
+              - akademie/Tabellenverzeichnis-724x1024-(1).jpg
             img-alignment: justify-center
       -
         type: paragraph
@@ -247,7 +247,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - akademie/Tabellenverzeichnis-724x1024.jpg
+                      - akademie/Tabellenverzeichnis-724x1024-(1).jpg
                     img_size: w-full
               -
                 type: paragraph
@@ -332,7 +332,7 @@ from_the_blog:
   - 015f5635-7e60-442a-bafd-504b0bca87c4
   - 5187b076-6402-4ce5-a509-9b507d9f773c
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619481135
+updated_at: 1619481235
 academy_short_text: 'Nutzen Sie unser Tabellenverzeichnis Beispiel für jede wissenschaftliche Arbeit mit einer Vielzahl von Tabellen.'
 meta_title: 'Kostenloses Tabellenverzeichnis für Ihre Hausarbeit herunterladen'
 meta_description: 'Nutzen Sie unser Tabellenverzeichnis Beispiel von akademischen Experten für jede wissenschaftliche Arbeit mit einer Vielzahl von Tabellen ???'
