@@ -4,7 +4,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619448243
+updated_at: 1619448324
 replicator:
   -
     columns-replicator:
@@ -687,7 +687,7 @@ replicator:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    spacing_top: false
+                    spacing_top: true
                     button_align: justify-start
               -
                 type: paragraph
@@ -717,7 +717,7 @@ replicator:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT BERATEN LASSEN'
-                    spacing_top: false
+                    spacing_top: true
                     button_align: justify-start
               -
                 type: paragraph
