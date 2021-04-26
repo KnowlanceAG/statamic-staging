@@ -236,7 +236,7 @@ replicator:
     enabled: true
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619474198
+updated_at: 1619474210
 page_title: 'GWriters • Wissenschaftliche Arbeiten und Artikel lesen'
 meta_title: 'GWriters • Wissenschaftliche Arbeiten und Artikel lesen'
 meta_description: 'Wie Sie wissenschaftliche Arbeiten lesen und verstehen - unsere erfahrenen akademischen Experten erläutern Ihnen die besten Tipps und Richtlinien.'
