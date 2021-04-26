@@ -122,7 +122,20 @@ replicator:
             type: hard_break
           -
             type: text
-            text: '''Der Ghostwriter'' bietet zwar nicht das Blut und die Action der früheren Werke Polanskis, besticht aber durch brillante Dialoge voller Intelligenz und Schärfe. Das fehlende Blut wird Wett gemacht durch die verbalen Messerstiche mit denen sich die Gesprächspartner an vielen Stellen im Film attackieren. Polanski präsentiert in der Hauptrolle einen jungen alkoholabhängigen Ghostwriter in finanzieller Schieflage. Der Name bleibt den ganzen Streifen über unbekannt und umgibt den Ghost wie ein mysteriöser Schleier. Dieser Ghost überwindet all den Ärger, welchen der Auftrag um die Memoiren des Premiers von Anfang an mitbringt. Doch er braucht das Geld und die Selbstachtung die er erhofft dadurch zurückzugewinnen und gräbt tiefer. Ewan McGregor spielt die Rolle mit einer Ernsthaftigkeit, welche perfekt zur allgemeinen Grundstimmung des Filmes passt und wird tatsächlich nur von dem absolut britischen Pierce Brosnan in seiner Rolle übertrumpft. Die ganze Atmosphäre passt einfach zusammen und die Charaktere werden von den Schauspielern einzigartig repräsentiert. Ein durchgängiges düsteres Gefühl a la Hitchcock fesselt den Zuschauer nicht zuletzt mit Hilfe der treibenden Musik von Alexandre Desplat. Das einzige was den Zuschauer etwas ernüchtert ist das banale - wenn auch logisch nachvollziehbare - Ende der Geschichte. Klar hatte Robert Harris, der Autor der ursprünglichen Geschichte, auch einiges bei der Zusammenarbeit mit Polanski zu sagen, jedoch hätte das Ende den Zuschauern zuliebe etwas näher am Spannungsbogen des Films abschließen können.'
+            text: '''Der Ghostwriter'' bietet zwar nicht das Blut und die Action der früheren Werke Polanskis, besticht aber durch brillante Dialoge voller Intelligenz und Schärfe. Das fehlende Blut wird Wett gemacht durch die verbalen Messerstiche mit denen sich die Gesprächspartner an vielen Stellen im Film attackieren. Polanski präsentiert in der Hauptrolle einen jungen alkoholabhängigen Ghostwriter in finanzieller Schieflage. Der Name bleibt den ganzen Streifen über unbekannt und umgibt den Ghost wie ein mysteriöser Schleier. Dieser Ghost überwindet all den Ärger, welchen der Auftrag um die Memoiren des Premiers von Anfang an mitbringt. Doch er braucht das Geld und die Selbstachtung die er erhofft dadurch zurückzugewinnen und gräbt tiefer. Ewan McGregor spielt die Rolle mit einer Ernsthaftigkeit, welche perfekt zur allgemeinen Grundstimmung des Filmes passt und wird tatsächlich nur von dem absolut britischen Pierce Brosnan in seiner Rolle übertrumpft. Die ganze Atmosphäre passt einfach zusammen und die Charaktere werden von den Schauspielern einzigartig repräsentiert. Ein durchgängiges düsteres Gefühl a la Hitchcock fesselt den Zuschauer nicht zuletzt mit Hilfe der treibenden Musik von Alexandre Desplat. Das einzige was den Zuschauer etwas ernüchtert ist das banale - wenn auch logisch nachvollziehbare - Ende der Geschichte. Klar hatte Robert Harris, der Autor der ursprünglichen '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/fachrichtungen/geschichte'
+                  target: null
+                  rel: null
+            text: Geschichte
+          -
+            type: text
+            text: ', auch einiges bei der Zusammenarbeit mit Polanski zu sagen, jedoch hätte das Ende den Zuschauern zuliebe etwas näher am Spannungsbogen des Films abschließen können.'
           -
             type: hard_break
           -
@@ -160,7 +173,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619430828
+updated_at: 1619430932
 page_title: 'Der Ghostwriter (Film) Rezension • GWriters'
 meta_title: 'Der Ghostwriter (Film) Rezension • GWriters'
 meta_description: 'Eine Rezension zum Film Der Ghostwriter von Roman Polanski von GWriters.de.'
