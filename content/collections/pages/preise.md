@@ -4,7 +4,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619448324
+updated_at: 1619448461
 replicator:
   -
     columns-replicator:
@@ -74,10 +74,14 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_richten sich nach unseren Erfahrungswerten mit den akademischen Ghostwritern, Lektoren & Coaches. Grundsätzlich sind die angegebenen Faktoren maßgeblich für die Einschätzung des Aufwandes für den akademischen Experten, unsere Supervisor und Projektbetreuer. Je nach Ihren individuellen Anforderungen kann der endgültige Preis bis zu 20% unter oder über dem des Preis-Rechners liegen."
-              -
-                type: paragraph
-                content:
+                    text: "\_richten sich nach unseren Erfahrungswerten mit den akademischen Ghostwritern, Lektoren & Coaches. Grundsätzlich sind die angegebenen Faktoren maßgeblich für die Einschätzung des Aufwandes für den akademischen Experten, unsere Supervisor und Projektbetreuer. Je nach Ihren individuellen Anforderungen kann der endgültige Preis bis zu 20% unter oder über dem des Preis-Rechners liegen. "
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                   -
                     type: text
                     marks:
@@ -241,9 +245,8 @@ replicator:
                           -
                             type: text
                             text: "\_sammeln. Deshalb sind wir uns bewusst, dass sowohl die Seriosität einer Ghostwriting Agentur als auch durchgängige Transparenz im Hinblick auf den Ghostwriting Service und die Preise für viele Kunden im Mittelpunkt stehen."
-                      -
-                        type: paragraph
-                        content:
+                          -
+                            type: hard_break
                           -
                             type: text
                             text: "Wenn Sie sich bei GWriters eine Mustervorlage für Ihre Hausarbeit, Seminararbeit, Bachelorarbeit oder\_"
