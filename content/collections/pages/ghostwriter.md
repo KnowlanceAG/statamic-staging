@@ -45,7 +45,7 @@ teaser:
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619437086
+updated_at: 1619437111
 replicator:
   -
     bard:
@@ -432,4 +432,5 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+template: with-side-bar
 ---
