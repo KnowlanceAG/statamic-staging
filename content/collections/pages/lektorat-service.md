@@ -295,7 +295,7 @@ replicator:
     enabled: true
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619472194
+updated_at: 1619472225
 page_title: 'Benötigen Sie einen Lektorat Service? GWriters hilft!'
 template: with-side-bar
 meta_title: 'Benötigen Sie einen Lektorat Service? GWriters hilft!'
