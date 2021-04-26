@@ -89,7 +89,72 @@ replicator:
             type: hard_break
           -
             type: text
-            text: 'Das Absolvieren eines regulären Studiums ist die einzige ernstzunehmende Alternative zum Titelkauf über ominöse Anbieter. Als unterstützende Instanz kann dem Studenten jedoch ein Ghostwriter dienen. Dieser fertigt auf Wunsch Vorschläge oder Musterlösungen zu spezifischen wissenschaftlichen Fragestellungen an, stellt dem Studenten jedoch keine abgabefertige Arbeit zur Verfügung. Der Ghostwriter kann auch die Literaturrecherche für den Interessenten durchführen und ihm eine Liste mit den für ihn relevanten Quellen aushändigen. Der Verfasser der Diplomarbeit muss die ihm gelieferten Informationen selbständig filtern, ordnen und in einen sinnvollen Sachzusammenhang bringen. Weiterhin kann auch ein Lektorat oder ein Korrektorat einer bereits verfassten wissenschaftlichen Arbeit durchgeführt werden. Die Dienste von Ghostwritern, Lektoren, Korrektoren oder ähnlichen akademischen Freelancern stellen sich dabei als strafrechtlich unbedenklich dar. Der vom Studenten vorgegebene Inhalt und die Struktur der Arbeit werden durch die Zuhilfenahme eines Ghostwriters oder Bearbeiters nicht verändert. Der Student wird selbst aktiv und steht bei der Anfertigung seiner Arbeit im Vordergrund.'
+            text: 'Das Absolvieren eines regulären Studiums ist die einzige ernstzunehmende Alternative zum Titelkauf über ominöse Anbieter. Als unterstützende Instanz kann dem Studenten jedoch ein '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/ghostwriter'
+                  target: null
+                  rel: null
+            text: 'Ghostwriter '
+          -
+            type: text
+            text: 'dienen. Dieser fertigt auf Wunsch Vorschläge oder Musterlösungen zu spezifischen wissenschaftlichen Fragestellungen an, stellt dem Studenten jedoch keine abgabefertige Arbeit zur Verfügung. Der Ghostwriter kann auch die Literaturrecherche für den Interessenten durchführen und ihm eine Liste mit den für ihn relevanten Quellen aushändigen. Der Verfasser der '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/arbeiten/diplomarbeit'
+                  target: null
+                  rel: null
+            text: 'Diplomarbeit '
+          -
+            type: text
+            text: 'muss die ihm gelieferten Informationen selbständig filtern, ordnen und in einen sinnvollen Sachzusammenhang bringen. Weiterhin kann auch ein '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/leistungen/lektorat'
+                  target: null
+                  rel: null
+            text: Lektorat
+          -
+            type: text
+            text: ' oder ein '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/leistungen/korrektorat'
+                  target: null
+                  rel: null
+            text: 'Korrektorat '
+          -
+            type: text
+            text: 'einer bereits verfassten wissenschaftlichen Arbeit durchgeführt werden. Die Dienste von Ghostwritern, Lektoren, '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/korrektorat/korrektor'
+                  target: null
+                  rel: null
+            text: Korrektoren
+          -
+            type: text
+            text: ' oder ähnlichen akademischen Freelancern stellen sich dabei als strafrechtlich unbedenklich dar. Der vom Studenten vorgegebene Inhalt und die Struktur der Arbeit werden durch die Zuhilfenahme eines Ghostwriters oder Bearbeiters nicht verändert. Der Student wird selbst aktiv und steht bei der Anfertigung seiner Arbeit im Vordergrund.'
       -
         type: paragraph
         content:
@@ -204,5 +269,17 @@ replicator:
     enabled: true
 parent: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619473492
+updated_at: 1619473749
+page_title: 'GWriters • Diplom kaufen möglich oder lieber eine Ghostwriter Agentur?'
+template: with-side-bar
+meta_title: 'GWriters • Diplom kaufen möglich oder lieber eine Ghostwriter Agentur?'
+meta_description: 'Bei GWriters finden Sie akademische Ghostwriter, Lektoren, Korrektoren, Coaches, Übersetzer & alle wichtigen Informationen zum Thema "Diplom kaufen".'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
