@@ -45,7 +45,7 @@ teaser:
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619437185
+updated_at: 1619437208
 replicator:
   -
     bard:
@@ -252,6 +252,7 @@ replicator:
           values:
             type: button
             button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+            button_text: 'JETZT KOSTENLOS ANFRAGEN'
             color: '#FF6606'
             spacing_top: false
       -
