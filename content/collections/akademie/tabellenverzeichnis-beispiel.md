@@ -113,7 +113,7 @@ from_the_blog:
   - 015f5635-7e60-442a-bafd-504b0bca87c4
   - 5187b076-6402-4ce5-a509-9b507d9f773c
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619480845
+updated_at: 1619480848
 academy_short_text: 'Nutzen Sie unser Tabellenverzeichnis Beispiel für jede wissenschaftliche Arbeit mit einer Vielzahl von Tabellen.'
 meta_title: 'Kostenloses Tabellenverzeichnis für Ihre Hausarbeit herunterladen'
 meta_description: 'Nutzen Sie unser Tabellenverzeichnis Beispiel von akademischen Experten für jede wissenschaftliche Arbeit mit einer Vielzahl von Tabellen ???'
@@ -125,4 +125,5 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+page_title: 'Kostenloses Tabellenverzeichnis für Ihre Hausarbeit herunterladen'
 ---
