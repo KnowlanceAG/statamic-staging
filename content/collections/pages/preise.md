@@ -4,7 +4,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619453694
+updated_at: 1619453796
 replicator:
   -
     columns-replicator:
@@ -361,14 +361,6 @@ replicator:
             show_as_card: false
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - preise/initiale-telefonkonferenz-32x32.png
-                    img-alignment: justify-start
               -
                 type: paragraph
               -
