@@ -4,7 +4,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619451037
+updated_at: 1619451155
 replicator:
   -
     columns-replicator:
@@ -798,10 +798,22 @@ replicator:
                         content:
                           -
                             type: text
-                            text: "Vielen Kunden genügen allgemeine Preisangaben nicht, dies haben wir aus Erfahrung gelernt. Stattdessen möchten Sie konkrete Antworten auf brennende Fragen wie: “Wie teuer ist eine Masterarbeit?” oder “Für wie viel Geld kann ich eine\_Seminararbeit kaufen?” haben. Aus diesem Grund haben wir gemeinsam mit unseren akademischen Ghostwritern Preise für einige fiktive Beispielprojekte festgelegt, die Ihnen einen besseren Überblick über unsere Preisstruktur bei der Suche nach dem für Sie besten Angebot geben sollen."
-                      -
-                        type: paragraph
-                        content:
+                            text: "Vielen Kunden genügen allgemeine Preisangaben nicht, dies haben wir aus Erfahrung gelernt. Stattdessen möchten Sie konkrete Antworten auf brennende Fragen wie: “Wie teuer ist eine Masterarbeit?” oder “Für wie viel Geld kann ich eine\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
+                                  target: null
+                                  rel: null
+                            text: 'Seminararbeit kaufen'
+                          -
+                            type: text
+                            text: '?” haben. Aus diesem Grund haben wir gemeinsam mit unseren akademischen Ghostwritern Preise für einige fiktive Beispielprojekte festgelegt, die Ihnen einen besseren Überblick über unsere Preisstruktur bei der Suche nach dem für Sie besten Angebot geben sollen.'
+                          -
+                            type: hard_break
                           -
                             type: text
                             marks:
