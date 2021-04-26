@@ -33,6 +33,16 @@ teaser:
             attrs:
               align: center
         text: 'Bei uns finden Sie akademische Ghostwriter & Experten und Informationen zu Ghostwriting Services.'
+  -
+    type: set
+    attrs:
+      values:
+        type: button
+        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        spacing_top: false
+  -
+    type: paragraph
 replicator:
   -
     bard:
@@ -285,7 +295,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619455968
+updated_at: 1619456058
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
