@@ -120,7 +120,7 @@ from_the_blog:
   - dbb9a734-d733-4fe0-a92f-4dde0883ac7a
   - ca5797f0-28d2-48ca-be1d-5c6ca8c1b01c
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619480699
+updated_at: 1619480731
 academy_teaser_text: 'Verschaffen Sie den Lesern Ihrer Arbeit einen Überblick über alle Anhänge mit unserem Anhangsverzeichnis Beispiel.'
 meta_title: 'Kostenloses Anhangsverzeichnis für Ihre Hausarbeit herunterladen'
 meta_description: "Verschaffen Sie Ihren Lesern einen\_Überblick über alle Anhänge mit unserem Anhangsverzeichnis Beispiel. Unsere Vorlage - nur einen Klick entfernt."
@@ -132,4 +132,5 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+page_title: 'Kostenloses Anhangsverzeichnis für Ihre Hausarbeit herunterladen'
 ---
