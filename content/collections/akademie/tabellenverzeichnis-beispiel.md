@@ -231,26 +231,19 @@ replicator:
               -
                 type: set
                 attrs:
+                  enabled: false
                   values:
                     type: floating-img
                     dateien:
                       - akademie/Tabellenverzeichnis-724x1024-(1).jpg
                     img_size: w-full
               -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard: null
-            show_as_card: false
-          -
-            bard:
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - akademie/Tabellenverzeichnis-724x1024-(1).jpg
               -
                 type: paragraph
                 content:
@@ -304,6 +297,71 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard: null
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Andere Fachbereich verzichten hingegen weitestgehend auf ein separates Verzeichnis für Tabellen. Sind daher relativ wenige Tabellen inbegriffen, dann reicht ein Darstellungsverzeichnis in der Regel vollkommen aus. Schließlich soll die Darstellung Ihrer Abschlussarbeit umfassend, allerdings niemals unnötig mit Verzeichnissen überfüllt werden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Eine Tabellenverzeichnis Vorlage bietet sich besonders dann an, wenn Sie Ihre Auswertungen gehäuft in Tabellen präsentieren und dafür ein Musterbeispiel von akademischen Experten suchen. Jedem Leser wird durch das Tabellenverzeichnis Beispiel schnell ersichtlich, welche tabellarisch dargestellten Studien, Risikogruppen oder Analysen in Ihrer Abschlussarbeit zu finden sind.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Dementsprechend gehört eine Tabelle korrekt durchnummeriert und formatiert. Wie sich die Theorie in der Praxis umsetzen lässt, demonstriert unsere hochwertig aufgearbeitete Tabellenverzeichnis Vorlage. Demzufolge wird Ihnen direkt ersichtlich, wie die Anordnung formatiert werden sollte. Es klingt auf den ersten Blick absolut mühelos, ein Tabellenverzeichnis in Word einzufügen. Doch die genaue Betrachtung zeigt, dass die Details ausschlaggebend sind.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unser Tabellenverzeichnis Beispiel ist speziell für wissenschaftliche'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/facharbeit'
+                          target: null
+                          rel: null
+                    text: ' Facharbeiten'
+                  -
+                    type: text
+                    text: ' bestimmt und bietet Studierende einen Einblick in die wissenschaftliche Praxis.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Unser Tabellenverzeichnis Beispiel können Sie kostenlos herunterladen!'
+            show_as_card: false
+        type: row
+        enabled: false
     remove_spacing: true
     is-full: false
     bg-toggle: false
@@ -319,7 +377,7 @@ from_the_blog:
   - 015f5635-7e60-442a-bafd-504b0bca87c4
   - 5187b076-6402-4ce5-a509-9b507d9f773c
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619481330
+updated_at: 1619481427
 academy_short_text: 'Nutzen Sie unser Tabellenverzeichnis Beispiel für jede wissenschaftliche Arbeit mit einer Vielzahl von Tabellen.'
 meta_title: 'Kostenloses Tabellenverzeichnis für Ihre Hausarbeit herunterladen'
 meta_description: 'Nutzen Sie unser Tabellenverzeichnis Beispiel von akademischen Experten für jede wissenschaftliche Arbeit mit einer Vielzahl von Tabellen ???'
