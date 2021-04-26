@@ -3,8 +3,8 @@ id: 7aff708e-5d48-409e-9242-fd82c155f5ee
 title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619342352
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619448243
 replicator:
   -
     columns-replicator:
@@ -663,6 +663,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für alle anderen Fachbereiche beginnen ab\_"
                   -
                     type: text
@@ -677,6 +678,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: '80,- € pro Normseite'
               -
                 type: set
@@ -686,6 +688,7 @@ replicator:
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
                     spacing_top: false
+                    button_align: justify-start
               -
                 type: paragraph
             show_as_card: true
@@ -705,6 +708,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: 'Benötigen Sie eine statistische Auswertung, technische Zeichnung oder haben Sie sonstige besondere Anforderungen?'
               -
                 type: set
@@ -714,6 +718,7 @@ replicator:
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT BERATEN LASSEN'
                     spacing_top: false
+                    button_align: justify-start
               -
                 type: paragraph
             show_as_card: true
@@ -827,6 +832,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Fachbereich
                                   -
                                     type: table_cell
@@ -852,6 +858,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: BWL
                               -
                                 type: table_row
@@ -880,6 +887,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Umfang
                                   -
                                     type: table_cell
@@ -905,6 +913,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: '10 Seiten'
                               -
                                 type: table_row
@@ -933,6 +942,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'Zusätzliche Faktoren'
                                   -
                                     type: table_cell
@@ -958,6 +968,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: '-'
                               -
                                 type: table_row
@@ -986,6 +997,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'Literatur vorhanden'
                                   -
                                     type: table_cell
@@ -1011,6 +1023,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Ja
                               -
                                 type: table_row
@@ -1039,6 +1052,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Preis
                                   -
                                     type: table_cell
@@ -1064,6 +1078,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'ab 80,- € pro Normseite'
                           -
                             type: set
@@ -1110,6 +1125,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Fachbereich
                                   -
                                     type: table_cell
@@ -1135,6 +1151,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Sozialwissenschaften
                               -
                                 type: table_row
@@ -1163,6 +1180,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Umfang
                                   -
                                     type: table_cell
@@ -1188,6 +1206,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: '40 Seiten'
                               -
                                 type: table_row
@@ -1216,6 +1235,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'Zusätzliche Faktoren'
                                   -
                                     type: table_cell
@@ -1241,6 +1261,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'Empirie / stat. Auswertung'
                               -
                                 type: table_row
@@ -1269,6 +1290,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'Literatur vorhanden'
                                   -
                                     type: table_cell
@@ -1294,6 +1316,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Nein
                               -
                                 type: table_row
@@ -1322,6 +1345,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Preis
                                   -
                                     type: table_cell
@@ -1347,6 +1371,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'ab 80,- € pro Normseite'
                           -
                             type: set
@@ -1393,6 +1418,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Fachbereich
                                   -
                                     type: table_cell
@@ -1418,6 +1444,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Psychologie
                               -
                                 type: table_row
@@ -1446,6 +1473,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Umfang
                                   -
                                     type: table_cell
@@ -1471,6 +1499,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: '60 Seiten'
                               -
                                 type: table_row
@@ -1499,6 +1528,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'Zusätzliche Faktoren'
                                   -
                                     type: table_cell
@@ -1524,6 +1554,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'Empirie / stat. Auswertung; Präsentation für Kolloqium'
                               -
                                 type: table_row
@@ -1552,6 +1583,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'Literatur vorhanden'
                                   -
                                     type: table_cell
@@ -1577,6 +1609,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Nein
                               -
                                 type: table_row
@@ -1605,6 +1638,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Preis
                                   -
                                     type: table_cell
@@ -1630,6 +1664,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'ab 80,- € pro Normseite'
                           -
                             type: set
