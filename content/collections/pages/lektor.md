@@ -312,5 +312,16 @@ replicator:
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619471145
+updated_at: 1619471174
+page_title: 'Finden Sie Ihren akademischen Lektor bei unserer Ghostwriting Agentur'
+meta_title: 'Finden Sie Ihren akademischen Lektor bei unserer Ghostwriting Agentur'
+meta_description: 'Ihr persönlicher akademischer Lektor für Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit. Qualitativ, diskret und zum fairen Preis.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
