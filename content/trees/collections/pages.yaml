@@ -121,9 +121,6 @@ tree:
     entry: a016335c-333e-432d-838d-460350d21052
   -
     entry: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
-    children:
-      -
-        entry: 86bd5a7e-428b-40e0-a058-cbc30bfe659b
   -
     entry: 1298a2b5-6e23-404b-8806-26e687fda624
   -
@@ -148,3 +145,6 @@ tree:
     entry: 81a83d40-bdef-4b4f-9ddc-ec55785e6a30
   -
     entry: f7eb191e-f9e8-4354-a71d-27c5210df1b9
+    children:
+      -
+        entry: 86bd5a7e-428b-40e0-a058-cbc30bfe659b
