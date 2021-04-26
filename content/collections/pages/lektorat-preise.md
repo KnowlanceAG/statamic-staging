@@ -325,5 +325,16 @@ replicator:
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619471833
+updated_at: 1619471854
+page_title: 'Lektorat Preise? Alles Wichtige dazu von GWriters'
+meta_title: 'Lektorat Preise? Alles Wichtige dazu von GWriters'
+meta_description: 'Sie möchten mehr über die Lektorat Preise erfahren? Die professionelle Ghostwriting Agentur GWriters.de informiert Sie über die Preise für Ihren Lektor.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
