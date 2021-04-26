@@ -295,5 +295,17 @@ replicator:
     enabled: true
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619472164
+updated_at: 1619472194
+page_title: 'Benötigen Sie einen Lektorat Service? GWriters hilft!'
+template: with-side-bar
+meta_title: 'Benötigen Sie einen Lektorat Service? GWriters hilft!'
+meta_description: 'Ob Bachelorarbeit, Masterarbeit oder Doktorarbeit. Der professionelle Lektorat Service von GWriters.de hilft Ihnen zeitnah und qualitativ zum Erfolg.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
