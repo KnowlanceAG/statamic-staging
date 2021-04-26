@@ -42,8 +42,6 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
-  -
-    type: paragraph
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
@@ -239,7 +237,7 @@ replicator:
     enabled: true
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619471397
+updated_at: 1619471405
 page_title: 'Lektor gesucht? Wir haben den passenden Lektor für Ihre Abschlussarbeit'
 template: with-side-bar
 meta_title: 'Lektor gesucht? Wir haben den passenden Lektor für Ihre Abschlussarbeit'
