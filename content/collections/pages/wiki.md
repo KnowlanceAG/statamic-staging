@@ -2,7 +2,7 @@
 id: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
 title: Glossar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619428177
+updated_at: 1619428215
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -34,7 +34,7 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: orange-500
+                  color: '#000'
             text: Wiki
       -
         type: paragraph
