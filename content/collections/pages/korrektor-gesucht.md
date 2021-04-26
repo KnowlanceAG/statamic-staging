@@ -227,5 +227,16 @@ replicator:
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619469172
+updated_at: 1619469207
+page_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
+meta_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
+meta_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
