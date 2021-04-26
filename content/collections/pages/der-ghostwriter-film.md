@@ -42,7 +42,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Der Ghostwriter ist ein Film von Roman Polanski und basiert auf dem bekannten Roman "The Ghost" (2007) von dem britischen Schriftsteller Robert Harris. Die Story des Politthrillers handelt um einen ambitionierten Ghostwriter (im Film nur ''Ghost'' genannt), gespielt von Ewan McGregor. Der Ghost übernimmt den Auftrag, die Memoiren des ehemaligen britischen Premier-Ministers zu vervollständigen und deckt ungeahnte Geheimnisse auf, welche sein Leben in Gefahr bringen.'
+            text: 'Der '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/ghostwriter'
+                  target: null
+                  rel: null
+            text: 'Ghostwriter '
+          -
+            type: text
+            text: 'ist ein Film von Roman Polanski und basiert auf dem bekannten Roman "The Ghost" (2007) von dem britischen Schriftsteller Robert Harris. Die Story des Politthrillers handelt um einen ambitionierten Ghostwriter (im Film nur ''Ghost'' genannt), gespielt von Ewan McGregor. Der Ghost übernimmt den Auftrag, die Memoiren des ehemaligen britischen Premier-Ministers zu vervollständigen und deckt ungeahnte Geheimnisse auf, welche sein Leben in Gefahr bringen.'
       -
         type: paragraph
         content:
@@ -147,7 +160,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619430082
+updated_at: 1619430828
 page_title: 'Der Ghostwriter (Film) Rezension • GWriters'
 meta_title: 'Der Ghostwriter (Film) Rezension • GWriters'
 meta_description: 'Eine Rezension zum Film Der Ghostwriter von Roman Polanski von GWriters.de.'
