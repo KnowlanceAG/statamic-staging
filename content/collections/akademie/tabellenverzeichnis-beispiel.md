@@ -44,7 +44,33 @@ replicator:
         content:
           -
             type: text
-            text: "Das Tabellenverzeichnis kommt dem Abbildungsverzeichnis am nächsten und wird nur\_teilweise in wissenschaftliche Arbeiten integriert. Sinnvoll ist ein Verzeichnis speziell für Tabellen nur dann, wenn eine Vielzahl von tabellarischen Darstellungen Ihre wissenschaftliche Arbeit bestimmt. Bestimmte Fachbereiche wie die Statistik oder die BWL sind dafür bekannt, regelmäßig mit vielen Tabellen zu arbeiten. Auch wenn sich Studenten eine Mustervorlage beispielsweise für die eigene "
+            text: 'Das Tabellenverzeichnis kommt dem '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/gwriters-akademie/abbildungsverzeichnis'
+                  target: null
+                  rel: null
+            text: Abbildungsverzeichnis
+          -
+            type: text
+            text: " am nächsten und wird nur\_teilweise in wissenschaftliche Arbeiten integriert. Sinnvoll ist ein Verzeichnis speziell für Tabellen nur dann, wenn eine Vielzahl von tabellarischen Darstellungen Ihre wissenschaftliche Arbeit bestimmt. Bestimmte Fachbereiche wie die Statistik oder die"
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/fachrichtungen/bwl'
+                  target: null
+                  rel: null
+            text: ' BWL'
+          -
+            type: text
+            text: ' sind dafür bekannt, regelmäßig mit vielen Tabellen zu arbeiten. Auch wenn sich Studenten eine Mustervorlage beispielsweise für die eigene '
           -
             type: text
             marks:
@@ -57,7 +83,20 @@ replicator:
             text: 'Bachelorarbeit schreiben lassen'
           -
             type: text
-            text: ', erstellen Ghostwriter ein Tabellenverzeichnis, um die richtige Verwendung aufzuzeigen.'
+            text: ', erstellen '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/ghostwriter'
+                  target: null
+                  rel: null
+            text: Ghostwriter
+          -
+            type: text
+            text: ' ein Tabellenverzeichnis, um die richtige Verwendung aufzuzeigen.'
       -
         type: set
         attrs:
@@ -88,7 +127,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Unser Tabellenverzeichnis Beispiel ist speziell für wissenschaftliche Facharbeiten bestimmt und bietet Studierende einen Einblick in die wissenschaftliche Praxis.'
+            text: 'Unser Tabellenverzeichnis Beispiel ist speziell für wissenschaftliche'
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/arbeiten/facharbeit'
+                  target: null
+                  rel: null
+            text: ' Facharbeiten'
+          -
+            type: text
+            text: ' bestimmt und bietet Studierende einen Einblick in die wissenschaftliche Praxis.'
       -
         type: heading
         attrs:
@@ -113,7 +165,7 @@ from_the_blog:
   - 015f5635-7e60-442a-bafd-504b0bca87c4
   - 5187b076-6402-4ce5-a509-9b507d9f773c
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619480848
+updated_at: 1619480944
 academy_short_text: 'Nutzen Sie unser Tabellenverzeichnis Beispiel für jede wissenschaftliche Arbeit mit einer Vielzahl von Tabellen.'
 meta_title: 'Kostenloses Tabellenverzeichnis für Ihre Hausarbeit herunterladen'
 meta_description: 'Nutzen Sie unser Tabellenverzeichnis Beispiel von akademischen Experten für jede wissenschaftliche Arbeit mit einer Vielzahl von Tabellen ???'
