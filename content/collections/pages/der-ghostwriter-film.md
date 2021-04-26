@@ -147,7 +147,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619430067
+updated_at: 1619430082
 page_title: 'Der Ghostwriter (Film) Rezension • GWriters'
 meta_title: 'Der Ghostwriter (Film) Rezension • GWriters'
 meta_description: 'Eine Rezension zum Film Der Ghostwriter von Roman Polanski von GWriters.de.'
@@ -159,4 +159,5 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+template: with-side-bar
 ---
