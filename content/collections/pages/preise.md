@@ -4,7 +4,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619451155
+updated_at: 1619451441
 replicator:
   -
     columns-replicator:
@@ -304,6 +304,14 @@ replicator:
         grid:
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - preise/iconfinder_euro_430095-1-1-32x35.png
+                    img-alignment: justify-start
               -
                 type: heading
                 attrs:
@@ -1939,4 +1947,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+page_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓'
+meta_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓'
+meta_description: 'Berechnen Sie die Ghostwriter Preise mit unserem Preisrechner. Jetzt Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen - zu fairen Preisen!'
 ---
