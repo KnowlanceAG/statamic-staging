@@ -4,7 +4,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619452074
+updated_at: 1619452504
 replicator:
   -
     columns-replicator:
@@ -310,7 +310,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - preise/euro.png
+                      - preise/iconfinder_euro_430095-1-1-32x35-(1).png
                     img_size: w-1/4
                     float: float-left
               -
