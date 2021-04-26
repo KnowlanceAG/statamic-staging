@@ -119,5 +119,16 @@ from_the_blog:
   - 7da80f7c-3cf3-4c93-b61e-7b1ebe9eff5b
 academy_short_text: 'Nutzen Sie unsere Inhaltsverzeichnis Vorlage mit automatischer Formatierung für Ihre Abschlussarbeit.'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619477972
+updated_at: 1619478006
+page_title: 'Kostenloses Inhaltsverzeichnis für Ihre Hausarbeit herunterladen'
+meta_title: 'Kostenloses Inhaltsverzeichnis für Ihre Hausarbeit herunterladen'
+meta_description: '?Jetzt können Sie mit unserer Inhaltsverzeichnis Vorlage? Ihr Inhaltsverzeichnis automatisch erstellen. Jetzt unsere Vorlage herunterladen ↘️↘️↘️'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
