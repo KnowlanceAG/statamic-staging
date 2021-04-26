@@ -45,7 +45,7 @@ teaser:
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619437157
+updated_at: 1619437185
 replicator:
   -
     bard:
@@ -313,7 +313,7 @@ replicator:
             type: floating-img
             dateien:
               - seiten/ghostwriter.jpg
-            img_size: w-3/4
+            img_size: w-1/4
             float: float-left
       -
         type: paragraph
