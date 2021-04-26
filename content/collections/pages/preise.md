@@ -4,7 +4,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619448461
+updated_at: 1619448762
 replicator:
   -
     columns-replicator:
@@ -633,12 +633,37 @@ replicator:
                           -
                             type: text
                             text: 'Neben unseren hohen Qualitätsstandards nehmen aber selbstverständlich auch der verfügbare Bearbeitungszeitraum und insbesondere Ihr Fachbereich einen maßgeblichen Einfluss auf die Preise für das Ghostwriting Ihrer wissenschaftlichen Arbeit. Denn aus unserer jahrelangen Erfahrung wissen wir, dass jede wissenschaftliche Arbeit einen individuellen Anspruch hat.'
-                      -
-                        type: paragraph
-                        content:
+                          -
+                            type: hard_break
                           -
                             type: text
-                            text: "Ob Sie nun beispielsweise Ihre erste juristische Hausarbeit schreiben und dafür eine Lösungsskizze von einem erfahrenen Jura-Ghostwriter benötigen oder ob Sie sich eine Mustervorlage für Ihre\_finanzwissenschaftliche Masterarbeit schreiben lassen, die Kosten und Preise für Ihren Ghostwriter sind in jedem Fall genau so individuell wie Ihre Anforderungen. Aus diesem Grund legen wir eine hohe Priorität auf die Expertise unserer Kundenberater, damit sowohl ein Kunde mit einer kurzen\_sozialwissenschaftlichen Literaturarbeit, als auch ein Kunde mit einer ingenieurwissenschaftlichen Masterarbeit, ausführlichen Berechnungen und technischen Zeichnungen immer einen fairen Preis erhalten – individuell auf Ihr Projekt zugeschnitten!"
+                            text: "Ob Sie nun beispielsweise Ihre erste juristische Hausarbeit schreiben und dafür eine Lösungsskizze von einem erfahrenen Jura-Ghostwriter benötigen oder ob Sie sich eine Mustervorlage für Ihre\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/fachrichtungen/finanzwissenschaften'
+                                  target: null
+                                  rel: null
+                            text: 'finanzwissenschaftliche Masterarbeit schreiben lassen'
+                          -
+                            type: text
+                            text: ", die Kosten und Preise für Ihren Ghostwriter sind in jedem Fall genau so individuell wie Ihre Anforderungen. Aus diesem Grund legen wir eine hohe Priorität auf die Expertise unserer Kundenberater, damit sowohl ein Kunde mit einer kurzen\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/fachrichtungen/soziologie'
+                                  target: null
+                                  rel: null
+                            text: 'sozialwissenschaftlichen Literaturarbeit'
+                          -
+                            type: text
+                            text: ', als auch ein Kunde mit einer ingenieurwissenschaftlichen Masterarbeit, ausführlichen Berechnungen und technischen Zeichnungen immer einen fairen Preis erhalten – individuell auf Ihr Projekt zugeschnitten!'
                     text_ausrichtung: text-left
               -
                 type: paragraph
