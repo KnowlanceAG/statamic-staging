@@ -295,7 +295,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619456058
+updated_at: 1619456295
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -305,4 +305,8 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+teaser_bg:
+  - seiten/header-so-funktionierts.jpeg
+meta_title: 'Seriöser und diskreter Ghostwriting Service • GWriters'
+meta_description: 'Sie möchten eine Mustervorlage für Ihre Bachelorarbeit oder Masterarbeit schreiben lassen? Wir bieten Sicherheit, Qualität und Diskretion.'
 ---
