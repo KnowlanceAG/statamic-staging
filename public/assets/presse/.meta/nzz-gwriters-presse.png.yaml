@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'neue zuercher zeitung'
 size: 2825
 last_modified: 1619449175
 width: 300
