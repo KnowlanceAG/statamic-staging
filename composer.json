@@ -18,12 +18,12 @@
         "laravel/tinker": "^2.0",
         "optimoapps/statamic-bard-text-align": "1.0.2",
         "spatie/statamic-responsive-images": "2.5.3",
-        "statamic/cms": "3.1.9",
+        "statamic/cms": "3.1.10",
         "statamic/ssg": "^0.4.0",
         "uscreen/cpssg": "*",
         "uscreen/link-extended": "*",
-        "withcandour/aardvark-seo": "2.0.11",
-        "xndbogdan/statamic-bard-text-color": "^1.0"
+        "uscreen/better-statamic-bard-text-color": "*",
+        "withcandour/aardvark-seo": "2.0.11"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.5",
@@ -81,6 +81,10 @@
         {
             "type": "path",
             "url": "addons/uscreen/cpssg"
+        },
+        {
+            "type": "path",
+            "url": "addons/uscreen/better-statamic-bard-text-color"
         }
 
     ]

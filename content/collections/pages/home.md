@@ -1,4 +1,5 @@
 ---
+id: home
 title: Startseite
 template: default
 teaser:
@@ -14,7 +15,14 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Akademische Ghostwriter helfen. '
+        text: 'Akademische Ghostwriter helfen.'
+      -
+        type: hard_break
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
       -
         type: text
         marks:
@@ -51,7 +59,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1618988496
+updated_at: 1619340425
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -96,6 +104,7 @@ replicator:
     type: add_section
     enabled: true
     remove_spacing: false
+    border: false
   -
     columns-replicator:
       -
@@ -123,6 +132,7 @@ replicator:
     type: add_section
     enabled: true
     remove_spacing: false
+    border: false
   -
     columns-replicator:
       -
@@ -206,6 +216,7 @@ replicator:
     type: add_section
     enabled: true
     remove_spacing: false
+    border: false
   -
     columns-replicator:
       -
@@ -277,6 +288,7 @@ replicator:
     type: add_section
     enabled: true
     remove_spacing: false
+    border: false
   -
     columns-replicator:
       -
@@ -391,6 +403,7 @@ replicator:
     type: add_section
     enabled: true
     remove_spacing: false
+    border: false
   -
     columns-replicator:
       -
@@ -444,6 +457,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+    border: false
   -
     columns-replicator:
       -
@@ -662,6 +676,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: false
+    border: false
   -
     columns-replicator:
       -
@@ -938,6 +953,6 @@ replicator:
     type: add_section
     enabled: true
     remove_spacing: false
+    border: false
 meta_title: 'GWriters • Akademische Ghostwriter Agentur'
-id: home
 ---

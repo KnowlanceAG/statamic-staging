@@ -1,0 +1,69 @@
+title: Accordion
+fields:
+  -
+    handle: items
+    field:
+      fields:
+        -
+          handle: headline
+          field:
+            input_type: text
+            antlers: false
+            display: Überschrift
+            type: text
+            icon: text
+            listable: hidden
+        -
+          handle: accordion_content
+          field:
+            always_show_set_button: false
+            sets:
+              button:
+                display: Button
+                fields:
+                  -
+                    import: ce_button
+            buttons:
+              - h2
+              - h3
+              - bold
+              - italic
+              - unorderedlist
+              - orderedlist
+              - removeformat
+              - quote
+              - anchor
+              - image
+              - table
+              - h4
+              - h5
+              - h6
+              - underline
+            save_html: false
+            toolbar_mode: fixed
+            link_noopener: false
+            link_noreferrer: false
+            target_blank: false
+            reading_time: false
+            fullscreen: true
+            allow_source: true
+            enable_input_rules: true
+            enable_paste_rules: true
+            display: Content
+            type: bard
+            icon: bard
+            listable: hidden
+        -
+          handle: active
+          field:
+            display: Aktiv
+            type: toggle
+            icon: toggle
+            instructions: Geöffnet
+            listable: hidden
+      mode: stacked
+      reorderable: true
+      display: Items
+      type: grid
+      icon: grid
+      listable: hidden
