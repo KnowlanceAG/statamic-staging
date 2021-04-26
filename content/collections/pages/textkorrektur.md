@@ -52,7 +52,33 @@ replicator:
         content:
           -
             type: text
-            text: 'Die Textkorrektur ist ein wichtiger Bestandteil bei der Erstellung eines Textes und seiner Veröffentlichung. Textkorrektur ist per se ein nicht genau zu definierender Begriff. Manche Textkorrekturen beinhalten lediglich die Überprüfung eines einzuhaltenden Formates. Ein anderer Teilbereich der Textkorrektur ist das Korrekturlesen durch einen Korrektor.'
+            text: 'Die Textkorrektur ist ein wichtiger Bestandteil bei der Erstellung eines Textes und seiner Veröffentlichung. Textkorrektur ist per se ein nicht genau zu definierender Begriff. Manche Textkorrekturen beinhalten lediglich die Überprüfung eines einzuhaltenden Formates. Ein anderer Teilbereich der Textkorrektur ist das'
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/korrektorat/korrekturlesen/'
+                  target: null
+                  rel: null
+            text: ' Korrekturlesen'
+          -
+            type: text
+            text: ' durch einen '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/korrektorat/korrektor'
+                  target: null
+                  rel: null
+            text: Korrektor
+          -
+            type: text
+            text: .
       -
         type: heading
         attrs:
@@ -66,7 +92,33 @@ replicator:
         content:
           -
             type: text
-            text: 'Dies sind meist freiberuflich tätige Akademiker, die es sich zur Aufgabe gemacht haben, Texte ihrer Auftraggeber hinsichtlich Rechtschreibung, Grammatik und Interpunktion, also Zeichensetzung, zu prüfen. Dabei lesen sie den Text mit höchster Ruhe und Konzentration mehrere Male um möglichst alle Fehler zu entdecken. Ein Schullehrer macht in der Regel nichts anderes. Der Text eines Schülers wird auf Fehler in Rechtschreibung, Grammatik und Zeichensetzung überprüft und diese werden kenntlich gemacht. Aber schon hier fallen erste Qualitätsunterschiede auf. Es gibt Lehrer, da ist es extrem schwer Fehler zu finden, die der Lehrer übersehen hat und es gibt Lehrer, da ist es ein Leichtes im Text unentdeckte Fehler zu finden. Solch ein Lehrer wäre für eine Textkorrektur ungeeignet. Anders jedoch als ein Lehrer, der Fehler im Text nur kenntlich macht, wird beim Korrekturlesen von Texten vom Korrektor nach Verbesserungsmöglichkeiten gesucht. Er arbeitet also selbstständig bei der Korrektur. Textkorrektur kann aber auch ein Lektorat einschließen. Ein Lektor überprüft die Arbeit nicht nur auf Rechtschreibung, Grammatik und Interpunktion wie ein Korrektor, sondern auch auf sprachlichen Stil, adäquate Formulierungen, richtige Zitierweise, inhaltliche und wissenschaftliche Korrektheit, er überprüft den Aufbau und die Struktur des Textes und gibt Hinweise zur Methodik beim wissenschaftlichen Arbeiten und der Protokollierung dessen.'
+            text: 'Dies sind meist freiberuflich tätige Akademiker, die es sich zur Aufgabe gemacht haben, Texte ihrer Auftraggeber hinsichtlich Rechtschreibung, Grammatik und Interpunktion, also Zeichensetzung, zu prüfen. Dabei lesen sie den Text mit höchster Ruhe und Konzentration mehrere Male um möglichst alle Fehler zu entdecken. Ein Schullehrer macht in der Regel nichts anderes. Der Text eines Schülers wird auf Fehler in Rechtschreibung, Grammatik und Zeichensetzung überprüft und diese werden kenntlich gemacht. Aber schon hier fallen erste Qualitätsunterschiede auf. Es gibt Lehrer, da ist es extrem schwer Fehler zu finden, die der Lehrer übersehen hat und es gibt Lehrer, da ist es ein Leichtes im Text unentdeckte Fehler zu finden. Solch ein Lehrer wäre für eine Textkorrektur ungeeignet. Anders jedoch als ein Lehrer, der Fehler im Text nur kenntlich macht, wird beim Korrekturlesen von Texten vom Korrektor nach Verbesserungsmöglichkeiten gesucht. Er arbeitet also selbstständig bei der Korrektur. Textkorrektur kann aber auch ein '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/leistungen/lektorat'
+                  target: null
+                  rel: null
+            text: Lektorat
+          -
+            type: text
+            text: ' einschließen. Ein '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/lektorat/lektor'
+                  target: null
+                  rel: null
+            text: Lektor
+          -
+            type: text
+            text: ' überprüft die Arbeit nicht nur auf Rechtschreibung, Grammatik und Interpunktion wie ein Korrektor, sondern auch auf sprachlichen Stil, adäquate Formulierungen, richtige Zitierweise, inhaltliche und wissenschaftliche Korrektheit, er überprüft den Aufbau und die Struktur des Textes und gibt Hinweise zur Methodik beim wissenschaftlichen Arbeiten und der Protokollierung dessen.'
       -
         type: heading
         attrs:
@@ -159,5 +211,13 @@ replicator:
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619470236
+updated_at: 1619470916
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
