@@ -3,7 +3,9 @@ id: 8a46d375-fe18-42c5-ab50-a1682b5664de
 title: Abkürzungsverzeichnis
 teaser:
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 1
     content:
       -
         type: text
@@ -17,8 +19,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: 'rgb(255, 102, 2)'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
         text: Abkürzungsverzeichnis
   -
     type: paragraph
@@ -205,7 +207,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619527575
+updated_at: 1619527597
 academy_short_text-headline: Abkürzungsverzeichnis
 academy_short_text: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel für Ihre Arbeit.'
 use_meta_keywords: false
