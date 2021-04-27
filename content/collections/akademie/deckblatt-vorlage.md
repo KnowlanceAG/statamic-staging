@@ -1,5 +1,5 @@
 ---
-id: 7d93f793-b41f-44cc-95ae-73166558a05c
+id: e1eeb52b-af75-4803-a498-6678be9b695d
 title: 'Deckblatt Vorlage'
 teaser:
   -
@@ -44,7 +44,6 @@ teaser:
         spacing_top: false
   -
     type: paragraph
-teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 replicator:
   -
     bard:
@@ -157,19 +156,12 @@ replicator:
                 attrs:
                   align: center
             text: 'Einfach herunterladen und Deckblatt-Vorlage nutzen!'
-    show_as_card: false
     type: editor
     enabled: true
-downloads:
-  - akademie/Deckblatt.docx
+    show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619528119
-from_the_blog:
-  - 52b1f199-5d82-4ebe-bbb6-21df3afd97b9
-  - dabfe654-ec77-4680-89a4-94467547a605
-  - 12797e13-f9a3-427f-8c01-6e472545c086
-  - 14a0cd0f-a99b-4b6c-8f33-bda6ea547856
-academy_short_text-headline: 'Deckblatt Vorlage'
+updated_at: 1619529300
+academy_short_text-headline: Abkürzungsverzeichnis
 academy_short_text: 'Nutzen und individualisieren Sie bequem unsere Deckblatt Vorlage für Ihre eigene Abschlussarbeit anwenden.'
 use_meta_keywords: false
 no_index_page: false
@@ -179,10 +171,19 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-page_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
-meta_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
-meta_description: '➡️➡️➡️ Hier finden Sie die perfekte Deckblatt Vorlage für Ihre eigene Abschlussarbeit, die Sie selber für Ihre Arbeit individualisieren können ✍️.'
-template: default
 more_templates:
-  - 1b8783dd-1179-4eb1-a5a9-27304b468a8e
+  - b609ef85-dc84-4405-93d0-1b92d92ca1a4
+  - 8a46d375-fe18-42c5-ab50-a1682b5664de
+  - 68703917-9254-4107-82e0-0d844a79e81a
+from_the_blog:
+  - 52b1f199-5d82-4ebe-bbb6-21df3afd97b9
+  - dabfe654-ec77-4680-89a4-94467547a605
+  - 12797e13-f9a3-427f-8c01-6e472545c086
+  - 14a0cd0f-a99b-4b6c-8f33-bda6ea547856
+page_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
+meta_description: '➡️➡️➡️ Hier finden Sie die perfekte Deckblatt Vorlage für Ihre eigene Abschlussarbeit, die Sie selber für Ihre Arbeit individualisieren können ✍️.'
+teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
+meta_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
+downloads:
+  - akademie/Deckblatt.docx
 ---
