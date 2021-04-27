@@ -80,7 +80,20 @@ replicator:
         content:
           -
             type: text
-            text: "Angehende Akademiker und Doktoranden finden mit einer beispielhaften Abbildungsverzeichnis Vorlage schnell zum eigenen, passenden Schema. Das Arbeiten mit jenen praxisbezogenen Beispielen bringt eine korrekte\_Formatierung\_der Abschlussarbeit mit sich."
+            text: 'Angehende Akademiker und Doktoranden finden mit einer beispielhaften Abbildungsverzeichnis Vorlage schnell zum eigenen, passenden Schema. Das Arbeiten mit jenen praxisbezogenen Beispielen bringt eine korrekte'
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/leistungen/formatierung'
+                  target: null
+                  rel: null
+            text: "\_Formatierung\_"
+          -
+            type: text
+            text: 'der Abschlussarbeit mit sich.'
       -
         type: paragraph
         content:
@@ -98,7 +111,46 @@ replicator:
         content:
           -
             type: text
-            text: "Ein schnelles Auffinden der Abbildungen macht Ihre professionelle Aufarbeitung Ihrer wissenschaftlichen Arbeit deutlich und kommt jedem Gutachter gelegen, welcher Ihre\_Bachelorarbeit,\_Masterarbeit\_oder\_Doktorarbeit\_bewertet. Der inhaltliche Aufbau kann nur dann wissenschaftlich aufschlussreich sein, wenn Sie die Abbildungen passend ergänzt haben und übersichtlich in einem Verzeichnis wiedergeben."
+            text: "Ein schnelles Auffinden der Abbildungen macht Ihre professionelle Aufarbeitung Ihrer wissenschaftlichen Arbeit deutlich und kommt jedem Gutachter gelegen, welcher Ihre\_"
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                  target: null
+                  rel: null
+            text: Bachelorarbeit
+          -
+            type: text
+            text: ",\_"
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                  target: null
+                  rel: null
+            text: Masterarbeit
+          -
+            type: text
+            text: "\_oder\_"
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                  target: null
+                  rel: null
+            text: "Doktorarbeit\_"
+          -
+            type: text
+            text: 'bewertet. Der inhaltliche Aufbau kann nur dann wissenschaftlich aufschlussreich sein, wenn Sie die Abbildungen passend ergänzt haben und übersichtlich in einem Verzeichnis wiedergeben.'
       -
         type: paragraph
         content:
@@ -125,8 +177,8 @@ downloads:
   - akademie/Abbildungsverzeichnis.docx
 page_title: 'Kostenloses Abbildungsverzeichnis für Ihre Hausarbeit herunterladen'
 template: academy-item
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619508185
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619527055
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
