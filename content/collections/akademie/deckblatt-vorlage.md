@@ -33,6 +33,17 @@ teaser:
             attrs:
               align: center
         text: 'Unsere akademischen Ghostwriter unterstützen Sie mit individuellen Vorlagen, persönlichen Coachings oder unserem professionellen Ghostwriting-Service bei Ihrer Abschlussarbeit!'
+  -
+    type: set
+    attrs:
+      values:
+        type: button
+        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        color: '#FF6606'
+        spacing_top: false
+  -
+    type: paragraph
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 replicator:
   -
@@ -42,7 +53,46 @@ replicator:
         content:
           -
             type: text
-            text: 'Das Deckblatt einer Bachelorarbeit, Masterarbeit oder Doktorarbeit ist unerlässlich und gibt gleichzeitig den ersten Eindruck der wissenschaftlichen Arbeit ab. Auch wenn das Deckblatt lediglich relevante Eckdaten über den Wissenschaftsbereich der Arbeit, personenbezogene Daten des Autors und Angaben der Hochschule vermittelt, sollte ein solches Titelblatt genügend Aufmerksamkeit bekommen.'
+            text: 'Das Deckblatt einer '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                  target: null
+                  rel: null
+            text: Bachelorarbeit
+          -
+            type: text
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                  target: null
+                  rel: null
+            text: Masterarbeit
+          -
+            type: text
+            text: ' oder'
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                  target: null
+                  rel: null
+            text: ' Doktorarbeit '
+          -
+            type: text
+            text: 'ist unerlässlich und gibt gleichzeitig den ersten Eindruck der wissenschaftlichen Arbeit ab. Auch wenn das Deckblatt lediglich relevante Eckdaten über den Wissenschaftsbereich der Arbeit, personenbezogene Daten des Autors und Angaben der Hochschule vermittelt, sollte ein solches Titelblatt genügend Aufmerksamkeit bekommen.'
       -
         type: set
         attrs:
@@ -50,7 +100,7 @@ replicator:
             type: bilder
             assets:
               - akademie/Deckblatt-724x1024.jpg
-            has_border: false
+            has_border: true
       -
         type: paragraph
         content:
@@ -68,7 +118,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Da viele Hochschulen kein bestimmtes Layout des Deckblattes vorgeben, haben sich allgemeine Richtlinien etabliert. Die Darstellung sollte sachlich und fachspezifisch formatiert sein. Unsere Deckblatt Vorlage macht deutlich, welche Schriftarten geeignet sind und wie Sie die Formatierung bestens abhandeln.'
+            text: 'Da viele Hochschulen kein bestimmtes Layout des Deckblattes vorgeben, haben sich allgemeine Richtlinien etabliert. Die Darstellung sollte sachlich und fachspezifisch formatiert sein. Unsere Deckblatt Vorlage macht deutlich, welche Schriftarten geeignet sind und wie Sie die '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/leistungen/formatierung'
+                  target: null
+                  rel: null
+            text: Formatierung
+          -
+            type: text
+            text: ' bestens abhandeln.'
       -
         type: paragraph
         content:
@@ -99,8 +162,8 @@ replicator:
     enabled: true
 downloads:
   - akademie/Deckblatt.docx
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619522583
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619528119
 from_the_blog:
   - 52b1f199-5d82-4ebe-bbb6-21df3afd97b9
   - dabfe654-ec77-4680-89a4-94467547a605
