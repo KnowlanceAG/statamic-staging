@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Log;
 
 class AppServiceProvider extends ServiceProvider
 {
-    private static function blogUrls()
+    private static function urls($identifier)
     {
         // The URL of the listing.
-        $url = '/blog';
+        $url = "/{$identifier}";
 
         // The number of entries per page, according to your collection tag.
         $perPage = 10;
@@ -24,7 +24,7 @@ class AppServiceProvider extends ServiceProvider
         // The total number of entries in the collection.
         // Make sure to mimic whatever params/filters are on the collection tag.
         $total = Entry::query()
-            ->where('collection', 'blog')
+            ->where('collection', $identifier)
             ->where('status', 'published')
             ->count();
 
@@ -80,7 +80,7 @@ class AppServiceProvider extends ServiceProvider
     {
         $config = config('statamic.ssg');
         $config['base_url'] = config('cpssg.static_site_url');
-        $config['urls'] = array_merge($config['urls'], self::blogUrls());
+        $config['urls'] = array_merge($config['urls'], self::urls('blog'), self::urls('presse'));
         config(['statamic.ssg' => $config]);
         return $config;
     }
