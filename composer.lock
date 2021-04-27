@@ -693,10 +693,6 @@
                 "proprietary"
             ],
             "description": "Duplicate Entries in the Statamic 3 Control Panel",
-            "support": {
-                "issues": "https://github.com/doublethreedigital/duplicator/issues",
-                "source": "https://github.com/doublethreedigital/duplicator/tree/v1.3.1"
-            },
             "time": "2021-04-13T16:01:07+00:00"
         },
         {
@@ -3277,10 +3273,6 @@
                 "laravel",
                 "react"
             ],
-            "support": {
-                "issues": "https://github.com/rebing/graphql-laravel/issues",
-                "source": "https://github.com/rebing/graphql-laravel/tree/6.5.0"
-            },
             "time": "2021-04-03T19:55:47+00:00"
         },
         {
@@ -6141,9 +6133,6 @@
                 "instantiate",
                 "serialize"
             ],
-            "support": {
-                "source": "https://github.com/symfony/var-exporter/tree/v5.2.4"
-            },
             "funding": [
                 {
                     "url": "https://symfony.com/sponsor",
@@ -6916,10 +6905,6 @@
                 "statamic",
                 "tools"
             ],
-            "support": {
-                "issues": "https://github.com/WithCandour/statamic-aardvark-seo/issues",
-                "source": "https://github.com/WithCandour/statamic-aardvark-seo/tree/2.0.11"
-            },
             "time": "2021-04-11T13:53:02+00:00"
         }
     ],
