@@ -1,6 +1,6 @@
 ---
 id: e1eeb52b-af75-4803-a498-6678be9b695d
-title: 'Abkürzungsverzeichnis (Dupliziert)'
+title: 'Deckblatt Vorlage'
 teaser:
   -
     type: heading
@@ -160,7 +160,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619528541
+updated_at: 1619528665
 academy_short_text-headline: Abkürzungsverzeichnis
 academy_short_text: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel für Ihre Arbeit.'
 use_meta_keywords: false
