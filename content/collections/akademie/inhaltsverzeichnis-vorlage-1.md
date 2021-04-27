@@ -1,0 +1,179 @@
+---
+id: 92638305-5538-4e5c-9f2a-eaed57856af6
+title: 'Inhaltsverzeichnis Vorlage (Dupliziert)'
+teaser:
+  -
+    type: heading
+    attrs:
+      level: 1
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+        text: 'Inhaltsverzeichnis Vorlage'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Unsere akademischen Ghostwriter unterstützen Sie mit individuellen Vorlagen, persönlichen Coachings oder unserem professionellen Ghostwriting-Service bei Ihrer Abschlussarbeit!'
+  -
+    type: set
+    attrs:
+      values:
+        type: button
+        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        color: '#FF6606'
+        spacing_top: false
+  -
+    type: paragraph
+replicator:
+  -
+    bard:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Auch wenn der erste Eindruck des Lesers auf das Deckblatt zurückfällt, nehmen die Kritikpunkte oder positiven Aspekte erst beim Inhaltsverzeichnis gewisse Formen an. Dieser Bereich vermittelt weitere Details über die Qualität der wissenschaftlichen Arbeit und gewährt einen ersten Einblick in das analysierte Fachthema und die Struktur der Arbeit. Es ist quasi die Regel, mit Word erstellte Inhaltsverzeichnis stets automatisch zu aktualisieren und zu pflegen. Unsere Vorlagen basieren daher auf der automatischen Word Funktion und auch von unseren'
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/ghostwriter'
+                  target: null
+                  rel: null
+            text: ' Ghostwritern '
+          -
+            type: text
+            text: 'erstellte Mustervorlage, die sich Studenten beispielsweise für die '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                  target: null
+                  rel: null
+            text: 'Bachelorarbeit schreiben lassen'
+          -
+            type: text
+            text: ' und dann als Orientierungshilfe nutzen, beinhalten automatisch erstellte Inhaltsverzeichnisse.'
+      -
+        type: set
+        attrs:
+          values:
+            type: bilder
+            assets:
+              - akademie/Inhaltsverzeichnis-724x1024.jpg
+            has_border: true
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Besondere Sorgfalt sowie eine übersichtliche Gestaltung sind bei einem wissenschaftlichen Inhaltsverzeichnis essentiell. Dieses Verzeichnis hilft dem Leser und auch dem Prüfer, sich in der wissenschaftlichen Arbeit einfacher zurechtfinden zu können. Zudem gibt jene Gliederung die nachfolgende Struktur einer Abschlussarbeit vor.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Erst wenn der gesamte Schreibprozess der Abschlussarbeit abgeschlossen ist, findet auch das Inhaltsverzeichnis zu einem runden Abschluss. Eine Inhaltsverzeichnis Vorlage gibt Aufschluss darüber, welche Inhalte ein solches Inhaltsverzeichnis zusammenfasst und wie dieses aufgebaut ist. Dadurch bekommen Sie ein gutes Feingefühl dafür, was wichtig ist und welche Aspekte in das Inhaltsverzeichnis gehören.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Da eine wissenschaftliche Abschlussarbeit einen immensen zeitlichen Anspruch stellt, kann die Erstellung des Inhaltsverzeichnisses schnell in den Hintergrund geraten. Dies darf allerdings in keinem Fall passieren. Ein Inhaltsverzeichnis umfasst eine ganze Reihe '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/leistungen/formatierung'
+                  target: null
+                  rel: null
+            text: Formatierungen
+          -
+            type: text
+            text: ', die die Struktur der Arbeit darstellen und den Zusammenhang mit dem wissenschaftlichen Text verdeutlicht. Zudem können sich auf Grund der sogenannten Fachblindheit kleine Fehlerquellen einschleichen und auch dann hilft unsere Vorlage weiter.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Um eine ideale Struktur zu garantieren, können Sie unser kostenloses Inhaltsverzeichnis für Ihre Abschlussarbeit herunterladen, welches die Formatierungen zielgerichtet demonstriert.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Besonders bei der ersten akademischen Abschlussarbeit ist eine Vorlage ein nützliches Handwerksinstrument, denn die bestehenden Vorkenntnisse reichen nicht immer aus. Häufig ist es hilfreich, sich die Vorgaben für ein Inhaltsverzeichnis vor jeder wissenschaftlichen Arbeit noch einmal ins Gedächtnis zu rufen.'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+            text: 'Profitieren Sie von unserer kostenlosen Inhaltsverzeichnis-Vorlage!'
+    type: editor
+    enabled: true
+    show_as_card: false
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619533055
+academy_short_text-headline: Abkürzungsverzeichnis
+academy_short_text: 'Nutzen Sie unsere Inhaltsverzeichnis Vorlage mit automatischer Formatierung für Ihre Abschlussarbeit.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
+more_templates:
+  - b609ef85-dc84-4405-93d0-1b92d92ca1a4
+  - 8a46d375-fe18-42c5-ab50-a1682b5664de
+  - 68703917-9254-4107-82e0-0d844a79e81a
+from_the_blog:
+  - 3f184e1e-936d-431a-811d-566210ffea43
+  - 3518ca66-dfd0-4851-9d95-fbf2f44d8338
+  - 5d6cfb2d-6aa8-4623-afdc-35f50ee0380c
+  - 7eb6816b-733b-4eab-a1f7-7ef23f705edd
+  - 7da80f7c-3cf3-4c93-b61e-7b1ebe9eff5b
+page_title: 'Kostenloses Inhaltsverzeichnis für Ihre Hausarbeit herunterladen'
+meta_description: '?Jetzt können Sie mit unserer Inhaltsverzeichnis Vorlage? Ihr Inhaltsverzeichnis automatisch erstellen. Jetzt unsere Vorlage herunterladen ↘️↘️↘️'
+teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
+meta_title: 'Kostenloses Inhaltsverzeichnis für Ihre Hausarbeit herunterladen'
+downloads:
+  - akademie/Inhaltsverzeichnis.docx
+---
