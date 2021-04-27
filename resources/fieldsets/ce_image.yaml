@@ -38,3 +38,10 @@ fields:
       listable: hidden
       max_items: 1
       instructions: 'Standart Ausrichtung ist mittig. Für andere Ausrichtung bitte wählen.'
+  -
+    handle: has_border
+    field:
+      display: Border
+      type: toggle
+      icon: toggle
+      listable: hidden

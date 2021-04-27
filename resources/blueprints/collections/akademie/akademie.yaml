@@ -119,22 +119,6 @@ sections:
           type: text
           icon: text
           listable: hidden
-      -
-        handle: parent
-        field:
-          mode: default
-          display: Partent
-          type: entries
-          icon: entries
-          listable: hidden
-      -
-        handle: template
-        field:
-          hide_partials: true
-          display: Template
-          type: template
-          icon: template
-          listable: hidden
   kurz_text:
     display: 'Kurz Text'
     fields:

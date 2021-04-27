@@ -3,8 +3,8 @@ id: 7aff708e-5d48-409e-9242-fd82c155f5ee
 title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619342352
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619453796
 replicator:
   -
     columns-replicator:
@@ -74,10 +74,14 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_richten sich nach unseren Erfahrungswerten mit den akademischen Ghostwritern, Lektoren & Coaches. Grundsätzlich sind die angegebenen Faktoren maßgeblich für die Einschätzung des Aufwandes für den akademischen Experten, unsere Supervisor und Projektbetreuer. Je nach Ihren individuellen Anforderungen kann der endgültige Preis bis zu 20% unter oder über dem des Preis-Rechners liegen."
-              -
-                type: paragraph
-                content:
+                    text: "\_richten sich nach unseren Erfahrungswerten mit den akademischen Ghostwritern, Lektoren & Coaches. Grundsätzlich sind die angegebenen Faktoren maßgeblich für die Einschätzung des Aufwandes für den akademischen Experten, unsere Supervisor und Projektbetreuer. Je nach Ihren individuellen Anforderungen kann der endgültige Preis bis zu 20% unter oder über dem des Preis-Rechners liegen. "
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                   -
                     type: text
                     marks:
@@ -241,9 +245,8 @@ replicator:
                           -
                             type: text
                             text: "\_sammeln. Deshalb sind wir uns bewusst, dass sowohl die Seriosität einer Ghostwriting Agentur als auch durchgängige Transparenz im Hinblick auf den Ghostwriting Service und die Preise für viele Kunden im Mittelpunkt stehen."
-                      -
-                        type: paragraph
-                        content:
+                          -
+                            type: hard_break
                           -
                             type: text
                             text: "Wenn Sie sich bei GWriters eine Mustervorlage für Ihre Hausarbeit, Seminararbeit, Bachelorarbeit oder\_"
@@ -302,6 +305,15 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    img_size: w-1/4
+                    float: float-left
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 4
@@ -349,6 +361,8 @@ replicator:
             show_as_card: false
           -
             bard:
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -630,12 +644,37 @@ replicator:
                           -
                             type: text
                             text: 'Neben unseren hohen Qualitätsstandards nehmen aber selbstverständlich auch der verfügbare Bearbeitungszeitraum und insbesondere Ihr Fachbereich einen maßgeblichen Einfluss auf die Preise für das Ghostwriting Ihrer wissenschaftlichen Arbeit. Denn aus unserer jahrelangen Erfahrung wissen wir, dass jede wissenschaftliche Arbeit einen individuellen Anspruch hat.'
-                      -
-                        type: paragraph
-                        content:
+                          -
+                            type: hard_break
                           -
                             type: text
-                            text: "Ob Sie nun beispielsweise Ihre erste juristische Hausarbeit schreiben und dafür eine Lösungsskizze von einem erfahrenen Jura-Ghostwriter benötigen oder ob Sie sich eine Mustervorlage für Ihre\_finanzwissenschaftliche Masterarbeit schreiben lassen, die Kosten und Preise für Ihren Ghostwriter sind in jedem Fall genau so individuell wie Ihre Anforderungen. Aus diesem Grund legen wir eine hohe Priorität auf die Expertise unserer Kundenberater, damit sowohl ein Kunde mit einer kurzen\_sozialwissenschaftlichen Literaturarbeit, als auch ein Kunde mit einer ingenieurwissenschaftlichen Masterarbeit, ausführlichen Berechnungen und technischen Zeichnungen immer einen fairen Preis erhalten – individuell auf Ihr Projekt zugeschnitten!"
+                            text: "Ob Sie nun beispielsweise Ihre erste juristische Hausarbeit schreiben und dafür eine Lösungsskizze von einem erfahrenen Jura-Ghostwriter benötigen oder ob Sie sich eine Mustervorlage für Ihre\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/fachrichtungen/finanzwissenschaften'
+                                  target: null
+                                  rel: null
+                            text: 'finanzwissenschaftliche Masterarbeit schreiben lassen'
+                          -
+                            type: text
+                            text: ", die Kosten und Preise für Ihren Ghostwriter sind in jedem Fall genau so individuell wie Ihre Anforderungen. Aus diesem Grund legen wir eine hohe Priorität auf die Expertise unserer Kundenberater, damit sowohl ein Kunde mit einer kurzen\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/fachrichtungen/soziologie'
+                                  target: null
+                                  rel: null
+                            text: 'sozialwissenschaftlichen Literaturarbeit'
+                          -
+                            type: text
+                            text: ', als auch ein Kunde mit einer ingenieurwissenschaftlichen Masterarbeit, ausführlichen Berechnungen und technischen Zeichnungen immer einen fairen Preis erhalten – individuell auf Ihr Projekt zugeschnitten!'
                     text_ausrichtung: text-left
               -
                 type: paragraph
@@ -663,6 +702,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für alle anderen Fachbereiche beginnen ab\_"
                   -
                     type: text
@@ -677,6 +717,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: '80,- € pro Normseite'
               -
                 type: set
@@ -685,7 +726,8 @@ replicator:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    spacing_top: false
+                    spacing_top: true
+                    button_align: justify-start
               -
                 type: paragraph
             show_as_card: true
@@ -705,6 +747,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: 'Benötigen Sie eine statistische Auswertung, technische Zeichnung oder haben Sie sonstige besondere Anforderungen?'
               -
                 type: set
@@ -713,7 +756,8 @@ replicator:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT BERATEN LASSEN'
-                    spacing_top: false
+                    spacing_top: true
+                    button_align: justify-start
               -
                 type: paragraph
             show_as_card: true
@@ -765,10 +809,22 @@ replicator:
                         content:
                           -
                             type: text
-                            text: "Vielen Kunden genügen allgemeine Preisangaben nicht, dies haben wir aus Erfahrung gelernt. Stattdessen möchten Sie konkrete Antworten auf brennende Fragen wie: “Wie teuer ist eine Masterarbeit?” oder “Für wie viel Geld kann ich eine\_Seminararbeit kaufen?” haben. Aus diesem Grund haben wir gemeinsam mit unseren akademischen Ghostwritern Preise für einige fiktive Beispielprojekte festgelegt, die Ihnen einen besseren Überblick über unsere Preisstruktur bei der Suche nach dem für Sie besten Angebot geben sollen."
-                      -
-                        type: paragraph
-                        content:
+                            text: "Vielen Kunden genügen allgemeine Preisangaben nicht, dies haben wir aus Erfahrung gelernt. Stattdessen möchten Sie konkrete Antworten auf brennende Fragen wie: “Wie teuer ist eine Masterarbeit?” oder “Für wie viel Geld kann ich eine\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
+                                  target: null
+                                  rel: null
+                            text: 'Seminararbeit kaufen'
+                          -
+                            type: text
+                            text: '?” haben. Aus diesem Grund haben wir gemeinsam mit unseren akademischen Ghostwritern Preise für einige fiktive Beispielprojekte festgelegt, die Ihnen einen besseren Überblick über unsere Preisstruktur bei der Suche nach dem für Sie besten Angebot geben sollen.'
+                          -
+                            type: hard_break
                           -
                             type: text
                             marks:
@@ -827,6 +883,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Fachbereich
                                   -
                                     type: table_cell
@@ -852,6 +909,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: BWL
                               -
                                 type: table_row
@@ -880,6 +938,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Umfang
                                   -
                                     type: table_cell
@@ -905,6 +964,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: '10 Seiten'
                               -
                                 type: table_row
@@ -933,6 +993,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'Zusätzliche Faktoren'
                                   -
                                     type: table_cell
@@ -958,6 +1019,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: '-'
                               -
                                 type: table_row
@@ -986,6 +1048,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'Literatur vorhanden'
                                   -
                                     type: table_cell
@@ -1011,6 +1074,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Ja
                               -
                                 type: table_row
@@ -1039,6 +1103,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Preis
                                   -
                                     type: table_cell
@@ -1064,6 +1129,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'ab 80,- € pro Normseite'
                           -
                             type: set
@@ -1110,6 +1176,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Fachbereich
                                   -
                                     type: table_cell
@@ -1135,6 +1202,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Sozialwissenschaften
                               -
                                 type: table_row
@@ -1163,6 +1231,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Umfang
                                   -
                                     type: table_cell
@@ -1188,6 +1257,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: '40 Seiten'
                               -
                                 type: table_row
@@ -1216,6 +1286,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'Zusätzliche Faktoren'
                                   -
                                     type: table_cell
@@ -1241,6 +1312,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'Empirie / stat. Auswertung'
                               -
                                 type: table_row
@@ -1269,6 +1341,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'Literatur vorhanden'
                                   -
                                     type: table_cell
@@ -1294,6 +1367,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Nein
                               -
                                 type: table_row
@@ -1322,6 +1396,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Preis
                                   -
                                     type: table_cell
@@ -1347,6 +1422,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'ab 80,- € pro Normseite'
                           -
                             type: set
@@ -1393,6 +1469,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Fachbereich
                                   -
                                     type: table_cell
@@ -1418,6 +1495,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Psychologie
                               -
                                 type: table_row
@@ -1446,6 +1524,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Umfang
                                   -
                                     type: table_cell
@@ -1471,6 +1550,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: '60 Seiten'
                               -
                                 type: table_row
@@ -1499,6 +1579,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'Zusätzliche Faktoren'
                                   -
                                     type: table_cell
@@ -1524,6 +1605,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'Empirie / stat. Auswertung; Präsentation für Kolloqium'
                               -
                                 type: table_row
@@ -1552,6 +1634,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'Literatur vorhanden'
                                   -
                                     type: table_cell
@@ -1577,6 +1660,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Nein
                               -
                                 type: table_row
@@ -1605,6 +1689,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: Preis
                                   -
                                     type: table_cell
@@ -1630,6 +1715,7 @@ replicator:
                                                 type: textColor
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
+                                                  hex: '#000'
                                             text: 'ab 80,- € pro Normseite'
                           -
                             type: set
@@ -1669,9 +1755,8 @@ replicator:
                   -
                     type: text
                     text: 'Im Hinblick auf unsere Qualitätsstandards, die Qualität Ihrer Arbeit und somit auch im Hinblick auf Ihren Erfolg machen wir keine Kompromisse. Sowohl Ihre Hausarbeit oder Seminararbeit, als auch Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit werden von akademischen Experten mit umfassender Erfahrung in Ihrem Fachbereich verfasst. Hobbyschreiber findet man bei uns nicht, denn die Qualifikation unserer akademischen Ghostwriter wird von uns strengstens geprüft.'
-              -
-                type: paragraph
-                content:
+                  -
+                    type: hard_break
                   -
                     type: text
                     text: 'So können wir sicherstellen, dass Sie auch mit Sicherheit die Qualität erhalten, die Sie verdienen. Zudem haben Sie bei uns absolute Preissicherheit. Das heißt, dass die Kosten für eine faire Entlohung unserer akademischen Experten mit langjähriger Erfahrung vollständig in unseren Preisen enthalten ist. Sollten Sie nicht selbst eine Änderung des Auftragsumfangs wünschen, erwarten Sie keine weiteren Kosten für unseren Ghostwriting-Service. Das versprechen wir Ihnen!'
@@ -1696,10 +1781,22 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Die Preise für einen Ghostwriter im akademischen Bereich variieren stark. Als Kunde sollte man sich allerdings darüber im Klaren sein, dass die Kosten für einen Ghostwriter mit entsprechenden Qualifikationen höher sind als für einen Ghostwriter, welcher nicht einmal einen akademischen Abschluss hat. Gerade bei geringen Preisen von Ghostwriting-Agenturen stellt sich so die Frage, ob man eine Mustervorlage für die eigene von jemandem\_Doktorarbeit schreiben lassen\_möchte, der selbst noch nicht einmal eine Dissertation verfasst hat. Daher werden bei GWriters für jedes Projekt\_ausschließlich Ghostwriter mit mindestens dem gleichen akademischen Abschluss eingesetzt."
-              -
-                type: paragraph
-                content:
+                    text: 'Die Preise für einen Ghostwriter im akademischen Bereich variieren stark. Als Kunde sollte man sich allerdings darüber im Klaren sein, dass die Kosten für einen Ghostwriter mit entsprechenden Qualifikationen höher sind als für einen Ghostwriter, welcher nicht einmal einen akademischen Abschluss hat. Gerade bei geringen Preisen von Ghostwriting-Agenturen stellt sich so die Frage, ob man eine Mustervorlage für die eigene von jemandem'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                          target: null
+                          rel: null
+                    text: "\_Doktorarbeit schreiben lassen\_"
+                  -
+                    type: text
+                    text: "möchte, der selbst noch nicht einmal eine Dissertation verfasst hat. Daher werden bei GWriters für jedes Projekt\_ausschließlich Ghostwriter mit mindestens dem gleichen akademischen Abschluss eingesetzt."
+                  -
+                    type: hard_break
                   -
                     type: text
                     text: 'Wenn es Ihnen besonders wichtig ist, einen Ghostwriter zu engagieren der bereits promoviert hat oder sogar eine Professur innehat, sollte man sich also darauf einstellen, dass die Preise für ein solches Ghostwriting höher liegen, als wenn Sie eine Billig-Agentur engagieren, die solch einen hochklassigen Service nicht garnieren kann.'
@@ -1716,13 +1813,51 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Qualität hat auch beim Ghostwriting ihren Preis. Die Preise für einen erfolgreichen Ghostwriter setzen sich aus verschiedenen Faktoren zusammen. Zum Ersten gehört dazu die Fachdisziplin und das Thema über welches die Arbeit verfasst werden soll. Hier greifen die typischen Gesetze des Marktes von Angebot und Nachfrage. Starke Spezialisierungen einer Fachdisziplin, wie sie eine Dissertation erfordern, stellen natürlich andere Anforderungen an den Ghostwriter als das Verfassen einer\_Hausarbeit\_im ersten Semester. Daher sind die Preise eines solchen Ghostwritings natürlich höher. Des weiteren spielt natürlich der Umfang einer solchen Arbeit auch eine entscheidenden Rolle. Hier geht es um den Zeitaufwand den ein Ghostwriter betreiben muss um die Arbeit zu verfassen. Daher ermessen Ghostwriting-Agenturen den Preis häufig pro Seite."
-              -
-                type: paragraph
-                content:
+                    text: 'Qualität hat auch beim Ghostwriting ihren Preis. Die Preise für einen erfolgreichen Ghostwriter setzen sich aus verschiedenen Faktoren zusammen. Zum Ersten gehört dazu die Fachdisziplin und das Thema über welches die Arbeit verfasst werden soll. Hier greifen die typischen Gesetze des Marktes von Angebot und Nachfrage. Starke Spezialisierungen einer Fachdisziplin, wie sie eine Dissertation erfordern, stellen natürlich andere Anforderungen an den Ghostwriter als das Verfassen einer'
                   -
                     type: text
-                    text: "Seriöse Agenturen erkennt man daran, dass diese einen Kostenvoranschlag unterbreiten (übrigens auch für\_Korrektorat\_und\_Lektorat), der als Festpreis deklariert wird, also nicht überschritten wird, ganz egal wie viel Mehrarbeit noch über den geschätzten Aufwand entsteht. Gute Agenturen sind sich der eigenen Qualität nämlich sehr wohl bewusst und können sich auf ihr Team von akademischen Ghostwritern verlassen."
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: "\_Hausarbeit\_"
+                  -
+                    type: text
+                    text: 'im ersten Semester. Daher sind die Preise eines solchen Ghostwritings natürlich höher. Des weiteren spielt natürlich der Umfang einer solchen Arbeit auch eine entscheidenden Rolle. Hier geht es um den Zeitaufwand den ein Ghostwriter betreiben muss um die Arbeit zu verfassen. Daher ermessen Ghostwriting-Agenturen den Preis häufig pro Seite.'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: "Seriöse Agenturen erkennt man daran, dass diese einen Kostenvoranschlag unterbreiten (übrigens auch für\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/korrektorat'
+                          target: null
+                          rel: null
+                    text: "Korrektorat\_"
+                  -
+                    type: text
+                    text: "und\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/lektorat'
+                          target: null
+                          rel: null
+                    text: Lektorat
+                  -
+                    type: text
+                    text: '), der als Festpreis deklariert wird, also nicht überschritten wird, ganz egal wie viel Mehrarbeit noch über den geschätzten Aufwand entsteht. Gute Agenturen sind sich der eigenen Qualität nämlich sehr wohl bewusst und können sich auf ihr Team von akademischen Ghostwritern verlassen.'
               -
                 type: heading
                 attrs:
@@ -1764,7 +1899,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Die durchschnittlichen Kosten, wenn Sie sich eine Mustervorlage für Ihre\_Hausarbeit schreiben lassen, liegen bei €800 – €1600. Natürlich variieren die Ghostwriter Preise hier aber auch stark abhängig von der geforderten Seitenanzahl, dem Thema, dem Fachbereich und dem zur Verfügung stehenden Bearbeitungszeitraum. In jedem Fall werden wir jedoch versuchen, eine für Sie möglichst kostengünstige und zugleich hochqualitative Lösung zu finden."
+                    text: "Die durchschnittlichen Kosten, wenn Sie sich eine Mustervorlage für Ihre\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: 'Hausarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: ', liegen bei €800 – €1600. Natürlich variieren die Ghostwriter Preise hier aber auch stark abhängig von der geforderten Seitenanzahl, dem Thema, dem Fachbereich und dem zur Verfügung stehenden Bearbeitungszeitraum. In jedem Fall werden wir jedoch versuchen, eine für Sie möglichst kostengünstige und zugleich hochqualitative Lösung zu finden.'
               -
                 type: heading
                 attrs:
@@ -1802,4 +1950,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+page_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓'
+meta_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓'
+meta_description: 'Berechnen Sie die Ghostwriter Preise mit unserem Preisrechner. Jetzt Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen - zu fairen Preisen!'
 ---

@@ -1,4 +1,5 @@
 ---
+id: 8a46d375-fe18-42c5-ab50-a1682b5664de
 title: Abkürzungsverzeichnis
 teaser:
   -
@@ -17,6 +18,7 @@ teaser:
             type: textColor
             attrs:
               color: 'rgb(255, 102, 2)'
+              hex: '#000'
         text: Abkürzungsverzeichnis
   -
     type: paragraph
@@ -34,6 +36,7 @@ teaser:
             type: textColor
             attrs:
               color: 'rgb(68, 68, 68)'
+              hex: '#000'
         text: 'Unsere akademischen Ghostwriter unterstützen Sie mit individuellen Vorlagen, persönlichen Coachings oder unserem professionellen Ghostwriting-Service bei Ihrer Abschlussarbeit!'
   -
     type: set
@@ -42,6 +45,8 @@ teaser:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        color: '#FF6606'
+        spacing_top: false
   -
     type: paragraph
 replicator:
@@ -187,10 +192,9 @@ replicator:
             text: 'Unsere kostenlose Vorlage hilft Ihnen weiter'
     type: editor
     enabled: true
-downloads:
-  - /assets/downloads/akademie/Abkuerzungsverzeichnis.docx
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615810577
+    show_as_card: false
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619482011
 academy_short_text-headline: Abkürzungsverzeichnis
 academy_short_text: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel für Ihre Arbeit.'
 use_meta_keywords: false
@@ -210,5 +214,6 @@ from_the_blog:
   - 3d67c472-fd10-4be3-8c4b-5021ca58ea0d
   - 7bd4dfae-d5e8-426b-b5df-700427a364da
   - 587801ba-7a2e-4de6-8fbe-c37acd2d625f
-id: 8a46d375-fe18-42c5-ab50-a1682b5664de
+page_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
+meta_description: '➡️➡️➡️ Hier finden Sie die perfekte Deckblatt Vorlage für Ihre eigene Abschlussarbeit, die Sie selber für Ihre Arbeit individualisieren können ✍️.'
 ---

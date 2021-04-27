@@ -1,9 +1,10 @@
 ---
+id: 68703917-9254-4107-82e0-0d844a79e81a
 title: 'Akademisches Ghostwriting'
 academy_teaser_headline: 'Akademisches Ghostwriting von GWriters'
 academy_teaser_text: 'Finden Sie in dieser Kategorie alles zum akademischen Ghostwriting, angefangen von unseren internen Prozessen, die Ihnen einen reibungslosen Auftragsablauf und jederzeit höchste Qualität Ihrer wissenschaftlichen Arbeit garantiert, bis hin zu interessanten und wissenswerten Informationen über unsere akademischen Ghostwriter und Ghostwriting Erfahrungen.'
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615214178
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619484985
 teaser:
   -
     type: heading
@@ -22,7 +23,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: 'rgb(255, 102, 2)'
+              color: orange-500
+              hex: '#ff6606'
         text: 'Akademisches Ghostwriting'
   -
     type: paragraph
@@ -40,6 +42,7 @@ teaser:
             type: textColor
             attrs:
               color: 'rgb(68, 68, 68)'
+              hex: '#000'
         text: 'Finden Sie hier alle wichtigen Informationen im Überblick. Benötigen Sie weitere Unterstützung von einem professionellen akademischen Ghostwriter, Lektor oder Coach? Schicken Sie uns jetzt eine Anfrage!'
 teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 use_meta_keywords: false
@@ -183,5 +186,5 @@ replicator:
         type: paragraph
     type: editor
     enabled: true
-id: 68703917-9254-4107-82e0-0d844a79e81a
+    show_as_card: false
 ---
