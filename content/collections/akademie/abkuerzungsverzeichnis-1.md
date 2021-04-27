@@ -11,8 +11,6 @@ teaser:
         type: text
         marks:
           -
-            type: bold
-          -
             type: textAlign
             attrs:
               align: center
@@ -21,7 +19,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: Abkürzungsverzeichnis
+        text: 'Deckblatt Vorlage'
   -
     type: paragraph
     content:
@@ -34,11 +32,6 @@ teaser:
             type: textAlign
             attrs:
               align: center
-          -
-            type: textColor
-            attrs:
-              color: 'rgb(68, 68, 68)'
-              hex: '#000'
         text: 'Unsere akademischen Ghostwriter unterstützen Sie mit individuellen Vorlagen, persönlichen Coachings oder unserem professionellen Ghostwriting-Service bei Ihrer Abschlussarbeit!'
   -
     type: set
@@ -59,132 +52,97 @@ replicator:
         content:
           -
             type: text
+            text: 'Das Deckblatt einer '
+          -
+            type: text
             marks:
               -
-                type: textAlign
+                type: link
                 attrs:
-                  align: start
+                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                  target: null
+                  rel: null
+            text: Bachelorarbeit
+          -
+            type: text
+            text: ', '
+          -
+            type: text
+            marks:
               -
-                type: textColor
+                type: link
                 attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: 'Wiederholende Begriffe dürfen in wissenschaftlichen Arbeiten grundsätzlich auch als Abkürzungen geschrieben werden, sofern dennoch die fachgerechten Normen gegeben sind. Demnach sind allein die Abkürzungen der Fachtermini sowie die allgemein gültigen Abkürzungen im Duden angemessen.'
+                  href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                  target: null
+                  rel: null
+            text: Masterarbeit
+          -
+            type: text
+            text: ' oder'
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                  target: null
+                  rel: null
+            text: ' Doktorarbeit '
+          -
+            type: text
+            text: 'ist unerlässlich und gibt gleichzeitig den ersten Eindruck der wissenschaftlichen Arbeit ab. Auch wenn das Deckblatt lediglich relevante Eckdaten über den Wissenschaftsbereich der Arbeit, personenbezogene Daten des Autors und Angaben der Hochschule vermittelt, sollte ein solches Titelblatt genügend Aufmerksamkeit bekommen.'
       -
         type: set
         attrs:
           values:
             type: bilder
             assets:
-              - akademie/2019-09-18-Abkuerzungsverzeichnis.jpeg
+              - akademie/Deckblatt-724x1024.jpg
             has_border: true
       -
         type: paragraph
         content:
           -
             type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: 'Damit Ihre wissenschaftliche Abschlussarbeit nicht aufgrund von Abkürzungen missverstanden wird und Ihre Aufarbeitung den vorgegebenen Richtlinien nachkommt, beinhalten Abschlussarbeiten häufig ein Abkürzungsverzeichnis.'
+            text: 'Wichtig vor der Erstellung ist es, erst einmal die Wichtigkeit einer Titelseite für die wissenschaftliche Arbeit bewusst wahrzunehmen. Das Deckblatt ist das erste, was jeder von Ihrer Arbeit wahrnimmt und bestimmt maßgeblich den ersten Eindruck. Eine aufschlussreiche Deckblatt Vorlage erklärt sich zudem selbst und stellt für Sie eine sehr gute Informationsquelle dar.'
       -
         type: paragraph
         content:
           -
             type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: "Wie Sie ein ansprechendes Abkürzungsverzeichnis für eine akademische Abschlussarbeit erstellen, erklärt im Detail die von unseren akademischen\_"
+            text: 'Auf dem Deckblatt sollten keine der zentralen Informationen fehlen. Wer sich an unserer Word-Deckblatt-Vorlage orientiert, muss sich keine Sorgen machen, wichtige Angaben zu vergessen. Die übersichtliche Darstellungen unserer Musterbeispiele lassen sich effektiv für die eigene Abschlussarbeit anwenden.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Da viele Hochschulen kein bestimmtes Layout des Deckblattes vorgeben, haben sich allgemeine Richtlinien etabliert. Die Darstellung sollte sachlich und fachspezifisch formatiert sein. Unsere Deckblatt Vorlage macht deutlich, welche Schriftarten geeignet sind und wie Sie die '
           -
             type: text
             marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 102, 2)'
-                  hex: '#000'
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: 'https://gwriters.de/leistungen/formatierung'
                   target: null
                   rel: null
-            text: Ghostwritern
+            text: Formatierung
           -
             type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-            text: "\_angefertigte Vorlage. Es steht außer Frage, dass auch dieses Verzeichnis keine Willkür von Abkürzungen gewährt.\_Somit sollte gesagt sein, dass der Inhalt des Verzeichnisses zum Beispiel keine Standards (Zum Beispiel: Bzw.) beinhaltet und lediglich zum Beispiel Abkürzungen der Fachbegriffe, Institutionen oder Gesetze im Verzeichnis stehen."
+            text: ' bestens abhandeln.'
       -
         type: paragraph
         content:
           -
             type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: 'Zudem schließt ein Abkürzungsverzeichnis sowohl die Abkürzungen in der Fußnote und im Anhang einer wissenschaftlichen Arbeit mit ein. Ein Abkürzungsverzeichnis ist mit dem gesamten Inhalt der Abschlussarbeit verknüpft und benötigt eine akkurate Handhabung.'
+            text: 'Ein Titelblatt sollte immer das Thema und den Fachbereich wiedergeben und sich daran orientieren. Kreativität und einfallsreiche Ideen sind dabei nicht verlangt oder erwünscht. Schließlich geht es um die wissenschaftliche Kernaussage und das Deckblatt gibt vorab wichtige Infos weiter und macht publik, welcher Autor zur Wissenschaft beigetragen hat.'
       -
         type: paragraph
         content:
           -
             type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: 'Nach welcher Methode Sie die Abkürzungen einer wissenschaftlichen Arbeit aufarbeiten sollten, erklärt unsere Vorlage systematisch, bildlich und auf den Punkt gebracht. Der Weg von der Theorie in die Praxis fällt dadurch wesentlich leichter.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: 'Wussten Sie eigentlich, dass Sie prinzipiell Ihre eigenen Abkürzungen einbringen dürfen? Diese Aussage ist allerdings nur teilweise korrekt. In der Regel sind nur nachweisliche Abkürzungen angebracht, außer die wissenschaftlichen Arbeit legt eine neue Erfindung wissenschaftlich dar. Mehr dazu erfahren alle Interessierten, die sich mit unserer kostenfreien Abkürzungsverzeichnis Vorlage befassen.'
+            text: 'Unsere Vorlagen lassen Sie hochwertige und fachgerechte Titelseiten für den eigenen Fachbereich erstellen. Prinzipiell kann ein Deckblatt durchaus auch als Aushängeschild einer wissenschaftlichen Arbeit verstanden werden, wodurch die Tragfähigkeit noch einmal deutlich zum Ausdruck kommt.'
       -
         type: heading
         attrs:
@@ -197,17 +155,12 @@ replicator:
                 type: textAlign
                 attrs:
                   align: center
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: 'Unsere kostenlose Vorlage hilft Ihnen weiter'
+            text: 'Einfach herunterladen und Deckblatt-Vorlage nutzen!'
     type: editor
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619527597
+updated_at: 1619528541
 academy_short_text-headline: Abkürzungsverzeichnis
 academy_short_text: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel für Ihre Arbeit.'
 use_meta_keywords: false
@@ -223,12 +176,14 @@ more_templates:
   - 8a46d375-fe18-42c5-ab50-a1682b5664de
   - 68703917-9254-4107-82e0-0d844a79e81a
 from_the_blog:
-  - 63097538-fe23-43a6-9cb0-17d540704877
-  - 2187d783-d7f5-4b20-bec8-1674cd72c32f
-  - 774827ee-5840-450d-aca6-d60187adc46b
-  - 8d0d751b-54ea-4b94-a1b7-9fe5c7850427
+  - 52b1f199-5d82-4ebe-bbb6-21df3afd97b9
+  - dabfe654-ec77-4680-89a4-94467547a605
+  - 12797e13-f9a3-427f-8c01-6e472545c086
+  - 14a0cd0f-a99b-4b6c-8f33-bda6ea547856
 page_title: 'Kostenloses Abkürzungsverzeichnis für Ihre Hausarbeit herunterladen'
 meta_description: '? Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel. Unsere professionelle Verzeichnisvorlage, nur einen Klick entfernt! ↘️↘️↘️'
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 meta_title: 'Kostenloses Abkürzungsverzeichnis für Ihre Hausarbeit herunterladen'
+downloads:
+  - akademie/Deckblatt.docx
 ---
