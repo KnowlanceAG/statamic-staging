@@ -205,7 +205,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619527518
+updated_at: 1619527575
 academy_short_text-headline: Abkürzungsverzeichnis
 academy_short_text: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel für Ihre Arbeit.'
 use_meta_keywords: false
@@ -225,7 +225,8 @@ from_the_blog:
   - 2187d783-d7f5-4b20-bec8-1674cd72c32f
   - 774827ee-5840-450d-aca6-d60187adc46b
   - 8d0d751b-54ea-4b94-a1b7-9fe5c7850427
-page_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
-meta_description: '➡️➡️➡️ Hier finden Sie die perfekte Deckblatt Vorlage für Ihre eigene Abschlussarbeit, die Sie selber für Ihre Arbeit individualisieren können ✍️.'
+page_title: 'Kostenloses Abkürzungsverzeichnis für Ihre Hausarbeit herunterladen'
+meta_description: '? Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel. Unsere professionelle Verzeichnisvorlage, nur einen Klick entfernt! ↘️↘️↘️'
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
+meta_title: 'Kostenloses Abkürzungsverzeichnis für Ihre Hausarbeit herunterladen'
 ---
