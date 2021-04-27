@@ -1,4 +1,5 @@
 ---
+id: b609ef85-dc84-4405-93d0-1b92d92ca1a4
 title: Abbildungsverzeichnis
 teaser:
   -
@@ -19,6 +20,7 @@ teaser:
             type: textColor
             attrs:
               color: 'rgb(255, 102, 2)'
+              hex: '#000'
         text: Abbildungsverzeichnis
   -
     type: paragraph
@@ -36,6 +38,7 @@ teaser:
             type: textColor
             attrs:
               color: 'rgb(68, 68, 68)'
+              hex: '#000'
         text: 'Unsere akademischen Ghostwriter unterstützen Sie mit individuellen Vorlagen, persönlichen Coachings oder unserem professionellen Ghostwriting-Service bei Ihrer Abschlussarbeit!'
   -
     type: set
@@ -45,6 +48,7 @@ teaser:
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
+        spacing_top: false
   -
     type: paragraph
 teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
@@ -64,6 +68,7 @@ replicator:
             type: bilder
             assets:
               - seiten/gwriters-akademie/2019-09-18-Abbildungsverzeichnis.jpg
+            has_border: true
       -
         type: paragraph
         content:
@@ -115,12 +120,13 @@ replicator:
             text: 'Kostenlos herunterladen und gleich einsetzen!'
     type: editor
     enabled: true
+    show_as_card: false
 downloads:
-  - /assets/downloads/akademie/Abbildungsverzeichnis.docx
+  - akademie/Abbildungsverzeichnis.docx
 page_title: 'Kostenloses Abbildungsverzeichnis für Ihre Hausarbeit herunterladen'
 template: academy-item
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615214418
+updated_at: 1619508185
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -131,5 +137,16 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 academy_short_text-headline: Abbildungsverzeichnis
 academy_short_text: 'Erstellen Sie mit unserem Abbildungsverzeichnis-Beispiel schnell Ihr individuelles Abbildungsverzeichnis.'
-id: b609ef85-dc84-4405-93d0-1b92d92ca1a4
+more_templates:
+  - 8a46d375-fe18-42c5-ab50-a1682b5664de
+  - 7d93f793-b41f-44cc-95ae-73166558a05c
+  - 72ff1a2f-b8ef-4a70-90c9-ac07a26bd71a
+  - 4fdc63ac-ca8d-4fca-a76f-cff13472f187
+  - 1b8783dd-1179-4eb1-a5a9-27304b468a8e
+from_the_blog:
+  - 85952363-75e0-4471-951d-63fb7d4b2f01
+  - d0e879a4-56b8-4cfe-8489-989d650d702e
+  - fe2b45f7-57ac-4f25-8f8f-e879958b1fa6
+  - 7b521a57-06aa-4181-8046-2cd4cb1f8efa
+  - 774827ee-5840-450d-aca6-d60187adc46b
 ---
