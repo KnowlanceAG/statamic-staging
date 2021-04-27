@@ -1,81 +1,115 @@
-{{ form:{{form.handle}} }}
-<div class="forms bg-gray-200 max-w-screen-xl mx-auto pt-6 pb-12 px-2 sm:px-6 lg:pt-8 lg:pb-16 lg:px-8">
-    {{ if success }}
-
-        <div class="bg-green-300 text-white p-2">
-            {{ form_success }}
-                {{ form_success_text }}
-            {{ /form_success }}
+{{ form:create in="{ form:handle }"
+id="form"
+class="flex flex-wrap form-self"
+x-ref="form"
+x-data="sending()"
+data-submission-type="{ form:handle }"
+@submit.prevent="sendForm()"
+action="{ config:app:url }/!/forms/{ form:handle }"
+}}
+    <div class="w-full grid md:grid-cols-12 gap-y-6 md:gap-x-6 pt-6 pb-12 px-2 sm:px-6 lg:pt-8 lg:pb-16 lg:px-8 bg-gray-200">
+        {{# Honeypot spam protection. #}}
+        <div class="hidden">
+            <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1" for="fax">Fax <sup class="text-notice-400">*</sup></label>
+            <input class="form-input w-full" id="fax" type="fax" name="fax" tabindex="-1" autocomplete="off"/>
         </div>
 
-    {{ else }}
-
-    <div class="flex flex-wrap">
         {{ fields }}
-            <div class="{{ if width==50 }}w-full lg:w-1/2 {{ else }}w-full {{ /if }}mb-6 md:mb-0 pr-4">
-
-                {{ if type=="checkboxes" }}
-                    <label class="block uppercase tracking-wide text-black text-xs mb-8 mt-8">
-                        <input type="checkbox" name="{{ handle }}" class="mr-1" />
-                        {{ display }}
-                        {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
-                    </label>
-
-                {{ elseif type=="textarea" }}
-                    <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">
-                        {{ display }}
-                        {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
-                    </label>
-
-                    {{ field }}
-
-                {{ elseif handle=="file" }}
-                <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">
-                    {{ display }}
-                    {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
-                </label>
-
+            <div class="flex flex-col space-y-4
+                {{ width == '25' ?= 'md:col-span-3' }}
+                {{ width == '33' ?= 'md:col-span-4' }}
+                {{ width == '50' ?= 'md:col-span-6' }}
+                {{ width == '66' ?= 'md:col-span-8' }}
+                {{ width == '75' ?= 'md:col-span-9' }}
+                {{ width == '100' ?= 'md:col-span-12' }}"
+            >
+                <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1" for="{{ handle }}">{{ trans key="{display}" }} {{ if validate | contains:required }}<sup class="text-red-500">*</sup>{{ /if }}</label>
+                {{# Load notification when there is a validation error with the name field. #}}
+                <template x-if="errors.{{ handle }}">
+                    {{ partial src="components/notification" type="error" attribute="x-text='errors.{handle}'" }}
+                </template>
                 {{ field }}
-
-                {{ else }}
-                    <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1">
-                        {{ display }}
-                        {{ if validate }}<sup class="text-red-500">*</sup>{{ /if }}
-                    </label>
-
-                    {{ field }}
-
-                {{ /if }}
-
-                {{ if error }}
-                <p class="text-red-500 text-xs italic">
-                    {{ form_error }}
-                    {{ form_error_text }}
-                    {{ /form_error }}
-                </p>
-                {{ /if }}
             </div>
         {{ /fields }}
 
-    </div>
-    <div class="my-4">
-        {{ form_info_text }}
-            {{ text }}
-        {{ /form_info_text }}
-    </div>
-    <button
-        class="bg-orange-500 hover:bg-orange-700 px-10 py-3 mt-8 inline-block text-white font-300 uppercase rounded-sm hover:transition-colors hover:duration-200 hover:bg-opacity-95"
-        type="submit">
-            {{ if form.handle == 'autorenbewerbung'}}
-                BEWERBUNG ABSENDEN
-            {{ elseif form.handle == 'anfrage'}}
-                Anfrage absenden
-            {{ else }}
-                Absenden
-            {{ /if }}
+        <div class="my-4 md:col-span-12">
+            {{ form_info_text }}
+                {{ text }}
+            {{ /form_info_text }}
+        </div>
 
-    </button>
+        <div class="md:col-span-12 flex">
+            <button
+            class="bg-orange-500 hover:bg-orange-700 px-10 py-3 mt-8 inline-block text-white font-300 uppercase rounded-sm hover:transition-colors hover:duration-200 hover:bg-opacity-95"
+            type="submit">
+                {{ if form.handle == 'autorenbewerbung'}}
+                    Bewerbung absenden
+                {{ elseif form.handle == 'anfrage'}}
+                    Anfrage absenden
+                {{ else }}
+                    Absenden
+                {{ /if }}
+            </button>
+        </div>
 
-    {{ /if }}
-</div>
-{{ /form:{{form.handle}} }}
+        <template x-if="success">
+            {{
+                partial
+                src="components/notification"
+                type="success"
+                class="md:col-span-12"
+                content="Vielen Dank, wir haben Ihre Nachricht erhalten und werden Sie so schnell wie möglich kontaktieren."
+            }}
+        </template>
+    </div>
+{{ /form:create }}
+
+{{ dynamic_token }}
+<script>
+    function sending() {
+        return {
+            error: false,
+            errors: [],
+            sending: false,
+            success: false,
+            sendForm() {
+                this.sending = true;
+                var form = document.querySelector('.form-self');
+                var route = '/!/cpssg/forms/';
+                if (form) {
+                    var formURL = new URL(form.action);
+                    var formOrigin = formURL.origin;
+                    var submissionURL = formOrigin + route + form.dataset.submissionType;
+                    fetch(submissionURL, {
+                        headers: {
+                            'X-Requested-With' : 'XMLHttpRequest'
+                        },
+                        method: 'POST',
+                        body: new FormData(this.$refs.form)})
+                    .then(res => res.json())
+                    .then(json => {
+                        if (json['success']) {
+                            this.errors = [];
+                            this.success = true;
+                            this.error = false;
+                            this.sending = false;
+                            this.$refs.form.reset();
+                        }
+                        if (json['error']) {
+                            this.sending = false;
+                            this.error = true;
+                            this.success = false;
+                            this.errors = json['error'];
+                        }
+                    })
+                    .catch(err => {
+                        err.text().then( errorMessage => {
+                            this.sending = false
+                            console.log('errorMessage')
+                        })
+                    })
+                }
+            }
+        }
+    }
+</script>

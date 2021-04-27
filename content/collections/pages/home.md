@@ -1,4 +1,5 @@
 ---
+id: home
 title: Startseite
 template: default
 teaser:
@@ -14,7 +15,14 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Akademische Ghostwriter helfen. '
+        text: 'Akademische Ghostwriter helfen.'
+      -
+        type: hard_break
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
       -
         type: text
         marks:
@@ -51,7 +59,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615462909
+updated_at: 1619340425
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -89,11 +97,14 @@ replicator:
                 type: paragraph
         type: row
         enabled: true
+        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
+    border: false
   -
     columns-replicator:
       -
@@ -105,24 +116,23 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: insert_html
-                    html: |-
-                      <div class="text-center font-Montserrat">
-                          <h2 class="font-bold text-gray-550">Fragen? Rufen Sie uns einfach an:</h2>
-                          <p class="text-orange-500 hover:text-orange-700 text-4xl"><a href="tel:+49%20(0)%2030%20809%20332%20339" rel="nofollow" target="_blank">+49 (0) 30 809 332 339</a></p>
-                          <p class="text-gray-700">Mo.-Fr. 9:00-18:00</p>
-                      </div>
+                    type: phone_cta
+                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
+                    open: 'Mo.-Fr. 9:00-18:00'
               -
                 type: paragraph
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
     is-full: true
     bg-toggle: false
     bg-color: '#F2F2F2'
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
+    border: false
   -
     columns-replicator:
       -
@@ -150,6 +160,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
       -
         columns_per_row: 1
         grid:
@@ -163,25 +174,25 @@ replicator:
                     grid:
                       -
                         image:
-                          - icon-ghostwriting.svg
+                          - logo-startseite/icon-ghostwriting.svg
                         headline: GHOSTWRITING
                         hover_content: 'Lassen Sie Ihre wissenschaftliche Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
                         link: null
                       -
                         image:
-                          - icon-lektorat.svg
+                          - logo-startseite/icon-lektorat.svg
                         headline: LEKTORAT
                         hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
                         link: null
                       -
                         image:
-                          - icon-plagiat.svg
+                          - logo-startseite/icon-plagiat.svg
                         headline: PLAGIATSPRÜFUNG
                         hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte.'
                         link: null
                       -
                         image:
-                          - icon-uebersetzung.svg
+                          - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
                         hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische Übersetzungen von akademischen Texten, Arbeiten, usw.'
                         link: null
@@ -198,11 +209,14 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
+    border: false
   -
     columns-replicator:
       -
@@ -249,6 +263,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
       -
         columns_per_row: 1
         grid:
@@ -265,12 +280,15 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
+    border: false
   -
     columns-replicator:
       -
@@ -304,6 +322,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: '1'
       -
         columns_per_row: '6'
         grid:
@@ -376,16 +395,21 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: '2'
     is-full: true
     bg-toggle: false
     bg-color: '#D6D6D6'
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
+    border: false
   -
     columns-replicator:
       -
+        responsive_columns: 1
         columns_per_row: 1
+        single-col: false
         grid:
           -
             bard:
@@ -394,53 +418,265 @@ replicator:
                 attrs:
                   values:
                     type: link_liste
-                    grid:
+                    raster:
                       -
-                        headline: Arbeiten
-                        linkliste:
-                          - e969d0a5-421c-42aa-9b67-0a3859c25797
-                          - fc359a9c-afc1-43b6-a4bb-302ff072cdcf
-                          - d118c7b2-141d-4bac-972d-c1502381a340
-                          - 3fab1586-951b-40e6-904d-e8b3ede6b6e4
-                          - b1510f04-f5f7-4d15-9be4-fc69c7add6e0
-                          - 8e94ca0e-e5de-46b9-908e-d086cd76f0c8
-                          - 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
-                          - 1298a2b5-6e23-404b-8806-26e687fda624
-                          - a016335c-333e-432d-838d-460350d21052
-                          - 1f3196aa-76e3-4c7c-9b5a-8381bb49bf4d
-                          - 5aa73dfd-f099-46d5-9660-d3fa62022264
-                          - 849140c8-c582-4340-a2bc-446126149c9f
+                        text: Arbeiten
+                        eintraege:
+                          - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
+                          - 425234fd-eb40-4dab-bb3d-95bbac5948eb
+                          - 29f507a9-89e5-433e-8246-0d00b58746db
+                          - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
-                          - 7aff708e-5d48-409e-9242-fd82c155f5ee
-                          - 8bdfe06a-1a06-46e1-94d2-591c8f5faece
+                          - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
+                          - 134ba799-3362-4166-86f7-bba4e992d7d7
+                          - 686e5203-e17a-4101-809a-07c9f799ccfa
+                          - 89093abd-fdd4-4830-a368-7ede1b75ca1a
+                          - b42eb586-1305-4faf-8d59-79e53ff91373
+                          - 5c6db140-ee4a-4a88-bf56-4153664421d4
+                          - b6ee03ca-ecab-4749-ade4-45ff821b748d
+                          - 5659593d-2756-4e9f-a5b3-b391103d9886
+                          - 62115090-7bb2-448f-bb32-a32bb5977382
+                          - aa35a1ca-0812-4402-a4d5-4a6d4aa8c1c0
                       -
-                        headline: Fachrichtungen
-                        linkliste:
-                          - b609ef85-dc84-4405-93d0-1b92d92ca1a4
-                          - e969d0a5-421c-42aa-9b67-0a3859c25797
-                          - fc359a9c-afc1-43b6-a4bb-302ff072cdcf
-                          - 1e772779-291e-43ee-81ae-7726c207cd48
-                          - d118c7b2-141d-4bac-972d-c1502381a340
-                          - 3d67c472-fd10-4be3-8c4b-5021ca58ea0d
-                          - bcd13603-cc4f-4f49-8fd7-9e7ca975e616
-                          - 3fab1586-951b-40e6-904d-e8b3ede6b6e4
-                          - b1510f04-f5f7-4d15-9be4-fc69c7add6e0
-                          - 8e94ca0e-e5de-46b9-908e-d086cd76f0c8
-                          - 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
-                          - 1298a2b5-6e23-404b-8806-26e687fda624
-                          - a016335c-333e-432d-838d-460350d21052
-                          - 1f3196aa-76e3-4c7c-9b5a-8381bb49bf4d
-                          - 5aa73dfd-f099-46d5-9660-d3fa62022264
+                        text: Fachrichtungen
+                        eintraege:
+                          - bfd868ec-f81c-4805-8122-2e11008e72f2
+                          - 1eca4337-5857-4666-9768-1f7789824f01
+                          - c188d9d1-5d87-4455-9bb5-9327b9fba0b2
+                          - 6300bfa7-4b29-41fb-a2d9-422ef612d3d4
+                          - 4185143e-39e8-4a10-952f-d8139528f254
+                          - fdee517a-e619-4ad9-aa0a-0ac9b8aa72bc
+                          - 8935206f-2aaa-4c05-add4-dcf517deb92f
               -
                 type: paragraph
         type: row
         enabled: true
-        single-col: false
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    border: false
+  -
+    columns-replicator:
+      -
+        columns_per_row: '4'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: Bachelorarbeit
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/essay'
+                          target: null
+                          rel: null
+                    text: Essay
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: Hausarbeit
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/praesentationen'
+                          target: null
+                          rel: null
+                    text: Präsentationen
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/diplomarbeit'
+                          target: null
+                          rel: null
+                    text: Diplomarbeit
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/examensarbeit'
+                          target: null
+                          rel: null
+                    text: Examensarbeit
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/lernskript'
+                          target: null
+                          rel: null
+                    text: Lernskript
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: Seminararbeit
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                          target: null
+                          rel: null
+                    text: Doktorarbeit
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/expose'
+                          target: null
+                          rel: null
+                    text: Exposé
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/magisterarbeit'
+                          target: null
+                          rel: null
+                    text: Magisterarbeit
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/statistische-analysen'
+                          target: null
+                          rel: null
+                    text: 'Statistische Analysen'
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/ebook'
+                          target: null
+                          rel: null
+                    text: eBook
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/facharbeit'
+                          target: null
+                          rel: null
+                    text: Facharbeit
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: Masterarbeit
+        type: row
+        enabled: true
+        responsive_columns: 1
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    type: add_section
+    enabled: false
+    border: false
   -
     columns-replicator:
       -
@@ -709,11 +945,14 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
     is-full: true
     bg-toggle: true
     bg-image: seiten/full-scaled.jpg
     bg-image-fixed: false
     type: add_section
     enabled: true
-id: home
+    remove_spacing: false
+    border: false
+meta_title: 'GWriters • Akademische Ghostwriter Agentur'
 ---

@@ -2,8 +2,8 @@
 title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615462841
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619009216
 teaser_bg:
   - seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
@@ -78,6 +78,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
       -
         columns_per_row: '2'
         grid:
@@ -110,11 +111,13 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
   -
     columns-replicator:
       -
@@ -144,6 +147,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
       -
         columns_per_row: '4'
         grid:
@@ -343,12 +347,14 @@ replicator:
         type: row
         enabled: true
         single-col: false
+        responsive_columns: 1
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
   -
     columns-replicator:
       -
@@ -370,23 +376,107 @@ replicator:
                           align: center
                     text: 'So einfach zum Erfolg'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                type: set
+                attrs:
+                  values:
+                    type: text_box-alignment
+                    bard:
                       -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: "GWriters ist eine schnell wachsende deutschsprachige Plattform für die Vermittlung von hochwertigen akademischen Dienstleistungen. Wir bieten Ihnen Zugang zu derzeit bereits über 3000 wissenschaftlichen Autoren, Bearbeitern, Übersetzern & Beratern, die Sie bedarfsgerecht und schnell durch die professionelle Erstellung von Mustervorlagen für akademische Arbeiten unterstützen. Ganz egal ob Sie auf der Suche nach einem\_Lektorat\_oder\_Korrektorat, Coaching, der Erstellung einer Mustervorlage, einer\_Übersetzung\_oder anderen Hilfestellungen sind, GWriters findet in nahezu allen Fällen den passenden akademischen Freelancer für Sie. Fragen Sie einfach ein unverbindliches Angebot an."
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#444444'
+                                  hex: '#000'
+                            text: "GWriters ist eine schnell wachsende deutschsprachige Plattform für die Vermittlung von hochwertigen akademischen Dienstleistungen. Wir bieten Ihnen Zugang zu derzeit bereits über 3000 wissenschaftlichen Autoren, Bearbeitern, Übersetzern & Beratern, die Sie bedarfsgerecht und schnell durch die professionelle Erstellung von Mustervorlagen für akademische Arbeiten unterstützen. Ganz egal ob Sie auf der Suche nach einem\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#FF6602'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/lektorat'
+                                  target: null
+                                  rel: null
+                            text: Lektorat
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#444444'
+                                  hex: '#000'
+                            text: "\_oder\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#FF6602'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/korrektorat'
+                                  target: null
+                                  rel: null
+                            text: Korrektorat
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#444444'
+                                  hex: '#000'
+                            text: ", Coaching, der Erstellung einer Mustervorlage, einer\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#FF6602'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/uebersetzung'
+                                  target: null
+                                  rel: null
+                            text: Übersetzung
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#444444'
+                                  hex: '#000'
+                            text: "\_oder anderen Hilfestellungen sind, GWriters findet in nahezu allen Fällen den passenden akademischen Freelancer für Sie. Fragen Sie einfach ein unverbindliches Angebot an."
+                    text_ausrichtung: text-center
         type: row
         enabled: true
         single-col: true
+        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
+meta_title: 'Wissenschaftliches Ghostwriting bei GWriters • So funktioniert es'
+meta_description: 'Möchten Sie Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen? So funktioniert es - in 4 einfachen Schritten.'
 id: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
 ---

@@ -13,7 +13,9 @@
 
             <p class="mt-4 mb-0"><strong>{{ title }}</strong></p>
             <p class="mb-4">{{ detail_position }}</p>
-            {{ detail_text }}
+            {{ bard }}
+                {{ partial src="partials/content/{type}" }}
+            {{ /bard }}
         </div>
 
     {{ /experts }}

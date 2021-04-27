@@ -25,6 +25,11 @@ sections:
               fields:
                 -
                   import: ce_image
+            text_box-alignment:
+              display: 'Textbox mit Ausrichtung'
+              fields:
+                -
+                  import: textbox-aligned
           buttons:
             - h2
             - h3

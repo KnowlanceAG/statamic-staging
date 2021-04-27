@@ -1,7 +1,8 @@
 ---
+id: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
 title: Glossar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615280202
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619430135
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -15,6 +16,14 @@ replicator:
   -
     bard:
       -
+        type: paragraph
+      -
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: '6'
+      -
         type: heading
         attrs:
           level: 1
@@ -23,15 +32,13 @@ replicator:
             type: text
             marks:
               -
-                type: bold
-              -
                 type: textAlign
                 attrs:
                   align: left
               -
                 type: textColor
                 attrs:
-                  color: 'rgb(255, 102, 2)'
+                  color: '#ff6602'
             text: Wiki
       -
         type: paragraph
@@ -48,10 +55,8 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: 'rgb(68, 68, 68)'
+                  color: '#000!important'
             text: 'GWriters bietet als Plattform für akademische Dienstleistungen auch ein Wiki als Nachschlagewerk zu allen relevanten Begriffen in diesem Bereich. So können Sie wichtige Begriffe bequem direkt auf unserer Seite nachlesen.'
-      -
-        type: paragraph
       -
         type: paragraph
       -
@@ -942,6 +947,12 @@ replicator:
             text: 'Wissenschaftliche Arbeiten und Artikel lesen'
     type: editor
     enabled: true
-template: with-side-bar
-id: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
+template: without-teaser-with-sidebar
+meta_title: 'Wiki • GWriters - Informationen zum Thema Ghostwriting'
+meta_description: 'Ein Wiki über das Thema Ghostwriting, Ghostwriter Agenturen und der Erstellung von akademischen Texten. Erfahren Sie hier meh'
+teaser:
+  -
+    type: heading
+    attrs:
+      level: 1
 ---

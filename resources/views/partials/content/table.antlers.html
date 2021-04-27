@@ -1,0 +1,14 @@
+<div class="max-w-full overflow-x-scroll">
+    <table class="table-auto w-auto">
+        <tbody>
+            {{ table_structure }}
+                <tr>
+                    {{ cells }}
+                        <td>{{ value | markdown }}</td>
+                    {{ /cells }}
+                </tr>
+            {{ /table_structure }}
+        </tbody>
+    </table>
+</div>
+

@@ -7,6 +7,12 @@ module.exports = {
         ],
         options: {
             safelist: [
+                'grid-cols-1',
+                'grid-cols-2',
+                'grid-cols-3',
+                'grid-cols-4',
+                'grid-cols-5',
+                'grid-cols-6',
                 'lg:grid-cols-1',
                 'lg:grid-cols-2',
                 'lg:grid-cols-3',
@@ -19,6 +25,16 @@ module.exports = {
                 'lg:grid-cols-10',
                 'lg:grid-cols-11',
                 'lg:grid-cols-12',
+                'md:w-1/2',
+                'md:w-1/4',
+                'md:w-3/4',
+                'md:float-right',
+                'md:float-left',
+                'md:mx-auto',
+                'content-center',
+                'bg-green-300',
+                'bg-green-400',
+                'cursor-pointer'
             ],
         }
     },
@@ -43,6 +59,11 @@ module.exports = {
                     550: '#444',
                     600: '#555',
                     700: '#999'
+                },
+                green: {
+                    300: '#dff0d8',
+                    400: '#d6e9c6',
+                    500: '#468847'
                 }
             },
             fontFamily: {
@@ -64,6 +85,9 @@ module.exports = {
             },
             padding: {
                 'py-22': '5.5rem',
+            },
+            transitionProperty: {
+                'height': 'height'
             }
       },
     },

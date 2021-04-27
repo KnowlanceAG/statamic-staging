@@ -1,0 +1,9 @@
+title: Tabelle
+fields:
+  -
+    handle: table_structure
+    field:
+      display: Tabelle
+      type: table
+      icon: table
+      listable: hidden

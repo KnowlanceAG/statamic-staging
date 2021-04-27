@@ -93,7 +93,7 @@ sections:
           icon: taxonomy
           listable: hidden
   post_detail:
-    display: 'Betragsdetail Seite'
+    display: 'Beitragsdetail Seite'
     fields:
       -
         handle: teaser_image

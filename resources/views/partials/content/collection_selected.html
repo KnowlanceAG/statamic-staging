@@ -5,7 +5,11 @@
             {{ entries }}
             <div class="">
                 {{ photo }}
-                    <img class="" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
+                    {{ if extension == 'svg' || extension == 'gif' }}
+                        <img class="" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
+                    {{ else }}
+                        {{ responsive:photo alt="{alt}" class="" }}
+                    {{ /if }}
                 {{ /photo }}
                 <h3>
                     {{ title }}

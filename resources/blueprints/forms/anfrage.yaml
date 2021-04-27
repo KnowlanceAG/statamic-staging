@@ -23,7 +23,7 @@ sections:
           listable: hidden
           width: 50
       -
-        handle: e-mail_adresse
+        handle: e_mail_adresse
         field:
           input_type: email
           antlers: false
@@ -31,6 +31,9 @@ sections:
           type: text
           icon: text
           listable: hidden
+          validate:
+            - required
+            - austria_mail
       -
         handle: telefon
         field:
@@ -40,6 +43,8 @@ sections:
           type: text
           icon: text
           listable: hidden
+          validate:
+            - austria_phone
       -
         handle: fachrichtung
         field:
@@ -71,6 +76,8 @@ sections:
           type: select
           icon: select
           listable: hidden
+          validate:
+            - required
       -
         handle: arbeitsthema_spezifikationen_usw
         field:
@@ -79,6 +86,8 @@ sections:
           type: textarea
           icon: textarea
           listable: hidden
+          validate:
+            - required
       -
         handle: seitenzahl
         field:

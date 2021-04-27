@@ -20,6 +20,11 @@ fields:
           fields:
             -
               import: blog_listing
+        presse_listing:
+          display: 'Presse Listing'
+          fields:
+            -
+              import: presse_listing
       display: Replicator
       type: replicator
       icon: replicator

@@ -71,6 +71,17 @@ return [
             'url' => '/assets',
             'visibility' => 'public',
         ],
+        'downloads' => [
+            'driver' => 'local',
+            'root' => public_path('assets/downloads'),
+            'url' => '/assets/downloads',
+            'visibility' => 'public',
+        ],
+        'form-uploads' => [
+            'driver' => 'local',
+            'root' => storage_path('uploads'),
+            'url' => '/storage/uploads',
+        ],
 
     ],
 
