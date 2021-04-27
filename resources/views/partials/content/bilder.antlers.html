@@ -1,4 +1,4 @@
-<figure class="my-8 flex {{ if img-alignment }}{{ img-alignment }}{{ else }}justify-center{{ /if }}">
+<figure class="my-8 flex {{ if img-alignment }}{{ img-alignment }}{{ else }}justify-center{{ /if }} {{ if has_border }}border border-gray-500 m-8{{ /if }}">
     {{ if link }}
         <a href="{{ link }}">
             {{ assets }}
