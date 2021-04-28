@@ -27,7 +27,9 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: '20'
+            padding-y: '16'
+      -
+        type: paragraph
       -
         type: paragraph
         content:
@@ -231,7 +233,7 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619643402
+updated_at: 1619643761
 page_title: 'Wie wird die hohe Qualität bei GWriters sichergestellt?'
 template: without-teaser-with-sidebar
 meta_title: 'Wie wird die hohe Qualität bei GWriters sichergestellt?'
