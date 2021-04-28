@@ -154,6 +154,7 @@ fields:
           fields:
             -
               import: example_work
+              prefix: ex_
       container: assets
       enable_input_rules: true
       enable_paste_rules: true

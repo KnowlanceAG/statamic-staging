@@ -1,6 +1,14 @@
 title: Beispielarbeiten
 fields:
   -
+    handle: img_right
+    field:
+      display: 'Bild rechts'
+      type: toggle
+      icon: toggle
+      instructions: 'Text links'
+      listable: hidden
+  -
     handle: image
     field:
       mode: grid
