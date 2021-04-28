@@ -208,7 +208,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619609948
+updated_at: 1619610016
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -218,7 +218,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-page_title: 'Tipps zum wissenschaftlichen Arbeiten für die erste Hausarbeit'
+page_title: 'Expertentipps zum wissenschaftlichen Arbeiten für Fortgeschrittene'
 academy_short_text-headline: 'Wissenschaftliches Arbeitenfür Fortgeschrittene'
 academy_short_text: 'Diese Kategorie richtet sich vorrangig an Studenten und Doktoranden, die zum Beispiel Antworten auf gewisse Detailfragen zum Literaturverzeichnis oder Zitieren suchen oder einfach zur eigenen Wissensbildung beitragen möchten. Nach der Grundlage des wissenschaftlichen Schreibens sind tiefgreifendere Faktoren wichtig. Diese gehen wir im Folgenden intensiv an.'
 meta_title: 'Expertentipps zum wissenschaftlichen Arbeiten für Fortgeschrittene'
