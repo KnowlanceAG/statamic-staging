@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Tabellenverzeichnis word'
 size: 2676
 last_modified: 1619534219
 width: 604
