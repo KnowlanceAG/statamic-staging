@@ -4,7 +4,7 @@ title: 'GWriters Akademie'
 teaser_bg:
   - seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619579836
+updated_at: 1619579874
 page_title: 'Die GWriters Akademie für wissenschaftliches Arbeiten'
 use_meta_keywords: false
 no_index_page: false
@@ -94,7 +94,7 @@ replicator:
                 attrs:
                   values:
                     type: academy_entries
-                    kurz_oder_langversion: true
+                    kurz_oder_langversion: false
                     entries:
                       - b609ef85-dc84-4405-93d0-1b92d92ca1a4
                       - 8a46d375-fe18-42c5-ab50-a1682b5664de
@@ -103,7 +103,7 @@ replicator:
                 attrs:
                   values:
                     type: academy_entries
-                    kurz_oder_langversion: true
+                    kurz_oder_langversion: false
                     entries:
                       - e1eeb52b-af75-4803-a498-6678be9b695d
                       - 6a4a507c-f04f-4ceb-9942-3c34d896faad
@@ -112,7 +112,7 @@ replicator:
                 attrs:
                   values:
                     type: academy_entries
-                    kurz_oder_langversion: true
+                    kurz_oder_langversion: false
                     entries:
                       - 92638305-5538-4e5c-9f2a-eaed57856af6
                       - 1b8783dd-1179-4eb1-a5a9-27304b468a8e
@@ -121,7 +121,7 @@ replicator:
                 attrs:
                   values:
                     type: academy_entries
-                    kurz_oder_langversion: true
+                    kurz_oder_langversion: false
                     entries:
                       - 47857fec-2594-4e17-9331-52e3a93020d5
                       - 56a76afe-cd5a-4ab4-91c3-39b2b98ffe32
@@ -130,7 +130,7 @@ replicator:
                 attrs:
                   values:
                     type: academy_entries
-                    kurz_oder_langversion: true
+                    kurz_oder_langversion: false
                     entries:
                       - e777b9fb-7884-4d67-8453-9d6c8cb0aa9f
                       - 8778439c-ea07-4542-9287-cb87e6074f6a
