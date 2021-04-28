@@ -5,7 +5,7 @@ page_title: 'Seminararbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619631070
+updated_at: 1619632090
 meta_title: 'Seminararbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Seminararbeit Musters von unseren Qualitätsstandards und nutzen Sie diese als Orientierung. Erfahren Sie mehr hier.'
 use_meta_keywords: false
@@ -225,8 +225,8 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wp-content/uploads/2019/07/Seminararbeit-Beispiel-BWL-Auswirkungen-der-Digitalisierung-auf-die-Wertsch%C3%B6pfungskette.pdf'
-                  target: null
+                  href: 'https://gwriters.de/assets/downloads/ghostwriting-beispielarbeiten/Seminararbeit-Beispiel-BWL-Auswirkungen-der-Digitalisierung-auf-die-Wertschopfungskette.pdf'
+                  target: _blank
                   rel: null
             text: 'Hier können Sie unsere Beispiel-Seminararbeit kostenlos herunterladen!'
       -
