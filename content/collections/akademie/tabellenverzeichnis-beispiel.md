@@ -395,7 +395,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619569324
+updated_at: 1619569365
 academy_short_text-headline: Abkürzungsverzeichnis
 academy_short_text: 'Nutzen Sie unsere Inhaltsverzeichnis Vorlage mit automatischer Formatierung für Ihre Abschlussarbeit.'
 use_meta_keywords: false
@@ -416,9 +416,9 @@ from_the_blog:
   - 015f5635-7e60-442a-bafd-504b0bca87c4
   - 5187b076-6402-4ce5-a509-9b507d9f773c
 page_title: 'Kostenloses Tabellenverzeichnis für Ihre Hausarbeit herunterladen'
-meta_description: '?Jetzt können Sie mit unserer Inhaltsverzeichnis Vorlage? Ihr Inhaltsverzeichnis automatisch erstellen. Jetzt unsere Vorlage herunterladen ↘️↘️↘️'
+meta_description: 'Nutzen Sie unser Tabellenverzeichnis Beispiel von akademischen Experten für jede wissenschaftliche Arbeit mit einer Vielzahl von Tabellen ???'
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
-meta_title: 'Kostenloses Inhaltsverzeichnis für Ihre Hausarbeit herunterladen'
+meta_title: 'Kostenloses Tabellenverzeichnis für Ihre Hausarbeit herunterladen'
 downloads:
   - akademie/Tabellenverzeichnis.docx
 ---
