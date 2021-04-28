@@ -5,6 +5,26 @@ replicator:
   -
     bard:
       -
+        type: heading
+        attrs:
+          level: 1
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textAlign
+                attrs:
+                  align: left
+              -
+                type: textColor
+                attrs:
+                  color: orange-500
+                  hex: '#ff6606'
+            text: 'Was ist ein Ghostwriter?'
+      -
         type: paragraph
         content:
           -
@@ -12,7 +32,25 @@ replicator:
             marks:
               -
                 type: bold
-            text: 'Ein Ghostwriter fertigt individuelle Texte im Auftrag eines Kunden nach dessen Vorgaben und Anforderungen an. '
+            text: 'Ein '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/ghostwriter'
+                  target: null
+                  rel: null
+            text: Ghostwriter
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: ' fertigt individuelle Texte im Auftrag eines Kunden nach dessen Vorgaben und Anforderungen an. '
           -
             type: hard_break
       -
@@ -65,7 +103,7 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619619267
+updated_at: 1619619344
 page_title: 'Was ist ein Ghostwriter? • GWriters beantwortet Ihre Fragen'
 template: without-teaser-with-sidebar
 meta_title: 'Was ist ein Ghostwriter? • GWriters beantwortet Ihre Fragen'
