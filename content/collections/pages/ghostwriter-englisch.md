@@ -174,5 +174,15 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619644034
+updated_at: 1619644063
+meta_title: 'Habt Ihr Autoren für Ausarbeitungen auf Englisch? • GWriters'
+meta_description: 'Viele der GWriters.de Freelancer, ob Autoren, Lektoren, Korrektoren, Übersetzer oder Ghostwriter schreiben und publizieren regelmäßig in englischer Sprache.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
