@@ -173,7 +173,7 @@ from_the_blog:
   - 5d6cfb2d-6aa8-4623-afdc-35f50ee0380c
   - c7f2ad6a-2e8f-42e4-b6bc-d4ce3f31ff30
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619577014
+updated_at: 1619577650
 meta_title: 'Kostenlose Eidesstattliche Erklärung für Ihre Hausarbeit herunterladen'
 meta_description: 'Nutzen Sie hier kostenlos für Ihre eidesstattliche Erklärung Muster und Vorlagen, die in keiner Abschlussarbeit fehlen dürfen.'
 use_meta_keywords: false
@@ -189,4 +189,5 @@ downloads:
 page_title: 'Kostenlose Eidesstattliche Erklärung für Ihre Hausarbeit herunterladen'
 academy_short_text-headline: 'Eidesstattliche Erklärung'
 academy_short_text: 'Finden Sie hier für Ihre eidesstattliche Erklärung Muster und Vorlagen, die in keiner Abschlussarbeit fehlen dürfen.'
+teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 ---
