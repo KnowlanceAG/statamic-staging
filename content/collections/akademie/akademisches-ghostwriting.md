@@ -4,7 +4,7 @@ title: 'Akademisches Ghostwriting'
 academy_teaser_headline: 'Akademisches Ghostwriting von GWriters'
 academy_teaser_text: 'Finden Sie in dieser Kategorie alles zum akademischen Ghostwriting, angefangen von unseren internen Prozessen, die Ihnen einen reibungslosen Auftragsablauf und jederzeit höchste Qualität Ihrer wissenschaftlichen Arbeit garantiert, bis hin zu interessanten und wissenswerten Informationen über unsere akademischen Ghostwriter und Ghostwriting Erfahrungen.'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619484985
+updated_at: 1619615547
 teaser:
   -
     type: heading
@@ -169,22 +169,53 @@ replicator:
             type: bilder
             assets:
               - seiten/gwriters-akademie/Banner_GWAkademie_1.jpeg
+            has_border: false
       -
         type: set
         attrs:
           values:
             type: blog_entries
             entries:
-              - 5c83c7b5-d23b-4275-8b1f-cb439f647e3b
-              - 3d67c472-fd10-4be3-8c4b-5021ca58ea0d
-              - 7bd4dfae-d5e8-426b-b5df-700427a364da
-              - 587801ba-7a2e-4de6-8fbe-c37acd2d625f
-              - 372711be-b5ba-4dfd-a079-0a33c47f735f
-              - b6684df5-6ea6-412c-87a9-30408b8e6228
-              - 5055a560-26ec-4304-88ad-8f301455abc2
+              - a9b8fb84-8c91-4cce-a43a-5657a5676793
+              - 8ce5683d-2d2f-4008-8c49-82d164e52fdf
+              - 2cfe04c4-41e2-44bf-9697-024ca97ff3b9
+              - 3c48875f-c1fc-4be1-a481-e06e2e3c2128
+              - 8f4eaecd-717f-417a-a036-7ac666381dca
+              - 6134ce0c-10ce-462b-907b-16cf20cce55f
+              - fc07ebeb-3373-459c-8b94-b00f1eb6b44b
+              - 0685ecc3-0977-4b88-a9d4-b047290b01e5
+              - 791de4c5-7c53-40f0-aae0-dc91b15789d8
+              - 52b1f199-5d82-4ebe-bbb6-21df3afd97b9
+              - 93e1a5bd-9b19-4e68-b483-7dbeb26462ea
+              - dbb9a734-d733-4fe0-a92f-4dde0883ac7a
+              - 3518ca66-dfd0-4851-9d95-fbf2f44d8338
+              - b5651249-f0d1-4478-a027-2ce35696fa20
+              - 3f184e1e-936d-431a-811d-566210ffea43
+              - 2187d783-d7f5-4b20-bec8-1674cd72c32f
+              - 884b09f8-2dce-4e99-9860-dd1a3c39f5bc
+              - 2eb40e5f-606e-421c-83f0-e32c14cfca18
+              - 27876560-a260-4e18-89b1-417c11b8b31f
+              - 78e588a4-2c02-44b9-b5b1-e7a880e0b64c
+              - 15a1f613-ca52-4486-b195-3bbad455092c
+              - 8d0d751b-54ea-4b94-a1b7-9fe5c7850427
+              - 015f5635-7e60-442a-bafd-504b0bca87c4
+              - 90c98a48-07aa-44a7-bfa5-187a2717a778
+              - 8f956f01-0057-4727-86bd-227150d4d7c9
       -
         type: paragraph
     type: editor
     enabled: true
     show_as_card: false
+page_title: 'GWriters • Alle wichtigen Informationen zum akademischen Ghostwriting'
+academy_short_text-headline: 'Akademisches Ghostwritingvon GWriters'
+academy_short_text: 'Finden Sie in dieser Kategorie alles zum akademischen Ghostwriting, angefangen von unseren internen Prozessen, die Ihnen einen reibungslosen Auftragsablauf und jederzeit höchste Qualität Ihrer wissenschaftlichen Arbeit garantiert, bis hin zu interessanten und wissenswerten Informationen über unsere akademischen Ghostwriter und Ghostwriting Erfahrungen.'
+meta_title: 'GWriters • Alle wichtigen Informationen zum akademischen Ghostwriting'
+meta_description: 'Alles rund um das Thema akademisches Ghostwriting finden Sie jetzt verständlich zusammengefasst in den Beiträgen von unseren akademischen Ghostwritern.'
+more_templates:
+  - 68703917-9254-4107-82e0-0d844a79e81a
+  - b0ab57c8-c632-4082-af70-9b10b915d2b8
+  - 919279ae-733d-4bd9-a759-afaa758e18fc
+  - 4c882044-a7c8-47ab-96ab-9fac3f0b761c
+  - b73c1df6-623f-49fd-a8ea-3d9e6cf334ab
+  - 9a41faa4-9f52-4f0e-84b2-9fc989d3e995
 ---

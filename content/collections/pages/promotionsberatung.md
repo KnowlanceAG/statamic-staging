@@ -1,4 +1,5 @@
 ---
+id: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 title: Promotionsberatung
 teaser:
   -
@@ -40,6 +41,7 @@ teaser:
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
+        spacing_top: false
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
@@ -633,6 +635,7 @@ replicator:
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -642,9 +645,10 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+    border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619013819
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619604921
 meta_title: 'Unsere seriöse Promotionsberatung • GWriters'
 meta_description: 'Bei GWriters erhalten Sie eine seriöse Promotionsberatung von unseren erfahrenen akademischen Ghostwritern, Lektoren und Coaches. Auf Sie zugeschnitten!'
 use_meta_keywords: false
@@ -656,5 +660,5 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'Unsere seriöse Promotionsberatung • GWriters'
-id: 6dd15231-c8e7-43fe-949e-af68de19ab1b
+template: with-side-bar
 ---

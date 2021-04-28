@@ -1,4 +1,5 @@
 ---
+id: 1f3196aa-76e3-4c7c-9b5a-8381bb49bf4d
 title: IMPRESSUM
 teaser:
   -
@@ -35,10 +36,11 @@ teaser:
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
+        spacing_top: false
   -
     type: paragraph
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618910929
+updated_at: 1619616467
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
@@ -270,7 +272,8 @@ replicator:
             text: 'Der Nutzung von allen veröffentlichten Kontaktdaten durch Dritte zur Übersendung von nicht ausdrücklich angeforderter Werbung wird widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.'
     type: editor
     enabled: true
-meta_title: impressum
+    show_as_card: false
+meta_title: 'GWriters • Impressum'
 meta_description: 'GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
 use_meta_keywords: false
 no_index_page: false
@@ -281,5 +284,5 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: with-side-bar
-id: 1f3196aa-76e3-4c7c-9b5a-8381bb49bf4d
+page_title: 'GWriters • Impressum'
 ---
