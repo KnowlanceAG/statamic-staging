@@ -177,6 +177,7 @@ replicator:
           values:
             type: blog_entries
             entries:
+              - 7da41b93-3fba-46e0-9690-b10a8d6adabe
               - 6134ce0c-10ce-462b-907b-16cf20cce55f
               - 5d6dbd30-ab73-44d1-9a8b-f532222732ec
               - 0ad74efd-d968-4546-a1e4-92bde4e9f83e
@@ -206,7 +207,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619611019
+updated_at: 1619611644
 template: default
 use_meta_keywords: false
 no_index_page: false
