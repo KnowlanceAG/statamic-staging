@@ -23,6 +23,12 @@ replicator:
                   hex: '#ff6606'
             text: 'Ist Ghostwriting strafbar?'
       -
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: '16'
+      -
         type: paragraph
         content:
           -
@@ -268,7 +274,7 @@ replicator:
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619642528
+updated_at: 1619642555
 page_title: 'Ist Ghostwriting strafbar? Alles dazu auf GWriters'
 meta_title: 'Ist Ghostwriting strafbar? Alles dazu auf GWriters'
 meta_description: 'Ist Ghostwriting strafbar? Erfahren Sie alles dazu im Artikel und auf GWriters.de - Ihrer Ghostwriter Agentur.'
