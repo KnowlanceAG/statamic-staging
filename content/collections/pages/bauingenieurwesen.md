@@ -55,7 +55,7 @@ teaser:
     type: paragraph
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1619618920
+updated_at: 1619619101
 replicator:
   -
     columns-replicator:
@@ -1162,12 +1162,6 @@ replicator:
                     type: text
                     text: 'Tätigkeitsfelder im Bauingenieurwesen'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '[supsystic-tables id=29]'
-              -
                 type: set
                 attrs:
                   values:
@@ -1232,4 +1226,6 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: with-side-bar
+meta_title: 'Bauingenieurwesen • GWriters.de'
+meta_description: 'Bauingenieurwesen studieren? Ablauf und Abschluss-Hilfe durch Experten und akademische Ghostwriter im Bauingenieurwesen✅'
 ---
