@@ -1,7 +1,8 @@
 ---
+id: e969d0a5-421c-42aa-9b67-0a3859c25797
 title: 'Als Autor bewerben'
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615455347
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619616192
 replicator:
   -
     bard:
@@ -59,6 +60,7 @@ replicator:
         type: paragraph
     type: editor
     enabled: true
+    show_as_card: false
 template: without-teaser-with-sidebar
 use_meta_keywords: false
 no_index_page: false
@@ -68,5 +70,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-id: e969d0a5-421c-42aa-9b67-0a3859c25797
+page_title: 'GWriters • Als Autor bewerben'
+meta_title: 'GWriters • Als Autor bewerben'
+meta_description: 'Wir vermitteln akademische Freelancer - Bewerben Sie sich als Autor, Ghostwriter, Lektor, Korrektor, Übersetzer und/oder Coach.'
 ---
