@@ -52,11 +52,22 @@ teaser:
             attrs:
               align: center
         text: 'Arbeit und als anschauliches Beispiel für unsere Qualitätsstandards auf akademischem Niveau. Benötigen Sie noch weitere Unterstützung?'
+  -
+    type: set
+    attrs:
+      values:
+        type: button
+        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        color: '#FF6606'
+        spacing_top: false
+  -
+    type: paragraph
 teaser_bg:
   - seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619648889
+updated_at: 1619648934
 replicator:
   -
     bard:
