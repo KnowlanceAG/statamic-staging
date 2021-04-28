@@ -60,7 +60,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619632656
+updated_at: 1619633811
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -92,7 +92,7 @@ replicator:
                         zahl: '4,8/5'
                         beschreibung: 'Trustscore auf Trustpilot'
                       -
-                        zahl: '4,8/5'
+                        zahl: '3.183'
                         beschreibung: 'Akademische Experten'
               -
                 type: paragraph
