@@ -462,7 +462,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619616981
+updated_at: 1619617960
 page_title: 'GWriters • Allgemeine Geschäftsbedingungen'
 template: without-teaser-with-sidebar
 meta_title: 'GWriters • Allgemeine Geschäftsbedingungen'
