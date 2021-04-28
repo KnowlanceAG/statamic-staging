@@ -239,6 +239,13 @@ replicator:
             type: bilder
             assets:
               - akademie/tabellenverzeichnis/Tabelle-einfugen-word-239x300.png
+            has_border: true
+      -
+        type: set
+        attrs:
+          values:
+            type: bilder
+            assets:
               - akademie/tabellenverzeichnis/Tabellentools-word.png
             has_border: true
       -
@@ -318,8 +325,15 @@ replicator:
             type: bilder
             assets:
               - akademie/tabellenverzeichnis/Tabellenverzeichnis-word.png
-              - akademie/tabellenverzeichnis/Tabelle-andern-word-1-300x101.png
             has_border: true
+      -
+        type: set
+        attrs:
+          values:
+            type: bilder
+            assets:
+              - akademie/tabellenverzeichnis/Tabelle-andern-word-1-300x101.png
+            has_border: false
       -
         type: paragraph
         content:
@@ -333,6 +347,13 @@ replicator:
             type: bilder
             assets:
               - akademie/tabellenverzeichnis/Tabelle-aktualisieren-word.png
+            has_border: true
+      -
+        type: set
+        attrs:
+          values:
+            type: bilder
+            assets:
               - akademie/tabellenverzeichnis/Aktualisiertes-Verzeichnis-word.png
             has_border: true
       -
@@ -374,7 +395,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619568230
+updated_at: 1619568595
 academy_short_text-headline: Abkürzungsverzeichnis
 academy_short_text: 'Nutzen Sie unsere Inhaltsverzeichnis Vorlage mit automatischer Formatierung für Ihre Abschlussarbeit.'
 use_meta_keywords: false
