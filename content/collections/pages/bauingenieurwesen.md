@@ -21,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Ghostwriter civil engineering'
+        text: 'Ghostwriter Bauingenieurwesen'
   -
     type: paragraph
     content:
@@ -39,7 +39,7 @@ teaser:
             attrs:
               color: 'rgb(68, 68, 68)'
               hex: '#000'
-        text: 'Help from experts and academic ghostwriters in civil engineering - quickly, discreetly and repeatedly checked for quality and plagiarism.'
+        text: 'Hilfe durch Experten und akademische Ghostwriter im Bauingenieurwesen – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: paragraph
   -
@@ -55,7 +55,7 @@ teaser:
     type: paragraph
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1619618327
+updated_at: 1619619978
 replicator:
   -
     columns-replicator:
@@ -93,14 +93,6 @@ replicator:
                     assets:
                       - Anzahl-der-Studierenden-2.png
                     has_border: false
-              -
-                type: paragraph
-                content:
-                  -
-                    type: image
-                    attrs:
-                      src: ''
-                      alt: null
               -
                 type: paragraph
                 content:
@@ -747,6 +739,30 @@ replicator:
                         cells:
                           - null
                           - '-fachgebundene Hochschulreife'
+                      -
+                        cells:
+                          - null
+                          - '-Fachhochschulreife'
+                      -
+                        cells:
+                          - null
+                          - '-Je nach Hochschule kann ein NC formuliert sein'
+                      -
+                        cells:
+                          - null
+                          - '-Vorpraktikum im Bereich Bauingenieurwesen'
+                      -
+                        cells:
+                          - 'Master Voraussetzungen:'
+                          - '-Guter Bachelorabschluss'
+                      -
+                        cells:
+                          - null
+                          - '-Je nach Vertiefungsrichtung und Hochschulen unterscheiden sich die Zulassungsvoraussetzungen, z.B. Konstruktiver Ingenieurbau (50 ECTS)'
+                      -
+                        cells:
+                          - null
+                          - '-Gute Englischkenntnisse'
               -
                 type: paragraph
               -
@@ -836,19 +852,24 @@ replicator:
                     type: text
                     text: zusehen.
               -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - aufbau-des-Bauingenieurwesenstudiums-e1610967931796.png
+                    has_border: false
+              -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: '[caption id="attachment_23431" align="aligncenter" width="750"]'
-                  -
-                    type: image
-                    attrs:
-                      src: null
-                      alt: 'aufbau des Bauingenieurwesen-Studiums'
-                  -
-                    type: text
-                    text: ' Aufbau eines Bachelorstudienplans von Bauingenieurwesen an der Hochschule Darmstadt (Quelle: Hochschule Darmstadt-Bauingenieurwesen, 2021)[/caption]'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Aufbau eines Bachelorstudienplans von Bauingenieurwesen an der Hochschule Darmstadt (Quelle: Hochschule Darmstadt-Bauingenieurwesen, 2021)'
               -
                 type: paragraph
                 content:
@@ -869,19 +890,24 @@ replicator:
                     type: text
                     text: ' abzugeben, ist nicht ganz einfach. Es müssen sehr viele fachbezogene Begriffe und mathematisches Wissen verwendet werden. Daher wird oft auf Google nach „Ghostwriter Bachelorarbeit Bauingenieurwesen“ gesucht. Das Masterstudium ist dann von Spezialisierungen geprägt. Klassische Spezialsierungen finden sich hier in den Fachbereichen Konstruktion, Umwelttechnik, Baubetrieb sowie Verkehrs- und Raumplanung. Um im Studium des Bauingenieurwesens erfolgreich zu sein, können in all diesen Fällen akademische Bauingenieurwesen Ghostwriter von GWriters helfen. Denn sie haben dieses Grundlagenwissen und können Sie bei der Erstellung von wissenschaftlichen Mustervorlagen unterstützen. Auch an der Grafik ist der Schwierigkeitsgrad von Bauingenieurwesen Studium besser zu erkennen. Nur 17,3 Prozent der Studierenden im Bauingenieurwesen bestehen ihren Abschluss.'
               -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - Anteil-der-bestandenen-Abschluesse-im-Jahr-2019.png
+                    has_border: false
+              -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: '[caption id="attachment_23429" align="aligncenter" width="605"]'
-                  -
-                    type: image
-                    attrs:
-                      src: null
-                      alt: 'Ghostwriter Bauingenieurwesen: Anteil der bestandenen Abschlüsse im Jahr 2019'
-                  -
-                    type: text
-                    text: ' Anteil der bestandenen Studium-Abschlüsse im Jahr 2019 (Quelle: eigene Darstellung in Anlehnung Statista, 2019)[/caption]'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Anteil der bestandenen Studium-Abschlüsse im Jahr 2019 (Quelle: eigene Darstellung in Anlehnung Statista, 2019)'
               -
                 type: heading
                 attrs:
@@ -1128,11 +1154,13 @@ replicator:
                     type: text
                     text: 'Tätigkeitsfelder im Bauingenieurwesen'
               -
+                type: set
+                attrs:
+                  values:
+                    type: insert_html
+                    html: '<table id="supsystic-table-29" class="supsystic-table border stripe lightboxImg cell-border dataTable no-footer oneColumn" data-id="29" data-view-id="29_74714" data-title="Bauingenieurwesen" data-currency-format="$1,000.00" data-percent-format="10.00%" data-date-format="DD.MM.YYYY" data-time-format="HH:mm" data-features="[&quot;after_table_loaded_script&quot;]" data-search-value="" data-lightbox-img="" data-head-rows-count="1" data-pagination-length="50,100,All" data-auto-index="off" data-searching-settings="{&quot;columnSearchPosition&quot;:&quot;bottom&quot;,&quot;minChars&quot;:&quot;0&quot;}" data-lang="default" data-override="{&quot;emptyTable&quot;:&quot;&quot;,&quot;info&quot;:&quot;&quot;,&quot;infoEmpty&quot;:&quot;&quot;,&quot;infoFiltered&quot;:&quot;&quot;,&quot;lengthMenu&quot;:&quot;&quot;,&quot;search&quot;:&quot;&quot;,&quot;zeroRecords&quot;:&quot;&quot;,&quot;exportLabel&quot;:&quot;&quot;,&quot;file&quot;:&quot;default&quot;}" data-merged="[]" data-responsive-mode="0" data-from-history="0" role="grid" style="width: 100%;"><thead><tr role="row"><th class="" style="width:33.3333%; padding: 0 !important;" rowspan="1" colspan="1" data-original-value="" data-order=""></th><th class="" style="width:33.3333%; padding: 0 !important;" rowspan="1" colspan="1" data-original-value="" data-order=""></th><th class="" style="width:33.3333%; padding: 0 !important;" rowspan="1" colspan="1" data-original-value="" data-order=""></th></tr></thead><tbody><tr class="odd"><td data-cell-id="A1" data-x="0" data-y="1" data-db-index="1" class="bold color-fa4d03" data-cell-type="text" data-original-value="Fachbereich" data-order="Fachbereich" style="color: rgb(250, 77, 3);">Fachbereich</td><td data-cell-id="B1" data-x="1" data-y="1" data-db-index="1" class="bold color-fa4d03" data-cell-type="text" data-original-value="Tätigkeitsgebiet" data-order="Tätigkeitsgebiet" style="color: rgb(250, 77, 3);">Tätigkeitsgebiet</td><td data-cell-id="C1" data-x="2" data-y="1" data-db-index="1" class="bold color-fa4d03" data-cell-type="text" data-original-value="Tätigkeit" data-order="Tätigkeit" style="color: rgb(250, 77, 3);">Tätigkeit</td></tr><tr class="even"><td data-cell-id="A2" data-x="0" data-y="2" data-db-index="2" class="bold" data-cell-type="text" data-original-value="Ingenieurbau (Massiv-/Stahl-/Holzbau)" data-order="Ingenieurbau (Massiv-/Stahl-/Holzbau)">Ingenieurbau (Massiv-/Stahl-/Holzbau)</td><td data-cell-id="B2" data-x="1" data-y="2" data-db-index="2" class="" data-cell-type="text" data-original-value="Halle, Häuser, Brücken, Tunnel, Talsperren, Türme" data-order="Halle, Häuser, Brücken, Tunnel, Talsperren, Türme">Halle, Häuser, Brücken, Tunnel, Talsperren, Türme</td><td data-cell-id="C2" data-x="2" data-y="2" data-db-index="2" class="" data-cell-type="text" data-original-value="-Entwurf und Wahl des Werkstoffs, -konstruktive Durchbildung, -Berechnung und Bemessung von Ingenieurbauwerken" data-order="-Entwurf und Wahl des Werkstoffs, -konstruktive Durchbildung, -Berechnung und Bemessung von Ingenieurbauwerken">-Entwurf und Wahl des Werkstoffs, -konstruktive Durchbildung, -Berechnung und Bemessung von Ingenieurbauwerken</td></tr><tr class="odd"><td data-cell-id="A3" data-x="0" data-y="3" data-db-index="3" class="bold" data-cell-type="text" data-original-value="Wasserwirtschaft/Wasserbau" data-order="Wasserwirtschaft/Wasserbau">Wasserwirtschaft/Wasserbau</td><td data-cell-id="B3" data-x="1" data-y="3" data-db-index="3" class="" data-cell-type="text" data-original-value="Staudämmen, Kanalisation, Deichen, Schiffshebewerken" data-order="Staudämmen, Kanalisation, Deichen, Schiffshebewerken">Staudämmen, Kanalisation, Deichen, Schiffshebewerken</td><td data-cell-id="C3" data-x="2" data-y="3" data-db-index="3" class="" data-cell-type="text" data-original-value="-Planung und der Konstruktion von Anlagen zur Wasserversorgung/-entsorgung, Abwasserableitung und -reinigung" data-order="-Planung und der Konstruktion von Anlagen zur Wasserversorgung/-entsorgung, Abwasserableitung und -reinigung">-Planung und der Konstruktion von Anlagen zur Wasserversorgung/-entsorgung, Abwasserableitung und -reinigung</td></tr><tr class="even"><td data-cell-id="A4" data-x="0" data-y="4" data-db-index="4" class="bold" data-cell-type="text" data-original-value="Raum- und Infrastrukturplanung/Verkehrswesen" data-order="Raum- und Infrastrukturplanung/Verkehrswesen">Raum- und Infrastrukturplanung/Verkehrswesen</td><td data-cell-id="B4" data-x="1" data-y="4" data-db-index="4" class="" data-cell-type="text" data-original-value="Straßenbau, Schienenwegen-Bau (Eisenbahn), Stadt- und Landesplanung, Siedlungswasserwirtschaft" data-order="Straßenbau, Schienenwegen-Bau (Eisenbahn), Stadt- und Landesplanung, Siedlungswasserwirtschaft">Straßenbau, Schienenwegen-Bau (Eisenbahn), Stadt- und Landesplanung, Siedlungswasserwirtschaft</td><td data-cell-id="C4" data-x="2" data-y="4" data-db-index="4" class="" data-cell-type="text" data-original-value="-Planen, entwerfen, bauen und betreiben Systeme im Verkehrswesen" data-order="-Planen, entwerfen, bauen und betreiben Systeme im Verkehrswesen">-Planen, entwerfen, bauen und betreiben Systeme im Verkehrswesen</td></tr><tr class="odd"><td data-cell-id="A5" data-x="0" data-y="5" data-db-index="5" class="bold" data-cell-type="text" data-original-value="Baubetrieb/Baumanagement" data-order="Baubetrieb/Baumanagement">Baubetrieb/Baumanagement</td><td data-cell-id="B5" data-x="1" data-y="5" data-db-index="5" class="" data-cell-type="text" data-original-value="-Bauindustrie, Baumaschinenindustrie, Ingenieurbüros: Projektentwickler-steurer, Controlling, Behörde/Verbänden" data-order="-Bauindustrie, Baumaschinenindustrie, Ingenieurbüros: Projektentwickler-steurer, Controlling, Behörde/Verbänden">-Bauindustrie, Baumaschinenindustrie, Ingenieurbüros: Projektentwickler-steurer, Controlling, Behörde/Verbänden</td><td data-cell-id="C5" data-x="2" data-y="5" data-db-index="5" class="" data-cell-type="text" data-original-value="-Bauleiter, -Kalkulator, -Arbeitsvorbereiter, -Projektentwickler-steurer, -Controlling" data-order="-Bauleiter, -Kalkulator, -Arbeitsvorbereiter, -Projektentwickler-steurer, -Controlling">-Bauleiter, -Kalkulator, -Arbeitsvorbereiter, -Projektentwickler-steurer, -Controlling</td></tr><tr class="even"><td data-cell-id="A6" data-x="0" data-y="6" data-db-index="6" class="bold" data-cell-type="text" data-original-value="Grundbau/Geotechnik" data-order="Grundbau/Geotechnik">Grundbau/Geotechnik</td><td data-cell-id="B6" data-x="1" data-y="6" data-db-index="6" class="" data-cell-type="text" data-original-value="-Dammbau, Deponiebau, Tunnelbau z.B. U-Bahn-Bau" data-order="-Dammbau, Deponiebau, Tunnelbau z.B. U-Bahn-Bau">-Dammbau, Deponiebau, Tunnelbau z.B. U-Bahn-Bau</td><td data-cell-id="C6" data-x="2" data-y="6" data-db-index="6" class="" data-cell-type="text" data-original-value="-Geotechnische Untersuchung des Baugrundes, -Sie entscheiden wie Bauwerke fundiert werden" data-order="-Geotechnische Untersuchung des Baugrundes, -Sie entscheiden wie Bauwerke fundiert werden">-Geotechnische Untersuchung des Baugrundes, -Sie entscheiden wie Bauwerke fundiert werden</td></tr><tr class="odd"><td data-cell-id="A7" data-x="0" data-y="7" data-db-index="7" class="bold" data-cell-type="text" data-original-value="Umwelttechnik" data-order="Umwelttechnik">Umwelttechnik</td><td data-cell-id="B7" data-x="1" data-y="7" data-db-index="7" class="" data-cell-type="text" data-original-value="-Industriefirmen, Bauaufsicht, Bauverwaltung" data-order="-Industriefirmen, Bauaufsicht, Bauverwaltung">-Industriefirmen, Bauaufsicht, Bauverwaltung</td><td data-cell-id="C7" data-x="2" data-y="7" data-db-index="7" class="" data-cell-type="text" data-original-value="-Zuständig für umweltverträgliche Bauwerken für bessere Berücksichtigung der Nachhaltigkeit von Baumaßnahmen" data-order="-Zuständig für umweltverträgliche Bauwerken für bessere Berücksichtigung der Nachhaltigkeit von Baumaßnahmen">-Zuständig für umweltverträgliche Bauwerken für bessere Berücksichtigung der Nachhaltigkeit von Baumaßnahmen</td></tr><tr class="even"><td data-cell-id="A8" data-x="0" data-y="8" data-db-index="8" class="bold" data-cell-type="text" data-original-value="Bauinformatik" data-order="Bauinformatik">Bauinformatik</td><td data-cell-id="B8" data-x="1" data-y="8" data-db-index="8" class="" data-cell-type="text" data-original-value="-Softwarefirmen, Unternehmen der Bauwirtschaft, Ingenieur- und Planungsbüros" data-order="-Softwarefirmen, Unternehmen der Bauwirtschaft, Ingenieur- und Planungsbüros">-Softwarefirmen, Unternehmen der Bauwirtschaft, Ingenieur- und Planungsbüros</td><td data-cell-id="C8" data-x="2" data-y="8" data-db-index="8" class="" data-cell-type="text" data-original-value="-Entwickeln Methoden für Informationstechnische Aufgabenstellungen und Probleme des Bauingenieurwesen, -Genaue Kontrolle von Planungs-Bauprozesse mit Hilfe von Computern &amp;amp; Softwares" data-order="-Entwickeln Methoden für Informationstechnische Aufgabenstellungen und Probleme des Bauingenieurwesen, -Genaue Kontrolle von Planungs-Bauprozesse mit Hilfe von Computern &amp;amp; Softwares">-Entwickeln Methoden für Informationstechnische Aufgabenstellungen und Probleme des Bauingenieurwesen, -Genaue Kontrolle von Planungs-Bauprozesse mit Hilfe von Computern &amp; Softwares</td></tr></tbody><style>#supsystic-table-29.oneColumnWithLabels td:nth-of-type(1):before { content: ""; }#supsystic-table-29.oneColumnWithLabels td:nth-of-type(2):before { content: ""; }#supsystic-table-29.oneColumnWithLabels td:nth-of-type(3):before { content: ""; }</style></table>'
+              -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '[supsystic-tables id=29]'
               -
                 type: heading
                 attrs:
@@ -1174,7 +1202,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -1190,4 +1218,6 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: with-side-bar
+meta_title: 'Bauingenieurwesen • GWriters.de'
+meta_description: 'Bauingenieurwesen studieren? Ablauf und Abschluss-Hilfe durch Experten und akademische Ghostwriter im Bauingenieurwesen✅'
 ---
