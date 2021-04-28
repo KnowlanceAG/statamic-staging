@@ -55,7 +55,7 @@ teaser:
     type: paragraph
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1619619101
+updated_at: 1619619303
 replicator:
   -
     columns-replicator:
@@ -93,14 +93,6 @@ replicator:
                     assets:
                       - Anzahl-der-Studierenden-2.png
                     has_border: false
-              -
-                type: paragraph
-                content:
-                  -
-                    type: image
-                    attrs:
-                      src: ''
-                      alt: null
               -
                 type: paragraph
                 content:
