@@ -30,6 +30,8 @@ replicator:
             padding-y: '16'
       -
         type: paragraph
+      -
+        type: paragraph
         content:
           -
             type: text
@@ -219,7 +221,7 @@ replicator:
 page_title: 'Wie hoch sind die Preise bei GWriters? • GWriters'
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619642961
+updated_at: 1619643778
 template: without-teaser-with-sidebar
 meta_title: 'Wie hoch sind die Preise bei GWriters? • GWriters'
 meta_description: 'Preissicherheit bei GWriters.de: Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Ghostwriting: Leistungen, Ablauf, Kosten & Preise.'
