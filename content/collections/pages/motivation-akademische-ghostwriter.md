@@ -27,7 +27,7 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: '16'
+            padding-y: '20'
       -
         type: paragraph
         content:
@@ -167,7 +167,7 @@ page_title: 'Welche Motivation haben akademische Ghostwriter? • GWriters'
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619642379
+updated_at: 1619643517
 meta_title: 'Welche Motivation haben akademische Ghostwriter? • GWriters'
 meta_description: 'Welche Motivation haben akademische Ghostwriter? Alle Antworten von der Ghostwriter Agentur GWriters.de.'
 use_meta_keywords: false
