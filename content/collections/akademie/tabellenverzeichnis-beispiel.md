@@ -395,8 +395,8 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619577686
-academy_short_text-headline: 'Tabellenverzeichnis Beispiel'
+updated_at: 1619578674
+academy_short_text-headline: Tabellenverzeichnis
 academy_short_text: 'Nutzen Sie unser Tabellenverzeichnis Beispiel für jede wissenschaftliche Arbeit mit einer Vielzahl von Tabellen.'
 use_meta_keywords: false
 no_index_page: false
