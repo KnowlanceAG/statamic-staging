@@ -39,7 +39,11 @@
                         {{ author }}
                             <div class="-mb-5 inline-block sm:flex items-baseline">
                                 <p class="mr-2 text-md">
-                                    <span class="text-orange-500">{{ name }}</span>
+                                    {{ if slug }}
+                                        <span class="text-orange-500"><a href="/author/{{ slug }}">{{ name }}</a></span>
+                                    {{ else }}
+                                        <span class="text-orange-500">{{ name }}</span>
+                                    {{ /if }}
                                 </p>
                                 <span class="text-xs text-gray-700 inline team-position">{{ position }}</span>
                             </div>
