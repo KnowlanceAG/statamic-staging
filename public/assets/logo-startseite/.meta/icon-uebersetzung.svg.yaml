@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'übersetzung service icon'
 size: 4992
-last_modified: 1616757646
+last_modified: 1619516965
 width: '120'
 height: '120'
 mime_type: image/svg+xml
