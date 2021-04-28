@@ -114,7 +114,7 @@ replicator:
             type: bilder
             assets:
               - akademie/Tabellenverzeichnis-724x1024.jpg
-            has_border: true
+            has_border: false
       -
         type: paragraph
         content:
@@ -239,7 +239,7 @@ replicator:
             type: bilder
             assets:
               - akademie/tabellenverzeichnis/Tabelle-einfugen-word-239x300.png
-            has_border: true
+            has_border: false
       -
         type: set
         attrs:
@@ -247,7 +247,7 @@ replicator:
             type: bilder
             assets:
               - akademie/tabellenverzeichnis/Tabellentools-word.png
-            has_border: true
+            has_border: false
       -
         type: heading
         attrs:
@@ -269,7 +269,7 @@ replicator:
             type: bilder
             assets:
               - akademie/tabellenverzeichnis/Beschriftung-einfugen-tabelle-word.png
-            has_border: true
+            has_border: false
       -
         type: paragraph
         content:
@@ -297,7 +297,7 @@ replicator:
             type: bilder
             assets:
               - akademie/tabellenverzeichnis/Abbildungsverzeichnis-einfugen-tabelle-word.png
-            has_border: true
+            has_border: false
       -
         type: paragraph
         content:
@@ -325,7 +325,7 @@ replicator:
             type: bilder
             assets:
               - akademie/tabellenverzeichnis/Tabellenverzeichnis-word.png
-            has_border: true
+            has_border: false
       -
         type: set
         attrs:
@@ -347,7 +347,7 @@ replicator:
             type: bilder
             assets:
               - akademie/tabellenverzeichnis/Tabelle-aktualisieren-word.png
-            has_border: true
+            has_border: false
       -
         type: set
         attrs:
@@ -355,7 +355,7 @@ replicator:
             type: bilder
             assets:
               - akademie/tabellenverzeichnis/Aktualisiertes-Verzeichnis-word.png
-            has_border: true
+            has_border: false
       -
         type: heading
         attrs:
@@ -377,7 +377,7 @@ replicator:
             type: bilder
             assets:
               - akademie/tabellenverzeichnis/Tabelle-aktualisieren-word.png
-            has_border: true
+            has_border: false
       -
         type: heading
         attrs:
@@ -395,7 +395,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619568595
+updated_at: 1619568687
 academy_short_text-headline: Abkürzungsverzeichnis
 academy_short_text: 'Nutzen Sie unsere Inhaltsverzeichnis Vorlage mit automatischer Formatierung für Ihre Abschlussarbeit.'
 use_meta_keywords: false
