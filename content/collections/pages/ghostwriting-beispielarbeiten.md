@@ -54,7 +54,7 @@ teaser_bg:
   - seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619648211
+updated_at: 1619648787
 replicator:
   -
     bard:
@@ -63,7 +63,7 @@ replicator:
         attrs:
           values:
             type: example_work
-            ex_img_right: false
+            ex_img_right: true
             ex_image: seiten/besipielarbeit.JPG
             ex_title: 'Auswirkungen der Digitalisierung auf die Wertschöpfungskette'
             ex_fachbereich:
@@ -80,13 +80,65 @@ replicator:
         attrs:
           values:
             type: example_work
-            ex_img_right: true
+            ex_img_right: false
             ex_image: seiten/beispielarbeiten-1.JPG
             ex_title: 'Weiterentwicklung der Baseler Eigenmittelübereinkunft'
             ex_type: Hausarbeit
             ex_pages: '10'
             ex_zitation: 'Harvard Style'
             ex_button_link: 'entry::21ef3416-f1fd-43eb-8e38-ec597763c45f'
+            ex_button_text: Weiterlesen
+            ex_color: '#FF6606'
+            ex_button_align: justify-start
+            ex_spacing_top: false
+      -
+        type: set
+        attrs:
+          values:
+            type: example_work
+            ex_img_right: true
+            ex_image: seiten/Beispielarbeiten-2.JPG
+            ex_title: 'Blockchain-Technologie – Nutzen, Potenziale und Barrieren von Smart Contracts'
+            ex_fachbereich:
+              - 402a9a5e-f6bc-4547-959a-ca00601c143d
+            ex_type: Seminararbeit
+            ex_pages: '10'
+            ex_zitation: 'APA Style'
+            ex_button_link: 'entry::1b545c84-3d42-4072-a16a-316bcbae36cd'
+            ex_button_text: Weiterlesen
+            ex_color: '#FF6606'
+            ex_button_align: justify-start
+            ex_spacing_top: false
+      -
+        type: set
+        attrs:
+          values:
+            type: example_work
+            ex_img_right: false
+            ex_image: seiten/beispielarbeiten-4.JPG
+            ex_title: 'Bewertung von Embryonenforschung aus religiöser, gesellschaftspolitischer und ökonomischer Sicht – Eine Darstellung unterschiedlicher Standpunkte'
+            ex_fachbereich:
+              - 686e5203-e17a-4101-809a-07c9f799ccfa
+            ex_type: Hausarbeit
+            ex_pages: '10'
+            ex_zitation: 'Deutsche Zitierweise (Zitieren mit Fußnoten)'
+            ex_button_link: 'entry::dac985cc-a5b5-418c-8ad8-b96ec63051db'
+            ex_button_text: Weiterlesen
+            ex_color: '#FF6606'
+            ex_button_align: justify-start
+            ex_spacing_top: false
+      -
+        type: set
+        attrs:
+          values:
+            type: example_work
+            ex_img_right: true
+            ex_image: seiten/beispielarbeiten-3.JPG
+            ex_title: 'Sexuelle und Reproduktive Rechte – Ein Menschenrecht zum Schutz von LGBTIQ*-Menschen? Eine politikwissenschaftlich-historische Analyse'
+            ex_type: Facharbeit
+            ex_pages: '10'
+            ex_zitation: 'Deutsche Zitierweise (Zitieren mit Fußnoten)'
+            ex_button_link: 'entry::f206afbb-bc01-48a0-bedb-ac88f20e776e'
             ex_button_text: Weiterlesen
             ex_color: '#FF6606'
             ex_button_align: justify-start
