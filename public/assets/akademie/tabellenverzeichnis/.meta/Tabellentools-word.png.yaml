@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Tabellentools word'
 size: 9413
 last_modified: 1619534253
 width: 675
