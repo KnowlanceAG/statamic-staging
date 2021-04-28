@@ -133,7 +133,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619578607
+updated_at: 1619578641
 downloads:
   - akademie/Praesentation.pptx
 from_the_blog:
@@ -158,9 +158,9 @@ twitter_card_type_page: summary
 more_templates:
   - 56a76afe-cd5a-4ab4-91c3-39b2b98ffe32
   - b609ef85-dc84-4405-93d0-1b92d92ca1a4
+  - 8a46d375-fe18-42c5-ab50-a1682b5664de
   - e1eeb52b-af75-4803-a498-6678be9b695d
   - 6a4a507c-f04f-4ceb-9942-3c34d896faad
-  - 8a46d375-fe18-42c5-ab50-a1682b5664de
   - 92638305-5538-4e5c-9f2a-eaed57856af6
   - 1b8783dd-1179-4eb1-a5a9-27304b468a8e
   - 47857fec-2594-4e17-9331-52e3a93020d5
