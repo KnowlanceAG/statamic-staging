@@ -55,7 +55,7 @@ teaser:
     type: paragraph
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1619618061
+updated_at: 1619618327
 replicator:
   -
     columns-replicator:
@@ -74,7 +74,17 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Everyday social life is becoming more and more sustainable. The civil engineering course plays an important role in today''s modern world, because German society is becoming more and more digital and increasingly mobile. The industrial plants, residential construction projects or huge wind farms that we encounter every day are also planned, projected and implemented by civil engineers. Furthermore, civil engineers deal with all types of structures. They provide information on the planning, technology, statics and functionality of these buildings. These few terms already show the great diversity in the fields of activity that civil engineers deal with. The civil engineering course therefore includes many future-oriented topics. The graphic also shows that that civil engineering studies were in great demand in 2019 and 2020. It can also be seen that the proportion of civil engineering students is increasing from year to year.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Der gesellschaftliche Alltag wird immer nachhaltiger ausgerichtet. Hier spielt der Studiengang Bauingenieurwesen in der heutigen modernen Welt eine wichtige Rolle, denn die deutsche Gesellschaft wird immer digitaler und ist zunehmend mobil. Auch die Industrieanlagen, Wohnungsbauprojekte oder riesigen Windparks, die uns täglich begegnen, haben Bauingenieure geplant, projektiert und realisiert. Des Weiteren beschäftigen sich Bauingenieure mit allen Arten von Bauwerken. Sie liefern Informationen zu Planung, Technik, Statik und Funktionalität dieser Bauten. Diese wenigen Begriffe zeigen auch schon die große Vielfalt in den Tätigkeitsfeldern, mit der sich Bauingenieure beschäftigen. Daher umfasst das Studium Bauingenieurwesen viele zukunftweisende Themen. Auch an der Grafik ist es zu erkennen, dass das Bauingenieurwesen Studium in den Jahren 2019 und 2020 sehr gefragt war. Auch zu erkennen ist, dass der Anteil an Bauingenieurwesen-Studenten von Jahr zu Jahr zunimmt.'
               -
                 type: set
                 attrs:
@@ -108,31 +118,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Anzahl der Bauingenieurstudenten in Deutschland von 2009 bis 2019/20 (Quelle: eigene'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: italic
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: ' Darstellung in Anlehnung Statista, 2020)'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Number of civil engineering students in Germany from 2009 to 2019/20 (source: own illustration based on Statista, 2020) [/ caption]'
+                    text: 'Anzahl der Bauingenieurstudenten in Deutschland von 2009 bis 2019/20 (Quelle: eigene Darstellung in Anlehnung Statista, 2020)'
               -
                 type: heading
                 attrs:
@@ -140,26 +126,60 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'How can civil engineering ghostwriters help?'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Wie können Bauingenieurwesen Ghostwriter helfen?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'In the academic field or in the master’s degree, civil engineering ghostwriters from GWriters can provide you with support. Because these '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Im akademischen Bereich bzw. im Masterstudium können Bauingenieurwesen Ghostwriter von GWriters Ihnen unterstützend zur Seite stehen. Denn diese\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.ch/ghostwriting/wissenschaftlicher-ghostwriter'
+                          href: 'https://gwriters.de/ghostwriting/wissenschaftlicher-ghostwriter'
                           target: null
                           rel: null
-                    text: 'academic ghostwriters'
+                    text: 'akademischen Ghostwriter'
                   -
                     type: text
-                    text: ' von GWriters are all involved in business practice. They are trained engineers, have many years of practical experience, but also the corresponding scientific know-how. You know which scientific databases have to be accessed and which research strategies are to be used. Civil engineering ghostwriters transform knowledge from business practice into theory. Here you will get up-to-date knowledge at first hand and, under certain circumstances, you will receive support in creating scientific templates. This can be in the area of ​​project work, term papers, bachelor and master theses. Academic coaching can also take place here, be it for accompanying work or practical projects.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_von GWriters sind alle in der unternehmerischen Praxis tätig. Sie sind ausgebildete Ingenieure, haben viele Jahre Praxiserfahrung aber auch das entsprechende wissenschaftliches Know-how. Sie wissen, auf welche wissenschaftliche Datenbanken zugegriffen werden muss und wissen welche Recherchestrategien anzuwenden sind. Bauingenieurwesen Ghostwriter transformieren das Wissen aus der unternehmerischen Praxis in die Theorie. \_Sie bekommen hier aktuelles Wissen aus erster Hand und erfahren eine Unterstützung unter Umständen bei der Erstellung von wissenschaftlichen Mustervorlagen. Dies kann im Bereich Projektarbeiten, Hausarbeiten, Bachelor- und Masterarbeiten sein. Auch akademische Coachings können hier stattfinden, sei es jetzt bei der Begleitung von Arbeiten oder aber auch von Praxisprojekten."
               -
                 type: paragraph
                 content:
@@ -168,90 +188,53 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'If you need support with your academic work in the field of civil engineering, you are welcome to '
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Wenn Sie bei Ihrer akademischen Arbeit im Fachbereich Bauingenieurwesen Unterstützung benötigen, dann können Sie uns gerne sofort eine\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: 'https://gwriters.de/anfrage'
                           target: null
                           rel: null
-                    text: send
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' us a '
+                    text: 'unverbindliche Anfrage schicken'
                   -
                     type: text
                     marks:
                       -
                         type: bold
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'https://gwriters.de/anfrage'
-                          target: null
-                          rel: null
-                    text: 'non-binding inquiry'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' immediately . We will get back to you within a few hours with a free offer and will be happy to call you if you would like a free telephone consultation. First of all: Of course, we cannot and are not allowed to prepare theses or other types of examinations for you, but we will be happy to create a high-quality template for you according to your individual specifications, which meets all academic standards and requirements.'
+                          align: start
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: '<span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: italic
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: SELRES
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'start">﻿</span><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: italic
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: SELRES
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'start">﻿</span>'
+                type: set
+                attrs:
+                  values:
+                    type: video
+                    video: 'https://youtu.be/TTMwVr5BNYU'
               -
                 type: heading
                 attrs:
@@ -731,11 +714,41 @@ replicator:
                     type: text
                     text: 'Zusammenfassung: Voraussetzungen'
               -
+                type: set
+                attrs:
+                  values:
+                    type: table
+                    table_structure:
+                      -
+                        cells:
+                          - 'Allgemeine Voraussetzungen:'
+                          - ''
+                      -
+                        cells:
+                          - 'Wissen:'
+                          - '-Mathematik'
+                      -
+                        cells:
+                          - null
+                          - '-Naturwissenschaften'
+                      -
+                        cells:
+                          - null
+                          - '-Statistik'
+                      -
+                        cells:
+                          - null
+                          - '-Fähigkeit zur Raumvorstellung'
+                      -
+                        cells:
+                          - 'Vorbildung:'
+                          - '-allgemeine Hochschulreife'
+                      -
+                        cells:
+                          - null
+                          - '-fachgebundene Hochschulreife'
+              -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '[supsystic-tables id=28]'
               -
                 type: heading
                 attrs:
