@@ -163,5 +163,17 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619645070
+updated_at: 1619645097
+page_title: 'Wie ist der Ablauf bei einem redaktionellen Auftrag? • GWriters'
+template: without-teaser-with-sidebar
+meta_title: 'Wie ist der Ablauf bei einem redaktionellen Auftrag? • GWriters'
+meta_description: 'Erfahren Sie mehr über de Ablauf eines redaktionellen Auftrags bei GWriters.de. Von Anfrage und Angebot bis zum fertigen Text von der Ghostwriter Agentur.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
