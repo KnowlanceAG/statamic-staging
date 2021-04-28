@@ -119,6 +119,15 @@ sections:
           type: text
           icon: text
           listable: hidden
+      -
+        handle: link_title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Link Text'
+          type: text
+          icon: text
+          listable: hidden
   kurz_text:
     display: 'Kurz Text'
     fields:
