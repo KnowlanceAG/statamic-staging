@@ -54,12 +54,13 @@ teaser:
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
+        spacing_top: false
   -
     type: paragraph
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619340425
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619632656
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -95,6 +96,7 @@ replicator:
                         beschreibung: 'Akademische Experten'
               -
                 type: paragraph
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -121,6 +123,7 @@ replicator:
                     open: 'Mo.-Fr. 9:00-18:00'
               -
                 type: paragraph
+            show_as_card: false
         type: row
         enabled: true
         single-col: false
@@ -157,6 +160,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                     text: 'Unsere Leistungen im Überblick'
+            show_as_card: false
         type: row
         enabled: true
         single-col: false
@@ -204,8 +208,10 @@ replicator:
                     button_text: 'ALLE LEISTUNGEN IM ÜBERBLICK'
                     color: '#3F3F3F'
                     button_link: 'entry::849140c8-c582-4340-a2bc-446126149c9f'
+                    spacing_top: false
               -
                 type: paragraph
+            show_as_card: false
         type: row
         enabled: true
         single-col: false
@@ -260,6 +266,7 @@ replicator:
                         attrs:
                           color: 'rgb(153, 153, 153)'
                     text: 'Basierend auf den Bewertungen bei TrustPilot. Lesen Sie hier eine Auswahl:'
+            show_as_card: false
         type: row
         enabled: true
         single-col: false
@@ -277,6 +284,7 @@ replicator:
                     html: '<iframe frameborder="0" scrolling="no" title="Customer reviews powered by Trustpilot" loading="auto" src="https://widget.trustpilot.com/trustboxes/53aa8912dec7e10d38f59f36/index.html?templateId=53aa8912dec7e10d38f59f36&amp;businessunitId=50ff38960000640005212bff#locale=de-DE&amp;styleHeight=130px&amp;styleWidth=100%25&amp;theme=light&amp;stars=4%2C5&amp;schemaType=Organization" style="position: relative; height: 130px; width: 100%; border-style: none; display: block; overflow: hidden;"></iframe>'
               -
                 type: paragraph
+            show_as_card: false
         type: row
         enabled: true
         single-col: false
@@ -319,6 +327,7 @@ replicator:
                           target: null
                           rel: null
                     text: 'GWriters & Team in der Presse'
+            show_as_card: false
         type: row
         enabled: true
         single-col: false
@@ -335,8 +344,10 @@ replicator:
                     type: bilder
                     assets:
                       - presse/logo-brandeins.png
+                    has_border: false
               -
                 type: paragraph
+            show_as_card: false
           -
             bard:
               -
@@ -346,8 +357,10 @@ replicator:
                     type: bilder
                     assets:
                       - presse/logo-finicial.png
+                    has_border: false
               -
                 type: paragraph
+            show_as_card: false
           -
             bard:
               -
@@ -357,8 +370,10 @@ replicator:
                     type: bilder
                     assets:
                       - presse/logo-neon.png
+                    has_border: false
               -
                 type: paragraph
+            show_as_card: false
           -
             bard:
               -
@@ -368,8 +383,10 @@ replicator:
                     type: bilder
                     assets:
                       - presse/logo-waz.png
+                    has_border: false
               -
                 type: paragraph
+            show_as_card: false
           -
             bard:
               -
@@ -379,8 +396,10 @@ replicator:
                     type: bilder
                     assets:
                       - presse/logo-die-welt.png
+                    has_border: false
               -
                 type: paragraph
+            show_as_card: false
           -
             bard:
               -
@@ -390,8 +409,10 @@ replicator:
                     type: bilder
                     assets:
                       - presse/logo-businesspunk.png
+                    has_border: false
               -
                 type: paragraph
+            show_as_card: false
         type: row
         enabled: true
         single-col: false
@@ -449,6 +470,7 @@ replicator:
                           - 8935206f-2aaa-4c05-add4-dcf517deb92f
               -
                 type: paragraph
+            show_as_card: false
         type: row
         enabled: true
     remove_spacing: false
@@ -518,6 +540,7 @@ replicator:
                           target: null
                           rel: null
                     text: Präsentationen
+            show_as_card: false
           -
             bard:
               -
@@ -572,6 +595,7 @@ replicator:
                           target: null
                           rel: null
                     text: Seminararbeit
+            show_as_card: false
           -
             bard:
               -
@@ -626,6 +650,7 @@ replicator:
                           target: null
                           rel: null
                     text: 'Statistische Analysen'
+            show_as_card: false
           -
             bard:
               -
@@ -667,6 +692,7 @@ replicator:
                           target: null
                           rel: null
                     text: Masterarbeit
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -684,6 +710,7 @@ replicator:
         grid:
           -
             bard: null
+            show_as_card: false
           -
             bard:
               -
@@ -942,6 +969,7 @@ replicator:
                   -
                     type: text
                     text: 'Bei der Inanspruchnahme von Ghostwritern im akademischen Umfeld, also beispielsweise bei der Unterstützung von Bachelor- und Masterarbeiten, sowie Dissertationen und Habilitationen muss zwingend der rechtliche Rahmen eingehalten werden. Dies bedeutet, dass weiterhin eine eigenständige Erstellungen der Arbeiten der Studenten, Doktoranden oder Habilitanden stattfinden muss. Weil jeder Student diese Zusicherung gegenüber seiner Universität bindend eingeht, verstehen unsere Texte sich dem Grunde nach nur als Vorlagen und hilfreiche Leitfäden. GWriters hält sich strikt an europäische Gesetzgebungen. Dadurch steht Ihre Zusammenarbeit mit uns von Anfang an auf einem sicheren Fundament, die Legalität ist gewährleistet und Plagiatsvorwürfe können ausgeschlossen werden.'
+            show_as_card: false
         type: row
         enabled: true
         single-col: false
@@ -955,4 +983,5 @@ replicator:
     remove_spacing: false
     border: false
 meta_title: 'GWriters • Akademische Ghostwriter Agentur'
+meta_description: 'Als seriöse Ghostwriter Agentur steht Ihnen GWriters als professioneller Partner bei Ihrer wissenschaftlichen Arbeit zur Seite. Unsere akademischen Ghostwriter unterstützen Sie zuverlässig & diskret!'
 ---
