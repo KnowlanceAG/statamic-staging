@@ -149,8 +149,8 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619533055
-academy_short_text-headline: Abkürzungsverzeichnis
+updated_at: 1619569823
+academy_short_text-headline: 'Inhaltsverzeichnis Vorlage'
 academy_short_text: 'Nutzen Sie unsere Inhaltsverzeichnis Vorlage mit automatischer Formatierung für Ihre Abschlussarbeit.'
 use_meta_keywords: false
 no_index_page: false
