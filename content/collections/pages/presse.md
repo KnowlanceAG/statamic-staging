@@ -1,7 +1,8 @@
 ---
+id: 8bdfe06a-1a06-46e1-94d2-591c8f5faece
 title: Presse
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619157228
+updated_at: 1619540506
 replicator:
   -
     bard:
@@ -25,6 +26,7 @@ replicator:
             text: 'GWriters & Team in der Presse'
     type: editor
     enabled: true
+    show_as_card: false
   -
     collections:
       - presse
@@ -39,5 +41,4 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: without-teaser-with-sidebar
-id: 8bdfe06a-1a06-46e1-94d2-591c8f5faece
 ---

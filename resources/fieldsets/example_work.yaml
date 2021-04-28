@@ -1,0 +1,73 @@
+title: Beispielarbeiten
+fields:
+  -
+    handle: img_right
+    field:
+      display: 'Bild rechts'
+      type: toggle
+      icon: toggle
+      instructions: 'Text links'
+      listable: hidden
+  -
+    handle: image
+    field:
+      mode: grid
+      container: assets
+      restrict: false
+      allow_uploads: true
+      max_files: 1
+      display: Deckblatt
+      type: assets
+      icon: assets
+      listable: hidden
+  -
+    handle: title
+    field:
+      input_type: text
+      antlers: false
+      display: Titel
+      type: text
+      icon: text
+      listable: hidden
+  -
+    handle: fachbereich
+    field:
+      mode: default
+      collections:
+        - akademie
+        - blog
+        - pages
+        - presse
+      display: Fachbereich
+      type: entries
+      icon: entries
+      listable: hidden
+  -
+    handle: type
+    field:
+      input_type: text
+      antlers: false
+      display: Arbeitsart
+      type: text
+      icon: text
+      listable: hidden
+  -
+    handle: pages
+    field:
+      input_type: text
+      antlers: false
+      display: Seitenanzahl
+      type: text
+      icon: text
+      listable: hidden
+  -
+    handle: zitation
+    field:
+      input_type: text
+      antlers: false
+      display: Zitation
+      type: text
+      icon: text
+      listable: hidden
+  -
+    import: ce_button

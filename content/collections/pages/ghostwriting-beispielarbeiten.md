@@ -53,8 +53,8 @@ teaser:
 teaser_bg:
   - seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619614966
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1619632546
 replicator:
   -
     bard:
@@ -160,6 +160,23 @@ replicator:
             dateien:
               - seiten/besipielarbeit.JPG
             img_size: w-1/4
+      -
+        type: set
+        attrs:
+          values:
+            type: example_work
+            ex_img_right: false
+            ex_image: seiten/besipielarbeit.JPG
+            ex_title: 'Auswirkungen der Digitalisierung auf die Wertschöpfungskette'
+            ex_fachbereich:
+              - 8a46d375-fe18-42c5-ab50-a1682b5664de
+            ex_type: Seminararbeit
+            ex_pages: '12'
+            ex_zitation: 'Harvard Style'
+            ex_button_link: irgendwas
+            ex_button_text: Weiterlesen
+            ex_spacing_top: false
+            ex_button_align: justify-start
       -
         type: paragraph
     show_as_card: false

@@ -22,7 +22,13 @@
                         <h4 class="mb-6 text-center with-cutter">Weitere Vorlagen</h4>
                         <div class="grid grid-cols-3 gap-8">
                             {{ more_templates }}
-                                <a href="{{ url }}" class="p-3 text-center text-xs bg-gray-300 rounded-sm hover:bg-gray-500">{{ title }}</a>
+                                <a href="{{ url }}" class="p-3 text-center text-xs bg-gray-300 rounded-sm hover:bg-gray-500">
+                                    {{ if link_title }}
+                                        {{ link_title }}
+                                    {{ else }}
+                                        {{ title }}
+                                    {{ /if }}
+                                </a>
                             {{ /more_templates }}
                         </div>
                     </div>
