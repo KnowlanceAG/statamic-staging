@@ -186,7 +186,7 @@ replicator:
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619619635
+updated_at: 1619619642
 meta_title: 'Was ist ein akademischer Ghostwriter? • GWriters'
 meta_description: 'Alles zum Thema, was ein akademischer Ghostwriter ist. Erfahren Sie mehr und erhalten Sie professionelle Unterstützung von GWriters.de.'
 use_meta_keywords: false
@@ -197,4 +197,5 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+page_title: 'Was ist ein akademischer Ghostwriter? • GWriters'
 ---
