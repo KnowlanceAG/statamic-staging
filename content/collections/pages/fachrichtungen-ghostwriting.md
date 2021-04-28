@@ -27,7 +27,7 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: '16'
+            padding-y: '25'
       -
         type: paragraph
         content:
@@ -309,7 +309,7 @@ replicator:
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619643124
+updated_at: 1619643456
 page_title: 'Welche Fachrichtungen werden bei GWriters angeboten? • GWriters'
 meta_title: 'Welche Fachrichtungen werden bei GWriters angeboten? • GWriters'
 meta_description: 'Wir unterstützen Sie in nahezu allen Fachrichtungen bei Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit. Medizin, Jura, BWL und vieles mehr.'
