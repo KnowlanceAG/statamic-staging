@@ -60,7 +60,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619633811
+updated_at: 1619635389
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -181,19 +181,22 @@ replicator:
                           - logo-startseite/icon-ghostwriting.svg
                         headline: GHOSTWRITING
                         hover_content: 'Lassen Sie Ihre wissenschaftliche Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-                        link: null
+                        link:
+                          - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
                         image:
                           - logo-startseite/icon-lektorat.svg
                         headline: LEKTORAT
                         hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
-                        link: null
+                        link:
+                          - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
                         image:
                           - logo-startseite/icon-plagiat.svg
                         headline: PLAGIATSPRÜFUNG
                         hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte.'
-                        link: null
+                        link:
+                          - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
                       -
                         image:
                           - logo-startseite/icon-uebersetzung.svg
