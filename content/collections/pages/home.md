@@ -60,7 +60,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619635389
+updated_at: 1619635518
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -202,7 +202,8 @@ replicator:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
                         hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische Übersetzungen von akademischen Texten, Arbeiten, usw.'
-                        link: null
+                        link:
+                          - 7cad538c-ad74-4617-825e-bbac46ebf310
               -
                 type: set
                 attrs:
