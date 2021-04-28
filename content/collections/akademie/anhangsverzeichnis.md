@@ -65,7 +65,7 @@ replicator:
             type: bilder
             assets:
               - akademie/Anhangsverzeichnis-724x1024.jpg
-            has_border: false
+            has_border: true
       -
         type: paragraph
         content:
@@ -121,7 +121,7 @@ from_the_blog:
   - dbb9a734-d733-4fe0-a92f-4dde0883ac7a
   - ca5797f0-28d2-48ca-be1d-5c6ca8c1b01c
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619569767
+updated_at: 1619569941
 meta_title: 'Kostenloses Anhangsverzeichnis für Ihre Hausarbeit herunterladen'
 meta_description: "Verschaffen Sie Ihren Lesern einen\_Überblick über alle Anhänge mit unserem Anhangsverzeichnis Beispiel. Unsere Vorlage - nur einen Klick entfernt."
 use_meta_keywords: false
