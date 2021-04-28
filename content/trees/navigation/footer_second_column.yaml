@@ -6,7 +6,10 @@ tree:
   -
     entry: 1298a2b5-6e23-404b-8806-26e687fda624
   -
+    entry: b2decf22-7419-401e-9a2d-3713194ce4d0
+  -
+    title: 'Hilfe & FAQ'
+    url: /faq
+  -
     title: AGB
     url: /agb
-  -
-    entry: b2decf22-7419-401e-9a2d-3713194ce4d0
