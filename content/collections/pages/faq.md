@@ -1,43 +1,6 @@
 ---
 id: cba20f34-32b1-472a-b3d9-03aca1df4a07
 title: 'Hilfe & FAQ zum Ghostwriting und Ghostwritern'
-teaser:
-  -
-    type: heading
-    attrs:
-      level: 1
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: left
-          -
-            type: textColor
-            attrs:
-              color: orange-500
-              hex: '#ff6606'
-        text: 'Hilfe & FAQ'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Ein Ghostwriter fertigt individuelle Texte im Auftrag eines Kunden nach dessen Vorgaben und Anforderungen an. '
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'http://gwriters.de/faq/was-ist-ein-ghostwriter'
-              target: null
-              rel: null
-        text: 'Mehr lesen...'
 replicator:
   -
     bard:
@@ -1182,7 +1145,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619618741
+updated_at: 1619618846
 template: without-teaser-with-sidebar
 use_meta_keywords: false
 no_index_page: false
@@ -1192,4 +1155,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+page_title: 'FAQ • Fragen und Antworten zu unserem Ghostwriting Service'
+meta_title: 'FAQ • Fragen und Antworten zu unserem Ghostwriting Service'
+meta_description: 'Alle Antworten zu Fragen über Ghostwriting oder wie Sie eine Mustervorlage für Ihre Bachelorarbeit oder Masterarbeit schreiben lassen können.'
 ---
