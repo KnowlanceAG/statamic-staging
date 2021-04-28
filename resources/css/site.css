@@ -5,6 +5,7 @@ body {
         Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
 }
 
 /* Typography */
