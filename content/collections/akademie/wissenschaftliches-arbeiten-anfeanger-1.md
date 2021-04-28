@@ -1,6 +1,6 @@
 ---
 id: 919279ae-733d-4bd9-a759-afaa758e18fc
-title: 'Wissenschaftliches Arbeiten für Anfänger (Dupliziert)'
+title: 'Wissenschaftliches Arbeiten für Fortgeschrittene'
 teaser:
   -
     type: heading
@@ -11,8 +11,6 @@ teaser:
         type: text
         marks:
           -
-            type: bold
-          -
             type: textAlign
             attrs:
               align: center
@@ -21,7 +19,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Wissenschaftliches Arbeiten für Anfänger'
+        text: 'Wissenschaftliches Arbeiten für Fortgeschrittene'
   -
     type: paragraph
     content:
@@ -32,11 +30,6 @@ teaser:
             type: textAlign
             attrs:
               align: center
-          -
-            type: textColor
-            attrs:
-              color: 'rgb(68, 68, 68)'
-              hex: '#000'
         text: 'Finden Sie hier alle wichtigen Informationen im Überblick. Benötigen Sie weitere Unterstützung?'
   -
     type: set
@@ -59,71 +52,58 @@ replicator:
         content:
           -
             type: text
-            text: 'Das ABC des wissenschaftlichen Arbeitens von GWriters'
+            text: 'Wissenschaftlich Arbeiten - mit GWriters Experte werden!'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Für alle Studienanfänger und auch alle anderen, die zum ersten mal mit der Disziplin des wissenschaftlichen Arbeitens in Berührung kommen, haben wir in dieser Kategorie unsere Guides, Expertentipps und Tutorial-Videos zum '
+            text: 'Diese Kategorie richtet sich vorrangig an Studenten und Doktoranden, die Antworten auf spezifische Detailfragen zu wissenschaftlichen Arbeitstechniken wie beispielsweise der '
           -
             type: text
             marks:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/wissenschaftliches-arbeiten-regeln/'
+                  href: 'https://gwriters.de/blog/qualitative-inhaltsanalyse-voraussetzungen'
                   target: null
                   rel: null
-            text: 'wissenschaftlichen Arbeiten'
+            text: 'qualitativen Inhaltsanalyse'
           -
             type: text
-            text: ' zusammengefasst. Schließlich ist die intensive Auseinandersetzung mit der Wissenschaft fast ein Studium für sich und bereits bei den ersten Hausarbeiten machen sich der '
+            text: ' oder '
           -
             type: text
             marks:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/wissenschaftliches-schreiben-fur-schule-und-studium'
+                  href: 'https://gwriters.de/blog/leitfadengestuetztes-experteninterview'
                   target: null
                   rel: null
-            text: 'Unterschied zwischen Schule und Studium'
+            text: 'leitfadengestützten Experteninterviews'
           -
             type: text
-            text: ' sowie die gestiegenen Anforderungen an das fachliche und methodische Know-How bemerkbar. Wir erklären Ihnen alles Wichtige, was Sie für Ihren Start ins Studium und in die Wissenschaft benötigen.'
+            text: ' haben. Nach den '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/gwriters-akademie/wissenschaftliches-arbeiten-anfeanger'
+                  target: null
+                  rel: null
+            text: 'Grundlagen des wissenschaftlichen Schreibens'
+          -
+            type: text
+            text: ' sollen Ihnen die Inhalte dieser Kategorien zur Vertiefung Ihres eignen Wissens und zur Unterstützung bei Ihrer akademischen Abschlussarbeit dienen.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: "Nehmen Sie unsere Informationen und Guidelines zum wissenschaftlichen Arbeiten als Begleiter mit durch Ihr Studium.\_Im Studium werden weitreichende Kenntnisse verlangt, die zum Beispiel die richtigen Argumentationstechniken, das Ziehen und Bewerten von wissenschaftlichen Schlussfolgerungen sowie methodische Aspekte wie das "
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/hausarbeit-formatieren'
-                  target: null
-                  rel: null
-            text: 'richtige Zitieren'
-          -
-            type: text
-            text: ', die '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/masterarbeit-zitieren'
-                  target: null
-                  rel: null
-            text: 'Formatierung der Abschlussarbeit'
-          -
-            type: text
-            text: ' und die wissenschaftliche Ausdrucksweise betreffen. Das wissenschaftliche Schreiben von Grund auf zu lernen und bis ins Detail zu verstehen, ist insbesondere für die Abschlussarbeit, die am Ende eines jeden Studiums bevorsteht, essentiell. Daher ist es sinnvoll und wichtig, sich von Beginn an mit wissenschaftlichen Arbeitstechniken zu befassen, wobei GWriters Ihnen mit allen unseren Informationsmaterialien stets als verlässlicher Partner zur Seite steht.'
+            text: 'Das wissenschaftliche Arbeiten für Fortgeschrittene baut auf dem wissenschaftlichen Arbeiten für Einsteiger auf. So können Sie von den absoluten Grundlagen bis zu den spezialisiertesten Arbeitstechniken alle einzelnen Lektionen strukturiert durcharbeiten und Wissenslücken schließen. Ganz gleich, ob Sie mit Ihrer Abschlussarbeit noch gar nicht begonnen haben oder Ihre fertige Masterarbeit vor der Abgabe steht.'
       -
         type: heading
         attrs:
@@ -131,51 +111,58 @@ replicator:
         content:
           -
             type: text
-            text: 'Mit unseren Tipps selbst Experte werden'
+            text: 'Besonderheiten und Spezialtechniken lernen und verstehen'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Mit den Informationen und Materialien aus unserer Kategorie für Anfänger des wissenschaftlichen Arbeitens gelingt Ihnen der Zugang zum wissenschaftlichen Schreiben wesentlich leichter. Vor der Abschlussarbeit sind viele Studenten sehr von der Thematik eingenommen. Die Vorgaben des wissenschaftlichen Schreiben, die allerdings ebenso wichtig sind, können somit schnell einmal in den Hintergrund rücken.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "In dieser Kategorie können Sie sich umfassende Informationen über die Bestandteile einer\_Abschlussarbeit einholen, die Ihnen die notwendigen Grundlagen für das Verfassen Ihrer ersten akademischen Arbeit vermitteln. Alle Teilbereiche sind detailliert aufgelistet, von unseren erfahrenen akademischen Ghostwritern erklärt und für Sie übersichtlich aufgelistet, sodass Sie sich schnell und einfach in genau die Bereiche einarbeiten können, die Ihnen bisher noch Probleme verursacht haben oder gänzlich unbekannt waren."
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Antworten auf Ihre '
+            text: 'Das wissenschaftliche Schreiben lässt sich systematisch in Bereiche unterteilen. Aufgrund der Tatsache, dass die verschiedenen Fachbereiche spezifische Anforderungen stellen, müssen diese auch hinsichtlich der wissenschaftlichen Arbeitstechniken getrennt betrachtet werden. Ein häufiges Beispiel ist hier der Fachbereich Jura. Wenn Sie im Rahmen Ihrer Seminar- oder Abschlussarbeit ein '
           -
             type: text
             marks:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/gwriters-coaching'
+                  href: 'https://gwriters.de/blog/gutachten-schreiben'
                   target: null
                   rel: null
-            text: 'fachbezogenen Fragen'
+            text: 'juristisches Gutachten schreiben'
           -
             type: text
-            text: ' erhalten Sie natürlich jederzeit von uns. Diese Kategorie ist für Einsteiger und alle Studenten interessant, die sich noch einmal gewisse Basics ansehen möchten. Ihnen wird dadurch verständlich, auf was es bei den Grundlagen des wissenschaftlichen Schreibens ankommt. Für fortgeschrittene Studenten und Wissenschaftlicher empfehlen wir hingegen unsere nächste Kategorie "'
+            text: ', gibt es hinsichtliche des Schreib- und Recherchestils eine ganze Reihe von Besonderheiten zu beachten.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Die Lektionen in dieser Kategorie bringen Ihnen das wissenschaftliche Schreiben in Ihrem Fachbereich und auch fortgeschrittene Methoden wie das '
           -
             type: text
             marks:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/gwriters-akademie/wissenschaftliches-arbeiten-fortgeschrittene'
+                  href: 'https://gwriters.de/blog/statistisch-arbeiten'
                   target: null
                   rel: null
-            text: 'Wissenschaftliches Arbeiten für Fortgeschrittene'
+            text: 'statistische Arbeiten mit Primär- und Sekundärdaten'
           -
             type: text
-            text: '".'
+            text: ' näher. Dadurch steht Ihnen selbst bei einer anspruchsvollen, '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/blog/empirische-bachelorarbeit-schreiben'
+                  target: null
+                  rel: null
+            text: 'empirischen Bachelorarbeit'
+          -
+            type: text
+            text: ' nichts mehr im Wege. Sind Sie bereits mit der Materie vertraut, dann laden wir auch Sie herzlich dazu ein, in unsere Materialien einzusteigen, um Ihr vorhandenes Wissen zu vertiefen oder sogar eventuelle Wissenslücken zu schließen. Schließlich begleitet Sie das wissenschaftliche Arbeiten vom Beginn des Studiums bis hin zur Doktorarbeit und sogar darüber hinaus.'
       -
         type: set
         attrs:
@@ -190,38 +177,38 @@ replicator:
           values:
             type: blog_entries
             entries:
-              - 6189e473-16c1-4f90-9ede-1c2d4475093c
-              - e1531df3-aad8-46d3-83f7-269529424a72
+              - a9b8fb84-8c91-4cce-a43a-5657a5676793
+              - f1e727ca-ef12-42e3-afb9-0ae65c48a2b2
+              - 2cfe04c4-41e2-44bf-9697-024ca97ff3b9
+              - 3c48875f-c1fc-4be1-a481-e06e2e3c2128
+              - 8f4eaecd-717f-417a-a036-7ac666381dca
+              - 6134ce0c-10ce-462b-907b-16cf20cce55f
               - fc07ebeb-3373-459c-8b94-b00f1eb6b44b
-              - 6bac193e-a0bb-46dc-8488-64eacbd5d84f
-              - 7f67b98b-62f0-425a-af0c-280a8f4ec679
-              - 8c80d239-58df-4e9c-bc97-ea9b91f3a25c
-              - 84b9f87b-2111-4c2a-8e5b-9f05ea6bb78a
-              - fc6e7de5-8b4e-42c8-9a10-95208fbce892
-              - 14859f8c-0be8-41e4-9b2b-24df4b44c28c
-              - 5c122273-2c45-445f-993e-b3fbd547964d
-              - 92016599-ee0c-40e7-94c8-7f0148baaaa2
-              - 6654cc64-c759-4332-a182-bacd7ce0f0df
-              - 55b32196-6391-423c-b9c4-bf050f3ae0b5
-              - 31c2d3bf-b5f9-4b8f-8ec8-4c80cc55fc93
-              - de34a06b-d2ba-4dd0-ac3a-8d2761fd005e
-              - 937e72bd-a96e-4e93-87de-27ea19286dce
-              - dfb48058-d2b9-406c-9a3f-2cfd4184f265
-              - c8d39c58-ad36-4303-938c-584c06d2d8e9
-              - 1c7b042d-7409-4999-ac04-7e2169299063
-              - cd1c50c0-403b-480a-ab57-685e6c904f0f
-              - a108c6d2-e7ca-4d4a-bdde-0b4362e26793
-              - 636b91b0-241e-4fbf-a315-2267fa607bd3
-              - d46e0ca4-d689-4003-b50c-b692aa251e4c
-              - e43c11cc-82e1-4563-a993-8445feb5eefd
-              - 84fb02d0-d713-4340-8bb6-b1cb293b3a91
+              - 0685ecc3-0977-4b88-a9d4-b047290b01e5
+              - 791de4c5-7c53-40f0-aae0-dc91b15789d8
+              - 52b1f199-5d82-4ebe-bbb6-21df3afd97b9
+              - 93e1a5bd-9b19-4e68-b483-7dbeb26462ea
+              - dbb9a734-d733-4fe0-a92f-4dde0883ac7a
+              - 3518ca66-dfd0-4851-9d95-fbf2f44d8338
+              - b5651249-f0d1-4478-a027-2ce35696fa20
+              - 3f184e1e-936d-431a-811d-566210ffea43
+              - 2187d783-d7f5-4b20-bec8-1674cd72c32f
+              - 884b09f8-2dce-4e99-9860-dd1a3c39f5bc
+              - 2eb40e5f-606e-421c-83f0-e32c14cfca18
+              - 27876560-a260-4e18-89b1-417c11b8b31f
+              - 78e588a4-2c02-44b9-b5b1-e7a880e0b64c
+              - 15a1f613-ca52-4486-b195-3bbad455092c
+              - 8d0d751b-54ea-4b94-a1b7-9fe5c7850427
+              - 015f5635-7e60-442a-bafd-504b0bca87c4
+              - 90c98a48-07aa-44a7-bfa5-187a2717a778
+              - 8f956f01-0057-4727-86bd-227150d4d7c9
       -
         type: paragraph
     show_as_card: false
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619608835
+updated_at: 1619609652
 template: default
 use_meta_keywords: false
 no_index_page: false
