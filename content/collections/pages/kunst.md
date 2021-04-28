@@ -911,6 +911,11 @@ replicator:
                     attrs:
                       src: 'asset::assets::Anzahl-der-selbstaendigen-bildenden-Kuenstler.png'
                       alt: 'Anzahl der selbständigen bildenden Künstler'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                   -
                     type: text
                     marks:
@@ -1020,7 +1025,7 @@ replicator:
     enabled: true
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1619620635
+updated_at: 1619620704
 meta_title: 'Kunst Ghostwriter, Lektoren & Coaches • GWriters'
 meta_description: 'Professionelle Hilfe durch Kunst Ghostwriter und akademische Experten – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate ✅'
 use_meta_keywords: false
