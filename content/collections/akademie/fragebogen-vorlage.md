@@ -117,5 +117,26 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619577985
+updated_at: 1619578168
+downloads:
+  - akademie/Fragebogen.docx
+from_the_blog:
+  - 9f600d1e-89a1-4d92-88a6-6805bcbfb5c7
+  - 3c662ff8-7e35-4ed6-9cae-348bc90902d1
+  - 2eb40e5f-606e-421c-83f0-e32c14cfca18
+  - a26081b8-f79e-4515-8c28-31d320f1e4fd
+  - 469c0c55-5de8-4d91-8555-d07ce79c49bd
+page_title: 'Kostenlose Fragebogen Vorlage für Ihre Hausarbeit herunterladen'
+academy_short_text-headline: 'Fragebogen Vorlage'
+academy_short_text: 'Nutzen Sie unsere Fragebogen Vorlage für Ihre Datenerhebung. Hier finden Sie alle gängigen Fragetypen.'
+meta_title: 'Kostenlose Fragebogen Vorlage für Ihre Hausarbeit herunterladen'
+meta_description: 'Nutzen Sie unsere Fragebogen Vorlage für Ihre Datenerhebung, erstellt von akademischen Experten. Hier finden Sie alle gängigen Fragetypen.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
