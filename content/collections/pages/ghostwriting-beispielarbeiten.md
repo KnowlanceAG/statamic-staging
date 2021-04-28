@@ -54,5 +54,123 @@ teaser_bg:
   - seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619614490
+updated_at: 1619614966
+replicator:
+  -
+    bard:
+      -
+        type: set
+        attrs:
+          values:
+            type: text_box-alignment
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: inherit
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/ghostwriting-beispielarbeiten/seminararbeit-beispiel'
+                          target: null
+                          rel: null
+                    text: 'Auswirkungen der Digitalisierung auf die Wertschöpfungskette'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Fachbereich:\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/bwl'
+                          target: null
+                          rel: null
+                    text: Betriebswirtschaftslehre
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: 'Arbeitenart: Seminararbeit'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: 'Seiten: 12'
+            text_ausrichtung: text-right
+      -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/besipielarbeit.JPG
+            img_size: w-1/4
+      -
+        type: paragraph
+    show_as_card: false
+    type: editor
+    enabled: true
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
