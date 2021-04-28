@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Tabelle aktualisieren word'
 size: 11643
 last_modified: 1619534188
 width: 293
