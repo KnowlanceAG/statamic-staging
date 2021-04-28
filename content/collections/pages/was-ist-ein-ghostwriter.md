@@ -65,5 +65,17 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619619229
+updated_at: 1619619267
+page_title: 'Was ist ein Ghostwriter? • GWriters beantwortet Ihre Fragen'
+template: without-teaser-with-sidebar
+meta_title: 'Was ist ein Ghostwriter? • GWriters beantwortet Ihre Fragen'
+meta_description: 'Was ist ein Ghostwriter? Erfahren Sie mehr über Ghostwriter und lassen Sie sich professionell unterstützen.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
