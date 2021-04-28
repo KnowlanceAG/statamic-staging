@@ -1,4 +1,5 @@
 ---
+id: 7cad538c-ad74-4617-825e-bbac46ebf310
 title: Übersetzung
 teaser:
   -
@@ -42,6 +43,7 @@ teaser:
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
+        spacing_top: false
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
@@ -185,6 +187,7 @@ replicator:
                   -
                     type: text
                     text: 'Wichtige Fachbereiche:'
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -438,6 +441,7 @@ replicator:
                           target: null
                           rel: null
                     text: Zahnmedizin
+            show_as_card: false
           -
             bard:
               -
@@ -660,6 +664,7 @@ replicator:
                           target: null
                           rel: null
                     text: Wirtschaftsinformatik
+            show_as_card: false
           -
             bard:
               -
@@ -882,6 +887,7 @@ replicator:
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -891,10 +897,11 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+    border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619013797
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619635464
 meta_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
 meta_description: 'Akademische Übersetzer, Autoren, Lektoren, Korrektoren, Coaches finden & Informationen zum Thema Übersetzung: Leistungen, Ablauf, Kosten & Preise.'
 use_meta_keywords: false
@@ -906,5 +913,4 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
-id: 7cad538c-ad74-4617-825e-bbac46ebf310
 ---
