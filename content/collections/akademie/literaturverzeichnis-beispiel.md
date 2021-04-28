@@ -188,7 +188,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619578951
+updated_at: 1619579602
 downloads:
   - akademie/Literaturverzeichnis.docx
 from_the_blog:
@@ -208,7 +208,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-academy_short_text-headline: Literaturverzeichnis
+academy_short_text-headline: 'Literaturverzeichnis Beispiel'
 academy_short_text: 'Keine Citavi-Lizenz? Nutzen Sie einfach und schnell das Literaturverzeichnis Muster von GWriters.'
 more_templates:
   - 8778439c-ea07-4542-9287-cb87e6074f6a
