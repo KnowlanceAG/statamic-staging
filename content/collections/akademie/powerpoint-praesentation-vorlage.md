@@ -133,5 +133,26 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619578375
+updated_at: 1619578540
+downloads:
+  - akademie/Praesentation.pptx
+from_the_blog:
+  - ac0d1a42-1fca-41a6-8c89-8007b0f0875f
+  - 61c8847a-99e4-4910-83bf-77128046e025
+  - 6bd7bc4f-12a8-43c9-8ba1-5911ca389cb7
+  - 34ba02d4-92c7-4f2b-aeb3-56dd3644cb1e
+  - a11daeb3-1d73-4d6f-9c46-9d0e0c86c4e1
+page_title: 'Kostenlose Powerpoint Präsentation Vorlage für Ihre Hausarbeit herunterladen'
+academy_short_text-headline: 'Powerpoint Präsentation'
+academy_short_text: 'Intensive Vorbereitung und unsere Präsentationsvorlage. Von GWriters alles für die perfekte Präsentation.'
+meta_title: 'Kostenlose Powerpoint Präsentation Vorlage für Ihre Hausarbeit herunterladen'
+meta_description: 'Mit der kostenlosen Vorlage von GWriters erstellen Sie jetzt eine gelungene Powerpoint Präsentation für die Verteidigung Ihrer wissenschaftlichen Arbeit.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
