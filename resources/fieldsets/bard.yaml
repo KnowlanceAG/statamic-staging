@@ -149,6 +149,11 @@ fields:
           fields:
             -
               import: accordion
+        example_work:
+          display: Beispielarbeiten
+          fields:
+            -
+              import: example_work
       container: assets
       enable_input_rules: true
       enable_paste_rules: true
