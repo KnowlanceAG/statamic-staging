@@ -1,6 +1,6 @@
 ---
 id: 25799f6e-c620-4386-8c1d-bc1efefdb651
-title: 'Berufsbegleitende Promotion im Überblick: interne versus externe Promotion (Dupliziert) (5)'
+title: 'Promotionsberatung zum berufsbegleitenden Doctor of Philosophy (Ph.D.)'
 teaser:
   -
     type: heading
@@ -736,7 +736,7 @@ page_title: 'Seriöse Promotionsberatung für Ihren Ph.D. • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619608834
+updated_at: 1619608888
 meta_title: 'Seriöse Promotionsberatung für Ihren Ph.D. • GWriters'
 meta_description: 'Bei GWriters.de erhalten Sie eine seriöse Promotionsberatung für Ihr Promotion zum Ph.D. Profitieren Sie jetzt von unserem Expertenwissen!'
 use_meta_keywords: false
