@@ -17,12 +17,13 @@
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
         "optimoapps/statamic-bard-text-align": "1.0.2",
+        "samdark/sitemap": "^2.2",
         "spatie/statamic-responsive-images": "2.5.3",
         "statamic/cms": "3.1.10",
         "statamic/ssg": "^0.4.0",
+        "uscreen/better-statamic-bard-text-color": "*",
         "uscreen/cpssg": "*",
         "uscreen/link-extended": "*",
-        "uscreen/better-statamic-bard-text-color": "*",
         "withcandour/aardvark-seo": "2.0.11"
     },
     "require-dev": {
