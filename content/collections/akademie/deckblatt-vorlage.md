@@ -1,5 +1,5 @@
 ---
-id: 7d93f793-b41f-44cc-95ae-73166558a05c
+id: e1eeb52b-af75-4803-a498-6678be9b695d
 title: 'Deckblatt Vorlage'
 teaser:
   -
@@ -33,7 +33,17 @@ teaser:
             attrs:
               align: center
         text: 'Unsere akademischen Ghostwriter unterstützen Sie mit individuellen Vorlagen, persönlichen Coachings oder unserem professionellen Ghostwriting-Service bei Ihrer Abschlussarbeit!'
-teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
+  -
+    type: set
+    attrs:
+      values:
+        type: button
+        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        color: '#FF6606'
+        spacing_top: false
+  -
+    type: paragraph
 replicator:
   -
     bard:
@@ -42,7 +52,46 @@ replicator:
         content:
           -
             type: text
-            text: 'Das Deckblatt einer Bachelorarbeit, Masterarbeit oder Doktorarbeit ist unerlässlich und gibt gleichzeitig den ersten Eindruck der wissenschaftlichen Arbeit ab. Auch wenn das Deckblatt lediglich relevante Eckdaten über den Wissenschaftsbereich der Arbeit, personenbezogene Daten des Autors und Angaben der Hochschule vermittelt, sollte ein solches Titelblatt genügend Aufmerksamkeit bekommen.'
+            text: 'Das Deckblatt einer '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                  target: null
+                  rel: null
+            text: Bachelorarbeit
+          -
+            type: text
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                  target: null
+                  rel: null
+            text: Masterarbeit
+          -
+            type: text
+            text: ' oder'
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                  target: null
+                  rel: null
+            text: ' Doktorarbeit '
+          -
+            type: text
+            text: 'ist unerlässlich und gibt gleichzeitig den ersten Eindruck der wissenschaftlichen Arbeit ab. Auch wenn das Deckblatt lediglich relevante Eckdaten über den Wissenschaftsbereich der Arbeit, personenbezogene Daten des Autors und Angaben der Hochschule vermittelt, sollte ein solches Titelblatt genügend Aufmerksamkeit bekommen.'
       -
         type: set
         attrs:
@@ -50,6 +99,7 @@ replicator:
             type: bilder
             assets:
               - akademie/Deckblatt-724x1024.jpg
+            has_border: true
       -
         type: paragraph
         content:
@@ -67,7 +117,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Da viele Hochschulen kein bestimmtes Layout des Deckblattes vorgeben, haben sich allgemeine Richtlinien etabliert. Die Darstellung sollte sachlich und fachspezifisch formatiert sein. Unsere Deckblatt Vorlage macht deutlich, welche Schriftarten geeignet sind und wie Sie die Formatierung bestens abhandeln.'
+            text: 'Da viele Hochschulen kein bestimmtes Layout des Deckblattes vorgeben, haben sich allgemeine Richtlinien etabliert. Die Darstellung sollte sachlich und fachspezifisch formatiert sein. Unsere Deckblatt Vorlage macht deutlich, welche Schriftarten geeignet sind und wie Sie die '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/leistungen/formatierung'
+                  target: null
+                  rel: null
+            text: Formatierung
+          -
+            type: text
+            text: ' bestens abhandeln.'
       -
         type: paragraph
         content:
@@ -93,18 +156,11 @@ replicator:
                 attrs:
                   align: center
             text: 'Einfach herunterladen und Deckblatt-Vorlage nutzen!'
-    show_as_card: false
     type: editor
     enabled: true
-downloads:
-  - akademie/Deckblatt.docx
+    show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619485803
-from_the_blog:
-  - 52b1f199-5d82-4ebe-bbb6-21df3afd97b9
-  - dabfe654-ec77-4680-89a4-94467547a605
-  - 12797e13-f9a3-427f-8c01-6e472545c086
-  - 14a0cd0f-a99b-4b6c-8f33-bda6ea547856
+updated_at: 1619579306
 academy_short_text-headline: 'Deckblatt Vorlage'
 academy_short_text: 'Nutzen und individualisieren Sie bequem unsere Deckblatt Vorlage für Ihre eigene Abschlussarbeit anwenden.'
 use_meta_keywords: false
@@ -115,8 +171,25 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+more_templates:
+  - 8778439c-ea07-4542-9287-cb87e6074f6a
+  - b609ef85-dc84-4405-93d0-1b92d92ca1a4
+  - 8a46d375-fe18-42c5-ab50-a1682b5664de
+  - 56a76afe-cd5a-4ab4-91c3-39b2b98ffe32
+  - 6a4a507c-f04f-4ceb-9942-3c34d896faad
+  - 92638305-5538-4e5c-9f2a-eaed57856af6
+  - 1b8783dd-1179-4eb1-a5a9-27304b468a8e
+  - 47857fec-2594-4e17-9331-52e3a93020d5
+  - e777b9fb-7884-4d67-8453-9d6c8cb0aa9f
+from_the_blog:
+  - 52b1f199-5d82-4ebe-bbb6-21df3afd97b9
+  - dabfe654-ec77-4680-89a4-94467547a605
+  - 12797e13-f9a3-427f-8c01-6e472545c086
+  - 14a0cd0f-a99b-4b6c-8f33-bda6ea547856
 page_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
-meta_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
 meta_description: '➡️➡️➡️ Hier finden Sie die perfekte Deckblatt Vorlage für Ihre eigene Abschlussarbeit, die Sie selber für Ihre Arbeit individualisieren können ✍️.'
-template: default
+teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
+meta_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
+downloads:
+  - akademie/Deckblatt.docx
 ---

@@ -6,6 +6,10 @@ fields:
       mode: default
       collections:
         - blog
+        - akademie
+        - pages
+        - presse
+        - team
       display: Entries
       type: entries
       icon: entries
