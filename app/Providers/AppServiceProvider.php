@@ -7,6 +7,7 @@ use Statamic\Statamic;
 use Uscreen\Cpssg\CpssgGenerator;
 
 use Statamic\Facades\Entry;
+use Statamic\Facades\User;
 use App\UrlPaginator as UrlPaginator;
 use Statamic\Extensions\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Facades\Log;
@@ -31,6 +32,50 @@ class AppServiceProvider extends ServiceProvider
         return collect(range(1, ceil($total / $perPage)))
             ->map(fn($page) => $url . '/page/' . $page)
             ->all();
+    }
+
+    private static function authorUrls()
+    {
+        $perPage = 10;
+        $allUrls = [];
+        $users = User::all()->toArray();
+
+        foreach ($users as $user) {
+            if ($user->slug) {
+                $posts = Entry::query()
+                    ->where('collection', 'blog')
+                    ->get();
+
+                $filteredPosts = $posts->filter(function ($value, $key) use (
+                    $user
+                ) {
+                    return in_array($user->id(), $value->author);
+                });
+
+                $total = $filteredPosts->count();
+                if ($total > 0) {
+                    $allUrls += ['/author/' . $user->slug];
+                    Log::debug(
+                        'SSG Author URLs: ' .
+                            $user->name .
+                            ' has ' .
+                            $total .
+                            ' posts.'
+                    );
+                    $urls = collect(range(1, ceil($total / $perPage)))
+                        ->map(
+                            fn($page) => '/author/' .
+                                $user->slug .
+                                '/page/' .
+                                $page
+                        )
+                        ->all();
+
+                    $allUrls = array_merge($allUrls, $urls);
+                }
+            }
+        }
+        return $allUrls;
     }
 
     /**
@@ -72,15 +117,19 @@ class AppServiceProvider extends ServiceProvider
         UrlPaginator::currentPageResolver(function () {
             return optional($this->app['request']->route())->parameter('page');
         });
-
-        // Log::debug('default config: ', config('statamic.ssg'));
     }
 
     public static function ssgConfiguration()
     {
         $config = config('statamic.ssg');
         $config['base_url'] = config('cpssg.static_site_url');
-        $config['urls'] = array_merge($config['urls'], self::urls('blog'), self::urls('presse'));
+
+        $config['urls'] = array_merge(
+            $config['urls'],
+            self::urls('blog'),
+            self::urls('presse'),
+            self::authorUrls()
+        );
         config(['statamic.ssg' => $config]);
         return $config;
     }
