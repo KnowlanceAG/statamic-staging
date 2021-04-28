@@ -208,7 +208,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619609652
+updated_at: 1619609948
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -219,8 +219,8 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'Tipps zum wissenschaftlichen Arbeiten für die erste Hausarbeit'
-academy_short_text-headline: 'Wissenschaftliches Arbeiten fürAnfänger von Gwriters'
-academy_short_text: 'Mit Hilfe der Materialien, Artikel und Informationen aus unserer GWriters Akademie finden Sie sich schnell in jeden Themenbereich des wissenschaftlichen Schreibens ein. Besonders Anfänger sehen sich bei der ersten Hausarbeit großen Hürden gegenüber. Wir erklären Ihnen alles, was Sie für Ihren Start in ein erfolgreiches akademisches Studium benötigen.'
-meta_title: 'Tipps zum wissenschaftlichen Arbeiten für die erste Hausarbeit'
-meta_description: 'Sind Sie Anfänger beim Erstellen einer wissenschaftlichen Arbeit? Hier finden Sie alle wichtigen Informationen im Überblick rund und das Thema!'
+academy_short_text-headline: 'Wissenschaftliches Arbeitenfür Fortgeschrittene'
+academy_short_text: 'Diese Kategorie richtet sich vorrangig an Studenten und Doktoranden, die zum Beispiel Antworten auf gewisse Detailfragen zum Literaturverzeichnis oder Zitieren suchen oder einfach zur eigenen Wissensbildung beitragen möchten. Nach der Grundlage des wissenschaftlichen Schreibens sind tiefgreifendere Faktoren wichtig. Diese gehen wir im Folgenden intensiv an.'
+meta_title: 'Expertentipps zum wissenschaftlichen Arbeiten für Fortgeschrittene'
+meta_description: 'Profi bei wissenschaftlichen Arbeiten, aber immer noch Detailfragen in manchen Situationen? Hier finden Sie die wichtigste Informationen auf einem Blick.'
 ---
