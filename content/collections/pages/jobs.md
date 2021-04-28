@@ -348,7 +348,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619645967
+updated_at: 1619646098
 page_title: 'Ghostwriter Jobs bei GWriters'
 template: without-teaser-with-sidebar
 meta_title: 'Ghostwriter Jobs bei GWriters'
