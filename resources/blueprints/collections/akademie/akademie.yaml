@@ -94,6 +94,9 @@ sections:
           mode: default
           collections:
             - blog
+            - pages
+            - akademie
+            - presse
           display: 'Mehr aus unserem Blog'
           type: entries
           icon: entries
