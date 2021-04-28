@@ -160,7 +160,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619569798
+updated_at: 1619579306
 academy_short_text-headline: 'Deckblatt Vorlage'
 academy_short_text: 'Nutzen und individualisieren Sie bequem unsere Deckblatt Vorlage für Ihre eigene Abschlussarbeit anwenden.'
 use_meta_keywords: false
@@ -172,9 +172,15 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 more_templates:
+  - 8778439c-ea07-4542-9287-cb87e6074f6a
   - b609ef85-dc84-4405-93d0-1b92d92ca1a4
   - 8a46d375-fe18-42c5-ab50-a1682b5664de
-  - 68703917-9254-4107-82e0-0d844a79e81a
+  - 56a76afe-cd5a-4ab4-91c3-39b2b98ffe32
+  - 6a4a507c-f04f-4ceb-9942-3c34d896faad
+  - 92638305-5538-4e5c-9f2a-eaed57856af6
+  - 1b8783dd-1179-4eb1-a5a9-27304b468a8e
+  - 47857fec-2594-4e17-9331-52e3a93020d5
+  - e777b9fb-7884-4d67-8453-9d6c8cb0aa9f
 from_the_blog:
   - 52b1f199-5d82-4ebe-bbb6-21df3afd97b9
   - dabfe654-ec77-4680-89a4-94467547a605
