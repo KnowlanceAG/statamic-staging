@@ -462,9 +462,9 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619616969
+updated_at: 1619616981
 page_title: 'GWriters • Allgemeine Geschäftsbedingungen'
-template: with-side-bar
+template: without-teaser-with-sidebar
 meta_title: 'GWriters • Allgemeine Geschäftsbedingungen'
 meta_description: 'GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
 use_meta_keywords: false
