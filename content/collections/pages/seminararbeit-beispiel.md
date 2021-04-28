@@ -5,7 +5,7 @@ page_title: 'Seminararbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619631003
+updated_at: 1619631028
 meta_title: 'Seminararbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Seminararbeit Musters von unseren Qualitätsstandards und nutzen Sie diese als Orientierung. Erfahren Sie mehr hier.'
 use_meta_keywords: false
@@ -37,6 +37,8 @@ replicator:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
             text: 'Seminararbeit Beispiel: Digitalisierung von Wertschöpfungsketten'
+      -
+        type: paragraph
       -
         type: paragraph
         content:
