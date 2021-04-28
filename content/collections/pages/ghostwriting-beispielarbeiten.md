@@ -53,8 +53,8 @@ teaser:
 teaser_bg:
   - seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619632546
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619647511
 replicator:
   -
     bard:
