@@ -30,6 +30,8 @@ replicator:
             padding-y: '16'
       -
         type: paragraph
+      -
+        type: paragraph
         content:
           -
             type: text
@@ -193,7 +195,7 @@ replicator:
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619642149
+updated_at: 1619643671
 page_title: 'Was ist Ghostwriting? • GWriters'
 meta_title: 'Was ist Ghostwriting? • GWriters'
 meta_description: 'Was ist Ghostwriting? Erfahren Sie mehr über Ghostwriting und lassen Sie sich professionell unterstützen.'
