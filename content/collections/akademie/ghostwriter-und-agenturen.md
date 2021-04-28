@@ -169,7 +169,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619613496
+updated_at: 1619649549
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -184,4 +184,6 @@ academy_short_text-headline: 'Ghostwriter und Agenturen'
 academy_short_text: 'Wenn Sie derzeit auf der Suche nach einem Ghostwriter sind, dann helfen Ihnen unsere folgenden Informationen sicherlich weiter bei Ihrer Suche. Durch unsere Informationssammlungen bekommen Sie ein gutes Gespür dafür, welche Faktoren für eine seriöse akademische Ghostwriter-Agentur sprechen.'
 meta_title: 'GWriters • Alle wichtigen Informationen zu Ghostwritern und Agenturen'
 meta_description: 'Unterscheiden Sie eine professionelle Ghostwriting Agentur von unseriösen Ghostwritern und Hobbyschreibern. Vertrauen Sie auf Experten!'
+academy_teaser_headline: 'Ghostwriter und Agenturen'
+academy_teaser_text: 'Wenn Sie derzeit auf der Suche nach einem Ghostwriter sind, dann helfen Ihnen unsere folgenden Informationen sicherlich weiter bei Ihrer Suche. Durch unsere Informationssammlungen bekommen Sie ein gutes Gespür dafür, welche Faktoren für eine seriöse akademische Ghostwriter-Agentur sprechen.'
 ---
