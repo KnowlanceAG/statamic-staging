@@ -55,7 +55,7 @@ teaser:
     type: paragraph
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1619616770
+updated_at: 1619616821
 replicator:
   -
     columns-replicator:
@@ -1150,4 +1150,5 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+template: with-side-bar
 ---
