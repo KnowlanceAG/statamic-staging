@@ -13,16 +13,14 @@ replicator:
             type: text
             marks:
               -
-                type: bold
-              -
                 type: textAlign
                 attrs:
                   align: left
               -
                 type: textColor
                 attrs:
-                  color: 'rgb(255, 102, 2)'
-                  hex: '#000'
+                  color: orange-500
+                  hex: '#ff6606'
             text: Jobs
       -
         type: paragraph
@@ -350,5 +348,17 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619645905
+updated_at: 1619645967
+page_title: 'Ghostwriter Jobs bei GWriters'
+template: without-teaser-with-sidebar
+meta_title: 'Ghostwriter Jobs bei GWriters'
+meta_description: 'Beste Verdienstmöglichkeiten & volle Freiheit bei Ihrem neuen Job als Ghostwriter, Lektor, Korrektor, Übersetzer oder Bearbeiter von akademischen Arbeiten!'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
