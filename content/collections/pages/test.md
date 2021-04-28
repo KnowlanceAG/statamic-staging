@@ -2,7 +2,7 @@
 id: 942c2c8b-0964-473f-bd8d-10426b828eb8
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619253660
+updated_at: 1619598714
 replicator:
   -
     bard:
@@ -20,6 +20,7 @@ replicator:
             assets:
               - Logo-PTA.jpeg
             img-alignment: justify-end
+            has_border: false
       -
         type: paragraph
       -
@@ -108,6 +109,7 @@ replicator:
         type: paragraph
     type: editor
     enabled: true
+    show_as_card: false
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -122,5 +124,5 @@ teaser:
     content:
       -
         type: text
-        text: '123456'
+        text: '1234567'
 ---
