@@ -35,6 +35,17 @@ teaser:
             attrs:
               align: center
         text: 'Unsere akademischen Ghostwriter unterstützen Sie mit individuellen Vorlagen, persönlichen Coachings oder unserem professionellen Ghostwriting-Service bei Ihrer Abschlussarbeit!'
+  -
+    type: set
+    attrs:
+      values:
+        type: button
+        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        color: '#FF6606'
+        spacing_top: false
+  -
+    type: paragraph
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 replicator:
   -
@@ -44,7 +55,33 @@ replicator:
         content:
           -
             type: text
-            text: 'Ein vollständiges und korrekt dargestelltes Literaturverzeichnis ist in allen wissenschaftlichen Abschlussarbeiten unerlässlich. Jene Quellenangaben, die gewisse Teilbereiche einer Bachelorarbeit oder Masterarbeit umfassen, sind in einem dafür vorgesehenen Verzeichnis zu nennen. Daher ist es für alle Studenten nicht unwesentlich, die geeignete Darstellungsform zu kennen.'
+            text: 'Ein vollständiges und korrekt dargestelltes Literaturverzeichnis ist in allen wissenschaftlichen Abschlussarbeiten unerlässlich. Jene Quellenangaben, die gewisse Teilbereiche einer '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                  target: null
+                  rel: null
+            text: 'Bachelorarbeit '
+          -
+            type: text
+            text: 'oder '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                  target: null
+                  rel: null
+            text: Masterarbeit
+          -
+            type: text
+            text: ' umfassen, sind in einem dafür vorgesehenen Verzeichnis zu nennen. Daher ist es für alle Studenten nicht unwesentlich, die geeignete Darstellungsform zu kennen.'
       -
         type: set
         attrs:
@@ -88,13 +125,52 @@ replicator:
         content:
           -
             type: text
-            text: 'Eine Literaturverzeichnis Vorlage erlaubt Ihnen einen Einblick in ein professionelles, von akademischen Ghostwritern erstelltes Literaturverzeichnis für wissenschaftliche Arbeiten, an dem Sie sich in Ihrem eigenen Schreibprozess orientieren können. Aus dieser Vorlage können Sie die korrekte Formatierung entnehmen und ebenso demonstrieren wir, wie Sie Ihr Literaturverzeichnis in Word erstellen können.'
+            text: 'Eine Literaturverzeichnis Vorlage erlaubt Ihnen einen Einblick in ein professionelles, von akademischen '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/ghostwriter'
+                  target: null
+                  rel: null
+            text: 'Ghostwritern '
+          -
+            type: text
+            text: 'erstelltes Literaturverzeichnis für wissenschaftliche Arbeiten, an dem Sie sich in Ihrem eigenen Schreibprozess orientieren können. Aus dieser Vorlage können Sie die korrekte'
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/leistungen/formatierung'
+                  target: null
+                  rel: null
+            text: ' Formatierung'
+          -
+            type: text
+            text: ' entnehmen und ebenso demonstrieren wir, wie Sie Ihr Literaturverzeichnis in Word erstellen können.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Welche Priorität den einzelnen Verzeichnissen zugemessen wird, hängt oft vom jeweiligen Fachbereich ab. In jedem Fall nimmt dieses Verzeichnis allerdings – von der ersten Hausarbeit bis hin zur Dissertation – eine wichtige Funktion ein.'
+            text: 'Welche Priorität den einzelnen Verzeichnissen zugemessen wird, hängt oft vom jeweiligen Fachbereich ab. In jedem Fall nimmt dieses Verzeichnis allerdings – von der ersten '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                  target: null
+                  rel: null
+            text: 'Hausarbeit '
+          -
+            type: text
+            text: 'bis hin zur Dissertation – eine wichtige Funktion ein.'
       -
         type: heading
         attrs:
@@ -112,5 +188,24 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619577227
+updated_at: 1619577537
+downloads:
+  - akademie/Literaturverzeichnis.docx
+from_the_blog:
+  - c5d3396b-2599-47ac-91b0-4569145e4016
+  - 90c98a48-07aa-44a7-bfa5-187a2717a778
+  - 3b102cfd-42f9-406a-80e1-41fb5edab619
+  - 6c036bf5-e67e-426b-9129-0c8ba8dd68e2
+  - cf3e2042-acbe-483e-9eb1-3b7b20659a23
+page_title: 'Kostenloses Literaturverzeichnis für Ihre Hausarbeit herunterladen'
+meta_title: 'Kostenloses Literaturverzeichnis für Ihre Hausarbeit herunterladen'
+meta_description: 'Nutzen Sie einfach und schnell das Literaturverzeichnis Muster von GWriters. Die kostenlose Vorlage spart Ihnen die fehlende Citavi-Lizenz.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
