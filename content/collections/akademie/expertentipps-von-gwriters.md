@@ -180,7 +180,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619610498
+updated_at: 1619649502
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -195,4 +195,6 @@ academy_short_text-headline: 'Expertentipps von GWriters'
 academy_short_text: 'Unsere Expertentipps kommen Ihnen dann gelegen, wenn Sie in unseren anderen Kategorien keine Antworten auf Ihre Fragen finden konnten. Diese können in jeder Phase Ihrer Abschlussarbeit angewandt werden und bieten Ihnen auch in sehr schwierigen Situation zielgerichtete Lösungsmöglichkeiten an.'
 meta_title: 'GWriters • Expertentipps zum Schreiben Ihrer wissenschaftlichen Arbeit'
 meta_description: 'Die Expertentipps von GWriters.de für das Schreiben Ihrer Bachelorarbeit, Seminararbeit oder Masterarbeit von unseren akademischen Ghostwritern.'
+academy_teaser_headline: 'Expertentipps von GWriters'
+academy_teaser_text: 'Unsere Expertentipps kommen Ihnen dann gelegen, wenn Sie in unseren anderen Kategorien keine Antworten auf Ihre Fragen finden konnten. Diese können in jeder Phase Ihrer Abschlussarbeit angewandt werden und bieten Ihnen auch in sehr schwierigen Situation zielgerichtete Lösungsmöglichkeiten an.'
 ---
