@@ -576,7 +576,7 @@ replicator:
                           rel: null
                   -
                     type: text
-                    text: ' Die Alchemisten haben trotz ihrer teilweise unwissenschaftlichen Methoden beachtliche Leistungen für die Chemie hervorgebracht.[/caption]'
+                    text: ' Die Alchemisten haben trotz ihrer teilweise unwissenschaftlichen Methoden beachtliche Leistungen für die Chemie hervorgebracht.'
               -
                 type: paragraph
                 content:
@@ -733,7 +733,7 @@ replicator:
     enabled: true
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1619625976
+updated_at: 1619626051
 meta_title: 'GWriters • Chemie - Ghostwriter, Lektoren & Coaches'
 meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Chemie – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
