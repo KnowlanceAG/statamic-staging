@@ -5,7 +5,7 @@ page_title: 'Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619631477
+updated_at: 1619632292
 meta_title: 'Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
 use_meta_keywords: false
@@ -226,8 +226,8 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wp-content/uploads/2019/07/Hausarbeit-Beispiel-Sozialwissenschaften-Bewertung-von-Embryonenforschung.pdf'
-                  target: null
+                  href: 'https://gwriters.de/assets/downloads/ghostwriting-beispielarbeiten/Hausarbeit-Beispiel-Sozialwissenschaften-Bewertung-von-Embryonenforschung.pdf'
+                  target: _blank
                   rel: null
             text: 'Hier können Sie unsere Beispiel-Hausarbeit kostenlos herunterladen!'
       -
