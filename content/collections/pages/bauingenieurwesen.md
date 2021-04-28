@@ -55,7 +55,7 @@ teaser:
     type: paragraph
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1619618327
+updated_at: 1619618557
 replicator:
   -
     columns-replicator:
@@ -747,6 +747,30 @@ replicator:
                         cells:
                           - null
                           - '-fachgebundene Hochschulreife'
+                      -
+                        cells:
+                          - null
+                          - '-Fachhochschulreife'
+                      -
+                        cells:
+                          - null
+                          - '-Je nach Hochschule kann ein NC formuliert sein'
+                      -
+                        cells:
+                          - null
+                          - '-Vorpraktikum im Bereich Bauingenieurwesen'
+                      -
+                        cells:
+                          - 'Master Voraussetzungen:'
+                          - '-Guter Bachelorabschluss'
+                      -
+                        cells:
+                          - null
+                          - '-Je nach Vertiefungsrichtung und Hochschulen unterscheiden sich die Zulassungsvoraussetzungen, z.B. Konstruktiver Ingenieurbau (50 ECTS)'
+                      -
+                        cells:
+                          - null
+                          - '-Gute Englischkenntnisse'
               -
                 type: paragraph
               -
