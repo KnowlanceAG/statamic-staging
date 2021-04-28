@@ -5,7 +5,7 @@ page_title: 'Facharbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619631719
+updated_at: 1619632032
 meta_title: 'Facharbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 meta_description: 'Nutzen Sie dieses Facharbeit Beispiel als Orientierung und überzeugen Sie sich von dem Qualifikationen unserer akademischen Ghostwriter.'
 use_meta_keywords: false
@@ -253,7 +253,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wp-content/uploads/2019/07/Facharbeit-Beispiel-Politikwissenschaften-Menschenrecht-zum-Schutz-von-LGBTIQ-Menschen-2.pdf'
+                  href: 'https://gwriters.de/assets/downloads/ghostwriting-beispielarbeiten/Facharbeit-Beispiel-Politikwissenschaften-Menschenrecht-zum-Schutz-von-LGBTIQ-Menschen-2.pdf'
                   target: null
                   rel: null
             text: 'Hier können Sie unsere Beispiel-Facharbeit kostenlos herunterladen!'
