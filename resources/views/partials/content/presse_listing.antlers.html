@@ -19,7 +19,7 @@
                     </h3>
                     <p class="block mb-0">
                         <b>Datum: </b>
-                        {{ published_at }}
+                        {{ published_at format="d.m.Y"  }}
                         <b>Erschienen in: </b>
                         {{ if published_in_link }}
                             <a href="{{ published_in_link }}" target="_blank">

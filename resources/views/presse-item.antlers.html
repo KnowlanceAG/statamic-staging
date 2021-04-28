@@ -19,7 +19,7 @@
 
                 <p class="block">
                     <b>Datum: </b>
-                    {{ published_at }}
+                    {{ published_at format="d.m.Y"  }}
                     <b>Erschienen in: </b>
                     {{ if published_in_link }}
                         <a href="{{ published_in_link }}" target="_blank">
@@ -35,6 +35,8 @@
                 {{ replicator }}
                     {{ partial src="partials/content/{type}" }}
                 {{ /replicator }}
+
+                <a href="/presse" class="mt-8 block text-orange-500 font-medium">< zurück zur Presse Übersicht</a>
 
 
             </div>
