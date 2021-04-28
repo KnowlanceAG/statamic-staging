@@ -574,27 +574,16 @@ replicator:
               -
                 type: horizontal_rule
               -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    spacing_top: false
+              -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#ffffff'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/anfrage'
-                          target: null
-                          rel: nofollow
-                    text: 'JETZT KOSTENLOS ANFRAGEN'
               -
                 type: horizontal_rule
               -
@@ -748,7 +737,7 @@ replicator:
     enabled: true
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1619622212
+updated_at: 1619622273
 template: with-side-bar
 meta_title: 'GWriters • Biologie - Ghostwriter, Lektoren & Coaches'
 meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Biologie – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
