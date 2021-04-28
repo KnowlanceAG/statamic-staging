@@ -1,9 +1,10 @@
 ---
+id: 1298a2b5-6e23-404b-8806-26e687fda624
 title: 'GWriters Akademie'
 teaser_bg:
   - seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615211698
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619579688
 page_title: 'Die GWriters Akademie für wissenschaftliches Arbeiten'
 use_meta_keywords: false
 no_index_page: false
@@ -21,6 +22,7 @@ teaser:
         type: bilder
         assets:
           - seiten/gwriters-akademie/GWAkademie_Logo_Color-1.png
+        has_border: false
   -
     type: paragraph
   -
@@ -63,6 +65,7 @@ teaser:
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'Jetzt kostenlos Anfragen'
         color: '#FF6606'
+        spacing_top: false
   -
     type: paragraph
 replicator:
@@ -80,8 +83,10 @@ replicator:
                     type: bilder
                     assets:
                       - seiten/gwriters-akademie/2019-04-24-GWAkademie-Picture_roadplan.jpg
+                    has_border: false
               -
                 type: paragraph
+            show_as_card: false
           -
             bard:
               -
@@ -93,15 +98,28 @@ replicator:
                     entries:
                       - b609ef85-dc84-4405-93d0-1b92d92ca1a4
                       - 8a46d375-fe18-42c5-ab50-a1682b5664de
+                      - e1eeb52b-af75-4803-a498-6678be9b695d
+                      - 6a4a507c-f04f-4ceb-9942-3c34d896faad
+                      - 92638305-5538-4e5c-9f2a-eaed57856af6
+                      - 1b8783dd-1179-4eb1-a5a9-27304b468a8e
+                      - 47857fec-2594-4e17-9331-52e3a93020d5
+                      - 56a76afe-cd5a-4ab4-91c3-39b2b98ffe32
+                      - e777b9fb-7884-4d67-8453-9d6c8cb0aa9f
+                      - 8778439c-ea07-4542-9287-cb87e6074f6a
               -
                 type: paragraph
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
+        single-col: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
+    border: false
   -
     columns-replicator:
       -
@@ -116,16 +134,22 @@ replicator:
                     type: bilder
                     assets:
                       - seiten/gwriters-akademie/GWAkademie_Logo_Color-1.png
+                    has_border: false
               -
                 type: paragraph
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
+        single-col: false
     is-full: true
     bg-toggle: true
     bg-image: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
+    border: false
   -
     bard:
       -
@@ -140,5 +164,5 @@ replicator:
         type: paragraph
     type: editor
     enabled: true
-id: 1298a2b5-6e23-404b-8806-26e687fda624
+    show_as_card: false
 ---
