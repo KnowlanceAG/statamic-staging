@@ -178,7 +178,7 @@ downloads:
 page_title: 'Kostenloses Abbildungsverzeichnis für Ihre Hausarbeit herunterladen'
 template: academy-item
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619649758
+updated_at: 1619649770
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -205,5 +205,4 @@ from_the_blog:
   - fe2b45f7-57ac-4f25-8f8f-e879958b1fa6
   - 7b521a57-06aa-4181-8046-2cd4cb1f8efa
   - 774827ee-5840-450d-aca6-d60187adc46b
-link_title: 'Powerpoint Präsentation'
 ---
