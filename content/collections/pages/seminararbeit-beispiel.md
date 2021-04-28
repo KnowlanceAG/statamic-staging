@@ -233,5 +233,15 @@ page_title: 'Seminararbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619630874
+updated_at: 1619630892
+meta_title: 'Seminararbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
+meta_description: 'Überzeugen Sie sich anhand dieses Seminararbeit Musters von unseren Qualitätsstandards und nutzen Sie diese als Orientierung. Erfahren Sie mehr hier.'
+use_meta_keywords: false
+no_index_page: false
+no_follow_links: false
+sitemap_priority: '0.5'
+sitemap_changefreq: daily
+override_twitter_settings: false
+override_twitter_card_settings: false
+twitter_card_type_page: summary
 ---
