@@ -55,7 +55,7 @@ teaser:
     type: paragraph
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1619618021
+updated_at: 1619618061
 replicator:
   -
     columns-replicator:
@@ -108,7 +108,25 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Anzahl der Bauingenieurstudenten in Deutschland von 2009 bis 2019/20 (Quelle: eigene Darstellung in Anlehnung Statista, 2020)'
+                    text: 'Anzahl der Bauingenieurstudenten in Deutschland von 2009 bis 2019/20 (Quelle: eigene'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: italic
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: ' Darstellung in Anlehnung Statista, 2020)'
               -
                 type: paragraph
                 content:
