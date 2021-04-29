@@ -1919,7 +1919,7 @@ replicator:
           values:
             type: bilder
             assets:
-              - seiten/expertentipp.png
+              - 2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik.jpg
             img-alignment: justify-start
             has_border: false
       -
@@ -2023,8 +2023,6 @@ replicator:
         attrs:
           values:
             type: floating-img
-            dateien:
-              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
             img_size: w-1/4
             float: float-left
       -
@@ -2208,8 +2206,6 @@ replicator:
         attrs:
           values:
             type: floating-img
-            dateien:
-              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
             img_size: w-1/4
             float: float-left
       -
@@ -2397,8 +2393,6 @@ replicator:
         attrs:
           values:
             type: floating-img
-            dateien:
-              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
             img_size: w-1/4
             float: float-left
       -
@@ -2534,8 +2528,6 @@ replicator:
         attrs:
           values:
             type: floating-img
-            dateien:
-              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
             img_size: w-1/4
             float: float-left
       -
@@ -2591,8 +2583,6 @@ replicator:
         attrs:
           values:
             type: floating-img
-            dateien:
-              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
             img_size: w-1/4
             float: float-left
       -
@@ -2654,8 +2644,6 @@ replicator:
         attrs:
           values:
             type: floating-img
-            dateien:
-              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
             img_size: w-1/4
             float: float-left
       -
@@ -2779,8 +2767,6 @@ replicator:
         attrs:
           values:
             type: floating-img
-            dateien:
-              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
             img_size: w-1/4
             float: float-left
       -
@@ -2964,8 +2950,6 @@ replicator:
         attrs:
           values:
             type: floating-img
-            dateien:
-              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
             img_size: w-1/4
             float: float-left
       -
@@ -3077,8 +3061,6 @@ replicator:
         attrs:
           values:
             type: floating-img
-            dateien:
-              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
             img_size: w-1/4
             float: float-left
       -
@@ -3334,8 +3316,6 @@ replicator:
         attrs:
           values:
             type: floating-img
-            dateien:
-              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
             img_size: w-1/4
             float: float-left
       -
@@ -3395,8 +3375,6 @@ replicator:
         attrs:
           values:
             type: floating-img
-            dateien:
-              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
             img_size: w-1/4
             float: float-left
       -
@@ -3534,8 +3512,6 @@ replicator:
         attrs:
           values:
             type: floating-img
-            dateien:
-              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
             img_size: w-1/4
             float: float-left
       -
@@ -3575,8 +3551,6 @@ replicator:
         attrs:
           values:
             type: floating-img
-            dateien:
-              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
             img_size: w-1/4
             float: float-left
       -
@@ -3873,7 +3847,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619731753
+updated_at: 1619732462
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
