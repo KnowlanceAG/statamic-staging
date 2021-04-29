@@ -32,7 +32,7 @@ action="{ config:app:url }/!/forms/{ form:handle }"
                 </div>
                 {{# Load notification when there is a validation error with the name field. #}}
                 <template x-if="errors.{{ handle }}">
-                    {{ partial src="components/notification" type="error" attribute="x-text='errors.{handle}'" handle="{handle}" }}
+                    {{ partial src="components/notification" type="error" attribute="x-text='mytranslation(\"{handle}\")'" handle="{handle}" }}
                 </template>
 
 
@@ -73,6 +73,19 @@ action="{ config:app:url }/!/forms/{ form:handle }"
 
 {{ dynamic_token }}
 <script>
+    function mytranslation(name){
+        var text = '';
+        switch (name) {
+            case 'e_mail_adresse': text='Bitte eine E-Mail-Adresse angeben.';
+            break;
+            case 'fachrichtung': text='Bitte die gewünschte Fachrichtung für die Anfrage auswählen.';
+            break;
+            case 'arbeitsthema_spezifikationen_usw': text='Bitte eine Beschreibung für die Anfrage angeben.';
+            break;
+            default: text="Bitte das Feld ausfüllen.";
+        }
+        return text;
+    }
     function sending() {
         return {
             error: false,
