@@ -9,6 +9,12 @@
 
         {{ elseif page_title }}
             <title>{{ page_title }}</title>
+        {{ elseif author }}
+            <title>
+                {{ users slug:is="{author}" }}
+                    {{ short_text | strip_tags }}
+                {{ /users }}
+            </title>
         {{ else }}
             <title>GWriters • {{ title ?? site:name }}</title>
         {{ /if }}
