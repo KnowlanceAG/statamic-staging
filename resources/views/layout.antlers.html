@@ -10,11 +10,12 @@
         {{ elseif page_title }}
             <title>{{ page_title }}</title>
         {{ elseif author }}
-            <title>
-                {{ users slug:is="{author}" }}
-                    {{ short_text | strip_tags }}
-                {{ /users }}
-            </title>
+            {{ users slug:is="{author}" }}
+                <title>
+                    {{ short_text | strip_tags | excerpt:. }}.
+                </title>
+                <meta name="description" content="{{ short_text | strip_tags }}" />
+            {{ /users }}
         {{ else }}
             <title>GWriters • {{ title ?? site:name }}</title>
         {{ /if }}
@@ -32,7 +33,9 @@
         <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-152x152.png"
             sizes="114x114">
 
-        {{ aardvark-seo:head }}
+        {{ if !author }}
+            {{ aardvark-seo:head }}
+        {{ /if }}
 
     </head>
     <body class="{{ if id=="home" }}{{ id }}{{ /if }}{{ segment_1 }} bg-white leading-normal text-black pt-24 body {{ template }}">
