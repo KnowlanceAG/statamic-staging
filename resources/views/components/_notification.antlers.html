@@ -1,5 +1,5 @@
-<div class="">
-    <div class="flex justify-end">
+<div class="my-4 md:col-span-12">
+    <div class="flex {{ if type == 'error' }}justify-end{{ elseif type == 'success' }}justify-start{{ /if }}">
         <div class="ml-3">
             <span class="text-xs italic {{ if type == 'error' }}text-red-500{{ elseif type == 'success' }}text-green-500{{ /if }}" {{ attribute }}>
                 <b>{{ content }}</b>
