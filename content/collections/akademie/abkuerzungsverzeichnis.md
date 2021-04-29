@@ -207,7 +207,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619579167
+updated_at: 1619733853
 academy_short_text-headline: Abkürzungsverzeichnis
 academy_short_text: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel für Ihre Arbeit.'
 use_meta_keywords: false
@@ -231,6 +231,7 @@ more_templates:
 from_the_blog:
   - 63097538-fe23-43a6-9cb0-17d540704877
   - 2187d783-d7f5-4b20-bec8-1674cd72c32f
+  - c7bc4fcc-032f-46aa-bab7-2a78b0e21aaf
   - 774827ee-5840-450d-aca6-d60187adc46b
   - 8d0d751b-54ea-4b94-a1b7-9fe5c7850427
 page_title: 'Kostenloses Abkürzungsverzeichnis für Ihre Hausarbeit herunterladen'
