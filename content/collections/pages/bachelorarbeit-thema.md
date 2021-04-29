@@ -2581,11 +2581,11 @@ replicator:
         type: set
         attrs:
           values:
-            type: bilder
-            assets:
-              - seiten/extipps.jpg
-            img-alignment: justify-start
-            has_border: false
+            type: button
+            button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+            button_text: 'JETZT KOSTENLOS ANFRAGEN'
+            button_align: justify-start
+            spacing_top: false
       -
         type: horizontal_rule
       -
@@ -3729,7 +3729,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619733618
+updated_at: 1619733730
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
