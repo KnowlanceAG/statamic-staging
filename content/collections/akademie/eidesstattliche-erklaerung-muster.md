@@ -173,7 +173,7 @@ from_the_blog:
   - 5d6cfb2d-6aa8-4623-afdc-35f50ee0380c
   - c7f2ad6a-2e8f-42e4-b6bc-d4ce3f31ff30
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619579026
+updated_at: 1619727654
 meta_title: 'Kostenlose Eidesstattliche Erklärung für Ihre Hausarbeit herunterladen'
 meta_description: 'Nutzen Sie hier kostenlos für Ihre eidesstattliche Erklärung Muster und Vorlagen, die in keiner Abschlussarbeit fehlen dürfen.'
 use_meta_keywords: false
@@ -200,4 +200,5 @@ more_templates:
   - 1b8783dd-1179-4eb1-a5a9-27304b468a8e
   - 56a76afe-cd5a-4ab4-91c3-39b2b98ffe32
   - e777b9fb-7884-4d67-8453-9d6c8cb0aa9f
+link_title: 'Eidesstattliche Erklärung'
 ---
