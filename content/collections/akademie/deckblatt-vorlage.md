@@ -159,8 +159,8 @@ replicator:
     type: editor
     enabled: true
     show_as_card: false
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619579306
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1619690256
 academy_short_text-headline: 'Deckblatt Vorlage'
 academy_short_text: 'Nutzen und individualisieren Sie bequem unsere Deckblatt Vorlage für Ihre eigene Abschlussarbeit anwenden.'
 use_meta_keywords: false
@@ -192,4 +192,5 @@ teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 meta_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
 downloads:
   - akademie/Deckblatt.docx
+template: academy-item
 ---

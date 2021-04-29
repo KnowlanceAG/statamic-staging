@@ -168,9 +168,9 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619649549
-template: default
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1619690151
+template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false

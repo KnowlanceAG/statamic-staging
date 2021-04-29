@@ -132,8 +132,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619578641
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1619690274
 downloads:
   - akademie/Praesentation.pptx
 from_the_blog:
@@ -165,4 +165,5 @@ more_templates:
   - 1b8783dd-1179-4eb1-a5a9-27304b468a8e
   - 47857fec-2594-4e17-9331-52e3a93020d5
   - e777b9fb-7884-4d67-8453-9d6c8cb0aa9f
+template: academy-item
 ---

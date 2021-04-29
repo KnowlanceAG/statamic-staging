@@ -206,8 +206,8 @@ replicator:
     type: editor
     enabled: true
     show_as_card: false
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619579167
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1619690247
 academy_short_text-headline: Abkürzungsverzeichnis
 academy_short_text: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel für Ihre Arbeit.'
 use_meta_keywords: false
@@ -237,4 +237,5 @@ page_title: 'Kostenloses Abkürzungsverzeichnis für Ihre Hausarbeit herunterlad
 meta_description: '? Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel. Unsere professionelle Verzeichnisvorlage, nur einen Klick entfernt! ↘️↘️↘️'
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 meta_title: 'Kostenloses Abkürzungsverzeichnis für Ihre Hausarbeit herunterladen'
+template: academy-item
 ---
