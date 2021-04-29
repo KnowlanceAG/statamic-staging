@@ -31,6 +31,8 @@ sections:
           type: text
           icon: text
           listable: hidden
+          validate:
+            - required
       -
         handle: telefonnummer
         field:
@@ -70,6 +72,8 @@ sections:
           type: textarea
           icon: textarea
           listable: hidden
+          validate:
+            - required
       -
         handle: weitere_informationen
         field:
@@ -79,7 +83,7 @@ sections:
           icon: textarea
           listable: hidden
       -
-        handle: datei-anhang
+        handle: datei_anhang
         field:
           mode: grid
           container: formular_uploads

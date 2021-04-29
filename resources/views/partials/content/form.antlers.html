@@ -29,6 +29,7 @@ action="{ config:app:url }/!/forms/{ form:handle }"
                     'border border-red-500' : errors.{{handle}}
                 }">
                     {{ field }}
+                    {{ if instructions }}<p class="text-sm text-gray-700">{{ instructions }}</p>{{ /if }}
                 </div>
                 {{# Load notification when there is a validation error with the name field. #}}
                 <template x-if="errors.{{ handle }}">
