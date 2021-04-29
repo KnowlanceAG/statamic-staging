@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /agb
+Disallow: /datenschutzerklaerung
+
+Sitemap: https://gwriters.de/sitemap.xml
