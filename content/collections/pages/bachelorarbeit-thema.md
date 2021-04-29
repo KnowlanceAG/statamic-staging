@@ -2584,7 +2584,7 @@ replicator:
             type: button
             button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
             button_text: 'JETZT KOSTENLOS ANFRAGEN'
-            button_align: justify-start
+            button_align: justify-center
             spacing_top: false
       -
         type: horizontal_rule
@@ -3729,7 +3729,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619733730
+updated_at: 1619733760
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
