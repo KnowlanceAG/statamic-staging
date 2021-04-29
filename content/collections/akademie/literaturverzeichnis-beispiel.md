@@ -188,7 +188,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619677196
+updated_at: 1619690856
 downloads:
   - akademie/Literaturverzeichnis.docx
 from_the_blog:
@@ -221,4 +221,5 @@ more_templates:
   - 47857fec-2594-4e17-9331-52e3a93020d5
   - e777b9fb-7884-4d67-8453-9d6c8cb0aa9f
 link_title: Literaturverzeichnis
+template: academy-item
 ---
