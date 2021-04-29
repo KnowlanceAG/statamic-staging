@@ -1917,11 +1917,11 @@ replicator:
         type: set
         attrs:
           values:
-            type: bilder
-            assets:
+            type: floating-img
+            dateien:
               - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
-            img-alignment: justify-start
-            has_border: false
+            img_size: w-1/4
+            float: float-left
       -
         type: paragraph
         content:
@@ -2022,11 +2022,11 @@ replicator:
         type: set
         attrs:
           values:
-            type: bilder
-            assets:
+            type: floating-img
+            dateien:
               - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
-            img-alignment: justify-start
-            has_border: false
+            img_size: w-1/4
+            float: float-left
       -
         type: paragraph
         content:
@@ -2204,23 +2204,17 @@ replicator:
                   hex: '#000'
             text: '14. Aufgabe des Lageberichtes in der Konzernberichterstattung'
       -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
+            img_size: w-1/4
+            float: float-left
+      -
         type: paragraph
         content:
-          -
-            type: image
-            attrs:
-              src: null
-              alt: ''
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: hard_break
             marks:
@@ -2338,21 +2332,6 @@ replicator:
         type: paragraph
         content:
           -
-            type: image
-            attrs:
-              src: null
-              alt: ''
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-          -
             type: hard_break
             marks:
               -
@@ -2414,23 +2393,17 @@ replicator:
                   hex: '#000'
             text: '4. Collaborative Consumption: Modetrend oder ernsthafter Wandel der Konsumgewohnheiten?'
       -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
+            img_size: w-1/4
+            float: float-left
+      -
         type: paragraph
         content:
-          -
-            type: image
-            attrs:
-              src: null
-              alt: ''
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: hard_break
             marks:
@@ -2557,23 +2530,17 @@ replicator:
                   hex: '#000'
             text: '10. Nachhaltigkeit in der Unternehmensführung – Mehr als „Greenwashing“?'
       -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
+            img_size: w-1/4
+            float: float-left
+      -
         type: paragraph
         content:
-          -
-            type: image
-            attrs:
-              src: null
-              alt: ''
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: hard_break
             marks:
@@ -2620,23 +2587,17 @@ replicator:
                   hex: '#000'
             text: '11. Auswirkungen von verschiedenen Führungsstile auf den Unternehmenserfolg'
       -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
+            img_size: w-1/4
+            float: float-left
+      -
         type: paragraph
         content:
-          -
-            type: image
-            attrs:
-              src: null
-              alt: ''
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: hard_break
             marks:
@@ -2689,27 +2650,14 @@ replicator:
                   hex: '#000'
             text: 'Sie haben schon eine Idee für Ihr Thema, können diese aber nicht in Worte fassen? Gerne erstellen wir für Sie ein wissenschaftliches Konzept, führen die Literaturrecherche durch oder erstellen für Sie eine vollständige Mustervorlage!'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 255, 255)'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/anfrage'
-                  target: null
-                  rel: nofollow
-            text: 'JETZT KOSTENLOS ANFRAGEN'
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
+            img_size: w-1/4
+            float: float-left
       -
         type: horizontal_rule
       -
@@ -2827,23 +2775,17 @@ replicator:
                   hex: '#000'
             text: '6. „Tue Gutes und rede darüber“ – Sponsoring als Element der Unternehmenskommunikation'
       -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
+            img_size: w-1/4
+            float: float-left
+      -
         type: paragraph
         content:
-          -
-            type: image
-            attrs:
-              src: null
-              alt: ''
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: hard_break
             marks:
@@ -3018,27 +2960,17 @@ replicator:
                   hex: '#000'
             text: '15. SCRUM – Vor- und Nachteile einer methodischen Realisierung eines agilen Projektmanagements in StartUps'
       -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
+            img_size: w-1/4
+            float: float-left
+      -
         type: paragraph
         content:
-          -
-            type: image
-            attrs:
-              src: null
-              alt: ''
-            marks:
-              -
-                type: bold
-              -
-                type: italic
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: hard_break
             marks:
@@ -3141,27 +3073,17 @@ replicator:
                   hex: '#000'
             text: '3. Einführung einer Finanztransaktionssteuer: Vor- und Nachteile'
       -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
+            img_size: w-1/4
+            float: float-left
+      -
         type: paragraph
         content:
-          -
-            type: image
-            attrs:
-              src: null
-              alt: ''
-            marks:
-              -
-                type: bold
-              -
-                type: italic
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: hard_break
             marks:
@@ -3408,27 +3330,17 @@ replicator:
                   hex: '#000'
             text: '9. Die Rolle der Frau als Führungskraft – Anforderungen an Frauen in Führungspositionen'
       -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
+            img_size: w-1/4
+            float: float-left
+      -
         type: paragraph
         content:
-          -
-            type: image
-            attrs:
-              src: null
-              alt: ''
-            marks:
-              -
-                type: bold
-              -
-                type: italic
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: hard_break
             marks:
@@ -3479,23 +3391,17 @@ replicator:
                   hex: '#000'
             text: '1o. Entwicklung eines Telearbeitskonzeptes für ein Industrieunternehmen – rechtliche, personelle und technische Voraussetzungen zur erfolgreichen Implementierung'
       -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
+            img_size: w-1/4
+            float: float-left
+      -
         type: paragraph
         content:
-          -
-            type: image
-            attrs:
-              src: null
-              alt: ''
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: hard_break
             marks:
@@ -3624,55 +3530,14 @@ replicator:
                   hex: '#000'
             text: 'Bevor wir aber in die Liste einsteigen? Wie gehe ich denn vor, um ein Thema zu finden? Die nachfolgende Grafik soll Ihnen ein wenig helfen!'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: "\_"
-      -
-        type: paragraph
-        content:
-          -
-            type: image
-            attrs:
-              src: null
-              alt: 'Infografik Bachelorarbeit Thema'
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: "\_"
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
+            img_size: w-1/4
+            float: float-left
       -
         type: paragraph
         content:
@@ -3706,55 +3571,14 @@ replicator:
                   hex: '#000'
             text: 'Wir wünschen viel Erfolg bei Ihrer Bachelorarbeit und haben zum Schluss noch einmal die wichtigsten Tipps für die Erstellung einer Thesis zusammengefasst:'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: "\_"
-      -
-        type: paragraph
-        content:
-          -
-            type: image
-            attrs:
-              src: null
-              alt: 'Infografik Bachelor Arbeit schreiben'
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: "\_"
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik-300x218.jpg
+            img_size: w-1/4
+            float: float-left
       -
         type: paragraph
         content:
@@ -3768,7 +3592,7 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: 'rgb(68, 68, 68)'
+                  color: 'rgb(0, 0, 0) !important'
                   hex: '#000'
             text: "Zusammenfassend gilt: Wenn man eine Bachelorarbeit schreibt, gilt es einen Fokus auf die Themenauswahl zu legen. Unterstützung finden Sie zudem auch immer bei einem Ghostwriter bzw. unserer\_"
           -
@@ -3781,7 +3605,7 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: 'rgb(255, 102, 2)'
+                  color: 'rgb(0, 0, 0) !important'
                   hex: '#000'
               -
                 type: link
@@ -3797,6 +3621,11 @@ replicator:
                 type: textAlign
                 attrs:
                   align: justify
+              -
+                type: textColor
+                attrs:
+                  color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
+                  hex: '#000'
             text: "\_Agentur. Denn unser Ghostwriter Service hilft nicht nur bei der Erstellung von Arbeiten, sondern auch bei der Auswahl von Themen. Scheuen Sie sich also nicht, einen Ghostwriter für Ihre Bachelorarbeit um Unterstützung zu bitten. Dieser unterstützt Sie bei der Themenfindung oder beispielsweise durch ein Coaching bei der Erstellung der Arbeit."
       -
         type: paragraph
@@ -3878,22 +3707,6 @@ replicator:
                 attrs:
                   align: justify
             text: "\_nutzen oder einen Kommentar hinterlassen!"
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: "\_"
       -
         type: heading
         attrs:
@@ -4060,7 +3873,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619729009
+updated_at: 1619730112
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
