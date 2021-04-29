@@ -1919,7 +1919,7 @@ replicator:
           values:
             type: bilder
             assets:
-              - 2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-Expertentipp-Grafik.jpg
+              - seiten/extipps.jpg
             img-alignment: justify-start
             has_border: false
       -
@@ -3847,7 +3847,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619732462
+updated_at: 1619732645
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
