@@ -9,8 +9,8 @@
 
         {{ elseif page_title }}
             <title>{{ page_title }}</title>
-        {{ elseif author }}
-            {{ users slug:is="{author}" }}
+        {{ elseif author_slug }}
+            {{ users slug:is="{author_slug}" }}
                 <title>
                     {{ short_text | strip_tags | excerpt:. }}.
                 </title>
@@ -33,7 +33,7 @@
         <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-152x152.png"
             sizes="114x114">
 
-        {{ if !author }}
+        {{ if !author_slug }}
             {{ aardvark-seo:head }}
         {{ /if }}
 
