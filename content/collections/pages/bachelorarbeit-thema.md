@@ -2010,24 +2010,14 @@ replicator:
         type: set
         attrs:
           values:
-            type: floating-img
-            img_size: w-1/4
-            float: float-left
+            type: bilder
+            assets:
+              - seiten/extipps.jpg
+            img-alignment: justify-start
+            has_border: false
       -
         type: paragraph
         content:
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: text
             marks:
@@ -2193,24 +2183,14 @@ replicator:
         type: set
         attrs:
           values:
-            type: floating-img
-            img_size: w-1/4
-            float: float-left
+            type: bilder
+            assets:
+              - seiten/extipps.jpg
+            img-alignment: justify-start
+            has_border: false
       -
         type: paragraph
         content:
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: text
             marks:
@@ -2380,24 +2360,14 @@ replicator:
         type: set
         attrs:
           values:
-            type: floating-img
-            img_size: w-1/4
-            float: float-left
+            type: bilder
+            assets:
+              - seiten/extipps.jpg
+            img-alignment: justify-start
+            has_border: false
       -
         type: paragraph
         content:
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: text
             marks:
@@ -2515,24 +2485,14 @@ replicator:
         type: set
         attrs:
           values:
-            type: floating-img
-            img_size: w-1/4
-            float: float-left
+            type: bilder
+            assets:
+              - seiten/extipps.jpg
+            img-alignment: justify-start
+            has_border: false
       -
         type: paragraph
         content:
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: text
             marks:
@@ -2570,24 +2530,14 @@ replicator:
         type: set
         attrs:
           values:
-            type: floating-img
-            img_size: w-1/4
-            float: float-left
+            type: bilder
+            assets:
+              - seiten/extipps.jpg
+            img-alignment: justify-start
+            has_border: false
       -
         type: paragraph
         content:
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: text
             marks:
@@ -2631,9 +2581,11 @@ replicator:
         type: set
         attrs:
           values:
-            type: floating-img
-            img_size: w-1/4
-            float: float-left
+            type: bilder
+            assets:
+              - seiten/extipps.jpg
+            img-alignment: justify-start
+            has_border: false
       -
         type: horizontal_rule
       -
@@ -2754,24 +2706,14 @@ replicator:
         type: set
         attrs:
           values:
-            type: floating-img
-            img_size: w-1/4
-            float: float-left
+            type: bilder
+            assets:
+              - seiten/extipps.jpg
+            img-alignment: justify-start
+            has_border: false
       -
         type: paragraph
         content:
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: text
             marks:
@@ -2937,28 +2879,14 @@ replicator:
         type: set
         attrs:
           values:
-            type: floating-img
-            img_size: w-1/4
-            float: float-left
+            type: bilder
+            assets:
+              - seiten/extipps.jpg
+            img-alignment: justify-start
+            has_border: false
       -
         type: paragraph
         content:
-          -
-            type: hard_break
-            marks:
-              -
-                type: bold
-              -
-                type: italic
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: text
             marks:
@@ -3048,28 +2976,14 @@ replicator:
         type: set
         attrs:
           values:
-            type: floating-img
-            img_size: w-1/4
-            float: float-left
+            type: bilder
+            assets:
+              - seiten/extipps.jpg
+            img-alignment: justify-start
+            has_border: false
       -
         type: paragraph
         content:
-          -
-            type: hard_break
-            marks:
-              -
-                type: bold
-              -
-                type: italic
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: text
             marks:
@@ -3303,28 +3217,14 @@ replicator:
         type: set
         attrs:
           values:
-            type: floating-img
-            img_size: w-1/4
-            float: float-left
+            type: bilder
+            assets:
+              - seiten/extipps.jpg
+            img-alignment: justify-start
+            has_border: false
       -
         type: paragraph
         content:
-          -
-            type: hard_break
-            marks:
-              -
-                type: bold
-              -
-                type: italic
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: text
             marks:
@@ -3362,24 +3262,14 @@ replicator:
         type: set
         attrs:
           values:
-            type: floating-img
-            img_size: w-1/4
-            float: float-left
+            type: bilder
+            assets:
+              - seiten/extipps.jpg
+            img-alignment: justify-start
+            has_border: false
       -
         type: paragraph
         content:
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
           -
             type: text
             marks:
@@ -3499,9 +3389,11 @@ replicator:
         type: set
         attrs:
           values:
-            type: floating-img
-            img_size: w-1/4
-            float: float-left
+            type: bilder
+            assets:
+              - seiten/bachelorarbeit-thema-bwl/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-TIPPS-fuer-die-Erstellung-der-Thesis-Grafik-NEU-1024x536.png
+            img-alignment: justify-center
+            has_border: false
       -
         type: paragraph
         content:
@@ -3538,9 +3430,11 @@ replicator:
         type: set
         attrs:
           values:
-            type: floating-img
-            img_size: w-1/4
-            float: float-left
+            type: bilder
+            assets:
+              - seiten/bachelorarbeit-thema-bwl/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-TIPPS-fuer-die-Erstellung-der-Thesis-Grafik-NEU-1-1024x536.png
+            img-alignment: justify-center
+            has_border: false
       -
         type: paragraph
         content:
@@ -3835,7 +3729,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619732693
+updated_at: 1619733618
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -3845,4 +3739,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+page_title: '75 Kostenlose Themenvorschläge für Ihre Bachelorarbeit von GWriters'
+meta_title: '75 Kostenlose Themenvorschläge für Ihre Bachelorarbeit von GWriters'
+meta_description: 'Sie haben noch keine Idee für Ihr Bachleorarbeit-Thema im Fachbereich BWL? Wir haben für Sie die aktuellen und wissenschaftlichen BWL-Themen ausgesucht!'
 ---
