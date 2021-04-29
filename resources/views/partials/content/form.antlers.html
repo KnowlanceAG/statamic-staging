@@ -24,11 +24,18 @@ action="{ config:app:url }/!/forms/{ form:handle }"
                 {{ width == '100' ?= 'md:col-span-12' }}"
             >
                 <label class="block uppercase tracking-wide text-black text-xs mt-4 mb-1" for="{{ handle }}">{{ trans key="{display}" }} {{ if validate | contains:required }}<sup class="text-red-500">*</sup>{{ /if }}</label>
+
+                <div x-bind:class="{
+                    'border border-red-500' : errors.{{handle}}
+                }">
+                    {{ field }}
+                </div>
                 {{# Load notification when there is a validation error with the name field. #}}
                 <template x-if="errors.{{ handle }}">
-                    {{ partial src="components/notification" type="error" attribute="x-text='errors.{handle}'" }}
+                    {{ partial src="components/notification" type="error" attribute="x-text='errors.{handle}'" handle="{handle}" }}
                 </template>
-                {{ field }}
+
+
             </div>
         {{ /fields }}
 
