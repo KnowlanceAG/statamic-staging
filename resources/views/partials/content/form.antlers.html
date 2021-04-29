@@ -92,6 +92,13 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
       return preprocessed
     }
 
+    if (
+        ['file', 'datei_anhang', 'upload'].includes(name) &&
+        preprocessed.startsWith('Muss eine Datei vom Typ')
+    ) {
+        return 'Folgende Dateiformate werden akzeptiert: jpg/jpeg, png, pdf, doc, docx, xls, xlsx, zip'
+    }
+
     switch (name) {
       case 'e_mail_adresse':
         return 'Bitte eine E-Mail-Adresse angeben.'
@@ -101,6 +108,8 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
         return 'Bitte eine Beschreibung für die Anfrage angeben.'
       case 'fachbereiche_and_interessensschwerpunkte':
         return 'Bitte Fachbereiche angeben.'
+      case 'file':
+        return 'Bitte laden Sie eine Datei hoch.'
     }
     return 'Bitte das Feld ausfüllen.'
   }

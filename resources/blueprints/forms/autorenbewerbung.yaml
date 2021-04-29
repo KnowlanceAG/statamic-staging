@@ -94,3 +94,5 @@ sections:
           icon: assets
           instructions: 'Anhänge wie ihren Lebenslauf, Anschreiben oder Zeugnisse o. ä. können Sie hier hochladen.'
           listable: hidden
+          validate:
+            - 'mimetypes:image/jpeg,image/png,application/pdf,application/zip,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document'

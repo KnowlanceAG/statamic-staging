@@ -56,3 +56,6 @@ sections:
           icon: assets
           instructions: 'Falls Sie uns eine Datei (z.B. .doc, .pdf, .xls) mitsenden möchten, nutzen Sie die bitte die Upload-Funktion. Je mehr Informationen Sie uns zukommen lassen, umso besser können wir Ihnen helfen.'
           listable: hidden
+          validate:
+            - 'mimetypes:image/jpeg,image/png,application/pdf,application/zip,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+
