@@ -395,7 +395,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619579438
+updated_at: 1619727872
 academy_short_text-headline: 'Tabellenverzeichnis Beispiel'
 academy_short_text: 'Nutzen Sie unser Tabellenverzeichnis Beispiel für jede wissenschaftliche Arbeit mit einer Vielzahl von Tabellen.'
 use_meta_keywords: false
@@ -427,4 +427,5 @@ teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 meta_title: 'Kostenloses Tabellenverzeichnis für Ihre Hausarbeit herunterladen'
 downloads:
   - akademie/Tabellenverzeichnis.docx
+link_title: Tabellenverzeichnis
 ---
