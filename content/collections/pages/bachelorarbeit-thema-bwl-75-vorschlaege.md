@@ -1926,18 +1926,6 @@ replicator:
         type: paragraph
         content:
           -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-          -
             type: text
             marks:
               -
@@ -3847,7 +3835,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619732645
+updated_at: 1619732693
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
