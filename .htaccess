@@ -1,0 +1,6 @@
+RewriteEngine on
+DirectorySlash off
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^(.*)/$ /$1 [R=301,L]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule !/$ %{REQUEST_URI}/ [L]
