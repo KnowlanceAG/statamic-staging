@@ -1,2 +1,7 @@
 title: Kontakt
 honeypot: telefoon
+email:
+  -
+    to: kontakt@gwriters.de
+    from: service@gwriters.de
+    subject: 'gwriters.de - Kontaktanfrage'
