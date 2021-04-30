@@ -1,6 +1,6 @@
 ---
 id: 9232eaf7-a636-467d-9699-5e34e4a7c4a9
-title: 'Biologie Ghostwriter'
+title: Biologie
 teaser:
   -
     type: heading
@@ -57,7 +57,7 @@ page_title: 'GWriters • Biologie - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619788677
+updated_at: 1619791587
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
