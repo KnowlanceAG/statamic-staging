@@ -1,6 +1,6 @@
 ---
 id: 051a1060-2c31-4edd-af39-c44fe3842526
-title: Pflegewissenschaften
+title: 'Pflegewissenschaften Ghostwriter'
 teaser:
   -
     type: heading
@@ -56,8 +56,8 @@ teaser_bg:
 page_title: 'GWriters • Pflegewissenschaft - Ghostwriter & Lektoren'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619788402
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619791048
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
