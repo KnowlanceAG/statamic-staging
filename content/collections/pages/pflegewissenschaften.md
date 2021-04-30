@@ -57,7 +57,7 @@ page_title: 'GWriters • Pflegewissenschaft - Ghostwriter & Lektoren'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619786321
+updated_at: 1619788402
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -884,14 +884,11 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
-                    bild:
+                    type: floating-img
+                    dateien:
                       - seiten/fachrichtungen/Pflegewissenschaften.png
-                    text: |-
-                      Als Pionierin auf dem Gebiet der Pflegewissenschaften gilt die englische Krankenschwester Florence Nightingale. Sie wertete bereits zu Beginn des 20. Jahrhunderts medizinische Daten zur Optimierung der Krankenpflege aus. Die modernen Pflegewissenschaften haben ihren Ursprung in den USA. Dort etablierten sich bereits im Jahr 1907 erste Studiengänge im Bereich der Pflegewissenschaften.
-
-                      Basierend auf der nach dem Zweiten Weltkrieg veröffentlichten Studie “Nurses of the Future” von Esther L. Brown, die eine mangelhafte pflegerische Versorgung in den USA anprangerte, entstanden die Studiengänge der Pflegepädagogik sowie des Pflegemanagements. Ausgehend von den USA griff die Akademisierung der Pflegewissenschaften auf Europa über. Seit den 80’er Jahren des letzten Jahrhunderts entwickelte sich dieser Zweig der Pflegewissenschaften auch in Deutschland.
-                    ausrichtung: text-bild
+                    img_size: w-1/4
+                    float: float-right
               -
                 type: heading
                 attrs:
