@@ -1,6 +1,6 @@
 ---
 id: f501c52c-7217-448e-bb53-d6f84c7e51c8
-title: Mathematik
+title: 'Mathematik Ghostwriter'
 teaser:
   -
     type: heading
@@ -46,11 +46,11 @@ teaser:
     type: paragraph
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
-page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
+page_title: 'GWriters • Mathematik - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1619790512
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619791322
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -789,7 +789,7 @@ replicator:
                         attrs:
                           href: 'https://www.mathe-wettbewerbe.de/bwm'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Bundeswettbewerb Mathematik - Bundesministerium für Bildung und Forschung'
                   -
                     type: hard_break
@@ -801,7 +801,7 @@ replicator:
                         attrs:
                           href: 'https://www.deutschlandfunk.de/mathematik-studium-ob-man-in-der-schule-in-mathe-gut-ist.680.de.html?dram:article_id=443122'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Abbrecherquoten im Mathematik-Studium - Deutschlandfunk'
                   -
                     type: hard_break
@@ -813,7 +813,7 @@ replicator:
                         attrs:
                           href: 'https://www.math.uni-hamburg.de/'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Fachbereich Mathematik - Universität Hamburg'
                   -
                     type: hard_break
@@ -825,7 +825,7 @@ replicator:
                         attrs:
                           href: 'http://www.spektrum.de/mathematik'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Artikelsammlung Mathematik - Spectrum.de'
                   -
                     type: hard_break
@@ -837,7 +837,7 @@ replicator:
                         attrs:
                           href: 'https://www.mathematik.hu-berlin.de/en'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Mathematisches Institut - HU Berlin'
                   -
                     type: hard_break
