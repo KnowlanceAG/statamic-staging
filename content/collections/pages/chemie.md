@@ -1,6 +1,6 @@
 ---
 id: a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
-title: 'Chemie Ghostwriter'
+title: Chemie
 teaser:
   -
     type: heading
@@ -57,7 +57,7 @@ page_title: 'GWriters • Chemie - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619774864
+updated_at: 1619791561
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
