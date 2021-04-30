@@ -1,6 +1,6 @@
 ---
 id: 8c2000e0-d0b2-49f1-9e95-c3eb1e93b1fd
-title: 'Ghostwriter Psychologie'
+title: Psychologie
 teaser:
   -
     type: heading
@@ -54,8 +54,8 @@ teaser_bg:
 page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: f3fd11ca-3ac3-42f4-af3a-b2c5393e92c7
-updated_at: 1619782304
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619791658
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
