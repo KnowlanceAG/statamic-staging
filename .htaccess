@@ -1,6 +1,11 @@
 RewriteEngine on
 DirectorySlash off
+
 RewriteCond %{ENV:REDIRECT_STATUS} ^$
 RewriteRule ^(.*)/$ /$1 [R=301,L]
+
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule !/$ %{REQUEST_URI}/ [L]
+
+ErrorDocument 404 /404/index.html
+ErrorDocument 403 /404/index.html
