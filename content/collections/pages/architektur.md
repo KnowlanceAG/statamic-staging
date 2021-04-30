@@ -1,6 +1,6 @@
 ---
 id: 1390d32b-dd5d-49d2-85ff-21833c97c8ed
-title: 'Architektur Ghostwriter'
+title: Architektur
 teaser:
   -
     type: heading
@@ -57,7 +57,7 @@ page_title: 'GWriters • Architektur - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619774540
+updated_at: 1619791557
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
