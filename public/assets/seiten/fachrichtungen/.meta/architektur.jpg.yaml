@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Architektur Ghostwriter'
+  caption: 'Durch das Bauen aufwendiger Modelle kommen Studenten bei schriftlichen Ausarbeitungen oft in Verzug und lassen sich von einem Architektur-Ghostwriter helfen.'
 size: 373493
 last_modified: 1619774204
 width: 1969
