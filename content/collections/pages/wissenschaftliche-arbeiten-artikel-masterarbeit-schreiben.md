@@ -1,6 +1,6 @@
 ---
 id: fba4bedd-aa85-4e2b-a1dd-ec135ff75e80
-title: wissenschaftliche-arbeiten-artikel-masterarbeit-schreiben
+title: 'Wissenschaftliche Arbeiten und Artikel lesen - Die 11 besten Tipps'
 teaser:
   -
     type: heading
@@ -235,8 +235,8 @@ replicator:
     type: editor
     enabled: true
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619474210
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619786359
 page_title: 'GWriters • Wissenschaftliche Arbeiten und Artikel lesen'
 meta_title: 'GWriters • Wissenschaftliche Arbeiten und Artikel lesen'
 meta_description: 'Wie Sie wissenschaftliche Arbeiten lesen und verstehen - unsere erfahrenen akademischen Experten erläutern Ihnen die besten Tipps und Richtlinien.'
