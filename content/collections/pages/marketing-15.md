@@ -11,6 +11,8 @@ teaser:
         type: text
         marks:
           -
+            type: bold
+          -
             type: textAlign
             attrs:
               align: center
@@ -19,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Ghostwriter Marketing'
+        text: 'Ghostwriter Soziologie'
   -
     type: paragraph
     content:
@@ -32,7 +34,12 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Hilfe durch Experten und akademische Ghostwriter des Marketings – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+          -
+            type: textColor
+            attrs:
+              color: 'rgb(68, 68, 68)'
+              hex: '#000'
+        text: 'Hilfe durch Experten und akademische Ghostwriter der Soziologie – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -49,8 +56,8 @@ teaser_bg:
 page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619772972
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619788174
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -74,40 +81,60 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Marketing Ghostwriter'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Soziologie Ghostwriter'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unter Marketing versteht man die Idee einer marktorientierten Unternehmensführung, um den Bedürfnissen der Kunden auf bestmögliche Art gerecht zu werden. Aufgrund seiner Funktion als Treiber des unternehmerischen Absatzes, ist Marketing ein Bereich der '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Da Soziologische Theorien immer auf empirischen Daten fundiert sein müssen, geht mit dem Studium der Soziologie und besonders mit dem Verfassen von wissenschaftlichen Arbeiten ein hoher Zeit- & Arbeitsaufwand einher. Viele gesammelte Daten müssen ausgewertet und analysiert werden, was allgemein sehr zeit- und arbeitsintensiv ist. An diesem Punkt beauftragen Studenten der Soziologie\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/bwl'
+                          href: 'https://gwriters.de/ghostwriter'
                           target: null
                           rel: null
-                    text: Betriebswirtschaftslehre
+                    text: Ghostwriter
                   -
                     type: text
-                    text: '. In größeren, aber auch in mittelständischen und einigen kleinen Unternehmen, gibt es oftmals eine eigene Marketingabteilung. Diese befasst sich mit der Vermarktung der hergestellten Produkte oder angebotenen Dienstleistungen. Die meisten unserer Marketing Ghostwriter kommen direkt aus diesen Unternehmensabteilungen. Zumindest haben diese aber einen anderen beruflichen Bezug zu verschiedenen Bereichen der Vermarktung und seiner Strategien. Daher kann Sie Unser Team bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen unterstützen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder für eine andere akademische Ausarbeitung handelt, wir bieten Ihnen umfassende individuelle und professionelle Unterstützung durch Experten.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: video
-                    video: 'https://youtu.be/bf0mZznnTlk'
-              -
-                type: paragraph
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein Ghostwriter im Bereich Marketing kann sogar zu einem festen, langfristigen Partner im Marketing Studium werden. Beispielsweise zu einer Art Coach oder Begleiter, denn akademisches Ghostwriting muss nicht immer die Erstellung einer vollständigen Mustervorlage bedeuten. Es gibt viele Fälle in denen der Forschungsansatz schon steht, ein Student nur noch eine Handreichung benötigt, um die genaue Richtung festzulegen, die er mit seiner wissenschaftlichen Arbeit einschlagen möchte.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_und akademische Freelancer, um sich bei der Auswertung von Daten oder den wissenschaftlichen Texten unterstützen zu lassen. Gerade im Bereich Statistik können die Soziologie Ghostwriter von GWriters sehr gut Unterstützung leisten und Ihnen eine hervorragende methodische Hilfestellungen geben. Denn aus der Erfahrung her stellt gerade die statistische Auswertung soziologischer eine große Schwierigkeit dar für jeden Soziologie Studenten."
               -
                 type: paragraph
                 content:
@@ -116,12 +143,30 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie für Ihre akademischen Arbeit im Fachbereich Mathematik Ghostwriter suchen, dann können Sie uns gerne sofort eine '
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Soziologie Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -134,12 +179,130 @@ replicator:
                     marks:
                       -
                         type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                     text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: video
+                    video: 'https://youtu.be/ESfhBQQX3qk'
+              -
+                type: paragraph
+                content:
                   -
-                    type: hard_break
+                    type: text
                     marks:
                       -
-                        type: bold
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Zusätzliche stellen auch empirische Forschungsmethoden einen weiteren Schwerpunkt in der Soziologie dar und auch an dieser Stelle können die Soziologie Ghostwriter von GWriters unterstützen. Hierbei wird vorrangig die Frage nach dem Umfang von gesellschaftlichen Veränderungsprozessen und nach dem Umgang mit diesen untersucht. Solche Fragestellungen sind von zentraler Bedeutung in der empirischen Forschung. Unsere Experten unterstützen Studenten in der klassischen Statistik, aber auch in anderen Gebieten wie beispielsweise in der soziologischen Forschung, bei Strukturanalysen oder auch bei Ursachenanalyse. All diese sind Forschungsgebiete im Rahmen der Soziologie, die ein ausgedehntes Knowhow in der Methodik und in den wissenschaftlichen Arbeitstechniken erfordern. Und auch hier können die Soziologie Ghostwriter von GWriters Sie sehr intensiv unterstützen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Auch nach dem Studium ist besonders das Verfassen von Fachartikeln für Soziologen von Vorteil. Wenn diese sich Fachartikel zum Veröffentlichen in wissenschaftlichen Publikationen schreiben lassen, können sie auf diesem Weg ihre eigene berufliche Karriere vorantreiben und ihre Reputation steigern. Gleichzeitig können diese sich vollkommen auf andere wichtige Aufgaben ihres Berufs konzentrieren. Unter diesen Gegebenheiten kann in der Soziologie\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/ghostwriting'
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ", oder auch nur die Konsultation von\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/lektorat/lektor'
+                          target: null
+                          rel: null
+                    text: Lektoren
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ",\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/korrektorat/korrektor'
+                          target: null
+                          rel: null
+                    text: Korrektoren
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_oder Coaches eine wichtige Entlastung darstellen."
               -
                 type: heading
                 attrs:
@@ -147,58 +310,60 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Der Fachbereich Marketing'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Exkurs: qualitative Inhaltsanalyse mit MAXQDA'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die steigende Vielzahl an unterschiedlichen Märkten von angebotenen Produkten und Dienstleistungen stellt das Marketingstudium als äußerst facettenreich dar. Aufgrund des zeitintensiven und breit gefächerten Studiums beauftragen nicht selten Studenten aus dem Bereich Marketing '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Als zentrale wissenschaftliche Methode in der Soziologie muss hier die qualitative Inhaltsanalyse nach Mayring erwähnt werden. Diese wird mit dem dem Programm\_"
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'http://gwriters.de/ghostwriter'
+                          href: 'https://gwriters.de/leistungen/maxqda-auswertung'
                           target: null
                           rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    text: ' und Freelancer, die sie bei der Erstellung wissenschaftlicher Arbeiten unterstützen durch Mustervorlagen. Dies kann in Form einer umfassenden Textredaktion geschehen, jedoch auch einzelne Teilbereiche, wie das '
+                    text: MAXQDA
                   -
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'http://gwriters.de/leistungen/lektorat'
-                          target: null
-                          rel: null
-                    text: Lektorat
-                  -
-                    type: text
-                    text: ' und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/leistungen/korrektorat'
-                          target: null
-                          rel: null
-                    text: Korrektorat
-                  -
-                    type: text
-                    text: ' und die Suche nach der passenden Literatur umfassen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Marketing erscheint für viele Schüler und Studienanfänger als Traumfach, welches sie gerne studieren möchten, um nach ihrem Abschluss in der schillernden Welt des Marketings und der Werbung arbeiten zu können. Viele möchten für große, namhafte Unternehmen Marketingkonzepte entwickeln, an Pitches teilnehmen oder Präsentationen gestalten. Solche Berufsaussichten im Marketing klingen für viele Studenten sehr verlockend. Bei großen Marketing-Agenturen liegen die Gehälter der Marketing-Manager in der Spitze bei bis zu 15.000 Euro brutto im Monat. Daran wird schnell klar, warum es sich beim Marketing um so ein attraktives Studienfach handelt.'
+                          align: start
+                    text: "\_durchgeführt, das hier das State-of-the Art ist und eine sehr hohe Bedeutung in der Soziologie hat. Auch hier bringen die Soziologie Ghostwriter von GWriters ein breites und ein umfassendes Wissen mit. Darüber hinaus stellen wir von GWriters immer die aktuellste MAXQDA Lizenz zur Verfügung, sodass wir Ihre qualitative Inhaltsanalyse in MAXQDA garantiert mit der aktuellsten und besten Software durchführen."
               -
                 type: heading
                 attrs:
@@ -685,146 +850,58 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriting im Marketing-Studium'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Allgemeines zur Soziologie'
               -
                 type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Zwar ist der NC für ein Marketing Studium deutlich niedriger als bei anderen Studienfächern, er liegt im Durchschnitt zwischen 2,0 und 3,0, vielleicht auch 2,7 bei manchen Universitäten, aber auch die Anforderungen an eine Marketing Studenten sind hoch. Gute Kenntnisse in der Mathematik sind eine sehr wichtige Voraussetzung, auch ein ausgezeichnetes Wissen im Bereich der Statistik ist notwendig, denn man will natürlich nach einer Marketing Kampagne auch genau untersuchen und auswerten können, was diese bewirkt hat und ob diese erfolgreich war. Dieses zentrale Messen und Steuern des Marketingerfolgs ist die Aufgabe von Marketing Experten im Unternehmen, der sich diese Fähigkeiten im vollen Umfang im Rahmen seines Studiums angeeignet haben muss.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'All dies bedarf im Studium eines vollen Einsatzes, wobei es schnell passieren kann, dass Studenten an ihre fachlichen Grenzen oder auch an ihre zeitliche Grenzen gelangen. In solchen Situation können unsere Marketing Ghostwriter von GWriters Studenten professionell unterstützen, da diese nicht nur ein hervorragendes Wissen im Marketing sowie einen akademischen Abschluss in diesem Fachbereich haben, sondern auch darüber hinaus alle Anforderungen dieses Fachbereichs erfüllen und weitere akademische Abschlüsse in verwandten Fachbereichen wie beispielsweise BWL und '
                   -
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/vwl'
-                          target: null
-                          rel: null
-                    text: VWL
-                  -
-                    type: text
-                    text: ' vorweisen können.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In der Regel arbeiten unsere Ghostwriter auch aktiv im Marketingbereich und verfügen über viele Jahre Berufserfahrung. Dank dieser großen Erfahrung in der Marketingpraxis sind unsere Marketing Ghostwriter in ihrem Fachbereich immer am Puls der Zeit. Sie kennen also den aktuellen Forschungsstand uns können sich daher schnell und effektiv in jedes individuelle Thema einarbeiten sowie sich aktiv in die Gestaltung wissenschaftlicher Arbeiten einbringen. Dies ist nicht nur limitiert auf Studenten, die sich eine Mustervorlage für Ihre Seminararbeiten und Hausarbeit schreiben lassen möchten, sondern auch für die kompetente Ghostwriting-Unterstützung bei Abschlussarbeiten wie Bachelorarbeiten, Masterarbeiten oder Doktorarbeiten in Form hochprofessioneller Mustervorlagen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Aufgrund der umfassenden Anforderungen in Kombination mit einem straffen Zeitplan, entwickeln sich für einige Studenten Schwierigkeiten bei dem Erstellen ihrer wissenschaftlichen Arbeit. Je nachdem, nach welchem Modell und welcher Lehre Themenfelder betrachtet werden müssen, kann man unterschiedliche Ergebnisse erhalten und muss diese nach gegebenen Umständen gewichten. Ein akademischer Ghostwriter im Marketingbereich kann helfen, diese Gewichtung vorzunehmen, da er sich in der Materie bestens auskennt und Erfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen kann. Er schafft Abhilfe und kann im Regelfall zeitnah eine passende Lösung bieten, die Studenten entlastet und diesen hilft, sich auf wichtige Prüfungen zu konzentrieren. Auch ist im Fachbereich Marketing '
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: 'http://gwriters.de/leistungen/ghostwriting'
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    text: ' nicht unüblich, da viele Studenten sich wertvolle Arbeitszeit sparen, indem Sie sich von einem Ghostwriter eine Mustervorlage schreiben lassen.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Marketing im Studium'
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Die Wissenschaft der Soziologie befasst sich mit der Erforschung des sozialen Verhaltens, also der Interaktion zwischen Menschen. Dies geschieht sowohl auf theoretischer, als auch auf empirischer Basis.'
               -
                 type: set
                 attrs:
                   values:
                     type: floating-img
                     dateien:
-                      - wiki/marketing/marketing.jpeg
+                      - seiten/fachrichtungen/soziologie1.jpg
                     img_size: w-1/4
-                    float: float-right
-              -
-                type: paragraph
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In der Tat ist ein Marketing-Studium ein sehr interessantes Studium, da es viele Teilbereiche aus anderen Fachrichtungen miteinander verbindet und dabei eine sehr praxisorientierte Ausrichtung einnimmt. Dazu zählen Elemente der Fachbereiche Psychologie, Konsumentenforschung oder auch ganz allgemein aus den Sozialwissenschaften, die im Marketing vereint werden. Marketing wird oft als Teil der BWL betrachtet, geht aber in seinem Umfang deutlich über einen bloßen Teilbereich hinaus, weil im Mittelpunkt eben auch die Frage steht, wie Werbung auf Konsumenten wirkt und was Werbung eigentlich genau bedeutet, was natürlich auch mit hohen Anforderungen verbunden ist. Wir bei GWriters können Ihnen mit unseren Marketing Ghostwritern im Rahmen Ihres Studiums wertvolle Unterstützung bieten, sodass Sie diese hohen Anforderungen mit Sicherheit erfüllen.'
+                    float: float-left
               -
                 type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Bei einem kurzen Blick auf den Aufbau des Marketing Studiums sieht man, dass die Regelstudienzeit für einen Marketing-Bachelor in der Regel bei sechs bis sieben Semestern liegt, während ein Master in diesem Fachbereich drei bis fünf Semester in Anspruch nimmt. Sowohl im Bachelorstudium, als auch im Master sind Praktika und Auslandssemester in diese Studienzeiten eingeschlossen und werden auch in den meisten Fällen zwingend vorausgesetzt, was zum Ziel hat, den zukünftigen Marketing-Experten die für diesen Bereich so wichtige internationale Ausrichtung zu geben. Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen.'
-              -
-                type: horizontal_rule
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    spacing_top: false
-              -
-                type: horizontal_rule
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Aufbau und Inhalt des Marketing Studiums'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Marketing ist ein Überbegriff für mehrere Unterdisziplinen. Dazu gehören beispielsweise Marketing-Management, Sales-Management, aber auch Social Networks und Marketing Communication. Aufgrund vieler unterschiedlicher Leistungen, die in Form von Praktika oder wissenschaftlichen Arbeiten, wie einer Hausarbeit, '
                   -
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'http://gwriters.de/arbeiten/seminararbeit'
-                          target: null
-                          rel: null
-                    text: Seminararbeit
-                  -
-                    type: text
-                    text: ' oder Examensarbeit, in einem Kurs geleistet werden müssen, ist der Studiengang Marketing mit viel Arbeit und Fleiß verbunden. Viele Konzepte versprechen Lösungsmöglichkeiten für eine Problemstellung, wobei es gilt, die besten zu entwickeln und umzusetzen. Es erfordert nicht nur viel Motivation, Selbstdisziplin und Können, sondern auch einen enormen Zeitaufwand um das Marketingstudium mit den bestmöglichen Leistungen zu absolvieren.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Bei einem kurzen Blick auf den Aufbau des Marketing Studiums sieht man, dass die Regelstudienzeit im Bachelorstudium in der Regel bei sechs bis sieben Semestern liegt, während ein Master in diesem Fachbereich drei bis fünf Semester in Anspruch nimmt. Wie bereits angemerkt, liegt der NC nicht so hoch wie in anderen Studienfächern, was die Suche nach einem Studienplatz deutlich erleichtert. Studenten erhalten im Grundstudium zu Beginn einen Überblick über alle notwendigen Grundlagen und Basisthemen des Studiums und des Themas Marketing.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Im Verlauf des Studiums werden dann durch den Studenten selbst Vertiefungen gewählt, beispielsweise in Medienrecht, in Kommunikation und - sehr interessant - natürlich auch das Thema Social Media Werbung. In den letzten Jahre wurde in den\_Bereichen Social Media und Social Media Marketing eine Reihe neuer Studiengänge geschaffen, die auch von privaten Universitäten sehr stark beworben und forciert werden. Solche sehr gezielten Studiengänge sind gerade dann interessant, wenn Studenten später eben dann auch in diesen Bereichen als Marketing Manager tätig werden möchten."
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Über die internationale Ausrichtung vieler Marketing-Studiengänge und deren Fokus auf aktuelle Entwicklungen und Trends hinaus, bieten viele Universitäten, insbesondere private Universitäten, auch ein duales Studium im Bereich Marketing. Dies bedeutet eine Verknüpfung zwischen beruflicher Tätigkeit und Studium, was natürlich höhere Anforderungen an alle Studenten stellt, insbesondere was die zeitliche Thematik angeht. Und genau in diesem Zusammenhang können die Marketing Ghostwriter von GWriters wertvolle Unterstützung leisten, da sie besonders duale Studenten zeitlich einfach entlasten können, sodass diese sich auf ihr Studium, auf zu schreibende Klausuren und anstehende Präsentationen konzentrieren können. Denn mit der Erstellung von Mustervorlagen für wissenschaftliche Arbeiten können diese dann guten Gewissens unsere hochkompetenten Marketing Ghostwriter bei GWriters beauftragen.'
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Die Soziologie erforscht im Gegensatz zu anderen sozialwissenschaftlichen Disziplinen nicht nur bestimmte Bereiche des Sozialen, sondern untersucht alle Aspekte der sozialen Interaktion der Menschen und konzentriert sich hierbei besonders auf den Sinn und die Strukturen der sozialen Interaktion sowie auf die regulierenden Werte und Normen. Die Lehre der Soziologie erklärt somit die Gründe, den Ablauf und die Wirkung von sozialem Handeln. Da jede soziologische Theorie durch empirische Daten bewiesen werden muss oder auf deren Basis entsteht, ist das Studium und die Arbeit auf dem Gebiet der Soziologie sehr zeit- und arbeitsintensiv. Aus diesem Grund beauftragen vergleichsweise häufig Studenten der Soziologie Ghostwriter, die sie bei der Auswertung von Daten oder beim Verfassen von Arbeiten unterstützen.'
               -
                 type: heading
                 attrs:
@@ -832,13 +909,480 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Zusammenfassung zu Ghostwritern & Marketing'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Geschichte der Soziologie'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Zusammengefasst handelt es sich beim Marketing um ein hochinteressantes Studium und gerade wenn man sich die heutige Produkt- und Dienstleistungswelt anschaut, dann werden Produkte immer vergleichbarer und austauschbarer, sodass allein über den Preis der Wettbewerb schon lange nicht mehr zu gewinnen ist. Umso wichtiger wird es in der Zukunft, Marketing Spezialisten zu haben, die genau wissen, worauf die Konsumenten wirklich Wert legen und wie Werbekampagnen genau auf diese Kundenbedürfnisse abgestimmt werden können. Nur so ist es möglich, eine wirkungsvolle und erfolgreiche Marketingstrategie zu entwickelt.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Bis zum Ende des 19.Jahrhunderts war die Soziologie ein Teil der\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/philosophie'
+                          target: null
+                          rel: null
+                    text: Philosophie
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_und der Ökonomie und löste sich erst dann als Einzelwissenschaft von diesen ab. Dieser Prozess ging eng mit der Entstehung der Bürgerlichen Gesellschaft und der fortschreitenden Industrialisierung einher. Seit dieser Entwicklung der Soziologie zu einer eigenständigen universitären Disziplin nimmt sie eine vermittelnde Stellung zwischen Natur- und Geisteswissenschaften ein."
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Das Soziologie Studium'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Im Mittelpunkt eines Soziologie Studiums steht die Auseinandersetzung mit der Gesellschaft. Es wird untersucht, wie die Gesellschaft funktioniert, wie die Gesellschaft sich entwickelt und wie das Individuum in der Gesellschaft wirkt und sich entwickelt. Hinterfragt wird also die Rolle eines jeden einzelnen innerhalb der Gesellschaft, aber auch das Wirken der Individuen untereinander und der Einfluss auf andere Gesellschaften. Dies ist ein wichtiger Punkt innerhalb der Soziologie, denn damit präsentiert sich die Soziologie quasi als Querschnitteswissenschaft zu einer Vielzahl von anderen Forschungsgebieten. Hier sind beispielsweise die\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/psychologie'
+                          target: null
+                          rel: null
+                    text: Psychologie
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ", die\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/wirtschaftswissenschaften'
+                          target: null
+                          rel: null
+                    text: Wirtschaftswissenschaften
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_oder auch die Politikwissenschaften zu nennen. Dies macht deutlich, dass die Soziologie ein sehr breites und umfangreiches Feld ist, welches viele Schnittpunkte und Schnittstellen zu anderen Forschungsgebieten hat."
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Besonders beliebt als Studienorte in der Soziologie sind Nürnberg und Bielefeld. Der Grund hierfür ist, dass diese beiden Studienorte eine lange Historie in der Soziologie haben und sehr bekannt sind für ihre wissenschaftliche Qualität und damit auch für die dort stattfindende Forschung. Je nach Universität kann Soziologie entweder als Ein-Studienfach oder als Zwei-Studienfach belegt werden. Ein-Studienfach bedeutet, dass Sie Ihren Schwerpunkt auf die Soziologie legen und sich gesamthaft im Rahmen der Soziologie entwickeln und forschen. Zwei-Studienfach bedeutet, dass Sie neben der Soziologie ein weiteres Fach studieren. Eine ganz klassische Kombination beispielsweise ist Soziologie und\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/bwl'
+                          target: null
+                          rel: null
+                    text: Betriebswirtschaft
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ', weil genau das auch der genannten Querschnittsaufgabe der Soziologie gerecht wird. Aus einer solche Kombination von Studienfächern ergeben sich dann auch für später sehr gute Berufs- und Karrieremöglichkeiten. Denken Sie beispielsweise an eine Tätigkeit in einer Beratungsgesellschaft oder auch in einem Consultingunternehmen. In der Regel wird das Studium mit einem Bachelor, mit einem Bachelor of Arts Abschluss enden und dauert hier in der Regel sechs Semester.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Und auch nach dem abgeschlossenen Grundstudium und nach der\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: Bachelorarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_kann GWriters Sie im Studium weiter begleiten. Danach kann ein Master Studium folgen, das in der Regel vier Semester dauert, oder es kann auch eine einschlägige Promotion damit verbunden sein. Gerade im Bereich der Promotion können die GWriters\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/promotionsberatung'
+                          target: null
+                          rel: null
+                    text: Promotionsberater
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_Ihnen sehr nützliche Dienste leisten. In diesem Fachbereich bieten wir Ihnen ein breites Leistungsspektrum an. Es beginnt bei der Lehrstuhlsuche, der Suche nach einem Doktorvater, der Auswahl eines passenden Promotionsprogramms bis hin zur Unterstützung und Begleitung bei der Erstellung der\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                          target: null
+                          rel: null
+                    text: Dissertation
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_selbst."
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Anforderungen eines Soziologie Studiums'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Ein guter Soziologe braucht ein gutes Gespür für Zusammenhänge, für das Verhalten von Menschen und dafür, wie mit Zahlen und empirischen Daten umgegangen werden muss. Aufgrund dieses starken Fokus auf die Empirie sollten Sie für ein Soziologie Studium also in jedem Fall die Bereitschaft mitbringen, sich mit Daten und statistischen Informationen auseinanderzusetzen. Diese Fähigkeiten sind für die erfolgreiche Bewältigung eines Soziologie Studiums von ganz entscheidender Bedeutung. Auch gute Englischkenntnisse sind für ein Soziologie Studium sehr wichtig, denn viele Studien laufen in Englisch ab und ein großer Teil der relevanten wissenschaftlichen Fachliteratur ist in englischer Sprache.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Der wissenschaftliche Fokus im Rahmen eines Soziologie Studiums liegt vielfach auf der Erstellung von Präsentationen, von Hausarbeiten, von Referaten, der Bewältigung von Fallstudien und am Ende natürlich auf dem Verfassen einer Abschlussarbeit. Aufgrund der Anforderungen aus diesen verschiedenen Sektoren kommen hier für Sie als Student der Soziologie große Anforderungen auf Sie zu. Und hier kommen Studierende der Soziologie auch schnell an ihre Grenzen. Genau dann kann ein Soziologie Ghostwriter von GWriters wertvolle Unterstützung leisten, denn unsere Experten beherrschen alle wissenschaftlichen Arbeitsmethoden, denken vor allen Dingen fachübergreifend und bringen auch ein breites praktisches Wissen in der Soziologie mit. Auch sind diese immer auf dem aktuellen Stand der Forschung und kennen sich mit aktuellen soziologischen Fragestellungen aus. Das zeigt sich auch darin, dass die Soziologie Ghostwriter von GWriters entweder in der Forschung selber arbeiten oder im Management, in der Unternehmensberatung, im\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/medizin'
+                          target: null
+                          rel: null
+                    text: 'medizinischen Bereich'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ", im Bereich des\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/marketing'
+                          target: null
+                          rel: null
+                    text: Marketings
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ", der Marktforschung, der\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/kommunikationswissenschaften'
+                          target: null
+                          rel: null
+                    text: Kommunikation
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ", im Bereich Medien oder auch in Verlagshäusern. Das sind klassische Karrierefelder für\_ Soziologen, in denen sich auch Ihnen nach dem Studium breite Möglichkeiten bieten, sich zu platzieren und sich zu präsentieren."
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Fazit zum Studium der Soziologie & Ghostwriting'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Zusammenfassend ist die Soziologie spannendes, umfassendes und interessantes Forschungsgebiet und auch ein entsprechendes Studium, welches aber gleichzeitig vielfältige Anforderungen an Sie als Studenten stellt und hier können die Soziologie Ghostwriter von GWriters Sie in vielfältiger Art und Weise unterstützen, wenn Sie sich beispielsweise in Mustervorlage für Ihre\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: 'Hausarbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_möchten oder Unterstützung bei Ihrer Abschlussarbeit benötigen."
               -
                 type: heading
                 attrs:
@@ -846,12 +1390,32 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: Disclaimer
               -
                 type: paragraph
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
                 type: heading
@@ -860,6 +1424,16 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: 'Nützliche Weblinks'
               -
                 type: paragraph
@@ -868,47 +1442,98 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'https://de.wikipedia.org/wiki/Guerilla-Marketing'
+                          href: 'https://de.wikipedia.org/wiki/Soziologie'
                           target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Artikel über Guerilla-Marketing - Wikipedia'
+                          rel: nofollow
+                    text: 'Allgemeine Informationen zur Soziologie mit Linksammlung – Wikipedia'
                   -
                     type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'https://de.wikipedia.org/wiki/Marketing'
+                          href: 'https://kzfss.uni-koeln.de/de'
                           target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Grundinformationen zu Marketing - Wikipedia'
+                          rel: nofollow
+                    text: 'Kölner Zeitschrift für Soziologie und Sozialpsychologie – Uni Köln'
                   -
                     type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'https://wirtschaftslexikon.gabler.de/definition/marketing-39435'
+                          href: 'https://www.uni-muenster.de/Soziologie/'
                           target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Definition Marketing - Wirtschaftslexikon Gabler'
+                          rel: nofollow
+                    text: 'Institut für Soziologie – Uni Münster'
                   -
                     type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                   -
                     type: text
                     marks:
                       -
                         type: bold
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'http://gwriters.de/wiki'
+                          href: 'https://gwriters.de/wiki'
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
