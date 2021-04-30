@@ -1,4 +1,5 @@
 ---
+id: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 title: Ghostwriting
 teaser:
   -
@@ -40,6 +41,7 @@ teaser:
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
+        spacing_top: false
   -
     type: paragraph
 teaser_bg:
@@ -76,6 +78,7 @@ replicator:
             text: 'Ghostwriting stellt eine besonders hochwertige und anspruchsvolle Dienstleistung im Bereich der Redaktion von Texten dar. Dabei steht besonders die Qualität der zu erstellenden Mustervorlage im Vordergrund. Es bedarf dem Zugang zu erfahrenen wissenschaftlichen Autoren, die neben den sprachlichen Fertigkeiten auch themenspezifisches Fachwissen vorweisen können.'
     type: editor
     enabled: true
+    show_as_card: false
   -
     columns-replicator:
       -
@@ -102,6 +105,7 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Wichtige Akademische Arbeiten:'
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -137,6 +141,7 @@ replicator:
                           target: null
                           rel: null
                     text: Hausarbeit
+            show_as_card: false
           -
             bard:
               -
@@ -165,6 +170,7 @@ replicator:
                           target: null
                           rel: null
                     text: Masterarbeit
+            show_as_card: false
           -
             bard:
               -
@@ -193,6 +199,7 @@ replicator:
                           target: null
                           rel: null
                     text: Seminararbeit
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -700,8 +707,10 @@ replicator:
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
                     color: '#FF6606'
+                    spacing_top: false
               -
                 type: horizontal_rule
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -711,6 +720,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+    border: false
   -
     columns-replicator:
       -
@@ -727,6 +737,7 @@ replicator:
                   -
                     type: text
                     text: 'Wichtige Fachbereiche:'
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -980,6 +991,7 @@ replicator:
                           target: null
                           rel: null
                     text: Zahnmedizin
+            show_as_card: false
           -
             bard:
               -
@@ -1202,6 +1214,7 @@ replicator:
                           target: null
                           rel: null
                     text: Wirtschaftsinformatik
+            show_as_card: false
           -
             bard:
               -
@@ -1424,6 +1437,7 @@ replicator:
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -1521,6 +1535,7 @@ replicator:
                   -
                     type: text
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -1530,10 +1545,11 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+    border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619013654
+updated_at: 1619796004
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
 meta_description: 'Ghostwriting von GWriters.de. Preissicherheit, Qualität und Diskretion von unserer seriösen Agentur. Mehr dazu hier.'
 use_meta_keywords: false
@@ -1545,5 +1561,4 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
-id: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 ---
