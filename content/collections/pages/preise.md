@@ -3,8 +3,8 @@ id: 7aff708e-5d48-409e-9242-fd82c155f5ee
 title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619453796
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619792955
 replicator:
   -
     columns-replicator:
@@ -17,7 +17,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
+                  level: 1
                 content:
                   -
                     type: text
@@ -31,7 +31,7 @@ replicator:
                         attrs:
                           color: 'rgb(34, 34, 34)'
                           hex: '#000'
-                    text: 'Unsere Preise'
+                    text: 'Unsere Ghostwriter Preise'
               -
                 type: paragraph
                 content:
