@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Chemie Ghostwriter'
+  caption: 'Die Alchemisten haben trotz ihrer teilweise unwissenschaftlichen Methoden beachtliche Leistungen für die Chemie hervorgebracht.'
 size: 107445
 last_modified: 1619774206
 width: 800
