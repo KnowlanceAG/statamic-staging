@@ -57,7 +57,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619789428
+updated_at: 1619789449
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -722,7 +722,7 @@ replicator:
                     text: 'Statische Analysen'
             show_as_card: false
         type: row
-        enabled: false
+        enabled: true
         responsive_columns: 1
         single-col: false
     is-full: false
