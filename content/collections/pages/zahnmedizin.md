@@ -57,7 +57,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1619791960
+updated_at: 1619792009
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -753,6 +753,15 @@ replicator:
                           hex: '#000'
                     text: 'Geschichte der Zahnmedizin'
               -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/fachrichtungen/zahnmedizin.jpg
+                    img_size: w-1/4
+                    float: float-left
+              -
                 type: paragraph
                 content:
                   -
@@ -768,15 +777,6 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Die Dokumentation der Behandlung von Zahnerkrankung reicht zurück bis in die früheste Antike. Es ist davon auszugehen, dass es auch schon vorher zahnmedizinische Behandlungen gab. Im alten Ägypten wurde Zahnmedizin betrieben, dies ist schriftlich belegt und geht aus dem Papyrus Ebers hervor (einem Papyrus, in welchem Diagnosen und medizinische Behandlungen von Gesundheitsproblemen aufgeführt werden). Im Mittelalter war die Vorstellung verbreitet, hat man Zahnschmerzen, fresse sich ein Wurm durch den Zahnschmelz. Um diesem beizukommen, behandelte man den Zahn mit einem glühenden Eisenstab und zerstörte so den Karies und die schmerzbereitenden Nerven. Eine andere Methode war die Abtötung der Pulpa (oft gebraucht aber falsch: Zahnnerv) mit Hilfe von Arsenpaste. Zur Zahnhygiene wurde ein Holzstäbchen benutzt, welches an einem Ende auffaserte, als Zahnpasta oft Kräutergemische oder Alaun.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating-img
-                    dateien:
-                      - seiten/fachrichtungen/zahnmedizin.jpg
-                    img_size: w-1/4
-                    float: float-left
               -
                 type: paragraph
                 content:
