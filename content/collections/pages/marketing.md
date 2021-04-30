@@ -1,6 +1,6 @@
 ---
 id: bfd868ec-f81c-4805-8122-2e11008e72f2
-title: 'Marketing Ghostwriter'
+title: Marketing
 teaser:
   -
     type: heading
@@ -50,7 +50,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619790740
+updated_at: 1619791545
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
