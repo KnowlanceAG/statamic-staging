@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'mathematik ghostwriter'
+  caption: 'Hilfsmittel in der Geschichte der Mathematik'
 size: 62945
 last_modified: 1619768097
 width: 400
