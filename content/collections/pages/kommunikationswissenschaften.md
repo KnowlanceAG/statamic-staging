@@ -1,6 +1,6 @@
 ---
 id: dc0c7edd-0724-4454-9525-49b8f9065f16
-title: 'Ghostwriter Marketing (Dupliziert) (12)'
+title: kommunikationswissenschaften
 teaser:
   -
     type: heading
@@ -11,15 +11,17 @@ teaser:
         type: text
         marks:
           -
+            type: bold
+          -
             type: textAlign
             attrs:
               align: center
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
-        text: 'Ghostwriter Marketing'
+              color: 'rgb(255, 102, 2)'
+              hex: '#000'
+        text: 'Kommunikation Ghostwriter'
   -
     type: paragraph
     content:
@@ -32,7 +34,12 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Hilfe durch Experten und akademische Ghostwriter des Marketings – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+          -
+            type: textColor
+            attrs:
+              color: 'rgb(68, 68, 68)'
+              hex: '#000'
+        text: 'Hilfe durch Experten und akademische Ghostwriter der Kommunikation – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -46,11 +53,11 @@ teaser:
     type: paragraph
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
-page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
+page_title: 'GWriters • Kommunikation - Ghostwriter, Lektoren & mehr'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619772972
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619785433
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -68,46 +75,21 @@ replicator:
           -
             bard:
               -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere Marketing Ghostwriter'
-              -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unter Marketing versteht man die Idee einer marktorientierten Unternehmensführung, um den Bedürfnissen der Kunden auf bestmögliche Art gerecht zu werden. Aufgrund seiner Funktion als Treiber des unternehmerischen Absatzes, ist Marketing ein Bereich der '
-                  -
-                    type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/bwl'
-                          target: null
-                          rel: null
-                    text: Betriebswirtschaftslehre
-                  -
-                    type: text
-                    text: '. In größeren, aber auch in mittelständischen und einigen kleinen Unternehmen, gibt es oftmals eine eigene Marketingabteilung. Diese befasst sich mit der Vermarktung der hergestellten Produkte oder angebotenen Dienstleistungen. Die meisten unserer Marketing Ghostwriter kommen direkt aus diesen Unternehmensabteilungen. Zumindest haben diese aber einen anderen beruflichen Bezug zu verschiedenen Bereichen der Vermarktung und seiner Strategien. Daher kann Sie Unser Team bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen unterstützen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder für eine andere akademische Ausarbeitung handelt, wir bieten Ihnen umfassende individuelle und professionelle Unterstützung durch Experten.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: video
-                    video: 'https://youtu.be/bf0mZznnTlk'
-              -
-                type: paragraph
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein Ghostwriter im Bereich Marketing kann sogar zu einem festen, langfristigen Partner im Marketing Studium werden. Beispielsweise zu einer Art Coach oder Begleiter, denn akademisches Ghostwriting muss nicht immer die Erstellung einer vollständigen Mustervorlage bedeuten. Es gibt viele Fälle in denen der Forschungsansatz schon steht, ein Student nur noch eine Handreichung benötigt, um die genaue Richtung festzulegen, die er mit seiner wissenschaftlichen Arbeit einschlagen möchte.'
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Unser Team von erfahrenen Akademikern aus der Kommunikationswissenschaft unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen umfassenden individuellen Beistand.'
               -
                 type: paragraph
                 content:
@@ -116,12 +98,30 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie für Ihre akademischen Arbeit im Fachbereich Mathematik Ghostwriter suchen, dann können Sie uns gerne sofort eine '
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Kommunikation Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -134,12 +134,11 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-                  -
-                    type: hard_break
-                    marks:
                       -
-                        type: bold
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
               -
                 type: heading
                 attrs:
@@ -147,58 +146,114 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Der Fachbereich Marketing'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Ghostwriter & Kommunikationswissenschaft'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die steigende Vielzahl an unterschiedlichen Märkten von angebotenen Produkten und Dienstleistungen stellt das Marketingstudium als äußerst facettenreich dar. Aufgrund des zeitintensiven und breit gefächerten Studiums beauftragen nicht selten Studenten aus dem Bereich Marketing '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Jeder unserer Freelancer und\_"
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'http://gwriters.de/ghostwriter'
+                          href: 'https://gwriters.de/ghostwriter'
                           target: null
                           rel: null
                     text: Ghostwriter
                   -
                     type: text
-                    text: ' und Freelancer, die sie bei der Erstellung wissenschaftlicher Arbeiten unterstützen durch Mustervorlagen. Dies kann in Form einer umfassenden Textredaktion geschehen, jedoch auch einzelne Teilbereiche, wie das '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_der Kommunikationswissenschaft besitzt tiefgründige Fachkenntnisse in seinem speziellen Bereich und kann umfassende Erfahrungen im Erstellen von Arbeiten vorweisen. Häufig arbeitet der akademische Kommunikationswissenschaft-Ghostwriter auch als\_"
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'http://gwriters.de/leistungen/lektorat'
+                          href: 'https://gwriters.de/lektorat/lektor'
                           target: null
                           rel: null
-                    text: Lektorat
-                  -
-                    type: text
-                    text: ' und '
+                    text: Lektor
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ",\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'http://gwriters.de/leistungen/korrektorat'
+                          href: 'https://gwriters.de/korrektorat/korrektor'
                           target: null
                           rel: null
-                    text: Korrektorat
+                    text: Korrektor
                   -
                     type: text
-                    text: ' und die Suche nach der passenden Literatur umfassen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Marketing erscheint für viele Schüler und Studienanfänger als Traumfach, welches sie gerne studieren möchten, um nach ihrem Abschluss in der schillernden Welt des Marketings und der Werbung arbeiten zu können. Viele möchten für große, namhafte Unternehmen Marketingkonzepte entwickeln, an Pitches teilnehmen oder Präsentationen gestalten. Solche Berufsaussichten im Marketing klingen für viele Studenten sehr verlockend. Bei großen Marketing-Agenturen liegen die Gehälter der Marketing-Manager in der Spitze bei bis zu 15.000 Euro brutto im Monat. Daran wird schnell klar, warum es sich beim Marketing um so ein attraktives Studienfach handelt.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_und Übersetzer, kann jedoch auch bei der Erstellung der Arbeit beratend zur Seite stehen. Er bietet dabei dem Studenten ein Coaching zur individuellen Unterstützung bei der Erstellung einer wissenschaftlichen Arbeit. Dadurch erweitert der Student seinen Wissensstand für die Anfertigung wissenschaftlicher Arbeiten, außerdem steigt natürlich die Qualität seiner Arbeit."
               -
                 type: heading
                 attrs:
@@ -685,57 +740,348 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriting im Marketing-Studium'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: Allgemeines
               -
                 type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Zwar ist der NC für ein Marketing Studium deutlich niedriger als bei anderen Studienfächern, er liegt im Durchschnitt zwischen 2,0 und 3,0, vielleicht auch 2,7 bei manchen Universitäten, aber auch die Anforderungen an eine Marketing Studenten sind hoch. Gute Kenntnisse in der Mathematik sind eine sehr wichtige Voraussetzung, auch ein ausgezeichnetes Wissen im Bereich der Statistik ist notwendig, denn man will natürlich nach einer Marketing Kampagne auch genau untersuchen und auswerten können, was diese bewirkt hat und ob diese erfolgreich war. Dieses zentrale Messen und Steuern des Marketingerfolgs ist die Aufgabe von Marketing Experten im Unternehmen, der sich diese Fähigkeiten im vollen Umfang im Rahmen seines Studiums angeeignet haben muss.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'All dies bedarf im Studium eines vollen Einsatzes, wobei es schnell passieren kann, dass Studenten an ihre fachlichen Grenzen oder auch an ihre zeitliche Grenzen gelangen. In solchen Situation können unsere Marketing Ghostwriter von GWriters Studenten professionell unterstützen, da diese nicht nur ein hervorragendes Wissen im Marketing sowie einen akademischen Abschluss in diesem Fachbereich haben, sondern auch darüber hinaus alle Anforderungen dieses Fachbereichs erfüllen und weitere akademische Abschlüsse in verwandten Fachbereichen wie beispielsweise BWL und '
                   -
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/vwl'
-                          target: null
-                          rel: null
-                    text: VWL
-                  -
-                    type: text
-                    text: ' vorweisen können.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In der Regel arbeiten unsere Ghostwriter auch aktiv im Marketingbereich und verfügen über viele Jahre Berufserfahrung. Dank dieser großen Erfahrung in der Marketingpraxis sind unsere Marketing Ghostwriter in ihrem Fachbereich immer am Puls der Zeit. Sie kennen also den aktuellen Forschungsstand uns können sich daher schnell und effektiv in jedes individuelle Thema einarbeiten sowie sich aktiv in die Gestaltung wissenschaftlicher Arbeiten einbringen. Dies ist nicht nur limitiert auf Studenten, die sich eine Mustervorlage für Ihre Seminararbeiten und Hausarbeit schreiben lassen möchten, sondern auch für die kompetente Ghostwriting-Unterstützung bei Abschlussarbeiten wie Bachelorarbeiten, Masterarbeiten oder Doktorarbeiten in Form hochprofessioneller Mustervorlagen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Aufgrund der umfassenden Anforderungen in Kombination mit einem straffen Zeitplan, entwickeln sich für einige Studenten Schwierigkeiten bei dem Erstellen ihrer wissenschaftlichen Arbeit. Je nachdem, nach welchem Modell und welcher Lehre Themenfelder betrachtet werden müssen, kann man unterschiedliche Ergebnisse erhalten und muss diese nach gegebenen Umständen gewichten. Ein akademischer Ghostwriter im Marketingbereich kann helfen, diese Gewichtung vorzunehmen, da er sich in der Materie bestens auskennt und Erfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen kann. Er schafft Abhilfe und kann im Regelfall zeitnah eine passende Lösung bieten, die Studenten entlastet und diesen hilft, sich auf wichtige Prüfungen zu konzentrieren. Auch ist im Fachbereich Marketing '
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Die Kommunikationswissenschaft zählen zu den Sozial- und Geisteswissenschaften. Sie befasst sich weitläufig mit den Interaktionsvorgängen des Menschen, insbesondere mit der Art der Interaktion und der jeweiligen Wirkung. Die passenden Fähigkeiten erlernt der Student in einem Studium an einer Hochschule oder Universität. Neben einigen Prüfungs- und Klausurleistungen wird der Student der Kommunikationswissenschaften auch häufig mit einer\_"
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'http://gwriters.de/leistungen/ghostwriting'
+                          href: 'https://gwriters.de/arbeiten/examensarbeit'
                           target: null
                           rel: null
-                    text: Ghostwriting
+                    text: Examensarbeit
                   -
                     type: text
-                    text: ' nicht unüblich, da viele Studenten sich wertvolle Arbeitszeit sparen, indem Sie sich von einem Ghostwriter eine Mustervorlage schreiben lassen.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ', Hausarbeit oder Semesterarbeit konfrontiert. Außerdem ist es im Bachelorstudium üblich, dass die Universitäten oder Fachhochschulen von ihren Studenten der Kommunikationswissenschaften eine Bachelorarbeit schreiben lassen. Durch die vielfältigen und hohen Anforderungen im Studium engagieren einige Studenten der Kommunikationswissenschaften Ghostwriter und akademische Freelancer von GWriters.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Kommunikation & Wissenschaft'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Schon in der Antike wurden Teilbereiche der heutigen Kommunikationswissenschaft im Studium gelehrt, in Form von Rhetorik oder persuasiver Kommunikation. Zudem ist das Studium der Kommunikationswissenschaft verknüpft mit der Medienwissenschaften und behandelt peripher außerdem Bereiche der Sprachwissenschaften.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/fachrichtungen/kommunikation.jpg
+                    text: |
+                      Des Weiteren spielen mittlerweile auch Journalistik und die Wissenschaft der PR eine Rolle. Heute ist der Studieninhalt in diesem Fachbereich abhängig von der jeweiligen Universität oder Hochschule, so liegt der Schwerpunkt der einen auf der Massenkommunikation, während sich andere mit der Individualkommunikation auseinandersetzen.
+
+                      Im Allgemeinen dient das Studium dazu, Probleme im Dreieck der Sprache – Kommunikation – Medien zu identifizieren und durch wissenschaftliche Methoden zu analysieren und zu lösen. Der Studiengang vermittelt das fachliche Wissen sowie die Kompetenz und Methodik, die den Studenten auf eine selbstständige und anspruchsvolle Tätigkeit in unterschiedlichen Berufszweigen vorbereitet. Er besteht aus zahlreichen Prüfungen und wissenschaftlichen Arbeiten, die zu schreiben sind. Daher werden nicht selten von Studenten der Kommunikation Ghostwriter beauftragt. Dabei sollte bei Prüfungsleistungen, beispielsweise wenn Studenten von einem Kommunikation-Ghostwriter Hausarbeiten schreiben lassen, die[ Ghostwriting](https://gwriters.de/leistungen/ghostwriting)-Hausarbeit als Mustervorlage genutzt werden und nur der Orientierung helfen.
+                    ausrichtung: text-bild
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    spacing_top: false
+              -
+                type: horizontal_rule
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Studium der Kommunikationswissenschaften'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Das Studium der Kommunikationswissenschaft lässt sich an zahlreichen Universitäten im deutschsprachigen Raum (Deutschland, Österreich, Schweiz) absolvieren. Meist wird der Studiengang mit der verwandten Medienwissenschaft kombiniert, außerdem wird er oft auch als Publizistikwissenschaft bezeichnet. Aufgrund der hohen Studiennachfrage des Fachs erfolgt die Studienplatzvergabe anhand des zuständigen Auswahlverfahrens (Numerus clausus). Oftmals werden zudem Auswahlverfahren eingebunden, um die Eignung der Bewerber zu überprüfen. Neben überragenden Schulnoten wird auch auf überdurchschnittliche Sprachkenntnisse Wert gelegt. So muss der Bewerber neben Deutsch und Englisch meist noch eine dritte Sprache auf hohem Niveau beherrschen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Im Rahmen der Vertiefungsphase im Bachelor- und Masterstudium sind die Universitäten aufgefordert, dass sie von ihren Studenten der Kommunikationswissenschaften pro Semester mindestens eine Hausarbeit schreiben lassen. Nach dem Masterstudium kann die Studienlaufbahn mit einer Promotion fortgesetzt werden, um den Doktorgrad zu erlangen. Eine Dissertation (oder Doktorarbeit) erfordert oftmals eine jahrelange Auseinandersetzung mit einer wissenschaftlichen Forschungslücke. Nicht selten werden in der Kommunikationswissenschaft Ghostwriter und akademische Freelancer kontaktiert, die bei der wissenschaftlichen Arbeit durch die Erstellung einer Mustervorlage unterstützen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: Disclaimer
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Nützliche Weblinks'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.uni-muenchen.de/studium/studienangebot/studiengaenge/studienfaecher/index.html'
+                          target: _blank
+                          rel: nofollow
+                    text: 'Studienfächer und Studiengänge von A bis Z – Ludwig-Maximilians-Universität München'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.uni-due.de/kowi/'
+                          target: _blank
+                          rel: nofollow
+                    text: 'Institut für Kommunikationswissenschaft – Universität Duisburg-Essen'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.ikmz.uzh.ch/de.html'
+                          target: _blank
+                          rel: nofollow
+                    text: 'Institut für Kommunikationswissenschaft und Medienforschung – Universität Zürich'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://de.wikipedia.org/wiki/Kommunikationswissenschaft'
+                          target: _blank
+                          rel: nofollow
+                    text: 'Grobe Informationen zur Kommunikationswissenschaft – Wikipedia'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/wiki'
+                          target: null
+                          rel: null
+                    text: '< zurück zur Wiki Übersicht'
               -
                 type: heading
                 attrs:
@@ -924,6 +1270,6 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-meta_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Hilfe durch Experten und akademische Ghostwriter im Marketings – ✅ schnell, ✅ diskret und ✅ mehrfach geprüft auf Qualität & Plagiate.'
+meta_title: 'GWriters • Kommunikation - Ghostwriter, Lektoren & mehr'
+meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Kommunikation – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 ---
