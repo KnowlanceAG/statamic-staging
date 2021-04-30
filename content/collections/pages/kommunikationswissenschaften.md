@@ -1,6 +1,6 @@
 ---
 id: dc0c7edd-0724-4454-9525-49b8f9065f16
-title: 'Kommunikation Ghostwriter'
+title: 'Kommunikationswissenschaften Ghostwriter'
 teaser:
   -
     type: heading
@@ -21,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Kommunikation Ghostwriter'
+        text: 'Kommunikationswissenschaften Ghostwriter'
   -
     type: paragraph
     content:
@@ -53,11 +53,11 @@ teaser:
     type: paragraph
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
-page_title: 'GWriters • Kommunikation - Ghostwriter, Lektoren & mehr'
+page_title: 'GWriters • Kommunikationswissenschaften - Ghostwriter, Lektoren & mehr'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619790972
+updated_at: 1619791034
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1150,6 +1150,6 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-meta_title: 'GWriters • Kommunikation - Ghostwriter, Lektoren & mehr'
+meta_title: 'GWriters • Kommunikationswissenschaften - Ghostwriter, Lektoren & mehr'
 meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Kommunikation – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 ---
