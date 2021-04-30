@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: Elektrotechnik
+  caption: 'Otto von Guericke werden viele Erkenntnisse auf dem Gebiet der Elektrotechnik zugeschrieben.'
 size: 96716
 last_modified: 1619777092
 width: 841
