@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'VWL Ghostwriter'
+  caption: 'Die VWL entstand im Merkantilismus, als Gold das Maß für Wohlstand darstellte.'
 size: 107222
 last_modified: 1619780392
 width: 515
