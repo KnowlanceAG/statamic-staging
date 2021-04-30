@@ -1,6 +1,6 @@
 ---
 id: b850974c-8d2d-4448-b168-3dccef384025
-title: 'Medizin Ghostwriter'
+title: Medizin
 teaser:
   -
     type: heading
@@ -55,7 +55,7 @@ page_title: 'GWriters • Medizin - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619777610
+updated_at: 1619791573
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
