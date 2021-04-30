@@ -3,8 +3,8 @@ id: 7aff708e-5d48-409e-9242-fd82c155f5ee
 title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619792955
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1619793306
 replicator:
   -
     columns-replicator:
@@ -310,7 +310,9 @@ replicator:
                   values:
                     type: floating-img
                     img_size: w-1/4
-                    float: float-left
+                    float: mx-auto
+                    dateien:
+                      - preise/euro.svg
               -
                 type: paragraph
               -
@@ -361,6 +363,15 @@ replicator:
             show_as_card: false
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - preise/telefon.svg
+                    img-alignment: justify-center
+                    has_border: false
               -
                 type: paragraph
               -
