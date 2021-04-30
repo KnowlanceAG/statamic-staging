@@ -1,4 +1,5 @@
 ---
+id: bfd868ec-f81c-4805-8122-2e11008e72f2
 title: 'Ghostwriter Marketing'
 teaser:
   -
@@ -16,7 +17,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6602'
+              color: orange-500
+              hex: '#ff6606'
         text: 'Ghostwriter Marketing'
   -
     type: paragraph
@@ -38,6 +40,8 @@ teaser:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        color: '#FF6606'
+        spacing_top: false
   -
     type: paragraph
 teaser_bg:
@@ -45,8 +49,8 @@ teaser_bg:
 page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615194285
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619769923
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -203,8 +207,11 @@ replicator:
                   -
                     type: text
                     text: 'Unsere Leistungen'
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
+        single-col: false
       -
         columns_per_row: '3'
         grid:
@@ -292,6 +299,7 @@ replicator:
                 content:
                   -
                     type: hard_break
+            show_as_card: false
           -
             bard:
               -
@@ -359,6 +367,7 @@ replicator:
                     text: Plagiatsprüfung
               -
                 type: paragraph
+            show_as_card: false
           -
             bard:
               -
@@ -403,13 +412,18 @@ replicator:
                           target: null
                           rel: null
                     text: Promotionsberatung
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
+        single-col: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
+    border: false
   -
     columns-replicator:
       -
@@ -425,13 +439,18 @@ replicator:
                   -
                     type: text
                     text: 'Akademische Arbeiten:'
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
+        single-col: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
+    border: false
   -
     columns-replicator:
       -
@@ -504,6 +523,7 @@ replicator:
                           target: null
                           rel: null
                     text: Essay
+            show_as_card: false
           -
             bard:
               -
@@ -571,6 +591,7 @@ replicator:
                           target: null
                           rel: null
                     text: Lernskript
+            show_as_card: false
           -
             bard:
               -
@@ -638,13 +659,18 @@ replicator:
                           target: null
                           rel: null
                     text: 'Statische Analysen'
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
+        single-col: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
+    border: false
   -
     columns-replicator:
       -
@@ -725,6 +751,7 @@ replicator:
                     type: bilder
                     assets:
                       - wiki/marketing/marketing.jpeg
+                    has_border: false
               -
                 type: paragraph
               -
@@ -896,12 +923,16 @@ replicator:
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
+        single-col: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
-id: bfd868ec-f81c-4805-8122-2e11008e72f2
+    remove_spacing: false
+    border: false
 ---
