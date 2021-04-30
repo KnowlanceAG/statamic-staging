@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Germanistik Ghostwriter: Gehalt nach Berufserfahrung in Germanistik'
+  caption: 'Gehalt nach Berufserfahrung (Quelle: in Anlehnung an GEHALT.de, 2021)'
 size: 137173
 last_modified: 1619777911
 width: 768
