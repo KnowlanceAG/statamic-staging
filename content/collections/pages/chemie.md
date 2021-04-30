@@ -1,6 +1,6 @@
 ---
 id: a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
-title: 'Ghostwriter Marketing (Dupliziert) (2)'
+title: 'Chemie Ghostwriter'
 teaser:
   -
     type: heading
@@ -11,6 +11,8 @@ teaser:
         type: text
         marks:
           -
+            type: bold
+          -
             type: textAlign
             attrs:
               align: center
@@ -19,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Ghostwriter Marketing'
+        text: 'Chemie Ghostwriter'
   -
     type: paragraph
     content:
@@ -32,7 +34,12 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Hilfe durch Experten und akademische Ghostwriter des Marketings – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+          -
+            type: textColor
+            attrs:
+              color: 'rgb(68, 68, 68)'
+              hex: '#000'
+        text: 'Hilfe durch Experten und akademische Ghostwriter der Chemie – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -46,11 +53,11 @@ teaser:
     type: paragraph
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
-page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
+page_title: 'GWriters • Chemie - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619772972
+updated_at: 1619774864
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -68,46 +75,75 @@ replicator:
           -
             bard:
               -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere Marketing Ghostwriter'
-              -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unter Marketing versteht man die Idee einer marktorientierten Unternehmensführung, um den Bedürfnissen der Kunden auf bestmögliche Art gerecht zu werden. Aufgrund seiner Funktion als Treiber des unternehmerischen Absatzes, ist Marketing ein Bereich der '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Das Studium der Chemie ist bekannt dafür, dass es seinen Studenten ein hohes Arbeitspensum abverlangt, sehr zeitintensiv und kompliziert ist. Aus diesem Grund werden nicht selten von Studenten der Chemie\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/bwl'
+                          href: 'https://gwriters.de/ghostwriter'
                           target: null
                           rel: null
-                    text: Betriebswirtschaftslehre
+                    text: Ghostwriter
                   -
                     type: text
-                    text: '. In größeren, aber auch in mittelständischen und einigen kleinen Unternehmen, gibt es oftmals eine eigene Marketingabteilung. Diese befasst sich mit der Vermarktung der hergestellten Produkte oder angebotenen Dienstleistungen. Die meisten unserer Marketing Ghostwriter kommen direkt aus diesen Unternehmensabteilungen. Zumindest haben diese aber einen anderen beruflichen Bezug zu verschiedenen Bereichen der Vermarktung und seiner Strategien. Daher kann Sie Unser Team bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen unterstützen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder für eine andere akademische Ausarbeitung handelt, wir bieten Ihnen umfassende individuelle und professionelle Unterstützung durch Experten.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: video
-                    video: 'https://youtu.be/bf0mZznnTlk'
-              -
-                type: paragraph
-              -
-                type: paragraph
-                content:
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_und akademische Freelancer von GWriters eingesetzt. Sie lektorieren, korrigieren oder schreiben Mustervorlagen für wissenschaftliche Arbeiten, können jedoch auch bereits bei der Suche nach passender\_"
                   -
                     type: text
-                    text: 'Ein Ghostwriter im Bereich Marketing kann sogar zu einem festen, langfristigen Partner im Marketing Studium werden. Beispielsweise zu einer Art Coach oder Begleiter, denn akademisches Ghostwriting muss nicht immer die Erstellung einer vollständigen Mustervorlage bedeuten. Es gibt viele Fälle in denen der Forschungsansatz schon steht, ein Student nur noch eine Handreichung benötigt, um die genaue Richtung festzulegen, die er mit seiner wissenschaftlichen Arbeit einschlagen möchte.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/literatur'
+                          target: null
+                          rel: null
+                    text: Literatur
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_oder der fachlichen Strategie beratend Hilfe leisten und den Studenten bei Teilaufgaben entlasten."
               -
                 type: paragraph
                 content:
@@ -116,12 +152,30 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie für Ihre akademischen Arbeit im Fachbereich Mathematik Ghostwriter suchen, dann können Sie uns gerne sofort eine '
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Wenn Sie bei Ihrer akademischen Arbeit im Fachbereich Chemie Unterstützung benötigen, dann können Sie uns gerne sofort eine\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -134,12 +188,11 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-                  -
-                    type: hard_break
-                    marks:
                       -
-                        type: bold
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
               -
                 type: heading
                 attrs:
@@ -147,58 +200,60 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Der Fachbereich Marketing'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Unsere Chemie-Ghostwriter'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die steigende Vielzahl an unterschiedlichen Märkten von angebotenen Produkten und Dienstleistungen stellt das Marketingstudium als äußerst facettenreich dar. Aufgrund des zeitintensiven und breit gefächerten Studiums beauftragen nicht selten Studenten aus dem Bereich Marketing '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Unser Team von erfahrenen Akademikern aus verschiedenen Fachrichtungen unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen im Fachbereich Chemie. Ob es sich bei Ihrem Projekt um eine Mustervorlage für eine\_"
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'http://gwriters.de/ghostwriter'
+                          href: 'https://gwriters.de/arbeiten/doktorarbeit'
                           target: null
                           rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    text: ' und Freelancer, die sie bei der Erstellung wissenschaftlicher Arbeiten unterstützen durch Mustervorlagen. Dies kann in Form einer umfassenden Textredaktion geschehen, jedoch auch einzelne Teilbereiche, wie das '
+                    text: Doktorarbeit
                   -
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'http://gwriters.de/leistungen/lektorat'
-                          target: null
-                          rel: null
-                    text: Lektorat
-                  -
-                    type: text
-                    text: ' und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/leistungen/korrektorat'
-                          target: null
-                          rel: null
-                    text: Korrektorat
-                  -
-                    type: text
-                    text: ' und die Suche nach der passenden Literatur umfassen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Marketing erscheint für viele Schüler und Studienanfänger als Traumfach, welches sie gerne studieren möchten, um nach ihrem Abschluss in der schillernden Welt des Marketings und der Werbung arbeiten zu können. Viele möchten für große, namhafte Unternehmen Marketingkonzepte entwickeln, an Pitches teilnehmen oder Präsentationen gestalten. Solche Berufsaussichten im Marketing klingen für viele Studenten sehr verlockend. Bei großen Marketing-Agenturen liegen die Gehälter der Marketing-Manager in der Spitze bei bis zu 15.000 Euro brutto im Monat. Daran wird schnell klar, warum es sich beim Marketing um so ein attraktives Studienfach handelt.'
+                          align: start
+                    text: ', eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen umfassenden individuellen Beistand. Jeder von uns vermittelte Ghostwriter der Chemie wird von unseren Mitarbeitern persönlich ausgewählt. Er ist ein Experte auf seinem Gebiet und hat Erfahrungen mit wissenschaftlichen Arbeitsweisen und den Ansprüchen, vor denen ein Student im Fachbereich der Chemie steht.'
               -
                 type: heading
                 attrs:
@@ -685,88 +740,90 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriting im Marketing-Studium'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Allgemeines zur Chemie'
               -
                 type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Zwar ist der NC für ein Marketing Studium deutlich niedriger als bei anderen Studienfächern, er liegt im Durchschnitt zwischen 2,0 und 3,0, vielleicht auch 2,7 bei manchen Universitäten, aber auch die Anforderungen an eine Marketing Studenten sind hoch. Gute Kenntnisse in der Mathematik sind eine sehr wichtige Voraussetzung, auch ein ausgezeichnetes Wissen im Bereich der Statistik ist notwendig, denn man will natürlich nach einer Marketing Kampagne auch genau untersuchen und auswerten können, was diese bewirkt hat und ob diese erfolgreich war. Dieses zentrale Messen und Steuern des Marketingerfolgs ist die Aufgabe von Marketing Experten im Unternehmen, der sich diese Fähigkeiten im vollen Umfang im Rahmen seines Studiums angeeignet haben muss.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'All dies bedarf im Studium eines vollen Einsatzes, wobei es schnell passieren kann, dass Studenten an ihre fachlichen Grenzen oder auch an ihre zeitliche Grenzen gelangen. In solchen Situation können unsere Marketing Ghostwriter von GWriters Studenten professionell unterstützen, da diese nicht nur ein hervorragendes Wissen im Marketing sowie einen akademischen Abschluss in diesem Fachbereich haben, sondern auch darüber hinaus alle Anforderungen dieses Fachbereichs erfüllen und weitere akademische Abschlüsse in verwandten Fachbereichen wie beispielsweise BWL und '
                   -
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/vwl'
-                          target: null
-                          rel: null
-                    text: VWL
-                  -
-                    type: text
-                    text: ' vorweisen können.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In der Regel arbeiten unsere Ghostwriter auch aktiv im Marketingbereich und verfügen über viele Jahre Berufserfahrung. Dank dieser großen Erfahrung in der Marketingpraxis sind unsere Marketing Ghostwriter in ihrem Fachbereich immer am Puls der Zeit. Sie kennen also den aktuellen Forschungsstand uns können sich daher schnell und effektiv in jedes individuelle Thema einarbeiten sowie sich aktiv in die Gestaltung wissenschaftlicher Arbeiten einbringen. Dies ist nicht nur limitiert auf Studenten, die sich eine Mustervorlage für Ihre Seminararbeiten und Hausarbeit schreiben lassen möchten, sondern auch für die kompetente Ghostwriting-Unterstützung bei Abschlussarbeiten wie Bachelorarbeiten, Masterarbeiten oder Doktorarbeiten in Form hochprofessioneller Mustervorlagen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Aufgrund der umfassenden Anforderungen in Kombination mit einem straffen Zeitplan, entwickeln sich für einige Studenten Schwierigkeiten bei dem Erstellen ihrer wissenschaftlichen Arbeit. Je nachdem, nach welchem Modell und welcher Lehre Themenfelder betrachtet werden müssen, kann man unterschiedliche Ergebnisse erhalten und muss diese nach gegebenen Umständen gewichten. Ein akademischer Ghostwriter im Marketingbereich kann helfen, diese Gewichtung vorzunehmen, da er sich in der Materie bestens auskennt und Erfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen kann. Er schafft Abhilfe und kann im Regelfall zeitnah eine passende Lösung bieten, die Studenten entlastet und diesen hilft, sich auf wichtige Prüfungen zu konzentrieren. Auch ist im Fachbereich Marketing '
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: 'http://gwriters.de/leistungen/ghostwriting'
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    text: ' nicht unüblich, da viele Studenten sich wertvolle Arbeitszeit sparen, indem Sie sich von einem Ghostwriter eine Mustervorlage schreiben lassen.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Marketing im Studium'
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Chemie ist die Naturwissenschaft, die sich mit den Vorgängen beschäftigt, welche in der Elektronenhülle von Atomen und Molekülen stattfinden. Weiterhin untersuchen Chemiker den Aufbau und die Eigenschaften von chemischen Stoffen, also folglich jedem Material, welches der Menschheit bekannt ist. Wichtig in der Chemie ist auch die Umwandlung von Stoffen in andere, dies geschieht bei den sogenannten chemischen Reaktionen.'
               -
                 type: set
                 attrs:
                   values:
                     type: floating-img
                     dateien:
-                      - wiki/marketing/marketing.jpeg
+                      - seiten/fachrichtungen/chemie.jpg
                     img_size: w-1/4
                     float: float-right
               -
                 type: paragraph
-              -
-                type: paragraph
                 content:
                   -
                     type: text
-                    text: 'In der Tat ist ein Marketing-Studium ein sehr interessantes Studium, da es viele Teilbereiche aus anderen Fachrichtungen miteinander verbindet und dabei eine sehr praxisorientierte Ausrichtung einnimmt. Dazu zählen Elemente der Fachbereiche Psychologie, Konsumentenforschung oder auch ganz allgemein aus den Sozialwissenschaften, die im Marketing vereint werden. Marketing wird oft als Teil der BWL betrachtet, geht aber in seinem Umfang deutlich über einen bloßen Teilbereich hinaus, weil im Mittelpunkt eben auch die Frage steht, wie Werbung auf Konsumenten wirkt und was Werbung eigentlich genau bedeutet, was natürlich auch mit hohen Anforderungen verbunden ist. Wir bei GWriters können Ihnen mit unseren Marketing Ghostwritern im Rahmen Ihres Studiums wertvolle Unterstützung bieten, sodass Sie diese hohen Anforderungen mit Sicherheit erfüllen.'
-              -
-                type: paragraph
-                content:
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Bereits in der Antike wurde Wissen über chemische Vorgänge archiviert. Dabei waren besonders die Kenntnisse um die Metallverarbeitung von hoher Bedeutung. Das Verständnis für den genauen chemischen Ablauf gewann man jedoch erst hunderte Jahre später. Im Laufe der\_"
                   -
                     type: text
-                    text: 'Bei einem kurzen Blick auf den Aufbau des Marketing Studiums sieht man, dass die Regelstudienzeit für einen Marketing-Bachelor in der Regel bei sechs bis sieben Semestern liegt, während ein Master in diesem Fachbereich drei bis fünf Semester in Anspruch nimmt. Sowohl im Bachelorstudium, als auch im Master sind Praktika und Auslandssemester in diese Studienzeiten eingeschlossen und werden auch in den meisten Fällen zwingend vorausgesetzt, was zum Ziel hat, den zukünftigen Marketing-Experten die für diesen Bereich so wichtige internationale Ausrichtung zu geben. Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/geschichte'
+                          target: null
+                          rel: null
+                    text: Geschichte
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "\_hat sich die Chemie in Europa aus der Pseudowissenschaft der Alchemie entwickelt, deren Anhänger es sich zum Ziel gesetzt hatten, Gold zu erzeugen. Das eigentliche Wissen um die chemischen Elemente kam erst später auf. Die Alchemisten arbeiteten mit kruden wissenschaftlichen Methoden, Esoterik, Glauben und Aberglauben. Trotz ihrer teilweise unwissenschaftlichen Methoden haben sie beachtliche Leistungen für die Chemie hervorgebracht. So entwickelten sie Werkzeuge, um ihre Experimente durchzuführen, von denen noch zahlreiche heutzutage Anwendung finden. Die Alchemisten gingen bei ihrer Arbeit meist empirisch vor, die Entwicklung zu einer experimentellen Wissenschaft kam erst im 15. Jahrhundert auf. Von der modernen Chemie spricht man erst seit dem 18., beziehungsweise dem 19. Jahrhundert. Die Entdeckung des Periodensystems der Elemente 1869 durch Mendelejew und Meyer, welche sie fast zeitgleich und unabhängig voneinander entdeckten, stellte einen großen Schritt für die Chemie dar. Chemie beeinflusst heute unser Leben mehr denn je, und die Suche nach neuen Materialien und Stoffen für immer neue Zwecke und Anwendungsmöglichkeiten wird wohl niemals aufhören."
               -
                 type: horizontal_rule
               -
@@ -787,58 +844,60 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Aufbau und Inhalt des Marketing Studiums'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Studium der Chemie & Ghostwriting'
               -
                 type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Marketing ist ein Überbegriff für mehrere Unterdisziplinen. Dazu gehören beispielsweise Marketing-Management, Sales-Management, aber auch Social Networks und Marketing Communication. Aufgrund vieler unterschiedlicher Leistungen, die in Form von Praktika oder wissenschaftlichen Arbeiten, wie einer Hausarbeit, '
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Das Studium der Chemie ist für seine Durchfallquoten und den hohen Schwierigkeitsgrad berüchtigt. Zeitaufwändige Laborversuche sind zu bewältigen und deren Verlauf ist zu dokumentieren und auszuwerten. Des Weiteren hat es sich in Deutschland etabliert, dass Absolventen des Studiums der Chemie Doktortitel vorweisen können müssen, streben sie eine Anstellung in der Industrie an. Es ist gängig, dass Universitäten bei diesem Prozess von Doktoranden der Chemie eine Doktorarbeit/ Dissertation schreiben lassen. Zur Unterstützung werden von Studenten und Doktoranden verstärkt bei einer Doktorarbeit Ghostwriter und akademische Freelancer eingesetzt. Freelancer helfen bei der Auswertung von Laborversuchen oder ähnlichen Abgaben und wirken somit unterstützend im Zeitmanagement des Studenten. Besonders populär ist hier im Bereich der Chemie\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'http://gwriters.de/arbeiten/seminararbeit'
+                          href: 'https://gwriters.de/leistungen/ghostwriting'
                           target: null
                           rel: null
-                    text: Seminararbeit
+                    text: Ghostwriting
                   -
                     type: text
-                    text: ' oder Examensarbeit, in einem Kurs geleistet werden müssen, ist der Studiengang Marketing mit viel Arbeit und Fleiß verbunden. Viele Konzepte versprechen Lösungsmöglichkeiten für eine Problemstellung, wobei es gilt, die besten zu entwickeln und umzusetzen. Es erfordert nicht nur viel Motivation, Selbstdisziplin und Können, sondern auch einen enormen Zeitaufwand um das Marketingstudium mit den bestmöglichen Leistungen zu absolvieren.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Bei einem kurzen Blick auf den Aufbau des Marketing Studiums sieht man, dass die Regelstudienzeit im Bachelorstudium in der Regel bei sechs bis sieben Semestern liegt, während ein Master in diesem Fachbereich drei bis fünf Semester in Anspruch nimmt. Wie bereits angemerkt, liegt der NC nicht so hoch wie in anderen Studienfächern, was die Suche nach einem Studienplatz deutlich erleichtert. Studenten erhalten im Grundstudium zu Beginn einen Überblick über alle notwendigen Grundlagen und Basisthemen des Studiums und des Themas Marketing.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Im Verlauf des Studiums werden dann durch den Studenten selbst Vertiefungen gewählt, beispielsweise in Medienrecht, in Kommunikation und - sehr interessant - natürlich auch das Thema Social Media Werbung. In den letzten Jahre wurde in den\_Bereichen Social Media und Social Media Marketing eine Reihe neuer Studiengänge geschaffen, die auch von privaten Universitäten sehr stark beworben und forciert werden. Solche sehr gezielten Studiengänge sind gerade dann interessant, wenn Studenten später eben dann auch in diesen Bereichen als Marketing Manager tätig werden möchten."
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Über die internationale Ausrichtung vieler Marketing-Studiengänge und deren Fokus auf aktuelle Entwicklungen und Trends hinaus, bieten viele Universitäten, insbesondere private Universitäten, auch ein duales Studium im Bereich Marketing. Dies bedeutet eine Verknüpfung zwischen beruflicher Tätigkeit und Studium, was natürlich höhere Anforderungen an alle Studenten stellt, insbesondere was die zeitliche Thematik angeht. Und genau in diesem Zusammenhang können die Marketing Ghostwriter von GWriters wertvolle Unterstützung leisten, da sie besonders duale Studenten zeitlich einfach entlasten können, sodass diese sich auf ihr Studium, auf zu schreibende Klausuren und anstehende Präsentationen konzentrieren können. Denn mit der Erstellung von Mustervorlagen für wissenschaftliche Arbeiten können diese dann guten Gewissens unsere hochkompetenten Marketing Ghostwriter bei GWriters beauftragen.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Zusammenfassung zu Ghostwritern & Marketing'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Zusammengefasst handelt es sich beim Marketing um ein hochinteressantes Studium und gerade wenn man sich die heutige Produkt- und Dienstleistungswelt anschaut, dann werden Produkte immer vergleichbarer und austauschbarer, sodass allein über den Preis der Wettbewerb schon lange nicht mehr zu gewinnen ist. Umso wichtiger wird es in der Zukunft, Marketing Spezialisten zu haben, die genau wissen, worauf die Konsumenten wirklich Wert legen und wie Werbekampagnen genau auf diese Kundenbedürfnisse abgestimmt werden können. Nur so ist es möglich, eine wirkungsvolle und erfolgreiche Marketingstrategie zu entwickelt.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ', wobei Studenten sich entweder Mustervorlagen für einzelne Teilbereiche oder für ihre gesamte Doktorarbeit schreiben lassen.'
               -
                 type: heading
                 attrs:
@@ -846,12 +905,32 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: Disclaimer
               -
                 type: paragraph
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
                 type: heading
@@ -860,6 +939,16 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: 'Nützliche Weblinks'
               -
                 type: paragraph
@@ -868,38 +957,99 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'https://de.wikipedia.org/wiki/Guerilla-Marketing'
+                          href: 'https://de.wikipedia.org/wiki/Chemie'
                           target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Artikel über Guerilla-Marketing - Wikipedia'
+                          rel: nofollow
+                    text: 'Grundinformationen zur Chemie – Wikipedia'
                   -
                     type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'https://de.wikipedia.org/wiki/Marketing'
+                          href: 'https://www.gdch.de/'
                           target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Grundinformationen zu Marketing - Wikipedia'
+                          rel: nofollow
+                    text: 'GDCh – Gesellschaft Deutscher Chemiker'
                   -
                     type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'https://wirtschaftslexikon.gabler.de/definition/marketing-39435'
+                          href: 'https://ranking.zeit.de/che/de/fachinfo/20'
                           target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Definition Marketing - Wirtschaftslexikon Gabler'
+                          rel: nofollow
+                    text: 'Chemie studieren – Zeit Online'
                   -
                     type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://de.wikibooks.org/wiki/Regal:Chemie'
+                          target: _blank
+                          rel: nofollow
+                    text: 'Regal Chemie – Wikibooks'
                   -
                     type: text
                     marks:
@@ -924,6 +1074,6 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-meta_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Hilfe durch Experten und akademische Ghostwriter im Marketings – ✅ schnell, ✅ diskret und ✅ mehrfach geprüft auf Qualität & Plagiate.'
+meta_title: 'GWriters • Chemie - Ghostwriter, Lektoren & Coaches'
+meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Chemie – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 ---
