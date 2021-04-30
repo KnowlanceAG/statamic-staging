@@ -57,7 +57,7 @@ page_title: 'Bauingenieurwesen • GWriters.de'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619776851
+updated_at: 1619784637
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -94,11 +94,11 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: bilder
-                    assets:
+                    type: floating-img
+                    dateien:
                       - seiten/fachrichtungen/Anzahl-der-Studierenden-2.png
-                    img-alignment: justify-center
-                    has_border: false
+                    img_size: w-3/4
+                    float: mx-auto
               -
                 type: heading
                 attrs:
@@ -1596,11 +1596,11 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: bilder
-                    assets:
+                    type: floating-img
+                    dateien:
                       - seiten/fachrichtungen/aufbau-des-Bauingenieurwesenstudiums-e1610967931796.png
-                    img-alignment: justify-center
-                    has_border: false
+                    img_size: w-3/4
+                    float: mx-auto
               -
                 type: paragraph
                 content:
@@ -1653,11 +1653,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: bilder
-                    assets:
+                    type: floating-img
+                    dateien:
                       - seiten/fachrichtungen/Anteil-der-bestandenen-Abschluesse-im-Jahr-2019.png
-                    img-alignment: justify-center
-                    has_border: false
               -
                 type: heading
                 attrs:
