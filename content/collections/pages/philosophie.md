@@ -50,7 +50,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1619791073
+updated_at: 1619791302
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -714,7 +714,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In einem philosophischen Studium entwickelt der Student Reflexions-, Orientierungs- und Handlungskompetenzen für kulturelle Kontexte. Dabei ist es grundlegend für den Studenten, sich eine umfangreiche kulturelle Wissensbasis aufzubauen. Aus diesem Grund beinhaltet das Studium der Philosophie einige Module zu Geschichte, Soziologie, Kunstwissenschaft, Politikwissenschaft und Literaturwissenschaft. Besonders die kulturelle Verbindung dieser Fachbereiche untereinander, spielt im Studium eine große Rolle. Praktische Erfahrungen sind zudem auch ein wichtiger Bestandteil des Studiums. So werden Praktika in kulturellen Einrichtungen, Wirtschaftsunternehmen und diversen Projekten absolviert.'
+                    text: 'In einem philosophischen Studium entwickelt der Student Reflexions-, Orientierungs- und Handlungskompetenzen für kulturelle Kontexte. Dabei ist es grundlegend für den Studenten, sich eine umfangreiche kulturelle Wissensbasis aufzubauen. Aus diesem Grund beinhaltet das Studium der Philosophie einige Module zu Geschichte, Soziologie, Kunstwissenschaft, Politikwissenschaft und Literaturwissenschaft. '
               -
                 type: set
                 attrs:
@@ -735,6 +735,14 @@ replicator:
                         attrs:
                           align: center
                     text: 'Von Studenten der Philosophie wird ein breit gefächertes kulturelles Allgemeinwissen verlangt.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Besonders die kulturelle Verbindung dieser Fachbereiche untereinander, spielt im Studium eine große Rolle. Praktische Erfahrungen sind zudem auch ein wichtiger Bestandteil des Studiums. So werden Praktika in kulturellen Einrichtungen, Wirtschaftsunternehmen und diversen Projekten absolviert.'
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
