@@ -50,7 +50,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619769923
+updated_at: 1619770028
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -422,7 +422,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
-    remove_spacing: false
+    remove_spacing: true
     border: false
   -
     columns-replicator:
@@ -669,7 +669,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
-    remove_spacing: false
+    remove_spacing: true
     border: false
   -
     columns-replicator:
@@ -751,6 +751,7 @@ replicator:
                     type: bilder
                     assets:
                       - wiki/marketing/marketing.jpeg
+                    img-alignment: justify-end
                     has_border: false
               -
                 type: paragraph
@@ -769,26 +770,14 @@ replicator:
               -
                 type: horizontal_rule
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#ffffff!important'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/anfrage'
-                          target: null
-                          rel: nofollow
-                    text: 'JETZT KOSTENLOS ANFRAGEN'
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    spacing_top: false
               -
                 type: horizontal_rule
               -
