@@ -33,7 +33,6 @@ class AppServiceProvider extends ServiceProvider
                 $options['path']
             );
 
-            Log::debug('options path: ' . $options['path']);
             $config = [
                 'items' => $paginator->getCollection(),
                 'total' => $paginator->total(),
