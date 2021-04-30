@@ -1,4 +1,5 @@
 ---
+id: 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
 title: Bachelorarbeit
 teaser:
   -
@@ -18,7 +19,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6602'
+              color: orange-500
+              hex: '#ff6606'
         text: 'Mustervorlage für Bachelorarbeit schreiben lassen'
   -
     type: paragraph
@@ -41,9 +43,10 @@ teaser:
         button_link: 'https://gwriters.de/anfrage'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
+        spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618542778
+updated_at: 1619796238
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -191,6 +194,7 @@ replicator:
             text: 'Unsere Leistungen'
     type: editor
     enabled: true
+    show_as_card: false
   -
     columns-replicator:
       -
@@ -254,6 +258,7 @@ replicator:
                           target: null
                           rel: null
                     text: 'MAXQDA Auswertung'
+            show_as_card: false
           -
             bard:
               -
@@ -319,6 +324,7 @@ replicator:
                           target: null
                           rel: null
                     text: Promotionsberatung
+            show_as_card: false
           -
             bard:
               -
@@ -363,13 +369,17 @@ replicator:
                           target: null
                           rel: null
                     text: Promotionsberatung
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
+    border: false
   -
     bard:
       -
@@ -382,6 +392,7 @@ replicator:
             text: 'Wichtige Fachbereiche:'
     type: editor
     enabled: true
+    show_as_card: false
   -
     columns-replicator:
       -
@@ -623,6 +634,7 @@ replicator:
                           target: null
                           rel: null
                     text: Zahnmedizin
+            show_as_card: false
           -
             bard:
               -
@@ -835,6 +847,7 @@ replicator:
                           target: null
                           rel: null
                     text: Wirtschaftsinformatik
+            show_as_card: false
           -
             bard:
               -
@@ -1047,13 +1060,17 @@ replicator:
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
+    border: false
   -
     bard:
       -
@@ -1590,6 +1607,7 @@ replicator:
             button_link: 'https://gwriters.de/anfrage'
             button_text: 'JETZT KOSTENLOS ANFRAGEN'
             color: '#FF6606'
+            spacing_top: false
       -
         type: horizontal_rule
       -
@@ -2165,10 +2183,10 @@ replicator:
             text: '< zurück zur Wiki Übersicht'
     type: editor
     enabled: true
+    show_as_card: false
 template: with-side-bar
 teaser_bg:
   - seiten/arbeiten/header-so-funktionierts.jpg.jpg
 meta_title: 'Bachelorarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Mustervorlage für Bachelorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
-id: 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
 ---
