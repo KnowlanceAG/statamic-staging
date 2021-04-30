@@ -11,6 +11,8 @@ teaser:
         type: text
         marks:
           -
+            type: bold
+          -
             type: textAlign
             attrs:
               align: center
@@ -19,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Ghostwriter Marketing'
+        text: 'BWL Ghostwriter'
   -
     type: paragraph
     content:
@@ -32,7 +34,12 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Hilfe durch Experten und akademische Ghostwriter des Marketings – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+          -
+            type: textColor
+            attrs:
+              color: 'rgb(68, 68, 68)'
+              hex: '#000'
+        text: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -46,11 +53,11 @@ teaser:
     type: paragraph
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
-page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
+page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619791640
+updated_at: 1619795978
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -68,46 +75,48 @@ replicator:
           -
             bard:
               -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere Marketing Ghostwriter'
-              -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unter Marketing versteht man die Idee einer marktorientierten Unternehmensführung, um den Bedürfnissen der Kunden auf bestmögliche Art gerecht zu werden. Aufgrund seiner Funktion als Treiber des unternehmerischen Absatzes, ist Marketing ein Bereich der '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "BWL ist unter Studenten ein äußerst beliebter Studiengang und ist aus diesem Grund an vielen Hochschulen „überlaufen“. Wer auffallen will, muss immerzu qualitativ hochwertige Ausarbeitungen liefern und stets sehr gute Noten erzielen. Dies zu leisten ist nicht leicht. Gerade, wenn Studenten neben dem Studium zur Finanzierung der Studiengebühren und ihres Lebensunterhalts arbeiten, kommt zu dem Leistungsdruck ein zusätzlicher Zeitdruck hinzu. Speziell im Bereich der BWL wird aus diesem Grund oftmals die Hilfe unserer\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/bwl'
+                          href: 'https://gwriters.de/ghostwriter'
                           target: null
                           rel: null
-                    text: Betriebswirtschaftslehre
+                    text: Ghostwriter
                   -
                     type: text
-                    text: '. In größeren, aber auch in mittelständischen und einigen kleinen Unternehmen, gibt es oftmals eine eigene Marketingabteilung. Diese befasst sich mit der Vermarktung der hergestellten Produkte oder angebotenen Dienstleistungen. Die meisten unserer Marketing Ghostwriter kommen direkt aus diesen Unternehmensabteilungen. Zumindest haben diese aber einen anderen beruflichen Bezug zu verschiedenen Bereichen der Vermarktung und seiner Strategien. Daher kann Sie Unser Team bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen unterstützen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder für eine andere akademische Ausarbeitung handelt, wir bieten Ihnen umfassende individuelle und professionelle Unterstützung durch Experten.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: video
-                    video: 'https://youtu.be/bf0mZznnTlk'
-              -
-                type: paragraph
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein Ghostwriter im Bereich Marketing kann sogar zu einem festen, langfristigen Partner im Marketing Studium werden. Beispielsweise zu einer Art Coach oder Begleiter, denn akademisches Ghostwriting muss nicht immer die Erstellung einer vollständigen Mustervorlage bedeuten. Es gibt viele Fälle in denen der Forschungsansatz schon steht, ein Student nur noch eine Handreichung benötigt, um die genaue Richtung festzulegen, die er mit seiner wissenschaftlichen Arbeit einschlagen möchte.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_benötigt."
               -
                 type: paragraph
                 content:
@@ -116,12 +125,30 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie für Ihre akademischen Arbeit im Fachbereich Mathematik Ghostwriter suchen, dann können Sie uns gerne sofort eine '
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Wenn Sie bei Ihrer akademischen Arbeit im Fachbereich BWL Unterstützung benötigen, dann können Sie uns gerne sofort eine\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -134,12 +161,11 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-                  -
-                    type: hard_break
-                    marks:
                       -
-                        type: bold
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
               -
                 type: heading
                 attrs:
@@ -147,58 +173,60 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Der Fachbereich Marketing'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Unsere BWL-Ghostwriter'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die steigende Vielzahl an unterschiedlichen Märkten von angebotenen Produkten und Dienstleistungen stellt das Marketingstudium als äußerst facettenreich dar. Aufgrund des zeitintensiven und breit gefächerten Studiums beauftragen nicht selten Studenten aus dem Bereich Marketing '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Jeder unserer ausgewählten Ghostwriter der BWL besitzt tiefgründige Fachkenntnisse in seinem speziellen Bereich und kann umfassende Erfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen. So ist es uns möglich, unseren Kunden bei den verschiedensten Ausarbeitungen umfassenden und individuellen Beistand zu leisten. Dieser variiert nach dem persönlichen Einsatz des Studenten. Er kann entweder das\_"
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'http://gwriters.de/ghostwriter'
+                          href: 'https://gwriters.de/leistungen/ghostwriting'
                           target: null
                           rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    text: ' und Freelancer, die sie bei der Erstellung wissenschaftlicher Arbeiten unterstützen durch Mustervorlagen. Dies kann in Form einer umfassenden Textredaktion geschehen, jedoch auch einzelne Teilbereiche, wie das '
+                    text: Ghostwriting
                   -
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'http://gwriters.de/leistungen/lektorat'
-                          target: null
-                          rel: null
-                    text: Lektorat
-                  -
-                    type: text
-                    text: ' und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/leistungen/korrektorat'
-                          target: null
-                          rel: null
-                    text: Korrektorat
-                  -
-                    type: text
-                    text: ' und die Suche nach der passenden Literatur umfassen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Marketing erscheint für viele Schüler und Studienanfänger als Traumfach, welches sie gerne studieren möchten, um nach ihrem Abschluss in der schillernden Welt des Marketings und der Werbung arbeiten zu können. Viele möchten für große, namhafte Unternehmen Marketingkonzepte entwickeln, an Pitches teilnehmen oder Präsentationen gestalten. Solche Berufsaussichten im Marketing klingen für viele Studenten sehr verlockend. Bei großen Marketing-Agenturen liegen die Gehälter der Marketing-Manager in der Spitze bei bis zu 15.000 Euro brutto im Monat. Daran wird schnell klar, warum es sich beim Marketing um so ein attraktives Studienfach handelt.'
+                          align: start
+                    text: "\_einer Mustervorlage für die betriebswirtschaftliche Arbeit oder verschiedene Teilleistungen in Auftrag geben. So ist es auch üblich, dass der Ghostwriter den Studenten bereits bei der Suche nach der passenden Literatur unterstützt, ihm bei der Erstellung beratend zur Seite steht oder eine bereits durch den Studenten fertig geschriebene Arbeit lektoriert und korrigiert. Auch ein Coaching und Training ist möglich, um den Studenten in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenstellungen zu bearbeiten."
               -
                 type: heading
                 attrs:
@@ -685,22 +713,72 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriting im Marketing-Studium'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Allgemeines zur BWL'
               -
                 type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Zwar ist der NC für ein Marketing Studium deutlich niedriger als bei anderen Studienfächern, er liegt im Durchschnitt zwischen 2,0 und 3,0, vielleicht auch 2,7 bei manchen Universitäten, aber auch die Anforderungen an eine Marketing Studenten sind hoch. Gute Kenntnisse in der Mathematik sind eine sehr wichtige Voraussetzung, auch ein ausgezeichnetes Wissen im Bereich der Statistik ist notwendig, denn man will natürlich nach einer Marketing Kampagne auch genau untersuchen und auswerten können, was diese bewirkt hat und ob diese erfolgreich war. Dieses zentrale Messen und Steuern des Marketingerfolgs ist die Aufgabe von Marketing Experten im Unternehmen, der sich diese Fähigkeiten im vollen Umfang im Rahmen seines Studiums angeeignet haben muss.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'All dies bedarf im Studium eines vollen Einsatzes, wobei es schnell passieren kann, dass Studenten an ihre fachlichen Grenzen oder auch an ihre zeitliche Grenzen gelangen. In solchen Situation können unsere Marketing Ghostwriter von GWriters Studenten professionell unterstützen, da diese nicht nur ein hervorragendes Wissen im Marketing sowie einen akademischen Abschluss in diesem Fachbereich haben, sondern auch darüber hinaus alle Anforderungen dieses Fachbereichs erfüllen und weitere akademische Abschlüsse in verwandten Fachbereichen wie beispielsweise BWL und '
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Die Betriebswirtschaftslehre (BWL), auch Betriebsökonomie genannt, ist ein Teilgebiet der\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/wirtschaftswissenschaften'
+                          target: null
+                          rel: null
+                    text: Wirtschaftswissenschaften
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_(WiWi). Sie ist eng verwandt mit der Volkswirtschaftslehre ("
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -710,32 +788,12 @@ replicator:
                     text: VWL
                   -
                     type: text
-                    text: ' vorweisen können.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In der Regel arbeiten unsere Ghostwriter auch aktiv im Marketingbereich und verfügen über viele Jahre Berufserfahrung. Dank dieser großen Erfahrung in der Marketingpraxis sind unsere Marketing Ghostwriter in ihrem Fachbereich immer am Puls der Zeit. Sie kennen also den aktuellen Forschungsstand uns können sich daher schnell und effektiv in jedes individuelle Thema einarbeiten sowie sich aktiv in die Gestaltung wissenschaftlicher Arbeiten einbringen. Dies ist nicht nur limitiert auf Studenten, die sich eine Mustervorlage für Ihre Seminararbeiten und Hausarbeit schreiben lassen möchten, sondern auch für die kompetente Ghostwriting-Unterstützung bei Abschlussarbeiten wie Bachelorarbeiten, Masterarbeiten oder Doktorarbeiten in Form hochprofessioneller Mustervorlagen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Aufgrund der umfassenden Anforderungen in Kombination mit einem straffen Zeitplan, entwickeln sich für einige Studenten Schwierigkeiten bei dem Erstellen ihrer wissenschaftlichen Arbeit. Je nachdem, nach welchem Modell und welcher Lehre Themenfelder betrachtet werden müssen, kann man unterschiedliche Ergebnisse erhalten und muss diese nach gegebenen Umständen gewichten. Ein akademischer Ghostwriter im Marketingbereich kann helfen, diese Gewichtung vorzunehmen, da er sich in der Materie bestens auskennt und Erfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen kann. Er schafft Abhilfe und kann im Regelfall zeitnah eine passende Lösung bieten, die Studenten entlastet und diesen hilft, sich auf wichtige Prüfungen zu konzentrieren. Auch ist im Fachbereich Marketing '
-                  -
-                    type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'http://gwriters.de/leistungen/ghostwriting'
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    text: ' nicht unüblich, da viele Studenten sich wertvolle Arbeitszeit sparen, indem Sie sich von einem Ghostwriter eine Mustervorlage schreiben lassen.'
+                          align: start
+                    text: ') und beschäftigt sich mit dem Verständnis von Unternehmen und der Umsetzung und Kontrolle von Vorgängen in Unternehmen; einfach formuliert: die BWL betrachtet Themenstellungen aus der „Maulwurfperspektive“, während die VWL die „Vogelperspektive“ einnimmt. Ein Betriebswirt analysiert das gegebene betriebswirtschaftliche Umfeld und besondere Ausgangssituationen im Unternehmen und trifft Entscheidungen zur Förderung des Unternehmenserfolgs. Betriebswirtschaftliche Studiengänge sind unter Studenten sehr beliebt. Im Vordergrund eines BWL-Studiums steht dabei der Umgang mit Zahlen und die Perspektive, später im Management eines Unternehmens arbeiten zu können. Der große Vorteil eines BWL-Studiums ist es, dass man sehr generalistisch auf ein breites Aufgabenfeld in der Wirtschaft vorbereitet wird und damit die Karrierechancen sehr gut sind. Um ihre Leistungen zu optimieren und sich somit von der Menge hervorzuheben, engagieren einige Studenten der BWL Ghostwriter und Freelancer, die ihnen bei ihrer schriftlichen Ausarbeitung durch die Erstellung von Mustervorlagen zur Seite stehen.'
               -
                 type: heading
                 attrs:
@@ -743,30 +801,58 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Marketing im Studium'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Aufbau eines BWL-Studiums'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Kenntnisse der Betriebswirtschaft kann man durch eine Lehre im kaufmännischen Bereich, ein berufsbegleitendes Studium, ein duales Studium oder durch ein Vollzeitstudium an einer Universität oder Fachhochschule erlangen. BWL kann deutschlandweit studiert werden, dabei unterscheiden sich die Angebote der Fachhochschulen und Universitäten insbesondere in ihrer inhaltlichen Ausrichtung bei späteren Vertiefungen im Studium. Auch private Hochschulen bieten im BWL-Kontext in den letzten Jahren verstärkt ihre Dienstleistungen an. Hierbei handelt es sich meist um berufsbegleitende Studiengänge, die sich auf ein bestimmtes Themenfeld (z.B. Marketing) konzentrieren.'
               -
                 type: set
                 attrs:
                   values:
                     type: floating-img
                     dateien:
-                      - wiki/marketing/marketing.jpeg
-                    img_size: w-1/4
-                    float: float-right
-              -
-                type: paragraph
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In der Tat ist ein Marketing-Studium ein sehr interessantes Studium, da es viele Teilbereiche aus anderen Fachrichtungen miteinander verbindet und dabei eine sehr praxisorientierte Ausrichtung einnimmt. Dazu zählen Elemente der Fachbereiche Psychologie, Konsumentenforschung oder auch ganz allgemein aus den Sozialwissenschaften, die im Marketing vereint werden. Marketing wird oft als Teil der BWL betrachtet, geht aber in seinem Umfang deutlich über einen bloßen Teilbereich hinaus, weil im Mittelpunkt eben auch die Frage steht, wie Werbung auf Konsumenten wirkt und was Werbung eigentlich genau bedeutet, was natürlich auch mit hohen Anforderungen verbunden ist. Wir bei GWriters können Ihnen mit unseren Marketing Ghostwritern im Rahmen Ihres Studiums wertvolle Unterstützung bieten, sodass Sie diese hohen Anforderungen mit Sicherheit erfüllen.'
+                      - seiten/fachrichtungen/Ghostwriter_BWL_Studium_Aufbau-1.png
+                    img_size: w-3/4
+                    float: mx-auto
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Bei einem kurzen Blick auf den Aufbau des Marketing Studiums sieht man, dass die Regelstudienzeit für einen Marketing-Bachelor in der Regel bei sechs bis sieben Semestern liegt, während ein Master in diesem Fachbereich drei bis fünf Semester in Anspruch nimmt. Sowohl im Bachelorstudium, als auch im Master sind Praktika und Auslandssemester in diese Studienzeiten eingeschlossen und werden auch in den meisten Fällen zwingend vorausgesetzt, was zum Ziel hat, den zukünftigen Marketing-Experten die für diesen Bereich so wichtige internationale Ausrichtung zu geben. Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Das Studium der BWL besteht beim Bachelorstudiengang aus 6 Semestern und kann mit dem Masterstudiengang, bestehend aus 4 Semestern, fortgesetzt werden. Als Examensarbeit zählten ehemals die Magisterarbeit und die Diplomarbeit, nach der Bologna-Reform jedoch die Bachelorarbeit (Bachelor Thesis) und die Masterarbeit (Master Thesis). Optional kann darauf aufbauend die Promotion erfolgen. Dabei können nur Lehrinstitute, die über ein Promotionsrecht verfügen, von ihren Studenten der BWL eine Doktorarbeit/ Dissertation schreiben lassen und ihnen einen Doktortitel verleihen. Besonders bei diesem akademischen Grad ist in der BWL Ghostwriting verbreitet. Ein BWL-Ghostwriter hilft dem Doktoranden durch das Erstellen einer Mustervorlage, die als Orientierungshilfe genutzt wird.'
               -
                 type: horizontal_rule
               -
@@ -787,58 +873,117 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Aufbau und Inhalt des Marketing Studiums'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Inhalte des BWL-Studiums'
               -
                 type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Marketing ist ein Überbegriff für mehrere Unterdisziplinen. Dazu gehören beispielsweise Marketing-Management, Sales-Management, aber auch Social Networks und Marketing Communication. Aufgrund vieler unterschiedlicher Leistungen, die in Form von Praktika oder wissenschaftlichen Arbeiten, wie einer Hausarbeit, '
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'In dem betriebswirtschaftlichen Studium lernen Studenten u.a. Projekte zu managen, betriebliche Abläufe zu analysieren und sie zu steuern. Dabei sind Praxiseinheiten und Projektarbeiten wesentliche Elemente des Studiums, die das erlernte Fachwissen vertiefen und erweitern sollen. Ebenfalls wird der Fremdsprachenkompetenz der Studenten eine hohe Bedeutung zugeschrieben.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/fachrichtungen/bwl.jpg
+                    img_size: w-1/4
+                    float: float-right
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Neben der englischen Sprache werden oftmals die spanische, russische, französische oder chinesische Sprache unterrichtet. Die Basis des Wissens bilden Grundlagenfächer wie Finanzierung, Rechnungswesen, Personalwesen, Produktion und\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'http://gwriters.de/arbeiten/seminararbeit'
+                          href: 'https://gwriters.de/fachrichtungen/marketing'
                           target: null
                           rel: null
-                    text: Seminararbeit
+                    text: Marketing
                   -
                     type: text
-                    text: ' oder Examensarbeit, in einem Kurs geleistet werden müssen, ist der Studiengang Marketing mit viel Arbeit und Fleiß verbunden. Viele Konzepte versprechen Lösungsmöglichkeiten für eine Problemstellung, wobei es gilt, die besten zu entwickeln und umzusetzen. Es erfordert nicht nur viel Motivation, Selbstdisziplin und Können, sondern auch einen enormen Zeitaufwand um das Marketingstudium mit den bestmöglichen Leistungen zu absolvieren.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: '. Diese Grundlagenfächer werden in höheren Semestern durch Schwerpunkte, die der Student wählt, weiter vertieft.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Bei einem kurzen Blick auf den Aufbau des Marketing Studiums sieht man, dass die Regelstudienzeit im Bachelorstudium in der Regel bei sechs bis sieben Semestern liegt, während ein Master in diesem Fachbereich drei bis fünf Semester in Anspruch nimmt. Wie bereits angemerkt, liegt der NC nicht so hoch wie in anderen Studienfächern, was die Suche nach einem Studienplatz deutlich erleichtert. Studenten erhalten im Grundstudium zu Beginn einen Überblick über alle notwendigen Grundlagen und Basisthemen des Studiums und des Themas Marketing.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Im Detail gehören zu den wesentlichen Elementen eines betriebswirtschaftlichen Studiums die Themen Planung, Organisation und Analyse sowie Elemente aus der Soziologie, der Arbeits- und Organisationspsychologie, dem Personalwesen sowie der Rechts- und Politikwissenschaft. Im Studium gliedert sich die BWL und damit auch die Wissensvermittlung im Regelfall in die „Allgemeine Betriebswirtschaftslehre“ (ABWL) und die „Spezielle Betriebswirtschaftslehre“ (SBWL). Während bei der ABWL die genannten Themen Planung, Organisation und Rechnungswesen im Vordergrund stehen, konzentriert sich die SBWL auf Fragestellungen, die in bestimmten Branchen relevanten werden. Hier können dann die Themenfelder Marketing, Personal, Controlling und Finanzen oder auch Produktion erwähnt werden.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Im Verlauf des Studiums werden dann durch den Studenten selbst Vertiefungen gewählt, beispielsweise in Medienrecht, in Kommunikation und - sehr interessant - natürlich auch das Thema Social Media Werbung. In den letzten Jahre wurde in den\_Bereichen Social Media und Social Media Marketing eine Reihe neuer Studiengänge geschaffen, die auch von privaten Universitäten sehr stark beworben und forciert werden. Solche sehr gezielten Studiengänge sind gerade dann interessant, wenn Studenten später eben dann auch in diesen Bereichen als Marketing Manager tätig werden möchten."
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Über die internationale Ausrichtung vieler Marketing-Studiengänge und deren Fokus auf aktuelle Entwicklungen und Trends hinaus, bieten viele Universitäten, insbesondere private Universitäten, auch ein duales Studium im Bereich Marketing. Dies bedeutet eine Verknüpfung zwischen beruflicher Tätigkeit und Studium, was natürlich höhere Anforderungen an alle Studenten stellt, insbesondere was die zeitliche Thematik angeht. Und genau in diesem Zusammenhang können die Marketing Ghostwriter von GWriters wertvolle Unterstützung leisten, da sie besonders duale Studenten zeitlich einfach entlasten können, sodass diese sich auf ihr Studium, auf zu schreibende Klausuren und anstehende Präsentationen konzentrieren können. Denn mit der Erstellung von Mustervorlagen für wissenschaftliche Arbeiten können diese dann guten Gewissens unsere hochkompetenten Marketing Ghostwriter bei GWriters beauftragen.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Zusammenfassung zu Ghostwritern & Marketing'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Zusammengefasst handelt es sich beim Marketing um ein hochinteressantes Studium und gerade wenn man sich die heutige Produkt- und Dienstleistungswelt anschaut, dann werden Produkte immer vergleichbarer und austauschbarer, sodass allein über den Preis der Wettbewerb schon lange nicht mehr zu gewinnen ist. Umso wichtiger wird es in der Zukunft, Marketing Spezialisten zu haben, die genau wissen, worauf die Konsumenten wirklich Wert legen und wie Werbekampagnen genau auf diese Kundenbedürfnisse abgestimmt werden können. Nur so ist es möglich, eine wirkungsvolle und erfolgreiche Marketingstrategie zu entwickelt.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Jedoch bereiten gerade die Grundlagenfächer Mathe, Statistik und Recht sehr vielen Studenten erhebliche Probleme. Sie entscheiden sich nicht selten dazu Ghostwriter und andere akademische Freelancer zu engagieren um sich optimal auf Prüfungsleistungen vorbereiten zu können. Ghostwriting-Ausarbeitungen dürfen nicht als solche verwendet werden, wenn es sich um Prüfungsleistungen handelt. BWL-Ghostwriter sind jedoch in anderen Fällen, wie beispielsweise bei der Erstellung einer Marktanalyse für ein Unternehmen oder das Schreiben eines Buches für eine Privatperson, zulässig.'
               -
                 type: heading
                 attrs:
@@ -846,12 +991,32 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: Disclaimer
               -
                 type: paragraph
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
                 type: heading
@@ -860,6 +1025,16 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: 'Nützliche Weblinks'
               -
                 type: paragraph
@@ -868,38 +1043,99 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'https://de.wikipedia.org/wiki/Guerilla-Marketing'
+                          href: 'https://ranking.zeit.de/che/de/'
                           target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Artikel über Guerilla-Marketing - Wikipedia'
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'CHE Hochschulranking 2020 – Zeit Online'
                   -
                     type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'https://de.wikipedia.org/wiki/Marketing'
+                          href: 'https://de.wikipedia.org/wiki/Betriebswirtschaftslehre'
                           target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Grundinformationen zu Marketing - Wikipedia'
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Grundinformationen zur BWL – Wikipedia'
                   -
                     type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'https://wirtschaftslexikon.gabler.de/definition/marketing-39435'
+                          href: 'https://www.handelsblatt.com/'
                           target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Definition Marketing - Wirtschaftslexikon Gabler'
+                          rel: nofollow
+                    text: 'Wirtschaftsnachrichten – Handelsblatt'
                   -
                     type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://ranking.zeit.de/che/de/fachinfo/24'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'BWL studieren – Zeit Online'
                   -
                     type: text
                     marks:
@@ -924,6 +1160,6 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-meta_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Hilfe durch Experten und akademische Ghostwriter im Marketings – ✅ schnell, ✅ diskret und ✅ mehrfach geprüft auf Qualität & Plagiate.'
+meta_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
+meta_description: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 ---
