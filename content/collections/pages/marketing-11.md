@@ -11,15 +11,17 @@ teaser:
         type: text
         marks:
           -
+            type: bold
+          -
             type: textAlign
             attrs:
               align: center
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
-        text: 'Ghostwriter Marketing'
+              color: 'rgb(255, 102, 2)'
+              hex: '#000'
+        text: 'Ghostwriter Germanistik'
   -
     type: paragraph
     content:
@@ -32,7 +34,12 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Hilfe durch Experten und akademische Ghostwriter des Marketings – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+          -
+            type: textColor
+            attrs:
+              color: 'rgb(68, 68, 68)'
+              hex: '#000'
+        text: 'Hilfe durch Experten und akademische Ghostwriter in Germanistik – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -49,8 +56,8 @@ teaser_bg:
 page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619772972
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619778474
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -68,46 +75,284 @@ replicator:
           -
             bard:
               -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Im Jahr 2017 hatten sich im Germanistik Studium ungefähr 80.000 Studenten eingeschrieben. Davon wählten 42.000 den Studiengang auf Lehramt. In den letzten 10 Jahren stieg auch die Anzahl der Professoren an den Hochschulen um 50 Prozent. Die folgende Grafik zeigt auch, dass der Studiengang im Jahr 2020 den 8. Platz der beliebtesten Studiengänge einnimmt. So ist es nicht überraschend, dass Im Fachbereich Germanistik Ghostwriter immer häufiger gesucht werden und akademische Ghostwriter Germanistik auch immer häufiger als Ihren bevorzugten Fachbereich wählen.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - seiten/fachrichtungen/Beliebter-studiengang-in-die-Deutschland-768x506.png
+                    has_border: false
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Germanistik wird von Außenstehenden oft als trivialer Studiengang betrachtet. Viele stellen das Studium Germanistik als „Brotlose Kunst“ dar, wobei hier die Karrierechancen sehr hoch sind. „Ein Germanistikstudium kann doch jeder schaffen“, „Deutsch kann doch jeder“ Sicher? Nein, ein Germanistik Studium bringt viele Herausforderungen mit sich. Denn für die Ausbildung zum Germanisten wird mehr als nur eine hohe Sprachbegabung erwartet. Ungefähr jeder Dritte bricht sein Studium im Bereich Germanistik frühzeitig aufgrund der hohen Anforderungen ab.'
+              -
                 type: heading
                 attrs:
                   level: 2
                 content:
                   -
                     type: text
-                    text: 'Unsere Marketing Ghostwriter'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Wie können Germanistik Ghostwriter helfen?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unter Marketing versteht man die Idee einer marktorientierten Unternehmensführung, um den Bedürfnissen der Kunden auf bestmögliche Art gerecht zu werden. Aufgrund seiner Funktion als Treiber des unternehmerischen Absatzes, ist Marketing ein Bereich der '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Ghostwriter im Fachbereich der Germanistik kennen die relevante\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/bwl'
+                          href: 'https://gwriters.de/blog/literaturquellen-richtig-zitieren'
                           target: null
                           rel: null
-                    text: Betriebswirtschaftslehre
+                    text: Literatur
                   -
                     type: text
-                    text: '. In größeren, aber auch in mittelständischen und einigen kleinen Unternehmen, gibt es oftmals eine eigene Marketingabteilung. Diese befasst sich mit der Vermarktung der hergestellten Produkte oder angebotenen Dienstleistungen. Die meisten unserer Marketing Ghostwriter kommen direkt aus diesen Unternehmensabteilungen. Zumindest haben diese aber einen anderen beruflichen Bezug zu verschiedenen Bereichen der Vermarktung und seiner Strategien. Daher kann Sie Unser Team bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen unterstützen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder für eine andere akademische Ausarbeitung handelt, wir bieten Ihnen umfassende individuelle und professionelle Unterstützung durch Experten.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: video
-                    video: 'https://youtu.be/bf0mZznnTlk'
-              -
-                type: paragraph
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_und Datenbanken und sind Experten für das Erstellen von Mustervorlagen für wissenschaftliche Haus-, Seminar-, Bachelor- und Masterarbeiten. Sie beherrschen die\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/blog/geschichte-studiengang'
+                          target: null
+                          rel: null
+                    text: 'deutsche Historie'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_bzw.\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/literatur'
+                          target: null
+                          rel: null
+                    text: Literatur
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_und haben ein breites Grundlagenwissen in der deutschen Sprache. Ebenso unterstützen unsere Germanistik Ghostwriter Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Sie haben sehr viele Jahre Erfahrungen in der Praxis sowie in der Theorie."
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ein Ghostwriter im Bereich Marketing kann sogar zu einem festen, langfristigen Partner im Marketing Studium werden. Beispielsweise zu einer Art Coach oder Begleiter, denn akademisches Ghostwriting muss nicht immer die Erstellung einer vollständigen Mustervorlage bedeuten. Es gibt viele Fälle in denen der Forschungsansatz schon steht, ein Student nur noch eine Handreichung benötigt, um die genaue Richtung festzulegen, die er mit seiner wissenschaftlichen Arbeit einschlagen möchte.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Ob es sich bei Ihrem Projekt um eine Präsentation, eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen umfassenden individuellen Beistand. Gerade bei der Erstellung von themenspezifischen bzw. historischen Inhalten können Germanistik Ghostwriter Studenten professionell unterstützen. Grundlage hierfür ist, dass diese im Rahmen Ihrer eigenen akademischen Ausbildung nicht nur mit den\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/blog/methoden-empirische-sozialforschung'
+                          target: null
+                          rel: null
+                    text: 'notwendigen Methoden'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_vertraut geworden sind, sondern auch ein tiefgehendes Theorieverständnis aufgebaut haben, welches sie in ihrer Karriere als Germanistik Ghostwriter immer wieder anwenden und verfeinern. Neben der Beratung und dem Coaching bei der gesamten Arbeit oder Unterstützung durch eine hochqualitative Mustervorlage, kann der Ghostwriter auch lediglich als\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/lektorat/lektor'
+                          target: null
+                          rel: null
+                    text: Lektor
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ",\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/korrektorat/korrektor'
+                          target: null
+                          rel: null
+                    text: Korrektor
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_und\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/uebersetzung'
+                          target: null
+                          rel: null
+                    text: Übersetzer
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_beauftragt werden."
               -
                 type: paragraph
                 content:
@@ -116,12 +361,30 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie für Ihre akademischen Arbeit im Fachbereich Mathematik Ghostwriter suchen, dann können Sie uns gerne sofort eine '
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Wenn Sie bei Ihrer akademischen Arbeit im Fachbereich Germanistik Unterstützung benötigen, dann können Sie uns gerne sofort eine\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -134,71 +397,17 @@ replicator:
                     marks:
                       -
                         type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                     text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Der Fachbereich Marketing'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die steigende Vielzahl an unterschiedlichen Märkten von angebotenen Produkten und Dienstleistungen stellt das Marketingstudium als äußerst facettenreich dar. Aufgrund des zeitintensiven und breit gefächerten Studiums beauftragen nicht selten Studenten aus dem Bereich Marketing '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/ghostwriter'
-                          target: null
-                          rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    text: ' und Freelancer, die sie bei der Erstellung wissenschaftlicher Arbeiten unterstützen durch Mustervorlagen. Dies kann in Form einer umfassenden Textredaktion geschehen, jedoch auch einzelne Teilbereiche, wie das '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/leistungen/lektorat'
-                          target: null
-                          rel: null
-                    text: Lektorat
-                  -
-                    type: text
-                    text: ' und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/leistungen/korrektorat'
-                          target: null
-                          rel: null
-                    text: Korrektorat
-                  -
-                    type: text
-                    text: ' und die Suche nach der passenden Literatur umfassen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Marketing erscheint für viele Schüler und Studienanfänger als Traumfach, welches sie gerne studieren möchten, um nach ihrem Abschluss in der schillernden Welt des Marketings und der Werbung arbeiten zu können. Viele möchten für große, namhafte Unternehmen Marketingkonzepte entwickeln, an Pitches teilnehmen oder Präsentationen gestalten. Solche Berufsaussichten im Marketing klingen für viele Studenten sehr verlockend. Bei großen Marketing-Agenturen liegen die Gehälter der Marketing-Manager in der Spitze bei bis zu 15.000 Euro brutto im Monat. Daran wird schnell klar, warum es sich beim Marketing um so ein attraktives Studienfach handelt.'
+                  values:
+                    type: video
+                    video: 'https://www.youtube.com/watch?v=9e5V6mIAV_E'
               -
                 type: heading
                 attrs:
@@ -685,57 +894,88 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriting im Marketing-Studium'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Was ist Germanistik?'
               -
                 type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Zwar ist der NC für ein Marketing Studium deutlich niedriger als bei anderen Studienfächern, er liegt im Durchschnitt zwischen 2,0 und 3,0, vielleicht auch 2,7 bei manchen Universitäten, aber auch die Anforderungen an eine Marketing Studenten sind hoch. Gute Kenntnisse in der Mathematik sind eine sehr wichtige Voraussetzung, auch ein ausgezeichnetes Wissen im Bereich der Statistik ist notwendig, denn man will natürlich nach einer Marketing Kampagne auch genau untersuchen und auswerten können, was diese bewirkt hat und ob diese erfolgreich war. Dieses zentrale Messen und Steuern des Marketingerfolgs ist die Aufgabe von Marketing Experten im Unternehmen, der sich diese Fähigkeiten im vollen Umfang im Rahmen seines Studiums angeeignet haben muss.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'All dies bedarf im Studium eines vollen Einsatzes, wobei es schnell passieren kann, dass Studenten an ihre fachlichen Grenzen oder auch an ihre zeitliche Grenzen gelangen. In solchen Situation können unsere Marketing Ghostwriter von GWriters Studenten professionell unterstützen, da diese nicht nur ein hervorragendes Wissen im Marketing sowie einen akademischen Abschluss in diesem Fachbereich haben, sondern auch darüber hinaus alle Anforderungen dieses Fachbereichs erfüllen und weitere akademische Abschlüsse in verwandten Fachbereichen wie beispielsweise BWL und '
                   -
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/vwl'
-                          target: null
-                          rel: null
-                    text: VWL
-                  -
-                    type: text
-                    text: ' vorweisen können.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In der Regel arbeiten unsere Ghostwriter auch aktiv im Marketingbereich und verfügen über viele Jahre Berufserfahrung. Dank dieser großen Erfahrung in der Marketingpraxis sind unsere Marketing Ghostwriter in ihrem Fachbereich immer am Puls der Zeit. Sie kennen also den aktuellen Forschungsstand uns können sich daher schnell und effektiv in jedes individuelle Thema einarbeiten sowie sich aktiv in die Gestaltung wissenschaftlicher Arbeiten einbringen. Dies ist nicht nur limitiert auf Studenten, die sich eine Mustervorlage für Ihre Seminararbeiten und Hausarbeit schreiben lassen möchten, sondern auch für die kompetente Ghostwriting-Unterstützung bei Abschlussarbeiten wie Bachelorarbeiten, Masterarbeiten oder Doktorarbeiten in Form hochprofessioneller Mustervorlagen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Aufgrund der umfassenden Anforderungen in Kombination mit einem straffen Zeitplan, entwickeln sich für einige Studenten Schwierigkeiten bei dem Erstellen ihrer wissenschaftlichen Arbeit. Je nachdem, nach welchem Modell und welcher Lehre Themenfelder betrachtet werden müssen, kann man unterschiedliche Ergebnisse erhalten und muss diese nach gegebenen Umständen gewichten. Ein akademischer Ghostwriter im Marketingbereich kann helfen, diese Gewichtung vorzunehmen, da er sich in der Materie bestens auskennt und Erfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen kann. Er schafft Abhilfe und kann im Regelfall zeitnah eine passende Lösung bieten, die Studenten entlastet und diesen hilft, sich auf wichtige Prüfungen zu konzentrieren. Auch ist im Fachbereich Marketing '
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Germanistik gehört zu den Klassikern im Studium der Geisteswissenschaften. In dem Studiengang wird die deutschsprachige Literatur in ihren historischen und gegenwärtigen Zuständen erforscht, analysiert und wissenschaftlich vermittelt. Daher ist das Ziel eines Germanistik Studiums, Wissen zu deutscher Sprache und Literatur zu vermitteln. Der Studiengang besteht aus drei Teilfächern, der mittelalterlichen Literatur und Sprache, der Linguistik, der Neueren Literaturwissenschaft. Germanisten sind\_"
                   -
                     type: text
                     marks:
                       -
-                        type: link
+                        type: bold
+                      -
+                        type: textAlign
                         attrs:
-                          href: 'http://gwriters.de/leistungen/ghostwriting'
-                          target: null
-                          rel: null
-                    text: Ghostwriting
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: Sprachwissenschaftler
                   -
                     type: text
-                    text: ' nicht unüblich, da viele Studenten sich wertvolle Arbeitszeit sparen, indem Sie sich von einem Ghostwriter eine Mustervorlage schreiben lassen.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: ", die sich mit der\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/geschichte'
+                          target: null
+                          rel: null
+                    text: Geschichte
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ", der Struktur und der Funktion von Literatur und Kultur in Deutschland beschäftigen. Daher ist der größte Aufgabenbereich von Germanistikstudenten sich mit den deutschen Texten auseinanderzusetzen. \_Synonyme für Germanistik sind „Deutsche Philologie“ und „Deutsche Sprach- und Literaturwissenschaft“."
               -
                 type: heading
                 attrs:
@@ -743,30 +983,1933 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Marketing im Studium'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Studium Germanistik: Voraussetzungen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Eine wichtige Voraussetzung für für das Studium ist ein breites Grundlagenwissen in der deutschen Sprache und ein tiefes Interesse an einer vertieften Auseinandersetzung mit der Sprache mitzubringen. Daneben sollte eine hohe generelle Sprachbegabung, ein kulturelles Interesse sowie Kommunikationsstärke vorhanden sein. Ein NC existiert in der Regel nicht. Je nach Hochschule kann eine Zulassungsbeschränkung zwischen 2,0 und 3,0 liegen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Dabei ist an vielen Hochschulen Pflicht, gute Englischkenntnisse aufzuweisen. An manchen Hochschulen werden sogar Lateinkenntnisse verlangt. Zudem sollten Sie großes Interesse am Lesen haben, denn das Lesepensum in einem Germanistik-Studium ist groß. Genau hier können Germanistik Ghostwriter Ihnen helfen und Arbeit abnehmen, sei es bei der Aufbereitung und Bearbeitung von\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/ghostwriting'
+                          target: null
+                          rel: null
+                    text: 'Texten als Mustervorlagen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_oder bei der\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/blog/nadel-im-heuhaufen-bachelorarbeit-thema-finden'
+                          target: null
+                          rel: null
+                    text: Themenfindung
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: .
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Welche Herausforderungen gelten im Germanistik Studium?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Als Germanist stehen für Sie die\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/blog/systematische-literaturrecherche'
+                          target: null
+                          rel: null
+                    text: Recherchen
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_und"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/blog/qualitative-inhaltsanalyse-mayring-beispiele'
+                          target: null
+                          rel: null
+                    text: "\_Analysen"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_von Informationen im Vordergrund. Daher verbringen Sie als Germanistikstudent viel Zeit in Bibliotheken. Ihre Rechercheergebnisse müssen Sie im Rahmen des Studiums dann regelmäßig präsentieren und diese auch in Form von wissenschaftlichen Arbeiten verdichten, bspw. wenn Sie Germanistik Hausarbeiten schreiben. Dabei kann ein Germanistik Ghostwriter Sie"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/blog/gwriters-coaching'
+                          target: null
+                          rel: null
+                    text: "\_begleiten"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_und professionell unterstützen. Wissenschaftliche Ghostwriter wissen, wie man eine \_Literaturrecherche schnell zum Ziel führt, kennen die relevanten wissenschaftlichen Datenbanken und haben auf diese Zugriff, sodass diese zum optimalen Partner beim Verfassen Ihrer wissenschaftlichen Arbeit werden."
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Studieninhalte in der Germanistik'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Als zentrale Teilfächer werden Sie im Bachelor Germanistik, die Linguistik, die Neuere deutsche Literatur und die Mediävistik behandeln. Unter\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: „Linguistik“
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "\_wird auch die\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/sprachwissenschaften'
+                          target: null
+                          rel: null
+                    text: Sprachwissenschaften
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_verstanden. Hier werden Sie verschiedene Herangehensweisen der menschlichen Sprache bzw. ihre Geschichte, Bedeutung und Struktur untersuchen. In der\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: „Mediävistik“
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_spricht man von der Mittelalterforschung, während Sie sich in\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: '„Neuere deutsche Literatur“'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_mit der deutschsprachigen Literatur vom 16. Jahrhundert bis zur Gegenwart beschäftigen."
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Die Fachgebiete, die im Studium angesprochen werden sind systemorientierte und germanistische Linguistik, Sprachgeschichte, geschriebene und gesprochene Sprache und Literaturwissenschaft. Im Bachelorstudium werden Sie unterschiedliche Fächer belegen müssen. Die Grundlagenfächer für den Bachelor in Germanistik sind zum einen „Systematik der deutschen Sprache und Literatur“ und zum anderen „Geschichte der deutschen Sprache und Literatur“. Daraufhin werden Sie aufbauende Fächer belegen müssen, „Ältere deutsche Sprache und Literatur“, „Neuere deutsche Literatur“ und „Deutsche Sprache“. Außerdem werden Sie drei Vertiefungsfächer in Richtung „Ältere deutsche Sprache und Literatur“, „Neuere deutsche Literatur“ oder „Deutsche Sprache“ auswählen müssen.'
               -
                 type: set
                 attrs:
                   values:
-                    type: floating-img
-                    dateien:
-                      - wiki/marketing/marketing.jpeg
-                    img_size: w-1/4
-                    float: float-right
+                    type: bilder
+                    assets:
+                      - seiten/fachrichtungen/Module-fuer-Germanistik-768x278.png
+                    has_border: false
               -
-                type: paragraph
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Lehrveranstaltungstypen im Germanistikstudium'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'In der Tat ist ein Marketing-Studium ein sehr interessantes Studium, da es viele Teilbereiche aus anderen Fachrichtungen miteinander verbindet und dabei eine sehr praxisorientierte Ausrichtung einnimmt. Dazu zählen Elemente der Fachbereiche Psychologie, Konsumentenforschung oder auch ganz allgemein aus den Sozialwissenschaften, die im Marketing vereint werden. Marketing wird oft als Teil der BWL betrachtet, geht aber in seinem Umfang deutlich über einen bloßen Teilbereich hinaus, weil im Mittelpunkt eben auch die Frage steht, wie Werbung auf Konsumenten wirkt und was Werbung eigentlich genau bedeutet, was natürlich auch mit hohen Anforderungen verbunden ist. Wir bei GWriters können Ihnen mit unseren Marketing Ghostwritern im Rahmen Ihres Studiums wertvolle Unterstützung bieten, sodass Sie diese hohen Anforderungen mit Sicherheit erfüllen.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Besondere Lehrveranstaltungstypen in der Germanistik sind Übungen und Seminare. Besonders hier haben Germanistik Studenten Schwierigkeiten, da eigentlich das Studium inhaltlich rein aus Textbearbeitungen und Literaturrecherchen besteht. Daher werden überwiegend wissenschaftliche Arbeiten geschrieben. Hier können Germanistik Ghostwriter bei der Erstellung einer\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: Seminararbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_helfen. Alternativ zu einer begleitenden Unterstützung können Sie einen akademischen Ghostwriter auch eine Mustervorlage für Ihre"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                          target: null
+                          rel: null
+                    text: "\_Hausarbeit schreiben lassen"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: .
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(255, 102, 2)'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: 'https://gwriters.de/wp-admin/admin.php?page=tablepress&action=edit&table_id=30'
+                                      target: null
+                                      rel: null
+                                text: Bearbeiten
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: 'Lehrveranstaltungstypen:'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: 'Bedeutung:'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: 'Anwesenheitspflicht:'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: Vorlesung
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 1
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                        text: 'theoretische Ansätze und Methoden von Germanistik werden vermittelt'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: Nein
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: Übung
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: '-praktische Fähigkeiten und Kenntnissen des Studienfachs Germanistik werden behandelt'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: Ja
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: Exkursion
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 1
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                        text: 'Beobachtungen (z.B. Museum) außerhalb des Universitätsortes im Rahmen des Fachwissens werden durchgeführt'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: Ja
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: Konversatorium
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 1
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                        text: 'gibt den Studierenden die Möglichkeit, Fragen an den Dozenten zu stellen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: Ja
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: Proseminar
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 1
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                        text: 'Studierende tauschen untereinander ihre Fähigkeiten und Grundkenntnisse aus. Die Lehrveranstaltung ist unabhängig von Dozenten und dient zur Orientierung für die Hauptseminare.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: Ja
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: Seminar
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 1
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                        text: 'weiterführende Lehrveranstaltung, das Fachwissen wird wissenschaftlich ausgearbeitet. Hier werden überwiegend Seminararbeiten bzw. wissenschaftliche Arbeiten geschrieben.'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: Ja
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Wie und wo können Sie Germanistik studieren?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Bei einem kurzen Blick auf den Aufbau des Marketing Studiums sieht man, dass die Regelstudienzeit für einen Marketing-Bachelor in der Regel bei sechs bis sieben Semestern liegt, während ein Master in diesem Fachbereich drei bis fünf Semester in Anspruch nimmt. Sowohl im Bachelorstudium, als auch im Master sind Praktika und Auslandssemester in diese Studienzeiten eingeschlossen und werden auch in den meisten Fällen zwingend vorausgesetzt, was zum Ziel hat, den zukünftigen Marketing-Experten die für diesen Bereich so wichtige internationale Ausrichtung zu geben. Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Der Studiengang kann als Kern- und Nebenfach studiert werden. Die Regelstudienzeit liegt für den Bachelor-Studiengang bei 6 Semestern, für den Masterstudiengang kommen 4 Semester auf Sie zu. Der Abschluss im Bachelor-Studiengang findet sich im Titel Bachelor of Arts und im Masterstudiengang wird der Titel Master of Arts oder Master of Education verliehen. Germanistik kann sowohl im Fernstudium als auch an einer Universität oder Fachhochschule studiert werden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Beliebte Studiengänge für Germanistik finden Sie an den Universitäten Bonn, Leipzig, Wuppertal, Berlin, Stuttgart oder München. Diese Universitäten haben einen exzellenten Ruf im Bereich der Germanistik und können auf eine lange Tradition in dem Fachbereich zurückblicken.'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://www.germanistik.uni-bonn.de/'
+                                  target: _blank
+                                  rel: nofollow
+                            text: 'Rheinische Friedricht-Wilhelms-Universität Bonn'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://germanistik.uni-wuppertal.de/de/ueber-uns.html'
+                                  target: _blank
+                                  rel: nofollow
+                            text: 'Bergische Universität Wuppertal'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://www.uni-leipzig.de/universitaet/alumni/'
+                                  target: _blank
+                                  rel: nofollow
+                            text: 'Anna Mater Lipsiensis Universität Leipzig'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://www.hu-berlin.de/de/studium/beratung/angebot/sgb/germling'
+                                  target: _blank
+                                  rel: nofollow
+                            text: 'Humboldt Universität Berlin'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://www.ilw.uni-stuttgart.de/'
+                                  target: _blank
+                                  rel: nofollow
+                            text: 'Institut für Literaturwissenschaft Universität Stuttgart'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/index.html'
+                                  target: _blank
+                                  rel: nofollow
+                            text: 'Ludwig-Maximilians-Universität München'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Was sind die Karrierechancen für Germanistiker?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Nach dem Studium bieten sich viele unterschiedliche Germanistik Berufe an. Es ist zunächst möglich Germanistik auf Lehramt zu studieren, um später als Deutschlehrer tätig zu werden. Dafür sollten Sie neben dem Studienfach Germanistik ein zweites Fach zum Beispiel im Bereich der'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/biologie'
+                          target: null
+                          rel: null
+                    text: "\_Biologie"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ", Religion,\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/geschichte'
+                          target: null
+                          rel: null
+                    text: Geschichte
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_oder Sozialwissenschaften auswählen."
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Außerdem finden sich weitere Karrieremöglichkeiten im Journalismus, Verlagswesen, Online-Medien und PR-Bereich. Eine Stelle bei einer Zeitung ist für Absolventen des Studiengangs Germanistik sehr interessant. Ein Volontariat bzw. Praktika sind hierfür Voraussetzung bzw. erleichtern den Einstieg z.B. in eine Redaktion. Journalistische Schwerpunkte werden allerdings im Studium nicht vermittelt. Vermittelt wird ein methodisches Wissen zur Aufbereitung und Bearbeitung von Texten. Ebenso können Germanistik Ghostwriter im'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: underline
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/kommunikationswissenschaften'
+                          target: null
+                          rel: null
+                    text: "\_journalistischen Bereich"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_ Sie unterstützen. Denn Germanistik Ghostwriter bringen eine fundierte Ausbildung mit sich und sind bereits viele Jahre im beruflichen Kontext tätig. So können diese ihr berufliches Wissen bzw. Praxiswissen ideal mit theoretischen Grundkenntnissen verknüpfen und Ihnen weitergeben."
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Was verdiene ich nach dem Studium? Germanistik: Gehalt'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Als Lehrer verdienen Sie zwischen 3.500 € und 4.000 € brutto im Monat. Wenn Sie im Bereich Forschung,'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/marketing'
+                          target: null
+                          rel: null
+                    text: "\_Marketing"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_oder Verlagswesen arbeiten möchten, können Sie mit ca. 4.000 € brutto Einstiegsgehalt rechnen. Mit mehr Berufserfahrungen als Germanist erhalten Sie deutlich ein höheres Bruttogehalt."
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - seiten/fachrichtungen/Berufserfahrungsgehalt-in-Germanistik-768x461.png
+                    has_border: false
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Stellenangebote: Germanistik'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Hier finden Sie einige beispielhafte\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.kimeta.de/stellenangebote-germanist'
+                          target: _blank
+                          rel: nofollow
+                    text: Stellenangebote
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_für Germanisten:"
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(255, 102, 2)'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: 'https://gwriters.de/wp-admin/admin.php?page=tablepress&action=edit&table_id=31'
+                                      target: null
+                                      rel: null
+                                text: Bearbeiten
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: 'Stellenangebote:'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: 'Anforderungen:'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: Kommunikationsexperte
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 1
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                        text: "Zielgruppenorientierte\_"
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: 'rgb(255, 102, 2)'
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: 'https://gwriters.de/fachrichtungen/kommunikationswissenschaften'
+                                              target: null
+                                              rel: null
+                                        text: Kommunikation
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                        text: "\_von Verbundthemen an interne und externe Akteure (politische Vertreter auf kommunaler und Landesebene, Behörden, Netzwerkpflege mit relevanten Akteuren, Verkehrsunternehmen und Presse)"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: 'Deutsch Lehrer (Abendschule)'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 1
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                        text: 'motivierte Deutschlehrer/in mit Erfahrung in der Erwachsenenbildung und/oder sprachwissenschaftlichen Studium'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: 'Wissenschaftliche Mitarbeiter an der Universität'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 1
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                        text: 'Durchführung von Lehrveranstaltungen in der Angewandten Linguistik im Rahmen der Studiengänge des Instituts für Germanistik'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                text: 'Mitarbeiter im Markenrecht (beim Rechtsanwalt)'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: initial
+                        content:
+                          -
+                            type: ordered_list
+                            attrs:
+                              order: 1
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                        text: 'Sie unterstützen unsere Patentanwälte und -anwältinnen bei rechtlichen Dienstleistungen.'
+                                      -
+                                        type: hard_break
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+                                        text: '-Daneben führen sie allgemeine organisatorische und kaufmännische Arbeiten aus.'
+                                      -
+                                        type: hard_break
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: left
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Weiterführende Quellen:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Universität Salzburg, 2017:\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.uni-salzburg.at/fileadmin/multimedia/Germanistik/documents/Studium/BA_Germanistik_2017.pdf'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'https://www.uni-salzburg.at/fileadmin/multimedia/Germanistik/documents/Studium/BA_Germanistik_2017.pdf'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Spiegel, 2017:\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.spiegel.de/spiegel/germanistik-studium-wo-die-chancen-fuer-germanistik-studenten-liegen-a-1133069.html'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'https://www.spiegel.de/spiegel/germanistik-studium-wo-die-chancen-fuer-germanistik-studenten-liegen-a-1133069.html'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "BR-Fernsehen, 2017:\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.br.de/fernsehen/ard-alpha/sendungen/campus/germanistik-mythos-studium-klischees-vorurteile-berufschancen-100.html'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'https://www.br.de/fernsehen/ard-alpha/sendungen/campus/germanistik-mythos-studium-klischees-vorurteile-berufschancen-100.html'
+              -
+                type: paragraph
+              -
+                type: paragraph
               -
                 type: horizontal_rule
               -
