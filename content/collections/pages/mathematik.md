@@ -53,9 +53,9 @@ teaser:
     type: paragraph
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619768213
+updated_at: 1619768381
 teaser_bg:
-  - akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
+  - seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
