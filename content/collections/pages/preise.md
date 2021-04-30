@@ -4,7 +4,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619793306
+updated_at: 1619793491
 replicator:
   -
     columns-replicator:
@@ -367,11 +367,11 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: bilder
-                    assets:
+                    type: floating-img
+                    dateien:
                       - preise/telefon.svg
-                    img-alignment: justify-center
-                    has_border: false
+                    img_size: w-1/4
+                    float: mx-auto
               -
                 type: paragraph
               -
@@ -426,6 +426,17 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - preise/projektmanager.svg
+                    img_size: w-1/4
+                    float: mx-auto
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 4
@@ -476,6 +487,17 @@ replicator:
             show_as_card: false
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - preise/feedback.svg
+                    img_size: w-1/4
+                    float: mx-auto
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -528,6 +550,17 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - preise/lektorat.svg
+                    img_size: w-1/4
+                    float: mx-auto
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 4
@@ -578,6 +611,17 @@ replicator:
             show_as_card: false
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - preise/plagiatspruefung.svg
+                    img_size: w-1/4
+                    float: mx-auto
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
