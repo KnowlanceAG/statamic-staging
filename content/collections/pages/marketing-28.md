@@ -19,7 +19,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Ghostwriter Marketing'
+        text: 'Medienwissenschaften Ghostwriter'
   -
     type: paragraph
     content:
@@ -32,7 +32,12 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Hilfe durch Experten und akademische Ghostwriter des Marketings – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+          -
+            type: textColor
+            attrs:
+              color: 'rgb(68, 68, 68)'
+              hex: '#000'
+        text: 'Hilfe durch Experten und akademische Ghostwriter der Medienwissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -50,7 +55,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: f3fd11ca-3ac3-42f4-af3a-b2c5393e92c7
-updated_at: 1619779230
+updated_at: 1619783356
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -74,40 +79,44 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Marketing Ghostwriter'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Unter Marketing versteht man die Idee einer marktorientierten Unternehmensführung, um den Bedürfnissen der Kunden auf bestmögliche Art gerecht zu werden. Aufgrund seiner Funktion als Treiber des unternehmerischen Absatzes, ist Marketing ein Bereich der '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "In einem medienwissenschaftlichen Studium lernt der Student, wie Medien unsere Wahrnehmung prägen und wie man sie effizient einsetzen kann. Trotz erfolgreich absolviertem Studiums schaffen jedoch lediglich 70% der Absolventen einen Berufseinstieg. Wer auffallen will, muss stets exzellente Arbeiten vorweisen. Dies zu leisten ist jedoch nicht leicht, betrachtet man die Anzahl der parallel verlaufenden Projekte. Um sich bei diesen Unterstützung zu verschaffen, können Studenten der Medienwissenschaften\_"
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/bwl'
+                          href: 'https://gwriters.de/ghostwriter'
                           target: null
                           rel: null
-                    text: Betriebswirtschaftslehre
+                    text: Ghostwriter
                   -
                     type: text
-                    text: '. In größeren, aber auch in mittelständischen und einigen kleinen Unternehmen, gibt es oftmals eine eigene Marketingabteilung. Diese befasst sich mit der Vermarktung der hergestellten Produkte oder angebotenen Dienstleistungen. Die meisten unserer Marketing Ghostwriter kommen direkt aus diesen Unternehmensabteilungen. Zumindest haben diese aber einen anderen beruflichen Bezug zu verschiedenen Bereichen der Vermarktung und seiner Strategien. Daher kann Sie Unser Team bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen unterstützen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder für eine andere akademische Ausarbeitung handelt, wir bieten Ihnen umfassende individuelle und professionelle Unterstützung durch Experten.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: video
-                    video: 'https://youtu.be/bf0mZznnTlk'
-              -
-                type: paragraph
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein Ghostwriter im Bereich Marketing kann sogar zu einem festen, langfristigen Partner im Marketing Studium werden. Beispielsweise zu einer Art Coach oder Begleiter, denn akademisches Ghostwriting muss nicht immer die Erstellung einer vollständigen Mustervorlage bedeuten. Es gibt viele Fälle in denen der Forschungsansatz schon steht, ein Student nur noch eine Handreichung benötigt, um die genaue Richtung festzulegen, die er mit seiner wissenschaftlichen Arbeit einschlagen möchte.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ', Lektoren und Coaches engagieren.'
               -
                 type: paragraph
                 content:
@@ -116,12 +125,30 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie für Ihre akademischen Arbeit im Fachbereich Mathematik Ghostwriter suchen, dann können Sie uns gerne sofort eine '
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Medienwissenschaften Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -134,12 +161,20 @@ replicator:
                     marks:
                       -
                         type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                     text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
                   -
                     type: hard_break
                     marks:
                       -
                         type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
               -
                 type: heading
                 attrs:
@@ -147,58 +182,87 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Der Fachbereich Marketing'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Medienwissenschaften & Ghostwriter'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die steigende Vielzahl an unterschiedlichen Märkten von angebotenen Produkten und Dienstleistungen stellt das Marketingstudium als äußerst facettenreich dar. Aufgrund des zeitintensiven und breit gefächerten Studiums beauftragen nicht selten Studenten aus dem Bereich Marketing '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Unser Team von erfahrenen Akademikern aus der Medienwissenschaft unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen umfassenden individuellen Beistand. Jeder unserer Freelancer und Ghostwriter der Medienwissenschaften besitzt tiefgründige Fachkenntnisse in seinem speziellen Bereich und kann umfassende Erfahrungen im Erstellen von medienbezogenen Arbeiten vorweisen. Neben der Beratung und dem Coaching bei der gesamten Arbeit oder Unterstützung durch eine hochqualitative Mustervorlage, kann der Ghostwriter auch lediglich als\_"
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'http://gwriters.de/ghostwriter'
+                          href: 'https://gwriters.de/lektorat/lektor'
                           target: null
                           rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    text: ' und Freelancer, die sie bei der Erstellung wissenschaftlicher Arbeiten unterstützen durch Mustervorlagen. Dies kann in Form einer umfassenden Textredaktion geschehen, jedoch auch einzelne Teilbereiche, wie das '
+                    text: Lektor
                   -
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: 'http://gwriters.de/leistungen/lektorat'
-                          target: null
-                          rel: null
-                    text: Lektorat
-                  -
-                    type: text
-                    text: ' und '
+                          align: start
+                    text: ",\_"
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'http://gwriters.de/leistungen/korrektorat'
+                          href: 'https://gwriters.de/korrektorat/korrektor'
                           target: null
                           rel: null
-                    text: Korrektorat
+                    text: Korrektor
                   -
                     type: text
-                    text: ' und die Suche nach der passenden Literatur umfassen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Marketing erscheint für viele Schüler und Studienanfänger als Traumfach, welches sie gerne studieren möchten, um nach ihrem Abschluss in der schillernden Welt des Marketings und der Werbung arbeiten zu können. Viele möchten für große, namhafte Unternehmen Marketingkonzepte entwickeln, an Pitches teilnehmen oder Präsentationen gestalten. Solche Berufsaussichten im Marketing klingen für viele Studenten sehr verlockend. Bei großen Marketing-Agenturen liegen die Gehälter der Marketing-Manager in der Spitze bei bis zu 15.000 Euro brutto im Monat. Daran wird schnell klar, warum es sich beim Marketing um so ein attraktives Studienfach handelt.'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_und Übersetzer beauftragt werden. So wird nicht nur der Student entlastet, sondern auch das qualitative Niveau der Arbeit gehoben und eine bestmögliche Benotung bewirkt."
               -
                 type: heading
                 attrs:
@@ -206,7 +270,1017 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: 'Unsere Leistungen'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                                  target: null
+                                  rel: null
+                            text: Ghostwriting
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/lektorat'
+                                  target: null
+                                  rel: null
+                            text: Lektorat
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/uebersetzung'
+                                  target: null
+                                  rel: null
+                            text: Übersetzung
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/korrektorat'
+                                  target: null
+                                  rel: null
+                            text: Korrektorat
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/formatierung'
+                                  target: null
+                                  rel: null
+                            text: Formatierung
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/plagiatspruefung'
+                                  target: null
+                                  rel: null
+                            text: Plagiatsprüfung
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/leistungen/maxqda-auswertung'
+                                  target: null
+                                  rel: null
+                            text: 'MAXQDA Auswertung'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/promotionsberatung'
+                                  target: null
+                                  rel: null
+                            text: Promotionsberatung
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "\_"
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Akademische Arbeiten:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                                  target: null
+                                  rel: null
+                            text: Bachelorarbeit
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/diplomarbeit'
+                                  target: null
+                                  rel: null
+                            text: Diplomarbeit
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                                  target: null
+                                  rel: null
+                            text: Doktorarbeit
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/ebook'
+                                  target: null
+                                  rel: null
+                            text: eBook
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/essay'
+                                  target: null
+                                  rel: null
+                            text: Essay
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/examensarbeit'
+                                  target: null
+                                  rel: null
+                            text: Examensarbeit
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/expose'
+                                  target: null
+                                  rel: null
+                            text: Exposé
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/facharbeit'
+                                  target: null
+                                  rel: null
+                            text: Facharbeit
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                                  target: null
+                                  rel: null
+                            text: Hausarbeit
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/lernskript'
+                                  target: null
+                                  rel: null
+                            text: Lernskript
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/magisterarbeit'
+                                  target: null
+                                  rel: null
+                            text: Magisterarbeit
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                                  target: null
+                                  rel: null
+                            text: Masterarbeit
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/praesentationen'
+                                  target: null
+                                  rel: null
+                            text: Präsentationen
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
+                                  target: null
+                                  rel: null
+                            text: Seminararbeit
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(255, 102, 2)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: 'https://gwriters.de/arbeiten/statistische-analysen'
+                                  target: null
+                                  rel: null
+                            text: 'Statische Analysen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "\_"
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: Entstehung
+              -
+                type: paragraph
+                content:
+                  -
+                    type: image
+                    attrs:
+                      src: null
+                      alt: medienwissenschaften
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/wp-content/uploads/2017/02/medienwissenschaften.gif'
+                          target: null
+                          rel: null
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: italic
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Die Etablierung des Radios war ein bedeutender Meilenstein in den Medienwissenschaften.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Ihren Anfang hat die Medienwissenschaft in der Entstehung des Zeitungs- und Zeitschriftswesen. Die Etablierung der weiteren Medien, wie dem Hörfunk, Fernsehen und zuletzt den Online-Medien folgte auf die der Printmedien. Erst 1916 wurde für letztere ein Institut eingerichtet. In den folgenden Jahren wurden auch die anderen Arten der Medien populärer und werden heute in jeglicher Form mehr und mehr als öffentliches Kommunikationswerkzeug genutzt.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Studium der Medienwissenschaften'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Das Studium im Fachbereich der Medienwissenschaften ist neben Fachhochschulen, oftmals nur an Hochschulen möglich. Da es sich bei dem Studiengang Medienwissenschaften nicht um einen betriebswirtschaftlichen Studiengang handelt, findet man diesen Studiengang häufig an philosophischen oder sozialwissenschaftlichen Hochschulen. In Deutschland dauern ein Bachelorstudiengang in der Regelzeit sechs und ein Masterstudiengang vier Semester.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Sie werden mit der Bachelorarbeit (Bachelor Thesis) und der Masterarbeit (Master Thesis), ehemals mit der Magisterarbeit oder einer Diplomarbeit abgeschlossen. Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen. Besonders hier ist im Fachbereich Medienwissenschaften\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/ghostwriting'
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_verbreitet. Studenten lassen sich gerne helfen, indem sie eine Mustervorlage für ihre Arbeit von einem Medienwissenschaften-Ghostwriter schreiben lassen und dieses als Orientierungshilfe nutzen."
+              -
+                type: horizontal_rule
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 255, 255)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/anfrage'
+                          target: null
+                          rel: nofollow
+                    text: 'JETZT KOSTENLOS ANFRAGEN'
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'https://gwriters.de/anfrage'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    spacing_top: false
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Inhalte des Studiums'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Die Grundlagen des Studiums der Medienwissenschaften ist die Geschichte, Theorie und Ästhetik einzelner Medien. Dazu werden in Praxisübungen Techniken zur Analyse von Medien erlernt. Fächer, die in den ersten Semestern die Basis des Wissens bilden, sind Medienrecht, Medienwirtschaft und einige Kurse zur Anwendung von wissenschaftlichen Methoden. Dazu gehören beispielsweise unterschiedliche Programme zur Verarbeitung von Daten und statistische Analysemethoden. Absolventen sind nach ihrem Studium meist in der Filmproduktion, der Organisation von Ferstivals und in der Kulturarbeit tätig.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: Disclaimer
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Nützliche Weblinks'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://ifm.blogs.ruhr-uni-bochum.de/'
+                          target: _blank
+                          rel: nofollow
+                    text: 'Institut für Medienwissenschaften – Ruhr-Uni Bochum'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://kw.uni-paderborn.de/institut-fuer-medienwissenschaften/'
+                          target: _blank
+                          rel: nofollow
+                    text: 'Institut für Medienwissenschaften – Uni Paderborn'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://de.wikipedia.org/wiki/Portal:Medienwissenschaft'
+                          target: _blank
+                          rel: nofollow
+                    text: 'Portal: Medienwissenschaft – Wikipedia'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/wiki'
+                          target: null
+                          rel: null
+                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
