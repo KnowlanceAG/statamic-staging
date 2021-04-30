@@ -53,11 +53,11 @@ teaser:
     type: paragraph
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
-page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
+page_title: 'GWriters • Jura - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619775945
+updated_at: 1619776169
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1298,41 +1298,382 @@ replicator:
                       -
                         cells:
                           - "Handelsrecht\t"
-                          - '- Teilgebiet des Zivilrechts- Inhalt ist das "Recht der Kaufleute" - Regelung in Deutschland im HGB und in seinen Nebengesetzen'
+                          - '- Teilgebiet des Zivilrechts - Inhalt ist das "Recht der Kaufleute" - Regelung in Deutschland im HGB und in seinen Nebengesetzen'
                       -
                         cells:
-                          - null
-                          - null
+                          - "Europarecht\t"
+                          - '- Recht der EU - Einteilung in Primärrecht (Vertragsrecht) und Sekundärrecht (Gemeinschaftsrecht) - Primärrecht = völkerrechtliche Verträge - Sekundärrecht = Richtlinien, Verordnungen'
                       -
                         cells:
-                          - null
-                          - null
+                          - 'Arbeits- und Sozialrecht'
+                          - '- Arbeitsrecht = Regelung der Rechtsbeziehungen zwischen Arbeitnehmern und Arbeitgebern, Regelung der Rechtsbeziehungen der Koalitionen - Sozialrecht = Regelung des SGB, Sicherung des Sozialstaatspostulats'
                       -
                         cells:
-                          - null
-                          - null
+                          - Familienrecht
+                          - '- Teilgebiet des Zivilrechts - Regelung der Rechtsverhältnisse, die durch Ehe, Familie, Verwandtschaft und Lebenspartnerschaft entstanden sind - Regelung gesetzlicher Vertretungsfunktionen (z. B. Vormundschaft, Pflegeschaft, Betreuung)'
                       -
                         cells:
-                          - null
-                          - null
+                          - Erbrecht
+                          - '- Regelung der Verfügungen von Todes Weges'
                       -
                         cells:
-                          - null
-                          - null
+                          - Steuerrecht
+                          - '- Teil des Abgabenrechts - alle Steuergesetze, d.h. auch Gesetze der Steuerverwaltung und der Finanzgerichtsbarkeit'
                       -
                         cells:
-                          - null
-                          - null
+                          - Umweltrecht
+                          - '- Normen, die dem Umweltschutz dienen - Kernbereich sind Schutzgesetze'
                       -
                         cells:
-                          - null
-                          - null
+                          - Medienrecht
+                          - '- Regelung des Umgangs mit Veröffentlichungen - Grundlage ist das GG, insbesondere das Recht der freien Meinungsäußerung'
                       -
                         cells:
-                          - null
-                          - null
+                          - Medizinrecht
+                          - '- rechtliche Aspekte im Gesundheitswesen (Gesundheitsrecht) - Medizinrecht i.e.S. = Regelung der Rechtsbeziehungen zwischen Arzt und Patient und zwischen Ärzten untereinander'
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Die einzelnen Fächer sind mit einer Klausur oder Hausarbeit abzuschließen. Diese bestehen aus Sachverhalten und Fragestellungen, deren Lösungen im juristischen Gutachtenstil erarbeitet werden müssen. 30% der Abschlussnote bilden sich aus den Noten der Klausuren und Hausarbeiten, 70% aus der Note der Staatsexamen. Deren Bestehen stellt allerdings für sehr viele Studenten große Schwierigkeiten dar, da lediglich ein Wiederholungsversuch gestattet wird. Das zweite Durchfallen führt dabei zum Ende der juristischen Karriere. Ein großer Druck lastet auf den Studenten, die sich nicht selten mithilfe von einem Jura Ghostwriter oder Freelancer Entlastung schaffen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(34, 34, 34)'
+                          hex: '#000'
+                    text: 'Wie Sie die perfekte Jura Hausarbeit schreiben'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Das erfolgreiche Absolvieren des Jurastudiums\_setzt auch das Anfertigen von Haus- und Seminararbeiten voraus. Viele Studierende fühlen sich angesichts dieser Aufgabenstellung schnell überfordert, da das eigentliche wissenschaftliche Erarbeiten bestimmter Fragestellungen im Rahmen der jeweiligen Veranstaltungen des (Haupt-)Studiums regelmäßig nur eine untergeordnete Rolle spielt. Dabei sind beide Aufgaben – sowohl das Anfertigen einer\_Jura Hausarbeit als auch dasjenige einer Jura Seminararbeit – unter Berücksichtigung einiger Hilfestellungen für alle Studierende machbar. Und in besonders schweren Fällen können auch akademische Ghostwriter Jura Studenten professionell unterstützen."
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Hausarbeit Jura –\_Sachverhaltslektüre und Stoffsammlung"
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Gegenstand der\_Jura Hausarbeit ist regelmäßig die Falllösung, sodass es zuerst darum gehen muss den Sachverhalt zu lesen und zu verstehen. Wie im Rahmen einer Klausurbearbeitung kommt es auch für das erfolgreiche Gestalten einer Ausarbeitung einer Hausarbeit darauf an, dass Sie sich ausreichend Zeit zur Lektüre nehmen und davor schützen, durch Assoziationen zu Ihnen bekannten Fällen voreilig Schlüsse zu ziehen. Es bietet sich daher an den Sachverhalt einer Hausarbeit in mehreren Schritten zu erfassen. Zunächst sollte das bloße Lesen im Vordergrund stehen und etwaige Anmerkungen – auch wenn es schwerfällt – auf den zweiten Lesedurchgang verschoben werden. In diesem Durchgang können bereits Notizen parallel zum Lesen angefertigt werden und insbesondere sollten die wesentlichen Sachverhaltsangaben wie Daten, Personen und deren Beziehungen zueinander unterstrichen bzw. anderweitig hervorgehoben werden."
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Eine chronologische Tafel, eine Personenskizze oder eine Stoffsammlung können in dieser Phase der Bearbeitung einer Hausarbeit sehr wertvoll sein. Hierdurch ergibt sich eine Art „bereinigter Sachverhalt“, den Sie mit dem eigentlichen Sachverhalt wiederum abgleichen sollten, um anschließend eine Differenzierung innerhalb des bereinigten Sachverhaltes nach unstreitigen und streitigen und juristischen und tatsächlichen Angaben vornehmen zu können. Sind Sie an diesem Punkt angelangt, haben Sie bereits wichtige Schritte zur erfolgreichen Bearbeitung der Hausarbeit hinter sich gebracht. Als nächstes sollten ihre Feststellungen vor der Fallfrage respektive den Fallfragen gespiegelt werden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Innerhalb einer Jura Hausarbeit (ebenso wie innerhalb einer Jura Seminararbeit) gilt stets das Prinzip, dass falsch ist, was überflüssig ist. Deshalb müssen Sie genau eruieren, auf welche der von Ihnen herausgearbeiteten Punkte es angesichts der Fallfrage tatsächlich ankommt.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Recherche und Lösungsskizze'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Wesentlicher Teil der Bearbeitung sowohl einer Hausarbeit, als auch einer Seminararbeit, ist stets die Recherche der jeweiligen Probleme des Falls. Hier hilft es, dass viele Angebote in Bezug auf Jura online verfügbar sind. Sowohl über die Datenbanken juris oder beck-online, als auch in den vielfach online einsehbaren Skripten der Vorlesungen lassen sich schnelle erste Vorstellungen der Fallprobleme fassen. Entscheidend ist insoweit, dass Sie sich in den Kommentarstellen bzw. den entsprechen Beiträgen in der juristischen Literatur einen umfassenden Eindruck zu den im Fall aufgeworfenen Rechtsprobleme verschaffen, damit Sie abschätzen können ob und in welchem Umfang die Bearbeitung der\_Jura Hausarbeit auf bestimmte Probleme wird eingehen müssen."
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Sie können sich bei GWriters nicht nur Mustervorlagen für Ihre Jura Hausarbeit schreiben lassen, sondern\_ sich auch lediglich bestimmte Sachverhaltsabschnitte von einem Jura Ghostwriter genau erklären lassen oder eine Lösungsskizze erarbeiten lassen. Es empfiehlt sich, erst in diesem Stadium der Bearbeitung der Hausarbeit mit der Erstellung der Lösungsskizze zu beginnen. Ausgehend von der jeweiligen Fallfrage der Arbeit müssen Sie die insoweit zutreffende Rechtsfolge aus den Ihnen bekannten Normen herausarbeiten und finden so die zu prüfenden Vorschriften. Diese Vorschriften sollen dann im Rahmen der Lösungsskizze zueinander ins Verhältnis gesetzt werden. Auch bei der Frage, wie die Lösungsskizze zu erstellen ist, kann auf online verfügbare Quellen zurückgegriffen werden. Insbesondere hinsichtlich des Aufbaus der Hausarbeit empfiehlt es sich, die insoweit vielfach gegebenen Anleitungen der Lehrbücher zu befolgen."
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Ausformulierung der Jura Hausarbeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Schließlich ist\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/blog/gutachten-schreiben'
+                          target: _blank
+                          rel: 'noopener noreferrer'
+                    text: 'die anzuwendende Gutachtentechnik'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_zu beachten und zu nutzen. Achten Sie diesbezüglich darauf, dass zum einen nahe am Sachverhalt der Hausarbeit formuliert wird, zum anderen aber auch „sauber“ der Sachverhalt unter die jeweiligen Tatbestandsvoraussetzungen subsumiert wird. Schließlich ist im Rahmen der Ausformulierung der Hausarbeit auch maßgeblich, dass die Arbeit „rund“ ist: Dies bedeutet, dass sämtliche, durch die Fallfrage aufgeworfenen Probleme gelöst werden müssen und zudem die Arbeit durch ein Ergebnis geschlossen wird."
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Seminararbeit Jura – Unterschiede und Anforderungen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Die Ausarbeitung der Seminararbeit unterscheidet sich von der Hausarbeit insofern, als hier regelmäßig nicht am Fall gearbeitet, sondern abstrakt die Darstellung und Einordnung eines abstrakten Rechtsproblems gefordert wird. Dies erleichtert in der Vorbereitung der Ausarbeitung der Seminararbeit die Arbeit insofern, als es gerade nicht erforderlich ist, den Sachverhalt korrekt zu bereinigen, erschwert die eigentliche Lösungsskizze allerdings im Hinblick auf den Transferteil der Aufgabenstellung, als insoweit die entsprechende Recherche der Rechtsprobleme zwar als Grundlage der eigenen Ausarbeitung dienen kann, eine vollständig selbständig erdachte Lösung dennoch erforderlich bleibt.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Hier kann die Einbeziehung von Autoren von GWriters hilfreich sein, insbesondere da der Mehrwert der Ausarbeitung einer Seminararbeit im Hinblick auf das Studiumsziel des Examens ausgesprochen überschaubar bleibt und insofern die Zeit – etwa zur Klausurenübung – oftmals lerntaktisch sinnvoller genutzt werden kann.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Haus- oder Seminararbeiten in Jura erfolgreich bewältigen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Die Ausarbeitung einer Jura Hausarbeit oder auch einer\_Jura Seminararbeit setzt vor allem Zeit voraus. Das Gelingen einer solchen Ausarbeitung hängt von der Gründlichkeit der Durchführung der jeweiligen Arbeitsschritte ab. Es bedarf einer sorgfältigen Sachverhaltslektüre, umfangreicher Skizzen und einer in sich stimmigen Lösungsskizze, um eine überzeugende Ausarbeitung einer Haus- bzw. Seminararbeit zu schaffen."
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Auch und gerade deshalb gibt es viele Studenten, die sich Mustervorlagen für Ihre Haus- und Seminararbeiten in Jura schreiben lassen. Professionelle Ghostwriting-Agenturen setzen hier dort an, wo es an der Unterstützung durch Lehrende und Professoren mangelt. Durch Mustervorlagen nach wissenschaftlichen Standards und Experten-Coachings werden die korrekten wissenschaftlichen Arbeitstechniken demonstriert und verständlich erklärt sowie beispielsweise der Unterschied zwischen dem Gutachten- und Urteilsstil verdeutlicht.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Bei GWriters konnten wir durch unsere langjährige Erfahrung und mit Hilfe unserer hochqualifizierten Jura Ghostwriter, Lektoren und Coaches bereits einer Vielzahl von Studenten zum erfolgreichen Abschluss ihres Jurastudiums verhelfen.'
               -
                 type: heading
                 attrs:
@@ -1340,12 +1681,32 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: Disclaimer
               -
                 type: paragraph
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
                 type: heading
@@ -1354,6 +1715,16 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: 'Nützliche Weblinks'
               -
                 type: paragraph
@@ -1362,38 +1733,99 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'https://de.wikipedia.org/wiki/Guerilla-Marketing'
+                          href: 'https://www.gesetze-im-internet.de/bgb/'
                           target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Artikel über Guerilla-Marketing - Wikipedia'
+                          rel: nofollow
+                    text: 'Bürgerliches Gesetzbuch – Bundesministerium der Justiz Deutschland'
                   -
                     type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'https://de.wikipedia.org/wiki/Marketing'
+                          href: 'https://www.zeit.de/studium/hochschule/2011-03/juranoten-reform'
                           target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Grundinformationen zu Marketing - Wikipedia'
+                          rel: nofollow
+                    text: '“Im Jurastudium werden die Noten plötzlich ganz mau” – Zeit Online'
                   -
                     type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: 'https://wirtschaftslexikon.gabler.de/definition/marketing-39435'
+                          href: 'https://www.sueddeutsche.de/karriere/endstation-staatspruefung-ungeloeste-faelle-1.559957'
                           target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Definition Marketing - Wirtschaftslexikon Gabler'
+                          rel: nofollow
+                    text: 'Endstation Staatsprüfung – Süddeutsche.de'
                   -
                     type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://ranking.zeit.de/che/de/fachinfo/5'
+                          target: _blank
+                          rel: nofollow
+                    text: 'Jura studieren – Zeit Online'
                   -
                     type: text
                     marks:
@@ -1418,6 +1850,6 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-meta_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Hilfe durch Experten und akademische Ghostwriter im Marketings – ✅ schnell, ✅ diskret und ✅ mehrfach geprüft auf Qualität & Plagiate.'
+meta_title: 'GWriters • Jura - Ghostwriter, Lektoren & Coaches'
+meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Jura – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 ---
