@@ -55,7 +55,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: f3fd11ca-3ac3-42f4-af3a-b2c5393e92c7
-updated_at: 1619783437
+updated_at: 1619783916
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -934,26 +934,16 @@ replicator:
                 type: paragraph
                 content:
                   -
+                    type: text
+                    text: Medienwissenschaften
+                  -
                     type: image
                     attrs:
                       src: 'asset::assets::seiten/fachrichtungen/medienwissenschaften.gif'
-                      alt: medienwissenschaften
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: right
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/wp-content/uploads/2017/02/medienwissenschaften.gif'
-                          target: null
-                          rel: null
+                      alt: null
+              -
+                type: paragraph
+                content:
                   -
                     type: text
                     marks:
@@ -1998,6 +1988,6 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-meta_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Hilfe durch Experten und akademische Ghostwriter im Marketings – ✅ schnell, ✅ diskret und ✅ mehrfach geprüft auf Qualität & Plagiate.'
+meta_title: 'GWriters • Medienwissenschaft - Ghostwriter &amp; Lektoren'
+meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Medienwissenschaften – schnell, diskret und mehrfach geprüft auf Qualität &amp; Plagiate.'
 ---
