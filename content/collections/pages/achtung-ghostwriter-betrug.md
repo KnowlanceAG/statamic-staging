@@ -52,7 +52,7 @@ teaser:
   -
     type: paragraph
 teaser_bg:
-  - akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
+  - seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -1940,7 +1940,7 @@ replicator:
     enabled: true
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619767774
+updated_at: 1619768619
 page_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_description: 'Hier finden Sie aktuelle Informationen zu bekannten Betrüger-Websites im akademischen Ghostwriting. Verlassen Sie sich nur auf seriöse Ghostwriting Agenturen!'
