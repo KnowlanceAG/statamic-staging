@@ -57,7 +57,7 @@ page_title: 'GWriters • Jura - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619776238
+updated_at: 1619776401
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1298,39 +1298,39 @@ replicator:
                       -
                         cells:
                           - "Handelsrecht\t"
-                          - '- Teilgebiet des Zivilrechts - Inhalt ist das "Recht der Kaufleute" - Regelung in Deutschland im HGB und in seinen Nebengesetzen'
+                          - 'Teilgebiet des Zivilrechts; Inhalt ist das "Recht der Kaufleute"; Regelung in Deutschland im HGB und in seinen Nebengesetzen'
                       -
                         cells:
                           - "Europarecht\t"
-                          - '- Recht der EU - Einteilung in Primärrecht (Vertragsrecht) und Sekundärrecht (Gemeinschaftsrecht) - Primärrecht = völkerrechtliche Verträge - Sekundärrecht = Richtlinien, Verordnungen'
+                          - 'Recht der EU; Einteilung in Primärrecht (Vertragsrecht) und Sekundärrecht (Gemeinschaftsrecht); Primärrecht = völkerrechtliche Verträge, Sekundärrecht = Richtlinien, Verordnungen'
                       -
                         cells:
                           - 'Arbeits- und Sozialrecht'
-                          - '- Arbeitsrecht = Regelung der Rechtsbeziehungen zwischen Arbeitnehmern und Arbeitgebern, Regelung der Rechtsbeziehungen der Koalitionen - Sozialrecht = Regelung des SGB, Sicherung des Sozialstaatspostulats'
+                          - 'Arbeitsrecht = Regelung der Rechtsbeziehungen zwischen Arbeitnehmern und Arbeitgebern, Regelung der Rechtsbeziehungen der Koalitionen; Sozialrecht = Regelung des SGB, Sicherung des Sozialstaatspostulats'
                       -
                         cells:
                           - Familienrecht
-                          - '- Teilgebiet des Zivilrechts - Regelung der Rechtsverhältnisse, die durch Ehe, Familie, Verwandtschaft und Lebenspartnerschaft entstanden sind - Regelung gesetzlicher Vertretungsfunktionen (z. B. Vormundschaft, Pflegeschaft, Betreuung)'
+                          - 'Teilgebiet des Zivilrechts; Regelung der Rechtsverhältnisse, die durch Ehe, Familie, Verwandtschaft und Lebenspartnerschaft entstanden sind; Regelung gesetzlicher Vertretungsfunktionen (z. B. Vormundschaft, Pflegeschaft, Betreuung)'
                       -
                         cells:
                           - Erbrecht
-                          - '- Regelung der Verfügungen von Todes Weges'
+                          - 'Regelung der Verfügungen von Todes Weges'
                       -
                         cells:
                           - Steuerrecht
-                          - '- Teil des Abgabenrechts - alle Steuergesetze, d.h. auch Gesetze der Steuerverwaltung und der Finanzgerichtsbarkeit'
+                          - 'Teil des Abgabenrechts; alle Steuergesetze, d.h. auch Gesetze der Steuerverwaltung und der Finanzgerichtsbarkeit'
                       -
                         cells:
                           - Umweltrecht
-                          - '- Normen, die dem Umweltschutz dienen - Kernbereich sind Schutzgesetze'
+                          - 'Normen, die dem Umweltschutz dienen; Kernbereich sind Schutzgesetze'
                       -
                         cells:
                           - Medienrecht
-                          - '- Regelung des Umgangs mit Veröffentlichungen - Grundlage ist das GG, insbesondere das Recht der freien Meinungsäußerung'
+                          - 'Regelung des Umgangs mit Veröffentlichungen; Grundlage ist das GG, insbesondere das Recht der freien Meinungsäußerung'
                       -
                         cells:
                           - Medizinrecht
-                          - '- rechtliche Aspekte im Gesundheitswesen (Gesundheitsrecht) - Medizinrecht i.e.S. = Regelung der Rechtsbeziehungen zwischen Arzt und Patient und zwischen Ärzten untereinander'
+                          - 'rechtliche Aspekte im Gesundheitswesen (Gesundheitsrecht); Medizinrecht i.e.S. = Regelung der Rechtsbeziehungen zwischen Arzt und Patient und zwischen Ärzten untereinander'
               -
                 type: paragraph
                 content:
