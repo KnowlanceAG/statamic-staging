@@ -10,3 +10,4 @@ preferences:
   collections:
     pages:
       per_page: 100
+      after_save: continue_editing
