@@ -60,7 +60,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619790681
+updated_at: 1619791169
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -466,28 +466,28 @@ replicator:
                         text: Fachrichtungen
                         eintraege:
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
-                          - a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
-                          - 45680fad-6f7a-437f-88c2-23e0bc080818
-                          - a9cc9473-308b-4615-8f30-d545f7f63faf
-                          - bfd868ec-f81c-4805-8122-2e11008e72f2
-                          - b850974c-8d2d-4448-b168-3dccef384025
-                          - 925eedca-5fbe-4da9-a307-807426feaeeb
-                          - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
                           - 9944d809-005e-4651-bf9b-5555f0229245
-                          - 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
-                          - 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
-                          - dc0c7edd-0724-4454-9525-49b8f9065f16
-                          - 84a37239-87ee-45fb-b2d1-058a86fecfbb
-                          - 051a1060-2c31-4edd-af39-c44fe3842526
-                          - f07c0010-40dd-407e-bf32-a1a260b5016b
-                          - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
                           - 0c7a7458-3742-45a8-b2d4-313a1d29ef66
+                          - a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
+                          - 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
                           - 522e26b9-451d-43a8-a204-2e0f75b87f4b
+                          - 45680fad-6f7a-437f-88c2-23e0bc080818
+                          - 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
                           - ba720f59-eeef-4287-b441-251391efa6bc
+                          - a9cc9473-308b-4615-8f30-d545f7f63faf
+                          - dc0c7edd-0724-4454-9525-49b8f9065f16
                           - a9561621-8360-4ecf-855c-753f4a217c5a
+                          - bfd868ec-f81c-4805-8122-2e11008e72f2
+                          - 84a37239-87ee-45fb-b2d1-058a86fecfbb
                           - 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
+                          - 051a1060-2c31-4edd-af39-c44fe3842526
                           - 8c2000e0-d0b2-49f1-9e95-c3eb1e93b1fd
+                          - 925eedca-5fbe-4da9-a307-807426feaeeb
+                          - b850974c-8d2d-4448-b168-3dccef384025
+                          - f07c0010-40dd-407e-bf32-a1a260b5016b
                           - 4f92f65f-d065-438c-aadb-d0992f2e138f
+                          - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
+                          - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
               -
                 type: paragraph
             show_as_card: false
