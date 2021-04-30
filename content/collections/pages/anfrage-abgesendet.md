@@ -3,7 +3,7 @@ id: 1034dc14-6cc6-48e4-90f6-1f44b65b861a
 title: 'Anfrage abgesendet'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619787423
+updated_at: 1619787702
 replicator:
   -
     bard:
@@ -67,21 +67,6 @@ replicator:
                   target: null
                   rel: null
             text: info@gwriters.ch
-          -
-            type: hard_break
-          -
-            type: text
-            text: 'Österreich: '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'mailto:info@gwriters.de'
-                  target: null
-                  rel: null
-            text: info@gwriters.de
       -
         type: paragraph
         content:
@@ -99,11 +84,6 @@ replicator:
           -
             type: text
             text: 'Schweiz: +41 (0) 41 5880717'
-          -
-            type: hard_break
-          -
-            type: text
-            text: 'Österreich: +43 (0) 720 30354141'
       -
         type: paragraph
         content:
