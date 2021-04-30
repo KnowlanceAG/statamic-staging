@@ -3,8 +3,8 @@ id: 849140c8-c582-4340-a2bc-446126149c9f
 title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619788145
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619794978
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -23,14 +23,16 @@ teaser:
         type: text
         marks:
           -
+            type: bold
+          -
             type: textAlign
             attrs:
               align: center
           -
             type: textColor
             attrs:
-              color: '#ff6602'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
         text: 'Unsere Leistungen'
   -
     type: paragraph
