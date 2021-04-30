@@ -55,7 +55,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: f3fd11ca-3ac3-42f4-af3a-b2c5393e92c7
-updated_at: 1619781810
+updated_at: 1619781974
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -191,6 +191,12 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
+              -
+                type: set
+                attrs:
+                  values:
+                    type: video
+                    video: 'https://www.youtube.com/watch?v=abi2zqXMUqo&ab_channel=GWriters'
               -
                 type: paragraph
               -
