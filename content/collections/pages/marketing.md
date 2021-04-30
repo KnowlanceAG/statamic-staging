@@ -50,7 +50,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619784606
+updated_at: 1619790740
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -872,7 +872,7 @@ replicator:
                         attrs:
                           href: 'https://de.wikipedia.org/wiki/Guerilla-Marketing'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Artikel über Guerilla-Marketing - Wikipedia'
                   -
                     type: hard_break
@@ -884,7 +884,7 @@ replicator:
                         attrs:
                           href: 'https://de.wikipedia.org/wiki/Marketing'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Grundinformationen zu Marketing - Wikipedia'
                   -
                     type: hard_break
@@ -896,7 +896,7 @@ replicator:
                         attrs:
                           href: 'https://wirtschaftslexikon.gabler.de/definition/marketing-39435'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Definition Marketing - Wirtschaftslexikon Gabler'
                   -
                     type: hard_break
