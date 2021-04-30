@@ -1,6 +1,6 @@
 ---
 id: a9cc9473-308b-4615-8f30-d545f7f63faf
-title: 'Jura Ghostwriter'
+title: Jura
 teaser:
   -
     type: heading
@@ -57,7 +57,7 @@ page_title: 'GWriters • Jura - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619790847
+updated_at: 1619791569
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
