@@ -1,6 +1,6 @@
 ---
 id: 21aff10c-582a-440f-9f50-1af525566292
-title: 'Ghostwriter Marketing (Dupliziert) (21)'
+title: Philosophie
 teaser:
   -
     type: heading
@@ -19,7 +19,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Ghostwriter Marketing'
+        text: 'Philosophie Ghostwriter'
   -
     type: paragraph
     content:
@@ -32,7 +32,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Hilfe durch Experten und akademische Ghostwriter des Marketings – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Hilfe durch Experten und akademische Ghostwriter der Philosophie – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -49,8 +49,8 @@ teaser_bg:
 page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619772972
+updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
+updated_at: 1619790817
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
