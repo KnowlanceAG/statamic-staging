@@ -1,6 +1,6 @@
 ---
 id: 925eedca-5fbe-4da9-a307-807426feaeeb
-title: 'Soziale Arbeit Ghostwriter'
+title: 'Soziale Arbeit'
 teaser:
   -
     type: heading
@@ -57,7 +57,7 @@ page_title: 'GWriters • Soziale Arbeit - Ghostwriter, Lektoren & mehr'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619777867
+updated_at: 1619791577
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
