@@ -1,6 +1,6 @@
 ---
 id: 9944d809-005e-4651-bf9b-5555f0229245
-title: Bauingenieurwesen
+title: 'Ghostwriter Bauingenieurwesen'
 teaser:
   -
     type: heading
@@ -53,11 +53,11 @@ teaser:
     type: paragraph
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
-page_title: 'Bauingenieurwesen • GWriters.de'
+page_title: 'Bauingenieurwesen Ghostwriter, Lektoren & Coaches • GWriters.de'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619784670
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619790943
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2948,6 +2948,6 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-meta_title: 'Bauingenieurwesen • GWriters.de'
+meta_title: 'Bauingenieurwesen Ghostwriter, Lektoren & Coaches • GWriters.de'
 meta_description: 'Bauingenieurwesen studieren? Ablauf und Abschluss-Hilfe durch Experten und akademische Ghostwriter im Bauingenieurwesen✅'
 ---
