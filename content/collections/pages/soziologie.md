@@ -1,6 +1,6 @@
 ---
 id: f07c0010-40dd-407e-bf32-a1a260b5016b
-title: 'Ghostwriter Soziologie'
+title: Soziologie
 teaser:
   -
     type: heading
@@ -57,7 +57,7 @@ page_title: 'Ghostwriter Soziologie, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619791054
+updated_at: 1619791617
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
