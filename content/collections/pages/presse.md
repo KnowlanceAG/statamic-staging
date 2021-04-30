@@ -1,8 +1,8 @@
 ---
 id: 8bdfe06a-1a06-46e1-94d2-591c8f5faece
-title: Marketing
+title: 'GWriters & Team in der Presse'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619784778
+updated_at: 1619785207
 replicator:
   -
     bard:
