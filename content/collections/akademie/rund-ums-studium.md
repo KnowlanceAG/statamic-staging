@@ -207,7 +207,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619649524
+updated_at: 1619799253
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -224,4 +224,11 @@ meta_title: 'GWriters • Alles rund ums Studium von Ihrem Ghostwriter Service'
 meta_description: 'Ob Jura, BWL, Medizin oder etwas anderes - Unsere Ghostwriting Agentur steht Ihnen in jedem Fachbereich professionell zur Seite!'
 academy_teaser_headline: 'Rund ums Studium von Gwriters'
 academy_teaser_text: 'Jedes Studium stellt ganz eigene Anforderungen an die Studierenden. Auch besitzt jeder Fachbereich eigene Vorgaben und Anforderung, auch hinsichtlich der Abschlussarbeit. Beispielsweise erklären wir Ihnen, wie Sie sich auf die mündliche Prüfung, die Veröffentlichung Ihrer Dissertation oder ein Auslandsstudium vorbereiten.'
+more_templates:
+  - 68703917-9254-4107-82e0-0d844a79e81a
+  - b0ab57c8-c632-4082-af70-9b10b915d2b8
+  - 919279ae-733d-4bd9-a759-afaa758e18fc
+  - 4c882044-a7c8-47ab-96ab-9fac3f0b761c
+  - b73c1df6-623f-49fd-a8ea-3d9e6cf334ab
+  - 9a41faa4-9f52-4f0e-84b2-9fc989d3e995
 ---
