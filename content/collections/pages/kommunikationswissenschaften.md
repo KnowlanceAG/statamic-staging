@@ -57,7 +57,7 @@ page_title: 'GWriters • Kommunikation - Ghostwriter, Lektoren & mehr'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619785531
+updated_at: 1619789692
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -832,14 +832,70 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
-                    bild:
+                    type: floating-img
+                    dateien:
                       - seiten/fachrichtungen/kommunikation.jpg
-                    text: |
-                      Des Weiteren spielen mittlerweile auch Journalistik und die Wissenschaft der PR eine Rolle. Heute ist der Studieninhalt in diesem Fachbereich abhängig von der jeweiligen Universität oder Hochschule, so liegt der Schwerpunkt der einen auf der Massenkommunikation, während sich andere mit der Individualkommunikation auseinandersetzen.
-
-                      Im Allgemeinen dient das Studium dazu, Probleme im Dreieck der Sprache – Kommunikation – Medien zu identifizieren und durch wissenschaftliche Methoden zu analysieren und zu lösen. Der Studiengang vermittelt das fachliche Wissen sowie die Kompetenz und Methodik, die den Studenten auf eine selbstständige und anspruchsvolle Tätigkeit in unterschiedlichen Berufszweigen vorbereitet. Er besteht aus zahlreichen Prüfungen und wissenschaftlichen Arbeiten, die zu schreiben sind. Daher werden nicht selten von Studenten der Kommunikation Ghostwriter beauftragt. Dabei sollte bei Prüfungsleistungen, beispielsweise wenn Studenten von einem Kommunikation-Ghostwriter Hausarbeiten schreiben lassen, die[ Ghostwriting](https://gwriters.de/leistungen/ghostwriting)-Hausarbeit als Mustervorlage genutzt werden und nur der Orientierung helfen.
-                    ausrichtung: text-bild
+                    img_size: w-1/4
+                    float: float-right
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Des Weiteren spielen mittlerweile auch Journalistik und die Wissenschaft der PR eine Rolle. Heute ist der Studieninhalt in diesem Fachbereich abhängig von der jeweiligen Universität oder Hochschule, so liegt der Schwerpunkt der einen auf der Massenkommunikation, während sich andere mit der Individualkommunikation auseinandersetzen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Im Allgemeinen dient das Studium dazu, Probleme im Dreieck der Sprache – Kommunikation – Medien zu identifizieren und durch wissenschaftliche Methoden zu analysieren und zu lösen. Der Studiengang vermittelt das fachliche Wissen sowie die Kompetenz und Methodik, die den Studenten auf eine selbstständige und anspruchsvolle Tätigkeit in unterschiedlichen Berufszweigen vorbereitet. Er besteht aus zahlreichen Prüfungen und wissenschaftlichen Arbeiten, die zu schreiben sind. Daher werden nicht selten von Studenten der Kommunikation Ghostwriter beauftragt. Dabei sollte bei Prüfungsleistungen, beispielsweise wenn Studenten von einem Kommunikation-Ghostwriter Hausarbeiten schreiben lassen, die\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/leistungen/ghostwriting'
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: '-Hausarbeit als Mustervorlage genutzt werden und nur der Orientierung helfen.'
               -
                 type: horizontal_rule
               -
