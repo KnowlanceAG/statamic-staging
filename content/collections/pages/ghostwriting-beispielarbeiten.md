@@ -66,8 +66,8 @@ teaser:
 teaser_bg:
   - seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619792084
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619792375
 replicator:
   -
     bard:
@@ -268,7 +268,7 @@ replicator:
             ex_type: Seminararbeit
             ex_pages: '12'
             ex_zitation: 'Harvard Style'
-            ex_button_link: irgendwas
+            ex_button_link: 'entry::96cae355-3c82-4ead-9c6f-b091dcd86f36'
             ex_button_text: Weiterlesen
             ex_spacing_top: false
             ex_button_align: justify-start
