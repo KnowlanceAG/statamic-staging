@@ -50,7 +50,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1619790054
+updated_at: 1619790487
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -713,7 +713,7 @@ replicator:
                     type: floating-img
                     dateien:
                       - seiten/fachrichtungen/mathe.jpg
-                    img_size: w-1/2
+                    img_size: w-1/4
                     float: float-right
               -
                 type: paragraph
