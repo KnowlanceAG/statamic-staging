@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: philosophie
+  caption: 'Von Studenten der Philosophie wird ein breit gefächertes kulturelles Allgemeinwissen verlangt.'
 size: 58758
 last_modified: 1619791023
 width: 640
