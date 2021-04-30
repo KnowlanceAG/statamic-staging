@@ -1,8 +1,8 @@
 ---
 id: 8bdfe06a-1a06-46e1-94d2-591c8f5faece
-title: Presse
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619540506
+title: Marketing
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619784778
 replicator:
   -
     bard:
@@ -41,4 +41,6 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: without-teaser-with-sidebar
+meta_title: 'GWriters.de & Team in der Presse • GWriters'
+meta_description: 'Verschiedene Presseberichte über GWriters.de, Ghostwriting im Allgemeinen und seriöse Ghostwriter Agenturen.'
 ---
