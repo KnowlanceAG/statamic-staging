@@ -57,7 +57,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619789313
+updated_at: 1619789385
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -478,241 +478,6 @@ replicator:
         enabled: true
         responsive_columns: 1
         single-col: false
-      -
-        responsive_columns: 1
-        columns_per_row: '1'
-        single-col: false
-        grid:
-          -
-            bard: null
-            show_as_card: false
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Akademische Arbeiten:'
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: '3'
-        single-col: false
-        grid:
-          -
-            bard: null
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
-                          target: null
-                          rel: null
-                    text: Bachelorarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/diplomarbeit'
-                          target: null
-                          rel: null
-                    text: Diplomarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/doktorarbeit'
-                          target: null
-                          rel: null
-                    text: Doktorarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/ebook'
-                          target: null
-                          rel: null
-                    text: eBook
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/essay'
-                          target: null
-                          rel: null
-                    text: Essay
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/examensarbeit'
-                          target: null
-                          rel: null
-                    text: Examensarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/expose'
-                          target: null
-                          rel: null
-                    text: Exposé
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/facharbeit'
-                          target: null
-                          rel: null
-                    text: Facharbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/hausarbeit'
-                          target: null
-                          rel: null
-                    text: Hausarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/lernskript'
-                          target: null
-                          rel: null
-                    text: Lernskript
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/magisterarbeit'
-                          target: null
-                          rel: null
-                    text: Magisterarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/masterarbeit'
-                          target: null
-                          rel: null
-                    text: Masterarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/praesentationen'
-                          target: null
-                          rel: null
-                    text: Präsentationen
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/seminararbeit'
-                          target: null
-                          rel: null
-                    text: Seminararbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'http://gwriters.de/arbeiten/statistische-analysen'
-                          target: null
-                          rel: null
-                    text: 'Statische Analysen'
-            show_as_card: false
-        type: row
-        enabled: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -744,8 +509,8 @@ replicator:
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
-    enabled: false
-    remove_spacing: true
+    enabled: true
+    remove_spacing: false
     border: false
   -
     columns-replicator:
@@ -964,8 +729,8 @@ replicator:
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
-    enabled: false
-    remove_spacing: true
+    enabled: true
+    remove_spacing: false
     border: false
   -
     columns-replicator:
