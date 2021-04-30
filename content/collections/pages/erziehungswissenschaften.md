@@ -1,6 +1,6 @@
 ---
 id: 4476be29-c55a-45b7-ac4a-0e300dfdb8b6
-title: 'Ghostwriter Erziehungswissenschaften'
+title: Erziehungswissenschaften
 teaser:
   -
     type: heading
@@ -57,7 +57,7 @@ page_title: 'Erziehungswissenschaften Ghostwriter, Lektoren & Coaches • GWrite
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619789890
+updated_at: 1619791626
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
