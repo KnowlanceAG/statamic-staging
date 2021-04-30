@@ -46,11 +46,11 @@ teaser:
     type: paragraph
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
-page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
+page_title: 'Philosophie Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619791715
+updated_at: 1619791748
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -730,8 +730,6 @@ replicator:
                   -
                     type: text
                     text: 'Besonders die kulturelle Verbindung dieser Fachbereiche untereinander, spielt im Studium eine große Rolle. Praktische Erfahrungen sind zudem auch ein wichtiger Bestandteil des Studiums. So werden Praktika in kulturellen Einrichtungen, Wirtschaftsunternehmen und diversen Projekten absolviert.'
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
