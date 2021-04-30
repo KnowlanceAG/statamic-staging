@@ -57,7 +57,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1619791693
+updated_at: 1619791731
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -794,6 +794,8 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Die Sprachwissenschaft hat ihren Ursprung parallel zu der ersten Verschriftlichung der menschlichen Sprache. Traditionen und schriftliche Fixierungen überliefern die Sprache bis in die heutige Zeit und ihre Entwicklung kann im Studium der Sprachwissenschaften nachvollzogen werden. Die Entwicklung der Menschheit nimmt auch Einfluss auf die Sprachwissenschaften und sorgt für weiterführende Fächer in diesem Studiengang sowie der Computerlinguistik.'
+              -
+                type: paragraph
               -
                 type: paragraph
               -
