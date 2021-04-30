@@ -1,6 +1,6 @@
 ---
 id: f501c52c-7217-448e-bb53-d6f84c7e51c8
-title: 'Mathematik Ghostwriter'
+title: Mathematik
 teaser:
   -
     type: heading
@@ -50,7 +50,7 @@ page_title: 'GWriters • Mathematik - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619791322
+updated_at: 1619791637
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
