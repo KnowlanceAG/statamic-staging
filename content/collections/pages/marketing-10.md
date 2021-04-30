@@ -57,7 +57,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619777125
+updated_at: 1619777565
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -719,18 +719,14 @@ replicator:
         enabled: true
         responsive_columns: 1
         single-col: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns-replicator:
       -
+        responsive_columns: 1
         columns_per_row: 1
+        single-col: false
         grid:
+          -
+            bard: null
+            show_as_card: false
           -
             bard:
               -
@@ -748,7 +744,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Allgemeines zur Eletrotechnik'
               -
@@ -761,18 +757,138 @@ replicator:
                     text: 'Die Elektrotechnik hat sich aus der Physik entwickelt, dies konnte selbstverständlich erst geschehen, nachdem die Elektrizität entdeckt wurde. Bereits 1663 entwickelte Otto von Guericke eine Apparatur, welche mit Hilfe von Reibung Elektrizität erzeugte. In die Geschichte eingegangen ist das Froschschenkel-Experiment von Luigi Galvani, einem italienischen Physiker, welches den Grundstein für die Erfindung der Galvanischen Zelle legte. Vom Prinzip her ist es eine Kombination zweier Elektroden und eines Elektrolyten. Auf Grundlage dieser Forschungen konnte Alessandro Volta wenig später die Voltasche Säule bauen, mit der erstmals eine kontinuierliche Stromquelle realisiert wurde. Die Erfindung von Telefon, Generator, der drahtlosen Funkübertragung und nicht zuletzt dem Fernseher gehören zu weiteren Meilensteinen in der Geschichte der Elektrotechnik. In der modernen vernetzten Welt kann man sich ein Leben ohne Elektrotechnik kaum vorstellen. Elektronische Bauteile werden in allen Bereichen des Lebens eingesetzt und liefern wichtige Dienste für jeden Anwender. Besonders im Bereich der [Medizin](https://gwriters.de/fachrichtungen/medizin) ist die Elektrotechnik dem Menschen zugute gekommen.'
                     ausrichtung: text-bild
               -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    spacing_top: false
+              -
+                type: horizontal_rule
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Elektrotechnik & Ghostwriting'
+              -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die ingenieurswissenschaftlichen Studiengänge zeichnen sich im Allgemeinen durch einen hohen Schwierigkeitsgrad aus. An manchen Universitäten herrschen Studienabbruchsquoten von über 50%. Im Bundesschnitt lag die Studienabbruchsquote 2006 im elektrotechnischen Bereich bei etwa 33%. Die hohe Abbrecherquote deutet darauf hin, dass der Studiengang der Elektrotechnik überdurchschnittlich schwer gestaltet wird, Studenten intellektuell nicht in der Lage sind diesen zu bewältigen oder die Lehrinhalte schlecht vermittelt werden. Es ist an vielen Lehrinstituten nicht unüblich, dass schlichtweg zu viel Leistung in zu kurzer Zeit abverlangt wird. Bei solchen Problemen können Elekrotechnik-Ghostwriter und akademische Freelancer dem Studenten bei dem Verfassungsprozess zur Seite stehen. Sie nehmen Druck von den Studenten, die nun mehr Zeit haben sich auf existenzielle Prüfungen zu konzentrieren, um das Studium doch noch bewältigen zu können. In der Elektrotechnik werden Ghostwriter und Freelancer eingesetzt, welche bereits ein elektrotechnisches Studium absolviert haben. Besonders beliebt ist das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/leistungen/ghostwriting'
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: ' bei Examensarbeiten, wenn sich Studenten von einem Elektrotechnik-Ghostwriter eine Bachelorarbeit oder eine Masterarbeit schreiben lassen und diese als Mustervorlage nutzen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: Disclaimer
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Nützliche Weblinks'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.studis-online.de/Studieren/art-768-studienabbruch-ing.php'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Studienabbruch in den Ingenieurwissenschaften - Studis Online'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://ranking.zeit.de/che/de/fachinfo/9'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Elektrotechnik und Informationstechnik studieren - Zeit Online'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://de.wikipedia.org/wiki/Liste_von_Pers%C3%B6nlichkeiten_der_Elektrotechnik'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Liste von Persönlichkeiten der Elektrotechnik-Wikipedia'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://de.wikipedia.org/wiki/Portal:Elektrotechnik'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Themenportal Elektrotechnik - Wikipedia'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://gwriters.de/wiki'
+                          target: null
+                          rel: null
+                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single-col: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
-    remove_spacing: false
+    remove_spacing: true
     border: false
 meta_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 meta_description: 'Hilfe durch Experten und akademische Ghostwriter im Marketings – ✅ schnell, ✅ diskret und ✅ mehrfach geprüft auf Qualität & Plagiate.'
