@@ -57,7 +57,7 @@ page_title: 'GWriters • Jura - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619776401
+updated_at: 1619790847
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1286,51 +1286,822 @@ replicator:
                           hex: '#000'
                     text: 'Die nachfolgende Tabelle zeigt die zentralen Inhalte der einzelnen Rechtsgebiete im Überblick.'
               -
-                type: set
-                attrs:
-                  values:
-                    type: table
-                    table_structure:
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
                       -
-                        cells:
-                          - "Rechtsgebiet\t"
-                          - Inhalt
+                        type: table_header
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: center
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: Rechtsgebiet
                       -
-                        cells:
-                          - "Handelsrecht\t"
-                          - 'Teilgebiet des Zivilrechts; Inhalt ist das "Recht der Kaufleute"; Regelung in Deutschland im HGB und in seinen Nebengesetzen'
+                        type: table_header
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: center
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: Inhalt
+                  -
+                    type: table_row
+                    content:
                       -
-                        cells:
-                          - "Europarecht\t"
-                          - 'Recht der EU; Einteilung in Primärrecht (Vertragsrecht) und Sekundärrecht (Gemeinschaftsrecht); Primärrecht = völkerrechtliche Verträge, Sekundärrecht = Richtlinien, Verordnungen'
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: center
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: Handelsrecht
                       -
-                        cells:
-                          - 'Arbeits- und Sozialrecht'
-                          - 'Arbeitsrecht = Regelung der Rechtsbeziehungen zwischen Arbeitnehmern und Arbeitgebern, Regelung der Rechtsbeziehungen der Koalitionen; Sozialrecht = Regelung des SGB, Sicherung des Sozialstaatspostulats'
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Teilgebiet des Zivilrechts'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Inhalt ist das "Recht der Kaufleute"'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Regelung in Deutschland im HGB und in seinen Nebengesetzen'
+                  -
+                    type: table_row
+                    content:
                       -
-                        cells:
-                          - Familienrecht
-                          - 'Teilgebiet des Zivilrechts; Regelung der Rechtsverhältnisse, die durch Ehe, Familie, Verwandtschaft und Lebenspartnerschaft entstanden sind; Regelung gesetzlicher Vertretungsfunktionen (z. B. Vormundschaft, Pflegeschaft, Betreuung)'
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: center
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: Europarecht
                       -
-                        cells:
-                          - Erbrecht
-                          - 'Regelung der Verfügungen von Todes Weges'
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Recht der EU'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Einteilung in Primärrecht (Vertragsrecht) und Sekundärrecht (Gemeinschaftsrecht)'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Primärrecht = völkerrechtliche Verträge'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Sekundärrecht = Richtlinien, Verordnungen'
+                  -
+                    type: table_row
+                    content:
                       -
-                        cells:
-                          - Steuerrecht
-                          - 'Teil des Abgabenrechts; alle Steuergesetze, d.h. auch Gesetze der Steuerverwaltung und der Finanzgerichtsbarkeit'
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: center
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: 'Arbeits- und Sozialrecht'
                       -
-                        cells:
-                          - Umweltrecht
-                          - 'Normen, die dem Umweltschutz dienen; Kernbereich sind Schutzgesetze'
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Arbeitsrecht = Regelung der Rechtsbeziehungen zwischen Arbeitnehmern und Arbeitgebern, Regelung der Rechtsbeziehungen der Koalitionen'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Sozialrecht = Regelung des SGB, Sicherung des Sozialstaatspostulats'
+                  -
+                    type: table_row
+                    content:
                       -
-                        cells:
-                          - Medienrecht
-                          - 'Regelung des Umgangs mit Veröffentlichungen; Grundlage ist das GG, insbesondere das Recht der freien Meinungsäußerung'
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: center
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: Familienrecht
                       -
-                        cells:
-                          - Medizinrecht
-                          - 'rechtliche Aspekte im Gesundheitswesen (Gesundheitsrecht); Medizinrecht i.e.S. = Regelung der Rechtsbeziehungen zwischen Arzt und Patient und zwischen Ärzten untereinander'
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Teilgebiet des Zivilrechts'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Regelung der Rechtsverhältnisse, die durch Ehe, Familie, Verwandtschaft und Lebenspartnerschaft entstanden sind'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Regelung gesetzlicher Vertretungsfunktionen (z. B. Vormundschaft, Pflegeschaft, Betreuung)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: center
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: Erbrecht
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Regelung der Verfügungen von Todes Weges'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: center
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: Steuerrecht
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Teil des Abgabenrechts'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- alle Steuergesetze, d.h. auch Gesetze der Steuerverwaltung und der Finanzgerichtsbarkeit'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: center
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: Umweltrecht
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Normen, die dem Umweltschutz dienen'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Kernbereich sind Schutzgesetze'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: center
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: Medienrecht
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Regelung des Umgangs mit Veröffentlichungen'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Grundlage ist das GG, insbesondere das Recht der freien Meinungsäußerung'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: center
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: Medizinrecht
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- rechtliche Aspekte im Gesundheitswesen (Gesundheitsrecht)'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: left
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: 'rgb(68, 68, 68)'
+                                      hex: '#000'
+                                text: '- Medizinrecht i.e.S. = Regelung der Rechtsbeziehungen zwischen Arzt und Patient und zwischen Ärzten untereinander'
               -
                 type: paragraph
                 content:
@@ -1746,7 +2517,7 @@ replicator:
                         attrs:
                           href: 'https://www.gesetze-im-internet.de/bgb/'
                           target: _blank
-                          rel: nofollow
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Bürgerliches Gesetzbuch – Bundesministerium der Justiz Deutschland'
                   -
                     type: hard_break
@@ -1772,7 +2543,7 @@ replicator:
                         attrs:
                           href: 'https://www.zeit.de/studium/hochschule/2011-03/juranoten-reform'
                           target: _blank
-                          rel: nofollow
+                          rel: 'noopener noreferrer nofollow'
                     text: '“Im Jurastudium werden die Noten plötzlich ganz mau” – Zeit Online'
                   -
                     type: hard_break
@@ -1798,7 +2569,7 @@ replicator:
                         attrs:
                           href: 'https://www.sueddeutsche.de/karriere/endstation-staatspruefung-ungeloeste-faelle-1.559957'
                           target: _blank
-                          rel: nofollow
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Endstation Staatsprüfung – Süddeutsche.de'
                   -
                     type: hard_break
@@ -1824,7 +2595,7 @@ replicator:
                         attrs:
                           href: 'https://ranking.zeit.de/che/de/fachinfo/5'
                           target: _blank
-                          rel: nofollow
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Jura studieren – Zeit Online'
                   -
                     type: text
