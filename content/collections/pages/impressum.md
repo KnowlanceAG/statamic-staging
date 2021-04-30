@@ -1,6 +1,6 @@
 ---
 id: 1f3196aa-76e3-4c7c-9b5a-8381bb49bf4d
-title: IMPRESSUM
+title: Impressum
 teaser:
   -
     type: heading
@@ -39,8 +39,8 @@ teaser:
         spacing_top: false
   -
     type: paragraph
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619616467
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619779109
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
