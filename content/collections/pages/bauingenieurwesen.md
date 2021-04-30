@@ -57,7 +57,7 @@ page_title: 'Bauingenieurwesen • GWriters.de'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619776675
+updated_at: 1619776716
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -98,7 +98,7 @@ replicator:
                     assets:
                       - seiten/fachrichtungen/Anzahl-der-Studierenden-2.png
                     img-alignment: justify-center
-                    has_border: false
+                    has_border: true
               -
                 type: heading
                 attrs:
