@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Wirtschaftsinformatik Ghostwriter'
+  caption: 'Wirtschaftsinformatiker schaffen neue Kommunikationssysteme'
 size: 29528
 last_modified: 1619774212
 width: 640
