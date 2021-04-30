@@ -53,7 +53,7 @@ teaser:
     type: paragraph
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619768485
+updated_at: 1619768536
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
@@ -1013,15 +1013,6 @@ replicator:
                   align: start
             text: "\_aus dem griechischen an, diese lautet „Kunst des Lernens“. Während der gewöhnliche Nicht-Mathematiker eher dazu neigt, die Mathematik als Lehre der Zahlen und des Rechnens zu verstehen, beschreibt der mathematische Wissenschaftler die Mathematik als die Lehre davon, logische Strukturen auf Gesetzmäßigkeiten, Eigenschaften und Muster zu untersuchen. Das Fach bildet die Grundlage für Natur- und Ingenieurwissenschaften."
       -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/fachrichtungen/mathe.jpg
-            img_size: w-1/4
-            float: float-right
-      -
         type: heading
         attrs:
           level: 2
@@ -1036,9 +1027,18 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: 'rgb(68, 68, 68)'
+                  color: '#000!important'
                   hex: '#000'
             text: 'Geschichte der Mathematik'
+      -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/fachrichtungen/mathe.jpg
+            img_size: w-1/4
+            float: float-right
       -
         type: paragraph
         content:
