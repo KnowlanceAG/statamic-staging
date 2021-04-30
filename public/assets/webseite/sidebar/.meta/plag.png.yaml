@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'PlagScan Logo'
 size: 12185
 last_modified: 1619516601
 width: 201
