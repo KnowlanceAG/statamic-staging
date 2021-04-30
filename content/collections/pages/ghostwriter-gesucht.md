@@ -5,6 +5,26 @@ replicator:
   -
     bard:
       -
+        type: heading
+        attrs:
+          level: 1
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textAlign
+                attrs:
+                  align: left
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(255, 102, 2)'
+                  hex: '#000'
+            text: 'Akademische Ghostwriter gesucht'
+      -
         type: paragraph
         content:
           -
@@ -299,7 +319,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619781335
+updated_at: 1619781367
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
