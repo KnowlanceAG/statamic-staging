@@ -57,7 +57,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619778662
+updated_at: 1619782266
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -90,6 +90,16 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Im Jahr 2017 hatten sich im Germanistik Studium ungefähr 80.000 Studenten eingeschrieben. Davon wählten 42.000 den Studiengang auf Lehramt. In den letzten 10 Jahren stieg auch die Anzahl der Professoren an den Hochschulen um 50 Prozent. Die folgende Grafik zeigt auch, dass der Studiengang im Jahr 2020 den 8. Platz der beliebtesten Studiengänge einnimmt. So ist es nicht überraschend, dass Im Fachbereich Germanistik Ghostwriter immer häufiger gesucht werden und akademische Ghostwriter Germanistik auch immer häufiger als Ihren bevorzugten Fachbereich wählen.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/fachrichtungen/Berufserfahrungsgehalt-in-Germanistik-768x461.png
+                    img_size: w-full
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
