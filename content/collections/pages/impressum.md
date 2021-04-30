@@ -40,7 +40,7 @@ teaser:
   -
     type: paragraph
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619779109
+updated_at: 1619787742
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
