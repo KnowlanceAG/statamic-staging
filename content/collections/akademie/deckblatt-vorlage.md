@@ -193,4 +193,5 @@ teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 meta_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
 downloads:
   - akademie/Deckblatt.docx
+template: academy-item
 ---

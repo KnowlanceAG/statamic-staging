@@ -21,21 +21,23 @@
         </a>
     {{ else }}
         {{ assets }}
-            {{ if extension == 'svg' || extension == 'gif' }}
-                <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-auto" />
-                {{ if caption }}
-                    <figcaption class="text-center">
-                        <i class="text-sm text-gray-550">{{ caption }}</i>
-                    </figcaption>
+            <div>
+                {{ if extension == 'svg' || extension == 'gif' }}
+                    <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-auto" />
+                    {{ if caption }}
+                        <figcaption class="text-center">
+                            <i class="text-sm text-gray-550">{{ caption }}</i>
+                        </figcaption>
+                    {{ /if }}
+                {{ else }}
+                    {{ responsive:assets alt="{alt}" class="" }}
+                    {{ if caption }}
+                        <figcaption class="text-center">
+                            <i class="text-sm text-gray-550">{{ caption }}</i>
+                        </figcaption>
+                    {{ /if }}
                 {{ /if }}
-            {{ else }}
-                {{ responsive:assets alt="{alt}" class="" }}
-                {{ if caption }}
-                    <figcaption class="text-center">
-                        <i class="text-sm text-gray-550">{{ caption }}</i>
-                    </figcaption>
-                {{ /if }}
-            {{ /if }}
+            </div>
         {{ /assets }}
     {{ /if }}
 </figure>

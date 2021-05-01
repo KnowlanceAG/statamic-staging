@@ -427,5 +427,6 @@ teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 meta_title: 'Kostenloses Tabellenverzeichnis für Ihre Hausarbeit herunterladen'
 downloads:
   - akademie/Tabellenverzeichnis.docx
+template: academy-item
 link_title: Tabellenverzeichnis
 ---

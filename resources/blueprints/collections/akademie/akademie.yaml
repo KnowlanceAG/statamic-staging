@@ -83,7 +83,7 @@ sections:
           mode: default
           collections:
             - akademie
-          display: 'Weitere Vorlagen'
+          display: 'Weitere Vorlagen / Wissenskategorien'
           type: entries
           icon: entries
           instructions: 'Bitte weiter Vorlagen auswählen ...'
@@ -130,6 +130,14 @@ sections:
           display: 'Link Text'
           type: text
           icon: text
+          listable: hidden
+      -
+        handle: template
+        field:
+          hide_partials: true
+          display: Template
+          type: template
+          icon: template
           listable: hidden
   kurz_text:
     display: 'Kurz Text'

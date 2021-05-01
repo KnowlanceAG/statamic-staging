@@ -200,5 +200,6 @@ more_templates:
   - 1b8783dd-1179-4eb1-a5a9-27304b468a8e
   - 56a76afe-cd5a-4ab4-91c3-39b2b98ffe32
   - e777b9fb-7884-4d67-8453-9d6c8cb0aa9f
+template: academy-item
 link_title: 'Eidesstattliche Erklärung'
 ---

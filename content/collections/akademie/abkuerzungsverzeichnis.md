@@ -238,4 +238,5 @@ page_title: 'Kostenloses Abkürzungsverzeichnis für Ihre Hausarbeit herunterlad
 meta_description: '? Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel. Unsere professionelle Verzeichnisvorlage, nur einen Klick entfernt! ↘️↘️↘️'
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 meta_title: 'Kostenloses Abkürzungsverzeichnis für Ihre Hausarbeit herunterladen'
+template: academy-item
 ---

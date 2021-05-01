@@ -146,4 +146,5 @@ more_templates:
   - 56a76afe-cd5a-4ab4-91c3-39b2b98ffe32
   - 47857fec-2594-4e17-9331-52e3a93020d5
   - e777b9fb-7884-4d67-8453-9d6c8cb0aa9f
+template: academy-item
 ---

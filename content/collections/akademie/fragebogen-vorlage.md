@@ -116,8 +116,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619579547
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1619690171
 downloads:
   - akademie/Fragebogen.docx
 from_the_blog:
@@ -149,4 +149,5 @@ more_templates:
   - 1b8783dd-1179-4eb1-a5a9-27304b468a8e
   - 47857fec-2594-4e17-9331-52e3a93020d5
   - 56a76afe-cd5a-4ab4-91c3-39b2b98ffe32
+template: academy-item
 ---

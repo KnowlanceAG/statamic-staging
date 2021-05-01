@@ -31,6 +31,8 @@ sections:
           type: text
           icon: text
           listable: hidden
+          validate:
+            - required
       -
         handle: telefonnummer
         field:
@@ -70,6 +72,8 @@ sections:
           type: textarea
           icon: textarea
           listable: hidden
+          validate:
+            - required
       -
         handle: weitere_informationen
         field:
@@ -79,7 +83,7 @@ sections:
           icon: textarea
           listable: hidden
       -
-        handle: datei-anhang
+        handle: datei_anhang
         field:
           mode: grid
           container: formular_uploads
@@ -90,3 +94,15 @@ sections:
           icon: assets
           instructions: 'Anhänge wie ihren Lebenslauf, Anschreiben oder Zeugnisse o. ä. können Sie hier hochladen.'
           listable: hidden
+          validate:
+            - 'mimetypes:image/jpeg,image/png,application/pdf,application/zip,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+      -
+        handle: gw_source
+        field:
+          input_type: text
+          antlers: false
+          display: gw_source
+          type: text
+          icon: text
+          listable: hidden
+
