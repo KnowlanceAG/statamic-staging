@@ -1,9 +1,10 @@
 ---
+id: 849140c8-c582-4340-a2bc-446126149c9f
 title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619096189
+updated_at: 1619794978
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -22,14 +23,16 @@ teaser:
         type: text
         marks:
           -
+            type: bold
+          -
             type: textAlign
             attrs:
               align: center
           -
             type: textColor
             attrs:
-              color: '#ff6602'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
         text: 'Unsere Leistungen'
   -
     type: paragraph
@@ -52,6 +55,7 @@ teaser:
         button_link: 'https://gwriters.de/anfrage'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
+        spacing_top: false
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
@@ -146,6 +150,7 @@ replicator:
             text_ausrichtung: text-justify
     type: editor
     enabled: true
+    show_as_card: false
   -
     columns-replicator:
       -
@@ -163,6 +168,7 @@ replicator:
                       - leistung/icons/pencil.svg
                     img-alignment: justify-center
                     link: 'entry::0328a685-5f37-4f91-bd4b-79c53adaea8d'
+                    has_border: false
               -
                 type: heading
                 attrs:
@@ -216,6 +222,7 @@ replicator:
                           target: null
                           rel: null
                     text: 'Mehr zum Ghostwriting'
+            show_as_card: false
           -
             bard:
               -
@@ -227,6 +234,7 @@ replicator:
                       - leistung/icons/Glasses-new.svg
                     link: 'entry::659e7e81-6d07-4eea-9ef2-325e72618036'
                     img-alignment: justify-center
+                    has_border: false
               -
                 type: heading
                 attrs:
@@ -280,6 +288,7 @@ replicator:
                           target: null
                           rel: null
                     text: 'Mehr zum Lektorat'
+            show_as_card: false
           -
             bard:
               -
@@ -291,6 +300,7 @@ replicator:
                       - leistung/icons/eraser_1.svg
                     link: 'entry::e36a16aa-f4fc-4352-8466-36266c196de4'
                     img-alignment: justify-center
+                    has_border: false
               -
                 type: heading
                 attrs:
@@ -344,6 +354,7 @@ replicator:
                           target: null
                           rel: null
                     text: 'Mehr zum Korrektorat'
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -362,6 +373,7 @@ replicator:
                       - leistung/icons/search-book.png
                     link: 'entry::dafbcd3b-fd08-4c5b-94be-f2a80c140953'
                     img-alignment: justify-center
+                    has_border: false
               -
                 type: heading
                 attrs:
@@ -420,6 +432,7 @@ replicator:
                           target: null
                           rel: null
                     text: 'Mehr zur MAXQDA Auswertung'
+            show_as_card: false
           -
             bard:
               -
@@ -431,6 +444,7 @@ replicator:
                       - leistung/icons/certificate_1.svg
                     link: 'entry::e12620a8-faf9-4f3e-82af-5586f4a85db2'
                     img-alignment: justify-center
+                    has_border: false
               -
                 type: heading
                 attrs:
@@ -489,6 +503,7 @@ replicator:
                           target: null
                           rel: null
                     text: 'Mehr zur Formatierung'
+            show_as_card: false
           -
             bard:
               -
@@ -500,6 +515,7 @@ replicator:
                       - leistung/icons/secure.svg
                     link: 'entry::fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8'
                     img-alignment: justify-center
+                    has_border: false
               -
                 type: heading
                 attrs:
@@ -546,6 +562,7 @@ replicator:
                           target: null
                           rel: null
                     text: 'Mehr zur Plagiatsprüfung'
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -564,6 +581,7 @@ replicator:
                       - leistung/icons/reload.svg
                     link: 'entry::7cad538c-ad74-4617-825e-bbac46ebf310'
                     img-alignment: justify-center
+                    has_border: false
               -
                 type: heading
                 attrs:
@@ -622,6 +640,7 @@ replicator:
                           target: null
                           rel: null
                     text: 'Mehr zur Übersetzung'
+            show_as_card: false
           -
             bard:
               -
@@ -633,6 +652,7 @@ replicator:
                       - leistung/icons/hat.svg
                     link: 'entry::6dd15231-c8e7-43fe-949e-af68de19ab1b'
                     img-alignment: justify-center
+                    has_border: false
               -
                 type: heading
                 attrs:
@@ -691,6 +711,7 @@ replicator:
                           target: null
                           rel: null
                     text: 'Mehr zur Promotionsberatung'
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -700,6 +721,7 @@ replicator:
     type: add_section
     enabled: true
     remove_spacing: true
+    border: false
   -
     columns-replicator:
       -
@@ -777,6 +799,7 @@ replicator:
                   level: 2
               -
                 type: paragraph
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -786,8 +809,8 @@ replicator:
     type: add_section
     enabled: true
     remove_spacing: false
-meta_title: 'GWriters • Akademische Ghostwriter Agentur'
+    border: false
+meta_title: 'GWriters • Unsere Leistungen und Services'
 meta_description: 'Bei GWriters finden Sie akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer & viele andere Experten - Einfach, schnell & sicher!'
-page_title: 'GWriters • Akademische Ghostwriter Agentur'
-id: 849140c8-c582-4340-a2bc-446126149c9f
+page_title: 'GWriters • Unsere Leistungen und Services'
 ---

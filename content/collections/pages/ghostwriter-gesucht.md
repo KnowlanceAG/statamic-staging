@@ -1,156 +1,59 @@
 ---
-id: ee7572aa-9e1a-4152-928f-2a05814a2b39
-title: 'Ghostwriter gesucht'
-teaser:
-  -
-    type: heading
-    attrs:
-      level: 1
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
-            attrs:
-              color: orange-500
-              hex: '#ff6606'
-        text: 'Ghostwriter gesucht'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-        text: 'Bei uns finden Sie akademische Ghostwriter & Experten – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-  -
-    type: set
-    attrs:
-      values:
-        type: button
-        button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-        button_text: 'JETZT KOSTENLOS ANFRAGEN'
-        color: '#FF6606'
-        spacing_top: false
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+id: 33027cd4-2421-4d95-812f-1948828f0c9e
+title: 'Akademische Ghostwriter gesucht'
 replicator:
   -
     bard:
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'In Zeiten der Globalisierung wird es immer wichtiger akademische Texte auf hohem Niveau zu verfassen, da der Zugriff durch das Internet von überall erfolgen kann. Solche Texte werden verfasst als Diplomarbeiten (Masterarbeiten, Bachelorarbeiten), Dissertationen oder auch als gewöhnliche Hausarbeiten oder Seminararbeiten. Durch steigende Anforderungen der Hochschulen im Zuge der Bachelor-/Master-Studiengänge wird häufig verlangt, mehrere Texte in einem kleinen Zeitfenster bereitzustellen, was häufig zu zeitlichen Problemen führt. Aus diesem Grund wird von Akademikern häufig ein Ghostwriter gesucht, der bei der Erstellung eines wissenschaftlichen Textes hilft. Eine Tätigkeit als '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/ghostwriter'
-                  target: null
-                  rel: null
-            text: Ghostwriter
-          -
-            type: text
-            text: ' geht über die Leistungen eines '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/leistungen/korrektorat'
-                  target: null
-                  rel: null
-            text: Korrektorats
-          -
-            type: text
-            text: ' (nicht Korektorat, Korrektorrat oder gar Korekturrat), also '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/korrektorat/korrekturlesen'
-                  target: null
-                  rel: null
-            text: Korrekturlesen
-          -
-            type: text
-            text: ' oder eines sogenannten '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/leistungen/lektorat'
-                  target: null
-                  rel: null
-            text: Lektorats
-          -
-            type: text
-            text: ' hinaus.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Wenn Sie einen akademischen Ghostwriter suchen, dann können Sie uns gerne sofort eine '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/anfrage'
-                  target: null
-                  rel: null
-            text: 'unverbindliche Anfrage schicken'
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-          -
-            type: hard_break
-            marks:
-              -
-                type: bold
-      -
         type: heading
         attrs:
-          level: 2
+          level: 1
         content:
           -
             type: text
-            text: 'Wer sucht Ghostwriter?'
+            marks:
+              -
+                type: bold
+              -
+                type: textAlign
+                attrs:
+                  align: left
+              -
+                type: textColor
+                attrs:
+                  color: orange-500
+                  hex: '#ff6606'
+            text: 'Akademische Ghostwriter gesucht'
+      -
+        type: paragraph
       -
         type: paragraph
         content:
           -
             type: text
             marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: "Aufgrund der steigenden Nachfrage für akademisches\_"
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
               -
                 type: link
                 attrs:
@@ -160,63 +63,88 @@ replicator:
             text: Ghostwriting
           -
             type: text
-            text: ' findet man in nahezu allen gesellschaftlichen Bereichen, in Politik und Industrie ebenso wie in Kunst, Kultur und Forschung. Es gibt sogar Leute, welche Ghostwriter beschäftigen um die Zahl ihrer öffentlichen Publikationen zu erhöhen, oft das einzige Mittel um höhere wissenschaftliche Reputation zu erreichen. Im deutschen Bundestag und in anderen Parlamenten der ganzen Welt beispielsweise werden kaum noch selbstständig verfasste Reden gehalten. Hier entwickeln Mitarbeiter die Reden, ein Politiker ist hierzu zeitlich kaum in der Lage. Auch Biografien können von einem Ghostwriter verfasst werden. Dieser hat Erfahrung in dem Bereich und kann dadurch eine schlüssige Darstellung einer Persönlichkeit liefern. Dieser Sachverhalt wird im Film „Ghostwriter“ von Roman Polanski mit Pierce Brosnan und Ewan McGregor thematisiert. Dieser Film ist international auf großes Interesse gestoßen und hat viele Preise gewonnen: '
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: "\_bieten wir aktuell Autoren- bzw.\_"
           -
             type: text
             marks:
               -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
                 type: link
                 attrs:
-                  href: 'https://www.youtube.com/watch?v=IOmI_5j1ApI'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Trailer Ghostwriter-Der Film'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
+                  href: 'https://gwriters.de/ghostwriter'
+                  target: null
+                  rel: null
+            text: Ghostwriter
           -
             type: text
-            text: 'Suche Ghostwriter'
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: '-Jobs in vielen Fachbereiche.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Wenn Sie auf der Suche nach Ghostwritern sind und sich bereits mehrfach einer Google Suche nach "Suche Ghostwriter" oder "Ghostwriter gesucht" bedient haben, dann kennen Sie das reichhaltige Angebot an Ghostwritern und Ghostwriting Agenturen auf dem deutschsprachigen Markt. Eine solche Vielzahl an Angeboten erschwert es jedoch, die wirklich seriösen und professionellen Angebote von '
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: "Wir, das Team von GWriters, suchen nach neuen, freiberuflich tätigen Ghostwritern zur Erweiterung unseres Autoren-Pools. Bei uns sind Ghostwriter sämtlicher akademischer Fachrichtungen gesucht, aber auch\_"
           -
             type: text
             marks:
               -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/achtung-ghostwriter-betrug'
+                  href: 'https://gwriters.de/lektorat/lektor'
                   target: null
                   rel: null
-            text: 'zwielichtigen Ghostwriting Agenturen aus Osteuropa'
+            text: Lektoren
           -
             type: text
-            text: ' mit Dumpingpreisen und schlecht übersetzten Plagiaten zu unterscheiden. Bei GWriters werden ausschließlich akademische Experten mit langjähriger Erfahrung beschäftigt, deren Qualifikationen im Auswahlprozess eingehend geprüft werden. Darüber hinaus werden alle von unseren Ghostwritern verfassten Mustervorlagen einer strengen Qualitätssicherung und Überprüfung durch einen übergeordneten Supervisor unterzogen, um somit Ihre vollkommene Zufriedenheit zu garantieren.'
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: "\_und Korrektoren finden bei uns Einsatz. Wir bieten Ihnen eine attraktive Nebenverdienstmöglichkeit bei absoluter Flexibilität. Ghostwriter, Lektoren und Korrektoren werden bei uns jederzeit gesucht!"
       -
         type: set
         attrs:
           values:
             type: video
-            video: 'https://www.youtube.com/embed/zhhA_NbedVg'
-      -
-        type: horizontal_rule
-      -
-        type: set
-        attrs:
-          values:
-            type: button
-            button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-            button_text: 'JETZT KOSTENLOS ANFRAGEN'
-            color: '#FF6606'
-            spacing_top: false
-      -
-        type: horizontal_rule
+            video: 'https://www.youtube.com/watch?v=D2o98MnO0Ww'
       -
         type: heading
         attrs:
@@ -224,13 +152,61 @@ replicator:
         content:
           -
             type: text
-            text: 'In welchen wissenschaftlichen Bereichen wird Ghostwriting gesucht?'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Bewerbung als Ghostwriter'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Ghostwriting wird in allen wissenschaftlichen und akademischen Disziplinen aber auch im nicht-akademischen Bereich gesucht. Ob Jura, BWL und VWL, Medizin, Ingenieurswesen (Maschinenbau, Logistik, Wirtschaftsingenieurswesen) oder Physik. Politiker, Volksvertreter aller Art und Wirtschaftsgrößen suchen Ghostwriter für Reden vor Publikum oder für schriftliche Veröffentlichungen, seien sie nun akademischer Natur oder von soziokulturellem Interesse.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: "Bewerben Sie sich auf unserer Internetpräsenz unter der Rubrik\_"
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/jobs'
+                  target: null
+                  rel: null
+            text: www.gwriters.de/jobs
+          -
+            type: text
+            text: "\_bei uns. Im Falle einer positiven Zusage nach Prüfung Ihrer Bewerbungsunterlagen unsererseits werden Sie regelmäßig über interessante Anfragen Ihrer Fachrichtung auf dem Laufenden gehalten. Hieraus wählen Sie selbst nach Ihrem Interessensgebiet und persönlichem zeitlichen Freiraum aus. Wenn Sie gerade keine Zeit oder Motivation für die Bearbeitung von Aufträgen haben, brauchen Sie sich selbstverständlich nicht abzumelden o.ä.. Sie melden sich einfach nur, wenn Sie eine\_"
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/anfrage'
+                  target: null
+                  rel: null
+            text: Anfrage
+          -
+            type: text
+            text: "\_übernehmen möchten. Als Ghostwriter im GWriters Team haben Sie keinerlei Verpflichtungen bezüglich Auftragsvolumen oder angenommener Aufträgen im Monat, Sie sind also weiterhin absolut flexibel. Aufgrund der verschiedensten Anfragen bei uns sind Ghostwriter aller Fachrichtungen gesucht."
       -
         type: heading
         attrs:
@@ -238,35 +214,13 @@ replicator:
         content:
           -
             type: text
-            text: 'Wo suche ich am besten nach Ghostwriting?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'In der vernetzten Welt ist es wohl am verbreitesten ein passendes Angebot im Internet zu suchen. Doch gerade hier lauern einige Tücken. Es gibt viele unseriöse Angebote, die mit schlechter Arbeit versuchen Profit zu machen. Eine Klage ist an dieser Stelle nur schwierig umzusetzen, da man im Bereich des Ghostwritings Diskretion wünscht und eine öffentliche Klage die akademische Reputation und das eigene gesellschaftliche Ansehen zerstören kann. Wenn ein hochqualifizierter Ghostwriter gesucht wird, sollte man folglich nicht nur auf einen günstigen Preis achten, sondern auf einen entsprechend erfahrenen Anbieter zurückgreifen, da Ghostwriting stets ein Vertrauensgeschäft ist.'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: Disclaimer
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Blogartikel zum Thema Ghostwriter gesucht & Ghostwriter bei GWriters'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Ghostwriter bei GWriters'
       -
         type: paragraph
         content:
@@ -274,56 +228,86 @@ replicator:
             type: text
             marks:
               -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Als Ghostwriter müssen wir uns auf Sie verlassen können, wir erwarten hundertprozentige Termintreue bei angenommenen Aufträgen, dafür bieten wir Ihnen eine äußerst attraktive Nebenverdienstmöglichkeit bei persönlicher Zeiteinteilung. Unsere Aufträge lassen sich bequem von zu Hause erarbeiten. Wir erwarten von Ihnen Erfahrung im wissenschaftlichen Arbeiten und bei der Erstellung von Mustervorlagen für akademische Texte, wie beispielsweise für eine Bachelorarbeit oder Masterarbeit.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Bei der Bearbeitung von Aufträgen stehen Sie durchweg in Kontakt mit einem Mitarbeiter, der eventuelle Fragen gerne beantwortet. Auch Rückfragen bezüglich des Auftrages klärt der Mitarbeiter gerne kurzfristig für Sie. Durch unsere reichhaltige Erfahrung bei der Vermittlung akademischer Dienstleistungen sind wir jederzeit in der Lage, Ihre Fragen gezielt zu beantworten.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: "Bei uns sind jederzeit akademische\_Ghostwriter gesucht"
+          -
+            type: text
+            text: ", wir würden uns freuen, Sie in unserem Team begrüßen zu dürfen. Bewerben Sie sich dafür einfach auf unserer Webpräsenz unter\_"
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/bewerbung-ghostwriter-gwriters'
+                  href: 'https://gwriters.de/als-autor-bewerben'
                   target: null
                   rel: null
-            text: 'Video: Was Du bei der Bewerbung als Ghostwriter bei GWriters beachten solltest'
+            text: www.gwriters.de/als-autor-bewerben
+          -
+            type: text
+            text: "\_als Autor an oder kontaktieren Sie uns bei weiteren Rückfragen und Unklarheiten per E-Mail ("
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: 'mailto:info@gwriters.de'
+                  target: null
+                  rel: null
+            text: info@gwriters.de
+          -
+            type: text
+            text: ).
           -
             type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/akademische-ghostwriter-vorteile'
-                  target: null
-                  rel: null
-            text: '5 unschlagbare Vorteile, die für einen Job als akademischer Ghostwriter sprechen'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/erfahrungsbericht-ghostwriter-gwriters'
-                  target: null
-                  rel: null
-            text: 'Erfahrungsbericht zur Arbeit als Ghostwriter bei GWriters'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'https://gwriters.de/blog/suche-ghostwriter'
-                  target: null
-                  rel: null
-            text: 'Tipps für die Ghostwriter-Suche'
-      -
-        type: paragraph
-        content:
           -
             type: text
             marks:
               -
                 type: bold
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
               -
                 type: link
                 attrs:
@@ -334,11 +318,12 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619447839
-meta_title: 'GWriters • professioneller akademischer Ghostwriter gesucht?'
-meta_description: 'Sie benötigen einen Ghostwriter? Wenn Ghostwriter gesucht werden, ist unsere Ghostwriting Agentur der beste Partner für seriösen Service!'
+page_title: 'GWriters • Akademische Ghostwriter gesucht!'
+template: without-teaser-with-sidebar
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619781406
+meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
+meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -347,6 +332,4 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-page_title: 'GWriters • professioneller akademischer Ghostwriter gesucht?'
-template: with-side-bar
 ---

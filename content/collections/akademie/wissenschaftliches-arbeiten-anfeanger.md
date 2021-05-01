@@ -220,8 +220,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619690213
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619799149
 template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
@@ -238,4 +238,11 @@ meta_title: 'Tipps zum wissenschaftlichen Arbeiten für die erste Hausarbeit'
 meta_description: 'Sind Sie Anfänger beim Erstellen einer wissenschaftlichen Arbeit? Hier finden Sie alle wichtigen Informationen im Überblick rund und das Thema!'
 academy_teaser_headline: 'Wissenschaftliches Arbeiten für Anfänger von Gwriters'
 academy_teaser_text: 'Mit Hilfe der Materialien, Artikel und Informationen aus unserer GWriters Akademie finden Sie sich schnell in jeden Themenbereich des wissenschaftlichen Schreibens ein. Besonders Anfänger sehen sich bei der ersten Hausarbeit großen Hürden gegenüber. Wir erklären Ihnen alles, was Sie für Ihren Start in ein erfolgreiches akademisches Studium benötigen.'
+more_templates:
+  - 68703917-9254-4107-82e0-0d844a79e81a
+  - b0ab57c8-c632-4082-af70-9b10b915d2b8
+  - 919279ae-733d-4bd9-a759-afaa758e18fc
+  - 4c882044-a7c8-47ab-96ab-9fac3f0b761c
+  - b73c1df6-623f-49fd-a8ea-3d9e6cf334ab
+  - 9a41faa4-9f52-4f0e-84b2-9fc989d3e995
 ---

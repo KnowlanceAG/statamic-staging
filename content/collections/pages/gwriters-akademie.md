@@ -3,8 +3,8 @@ id: 1298a2b5-6e23-404b-8806-26e687fda624
 title: 'GWriters Akademie'
 teaser_bg:
   - seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619649361
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619793018
 page_title: 'Die GWriters Akademie für wissenschaftliches Arbeiten'
 use_meta_keywords: false
 no_index_page: false
@@ -24,7 +24,18 @@ teaser:
           - seiten/gwriters-akademie/GWAkademie_Logo_Color-1.png
         has_border: false
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 1
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Willkommen in der GWriters Akademie!'
   -
     type: paragraph
     content:

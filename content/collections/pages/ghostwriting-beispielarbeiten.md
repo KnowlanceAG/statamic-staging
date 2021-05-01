@@ -66,8 +66,8 @@ teaser:
 teaser_bg:
   - seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619692099
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619792375
 replicator:
   -
     bard:
@@ -264,7 +264,7 @@ replicator:
             ex_image: seiten/besipielarbeit.JPG
             ex_title: 'Auswirkungen der Digitalisierung auf die Wertschöpfungskette'
             ex_fachbereich:
-              - 8a46d375-fe18-42c5-ab50-a1682b5664de
+              - 0c7a7458-3742-45a8-b2d4-313a1d29ef66
             ex_type: Seminararbeit
             ex_pages: '12'
             ex_zitation: 'Harvard Style'
@@ -288,6 +288,8 @@ replicator:
             ex_color: '#FF6606'
             ex_button_align: justify-start
             ex_spacing_top: false
+            ex_fachbereich:
+              - 4f92f65f-d065-438c-aadb-d0992f2e138f
       -
         type: set
         attrs:
@@ -297,7 +299,7 @@ replicator:
             ex_image: seiten/Beispielarbeiten-2.JPG
             ex_title: 'Blockchain-Technologie – Nutzen, Potenziale und Barrieren von Smart Contracts'
             ex_fachbereich:
-              - 402a9a5e-f6bc-4547-959a-ca00601c143d
+              - 0c7a7458-3742-45a8-b2d4-313a1d29ef66
             ex_type: Seminararbeit
             ex_pages: '10'
             ex_zitation: 'APA Style'
@@ -314,8 +316,6 @@ replicator:
             ex_img_right: false
             ex_image: seiten/beispielarbeiten-4.JPG
             ex_title: 'Bewertung von Embryonenforschung aus religiöser, gesellschaftspolitischer und ökonomischer Sicht – Eine Darstellung unterschiedlicher Standpunkte'
-            ex_fachbereich:
-              - 686e5203-e17a-4101-809a-07c9f799ccfa
             ex_type: Hausarbeit
             ex_pages: '10'
             ex_zitation: 'Deutsche Zitierweise (Zitieren mit Fußnoten)'

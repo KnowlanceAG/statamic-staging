@@ -119,9 +119,10 @@ downloads:
 from_the_blog:
   - 93e1a5bd-9b19-4e68-b483-7dbeb26462ea
   - dbb9a734-d733-4fe0-a92f-4dde0883ac7a
+  - b42eb586-1305-4faf-8d59-79e53ff91373
   - ca5797f0-28d2-48ca-be1d-5c6ca8c1b01c
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619690252
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1619728425
 meta_title: 'Kostenloses Anhangsverzeichnis für Ihre Hausarbeit herunterladen'
 meta_description: "Verschaffen Sie Ihren Lesern einen\_Überblick über alle Anhänge mit unserem Anhangsverzeichnis Beispiel. Unsere Vorlage - nur einen Klick entfernt."
 use_meta_keywords: false

@@ -3,8 +3,8 @@ id: 7aff708e-5d48-409e-9242-fd82c155f5ee
 title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619453796
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1619793491
 replicator:
   -
     columns-replicator:
@@ -17,7 +17,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
+                  level: 1
                 content:
                   -
                     type: text
@@ -31,7 +31,7 @@ replicator:
                         attrs:
                           color: 'rgb(34, 34, 34)'
                           hex: '#000'
-                    text: 'Unsere Preise'
+                    text: 'Unsere Ghostwriter Preise'
               -
                 type: paragraph
                 content:
@@ -310,7 +310,9 @@ replicator:
                   values:
                     type: floating-img
                     img_size: w-1/4
-                    float: float-left
+                    float: mx-auto
+                    dateien:
+                      - preise/euro.svg
               -
                 type: paragraph
               -
@@ -361,6 +363,15 @@ replicator:
             show_as_card: false
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - preise/telefon.svg
+                    img_size: w-1/4
+                    float: mx-auto
               -
                 type: paragraph
               -
@@ -415,6 +426,17 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - preise/projektmanager.svg
+                    img_size: w-1/4
+                    float: mx-auto
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 4
@@ -465,6 +487,17 @@ replicator:
             show_as_card: false
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - preise/feedback.svg
+                    img_size: w-1/4
+                    float: mx-auto
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -517,6 +550,17 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - preise/lektorat.svg
+                    img_size: w-1/4
+                    float: mx-auto
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 4
@@ -567,6 +611,17 @@ replicator:
             show_as_card: false
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - preise/plagiatspruefung.svg
+                    img_size: w-1/4
+                    float: mx-auto
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:

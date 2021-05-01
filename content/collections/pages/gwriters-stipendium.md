@@ -1,7 +1,8 @@
 ---
-title: 'GWriters Stipendium'
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619166104
+id: a016335c-333e-432d-838d-460350d21052
+title: 'Das GWriters Stipendium'
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619784468
 teaser:
   -
     type: heading
@@ -76,6 +77,7 @@ teaser:
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
+        spacing_top: false
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
@@ -376,6 +378,7 @@ replicator:
             text: '+49 (0) 30 809 332 339'
     type: editor
     enabled: true
+    show_as_card: false
 meta_title: 'Das GWriters Stipendium • GWriters.de'
 meta_description: 'Ihr Talent verdient Förderung! Unsere Ghostwriting Agentur unterstützt begabte und innovativ denkende Studierende mit unserem neuen GWriters Stipendium.'
 use_meta_keywords: false
@@ -386,5 +389,4 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-id: a016335c-333e-432d-838d-460350d21052
 ---

@@ -1,5 +1,7 @@
-data: {  }
+data:
+  alt: 'Milena Fischer Profilbild'
 size: 10066
-last_modified: 1614675528
+last_modified: 1619516601
 width: 200
 height: 248
+mime_type: image/jpeg

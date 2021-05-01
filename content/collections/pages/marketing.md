@@ -1,5 +1,6 @@
 ---
-title: 'Ghostwriter Marketing'
+id: bfd868ec-f81c-4805-8122-2e11008e72f2
+title: Marketing
 teaser:
   -
     type: heading
@@ -16,7 +17,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6602'
+              color: orange-500
+              hex: '#ff6606'
         text: 'Ghostwriter Marketing'
   -
     type: paragraph
@@ -38,6 +40,8 @@ teaser:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        color: '#FF6606'
+        spacing_top: false
   -
     type: paragraph
 teaser_bg:
@@ -45,8 +49,8 @@ teaser_bg:
 page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1615194285
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1619791545
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -203,8 +207,11 @@ replicator:
                   -
                     type: text
                     text: 'Unsere Leistungen'
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
+        single-col: false
       -
         columns_per_row: '3'
         grid:
@@ -292,6 +299,7 @@ replicator:
                 content:
                   -
                     type: hard_break
+            show_as_card: false
           -
             bard:
               -
@@ -359,6 +367,7 @@ replicator:
                     text: Plagiatsprüfung
               -
                 type: paragraph
+            show_as_card: false
           -
             bard:
               -
@@ -403,13 +412,18 @@ replicator:
                           target: null
                           rel: null
                     text: Promotionsberatung
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
+        single-col: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: true
+    border: false
   -
     columns-replicator:
       -
@@ -425,13 +439,18 @@ replicator:
                   -
                     type: text
                     text: 'Akademische Arbeiten:'
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
+        single-col: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: true
+    border: false
   -
     columns-replicator:
       -
@@ -504,6 +523,7 @@ replicator:
                           target: null
                           rel: null
                     text: Essay
+            show_as_card: false
           -
             bard:
               -
@@ -571,6 +591,7 @@ replicator:
                           target: null
                           rel: null
                     text: Lernskript
+            show_as_card: false
           -
             bard:
               -
@@ -638,13 +659,18 @@ replicator:
                           target: null
                           rel: null
                     text: 'Statische Analysen'
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
+        single-col: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: true
+    border: false
   -
     columns-replicator:
       -
@@ -722,9 +748,11 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: bilder
-                    assets:
+                    type: floating-img
+                    dateien:
                       - wiki/marketing/marketing.jpeg
+                    img_size: w-1/4
+                    float: float-right
               -
                 type: paragraph
               -
@@ -742,26 +770,14 @@ replicator:
               -
                 type: horizontal_rule
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#ffffff!important'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/anfrage'
-                          target: null
-                          rel: nofollow
-                    text: 'JETZT KOSTENLOS ANFRAGEN'
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    spacing_top: false
               -
                 type: horizontal_rule
               -
@@ -856,7 +872,7 @@ replicator:
                         attrs:
                           href: 'https://de.wikipedia.org/wiki/Guerilla-Marketing'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Artikel über Guerilla-Marketing - Wikipedia'
                   -
                     type: hard_break
@@ -868,7 +884,7 @@ replicator:
                         attrs:
                           href: 'https://de.wikipedia.org/wiki/Marketing'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Grundinformationen zu Marketing - Wikipedia'
                   -
                     type: hard_break
@@ -880,7 +896,7 @@ replicator:
                         attrs:
                           href: 'https://wirtschaftslexikon.gabler.de/definition/marketing-39435'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Definition Marketing - Wirtschaftslexikon Gabler'
                   -
                     type: hard_break
@@ -896,12 +912,18 @@ replicator:
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
+        single-col: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
-id: bfd868ec-f81c-4805-8122-2e11008e72f2
+    remove_spacing: false
+    border: false
+meta_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
+meta_description: 'Hilfe durch Experten und akademische Ghostwriter im Marketings – ✅ schnell, ✅ diskret und ✅ mehrfach geprüft auf Qualität & Plagiate.'
 ---

@@ -1,9 +1,10 @@
 ---
+id: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
 title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619009216
+updated_at: 1619794932
 teaser_bg:
   - seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
@@ -19,6 +20,11 @@ teaser:
             type: textAlign
             attrs:
               align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
         text: 'So funktioniert es'
   -
     type: paragraph
@@ -41,6 +47,7 @@ teaser:
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
+        spacing_top: false
 page_title: 'Wissenschaftliches Ghostwriting bei GWriters • So funktioniert es'
 use_meta_keywords: false
 no_index_page: false
@@ -75,6 +82,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                     text: 'Unser bester Service für Ihre Zufriedenheit'
+            show_as_card: false
         type: row
         enabled: true
         single-col: false
@@ -95,6 +103,7 @@ replicator:
                         attrs:
                           align: justify
                     text: 'Der Ablauf bei GWriters ist mit dem Ziel, Ihnen einen schnellst- und bestmögliche Umsetzung Ihres Projekts zu ermöglichen, betont einfach gehalten. Sie als Kunde stellen einfach eine kostenlose Anfrage und erhalten dann innerhalb von wenigen Stunden ein unverbindliches Angebot, individuell abgestimmt auf Ihr Projekt. Sobald Sie diesem Angebot zustimmen, erledigen wir den Rest Sie müssen uns lediglich ein Briefing zu Ihrem Projekt zusenden, welches dem Autor als Grundlage für die zu erstellende Mustervorlage dient und mit dessen Hilfe Sie das Projekt von Anfang an in die von Ihnen gewünschte Richtung steuern können. Sie erhalten dann von uns im Laufe der Zeit mehrere Teillieferung, zu denen Sie sich dann gegebenenfalls zurückmelden oder natürlich auch Änderungswünsche äußern können. Diese werden selbstverständlich direkt umgesetzt und vor der Abschlusslieferung wird jede Arbeit von einem übergeordneten Supervisor aus demselben Fachgebiet noch einmal überprüft, um diese qualifiziert zu beurteilen. Im Anschluss wird dann noch eine professionelle Plagiatsprüfung durchgeführt, sodass Sie sich sicher sein können, ein qualitativ einwandfreies Unikat zu erhalten.'
+            show_as_card: false
           -
             bard:
               -
@@ -108,6 +117,7 @@ replicator:
                         attrs:
                           align: justify
                     text: 'Natürlich bieten wir die Möglichkeit, dass Sie sich mit Ihrem persönlichen Autor im Rahmen von anonymen Telefonkonferenzen austauschen können. Im Laufe der Bearbeitungszeit haben Sie zudem selbstverständlich jederzeit die Möglichkeit, Änderungswünsche zu äußern. Die Teillieferung geben noch einen konkreteren Einblick in die Arbeit und Sie haben hier die Möglichkeit, sich jederzeit über den aktuellen Stand Ihres Projekts zu informieren und Ihre Änderungswünsche vom Autor direkt umsetzen zu lassen. Wenn Sie über Originaldokumente verfügen, die der Autor für die Ausarbeitung der Mustervorlage benötigt, können Sie uns diese natürlich auch per Post zuschicken. Da wir aber eine möglichst schnelle Bearbeitung Ihres Auftrages sicherstellen möchten, ziehen wir den elektronischen Weg des Datenaustausches vor.'
+            show_as_card: false
         type: row
         enabled: true
         single-col: false
@@ -118,6 +128,7 @@ replicator:
     type: add_section
     enabled: true
     remove_spacing: false
+    border: false
   -
     columns-replicator:
       -
@@ -144,6 +155,7 @@ replicator:
                         attrs:
                           color: 'rgb(153, 153, 153)'
                     text: 'Der Ablauf ist ganz einfach:'
+            show_as_card: false
         type: row
         enabled: true
         single-col: false
@@ -168,6 +180,7 @@ replicator:
                       'lg:glide:fit': crop_focal
                       'xl:glide:fit': crop_focal
                       '2xl:glide:fit': crop_focal
+                    has_border: false
               -
                 type: heading
                 attrs:
@@ -200,6 +213,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                     text: 'Einfach & unkompliziert online anfragen – Je spezifischer Ihre Anfrage ist, umso besser sind wir in der Lage, Ihnen das bestmögliche individuelle Angebot zu unterbreiten.'
+            show_as_card: false
           -
             bard:
               -
@@ -216,6 +230,7 @@ replicator:
                       'lg:glide:fit': crop_focal
                       'xl:glide:fit': crop_focal
                       '2xl:glide:fit': crop_focal
+                    has_border: false
               -
                 type: heading
                 attrs:
@@ -248,6 +263,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                     text: 'Auf Basis Ihrer Anfrage wählen wir den für Sie und Ihren Auftrag am besten passenden Autor bzw. Bearbeiter aus und erstellen Ihnen ein individuelles Angebot.'
+            show_as_card: false
           -
             bard:
               -
@@ -264,6 +280,7 @@ replicator:
                       'lg:glide:fit': crop_focal
                       'xl:glide:fit': crop_focal
                       '2xl:glide:fit': crop_focal
+                    has_border: false
               -
                 type: heading
                 attrs:
@@ -296,6 +313,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                     text: 'Sobald Sie unser Angebot angenommen haben, beginnt der Autor mit der Bearbeitung Ihres Auftrages. Wir halten Sie regelmässig auf dem Laufenden und Sie erhalten Zwischenstände der Arbeit zur Prüfung.'
+            show_as_card: false
           -
             bard:
               -
@@ -312,6 +330,7 @@ replicator:
                       'lg:glide:fit': crop_focal
                       'xl:glide:fit': crop_focal
                       '2xl:glide:fit': crop_focal
+                    has_border: false
               -
                 type: heading
                 attrs:
@@ -344,6 +363,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                     text: 'Nach Fertigstellung des Auftrages, Qualitätsprüfung durch unsere Supervisor und Abnahme durch Sie, erhalten Sie fristgerecht die finale Version Ihrer Mustervorlage in der von Ihnen gewünschten Form.'
+            show_as_card: false
         type: row
         enabled: true
         single-col: false
@@ -355,6 +375,7 @@ replicator:
     type: add_section
     enabled: true
     remove_spacing: false
+    border: false
   -
     columns-replicator:
       -
@@ -466,6 +487,7 @@ replicator:
                                   hex: '#000'
                             text: "\_oder anderen Hilfestellungen sind, GWriters findet in nahezu allen Fällen den passenden akademischen Freelancer für Sie. Fragen Sie einfach ein unverbindliches Angebot an."
                     text_ausrichtung: text-center
+            show_as_card: false
         type: row
         enabled: true
         single-col: true
@@ -476,7 +498,7 @@ replicator:
     type: add_section
     enabled: true
     remove_spacing: false
+    border: false
 meta_title: 'Wissenschaftliches Ghostwriting bei GWriters • So funktioniert es'
 meta_description: 'Möchten Sie Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen? So funktioniert es - in 4 einfachen Schritten.'
-id: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
 ---
