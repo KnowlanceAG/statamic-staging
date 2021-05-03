@@ -79,7 +79,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/anfrage'
+                  href: '/anfrage'
                   target: null
                   rel: null
             text: Anfrage
@@ -122,7 +122,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/so-funktioniert-es'
+                  href: '/so-funktioniert-es'
                   target: null
                   rel: null
             text: hier
@@ -154,7 +154,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq'
+                  href: '/faq'
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'

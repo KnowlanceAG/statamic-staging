@@ -144,7 +144,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/promotionsberatung'
+                          href: '/promotionsberatung'
                           target: null
                           rel: null
                     text: 'seriösen Promotionsberatung'
@@ -217,7 +217,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/promotionsberatung/berufsbegleitende-promotion-standardisierte-promotionsprogramme'
+                          href: '/promotionsberatung/berufsbegleitende-promotion-standardisierte-promotionsprogramme'
                           target: null
                           rel: null
                     text: "externe\_bzw. die\_berufsbegleitende Promotion"
@@ -492,7 +492,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/kontakt'
+                                  href: '/kontakt'
                                   target: null
                                   rel: null
                             text: Kontakt
@@ -644,7 +644,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/promotionsberatung'
+                          href: '/promotionsberatung'
                           target: null
                           rel: null
                     text: Promotionsberatungen
@@ -671,7 +671,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                          href: '/arbeiten/doktorarbeit'
                           target: null
                           rel: null
                     text: 'Doktorarbeit schreiben lassen'
@@ -1005,7 +1005,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/anfrage'
+                          href: '/anfrage'
                           target: null
                           rel: null
                     text: Anfrage
@@ -1048,7 +1048,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/chemie'
+                          href: '/fachrichtungen/chemie'
                           target: null
                           rel: null
                     text: Chemie

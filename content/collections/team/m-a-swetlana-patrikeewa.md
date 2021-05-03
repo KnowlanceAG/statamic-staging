@@ -24,7 +24,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: 'https://gwriters.de/fachrichtungen/medienwissenschaften'
+                      href: '/fachrichtungen/medienwissenschaften'
                       target: null
                       rel: null
                 text: Medienwissenschaften
@@ -37,7 +37,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: 'https://gwriters.de/fachrichtungen/literatur'
+                      href: '/fachrichtungen/literatur'
                       target: null
                       rel: null
                 text: Literatur
@@ -50,7 +50,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: 'https://gwriters.de/fachrichtungen/sprachwissenschaften'
+                      href: '/fachrichtungen/sprachwissenschaften'
                       target: null
                       rel: null
                 text: Sprachwissenschaften
@@ -63,7 +63,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: 'https://gwriters.de/fachrichtungen/psychologie'
+                      href: '/fachrichtungen/psychologie'
                       target: null
                       rel: null
                 text: 'Psychologie Ghostwriter'

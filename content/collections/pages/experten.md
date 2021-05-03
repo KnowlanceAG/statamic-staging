@@ -107,7 +107,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                                  href: '/leistungen/ghostwriting'
                                   target: null
                                   rel: null
                             text: 'akademischen Ghostwriting Services'
@@ -120,7 +120,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/fachrichtungen/bwl'
+                                  href: '/fachrichtungen/bwl'
                                   target: null
                                   rel: null
                             text: 'Ghostwritern aus der BWL'
@@ -133,7 +133,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/fachrichtungen/jura'
+                                  href: '/fachrichtungen/jura'
                                   target: null
                                   rel: null
                             text: Jura
@@ -221,7 +221,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/fachrichtungen/informatik'
+                                  href: '/fachrichtungen/informatik'
                                   target: null
                                   rel: null
                             text: Informatik
@@ -234,7 +234,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/fachrichtungen/psychologie'
+                                  href: '/fachrichtungen/psychologie'
                                   target: null
                                   rel: null
                             text: 'Psychologie '
@@ -247,7 +247,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/fachrichtungen/mathematik'
+                                  href: '/fachrichtungen/mathematik'
                                   target: null
                                   rel: null
                             text: 'Mathematik '
@@ -260,7 +260,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/fachrichtungen/medizin'
+                                  href: '/fachrichtungen/medizin'
                                   target: null
                                   rel: null
                             text: 'Medizin Ghostwriter'
@@ -400,7 +400,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/datenschutzerklaerung'
+                                  href: '/datenschutzerklaerung'
                                   target: null
                                   rel: null
                             text: 'schützen Ihre Daten'
@@ -413,7 +413,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/ghostwriter'
+                                  href: '/ghostwriter'
                                   target: null
                                   rel: null
                             text: 'akademischen Ghostwriter'
@@ -463,7 +463,7 @@ content:
           -
             type: link
             attrs:
-              href: 'https://gwriters.de/leistungen/ghostwriting'
+              href: '/leistungen/ghostwriting'
               target: null
               rel: null
         text: 'akademischen Ghostwriting Services'
@@ -476,7 +476,7 @@ content:
           -
             type: link
             attrs:
-              href: 'https://gwriters.de/fachrichtungen/bwl'
+              href: '/fachrichtungen/bwl'
               target: null
               rel: null
         text: 'Ghostwritern aus der BWL'
@@ -489,7 +489,7 @@ content:
           -
             type: link
             attrs:
-              href: 'https://gwriters.de/fachrichtungen/jura'
+              href: '/fachrichtungen/jura'
               target: null
               rel: null
         text: Jura

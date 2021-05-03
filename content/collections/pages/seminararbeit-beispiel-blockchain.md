@@ -72,7 +72,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
+                  href: '/arbeiten/seminararbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: 'Seminararbeit Beispiel schreiben lassen'
@@ -99,7 +99,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/bwl'
+                  href: '/fachrichtungen/bwl'
                   target: null
                   rel: null
             text: 'BWL Ghostwriter'
@@ -242,7 +242,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/assets/downloads/ghostwriting-beispielarbeiten/Seminararbeit-Beispiel-VWL-Blockchain-Technologie.pdf'
+                  href: '/assets/downloads/ghostwriting-beispielarbeiten/Seminararbeit-Beispiel-VWL-Blockchain-Technologie.pdf'
                   target: _blank
                   rel: null
             text: 'Hier können Sie unsere Beispiel-Seminararbeit kostenlos herunterladen!'
@@ -281,7 +281,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/anfrage'
+                  href: '/anfrage'
                   target: null
                   rel: null
             text: 'Kontaktieren Sie uns jetzt!'

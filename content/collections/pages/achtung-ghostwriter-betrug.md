@@ -105,7 +105,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -716,7 +716,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/lektorat'
+                  href: '/leistungen/lektorat'
                   target: null
                   rel: null
             text: Lektorat
@@ -861,7 +861,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -1044,7 +1044,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/impressum'
+                  href: '/impressum'
                   target: null
                   rel: null
             text: Impressum
@@ -1268,7 +1268,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/preise'
+                          href: '/preise'
                           target: null
                           rel: null
                     text: 'Ghostwriter Preise'
@@ -1324,7 +1324,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/datenschutzerklaerung'
+                  href: '/datenschutzerklaerung'
                   target: null
                   rel: null
             text: Datenschutzerklärungen
@@ -1437,7 +1437,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -1480,7 +1480,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriting/ghostwriting-agentur/'
+                  href: '/ghostwriting/ghostwriting-agentur/'
                   target: null
                   rel: null
             text: 'seriösen Ghostwriting Agenturen'
@@ -1541,7 +1541,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/gwriters-erfahrung'
+                  href: '/blog/gwriters-erfahrung'
                   target: null
                   rel: null
             text: 'Ghostwriter Erfahrungen'
@@ -1718,7 +1718,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/lektorat'
+                  href: '/leistungen/lektorat'
                   target: null
                   rel: null
             text: Lektorat
@@ -1761,7 +1761,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/uebersetzung'
+                  href: '/leistungen/uebersetzung'
                   target: null
                   rel: null
             text: Übersetzung
@@ -1804,7 +1804,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/korrektorat'
+                  href: '/leistungen/korrektorat'
                   target: null
                   rel: null
             text: Korrektorat
@@ -1831,7 +1831,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/formatierung'
+                  href: '/leistungen/formatierung'
                   target: null
                   rel: null
             text: Formatierung
@@ -1858,7 +1858,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/plagiatspruefung'
+                  href: '/leistungen/plagiatspruefung'
                   target: _blank
                   rel: 'noopener noreferrer'
             text: 'können Sie bei einem Ghostwriter eine professionelle Plagiatsprüfung erstellen lassen'

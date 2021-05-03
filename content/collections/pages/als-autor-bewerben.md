@@ -46,7 +46,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/datenschutzerklaerung'
+                  href: '/datenschutzerklaerung'
                   target: null
                   rel: null
             text: Datenschutzerklärung

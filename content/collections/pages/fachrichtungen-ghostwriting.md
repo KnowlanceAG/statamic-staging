@@ -65,7 +65,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -96,7 +96,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/lektorat'
+                  href: '/leistungen/lektorat'
                   target: null
                   rel: null
             text: Lektorate
@@ -127,7 +127,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/korrektorat'
+                  href: '/leistungen/korrektorat'
                   target: null
                   rel: null
             text: Korrektorate
@@ -158,7 +158,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/uebersetzung'
+                  href: '/leistungen/uebersetzung'
                   target: null
                   rel: null
             text: Übersetzungen
@@ -189,7 +189,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/maxqda-auswertung'
+                  href: '/leistungen/maxqda-auswertung'
                   target: null
                   rel: null
             text: 'MAXQDA Auswertungen'
@@ -220,7 +220,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/plagiatspruefung'
+                  href: '/leistungen/plagiatspruefung'
                   target: null
                   rel: null
             text: Plagiatsprüfungen
@@ -251,7 +251,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/promotionsberatung'
+                  href: '/promotionsberatung'
                   target: null
                   rel: null
             text: Promotionsberatungen
@@ -301,7 +301,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq'
+                  href: '/faq'
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'

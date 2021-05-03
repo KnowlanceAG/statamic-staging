@@ -59,7 +59,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/korrektorat/korrekturlesen/'
+                  href: '/korrektorat/korrekturlesen/'
                   target: null
                   rel: null
             text: ' Korrekturlesen'
@@ -72,7 +72,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/korrektorat/korrektor'
+                  href: '/korrektorat/korrektor'
                   target: null
                   rel: null
             text: Korrektor
@@ -99,7 +99,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/lektorat'
+                  href: '/leistungen/lektorat'
                   target: null
                   rel: null
             text: Lektorat
@@ -112,7 +112,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/lektorat/lektor'
+                  href: '/lektorat/lektor'
                   target: null
                   rel: null
             text: Lektor
@@ -139,7 +139,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/kontakt'
+                  href: '/kontakt'
                   target: null
                   rel: null
             text: Kontakt
@@ -163,7 +163,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/korrektorat-lektorat-textredaktion'
+                  href: '/blog/korrektorat-lektorat-textredaktion'
                   target: null
                   rel: null
             text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
@@ -175,7 +175,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/suche-ghostwriter'
+                  href: '/blog/suche-ghostwriter'
                   target: null
                   rel: null
             text: 'Tipps für die Ghostwriter-Suche'
@@ -187,7 +187,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/ghostwriting-lektorat-korrektorat'
+                  href: '/blog/ghostwriting-lektorat-korrektorat'
                   target: null
                   rel: null
             text: 'Video: Ghostwriting, Lektorat, Korrektorat – Was ist was?'
@@ -202,7 +202,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

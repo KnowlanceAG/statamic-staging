@@ -212,7 +212,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/promotionsberatung'
+                          href: '/promotionsberatung'
                           target: null
                           rel: null
                     text: 'seriöse Promotionsberatung'
@@ -432,7 +432,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/kontakt'
+                          href: '/kontakt'
                           target: null
                           rel: null
                     text: Kontakt
@@ -785,7 +785,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/fachrichtungen/bwl'
+                                  href: '/fachrichtungen/bwl'
                                   target: null
                                   rel: null
                             text: BWL
@@ -812,7 +812,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/fachrichtungen/vwl'
+                                  href: '/fachrichtungen/vwl'
                                   target: null
                                   rel: null
                             text: VWL
@@ -930,7 +930,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/wirtschaftswissenschaften'
+                          href: '/fachrichtungen/wirtschaftswissenschaften'
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
@@ -1228,7 +1228,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                          href: '/arbeiten/doktorarbeit'
                           target: null
                           rel: null
                     text: Doktorarbeit

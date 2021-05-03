@@ -125,7 +125,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: Ghostwritern

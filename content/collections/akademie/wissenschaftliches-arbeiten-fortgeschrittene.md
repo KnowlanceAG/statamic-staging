@@ -65,7 +65,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/qualitative-inhaltsanalyse-voraussetzungen'
+                  href: '/blog/qualitative-inhaltsanalyse-voraussetzungen'
                   target: null
                   rel: null
             text: 'qualitativen Inhaltsanalyse'
@@ -78,7 +78,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/leitfadengestuetztes-experteninterview'
+                  href: '/blog/leitfadengestuetztes-experteninterview'
                   target: null
                   rel: null
             text: 'leitfadengestützten Experteninterviews'
@@ -91,7 +91,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/gwriters-akademie/wissenschaftliches-arbeiten-anfeanger'
+                  href: '/gwriters-akademie/wissenschaftliches-arbeiten-anfeanger'
                   target: null
                   rel: null
             text: 'Grundlagen des wissenschaftlichen Schreibens'
@@ -124,7 +124,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/gutachten-schreiben'
+                  href: '/blog/gutachten-schreiben'
                   target: null
                   rel: null
             text: 'juristisches Gutachten schreiben'
@@ -143,7 +143,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/statistisch-arbeiten'
+                  href: '/blog/statistisch-arbeiten'
                   target: null
                   rel: null
             text: 'statistische Arbeiten mit Primär- und Sekundärdaten'
@@ -156,7 +156,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/empirische-bachelorarbeit-schreiben'
+                  href: '/blog/empirische-bachelorarbeit-schreiben'
                   target: null
                   rel: null
             text: 'empirischen Bachelorarbeit'

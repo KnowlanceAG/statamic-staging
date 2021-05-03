@@ -61,7 +61,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: ' Ghostwritern '
@@ -74,7 +74,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: 'Bachelorarbeit schreiben lassen'
@@ -113,7 +113,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/formatierung'
+                  href: '/leistungen/formatierung'
                   target: null
                   rel: null
             text: Formatierungen

@@ -79,7 +79,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog'
+                  href: '/blog'
                   target: null
                   rel: null
             text: blogs
@@ -111,7 +111,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq'
+                  href: '/faq'
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'

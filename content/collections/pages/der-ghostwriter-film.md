@@ -49,7 +49,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: 'Ghostwriter '
@@ -129,7 +129,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/geschichte'
+                  href: '/fachrichtungen/geschichte'
                   target: null
                   rel: null
             text: Geschichte
@@ -166,7 +166,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

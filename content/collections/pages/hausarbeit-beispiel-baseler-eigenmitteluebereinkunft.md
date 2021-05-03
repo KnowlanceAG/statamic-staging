@@ -60,7 +60,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                  href: '/arbeiten/hausarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: 'Hausarbeit schreiben lassen'
@@ -198,7 +198,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/vwl'
+                  href: '/fachrichtungen/vwl'
                   target: null
                   rel: null
             text: 'VWL Ghostwriter'
@@ -230,7 +230,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/assets/downloads/ghostwriting-beispielarbeiten/Hausarbeit-Beispiel-VWL-Weiterentwicklung-der-Baseler-Eigenmitteluberkunft.pdf'
+                  href: '/assets/downloads/ghostwriting-beispielarbeiten/Hausarbeit-Beispiel-VWL-Weiterentwicklung-der-Baseler-Eigenmitteluberkunft.pdf'
                   target: _blank
                   rel: null
             text: 'Hier können Sie unsere Beispiel-Hausarbeit kostenlos herunterladen!'
@@ -269,7 +269,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/anfrage'
+                  href: '/anfrage'
                   target: null
                   rel: null
             text: 'unverbindlichen und kostenfreien Beratung'

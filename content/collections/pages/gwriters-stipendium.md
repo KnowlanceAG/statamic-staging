@@ -45,7 +45,7 @@ teaser:
                   -
                     type: link
                     attrs:
-                      href: 'https://gwriters.de/ghostwriting/ghostwriting-agentur/'
+                      href: '/ghostwriting/ghostwriting-agentur/'
                       target: null
                       rel: null
                 text: ' Ghostwriter Agentur'

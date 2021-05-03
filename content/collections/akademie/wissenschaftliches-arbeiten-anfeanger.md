@@ -72,7 +72,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/wissenschaftliches-arbeiten-regeln/'
+                  href: '/blog/wissenschaftliches-arbeiten-regeln/'
                   target: null
                   rel: null
             text: 'wissenschaftlichen Arbeiten'
@@ -85,7 +85,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/wissenschaftliches-schreiben-fur-schule-und-studium'
+                  href: '/blog/wissenschaftliches-schreiben-fur-schule-und-studium'
                   target: null
                   rel: null
             text: 'Unterschied zwischen Schule und Studium'
@@ -104,7 +104,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/hausarbeit-formatieren'
+                  href: '/blog/hausarbeit-formatieren'
                   target: null
                   rel: null
             text: 'richtige Zitieren'
@@ -117,7 +117,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/masterarbeit-zitieren'
+                  href: '/blog/masterarbeit-zitieren'
                   target: null
                   rel: null
             text: 'Formatierung der Abschlussarbeit'
@@ -156,7 +156,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/gwriters-coaching'
+                  href: '/blog/gwriters-coaching'
                   target: null
                   rel: null
             text: 'fachbezogenen Fragen'
@@ -169,7 +169,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/gwriters-akademie/wissenschaftliches-arbeiten-fortgeschrittene'
+                  href: '/gwriters-akademie/wissenschaftliches-arbeiten-fortgeschrittene'
                   target: null
                   rel: null
             text: 'Wissenschaftliches Arbeiten für Fortgeschrittene'

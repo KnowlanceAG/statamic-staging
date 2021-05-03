@@ -65,7 +65,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: Ghostwriter
@@ -110,7 +110,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/bwl'
+                  href: '/fachrichtungen/bwl'
                   target: null
                   rel: null
             text: BWL
@@ -158,7 +158,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq'
+                  href: '/faq'
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'

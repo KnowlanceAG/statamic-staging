@@ -77,7 +77,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: Ghostwriter
@@ -104,7 +104,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/jobs'
+                  href: '/jobs'
                   target: null
                   rel: null
             text: Jobs
@@ -131,7 +131,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/als-autor-bewerben'
+                  href: '/als-autor-bewerben'
                   target: null
                   rel: null
             text: gwriters.de/als-autor-bewerben
@@ -192,7 +192,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/facharbeit'
+                  href: '/arbeiten/facharbeit'
                   target: null
                   rel: null
             text: Facharbeiten
@@ -219,7 +219,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                  href: '/arbeiten/hausarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Hausarbeiten
@@ -246,7 +246,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
+                  href: '/arbeiten/seminararbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Seminararbeiten
@@ -337,7 +337,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

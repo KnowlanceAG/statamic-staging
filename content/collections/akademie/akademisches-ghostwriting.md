@@ -77,7 +77,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: 'akademischen Ghostwriting'
@@ -90,7 +90,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/achtung-ghostwriter-betrug'
+                  href: '/achtung-ghostwriter-betrug'
                   target: null
                   rel: null
             text: 'Ghostwriting Erfahrung'
@@ -109,7 +109,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: Ghostwriter
@@ -136,7 +136,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/express-ghostwriting-im-notfall'
+                  href: '/blog/express-ghostwriting-im-notfall'
                   target: null
                   rel: null
             text: 'Video "3 Tage bis zur Abgabe - Ghostwriting im Notfall"'
@@ -149,7 +149,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/gwriters-coaching'
+                  href: '/blog/gwriters-coaching'
                   target: null
                   rel: null
             text: Videos

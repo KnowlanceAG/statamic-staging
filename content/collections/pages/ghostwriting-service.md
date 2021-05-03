@@ -58,7 +58,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -71,7 +71,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: Ghostwriter
@@ -84,7 +84,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriting/ghostwriting-agentur'
+                  href: '/ghostwriting/ghostwriting-agentur'
                   target: null
                   rel: null
             text: 'Ghostwriting Agentur'
@@ -97,7 +97,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/lektorat'
+                  href: '/leistungen/lektorat'
                   target: null
                   rel: null
             text: Lektorat
@@ -110,7 +110,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/korrektorat/korrekturlesen'
+                  href: '/korrektorat/korrekturlesen'
                   target: null
                   rel: null
             text: Korrekturlesen
@@ -134,7 +134,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/anfrage'
+                  href: '/anfrage'
                   target: null
                   rel: null
             text: 'unverbindliche Anfrage schicken'
@@ -235,7 +235,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/kosten-ghostwriter'
+                  href: '/blog/kosten-ghostwriter'
                   target: null
                   rel: null
             text: 'Wie berechnen sich akademische Ghostwriter Kosten?'
@@ -247,7 +247,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/akademisches-ghostwriting-gwriters'
+                  href: '/blog/akademisches-ghostwriting-gwriters'
                   target: null
                   rel: null
             text: 'Akademisches Ghostwriting – Wie läuft es bei GWriters ab?'
@@ -259,7 +259,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: 'Meine ehrlichen Ratschläge an Dich als Ghostwriter-Kunde'
@@ -271,7 +271,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/ghostwriting-informationen'
+                  href: '/blog/ghostwriting-informationen'
                   target: null
                   rel: null
             text: 'Die große Infosammlung zum Ghostwriting'
@@ -286,7 +286,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

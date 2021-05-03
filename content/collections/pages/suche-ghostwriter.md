@@ -59,7 +59,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: Ghostwriter
@@ -72,7 +72,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/korrektorat'
+                  href: '/leistungen/korrektorat'
                   target: null
                   rel: null
             text: Korrektorats
@@ -85,7 +85,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/korrektorat/korrekturlesen'
+                  href: '/korrektorat/korrekturlesen'
                   target: null
                   rel: null
             text: Korrekturlesen
@@ -98,7 +98,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/lektorat'
+                  href: '/leistungen/lektorat'
                   target: null
                   rel: null
             text: Lektorats
@@ -122,7 +122,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/anfrage'
+                  href: '/anfrage'
                   target: null
                   rel: null
             text: 'unverbindliche Anfrage schicken'
@@ -154,7 +154,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -191,7 +191,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/achtung-ghostwriter-betrug'
+                  href: '/achtung-ghostwriter-betrug'
                   target: null
                   rel: null
             text: 'zwielichtigen Ghostwriting Agenturen aus Osteuropa'
@@ -276,7 +276,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/bewerbung-ghostwriter-gwriters'
+                  href: '/blog/bewerbung-ghostwriter-gwriters'
                   target: null
                   rel: null
             text: 'Video: Was Du bei der Bewerbung als Ghostwriter bei GWriters beachten solltest'
@@ -288,7 +288,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/akademische-ghostwriter-vorteile'
+                  href: '/blog/akademische-ghostwriter-vorteile'
                   target: null
                   rel: null
             text: '5 unschlagbare Vorteile, die für einen Job als akademischer Ghostwriter sprechen'
@@ -300,7 +300,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/erfahrungsbericht-ghostwriter-gwriters'
+                  href: '/blog/erfahrungsbericht-ghostwriter-gwriters'
                   target: null
                   rel: null
             text: 'Erfahrungsbericht zur Arbeit als Ghostwriter bei GWriters'
@@ -312,7 +312,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/suche-ghostwriter'
+                  href: '/blog/suche-ghostwriter'
                   target: null
                   rel: null
             text: 'Tipps für die Ghostwriter-Suche'
@@ -327,7 +327,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

@@ -80,7 +80,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: 'Bachelorarbeit schreiben lassen'
@@ -335,7 +335,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/literaturrecherche'
+                  href: '/blog/literaturrecherche'
                   target: null
                   rel: null
             text: Literatur
@@ -486,7 +486,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/bachelorarbeit-hilfe'
+                  href: '/blog/bachelorarbeit-hilfe'
                   target: null
                   rel: null
             text: 'professionelle Bachelorarbeit-Hilfe'
@@ -549,7 +549,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/expose'
+                  href: '/expose'
                   target: null
                   rel: null
             text: Exposé
@@ -871,7 +871,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriting/ghostwriting-agentur/'
+                  href: '/ghostwriting/ghostwriting-agentur/'
                   target: null
                   rel: null
             text: 'Ghostwriting Agentur'
@@ -900,7 +900,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/anfrage'
+                  href: '/anfrage'
                   target: null
                   rel: null
             text: 'kostenlosen Anfrage'
@@ -949,7 +949,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                          href: '/arbeiten/masterarbeit-schreiben-lassen'
                           target: null
                           rel: null
                     text: 'Masterarbeit schreiben lassen'
@@ -987,7 +987,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen/lektorat'
+                          href: '/leistungen/lektorat'
                           target: null
                           rel: null
                     text: 'wissenschaftliches Lektorat'
@@ -1033,7 +1033,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen/plagiatspruefung'
+                          href: '/leistungen/plagiatspruefung'
                           target: null
                           rel: null
                     text: 'auf Plagiate prüfen'
@@ -1076,7 +1076,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/bwl'
+                  href: '/fachrichtungen/bwl'
                   target: null
                   rel: null
             text: BWL
@@ -1169,7 +1169,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/literatur'
+                  href: '/fachrichtungen/literatur'
                   target: null
                   rel: null
             text: Literatur
@@ -1302,7 +1302,7 @@ replicator:
                           -
                             type: link
                             attrs:
-                              href: 'https://gwriters.de/bachelorarbeit-thema#Controlling'
+                              href: '/bachelorarbeit-thema#Controlling'
                               target: null
                               rel: null
                         text: Controlling
@@ -1359,7 +1359,7 @@ replicator:
                           -
                             type: link
                             attrs:
-                              href: 'https://gwriters.de/bachelorarbeit-thema#Rechnungswesen'
+                              href: '/bachelorarbeit-thema#Rechnungswesen'
                               target: _self
                               rel: null
                         text: Rechnungswesen
@@ -1416,7 +1416,7 @@ replicator:
                           -
                             type: link
                             attrs:
-                              href: 'https://gwriters.de/bachelorarbeit-thema#Management'
+                              href: '/bachelorarbeit-thema#Management'
                               target: _self
                               rel: null
                         text: Unternehmensführung/Management
@@ -1473,7 +1473,7 @@ replicator:
                           -
                             type: link
                             attrs:
-                              href: 'https://gwriters.de/bachelorarbeit-thema#Marketing'
+                              href: '/bachelorarbeit-thema#Marketing'
                               target: _self
                               rel: null
                         text: Marketing
@@ -1530,7 +1530,7 @@ replicator:
                           -
                             type: link
                             attrs:
-                              href: 'https://gwriters.de/bachelorarbeit-thema#Investition'
+                              href: '/bachelorarbeit-thema#Investition'
                               target: _self
                               rel: null
                         text: Investition/Finanzierung
@@ -1587,7 +1587,7 @@ replicator:
                           -
                             type: link
                             attrs:
-                              href: 'https://gwriters.de/bachelorarbeit-thema#Organisation'
+                              href: '/bachelorarbeit-thema#Organisation'
                               target: _self
                               rel: null
                         text: Personal/Organisation
@@ -1633,7 +1633,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wp-admin/admin.php?page=supsystic-tables&module=tables&action=view&id=6&nonce=7baa73417e'
+                  href: '/wp-admin/admin.php?page=supsystic-tables&module=tables&action=view&id=6&nonce=7baa73417e'
                   target: null
                   rel: null
             text: 'Edit Table'
@@ -3466,7 +3466,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -3518,7 +3518,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen'
+                  href: '/leistungen'
                   target: null
                   rel: null
             text: Unterstützung
@@ -3549,7 +3549,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/kontakt'
+                  href: '/kontakt'
                   target: null
                   rel: null
             text: Kontaktformular
@@ -3621,7 +3621,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/blog/abschlussarbeit-thema'
+                          href: '/blog/abschlussarbeit-thema'
                           target: null
                           rel: null
                     text: '4 Schritte zum perfekten Thema Deiner Abschlussarbeit'
@@ -3646,7 +3646,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/blog/bachelorarbeit-thema-vwl'
+                          href: '/blog/bachelorarbeit-thema-vwl'
                           target: null
                           rel: null
                     text: 'Bachelorarbeit-Thema VWL: 75 Vorschläge'
@@ -3671,7 +3671,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/blog/bachelorarbeit-thema-gesellschaftswissenschaft'
+                          href: '/blog/bachelorarbeit-thema-gesellschaftswissenschaft'
                           target: null
                           rel: null
                     text: 'Bachelorarbeit Thema Gesellschaftswissenschaften: 75 Vorschläge'
@@ -3696,7 +3696,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/blog/bachelorarbeit-thema-recht'
+                          href: '/blog/bachelorarbeit-thema-recht'
                           target: null
                           rel: null
                     text: 'Bachelorarbeit-Thema Rechtswissenschaften: 75 Vorschläge'
@@ -3721,7 +3721,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/blog/bachelorarbeit-thema-informatik'
+                          href: '/blog/bachelorarbeit-thema-informatik'
                           target: null
                           rel: null
                     text: 'Bachelorarbeit-Thema Informatik: 75 Vorschläge'

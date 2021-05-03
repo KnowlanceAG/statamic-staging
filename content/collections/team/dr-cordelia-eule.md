@@ -24,7 +24,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: 'https://gwriters.de/fachrichtungen/geschichte'
+                      href: '/fachrichtungen/geschichte'
                       target: null
                       rel: null
                 text: Geschichte
@@ -37,7 +37,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: 'https://gwriters.de/fachrichtungen/philosophie'
+                      href: '/fachrichtungen/philosophie'
                       target: null
                       rel: null
                 text: Philosophie

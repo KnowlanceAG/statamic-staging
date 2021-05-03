@@ -142,7 +142,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

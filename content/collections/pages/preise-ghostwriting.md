@@ -65,7 +65,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/preise'
+                  href: '/preise'
                   target: null
                   rel: null
             text: Preise
@@ -110,7 +110,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/anfrage'
+                  href: '/anfrage'
                   target: null
                   rel: null
             text: Anfrage
@@ -137,7 +137,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -179,7 +179,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/preise'
+                  href: '/preise'
                   target: null
                   rel: null
             text: Preisrechner
@@ -211,7 +211,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq'
+                  href: '/faq'
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'

@@ -104,7 +104,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/das-unternehmen'
+                  href: '/das-unternehmen'
                   target: null
                   rel: null
             text: 'das Unternehmen'
@@ -136,7 +136,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq'
+                  href: '/faq'
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'

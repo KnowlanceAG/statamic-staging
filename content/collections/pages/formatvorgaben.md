@@ -229,7 +229,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/literatur'
+                  href: '/fachrichtungen/literatur'
                   target: null
                   rel: null
             text: Literatur
@@ -467,7 +467,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq'
+                  href: '/faq'
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'

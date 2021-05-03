@@ -730,7 +730,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/anfrage'
+                  href: '/anfrage'
                   target: null
                   rel: null
             text: Anfragen
@@ -1585,7 +1585,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/kontakt'
+                  href: '/kontakt'
                   target: null
                   rel: null
             text: Kontaktformular
@@ -5359,7 +5359,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/datenschutzerklaerung'
+                  href: '/datenschutzerklaerung'
                   target: null
                   rel: null
             text: 'https://gwriters.de/datenschutzerklaerung'

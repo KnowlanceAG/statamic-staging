@@ -65,7 +65,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/medizin'
+                          href: '/fachrichtungen/medizin'
                           target: null
                           rel: null
                     text: ' Medizin'
@@ -95,7 +95,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/anfrage'
+                          href: '/anfrage'
                           target: null
                           rel: null
                     text: 'sprechen Sie uns gerne an'
@@ -197,7 +197,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/promotionsberatung/berufsbegleitend-promovieren-interne-externe-promotion'
+                                  href: '/promotionsberatung/berufsbegleitend-promovieren-interne-externe-promotion'
                                   target: null
                                   rel: null
                             text: 'Berufsbegleitende Promotion im Überblick: interne versus externe Promotion'
@@ -213,7 +213,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/promotionsberatung/berufsbegleitende-promotion-standardisierte-promotionsprogramme'
+                                  href: '/promotionsberatung/berufsbegleitende-promotion-standardisierte-promotionsprogramme'
                                   target: null
                                   rel: null
                             text: 'Berufsbegleitend promovieren in standardisierten Promotionsprogrammen'
@@ -229,7 +229,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/promotionsberatung/titel-kaufen-promotionsvermittler/'
+                                  href: '/promotionsberatung/titel-kaufen-promotionsvermittler/'
                                   target: null
                                   rel: null
                             text: 'Titel kaufen und Doktortitel kaufen'
@@ -245,7 +245,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/promotionsberatung/doktorvater-finden'
+                                  href: '/promotionsberatung/doktorvater-finden'
                                   target: null
                                   rel: null
                             text: 'Doktorvater finden für berufsbegleitende Promotion'
@@ -261,7 +261,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/promotionsberatung/berufsbegleitender-doctor-business-administration-phd'
+                                  href: '/promotionsberatung/berufsbegleitender-doctor-business-administration-phd'
                                   target: null
                                   rel: null
                             text: 'Ph. D. versus DBA'
@@ -277,7 +277,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/promotionsberatung/phd-berufsbegleitend'
+                                  href: '/promotionsberatung/phd-berufsbegleitend'
                                   target: null
                                   rel: null
                             text: 'Doctor of Philosophy (Ph. D.)'
@@ -293,7 +293,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/promotionsberatung/doctor-business-administration-berufsbegleitend'
+                                  href: '/promotionsberatung/doctor-business-administration-berufsbegleitend'
                                   target: null
                                   rel: null
                             text: 'Doctor of Business Administration'
@@ -309,7 +309,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/promotionsberatung/master-business-administration'
+                                  href: '/promotionsberatung/master-business-administration'
                                   target: null
                                   rel: null
                             text: 'Master of Business Administration'
@@ -333,7 +333,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                          href: '/arbeiten/doktorarbeit'
                           target: null
                           rel: null
                     text: 'Doktorarbeit schreiben lassen'
@@ -374,7 +374,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                          href: '/arbeiten/doktorarbeit'
                           target: null
                           rel: null
                     text: Doktorarbeit
@@ -398,7 +398,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/anfrage'
+                          href: '/anfrage'
                           target: null
                           rel: null
                     text: 'sprechen Sie uns gerne an'
@@ -440,7 +440,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/kontakt'
+                                  href: '/kontakt'
                                   target: null
                                   rel: null
                             text: Kontakt
@@ -462,7 +462,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/fachrichtungen/kommunikationswissenschaften'
+                                  href: '/fachrichtungen/kommunikationswissenschaften'
                                   target: null
                                   rel: null
                             text: Kommunikation
@@ -499,7 +499,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/verschiedenes/diplom-kaufen'
+                          href: '/verschiedenes/diplom-kaufen'
                           target: null
                           rel: null
                     text: 'Diplom kaufen'
@@ -520,7 +520,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/blog/promotionsberater-ghostwriter'
+                          href: '/blog/promotionsberater-ghostwriter'
                           target: _blank
                           rel: 'noopener noreferrer'
                     text: 'Promotionsberatung & Ghostwriting – Was sind die Unterschiede?'
@@ -532,7 +532,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/blog/dissertation-ausland'
+                          href: '/blog/dissertation-ausland'
                           target: _blank
                           rel: 'noopener noreferrer'
                     text: 'Dissertation im Ausland schreiben – Was gibt es zu beachten?'
@@ -544,7 +544,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/blog/doktorvater-finden'
+                          href: '/blog/doktorvater-finden'
                           target: _blank
                           rel: 'noopener noreferrer'
                     text: 'Doktorvater finden – Praktische Tipps für Deine Suche'
@@ -556,7 +556,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/blog/doktorarbeit-erfolgreich'
+                          href: '/blog/doktorarbeit-erfolgreich'
                           target: _blank
                           rel: 'noopener noreferrer'
                     text: 'Was macht eine erfolgreiche Doktorarbeit aus?'
@@ -631,7 +631,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/wiki'
+                          href: '/wiki'
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'

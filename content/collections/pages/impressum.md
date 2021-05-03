@@ -67,7 +67,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de'
+                  href: '/'
                   target: null
                   rel: null
             text: GWriters.de
