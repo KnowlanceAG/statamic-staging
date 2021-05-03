@@ -65,7 +65,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriting/ghostwriting-agentur'
+                  href: '/ghostwriting/ghostwriting-agentur'
                   target: null
                   rel: null
             text: 'professionellen akademischen Ghostwriting Agenturen'
@@ -78,7 +78,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/achtung-ghostwriter-betrug'
+                  href: '/achtung-ghostwriter-betrug'
                   target: null
                   rel: null
             text: 'unseriösen Agenturen oder regelrechten Ghostwriting Betrügern'
@@ -117,7 +117,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/doktorarbeit-schreiben-lassen-ablauf-gwriters'
+                  href: '/blog/doktorarbeit-schreiben-lassen-ablauf-gwriters'
                   target: null
                   rel: null
             text: 'passenden Ghostwritern arbeiten'

@@ -70,7 +70,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
+                  href: '/arbeiten/seminararbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: 'Seminararbeit schreiben lassen'
@@ -193,7 +193,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/bwl'
+                  href: '/fachrichtungen/bwl'
                   target: null
                   rel: null
             text: 'BWL Ghostwriter'
@@ -225,7 +225,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/assets/downloads/ghostwriting-beispielarbeiten/Seminararbeit-Beispiel-BWL-Auswirkungen-der-Digitalisierung-auf-die-Wertschopfungskette.pdf'
+                  href: '/assets/downloads/ghostwriting-beispielarbeiten/Seminararbeit-Beispiel-BWL-Auswirkungen-der-Digitalisierung-auf-die-Wertschopfungskette.pdf'
                   target: _blank
                   rel: null
             text: 'Hier können Sie unsere Beispiel-Seminararbeit kostenlos herunterladen!'
@@ -256,7 +256,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/anfrage'
+                  href: '/anfrage'
                   target: null
                   rel: null
             text: 'unverbindliche Anfrage und lassen Sie sich kostenlos beraten'

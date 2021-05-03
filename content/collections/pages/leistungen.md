@@ -52,7 +52,7 @@ teaser:
     attrs:
       values:
         type: button
-        button_link: 'https://gwriters.de/anfrage'
+        button_link: '/anfrage'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
@@ -95,7 +95,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen/ghostwriting'
+                          href: '/leistungen/ghostwriting'
                           target: null
                           rel: null
                     text: Ghostwriting-Service
@@ -108,7 +108,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/ghostwriter'
+                          href: '/ghostwriter'
                           target: null
                           rel: null
                     text: Ghostwriter
@@ -127,7 +127,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                          href: '/arbeiten/doktorarbeit'
                           target: null
                           rel: null
                     text: 'Doktorarbeit schreibt'
@@ -140,7 +140,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/ghostwriting/ghostwriting-agentur/'
+                          href: '/ghostwriting/ghostwriting-agentur/'
                           target: null
                           rel: null
                     text: 'Ghostwriter Agentur'
@@ -218,7 +218,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'http://gwriters.de/leistungen/ghostwriting'
+                          href: '/leistungen/ghostwriting'
                           target: null
                           rel: null
                     text: 'Mehr zum Ghostwriting'
@@ -284,7 +284,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'http://gwriters.de/leistungen/lektorat'
+                          href: '/leistungen/lektorat'
                           target: null
                           rel: null
                     text: 'Mehr zum Lektorat'
@@ -350,7 +350,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'http://gwriters.de/leistungen/korrektorat'
+                          href: '/leistungen/korrektorat'
                           target: null
                           rel: null
                     text: 'Mehr zum Korrektorat'
@@ -428,7 +428,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen/maxqda-auswertung'
+                          href: '/leistungen/maxqda-auswertung'
                           target: null
                           rel: null
                     text: 'Mehr zur MAXQDA Auswertung'
@@ -499,7 +499,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen/formatierung'
+                          href: '/leistungen/formatierung'
                           target: null
                           rel: null
                     text: 'Mehr zur Formatierung'
@@ -558,7 +558,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'http://gwriters.de/leistungen/plagiatspruefung'
+                          href: '/leistungen/plagiatspruefung'
                           target: null
                           rel: null
                     text: 'Mehr zur Plagiatsprüfung'
@@ -636,7 +636,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen/uebersetzung'
+                          href: '/leistungen/uebersetzung'
                           target: null
                           rel: null
                     text: 'Mehr zur Übersetzung'
@@ -707,7 +707,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/promotionsberatung'
+                          href: '/promotionsberatung'
                           target: null
                           rel: null
                     text: 'Mehr zur Promotionsberatung'
@@ -766,7 +766,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/leistungen/uebersetzung'
+                                  href: '/leistungen/uebersetzung'
                                   target: null
                                   rel: null
                             text: Übersetzung
@@ -779,7 +779,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/leistungen/plagiatspruefung'
+                                  href: '/leistungen/plagiatspruefung'
                                   target: null
                                   rel: null
                             text: Plagiatsprüfungen

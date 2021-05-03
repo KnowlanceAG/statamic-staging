@@ -184,7 +184,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/bwl'
+                          href: '/fachrichtungen/bwl'
                           target: null
                           rel: null
                     text: 'BWL Ghostwriter'
@@ -211,7 +211,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/promotionsberatung'
+                          href: '/promotionsberatung'
                           target: null
                           rel: null
                     text: Promotionsberatung
@@ -334,7 +334,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                                  href: '/arbeiten/hausarbeit-schreiben-lassen'
                                   target: null
                                   rel: null
                             text: Hausarbeit
@@ -380,7 +380,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/expose'
+                                  href: '/expose'
                                   target: null
                                   rel: null
                             text: Exposé

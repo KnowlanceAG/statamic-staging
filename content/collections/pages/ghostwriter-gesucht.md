@@ -57,7 +57,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -84,7 +84,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: Ghostwriter
@@ -127,7 +127,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/lektorat/lektor'
+                  href: '/lektorat/lektor'
                   target: null
                   rel: null
             text: Lektoren
@@ -182,7 +182,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/jobs'
+                  href: '/jobs'
                   target: null
                   rel: null
             text: www.gwriters.de/jobs
@@ -200,7 +200,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/anfrage'
+                  href: '/anfrage'
                   target: null
                   rel: null
             text: Anfrage
@@ -271,7 +271,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/als-autor-bewerben'
+                  href: '/als-autor-bewerben'
                   target: null
                   rel: null
             text: www.gwriters.de/als-autor-bewerben
@@ -311,7 +311,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

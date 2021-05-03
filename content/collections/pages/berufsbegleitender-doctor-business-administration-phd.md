@@ -126,7 +126,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/promotionsberatung/doctor-business-administration-berufsbegleitend'
+                          href: '/promotionsberatung/doctor-business-administration-berufsbegleitend'
                           target: null
                           rel: null
                     text: "Doctor of Business Administration\_(DBA)"
@@ -139,7 +139,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/promotionsberatung/phd-berufsbegleitend'
+                          href: '/promotionsberatung/phd-berufsbegleitend'
                           target: null
                           rel: null
                     text: 'Philosophical Doctor (Ph.D.)'
@@ -404,7 +404,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/marketing'
+                          href: '/fachrichtungen/marketing'
                           target: null
                           rel: null
                     text: Marketing
@@ -647,7 +647,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/promotionsberatung/doktorvater-finden'
+                          href: '/promotionsberatung/doktorvater-finden'
                           target: null
                           rel: null
                     text: Doktorvater

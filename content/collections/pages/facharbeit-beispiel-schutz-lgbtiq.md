@@ -72,7 +72,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/'
+                  href: '/'
                   target: null
                   rel: null
             text: GWriters
@@ -99,7 +99,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/facharbeit'
+                  href: '/arbeiten/facharbeit'
                   target: null
                   rel: null
             text: 'Facharbeit schreiben lassen'
@@ -221,7 +221,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/qualitaet-ghostwriter'
+                  href: '/faq/qualitaet-ghostwriter'
                   target: null
                   rel: null
             text: 'unsere hohen Qualitätsstandards'
@@ -253,7 +253,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/assets/downloads/ghostwriting-beispielarbeiten/Facharbeit-Beispiel-Politikwissenschaften-Menschenrecht-zum-Schutz-von-LGBTIQ-Menschen-2.pdf'
+                  href: '/assets/downloads/ghostwriting-beispielarbeiten/Facharbeit-Beispiel-Politikwissenschaften-Menschenrecht-zum-Schutz-von-LGBTIQ-Menschen-2.pdf'
                   target: _blank
                   rel: null
             text: 'Hier können Sie unsere Beispiel-Facharbeit kostenlos herunterladen!'
@@ -292,7 +292,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/anfrage'
+                  href: '/anfrage'
                   target: null
                   rel: null
             text: 'Sie sich jetzt kostenfrei und unverbindlich beraten'

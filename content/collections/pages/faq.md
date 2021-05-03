@@ -35,7 +35,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/was-ist-ein-ghostwriter'
+                  href: '/faq/was-ist-ein-ghostwriter'
                   target: null
                   rel: null
             text: 'Was ist ein Ghostwriter?'
@@ -51,7 +51,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/faq/was-ist-ein-ghostwriter'
+                  href: '/faq/was-ist-ein-ghostwriter'
                   target: null
                   rel: null
             text: 'Mehr lesen...'
@@ -66,7 +66,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/was-ist-ein-akademischer-ghostwriter'
+                  href: '/faq/was-ist-ein-akademischer-ghostwriter'
                   target: null
                   rel: null
             text: 'Was ist ein "akademischer" Ghostwriter?'
@@ -82,7 +82,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
+                  href: '/arbeiten/seminararbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Seminararbeiten
@@ -95,7 +95,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                  href: '/arbeiten/hausarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Hausarbeiten
@@ -108,7 +108,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/faq/was-ist-ein-akademischer-ghostwriter'
+                  href: '/faq/was-ist-ein-akademischer-ghostwriter'
                   target: null
                   rel: null
             text: 'Mehr lesen...'
@@ -132,7 +132,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/motivation-akademische-ghostwriter'
+                  href: '/faq/motivation-akademische-ghostwriter'
                   target: null
                   rel: null
             text: 'Welche Motivation haben akademische Ghostwriter?'
@@ -162,7 +162,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: Ghostwriter
@@ -189,7 +189,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/was-ist-ein-akademischer-ghostwriter'
+                  href: '/faq/was-ist-ein-akademischer-ghostwriter'
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -213,7 +213,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/was-ist-ghostwriting'
+                  href: '/faq/was-ist-ghostwriting'
                   target: null
                   rel: null
             text: 'Was ist Ghostwriting?'
@@ -235,7 +235,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -262,7 +262,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/was-ist-ghostwriting'
+                  href: '/faq/was-ist-ghostwriting'
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -286,7 +286,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/ghostwriting-strafbar'
+                  href: '/faq/ghostwriting-strafbar'
                   target: null
                   rel: null
             text: 'Ist Ghostwriting strafbar?'
@@ -316,7 +316,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/ghostwriting-strafbar'
+                  href: '/faq/ghostwriting-strafbar'
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -340,7 +340,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/warum-gwriters'
+                  href: '/faq/warum-gwriters'
                   target: null
                   rel: null
             text: 'Warum sollte ich GWriters nutzen um einen passenden Ghostwriter oder Bearbeiter zu finden?'
@@ -370,7 +370,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/korrektorat/korrektor'
+                  href: '/korrektorat/korrektor'
                   target: null
                   rel: null
             text: Korrektoren
@@ -408,7 +408,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/anfrage'
+                  href: '/anfrage'
                   target: null
                   rel: null
             text: Anfrage
@@ -435,7 +435,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/warum-gwriters'
+                  href: '/faq/warum-gwriters'
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -459,7 +459,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/preise-ghostwriting'
+                  href: '/faq/preise-ghostwriting'
                   target: null
                   rel: null
             text: 'Wie hoch sind die Preise bei GWriters?'
@@ -489,7 +489,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/preise-ghostwriting'
+                  href: '/faq/preise-ghostwriting'
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -513,7 +513,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/fachrichtungen-ghostwriting'
+                  href: '/faq/fachrichtungen-ghostwriting'
                   target: null
                   rel: null
             text: 'Welche Leistungen und Fachrichtungen werden bei GWriters angeboten?'
@@ -543,7 +543,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/fachrichtungen-ghostwriting'
+                  href: '/faq/fachrichtungen-ghostwriting'
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -567,7 +567,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/qualitaet-ghostwriter'
+                  href: '/faq/qualitaet-ghostwriter'
                   target: null
                   rel: null
             text: 'Wie wird die Qualität bei GWriters sichergestellt?'
@@ -597,7 +597,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/qualitaet-ghostwriter'
+                  href: '/faq/qualitaet-ghostwriter'
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -621,7 +621,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/kontakt-ghostwriter'
+                  href: '/faq/kontakt-ghostwriter'
                   target: null
                   rel: null
             text: 'Habe ich direkten Kontakt zu meinem Ghostwriter oder Bearbeiter?'
@@ -651,7 +651,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/kontakt-ghostwriter'
+                  href: '/faq/kontakt-ghostwriter'
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -675,7 +675,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/ghostwriter-englisch'
+                  href: '/faq/ghostwriter-englisch'
                   target: null
                   rel: null
             text: 'Können Ihre Freelancer auch Ausarbeitungen auf Englisch schreiben?'
@@ -705,7 +705,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/ghostwriter-englisch'
+                  href: '/faq/ghostwriter-englisch'
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -729,7 +729,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/ghostwriter-korrektur'
+                  href: '/faq/ghostwriter-korrektur'
                   target: null
                   rel: null
             text: 'Bietet GWriters Korrektur- oder Lektoratsdienste bzw. Überarbeitungen meiner wissenschaftlichen Arbeiten an?'
@@ -759,7 +759,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/ghostwriter-korrektur'
+                  href: '/faq/ghostwriter-korrektur'
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -783,7 +783,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/website-content'
+                  href: '/faq/website-content'
                   target: null
                   rel: null
             text: 'Erstellt GWriters auch hochwertigen Content für meine Website / meinen Blog?'
@@ -813,7 +813,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/website-content'
+                  href: '/faq/website-content'
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -837,7 +837,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/gwriters-in-unternehmen'
+                  href: '/faq/gwriters-in-unternehmen'
                   target: null
                   rel: null
             text: 'Wie kann GWriters meinem Unternehmen helfen?'
@@ -867,7 +867,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/gwriters-in-unternehmen'
+                  href: '/faq/gwriters-in-unternehmen'
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -891,7 +891,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/texte-ghostwriting'
+                  href: '/faq/texte-ghostwriting'
                   target: null
                   rel: null
             text: 'Welche Texte kann ich durch GWriters schreiben lassen?'
@@ -921,7 +921,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/texte-ghostwriting'
+                  href: '/faq/texte-ghostwriting'
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -945,7 +945,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/ablauf-ghostwriting'
+                  href: '/faq/ablauf-ghostwriting'
                   target: null
                   rel: null
             text: 'Wie ist der übliche Ablauf bei einem redaktionellen Auftrag?'
@@ -975,7 +975,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/ablauf-ghostwriting'
+                  href: '/faq/ablauf-ghostwriting'
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -999,7 +999,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/wie-lange-braucht-ein-ghostwriter'
+                  href: '/faq/wie-lange-braucht-ein-ghostwriter'
                   target: null
                   rel: null
             text: 'Wie lange braucht ein Autor zur Redaktion eines wissenschaftlichen Textes?'
@@ -1029,7 +1029,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/wie-lange-braucht-ein-ghostwriter'
+                  href: '/faq/wie-lange-braucht-ein-ghostwriter'
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -1053,7 +1053,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/diskretion-ghostwriting'
+                  href: '/faq/diskretion-ghostwriting'
                   target: null
                   rel: null
             text: 'Schweigepflicht und Diskretion bei der Redaktion, Erstellung, Bearbeitung oder Ghostwriting von Texten'
@@ -1083,7 +1083,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/diskretion-ghostwriting'
+                  href: '/faq/diskretion-ghostwriting'
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -1107,7 +1107,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/formatvorgaben'
+                  href: '/faq/formatvorgaben'
                   target: null
                   rel: null
             text: 'Wie werden wissenschaftliche Arbeiten bei GWriters üblicherweise formatiert?'
@@ -1137,7 +1137,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/formatvorgaben'
+                  href: '/faq/formatvorgaben'
                   target: null
                   rel: null
             text: 'Mehr lesen…'

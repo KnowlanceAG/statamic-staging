@@ -61,7 +61,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/preise'
+                  href: '/preise'
                   target: null
                   rel: null
             text: Preise
@@ -74,7 +74,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/korrektorat'
+                  href: '/leistungen/korrektorat'
                   target: null
                   rel: null
             text: Korrektorat
@@ -87,7 +87,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                  href: '/arbeiten/hausarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Hausarbeit
@@ -100,7 +100,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/diplomarbeit'
+                  href: '/arbeiten/diplomarbeit'
                   target: null
                   rel: null
             text: Diplomarbeit
@@ -127,7 +127,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/korrektorat/korrektor'
+                  href: '/korrektorat/korrektor'
                   target: null
                   rel: null
             text: Korrektor
@@ -154,7 +154,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/jura'
+                  href: '/fachrichtungen/jura'
                   target: null
                   rel: null
             text: Jura
@@ -178,7 +178,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/korrektorat-lektorat-textredaktion'
+                  href: '/blog/korrektorat-lektorat-textredaktion'
                   target: null
                   rel: null
             text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
@@ -190,7 +190,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/akademisches-ghostwriting-alternativen'
+                  href: '/blog/akademisches-ghostwriting-alternativen'
                   target: null
                   rel: null
             text: 'Video: 4 Alternativen zum akademischen Ghostwriting'
@@ -202,7 +202,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/ghostwriter-preise'
+                  href: '/blog/ghostwriter-preise'
                   target: null
                   rel: null
             text: 'Video: Ghostwriter-Preise bei GWriters'
@@ -217,7 +217,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

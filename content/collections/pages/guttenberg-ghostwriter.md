@@ -61,7 +61,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                  href: '/arbeiten/doktorarbeit'
                   target: null
                   rel: null
             text: Doktorarbeit
@@ -88,7 +88,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: Ghostwriter
@@ -101,7 +101,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -128,7 +128,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriting/ghostwriting-agentur/'
+                  href: '/ghostwriting/ghostwriting-agentur/'
                   target: null
                   rel: null
             text: 'Ghostwriting Agentur'
@@ -166,7 +166,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/ghostwriting-plagiate'
+                  href: '/blog/ghostwriting-plagiate'
                   target: null
                   rel: null
             text: 'Video: Ghostwriting & Plagiate – Was ist ihr Unterschied & warum ist er so wichtig?'
@@ -178,7 +178,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/gwriters-plagiat'
+                  href: '/blog/gwriters-plagiat'
                   target: null
                   rel: null
             text: 'Woher weiß ich, dass ich bei GWriters kein Plagiat erhalte?'
@@ -190,7 +190,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/promotionsberater-ghostwriter'
+                  href: '/blog/promotionsberater-ghostwriter'
                   target: null
                   rel: null
             text: 'Promotionsberatung & Ghostwriting – Was sind die Unterschiede?'
@@ -202,7 +202,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/plagiat'
+                  href: '/blog/plagiat'
                   target: null
                   rel: null
             text: 'Die große Infosammlung zu Plagiaten'
@@ -217,7 +217,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

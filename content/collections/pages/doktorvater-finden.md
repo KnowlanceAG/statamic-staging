@@ -166,7 +166,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/promotionsberatung'
+                          href: '/promotionsberatung'
                           target: null
                           rel: null
                     text: Promotionsberatung
@@ -193,7 +193,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                          href: '/arbeiten/doktorarbeit'
                           target: null
                           rel: null
                     text: 'Doktorarbeit Ghostwriter'
@@ -657,7 +657,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/anfrage'
+                          href: '/anfrage'
                           target: null
                           rel: null
                     text: Anfrage
@@ -700,7 +700,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/chemie'
+                          href: '/fachrichtungen/chemie'
                           target: null
                           rel: null
                     text: Chemie
@@ -761,7 +761,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/kommunikationswissenschaften'
+                          href: '/fachrichtungen/kommunikationswissenschaften'
                           target: null
                           rel: null
                     text: Kommunikation

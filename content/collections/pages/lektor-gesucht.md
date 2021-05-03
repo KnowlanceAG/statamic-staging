@@ -64,7 +64,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
+                  href: '/arbeiten/seminararbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Seminararbeit
@@ -102,7 +102,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/lektorat/lektor'
+                  href: '/lektorat/lektor'
                   target: null
                   rel: null
             text: Lektor
@@ -125,7 +125,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/korrektorat/korrekturlesen'
+                  href: '/korrektorat/korrekturlesen'
                   target: null
                   rel: null
             text: Korrekturlesen
@@ -152,7 +152,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: 'akademisches Ghostwriting'
@@ -165,7 +165,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/lektorat'
+                  href: '/leistungen/lektorat'
                   target: null
                   rel: null
             text: Lektorat
@@ -189,7 +189,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/lektorat'
+                  href: '/blog/lektorat'
                   target: null
                   rel: null
             text: 'Die große Infosammlung zum Lektorat'
@@ -201,7 +201,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/akademische-ghostwriter-vorteile'
+                  href: '/blog/akademische-ghostwriter-vorteile'
                   target: null
                   rel: null
             text: '5 unschlagbare Vorteile, die für einen Job als akademischer Ghostwriter sprechen'
@@ -213,7 +213,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/erfahrungsbericht-ghostwriter-gwriters'
+                  href: '/blog/erfahrungsbericht-ghostwriter-gwriters'
                   target: null
                   rel: null
             text: 'Erfahrungsbericht zur Arbeit als Ghostwriter bei GWriters'
@@ -228,7 +228,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

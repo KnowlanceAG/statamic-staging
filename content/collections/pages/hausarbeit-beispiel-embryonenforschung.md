@@ -72,7 +72,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                  href: '/arbeiten/hausarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: "\_Hausarbeit mit einem anspruchsvollen Thema"
@@ -194,7 +194,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/soziologie'
+                  href: '/fachrichtungen/soziologie'
                   target: null
                   rel: null
             text: 'Unsere Ghostwriter für Sozialwissenschaften'
@@ -226,7 +226,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/assets/downloads/ghostwriting-beispielarbeiten/Hausarbeit-Beispiel-Sozialwissenschaften-Bewertung-von-Embryonenforschung.pdf'
+                  href: '/assets/downloads/ghostwriting-beispielarbeiten/Hausarbeit-Beispiel-Sozialwissenschaften-Bewertung-von-Embryonenforschung.pdf'
                   target: _blank
                   rel: null
             text: 'Hier können Sie unsere Beispiel-Hausarbeit kostenlos herunterladen!'
@@ -265,7 +265,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/anfrage'
+                  href: '/anfrage'
                   target: null
                   rel: null
             text: 'im Rahmen einer unverbindlichen und kostenfreien Beratung'

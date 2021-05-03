@@ -61,7 +61,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/lektorat/lektor'
+                  href: '/lektorat/lektor'
                   target: null
                   rel: null
             text: Lektor
@@ -85,7 +85,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/anfrage'
+                  href: '/anfrage'
                   target: null
                   rel: null
             text: 'unverbindliche Anfrage schicken'
@@ -115,7 +115,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -128,7 +128,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: 'Bachelorarbeit schreiben lassen'
@@ -249,7 +249,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/'
+                  href: '/'
                   target: null
                   rel: null
             text: 'Startseite '
@@ -276,7 +276,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/impressum'
+                  href: '/impressum'
                   target: null
                   rel: null
             text: ' Impressum'
@@ -289,7 +289,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/datenschutzerklaerung'
+                  href: '/datenschutzerklaerung'
                   target: null
                   rel: null
             text: Datenschutzerklärung
@@ -381,7 +381,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/diplomarbeit'
+                  href: '/arbeiten/diplomarbeit'
                   target: null
                   rel: null
             text: ' Diplomarbeiten '
@@ -433,7 +433,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/suche-ghostwriter'
+                  href: '/blog/suche-ghostwriter'
                   target: null
                   rel: null
             text: 'Tipps für die Ghostwriter-Suche'
@@ -445,7 +445,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/akademische-ghostwriter-gwriters-angebot'
+                  href: '/blog/akademische-ghostwriter-gwriters-angebot'
                   target: null
                   rel: null
             text: 'Video: Wie entsteht ein Ghostwriter-Angebot bei GWriters?'
@@ -457,7 +457,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/ghostwriter-probleme/'
+                  href: '/blog/ghostwriter-probleme/'
                   target: null
                   rel: null
             text: 'Typische Probleme mit akademischen Ghostwritern & wie Du sie vermeiden kannst'
@@ -469,7 +469,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/gwriters-akademische-ghostwriter-ethik'
+                  href: '/blog/gwriters-akademische-ghostwriter-ethik'
                   target: null
                   rel: null
             text: 'Video: Akademische Ghostwriter & Ethik bei GWriters'
@@ -484,7 +484,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

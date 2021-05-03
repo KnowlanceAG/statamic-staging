@@ -61,7 +61,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/korrektorat/korrektor'
+                  href: '/korrektorat/korrektor'
                   target: null
                   rel: null
             text: Korrektors
@@ -74,7 +74,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/korrektorat/textkorrektur'
+                  href: '/korrektorat/textkorrektur'
                   target: null
                   rel: null
             text: Textkorrektur
@@ -103,7 +103,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/leistungen/lektorat'
+                  href: '/leistungen/lektorat'
                   target: null
                   rel: null
             text: Lektorat
@@ -125,7 +125,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/korrektorat/korrekturlesen'
+                          href: '/korrektorat/korrekturlesen'
                           target: null
                           rel: null
                     text: Korrekturlesen
@@ -138,7 +138,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'http://gwriters.de/leistungen/korrektorat'
+                          href: '/leistungen/korrektorat'
                           target: null
                           rel: null
                     text: Korrektorat
@@ -264,7 +264,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/korrektorat-lektorat-textredaktion'
+                  href: '/blog/korrektorat-lektorat-textredaktion'
                   target: null
                   rel: null
             text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
@@ -276,7 +276,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/akademisches-ghostwriting-alternativen'
+                  href: '/blog/akademisches-ghostwriting-alternativen'
                   target: null
                   rel: null
             text: 'Video: 4 Alternativen zum akademischen Ghostwriting'
@@ -288,7 +288,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/akademische-ghostwriter-vorteile'
+                  href: '/blog/akademische-ghostwriter-vorteile'
                   target: null
                   rel: null
             text: '5 unschlagbare Vorteile, die für einen Job als akademischer Ghostwriter sprechen'
@@ -303,7 +303,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

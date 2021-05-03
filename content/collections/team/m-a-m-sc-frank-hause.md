@@ -24,7 +24,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: 'https://gwriters.de/fachrichtungen/medizin'
+                      href: '/fachrichtungen/medizin'
                       target: null
                       rel: null
                 text: 'Medizin Ghostwriter'
@@ -37,7 +37,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: 'https://gwriters.de/fachrichtungen/biologie'
+                      href: '/fachrichtungen/biologie'
                       target: null
                       rel: null
                 text: Biologie
@@ -50,7 +50,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: 'https://gwriters.de/fachrichtungen/chemie'
+                      href: '/fachrichtungen/chemie'
                       target: null
                       rel: null
                 text: Biochemie

@@ -23,7 +23,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: 'https://gwriters.de/fachrichtungen/vwl'
+                      href: '/fachrichtungen/vwl'
                       target: null
                       rel: null
                 text: VWL
@@ -36,7 +36,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: 'https://gwriters.de/fachrichtungen/finanzwissenschaften'
+                      href: '/fachrichtungen/finanzwissenschaften'
                       target: null
                       rel: null
                 text: Finanzen

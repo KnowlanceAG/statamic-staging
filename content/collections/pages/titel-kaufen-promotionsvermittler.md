@@ -166,7 +166,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                          href: '/arbeiten/doktorarbeit'
                           target: null
                           rel: null
                     text: 'Doktorarbeit Ghostwritern'
@@ -341,7 +341,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/kontakt'
+                                  href: '/kontakt'
                                   target: null
                                   rel: null
                             text: Kontakt

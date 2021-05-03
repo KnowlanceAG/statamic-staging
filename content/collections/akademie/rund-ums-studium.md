@@ -65,7 +65,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/erste-juristische-pruefung'
+                  href: '/blog/erste-juristische-pruefung'
                   target: null
                   rel: null
             text: 'auf Ihre erste juristische Prüfung'
@@ -78,7 +78,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/dissertation-ausland'
+                  href: '/blog/dissertation-ausland'
                   target: null
                   rel: null
             text: 'Schreiben Ihrer Dissertation im Ausland'
@@ -91,7 +91,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/bachelorarbeit-betreuer/'
+                  href: '/blog/bachelorarbeit-betreuer/'
                   target: null
                   rel: null
             text: 'Probleme mit Ihrem Bachelorarbeit Betreuer'
@@ -110,7 +110,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/bwl'
+                  href: '/fachrichtungen/bwl'
                   target: null
                   rel: null
             text: Betriebswirtschaftslehre
@@ -123,7 +123,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/psychologie'
+                  href: '/fachrichtungen/psychologie'
                   target: null
                   rel: null
             text: Psychologie
@@ -150,7 +150,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/dissertation-veroeffentlichen/'
+                  href: '/blog/dissertation-veroeffentlichen/'
                   target: null
                   rel: null
             text: 'Veröffentlichung Ihrer Dissertation'

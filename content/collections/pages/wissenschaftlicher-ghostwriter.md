@@ -59,7 +59,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: Ghostwriter
@@ -72,7 +72,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/fachrichtungen/jura'
+                  href: '/fachrichtungen/jura'
                   target: null
                   rel: null
             text: Jura
@@ -85,7 +85,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/bwl'
+                  href: '/fachrichtungen/bwl'
                   target: null
                   rel: null
             text: BWL
@@ -98,7 +98,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/fachrichtungen/medizin'
+                  href: '/fachrichtungen/medizin'
                   target: null
                   rel: null
             text: Medizin
@@ -122,7 +122,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/anfrage'
+                  href: '/anfrage'
                   target: null
                   rel: null
             text: 'unverbindliche Anfrage schicken'
@@ -179,7 +179,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -236,7 +236,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/erfahrungsbericht-ghostwriter-gwriters'
+                  href: '/blog/erfahrungsbericht-ghostwriter-gwriters'
                   target: null
                   rel: null
             text: 'Erfahrungsbericht zur Arbeit als Ghostwriter bei GWriters'
@@ -248,7 +248,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/ghostwriter-auftrag-tipps'
+                  href: '/blog/ghostwriter-auftrag-tipps'
                   target: null
                   rel: null
             text: 'Video: Tipps für einen erfolgreichen Ghostwriter-Auftrag'
@@ -260,7 +260,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/ghostwriter-probleme/'
+                  href: '/blog/ghostwriter-probleme/'
                   target: null
                   rel: null
             text: 'Typische Probleme mit akademischen Ghostwritern & wie Du sie vermeiden kannst'
@@ -275,7 +275,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

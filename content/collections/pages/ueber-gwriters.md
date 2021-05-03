@@ -93,7 +93,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/uebersetzung'
+                  href: '/leistungen/uebersetzung'
                   target: null
                   rel: null
             text: 'Übersetzung '
@@ -106,7 +106,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/diplomarbeit'
+                  href: '/arbeiten/diplomarbeit'
                   target: null
                   rel: null
             text: Diplomarbeit
@@ -119,7 +119,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Bachelorarbeit
@@ -132,7 +132,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/plagiatspruefung'
+                  href: '/leistungen/plagiatspruefung'
                   target: null
                   rel: null
             text: Plagiatsprüfung
@@ -159,7 +159,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/preise'
+                  href: '/preise'
                   target: null
                   rel: null
             text: 'fairen und transparenten Preisen'
@@ -186,7 +186,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/anfrage'
+                  href: '/anfrage'
                   target: null
                   rel: null
             text: ' Anfragen'
@@ -213,7 +213,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/team'
+                  href: '/team'
                   target: null
                   rel: null
             text: 'Team von Akademikern'

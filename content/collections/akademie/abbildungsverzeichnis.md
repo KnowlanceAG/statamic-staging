@@ -87,7 +87,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/formatierung'
+                  href: '/leistungen/formatierung'
                   target: null
                   rel: null
             text: "\_Formatierung\_"
@@ -118,7 +118,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Bachelorarbeit
@@ -131,7 +131,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                  href: '/arbeiten/masterarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Masterarbeit
@@ -144,7 +144,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                  href: '/arbeiten/doktorarbeit'
                   target: null
                   rel: null
             text: "Doktorarbeit\_"

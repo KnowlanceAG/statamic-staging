@@ -162,7 +162,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                  href: '/arbeiten/hausarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Hausarbeit
@@ -189,7 +189,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/facharbeit'
+                  href: '/arbeiten/facharbeit'
                   target: null
                   rel: null
             text: Facharbeit
@@ -216,7 +216,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
+                  href: '/arbeiten/seminararbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Seminararbeit
@@ -243,7 +243,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                  href: '/arbeiten/doktorarbeit'
                   target: null
                   rel: null
             text: 'Doktorarbeit schreiben lassen'

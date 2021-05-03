@@ -65,7 +65,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriting/ghostwriting-agentur'
+                  href: '/ghostwriting/ghostwriting-agentur'
                   target: null
                   rel: null
             text: 'seriöse Ghostwriting-Agentur'
@@ -84,7 +84,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/literaturrecherche-wissenschaftliche-quellen'
+                  href: '/blog/literaturrecherche-wissenschaftliche-quellen'
                   target: null
                   rel: null
             text: 'einzelnen Schritte der Literaturrecherche'
@@ -111,7 +111,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Bachelorarbeit
@@ -124,7 +124,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
+                  href: '/arbeiten/seminararbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Seminararbeit
@@ -143,7 +143,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/gwriters-erfahrung'
+                  href: '/blog/gwriters-erfahrung'
                   target: null
                   rel: null
             text: 'Ghostwriting Erfahrung'

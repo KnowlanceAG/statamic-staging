@@ -196,7 +196,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/medizin'
+                          href: '/fachrichtungen/medizin'
                           target: null
                           rel: null
                     text: Medizin
@@ -665,7 +665,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/wirtschaftswissenschaften'
+                          href: '/fachrichtungen/wirtschaftswissenschaften'
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften

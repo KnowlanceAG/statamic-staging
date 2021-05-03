@@ -109,7 +109,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/gwriters-coaching'
+                  href: '/blog/gwriters-coaching'
                   target: null
                   rel: null
             text: 'professionellen Coaching'

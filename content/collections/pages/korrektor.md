@@ -78,7 +78,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/korrektorat/korrekturlesen/'
+                  href: '/korrektorat/korrekturlesen/'
                   target: null
                   rel: null
             text: ' Korrekturlesen'
@@ -110,7 +110,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/lektorat/lektor'
+                  href: '/lektorat/lektor'
                   target: null
                   rel: null
             text: ' Lektor'
@@ -128,7 +128,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: Ghostwriters
@@ -155,7 +155,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/lektorat'
+                  href: '/leistungen/lektorat'
                   target: null
                   rel: null
             text: 'Lektorat '
@@ -179,7 +179,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/ghostwriting-lektorat-korrektorat'
+                  href: '/blog/ghostwriting-lektorat-korrektorat'
                   target: null
                   rel: null
             text: 'Video: Ghostwriting, Lektorat, Korrektorat – Was ist was?'
@@ -191,7 +191,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/ghostwriter-preise'
+                  href: '/blog/ghostwriter-preise'
                   target: null
                   rel: null
             text: 'Video: Ghostwriter-Preise bei GWriters'
@@ -203,7 +203,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/thesis-vermeidbare-fehler'
+                  href: '/blog/thesis-vermeidbare-fehler'
                   target: null
                   rel: null
             text: '7 vermeidbare Fehler, die Dich den Erfolg bei Deiner Thesis kosten'
@@ -218,7 +218,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

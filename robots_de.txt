@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /agb
+Disallow: /datenschutzerklaerung
+
+Sitemap: https://gwriters.ch/sitemap_ch.xml

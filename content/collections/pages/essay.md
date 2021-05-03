@@ -36,7 +36,7 @@ teaser:
     attrs:
       values:
         type: button
-        button_link: 'https://gwriters.de/anfrage'
+        button_link: '/anfrage'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
 teaser_bg:
@@ -67,7 +67,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/anfrage'
+                  href: '/anfrage'
                   target: null
                   rel: null
             text: 'unverbindliche Anfrage schicken'
@@ -102,7 +102,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: 'Ghostwriter '
@@ -115,7 +115,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -149,7 +149,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen/ghostwriting'
+                          href: '/leistungen/ghostwriting'
                           target: null
                           rel: null
                     text: Ghostwriting
@@ -170,7 +170,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen/korrektorat'
+                          href: '/leistungen/korrektorat'
                           target: null
                           rel: null
                     text: Korrektorat
@@ -191,7 +191,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen/maxqda-auswertung'
+                          href: '/leistungen/maxqda-auswertung'
                           target: null
                           rel: null
                     text: 'MAXQDA Auswertung'
@@ -214,7 +214,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen/lektorat'
+                          href: '/leistungen/lektorat'
                           target: null
                           rel: null
                     text: Lektorat
@@ -235,7 +235,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen/formatierung'
+                          href: '/leistungen/formatierung'
                           target: null
                           rel: null
                     text: Formatierung
@@ -256,7 +256,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/promotionsberatung'
+                          href: '/promotionsberatung'
                           target: null
                           rel: null
                     text: Promotionsberatung
@@ -279,7 +279,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen/uebersetzung'
+                          href: '/leistungen/uebersetzung'
                           target: null
                           rel: null
                     text: Übersetzung
@@ -300,7 +300,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/promotionsberatung'
+                          href: '/promotionsberatung'
                           target: null
                           rel: null
                     text: Promotionsberatung
@@ -350,7 +350,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/architektur'
+                          href: '/fachrichtungen/architektur'
                           target: null
                           rel: null
                     text: Architektur
@@ -371,7 +371,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/bwl'
+                          href: '/fachrichtungen/bwl'
                           target: null
                           rel: null
                     text: BWL
@@ -392,7 +392,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/erziehungswissenschaften-ghostwriter'
+                          href: '/fachrichtungen/erziehungswissenschaften-ghostwriter'
                           target: null
                           rel: null
                     text: Erziehungswissenschaften
@@ -413,7 +413,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/germanistik-ghostwriter'
+                          href: '/fachrichtungen/germanistik-ghostwriter'
                           target: null
                           rel: null
                     text: Germanistik
@@ -434,7 +434,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/jura'
+                          href: '/fachrichtungen/jura'
                           target: null
                           rel: null
                     text: Jura
@@ -455,7 +455,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/literatur'
+                          href: '/fachrichtungen/literatur'
                           target: null
                           rel: null
                     text: Literatur
@@ -476,7 +476,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/mathematik'
+                          href: '/fachrichtungen/mathematik'
                           target: null
                           rel: null
                     text: Mathematik
@@ -497,7 +497,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/pflegewissenschaften'
+                          href: '/fachrichtungen/pflegewissenschaften'
                           target: null
                           rel: null
                     text: Pflegewissenschaften
@@ -518,7 +518,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/soziale-arbeit'
+                          href: '/fachrichtungen/soziale-arbeit'
                           target: null
                           rel: null
                     text: 'Soziale Arbeit'
@@ -539,7 +539,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/vwl'
+                          href: '/fachrichtungen/vwl'
                           target: null
                           rel: null
                     text: VWL
@@ -560,7 +560,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/zahnmedizin'
+                          href: '/fachrichtungen/zahnmedizin'
                           target: null
                           rel: null
                     text: Zahnmedizin
@@ -583,7 +583,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/bauingenieurwesen'
+                          href: '/fachrichtungen/bauingenieurwesen'
                           target: null
                           rel: null
                     text: Bauingenieurwesen
@@ -604,7 +604,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/chemie'
+                          href: '/fachrichtungen/chemie'
                           target: null
                           rel: null
                     text: Chemie
@@ -625,7 +625,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/finanzwissenschaften'
+                          href: '/fachrichtungen/finanzwissenschaften'
                           target: null
                           rel: null
                     text: Finanzwissenschaften
@@ -646,7 +646,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/geschichte'
+                          href: '/fachrichtungen/geschichte'
                           target: null
                           rel: null
                     text: Geschichte
@@ -667,7 +667,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/kommunikationswissenschaften'
+                          href: '/fachrichtungen/kommunikationswissenschaften'
                           target: null
                           rel: null
                     text: Kommunikation
@@ -688,7 +688,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/marketing'
+                          href: '/fachrichtungen/marketing'
                           target: null
                           rel: null
                     text: Marketing
@@ -709,7 +709,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/medienwissenschaften'
+                          href: '/fachrichtungen/medienwissenschaften'
                           target: null
                           rel: null
                     text: Medienwissenschaften
@@ -730,7 +730,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/philosophie'
+                          href: '/fachrichtungen/philosophie'
                           target: null
                           rel: null
                     text: Philosophie
@@ -751,7 +751,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/soziologie'
+                          href: '/fachrichtungen/soziologie'
                           target: null
                           rel: null
                     text: Soziologie
@@ -772,7 +772,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/wirtschaftsinformatik'
+                          href: '/fachrichtungen/wirtschaftsinformatik'
                           target: null
                           rel: null
                     text: Wirtschaftsinformatik
@@ -795,7 +795,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/biologie'
+                          href: '/fachrichtungen/biologie'
                           target: null
                           rel: null
                     text: Biologie
@@ -816,7 +816,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/elektrotechnik'
+                          href: '/fachrichtungen/elektrotechnik'
                           target: null
                           rel: null
                     text: Elektrotechnik
@@ -837,7 +837,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/geologie'
+                          href: '/fachrichtungen/geologie'
                           target: null
                           rel: null
                     text: Geologie
@@ -858,7 +858,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/informatik'
+                          href: '/fachrichtungen/informatik'
                           target: null
                           rel: null
                     text: Informatik
@@ -879,7 +879,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/kunst'
+                          href: '/fachrichtungen/kunst'
                           target: null
                           rel: null
                     text: Kunst
@@ -900,7 +900,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/maschinenbau'
+                          href: '/fachrichtungen/maschinenbau'
                           target: null
                           rel: null
                     text: Maschinenbau
@@ -921,7 +921,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/medizin'
+                          href: '/fachrichtungen/medizin'
                           target: null
                           rel: null
                     text: Medizin
@@ -942,7 +942,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/psychologie'
+                          href: '/fachrichtungen/psychologie'
                           target: null
                           rel: null
                     text: Psychologie
@@ -963,7 +963,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/sprachwissenschaften'
+                          href: '/fachrichtungen/sprachwissenschaften'
                           target: null
                           rel: null
                     text: Sprachwissenschaften
@@ -984,7 +984,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/wirtschaftswissenschaften'
+                          href: '/fachrichtungen/wirtschaftswissenschaften'
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
@@ -1032,7 +1032,7 @@ replicator:
         attrs:
           values:
             type: button
-            button_link: 'https://gwriters.de/anfrage'
+            button_link: '/anfrage'
             button_text: 'JETZT KOSTENLOS ANFRAGEN'
             color: '#FF6606'
       -
@@ -1074,7 +1074,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/essay'
+                  href: '/blog/essay'
                   target: null
                   rel: null
             text: 'Informationensammlung zum wissenschaftlichen Essay'
@@ -1086,7 +1086,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/erste-seminararbeit-schreiben'
+                  href: '/blog/erste-seminararbeit-schreiben'
                   target: null
                   rel: null
             text: 'Erste Seminararbeit schreiben – 5 praktische Tipps vom Profi'
@@ -1098,7 +1098,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/literaturrecherche-wissenschaftliche-quellen'
+                  href: '/blog/literaturrecherche-wissenschaftliche-quellen'
                   target: null
                   rel: null
             text: 'Video: Literaturrecherche – wissenschaftliche Artikel einfach finden'
@@ -1113,7 +1113,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

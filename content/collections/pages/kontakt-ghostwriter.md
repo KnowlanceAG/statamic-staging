@@ -88,7 +88,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/kommunikationswissenschaften'
+                  href: '/fachrichtungen/kommunikationswissenschaften'
                   target: null
                   rel: null
             text: Kommunikation
@@ -131,7 +131,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/kontakt'
+                  href: '/kontakt'
                   target: null
                   rel: null
             text: Kontakt
@@ -163,7 +163,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq'
+                  href: '/faq'
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'

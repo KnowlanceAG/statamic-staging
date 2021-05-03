@@ -61,7 +61,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/gwriters-akademie/abbildungsverzeichnis'
+                  href: '/gwriters-akademie/abbildungsverzeichnis'
                   target: null
                   rel: null
             text: Abbildungsverzeichnis
@@ -74,7 +74,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/fachrichtungen/bwl'
+                  href: '/fachrichtungen/bwl'
                   target: null
                   rel: null
             text: ' BWL'
@@ -87,7 +87,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: 'Bachelorarbeit schreiben lassen'
@@ -100,7 +100,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: Ghostwriter
@@ -145,7 +145,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/facharbeit'
+                  href: '/arbeiten/facharbeit'
                   target: null
                   rel: null
             text: ' Facharbeiten'
@@ -172,7 +172,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wissenschaftliche-arbeiten-schreiben-word'
+                  href: '/wissenschaftliche-arbeiten-schreiben-word'
                   target: null
                   rel: null
             text: 'wissenschaftliche Arbeit in Word'
@@ -185,7 +185,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: 'Schreiben kurzer wissenschaftlicher Arbeiten'

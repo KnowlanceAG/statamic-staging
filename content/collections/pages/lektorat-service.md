@@ -61,7 +61,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/leistungen/lektorat'
+                  href: '/leistungen/lektorat'
                   target: null
                   rel: null
             text: Lektorat
@@ -81,7 +81,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/lektorat/lektor'
+                  href: '/lektorat/lektor'
                   target: null
                   rel: null
             text: Lektor
@@ -197,7 +197,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: Ghostwriter
@@ -210,7 +210,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/ghostwriting/ghostwriting-agentur'
+                  href: '/ghostwriting/ghostwriting-agentur'
                   target: null
                   rel: null
             text: 'Ghostwriting Agentur'
@@ -223,7 +223,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -247,7 +247,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/korrektorat-lektorat-textredaktion'
+                  href: '/blog/korrektorat-lektorat-textredaktion'
                   target: null
                   rel: null
             text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
@@ -259,7 +259,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/lektorat'
+                  href: '/blog/lektorat'
                   target: null
                   rel: null
             text: 'Die große Infosammlung zum Lektorat'
@@ -271,7 +271,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/ghostwriting-lektorat-korrektorat'
+                  href: '/blog/ghostwriting-lektorat-korrektorat'
                   target: null
                   rel: null
             text: 'Video: Ghostwriting, Lektorat, Korrektorat – Was ist was?'
@@ -286,7 +286,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

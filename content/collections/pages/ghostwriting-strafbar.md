@@ -65,7 +65,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                  href: '/leistungen/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -110,7 +110,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: Ghostwriter
@@ -242,7 +242,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wp-content/uploads/2017/03/Ghostwriting-legal.pdf'
+                  href: '/wp-content/uploads/2017/03/Ghostwriting-legal.pdf'
                   target: null
                   rel: ''
             text: 'Ist Ghostwriting strafbar?'
@@ -266,7 +266,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq'
+                  href: '/faq'
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'

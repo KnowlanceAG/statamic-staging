@@ -96,7 +96,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriter'
+                  href: '/ghostwriter'
                   target: null
                   rel: null
             text: 'Ghostwriter '
@@ -109,7 +109,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/diplomarbeit'
+                  href: '/arbeiten/diplomarbeit'
                   target: null
                   rel: null
             text: 'Diplomarbeit '
@@ -122,7 +122,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/lektorat'
+                  href: '/leistungen/lektorat'
                   target: null
                   rel: null
             text: Lektorat
@@ -135,7 +135,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/leistungen/korrektorat'
+                  href: '/leistungen/korrektorat'
                   target: null
                   rel: null
             text: 'Korrektorat '
@@ -148,7 +148,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/korrektorat/korrektor'
+                  href: '/korrektorat/korrektor'
                   target: null
                   rel: null
             text: Korrektoren
@@ -167,7 +167,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/faq/ghostwriting-strafbar'
+                  href: '/faq/ghostwriting-strafbar'
                   target: null
                   rel: null
             text: 'Ist Ghostwriting strafbar?'
@@ -232,7 +232,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/ghostwriter-auftrag-tipps'
+                  href: '/blog/ghostwriter-auftrag-tipps'
                   target: null
                   rel: null
             text: 'Video: Tipps für einen erfolgreichen Ghostwriter-Auftrag'
@@ -260,7 +260,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

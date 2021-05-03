@@ -61,7 +61,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'http://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                  href: '/arbeiten/masterarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: 'Masterarbeit schreiben lassen'

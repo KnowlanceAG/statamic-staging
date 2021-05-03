@@ -201,7 +201,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/soziologie'
+                          href: '/fachrichtungen/soziologie'
                           target: null
                           rel: null
                     text: Soziologie
@@ -254,7 +254,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                          href: '/arbeiten/masterarbeit-schreiben-lassen'
                           target: null
                           rel: null
                     text: 'Masterarbeit schreiben lassen'
@@ -281,7 +281,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/bwl'
+                          href: '/fachrichtungen/bwl'
                           target: null
                           rel: null
                     text: 'Ghostwriter BWL'
@@ -341,7 +341,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/marketing'
+                          href: '/fachrichtungen/marketing'
                           target: null
                           rel: null
                     text: Marketing

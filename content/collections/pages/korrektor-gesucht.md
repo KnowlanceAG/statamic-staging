@@ -61,7 +61,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/korrektorat/korrektor'
+                  href: '/korrektorat/korrektor'
                   target: null
                   rel: null
             text: 'Korrektor '
@@ -102,7 +102,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                  href: '/arbeiten/hausarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Hausarbeiten
@@ -115,7 +115,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Bachelorarbeit
@@ -128,7 +128,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                  href: '/arbeiten/masterarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Masterarbeit
@@ -141,7 +141,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/arbeiten/diplomarbeit'
+                  href: '/arbeiten/diplomarbeit'
                   target: null
                   rel: null
             text: Diplomarbeit
@@ -179,7 +179,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/bewerbung-ghostwriter-gwriters'
+                  href: '/blog/bewerbung-ghostwriter-gwriters'
                   target: null
                   rel: null
             text: 'Video: Was Du bei der Bewerbung als Ghostwriter bei GWriters beachten solltest'
@@ -191,7 +191,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/ghostwriting-lektorat-korrektorat'
+                  href: '/blog/ghostwriting-lektorat-korrektorat'
                   target: null
                   rel: null
             text: 'Video: Ghostwriting, Lektorat, Korrektorat – Was ist was?'
@@ -203,7 +203,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/blog/akademisches-ghostwriting-alternativen'
+                  href: '/blog/akademisches-ghostwriting-alternativen'
                   target: null
                   rel: null
             text: 'Video: 4 Alternativen zum akademischen Ghostwriting'
@@ -218,7 +218,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/wiki'
+                  href: '/wiki'
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

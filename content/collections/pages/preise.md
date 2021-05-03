@@ -63,7 +63,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen'
+                          href: '/leistungen'
                           target: null
                           rel: null
                     text: 'unsere Leistungen'
@@ -238,7 +238,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/leistungen/ghostwriting'
+                                  href: '/leistungen/ghostwriting'
                                   target: null
                                   rel: null
                             text: 'akademischen Ghostwriting'
@@ -256,7 +256,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                                  href: '/arbeiten/masterarbeit-schreiben-lassen'
                                   target: null
                                   rel: null
                             text: 'Masterarbeit schreiben lassen'
@@ -710,7 +710,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/fachrichtungen/finanzwissenschaften'
+                                  href: '/fachrichtungen/finanzwissenschaften'
                                   target: null
                                   rel: null
                             text: 'finanzwissenschaftliche Masterarbeit schreiben lassen'
@@ -723,7 +723,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/fachrichtungen/soziologie'
+                                  href: '/fachrichtungen/soziologie'
                                   target: null
                                   rel: null
                             text: 'sozialwissenschaftlichen Literaturarbeit'
@@ -871,7 +871,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
+                                  href: '/arbeiten/seminararbeit-schreiben-lassen'
                                   target: null
                                   rel: null
                             text: 'Seminararbeit kaufen'
@@ -1843,7 +1843,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                          href: '/arbeiten/doktorarbeit'
                           target: null
                           rel: null
                     text: "\_Doktorarbeit schreiben lassen\_"
@@ -1875,7 +1875,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                          href: '/arbeiten/hausarbeit-schreiben-lassen'
                           target: null
                           rel: null
                     text: "\_Hausarbeit\_"
@@ -1893,7 +1893,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen/korrektorat'
+                          href: '/leistungen/korrektorat'
                           target: null
                           rel: null
                     text: "Korrektorat\_"
@@ -1906,7 +1906,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen/lektorat'
+                          href: '/leistungen/lektorat'
                           target: null
                           rel: null
                     text: Lektorat
@@ -1961,7 +1961,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                          href: '/arbeiten/hausarbeit-schreiben-lassen'
                           target: null
                           rel: null
                     text: 'Hausarbeit schreiben lassen'

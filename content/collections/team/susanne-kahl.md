@@ -22,7 +22,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: 'https://gwriters.de/fachrichtungen/soziologie'
+                      href: '/fachrichtungen/soziologie'
                       target: null
                       rel: null
                 text: Sozialwissenschaften
@@ -35,7 +35,7 @@ bard:
                   -
                     type: link
                     attrs:
-                      href: 'https://gwriters.de/fachrichtungen/wirtschaftswissenschaften'
+                      href: '/fachrichtungen/wirtschaftswissenschaften'
                       target: null
                       rel: null
                 text: Wirtschaftswissenschaften
