@@ -69,11 +69,6 @@ function accordionToogle() {
         for (i = 0; i < accordionTabsContent.length; i++) {
             accordionTabsContent[i].classList.remove("active");
         }
-
-        var anchorReference = tabClickEvent.target;
-        var activePaneId = anchorReference.getAttribute("data-target");
-        var activePane = document.querySelector('.'+activePaneId);
-        activePane.classList.add("active");
     }
     for (var i = 0; i < accordionTabs.length; i++) {
         accordionTabs[i].addEventListener("click", accordionTabClicks)

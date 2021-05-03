@@ -320,6 +320,9 @@ body.ch {
     }
 }
 
+.accordion-tab .header:hover {
+    cursor: pointer;
+}
 .accordion-tab .content {
     @apply h-auto max-h-0;
 }
