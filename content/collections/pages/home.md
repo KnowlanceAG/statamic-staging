@@ -624,7 +624,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          href: /arbeiten/seminararbeit-schreiben-lassen-schreiben-lassen
                           target: null
                           rel: null
                     text: Seminararbeit
@@ -928,7 +928,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /leistungen/ghostwriting
+                          href: /ghostwriting
                           target: null
                           rel: null
                     text: Ghostwriting
@@ -941,7 +941,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /leistungen/lektorat
+                          href: /lektorat
                           target: null
                           rel: null
                     text: Lektorat
@@ -954,7 +954,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /leistungen/korrektorat
+                          href: /korrektorat
                           target: null
                           rel: null
                     text: Korrektorat
