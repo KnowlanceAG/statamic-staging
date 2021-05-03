@@ -105,7 +105,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/ghostwriting'
+                  href: '/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -716,7 +716,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/lektorat'
+                  href: '/lektorat'
                   target: null
                   rel: null
             text: Lektorat
@@ -861,7 +861,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/ghostwriting'
+                  href: '/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -1437,7 +1437,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/ghostwriting'
+                  href: '/ghostwriting'
                   target: null
                   rel: null
             text: Ghostwriting
@@ -1718,7 +1718,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/lektorat'
+                  href: '/lektorat'
                   target: null
                   rel: null
             text: Lektorat
@@ -1804,7 +1804,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/korrektorat'
+                  href: '/korrektorat'
                   target: null
                   rel: null
             text: Korrektorat

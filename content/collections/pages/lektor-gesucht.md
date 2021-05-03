@@ -152,7 +152,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/ghostwriting'
+                  href: '/ghostwriting'
                   target: null
                   rel: null
             text: 'akademisches Ghostwriting'
@@ -165,7 +165,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/lektorat'
+                  href: '/lektorat'
                   target: null
                   rel: null
             text: Lektorat

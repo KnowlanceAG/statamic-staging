@@ -74,7 +74,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/korrektorat'
+                  href: '/korrektorat'
                   target: null
                   rel: null
             text: Korrektorat

@@ -499,7 +499,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/verschiedenes/diplom-kaufen'
+                          href: '/wiki/diplom-kaufen'
                           target: null
                           rel: null
                     text: 'Diplom kaufen'

@@ -185,7 +185,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/ghostwriting'
+                  href: '/ghostwriting'
                   target: null
                   rel: null
             text: 'Schreiben kurzer wissenschaftlicher Arbeiten'

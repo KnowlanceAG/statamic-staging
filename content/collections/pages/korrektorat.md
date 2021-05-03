@@ -108,7 +108,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/lektorat'
+                          href: '/lektorat'
                           target: null
                           rel: null
                     text: ' Lektorat'

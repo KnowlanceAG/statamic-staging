@@ -168,7 +168,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/hausarbeit'
+                  href: '/arbeiten/hausarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Hausarbeit
@@ -207,7 +207,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/masterarbeit'
+                  href: '/arbeiten/masterarbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Masterarbeit
@@ -233,7 +233,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/seminararbeit'
+                  href: '/arbeiten/seminararbeit-schreiben-lassen'
                   target: null
                   rel: null
             text: Seminararbeit
@@ -915,7 +915,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/verschiedenes/diplom-kaufen'
+                  href: '/wiki/diplom-kaufen'
                   target: null
                   rel: null
             text: 'Diplom kaufen'
