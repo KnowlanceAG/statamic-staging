@@ -57,7 +57,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619791602
+updated_at: 1620053708
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -164,7 +164,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/blog/literaturquellen-richtig-zitieren'
+                          href: /blog/literaturquellen-richtig-zitieren
                           target: null
                           rel: null
                     text: Literatur
@@ -191,7 +191,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/blog/geschichte-studiengang'
+                          href: /blog/geschichte-studiengang
                           target: null
                           rel: null
                     text: 'deutsche Historie'
@@ -218,7 +218,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/literatur'
+                          href: /fachrichtungen/literatur
                           target: null
                           rel: null
                     text: Literatur
@@ -261,7 +261,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/blog/methoden-empirische-sozialforschung'
+                          href: /blog/methoden-empirische-sozialforschung
                           target: null
                           rel: null
                     text: 'notwendigen Methoden'
@@ -288,7 +288,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/lektorat/lektor'
+                          href: /lektorat/lektor
                           target: null
                           rel: null
                     text: Lektor
@@ -315,7 +315,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/korrektorat/korrektor'
+                          href: /korrektorat/korrektor
                           target: null
                           rel: null
                     text: Korrektor
@@ -342,7 +342,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/uebersetzung'
+                          href: /leistungen/uebersetzung
                           target: null
                           rel: null
                     text: Übersetzer
@@ -389,7 +389,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/anfrage'
+                          href: /anfrage
                           target: null
                           rel: null
                     text: 'unverbindliche Anfrage schicken'
@@ -446,7 +446,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/ghostwriting'
+                          href: /leistungen/ghostwriting
                           target: null
                           rel: null
                     text: Ghostwriting
@@ -467,7 +467,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/lektorat'
+                          href: /leistungen/lektorat
                           target: null
                           rel: null
                     text: Lektorat
@@ -488,7 +488,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/uebersetzung'
+                          href: /leistungen/uebersetzung
                           target: null
                           rel: null
                     text: Übersetzung
@@ -529,7 +529,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/korrektorat'
+                          href: /leistungen/korrektorat
                           target: null
                           rel: null
                     text: Korrektorat
@@ -550,7 +550,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/formatierung'
+                          href: /leistungen/formatierung
                           target: null
                           rel: null
                     text: Formatierung
@@ -571,7 +571,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/plagiatspruefung'
+                          href: /leistungen/plagiatspruefung
                           target: null
                           rel: null
                     text: Plagiatsprüfung
@@ -597,7 +597,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/maxqda-auswertung'
+                          href: /leistungen/maxqda-auswertung
                           target: null
                           rel: null
                     text: 'MAXQDA Auswertung'
@@ -618,7 +618,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/promotionsberatung'
+                          href: /promotionsberatung
                           target: null
                           rel: null
                     text: Promotionsberatung
@@ -677,7 +677,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Bachelorarbeit
@@ -690,7 +690,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/diplomarbeit'
+                          href: /arbeiten/diplomarbeit
                           target: null
                           rel: null
                     text: Diplomarbeit
@@ -703,7 +703,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/doktorarbeit'
+                          href: /arbeiten/doktorarbeit
                           target: null
                           rel: null
                     text: Doktorarbeit
@@ -716,7 +716,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/ebook'
+                          href: /arbeiten/ebook
                           target: null
                           rel: null
                     text: eBook
@@ -729,7 +729,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/essay'
+                          href: /arbeiten/essay
                           target: null
                           rel: null
                     text: Essay
@@ -745,7 +745,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/examensarbeit'
+                          href: /arbeiten/examensarbeit
                           target: null
                           rel: null
                     text: Examensarbeit
@@ -758,7 +758,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/expose'
+                          href: /expose
                           target: null
                           rel: null
                     text: Exposé
@@ -771,7 +771,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/facharbeit'
+                          href: /arbeiten/facharbeit
                           target: null
                           rel: null
                     text: Facharbeit
@@ -784,7 +784,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/hausarbeit'
+                          href: /arbeiten/hausarbeit
                           target: null
                           rel: null
                     text: Hausarbeit
@@ -797,7 +797,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/lernskript'
+                          href: /arbeiten/lernskript
                           target: null
                           rel: null
                     text: Lernskript
@@ -813,7 +813,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/magisterarbeit'
+                          href: /arbeiten/magisterarbeit
                           target: null
                           rel: null
                     text: Magisterarbeit
@@ -826,7 +826,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/masterarbeit'
+                          href: /arbeiten/masterarbeit
                           target: null
                           rel: null
                     text: Masterarbeit
@@ -839,7 +839,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/praesentationen'
+                          href: /arbeiten/praesentationen
                           target: null
                           rel: null
                     text: Präsentationen
@@ -852,7 +852,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/seminararbeit'
+                          href: /arbeiten/seminararbeit
                           target: null
                           rel: null
                     text: Seminararbeit
@@ -865,7 +865,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/statistische-analysen'
+                          href: /arbeiten/statistische-analysen
                           target: null
                           rel: null
                     text: 'Statische Analysen'
@@ -911,71 +911,28 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "Germanistik gehört zu den Klassikern im Studium der Geisteswissenschaften. In dem Studiengang wird die deutschsprachige Literatur in ihren historischen und gegenwärtigen Zuständen erforscht, analysiert und wissenschaftlich vermittelt. Daher ist das Ziel eines Germanistik Studiums, Wissen zu deutscher Sprache und Literatur zu vermitteln. Der Studiengang besteht aus drei Teilfächern, der mittelalterlichen Literatur und Sprache, der Linguistik, der Neueren Literaturwissenschaft. Germanisten sind\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: Sprachwissenschaftler
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: ", die sich mit der\_"
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/geschichte'
+                          href: /fachrichtungen/geschichte
                           target: null
                           rel: null
                     text: Geschichte
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
                     text: ", der Struktur und der Funktion von Literatur und Kultur in Deutschland beschäftigen. Daher ist der größte Aufgabenbereich von Germanistikstudenten sich mit den deutschen Texten auseinanderzusetzen. \_Synonyme für Germanistik sind „Deutsche Philologie“ und „Deutsche Sprach- und Literaturwissenschaft“."
               -
                 type: heading
@@ -1042,7 +999,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/ghostwriting'
+                          href: /leistungen/ghostwriting
                           target: null
                           rel: null
                     text: 'Texten als Mustervorlagen'
@@ -1069,7 +1026,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/blog/nadel-im-heuhaufen-bachelorarbeit-thema-finden'
+                          href: /blog/nadel-im-heuhaufen-bachelorarbeit-thema-finden
                           target: null
                           rel: null
                     text: Themenfindung
@@ -1130,7 +1087,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/blog/systematische-literaturrecherche'
+                          href: /blog/systematische-literaturrecherche
                           target: null
                           rel: null
                     text: Recherchen
@@ -1157,7 +1114,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/blog/qualitative-inhaltsanalyse-mayring-beispiele'
+                          href: /blog/qualitative-inhaltsanalyse-mayring-beispiele
                           target: null
                           rel: null
                     text: "\_Analysen"
@@ -1184,7 +1141,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/blog/gwriters-coaching'
+                          href: /blog/gwriters-coaching
                           target: null
                           rel: null
                     text: "\_begleiten"
@@ -1234,107 +1191,46 @@ replicator:
                     text: "\_"
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "Als zentrale Teilfächer werden Sie im Bachelor Germanistik, die Linguistik, die Neuere deutsche Literatur und die Mediävistik behandeln. Unter\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: „Linguistik“
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: "\_wird auch die\_"
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/sprachwissenschaften'
+                          href: /fachrichtungen/sprachwissenschaften
                           target: null
                           rel: null
                     text: Sprachwissenschaften
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
                     text: "\_verstanden. Hier werden Sie verschiedene Herangehensweisen der menschlichen Sprache bzw. ihre Geschichte, Bedeutung und Struktur untersuchen. In der\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
                     text: „Mediävistik“
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
                     text: "\_spricht man von der Mittelalterforschung, während Sie sich in\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
                     text: '„Neuere deutsche Literatur“'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
                     text: "\_mit der deutschsprachigen Literatur vom 16. Jahrhundert bis zur Gegenwart beschäftigen."
               -
                 type: paragraph
@@ -1410,7 +1306,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/seminararbeit-schreiben-lassen'
+                          href: /arbeiten/seminararbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Seminararbeit
@@ -1421,7 +1317,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_helfen. Alternativ zu einer begleitenden Unterstützung können Sie einen akademischen Ghostwriter auch eine Mustervorlage für Ihre"
+                    text: "\_helfen. Alternativ zu einer begleitenden Unterstützung können Sie einen akademischen Ghostwriter auch eine Mustervorlage für Ihre "
                   -
                     type: text
                     marks:
@@ -1437,10 +1333,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/hausarbeit-schreiben-lassen'
+                          href: /arbeiten/hausarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: "\_Hausarbeit schreiben lassen"
+                    text: 'Hausarbeit schreiben lassen'
                   -
                     type: text
                     marks:
@@ -1452,59 +1348,6 @@ replicator:
               -
                 type: table
                 content:
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: left
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(255, 102, 2)'
-                                      hex: '#000'
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: '/wp-admin/admin.php?page=tablepress&action=edit&table_id=30'
-                                      target: null
-                                      rel: null
-                                text: Bearbeiten
                   -
                     type: table_row
                     content:
@@ -2235,7 +2078,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/biologie'
+                          href: /fachrichtungen/biologie
                           target: null
                           rel: null
                     text: "\_Biologie"
@@ -2262,7 +2105,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/geschichte'
+                          href: /fachrichtungen/geschichte
                           target: null
                           rel: null
                     text: Geschichte
@@ -2307,7 +2150,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/kommunikationswissenschaften'
+                          href: /fachrichtungen/kommunikationswissenschaften
                           target: null
                           rel: null
                     text: "\_journalistischen Bereich"
@@ -2368,7 +2211,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/marketing'
+                          href: /fachrichtungen/marketing
                           target: null
                           rel: null
                     text: "\_Marketing"
@@ -2605,7 +2448,7 @@ replicator:
                                           -
                                             type: link
                                             attrs:
-                                              href: '/fachrichtungen/kommunikationswissenschaften'
+                                              href: /fachrichtungen/kommunikationswissenschaften
                                               target: null
                                               rel: null
                                         text: Kommunikation
@@ -2946,7 +2789,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/seminararbeit'
+                          href: /arbeiten/seminararbeit
                           target: null
                           rel: null
                     text: Seminararbeit
@@ -3054,7 +2897,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/wiki'
+                          href: /wiki
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
