@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /agb
 Disallow: /datenschutzerklaerung
 
-Sitemap: https://gwriters.de/sitemap.xml
+Sitemap: https://gwriters.ch/sitemap_ch.xml
