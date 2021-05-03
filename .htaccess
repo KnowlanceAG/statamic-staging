@@ -13,12 +13,9 @@ RewriteRule !/$ %{REQUEST_URI}/index.html [L]
 ErrorDocument 404 /404/index.html
 ErrorDocument 403 /404/index.html
 
-RewriteCondition %{HTTP_HOST} ^www.gwriters.ch$ [OR]
-RewriteCondition %{HTTP_HOST} ^gwriters.ch$
+RewriteCond %{HTTP_HOST} ^www.gwriters.ch$ [OR]
+RewriteCond %{HTTP_HOST} ^gwriters.ch$
 RewriteRule ^sitemap.xml$  /sitemap_ch.xml [L]
-
-RewriteCondition %{HTTP_HOST} ^www.gwriters.ch$ [OR]
-RewriteCondition %{HTTP_HOST} ^gwriters.ch$
 RewriteRule ^robots.txt$  /robots_ch.txt [L]
 
 Redirect 301 /Seminararbeit-beispiel-blockchain /hausarbeit-beispiel-embryonenforschung
