@@ -18,6 +18,11 @@ RewriteCond %{HTTP_HOST} ^gwriters.ch$
 RewriteRule ^sitemap.xml$  /sitemap_ch.xml [L]
 RewriteRule ^robots.txt$  /robots_ch.txt [L]
 
+RewriteCond %{HTTP_HOST} ^www.gwriters.de$ [OR]
+RewriteCond %{HTTP_HOST} ^gwriters.de$
+RewriteRule ^sitemap.xml$  /sitemap_de.xml [L]
+RewriteRule ^robots.txt$  /robots_de.txt [L]
+
 Redirect 301 /Seminararbeit-beispiel-blockchain /hausarbeit-beispiel-embryonenforschung
 Redirect 301 /abgesendet-new /anfrage-abgesendet-adag
 Redirect 301 /aff-request /anfrage
