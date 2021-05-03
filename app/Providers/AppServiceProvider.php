@@ -24,6 +24,11 @@ class AppServiceProvider extends ServiceProvider
 
     private function bootSsg()
     {
+        // replacing app.url with static (public) url while generating ssg pages.
+        $config = config('app');
+        $config['url'] = config('cpssg.static_site_url');
+        config(['app' => $config]);
+
         $this->app->extend(LengthAwarePaginator::class, function ($paginator) {
             $options = $paginator->getOptions();
 

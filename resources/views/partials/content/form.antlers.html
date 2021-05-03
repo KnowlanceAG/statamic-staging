@@ -1,6 +1,6 @@
 {{ form:create in="{ form:handle }" id="form" class="flex flex-wrap form-self"
 x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
-@submit.prevent="sendForm()" action="{ config:app:url }/!/forms/{ form:handle }"
+@submit.prevent="sendForm()" action="{ config:cpssg:dynamic_site_url }/!/forms/{ form:handle }"
 }}
 <div
   class="w-full grid md:grid-cols-12 gap-y-6 md:gap-x-6 pt-6 pb-12 px-2 sm:px-6 lg:pt-8 lg:pb-16 lg:px-8 bg-gray-200"
