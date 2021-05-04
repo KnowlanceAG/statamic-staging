@@ -163,10 +163,12 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
               }
             })
             .catch((err) => {
-              err.text().then((errorMessage) => {
-                this.sending = false
-                console.log('errorMessage')
-              })
+              this.sending = false
+              if (err && err.text) {
+                err.text().then((errorMessage) => {
+                  console.log('errorMessage', errorMessage)
+                })
+              }
             })
         }
       },
