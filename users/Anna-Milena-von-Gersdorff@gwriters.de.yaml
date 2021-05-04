@@ -7,20 +7,7 @@ position:
     content:
       -
         type: text
-        text: '(Head of '
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: /fachrichtungen/marketing
-              target: null
-              rel: null
-        text: Marketing
-      -
-        type: text
-        text: )
+        text: '(Head of Marketing)'
 short_text:
   -
     type: paragraph
