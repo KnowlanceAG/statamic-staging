@@ -65,7 +65,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: Ghostwriting
@@ -110,7 +110,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
@@ -242,9 +242,9 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wp-content/uploads/2017/03/Ghostwriting-legal.pdf'
+                  href: /assets/downloads/faq/ghostwriting-legal-strafbar.pdf
                   target: null
-                  rel: ''
+                  rel: null
             text: 'Ist Ghostwriting strafbar?'
       -
         type: paragraph
@@ -266,7 +266,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/faq'
+                  href: /faq
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'
@@ -275,8 +275,8 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619643694
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1620121300
 page_title: 'Ist Ghostwriting strafbar? Alles dazu auf GWriters'
 meta_title: 'Ist Ghostwriting strafbar? Alles dazu auf GWriters'
 meta_description: 'Ist Ghostwriting strafbar? Erfahren Sie alles dazu im Artikel und auf GWriters.de - Ihrer Ghostwriter Agentur.'
