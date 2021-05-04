@@ -158,6 +158,7 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
                 this.error = true
                 this.success = false
                 this.errors = json['error']
+                form.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
               }
             })
             .catch((err) => {
