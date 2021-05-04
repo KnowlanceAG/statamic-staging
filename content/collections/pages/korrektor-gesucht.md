@@ -61,7 +61,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat/korrektor'
+                  href: /korrektorat/korrektor
                   target: null
                   rel: null
             text: 'Korrektor '
@@ -102,7 +102,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/hausarbeit-schreiben-lassen'
+                  href: /arbeiten/hausarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Hausarbeiten
@@ -115,7 +115,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Bachelorarbeit
@@ -128,7 +128,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/masterarbeit-schreiben-lassen'
+                  href: /arbeiten/masterarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Masterarbeit
@@ -141,7 +141,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/diplomarbeit'
+                  href: /arbeiten/diplomarbeit
                   target: null
                   rel: null
             text: Diplomarbeit
@@ -179,7 +179,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/bewerbung-ghostwriter-gwriters'
+                  href: /blog/bewerbung-ghostwriter-gwriters
                   target: null
                   rel: null
             text: 'Video: Was Du bei der Bewerbung als Ghostwriter bei GWriters beachten solltest'
@@ -191,7 +191,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/ghostwriting-lektorat-korrektorat'
+                  href: /blog/ghostwriting-lektorat-korrektorat
                   target: null
                   rel: null
             text: 'Video: Ghostwriting, Lektorat, Korrektorat – Was ist was?'
@@ -203,7 +203,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/akademisches-ghostwriting-alternativen'
+                  href: /blog/akademisches-ghostwriting-alternativen
                   target: null
                   rel: null
             text: 'Video: 4 Alternativen zum akademischen Ghostwriting'
@@ -218,7 +218,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
@@ -226,11 +226,11 @@ replicator:
     type: editor
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619469431
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1620122504
 page_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
 meta_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
-meta_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'
+meta_description: 'Korrektor gesucht? Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches sowie Informationen zu Ablauf, Kosten & Preisen finden Sie bei GWriters!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
