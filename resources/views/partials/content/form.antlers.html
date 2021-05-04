@@ -152,6 +152,7 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
                 this.error = false
                 this.sending = false
                 this.$refs.form.reset()
+                window.location.assign('/anfrage-abgesendet')
               }
               if (json['error']) {
                 this.sending = false
