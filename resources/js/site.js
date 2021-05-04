@@ -36,7 +36,6 @@ function tabToggle() {
 
         var clickedTab = tabClickEvent.currentTarget;
         clickedTab.classList.add("active");
-        tabClickEvent.preventDefault();
         var gwritersContentPanes = document.querySelectorAll(".link-list-body");
 
         for (i = 0; i < gwritersContentPanes.length; i++) {
@@ -63,7 +62,6 @@ function accordionToogle() {
 
         var clickedTab = tabClickEvent.currentTarget;
         clickedTab.classList.add("active");
-        tabClickEvent.preventDefault();
         var accordionTabsContent = document.querySelectorAll("div.accordion-tab.content");
 
         for (i = 0; i < accordionTabsContent.length; i++) {
