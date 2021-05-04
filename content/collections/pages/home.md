@@ -65,7 +65,7 @@ teaser:
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1620051262
+updated_at: 1620111611
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -490,14 +490,14 @@ replicator:
                           - 84a37239-87ee-45fb-b2d1-058a86fecfbb
                           - f501c52c-7217-448e-bb53-d6f84c7e51c8
                           - 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
+                          - b850974c-8d2d-4448-b168-3dccef384025
                           - 051a1060-2c31-4edd-af39-c44fe3842526
                           - 21aff10c-582a-440f-9f50-1af525566292
-                          - 8c2000e0-d0b2-49f1-9e95-c3eb1e93b1fd
+                          - 839e6791-eebd-4bc8-8975-a278836a9c05
                           - 925eedca-5fbe-4da9-a307-807426feaeeb
-                          - b850974c-8d2d-4448-b168-3dccef384025
                           - f07c0010-40dd-407e-bf32-a1a260b5016b
                           - b8930678-fff6-4d7a-8ae8-056605f303f2
-                          - 4f92f65f-d065-438c-aadb-d0992f2e138f
+                          - 06fbb3f4-51c2-4f11-832e-9b72a495857d
                           - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
                           - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
                           - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f

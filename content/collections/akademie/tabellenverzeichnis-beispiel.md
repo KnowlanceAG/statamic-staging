@@ -61,7 +61,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/gwriters-akademie/abbildungsverzeichnis'
+                  href: /gwriters-akademie/abbildungsverzeichnis
                   target: null
                   rel: null
             text: Abbildungsverzeichnis
@@ -74,7 +74,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/fachrichtungen/bwl'
+                  href: /fachrichtungen/bwl
                   target: null
                   rel: null
             text: ' BWL'
@@ -87,7 +87,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: 'Bachelorarbeit schreiben lassen'
@@ -100,7 +100,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
@@ -138,17 +138,17 @@ replicator:
         content:
           -
             type: text
-            text: 'Unser Tabellenverzeichnis Beispiel ist speziell für wissenschaftliche'
+            text: 'Unser Tabellenverzeichnis Beispiel ist speziell für wissenschaftliche '
           -
             type: text
             marks:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/facharbeit'
+                  href: /arbeiten/facharbeit
                   target: null
                   rel: null
-            text: ' Facharbeiten'
+            text: Facharbeiten
           -
             type: text
             text: ' bestimmt und bietet Studierende einen Einblick in die wissenschaftliche Praxis.'
@@ -172,7 +172,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wissenschaftliche-arbeiten-schreiben-word'
+                  href: /blog/wissenschaftliche-arbeiten-schreiben-word
                   target: null
                   rel: null
             text: 'wissenschaftliche Arbeit in Word'
@@ -185,7 +185,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: 'Schreiben kurzer wissenschaftlicher Arbeiten'
@@ -394,8 +394,8 @@ replicator:
     type: editor
     enabled: true
     show_as_card: false
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619727872
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1620123960
 academy_short_text-headline: 'Tabellenverzeichnis Beispiel'
 academy_short_text: 'Nutzen Sie unser Tabellenverzeichnis Beispiel für jede wissenschaftliche Arbeit mit einer Vielzahl von Tabellen.'
 use_meta_keywords: false

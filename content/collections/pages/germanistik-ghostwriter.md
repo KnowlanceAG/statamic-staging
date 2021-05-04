@@ -57,7 +57,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1620053708
+updated_at: 1620124076
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1306,7 +1306,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /arbeiten/seminararbeit-schreiben-lassen-schreiben-lassen
+                          href: /arbeiten/seminararbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Seminararbeit
@@ -2062,7 +2062,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Nach dem Studium bieten sich viele unterschiedliche Germanistik Berufe an. Es ist zunächst möglich Germanistik auf Lehramt zu studieren, um später als Deutschlehrer tätig zu werden. Dafür sollten Sie neben dem Studienfach Germanistik ein zweites Fach zum Beispiel im Bereich der'
+                    text: 'Nach dem Studium bieten sich viele unterschiedliche Germanistik Berufe an. Es ist zunächst möglich Germanistik auf Lehramt zu studieren, um später als Deutschlehrer tätig zu werden. Dafür sollten Sie neben dem Studienfach Germanistik ein zweites Fach zum Beispiel im Bereich der '
                   -
                     type: text
                     marks:
@@ -2081,7 +2081,7 @@ replicator:
                           href: /fachrichtungen/biologie
                           target: null
                           rel: null
-                    text: "\_Biologie"
+                    text: Biologie
                   -
                     type: text
                     marks:
@@ -2122,46 +2122,20 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Außerdem finden sich weitere Karrieremöglichkeiten im Journalismus, Verlagswesen, Online-Medien und PR-Bereich. Eine Stelle bei einer Zeitung ist für Absolventen des Studiengangs Germanistik sehr interessant. Ein Volontariat bzw. Praktika sind hierfür Voraussetzung bzw. erleichtern den Einstieg z.B. in eine Redaktion. Journalistische Schwerpunkte werden allerdings im Studium nicht vermittelt. Vermittelt wird ein methodisches Wissen zur Aufbereitung und Bearbeitung von Texten. Ebenso können Germanistik Ghostwriter im'
+                    text: "Außerdem finden sich weitere Karrieremöglichkeiten im Journalismus, Verlagswesen, Online-Medien und PR-Bereich. Eine Stelle bei einer Zeitung ist für Absolventen des Studiengangs Germanistik sehr interessant. Ein Volontariat bzw. Praktika sind hierfür Voraussetzung bzw. erleichtern den Einstieg z.B. in eine Redaktion. Journalistische Schwerpunkte werden allerdings im Studium nicht vermittelt. Vermittelt wird ein methodisches Wissen zur Aufbereitung und Bearbeitung von Texten. Ebenso können Germanistik Ghostwriter im\_"
                   -
                     type: text
                     marks:
-                      -
-                        type: underline
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/kommunikationswissenschaften
+                          href: 'https://statamic-dynamic.gwriters.de/fachrichtungen/kommunikationswissenschaften'
                           target: null
                           rel: null
-                    text: "\_journalistischen Bereich"
+                    text: 'journalistischen Bereich'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: "\_ Sie unterstützen. Denn Germanistik Ghostwriter bringen eine fundierte Ausbildung mit sich und sind bereits viele Jahre im beruflichen Kontext tätig. So können diese ihr berufliches Wissen bzw. Praxiswissen ideal mit theoretischen Grundkenntnissen verknüpfen und Ihnen weitergeben."
+                    text: "\_Sie unterstützen. Denn Germanistik Ghostwriter bringen eine fundierte Ausbildung mit sich und sind bereits viele Jahre im beruflichen Kontext tätig. So können diese ihr berufliches Wissen bzw. Praxiswissen ideal mit theoretischen Grundkenntnissen verknüpfen und Ihnen weitergeben."
               -
                 type: heading
                 attrs:
@@ -2195,7 +2169,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Als Lehrer verdienen Sie zwischen 3.500 € und 4.000 € brutto im Monat. Wenn Sie im Bereich Forschung,'
+                    text: 'Als Lehrer verdienen Sie zwischen 3.500 € und 4.000 € brutto im Monat. Wenn Sie im Bereich Forschung, '
                   -
                     type: text
                     marks:
@@ -2214,7 +2188,7 @@ replicator:
                           href: /fachrichtungen/marketing
                           target: null
                           rel: null
-                    text: "\_Marketing"
+                    text: Marketing
                   -
                     type: text
                     marks:
@@ -2296,49 +2270,6 @@ replicator:
               -
                 type: table
                 content:
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: left
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: 'rgb(255, 102, 2)'
-                                      hex: '#000'
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: '/wp-admin/admin.php?page=tablepress&action=edit&table_id=31'
-                                      target: null
-                                      rel: null
-                                text: Bearbeiten
                   -
                     type: table_row
                     content:
