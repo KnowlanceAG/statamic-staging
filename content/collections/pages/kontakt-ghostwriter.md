@@ -88,7 +88,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/fachrichtungen/kommunikationswissenschaften'
+                  href: /fachrichtungen/kommunikationswissenschaften
                   target: null
                   rel: null
             text: Kommunikation
@@ -131,7 +131,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/kontakt'
+                  href: /kontakt
                   target: null
                   rel: null
             text: Kontakt
@@ -163,7 +163,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/faq'
+                  href: /faq
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'
@@ -172,8 +172,8 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619643914
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1620122514
 page_title: 'Habe ich Kontakt zu meinem Ghostwriter? • GWriters'
 meta_title: 'Habe ich Kontakt zu meinem Ghostwriter? • GWriters'
 meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Ablauf Ihres Ghostwriting Jobs.'
