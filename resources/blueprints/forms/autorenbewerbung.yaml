@@ -89,6 +89,7 @@ sections:
           container: formular_uploads
           restrict: false
           allow_uploads: true
+          max_files: 5
           display: Datei-Anhang
           type: assets
           icon: assets
