@@ -178,7 +178,7 @@ downloads:
 page_title: 'Kostenloses Abbildungsverzeichnis für Ihre Hausarbeit herunterladen'
 template: academy-item
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1620210356
+updated_at: 1620210409
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
