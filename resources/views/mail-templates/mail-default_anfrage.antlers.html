@@ -1,4 +1,5 @@
-<p>Kundenanfrage vom {{ date format="d.m.Y, H:m:s" }}</p>
+<p>Kundenanfrage vom {{ date timezone="Europe/Berlin" format="d.m.Y, H:i:s" }}</p>
+
 <p>--------------------------</p>
 <p>{{ if name }}Vorname: {{ name }}<br>{{ /if }}
 {{ if nachname }}Nachname: {{ nachname }}<br>{{ /if }}
