@@ -125,7 +125,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwritern
@@ -206,8 +206,8 @@ replicator:
     type: editor
     enabled: true
     show_as_card: false
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619733853
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1620209996
 academy_short_text-headline: Abkürzungsverzeichnis
 academy_short_text: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel für Ihre Arbeit.'
 use_meta_keywords: false
@@ -235,7 +235,7 @@ from_the_blog:
   - 774827ee-5840-450d-aca6-d60187adc46b
   - 8d0d751b-54ea-4b94-a1b7-9fe5c7850427
 page_title: 'Kostenloses Abkürzungsverzeichnis für Ihre Hausarbeit herunterladen'
-meta_description: '? Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel. Unsere professionelle Verzeichnisvorlage, nur einen Klick entfernt! ↘️↘️↘️'
+meta_description: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel. Unsere professionelle Verzeichnisvorlage, nur einen Klick entfernt! ↘️↘️↘️'
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 meta_title: 'Kostenloses Abkürzungsverzeichnis für Ihre Hausarbeit herunterladen'
 template: academy-item
