@@ -64,8 +64,8 @@ teaser:
     type: paragraph
 teaser_bg:
   - seiten/home/gwrites-headervisual-1.jpg
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1620111611
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1620231819
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -290,7 +290,12 @@ replicator:
                 attrs:
                   values:
                     type: insert_html
-                    html: '<iframe frameborder="0" scrolling="no" title="Customer reviews powered by Trustpilot" loading="auto" src="https://widget.trustpilot.com/trustboxes/53aa8912dec7e10d38f59f36/index.html?templateId=53aa8912dec7e10d38f59f36&amp;businessunitId=50ff38960000640005212bff#locale=de-DE&amp;styleHeight=130px&amp;styleWidth=100%25&amp;theme=light&amp;stars=4%2C5&amp;schemaType=Organization" style="position: relative; height: 130px; width: 100%; border-style: none; display: block; overflow: hidden;"></iframe>'
+                    html: |-
+                      <!-- TrustBox widget - Carousel -->
+                                            <div class="trustpilot-widget" data-locale="de-DE" data-template-id="53aa8912dec7e10d38f59f36" data-businessunit-id="50ff38960000640005212bff" data-style-height="140px" data-style-width="100%" data-theme="light" data-stars="4,5" data-review-languages="de">
+                                            <a href="https://de.trustpilot.com/review/gwriters.de" target="_blank" rel="noopener">Trustpilot</a>
+                                            </div>
+                                            <!-- End TrustBox widget -->
               -
                 type: paragraph
             show_as_card: false
