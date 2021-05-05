@@ -8,5 +8,5 @@ email:
     html: mail-templates/mail-default_contact
   -
     to: '{{ email }}'
-    subject: 'gwriters.de - Ihre Anfrage vom {{ date format="d.m.Y - H:m:s" }}'
+    subject: 'gwriters.de - Ihre Anfrage'
     html: mail-templates/mail-thx_contact
