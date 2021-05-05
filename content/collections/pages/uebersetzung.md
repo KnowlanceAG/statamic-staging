@@ -173,8 +173,8 @@ replicator:
                         type: link
                         attrs:
                           href: /anfrage
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
+                          target: null
+                          rel: null
                     text: Anfrage
                   -
                     type: text
@@ -901,7 +901,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1620228855
+updated_at: 1620228885
 meta_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
 meta_description: 'Akademische Übersetzer, Autoren, Lektoren, Korrektoren, Coaches finden & Informationen zum Thema Übersetzung: Leistungen, Ablauf, Kosten & Preise.'
 use_meta_keywords: false
