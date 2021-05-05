@@ -22,7 +22,7 @@ teaser:
 page_title: 'GWriters.de • Ghostwriter Blog'
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619785927
+updated_at: 1620209725
 replicator:
   -
     collections:
@@ -38,4 +38,5 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 meta_title: 'GWriters.de • Ghostwriter Blog'
+meta_description: 'In unserem Blog schreiben die akademischen Experten von GWriters über interessante Themen aus dem Bereich des Ghostwritings und teilen wertvolle Ratschläge und Tipps!'
 ---
