@@ -14,7 +14,7 @@ sections:
       -
         handle: email
         field:
-          input_type: text
+          input_type: email
           antlers: false
           display: 'E-Mail Adresse'
           type: text
@@ -67,5 +67,3 @@ sections:
           type: text
           icon: text
           listable: hidden
-
-
