@@ -2,6 +2,6 @@ title: Anfrage
 honeypot: emails
 email:
   -
-    to: huckels@uscreen.de
+    to: service@gwriters.de
     from: service@gwriters.de
     subject: 'Anfrage gwriters.de'
