@@ -113,4 +113,5 @@ return [
         ],
     ],
 
+    'sendAttachmentsTo' => explode(',', preg_replace('/\s+/', '', env('SEND_ATTACHMENTS_TO', 'service@gwriters.de,kontakt@gwriters.de')))
 ];
