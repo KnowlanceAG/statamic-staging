@@ -178,7 +178,7 @@ downloads:
 page_title: 'Kostenloses Abbildungsverzeichnis für Ihre Hausarbeit herunterladen'
 template: academy-item
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1620229271
+updated_at: 1620229324
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -188,7 +188,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 academy_short_text-headline: Abbildungsverzeichnis
-academy_short_text: 'Erstellen Sie mit unserem Abbildungsverzeichnis-Beispiel schnell Ihr individuelles Abbildungsverzeichnis. [presse](/presse)'
+academy_short_text: 'Erstellen Sie mit unserem Abbildungsverzeichnis-Beispiel schnell Ihr individuelles Abbildungsverzeichnis.'
 more_templates:
   - 8778439c-ea07-4542-9287-cb87e6074f6a
   - 56a76afe-cd5a-4ab4-91c3-39b2b98ffe32
