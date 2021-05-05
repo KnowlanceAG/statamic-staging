@@ -10,3 +10,4 @@ email:
     to: '{{ email }}'
     subject: 'gwriters.de - Ihre Anfrage'
     html: mail-templates/mail-thx_contact
+    from: huckels@uscreen.de

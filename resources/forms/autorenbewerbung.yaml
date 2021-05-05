@@ -10,3 +10,4 @@ email:
     to: '{{ e_mail_adresse }}'
     html: mail-templates/mail-thx_autorenbewerbung
     subject: 'gwriters.de - Ihre Bewerbung'
+    from: huckels@uscreen.de
