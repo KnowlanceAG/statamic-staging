@@ -101,7 +101,7 @@ sections:
       -
         handle: lieferdatum
         field:
-          input_type: text
+          input_type: date
           antlers: false
           display: Lieferdatum
           type: text
