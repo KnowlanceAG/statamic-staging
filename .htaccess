@@ -92,3 +92,7 @@ Redirect 301 /ghostwriting/ghostwriter-gesucht /ghostwriting/suche-ghostwriter
 Redirect 301 /fachrichtungen/mathematik/aegyptische-papyri /fachrichtungen/mathematik
 
 Redirect 301 /verschiedenes/diplom-kaufen /wiki/diplom-kaufen
+
+Redirect 301 /leistungen/ghostwriting /ghostwriting
+Redirect 301 /leistungen/lektorat /lektorat
+Redirect 301 /leistungen/korrektorat /korrektorat

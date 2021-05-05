@@ -34,7 +34,7 @@ sections:
           validate:
             - required
       -
-        handle: message
+        handle: nachricht
         field:
           antlers: false
           display: Nachricht
@@ -44,13 +44,13 @@ sections:
           validate:
             - required
       -
-        handle: upload
+        handle: file
         field:
           mode: grid
           container: formular_uploads
           restrict: false
           allow_uploads: true
-          max_files: 1
+          max_files: 5
           display: Datei-Anhang
           type: assets
           icon: assets

@@ -3,5 +3,11 @@ honeypot: emails
 email:
   -
     to: service@gwriters.de
+    subject: Kundenanfrage
+    html: mail-templates/mail-default_anfrage
+    from: service@gwriters.de
+  -
+    to: '{{ e_mail_adresse }}'
     from: service@gwriters.de
     subject: 'Anfrage gwriters.de'
+    html: mail-templates/mail-thx_anfrage
