@@ -1,0 +1,17 @@
+<p>Autoren Bewerbung vom {{ date format="d.m.Y, H:m:s" }}</p>
+<p>--------------------------</p>
+<p>{{ if vorname }}Vorname: {{ vorname }}<br>{{ /if }}
+{{ if nachname }}Nachname: {{ nachname }}<br>{{ /if }}
+{{ if e_mail_adresse }}Emailadresse: {{ e_mail_adresse }}<br>{{ /if }}
+{{ if telefonnummer }}Telefon: {{ telefonnummer }}<br>{{ /if }}
+{{ if qualifikation }}Qualifikationen: {{ qualifikation }}<br>{{ /if }}
+{{ if fachbereiche_and_interessensschwerpunkte }}Fachbereiche & Interessensschwerpunkte: {{ fachbereiche_and_interessensschwerpunkte }}<br>{{ /if }}
+{{ if weitere_informationen }}Weitere Informationen: {{ weitere_informationen }}{{ /if }}</p>
+{{ if gw_source }}Source: {{ gw_source }}{{ /if }}<p>
+
+{{ if file }}
+<p>Dateianhänge:</p>
+    {{ file }}
+        {{ url }}
+    {{ /file}}
+{{ /if }}

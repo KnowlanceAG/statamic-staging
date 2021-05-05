@@ -1,0 +1,20 @@
+<p>Kundenanfrage vom {{ date format="d.m.Y, H:m:s" }}</p>
+<p>--------------------------</p>
+<p>{{ if name }}Vorname: {{ name }}<br>{{ /if }}
+{{ if nachname }}Nachname: {{ nachname }}<br>{{ /if }}
+{{ if e_mail_adresse }}Emailadresse: {{ e_mail_adresse }}<br>{{ /if }}
+{{ if telefon }}Telefon: {{ telefon }}<br>{{ /if }}
+{{ if fachrichtung }}Fachbereich: {{ fachrichtung }}<br>{{ /if }}
+{{ if arbeitsthema_spezifikationen_usw }}Spezifikation: {{ arbeitsthema_spezifikationen_usw }}<br>{{ /if }}
+{{ if seitenzahl }}Seitenzahl: {{ seitenzahl }}<br>{{ /if }}
+{{ if lieferdatum }}Abgabedatum: {{ lieferdatum }}</br>{{ /if }}
+{{ if promocode }}Promocode: {{ promocode }}<br>{{ /if }}
+{{ if gw_source }}Source: {{ gw_source }}{{ /if }}<p>
+
+{{ if file }}
+<p>Dateianhänge:</p>
+    {{ file }}
+        {{ url }}
+    {{ /file}}
+{{ /if }}
+

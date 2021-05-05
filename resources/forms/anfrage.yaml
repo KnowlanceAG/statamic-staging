@@ -3,5 +3,10 @@ honeypot: emails
 email:
   -
     to: huckels@uscreen.de
+    subject: 'Kundenanfrage - {{ date format="d.m.Y, H:m:s" }}'
+    html: mail-templates/mail-default_anfrage
+  -
+    to: '{{ e_mail_adresse }}'
     from: huckels@uscreen.de
-    subject: 'Anfrage gwriters.de'
+    subject: 'gwriters.de - Ihre Anfrage vom {{ date format="d.m.Y - H:m:s" }}'
+    html: mail-templates/mail-thx_anfrage

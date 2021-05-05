@@ -34,7 +34,7 @@ sections:
           validate:
             - required
       -
-        handle: message
+        handle: nachricht
         field:
           antlers: false
           display: Nachricht
@@ -44,7 +44,7 @@ sections:
           validate:
             - required
       -
-        handle: upload
+        handle: file
         field:
           mode: grid
           container: formular_uploads
