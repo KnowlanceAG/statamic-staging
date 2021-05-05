@@ -87,7 +87,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/formatierung'
+                  href: /leistungen/formatierung
                   target: null
                   rel: null
             text: "\_Formatierung\_"
@@ -118,7 +118,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Bachelorarbeit
@@ -131,7 +131,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/masterarbeit-schreiben-lassen'
+                  href: /arbeiten/masterarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Masterarbeit
@@ -144,7 +144,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/doktorarbeit'
+                  href: /arbeiten/doktorarbeit
                   target: null
                   rel: null
             text: "Doktorarbeit\_"
@@ -177,8 +177,8 @@ downloads:
   - akademie/Abbildungsverzeichnis.docx
 page_title: 'Kostenloses Abbildungsverzeichnis für Ihre Hausarbeit herunterladen'
 template: academy-item
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619799327
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1620210494
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -205,4 +205,6 @@ from_the_blog:
   - fe2b45f7-57ac-4f25-8f8f-e879958b1fa6
   - 7b521a57-06aa-4181-8046-2cd4cb1f8efa
   - 774827ee-5840-450d-aca6-d60187adc46b
+meta_title: 'Kostenloses Abbildungsverzeichnis für Ihre Hausarbeit herunterladen'
+meta_description: 'Hier können Sie unser Abbildungsverzeichnis kostenlos herunterladen. Profitieren Sie von unserer Erfahrung und verwenden Sie unsere Vorlage für Ihre wissenschaftliche Arbeit.'
 ---

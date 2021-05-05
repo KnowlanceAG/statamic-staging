@@ -4,7 +4,7 @@ title: 'GWriters Akademie'
 teaser_bg:
   - seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619793018
+updated_at: 1620209975
 page_title: 'Die GWriters Akademie für wissenschaftliches Arbeiten'
 use_meta_keywords: false
 no_index_page: false
@@ -216,4 +216,6 @@ replicator:
     type: editor
     enabled: true
     show_as_card: false
+meta_title: 'Die GWriters Akademie für wissenschaftliches Arbeiten'
+meta_description: 'In der GWriters Akademie finden Sie wertvolle Ratgeber zum wissenschaftlichen Arbeiten, kostenlos Vorlagen für alle Arten von Verzeichnissen  und vieles mehr! Profitieren Sie von unserer Erfahrung 🎓'
 ---
