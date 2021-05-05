@@ -40,7 +40,7 @@ teaser:
   -
     type: paragraph
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619787742
+updated_at: 1620144320
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
 replicator:
@@ -67,7 +67,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/'
+                  href: /
                   target: null
                   rel: null
             text: GWriters.de
@@ -95,7 +95,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://www.gwriters.ch'
+                  href: 'https://gwriters.ch'
                   target: null
                   rel: null
             text: GWriters.ch

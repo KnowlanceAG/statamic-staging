@@ -59,7 +59,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
@@ -72,7 +72,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/fachrichtungen/jura'
+                  href: /fachrichtungen/jura
                   target: null
                   rel: null
             text: Jura
@@ -85,7 +85,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/fachrichtungen/bwl'
+                  href: /fachrichtungen/bwl
                   target: null
                   rel: null
             text: BWL
@@ -98,7 +98,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/fachrichtungen/medizin'
+                  href: /fachrichtungen/medizin
                   target: null
                   rel: null
             text: Medizin
@@ -122,7 +122,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/anfrage'
+                  href: /anfrage
                   target: null
                   rel: null
             text: 'unverbindliche Anfrage schicken'
@@ -179,7 +179,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: Ghostwriting
@@ -236,7 +236,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/erfahrungsbericht-ghostwriter-gwriters'
+                  href: /blog/erfahrungsbericht-ghostwriter-gwriters
                   target: null
                   rel: null
             text: 'Erfahrungsbericht zur Arbeit als Ghostwriter bei GWriters'
@@ -248,7 +248,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/ghostwriter-auftrag-tipps'
+                  href: /blog/ghostwriter-auftrag-tipps
                   target: null
                   rel: null
             text: 'Video: Tipps für einen erfolgreichen Ghostwriter-Auftrag'
@@ -260,7 +260,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/ghostwriter-probleme/'
+                  href: /blog/ghostwriter-probleme
                   target: null
                   rel: null
             text: 'Typische Probleme mit akademischen Ghostwritern & wie Du sie vermeiden kannst'
@@ -275,7 +275,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
@@ -283,8 +283,8 @@ replicator:
     type: editor
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619457105
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1620144020
 page_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'
 template: with-side-bar
 meta_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'

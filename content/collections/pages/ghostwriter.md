@@ -44,8 +44,8 @@ teaser:
         spacing_top: false
 teaser_bg:
   - seiten/header-so-funktionierts.jpeg
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619453950
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1620143950
 replicator:
   -
     bard:
@@ -61,7 +61,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat/lektor'
+                  href: /lektorat/lektor
                   target: null
                   rel: null
             text: Lektor
@@ -85,7 +85,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/anfrage'
+                  href: /anfrage
                   target: null
                   rel: null
             text: 'unverbindliche Anfrage schicken'
@@ -115,7 +115,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: Ghostwriting
@@ -128,7 +128,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: 'Bachelorarbeit schreiben lassen'
@@ -249,7 +249,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/'
+                  href: /
                   target: null
                   rel: null
             text: 'Startseite '
@@ -269,17 +269,17 @@ replicator:
         content:
           -
             type: text
-            text: 'Auch die Webseite eines Ghostwriters oder einer Ghostwriting Agentur stellt ein wichtiges Kriterium für dessen Seriosität dar. Erhalten Sie genügend Hintergrundinformationen über den Ghostwriter oder die Ghostwriter Agentur? Enthält die Webseite ein ordentliches'
+            text: 'Auch die Webseite eines Ghostwriters oder einer Ghostwriting Agentur stellt ein wichtiges Kriterium für dessen Seriosität dar. Erhalten Sie genügend Hintergrundinformationen über den Ghostwriter oder die Ghostwriter Agentur? Enthält die Webseite ein ordentliches '
           -
             type: text
             marks:
               -
                 type: link
                 attrs:
-                  href: '/impressum'
+                  href: /impressum
                   target: null
                   rel: null
-            text: ' Impressum'
+            text: Impressum
           -
             type: text
             text: ' und eine DSGVO-konforme '
@@ -289,7 +289,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/datenschutzerklaerung'
+                  href: /datenschutzerklaerung
                   target: null
                   rel: null
             text: Datenschutzerklärung
@@ -374,17 +374,17 @@ replicator:
         content:
           -
             type: text
-            text: 'Grundsätzlich kommt es in den seltensten Fällen vor, dass Ghostwriter als solche auch in der Öffentlichkeit gezeigt werden. Gerade akademische Ghostwriter verpflichten sich zu Stillschweigen und werden bei der Zusammenarbeit mit einer entsprechenden Agentur niemals (anders als beispielsweise bei Autobiographien) einen persönlichen Kontakt zum Auftraggeber haben. Die Anonymität steht an oberster Stelle um nicht zuletzt gerade den Auftraggeber zu schützen. Dem Kunden wird bei Vorlagen für'
+            text: 'Grundsätzlich kommt es in den seltensten Fällen vor, dass Ghostwriter als solche auch in der Öffentlichkeit gezeigt werden. Gerade akademische Ghostwriter verpflichten sich zu Stillschweigen und werden bei der Zusammenarbeit mit einer entsprechenden Agentur niemals (anders als beispielsweise bei Autobiographien) einen persönlichen Kontakt zum Auftraggeber haben. Die Anonymität steht an oberster Stelle um nicht zuletzt gerade den Auftraggeber zu schützen. Dem Kunden wird bei Vorlagen für '
           -
             type: text
             marks:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/diplomarbeit'
+                  href: /arbeiten/diplomarbeit
                   target: null
                   rel: null
-            text: ' Diplomarbeiten '
+            text: 'Diplomarbeiten '
           -
             type: text
             text: 'dringend davon abgeraten, den Text zu übernehmen, sondern diesen tatsächlich nur als Vorlage zur Bearbeitung zu sehen.'
@@ -433,7 +433,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/suche-ghostwriter'
+                  href: /blog/suche-ghostwriter
                   target: null
                   rel: null
             text: 'Tipps für die Ghostwriter-Suche'
@@ -445,7 +445,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/akademische-ghostwriter-gwriters-angebot'
+                  href: /blog/akademische-ghostwriter-gwriters-angebot
                   target: null
                   rel: null
             text: 'Video: Wie entsteht ein Ghostwriter-Angebot bei GWriters?'
@@ -457,7 +457,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/ghostwriter-probleme/'
+                  href: /blog/ghostwriter-probleme
                   target: null
                   rel: null
             text: 'Typische Probleme mit akademischen Ghostwritern & wie Du sie vermeiden kannst'
@@ -469,7 +469,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/gwriters-akademische-ghostwriter-ethik'
+                  href: /blog/gwriters-akademische-ghostwriter-ethik
                   target: null
                   rel: null
             text: 'Video: Akademische Ghostwriter & Ethik bei GWriters'
@@ -484,7 +484,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'

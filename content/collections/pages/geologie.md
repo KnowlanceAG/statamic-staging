@@ -57,7 +57,7 @@ page_title: 'Geologie Ghostwriter - Ghostwriter, Lektoren & Coaches • GWriters
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619791565
+updated_at: 1620144509
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -139,7 +139,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/ghostwriting'
+                          href: /ghostwriting
                           target: null
                           rel: null
                     text: Ghostwriting
@@ -168,7 +168,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/anfrage'
+                          href: /anfrage
                           target: null
                           rel: null
                     text: 'unverbindliche Anfrage schicken'
@@ -215,7 +215,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/ghostwriting'
+                          href: /ghostwriting
                           target: null
                           rel: null
                     text: Ghostwriting
@@ -236,7 +236,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/lektorat'
+                          href: /lektorat
                           target: null
                           rel: null
                     text: Lektorat
@@ -257,7 +257,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/uebersetzung'
+                          href: /leistungen/uebersetzung
                           target: null
                           rel: null
                     text: Übersetzung
@@ -298,7 +298,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/korrektorat'
+                          href: /korrektorat
                           target: null
                           rel: null
                     text: Korrektorat
@@ -319,7 +319,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/formatierung'
+                          href: /leistungen/formatierung
                           target: null
                           rel: null
                     text: Formatierung
@@ -340,7 +340,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/plagiatspruefung'
+                          href: /leistungen/plagiatspruefung
                           target: null
                           rel: null
                     text: Plagiatsprüfung
@@ -366,7 +366,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/maxqda-auswertung'
+                          href: /leistungen/maxqda-auswertung
                           target: null
                           rel: null
                     text: 'MAXQDA Auswertung'
@@ -387,7 +387,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/promotionsberatung'
+                          href: /promotionsberatung
                           target: null
                           rel: null
                     text: Promotionsberatung
@@ -446,7 +446,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Bachelorarbeit
@@ -459,7 +459,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/diplomarbeit'
+                          href: /arbeiten/diplomarbeit
                           target: null
                           rel: null
                     text: Diplomarbeit
@@ -472,7 +472,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/doktorarbeit'
+                          href: /arbeiten/doktorarbeit
                           target: null
                           rel: null
                     text: Doktorarbeit
@@ -485,7 +485,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/ebook'
+                          href: /arbeiten/ebook
                           target: null
                           rel: null
                     text: eBook
@@ -498,7 +498,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/essay'
+                          href: /arbeiten/essay
                           target: null
                           rel: null
                     text: Essay
@@ -514,7 +514,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/examensarbeit'
+                          href: /arbeiten/examensarbeit
                           target: null
                           rel: null
                     text: Examensarbeit
@@ -527,7 +527,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/expose'
+                          href: /expose
                           target: null
                           rel: null
                     text: Exposé
@@ -540,7 +540,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/facharbeit'
+                          href: /arbeiten/facharbeit
                           target: null
                           rel: null
                     text: Facharbeit
@@ -553,7 +553,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/hausarbeit-schreiben-lassen'
+                          href: /arbeiten/hausarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Hausarbeit
@@ -566,7 +566,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/lernskript'
+                          href: /arbeiten/lernskript
                           target: null
                           rel: null
                     text: Lernskript
@@ -582,7 +582,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/magisterarbeit'
+                          href: /arbeiten/magisterarbeit
                           target: null
                           rel: null
                     text: Magisterarbeit
@@ -595,7 +595,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/masterarbeit-schreiben-lassen'
+                          href: /arbeiten/masterarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Masterarbeit
@@ -608,7 +608,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/praesentationen'
+                          href: /arbeiten/praesentationen
                           target: null
                           rel: null
                     text: Präsentationen
@@ -621,7 +621,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/seminararbeit-schreiben-lassen'
+                          href: /arbeiten/seminararbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Seminararbeit
@@ -634,7 +634,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/statistische-analysen'
+                          href: /arbeiten/statistische-analysen
                           target: null
                           rel: null
                     text: 'Statische Analysen'
@@ -706,7 +706,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Bachelorarbeit
@@ -733,7 +733,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/diplomarbeit'
+                          href: /arbeiten/diplomarbeit
                           target: null
                           rel: null
                     text: Diplomarbeit
@@ -760,7 +760,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/doktorarbeit'
+                          href: /arbeiten/doktorarbeit
                           target: null
                           rel: null
                     text: Doktorarbeit
@@ -811,7 +811,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/hausarbeit-schreiben-lassen'
+                          href: /arbeiten/hausarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Hausarbeit
@@ -859,10 +859,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'http://www.agw.kit.edu/'
+                          href: 'https://www.agw.kit.edu/'
                           target: null
                           rel: null
-                    text: 'http://www.agw.kit.edu/'
+                    text: 'https://www.agw.kit.edu/'
                   -
                     type: hard_break
                     marks:
@@ -885,10 +885,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'http://www.academia.edu/219426/Geologie_und_Literatur_-_Aufsatz_aus_Recherche'
+                          href: 'https://www.academia.edu/219426/Geologie_und_Literatur_Aufsatz_aus_Recherche'
                           target: null
                           rel: null
-                    text: 'http://www.academia.edu/219426/Geologie_und_Literatur_-_Aufsatz_aus_Recherche'
+                    text: 'https://www.academia.edu/219426/Geologie_und_Literatur_-_Aufsatz_aus_Recherche'
               -
                 type: heading
                 attrs:
@@ -951,10 +951,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'http://ranking.zeit.de/che2012/de/fachinfo/42'
+                          href: 'https://ranking.zeit.de/che/de/fachinfo/42?utm_referrer=https%3A%2F%2Franking.zeit.de%2F'
                           target: null
                           rel: null
-                    text: 'http://ranking.zeit.de/che2012/de/fachinfo/42'
+                    text: 'https://ranking.zeit.de/che2012/de/fachinfo/42'
                   -
                     type: text
                     marks:
@@ -963,7 +963,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/wiki'
+                          href: /wiki
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
