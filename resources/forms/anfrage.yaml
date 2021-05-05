@@ -5,6 +5,7 @@ email:
     to: huckels@uscreen.de
     subject: Kundenanfrage
     html: mail-templates/mail-default_anfrage
+    from: huckels@uscreen.de
   -
     to: '{{ e_mail_adresse }}'
     from: huckels@uscreen.de
