@@ -21,8 +21,8 @@ preferences:
   forms:
     anfrage:
       columns:
-        - datestamp
         - name
         - nachname
         - lieferdatum
         - e_mail_adresse
+        - gw_source
