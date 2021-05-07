@@ -34,7 +34,12 @@ module.exports = {
                 'content-center',
                 'bg-green-300',
                 'bg-green-400',
-                'cursor-pointer'
+                'cursor-pointer',
+                'px-24',
+                'sm:px-32',
+                'md:px-40',
+                'lg:px-24',
+                '2xl:px-32'
             ],
         }
     },
@@ -88,6 +93,9 @@ module.exports = {
             },
             transitionProperty: {
                 'height': 'height'
+            },
+            maxWidth: {
+                'max-w-screen': '100vw'
             }
       },
     },
