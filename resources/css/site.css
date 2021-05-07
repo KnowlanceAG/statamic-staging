@@ -49,10 +49,12 @@ strong {
     font-weight: 600;
 }
 p {
-    @apply mb-4 text-sm text-gray-550;
+    @apply mb-2 lg:mb-4 text-sm text-gray-550;
     line-height: 28px;
     a {
         @apply text-orange-500;
+        word-wrap: break-word;
+        max-width: 100%;
     }
 }
 footer .bg-gray-500 .text-xs {
@@ -106,30 +108,33 @@ select {
 }
 
 table {
-    @apply my-8 min-w-full w-full table-auto overflow-x-scroll max-w-max;
-    tr {
-        @apply hover:bg-gray-200;
-        &:first-child {
+    @apply my-8 min-w-full w-full overflow-x-auto max-w-max block;
+    tbody {
+        @apply table-auto;
+        tr {
+            @apply hover:bg-gray-200;
+            &:first-child {
+                th,
+                td {
+                    @apply border-0;
+                }
+            }
             th,
             td {
-                @apply border-0;
+                @apply text-left px-3 py-2 border-t border-gray-400;
             }
-        }
-        th,
-        td {
-            @apply text-left px-3 py-2 border-t border-gray-400;
-        }
-        th {
-            @apply bg-gray-300;
-        }
-        td {
-            @apply align-top;
-        }
-        p {
-            @apply mb-0;
-        }
-        ul {
-            @apply pl-4 mb-0 !important;
+            th {
+                @apply bg-gray-300;
+            }
+            td {
+                @apply align-top;
+            }
+            p {
+                @apply mb-0;
+            }
+            ul {
+                @apply pl-4 mb-0 !important;
+            }
         }
     }
 }
@@ -328,4 +333,23 @@ body.ch {
 }
 .accordion-tab.active .content {
     @apply h-auto max-h-96 !important;
+}
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
