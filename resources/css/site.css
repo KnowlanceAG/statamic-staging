@@ -332,7 +332,7 @@ body.ch {
     @apply h-auto max-h-0;
 }
 .accordion-tab.active .content {
-    @apply h-auto max-h-96 !important;
+    @apply h-auto max-h-screen !important;
 }
 
 
