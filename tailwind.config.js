@@ -93,6 +93,9 @@ module.exports = {
             },
             transitionProperty: {
                 'height': 'height'
+            },
+            maxWidth: {
+                'max-w-screen': '100vw'
             }
       },
     },
