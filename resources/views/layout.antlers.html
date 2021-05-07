@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site:short_locale }}">
+<html lang="{{ site:short_locale }}" class="max-w-screen overflow-x-hidden">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -59,7 +59,7 @@
         {{ /if }}
 
     </head>
-    <body class="{{ if id=="home" }}{{ id }}{{ /if }}{{ segment_1 }} bg-white leading-normal text-black pt-24 body {{ template }} w-screen overflow-x-hidden">
+    <body class="{{ if id=="home" }}{{ id }}{{ /if }}{{ segment_1 }} bg-white leading-normal text-black pt-24 body {{ template }} w-screen">
         {{ aardvark-seo:body }}
 
         {{ partial src="partials/header" }}
