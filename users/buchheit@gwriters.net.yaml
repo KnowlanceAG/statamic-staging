@@ -10,3 +10,5 @@ preferences:
   collections:
     pages:
       per_page: 100
+    blog:
+      per_page: 100
