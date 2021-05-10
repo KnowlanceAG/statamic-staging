@@ -23,6 +23,7 @@ sections:
           icon: text
           listable: hidden
           width: 50
+          prepend: 'Bitte hinterlassen Sie uns Ihren Nachnamen. Ein persönlicher Kontakt ist uns wichtig!'
       -
         handle: e_mail_adresse
         field:
@@ -35,6 +36,7 @@ sections:
           validate:
             - required
             - austria_mail
+          prepend: 'Ihre E-Mail-Adresse dient nur der Kommunikation und wird streng vertraulich behandelt.'
       -
         handle: telefon
         field:
@@ -46,6 +48,7 @@ sections:
           listable: hidden
           validate:
             - austria_phone
+          prepend: 'Wir würde Sie gern zeitnah telefonisch kontaktieren. Ihre Telefonnummer wird natürlich ebenfalls vertraulich behandelt.'
       -
         handle: fachrichtung
         field:
