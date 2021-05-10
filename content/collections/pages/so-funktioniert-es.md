@@ -4,7 +4,7 @@ title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1620659935
+updated_at: 1620660003
 teaser_bg:
   - seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
@@ -81,7 +81,14 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: 'Unser bester Service für Ihre Zufriedenheit'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: video
+                    video: 'https://youtu.be/s_tKRADuNrk'
             show_as_card: false
         type: row
         enabled: true
@@ -94,15 +101,6 @@ replicator:
         grid:
           -
             bard: null
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: video
-                    video: 'https://youtu.be/s_tKRADuNrk'
             show_as_card: false
         type: row
         enabled: true
