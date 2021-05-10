@@ -45,6 +45,7 @@ sections:
           listable: hidden
           validate:
             - austria_phone
+          prepend: 'Wir würde Sie gern zeitnah telefonisch kontaktieren. Ihre Telefonnummer wird natürlich ebenfalls vertraulich behandelt.'
       -
         handle: fachrichtung
         field:
