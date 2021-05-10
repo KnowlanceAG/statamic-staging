@@ -11,6 +11,7 @@ sections:
           type: text
           icon: text
           listable: hidden
+          tooltip: 'Bitte hinterlassen Sie uns Ihren Vornamen und Nachname. Ein persönlicher Kontakt ist uns wichtig!'
       -
         handle: email
         field:
@@ -20,6 +21,7 @@ sections:
           type: text
           icon: text
           listable: hidden
+          tooltip: 'Ihre E-Mail-Adresse dient nur der Kommunikation und wird streng vertraulich behandelt.'
           validate:
             - required
       -

@@ -355,11 +355,11 @@ body.ch {
 }
 
 .tooltip {
-    @apply invisible absolute;
+    @apply absolute opacity-0 bottom-full right-0 mb-2 transition-opacity;
 }
 
 .has-tooltip:hover .tooltip {
-    @apply visible z-50;
+    @apply opacity-90 z-50;
 }
 
 .spinner {

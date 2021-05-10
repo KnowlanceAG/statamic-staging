@@ -12,6 +12,7 @@ sections:
           icon: text
           listable: hidden
           width: 50
+          tooltip: 'Bitte hinterlassen Sie uns Ihren Vornamen. Ein persönlicher Kontakt ist uns wichtig!'
       -
         handle: nachname
         field:
@@ -22,6 +23,7 @@ sections:
           icon: text
           listable: hidden
           width: 50
+          tooltip: 'Bitte hinterlassen Sie uns Ihren Nachnamen. Ein persönlicher Kontakt ist uns wichtig!'
       -
         handle: e_mail_adresse
         field:
@@ -31,6 +33,7 @@ sections:
           type: text
           icon: text
           listable: hidden
+          tooltip: 'Ihre E-Mail-Adresse dient nur der Kommunikation und wird streng vertraulich behandelt.'
           validate:
             - required
             - austria_mail
@@ -43,9 +46,9 @@ sections:
           type: text
           icon: text
           listable: hidden
+          tooltip: 'Wir würde Sie gern zeitnah telefonisch kontaktieren. Ihre Telefonnummer wird natürlich ebenfalls vertraulich behandelt.'
           validate:
             - austria_phone
-          prepend: 'Wir würde Sie gern zeitnah telefonisch kontaktieren. Ihre Telefonnummer wird natürlich ebenfalls vertraulich behandelt.'
       -
         handle: fachrichtung
         field:
@@ -87,6 +90,7 @@ sections:
           type: textarea
           icon: textarea
           listable: hidden
+          tooltip: 'Teilen Sie uns bitte den Umfang, den inhaltlichen Rahmen (das Thema), die verbleibende Bearbeitungszeit und ggf. weitere wichtige Informationen zur Ausfertigung eines individuellen Angebotes mit. Je spezifischer Ihre Angaben sind, umso besser und schneller können wir Ihnen helfen. Vielen Dank!'
           validate:
             - required
       -
