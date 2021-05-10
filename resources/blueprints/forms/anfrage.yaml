@@ -92,6 +92,7 @@ sections:
           listable: hidden
           validate:
             - required
+          placeholder: 'Teilen Sie uns bitte den Umfang, den inhaltlichen Rahmen (das Thema), die verbleibende Bearbeitungszeit und ggf. weitere wichtige Informationen zur Ausfertigung eines individuellen Angebotes mit. Je spezifischer Ihre Angaben sind, umso besser und schneller können wir Ihnen helfen. Vielen Dank!'
       -
         handle: seitenzahl
         field:
