@@ -12,6 +12,7 @@ sections:
           icon: text
           listable: hidden
           width: 50
+          prepend: 'Bitte hinterlassen Sie uns Ihren Vornamen. Ein persönlicher Kontakt ist uns wichtig!'
       -
         handle: nachname
         field:
