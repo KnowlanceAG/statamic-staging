@@ -83,19 +83,25 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
 
   <div class="md:col-span-12 flex">
     <button
-      class="bg-orange-500 hover:bg-orange-700 px-10 py-3 mt-8 inline-block text-white font-300 uppercase rounded-sm hover:transition-colors hover:duration-200 hover:bg-opacity-95"
+      class="relative bg-orange-500 hover:bg-orange-700 px-10 py-3 mt-8 inline-block text-white font-300 uppercase rounded-sm hover:transition-colors hover:duration-200 hover:bg-opacity-95"
       type="submit"
     >
-      {{ if form.handle == 'autorenbewerbung'}} Bewerbung absenden {{ elseif
-      form.handle == 'anfrage'}} Anfrage absenden {{ else }} Absenden {{ /if }}
+
+        <span :class="{ '' : !success , 'opacity-0' : success}">
+            {{ if form.handle == 'autorenbewerbung'}} Bewerbung absenden {{ elseif
+            form.handle == 'anfrage'}} Anfrage absenden {{ else }} Absenden {{ /if }}
+        </span>
+
+        <span :class="{ 'opacity-0' : !success , '' : success}">
+            <div class="spinner absolute left-0 right-0 top-4">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </span>
+
     </button>
   </div>
-
-  <template x-if="success">
-    {{ partial src="components/notification" type="success"
-    class="md:col-span-12" content="Vielen Dank, wir haben Ihre Nachricht
-    erhalten und werden Sie so schnell wie möglich kontaktieren." }}
-  </template>
 </div>
 {{ /form:create }} {{ dynamic_token }}
 <script>
