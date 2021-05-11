@@ -87,12 +87,12 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
       type="submit"
     >
 
-        <span :class="{ '' : !success , 'opacity-0' : success}">
+        <span id="submit-button-text">
             {{ if form.handle == 'autorenbewerbung'}} Bewerbung absenden {{ elseif
             form.handle == 'anfrage'}} Anfrage absenden {{ else }} Absenden {{ /if }}
         </span>
 
-        <span :class="{ 'opacity-0' : !success , '' : success}">
+        <span id="submit-button-spinner" class="opacity-0">
             <div class="spinner absolute left-0 right-0 top-4">
                 <div class="bounce1"></div>
                 <div class="bounce2"></div>
@@ -140,11 +140,27 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
       errors: [],
       sending: false,
       success: false,
+      submitButtonText: null,
+      submitButtonSpinner: null,
+      toggleButtonSpinner() {
+        if (this.submitButtonText) {
+            this.submitButtonText.classList.toggle('opacity-0')
+        }
+        if (this.submitButtonSpinner) {
+            this.submitButtonSpinner.classList.toggle('opacity-0')
+        }
+      },
+      initButtonSpinner() {
+        this.submitButtonText = form.querySelector('#submit-button-text')
+        this.submitButtonSpinner = form.querySelector('#submit-button-spinner')
+        this.toggleButtonSpinner()
+      },
       sendForm() {
         this.sending = true
         var form = document.querySelector('.form-self')
         var route = '/!/cpssg/forms/'
         if (form) {
+          this.initButtonSpinner()
           var formURL = new URL(form.action)
           var source = document.querySelector('[name="gw_source"]')
           source.setAttribute('value', window.location.hostname)
@@ -160,6 +176,7 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
             .then((res) => res.json())
             .then((json) => {
               if (json['success']) {
+                this.toggleButtonSpinner()
                 this.errors = []
                 this.success = true
                 this.error = false
@@ -168,6 +185,7 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
                 window.location.assign('/anfrage-abgesendet')
               }
               if (json['error']) {
+                this.toggleButtonSpinner()
                 this.sending = false
                 this.error = true
                 this.success = false
@@ -176,6 +194,7 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
               }
             })
             .catch((err) => {
+              this.toggleButtonSpinner()
               this.sending = false
               if (err && err.text) {
                 err.text().then((errorMessage) => {
