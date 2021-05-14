@@ -7,7 +7,7 @@ sections:
         field:
           input_type: text
           antlers: false
-          display: Name
+          display: Vorname
           type: text
           icon: text
           listable: hidden
