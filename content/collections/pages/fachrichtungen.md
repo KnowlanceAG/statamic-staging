@@ -2,7 +2,7 @@
 id: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 title: Fachrichtungen
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1621242585
+updated_at: 1621242616
 teaser:
   -
     type: heading
@@ -419,7 +419,7 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: true
+    is-full: false
     bg-toggle: false
     bg-image-fixed: false
     border: false
@@ -454,7 +454,7 @@ replicator:
     bg-image-fixed: false
     border: false
     type: add_section
-    enabled: true
+    enabled: false
   -
     columns-replicator:
       -
@@ -987,14 +987,14 @@ replicator:
                     text: 'Bei der Erstellung von Mustervorlagen für Bachelorarbeiten fokussieren sich Ghostwriter insbesondere auf praktische Fragestellungen der Forschung, während bei Mustervorlagen für Masterarbeiten die Entwicklung neuer Konzepte, Verfahren oder Vorgehensweisen im Vordergrund steht. Gleichzeitig müssen hier häufig Handlungsempfehlungen abgegeben und begründet werden. Bei Mustervorlagen für Hausarbeiten oder Seminararbeiten stehen hingegen kürzere Themen- und Fragestellungen im Vordergrund, die in Teilen auch eher als Übung für die Erlernung eines wissenschaftlichen Arbeitens zu verstehen sind.'
             show_as_card: false
         type: row
-        enabled: true
+        enabled: false
     remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
-    enabled: true
+    enabled: false
 meta_title: 'Fachrichtungen • GWriters.de'
 meta_description: 'Akademische Ghostwriter von GWriters Ihnen in verschiedenen Fachbereichen akademisches Ghostwriting, Schreibunterstützung, Lektorat, Korrektorate und Coachings von erfahrenen & geprüften Ghostwritern ✅'
 use_meta_keywords: false
