@@ -2,7 +2,7 @@
 id: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 title: Fachrichtungen
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1621242423
+updated_at: 1621242554
 teaser:
   -
     type: heading
@@ -204,7 +204,7 @@ replicator:
             type: text
             text: ' werden zunehmend nachgefragt.'
     type: editor
-    enabled: false
+    enabled: true
     show_as_card: false
   -
     columns-replicator:
