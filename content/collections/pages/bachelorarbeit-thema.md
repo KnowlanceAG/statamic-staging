@@ -80,7 +80,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: 'Bachelorarbeit schreiben lassen'
@@ -335,7 +335,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/literaturrecherche'
+                  href: /blog/literaturrecherche
                   target: null
                   rel: null
             text: Literatur
@@ -486,7 +486,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/bachelorarbeit-hilfe'
+                  href: /blog/bachelorarbeit-hilfe
                   target: null
                   rel: null
             text: 'professionelle Bachelorarbeit-Hilfe'
@@ -549,7 +549,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/expose'
+                  href: /expose
                   target: null
                   rel: null
             text: Exposé
@@ -871,7 +871,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting/ghostwriting-agentur/'
+                  href: /ghostwriting/ghostwriting-agentur/
                   target: null
                   rel: null
             text: 'Ghostwriting Agentur'
@@ -900,7 +900,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/anfrage'
+                  href: /anfrage
                   target: null
                   rel: null
             text: 'kostenlosen Anfrage'
@@ -949,7 +949,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/masterarbeit-schreiben-lassen'
+                          href: /arbeiten/masterarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: 'Masterarbeit schreiben lassen'
@@ -987,7 +987,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/lektorat'
+                          href: /lektorat
                           target: null
                           rel: null
                     text: 'wissenschaftliches Lektorat'
@@ -1033,7 +1033,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/plagiatspruefung'
+                          href: /leistungen/plagiatspruefung
                           target: null
                           rel: null
                     text: 'auf Plagiate prüfen'
@@ -1076,7 +1076,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/fachrichtungen/bwl'
+                  href: /fachrichtungen/bwl
                   target: null
                   rel: null
             text: BWL
@@ -1169,7 +1169,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/fachrichtungen/literatur'
+                  href: /fachrichtungen/literatur
                   target: null
                   rel: null
             text: Literatur
@@ -1213,8 +1213,6 @@ replicator:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
             text: 'Die Themen selbst haben wir in mehrere Kategorien (Forschungsgebiete) eingeteilt. Dann können Sie gleich, wenn Sie sich für ein Forschungsgebiet entschieden habt, zu Ihrem Fachbereich springen und nachsehen, welches Thema hier möglich wäre.'
-      -
-        type: paragraph
       -
         type: table
         content:
@@ -1615,28 +1613,6 @@ replicator:
                               color: 'rgb(68, 68, 68)'
                               hex: '#000'
                         text: '15'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 102, 2)'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: '/wp-admin/admin.php?page=supsystic-tables&module=tables&action=view&id=6&nonce=7baa73417e'
-                  target: null
-                  rel: null
-            text: 'Edit Table'
       -
         type: heading
         attrs:
@@ -3466,7 +3442,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: Ghostwriting
@@ -3518,7 +3494,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen'
+                  href: /leistungen
                   target: null
                   rel: null
             text: Unterstützung
@@ -3549,7 +3525,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/kontakt'
+                  href: /kontakt
                   target: null
                   rel: null
             text: Kontaktformular
@@ -3621,7 +3597,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/blog/abschlussarbeit-thema'
+                          href: /blog/abschlussarbeit-thema
                           target: null
                           rel: null
                     text: '4 Schritte zum perfekten Thema Deiner Abschlussarbeit'
@@ -3646,7 +3622,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/blog/bachelorarbeit-thema-vwl'
+                          href: /blog/bachelorarbeit-thema-vwl
                           target: null
                           rel: null
                     text: 'Bachelorarbeit-Thema VWL: 75 Vorschläge'
@@ -3671,7 +3647,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/blog/bachelorarbeit-thema-gesellschaftswissenschaft'
+                          href: /blog/bachelorarbeit-thema-gesellschaftswissenschaft
                           target: null
                           rel: null
                     text: 'Bachelorarbeit Thema Gesellschaftswissenschaften: 75 Vorschläge'
@@ -3696,7 +3672,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/blog/bachelorarbeit-thema-recht'
+                          href: /blog/bachelorarbeit-thema-recht
                           target: null
                           rel: null
                     text: 'Bachelorarbeit-Thema Rechtswissenschaften: 75 Vorschläge'
@@ -3721,15 +3697,15 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/blog/bachelorarbeit-thema-informatik'
+                          href: /blog/bachelorarbeit-thema-informatik
                           target: null
                           rel: null
                     text: 'Bachelorarbeit-Thema Informatik: 75 Vorschläge'
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619733760
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1621285905
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
