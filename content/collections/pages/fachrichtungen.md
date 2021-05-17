@@ -57,7 +57,7 @@ page_title: 'Fachrichtungen • GWriters.de'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1621243170
+updated_at: 1621243533
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -113,104 +113,6 @@ replicator:
                   -
                     type: text
                     text: .
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Leistungen einer Ghostwriting-Agentur'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Als seriöse Ghostwriting Agentur bietet GWriters Ihnen akademische Leistungen in einer breiten Palette von wissenschaftlichen Fachrichtungen an. Von „A“ wie „Architektur“ über „B“ wie „Bauingenieurwesen“, „C“ wie „Chemie“ und „G“ wie Geschichte bis hin zu „M“ wie „Mathematik“ und „P“ wie Philosophie sowie schließlich „Z“ wie Zahnmedizin werden Leistungen offeriert.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Besonders häufig nachgefragt werden dabei '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting-Dienstleistungen
-                  -
-                    type: text
-                    text: ' in den Fachgebieten '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/bwl
-                          target: null
-                          rel: null
-                    text: BWL
-                  -
-                    type: text
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/vwl
-                          target: null
-                          rel: null
-                    text: VWL
-                  -
-                    type: text
-                    text: ', den '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/wirtschaftswissenschaften
-                          target: null
-                          rel: null
-                    text: Wirtschaftswissenschaften
-                  -
-                    type: text
-                    text: ' allgemein und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/jura
-                          target: null
-                          rel: null
-                    text: Jura
-                  -
-                    type: text
-                    text: '. Auch Dienstleistungen im Bereich der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/medizin
-                          target: null
-                          rel: null
-                    text: Medizin
-                  -
-                    type: text
-                    text: ' werden zunehmend nachgefragt.'
               -
                 type: heading
                 attrs:
@@ -690,6 +592,104 @@ replicator:
         grid:
           -
             bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Leistungen einer Ghostwriting-Agentur'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Als seriöse Ghostwriting Agentur bietet GWriters Ihnen akademische Leistungen in einer breiten Palette von wissenschaftlichen Fachrichtungen an. Von „A“ wie „Architektur“ über „B“ wie „Bauingenieurwesen“, „C“ wie „Chemie“ und „G“ wie Geschichte bis hin zu „M“ wie „Mathematik“ und „P“ wie Philosophie sowie schließlich „Z“ wie Zahnmedizin werden Leistungen offeriert.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Besonders häufig nachgefragt werden dabei '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting-Dienstleistungen
+                  -
+                    type: text
+                    text: ' in den Fachgebieten '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/bwl
+                          target: null
+                          rel: null
+                    text: BWL
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/vwl
+                          target: null
+                          rel: null
+                    text: VWL
+                  -
+                    type: text
+                    text: ', den '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/wirtschaftswissenschaften
+                          target: null
+                          rel: null
+                    text: Wirtschaftswissenschaften
+                  -
+                    type: text
+                    text: ' allgemein und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/jura
+                          target: null
+                          rel: null
+                    text: Jura
+                  -
+                    type: text
+                    text: '. Auch Dienstleistungen im Bereich der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/medizin
+                          target: null
+                          rel: null
+                    text: Medizin
+                  -
+                    type: text
+                    text: ' werden zunehmend nachgefragt.'
               -
                 type: heading
                 attrs:
