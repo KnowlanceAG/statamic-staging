@@ -2,7 +2,7 @@
 id: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 title: Fachrichtungen
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1621242099
+updated_at: 1621242355
 teaser:
   -
     type: heading
@@ -654,6 +654,15 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: '3'
@@ -864,9 +873,18 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: '1'
+        columns_per_row: 1
         single-col: false
         grid:
           -
@@ -885,6 +903,15 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: '3'
@@ -983,6 +1010,10 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
                         type: link
                         attrs:
                           href: /expose
@@ -995,6 +1026,10 @@ replicator:
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                       -
                         type: link
                         attrs:
@@ -1009,6 +1044,10 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
                         type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
@@ -1021,6 +1060,10 @@ replicator:
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                       -
                         type: link
                         attrs:
