@@ -52,6 +52,53 @@ replicator:
     bard:
       -
         type: paragraph
+      -
+        type: heading
+        attrs:
+          level: 1
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+              -
+                type: textColor
+                attrs:
+                  color: orange-500
+                  hex: '#ff6606'
+            text: 'Akademisches Ghostwriting'
+          -
+            type: hard_break
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+              -
+                type: textColor
+                attrs:
+                  color: orange-500
+                  hex: '#ff6606'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+              -
+                type: textColor
+                attrs:
+                  color: orange-500
+                  hex: '#ff6606'
+            text: '& Ghostwriter in Österreich'
+      -
+        type: paragraph
+      -
+        type: paragraph
         content:
           -
             type: text
@@ -61,7 +108,7 @@ replicator:
     enabled: true
 parent: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1621335921
+updated_at: 1621335975
 page_title: 'Akademisches Ghostwriting & Ghostwriter in Österreich • GWriters.de'
 template: without-teaser
 meta_title: 'Akademisches Ghostwriting & Ghostwriter in Österreich • GWriters.de'
