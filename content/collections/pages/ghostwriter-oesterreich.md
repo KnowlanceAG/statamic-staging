@@ -51,7 +51,11 @@ replicator:
   -
     bard:
       -
-        type: paragraph
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: 2
       -
         type: heading
         attrs:
@@ -96,19 +100,88 @@ replicator:
                   hex: '#ff6606'
             text: '& Ghostwriter in Österreich'
       -
-        type: paragraph
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: 2
       -
         type: paragraph
         content:
           -
             type: text
-            text: "Aufgrund der Hochschulrechts-Novelle in Österreich hat sich die Unternehmensführung von GWriters dazu entschieden, den gesamten österreichischen Markt in Zukunft nicht mehr zu bedienen. Der zentrale Beweggrund hierfür ist, dass GWriters sich stets an gesetzliche Vorgaben gehalten hat und dies auch beibehalten wird. In der Folge bedeutet dies, dass ab sofort Vertragsschlüsse mit oder für Kunden mit Wohnsitz in Österreich abgelehnt werden. Dies gilt auch unabhängig vom Wohnsitz für alle, die an österreichischen Universitäten,\_Fachhochschulen oder Schulen eingeschrieben sind. Wenn dies nicht auf Sie zutrifft, dann können Sie uns gerne mit einem Klick auf den nachfolgenden Button eine unverbindliche Anfrage senden. Wir werden uns anschließend innerhalb von wenigen Stunden bei Ihnen zurückmelden."
+            text: "Aufgrund der Hochschulrechts-Novelle in Österreich hat sich die Unternehmensführung von GWriters dazu entschieden, den gesamten österreichischen Markt in Zukunft nicht mehr zu bedienen. Der zentrale Beweggrund hierfür ist, dass GWriters sich stets an gesetzliche Vorgaben gehalten hat und dies auch beibehalten wird. In der Folge bedeutet dies, dass ab sofort Vertragsschlüsse mit oder für Kunden mit Wohnsitz in Österreich abgelehnt werden. Dies gilt auch unabhängig vom Wohnsitz für alle, die an österreichischen Universitäten,\_Fachhochschulen oder Schulen eingeschrieben sind. Wenn dies nicht auf Sie zutrifft, dann können Sie uns gerne mit einem Klick auf den nachfolgenden Button eine unverbindliche Anfrage für die Erstellung einer Mustervorlage für Ihre "
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/hausarbeit-schreiben-lassen
+                  target: _blank
+                  rel: null
+            text: Hausarbeit
+          -
+            type: text
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/seminararbeit-schreiben-lassen
+                  target: _blank
+                  rel: null
+            text: Seminararbeit
+          -
+            type: text
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
+                  target: _blank
+                  rel: null
+            text: Bachelorarbeit
+          -
+            type: text
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/masterarbeit-schreiben-lassen
+                  target: _blank
+                  rel: null
+            text: Masterarbeit
+          -
+            type: text
+            text: ' oder '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/doktorarbeit
+                  target: _blank
+                  rel: null
+            text: Dissertation
+          -
+            type: text
+            text: ' senden. Wir werden uns anschließend innerhalb von wenigen Stunden bei Ihnen zurückmelden.'
     show_as_card: false
     type: editor
     enabled: true
 parent: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1621335975
+updated_at: 1621336183
 page_title: 'Akademisches Ghostwriting & Ghostwriter in Österreich • GWriters.de'
 template: without-teaser
 meta_title: 'Akademisches Ghostwriting & Ghostwriter in Österreich • GWriters.de'
