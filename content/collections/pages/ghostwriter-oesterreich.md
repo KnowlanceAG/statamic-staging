@@ -55,7 +55,7 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: 2
+            padding-y: '40'
       -
         type: heading
         attrs:
@@ -104,7 +104,7 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: 2
+            padding-y: '30'
       -
         type: paragraph
         content:
@@ -181,7 +181,7 @@ replicator:
     enabled: true
 parent: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1621336183
+updated_at: 1621336208
 page_title: 'Akademisches Ghostwriting & Ghostwriter in Österreich • GWriters.de'
 template: without-teaser
 meta_title: 'Akademisches Ghostwriting & Ghostwriter in Österreich • GWriters.de'
