@@ -12,3 +12,4 @@ preferences:
       per_page: 100
     blog:
       per_page: 100
+      after_save: continue_editing
