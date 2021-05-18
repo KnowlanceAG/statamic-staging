@@ -212,7 +212,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/promotionsberatung'
+                          href: /promotionsberatung
                           target: null
                           rel: null
                     text: 'seriöse Promotionsberatung'
@@ -432,7 +432,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/kontakt'
+                          href: /kontakt
                           target: null
                           rel: null
                     text: Kontakt
@@ -785,7 +785,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/fachrichtungen/bwl'
+                                  href: /fachrichtungen/bwl
                                   target: null
                                   rel: null
                             text: BWL
@@ -812,7 +812,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/fachrichtungen/vwl'
+                                  href: /fachrichtungen/vwl
                                   target: null
                                   rel: null
                             text: VWL
@@ -930,7 +930,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/wirtschaftswissenschaften'
+                          href: /fachrichtungen/wirtschaftswissenschaften
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
@@ -1228,7 +1228,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/doktorarbeit'
+                          href: /arbeiten/doktorarbeit
                           target: null
                           rel: null
                     text: Doktorarbeit
@@ -1418,7 +1418,7 @@ replicator:
                         attrs:
                           href: 'https://ihp-online.de/'
                           target: _blank
-                          rel: nofollow
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Münchner Institut für Hochschulkooperation und internationale Promotionsprogramme'
                   -
                     type: text
@@ -1443,9 +1443,9 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.glos.ac.uk/Pages/default.aspx'
+                          href: 'https://www.glos.ac.uk/'
                           target: _blank
-                          rel: nofollow
+                          rel: 'noopener noreferrer nofollow'
                     text: 'University of Gloucestershire'
                   -
                     type: text
@@ -1549,7 +1549,7 @@ page_title: 'Standardisierte Promotionsprogramme neben dem Beruf • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619607477
+updated_at: 1621336360
 meta_title: 'Standardisierte Promotionsprogramme neben dem Beruf • GWriters'
 meta_description: 'Finden Sie jetzt das passende standardisierte Promotionsprogramm für Ihre nebenberufliche Promotion und profitieren Sie von unserer Promotionsberatung!'
 use_meta_keywords: false
