@@ -56,8 +56,8 @@ teaser_bg:
 page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1620242265
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1621337087
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2600,19 +2600,19 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: var(--text--accent)
                           hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: 'https://www.uni-salzburg.at/fileadmin/multimedia/Germanistik/documents/Studium/BA_Germanistik_2017.pdf'
+                          href: 'https://www.plus.ac.at/fileadmin/multimedia/Germanistik/documents/Studium/BA_Germanistik_2017.pdf'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
-                    text: 'https://www.uni-salzburg.at/fileadmin/multimedia/Germanistik/documents/Studium/BA_Germanistik_2017.pdf'
+                    text: 'https://www.plus.ac.at/fileadmin/multimedia/Germanistik/documents/Studium/BA_Germanistik_2017.pdf'
               -
                 type: paragraph
                 content:
@@ -2683,155 +2683,6 @@ replicator:
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'https://www.br.de/fernsehen/ard-alpha/sendungen/campus/germanistik-mythos-studium-klischees-vorurteile-berufschancen-100.html'
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: horizontal_rule
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    spacing_top: false
-              -
-                type: horizontal_rule
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Aufbau und Inhalt des Marketing Studiums'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Marketing ist ein Überbegriff für mehrere Unterdisziplinen. Dazu gehören beispielsweise Marketing-Management, Sales-Management, aber auch Social Networks und Marketing Communication. Aufgrund vieler unterschiedlicher Leistungen, die in Form von Praktika oder wissenschaftlichen Arbeiten, wie einer Hausarbeit, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/seminararbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Seminararbeit
-                  -
-                    type: text
-                    text: ' oder Examensarbeit, in einem Kurs geleistet werden müssen, ist der Studiengang Marketing mit viel Arbeit und Fleiß verbunden. Viele Konzepte versprechen Lösungsmöglichkeiten für eine Problemstellung, wobei es gilt, die besten zu entwickeln und umzusetzen. Es erfordert nicht nur viel Motivation, Selbstdisziplin und Können, sondern auch einen enormen Zeitaufwand um das Marketingstudium mit den bestmöglichen Leistungen zu absolvieren.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Bei einem kurzen Blick auf den Aufbau des Marketing Studiums sieht man, dass die Regelstudienzeit im Bachelorstudium in der Regel bei sechs bis sieben Semestern liegt, während ein Master in diesem Fachbereich drei bis fünf Semester in Anspruch nimmt. Wie bereits angemerkt, liegt der NC nicht so hoch wie in anderen Studienfächern, was die Suche nach einem Studienplatz deutlich erleichtert. Studenten erhalten im Grundstudium zu Beginn einen Überblick über alle notwendigen Grundlagen und Basisthemen des Studiums und des Themas Marketing.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Im Verlauf des Studiums werden dann durch den Studenten selbst Vertiefungen gewählt, beispielsweise in Medienrecht, in Kommunikation und - sehr interessant - natürlich auch das Thema Social Media Werbung. In den letzten Jahre wurde in den\_Bereichen Social Media und Social Media Marketing eine Reihe neuer Studiengänge geschaffen, die auch von privaten Universitäten sehr stark beworben und forciert werden. Solche sehr gezielten Studiengänge sind gerade dann interessant, wenn Studenten später eben dann auch in diesen Bereichen als Marketing Manager tätig werden möchten."
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Über die internationale Ausrichtung vieler Marketing-Studiengänge und deren Fokus auf aktuelle Entwicklungen und Trends hinaus, bieten viele Universitäten, insbesondere private Universitäten, auch ein duales Studium im Bereich Marketing. Dies bedeutet eine Verknüpfung zwischen beruflicher Tätigkeit und Studium, was natürlich höhere Anforderungen an alle Studenten stellt, insbesondere was die zeitliche Thematik angeht. Und genau in diesem Zusammenhang können die Marketing Ghostwriter von GWriters wertvolle Unterstützung leisten, da sie besonders duale Studenten zeitlich einfach entlasten können, sodass diese sich auf ihr Studium, auf zu schreibende Klausuren und anstehende Präsentationen konzentrieren können. Denn mit der Erstellung von Mustervorlagen für wissenschaftliche Arbeiten können diese dann guten Gewissens unsere hochkompetenten Marketing Ghostwriter bei GWriters beauftragen.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Zusammenfassung zu Ghostwritern & Marketing'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Zusammengefasst handelt es sich beim Marketing um ein hochinteressantes Studium und gerade wenn man sich die heutige Produkt- und Dienstleistungswelt anschaut, dann werden Produkte immer vergleichbarer und austauschbarer, sodass allein über den Preis der Wettbewerb schon lange nicht mehr zu gewinnen ist. Umso wichtiger wird es in der Zukunft, Marketing Spezialisten zu haben, die genau wissen, worauf die Konsumenten wirklich Wert legen und wie Werbekampagnen genau auf diese Kundenbedürfnisse abgestimmt werden können. Nur so ist es möglich, eine wirkungsvolle und erfolgreiche Marketingstrategie zu entwickelt.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: Disclaimer
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Nützliche Weblinks'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://de.wikipedia.org/wiki/Guerilla-Marketing'
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Artikel über Guerilla-Marketing - Wikipedia'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://de.wikipedia.org/wiki/Marketing'
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Grundinformationen zu Marketing - Wikipedia'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://wirtschaftslexikon.gabler.de/definition/marketing-39435'
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Definition Marketing - Wirtschaftslexikon Gabler'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
