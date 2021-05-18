@@ -104,7 +104,7 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: '30'
+            padding-y: '40'
       -
         type: paragraph
         content:
@@ -176,12 +176,20 @@ replicator:
           -
             type: text
             text: ' senden. Wir werden uns anschließend innerhalb von wenigen Stunden bei Ihnen zurückmelden.'
+      -
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: '20'
+      -
+        type: paragraph
     show_as_card: false
     type: editor
     enabled: true
 parent: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1621336208
+updated_at: 1621336245
 page_title: 'Akademisches Ghostwriting & Ghostwriter in Österreich • GWriters.de'
 template: without-teaser
 meta_title: 'Akademisches Ghostwriting & Ghostwriter in Österreich • GWriters.de'
