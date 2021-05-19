@@ -210,3 +210,7 @@ admin:
     - 'delete other authors blog entries'
     - 'delete other authors pages entries'
     - 'delete other authors team entries'
+super_admin:
+  title: 'Super Admin'
+  permissions:
+    - super
