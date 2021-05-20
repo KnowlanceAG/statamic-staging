@@ -1,8 +1,9 @@
 ---
+id: d118c7b2-141d-4bac-972d-c1502381a340
 title: Arbeiten
-template: default
+template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619014348
+updated_at: 1621253983
 teaser:
   -
     type: heading
@@ -21,8 +22,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: 'rgb(255, 102, 2)'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
         text: Arbeiten
   -
     type: paragraph
@@ -42,9 +43,10 @@ teaser:
     attrs:
       values:
         type: button
-        button_link: '/anfrage'
+        button_link: /anfrage
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
+        spacing_top: false
   -
     type: paragraph
 use_meta_keywords: false
@@ -86,7 +88,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/hausarbeit-schreiben-lassen'
+                  href: /arbeiten/hausarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Hausarbeiten
@@ -99,7 +101,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/seminararbeit-schreiben-lassen'
+                  href: /arbeiten/seminararbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Seminararbeiten
@@ -112,7 +114,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Bachelorarbeiten
@@ -125,7 +127,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/masterarbeit-schreiben-lassen'
+                  href: /arbeiten/masterarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Masterarbeiten
@@ -152,7 +154,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: 'Erstellung wissenschaftlicher Mustervorlagen'
@@ -165,7 +167,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat'
+                  href: /lektorat
                   target: null
                   rel: null
             text: Lektorat
@@ -178,7 +180,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/plagiatspruefung'
+                  href: /leistungen/plagiatspruefung
                   target: null
                   rel: null
             text: Plagiatsprüfung
@@ -191,7 +193,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/uebersetzung'
+                  href: /leistungen/uebersetzung
                   target: null
                   rel: null
             text: Übersetzung
@@ -204,7 +206,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat'
+                  href: /korrektorat
                   target: null
                   rel: null
             text: Korrektorat
@@ -217,7 +219,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/formatierung'
+                  href: /leistungen/formatierung
                   target: null
                   rel: null
             text: Formatierung
@@ -230,7 +232,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/promotionsberatung'
+                  href: /promotionsberatung
                   target: null
                   rel: null
             text: Promotionsberatung
@@ -243,7 +245,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/maxqda-auswertung'
+                  href: /leistungen/maxqda-auswertung
                   target: null
                   rel: null
             text: MAXQDA-Auswertungen
@@ -279,20 +281,14 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Mustervorlage für '
-                  -
-                    type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: 'Bachelorarbeit '
-                  -
-                    type: text
-                    text: 'schreiben lassen'
+                    text: 'Mustervorlage für Bachelorarbeit schreiben lassen'
           -
             type: list_item
             content:
@@ -301,20 +297,14 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Mustervorlage für '
-                  -
-                    type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/diplomarbeit'
+                          href: /arbeiten/diplomarbeit
                           target: null
                           rel: null
-                    text: Diplomarbeit
-                  -
-                    type: text
-                    text: ' schreiben lassen'
+                    text: 'Mustervorlage für Diplomarbeit schreiben lassen'
           -
             type: list_item
             content:
@@ -323,20 +313,14 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Mustervorlage für '
-                  -
-                    type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/doktorarbeit'
+                          href: /arbeiten/doktorarbeit
                           target: null
                           rel: null
-                    text: Doktorarbeit
-                  -
-                    type: text
-                    text: ' schreiben lassen'
+                    text: 'Mustervorlage für Doktorarbeit schreiben lassen'
           -
             type: list_item
             content:
@@ -345,17 +329,14 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriter '
-                  -
-                    type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/ebook'
+                          href: /arbeiten/ebook
                           target: null
                           rel: null
-                    text: eBook
+                    text: 'Ghostwriter eBook'
           -
             type: list_item
             content:
@@ -364,20 +345,14 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Mustervorlage für'
-                  -
-                    type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/essay'
+                          href: /arbeiten/essay
                           target: null
                           rel: null
-                    text: ' Essay '
-                  -
-                    type: text
-                    text: 'schreiben lassen'
+                    text: 'Mustervorlage für Essay schreiben lassen'
           -
             type: list_item
             content:
@@ -386,20 +361,14 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Mustervorlage für '
-                  -
-                    type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/examensarbeit'
+                          href: /arbeiten/examensarbeit
                           target: null
                           rel: null
-                    text: 'Examensarbeit '
-                  -
-                    type: text
-                    text: 'schreiben lassen'
+                    text: 'Mustervorlage für Examensarbeit schreiben lassen'
           -
             type: list_item
             content:
@@ -408,17 +377,14 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriter '
-                  -
-                    type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: '/expose'
+                          href: /expose
                           target: null
                           rel: null
-                    text: Exposé
+                    text: 'Ghostwriter Exposé'
           -
             type: list_item
             content:
@@ -427,20 +393,14 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Mustervorlage für '
-                  -
-                    type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/facharbeit'
+                          href: /arbeiten/facharbeit
                           target: null
                           rel: null
-                    text: Facharbeit
-                  -
-                    type: text
-                    text: ' schreiben lassen'
+                    text: 'Mustervorlage für Facharbeit schreiben lassen'
           -
             type: list_item
             content:
@@ -449,20 +409,14 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Mustervorlage für '
-                  -
-                    type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/hausarbeit-schreiben-lassen'
+                          href: /arbeiten/hausarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: Hausarbeit
-                  -
-                    type: text
-                    text: ' schreiben lassen'
+                    text: 'Mustervorlage für Hausarbeit schreiben lassen'
           -
             type: list_item
             content:
@@ -471,17 +425,14 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriter '
-                  -
-                    type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/lernskript'
+                          href: /arbeiten/lernskript
                           target: null
                           rel: null
-                    text: Lernskript
+                    text: 'Ghostwriter Lernskript'
           -
             type: list_item
             content:
@@ -490,20 +441,14 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Mustervorlage für'
-                  -
-                    type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/magisterarbeit'
+                          href: /arbeiten/magisterarbeit
                           target: null
                           rel: null
-                    text: ' Magisterarbeit '
-                  -
-                    type: text
-                    text: 'schreiben lassen'
+                    text: 'Mustervorlage für Magisterarbeit schreiben lassen'
           -
             type: list_item
             content:
@@ -512,20 +457,14 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Mustervorlage für '
-                  -
-                    type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/masterarbeit-schreiben-lassen'
+                          href: /arbeiten/masterarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: 'Masterarbeit '
-                  -
-                    type: text
-                    text: 'schreiben lassen'
+                    text: 'Mustervorlage für Masterarbeit schreiben lassen'
           -
             type: list_item
             content:
@@ -534,17 +473,14 @@ replicator:
                 content:
                   -
                     type: text
-                    text: Ghostwriter
-                  -
-                    type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/praesentationen'
+                          href: /arbeiten/praesentationen
                           target: null
                           rel: null
-                    text: ' Präsentationen'
+                    text: 'Ghostwriter Präsentationen'
           -
             type: list_item
             content:
@@ -553,20 +489,14 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Mustervorlage für '
-                  -
-                    type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/seminararbeit-schreiben-lassen'
+                          href: /arbeiten/seminararbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: 'Seminararbeit '
-                  -
-                    type: text
-                    text: 'schreiben lassen'
+                    text: 'Mustervorlage für Seminararbeit schreiben lassen'
           -
             type: list_item
             content:
@@ -575,17 +505,14 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriter für '
-                  -
-                    type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/statistische-analysen'
+                          href: /arbeiten/statistische-analysen
                           target: null
                           rel: null
-                    text: 'statistische Analysen'
+                    text: 'Ghostwriter für statistische Analysen'
       -
         type: paragraph
         content:
@@ -593,7 +520,9 @@ replicator:
             type: text
             text: 'Welche unterschiedlichen Anforderungen werden nun an die Arbeiten gestellt, die von wissenschaftlichen Ghostwritern erfüllt werden? Und welche Voraussetzungen müssen Ghostwriter mitbringen, um diese Mustervorlagen für wissenschaftliche Arbeiten erstellen zu können? Allgemein gilt, dass bei Abschlussarbeiten eine empirische Untersuchung und entsprechende Eigenleistungen gefordert werden, während bei Haus- und Seminararbeiten nur die Zusammenfassung von Literatur im Vordergrund steht.'
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 2
         content:
           -
             type: text
@@ -613,7 +542,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/qualitative-quantitative-methoden'
+                  href: /blog/qualitative-quantitative-methoden
                   target: null
                   rel: null
             text: Befragungen
@@ -627,7 +556,9 @@ replicator:
             type: text
             text: 'Akademische Ghostwriter, die Mustervorlagen für Bachelorarbeiten erstellen, müssen daher tief gehendes Know-how bei der Literaturrecherche und Literaturaufarbeitung mitbringen. Hierzu ist es notwendig, dass diese Einblick in den aktuellen Forschungsstand und einschlägige Datenbanken haben. Darüber hinaus haben unsere Ghostwriter einen breiten unternehmerischen Blick, der diesen hilft, Literaturerkenntnisse zu interpretieren und darauf aufbauend eine empirische Forschung vorzunehmen. Unterstützt wird dies auch durch deren Grundlagenwissen in der Statistik und der Methodik.'
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 2
         content:
           -
             type: text
@@ -648,7 +579,9 @@ replicator:
             type: text
             text: 'Ghostwriter für die Erstellung von Mustervorlagen für Hausarbeiten und Seminararbeiten zeigen dabei vor allen Dingen ihre Stärken in dieser Literaturrecherche. Sie wissen zum einen wie die Recherchemethodik zu verstehen und anzuwenden ist – hier haben sie umfangreiche Erfahrungen – und haben zum anderen Zugriff auf die einschlägigen Datenbanken, um in diesen recherchieren zu können. Gute Englischkenntnisse sind für Hausarbeiten und Seminararbeiten ebenfalls eine wichtige Voraussetzung, da eine Vielzahl der Literatur auf Englisch ist. Zuletzt sind Ghostwriter in der Lage, die Ergebnisse aus der Literatur gegeneinander und untereinander zu spiegeln und z.B. über die Methodik der qualitativen Inhaltsanalyse nach Mayring MAXQDA-Auswertungen vorzunehmen, die letztlich zur Quintessenz der Forschung führen.'
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 2
         content:
           -
             type: text
@@ -669,7 +602,9 @@ replicator:
             type: text
             text: 'Akademische Ghostwriter müssen daher in der Lage sein – neben der Literaturrecherche – eine umfassende Praxisverprobung der Forschungserkenntnisse vorzunehmen. Hierzu gehört ein umfassendes Wissen über empirische Forschungsmethoden und statistische Verfahren. Selbst wenn dabei keine quantitative Analyse verlangt, hilft ein Statistik Know-how, Ergebnisse aus Studien zu verstehen und in den Forschungskontext einordnen zu können.'
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 2
         content:
           -
             type: text
@@ -697,8 +632,8 @@ replicator:
             text: "\_"
     type: editor
     enabled: true
+    show_as_card: false
 meta_title: 'Arbeiten • GWriters.de'
 meta_description: 'Akademische Ghostwriter von GWriters bieten ihre Leistungen für die verschiedensten Arten von Arbeiten an. 1. Sie schreiben Mustervorlage für wissenschaftliche Arbeiten: Bachelorarbeit, Masterarbeit, Hausarbeit...2...'
 page_title: 'Arbeiten • GWriters.de'
-id: d118c7b2-141d-4bac-972d-c1502381a340
 ---
