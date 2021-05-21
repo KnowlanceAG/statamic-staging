@@ -95,7 +95,8 @@ module.exports = {
                 'height': 'height'
             },
             maxWidth: {
-                'max-w-screen': '100vw'
+                'max-w-screen': '100vw',
+                'max-w-65px': '65px'
             }
       },
     },
