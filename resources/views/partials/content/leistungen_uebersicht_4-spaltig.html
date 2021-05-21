@@ -2,8 +2,9 @@
     {{ grid }}
         <div class="hover-content border border-gray-400 px8 py-6 flex flex-col relative">
                 <a {{ if link }} {{ link }} href="{{ url }}" {{ /link }} {{ /if }} class="">
-
-                {{ responsive:image alt="{alt}" class="mx-auto" width="65" height="65" style="max-width: 65px" }}
+                    {{ image }}
+                        <img src="{{ url }}" class="mx-auto" width="{{ width }}" height="{{ height }}" alt="{{ alt }}" style="max-width: 65px" />
+                    {{ /image }}
 
                 <div class="my-4 w-16 border-t-2 border-gray-300 block mx-auto">
                     <!-- hr -->
