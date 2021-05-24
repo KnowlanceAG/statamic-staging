@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Literaturrecherche in Datenbanken und Quellen'
+  title: 'Literaturrecherche in Datenbanken und Quellen'
 size: 127180
 last_modified: 1621872418
 width: 843
