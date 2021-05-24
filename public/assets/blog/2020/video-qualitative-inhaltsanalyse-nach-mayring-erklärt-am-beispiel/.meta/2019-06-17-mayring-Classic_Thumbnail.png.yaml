@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Qualitative Inhaltsanalyse nach Mayring'
+  title: 'Qualitative Inhaltsanalyse nach Mayring'
 size: 109935
 last_modified: 1621871874
 width: 843
