@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Fallstudienanalyse nach Yin'
+  title: 'Fallstudienanalyse nach Yin'
 size: 114373
 last_modified: 1621871994
 width: 843
