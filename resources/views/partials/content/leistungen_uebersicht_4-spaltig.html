@@ -3,7 +3,7 @@
         <div class="hover-content border border-gray-400 px8 py-6 flex flex-col relative">
                 <a {{ if link }} {{ link }} href="{{ url }}" {{ /link }} {{ /if }} class="">
                     {{ image }}
-                        <img src="{{ url }}" class="mx-auto" width="{{ width }}" height="{{ height }}" alt="{{ alt }}" style="max-width: 65px" />
+                        <img src="{{ url }}" class="mx-auto" width="{{ if width }}{{ width }}{{ else }}120px{{ /if }}" height="{{ if height }}{{ height }}{{ else }}120px{{ /if }}" alt="{{ alt }}" style="max-width: 65px" />
                     {{ /image }}
 
                 <div class="my-4 w-16 border-t-2 border-gray-300 block mx-auto">
