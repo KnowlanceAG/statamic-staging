@@ -57,7 +57,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1621337087
+updated_at: 1621869329
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2578,41 +2578,6 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Weiterführende Quellen:'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: "Universität Salzburg, 2017:\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: var(--text--accent)
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.plus.ac.at/fileadmin/multimedia/Germanistik/documents/Studium/BA_Germanistik_2017.pdf'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'https://www.plus.ac.at/fileadmin/multimedia/Germanistik/documents/Studium/BA_Germanistik_2017.pdf'
               -
                 type: paragraph
                 content:

@@ -57,7 +57,7 @@ page_title: 'GWriters • Kommunikationswissenschaften - Ghostwriter, Lektoren &
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1621336937
+updated_at: 1621870328
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1028,7 +1028,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.lmu.de/studium/studienangebot/studiengaenge/studienfaecher/index.html'
+                          href: 'https://www.lmu.de/de/studium/studienangebot/alle-studienfaecher-und-studiengaenge/index.html'
                           target: _blank
                           rel: nofollow
                     text: 'Studienfächer und Studiengänge von A bis Z – Ludwig-Maximilians-Universität München'
