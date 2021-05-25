@@ -27,4 +27,4 @@ fields:
       icon: assets
       width: 50
       listable: hidden
-      instructions: 'Bild mobile'
+      instructions: 'Mobile Version (optional)'
