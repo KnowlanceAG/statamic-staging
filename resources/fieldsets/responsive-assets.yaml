@@ -1,7 +1,7 @@
 title: 'Responsive Bilder'
 fields:
   -
-    handle: image_field
+    handle: teaser_bg
     field:
       mode: grid
       container: assets
@@ -15,7 +15,7 @@ fields:
       listable: hidden
       instructions: 'Desktop Version'
   -
-    handle: image_field_xs
+    handle: teaser_bg_xs
     field:
       mode: grid
       container: assets
