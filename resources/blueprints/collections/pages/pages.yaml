@@ -64,30 +64,7 @@ sections:
           icon: bard
           listable: hidden
       -
-        handle: teaser_bg
-        field:
-          mode: grid
-          container: assets
-          restrict: false
-          allow_uploads: true
-          display: 'Teaser Hintergrund'
-          type: assets
-          icon: assets
-          listable: hidden
-          width: 50
-      -
-        handle: teaser_bg_mobile
-        field:
-          mode: grid
-          container: assets
-          restrict: false
-          allow_uploads: true
-          max_files: 1
-          display: 'Teaser Hintergrund mobile'
-          type: assets
-          icon: assets
-          width: 50
-          listable: hidden
+        import: responsive-assets
       -
         import: ce_replicator
   sidebar:
