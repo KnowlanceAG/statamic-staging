@@ -373,7 +373,7 @@ replicator:
         content:
           -
             type: text
-            text: '(1) Tritt der Kunde aus Gründen, die wir nicht zu vertreten haben, vom Vertrag zurück, so gilt als vereinbart, dass wir Schadensersatz in Höhe der nachgewiesenen Aufwendungen (Stunden oder Seiten), mindestens jedoch in Höhe von 30 % der Nettoauftragssumme verlangen können, es sei denn, die Pauschale übersteigt den im normalen Geschäftsgang zu erwartenden Schaden oder den üblichen Wertminderungsaufwand oder der Kunde weist nach, dass entweder kein Schaden entstanden ist oder der entstandene Schaden wesentlich niedriger ist als die Pauschale. Ebenso werden Kosten in Abzug gebracht, die wir dadurch eingespart haben, dass die Leistungen nicht vollständig erbracht wurden oder durch anderweitigen Einsatz der entsprechenden Arbeitskräfte erzielt wurden, oder solche Erlöse, die wir nicht in böswilliger Absicht erzielen. Bereits erbrachte Leistungen werden angemessen vergütet.'
+            text: '(1) Tritt der Kunde aus Gründen, die wir nicht zu vertreten haben, vom Vertrag zurück, so gilt als vereinbart, dass wir Schadensersatz in Höhe der nachgewiesenen Aufwendungen (Stunden oder Seiten), mindestens jedoch in Höhe von 30 % der Nettoauftragssumme verlangen können, es sei denn, die Pauschale übersteigt den im normalen Geschäftsgang zu erwartenden Schaden oder den üblichen Wertminderungsaufwand oder der Kunde weist nach, dass entweder kein Schaden entstanden ist oder der entstandene Schaden wesentlich niedriger ist als die Pauschale. Ebenso werden Kosten in Abzug gebracht, die wir dadurch eingespart haben, dass die Leistungen nicht vollständig erbracht wurden oder durch anderweitigen Einsatz der entsprechenden Arbeitskräfte erzielt wurden, oder solche Erlöse, die wir nicht in böswilliger Absicht erzielen. Bei bereits begonnenen Projekten werden erbrachte Leistungen angemessen vergütet und es kommt zu einem Schadenersatz in Höhe von mindestens 30 % der noch offenen Nettoauftragssumme.'
       -
         type: paragraph
         content:
@@ -462,7 +462,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619787920
+updated_at: 1621954831
 page_title: 'GWriters • Allgemeine Geschäftsbedingungen'
 template: without-teaser-with-sidebar
 meta_title: 'GWriters • Allgemeine Geschäftsbedingungen'
