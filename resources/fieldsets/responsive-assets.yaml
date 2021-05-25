@@ -1,0 +1,30 @@
+title: 'Responsive Bilder'
+fields:
+  -
+    handle: teaser_bg
+    field:
+      mode: grid
+      container: assets
+      restrict: false
+      allow_uploads: true
+      max_files: 1
+      display: 'Bild lg'
+      type: assets
+      icon: assets
+      width: 50
+      listable: hidden
+      instructions: 'Desktop Version'
+  -
+    handle: teaser_bg_xs
+    field:
+      mode: grid
+      container: assets
+      restrict: false
+      allow_uploads: true
+      max_files: 1
+      display: 'Bild xs'
+      type: assets
+      icon: assets
+      width: 50
+      listable: hidden
+      instructions: 'Mobile Version (optional)'

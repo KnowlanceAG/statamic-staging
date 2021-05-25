@@ -64,16 +64,7 @@ sections:
           icon: bard
           listable: hidden
       -
-        handle: teaser_bg
-        field:
-          mode: grid
-          container: assets
-          restrict: false
-          allow_uploads: true
-          display: 'Teaser Hintergrund'
-          type: assets
-          icon: assets
-          listable: hidden
+        import: responsive-assets
       -
         import: ce_replicator
   sidebar:
