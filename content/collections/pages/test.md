@@ -3,7 +3,7 @@ id: 942c2c8b-0964-473f-bd8d-10426b828eb8
 published: false
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1621966738
+updated_at: 1622011719
 replicator:
   -
     bard:
@@ -125,5 +125,5 @@ teaser:
     content:
       -
         type: text
-        text: 2.0.1
+        text: 2.0.2
 ---

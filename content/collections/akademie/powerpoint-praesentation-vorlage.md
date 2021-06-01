@@ -109,7 +109,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/gwriters-coaching'
+                  href: /blog/gwriters-coaching
                   target: null
                   rel: null
             text: 'professionellen Coaching'
@@ -133,7 +133,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619727620
+updated_at: 1622215494
 downloads:
   - akademie/Praesentation.pptx
 from_the_blog:
@@ -145,7 +145,7 @@ from_the_blog:
 page_title: 'Kostenlose Powerpoint Präsentation Vorlage für Ihre Hausarbeit herunterladen'
 academy_short_text-headline: 'Powerpoint Präsentation'
 academy_short_text: 'Intensive Vorbereitung und unsere Präsentationsvorlage. Von GWriters alles für die perfekte Präsentation.'
-meta_title: 'Kostenlose Powerpoint Präsentation Vorlage für Ihre Hausarbeit herunterladen'
+meta_title: 'Kostenlose Powerpoint Präsentation Vorlage herunterladen'
 meta_description: 'Mit der kostenlosen Vorlage von GWriters erstellen Sie jetzt eine gelungene Powerpoint Präsentation für die Verteidigung Ihrer wissenschaftlichen Arbeit.'
 use_meta_keywords: false
 no_index_page: false
@@ -167,4 +167,6 @@ more_templates:
   - e777b9fb-7884-4d67-8453-9d6c8cb0aa9f
 template: academy-item
 link_title: 'PowerPoint Präsentation'
+og_title: 'Kostenlose Powerpoint Präsentation Vorlage herunterladen'
+og_description: 'Mit der kostenlosen Vorlage von GWriters erstellen Sie jetzt eine gelungene Powerpoint Präsentation für die Verteidigung Ihrer wissenschaftlichen Arbeit.'
 ---
