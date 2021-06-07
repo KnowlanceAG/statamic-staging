@@ -63,11 +63,10 @@ teaser:
         spacing_top: false
   -
     type: paragraph
-teaser_bg:
-  - seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
+teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619792375
+updated_at: 1623096268
 replicator:
   -
     bard:
@@ -162,7 +161,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/hausarbeit-schreiben-lassen'
+                  href: /arbeiten/hausarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Hausarbeit
@@ -189,7 +188,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/facharbeit'
+                  href: /arbeiten/facharbeit
                   target: null
                   rel: null
             text: Facharbeit
@@ -216,7 +215,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/seminararbeit-schreiben-lassen'
+                  href: /arbeiten/seminararbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Seminararbeit
@@ -243,7 +242,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/doktorarbeit'
+                  href: /arbeiten/doktorarbeit
                   target: null
                   rel: null
             text: 'Doktorarbeit schreiben lassen'
@@ -289,7 +288,7 @@ replicator:
             ex_button_align: justify-start
             ex_spacing_top: false
             ex_fachbereich:
-              - 4f92f65f-d065-438c-aadb-d0992f2e138f
+              - 06fbb3f4-51c2-4f11-832e-9b72a495857d
       -
         type: set
         attrs:
@@ -324,6 +323,8 @@ replicator:
             ex_color: '#FF6606'
             ex_button_align: justify-start
             ex_spacing_top: false
+            ex_fachbereich:
+              - f07c0010-40dd-407e-bf32-a1a260b5016b
       -
         type: set
         attrs:
@@ -336,6 +337,24 @@ replicator:
             ex_pages: '10'
             ex_zitation: 'Deutsche Zitierweise (Zitieren mit Fußnoten)'
             ex_button_link: 'entry::f206afbb-bc01-48a0-bedb-ac88f20e776e'
+            ex_button_text: Weiterlesen
+            ex_color: '#FF6606'
+            ex_button_align: justify-start
+            ex_spacing_top: false
+            ex_fachbereich:
+              - f07c0010-40dd-407e-bf32-a1a260b5016b
+      -
+        type: set
+        attrs:
+          values:
+            type: example_work
+            ex_img_right: false
+            ex_image: seiten/europarecht-jura-hausarbeit-beispiel.png
+            ex_title: 'Europarecht: Legal and Human Rights Protection in the EU'
+            ex_type: Hausarbeit
+            ex_pages: '8'
+            ex_zitation: 'Deutsche Zitierweise (Zitieren mit Fußnoten)'
+            ex_button_link: 'entry::ebc88d3b-5c58-41f8-9c28-2c4dd62dea5e'
             ex_button_text: Weiterlesen
             ex_color: '#FF6606'
             ex_button_align: justify-start
