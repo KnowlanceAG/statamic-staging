@@ -5,7 +5,7 @@ page_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1623095287
+updated_at: 1623095616
 meta_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Jura-Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
 use_meta_keywords: false
@@ -88,39 +88,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: ' möchten, benötigen diese Unterstützung, da diese sich überfordert fühlen. Schließlich stell die erste wissenschaftliche Arbeit im Studium eine große Herausforderung da. Die folgende englische Hausarbeit wurde als Beispiel und Handreichung für Sie von einem unserer erfahrenen '
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /fachrichtungen/jura
-                  target: null
-                  rel: null
-            text: 'Jura Ghostwriter'
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: ' geschrieben. Anhand dieser Muster Hausarbeit möchten wir nicht nur unsere hervorragenden Kompetenzen im juristischen Fachbereich demonstrieren, sondern auch Ihnen als Studenten eine praktische Hilfestellung bieten, an der Sie sich beim Verfassen Ihrer eigenen Hausarbeit orientieren können. Unter anderem möchten wir damit folgende häufig gestellte Fragen beantworten:'
+            text: ' möchten, benötigen diese Unterstützung, da diese sich überfordert fühlen. Schließlich stell die erste wissenschaftliche Arbeit im Studium eine große Herausforderung da. Die folgende englische Hausarbeit wurde als Beispiel und Handreichung für Sie von einem unserer erfahrenen Jura Ghostwriter geschrieben. Anhand dieser Muster Hausarbeit möchten wir nicht nur unsere hervorragenden Kompetenzen im juristischen Fachbereich demonstrieren, sondern auch Ihnen als Studenten eine praktische Hilfestellung bieten, an der Sie sich beim Verfassen Ihrer eigenen Hausarbeit orientieren können. Unter anderem möchten wir damit folgende häufig gestellte Fragen beantworten:'
       -
         type: bullet_list
         content:
@@ -215,7 +183,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Über die oben aufgeführten Punkte hinaus stehen Ihnen unsere erfahrenen akademischen Ghostwriter'
+            text: 'Über die oben aufgeführten Punkte hinaus stehen Ihnen unsere erfahrenen '
           -
             type: text
             marks:
@@ -223,21 +191,18 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: ' selbstverständlich auch über das vorliegende Beispiel hinaus zur Verfügung. Senden Sie uns einfach eine '
-          -
-            type: text
-            marks:
               -
-                type: textAlign
+                type: textColor
                 attrs:
-                  align: start
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
               -
                 type: link
                 attrs:
-                  href: /anfrage
+                  href: /fachrichtungen/jura
                   target: null
                   rel: null
-            text: 'kostenlose Anfrage'
+            text: 'Jura Ghostwriter'
           -
             type: text
             marks:
@@ -245,7 +210,7 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: .
+            text: ' selbstverständlich auch über das vorliegende Beispiel hinaus zur Verfügung.'
       -
         type: paragraph
         content:
@@ -287,7 +252,43 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: "Dieses Hausarbeit Beispiel dient als Hilfestellung zum Schreiben Ihrer Hausarbeit. Wenn Sie darüber hinaus noch Unterstützung benötigen, bietet GWriters Ihnen selbstverständlich auch eine direkte und individuelle Unterstützung durch unsere Experten an. Lassen Sie uns einfach eine Nachricht zukommen und wir stehen Ihnen mit Rat und Tat zur Verfügung,\_"
+            text: 'Gerne unterstützen wir auch Sie beim Verfassen ihrer Hausarbeit! Unsere Erfahrung und Kompetenz im Verfassen von Mustervorlagen für wissenschaftliche Arbeiten haben bereits einer Vielzahl von Studenten dabei geholfen, ihre akademischen Ziele zu erreichen. Verlassen Sie uns auf unsere bewährten Qualitätsstandards und senden Sie uns jetzt eine '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /anfrage
+                  target: null
+                  rel: null
+            text: 'unverbindliche Anfrage'
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: '. Wir melden uns schnellstmöglich bei Ihnen mit'
           -
             type: text
             marks:
@@ -302,7 +303,7 @@ replicator:
                 attrs:
                   color: 'rgb(255, 102, 2)'
                   hex: '#000'
-            text: 'im Rahmen einer unverbindlichen und kostenfreien Beratung'
+            text: ' einer unverbindlichen und kostenfreien Beratung'
           -
             type: text
             marks:
