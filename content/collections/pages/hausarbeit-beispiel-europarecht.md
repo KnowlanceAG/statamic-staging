@@ -1,13 +1,13 @@
 ---
 id: ebc88d3b-5c58-41f8-9c28-2c4dd62dea5e
-title: 'Hausarbeit Beispiel: Bewertung von Embryonenforschung (Dupliziert)'
-page_title: 'Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
+title: 'Hausarbeit Beispiel: Legal and Human Rights Protection in the EU'
+page_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619632292
-meta_title: 'Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
-meta_description: 'Überzeugen Sie sich anhand dieses Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
+updated_at: 1623095287
+meta_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
+meta_description: 'Überzeugen Sie sich anhand dieses Jura-Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -38,7 +38,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Hausarbeit Beispiel: Bewertung von Embryonenforschung'
+            text: 'Hausarbeit Beispiel: Legal and Human Rights Protection in the EU'
       -
         type: paragraph
       -
@@ -56,7 +56,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Die erste'
+            text: 'Viele Studenten, die sich bei GWriters eine Mustervorlage für Ihre'
           -
             type: text
             marks:
@@ -67,7 +67,7 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: 'rgb(255, 102, 2)'
+                  color: 'rgb(68, 68, 68)'
                   hex: '#000'
               -
                 type: link
@@ -75,7 +75,7 @@ replicator:
                   href: /arbeiten/hausarbeit-schreiben-lassen
                   target: null
                   rel: null
-            text: "\_Hausarbeit mit einem anspruchsvollen Thema"
+            text: ' Hausarbeit schreiben lassen'
           -
             type: text
             marks:
@@ -83,7 +83,44 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: "\_und nicht geringen Umfang ist oft eine der größten Herausforderungen im Studium. Aus diesem Grund möchten wir Ihnen hier das folgende Hausarbeit Beispiel bereitstellen – geschrieben von einem unserer erfahrensten Ghostwriter im Bereich der Sozialwissenschaften. Selbstverständlich präsentieren wir nicht nur unsere Qualität und die hohen Ansprüche an unsere akademischen Ghostwriter mit dieser Muster Hausarbeit, sondern diese ist auch dazu gedacht, vielen unserer regelmäßigen Nutzer einige immer wiederkehrende Fragen zu beantworten:"
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: ' möchten, benötigen diese Unterstützung, da diese sich überfordert fühlen. Schließlich stell die erste wissenschaftliche Arbeit im Studium eine große Herausforderung da. Die folgende englische Hausarbeit wurde als Beispiel und Handreichung für Sie von einem unserer erfahrenen '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /fachrichtungen/jura
+                  target: null
+                  rel: null
+            text: 'Jura Ghostwriter'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: ' geschrieben. Anhand dieser Muster Hausarbeit möchten wir nicht nur unsere hervorragenden Kompetenzen im juristischen Fachbereich demonstrieren, sondern auch Ihnen als Studenten eine praktische Hilfestellung bieten, an der Sie sich beim Verfassen Ihrer eigenen Hausarbeit orientieren können. Unter anderem möchten wir damit folgende häufig gestellte Fragen beantworten:'
       -
         type: bullet_list
         content:
@@ -105,7 +142,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Wie wird ein Hausarbeit Deckblatt gestaltet und was gehört dazu?'
+                    text: 'Wie erstellt man das Deckblatt für eine juristische Hausarbeit?'
           -
             type: list_item
             content:
@@ -124,7 +161,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Wie sollte eine Hausarbeit Einleitung geschrieben werden und welche Informationen sind dafür essentiell?'
+                    text: 'Wie wird eine juristische Hausarbeit formuliert (Gutachtenstil vs. Urteilsstil)?'
           -
             type: list_item
             content:
@@ -143,7 +180,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Was trägt zu einer guten Hausarbeit Gliederung oder einem guten Hausarbeit Aufbau bei?'
+                    text: 'Wie wird eine Jura Hausarbeit aufgebaut? Was ist eine gute Gliederung?'
           -
             type: list_item
             content:
@@ -162,7 +199,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Schreibblockade überwinden – wie schaffe ich das?'
+                    text: 'Welche Quellen eignen sich im Fachbereich Jura?'
       -
         type: paragraph
         content:
@@ -178,7 +215,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: "Alle Punkte möchten wir in unserem Hausarbeit Beispiel zu Ihrer Unterstützung verdeutlichen.\_"
+            text: 'Über die oben aufgeführten Punkte hinaus stehen Ihnen unsere erfahrenen akademischen Ghostwriter'
           -
             type: text
             marks:
@@ -186,18 +223,21 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
+            text: ' selbstverständlich auch über das vorliegende Beispiel hinaus zur Verfügung. Senden Sie uns einfach eine '
+          -
+            type: text
+            marks:
               -
-                type: textColor
+                type: textAlign
                 attrs:
-                  color: 'rgb(255, 102, 2)'
-                  hex: '#000'
+                  align: start
               -
                 type: link
                 attrs:
-                  href: /fachrichtungen/soziologie
+                  href: /anfrage
                   target: null
                   rel: null
-            text: 'Unsere Ghostwriter für Sozialwissenschaften'
+            text: 'kostenlose Anfrage'
           -
             type: text
             marks:
@@ -205,7 +245,7 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: ', die bereits eine Vielzahl von Mustervorlagen für unsere Kunden bei GWriters verfasst hat, stehen Ihnen selbstverständlich auch über das vorliegende Beispiel hinaus zur Verfügung.'
+            text: .
       -
         type: paragraph
         content:
@@ -226,7 +266,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /assets/downloads/ghostwriting-beispielarbeiten/Hausarbeit-Beispiel-Sozialwissenschaften-Bewertung-von-Embryonenforschung.pdf
+                  href: /assets/downloads/ghostwriting-beispielarbeiten/Hausarbeit-Beispiel-Europarecht-Legal-and-Human-Rights-Protection-in-the-EU.pdf
                   target: _blank
                   rel: null
             text: 'Hier können Sie unsere Beispiel-Hausarbeit kostenlos herunterladen!'
@@ -262,12 +302,6 @@ replicator:
                 attrs:
                   color: 'rgb(255, 102, 2)'
                   hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /anfrage
-                  target: null
-                  rel: null
             text: 'im Rahmen einer unverbindlichen und kostenfreien Beratung'
           -
             type: text
@@ -282,4 +316,7 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
+og_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
+og_description: 'Überzeugen Sie sich anhand dieses Jura-Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
+og_image: GWriters-Logo.png
 ---
