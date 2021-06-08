@@ -166,7 +166,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/doktorarbeit'
+                          href: /arbeiten/doktorarbeit
                           target: null
                           rel: null
                     text: 'Doktorarbeit Ghostwritern'
@@ -341,7 +341,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/kontakt'
+                                  href: /kontakt
                                   target: null
                                   rel: null
                             text: Kontakt
@@ -461,10 +461,10 @@ replicator:
 page_title: 'Titel kaufen & Promotionsvermittler: "Alternativen" zur Promotion?'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619607793
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623153925
 meta_title: 'Titel kaufen & Promotionsvermittler: "Alternativen" zur Promotion?'
-meta_description: 'Kann man Titel kaufen? Sind sogenannte Promotionsvermittler legal? Was steckt hinter diesen "Alternativen" zur Promotion? Alle Infos bei GWriters.de!'
+meta_description: 'Kann man Titel kaufen? Sind sogenannte Promotionsvermittler legal? Was steckt hinter diesen "Alternativen" zur Promotion? Alle wichtigen Informationen bei GWriters.de!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
