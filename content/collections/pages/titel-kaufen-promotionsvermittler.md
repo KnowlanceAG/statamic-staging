@@ -462,7 +462,7 @@ page_title: 'Titel kaufen & Promotionsvermittler: "Alternativen" zur Promotion?'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623153925
+updated_at: 1623153965
 meta_title: 'Titel kaufen & Promotionsvermittler: "Alternativen" zur Promotion?'
 meta_description: 'Kann man Titel kaufen? Sind sogenannte Promotionsvermittler legal? Was steckt hinter diesen "Alternativen" zur Promotion? Alle wichtigen Informationen bei GWriters.de!'
 use_meta_keywords: false
@@ -473,4 +473,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Titel kaufen & Promotionsvermittler: "Alternativen" zur Promotion?'
+og_description: 'Kann man Titel kaufen? Sind sogenannte Promotionsvermittler legal? Was steckt hinter diesen "Alternativen" zur Promotion? Alle wichtigen Informationen bei GWriters.de!'
+og_image: GWriters-Logo.png
 ---
