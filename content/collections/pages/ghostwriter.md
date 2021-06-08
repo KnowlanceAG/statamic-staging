@@ -42,10 +42,9 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1620143950
+updated_at: 1622566235
 replicator:
   -
     bard:
@@ -171,15 +170,6 @@ replicator:
           -
             type: text
             text: 'Handelt es sich um ein bekanntes Vergleichsportal wie '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: Trustpilot
-          -
-            type: text
-            text: ', '
           -
             type: text
             marks:

@@ -42,8 +42,7 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -64,7 +63,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/seminararbeit-schreiben-lassen'
+                  href: /arbeiten/seminararbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Seminararbeit
@@ -102,7 +101,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat/lektor'
+                  href: /lektorat/lektor
                   target: null
                   rel: null
             text: Lektor
@@ -125,7 +124,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat/korrekturlesen'
+                  href: /korrektorat/korrekturlesen
                   target: null
                   rel: null
             text: Korrekturlesen
@@ -152,7 +151,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: 'akademisches Ghostwriting'
@@ -165,7 +164,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat'
+                  href: /lektorat
                   target: null
                   rel: null
             text: Lektorat
@@ -189,7 +188,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/lektorat'
+                  href: /blog/lektorat
                   target: null
                   rel: null
             text: 'Die große Infosammlung zum Lektorat'
@@ -201,7 +200,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/akademische-ghostwriter-vorteile'
+                  href: /blog/akademische-ghostwriter-vorteile
                   target: null
                   rel: null
             text: '5 unschlagbare Vorteile, die für einen Job als akademischer Ghostwriter sprechen'
@@ -213,7 +212,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/erfahrungsbericht-ghostwriter-gwriters'
+                  href: /blog/erfahrungsbericht-ghostwriter-gwriters
                   target: null
                   rel: null
             text: 'Erfahrungsbericht zur Arbeit als Ghostwriter bei GWriters'
@@ -228,7 +227,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
@@ -237,10 +236,10 @@ replicator:
     enabled: true
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619471405
+updated_at: 1622642784
 page_title: 'Lektor gesucht? Wir haben den passenden Lektor für Ihre Abschlussarbeit'
 template: with-side-bar
-meta_title: 'Lektor gesucht? Wir haben den passenden Lektor für Ihre Abschlussarbeit'
+meta_title: 'Lektor gesucht? Wir haben den passenden Lektor für Sie!'
 meta_description: 'Bachelorarbeit, Masterarbeit oder Doktorarbeit Korrektur lesen lassen? Kein Problem mit der Ghostwriter Agentur GWriters.de. Mehr dazu hier.'
 use_meta_keywords: false
 no_index_page: false
@@ -250,4 +249,6 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Lektor gesucht? Wir haben den passenden Lektor für Sie!'
+og_description: 'Bachelorarbeit, Masterarbeit oder Doktorarbeit Korrektur lesen lassen? Kein Problem mit der Ghostwriter Agentur GWriters.de. Mehr dazu hier.'
 ---
