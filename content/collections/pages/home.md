@@ -64,7 +64,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1621965696
+updated_at: 1623136314
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -290,11 +290,11 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <!-- TrustBox widget - Carousel -->
-                                            <div class="trustpilot-widget" data-locale="de-DE" data-template-id="53aa8912dec7e10d38f59f36" data-businessunit-id="50ff38960000640005212bff" data-style-height="140px" data-style-width="100%" data-theme="light" data-stars="4,5" data-review-languages="de">
-                                            <a href="https://de.trustpilot.com/review/gwriters.de" target="_blank" rel="noopener">Trustpilot</a>
-                                            </div>
-                                            <!-- End TrustBox widget -->
+                      <!-- ProvenExpert Bewertungssiegel -->
+                      <div id="pewl"></div>
+                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
+                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+                      <!-- ProvenExpert Bewertungssiegel Ende -->
               -
                 type: paragraph
             show_as_card: false
