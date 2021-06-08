@@ -15,6 +15,15 @@
             {{/footer_cta}}
         </div>
     </section>
+    {{ if rating_widget_footer && id!="home" }}
+        <section class="px-4 py-24 bg-white">
+            <div class="container mx-auto max-w-screen-xl text-center">
+                {{ rating_widget_footer }}
+                    {{ widget_code_html }}
+                {{ /rating_widget_footer }}
+            </div>
+        </section>
+    {{ /if }}
     <section class="px-4 bg-gray-100 pt-20 pb-8">
         <div class="container mx-auto max-w-screen-xl md:flex md:justify-around">
             <div>
