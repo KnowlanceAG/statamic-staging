@@ -40,13 +40,13 @@
             <p class="px-4 mt-4 text-xs leading-4">
                 {{ description }}
             </p>
-            <div class="rating-wrapper my-2 grid grid-cols-1 xl:grid-cols-2 xl:gap-4">
-                <div>
+            <div class="rating-wrapper my-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2 xl:gap-4">
+                <div class="mb-5 xl:mb-0 self-center mx-auto">
                     {{ iframe_html }}
                 </div>
                 <div>
                     {{ logo_image }}
-                        <img class="self-center mx-auto p-4" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
+                        <img class="self-center mx-auto p-4" src="{{ url }}" width="{{width}}" height="{{height}}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
                     {{ /logo_image }}
                 </div>
             </div>

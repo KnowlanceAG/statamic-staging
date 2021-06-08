@@ -1,0 +1,5 @@
+title: 'Footer Rating Widget'
+data:
+  widget_code_html: |-
+    <div class="pe-richsnippets"></div>
+    <script type="text/javascript" src="https://www.provenexpert.com/widget/richsnippet.js?u=1RUAkWmpmZUAmEwA5NaAjDQA1NaolRaZ&v=2" async></script>
