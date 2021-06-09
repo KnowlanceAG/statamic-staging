@@ -900,7 +900,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623263143
+updated_at: 1623263215
 meta_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
 meta_description: 'Akademische Übersetzer, Autoren, Lektoren, Korrektoren, Coaches finden & Informationen zum Thema Übersetzung: Leistungen, Ablauf, Kosten & Preise.'
 use_meta_keywords: false
@@ -914,4 +914,5 @@ twitter_card_type_page: summary
 page_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
 og_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
 og_description: 'Akademische Übersetzer, Autoren, Lektoren, Korrektoren, Coaches finden & Informationen zum Thema Übersetzung: Leistungen, Ablauf, Kosten & Preise.'
+og_image: GWriters-Logo.png
 ---
