@@ -4,7 +4,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619794978
+updated_at: 1623263096
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -52,12 +52,11 @@ teaser:
     attrs:
       values:
         type: button
-        button_link: '/anfrage'
+        button_link: /anfrage
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -95,7 +94,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/ghostwriting'
+                          href: /ghostwriting
                           target: null
                           rel: null
                     text: Ghostwriting-Service
@@ -108,7 +107,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/ghostwriter'
+                          href: /ghostwriter
                           target: null
                           rel: null
                     text: Ghostwriter
@@ -127,7 +126,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/doktorarbeit'
+                          href: /arbeiten/doktorarbeit
                           target: null
                           rel: null
                     text: 'Doktorarbeit schreibt'
@@ -140,7 +139,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/ghostwriting/ghostwriting-agentur/'
+                          href: /ghostwriting/ghostwriting-agentur/
                           target: null
                           rel: null
                     text: 'Ghostwriter Agentur'
@@ -218,7 +217,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/ghostwriting'
+                          href: /ghostwriting
                           target: null
                           rel: null
                     text: 'Mehr zum Ghostwriting'
@@ -284,7 +283,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/lektorat'
+                          href: /lektorat
                           target: null
                           rel: null
                     text: 'Mehr zum Lektorat'
@@ -350,7 +349,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/korrektorat'
+                          href: /korrektorat
                           target: null
                           rel: null
                     text: 'Mehr zum Korrektorat'
@@ -428,7 +427,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/maxqda-auswertung'
+                          href: /leistungen/maxqda-auswertung
                           target: null
                           rel: null
                     text: 'Mehr zur MAXQDA Auswertung'
@@ -499,7 +498,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/formatierung'
+                          href: /leistungen/formatierung
                           target: null
                           rel: null
                     text: 'Mehr zur Formatierung'
@@ -558,7 +557,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/plagiatspruefung'
+                          href: /leistungen/plagiatspruefung
                           target: null
                           rel: null
                     text: 'Mehr zur Plagiatsprüfung'
@@ -636,7 +635,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/uebersetzung'
+                          href: /leistungen/uebersetzung
                           target: null
                           rel: null
                     text: 'Mehr zur Übersetzung'
@@ -707,7 +706,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/promotionsberatung'
+                          href: /promotionsberatung
                           target: null
                           rel: null
                     text: 'Mehr zur Promotionsberatung'
@@ -766,7 +765,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/leistungen/uebersetzung'
+                                  href: /leistungen/uebersetzung
                                   target: null
                                   rel: null
                             text: Übersetzung
@@ -779,7 +778,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/leistungen/plagiatspruefung'
+                                  href: /leistungen/plagiatspruefung
                                   target: null
                                   rel: null
                             text: Plagiatsprüfungen
@@ -813,4 +812,7 @@ replicator:
 meta_title: 'GWriters • Unsere Leistungen und Services'
 meta_description: 'Bei GWriters finden Sie akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer & viele andere Experten - Einfach, schnell & sicher!'
 page_title: 'GWriters • Unsere Leistungen und Services'
+og_title: 'GWriters • Unsere Leistungen und Services'
+og_description: 'Bei GWriters finden Sie akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer & viele andere Experten - Einfach, schnell & sicher!'
+og_image: GWriters-Logo.png
 ---
