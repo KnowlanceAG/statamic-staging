@@ -44,8 +44,7 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     columns-replicator:
@@ -900,8 +899,8 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1620228885
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623263143
 meta_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
 meta_description: 'Akademische Übersetzer, Autoren, Lektoren, Korrektoren, Coaches finden & Informationen zum Thema Übersetzung: Leistungen, Ablauf, Kosten & Preise.'
 use_meta_keywords: false
@@ -913,4 +912,6 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
+og_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
+og_description: 'Akademische Übersetzer, Autoren, Lektoren, Korrektoren, Coaches finden & Informationen zum Thema Übersetzung: Leistungen, Ablauf, Kosten & Preise.'
 ---
