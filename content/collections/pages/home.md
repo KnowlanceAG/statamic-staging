@@ -63,8 +63,8 @@ teaser:
   -
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1623165319
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623262995
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1026,4 +1026,7 @@ meta_description: 'Als seriöse Ghostwriter Agentur steht Ihnen GWriters als pro
 image_field: seiten/home/gwrites-headervisual-1.jpg
 image_field_xs: seiten/home/gwrites-headervisual-mobile.jpg
 teaser_bg_xs: seiten/home/gwrites-headervisual-mobile.jpg
+og_title: 'GWriters • Akademische Ghostwriter Agentur'
+og_description: 'Als seriöse Ghostwriter Agentur steht Ihnen GWriters als professioneller Partner bei Ihrer wissenschaftlichen Arbeit zur Seite. Unsere akademischen Ghostwriter unterstützen Sie zuverlässig & diskret!'
+og_image: GWriters-Logo.png
 ---
