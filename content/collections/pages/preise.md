@@ -3,8 +3,8 @@ id: 7aff708e-5d48-409e-9242-fd82c155f5ee
 title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619793491
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623263389
 replicator:
   -
     columns-replicator:
@@ -63,7 +63,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen'
+                          href: /leistungen
                           target: null
                           rel: null
                     text: 'unsere Leistungen'
@@ -238,7 +238,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/ghostwriting'
+                                  href: /ghostwriting
                                   target: null
                                   rel: null
                             text: 'akademischen Ghostwriting'
@@ -256,7 +256,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/arbeiten/masterarbeit-schreiben-lassen'
+                                  href: /arbeiten/masterarbeit-schreiben-lassen
                                   target: null
                                   rel: null
                             text: 'Masterarbeit schreiben lassen'
@@ -710,7 +710,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/fachrichtungen/finanzwissenschaften'
+                                  href: /fachrichtungen/finanzwissenschaften
                                   target: null
                                   rel: null
                             text: 'finanzwissenschaftliche Masterarbeit schreiben lassen'
@@ -723,7 +723,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/fachrichtungen/soziologie'
+                                  href: /fachrichtungen/soziologie
                                   target: null
                                   rel: null
                             text: 'sozialwissenschaftlichen Literaturarbeit'
@@ -871,7 +871,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/arbeiten/seminararbeit-schreiben-lassen'
+                                  href: /arbeiten/seminararbeit-schreiben-lassen
                                   target: null
                                   rel: null
                             text: 'Seminararbeit kaufen'
@@ -1843,7 +1843,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/doktorarbeit'
+                          href: /arbeiten/doktorarbeit
                           target: null
                           rel: null
                     text: "\_Doktorarbeit schreiben lassen\_"
@@ -1875,7 +1875,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/hausarbeit-schreiben-lassen'
+                          href: /arbeiten/hausarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: "\_Hausarbeit\_"
@@ -1893,7 +1893,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/korrektorat'
+                          href: /korrektorat
                           target: null
                           rel: null
                     text: "Korrektorat\_"
@@ -1906,7 +1906,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/lektorat'
+                          href: /lektorat
                           target: null
                           rel: null
                     text: Lektorat
@@ -1961,7 +1961,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/hausarbeit-schreiben-lassen'
+                          href: /arbeiten/hausarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: 'Hausarbeit schreiben lassen'
@@ -2008,4 +2008,7 @@ twitter_card_type_page: summary
 page_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓'
 meta_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓'
 meta_description: 'Berechnen Sie die Ghostwriter Preise mit unserem Preisrechner. Jetzt Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen - zu fairen Preisen!'
+og_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓'
+og_description: 'Berechnen Sie die Ghostwriter Preise mit unserem Preisrechner. Jetzt Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen - zu fairen Preisen!'
+og_image: GWriters-Logo.png
 ---
