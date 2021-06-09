@@ -1,7 +1,8 @@
 ---
+id: a429a015-f680-4717-8b76-bf0d66ce02d4
 title: 'Über Gwriters'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619013864
+updated_at: 1623263527
 teaser:
   -
     type: heading
@@ -42,8 +43,8 @@ teaser:
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+        spacing_top: false
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -93,7 +94,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/uebersetzung'
+                  href: /leistungen/uebersetzung
                   target: null
                   rel: null
             text: 'Übersetzung '
@@ -106,7 +107,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/diplomarbeit'
+                  href: /arbeiten/diplomarbeit
                   target: null
                   rel: null
             text: Diplomarbeit
@@ -119,7 +120,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Bachelorarbeit
@@ -132,7 +133,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/plagiatspruefung'
+                  href: /leistungen/plagiatspruefung
                   target: null
                   rel: null
             text: Plagiatsprüfung
@@ -159,7 +160,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/preise'
+                  href: /preise
                   target: null
                   rel: null
             text: 'fairen und transparenten Preisen'
@@ -186,7 +187,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/anfrage'
+                  href: /anfrage
                   target: null
                   rel: null
             text: ' Anfragen'
@@ -213,7 +214,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/team'
+                  href: /team
                   target: null
                   rel: null
             text: 'Team von Akademikern'
@@ -222,6 +223,7 @@ replicator:
             text: ' mit umfassender Erfahrung in der Ausarbeitung von wissenschaftlichen Arbeiten, einem weitreichenden Kontaktnetzwerk und Leidenschaft für den Einsatz moderner Technologien. Wir verstehen es als unsere Aufgabe den existierenden Markt für akademische Freelancer neu zu definieren. Unser Ziel ist es sowohl den Ansprüchen unserer Kunden und Auftraggeber, als auch der durch uns betreuten wissenschaftlichen Freelancer gerecht zu werden.'
     type: editor
     enabled: true
+    show_as_card: false
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -234,5 +236,7 @@ template: with-side-bar
 meta_title: 'Über uns • GWriters - DIe Ghostwriter Agentur'
 meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches und mehr finden Sie bei GWriters.de.'
 page_title: 'Über uns • GWriters - DIe Ghostwriter Agentur'
-id: a429a015-f680-4717-8b76-bf0d66ce02d4
+og_title: 'Über uns • GWriters - DIe Ghostwriter Agentur'
+og_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches und mehr finden Sie bei GWriters.de.'
+og_image: GWriters-Logo.png
 ---
