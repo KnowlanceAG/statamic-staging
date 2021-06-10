@@ -39,10 +39,9 @@ teaser:
         spacing_top: false
   -
     type: paragraph
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1620144320
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623326413
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -285,4 +284,7 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: with-side-bar
 page_title: 'GWriters • Impressum'
+og_title: 'GWriters • Impressum'
+og_description: 'GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
+og_image: GWriters-Logo.png
 ---
