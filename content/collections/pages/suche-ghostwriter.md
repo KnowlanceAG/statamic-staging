@@ -42,8 +42,7 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -59,7 +58,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
@@ -72,7 +71,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat'
+                  href: /korrektorat
                   target: null
                   rel: null
             text: Korrektorats
@@ -85,7 +84,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat/korrekturlesen'
+                  href: /korrektorat/korrekturlesen
                   target: null
                   rel: null
             text: Korrekturlesen
@@ -98,7 +97,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat'
+                  href: /lektorat
                   target: null
                   rel: null
             text: Lektorats
@@ -122,7 +121,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/anfrage'
+                  href: /anfrage
                   target: null
                   rel: null
             text: 'unverbindliche Anfrage schicken'
@@ -154,7 +153,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: Ghostwriting
@@ -191,7 +190,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/achtung-ghostwriter-betrug'
+                  href: /achtung-ghostwriter-betrug
                   target: null
                   rel: null
             text: 'zwielichtigen Ghostwriting Agenturen aus Osteuropa'
@@ -276,7 +275,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/bewerbung-ghostwriter-gwriters'
+                  href: /blog/bewerbung-ghostwriter-gwriters
                   target: null
                   rel: null
             text: 'Video: Was Du bei der Bewerbung als Ghostwriter bei GWriters beachten solltest'
@@ -288,7 +287,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/akademische-ghostwriter-vorteile'
+                  href: /blog/akademische-ghostwriter-vorteile
                   target: null
                   rel: null
             text: '5 unschlagbare Vorteile, die für einen Job als akademischer Ghostwriter sprechen'
@@ -300,7 +299,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/erfahrungsbericht-ghostwriter-gwriters'
+                  href: /blog/erfahrungsbericht-ghostwriter-gwriters
                   target: null
                   rel: null
             text: 'Erfahrungsbericht zur Arbeit als Ghostwriter bei GWriters'
@@ -312,7 +311,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/suche-ghostwriter'
+                  href: /blog/suche-ghostwriter
                   target: null
                   rel: null
             text: 'Tipps für die Ghostwriter-Suche'
@@ -327,7 +326,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
@@ -335,8 +334,8 @@ replicator:
     type: editor
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619781038
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623342909
 meta_title: 'GWriters • professioneller akademischer Ghostwriter gesucht?'
 meta_description: 'Sie benötigen einen Ghostwriter? Wenn Ghostwriter gesucht werden, ist unsere Ghostwriting Agentur der beste Partner für seriösen Service!'
 use_meta_keywords: false
@@ -349,4 +348,7 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'GWriters • professioneller akademischer Ghostwriter gesucht?'
 template: with-side-bar
+og_title: 'GWriters • professioneller akademischer Ghostwriter gesucht?'
+og_description: 'Sie benötigen einen Ghostwriter? Wenn Ghostwriter gesucht werden, ist unsere Ghostwriting Agentur der beste Partner für seriösen Service!'
+og_image: GWriters-Logo.png
 ---
