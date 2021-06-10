@@ -44,8 +44,7 @@ teaser:
         spacing_top: false
   -
     type: paragraph
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -1548,8 +1547,8 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1620111237
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623342799
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
 meta_description: 'Ghostwriting von GWriters.de. Preissicherheit, Qualität und Diskretion von unserer seriösen Agentur. Mehr dazu hier.'
 use_meta_keywords: false
@@ -1561,4 +1560,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
+og_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
+og_description: 'Ghostwriting von GWriters.de. Preissicherheit, Qualität und Diskretion von unserer seriösen Agentur. Mehr dazu hier.'
+og_image: GWriters-Logo.png
 ---
