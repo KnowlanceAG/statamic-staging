@@ -57,7 +57,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: Ghostwriting
@@ -84,7 +84,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
@@ -127,7 +127,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat/lektor'
+                  href: /lektorat/lektor
                   target: null
                   rel: null
             text: Lektoren
@@ -182,7 +182,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/jobs'
+                  href: /jobs
                   target: null
                   rel: null
             text: www.gwriters.de/jobs
@@ -200,7 +200,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/anfrage'
+                  href: /anfrage
                   target: null
                   rel: null
             text: Anfrage
@@ -271,7 +271,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/als-autor-bewerben'
+                  href: /als-autor-bewerben
                   target: null
                   rel: null
             text: www.gwriters.de/als-autor-bewerben
@@ -311,7 +311,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
@@ -320,8 +320,8 @@ replicator:
     enabled: true
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619781406
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623334195
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
@@ -332,4 +332,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'GWriters • Akademische Ghostwriter gesucht!'
+og_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
+og_image: GWriters-Logo.png
 ---
