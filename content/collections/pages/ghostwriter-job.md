@@ -77,7 +77,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
@@ -104,7 +104,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/jobs'
+                  href: /jobs
                   target: null
                   rel: null
             text: Jobs
@@ -131,7 +131,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/als-autor-bewerben'
+                  href: /als-autor-bewerben
                   target: null
                   rel: null
             text: gwriters.de/als-autor-bewerben
@@ -192,7 +192,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/facharbeit'
+                  href: /arbeiten/facharbeit
                   target: null
                   rel: null
             text: Facharbeiten
@@ -219,7 +219,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/hausarbeit-schreiben-lassen'
+                  href: /arbeiten/hausarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Hausarbeiten
@@ -246,7 +246,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/seminararbeit-schreiben-lassen'
+                  href: /arbeiten/seminararbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Seminararbeiten
@@ -337,7 +337,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
@@ -346,7 +346,7 @@ replicator:
     enabled: true
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619647172
+updated_at: 1623333116
 page_title: 'GWriters • Ghostwriter Job'
 meta_title: 'GWriters • Ghostwriter Job'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie bester Verdienst & volle Freiheit - Ghostwriter Job bei GWriters!'
@@ -358,4 +358,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'GWriters • Ghostwriter Job'
+og_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie bester Verdienst & volle Freiheit - Ghostwriter Job bei GWriters!'
+og_image: GWriters-Logo.png
 ---
