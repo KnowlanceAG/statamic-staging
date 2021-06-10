@@ -1336,7 +1336,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623322650
+updated_at: 1623322659
 meta_title: 'GWriters • Mustervorlage für Examensarbeit schreiben lassen'
 meta_description: 'Mustervorlage für Examensarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
