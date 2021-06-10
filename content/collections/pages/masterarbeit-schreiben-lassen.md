@@ -1,4 +1,5 @@
 ---
+id: aa35a1ca-0812-4402-a4d5-4a6d4aa8c1c0
 title: Masterarbeit
 teaser:
   -
@@ -17,6 +18,7 @@ teaser:
             type: textColor
             attrs:
               color: '#ff6602'
+              hex: '#000'
         text: 'Mustervorlage für Masterarbeit schreiben lassen'
   -
     type: paragraph
@@ -36,13 +38,13 @@ teaser:
     attrs:
       values:
         type: button
-        button_link: '/anfrage'
+        button_link: /anfrage
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
+        spacing_top: false
   -
     type: paragraph
-teaser_bg:
-  - seiten/arbeiten/header-so-funktionierts.jpg.jpg
+teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
     bard:
@@ -58,7 +60,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
@@ -71,7 +73,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat'
+                  href: /lektorat
                   target: null
                   rel: null
             text: Lektorat
@@ -101,7 +103,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/anfrage'
+                  href: /anfrage
                   target: null
                   rel: null
             text: 'unverbindliche Anfrage schicken'
@@ -142,7 +144,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat/textkorrektur'
+                  href: /korrektorat/textkorrektur
                   target: null
                   rel: null
             text: Textkorrektur
@@ -155,7 +157,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/plagiatspruefung'
+                  href: /leistungen/plagiatspruefung
                   target: null
                   rel: null
             text: Plagiatsprüfung
@@ -170,6 +172,7 @@ replicator:
             video: 'https://youtu.be/AQafSBlzdRE'
     type: editor
     enabled: true
+    show_as_card: false
   -
     columns-replicator:
       -
@@ -186,8 +189,10 @@ replicator:
                   -
                     type: text
                     text: 'Unsere Leistungen'
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
       -
         columns_per_row: '3'
         single-col: false
@@ -203,7 +208,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/ghostwriting'
+                          href: /ghostwriting
                           target: null
                           rel: null
                     text: Ghostwriting
@@ -224,7 +229,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/korrektorat'
+                          href: /korrektorat
                           target: null
                           rel: null
                     text: Korrektorat
@@ -245,10 +250,11 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/maxqda-auswertung'
+                          href: /leistungen/maxqda-auswertung
                           target: null
                           rel: null
                     text: 'MAXQDA Auswertung'
+            show_as_card: false
           -
             bard:
               -
@@ -268,7 +274,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/lektorat'
+                          href: /lektorat
                           target: null
                           rel: null
                     text: Lektorat
@@ -289,7 +295,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/formatierung'
+                          href: /leistungen/formatierung
                           target: null
                           rel: null
                     text: Formatierung
@@ -310,10 +316,11 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/promotionsberatung'
+                          href: /promotionsberatung
                           target: null
                           rel: null
                     text: Promotionsberatung
+            show_as_card: false
           -
             bard:
               -
@@ -333,7 +340,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/leistungen/uebersetzung'
+                          href: /leistungen/uebersetzung
                           target: null
                           rel: null
                     text: Übersetzung
@@ -354,12 +361,14 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/promotionsberatung'
+                          href: /promotionsberatung
                           target: null
                           rel: null
                     text: Promotionsberatung
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
       -
         columns_per_row: 1
         single-col: false
@@ -374,8 +383,10 @@ replicator:
                   -
                     type: text
                     text: 'Wichtige Fachbereiche:'
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
       -
         columns_per_row: '3'
         single-col: false
@@ -401,7 +412,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/architektur'
+                          href: /fachrichtungen/architektur
                           target: null
                           rel: null
                     text: Architektur
@@ -422,7 +433,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/bwl'
+                          href: /fachrichtungen/bwl
                           target: null
                           rel: null
                     text: BWL
@@ -443,7 +454,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/erziehungswissenschaften-ghostwriter'
+                          href: /fachrichtungen/erziehungswissenschaften-ghostwriter
                           target: null
                           rel: null
                     text: Erziehungswissenschaften
@@ -464,7 +475,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/germanistik-ghostwriter'
+                          href: /fachrichtungen/germanistik-ghostwriter
                           target: null
                           rel: null
                     text: Germanistik
@@ -485,7 +496,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/jura'
+                          href: /fachrichtungen/jura
                           target: null
                           rel: null
                     text: Jura
@@ -506,7 +517,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/literatur'
+                          href: /fachrichtungen/literatur
                           target: null
                           rel: null
                     text: Literatur
@@ -527,7 +538,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/mathematik'
+                          href: /fachrichtungen/mathematik
                           target: null
                           rel: null
                     text: Mathematik
@@ -548,7 +559,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/pflegewissenschaften'
+                          href: /fachrichtungen/pflegewissenschaften
                           target: null
                           rel: null
                     text: Pflegewissenschaften
@@ -569,7 +580,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/soziale-arbeit'
+                          href: /fachrichtungen/soziale-arbeit
                           target: null
                           rel: null
                     text: 'Soziale Arbeit'
@@ -590,7 +601,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/vwl'
+                          href: /fachrichtungen/vwl
                           target: null
                           rel: null
                     text: VWL
@@ -611,10 +622,11 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/zahnmedizin'
+                          href: /fachrichtungen/zahnmedizin
                           target: null
                           rel: null
                     text: Zahnmedizin
+            show_as_card: false
           -
             bard:
               -
@@ -634,7 +646,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/bauingenieurwesen'
+                          href: /fachrichtungen/bauingenieurwesen
                           target: null
                           rel: null
                     text: Bauingenieurwesen
@@ -655,7 +667,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/chemie'
+                          href: /fachrichtungen/chemie
                           target: null
                           rel: null
                     text: Chemie
@@ -676,7 +688,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/finanzwissenschaften'
+                          href: /fachrichtungen/finanzwissenschaften
                           target: null
                           rel: null
                     text: Finanzwissenschaften
@@ -697,7 +709,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/geschichte'
+                          href: /fachrichtungen/geschichte
                           target: null
                           rel: null
                     text: Geschichte
@@ -718,7 +730,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/kommunikationswissenschaften'
+                          href: /fachrichtungen/kommunikationswissenschaften
                           target: null
                           rel: null
                     text: Kommunikation
@@ -739,7 +751,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/marketing'
+                          href: /fachrichtungen/marketing
                           target: null
                           rel: null
                     text: Marketing
@@ -760,7 +772,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/medienwissenschaften'
+                          href: /fachrichtungen/medienwissenschaften
                           target: null
                           rel: null
                     text: Medienwissenschaften
@@ -781,7 +793,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/philosophie'
+                          href: /fachrichtungen/philosophie
                           target: null
                           rel: null
                     text: Philosophie
@@ -802,7 +814,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/soziologie'
+                          href: /fachrichtungen/soziologie
                           target: null
                           rel: null
                     text: Soziologie
@@ -823,10 +835,11 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/wirtschaftsinformatik'
+                          href: /fachrichtungen/wirtschaftsinformatik
                           target: null
                           rel: null
                     text: Wirtschaftsinformatik
+            show_as_card: false
           -
             bard:
               -
@@ -846,7 +859,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/biologie'
+                          href: /fachrichtungen/biologie
                           target: null
                           rel: null
                     text: Biologie
@@ -867,7 +880,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/elektrotechnik'
+                          href: /fachrichtungen/elektrotechnik
                           target: null
                           rel: null
                     text: Elektrotechnik
@@ -888,7 +901,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/geologie'
+                          href: /fachrichtungen/geologie
                           target: null
                           rel: null
                     text: Geologie
@@ -909,7 +922,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/informatik'
+                          href: /fachrichtungen/informatik
                           target: null
                           rel: null
                     text: Informatik
@@ -930,7 +943,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/kunst'
+                          href: /fachrichtungen/kunst
                           target: null
                           rel: null
                     text: Kunst
@@ -951,7 +964,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/maschinenbau'
+                          href: /fachrichtungen/maschinenbau
                           target: null
                           rel: null
                     text: Maschinenbau
@@ -972,7 +985,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/medizin'
+                          href: /fachrichtungen/medizin
                           target: null
                           rel: null
                     text: Medizin
@@ -993,7 +1006,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/psychologie'
+                          href: /fachrichtungen/psychologie
                           target: null
                           rel: null
                     text: Psychologie
@@ -1014,7 +1027,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/sprachwissenschaften'
+                          href: /fachrichtungen/sprachwissenschaften
                           target: null
                           rel: null
                     text: Sprachwissenschaften
@@ -1035,17 +1048,21 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/wirtschaftswissenschaften'
+                          href: /fachrichtungen/wirtschaftswissenschaften
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
+            show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
+    remove_spacing: false
+    border: false
   -
     bard:
       -
@@ -1055,9 +1072,10 @@ replicator:
         attrs:
           values:
             type: button
-            button_link: '/anfrage'
+            button_link: /anfrage
             button_text: 'JETZT KOSTENLOS ANFRAGEN'
             color: '#FF6606'
+            spacing_top: false
       -
         type: horizontal_rule
       -
@@ -1250,7 +1268,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/methodisches-vorgehen-masterarbeit'
+                  href: /blog/methodisches-vorgehen-masterarbeit
                   target: _blank
                   rel: 'noopener noreferrer'
             text: 'Methodisches Vorgehen bei einer Masterarbeit – Beispiele & Tipps'
@@ -1262,7 +1280,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/masterarbeit-thema'
+                  href: /blog/masterarbeit-thema
                   target: _blank
                   rel: 'noopener noreferrer'
             text: 'Masterarbeit Thema – Welchen Anspruch muss die Aufgabenstellung erfüllen?'
@@ -1274,7 +1292,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/aufbau-wissenschaftliche-arbeit'
+                  href: /blog/aufbau-wissenschaftliche-arbeit
                   target: _blank
                   rel: 'noopener noreferrer'
             text: 'Video: Gliederung einer wissenschaftlichen Arbeit – Wie man sie schreibt & was es zu beachten gilt'
@@ -1286,7 +1304,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/ghostwriter-auftrag-tipps'
+                  href: /blog/ghostwriter-auftrag-tipps
                   target: _blank
                   rel: 'noopener noreferrer'
             text: 'Video: Tipps für einen erfolgreichen Ghostwriter-Auftrag'
@@ -1346,16 +1364,17 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
     type: editor
     enabled: true
+    show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1618556147
+updated_at: 1623324219
 meta_title: 'Masterarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Mustervorlage für Masterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
@@ -1366,5 +1385,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-id: aa35a1ca-0812-4402-a4d5-4a6d4aa8c1c0
+og_title: 'Masterarbeit schreiben lassen • Mustervorlage von GWriters'
+og_description: 'Mustervorlage für Masterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+og_image: GWriters-Logo.png
 ---
