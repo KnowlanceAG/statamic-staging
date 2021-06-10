@@ -42,8 +42,7 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -59,7 +58,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat/korrekturlesen/'
+                  href: /korrektorat/korrekturlesen/
                   target: null
                   rel: null
             text: ' Korrekturlesen'
@@ -72,7 +71,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat/korrektor'
+                  href: /korrektorat/korrektor
                   target: null
                   rel: null
             text: Korrektor
@@ -99,7 +98,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat'
+                  href: /lektorat
                   target: null
                   rel: null
             text: Lektorat
@@ -112,7 +111,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat/lektor'
+                  href: /lektorat/lektor
                   target: null
                   rel: null
             text: Lektor
@@ -139,7 +138,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/kontakt'
+                  href: /kontakt
                   target: null
                   rel: null
             text: Kontakt
@@ -163,7 +162,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/korrektorat-lektorat-textredaktion'
+                  href: /blog/korrektorat-lektorat-textredaktion
                   target: null
                   rel: null
             text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
@@ -175,7 +174,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/suche-ghostwriter'
+                  href: /blog/suche-ghostwriter
                   target: null
                   rel: null
             text: 'Tipps für die Ghostwriter-Suche'
@@ -187,7 +186,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/ghostwriting-lektorat-korrektorat'
+                  href: /blog/ghostwriting-lektorat-korrektorat
                   target: null
                   rel: null
             text: 'Video: Ghostwriting, Lektorat, Korrektorat – Was ist was?'
@@ -202,7 +201,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
@@ -211,7 +210,7 @@ replicator:
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619470962
+updated_at: 1623344097
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -224,4 +223,7 @@ page_title: 'Benötigen Sie eine Textkorrektur? Wir helfen weiter • GWriters'
 template: with-side-bar
 meta_title: 'Benötigen Sie eine Textkorrektur? Wir helfen weiter • GWriters'
 meta_description: 'Benötigen Sie eine Textkorrektur Ihrer wissenschaftlichen Arbeit? GWriters.de bietet Ihnen Korrektoren zu fairen Preisen und hoher Qualität.'
+og_title: 'Benötigen Sie eine Textkorrektur? Wir helfen weiter • GWriters'
+og_description: 'Benötigen Sie eine Textkorrektur Ihrer wissenschaftlichen Arbeit? GWriters.de bietet Ihnen Korrektoren zu fairen Preisen und hoher Qualität.'
+og_image: GWriters-Logo.png
 ---
