@@ -42,8 +42,7 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     columns-replicator:
@@ -647,8 +646,8 @@ replicator:
     enabled: true
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1620051034
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623335069
 meta_title: 'Unsere seriöse Promotionsberatung • GWriters'
 meta_description: 'Bei GWriters erhalten Sie eine seriöse Promotionsberatung von unseren erfahrenen akademischen Ghostwritern, Lektoren und Coaches. Auf Sie zugeschnitten!'
 use_meta_keywords: false
@@ -661,4 +660,7 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'Unsere seriöse Promotionsberatung • GWriters'
 template: with-side-bar
+og_title: 'Unsere seriöse Promotionsberatung • GWriters'
+og_description: 'Bei GWriters erhalten Sie eine seriöse Promotionsberatung von unseren erfahrenen akademischen Ghostwritern, Lektoren und Coaches. Auf Sie zugeschnitten!'
+og_image: GWriters-Logo.png
 ---
