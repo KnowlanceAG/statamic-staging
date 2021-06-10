@@ -163,7 +163,7 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623332023
+updated_at: 1623332038
 page_title: 'Wie ist der Ablauf bei einem redaktionellen Auftrag? • GWriters'
 template: without-teaser-with-sidebar
 meta_title: 'Wie ist der Ablauf bei einem redaktionellen Auftrag? • GWriters'
