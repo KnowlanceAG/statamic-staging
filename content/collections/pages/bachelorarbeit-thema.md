@@ -44,8 +44,7 @@ teaser:
         spacing_top: false
   -
     type: paragraph
-teaser_bg:
-  - blog/header-so-funktionierts-1024x138.jpg
+teaser_bg: blog/header-so-funktionierts-1024x138.jpg
 replicator:
   -
     bard:
@@ -3704,8 +3703,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1621285905
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623334051
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -3718,4 +3717,7 @@ twitter_card_type_page: summary
 page_title: '75 Kostenlose Themenvorschläge für Ihre Bachelorarbeit von GWriters'
 meta_title: '75 Kostenlose Themenvorschläge für Ihre Bachelorarbeit von GWriters'
 meta_description: 'Sie haben noch keine Idee für Ihr Bachleorarbeit-Thema im Fachbereich BWL? Wir haben für Sie die aktuellen und wissenschaftlichen BWL-Themen ausgesucht!'
+og_title: '75 Kostenlose Themenvorschläge für Ihre Bachelorarbeit von GWriters'
+og_description: 'Sie haben noch keine Idee für Ihr Bachleorarbeit-Thema im Fachbereich BWL? Wir haben für Sie die aktuellen und wissenschaftlichen BWL-Themen ausgesucht!'
+og_image: GWriters-Logo.png
 ---
