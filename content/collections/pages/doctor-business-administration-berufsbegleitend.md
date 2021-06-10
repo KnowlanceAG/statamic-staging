@@ -184,7 +184,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/bwl'
+                          href: /fachrichtungen/bwl
                           target: null
                           rel: null
                     text: 'BWL Ghostwriter'
@@ -211,7 +211,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/promotionsberatung'
+                          href: /promotionsberatung
                           target: null
                           rel: null
                     text: Promotionsberatung
@@ -334,7 +334,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/arbeiten/hausarbeit-schreiben-lassen'
+                                  href: /arbeiten/hausarbeit-schreiben-lassen
                                   target: null
                                   rel: null
                             text: Hausarbeit
@@ -380,7 +380,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/expose'
+                                  href: /expose
                                   target: null
                                   rel: null
                             text: Exposé
@@ -601,8 +601,8 @@ replicator:
 page_title: 'Promotionsberatung zum berufsbegleitenden DBA • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619609058
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623342304
 meta_title: 'Promotionsberatung zum berufsbegleitenden DBA • GWriters'
 meta_description: 'Bei GWriters.de erhalten Sie eine seriöse Promotionsberatung für Ihren berufsbegleitenden DBA - Profitieren Sie jetzt von unserem Expertenwissen!'
 use_meta_keywords: false
@@ -613,4 +613,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Promotionsberatung zum berufsbegleitenden DBA • GWriters'
+og_description: 'Bei GWriters.de erhalten Sie eine seriöse Promotionsberatung für Ihren berufsbegleitenden DBA - Profitieren Sie jetzt von unserem Expertenwissen!'
+og_image: GWriters-Logo.png
 ---
