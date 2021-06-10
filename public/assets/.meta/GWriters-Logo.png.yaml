@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'GWriters Ghostwriter'
 size: 9922
 last_modified: 1623073650
 width: 601
