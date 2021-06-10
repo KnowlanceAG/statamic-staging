@@ -4,8 +4,8 @@ title: 'Hausarbeit Beispiel: Bewertung von Embryonenforschung'
 page_title: 'Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619632292
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623327682
 meta_title: 'Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
 use_meta_keywords: false
@@ -72,7 +72,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/hausarbeit-schreiben-lassen'
+                  href: /arbeiten/hausarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: "\_Hausarbeit mit einem anspruchsvollen Thema"
@@ -194,7 +194,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/fachrichtungen/soziologie'
+                  href: /fachrichtungen/soziologie
                   target: null
                   rel: null
             text: 'Unsere Ghostwriter für Sozialwissenschaften'
@@ -226,7 +226,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/assets/downloads/ghostwriting-beispielarbeiten/Hausarbeit-Beispiel-Sozialwissenschaften-Bewertung-von-Embryonenforschung.pdf'
+                  href: /assets/downloads/ghostwriting-beispielarbeiten/Hausarbeit-Beispiel-Sozialwissenschaften-Bewertung-von-Embryonenforschung.pdf
                   target: _blank
                   rel: null
             text: 'Hier können Sie unsere Beispiel-Hausarbeit kostenlos herunterladen!'
@@ -265,7 +265,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/anfrage'
+                  href: /anfrage
                   target: null
                   rel: null
             text: 'im Rahmen einer unverbindlichen und kostenfreien Beratung'
@@ -282,4 +282,7 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
+og_title: 'Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
+og_description: 'Überzeugen Sie sich anhand dieses Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
+og_image: GWriters-Logo.png
 ---
