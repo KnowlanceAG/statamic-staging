@@ -144,7 +144,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/promotionsberatung'
+                          href: /promotionsberatung
                           target: null
                           rel: null
                     text: 'seriösen Promotionsberatung'
@@ -217,7 +217,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/promotionsberatung/berufsbegleitende-promotion-standardisierte-promotionsprogramme'
+                          href: /promotionsberatung/berufsbegleitende-promotion-standardisierte-promotionsprogramme
                           target: null
                           rel: null
                     text: "externe\_bzw. die\_berufsbegleitende Promotion"
@@ -492,7 +492,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/kontakt'
+                                  href: /kontakt
                                   target: null
                                   rel: null
                             text: Kontakt
@@ -644,7 +644,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/promotionsberatung'
+                          href: /promotionsberatung
                           target: null
                           rel: null
                     text: Promotionsberatungen
@@ -671,7 +671,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/doktorarbeit'
+                          href: /arbeiten/doktorarbeit
                           target: null
                           rel: null
                     text: 'Doktorarbeit schreiben lassen'
@@ -1005,7 +1005,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/anfrage'
+                          href: /anfrage
                           target: null
                           rel: null
                     text: Anfrage
@@ -1048,7 +1048,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/chemie'
+                          href: /fachrichtungen/chemie
                           target: null
                           rel: null
                     text: Chemie
@@ -1123,8 +1123,8 @@ replicator:
 page_title: 'Berufsbegleitende Promotion im Überblick • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619607819
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623335288
 meta_title: 'Berufsbegleitende Promotion im Überblick • GWriters'
 meta_description: 'Finden Sie bei uns alle Informationen über die berufsbegleitende Promotion - Alle Vor- und Nachteile von internen und externen Promotionsprogrammen!'
 use_meta_keywords: false
@@ -1135,4 +1135,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Berufsbegleitende Promotion im Überblick • GWriters'
+og_description: 'Finden Sie bei uns alle Informationen über die berufsbegleitende Promotion - Alle Vor- und Nachteile von internen und externen Promotionsprogrammen!'
+og_image: GWriters-Logo.png
 ---
