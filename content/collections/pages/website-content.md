@@ -79,7 +79,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog'
+                  href: /blog
                   target: null
                   rel: null
             text: blogs
@@ -111,7 +111,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/faq'
+                  href: /faq
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'
@@ -120,7 +120,7 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619644688
+updated_at: 1623331804
 meta_title: 'Erstellung von hochwertigen Website Content? • GWriters'
 meta_description: 'Sie benötigen qualitativen und professionellen Inhalt für Ihre Branche und Webseite? Das akademische Expertenteam von GWriters.de steht bereit!'
 use_meta_keywords: false
@@ -133,4 +133,7 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'Erstellung von hochwertigen Website Content? • GWriters'
 template: without-teaser-with-sidebar
+og_title: 'Erstellung von hochwertigen Website Content? • GWriters'
+og_description: 'Sie benötigen qualitativen und professionellen Inhalt für Ihre Branche und Webseite? Das akademische Expertenteam von GWriters.de steht bereit!'
+og_image: GWriters-Logo.png
 ---
