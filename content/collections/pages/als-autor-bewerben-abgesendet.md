@@ -2,7 +2,7 @@
 id: 70f117e2-898b-4be6-b5e0-6c0bb721b585
 title: 'Bewerbung abgesendet'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623334868
+updated_at: 1623334928
 replicator:
   -
     bard:
