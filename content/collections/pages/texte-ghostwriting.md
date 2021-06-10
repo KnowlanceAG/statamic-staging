@@ -79,7 +79,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen'
+                  href: /leistungen
                   target: null
                   rel: null
             text: 'unsere Leistungen'
@@ -111,7 +111,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/faq'
+                  href: /faq
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'
@@ -120,7 +120,7 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619644957
+updated_at: 1623331946
 page_title: 'Welche Texte kann ich durch GWriters schreiben lassen? • GWriters'
 template: without-teaser-with-sidebar
 meta_title: 'Welche Texte kann ich durch GWriters schreiben lassen? • GWriters'
@@ -133,4 +133,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Welche Texte kann ich durch GWriters schreiben lassen? • GWriters'
+og_description: 'Wissenschaftlich fundierte Texte, Dokumente zur Prüfungsvorbereitung, Skripte und Präsentationen für Dozenten und Unternehmen oder Inhalt für Ihre Webseite.'
+og_image: GWriters-Logo.png
 ---
