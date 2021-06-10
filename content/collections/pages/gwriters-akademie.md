@@ -1,10 +1,9 @@
 ---
 id: 1298a2b5-6e23-404b-8806-26e687fda624
 title: 'GWriters Akademie'
-teaser_bg:
-  - seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1620209975
+teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623325098
 page_title: 'Die GWriters Akademie für wissenschaftliches Arbeiten'
 use_meta_keywords: false
 no_index_page: false
@@ -218,4 +217,7 @@ replicator:
     show_as_card: false
 meta_title: 'Die GWriters Akademie für wissenschaftliches Arbeiten'
 meta_description: 'In der GWriters Akademie finden Sie wertvolle Ratgeber zum wissenschaftlichen Arbeiten, kostenlos Vorlagen für alle Arten von Verzeichnissen  und vieles mehr! Profitieren Sie von unserer Erfahrung 🎓'
+og_title: 'Die GWriters Akademie für wissenschaftliches Arbeiten'
+og_description: 'In der GWriters Akademie finden Sie wertvolle Ratgeber zum wissenschaftlichen Arbeiten, kostenlos Vorlagen für alle Arten von Verzeichnissen  und vieles mehr! Profitieren Sie von unserer Erfahrung 🎓'
+og_image: GWriters-Logo.png
 ---
