@@ -44,8 +44,7 @@ teaser:
         spacing_top: false
   -
     type: paragraph
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -61,7 +60,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/preise'
+                  href: /preise
                   target: null
                   rel: null
             text: Preise
@@ -74,7 +73,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat'
+                  href: /korrektorat
                   target: null
                   rel: null
             text: Korrektorat
@@ -87,7 +86,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/hausarbeit-schreiben-lassen'
+                  href: /arbeiten/hausarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Hausarbeit
@@ -100,7 +99,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/diplomarbeit'
+                  href: /arbeiten/diplomarbeit
                   target: null
                   rel: null
             text: Diplomarbeit
@@ -127,7 +126,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat/korrektor'
+                  href: /korrektorat/korrektor
                   target: null
                   rel: null
             text: Korrektor
@@ -154,7 +153,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/fachrichtungen/jura'
+                  href: /fachrichtungen/jura
                   target: null
                   rel: null
             text: Jura
@@ -178,7 +177,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/korrektorat-lektorat-textredaktion'
+                  href: /blog/korrektorat-lektorat-textredaktion
                   target: null
                   rel: null
             text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
@@ -190,7 +189,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/akademisches-ghostwriting-alternativen'
+                  href: /blog/akademisches-ghostwriting-alternativen
                   target: null
                   rel: null
             text: 'Video: 4 Alternativen zum akademischen Ghostwriting'
@@ -202,7 +201,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/ghostwriter-preise'
+                  href: /blog/ghostwriter-preise
                   target: null
                   rel: null
             text: 'Video: Ghostwriter-Preise bei GWriters'
@@ -217,7 +216,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
@@ -227,7 +226,7 @@ replicator:
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619469411
+updated_at: 1623343960
 page_title: 'Korrektorat Preise - sicher und fair • GWriters'
 meta_title: 'Korrektorat Preise - sicher und fair • GWriters'
 meta_description: 'Möchten Sie die aktuellen Korrektorat Preise erfahren? Die Ghostwriter Agentur GWriters.de arbeitet diskret, qualitativ und zu fairen Preisen.'
@@ -239,4 +238,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Korrektorat Preise - sicher und fair • GWriters'
+og_description: 'Möchten Sie die aktuellen Korrektorat Preise erfahren? Die Ghostwriter Agentur GWriters.de arbeitet diskret, qualitativ und zu fairen Preisen.'
+og_image: GWriters-Logo.png
 ---
