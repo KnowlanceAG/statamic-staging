@@ -1,8 +1,8 @@
 ---
 id: 70f117e2-898b-4be6-b5e0-6c0bb721b585
 title: 'Bewerbung abgesendet'
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619787680
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623334868
 replicator:
   -
     bard:
@@ -115,4 +115,7 @@ twitter_card_type_page: summary
 page_title: 'GWriters • Als Autor bewerben'
 meta_title: 'GWriters • Bewerbung abgesendet'
 meta_description: 'Vielen Dank für Ihre Bewerbung! Unser Autorenmanagement wird sich in kürzester Zeit mit Ihnen in Verbindung setzen.'
+og_title: 'GWriters • Bewerbung abgesendet'
+og_description: 'Vielen Dank für Ihre Bewerbung! Unser Autorenmanagement wird sich in kürzester Zeit mit Ihnen in Verbindung setzen.'
+og_image: GWriters-Logo.png
 ---
