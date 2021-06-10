@@ -2,8 +2,8 @@
 id: 1034dc14-6cc6-48e4-90f6-1f44b65b861a
 title: 'Anfrage abgesendet'
 template: without-teaser-with-sidebar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619787702
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623334534
 replicator:
   -
     bard:
@@ -110,4 +110,7 @@ twitter_card_type_page: summary
 page_title: 'GWriters • Anfrage abgesendet'
 meta_title: 'GWriters • Anfrage abgesendet'
 meta_description: 'Vielen Dank für Ihre Anfrage! Unsere Mitarbeiter setzen sich in kürzester Zeit mit Ihnen Verbindung!'
+og_title: 'GWriters • Anfrage abgesendet'
+og_description: 'Vielen Dank für Ihre Anfrage! Unsere Mitarbeiter setzen sich in kürzester Zeit mit Ihnen Verbindung!'
+og_image: GWriters-Logo.png
 ---
