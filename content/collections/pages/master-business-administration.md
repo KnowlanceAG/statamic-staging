@@ -201,7 +201,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/soziologie'
+                          href: /fachrichtungen/soziologie
                           target: null
                           rel: null
                     text: Soziologie
@@ -254,7 +254,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/masterarbeit-schreiben-lassen'
+                          href: /arbeiten/masterarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: 'Masterarbeit schreiben lassen'
@@ -281,7 +281,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/bwl'
+                          href: /fachrichtungen/bwl
                           target: null
                           rel: null
                     text: 'Ghostwriter BWL'
@@ -341,7 +341,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/marketing'
+                          href: /fachrichtungen/marketing
                           target: null
                           rel: null
                     text: Marketing
@@ -781,8 +781,8 @@ replicator:
 page_title: 'Berufsbegleitender Master of Business Administration • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619609300
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623342359
 meta_title: 'Berufsbegleitender Master of Business Administration • GWriters'
 meta_description: 'Finden Sie hier alle Informationen über das berufsbegleitende Studium zum MBA und finden Sie akademische Ghostwriter, Coaches und mehr bei GWriters.de!'
 use_meta_keywords: false
@@ -793,4 +793,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Berufsbegleitender Master of Business Administration • GWriters'
+og_description: 'Finden Sie hier alle Informationen über das berufsbegleitende Studium zum MBA und finden Sie akademische Ghostwriter, Coaches und mehr bei GWriters.de!'
+og_image: GWriters-Logo.png
 ---
