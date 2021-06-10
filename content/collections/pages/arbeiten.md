@@ -3,7 +3,7 @@ id: d118c7b2-141d-4bac-972d-c1502381a340
 title: Arbeiten
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1621253983
+updated_at: 1623322002
 teaser:
   -
     type: heading
@@ -57,8 +57,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -636,4 +635,7 @@ replicator:
 meta_title: 'Arbeiten • GWriters.de'
 meta_description: 'Akademische Ghostwriter von GWriters bieten ihre Leistungen für die verschiedensten Arten von Arbeiten an. 1. Sie schreiben Mustervorlage für wissenschaftliche Arbeiten: Bachelorarbeit, Masterarbeit, Hausarbeit...2...'
 page_title: 'Arbeiten • GWriters.de'
+og_title: 'Arbeiten • GWriters.de'
+og_description: 'Akademische Ghostwriter von GWriters bieten ihre Leistungen für die verschiedensten Arten von Arbeiten an. 1. Sie schreiben Mustervorlage für wissenschaftliche Arbeiten: Bachelorarbeit, Masterarbeit, Hausarbeit...2...'
+og_image: GWriters-Logo.png
 ---
