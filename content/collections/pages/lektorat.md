@@ -42,8 +42,7 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     columns-replicator:
@@ -849,8 +848,8 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1620111256
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623343201
 meta_title: 'Lektorat von GWriters - Professionell, diskret und akademisch'
 meta_description: 'Akademische Lektoren, Korrektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Lektorat: Leistungen, Ablauf, Kosten & Preise.'
 use_meta_keywords: false
@@ -862,4 +861,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'Lektorat von GWriters - Professionell, diskret und akademisch'
+og_title: 'Lektorat von GWriters - Professionell, diskret und akademisch'
+og_description: 'Akademische Lektoren, Korrektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Lektorat: Leistungen, Ablauf, Kosten & Preise.'
+og_image: GWriters-Logo.png
 ---
