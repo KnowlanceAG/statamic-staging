@@ -79,7 +79,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: Ghostwriting
@@ -122,7 +122,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat'
+                  href: /lektorat
                   target: null
                   rel: null
             text: Lektorat
@@ -149,7 +149,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat'
+                  href: /korrektorat
                   target: null
                   rel: null
             text: Korrektorat
@@ -192,7 +192,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/plagiatspruefung'
+                  href: /leistungen/plagiatspruefung
                   target: null
                   rel: null
             text: Plagiatsprüfung
@@ -224,7 +224,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/faq'
+                  href: /faq
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'
@@ -233,7 +233,7 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619643761
+updated_at: 1623331210
 page_title: 'Wie wird die hohe Qualität bei GWriters sichergestellt?'
 template: without-teaser-with-sidebar
 meta_title: 'Wie wird die hohe Qualität bei GWriters sichergestellt?'
@@ -246,4 +246,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Wie wird die hohe Qualität bei GWriters sichergestellt?'
+og_description: 'Wie sich GWriters.de von dubiosen und umprofessionellen Ghostwritern und Agenturen unterscheidet und die hohe Qualität sicherstellt, erfahren Sie hier.'
+og_image: GWriters-Logo.png
 ---
