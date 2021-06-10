@@ -1,8 +1,8 @@
 ---
 id: 8e94ca0e-e5de-46b9-908e-d086cd76f0c8
 title: Datenschutzerklärung
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619792899
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623326459
 page_title: 'GWriters • Datenschutzerklärung'
 meta_title: 'GWriters • Datenschutzerklärung'
 meta_description: 'Unsere Datenschutzerklärung. GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
@@ -730,7 +730,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/anfrage'
+                  href: /anfrage
                   target: null
                   rel: null
             text: Anfragen
@@ -1585,7 +1585,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/kontakt'
+                  href: /kontakt
                   target: null
                   rel: null
             text: Kontaktformular
@@ -5359,7 +5359,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/datenschutzerklaerung'
+                  href: /datenschutzerklaerung
                   target: null
                   rel: null
             text: 'https://gwriters.de/datenschutzerklaerung'
@@ -5380,4 +5380,7 @@ replicator:
     type: editor
     enabled: true
 template: without-teaser-with-sidebar
+og_title: 'GWriters • Datenschutzerklärung'
+og_description: 'Unsere Datenschutzerklärung. GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
+og_image: GWriters-Logo.png
 ---
