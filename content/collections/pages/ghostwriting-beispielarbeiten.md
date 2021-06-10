@@ -65,8 +65,8 @@ teaser:
     type: paragraph
 teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1623096321
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623327025
 replicator:
   -
     bard:
@@ -375,4 +375,7 @@ twitter_card_type_page: summary
 template: with-side-bar
 meta_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
 meta_description: 'Fach-, Haus- und Seminararbeit Beispiel: Was erwartet Sie beim Ghostwriting? Überzeugen Sie sich jetzt anhand unserer kostenlosen Muster!'
+og_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
+og_description: 'Fach-, Haus- und Seminararbeit Beispiel: Was erwartet Sie beim Ghostwriting? Überzeugen Sie sich jetzt anhand unserer kostenlosen Muster!'
+og_image: GWriters-Logo.png
 ---
