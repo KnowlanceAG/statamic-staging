@@ -44,8 +44,7 @@ teaser:
         spacing_top: false
   -
     type: paragraph
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -61,7 +60,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat'
+                  href: /lektorat
                   target: null
                   rel: null
             text: ' Lektorat '
@@ -88,7 +87,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat/lektor'
+                  href: /lektorat/lektor
                   target: null
                   rel: null
             text: Lektor
@@ -101,7 +100,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat/lektor'
+                  href: /lektorat/lektor
                   target: null
                   rel: null
             text: 'Lektor '
@@ -120,7 +119,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: ' Bachelorarbeit '
@@ -220,7 +219,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/preise'
+                  href: /preise
                   target: null
                   rel: null
             text: 'Preise für ein gutes Lektorat'
@@ -239,7 +238,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/fachrichtungen/bwl'
+                  href: /fachrichtungen/bwl
                   target: null
                   rel: null
             text: BWL
@@ -252,7 +251,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/fachrichtungen/jura'
+                  href: /fachrichtungen/jura
                   target: null
                   rel: null
             text: 'Jura '
@@ -276,7 +275,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/korrektorat-lektorat-textredaktion'
+                  href: /blog/korrektorat-lektorat-textredaktion
                   target: null
                   rel: null
             text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
@@ -288,7 +287,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/ghostwriter-preise'
+                  href: /blog/ghostwriter-preise
                   target: null
                   rel: null
             text: 'Video: Ghostwriter-Preise bei GWriters'
@@ -300,7 +299,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/akademische-ghostwriter-gwriters-angebot'
+                  href: /blog/akademische-ghostwriter-gwriters-angebot
                   target: null
                   rel: null
             text: 'Video: Wie entsteht ein Ghostwriter-Angebot bei GWriters?'
@@ -315,7 +314,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
@@ -325,7 +324,7 @@ replicator:
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619471868
+updated_at: 1623343504
 page_title: 'Lektorat Preise? Alles Wichtige dazu von GWriters'
 meta_title: 'Lektorat Preise? Alles Wichtige dazu von GWriters'
 meta_description: 'Sie möchten mehr über die Lektorat Preise erfahren? Die professionelle Ghostwriting Agentur GWriters.de informiert Sie über die Preise für Ihren Lektor.'
@@ -337,4 +336,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Lektorat Preise? Alles Wichtige dazu von GWriters'
+og_description: 'Sie möchten mehr über die Lektorat Preise erfahren? Die professionelle Ghostwriting Agentur GWriters.de informiert Sie über die Preise für Ihren Lektor.'
+og_image: GWriters-Logo.png
 ---
