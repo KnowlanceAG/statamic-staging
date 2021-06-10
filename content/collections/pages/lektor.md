@@ -44,8 +44,7 @@ teaser:
         color: '#FF6606'
   -
     type: paragraph
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -61,7 +60,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat/korrektor'
+                  href: /korrektorat/korrektor
                   target: null
                   rel: null
             text: Korrektors
@@ -74,7 +73,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat/textkorrektur'
+                  href: /korrektorat/textkorrektur
                   target: null
                   rel: null
             text: Textkorrektur
@@ -103,7 +102,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat'
+                  href: /lektorat
                   target: null
                   rel: null
             text: Lektorat
@@ -125,7 +124,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/korrektorat/korrekturlesen'
+                          href: /korrektorat/korrekturlesen
                           target: null
                           rel: null
                     text: Korrekturlesen
@@ -138,7 +137,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/korrektorat'
+                          href: /korrektorat
                           target: null
                           rel: null
                     text: Korrektorat
@@ -264,7 +263,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/korrektorat-lektorat-textredaktion'
+                  href: /blog/korrektorat-lektorat-textredaktion
                   target: null
                   rel: null
             text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
@@ -276,7 +275,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/akademisches-ghostwriting-alternativen'
+                  href: /blog/akademisches-ghostwriting-alternativen
                   target: null
                   rel: null
             text: 'Video: 4 Alternativen zum akademischen Ghostwriting'
@@ -288,7 +287,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/akademische-ghostwriter-vorteile'
+                  href: /blog/akademische-ghostwriter-vorteile
                   target: null
                   rel: null
             text: '5 unschlagbare Vorteile, die für einen Job als akademischer Ghostwriter sprechen'
@@ -303,7 +302,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
@@ -313,7 +312,7 @@ replicator:
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619471183
+updated_at: 1623343690
 page_title: 'Finden Sie Ihren akademischen Lektor bei unserer Ghostwriting Agentur'
 meta_title: 'Finden Sie Ihren akademischen Lektor bei unserer Ghostwriting Agentur'
 meta_description: 'Ihr persönlicher akademischer Lektor für Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit. Qualitativ, diskret und zum fairen Preis.'
@@ -325,4 +324,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Finden Sie Ihren akademischen Lektor bei unserer Ghostwriting Agentur'
+og_description: 'Ihr persönlicher akademischer Lektor für Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit. Qualitativ, diskret und zum fairen Preis.'
+og_image: GWriters-Logo.png
 ---
