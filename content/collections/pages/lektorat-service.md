@@ -44,8 +44,7 @@ teaser:
         spacing_top: false
   -
     type: paragraph
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -61,7 +60,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat'
+                  href: /lektorat
                   target: null
                   rel: null
             text: Lektorat
@@ -81,7 +80,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat/lektor'
+                  href: /lektorat/lektor
                   target: null
                   rel: null
             text: Lektor
@@ -197,7 +196,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
@@ -210,7 +209,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting/ghostwriting-agentur'
+                  href: /ghostwriting/ghostwriting-agentur
                   target: null
                   rel: null
             text: 'Ghostwriting Agentur'
@@ -223,7 +222,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: Ghostwriting
@@ -247,7 +246,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/korrektorat-lektorat-textredaktion'
+                  href: /blog/korrektorat-lektorat-textredaktion
                   target: null
                   rel: null
             text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
@@ -259,7 +258,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/lektorat'
+                  href: /blog/lektorat
                   target: null
                   rel: null
             text: 'Die große Infosammlung zum Lektorat'
@@ -271,7 +270,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/ghostwriting-lektorat-korrektorat'
+                  href: /blog/ghostwriting-lektorat-korrektorat
                   target: null
                   rel: null
             text: 'Video: Ghostwriting, Lektorat, Korrektorat – Was ist was?'
@@ -286,7 +285,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
@@ -295,7 +294,7 @@ replicator:
     enabled: true
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619472225
+updated_at: 1623343777
 page_title: 'Benötigen Sie einen Lektorat Service? GWriters hilft!'
 template: with-side-bar
 meta_title: 'Benötigen Sie einen Lektorat Service? GWriters hilft!'
@@ -308,4 +307,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Benötigen Sie einen Lektorat Service? GWriters hilft!'
+og_description: 'Ob Bachelorarbeit, Masterarbeit oder Doktorarbeit. Der professionelle Lektorat Service von GWriters.de hilft Ihnen zeitnah und qualitativ zum Erfolg.'
+og_image: GWriters-Logo.png
 ---
