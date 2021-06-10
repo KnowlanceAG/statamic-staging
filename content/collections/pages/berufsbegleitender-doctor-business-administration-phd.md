@@ -126,7 +126,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/promotionsberatung/doctor-business-administration-berufsbegleitend'
+                          href: /promotionsberatung/doctor-business-administration-berufsbegleitend
                           target: null
                           rel: null
                     text: "Doctor of Business Administration\_(DBA)"
@@ -139,7 +139,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/promotionsberatung/phd-berufsbegleitend'
+                          href: /promotionsberatung/phd-berufsbegleitend
                           target: null
                           rel: null
                     text: 'Philosophical Doctor (Ph.D.)'
@@ -404,7 +404,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/marketing'
+                          href: /fachrichtungen/marketing
                           target: null
                           rel: null
                     text: Marketing
@@ -647,7 +647,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/promotionsberatung/doktorvater-finden'
+                          href: /promotionsberatung/doktorvater-finden
                           target: null
                           rel: null
                     text: Doktorvater
@@ -964,8 +964,8 @@ replicator:
 page_title: 'Berufsbegleitende Promotion: DBA oder Ph.D. • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619608538
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623342050
 meta_title: 'Berufsbegleitende Promotion: DBA oder Ph.D. • GWriters'
 meta_description: 'Passt zu Ihnen ein Ph.D. oder eher eine berufsbegleitende Promotion zum DBA? Erfahren Sie jetzt alle Informationen aus unserer seriösen Promotionsberatung!'
 use_meta_keywords: false
@@ -976,4 +976,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Berufsbegleitende Promotion: DBA oder Ph.D. • GWriters'
+og_description: 'Passt zu Ihnen ein Ph.D. oder eher eine berufsbegleitende Promotion zum DBA? Erfahren Sie jetzt alle Informationen aus unserer seriösen Promotionsberatung!'
+og_image: GWriters-Logo.png
 ---
