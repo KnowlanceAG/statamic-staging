@@ -1124,7 +1124,7 @@ page_title: 'Berufsbegleitende Promotion im Überblick • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623335288
+updated_at: 1623341636
 meta_title: 'Berufsbegleitende Promotion im Überblick • GWriters'
 meta_description: 'Finden Sie bei uns alle Informationen über die berufsbegleitende Promotion - Alle Vor- und Nachteile von internen und externen Promotionsprogrammen!'
 use_meta_keywords: false
