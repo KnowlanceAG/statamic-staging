@@ -782,7 +782,7 @@ page_title: 'Berufsbegleitender Master of Business Administration • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623342359
+updated_at: 1623342649
 meta_title: 'Berufsbegleitender Master of Business Administration • GWriters'
 meta_description: 'Finden Sie hier alle Informationen über das berufsbegleitende Studium zum MBA und finden Sie akademische Ghostwriter, Coaches und mehr bei GWriters.de!'
 use_meta_keywords: false
