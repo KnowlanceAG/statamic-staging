@@ -275,8 +275,8 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1620121300
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623330711
 page_title: 'Ist Ghostwriting strafbar? Alles dazu auf GWriters'
 meta_title: 'Ist Ghostwriting strafbar? Alles dazu auf GWriters'
 meta_description: 'Ist Ghostwriting strafbar? Erfahren Sie alles dazu im Artikel und auf GWriters.de - Ihrer Ghostwriter Agentur.'
@@ -288,4 +288,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Ist Ghostwriting strafbar? Alles dazu auf GWriters'
+og_description: 'Ist Ghostwriting strafbar? Erfahren Sie alles dazu im Artikel und auf GWriters.de - Ihrer Ghostwriter Agentur.'
+og_image: GWriters-Logo.png
 ---
