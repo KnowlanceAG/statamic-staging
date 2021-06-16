@@ -394,8 +394,8 @@ replicator:
     type: editor
     enabled: true
     show_as_card: false
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1620123960
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623867589
 academy_short_text-headline: 'Tabellenverzeichnis Beispiel'
 academy_short_text: 'Nutzen Sie unser Tabellenverzeichnis Beispiel für jede wissenschaftliche Arbeit mit einer Vielzahl von Tabellen.'
 use_meta_keywords: false
@@ -429,4 +429,7 @@ downloads:
   - akademie/Tabellenverzeichnis.docx
 template: academy-item
 link_title: Tabellenverzeichnis
+og_title: 'Kostenloses Tabellenverzeichnis für Ihre Hausarbeit herunterladen'
+og_description: 'Nutzen Sie unser Tabellenverzeichnis Beispiel von akademischen Experten für jede wissenschaftliche Arbeit mit einer Vielzahl von Tabellen ???'
+og_image: GWriters-Logo.png
 ---
