@@ -116,8 +116,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619690171
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623867318
 downloads:
   - akademie/Fragebogen.docx
 from_the_blog:
@@ -150,4 +150,7 @@ more_templates:
   - 47857fec-2594-4e17-9331-52e3a93020d5
   - 56a76afe-cd5a-4ab4-91c3-39b2b98ffe32
 template: academy-item
+og_title: 'Kostenlose Fragebogen Vorlage für Ihre Hausarbeit herunterladen'
+og_description: 'Nutzen Sie unsere Fragebogen Vorlage für Ihre Datenerhebung, erstellt von akademischen Experten. Hier finden Sie alle gängigen Fragetypen.'
+og_image: GWriters-Logo.png
 ---
