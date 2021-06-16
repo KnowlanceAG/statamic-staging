@@ -65,7 +65,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting/ghostwriting-agentur'
+                  href: /ghostwriting/ghostwriting-agentur
                   target: null
                   rel: null
             text: 'professionellen akademischen Ghostwriting Agenturen'
@@ -78,7 +78,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/achtung-ghostwriter-betrug'
+                  href: /achtung-ghostwriter-betrug
                   target: null
                   rel: null
             text: 'unseriösen Agenturen oder regelrechten Ghostwriting Betrügern'
@@ -117,7 +117,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/doktorarbeit-schreiben-lassen-ablauf-gwriters'
+                  href: /blog/doktorarbeit-schreiben-lassen-ablauf-gwriters
                   target: null
                   rel: null
             text: 'passenden Ghostwritern arbeiten'
@@ -169,7 +169,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619799302
+updated_at: 1623867348
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -193,4 +193,7 @@ more_templates:
   - 4c882044-a7c8-47ab-96ab-9fac3f0b761c
   - b73c1df6-623f-49fd-a8ea-3d9e6cf334ab
   - 9a41faa4-9f52-4f0e-84b2-9fc989d3e995
+og_title: 'GWriters • Alle wichtigen Informationen zu Ghostwritern und Agenturen'
+og_description: 'Unterscheiden Sie eine professionelle Ghostwriting Agentur von unseriösen Ghostwritern und Hobbyschreibern. Vertrauen Sie auf Experten!'
+og_image: GWriters-Logo.png
 ---
