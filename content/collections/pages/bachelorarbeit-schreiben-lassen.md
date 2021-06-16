@@ -46,7 +46,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1623852159
+updated_at: 1623857144
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -114,7 +114,7 @@ replicator:
             text: Plagiatsprüfung
           -
             type: text
-            text: ' erfolgen, da Studenten nicht selten Schwierigkeiten bei dem ordnungsgemäßen Umgang mit Quellen aufweisen. Es ist ebenfalls möglich, dass der Ghostwriter Bachelorarbeiten, die bereits begonnen wurden, überarbeitet. Alternativ können Studenten während des gesamten Ablaufs der Bachelorarbeit ein Coaching anfordern.'
+            text: ' erfolgen. Es ist ebenfalls möglich, dass ein Ghostwriter Bachelorarbeiten, die bereits begonnen wurden, überarbeitet. Alternativ können Studenten während des gesamten Ablaufs der Bachelorarbeit ein Coaching anfordern.'
       -
         type: paragraph
         content:
@@ -123,7 +123,7 @@ replicator:
             marks:
               -
                 type: bold
-            text: 'Wenn Sie bei Ihrer Bachelorarbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine '
+            text: 'Wenn Sie bei Ihrer Bachelorarbeit Unterstützung oder akademisches Ghostwriting benötigen, dann senden Sie uns eine '
           -
             type: text
             marks:
@@ -135,7 +135,7 @@ replicator:
                   href: /anfrage
                   target: null
                   rel: null
-            text: 'unverbindliche Anfrage schicken'
+            text: 'unverbindliche Anfrage'
           -
             type: text
             marks:
@@ -1119,19 +1119,13 @@ replicator:
         content:
           -
             type: text
-            text: 'Die Note der Bachelorarbeit beeinflusst die Abschlussnote bis zu 20%. Ein erfolgreich abgeschlossenes Bachelorstudium bildet das Grundlagenstudium und ist die Voraussetzung für den Beginn eines Masterstudiums.'
+            text: 'Die Note der Bachelorarbeit beeinflusst die Abschlussnote bis zu 20%. Ein erfolgreich abgeschlossenes Bachelorstudium bildet das Grundlagenstudium und ist die Voraussetzung für den Beginn eines Masterstudiums. Der sichere Einsatz von wissenschaftlichen Methoden ist dabei grundlegend für den Erfolg.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Daher sind die Beherrschung des Studienfachs und der sichere Einsatz von wissenschaftlichen Methoden grundlegend für den Erfolg. Bei einigen Studenten hat es sich ergeben, dass sie von einem Ghostwriter ihre Bachelorarbeit schreiben lassen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'So kann der Aufwand für die akademische Arbeit aus zeitlichen oder persönlichen Gründen gering halten werden. Die Ghostwriting-Bachelorarbeit sollte jedoch nur unterstützend sein. Das Werk eines Ghostwriters darf man nicht als eigenes ausgeben. Es darf lediglich als Orientierungshilfe dienen.'
+            text: 'Bei einigen Studenten hat es sich ergeben, dass sie von einem Ghostwriter ihre Bachelorarbeit schreiben lassen. Durch akademisches Ghostwriting kann der Aufwand für die akademische Arbeit gering halten werden. Die Ghostwriting-Bachelorarbeit sollte jedoch nur unterstützend sein. Das Werk eines Ghostwriters darf man nicht als eigenes ausgeben. Es darf lediglich als Orientierungshilfe dienen.'
       -
         type: heading
         attrs:
@@ -1157,13 +1151,13 @@ replicator:
         content:
           -
             type: text
-            text: 'Dessen Abschluss wird erreicht, indem Hochschulen von ihren Studenten eine Masterarbeit/ Bachelorarbeit schreiben lassen. Darauf kann durch die Erarbeitung einer Dissertation, auch Doktorarbeit genannt, die Erlangung des Doktortitels folgen. Das europäische System ist nicht zu vergleichen mit dem in den Vereinigten Staaten von Amerika. Dort ist die Vergabe des Titels eines Bachelors nicht einheitlichen Richtlinien unterworfen.'
+            text: 'Dessen Abschluss wird erreicht, indem Hochschulen von ihren Studenten eine Masterarbeit/ Bachelorarbeit schreiben lassen. Das europäische System ist nicht zu vergleichen mit dem in den Vereinigten Staaten von Amerika. Dort ist die Vergabe eines Bachelors auch ohne das Verfassen von wissenschaftlichen Abschlussarbeiten möglich.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Auch Colleges wird die Möglichkeit geboten, dass sie Studenten eine Bachelorarbeit schreiben lassen. Unterscheiden muss man diesen Abschluss aber von denen der Eliteuniversitäten in den USA. Trotz scheinbar gleicher Abschlussbezeichnung steckt ein anderes Bildungsniveau dahinter. Dies führt oft zu Problemen in der Akkreditierung von Studienleistungen.'
+            text: 'Auch Colleges wird die Möglichkeit geboten, dass sie Studenten eine Bachelor Thesis schreiben lassen. Unterscheiden muss man diesen Abschluss aber von denen der Eliteuniversitäten in den USA. Trotz scheinbar gleicher Abschlussbezeichnung steckt ein anderes Bildungsniveau dahinter. Dies führt oft zu Problemen in der Akkreditierung von Studienleistungen.'
       -
         type: heading
         attrs:
@@ -1189,13 +1183,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Nicht immer beendet man sein Bachelorstudium mit dieser Art von Examensarbeit. Das Bildungssystem in Deutschland wird von den Bundesländern geregelt. Daher können diese Richtlinien festlegen, nach denen ein Studium abgeschlossen wird. Dies muss das Verfassen einer Bachelorarbeit nicht vorsehen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Die Konferenz der Kultusminister sieht vor, dass Lehrinstitute von Studenten eine Bachelorarbeit schreiben lassen. Dies geschieht im Zuge der Qualitätssicherung.'
+            text: 'Nicht immer beendet man sein Bachelorstudium mit dieser Art von Examensarbeit. Die Konferenz der Kultusminister sieht allerdings vor, dass Lehrinstitute von Studenten eine Bachelor Thesis schreiben lassen. Dies geschieht im Zuge der Qualitätssicherung.'
       -
         type: heading
         attrs:
@@ -1228,101 +1216,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Insgesamt beläuft sich die dafür vorgesehene Bearbeitungszeit auf bis zu 4 Monate. Vorlagen und Beispiele kann ein Student vom Lehrinstitut selbst erlangen. Alternativ kann er von einem Ghostwriter eine Bachelorarbeit schreiben lassen, welches als Orientierungshilfe dient.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Trotz unterschiedlicher Anforderungen der einzelnen Lehrinstitute, haben sich einige Formalien als gängig erwiesen:'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Gliederung einer Bachelorarbeit'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Deckblatt'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Inhaltsverzeichnis Bachelorarbeit'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Einleitung'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Hauptteil'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Schluss / Fazit'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Literatur- und Quellenverzeichnis'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Anhang'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Formatierung einer Bachelorarbeit'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Seitenrand: oben und unten je 2cm, links 5cm, rechts 1cm'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Seitenzahlen: unten zentriert/rechts, auf Deckblatt/Inhaltsverzeichnis keine Seitenzahl'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Schriftgröße und –art im Fließtext: 12 Pt Arial oder Times New Roman, Blocksatz'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Zeilenabstand: 1,5-zeilig'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Überschriften der Unterkapitel: 12 Pt Fettdruck, danach eine Zeile Abstand'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Fußnotentext: 10 Pt Blocksatz, 1,0-zeilig, Fußnoten werden hoch gestellt'
+            text: 'Insgesamt beläuft sich die dafür vorgesehene Bearbeitungszeit auf bis zu 4 Monate. Vorlagen und Beispiele kann ein Student vom Lehrinstitut selbst erlangen. Akademisches Ghostwriting ist eine alternative. Man kann von einem Ghostwriter eine Bachelorarbeit schreiben lassen, welche als Orientierungshilfe dient.'
       -
         type: horizontal_rule
       -
@@ -1385,13 +1279,12 @@ replicator:
             type: text
             text: ' nutzen.'
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 3
         content:
           -
             type: text
-            marks:
-              -
-                type: bold
             text: 'Zu den Kostenfaktoren einer Bachelorarbeit gehören:'
       -
         type: bullet_list
@@ -1485,7 +1378,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Sollte der Ghostwriter für das Schreiben der Bachelorarbeit-Mustervorlage Umfragen durchführen. beeinflusst dies  die Bachelorarbeit-Kosten. Dies gilt auch für die Auswertung von Datensätzen mit SPSS oder R sowie Experimente in Laboren.'
+            text: 'Sollte der Ghostwriter für das Schreiben der Bachelorarbeit-Mustervorlage Umfragen durchführen. beeinflusst dies die Bachelorarbeit-Kosten. Dies gilt auch für die Auswertung von Datensätzen mit SPSS oder R sowie Experimente in Laboren.'
       -
         type: heading
         attrs:
@@ -1499,20 +1392,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Seit 2011 haben wir bei GWriters unseren Stamm an Ghostwritern, Lektoren und anderen akademischen Experten stetig ausgebaut. Daher ist es uns möglich, Ghostwriter Mustervorlagen für Bachelorarbeiten aus den '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /fachrichtungen
-                  target: null
-                  rel: null
-            text: 'verschiedensten Fachbereichen'
-          -
-            type: text
-            text: ' schreiben zu lassen. Einige dieser Fachbereiche zeichnen sich durch eine höhere Komplexität aus als andere. Daher erwarten und erhalten Ghostwriter aus diesen Bereichen eine höhere Honorierung ihrer Leistungen.'
+            text: 'Einige Fachbereiche zeichnen sich beim wissenschaftlichen Schreiben durch eine höhere Komplexität aus als andere. Daher erwarten und erhalten Ghostwriter aus diesen Bereichen eine höhere Honorierung ihrer Leistungen.'
       -
         type: heading
         attrs:
@@ -1526,13 +1406,13 @@ replicator:
         content:
           -
             type: text
-            text: 'An einem üblichen Arbeitsalltag schreiben akademische Ghostwriter bis zu 5 Textseiten einer wissenschaftlichen Arbeit. Unsere akademischen Ghostwriter können in Notfällen ganze Bachelorarbeiten an einem Wochenende schreiben. Bei dringenden Aufträgen ist dies möglich.'
+            text: 'Unsere akademischen Ghostwriter können in Notfällen ganze Bachelorarbeiten an einem Wochenende schreiben. Bei dringenden Aufträgen ist dies möglich.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Jedoch möchten sie für diese Extraarbeit fair entlohnt werden. Daher spielt die Dringlichkeit und zur Verfügung stehende Bearbeitungszeit eine wesentliche Rolle der Kosten beim Bachelorarbeit schreiben lassen.'
+            text: 'Jedoch möchten sie für diese Extraarbeit fair entlohnt werden. Daher spielt die verfügbare Bearbeitungszeit eine wesentliche Rolle der Kosten beim Bachelorarbeit schreiben lassen.'
       -
         type: heading
         attrs:
@@ -1546,7 +1426,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Bei der Berechnung der Kosten eines wissenschaftlichen Textes zählen wir bei GWriters die reinen Textseiten. Titelblätter, Verzeichnisse und Anhänge werden dabei nicht berücksichtigt und sind bei einer Bachelorarbeit gratis inkludiert. Zudem bestimmen wir die Anzahl der Textseiten streng nach der offiziellen Definition der VG Wort. So sichern wir eine für alle Seiten faire und nachvollziehbare Berechnungsgrundlage.'
+            text: 'Bei der Berechnung der Kosten von wissenschaftlichen Abschlussarbeiten zählen wir die reinen Normseiten. Dies geschieht streng nach der offiziellen Definition der VG Wort. So sichern wir eine für alle Seiten faire und nachvollziehbare Berechnungsgrundlage. Titelblätter, Verzeichnisse und Anhänge werden dabei nicht berücksichtigt und sind bei einer Bachelorarbeit gratis inkludiert.'
       -
         type: paragraph
         content:
