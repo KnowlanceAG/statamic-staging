@@ -62,7 +62,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: 'Bachelorarbeit '
@@ -75,7 +75,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/masterarbeit-schreiben-lassen'
+                  href: /arbeiten/masterarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Masterarbeit
@@ -132,7 +132,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: 'Ghostwritern '
@@ -145,7 +145,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/formatierung'
+                  href: /leistungen/formatierung
                   target: null
                   rel: null
             text: ' Formatierung'
@@ -164,7 +164,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/hausarbeit-schreiben-lassen'
+                  href: /arbeiten/hausarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: 'Hausarbeit '
@@ -187,8 +187,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619690856
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623867420
 downloads:
   - akademie/Literaturverzeichnis.docx
 from_the_blog:
@@ -222,4 +222,7 @@ more_templates:
   - e777b9fb-7884-4d67-8453-9d6c8cb0aa9f
 link_title: Literaturverzeichnis
 template: academy-item
+og_title: 'Kostenloses Literaturverzeichnis für Ihre Hausarbeit herunterladen'
+og_description: 'Nutzen Sie einfach und schnell das Literaturverzeichnis Muster von GWriters. Die kostenlose Vorlage spart Ihnen die fehlende Citavi-Lizenz.'
+og_image: GWriters-Logo.png
 ---
