@@ -72,7 +72,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/wissenschaftliches-arbeiten-regeln/'
+                  href: /blog/wissenschaftliches-arbeiten-regeln/
                   target: null
                   rel: null
             text: 'wissenschaftlichen Arbeiten'
@@ -85,7 +85,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/wissenschaftliches-schreiben-fur-schule-und-studium'
+                  href: /blog/wissenschaftliches-schreiben-fur-schule-und-studium
                   target: null
                   rel: null
             text: 'Unterschied zwischen Schule und Studium'
@@ -104,7 +104,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/hausarbeit-formatieren'
+                  href: /blog/hausarbeit-formatieren
                   target: null
                   rel: null
             text: 'richtige Zitieren'
@@ -117,7 +117,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/masterarbeit-zitieren'
+                  href: /blog/masterarbeit-zitieren
                   target: null
                   rel: null
             text: 'Formatierung der Abschlussarbeit'
@@ -156,7 +156,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/gwriters-coaching'
+                  href: /blog/gwriters-coaching
                   target: null
                   rel: null
             text: 'fachbezogenen Fragen'
@@ -169,7 +169,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/gwriters-akademie/wissenschaftliches-arbeiten-fortgeschrittene'
+                  href: /gwriters-akademie/wissenschaftliches-arbeiten-fortgeschrittene
                   target: null
                   rel: null
             text: 'Wissenschaftliches Arbeiten für Fortgeschrittene'
@@ -221,7 +221,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619799149
+updated_at: 1623867669
 template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
@@ -245,4 +245,7 @@ more_templates:
   - 4c882044-a7c8-47ab-96ab-9fac3f0b761c
   - b73c1df6-623f-49fd-a8ea-3d9e6cf334ab
   - 9a41faa4-9f52-4f0e-84b2-9fc989d3e995
+og_title: 'Tipps zum wissenschaftlichen Arbeiten für die erste Hausarbeit'
+og_description: 'Sind Sie Anfänger beim Erstellen einer wissenschaftlichen Arbeit? Hier finden Sie alle wichtigen Informationen im Überblick rund und das Thema!'
+og_image: GWriters-Logo.png
 ---
