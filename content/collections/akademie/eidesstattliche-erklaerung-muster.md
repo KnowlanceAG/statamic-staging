@@ -59,7 +59,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/hausarbeit-schreiben-lassen'
+                  href: /arbeiten/hausarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: 'Hausarbeit '
@@ -86,7 +86,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: ' Bachelorarbeit'
@@ -99,7 +99,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/masterarbeit-schreiben-lassen'
+                  href: /arbeiten/masterarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Masterarbeit
@@ -112,7 +112,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/formatierung'
+                  href: /leistungen/formatierung
                   target: null
                   rel: null
             text: ' Formatierung '
@@ -143,7 +143,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwritern
@@ -173,7 +173,7 @@ from_the_blog:
   - 5d6cfb2d-6aa8-4623-afdc-35f50ee0380c
   - c7f2ad6a-2e8f-42e4-b6bc-d4ce3f31ff30
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619727654
+updated_at: 1623867004
 meta_title: 'Kostenlose Eidesstattliche Erklärung für Ihre Hausarbeit herunterladen'
 meta_description: 'Nutzen Sie hier kostenlos für Ihre eidesstattliche Erklärung Muster und Vorlagen, die in keiner Abschlussarbeit fehlen dürfen.'
 use_meta_keywords: false
@@ -202,4 +202,6 @@ more_templates:
   - e777b9fb-7884-4d67-8453-9d6c8cb0aa9f
 template: academy-item
 link_title: 'Eidesstattliche Erklärung'
+og_title: 'Kostenlose Eidesstattliche Erklärung für Ihre Hausarbeit herunterladen'
+og_description: 'Nutzen Sie hier kostenlos für Ihre eidesstattliche Erklärung Muster und Vorlagen, die in keiner Abschlussarbeit fehlen dürfen.'
 ---
