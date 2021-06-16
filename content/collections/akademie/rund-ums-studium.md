@@ -65,7 +65,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/erste-juristische-pruefung'
+                  href: /blog/erste-juristische-pruefung
                   target: null
                   rel: null
             text: 'auf Ihre erste juristische Prüfung'
@@ -78,7 +78,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/dissertation-ausland'
+                  href: /blog/dissertation-ausland
                   target: null
                   rel: null
             text: 'Schreiben Ihrer Dissertation im Ausland'
@@ -91,7 +91,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/bachelorarbeit-betreuer/'
+                  href: /blog/bachelorarbeit-betreuer/
                   target: null
                   rel: null
             text: 'Probleme mit Ihrem Bachelorarbeit Betreuer'
@@ -110,7 +110,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/fachrichtungen/bwl'
+                  href: /fachrichtungen/bwl
                   target: null
                   rel: null
             text: Betriebswirtschaftslehre
@@ -123,7 +123,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/fachrichtungen/psychologie'
+                  href: /fachrichtungen/psychologie
                   target: null
                   rel: null
             text: Psychologie
@@ -150,7 +150,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/dissertation-veroeffentlichen/'
+                  href: /blog/dissertation-veroeffentlichen/
                   target: null
                   rel: null
             text: 'Veröffentlichung Ihrer Dissertation'
@@ -207,7 +207,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619799253
+updated_at: 1623867555
 template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
@@ -231,4 +231,7 @@ more_templates:
   - 4c882044-a7c8-47ab-96ab-9fac3f0b761c
   - b73c1df6-623f-49fd-a8ea-3d9e6cf334ab
   - 9a41faa4-9f52-4f0e-84b2-9fc989d3e995
+og_title: 'GWriters • Alles rund ums Studium von Ihrem Ghostwriter Service'
+og_description: 'Ob Jura, BWL, Medizin oder etwas anderes - Unsere Ghostwriting Agentur steht Ihnen in jedem Fachbereich professionell zur Seite!'
+og_image: GWriters-Logo.png
 ---
