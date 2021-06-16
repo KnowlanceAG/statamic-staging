@@ -46,7 +46,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1623857144
+updated_at: 1623857742
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1125,7 +1125,13 @@ replicator:
         content:
           -
             type: text
-            text: 'Bei einigen Studenten hat es sich ergeben, dass sie von einem Ghostwriter ihre Bachelorarbeit schreiben lassen. Durch akademisches Ghostwriting kann der Aufwand für die akademische Arbeit gering halten werden. Die Ghostwriting-Bachelorarbeit sollte jedoch nur unterstützend sein. Das Werk eines Ghostwriters darf man nicht als eigenes ausgeben. Es darf lediglich als Orientierungshilfe dienen.'
+            text: 'Bei einigen Studenten hat es sich ergeben, dass sie von einem Ghostwriter ihre Bachelorarbeit schreiben lassen. Durch akademisches Ghostwriting kann der Aufwand für die akademische Arbeit gering halten werden.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Die Ghostwriting-Bachelorarbeit sollte jedoch nur unterstützend sein. Das Werk eines Ghostwriters darf man nicht als eigenes ausgeben. Es darf lediglich als Orientierungshilfe dienen.'
       -
         type: heading
         attrs:
@@ -1139,7 +1145,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Um die Wettbewerbsfähigkeit zu erhöhen, wurde 1999 von 29 EU-Bildungsministern die Bologna-Erklärung unterzeichnet. Dies gewährleistet auch eine Vergleichbarkeit von Studiengängen sowie die Mobilität und Flexibilität im Studium. Die Umsetzung des Bologna-Prozesses hat in der Hochschullandschaft weitreichende Auswirkungen gehabt.'
+            text: 'Die Bologna-Erklärung wurde 1999 von 29 EU-Bildungsministern unterzeichnet. Die Umsetzung des Bologna-Prozesses hat in der Hochschullandschaft weitreichende Auswirkungen gehabt.'
       -
         type: paragraph
         content:
@@ -1197,7 +1203,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Je nach Fachrichtung und Institution umfasst sie inklusive Inhaltsverzeichnis und Exposé 20-60 Seiten. Oft bestimmen Hochschule oder Universitäten die Anzahl der Wörter und den Aufbau der Bachelorarbeit. Neben Themenfindung und Literaturrecherche sind auch zahlreiche formale Richtlinien zu beachten. Außerdem müssen Studenten nach Ansprechpartnern als Betreuer der Bachelorarbeit oder zum '
+            text: 'Je nach Fachrichtung und Institution umfasst sie inklusive Inhaltsverzeichnis und Exposé 20-60 Seiten. Oft bestimmen Hochschule oder Universitäten die Anzahl der Wörter und den Aufbau der Bachelorarbeit. Neben Themenfindung und Literaturrecherche stehe auf der To Do Liste auch die Anwendung formaler Richtlinien. Außerdem müssen Studenten nach Ansprechpartnern als Betreuer der Bachelorarbeit oder zum '
           -
             type: text
             marks:
@@ -1426,7 +1432,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Bei der Berechnung der Kosten von wissenschaftlichen Abschlussarbeiten zählen wir die reinen Normseiten. Dies geschieht streng nach der offiziellen Definition der VG Wort. So sichern wir eine für alle Seiten faire und nachvollziehbare Berechnungsgrundlage. Titelblätter, Verzeichnisse und Anhänge werden dabei nicht berücksichtigt und sind bei einer Bachelorarbeit gratis inkludiert.'
+            text: 'Bei der Berechnung der Kosten von wissenschaftlichen Abschlussarbeiten zählen wir die reinen Normseiten. Dies geschieht streng nach der offiziellen Definition der VG Wort. So sichern wir eine faire und nachvollziehbare Berechnungsgrundlage. Titelblätter, Verzeichnisse und Anhänge werden dabei nicht berücksichtigt. Diese sind bei einer Bachelorarbeit gratis inkludiert.'
       -
         type: paragraph
         content:
