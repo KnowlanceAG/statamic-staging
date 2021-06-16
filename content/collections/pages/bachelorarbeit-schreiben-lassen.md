@@ -46,7 +46,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1623846640
+updated_at: 1623847183
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -210,7 +210,7 @@ replicator:
             text: 'unser Kontaktformular'
           -
             type: text
-            text: ' erhalten Sie jederzeit eine kostenlose Beratung. Unsere Kundenberater unterstützen Sie gerne! Zum Beispiel bei der Entscheidung, ob ein Coaching genügt oder Sie eine Mustervorlage für Ihre Bachelorarbeit schreiben lassen möchten.'
+            text: ' erhalten Sie jederzeit eine kostenlose Beratung. Möchten Sie ein Coaching oder eine Mustervorlage für Ihre Bachelorarbeit schreiben lassen? Unsere Kundenberater beraten Sie dazu gerne! '
       -
         type: heading
         attrs:
