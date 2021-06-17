@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'Akademische Ghostwriter Agentur'
 size: 42181
-last_modified: 1614337869
+last_modified: 1619516601
 width: 2560
 height: 1534
 mime_type: image/jpeg
