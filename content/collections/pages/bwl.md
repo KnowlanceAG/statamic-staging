@@ -56,7 +56,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623266892
+updated_at: 1623927155
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -226,6 +226,12 @@ replicator:
                         attrs:
                           align: start
                     text: "\_einer Mustervorlage für die betriebswirtschaftliche Arbeit oder verschiedene Teilleistungen in Auftrag geben. So ist es auch üblich, dass der Ghostwriter den Studenten bereits bei der Suche nach der passenden Literatur unterstützt, ihm bei der Erstellung beratend zur Seite steht oder eine bereits durch den Studenten fertig geschriebene Arbeit lektoriert und korrigiert. Auch ein Coaching und Training ist möglich, um den Studenten in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenstellungen zu bearbeiten."
+              -
+                type: set
+                attrs:
+                  values:
+                    type: video
+                    video: 'https://youtu.be/PmgIh10dij0'
               -
                 type: heading
                 attrs:
