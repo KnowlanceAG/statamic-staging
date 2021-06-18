@@ -56,7 +56,7 @@ page_title: 'GWriters • Biologie - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623269476
+updated_at: 1624012123
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -242,6 +242,12 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Unsere Ghostwriter im Fachbereich Biologie sind allesamt erfahrene Akademiker mit mindestens zwei akademischen Graden, die sich neben der spezifischen wissenschaftlichen Abhandlung auch mit den Anforderungen der einzelnen studienbezogenen Arbeitenarten wie Hausarbeiten, Bachelor- und Masterarbeiten auskennen. Ghostwriter für Dissertationen verfügen zudem selbst über mindestens einen Doktortitel und forschen oder forschten in einem naturwissenschaftlichen Fachgebiet. Je nachdem welche Form von Unterstützung Sie benötigen, bieten wir Ihnen individuelle Konzepte und die Unterstützung durch einen Bearbeiter aus Ihrem biologischen Themenschwerpunkt, sodass Ihre Wünsche zeitnah und qualitativ hochwertig umgesetzt werden können. Zudem stehen wir Ihnen auch nach Fertigstellung der Arbeit zur Seite, wenn Sie Korrekturen wünschen oder Abschlussarbeiten wie Dissertationen in wissenschaftliche Veröffentlichungen umgewandelt werden sollen. So bleibt Ihnen die Zeit sich dem eigentlichen Studium und der Forschung zu widmen. Gerade wo letztere im Biologiestudium von Anfang dazu gehört und maßgeblich die spätere Karriere und den späteren Werdegang beeinflusst.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: video
+                    video: 'https://youtu.be/Ar68C5Fo_Pw'
               -
                 type: heading
                 attrs:
