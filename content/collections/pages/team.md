@@ -1,9 +1,10 @@
 ---
+id: 010a016f-92f5-482d-bcee-60b232e7c328
 title: Team
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619008988
+updated_at: 1623263428
 page_title: 'Unser Team • GWriters.de'
 teaser:
   -
@@ -41,8 +42,7 @@ teaser:
             attrs:
               align: center
         text: 'Menschen, die sich täglich mit viel Know-How & Feingefühl um die erfolgreiche Umsetzung Ihrer akademischen Projekte kümmern.'
-teaser_bg:
-  - seiten/unsere-experten/header-so-funktionierts.jpg
+teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -61,6 +61,7 @@ replicator:
             type: bilder
             assets:
               - team/gwriters_team_ghostwriter.jpg
+            has_border: false
       -
         type: heading
         attrs:
@@ -121,7 +122,10 @@ replicator:
         type: paragraph
     type: editor
     enabled: true
+    show_as_card: false
 meta_title: 'Unser Team • GWriters'
 meta_description: 'Mitarbeiter der akademischen Ghostwriter Agentur GWriters. Menschen, die sich täglich mit viel Know-How & Feingefühl um Ihre akademischen Projekte kümmern.'
-id: 010a016f-92f5-482d-bcee-60b232e7c328
+og_title: 'Unser Team • GWriters'
+og_description: 'Mitarbeiter der akademischen Ghostwriter Agentur GWriters. Menschen, die sich täglich mit viel Know-How & Feingefühl um Ihre akademischen Projekte kümmern.'
+og_image: GWriters-Logo.png
 ---

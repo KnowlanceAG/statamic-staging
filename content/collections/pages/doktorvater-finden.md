@@ -166,7 +166,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/promotionsberatung'
+                          href: /promotionsberatung
                           target: null
                           rel: null
                     text: Promotionsberatung
@@ -193,7 +193,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/doktorarbeit'
+                          href: /arbeiten/doktorarbeit
                           target: null
                           rel: null
                     text: 'Doktorarbeit Ghostwriter'
@@ -657,7 +657,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/anfrage'
+                          href: /anfrage
                           target: null
                           rel: null
                     text: Anfrage
@@ -700,7 +700,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/chemie'
+                          href: /fachrichtungen/chemie
                           target: null
                           rel: null
                     text: Chemie
@@ -761,7 +761,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/kommunikationswissenschaften'
+                          href: /fachrichtungen/kommunikationswissenschaften
                           target: null
                           rel: null
                     text: Kommunikation
@@ -852,8 +852,8 @@ replicator:
 page_title: 'Externe Promotion: den geeigneten Doktorvater finden • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619608218
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623341822
 meta_title: 'Externe Promotion: den geeigneten Doktorvater finden • GWriters'
 meta_description: 'Wir erklären, wie Sie den geeigneten Doktorvater für Ihre externe, nebenberufliche Promotion finden. Profitieren Sie von der unserer Promotionsberatung!'
 use_meta_keywords: false
@@ -864,4 +864,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Externe Promotion: den geeigneten Doktorvater finden • GWriters'
+og_description: 'Wir erklären, wie Sie den geeigneten Doktorvater für Ihre externe, nebenberufliche Promotion finden. Profitieren Sie von der unserer Promotionsberatung!'
+og_image: GWriters-Logo.png
 ---

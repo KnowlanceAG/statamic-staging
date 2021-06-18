@@ -79,7 +79,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat/lektor'
+                  href: /lektorat/lektor
                   target: null
                   rel: null
             text: Lektoren
@@ -106,7 +106,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat/korrektor'
+                  href: /korrektorat/korrektor
                   target: null
                   rel: null
             text: Korrektoren
@@ -133,7 +133,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/anfrage'
+                  href: /anfrage
                   target: null
                   rel: null
             text: Anfrage
@@ -165,7 +165,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/faq'
+                  href: /faq
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'
@@ -174,7 +174,7 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619644084
+updated_at: 1623331449
 meta_title: 'Habt Ihr Autoren für Ausarbeitungen auf Englisch? • GWriters'
 meta_description: 'Viele der GWriters.de Freelancer, ob Autoren, Lektoren, Korrektoren, Übersetzer oder Ghostwriter schreiben und publizieren regelmäßig in englischer Sprache.'
 use_meta_keywords: false
@@ -186,4 +186,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: without-teaser-with-sidebar
+og_title: 'Habt Ihr Autoren für Ausarbeitungen auf Englisch? • GWriters'
+og_description: 'Viele der GWriters.de Freelancer, ob Autoren, Lektoren, Korrektoren, Übersetzer oder Ghostwriter schreiben und publizieren regelmäßig in englischer Sprache.'
+og_image: GWriters-Logo.png
 ---

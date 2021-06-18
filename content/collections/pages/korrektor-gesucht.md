@@ -44,8 +44,7 @@ teaser:
         spacing_top: false
   -
     type: paragraph
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -226,8 +225,8 @@ replicator:
     type: editor
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1620122504
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623343870
 page_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
 meta_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
 meta_description: 'Korrektor gesucht? Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches sowie Informationen zu Ablauf, Kosten & Preisen finden Sie bei GWriters!'
@@ -240,4 +239,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: with-side-bar
+og_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
+og_description: 'Korrektor gesucht? Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches sowie Informationen zu Ablauf, Kosten & Preisen finden Sie bei GWriters!'
+og_image: GWriters-Logo.png
 ---

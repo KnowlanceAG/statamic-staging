@@ -44,8 +44,7 @@ teaser:
         spacing_top: false
   -
     type: paragraph
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -61,7 +60,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/doktorarbeit'
+                  href: /arbeiten/doktorarbeit
                   target: null
                   rel: null
             text: Doktorarbeit
@@ -88,7 +87,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
@@ -101,7 +100,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: Ghostwriting
@@ -128,7 +127,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting/ghostwriting-agentur/'
+                  href: /ghostwriting/ghostwriting-agentur/
                   target: null
                   rel: null
             text: 'Ghostwriting Agentur'
@@ -166,7 +165,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/ghostwriting-plagiate'
+                  href: /blog/ghostwriting-plagiate
                   target: null
                   rel: null
             text: 'Video: Ghostwriting & Plagiate – Was ist ihr Unterschied & warum ist er so wichtig?'
@@ -178,7 +177,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/gwriters-plagiat'
+                  href: /blog/gwriters-plagiat
                   target: null
                   rel: null
             text: 'Woher weiß ich, dass ich bei GWriters kein Plagiat erhalte?'
@@ -190,7 +189,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/promotionsberater-ghostwriter'
+                  href: /blog/promotionsberater-ghostwriter
                   target: null
                   rel: null
             text: 'Promotionsberatung & Ghostwriting – Was sind die Unterschiede?'
@@ -202,7 +201,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/plagiat'
+                  href: /blog/plagiat
                   target: null
                   rel: null
             text: 'Die große Infosammlung zu Plagiaten'
@@ -217,7 +216,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
@@ -226,7 +225,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619456800
+updated_at: 1623343085
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -239,4 +238,7 @@ twitter_card_type_page: summary
 page_title: 'Der Guttenberg Ghostwriter - Alles was Sie wissen müssen • GWriters'
 meta_title: 'Der Guttenberg Ghostwriter - Alles was Sie wissen müssen • GWriters'
 meta_description: 'Erfahren Sie alles über den Guttenberg Ghostwriter Fall aus der Perspektive unserer Ghostwriting Agentur.'
+og_title: 'Der Guttenberg Ghostwriter - Alles was Sie wissen müssen • GWriters'
+og_description: 'Erfahren Sie alles über den Guttenberg Ghostwriter Fall aus der Perspektive unserer Ghostwriting Agentur.'
+og_image: GWriters-Logo.png
 ---

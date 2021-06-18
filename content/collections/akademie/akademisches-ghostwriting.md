@@ -3,8 +3,8 @@ id: 68703917-9254-4107-82e0-0d844a79e81a
 title: 'Akademisches Ghostwriting'
 academy_teaser_headline: 'Akademisches Ghostwriting von GWriters'
 academy_teaser_text: 'Finden Sie in dieser Kategorie alles zum akademischen Ghostwriting, angefangen von unseren internen Prozessen, die Ihnen einen reibungslosen Auftragsablauf und jederzeit höchste Qualität Ihrer wissenschaftlichen Arbeit garantiert, bis hin zu interessanten und wissenswerten Informationen über unsere akademischen Ghostwriter und Ghostwriting Erfahrungen.'
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619689753
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623866856
 teaser:
   -
     type: heading
@@ -77,7 +77,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: 'akademischen Ghostwriting'
@@ -90,7 +90,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/achtung-ghostwriter-betrug'
+                  href: /achtung-ghostwriter-betrug
                   target: null
                   rel: null
             text: 'Ghostwriting Erfahrung'
@@ -109,7 +109,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
@@ -136,7 +136,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/express-ghostwriting-im-notfall'
+                  href: /blog/express-ghostwriting-im-notfall
                   target: null
                   rel: null
             text: 'Video "3 Tage bis zur Abgabe - Ghostwriting im Notfall"'
@@ -149,7 +149,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/gwriters-coaching'
+                  href: /blog/gwriters-coaching
                   target: null
                   rel: null
             text: Videos
@@ -218,4 +218,7 @@ more_templates:
   - 4c882044-a7c8-47ab-96ab-9fac3f0b761c
   - b73c1df6-623f-49fd-a8ea-3d9e6cf334ab
   - 9a41faa4-9f52-4f0e-84b2-9fc989d3e995
+og_title: 'GWriters • Alle wichtigen Informationen zum akademischen Ghostwriting'
+og_description: 'Alles rund um das Thema akademisches Ghostwriting finden Sie jetzt verständlich zusammengefasst in den Beiträgen von unseren akademischen Ghostwritern.'
+og_image: GWriters-Logo.png
 ---

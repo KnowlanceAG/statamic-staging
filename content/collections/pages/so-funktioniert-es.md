@@ -4,9 +4,8 @@ title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1620660024
-teaser_bg:
-  - seiten/unsere-experten/header-so-funktionierts.jpg
+updated_at: 1623263050
+teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
   -
     type: heading
@@ -518,4 +517,7 @@ replicator:
     border: false
 meta_title: 'Wissenschaftliches Ghostwriting bei GWriters • So funktioniert es'
 meta_description: 'Möchten Sie Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen? So funktioniert es - in 4 einfachen Schritten.'
+og_title: 'Wissenschaftliches Ghostwriting bei GWriters • So funktioniert es'
+og_description: 'Möchten Sie Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen? So funktioniert es - in 4 einfachen Schritten.'
+og_image: GWriters-Logo.png
 ---

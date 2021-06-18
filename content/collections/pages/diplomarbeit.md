@@ -42,8 +42,7 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     grid:
@@ -1443,8 +1442,8 @@ replicator:
     type: editor
     enabled: true
     show_as_card: false
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1620143987
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623322133
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -1456,4 +1455,7 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 meta_title: 'GWriters • Mustervorlage für Diplomarbeit schreiben lassen'
 meta_description: 'Mustervorlage für Diplomarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+og_title: 'GWriters • Mustervorlage für Diplomarbeit schreiben lassen'
+og_description: 'Mustervorlage für Diplomarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+og_image: GWriters-Logo.png
 ---

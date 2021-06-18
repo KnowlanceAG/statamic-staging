@@ -61,7 +61,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
@@ -201,7 +201,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/ghostwriting'
+                          href: /ghostwriting
                           target: null
                           rel: null
                     text: Ghostwriting
@@ -262,7 +262,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/als-autor-bewerben'
+                  href: /als-autor-bewerben
                   target: null
                   rel: null
             text: Formular
@@ -338,7 +338,7 @@ replicator:
     enabled: true
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619646987
+updated_at: 1623333056
 meta_title: 'GWriters • Ghostwriter werden!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Werden Sie Ghostwriter!'
 use_meta_keywords: false
@@ -349,4 +349,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'GWriters • Ghostwriter werden!'
+og_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Werden Sie Ghostwriter!'
+og_image: GWriters-Logo.png
 ---

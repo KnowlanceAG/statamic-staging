@@ -65,7 +65,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
@@ -110,7 +110,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/fachrichtungen/bwl'
+                  href: /fachrichtungen/bwl
                   target: null
                   rel: null
             text: BWL
@@ -158,7 +158,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/faq'
+                  href: /faq
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'
@@ -169,7 +169,7 @@ page_title: 'Welche Motivation haben akademische Ghostwriter? • GWriters'
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619643643
+updated_at: 1623330555
 meta_title: 'Welche Motivation haben akademische Ghostwriter? • GWriters'
 meta_description: 'Welche Motivation haben akademische Ghostwriter? Alle Antworten von der Ghostwriter Agentur GWriters.de.'
 use_meta_keywords: false
@@ -180,4 +180,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Welche Motivation haben akademische Ghostwriter? • GWriters'
+og_description: 'Welche Motivation haben akademische Ghostwriter? Alle Antworten von der Ghostwriter Agentur GWriters.de.'
+og_image: GWriters-Logo.png
 ---

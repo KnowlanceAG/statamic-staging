@@ -65,7 +65,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/preise'
+                  href: /preise
                   target: null
                   rel: null
             text: Preise
@@ -110,7 +110,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/anfrage'
+                  href: /anfrage
                   target: null
                   rel: null
             text: Anfrage
@@ -137,7 +137,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: Ghostwriting
@@ -179,7 +179,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/preise'
+                  href: /preise
                   target: null
                   rel: null
             text: Preisrechner
@@ -211,7 +211,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/faq'
+                  href: /faq
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'
@@ -221,7 +221,7 @@ replicator:
 page_title: 'Wie hoch sind die Preise bei GWriters? • GWriters'
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619643778
+updated_at: 1623330993
 template: without-teaser-with-sidebar
 meta_title: 'Wie hoch sind die Preise bei GWriters? • GWriters'
 meta_description: 'Preissicherheit bei GWriters.de: Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Ghostwriting: Leistungen, Ablauf, Kosten & Preise.'
@@ -233,4 +233,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Wie hoch sind die Preise bei GWriters? • GWriters'
+og_description: 'Preissicherheit bei GWriters.de: Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Ghostwriting: Leistungen, Ablauf, Kosten & Preise.'
+og_image: GWriters-Logo.png
 ---

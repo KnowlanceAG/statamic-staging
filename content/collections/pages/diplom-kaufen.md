@@ -44,8 +44,7 @@ teaser:
         spacing_top: false
   -
     type: paragraph
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -96,7 +95,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: 'Ghostwriter '
@@ -109,7 +108,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/diplomarbeit'
+                  href: /arbeiten/diplomarbeit
                   target: null
                   rel: null
             text: 'Diplomarbeit '
@@ -122,7 +121,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat'
+                  href: /lektorat
                   target: null
                   rel: null
             text: Lektorat
@@ -135,7 +134,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat'
+                  href: /korrektorat
                   target: null
                   rel: null
             text: 'Korrektorat '
@@ -148,7 +147,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat/korrektor'
+                  href: /korrektorat/korrektor
                   target: null
                   rel: null
             text: Korrektoren
@@ -167,7 +166,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/faq/ghostwriting-strafbar'
+                  href: /faq/ghostwriting-strafbar
                   target: null
                   rel: null
             text: 'Ist Ghostwriting strafbar?'
@@ -232,7 +231,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/ghostwriter-auftrag-tipps'
+                  href: /blog/ghostwriter-auftrag-tipps
                   target: null
                   rel: null
             text: 'Video: Tipps für einen erfolgreichen Ghostwriter-Auftrag'
@@ -260,7 +259,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
@@ -269,7 +268,7 @@ replicator:
     enabled: true
 parent: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619473749
+updated_at: 1623324899
 page_title: 'GWriters • Diplom kaufen möglich oder lieber eine Ghostwriter Agentur?'
 template: with-side-bar
 meta_title: 'GWriters • Diplom kaufen möglich oder lieber eine Ghostwriter Agentur?'
@@ -282,4 +281,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'GWriters • Diplom kaufen möglich oder lieber eine Ghostwriter Agentur?'
+og_description: 'Bei GWriters finden Sie akademische Ghostwriter, Lektoren, Korrektoren, Coaches, Übersetzer & alle wichtigen Informationen zum Thema "Diplom kaufen".'
+og_image: GWriters-Logo.png
 ---

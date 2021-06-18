@@ -122,7 +122,7 @@ from_the_blog:
   - b42eb586-1305-4faf-8d59-79e53ff91373
   - ca5797f0-28d2-48ca-be1d-5c6ca8c1b01c
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619728425
+updated_at: 1623866917
 meta_title: 'Kostenloses Anhangsverzeichnis für Ihre Hausarbeit herunterladen'
 meta_description: "Verschaffen Sie Ihren Lesern einen\_Überblick über alle Anhänge mit unserem Anhangsverzeichnis Beispiel. Unsere Vorlage - nur einen Klick entfernt."
 use_meta_keywords: false
@@ -147,4 +147,7 @@ more_templates:
   - 47857fec-2594-4e17-9331-52e3a93020d5
   - e777b9fb-7884-4d67-8453-9d6c8cb0aa9f
 template: academy-item
+og_title: 'Kostenloses Anhangsverzeichnis für Ihre Hausarbeit herunterladen'
+og_description: "Verschaffen Sie Ihren Lesern einen\_Überblick über alle Anhänge mit unserem Anhangsverzeichnis Beispiel. Unsere Vorlage - nur einen Klick entfernt."
+og_image: GWriters-Logo.png
 ---

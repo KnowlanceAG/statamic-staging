@@ -1,4 +1,5 @@
 ---
+id: dafbcd3b-fd08-4c5b-94be-f2a80c140953
 title: 'MAXQDA Auswertung'
 teaser:
   -
@@ -40,8 +41,8 @@ teaser:
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+        spacing_top: false
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     columns-replicator:
@@ -76,7 +77,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: 'Ghostwriter für beispielsweise Ihre Bachelorarbeit'
@@ -94,7 +95,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/anfrage'
+                          href: /anfrage
                           target: null
                           rel: null
                     text: 'kostenloses Angebot'
@@ -300,7 +301,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/hausarbeit-schreiben-lassen'
+                          href: /arbeiten/hausarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Hausarbeit
@@ -313,7 +314,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/seminararbeit-schreiben-lassen'
+                          href: /arbeiten/seminararbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Seminararbeit
@@ -326,7 +327,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/arbeiten/masterarbeit-schreiben-lassen'
+                          href: /arbeiten/masterarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: 'Masterarbeit schreiben lassen'
@@ -459,6 +460,7 @@ replicator:
                   -
                     type: text
                     text: 'Aufgrund der diversifizierten Kompetenzen und Qualifikationen unserer Ghostwriter können wir Ihnen die Hilfe MAXQDA oder auch vollständige Auswertungen mit MAXQDA in nahezu allen akademischen Fachbereichen anbieten. Hier eine Übersicht der wichtigsten Fachbereiche:'
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -486,7 +488,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/bwl'
+                          href: /fachrichtungen/bwl
                           target: null
                           rel: null
                     text: BWL
@@ -508,7 +510,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/erziehungswissenschaften-ghostwriter'
+                          href: /fachrichtungen/erziehungswissenschaften-ghostwriter
                           target: null
                           rel: null
                     text: Erziehungswissenschaften
@@ -530,7 +532,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/germanistik-ghostwriter'
+                          href: /fachrichtungen/germanistik-ghostwriter
                           target: null
                           rel: null
                     text: Germanistik
@@ -552,7 +554,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/jura'
+                          href: /fachrichtungen/jura
                           target: null
                           rel: null
                     text: Jura
@@ -574,7 +576,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/literatur'
+                          href: /fachrichtungen/literatur
                           target: null
                           rel: null
                     text: Literatur
@@ -596,7 +598,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/mathematik'
+                          href: /fachrichtungen/mathematik
                           target: null
                           rel: null
                     text: Mathematik
@@ -618,7 +620,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/pflegewissenschaften'
+                          href: /fachrichtungen/pflegewissenschaften
                           target: null
                           rel: null
                     text: Pflegewissenschaften
@@ -640,7 +642,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/soziale-arbeit'
+                          href: /fachrichtungen/soziale-arbeit
                           target: null
                           rel: null
                     text: 'Soziale Arbeit'
@@ -662,7 +664,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/vwl'
+                          href: /fachrichtungen/vwl
                           target: null
                           rel: null
                     text: VWL
@@ -684,10 +686,11 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/zahnmedizin'
+                          href: /fachrichtungen/zahnmedizin
                           target: null
                           rel: null
                     text: Zahnmedizin
+            show_as_card: false
           -
             bard:
               -
@@ -708,7 +711,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/bauingenieurwesen'
+                          href: /fachrichtungen/bauingenieurwesen
                           target: null
                           rel: null
                     text: Bauingenieurwesen
@@ -730,7 +733,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/chemie'
+                          href: /fachrichtungen/chemie
                           target: null
                           rel: null
                     text: Chemie
@@ -752,7 +755,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/finanzwissenschaften'
+                          href: /fachrichtungen/finanzwissenschaften
                           target: null
                           rel: null
                     text: Finanzwissenschaften
@@ -774,7 +777,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/geschichte'
+                          href: /fachrichtungen/geschichte
                           target: null
                           rel: null
                     text: Geschichte
@@ -796,7 +799,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/kommunikationswissenschaften'
+                          href: /fachrichtungen/kommunikationswissenschaften
                           target: null
                           rel: null
                     text: Kommunikation
@@ -818,7 +821,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/marketing'
+                          href: /fachrichtungen/marketing
                           target: null
                           rel: null
                     text: Marketing
@@ -840,7 +843,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/medienwissenschaften'
+                          href: /fachrichtungen/medienwissenschaften
                           target: null
                           rel: null
                     text: Medienwissenschaften
@@ -862,7 +865,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/philosophie'
+                          href: /fachrichtungen/philosophie
                           target: null
                           rel: null
                     text: Philosophie
@@ -884,7 +887,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/soziologie'
+                          href: /fachrichtungen/soziologie
                           target: null
                           rel: null
                     text: Soziologie
@@ -906,10 +909,11 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/wirtschaftsinformatik'
+                          href: /fachrichtungen/wirtschaftsinformatik
                           target: null
                           rel: null
                     text: Wirtschaftsinformatik
+            show_as_card: false
           -
             bard:
               -
@@ -930,7 +934,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/biologie'
+                          href: /fachrichtungen/biologie
                           target: null
                           rel: null
                     text: Biologie
@@ -952,7 +956,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/elektrotechnik'
+                          href: /fachrichtungen/elektrotechnik
                           target: null
                           rel: null
                     text: Elektrotechnik
@@ -974,7 +978,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/geologie'
+                          href: /fachrichtungen/geologie
                           target: null
                           rel: null
                     text: Geologie
@@ -996,7 +1000,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/informatik'
+                          href: /fachrichtungen/informatik
                           target: null
                           rel: null
                     text: Informatik
@@ -1018,7 +1022,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/kunst'
+                          href: /fachrichtungen/kunst
                           target: null
                           rel: null
                     text: Kunst
@@ -1040,7 +1044,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/maschinenbau'
+                          href: /fachrichtungen/maschinenbau
                           target: null
                           rel: null
                     text: Maschinenbau
@@ -1062,7 +1066,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/medizin'
+                          href: /fachrichtungen/medizin
                           target: null
                           rel: null
                     text: Medizin
@@ -1084,7 +1088,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/psychologie'
+                          href: /fachrichtungen/psychologie
                           target: null
                           rel: null
                     text: Psychologie
@@ -1106,7 +1110,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/sprachwissenschaften'
+                          href: /fachrichtungen/sprachwissenschaften
                           target: null
                           rel: null
                     text: Sprachwissenschaften
@@ -1128,10 +1132,11 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/wirtschaftswissenschaften'
+                          href: /fachrichtungen/wirtschaftswissenschaften
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -1179,7 +1184,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/blog/qualitative-inhaltsanalyse-voraussetzungen'
+                          href: /blog/qualitative-inhaltsanalyse-voraussetzungen
                           target: null
                           rel: null
                     text: 'Qualitative Inhaltsanalyse – Voraussetzungen und Ablauf'
@@ -1192,7 +1197,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/blog/leitfadengestuetztes-experteninterview'
+                          href: /blog/leitfadengestuetztes-experteninterview
                           target: null
                           rel: null
                     text: 'Leitfadengestütztes Experteninterview – So gelingt es erfolgreich'
@@ -1205,7 +1210,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/blog/qualitative-quantitative-methoden'
+                          href: /blog/qualitative-quantitative-methoden
                           target: null
                           rel: null
                     text: 'Qualitative & quantitative Methoden beim Schreiben wissenschaftlicher Arbeiten'
@@ -1218,7 +1223,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/blog/qualitative-inhaltsanalyse-mayring-beispiele'
+                          href: /blog/qualitative-inhaltsanalyse-mayring-beispiele
                           target: null
                           rel: null
                     text: 'Qualitative Inhaltsanalyse nach Mayring erklärt am Beispiel'
@@ -1263,6 +1268,7 @@ replicator:
                   -
                     type: text
                     text: ' von MAXQDA'
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -1272,9 +1278,10 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
+    border: false
 parent: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619009267
+updated_at: 1623263306
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -1287,5 +1294,7 @@ twitter_card_type_page: summary
 meta_title: 'GWriters • Die perfekte MAXQDA Auswertung für Ihre Abschlussarbeit'
 meta_description: 'MAXQDA Auswertung von akademischen Ghostwritern. Die besten Experten finden & alles zur Auswertung mit MAXQDA: Leistungen, Kosten, Preise & Ablauf.'
 page_title: 'GWriters • Die perfekte MAXQDA Auswertung für Ihre Abschlussarbeit'
-id: dafbcd3b-fd08-4c5b-94be-f2a80c140953
+og_title: 'GWriters • Die perfekte MAXQDA Auswertung für Ihre Abschlussarbeit'
+og_description: 'MAXQDA Auswertung von akademischen Ghostwritern. Die besten Experten finden & alles zur Auswertung mit MAXQDA: Leistungen, Kosten, Preise & Ablauf.'
+og_image: GWriters-Logo.png
 ---

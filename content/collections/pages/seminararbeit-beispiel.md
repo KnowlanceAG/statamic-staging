@@ -4,8 +4,8 @@ title: 'Seminararbeit Beispiel: Digitalisierung von Wertschöpfungsketten'
 page_title: 'Seminararbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619632090
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623327178
 meta_title: 'Seminararbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Seminararbeit Musters von unseren Qualitätsstandards und nutzen Sie diese als Orientierung. Erfahren Sie mehr hier.'
 use_meta_keywords: false
@@ -70,7 +70,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/seminararbeit-schreiben-lassen'
+                  href: /arbeiten/seminararbeit-schreiben-lassen
                   target: null
                   rel: null
             text: 'Seminararbeit schreiben lassen'
@@ -193,7 +193,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/fachrichtungen/bwl'
+                  href: /fachrichtungen/bwl
                   target: null
                   rel: null
             text: 'BWL Ghostwriter'
@@ -225,7 +225,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/assets/downloads/ghostwriting-beispielarbeiten/Seminararbeit-Beispiel-BWL-Auswirkungen-der-Digitalisierung-auf-die-Wertschopfungskette.pdf'
+                  href: /assets/downloads/ghostwriting-beispielarbeiten/Seminararbeit-Beispiel-BWL-Auswirkungen-der-Digitalisierung-auf-die-Wertschopfungskette.pdf
                   target: _blank
                   rel: null
             text: 'Hier können Sie unsere Beispiel-Seminararbeit kostenlos herunterladen!'
@@ -256,7 +256,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/anfrage'
+                  href: /anfrage
                   target: null
                   rel: null
             text: 'unverbindliche Anfrage und lassen Sie sich kostenlos beraten'
@@ -269,4 +269,7 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
+og_title: 'Seminararbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
+og_description: 'Überzeugen Sie sich anhand dieses Seminararbeit Musters von unseren Qualitätsstandards und nutzen Sie diese als Orientierung. Erfahren Sie mehr hier.'
+og_image: GWriters-Logo.png
 ---

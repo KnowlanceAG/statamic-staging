@@ -79,7 +79,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
@@ -106,7 +106,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/datenschutzerklaerung'
+                  href: /datenschutzerklaerung
                   target: null
                   rel: null
             text: Datenschutzerklärung
@@ -138,7 +138,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/faq'
+                  href: /faq
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'
@@ -147,7 +147,7 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619645428
+updated_at: 1623332421
 page_title: 'Schweigepflicht und Diskretion beim Ghostwriting • GWriters'
 meta_title: 'Schweigepflicht und Diskretion beim Ghostwriting • GWriters'
 meta_description: 'GWriters.de verpflichtet sich zu absoluter Diskretion und Schweigepflicht über Daten zu Kunden sowie sämtliche Auftragsdetails. Mehr dazu hier.'
@@ -160,4 +160,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: without-teaser-with-sidebar
+og_title: 'Schweigepflicht und Diskretion beim Ghostwriting • GWriters'
+og_description: 'GWriters.de verpflichtet sich zu absoluter Diskretion und Schweigepflicht über Daten zu Kunden sowie sämtliche Auftragsdetails. Mehr dazu hier.'
+og_image: GWriters-Logo.png
 ---

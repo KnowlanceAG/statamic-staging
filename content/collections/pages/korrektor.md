@@ -42,8 +42,7 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -78,7 +77,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat/korrekturlesen/'
+                  href: /korrektorat/korrekturlesen/
                   target: null
                   rel: null
             text: ' Korrekturlesen'
@@ -110,7 +109,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat/lektor'
+                  href: /lektorat/lektor
                   target: null
                   rel: null
             text: ' Lektor'
@@ -128,7 +127,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriters
@@ -155,7 +154,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat'
+                  href: /lektorat
                   target: null
                   rel: null
             text: 'Lektorat '
@@ -179,7 +178,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/ghostwriting-lektorat-korrektorat'
+                  href: /blog/ghostwriting-lektorat-korrektorat
                   target: null
                   rel: null
             text: 'Video: Ghostwriting, Lektorat, Korrektorat – Was ist was?'
@@ -191,7 +190,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/ghostwriter-preise'
+                  href: /blog/ghostwriter-preise
                   target: null
                   rel: null
             text: 'Video: Ghostwriter-Preise bei GWriters'
@@ -203,7 +202,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/thesis-vermeidbare-fehler'
+                  href: /blog/thesis-vermeidbare-fehler
                   target: null
                   rel: null
             text: '7 vermeidbare Fehler, die Dich den Erfolg bei Deiner Thesis kosten'
@@ -218,7 +217,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
@@ -227,7 +226,7 @@ replicator:
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619468839
+updated_at: 1623343920
 page_title: 'Ihr akademischer Korrektor von GWriters - diskret und qualitätsgeprüft'
 meta_title: 'Ihr akademischer Korrektor von GWriters - diskret und qualitätsgeprüft'
 meta_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'
@@ -240,4 +239,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: with-side-bar
+og_title: 'Ihr akademischer Korrektor von GWriters - diskret und qualitätsgeprüft'
+og_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'
+og_image: GWriters-Logo.png
 ---

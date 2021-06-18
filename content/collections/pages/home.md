@@ -63,8 +63,8 @@ teaser:
   -
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1623136435
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623262995
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -90,13 +90,13 @@ replicator:
                     type: numbers_home
                     grid:
                       -
-                        zahl: '18.678'
+                        zahl: '18.698'
                         beschreibung: 'Kunden seit 2011'
                       -
                         zahl: '4,8/5'
-                        beschreibung: 'Trustscore auf Trustpilot'
+                        beschreibung: 'Trustscore auf Provenexpert'
                       -
-                        zahl: '3.183'
+                        zahl: '3.203'
                         beschreibung: 'Akademische Experten'
               -
                 type: paragraph
@@ -255,7 +255,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: Hervorragend
+                    text: 'Kundenurteil: "Sehr Gut"'
               -
                 type: heading
                 attrs:
@@ -1026,4 +1026,7 @@ meta_description: 'Als seriöse Ghostwriter Agentur steht Ihnen GWriters als pro
 image_field: seiten/home/gwrites-headervisual-1.jpg
 image_field_xs: seiten/home/gwrites-headervisual-mobile.jpg
 teaser_bg_xs: seiten/home/gwrites-headervisual-mobile.jpg
+og_title: 'GWriters • Akademische Ghostwriter Agentur'
+og_description: 'Als seriöse Ghostwriter Agentur steht Ihnen GWriters als professioneller Partner bei Ihrer wissenschaftlichen Arbeit zur Seite. Unsere akademischen Ghostwriter unterstützen Sie zuverlässig & diskret!'
+og_image: GWriters-Logo.png
 ---

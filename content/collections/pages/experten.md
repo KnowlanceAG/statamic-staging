@@ -1,9 +1,10 @@
 ---
+id: 08690e7d-78e7-40cc-8e39-9d87681c01f7
 title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619161682
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623265036
 teaser:
   -
     type: heading
@@ -51,10 +52,10 @@ teaser:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'Jetzt kostenlos Anfrage'
+        spacing_top: false
   -
     type: paragraph
-teaser_bg:
-  - seiten/unsere-experten/header-so-funktionierts.jpg
+teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 replicator:
   -
     columns-replicator:
@@ -80,6 +81,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                     text: 'Das Expertenteam von GWriters'
+            show_as_card: false
         type: row
         enabled: true
         single-col: false
@@ -107,7 +109,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/ghostwriting'
+                                  href: /ghostwriting
                                   target: null
                                   rel: null
                             text: 'akademischen Ghostwriting Services'
@@ -120,7 +122,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/fachrichtungen/bwl'
+                                  href: /fachrichtungen/bwl
                                   target: null
                                   rel: null
                             text: 'Ghostwritern aus der BWL'
@@ -133,7 +135,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/fachrichtungen/jura'
+                                  href: /fachrichtungen/jura
                                   target: null
                                   rel: null
                             text: Jura
@@ -141,6 +143,7 @@ replicator:
                             type: text
                             text: "\_und anderen akademischen Disziplinen vor."
                     text_ausrichtung: text-justify
+            show_as_card: false
         type: row
         enabled: true
         single-col: false
@@ -151,6 +154,7 @@ replicator:
     type: add_section
     enabled: true
     remove_spacing: false
+    border: false
   -
     bard:
       -
@@ -169,6 +173,7 @@ replicator:
         type: paragraph
     type: editor
     enabled: true
+    show_as_card: false
   -
     is-full: true
     bg-toggle: true
@@ -191,10 +196,12 @@ replicator:
                     padding-y: '50'
               -
                 type: paragraph
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
     remove_spacing: false
+    border: false
   -
     columns-replicator:
       -
@@ -221,7 +228,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/fachrichtungen/informatik'
+                                  href: /fachrichtungen/informatik
                                   target: null
                                   rel: null
                             text: Informatik
@@ -234,7 +241,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/fachrichtungen/psychologie'
+                                  href: /fachrichtungen/psychologie
                                   target: null
                                   rel: null
                             text: 'Psychologie '
@@ -247,7 +254,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/fachrichtungen/mathematik'
+                                  href: /fachrichtungen/mathematik
                                   target: null
                                   rel: null
                             text: 'Mathematik '
@@ -260,7 +267,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/fachrichtungen/medizin'
+                                  href: /fachrichtungen/medizin
                                   target: null
                                   rel: null
                             text: 'Medizin Ghostwriter'
@@ -276,6 +283,7 @@ replicator:
                     padding-y: '30'
               -
                 type: paragraph
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -293,6 +301,7 @@ replicator:
                     assets:
                       - seiten/unsere-experten/ghostwriter_qualifikationen_gwriters-1-74x84.png
                     img-alignment: justify-center
+                    has_border: false
               -
                 type: paragraph
                 content:
@@ -311,6 +320,7 @@ replicator:
                           color: 'rgb(34, 34, 34)'
                           hex: '#000'
                     text: 'Geprüfte Qualifikationen unserer Ghostwriter'
+            show_as_card: false
           -
             bard:
               -
@@ -321,6 +331,7 @@ replicator:
                     assets:
                       - seiten/unsere-experten/anonymitaet_ghostwriter_gwriters-75x84.png
                     img-alignment: justify-center
+                    has_border: false
               -
                 type: paragraph
                 content:
@@ -339,6 +350,7 @@ replicator:
                           color: 'rgb(34, 34, 34)'
                           hex: '#000'
                     text: 'Schutz Ihrer Daten und 100% Anonymität'
+            show_as_card: false
           -
             bard:
               -
@@ -349,6 +361,7 @@ replicator:
                     assets:
                       - seiten/unsere-experten/ghostwriter_qualitaet_gwriters-64x84.png
                     img-alignment: justify-center
+                    has_border: false
               -
                 type: paragraph
                 content:
@@ -367,6 +380,7 @@ replicator:
                           color: 'rgb(34, 34, 34)'
                           hex: '#000'
                     text: 'Unsere Supervisoren garantieren höchste Qualität'
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -400,7 +414,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/datenschutzerklaerung'
+                                  href: /datenschutzerklaerung
                                   target: null
                                   rel: null
                             text: 'schützen Ihre Daten'
@@ -413,7 +427,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: '/ghostwriter'
+                                  href: /ghostwriter
                                   target: null
                                   rel: null
                             text: 'akademischen Ghostwriter'
@@ -421,6 +435,7 @@ replicator:
                             type: text
                             text: ' bleiben Sie anonym. Ebenso unbesorgt können Sie auch hinsichtlich der Qualität Ihrer Arbeit sein: jede von uns erstellte Arbeit wird von einem Team von erfahrenen und spezialisierten Supervisoren auf Qualität geprüft. So stellen wir sicher, dass Ihre Arbeit allen akademischen Standards entspricht, denn dies ist auch unser Anspruch an uns selbst.'
                     text_ausrichtung: text-justify
+            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
@@ -430,6 +445,7 @@ replicator:
     type: add_section
     enabled: true
     remove_spacing: false
+    border: false
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -441,7 +457,9 @@ twitter_card_type_page: summary
 page_title: 'Unsere Experten • GWriters'
 meta_title: 'Unsere Experten • GWriters'
 meta_description: 'Bei GWriters setzen wir auf Diskretion und Transparenz! Erfahren Sie hier mehr über unsere akademischen Ghostwriter und wie diese Sie unterstützen.'
-id: 08690e7d-78e7-40cc-8e39-9d87681c01f7
+og_title: 'Unsere Experten • GWriters'
+og_description: 'Bei GWriters setzen wir auf Diskretion und Transparenz! Erfahren Sie hier mehr über unsere akademischen Ghostwriter und wie diese Sie unterstützen.'
+og_image: GWriters-Logo.png
 content:
   -
     type: heading
@@ -463,7 +481,7 @@ content:
           -
             type: link
             attrs:
-              href: '/ghostwriting'
+              href: /ghostwriting
               target: null
               rel: null
         text: 'akademischen Ghostwriting Services'
@@ -476,7 +494,7 @@ content:
           -
             type: link
             attrs:
-              href: '/fachrichtungen/bwl'
+              href: /fachrichtungen/bwl
               target: null
               rel: null
         text: 'Ghostwritern aus der BWL'
@@ -489,7 +507,7 @@ content:
           -
             type: link
             attrs:
-              href: '/fachrichtungen/jura'
+              href: /fachrichtungen/jura
               target: null
               rel: null
         text: Jura

@@ -18,6 +18,7 @@ teaser:
             type: textColor
             attrs:
               color: '#ff6602'
+              hex: '#000'
         text: 'Anonymous- ein Film von Roland Emmerich, Filmkritik'
   -
     type: paragraph
@@ -40,6 +41,7 @@ teaser:
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
+        spacing_top: false
 replicator:
   -
     bard:
@@ -142,17 +144,17 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
     type: editor
     enabled: true
+    show_as_card: false
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619429191
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+updated_at: 1623172932
+teaser_bg: seiten/header-so-funktionierts.jpeg
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -163,5 +165,8 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'Anonymous (Film) Rezension • GWriters'
 meta_title: 'Anonymous (Film) Rezension • GWriters'
-meta_description: 'Eine Rezension zum Ghostwriter-Film Anonymous von Roland Emmerich von GWriters.de.'
+meta_description: 'Eine Rezension zum Ghostwriter-Film Anonymous von Roland Emmerich von GWriters.de. Ghostwriter oder Shakespeare – Hier erfahren Sie die Antwort und die wichtigsten Fakten über den Ghostwriter-Film Anonymous'
+og_title: 'Anonymous (Film) Rezension • GWriters'
+og_description: 'Eine Rezension zum Ghostwriter-Film Anonymous von Roland Emmerich von GWriters.de. Ghostwriter oder Shakespeare – Hier erfahren Sie die Antwort und die wichtigsten Fakten über den Ghostwriter-Film Anonymous'
+og_image: GWriters-Logo.png
 ---

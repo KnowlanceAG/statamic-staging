@@ -133,7 +133,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1622215494
+updated_at: 1623867455
 downloads:
   - akademie/Praesentation.pptx
 from_the_blog:
@@ -169,4 +169,5 @@ template: academy-item
 link_title: 'PowerPoint Präsentation'
 og_title: 'Kostenlose Powerpoint Präsentation Vorlage herunterladen'
 og_description: 'Mit der kostenlosen Vorlage von GWriters erstellen Sie jetzt eine gelungene Powerpoint Präsentation für die Verteidigung Ihrer wissenschaftlichen Arbeit.'
+og_image: GWriters-Logo.png
 ---

@@ -61,7 +61,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: ' Ghostwritern '
@@ -74,7 +74,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: 'Bachelorarbeit schreiben lassen'
@@ -113,7 +113,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/formatierung'
+                  href: /leistungen/formatierung
                   target: null
                   rel: null
             text: Formatierungen
@@ -148,8 +148,8 @@ replicator:
     type: editor
     enabled: true
     show_as_card: false
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619690265
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623867381
 academy_short_text-headline: 'Inhaltsverzeichnis Vorlage'
 academy_short_text: 'Nutzen Sie unsere Inhaltsverzeichnis Vorlage mit automatischer Formatierung für Ihre Abschlussarbeit.'
 use_meta_keywords: false
@@ -183,4 +183,7 @@ meta_title: 'Kostenloses Inhaltsverzeichnis für Ihre Hausarbeit herunterladen'
 downloads:
   - akademie/Inhaltsverzeichnis.docx
 template: academy-item
+og_title: 'Kostenloses Inhaltsverzeichnis für Ihre Hausarbeit herunterladen'
+og_description: '?Jetzt können Sie mit unserer Inhaltsverzeichnis Vorlage? Ihr Inhaltsverzeichnis automatisch erstellen. Jetzt unsere Vorlage herunterladen ↘️↘️↘️'
+og_image: GWriters-Logo.png
 ---

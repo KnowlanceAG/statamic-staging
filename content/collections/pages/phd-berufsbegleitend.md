@@ -196,7 +196,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/medizin'
+                          href: /fachrichtungen/medizin
                           target: null
                           rel: null
                     text: Medizin
@@ -665,7 +665,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/fachrichtungen/wirtschaftswissenschaften'
+                          href: /fachrichtungen/wirtschaftswissenschaften
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
@@ -735,8 +735,8 @@ replicator:
 page_title: 'Seriöse Promotionsberatung für Ihren Ph.D. • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619608888
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623342193
 meta_title: 'Seriöse Promotionsberatung für Ihren Ph.D. • GWriters'
 meta_description: 'Bei GWriters.de erhalten Sie eine seriöse Promotionsberatung für Ihr Promotion zum Ph.D. Profitieren Sie jetzt von unserem Expertenwissen!'
 use_meta_keywords: false
@@ -747,4 +747,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Seriöse Promotionsberatung für Ihren Ph.D. • GWriters'
+og_description: 'Bei GWriters.de erhalten Sie eine seriöse Promotionsberatung für Ihr Promotion zum Ph.D. Profitieren Sie jetzt von unserem Expertenwissen!'
+og_image: GWriters-Logo.png
 ---

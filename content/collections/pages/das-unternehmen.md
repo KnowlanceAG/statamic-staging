@@ -1,7 +1,8 @@
 ---
+id: b1510f04-f5f7-4d15-9be4-fc69c7add6e0
 title: 'Das Unternehmen'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619013894
+updated_at: 1623264909
 teaser:
   -
     type: heading
@@ -42,8 +43,8 @@ teaser:
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+        spacing_top: false
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -59,7 +60,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/'
+                  href: /
                   target: null
                   rel: null
             text: Freelancer
@@ -90,7 +91,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
@@ -109,7 +110,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting/ghostwriting-agentur/'
+                  href: /ghostwriting/ghostwriting-agentur/
                   target: null
                   rel: null
             text: 'Ghostwriter Agentur GWriters'
@@ -118,6 +119,7 @@ replicator:
             text: ' werden durch die Verifizierung von Diplomen, Schreibproben und Lebensläufen eingehend geprüft. Unseren Kunden jederzeit die bestmögliche Qualität zu bieten, ist nicht nur unser Anspruch an uns selber, sondern das zentrale Qualitätsversprechen, dass die Marke GWriters zu dem macht, was sie ist: eine neue Definition von Zuverlässigkeit und Qualität.'
     type: editor
     enabled: true
+    show_as_card: false
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -130,5 +132,7 @@ twitter_card_type_page: summary
 meta_title: 'GWriters • Seriöse akademische Ghostwriting Agentur'
 meta_description: 'GWriters ist eine schnell wachsende Web-Plattform für die Vermittlung von akademischen Freelancern, z.B. Lektoren, Autoren, Übersetzern & Coaches.'
 page_title: 'GWriters • Seriöse akademische Ghostwriting Agentur'
-id: b1510f04-f5f7-4d15-9be4-fc69c7add6e0
+og_title: 'GWriters • Seriöse akademische Ghostwriting Agentur'
+og_description: 'GWriters ist eine schnell wachsende Web-Plattform für die Vermittlung von akademischen Freelancern, z.B. Lektoren, Autoren, Übersetzern & Coaches.'
+og_image: GWriters-Logo.png
 ---

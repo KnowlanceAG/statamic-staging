@@ -42,8 +42,7 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -283,8 +282,8 @@ replicator:
     type: editor
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1620144020
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623343142
 page_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'
 template: with-side-bar
 meta_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'
@@ -297,4 +296,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'
+og_description: 'Sie möchten eine Mustervorlage für Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen? Finden Sie hier Ihren Ghostwriter!'
+og_image: GWriters-Logo.png
 ---

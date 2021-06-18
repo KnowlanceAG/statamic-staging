@@ -32,8 +32,7 @@ teaser:
             attrs:
               align: center
         text: 'Wir schreiben, lektorieren und verfeinern akademische Texte'
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -49,7 +48,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: 'Ghostwriter '
@@ -129,7 +128,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/fachrichtungen/geschichte'
+                  href: /fachrichtungen/geschichte
                   target: null
                   rel: null
             text: Geschichte
@@ -166,17 +165,18 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
     type: editor
     enabled: true
+    show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619430932
+updated_at: 1623172651
 page_title: 'Der Ghostwriter (Film) Rezension • GWriters'
 meta_title: 'Der Ghostwriter (Film) Rezension • GWriters'
-meta_description: 'Eine Rezension zum Film Der Ghostwriter von Roman Polanski von GWriters.de.'
+meta_description: 'Eine Rezension zum Film der Ghostwriter von Roman Polanski bei GWriters.de. Wichtige Fakten und Zusammenfassung über den Film Ghostwriter erfahren Sie bei uns!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -186,4 +186,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: with-side-bar
+og_title: 'Der Ghostwriter (Film) Rezension • GWriters'
+og_description: 'Eine Rezension zum Film der Ghostwriter von Roman Polanski bei GWriters.de. Wichtige Fakten und Zusammenfassung über den Film Ghostwriter erfahren Sie bei uns!'
+og_image: GWriters-Logo.png
 ---

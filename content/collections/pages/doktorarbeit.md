@@ -42,8 +42,7 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -1642,7 +1641,7 @@ replicator:
 parent: 6300bfa7-4b29-41fb-a2d9-422ef612d3d4
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1620719639
+updated_at: 1623322083
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1653,4 +1652,7 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 meta_title: 'GWriters • Mustervorlage für Doktorarbeit schreiben lassen'
 meta_description: 'Mustervorlage für Doktorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+og_title: 'GWriters • Mustervorlage für Doktorarbeit schreiben lassen'
+og_description: 'Mustervorlage für Doktorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+og_image: GWriters-Logo.png
 ---

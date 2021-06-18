@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Jura Hausarbeit Beispiel'
 size: 15389
 last_modified: 1623096229
 width: 677

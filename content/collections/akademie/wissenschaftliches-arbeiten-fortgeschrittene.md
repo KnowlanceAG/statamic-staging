@@ -65,7 +65,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/qualitative-inhaltsanalyse-voraussetzungen'
+                  href: /blog/qualitative-inhaltsanalyse-voraussetzungen
                   target: null
                   rel: null
             text: 'qualitativen Inhaltsanalyse'
@@ -78,7 +78,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/leitfadengestuetztes-experteninterview'
+                  href: /blog/leitfadengestuetztes-experteninterview
                   target: null
                   rel: null
             text: 'leitfadengestützten Experteninterviews'
@@ -91,7 +91,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/gwriters-akademie/wissenschaftliches-arbeiten-anfeanger'
+                  href: /gwriters-akademie/wissenschaftliches-arbeiten-anfeanger
                   target: null
                   rel: null
             text: 'Grundlagen des wissenschaftlichen Schreibens'
@@ -124,7 +124,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/gutachten-schreiben'
+                  href: /blog/gutachten-schreiben
                   target: null
                   rel: null
             text: 'juristisches Gutachten schreiben'
@@ -143,7 +143,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/statistisch-arbeiten'
+                  href: /blog/statistisch-arbeiten
                   target: null
                   rel: null
             text: 'statistische Arbeiten mit Primär- und Sekundärdaten'
@@ -156,7 +156,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/empirische-bachelorarbeit-schreiben'
+                  href: /blog/empirische-bachelorarbeit-schreiben
                   target: null
                   rel: null
             text: 'empirischen Bachelorarbeit'
@@ -208,7 +208,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619799083
+updated_at: 1623867716
 template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
@@ -232,4 +232,7 @@ more_templates:
   - 4c882044-a7c8-47ab-96ab-9fac3f0b761c
   - b73c1df6-623f-49fd-a8ea-3d9e6cf334ab
   - 9a41faa4-9f52-4f0e-84b2-9fc989d3e995
+og_title: 'Expertentipps zum wissenschaftlichen Arbeiten für Fortgeschrittene'
+og_description: 'Profi bei wissenschaftlichen Arbeiten, aber immer noch Detailfragen in manchen Situationen? Hier finden Sie die wichtigste Informationen auf einem Blick.'
+og_image: GWriters-Logo.png
 ---

@@ -2,7 +2,7 @@
 id: e969d0a5-421c-42aa-9b67-0a3859c25797
 title: 'Als Autor bewerben'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619616192
+updated_at: 1623326357
 replicator:
   -
     bard:
@@ -46,7 +46,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/datenschutzerklaerung'
+                  href: /datenschutzerklaerung
                   target: null
                   rel: null
             text: Datenschutzerklärung
@@ -73,4 +73,7 @@ twitter_card_type_page: summary
 page_title: 'GWriters • Als Autor bewerben'
 meta_title: 'GWriters • Als Autor bewerben'
 meta_description: 'Wir vermitteln akademische Freelancer - Bewerben Sie sich als Autor, Ghostwriter, Lektor, Korrektor, Übersetzer und/oder Coach.'
+og_title: 'GWriters • Als Autor bewerben'
+og_description: 'Wir vermitteln akademische Freelancer - Bewerben Sie sich als Autor, Ghostwriter, Lektor, Korrektor, Übersetzer und/oder Coach.'
+og_image: GWriters-Logo.png
 ---

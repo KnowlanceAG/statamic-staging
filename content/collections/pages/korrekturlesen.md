@@ -42,8 +42,7 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -73,7 +72,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat/korrektor'
+                  href: /korrektorat/korrektor
                   target: null
                   rel: null
             text: Korrektor
@@ -86,7 +85,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/hausarbeit-schreiben-lassen'
+                  href: /arbeiten/hausarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Hausarbeiten
@@ -99,7 +98,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Bachelorarbeit
@@ -112,7 +111,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/masterarbeit-schreiben-lassen'
+                  href: /arbeiten/masterarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Masterarbeit
@@ -125,7 +124,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/diplomarbeit'
+                  href: /arbeiten/diplomarbeit
                   target: null
                   rel: null
             text: Diplomarbeit
@@ -168,7 +167,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/korrektorat-lektorat-textredaktion'
+                  href: /blog/korrektorat-lektorat-textredaktion
                   target: null
                   rel: null
             text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
@@ -180,7 +179,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/thesis-vermeidbare-fehler'
+                  href: /blog/thesis-vermeidbare-fehler
                   target: null
                   rel: null
             text: '7 vermeidbare Fehler, die Dich den Erfolg bei Deiner Thesis kosten'
@@ -192,7 +191,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/textredation-ghostwriter'
+                  href: /blog/textredation-ghostwriter
                   target: null
                   rel: null
             text: 'Textredaktion als Alternative zum akademischen Ghostwriting'
@@ -207,7 +206,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
@@ -217,7 +216,7 @@ replicator:
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619470083
+updated_at: 1623344025
 page_title: 'Korrekturlesen von wissenschaftlichen Texten • GWriters'
 meta_title: 'Korrekturlesen von wissenschaftlichen Texten • GWriters'
 meta_description: 'Benötigen Sie einen Textkorrektor für Ihre Abschlussarbeit? GWriters.de bietet Ihnen qualitätsgeprüfte Korrektoren zu fairen Preisen.'
@@ -229,4 +228,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Korrekturlesen von wissenschaftlichen Texten • GWriters'
+og_description: 'Benötigen Sie einen Textkorrektor für Ihre Abschlussarbeit? GWriters.de bietet Ihnen qualitätsgeprüfte Korrektoren zu fairen Preisen.'
+og_image: GWriters-Logo.png
 ---

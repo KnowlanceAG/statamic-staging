@@ -65,7 +65,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting/ghostwriting-agentur'
+                  href: /ghostwriting/ghostwriting-agentur
                   target: null
                   rel: null
             text: 'seriöse Ghostwriting-Agentur'
@@ -84,7 +84,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/literaturrecherche-wissenschaftliche-quellen'
+                  href: /blog/literaturrecherche-wissenschaftliche-quellen
                   target: null
                   rel: null
             text: 'einzelnen Schritte der Literaturrecherche'
@@ -111,7 +111,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Bachelorarbeit
@@ -124,7 +124,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/seminararbeit-schreiben-lassen'
+                  href: /arbeiten/seminararbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Seminararbeit
@@ -143,7 +143,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/gwriters-erfahrung'
+                  href: /blog/gwriters-erfahrung
                   target: null
                   rel: null
             text: 'Ghostwriting Erfahrung'
@@ -180,7 +180,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619799203
+updated_at: 1623867070
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -204,4 +204,7 @@ more_templates:
   - 4c882044-a7c8-47ab-96ab-9fac3f0b761c
   - b73c1df6-623f-49fd-a8ea-3d9e6cf334ab
   - 9a41faa4-9f52-4f0e-84b2-9fc989d3e995
+og_title: 'GWriters • Expertentipps zum Schreiben Ihrer wissenschaftlichen Arbeit'
+og_description: 'Die Expertentipps von GWriters.de für das Schreiben Ihrer Bachelorarbeit, Seminararbeit oder Masterarbeit von unseren akademischen Ghostwritern.'
+og_image: GWriters-Logo.png
 ---

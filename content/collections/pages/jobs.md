@@ -50,7 +50,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
@@ -82,7 +82,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter-gesucht'
+                  href: /ghostwriter-gesucht
                   target: null
                   rel: null
             text: 'Ghostwriter gesucht'
@@ -112,7 +112,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat/lektor'
+                  href: /lektorat/lektor
                   target: null
                   rel: null
             text: Lektoren
@@ -139,7 +139,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat/korrektor'
+                  href: /korrektorat/korrektor
                   target: null
                   rel: null
             text: Korrektoren
@@ -169,7 +169,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter-gesucht'
+                  href: /ghostwriter-gesucht
                   target: null
                   rel: null
             text: 'Ghostwriter gesucht | mehr lesen …'
@@ -193,7 +193,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter-werden'
+                  href: /ghostwriter-werden
                   target: null
                   rel: null
             text: 'Ghostwriter werden'
@@ -226,7 +226,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter-werden'
+                  href: /ghostwriter-werden
                   target: null
                   rel: null
             text: 'Ghostwriter werden | mehr lesen …'
@@ -250,7 +250,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter-job'
+                  href: /ghostwriter-job
                   target: null
                   rel: null
             text: 'Ghostwriter Job'
@@ -283,7 +283,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter-job'
+                  href: /ghostwriter-job
                   target: null
                   rel: null
             text: "Ghostwriter Job\_| mehr lesen …"
@@ -307,7 +307,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter-stellenangebote'
+                  href: /ghostwriter-stellenangebote
                   target: null
                   rel: null
             text: 'Ghostwriter Stellenangebote'
@@ -340,7 +340,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter-stellenangebote'
+                  href: /ghostwriter-stellenangebote
                   target: null
                   rel: null
             text: 'Ghostwriter Stellenangebote | mehr lesen …'
@@ -348,7 +348,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619646098
+updated_at: 1623332721
 page_title: 'Ghostwriter Jobs bei GWriters'
 template: without-teaser-with-sidebar
 meta_title: 'Ghostwriter Jobs bei GWriters'
@@ -361,4 +361,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Ghostwriter Jobs bei GWriters'
+og_description: 'Beste Verdienstmöglichkeiten & volle Freiheit bei Ihrem neuen Job als Ghostwriter, Lektor, Korrektor, Übersetzer oder Bearbeiter von akademischen Arbeiten!'
+og_image: GWriters-Logo.png
 ---

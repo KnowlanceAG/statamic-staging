@@ -43,8 +43,8 @@ teaser:
         color: '#FF6606'
         spacing_top: false
 teaser_bg: seiten/header-so-funktionierts.jpeg
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1622566235
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623326864
 replicator:
   -
     bard:
@@ -493,4 +493,7 @@ template: with-side-bar
 page_title: 'GWriters • Ghostwriter - Wer und was ist das?'
 meta_title: 'GWriters • Ghostwriter - Wer und was ist das?'
 meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Ghostwriting: Leistungen, Ablauf, Kosten & Preise.'
+og_title: 'GWriters • Ghostwriter - Wer und was ist das?'
+og_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Ghostwriting: Leistungen, Ablauf, Kosten & Preise.'
+og_image: GWriters-Logo.png
 ---

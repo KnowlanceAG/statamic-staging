@@ -236,7 +236,7 @@ replicator:
     enabled: true
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1622642784
+updated_at: 1623343735
 page_title: 'Lektor gesucht? Wir haben den passenden Lektor für Ihre Abschlussarbeit'
 template: with-side-bar
 meta_title: 'Lektor gesucht? Wir haben den passenden Lektor für Sie!'
@@ -251,4 +251,5 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 og_title: 'Lektor gesucht? Wir haben den passenden Lektor für Sie!'
 og_description: 'Bachelorarbeit, Masterarbeit oder Doktorarbeit Korrektur lesen lassen? Kein Problem mit der Ghostwriter Agentur GWriters.de. Mehr dazu hier.'
+og_image: GWriters-Logo.png
 ---

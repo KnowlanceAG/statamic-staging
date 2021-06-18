@@ -172,8 +172,8 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1620122514
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623331278
 page_title: 'Habe ich Kontakt zu meinem Ghostwriter? • GWriters'
 meta_title: 'Habe ich Kontakt zu meinem Ghostwriter? • GWriters'
 meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Ablauf Ihres Ghostwriting Jobs.'
@@ -185,4 +185,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Habe ich Kontakt zu meinem Ghostwriter? • GWriters'
+og_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Ablauf Ihres Ghostwriting Jobs.'
+og_image: GWriters-Logo.png
 ---

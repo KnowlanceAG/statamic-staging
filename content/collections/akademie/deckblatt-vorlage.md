@@ -59,7 +59,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/bachelorarbeit-schreiben-lassen'
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Bachelorarbeit
@@ -72,7 +72,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/masterarbeit-schreiben-lassen'
+                  href: /arbeiten/masterarbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Masterarbeit
@@ -85,7 +85,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/arbeiten/doktorarbeit'
+                  href: /arbeiten/doktorarbeit
                   target: null
                   rel: null
             text: ' Doktorarbeit '
@@ -124,7 +124,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/formatierung'
+                  href: /leistungen/formatierung
                   target: null
                   rel: null
             text: Formatierung
@@ -160,7 +160,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619728273
+updated_at: 1623866959
 academy_short_text-headline: 'Deckblatt Vorlage'
 academy_short_text: 'Nutzen und individualisieren Sie bequem unsere Deckblatt Vorlage für Ihre eigene Abschlussarbeit anwenden.'
 use_meta_keywords: false
@@ -194,4 +194,7 @@ meta_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
 downloads:
   - akademie/Deckblatt.docx
 template: academy-item
+og_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
+og_description: '➡️➡️➡️ Hier finden Sie die perfekte Deckblatt Vorlage für Ihre eigene Abschlussarbeit, die Sie selber für Ihre Arbeit individualisieren können ✍️.'
+og_image: GWriters-Logo.png
 ---

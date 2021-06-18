@@ -65,7 +65,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
@@ -96,7 +96,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat/korrektor'
+                  href: /korrektorat/korrektor
                   target: null
                   rel: null
             text: Korrektoren
@@ -145,7 +145,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/anfrage'
+                  href: /anfrage
                   target: null
                   rel: null
             text: Anfrage
@@ -211,7 +211,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/faq'
+                  href: /faq
                   target: null
                   rel: null
             text: '< zurück zur Übersicht'
@@ -220,7 +220,7 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619643586
+updated_at: 1623330800
 page_title: 'Warum genau GWriters nutzen? Vorteile unserer Ghostwriting Agentur'
 template: without-teaser-with-sidebar
 meta_title: 'Warum genau GWriters nutzen? Vorteile unserer Ghostwriting Agentur'
@@ -233,4 +233,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'Warum genau GWriters nutzen? Vorteile unserer Ghostwriting Agentur'
+og_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Ghostwriting: Leistungen, Ablauf, Kosten & Preise.'
+og_image: GWriters-Logo.png
 ---

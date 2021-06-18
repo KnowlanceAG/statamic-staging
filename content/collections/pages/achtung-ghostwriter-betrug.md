@@ -51,8 +51,7 @@ teaser:
         spacing_top: false
   -
     type: paragraph
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
@@ -105,7 +104,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: Ghostwriting
@@ -716,7 +715,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat'
+                  href: /lektorat
                   target: null
                   rel: null
             text: Lektorat
@@ -861,7 +860,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: Ghostwriting
@@ -1044,7 +1043,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/impressum'
+                  href: /impressum
                   target: null
                   rel: null
             text: Impressum
@@ -1268,7 +1267,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/preise'
+                          href: /preise
                           target: null
                           rel: null
                     text: 'Ghostwriter Preise'
@@ -1324,7 +1323,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/datenschutzerklaerung'
+                  href: /datenschutzerklaerung
                   target: null
                   rel: null
             text: Datenschutzerklärungen
@@ -1437,7 +1436,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: Ghostwriting
@@ -1480,7 +1479,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting/ghostwriting-agentur/'
+                  href: /ghostwriting/ghostwriting-agentur/
                   target: null
                   rel: null
             text: 'seriösen Ghostwriting Agenturen'
@@ -1541,7 +1540,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/gwriters-erfahrung'
+                  href: /blog/gwriters-erfahrung
                   target: null
                   rel: null
             text: 'Ghostwriter Erfahrungen'
@@ -1718,7 +1717,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat'
+                  href: /lektorat
                   target: null
                   rel: null
             text: Lektorat
@@ -1761,7 +1760,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/uebersetzung'
+                  href: /leistungen/uebersetzung
                   target: null
                   rel: null
             text: Übersetzung
@@ -1804,7 +1803,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat'
+                  href: /korrektorat
                   target: null
                   rel: null
             text: Korrektorat
@@ -1831,7 +1830,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/formatierung'
+                  href: /leistungen/formatierung
                   target: null
                   rel: null
             text: Formatierung
@@ -1858,7 +1857,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/leistungen/plagiatspruefung'
+                  href: /leistungen/plagiatspruefung
                   target: _blank
                   rel: 'noopener noreferrer'
             text: 'können Sie bei einem Ghostwriter eine professionelle Plagiatsprüfung erstellen lassen'
@@ -1939,8 +1938,8 @@ replicator:
     type: editor
     enabled: true
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619768619
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1623334157
 page_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_description: 'Hier finden Sie aktuelle Informationen zu bekannten Betrüger-Websites im akademischen Ghostwriting. Verlassen Sie sich nur auf seriöse Ghostwriting Agenturen!'
@@ -1952,4 +1951,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+og_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
+og_description: 'Hier finden Sie aktuelle Informationen zu bekannten Betrüger-Websites im akademischen Ghostwriting. Verlassen Sie sich nur auf seriöse Ghostwriting Agenturen!'
+og_image: GWriters-Logo.png
 ---
