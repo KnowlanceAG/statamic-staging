@@ -63,7 +63,7 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
             {{ /if }}
 
           {{ if instructions }}
-            <p class="text-sm text-gray-700">{{ instructions }}</p>
+            <p class="text-sm text-gray-700">{{ instructions | markdown }}</p>
           {{ /if }}
         </div>
         {{# Load notification when there is a validation error with the name field.
