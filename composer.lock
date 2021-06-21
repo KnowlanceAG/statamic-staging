@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "75203344dfd4af1eced2391277065e0a",
+    "content-hash": "1c4918c457f73498f2585da8c17c08fe",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -762,16 +762,16 @@
         },
         {
             "name": "doublethreedigital/duplicator",
-            "version": "v1.3.1",
+            "version": "v1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doublethreedigital/duplicator.git",
-                "reference": "e5fefabc628b3e31758490642d2e9d1392e6224e"
+                "reference": "4dfaa079ff4941173622e02077fb4f86b676e81f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doublethreedigital/duplicator/zipball/e5fefabc628b3e31758490642d2e9d1392e6224e",
-                "reference": "e5fefabc628b3e31758490642d2e9d1392e6224e",
+                "url": "https://api.github.com/repos/doublethreedigital/duplicator/zipball/4dfaa079ff4941173622e02077fb4f86b676e81f",
+                "reference": "4dfaa079ff4941173622e02077fb4f86b676e81f",
                 "shasum": ""
             },
             "require": {
@@ -806,9 +806,9 @@
             "description": "Duplicate Entries in the Statamic 3 Control Panel",
             "support": {
                 "issues": "https://github.com/doublethreedigital/duplicator/issues",
-                "source": "https://github.com/doublethreedigital/duplicator/tree/v1.3.1"
+                "source": "https://github.com/doublethreedigital/duplicator/tree/v1.3.3"
             },
-            "time": "2021-04-13T16:01:07+00:00"
+            "time": "2021-06-10T21:50:42+00:00"
         },
         {
             "name": "dragonmantank/cron-expression",
