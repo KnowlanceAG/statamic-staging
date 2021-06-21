@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c4918c457f73498f2585da8c17c08fe",
+    "content-hash": "eb76727a41abd7b8dfdf052868b4aedb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3839,16 +3839,16 @@
         },
         {
             "name": "spatie/statamic-responsive-images",
-            "version": "v2.5.3",
+            "version": "v2.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/statamic-responsive-images.git",
-                "reference": "9fe713544dbd6a2460638f2674c1de4892d4fc79"
+                "reference": "311d20856be4fff0c0f7df9eb335944e7f308fb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/statamic-responsive-images/zipball/9fe713544dbd6a2460638f2674c1de4892d4fc79",
-                "reference": "9fe713544dbd6a2460638f2674c1de4892d4fc79",
+                "url": "https://api.github.com/repos/spatie/statamic-responsive-images/zipball/311d20856be4fff0c0f7df9eb335944e7f308fb7",
+                "reference": "311d20856be4fff0c0f7df9eb335944e7f308fb7",
                 "shasum": ""
             },
             "require": {
@@ -3884,9 +3884,9 @@
             "description": "Responsive Images for Statamic 3",
             "support": {
                 "issues": "https://github.com/spatie/statamic-responsive-images/issues",
-                "source": "https://github.com/spatie/statamic-responsive-images/tree/v2.5.3"
+                "source": "https://github.com/spatie/statamic-responsive-images/tree/v2.5.4"
             },
-            "time": "2021-03-17T12:27:14+00:00"
+            "time": "2021-05-07T17:05:13+00:00"
         },
         {
             "name": "statamic/cms",
@@ -7294,16 +7294,16 @@
         },
         {
             "name": "withcandour/aardvark-seo",
-            "version": "2.0.11",
+            "version": "2.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WithCandour/statamic-aardvark-seo.git",
-                "reference": "d4e29b97f58b42b56e255ac9e620fc87e2bae880"
+                "reference": "ba2767799f6b71e2be3699b6ae8664d0277e06cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WithCandour/statamic-aardvark-seo/zipball/d4e29b97f58b42b56e255ac9e620fc87e2bae880",
-                "reference": "d4e29b97f58b42b56e255ac9e620fc87e2bae880",
+                "url": "https://api.github.com/repos/WithCandour/statamic-aardvark-seo/zipball/ba2767799f6b71e2be3699b6ae8664d0277e06cf",
+                "reference": "ba2767799f6b71e2be3699b6ae8664d0277e06cf",
                 "shasum": ""
             },
             "require": {
@@ -7351,9 +7351,9 @@
             ],
             "support": {
                 "issues": "https://github.com/WithCandour/statamic-aardvark-seo/issues",
-                "source": "https://github.com/WithCandour/statamic-aardvark-seo/tree/2.0.11"
+                "source": "https://github.com/WithCandour/statamic-aardvark-seo/tree/2.0.13"
             },
-            "time": "2021-04-11T13:53:02+00:00"
+            "time": "2021-06-17T13:34:53+00:00"
         }
     ],
     "packages-dev": [
