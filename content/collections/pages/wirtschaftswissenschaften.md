@@ -56,7 +56,7 @@ page_title: 'GWriters • Wirtschaftswissenschaft - Ghostwriter & mehr'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623268546
+updated_at: 1624298435
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1499,4 +1499,5 @@ meta_title: 'GWriters • Wirtschaftswissenschaft - Ghostwriter & mehr'
 meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Wirtschaftswissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_title: 'GWriters • Wirtschaftswissenschaft - Ghostwriter & mehr'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der Wirtschaftswissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+og_image: GWriters-Logo.png
 ---
