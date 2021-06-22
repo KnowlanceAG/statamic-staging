@@ -1,9 +1,10 @@
 ---
 id: 942c2c8b-0964-473f-bd8d-10426b828eb8
 published: false
+blueprint: pages
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1624011020
+updated_at: 1624338268
 replicator:
   -
     bard:
@@ -29,7 +30,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. „Maecenas“ nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.'
+            text: 'Aenean leo ligula, '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://google.de'
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
+            text: porttitor
+          -
+            type: text
+            text: ' eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. „Maecenas“ nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.'
       -
         type: paragraph
         content:
@@ -126,4 +140,5 @@ teaser:
       -
         type: text
         text: 2.2.0
+template: with-side-bar
 ---

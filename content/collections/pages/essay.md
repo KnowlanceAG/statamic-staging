@@ -79,11 +79,6 @@ replicator:
               -
                 type: bold
             text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-          -
-            type: hard_break
-            marks:
-              -
-                type: bold
       -
         type: heading
         attrs:
@@ -124,6 +119,12 @@ replicator:
           -
             type: text
             text: ' in diesem Bereich spart Zeit und befähigt, auf den Punkt genau vorbereitet zu sein.'
+      -
+        type: set
+        attrs:
+          values:
+            type: video
+            video: 'https://youtu.be/ZNiszx4OjkU'
       -
         type: heading
         attrs:
@@ -1140,7 +1141,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623322611
+updated_at: 1624270872
 meta_title: 'GWriters • Mustervorlage für Essay schreiben lassen'
 meta_description: 'Mustervorlage für Essay schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false

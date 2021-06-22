@@ -177,8 +177,8 @@ downloads:
   - akademie/Abbildungsverzeichnis.docx
 page_title: 'Kostenloses Abbildungsverzeichnis für Ihre Hausarbeit herunterladen'
 template: academy-item
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1620229324
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1624299204
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -207,4 +207,7 @@ from_the_blog:
   - 774827ee-5840-450d-aca6-d60187adc46b
 meta_title: 'Kostenloses Abbildungsverzeichnis für Ihre Hausarbeit herunterladen'
 meta_description: 'Hier können Sie unser Abbildungsverzeichnis kostenlos herunterladen. Profitieren Sie von unserer Erfahrung und verwenden Sie unsere Vorlage für Ihre wissenschaftliche Arbeit.'
+og_title: 'Kostenloses Abbildungsverzeichnis für Ihre Hausarbeit herunterladen'
+og_description: 'Hier können Sie unser Abbildungsverzeichnis kostenlos herunterladen. Profitieren Sie von unserer Erfahrung und verwenden Sie unsere Vorlage für Ihre wissenschaftliche Arbeit.'
+og_image: GWriters-Logo.png
 ---

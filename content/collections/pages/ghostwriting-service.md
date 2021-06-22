@@ -58,7 +58,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: Ghostwriting
@@ -71,7 +71,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriter'
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: Ghostwriter
@@ -84,7 +84,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting/ghostwriting-agentur'
+                  href: /ghostwriting/ghostwriting-agentur
                   target: null
                   rel: null
             text: 'Ghostwriting Agentur'
@@ -97,7 +97,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/lektorat'
+                  href: /lektorat
                   target: null
                   rel: null
             text: Lektorat
@@ -110,7 +110,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/korrektorat/korrekturlesen'
+                  href: /korrektorat/korrekturlesen
                   target: null
                   rel: null
             text: Korrekturlesen
@@ -134,7 +134,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/anfrage'
+                  href: /anfrage
                   target: null
                   rel: null
             text: 'unverbindliche Anfrage schicken'
@@ -235,7 +235,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/kosten-ghostwriter'
+                  href: /blog/kosten-ghostwriter
                   target: null
                   rel: null
             text: 'Wie berechnen sich akademische Ghostwriter Kosten?'
@@ -247,7 +247,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/akademisches-ghostwriting-gwriters'
+                  href: /blog/akademisches-ghostwriting-gwriters
                   target: null
                   rel: null
             text: 'Akademisches Ghostwriting – Wie läuft es bei GWriters ab?'
@@ -259,7 +259,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/ghostwriting'
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: 'Meine ehrlichen Ratschläge an Dich als Ghostwriter-Kunde'
@@ -271,7 +271,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/blog/ghostwriting-informationen'
+                  href: /blog/ghostwriting-informationen
                   target: null
                   rel: null
             text: 'Die große Infosammlung zum Ghostwriting'
@@ -286,7 +286,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '/wiki'
+                  href: /wiki
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
@@ -295,7 +295,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1619456295
+updated_at: 1624309033
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -305,8 +305,10 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-teaser_bg:
-  - seiten/header-so-funktionierts.jpeg
+teaser_bg: seiten/header-so-funktionierts.jpeg
 meta_title: 'Seriöser und diskreter Ghostwriting Service • GWriters'
 meta_description: 'Sie möchten eine Mustervorlage für Ihre Bachelorarbeit oder Masterarbeit schreiben lassen? Wir bieten Sicherheit, Qualität und Diskretion.'
+og_title: 'Seriöser und diskreter Ghostwriting Service • GWriters'
+og_description: 'Sie möchten eine Mustervorlage für Ihre Bachelorarbeit oder Masterarbeit schreiben lassen? Wir bieten Sicherheit, Qualität und Diskretion.'
+og_image: GWriters-Logo.png
 ---
