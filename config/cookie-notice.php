@@ -26,11 +26,11 @@ return [
     */
 
     'groups' => [
-        'Necessary' => [
+        'Notwendig' => [
             'required' => true,
             'toggle_by_default' => true,
         ],
-        'Statistics' => [
+        'Statistiken' => [
             'required' => false,
             'toggle_by_default' => false,
         ],

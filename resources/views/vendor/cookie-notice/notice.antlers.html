@@ -1,12 +1,12 @@
 {{ if !live_preview }}
-    <div class="cookies-fixed z-90 cookies-bottom-0 md:cookies-right-0">
-        <form id="cookiesForm" class="cookies-bg-white cookies-rounded-lg cookies-mx-6 cookies-my-6 cookies-p-6 md:cookies-w-1/3 cookies-float-right" action="{{ endpoint }}" method="POST" style="display: none">
+    <div class="cookies-fixed w-full md:w-1/3 z-50 cookies-bottom-0 md:cookies-right-0">
+        <form id="cookiesForm" class="shadow-md cookies-bg-white cookies-rounded-lg cookies-mx-6 cookies-my-6 cookies-p-6 cookies-float-right" action="{{ endpoint }}" method="POST" style="display: none">
             <h2 class="cookies-font-semibold cookies-text-2xl cookies-mb-1">Diese Webseite verwendet Cookies</h2>
-            <p class="cookies-text-sm">Diese Websites verwendet Cookies um Ihnen den bestmöglichen Service bieten zu können – nähere Informationen dazu und zu Ihren Rechten als Benutzer finden Sie in unserer <a href="/datenschutzerklaerung">Datenschutzerklärung</a>. Klicken Sie auf „Ich stimme zu“, um alle Cookies zu akzeptieren und unsere Website uneingeschränkt nutzen zu können.</p>
+            <p class="cookies-text-sm">Diese Websites verwendet Cookies um Ihnen den bestmöglichen Service bieten zu können – nähere Informationen dazu und zu Ihren Rechten als Benutzer finden Sie in unserer <a href="/datenschutzerklaerung">Datenschutzerklärung</a>. Klicken Sie auf „Ich stimme zu“, um die Cookies zu akzeptieren und unsere Website uneingeschränkt nutzen zu können.</p>
 
             {{ csrf_field }}
 
-            <div class="cookies-flex cookies-flex-col cookies-my-2">
+            <div class="cookies-flex cookies-flex-col cookies-my-2 mb-6">
                 {{ foreach:groups as="group" }}
                     {{ group }}
                         <label class="cookis-mb-1" for="{{ slug }}">
@@ -14,6 +14,7 @@
                                 id="{{ slug }}"
                                 type="checkbox"
                                 name="{{ slug }}"
+                                class="inline w-auto float-left mr-4 mt-2"
                                 {{ if toggle_by_default && !cookie || required }}
                                     checked value="on"
                                 {{ /if }}
