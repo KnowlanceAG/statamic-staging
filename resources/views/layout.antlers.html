@@ -37,25 +37,25 @@
         <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-152x152.png"
             sizes="114x114">
 
-        <!-- TrustBox script -->
-        <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
-        <!-- End TrustBox script -->
-
         {{ if !author_slug }}
             {{ aardvark-seo:head }}
         {{ /if }}
 
-        {{ if config:app:google_tracking }}
-            <link rel='dns-prefetch' href='//www.googletagmanager.com' />
-            <script src='https://www.googletagmanager.com/gtag/js?id=UA-30152060-1' id='google_gtagjs-js' async></script>
-            <script id='google_gtagjs-js-after'>
-                window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
-                gtag("js", new Date());
-                gtag("set", "developer_id.dZTNiMT", true);
-                gtag("config", "UA-30152060-1", {"anonymize_ip":true});
-            </script>
-        {{ else }}
-            <!-- No tracking -->
+        {{ if {cookie_notice:hasConsented group='Marketing'} }}
+
+            {{ if config:app:google_tracking }}
+                <link rel='dns-prefetch' href='//www.googletagmanager.com' />
+                <script src='https://www.googletagmanager.com/gtag/js?id=UA-30152060-1' id='google_gtagjs-js' async></script>
+                <script id='google_gtagjs-js-after'>
+                    window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+                    gtag("js", new Date());
+                    gtag("set", "developer_id.dZTNiMT", true);
+                    gtag("config", "UA-30152060-1", {"anonymize_ip":true});
+                </script>
+            {{ else }}
+                <!-- No tracking -->
+            {{ /if }}
+
         {{ /if }}
 
     </head>
@@ -70,6 +70,8 @@
 
         <script src="{{ mix src='/js/site.js' }}"></script>
         <script src="{{ mix src='/js/app.js' }}"></script>
+
+        {{ cookie_notice }}
 
         {{ aardvark-seo:footer }}
     </body>
