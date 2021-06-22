@@ -10,6 +10,7 @@
     "type": "project",
     "require": {
         "php": "^7.3 || ^8.0",
+        "doublethreedigital/cookie-notice": "^4.0",
         "doublethreedigital/duplicator": "1.3.3",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
