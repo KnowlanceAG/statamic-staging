@@ -58,20 +58,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Bei einer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: test
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: wissenschaftlichen
-                  -
-                    type: text
-                    text: ' Arbeit ist neben der inhaltlichen Qualität des Textes auch die richtige äußere Form von großer Bedeutung. Gern erledigen unsere akademischen Freelancer die korrekte Formatierung Ihrer akademischen Arbeit nach Ihren Anforderungen und ersparen Ihnen damit Zeit und Probleme.'
+                    text: 'Bei einer wissenschaftlichen Arbeit ist neben der inhaltlichen Qualität des Textes auch die richtige äußere Form von großer Bedeutung. Gern erledigen unsere akademischen Freelancer die korrekte Formatierung Ihrer akademischen Arbeit nach Ihren Anforderungen und ersparen Ihnen damit Zeit und Probleme.'
               -
                 type: paragraph
                 content:
@@ -1036,7 +1023,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1624338304
+updated_at: 1624340286
 meta_title: 'GWriters • Die Anleitung zur richtigen Formatierung Ihrer Hausarbeit'
 meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Formatierung: Leistungen, Kosten, Preise & Ablauf.'
 use_meta_keywords: false
