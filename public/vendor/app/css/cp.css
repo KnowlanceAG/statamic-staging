@@ -1,16 +1,1 @@
-/* This is all you. */
-
-.publish-fields ul, .publish-fields ol {
-    padding-left: 1rem;
-    --tw-text-opacity: 1;
-    color: rgba(68, 68, 68, var(--tw-text-opacity));
-  }
-
-.publish-fields ul {
-    list-style-type: disc !important;
-  }
-
-.publish-fields ol {
-    list-style-type: decimal !important;
-  }
-
+.publish-fields ol,.publish-fields ul{padding-left:1rem;--tw-text-opacity:1;color:rgba(68,68,68,var(--tw-text-opacity))}.publish-fields ul{list-style-type:disc!important}.publish-fields ol{list-style-type:decimal!important}
