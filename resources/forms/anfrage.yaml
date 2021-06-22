@@ -2,12 +2,12 @@ title: Anfrage
 honeypot: emails
 email:
   -
-    to: service@gwriters.de
+    to: huckels@uscreen.de
     subject: Kundenanfrage
     html: mail-templates/mail-default_anfrage
-    from: service@gwriters.de
+    from: huckels@uscreen.de
   -
     to: '{{ e_mail_adresse }}'
-    from: service@gwriters.de
+    from: huckels@uscreen.de
     subject: 'Anfrage gwriters.de'
     html: mail-templates/mail-thx_anfrage
