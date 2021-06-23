@@ -1,10 +1,11 @@
 ---
 id: 08690e7d-78e7-40cc-8e39-9d87681c01f7
+blueprint: pages
 title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623265036
+updated_at: 1624435251
 teaser:
   -
     type: heading
