@@ -1,5 +1,6 @@
 ---
 id: e12620a8-faf9-4f3e-82af-5586f4a85db2
+blueprint: pages
 title: Formatierung
 teaser:
   -
@@ -1021,8 +1022,8 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623263181
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1624340286
 meta_title: 'GWriters • Die Anleitung zur richtigen Formatierung Ihrer Hausarbeit'
 meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Formatierung: Leistungen, Kosten, Preise & Ablauf.'
 use_meta_keywords: false
