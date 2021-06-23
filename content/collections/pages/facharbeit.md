@@ -1,5 +1,6 @@
 ---
 id: 62115090-7bb2-448f-bb32-a32bb5977382
+blueprint: pages
 title: Facharbeit
 teaser:
   -
@@ -164,6 +165,12 @@ replicator:
               -
                 type: bold
             text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+      -
+        type: set
+        attrs:
+          values:
+            type: video
+            video: 'https://youtu.be/aWmZYol9Aa8'
     type: editor
     enabled: true
     show_as_card: false
@@ -1341,7 +1348,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623322828
+updated_at: 1624432580
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
