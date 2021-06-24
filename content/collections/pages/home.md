@@ -1,5 +1,6 @@
 ---
 id: home
+blueprint: pages
 title: Startseite
 template: default
 teaser:
@@ -64,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623262995
+updated_at: 1624435106
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false

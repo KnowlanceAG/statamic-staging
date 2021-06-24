@@ -1,8 +1,9 @@
 ---
 id: 8bdfe06a-1a06-46e1-94d2-591c8f5faece
+blueprint: pages
 title: 'GWriters & Team in der Presse'
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1619785207
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1624434331
 replicator:
   -
     bard:
@@ -43,4 +44,7 @@ twitter_card_type_page: summary
 template: without-teaser-with-sidebar
 meta_title: 'GWriters.de & Team in der Presse • GWriters'
 meta_description: 'Verschiedene Presseberichte über GWriters.de, Ghostwriting im Allgemeinen und seriöse Ghostwriter Agenturen.'
+og_title: 'GWriters.de & Team in der Presse • GWriters'
+og_description: 'Verschiedene Presseberichte über GWriters.de, Ghostwriting im Allgemeinen und seriöse Ghostwriter Agenturen.'
+og_image: GWriters-Logo.png
 ---

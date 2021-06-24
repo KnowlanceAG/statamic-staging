@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'lieferung der Arbeit- Ghostwriter'
 size: 4257
-last_modified: 1614697613
+last_modified: 1619516601
 width: '75'
 height: '75'
 mime_type: image/svg+xml

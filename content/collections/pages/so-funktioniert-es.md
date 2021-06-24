@@ -1,10 +1,11 @@
 ---
 id: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
+blueprint: pages
 title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623263050
+updated_at: 1624520626
 teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
   -
@@ -213,6 +214,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: '1. Online-Anfrage'
               -
                 type: paragraph
@@ -228,6 +230,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: 'Einfach & unkompliziert online anfragen – Je spezifischer Ihre Anfrage ist, umso besser sind wir in der Lage, Ihnen das bestmögliche individuelle Angebot zu unterbreiten.'
             show_as_card: false
           -
@@ -263,6 +266,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: '2. Unverbindliches Angebot'
               -
                 type: paragraph
@@ -278,6 +282,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: 'Auf Basis Ihrer Anfrage wählen wir den für Sie und Ihren Auftrag am besten passenden Autor bzw. Bearbeiter aus und erstellen Ihnen ein individuelles Angebot.'
             show_as_card: false
           -
@@ -313,6 +318,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: '3. Auftragserteilung'
               -
                 type: paragraph
@@ -328,6 +334,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: 'Sobald Sie unser Angebot angenommen haben, beginnt der Autor mit der Bearbeitung Ihres Auftrages. Wir halten Sie regelmässig auf dem Laufenden und Sie erhalten Zwischenstände der Arbeit zur Prüfung.'
             show_as_card: false
           -
@@ -363,6 +370,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: '4. Finale Auslieferung'
               -
                 type: paragraph
@@ -378,6 +386,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: 'Nach Fertigstellung des Auftrages, Qualitätsprüfung durch unsere Supervisor und Abnahme durch Sie, erhalten Sie fristgerecht die finale Version Ihrer Mustervorlage in der von Ihnen gewünschten Form.'
             show_as_card: false
         type: row
