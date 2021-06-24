@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cb38a95119bece5a31cacf19beb692cc",
+    "content-hash": "eb76727a41abd7b8dfdf052868b4aedb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -734,53 +734,6 @@
                 }
             ],
             "time": "2020-05-25T17:44:05+00:00"
-        },
-        {
-            "name": "doublethreedigital/cookie-notice",
-            "version": "v4.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doublethreedigital/cookie-notice.git",
-                "reference": "54331b32c69d982095590886d96511a4c173d9ef"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doublethreedigital/cookie-notice/zipball/54331b32c69d982095590886d96511a4c173d9ef",
-                "reference": "54331b32c69d982095590886d96511a4c173d9ef",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.2 || ^8.0",
-                "statamic/cms": "^3.0 || ^3.1"
-            },
-            "require-dev": {
-                "orchestra/testbench": "^4.0|^5.0|^6.0",
-                "phpunit/phpunit": "^8.1"
-            },
-            "type": "library",
-            "extra": {
-                "statamic": {
-                    "name": "Cookie Notice",
-                    "description": "Cookie Consent for Statamic - with support for consent groups!"
-                },
-                "laravel": {
-                    "providers": [
-                        "DoubleThreeDigital\\CookieNotice\\ServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "DoubleThreeDigital\\CookieNotice\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "Cookie Consent for Statamic - with support for consent groups!",
-            "support": {
-                "issues": "https://github.com/doublethreedigital/cookie-notice/issues",
-                "source": "https://github.com/doublethreedigital/cookie-notice/tree/v4.0.1"
-            },
-            "time": "2021-06-15T19:09:03+00:00"
         },
         {
             "name": "doublethreedigital/duplicator",
