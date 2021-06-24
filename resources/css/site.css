@@ -402,5 +402,5 @@ body.ch {
 
 
 #cm {
-    max-width: 36em;
+    max-width: 36em!important;
 }
