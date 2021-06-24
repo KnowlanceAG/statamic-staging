@@ -95,16 +95,10 @@ function cookienotice () {
     cookieconsent.run({
         current_lang : 'de',
         theme_css : '',
+        page_scripts: true,
 
         onAccept : function(){
-            if(cookieconsent.allowedCategory('analytics')){
-                cookieconsent.loadScript('https://www.googletagmanager.com/gtag/js?id=UA-30152060-1', function(){
-                    window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
-                    gtag("js", new Date());
-                    gtag("set", "developer_id.dZTNiMT", true);
-                    gtag("config", "UA-30152060-1", {"anonymize_ip":true});
-                });
-            }
+
         },
 
         languages : {
