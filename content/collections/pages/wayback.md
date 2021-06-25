@@ -3,7 +3,7 @@ id: 94533a42-1099-4e49-b247-c1486f1a071b
 blueprint: pages
 title: 'Wayback Notice'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1624609742
+updated_at: 1624609771
 teaser:
   -
     type: heading
@@ -68,4 +68,5 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
+template: without-teaser
 ---
