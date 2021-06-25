@@ -399,3 +399,8 @@ body.ch {
         transform: scale(1.0);
     }
 }
+
+
+#cm {
+    max-width: 36em!important;
+}
