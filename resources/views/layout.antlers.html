@@ -40,16 +40,16 @@
         {{ if !author_slug }}
             {{ aardvark-seo:head }}
         {{ /if }}
-        <link rel='dns-prefetch' href='//www.googletagmanager.com' />
-        <script type="text/plain" data-src='https://www.googletagmanager.com/gtag/js?id=UA-30152060-1' data-cookiecategory="analytics" id='google_gtagjs-js' async></script>
-        <script id='google_gtagjs-js-after'>
-            window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
-            gtag("js", new Date());
-            gtag("set", "developer_id.dZTNiMT", true);
-            gtag("config", "UA-30152060-1", {"anonymize_ip":true});
-        </script>
-        {{ if config:app:google_tracking }}
 
+        {{ if config:app:google_tracking }}
+            <link rel='dns-prefetch' href='//www.googletagmanager.com' />
+            <script type="text/plain" data-src='https://www.googletagmanager.com/gtag/js?id=UA-30152060-1' data-cookiecategory="analytics" id='google_gtagjs-js' async></script>
+            <script id='google_gtagjs-js-after'>
+                window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+                gtag("js", new Date());
+                gtag("set", "developer_id.dZTNiMT", true);
+                gtag("config", "UA-30152060-1", {"anonymize_ip":true});
+            </script>
         {{ else }}
             <!-- No tracking -->
         {{ /if }}
