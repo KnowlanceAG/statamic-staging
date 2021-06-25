@@ -3,7 +3,7 @@ id: 94533a42-1099-4e49-b247-c1486f1a071b
 blueprint: pages
 title: 'Wayback Notice'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1624609771
+updated_at: 1624613123
 teaser:
   -
     type: heading
@@ -19,7 +19,7 @@ replicator:
         content:
           -
             type: text
-            text: 'As the owner of the domain "insert domain" I am officially requesting the immediate removal of the "insert domain" domain and all of the subpages from web.archive.org and the Internet Archive Wayback Machine.'
+            text: 'As the owner of the domain gwriters.de and gwriters.ch I am officially requesting the immediate removal of the gwriters.de and gwriters.ch domains and all of the subpages from web.archive.org and the Internet Archive Wayback Machine.'
       -
         type: paragraph
         content:
@@ -31,13 +31,13 @@ replicator:
         content:
           -
             type: text
-            text: 'The Copyright Notice on this site can be found here on "insert domain" and every subpage in the footer.'
+            text: 'The Copyright Notice on these sites can be found on gwriters.de and gwriters.ch and every subpage in the footer.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'I am requesting the removal of "insert domain" for the entire time in which the page has been archived (i.e. all existing records in your database) including today and all days going forward.'
+            text: 'I am requesting the removal of gwriters.de and gwriters.ch for the entire time in which the pages have been archived (i.e. all existing records in your database) including today and all days going forward.'
       -
         type: paragraph
         content:
