@@ -1,5 +1,6 @@
 ---
 id: 6f96c05b-74ce-4dbb-b7bb-768f12e9125d
+blueprint: pages
 title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 teaser:
   -
@@ -172,25 +173,6 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: gwriters.biz
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: ghost-writer-service.de
           -
             type: list_item
             content:
@@ -1938,8 +1920,8 @@ replicator:
     type: editor
     enabled: true
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623334157
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1624609388
 page_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_description: 'Hier finden Sie aktuelle Informationen zu bekannten Betrüger-Websites im akademischen Ghostwriting. Verlassen Sie sich nur auf seriöse Ghostwriting Agenturen!'
