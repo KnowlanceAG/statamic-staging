@@ -1,5 +1,6 @@
 ---
 id: 8a46d375-fe18-42c5-ab50-a1682b5664de
+blueprint: akademie
 title: Abkürzungsverzeichnis
 teaser:
   -
@@ -206,8 +207,8 @@ replicator:
     type: editor
     enabled: true
     show_as_card: false
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1620209996
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1624893607
 academy_short_text-headline: Abkürzungsverzeichnis
 academy_short_text: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel für Ihre Arbeit.'
 use_meta_keywords: false
@@ -239,4 +240,7 @@ meta_description: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisc
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 meta_title: 'Kostenloses Abkürzungsverzeichnis für Ihre Hausarbeit herunterladen'
 template: academy-item
+og_title: 'Kostenloses Abkürzungsverzeichnis für Ihre Hausarbeit herunterladen'
+og_description: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel. Unsere professionelle Verzeichnisvorlage, nur einen Klick entfernt! ↘️↘️↘️'
+og_image: GWriters-Logo.png
 ---
