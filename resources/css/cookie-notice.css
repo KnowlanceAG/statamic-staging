@@ -1,8 +1,8 @@
 /** Light color-scheme **/
 :root{
     --cc-bg: #fff;
-    --cc-text: #2d4156;
-    --cc-btn-primary-bg: #2d4156;
+    --cc-text: #444;
+    --cc-btn-primary-bg: #ff6606;
     --cc-btn-primary-text: var(--cc-bg);
     --cc-btn-primary-hover-bg: #1d2e38;
     --cc-btn-secondary-bg: #eaeff2;
@@ -233,7 +233,7 @@
     -o-user-select: none;
     user-select: none;
     text-align: center;
-    border-radius: 4px;
+    border-radius: 0.125rem;
 }
 
 #cm .c-bn{
@@ -483,7 +483,7 @@ CookieConsent settings modal
 #s-bns button:first-child{
     color: #fff;
     color: var(--cc-btn-primary-text);
-    background: #253b48;
+    background: #ff6606;
     background: var(--cc-btn-primary-bg);
 }
 
@@ -496,7 +496,7 @@ CookieConsent settings modal
 #c-bns button:first-child:hover,
 #s-bns button:first-child:active,
 #s-bns button:first-child:hover{
-    background: #1d2e38;
+    background: #ff6606;
     background: var(--cc-btn-primary-hover-bg);
 }
 
