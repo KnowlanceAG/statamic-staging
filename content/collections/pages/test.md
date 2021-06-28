@@ -4,7 +4,7 @@ published: false
 blueprint: pages
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1624297190
+updated_at: 1624617479
 replicator:
   -
     bard:
@@ -126,12 +126,6 @@ teaser:
     content:
       -
         type: text
-        text: 2.2.0
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 3.0.0
+        text: 2.4.0
 page_title: 'test mit version nummer'
 ---
