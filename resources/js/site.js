@@ -117,7 +117,7 @@ function cookienotice () {
                 },
                 settings_modal : {
                     title : 'Cookie Einstellungen',
-                    save_settings_btn : "Einstellungen Speichern",
+                    save_settings_btn : "Einstellungen speichern",
                     accept_all_btn : "Alle Akzeptieren",
                     close_btn_label: "Schließen",
                     cookie_table_headers : [
