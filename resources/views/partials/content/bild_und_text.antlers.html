@@ -2,7 +2,7 @@
     {{ if ausrichtung=='bild-text' }}
         <div>
             {{ if extension == 'svg' || extension == 'gif' }}
-                <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200" src="{{ bild }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
+                <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200" src="{{ bild }}" {{ if alt }} alt="{{ bild:alt }}" {{ /if }}>
             {{ else }}
                 {{ responsive:bild alt="{alt}" class="w-full h-auto" }}
             {{ /if }}
@@ -20,9 +20,9 @@
         </div>
         <div>
             {{ if extension == 'svg' || extension == 'gif' }}
-                <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200" src="{{ bild }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
+                <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200" src="{{ bild }}" {{ if alt }} alt="{{ bild:alt }}" {{ /if }}>
             {{ else }}
-                {{ responsive:bild alt="{alt}" class="w-full h-auto" }}
+                {{ responsive:bild alt="{bild:alt}" class="w-full h-auto" }}
             {{ /if }}
         </div>
     {{ /if }}
