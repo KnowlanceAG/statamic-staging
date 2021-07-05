@@ -1,5 +1,6 @@
 ---
 id: 89093abd-fdd4-4830-a368-7ede1b75ca1a
+blueprint: pages
 title: Doktorarbeit
 teaser:
   -
@@ -142,7 +143,13 @@ replicator:
         content:
           -
             type: text
-            text: 'In vielen Ländern, besonders in Deutschland, gilt der Doktortitel nach wie vor als klassischer Karrierebeschleuniger. Neben besseren Karrierechancen, werden Arbeitnehmer mit Doktortitel laut Statistik auch mit höheren Löhnen belohnt. In einigen Branchen, wie der Forschung, Medizin und Wissenschaft, ist der Doktortitel sogar grundlegend für jeglichen Berufserfolg. Jedoch ist der akademische Aufstieg sehr zeitintensiv und arbeitslastig. Besonders Berufstätige, die erst Jahre nach ihrem Examen feststellen, dass der Doktortitel ihnen einen Karrieresprung verschafft, haben oft Schwierigkeiten sich in ihrem Forschungsbereich neu einzufinden.'
+            text: 'In vielen Ländern, besonders in Deutschland, gilt der Doktortitel nach wie vor als klassischer Karrierebeschleuniger. Neben besseren Karrierechancen, werden Arbeitnehmer mit Doktortitel laut Statistik auch mit höheren Löhnen belohnt. In einigen Branchen, wie der Forschung, Medizin und Wissenschaft, ist der Doktortitel sogar grundlegend für jeglichen Berufserfolg.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Jedoch ist der akademische Aufstieg sehr zeitintensiv und arbeitslastig. Besonders Berufstätige, die erst Jahre nach ihrem Examen feststellen, dass der Doktortitel ihnen einen Karrieresprung verschafft, haben oft Schwierigkeiten sich in ihrem Forschungsbereich neu einzufinden.'
       -
         type: paragraph
         content:
@@ -174,7 +181,13 @@ replicator:
             text: Ghostwriting
           -
             type: text
-            text: '-Doktorarbeit als Muster genutzt. Wenn die Karriere im Vordergrund steht, sollte sich der Doktorand nicht primär mit der Frage beschäftigen „Wie schreibe ich eine Doktorarbeit?“, sondern auf mögliche Hilfestellungen zurückgreifen können.'
+            text: '-Doktorarbeit als Muster genutzt.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Wenn die Karriere im Vordergrund steht, sollte sich der Doktorand nicht primär mit der Frage beschäftigen „Wie schreibe ich eine Doktorarbeit?“, sondern auf mögliche Hilfestellungen zurückgreifen können.'
       -
         type: set
         attrs:
@@ -1349,7 +1362,13 @@ replicator:
         content:
           -
             type: text
-            text: 'Die Doktorarbeit, auch Dissertation genannt, ist eine wissenschaftliche Arbeit, die an Hochschulen mit Promotionsrecht das Erlangen der Doktorwürde oder des Doktorgrades ermöglicht. Dieser Vorgang wird auch Promotion genannt. So gibt es keine Hochschulen, die zum Erlangen des Doktortitels von den Doktoranden nicht eine Doktorarbeit schreiben lassen. Promovierende sollen darauf geprüft werden, ob sie in der Lage sind, eine wissenschaftliche Arbeit mit neuen Erkenntnissen eigenständig anzufertigen. Das Erlangen der Doktorwürde ist meist ein langwieriger Prozess, dessen aufwändigster Teil die Ausarbeitung der Doktorarbeit ist. Hier gibt es die Möglichkeit, ein hochwertiges Coaching zu nutzen, um den Doktoranden bei der Strukturierung zu unterstützen. Auch ein regelmäßiges Lektorat der Doktorarbeit unterstützt den Studierenden. Um die zeitliche Beanspruchung zu verringern, gibt es Doktoranden, die einen Ghostwriter eine Mustervorlage für ihre Doktorarbeit schreiben lassen.'
+            text: 'Die Doktorarbeit, auch Dissertation genannt, ist eine wissenschaftliche Arbeit, die an Hochschulen mit Promotionsrecht das Erlangen der Doktorwürde oder des Doktorgrades ermöglicht. Dieser Vorgang wird auch Promotion genannt. So gibt es keine Hochschulen, die zum Erlangen des Doktortitels von den Doktoranden nicht eine Doktorarbeit schreiben lassen. Promovierende sollen darauf geprüft werden, ob sie in der Lage sind, eine wissenschaftliche Arbeit mit neuen Erkenntnissen eigenständig anzufertigen.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Das Erlangen der Doktorwürde ist meist ein langwieriger Prozess, dessen aufwändigster Teil die Ausarbeitung der Doktorarbeit ist. Hier gibt es die Möglichkeit, ein hochwertiges Coaching zu nutzen, um den Doktoranden bei der Strukturierung zu unterstützen. Auch ein regelmäßiges Lektorat der Doktorarbeit unterstützt den Studierenden. Um die zeitliche Beanspruchung zu verringern, gibt es Doktoranden, die einen Ghostwriter eine Mustervorlage für ihre Doktorarbeit schreiben lassen.'
       -
         type: heading
         attrs:
@@ -1363,13 +1382,25 @@ replicator:
         content:
           -
             type: text
-            text: 'Während eine Bachelorarbeit, Masterarbeit oder Diplomarbeit meist nur bereits vorhandenes Wissen zusammenfasst, wird bei der Doktorarbeit eine Erweiterung des Wissens gefordert. Um die Doktorwürde zu erlangen, muss man demnach in der Forschung tätig gewesen sein und neue Erkenntnisse vorweisen können. Dieser Prozess dauert oft mehrere Jahre und wird von einem Doktorvater betreut, der zu bestimmten Maßen ein Coaching bei der Doktorarbeit leistet. Die Bearbeitung der Doktorarbeit kann auf verschiedene Weisen erfolgen, welche abhängig vom Fachbereich variieren.'
+            text: 'Während eine Bachelorarbeit, Masterarbeit oder Diplomarbeit meist nur bereits vorhandenes Wissen zusammenfasst, wird bei der Doktorarbeit eine Erweiterung des Wissens gefordert. Um die Doktorwürde zu erlangen, muss man demnach in der Forschung tätig gewesen sein und neue Erkenntnisse vorweisen können.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Der Doktorand kann sich theoretisch mit einem Sachverhalt beschäftigen oder empirisch/ experimentell ermittelte Daten auswerten, interpretieren, sowie analysieren. Dies geschieht oftmals durch Umfragen im Bereich der BWL und VWL und durch Experimente in der Biologie, Medizin oder Psychologie. Der Umfang der Doktorarbeit ist ebenfalls stark abhängig vom Fach, liegt aber generell zwischen 150 und 500 Seiten. Zwar gibt es seitens Doktorväter und Hochschulen einige unterschiedliche Formalien, jedoch veröffentlichen Hochschulen oft eine Vorlage einer Doktorarbeit als Beispiel um ihren Studierenden zu helfen. Unterstützend dazu, kann sich ein Doktorand von einem Ghostwriter eine Mustervorlage für seine Doktorarbeit schreiben lassen und diese Ghostwriting-Doktorarbeit als Orientierungshilfe nutzen.'
+            text: 'Dieser Prozess dauert oft mehrere Jahre und wird von einem Doktorvater betreut, der zu bestimmten Maßen ein Coaching bei der Doktorarbeit leistet. Die Bearbeitung der Doktorarbeit kann auf verschiedene Weisen erfolgen, welche abhängig vom Fachbereich variieren.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Der Doktorand kann sich theoretisch mit einem Sachverhalt beschäftigen oder empirisch/ experimentell ermittelte Daten auswerten, interpretieren, sowie analysieren. Dies geschieht oftmals durch Umfragen im Bereich der BWL und VWL und durch Experimente in der Biologie, Medizin oder Psychologie. Der Umfang der Doktorarbeit ist ebenfalls stark abhängig vom Fach, liegt aber generell zwischen 150 und 500 Seiten.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Zwar gibt es seitens Doktorväter und Hochschulen einige unterschiedliche Formalien, jedoch veröffentlichen Hochschulen oft eine Vorlage einer Doktorarbeit als Beispiel um ihren Studierenden zu helfen. Unterstützend dazu, kann sich ein Doktorand von einem Ghostwriter eine Mustervorlage für seine Doktorarbeit schreiben lassen und diese Ghostwriting-Doktorarbeit als Orientierungshilfe nutzen.'
       -
         type: paragraph
         content:
@@ -1456,6 +1487,113 @@ replicator:
           -
             type: text
             text: '• Seitenränder: links 4cm, rechts und unten 2cm, oben 3cm'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Ablauf bei GWriters'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: '1. Kostenlose unverbindliche Anfrage'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Ihre Anfrage ist bei GWriters natürlich unverbindlich. Weiterhin gehen wir verantwortungsvoll mit den Daten unserer Kunden um. Und selbst, wenn Sie nicht anonym bei uns anfragen, werden Ihr Daten diskret behandelt und nicht an Dritte weitergegeben.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Nach der Anfrage erfolgt eine Zusammenfassung aller relevanten Daten des Projektes mit Ihnen zusammen. Wir treffen anschließend eine Vorauswahl passender Ghostwriter und Lektoren für die anschließende Zweitkorrektur.'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: '2. Individuelles Angebot'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Weiterhin werden die konkreten Rahmenbedingung Ihres Projektes. Auf dessen Basis erstellen wir ein konkretes Angebot ohne versteckte Kosten. Sobald Sie dieses Angebot annehmen beginnt die Erstellung Ihrer Mustervorlage'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: '3. Doktorarbeit schreiben lassen: Verfassen der Mustervorlage'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Die gesamte Kommunikation läuft anonym in schriftlicher oder telefonischer Form ab. Selbstverständlich können Sie auch andere Kommunikationskanäle nutzen. Ihr individueller Projektbetreuer übernimmt für Sie die gesamte Kommunikation mit unserem Ghostwriter, von dem wir die Mustervorlage für Ihre Doktorarbeit schreiben lassen.'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: '4. Persönlicher Projektbetreuer'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Sie erhalten einen individuellen Projektbetreuer, der Ihnen kontinuierlich zur Seite steht. Weiterhin erhalten Sie regelmäßig Teillieferungen, um auch stetig Einblick in den aktuellen Schreibprozess zu erhalten. So können Sie falls gewünscht auch inhaltlich Einfluss nehmen. So haben Sie die Sicherheit, ein qualitativ hochwertiges Werk zu bekommen.'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: '5. Qualitativer Feinschliff und Vier-Augen-Prinzip'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Nachdem die eigentliche Schreibphase mit allen Teillieferungen abgeschlossen ist, erfolgt der Feinschliff. Ihr Feedback wird dabei von Ihrem Ghostwriter in kostenlosen Korrekturschleifen eingearbeitet. Es erfolgt zudem eine '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Plagiatsprüfung '
+          -
+            type: text
+            text: 'der Mustervorlage, welche Sie für Ihre Doktorarbeit schreiben lassen. Gefolgt wird diese von einem zweiten Lektorat im Vier-Augen-Prinzip.'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: '6. Finale Lieferung der Mustervorlage'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Mit der finalen Lieferung bekommen Sie dann Ihre individuelle Mustervorlage der Doktorarbeit. Da der Datenschutz für uns besonders wichtig ist, werden auch alle Kunden- und Auftragsdaten im Anschluss an den Auftrag gelöscht.'
       -
         type: heading
         attrs:
@@ -1640,8 +1778,8 @@ replicator:
     show_as_card: false
 parent: 6300bfa7-4b29-41fb-a2d9-422ef612d3d4
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623322083
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1625509577
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1650,9 +1788,10 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-meta_title: 'GWriters • Mustervorlage für Doktorarbeit schreiben lassen'
+meta_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Mustervorlage für Doktorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
-og_title: 'GWriters • Mustervorlage für Doktorarbeit schreiben lassen'
+og_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Mustervorlage für Doktorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
+page_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
 ---
