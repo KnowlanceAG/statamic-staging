@@ -1,5 +1,6 @@
 ---
 id: 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
+blueprint: pages
 title: Zahnmedizin
 teaser:
   -
@@ -55,8 +56,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Zahnmedizin Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623267027
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1625599471
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -740,6 +741,253 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Das Studium der Zahnmedizin'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das zahnmedizinische Studium umfasst, ebenso wie das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/medizin
+                          target: null
+                          rel: null
+                    text: Medizinstudium
+                  -
+                    type: text
+                    text: ', wissenschaftliche und berufspraktische Ausbildungsinhalte. Dazu gehören laut '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://www.gesetze-im-internet.de/zappro/BJNR093310019.html'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Approbationsordnung für Zahnärzte'
+                  -
+                    type: text
+                    text: ' (ZÄPrO § 2 Abs. 1 und 2):'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '1. „ein Studium der Zahnheilkunde von zehn Semestern an einer wissenschaftlichen Hochschule, das sich aus einem vorklinischen und einem klinischen Teil von je fünf Semestern zusammensetzt;'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '2. folgende staatliche Prüfungen:'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: 'a. die naturwissenschaftliche Vorprüfung,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: 'b. die zahnärztliche Vorprüfung und'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: 'c. die zahnärztliche Prüfung.“'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Krankenpflegedienst von drei Monaten, eine Ausbildung in erster Hilfe sowie eine Famulatur von zwei Monaten sind ebenfalls abzuleisten.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Themengebiete des 1. Abschnitts der zahnärztlichen Prüfung umfassen: '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '- Physik'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Chemie, Biochemie, Molekularbiologie'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Biologie'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Medizinische Psychologie und medizinische Soziologie'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Erste Hilfe Kurs'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Themengebiete des 2. Abschnitts umfassen:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '- Pathologie'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Innere Medizin'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Pharmakologie'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Hygiene – Mikrobiologie – Umweltschutz'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Orale Biologie und Prävention'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Zahnmedizinisch-klinische Propädeutik I (Prothetik)'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Zahnmedizinisch-klinische Propädeutik II (Zahnerhaltungskunde)'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Notfallmedizin'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Der 3. Abschnitt umfasst:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '- Kariologie und Endodontie'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Parodontologie'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Kinderzahnheilkunde und Primärprophylaxe'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Zahnärztliche Propädeutik'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Kieferorthopädie'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Zahn-, Mund-, Kieferkrankheiten'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Chirurgie'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Zahnärztliche Röntgenologie'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Hals-Nasen-Ohren-Heilkunde'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- Dermatologie und Allergologie'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '- ein Wahlpflichtfach'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Regelstudienzeit beträgt zehn Semester und sechs Monate. Anschließend sind fachspezifische Weiterbildungen möglich. Laut '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.bzaek.de/fileadmin/PDFs/b/mwbo.pdf'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Muster-Weiterbildungsordnung der Bundeszahnärztekammer vom 29.06.2012'
+                  -
+                    type: text
+                    text: ' erfolgt auch die Weiterbildung in theoretischer und praktischer Unterweisung. Auf Vollzeitbasis umfasst die Weiterbildung mindestens drei fachspezifische Jahre. Sie muss innerhalb von acht Jahren abgeschlossen werden. Weiterbildung in Teilzeit ist unter bestimmten Voraussetzungen ebenfalls möglich (Gesamtdauer und Qualität dürfen unter der Teilzeitarbeit nicht leiden). Die Weiterbildungen ermöglichen die Fachbezeichnungen Fachzahnarzt für Kieferorthopädie, Fachzahnarzt für Oralchirurgie, Zahnarzt für öffentliches Gesundheitswesen sowie Fachzahnarzt für Parodontologie.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
                     marks:
                       -
                         type: textAlign
@@ -775,7 +1023,23 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Die Dokumentation der Behandlung von Zahnerkrankung reicht zurück bis in die früheste Antike. Es ist davon auszugehen, dass es auch schon vorher zahnmedizinische Behandlungen gab. Im alten Ägypten wurde Zahnmedizin betrieben, dies ist schriftlich belegt und geht aus dem Papyrus Ebers hervor (einem Papyrus, in welchem Diagnosen und medizinische Behandlungen von Gesundheitsproblemen aufgeführt werden). Im Mittelalter war die Vorstellung verbreitet, hat man Zahnschmerzen, fresse sich ein Wurm durch den Zahnschmelz. Um diesem beizukommen, behandelte man den Zahn mit einem glühenden Eisenstab und zerstörte so den Karies und die schmerzbereitenden Nerven. Eine andere Methode war die Abtötung der Pulpa (oft gebraucht aber falsch: Zahnnerv) mit Hilfe von Arsenpaste. Zur Zahnhygiene wurde ein Holzstäbchen benutzt, welches an einem Ende auffaserte, als Zahnpasta oft Kräutergemische oder Alaun.'
+                    text: 'Die Dokumentation der Behandlung von Zahnerkrankung reicht zurück bis in die früheste Antike. Es ist davon auszugehen, dass es auch schon vorher zahnmedizinische Behandlungen gab. Im alten Ägypten wurde Zahnmedizin betrieben, dies ist schriftlich belegt und geht aus dem Papyrus Ebers hervor (einem Papyrus, in welchem Diagnosen und medizinische Behandlungen von Gesundheitsproblemen aufgeführt werden).'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Im Mittelalter war die Vorstellung verbreitet, hat man Zahnschmerzen, fresse sich ein Wurm durch den Zahnschmelz. Um diesem beizukommen, behandelte man den Zahn mit einem glühenden Eisenstab und zerstörte so den Karies und die schmerzbereitenden Nerven. Eine andere Methode war die Abtötung der Pulpa (oft gebraucht aber falsch: Zahnnerv) mit Hilfe von Arsenpaste. Zur Zahnhygiene wurde ein Holzstäbchen benutzt, welches an einem Ende auffaserte, als Zahnpasta oft Kräutergemische oder Alaun.'
               -
                 type: paragraph
                 content:
@@ -792,6 +1056,69 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Mit zunehmendem technischem Fortschritt entwickelten sich auch die Fertigkeiten im Bereich der Zahnmedizin weiter, so wurden beispielsweise Tierzähne als Implantate verwendet. Die Behandlung von Zahnproblemen war eine schmerzhafte Angelegenheit für die Patienten. Ohne Betäubungsmittel mussten sie die Prozedur durchstehen, nicht wenige verloren dabei das Bewusstsein. Die moderne Zahnmedizin ist heute so weit fortgeschritten, dass die Angst vorm Zahnarzt eigentlich der Vergangenheit angehören sollte. Manche Behandlungen sind unangenehm, jedoch sind die meisten so gut wie schmerzfrei durchzustehen, da auf ein reichhaltiges Sortiment an Narkotika und Sedativa zurückgegriffen werden kann.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die moderne Zahn-, Mund- und Kieferheilkunde bildete sich, insbesondere aufgrund der naturwissenschaftlichen Grundlegung, die der Medizin im Allgemeinen große Fortschritte ermöglichte, im 19. Jahrhundert heraus. 1884 wurden die ersten deutschen zahnärztlichen Universitätsinstitute gegründet. Wissenschaftlich fundierte Erkenntnisse wurden gesucht und gefunden, so etwa auf den Gebieten der Anatomie/Physiologie, Kariesätiologie, Zahnerhaltungskunde und Kieferorthopädie.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im frühen 20. Jahrhundert kam es zum „vorläufigen Abschluss“ der „akademischen Emanzipation“ der Zahnmedizin. So wird beispielsweise 1919 der Dr. med. dent. als eigener akademischer Grad eingeführt. In Österreich wird statt Zahnmedizin auch der Begriff Stomatologie (von lat. stoma = Mund, Öffnung) verwendet. Dies hat den Hintergrund, dass Zahnärzte ihre Expertise nicht ausschließlich auf Zähne, sondern auf den gesamten oralen Bereich anwenden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Außerdem geben gesundheitliche Auffälligkeiten im Zahn-, Mund- und Kieferbereich häufig Hinweise auf Erkrankungen, die außerhalb dieses Bereiches liegen oder jedenfalls auch außerhalb dieses Bereiches medizinische Relevanz aufweisen – so etwa Gefäßerkrankungen, Diabetes, Krebs und viele mehr.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Die Zahnmedizin im Gesundheitssystem'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Medizin und Zahnmedizin sind tragende Säulen jedes Gesundheitssystems. Die Zahnmedizin geht dabei über ihre rein gesundheitliche Bedeutung noch hinaus, indem sie in den meisten Gesellschaften auch aus ästhetischer Perspektive einen hohen Wert innehat: Gesunde Zähne werden äußerst positiv konnotiert.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.who.int/health-topics/health-systems-governance#tab=tab_1'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'World Health Organization'
+                  -
+                    type: text
+                    text: ' definiert ein gutes Gesundheitssystem folgendermaßen: „A good health system delivers quality services to all people, when and where they need them. The exact configuration of services varies from country to country, but in all cases requires a robust financing mechanism; a well-trained and adequately paid workforce; reliable information on which to base decisions and policies; well maintained facilities and logistics to deliver quality medicines and technologies.”'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In Deutschland werden medizinisch tätige Personen laut Sozialgesetzbuch V §69 als Leistungserbringer bezeichnet. Zu Ihnen gehören Ärzte, Zahnärzte, Tierärzte, Psychotherapeuten, Apotheker, Kranken- und Pflegepersonal, zugelassene Heilpraktiker und ähnliche. Diese Leistungserbringer bilden, zusammen mit den Leistungsfinanzierern – Versicherten und Arbeitgebern – sowie den Leistungszahlern – Versicherungen – und den Leistungsempfängern, also Patienten, die grundlegenden Bestandteile des deutschen Gesundheitssystems.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im Jahre 2012 beliefen sich die Gesundheitsausgaben in Deutschland auf 300.437 Milliarden Euro. Gleichzeitig arbeiteten 5.2 Millionen Beschäftigte im Gesundheitssystem, also rund jeder achte Beschäftigte in Deutschland. Seit dem ersten Berechnungsjahr 2000 ist die Beschäftigtenzahl um circa 950.000 Beschäftigte gestiegen. Das entspricht einem Beschäftigungszuwachs von 22.6%. Das Gesundheitssystem trägt damit nicht unerheblich bei zur Wirtschaftsleistung eines Staates.'
               -
                 type: heading
                 attrs:
