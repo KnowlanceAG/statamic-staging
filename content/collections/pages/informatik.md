@@ -1,5 +1,6 @@
 ---
 id: ba720f59-eeef-4287-b441-251391efa6bc
+blueprint: pages
 title: Informatik
 teaser:
   -
@@ -55,8 +56,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'GWriters • Informatik - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623266116
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1625598974
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -789,7 +790,39 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Der Umgang mit PC und Smartphones gehört schon zum Alltag und ist aus unserer heutigen digitalisierten Welt nicht mehr wegzudenken. Mittlerweile wird die Welt über die Technik gesteuert. Der Umgang wird tagtäglich einfacher durch die rasante Entwicklung im Rahmen von Informationstechnologien. Daher empfinden viele Schülerinnen und Schüler das Informatikstudium sehr interessant. Doch diese anfängliche Euphorie ist oftmals schnell wieder vorbei, da das Informatikstudium ein sehr komplexes und schwieriges Studium ist. Trotzdem gehört das Informatik Studium zu den beliebtesten Studiengängen in Deutschland. Denn in der Arbeitswelt wird der Bedarf nach gut ausgebildetem Informatiker immer bedeutsamer. Jede Branche ist vom IT, EDV und Informatik Know-How abhängig. Zudem hat ein gut ausgebildeter Informatiker ein Jahresbruttogehalt zwischen 50.000 Euro und 120.000 Euro zu erwarten. Ein Informatikstudium bereitet die studierenden auf die zukunftsorientierten Berufe vor. Sowohl im Studium- als auch im Berufsleben sind Informatik Ghostwriter eine große Unterstützung. Zum einen sind sie akademisch ausgebildet und zum anderen haben sie praktische Erfahrungen aus dem Berufsleben. Besonders hilfreich sind sie für Studienanfänger und Berufseinsteiger.'
+                    text: 'Der Umgang mit PC und Smartphones gehört schon zum Alltag und ist aus unserer heutigen digitalisierten Welt nicht mehr wegzudenken. Mittlerweile wird die Welt über die Technik gesteuert. Der Umgang wird tagtäglich einfacher durch die rasante Entwicklung im Rahmen von Informationstechnologien. Daher empfinden viele Schülerinnen und Schüler das Informatikstudium sehr interessant.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Doch diese anfängliche Euphorie ist oftmals schnell wieder vorbei, da das Informatikstudium ein sehr komplexes und schwieriges Studium ist. Trotzdem gehört das Informatik Studium zu den beliebtesten Studiengängen in Deutschland. Denn in der Arbeitswelt wird der Bedarf nach gut ausgebildetem Informatiker immer bedeutsamer. Jede Branche ist vom IT, EDV und Informatik Know-How abhängig.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Zudem hat ein gut ausgebildeter Informatiker ein Jahresbruttogehalt zwischen 50.000 Euro und 120.000 Euro zu erwarten. Ein Informatikstudium bereitet die studierenden auf die zukunftsorientierten Berufe vor. Sowohl im Studium- als auch im Berufsleben sind Informatik Ghostwriter eine große Unterstützung. Zum einen sind sie akademisch ausgebildet und zum anderen haben sie praktische Erfahrungen aus dem Berufsleben. Besonders hilfreich sind sie für Studienanfänger und Berufseinsteiger.'
               -
                 type: heading
                 attrs:
@@ -837,9 +870,36 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
-                    text: 'Die Einführung eines Studienganges für Informatik startete in der DDR und in der Bundesrepublik etwa zeitgleich. Die TU Dresden war im Osten Vorreiter, im Westen bot die Universität Karlsruhe als erstes einen Diplomstudiengang für Informatik an. Dabei haben die Universitäten von ihren Studenten der Informatik eine Diplomarbeit schreiben lassen. Mittlerweile hat sich die Informatik in viele fachunter- und fachübergreifende Teilgebiete aufgeteilt, so gibt es neben vielen anderen Spezialdisziplinen die Ingenieurinformatik, die Wirtschaftsinformatik und die Chemieinformatik.'
+                    text: "Die Einführung eines Studienganges für Informatik startete in der DDR und in der Bundesrepublik etwa zeitgleich. Die TU Dresden war im Osten Vorreiter, im Westen bot die Universität Karlsruhe als erstes einen Diplomstudiengang für Informatik an. Dabei haben die Universitäten von ihren Studenten der Informatik eine Diplomarbeit schreiben lassen. Mittlerweile hat sich die Informatik in viele fachunter- und fachübergreifende Teilgebiete aufgeteilt, so gibt es neben vielen anderen Spezialdisziplinen die Ingenieurinformatik, die\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/wirtschaftsinformatik
+                          target: null
+                          rel: null
+                    text: Wirtschaftsinformatik
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_und die Chemoinformatik."
               -
                 type: paragraph
                 content:
@@ -1048,7 +1108,23 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Obwohl die Informatik durchweg logisch aufgebaut ist, zählt das Studium doch zu einem der anspruchsvollsten Studiengängen in der deutschen Hochschullandschaft. Der große Mangel an Arbeitskräften im informationsverarbeitenden Bereich spricht dort für sich. Regulär werden die Abschlussbezeichnungen Bachelor of Science und Master of Science vergeben. Die Regelstudienzeit liegt zwischen 6 und 8 Semester für einen Bachelorabschluss (meist 6) und weitere 2 bis 4 Semester (meist 4) für den anschließenden Masterabschluss. Ein konsekutiver Masterstudiengang hat somit insgesamt mit dem zuvor abgeschlossenem Bachelor eine Regelstudienzeit von 10 Semestern, was 300 ECTS-Punkten entspricht. Im fünften Semester steht ein Praxissemester an. In dieser Phase werden praktische Kenntnisse gesichert und Kontakte zu potenziellen späteren Arbeitgebern aufgebaut. Die praktischen Erfahrungen werden mit einer Projektarbeit abgerundet.'
+                    text: 'Obwohl die Informatik durchweg logisch aufgebaut ist, zählt das Studium doch zu einem der anspruchsvollsten Studiengängen in der deutschen Hochschullandschaft. Der große Mangel an Arbeitskräften im informationsverarbeitenden Bereich spricht dort für sich. Regulär werden die Abschlussbezeichnungen Bachelor of Science und Master of Science vergeben. Die Regelstudienzeit liegt zwischen 6 und 8 Semester für einen Bachelorabschluss (meist 6) und weitere 2 bis 4 Semester (meist 4) für den anschließenden Masterabschluss.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Ein konsekutiver Masterstudiengang hat somit insgesamt mit dem zuvor abgeschlossenem Bachelor eine Regelstudienzeit von 10 Semestern, was 300 ECTS-Punkten entspricht. Im fünften Semester steht ein Praxissemester an. In dieser Phase werden praktische Kenntnisse gesichert und Kontakte zu potenziellen späteren Arbeitgebern aufgebaut. Die praktischen Erfahrungen werden mit einer Projektarbeit abgerundet.'
               -
                 type: paragraph
                 content:
@@ -1172,44 +1248,335 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: "Die Einführung eines Studienganges für Informatik startete in der DDR und in der Bundesrepublik etwa zeitgleich. Die TU Dresden war im Osten Vorreiter, im Westen bot die Universität Karlsruhe als erstes einen Diplomstudiengang für Informatik an. Dabei haben die Universitäten von ihren Studenten der Informatik eine Diplomarbeit schreiben lassen. Mittlerweile hat sich die Informatik in viele fachunter- und fachübergreifende Teilgebiete aufgeteilt, so gibt es neben vielen anderen Spezialdisziplinen die Ingenieurinformatik, die\_"
+                    text: 'Heutzutage ist die Informatik nicht mehr nur als rein technische Wissenschaft zu verstehen, sondern wird ergänzt von sozialen und individuellen Gesichtspunkten, womit sich beginnend philosophisch humanistische Züge in den Informatikgedanken drängen. Man spricht von deterministischen Prozessen, die über den technik-deterministischen Prozess hinausgehen und zu einem Evolutionsprozess in Informatikweltbild führen. Gerade in der Entwicklung auf den Gebieten „Computional Neurology“ und „Brain-Computer Interfaces“ fließen das aktuelle Menschen- und Arbeitsbild ein und erweitern den Realitätsausschnitt, der in der Informatik sonst relativ klein ist. Objektivierbarkeit und Wirklichkeit greifen mehr und mehr ineinander.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Hinzu kommt eine Informatik, die sich politischen Regeln unterwirft. Unter dem Motto „Netzpolitik ist Wirtschaftspolitik“ hat sich beispielsweise in Deutschland ein Kompetenzzentrum in Zusammenarbeit von Bundesministerien und den entsprechenden Fachgesellschaften der Informatik entstanden.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Disziplinen der Informatik'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Informatik beherbergt in hierarchischer Ordnung eine Reihe von Disziplinen. Über allem steht dabei die Disziplin der Angewandten Informatik und Realisierung. Aus dieser gehen die Technische Informatik und die Praktische Informatik hervor. Beide wiederum bedingen die Theoretische Informatik.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
+                        type: bold
+                    text: 'Dabei ergeben sich weitere wissenschaftliche Subdisziplinen wie beispielsweise'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '• die Geoinformatik,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• die Medizininformatik,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• die '
+                  -
+                    type: text
+                    marks:
                       -
                         type: link
                         attrs:
                           href: /fachrichtungen/wirtschaftsinformatik
                           target: null
                           rel: null
-                    text: Wirtschaftsinformatik
+                    text: 'Wirtschaftsinformatik '
+                  -
+                    type: text
+                    text: oder
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• die angewandte Informatik.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
+                        type: bold
+                    text: 'Der Theoretischen Informatik unterliegen die Bereiche'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '• Theorie formaler Sprachen,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Berechenbarkeitstheorie,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Formale Semantik,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Kryptologie,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Logik,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Automatentheorie,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Komplexitätstheorie und'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Graphentheorie.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Damit bestehen die Aufgaben der Theoretischen Informatik u.a. in der Entwicklung künstlicher Sprachen zu eindeutigen Algorithmen und der Ableitung von Grundlagen für den Ablauf und das Verhalten informationsverarbeitender Maschinen. Darüberhinaus schafft sie Beschreibungsmittel für die Semantik und Syntax der Programmiersprachen und der komplexen Schaltkreise und klassifiziert berechenbare als auch nichtberechenbare Algorithmusfunktionen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Daneben befasst sich die Praktische Informatik u.a mit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '• Programmiersprachen,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Algorithmen,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Datenstrukturen und'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• dem Compilierbau.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Praktische Informatik schafft damit die Grundlage für die Arbeit an künstlicher Intelligenz, Informations- und Kommunikationssystemen, grafischer Datenverarbeitung und entwickelt neben Datenstrukturen und Datenorganisationen u.a. auch kognitive Verfahren und Systeme.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Zur Technischen Informatik gehören'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '• Rechnerarchitekturen,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Rechnerorganisation,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Mikroprozessortechniken,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Schaltungstechnik'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Rechnerkommunikationen und'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
                         attrs:
-                          align: start
-                    text: "\_und die Chemoinformatik."
+                          href: /fachrichtungen/elektrotechnik
+                          target: null
+                          rel: null
+                    text: Elektrotechnik
+                  -
+                    type: text
+                    text: .
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Mittels dieser Subdisziplinen der Technischen Informatik werden neue Konzepte und Konfigurationen sowohl für Hardware als auch für Computerprogramme als Teilnehmersystem oder Verbundsystem generiert. Ergänzt durch die Produktion von Programmen, die der Steuerung elementarer Hardwarefunktionen dienen und eine Automatisierung der Hardwareeinheiten einzeln als auch als Rechenanlagen ermöglichen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Letztlich gibt es die Angewandte Informatik, die eine Kopplung von Informatik mit anderen Wissenschaftszweigen und Wirtschaftszweigen darstellt und so die Basis zur Anwendung der Informatik in der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/medizin
+                          target: null
+                          rel: null
+                    text: Medizin
+                  -
+                    type: text
+                    text: ', der Betriebs- und Volkswirtschaft, der Technik, der Naturwissenschaften und der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/mathematik
+                          target: null
+                          rel: null
+                    text: Mathematik
+                  -
+                    type: text
+                    text: ' bildet.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ziele der Informatik'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Ziele der Informatik ergeben sich aus ihrem allgemeinen und spezifischen Kontext.'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: 'Dem allgemeinen Kontext unterliegen die Verarbeitung der Informationen und das schnelle und automatische Ausführungen von Berechnungen, was sich aus der Herkunft der Informatik aus Mathematik- und Ingenieurswissenschaften ergibt.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Daneben sind spezifische Ziele unter anderem'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '• die Konstruktion neuer Berechnungsmöglichkeiten,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• die Programmierung neuer Software,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• die Erstellung von Datensicherungen,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• die Schaffung eines Sicherheitsnetzes beispielsweise für Unternehmen oder'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• die Konzeption von Steuerungsmodulen in Betriebsanlagen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Berufsbilder im Informatiksektor'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Aufgrund der Breite der Themen und der verschiedenen Subdisziplinen ergeben sich zahlreiche Berufsfelder für InformatikerInnen. So arbeiten InformatikerInnen beispielsweise in Unternehmen der IT-Branche, an Universitäten, Unternehmen und Einrichtungen, die sich mit Informations- und Kommunikationstechnik befassen, in der Projektleitung in allen Bereichen der Industrie, der Dienstleistungen, des Handels, der öffentlichen Verwaltung, der Unternehmensberatung und der Versicherungen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ihre Tätigkeitsschwerpunkte umfassen hier u.a. die Programmierung und Entwicklung spezifischer Hard- und Software sowie die Implementierung von unternehmens- und branchenspezifischen Informations-, Steuerungs- und Kommunikationssystemen. Hinzu kommen die zahlreichen Forschungsfelder, die InformatikerInnen an Universitäten und anderen Forschungseinrichtungen Berufsoptionen bietet. Hinzu kommt die Möglichkeit Informatik als Lehramt an Sekundarschulen, Gymnasien, Förderschulen und berufsbildenden Schulen auszuüben.'
               -
                 type: heading
                 attrs:
@@ -1362,6 +1729,54 @@ replicator:
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'Regal EDV – Wikibooks'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Fachgesellschaften aus der Informatik'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gi.de/'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Gesellschaft für Informatik'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.acm.org/'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Association for Computing Machinery'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.ieee.org/'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Institute for Electrical and Electronics Engineers'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
                     marks:
