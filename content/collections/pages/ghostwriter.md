@@ -1,5 +1,6 @@
 ---
 id: 81a83d40-bdef-4b4f-9ddc-ec55785e6a30
+blueprint: pages
 title: Ghostwriter
 teaser:
   -
@@ -43,8 +44,8 @@ teaser:
         color: '#FF6606'
         spacing_top: false
 teaser_bg: seiten/header-so-funktionierts.jpeg
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623326864
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1625600950
 replicator:
   -
     bard:
@@ -165,8 +166,6 @@ replicator:
       -
         type: paragraph
         content:
-          -
-            type: hard_break
           -
             type: text
             text: 'Handelt es sich um ein bekanntes Vergleichsportal wie '
@@ -317,6 +316,73 @@ replicator:
       -
         type: heading
         attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Ghostwriter schreiben individuelle Unikate'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Seriöse Ghostwriter und Agenturen verkaufen keine fertigen Arbeiten "aus der Schublade". Kunden, die eine fertige '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/hausarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: 'Hausarbeit kaufen'
+          -
+            type: text
+            text: ' möchten oder die erfolgreiche Arbeit eines Kommilitonen umschreiben lassen wollen, müssen wir leider ablehnen. Dies genügt nicht unseren eigenen '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /faq/qualitaet-ghostwriter
+                  target: _blank
+                  rel: 'noopener noreferrer'
+            text: Ghostwriting-Qualitätsansprüchen
+          -
+            type: text
+            text: .
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Nur legale Ghostwriting-Services'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Ist '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/plagiate-ghostwriting-legal
+                  target: null
+                  rel: null
+            text: 'Ghostwriting legal'
+          -
+            type: text
+            text: '? Ja! Anders steht es aber um das Schreiben von Klausuren für Kunden und den Handel mit Titeln von dubiosen Universitäten. Solche illegalen Dienstleistung würde Ihnen eine seriöse Ghostwriting Agentur niemals anbieten. GWriters handelt stets legal, auch zu Ihrem Schutz!'
+      -
+        type: heading
+        attrs:
           level: 2
         content:
           -
@@ -341,7 +407,13 @@ replicator:
         content:
           -
             type: text
-            text: 'Ghostwriter haben die verschiedensten Motive. In der Regel sind sie freiberuflich tätig und werden überdurchschnittlich gut für ihre Arbeit entlohnt. Daraus ergibt sich ein Beruf mit genügend finanzieller Freiheit und flexibler Zeiteinteilung. Des Weiteren werden viele Ghostwriter von der Leidenschaft zum Schreiben angetrieben. Bei Drehbüchern oder Büchern stellt sich im ersten Moment zwar die Frage, warum diese Leute ihr Werk nicht selbst veröffentlichen, wenn es qualitativ einwandfrei verfasst ist. Beantworten lässt sich diese Frage allerdings schnell: In der Regel fehlt der Bekanntheitsgrad oder die Liquidität, um eine Veröffentlichung inklusive Marketing in einem effektiven Umfang umzusetzen. Mit der wachsenden Bedeutung von Studienabschlüssen und Titeln für die Karrierechancen im Beruf wächst auch der Markt für akademische Ghostwriter stetig weiter. Doch nicht nur die Nachfrage ist hoch: Wissenschaftliche Autoren werden häufig verhältnismäßig schlecht bezahlt. Viele dieser Menschen entschließen sich von daher zu einer zusätzlichen Nebentätigkeit. Das akademische Ghostwriting liegt hier nahe, da sich diese Personen tagtäglich mit der Forschung und dem wissenschaftlichem Arbeiten auseinandersetzen.'
+            text: 'Ghostwriter haben die verschiedensten Motive. In der Regel sind sie freiberuflich tätig und werden überdurchschnittlich gut für ihre Arbeit entlohnt. Daraus ergibt sich ein Beruf mit genügend finanzieller Freiheit und flexibler Zeiteinteilung. Des Weiteren werden viele Ghostwriter von der Leidenschaft zum Schreiben angetrieben. Bei Drehbüchern oder Büchern stellt sich im ersten Moment zwar die Frage, warum diese Leute ihr Werk nicht selbst veröffentlichen, wenn es qualitativ einwandfrei verfasst ist. Beantworten lässt sich diese Frage allerdings schnell: In der Regel fehlt der Bekanntheitsgrad oder die Liquidität, um eine Veröffentlichung inklusive Marketing in einem effektiven Umfang umzusetzen.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Mit der wachsenden Bedeutung von Studienabschlüssen und Titeln für die Karrierechancen im Beruf wächst auch der Markt für akademische Ghostwriter stetig weiter. Doch nicht nur die Nachfrage ist hoch: Wissenschaftliche Autoren werden häufig verhältnismäßig schlecht bezahlt. Viele dieser Menschen entschließen sich von daher zu einer zusätzlichen Nebentätigkeit. Das akademische Ghostwriting liegt hier nahe, da sich diese Personen tagtäglich mit der Forschung und dem wissenschaftlichem Arbeiten auseinandersetzen.'
       -
         type: heading
         attrs:
@@ -371,13 +443,13 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /arbeiten/diplomarbeit
+                  href: /arbeiten/masterarbeit-schreiben-lassen
                   target: null
                   rel: null
-            text: 'Diplomarbeiten '
+            text: Masterarbeiten
           -
             type: text
-            text: 'dringend davon abgeraten, den Text zu übernehmen, sondern diesen tatsächlich nur als Vorlage zur Bearbeitung zu sehen.'
+            text: ' dringend davon abgeraten, den Text zu übernehmen, sondern diesen tatsächlich nur als Vorlage zur Bearbeitung zu sehen.'
       -
         type: heading
         attrs:
