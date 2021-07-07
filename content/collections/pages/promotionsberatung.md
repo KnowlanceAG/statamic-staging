@@ -1,5 +1,6 @@
 ---
 id: 6dd15231-c8e7-43fe-949e-af68de19ab1b
+blueprint: pages
 title: Promotionsberatung
 teaser:
   -
@@ -646,8 +647,8 @@ replicator:
     enabled: true
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623335069
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1625685751
 meta_title: 'Unsere seriöse Promotionsberatung • GWriters'
 meta_description: 'Bei GWriters erhalten Sie eine seriöse Promotionsberatung von unseren erfahrenen akademischen Ghostwritern, Lektoren und Coaches. Auf Sie zugeschnitten!'
 use_meta_keywords: false
