@@ -1,5 +1,6 @@
 ---
 id: c76df250-b4e5-42af-a885-950acb54c389
+blueprint: pages
 title: Korrekturlesen
 teaser:
   -
@@ -130,7 +131,19 @@ replicator:
             text: Diplomarbeit
           -
             type: text
-            text: ' und gegebenenfalls auch Dissertation und Habilitation. Das Korrekturlesen eines wissenschaftlichen Textes umfasst die Überprüfung auf Grammatik und Rechtschreibung einer akademischen Arbeit, wird jedoch im Aufwand häufig unterschätzt. Der Autor geht häufig davon aus, dass er die eigene Abschlussarbeit oder einen sonstigen Text auch selbst Korrekturlesen kann. Dabei wird häufig vergessen, dass man aufgrund der Vertrautheit des Textes Fehler nur noch sehr schwer erkennt. Texte werden heutzutage weitgehend mit dem Computer oder Ähnlichem verfasst, dabei schleichen sich schnell Tippfehler, vor allem das beliebte Vertauschen von Buchstaben, ein. Auch werden Wörter weggelassen oder doppelt geschrieben. Im Lesefluss fällt das kaum auf.'
+            text: ' und gegebenenfalls auch Dissertation und Habilitation.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Das Korrekturlesen eines wissenschaftlichen Textes umfasst die Überprüfung auf Grammatik und Rechtschreibung einer akademischen Arbeit, wird jedoch im Aufwand häufig unterschätzt. Der Autor geht häufig davon aus, dass er die eigene Abschlussarbeit oder einen sonstigen Text auch selbst Korrekturlesen kann. Dabei wird häufig vergessen, dass man aufgrund der Vertrautheit des Textes Fehler nur noch sehr schwer erkennt.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Texte werden heutzutage weitgehend mit dem Computer oder Ähnlichem verfasst, dabei schleichen sich schnell Tippfehler, vor allem das beliebte Vertauschen von Buchstaben, ein. Auch werden Wörter weggelassen oder doppelt geschrieben. Im Lesefluss fällt das kaum auf.'
       -
         type: heading
         attrs:
@@ -138,18 +151,117 @@ replicator:
         content:
           -
             type: text
-            text: 'Besser professionell und richtig.'
+            text: 'Besser professionell und richtig'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'So empfiehlt es sich, den eigenen Text von einem professionellen Korrektor Korrekturlesen zu lassen. Dieser überprüft beispielsweise den Text auf Rechtschreibfehler, Grammatikfehler, Orthografie und Zeichensetzungsfehler sowie sonstige Flüchtigkeitsfehler. Eventuelle Stilbrüche lassen sich von Autor aufgrund mangelnder Distanz zum Text auch schwerlich aufdecken. Der Korrektor erkennt solche Stilbrüche deutlich besser, da er den Text vorher nicht gesehen hat und daher mit dem gebotenen Abstand zu Werke gehen kann. Der Korrektor kann aufgrund seiner Erfahrungen deutlich schneller und genauer inhaltliche, strukturelle sowie sprachliche Fehler aufdecken. Diese Erfahrung fehlt oft auch dem ersten Ansprechpartner den man nutzt, wenn es um das Korrekturlesen eines Textes geht; Freunde, Familie und Bekannte. Auch diesen fehlt meist die Distanz zum Schreiber und auch sie sind häufig ungeübt wenn es um das Korrekturlesen eines Textes geht. Stilbrüche sind schon Fehler, die erst bei genauer Kenntnis der deutschen Sprache auffallen, aber selbst hier sollte man sich nicht auf einen unerfahrenen Korrektor verlassen. Erfahrene Korrektoren einzusetzen ist, in der Regel, der sicherste Weg seinen Text, sei er nun akademischer Natur oder nicht, auf Rechtschreibung, Grammatik und Zeichensetzung überprüfen zu lassen und so schnell und effektiv eine gute Note zu erzielen, denn nicht nur der Inhalt des Textes wird benotet auch das äußere Erscheinungsbild und dazu gehört eben auch eine korrekte Rechtschreibung und Grammatik. Grobe Schnitzer in diesem Bereich haben schon des Öfteren zum Nichtbestehen der akademischen Arbeit geführt, selbst wenn sie inhaltlich keine schweren Fehler aufwies. So ein Nichtbestehen wäre durch einfaches externes Korrekturlesen lassen zu verhindern gewesen.'
+            text: 'So empfiehlt es sich, den eigenen Text von einem professionellen Korrektor Korrekturlesen zu lassen. Dieser überprüft beispielsweise den Text auf Rechtschreibfehler, Grammatikfehler, Orthografie und Zeichensetzungsfehler sowie sonstige Flüchtigkeitsfehler. Eventuelle Stilbrüche lassen sich von Autor aufgrund mangelnder Distanz zum Text auch schwerlich aufdecken. Der Korrektor erkennt solche Stilbrüche deutlich besser, da er den Text vorher nicht gesehen hat und daher mit dem gebotenen Abstand zu Werke gehen kann.'
+      -
+        type: paragraph
+        content:
           -
-            type: hard_break
+            type: text
+            text: 'Der Korrektor kann aufgrund seiner Erfahrungen deutlich schneller und genauer inhaltliche, strukturelle sowie sprachliche Fehler aufdecken. Diese Erfahrung fehlt oft auch dem ersten Ansprechpartner den man nutzt, wenn es um das Korrekturlesen eines Textes geht; Freunde, Familie und Bekannte. Auch diesen fehlt meist die Distanz zum Schreiber und auch sie sind häufig ungeübt wenn es um das Korrekturlesen eines Textes geht.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Stilbrüche sind Fehler, die erst bei genauer Kenntnis der deutschen Sprache auffallen, aber selbst hier sollte man sich nicht auf einen unerfahrenen Korrektor verlassen. Erfahrene Korrektoren einzusetzen ist, in der Regel, der sicherste Weg seinen Text, sei er nun akademischer Natur oder nicht, auf Rechtschreibung, Grammatik und Zeichensetzung überprüfen zu lassen und so schnell und effektiv eine gute Note zu erzielen. Denn nicht nur der Inhalt des Textes wird benotet, auch das äußere Erscheinungsbild und dazu gehören eben auch eine korrekte Rechtschreibung und Grammatik. Grobe Schnitzer in diesem Bereich haben schon des Öfteren zum Nichtbestehen der akademischen Arbeit geführt, selbst wenn sie inhaltlich keine schweren Fehler aufwies. So ein Nichtbestehen wäre durch einfaches externes Korrekturlesen lassen zu verhindern gewesen.'
+      -
+        type: paragraph
+        content:
           -
             type: text
             text: 'Das Korrekturlesen ist in der Praxis abzugrenzen vom Lektorieren. Hier wird der Text zusätzlich zum Korrekturlesen auch noch auf wissenschaftlichen Stil und inhaltliche Stimmigkeit geprüft.'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Wie können Sie selbst Korrektur lesen?'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Wenn Sie Ihre Arbeit nicht Korrekturlesen lassen wollen, empfehlen wir Ihnen ein schrittweises Vorgehen. In einem ersten Schritt lesen Sie die Bachelorarbeit Korrektur und konzentrieren sich nur auf Rechtschreibung, Grammatik und Zeichensetzung. In einem zweiten Schritt korrigieren nur den Ausdruck.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Im dritten Schritt konzentrieren sich nur auf das Format. Ist einheitlich und '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/fremdsprachige-quellen-zitieren
+                  target: _blank
+                  rel: 'noopener noreferrer'
+            text: 'richtig zitiert'
+          -
+            type: text
+            text: '? Sind die Umbrüche richtig gesetzt? Habe ich die Formatvorgaben richtig angewendet? Im letzten Schritt gleichen Sie dann das Literaturverzeichnis ab, wenn Sie es nicht automatisch erstellt haben. Steht die gesamte verwendete Literatur im Literaturverzeichnis? Steht nicht zu viel Literatur im Literaturverzeichnis, die ich gar nicht verwendet habe? Wurden die Vorgaben für das Literaturverzeichnis eingehalten?'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Nehmen Sie sich zeitlichen Abstand von der Arbeit!'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Lassen Sie die Arbeit nach Fertigstellung ruhig zwei bis drei Tage liegen. Dann haben Sie inhaltlich einen Abstand, sodass Sie das mit wachem Auge wieder neu von vorne lesen können. Dann gehen Sie alle oben genannten Schritte zwei Mal durch. Insbesondere auch Sinn und Rechtschreibung sollten Sie mehrfach prüfen, denn entdeckt man immer wieder neue Verbesserungsmöglichkeiten.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Und ganz zum Schluss sollten Sie auch wirklich noch mal die Arbeit in Gänze lesen und den Lesefluss auf sich wirken lassen. Wichtig ist auch, dass Sie Kapitel immer einzeln lesen, wenn Sie das Korrektorat selbst machen.'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Worauf müssen Sie beim Korrekturlesen noch achten?'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Lassen Sie sich genügend Zeit '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/ghostwriting-lektorat-korrektorat
+                  target: _blank
+                  rel: 'noopener noreferrer'
+            text: 'für die Korrektur und das Lektorat'
+          -
+            type: text
+            text: '. Rechnen Sie mit ausreichend Zeit zwischen Fertigstellung und Abgabe der Arbeit. Wenn Sie Ihre Bachelorarbeit Korrektur lesen, benötigen Sie dafür mindestens einige Tage. Anschließend müssen Sie diese dann gegebenenfalls noch per Post verschicken, wenn Sie sie nicht persönlich vorbeibringen.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Zudem gibt es noch eine Vielzahl externer Fehlerquellen: Der PC stürzt ab, der Copyshop macht irgendeinen Fehler ... Setzen Sie sich am Ende nicht unter Druck. Am wichtigsten ist also, beim Korrekturlesen, Schritt für Schritt durchgehen, sich immer nur auf die einzelnen Aspekte zu konzentrieren, nie alles zusammen machen und genügend Zeit einzuplanen.'
       -
         type: heading
         attrs:
@@ -215,8 +327,8 @@ replicator:
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623344025
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1625683587
 page_title: 'Korrekturlesen von wissenschaftlichen Texten • GWriters'
 meta_title: 'Korrekturlesen von wissenschaftlichen Texten • GWriters'
 meta_description: 'Benötigen Sie einen Textkorrektor für Ihre Abschlussarbeit? GWriters.de bietet Ihnen qualitätsgeprüfte Korrektoren zu fairen Preisen.'
