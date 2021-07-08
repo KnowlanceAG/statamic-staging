@@ -1,5 +1,6 @@
 ---
 id: 42821712-5a96-4c53-9c55-cdde80d798ae
+blueprint: pages
 title: 'Lektorat Preise'
 teaser:
   -
@@ -80,20 +81,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Dass der Preis eines solchen Lektorats ein Kriterium sein könnte es nicht in Anspruch zu nehmen ist meist ein unbegründeter Verdacht. Das Preis-Leistungs-Verhältnis ist in dem meisten Fällen sehr gut und natürlich individuell unterschiedlich. Ist ein Text bereits perfekt geschrieben hat man sein Geld unnötig investiert. Die Erfahrung hat aber gezeigt, dass es keine perfekten Texte gibt und gerade bei unerfahrenen Verfassern meist eine Menge zu verbessern ist. Unerfahren kann es vor allem sein, einen '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /lektorat/lektor
-                  target: null
-                  rel: null
-            text: Lektor
-          -
-            type: text
-            text: ' wegen des Preises nicht in Anspruch zu nehmen. Bücher von erfahrenen Schriftstellern werden selbstverständlich lektoriert, da gibt es so gut wie keine Ausnahmen. Auch im akademischen Bereich ist es unüblich eine wissenschaftliche Abhandlung zu veröffentlichen ohne sie vorher von einem '
+            text: 'Dass der Preis eines solchen Lektorats ein Kriterium sein könnte es nicht in Anspruch zu nehmen ist meist ein unbegründeter Verdacht. Das Preis-Leistungs-Verhältnis ist in dem meisten Fällen sehr gut und natürlich individuell unterschiedlich. Ist ein Text bereits perfekt geschrieben hat man sein Geld unnötig investiert. Die Erfahrung hat aber gezeigt, dass es keine perfekten Texte gibt und gerade bei unerfahrenen Verfassern meist eine Menge zu verbessern ist. Unerfahren kann es vor allem sein, einen Lektor wegen des Preises nicht in Anspruch zu nehmen. Bücher von erfahrenen Schriftstellern werden selbstverständlich lektoriert, da gibt es so gut wie keine Ausnahmen. Auch im akademischen Bereich ist es unüblich eine wissenschaftliche Abhandlung zu veröffentlichen ohne sie vorher von einem '
           -
             type: text
             marks:
@@ -299,7 +287,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/akademische-ghostwriter-gwriters-angebot
+                  href: /so-funktioniert-es
                   target: null
                   rel: null
             text: 'Video: Wie entsteht ein Ghostwriter-Angebot bei GWriters?'
@@ -324,7 +312,7 @@ replicator:
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623343504
+updated_at: 1625763238
 page_title: 'Lektorat Preise? Alles Wichtige dazu von GWriters'
 meta_title: 'Lektorat Preise? Alles Wichtige dazu von GWriters'
 meta_description: 'Sie möchten mehr über die Lektorat Preise erfahren? Die professionelle Ghostwriting Agentur GWriters.de informiert Sie über die Preise für Ihren Lektor.'
