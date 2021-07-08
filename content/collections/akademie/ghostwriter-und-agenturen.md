@@ -1,5 +1,6 @@
 ---
 id: 9a41faa4-9f52-4f0e-84b2-9fc989d3e995
+blueprint: akademie
 title: 'Ghostwriter und Agenturen'
 teaser:
   -
@@ -117,7 +118,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/doktorarbeit-schreiben-lassen-ablauf-gwriters
+                  href: /arbeiten/doktorarbeit
                   target: null
                   rel: null
             text: 'passenden Ghostwritern arbeiten'
@@ -169,7 +170,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623867348
+updated_at: 1625762082
 template: default
 use_meta_keywords: false
 no_index_page: false
