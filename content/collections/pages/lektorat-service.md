@@ -1,5 +1,6 @@
 ---
 id: ded7b769-a44c-4ea2-b75b-f7b0f571ffb8
+blueprint: pages
 title: 'Lektorat Service'
 teaser:
   -
@@ -258,7 +259,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/lektorat
+                  href: /lektorat
                   target: null
                   rel: null
             text: 'Die große Infosammlung zum Lektorat'
@@ -294,7 +295,7 @@ replicator:
     enabled: true
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623343777
+updated_at: 1625758670
 page_title: 'Benötigen Sie einen Lektorat Service? GWriters hilft!'
 template: with-side-bar
 meta_title: 'Benötigen Sie einen Lektorat Service? GWriters hilft!'
