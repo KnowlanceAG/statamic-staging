@@ -1,5 +1,6 @@
 ---
 id: 86bd5a7e-428b-40e0-a058-cbc30bfe659b
+blueprint: pages
 title: 'Diplom kaufen'
 teaser:
   -
@@ -219,8 +220,8 @@ replicator:
                 type: link
                 attrs:
                   href: 'https://www.sueddeutsche.de/karriere/doktortitel-kaufen-sind-wir-nicht-alle-ein-bisschen-doktor-1.1084350'
-                  target: null
-                  rel: null
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
             text: 'Artikel der Süddeutschen Zeitung: Sind wir nicht alle ein bisschen Doktor?'
       -
         type: paragraph
@@ -245,8 +246,8 @@ replicator:
                 type: link
                 attrs:
                   href: 'https://www.zeit.de/2012/20/B-Titelkauf'
-                  target: null
-                  rel: null
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
             text: 'Einblick in eine verschlossene Branche des Titelhandels - Zeit Online'
       -
         type: paragraph
@@ -268,7 +269,7 @@ replicator:
     enabled: true
 parent: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623324899
+updated_at: 1625763823
 page_title: 'GWriters • Diplom kaufen möglich oder lieber eine Ghostwriter Agentur?'
 template: with-side-bar
 meta_title: 'GWriters • Diplom kaufen möglich oder lieber eine Ghostwriter Agentur?'
