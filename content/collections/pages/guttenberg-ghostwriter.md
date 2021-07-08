@@ -1,5 +1,6 @@
 ---
 id: cb8b4351-575f-40a2-a85a-a6d16d23f12d
+blueprint: pages
 title: 'Guttenberg Ghostwriter'
 teaser:
   -
@@ -189,7 +190,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/promotionsberater-ghostwriter
+                  href: /promotionsberatung
                   target: null
                   rel: null
             text: 'Promotionsberatung & Ghostwriting – Was sind die Unterschiede?'
@@ -225,7 +226,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623343085
+updated_at: 1625763953
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
