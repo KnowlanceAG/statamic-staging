@@ -1,5 +1,6 @@
 ---
 id: d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
+blueprint: pages
 title: Examensarbeit
 teaser:
   -
@@ -1243,9 +1244,9 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/akademisches-ghostwriting-alternativen
+                  href: /ghostwriting
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: null
             text: 'Video: 4 Alternativen zum akademischen Ghostwriting'
           -
             type: hard_break
@@ -1267,9 +1268,9 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/akademische-ghostwriter-gwriters-angebot
+                  href: /so-funktioniert-es
                   target: _blank
-                  rel: 'noopener noreferrer'
+                  rel: null
             text: 'Video: Wie entsteht ein Ghostwriter-Angebot bei GWriters?'
       -
         type: heading
@@ -1336,7 +1337,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623322742
+updated_at: 1625758976
 meta_title: 'GWriters • Mustervorlage für Examensarbeit schreiben lassen'
 meta_description: 'Mustervorlage für Examensarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
