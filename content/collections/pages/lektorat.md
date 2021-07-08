@@ -1,5 +1,6 @@
 ---
 id: 659e7e81-6d07-4eea-9ef2-325e72618036
+blueprint: pages
 title: Lektorat
 teaser:
   -
@@ -84,7 +85,13 @@ replicator:
                     text: Korrektorat
                   -
                     type: text
-                    text: '), sondern redigieren auch stilistische und strukturelle Ungenauigkeiten und geben Ihnen Anmerkungen mit gezielten Korrekturvorschlägen zu inhaltlichen Unstimmigkeiten. Das Lektorat geht über die Leistungen, die bei einem Korrektorat geboten werden, deutlich hinaus und ergänzt diese um Textprüfung auch in Hinblick auf den Lesefluss und wissenschaftlichen Stil. Dabei erfolgt die Korrektur Ihres Textes durch einen'
+                    text: '), sondern redigieren auch stilistische und strukturelle Ungenauigkeiten und geben Ihnen Anmerkungen mit gezielten Korrekturvorschlägen zu inhaltlichen Unstimmigkeiten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das Lektorat geht über die Leistungen, die bei einem Korrektorat geboten werden, deutlich hinaus und ergänzt diese um Textprüfung auch in Hinblick auf den Lesefluss und wissenschaftlichen Stil. Dabei erfolgt die Korrektur Ihres Textes durch einen '
                   -
                     type: text
                     marks:
@@ -94,16 +101,30 @@ replicator:
                           href: /lektorat/lektor
                           target: null
                           rel: null
-                    text: ' Lektor '
+                    text: Lektor
                   -
                     type: text
-                    text: 'unseres Teams, der mit der jeweiligen Fachrichtung und den dort gängigen Formalia bestens vertraut ist. Die Überarbeitung des Textes erfolgt in der Form, dass Ihr eigener Schreibstil nicht verfälscht wird und sich ein stimmiger Gesamteindruck entwickelt. Weiterhin wird Ihre Arbeit auch im sprachlichen Ausdruck verbessert. So werden beispielsweise zu lange „Bandwurmsätze“ auf die wichtigsten Inhalte zusammengefasst, Wortwiederholungen umgangen oder der Satzbau verbessert. Die Leistungen eines Korrektorats, welche wir auch separat anbieten, sind im Lektorat selbstverständlich inbegriffen.'
+                    text: ' unseres Teams, der mit der jeweiligen Fachrichtung und den dort gängigen Formalia bestens vertraut ist.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wir wird meine wissenschaftliche Arbeit lektoriert?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Durch das Fachwissen unseres Lektorenteams sind Sie bei uns immer auf der richtigen Seite. Da wir auf einen großen Pool an wissenschaftlichen Lektoren zurückgreifen können, ist es uns möglich, Ihre'
+                    text: 'Die Überarbeitung des Textes erfolgt in der Form, dass Ihr eigener Schreibstil nicht verfälscht wird und sich ein stimmiger Gesamteindruck entwickelt. Weiterhin wird Ihre Arbeit auch im sprachlichen Ausdruck verbessert. So werden beispielsweise zu lange „Bandwurmsätze“ auf die wichtigsten Inhalte zusammengefasst, Wortwiederholungen umgangen oder der Satzbau verbessert. Die Leistungen eines Korrektorats, welche wir auch separat anbieten, sind im Lektorat selbstverständlich inbegriffen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Durch das Fachwissen unseres Lektorenteams sind Sie bei uns immer auf der richtigen Seite. Da wir auf einen großen Pool an wissenschaftlichen Lektoren zurückgreifen können, ist es uns möglich, Ihre '
                   -
                     type: text
                     marks:
@@ -113,10 +134,152 @@ replicator:
                           href: /anfrage
                           target: null
                           rel: null
-                    text: ' Anfragen'
+                    text: Anfragen
                   -
                     type: text
                     text: ' äußerst zeitnah zu bearbeiten und Ihnen ein individuelles Angebot zu unterbreiten. Bei Bedarf bieten wir auch ein Lektorat in englischer Sprache an. Unser Team umfasst auch englische „native speaker“ der verschiedensten Fachrichtungen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Was ist ein wissenschaftliches Lektorat?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Ein wissenschaftliches Lektorat, auch Wissenschaftslektorat genannt, weist auf eventuelle stilistische oder inhaltliche Fehler hin, die ohne schriftliche Analyse eventuell unentdeckt geblieben wären.\_Bei einem Jura Lektorat wird beispielsweise nach juristischen Gesichtspunkten vorgegangen. Ein Jura-Experte besitzt das fachgerechte Wissen, den Gutachtenstil professionell umzusetzen sowie juristische Satzkonstruktionen und Phrasen zu berücksichtigen."
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sei es also ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/bwl
+                          target: null
+                          rel: null
+                    text: BWL
+                  -
+                    type: text
+                    text: ' Lektorat oder ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/jura
+                          target: null
+                          rel: null
+                    text: Jura
+                  -
+                    type: text
+                    text: ' Lektorat, jeder Fachbereich stellt individuelle Ansprüche an den Ghostwriter bei einem wissenschaftlichen Lektorat. Diese hängen nicht nur mit den Bedingungen des wissenschaftlichen Schreibens zusammen. Eine wissenschaftliche Arbeit kann nur dann fachgerecht lektoriert werden, wenn der Ghostwriter den Sachverhalt sowohl inhaltlich versteht. Zudem muss er für das Wissenschaftslektorat auch die für den Fachbereich üblichen wissenschaftlichen Methoden beherrschen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Was passiert mit meinen persönlichen Daten beim Lektorat?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Dem Lektor werden die persönlichen Daten nicht bekannt. Diese werden sowohl in den Dateieigenschaften, als auch in der Arbeit selbst anonymisiert. Außerdem werden sämtliche Daten nach der finalen Auftragsabnahme gelöscht.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Welche Informationen sollte ich einem Lektor zusenden?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In der Regel reicht die Textdatei. Wichtig ist sicherlich auch noch die Angabe ob es sich z.B. um eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: _blank
+                          rel: 'noopener noreferrer'
+                    text: Masterarbeit
+                  -
+                    type: text
+                    text: ' oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: _blank
+                          rel: 'noopener noreferrer'
+                    text: Bachelorarbeit
+                  -
+                    type: text
+                    text: ' handelt, damit der Lektor sich auf das geforderte Niveau einstellen kann. Auch können weitergehende fachliche Informationen (z.B. Grundlagentexte zur Arbeit) sinnvoll sein, damit der Lektor auf diese bei der fachlichen Prüfung zurückgreifen kann. Bei einem wissenschaftlichen Lektorat empfiehlt sich zudem die Zusendung der verwendeten Literatur.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Habe ich direkten Kontakt zu meinem Lektor?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Nein. Ein direkter Kontakt zum Lektor besteht nicht. Fragen werden grundsätzlich über einen persönlichen Projektleiter bei GWriters vermittelt. Es kann jedoch auch eine Telefonkonferenz zwischen Kunden, GWriters und Lektoren vermittelt werden.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ist das Lektorat im akademischen Ghostwriting bei GWriters inkludiert?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ja, jeder Ghostwriting-Auftrag bei GWriters wird einem wissenschaftlichen Lektorat unterzogen. So kann die hohe Qualität der Texte gewährleistet werden.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wer kann einen Lektor beauftragen?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Jeder, der Texte erstellt, kann einen Lektor beauftragten. Hierzu gibt es keine Begrenzungen. Wir bieten unseren Lektorats-Service sowohl für Studenten und Forscher, als auch für Unternehmen und Hobbyautoren an. Unseren erfahrenen Lektoren passen sich problemlos Ihren individuellen Anforderungen an.'
             show_as_card: false
         type: row
         enabled: true
@@ -848,8 +1011,8 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623343201
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1625685540
 meta_title: 'Lektorat von GWriters - Professionell, diskret und akademisch'
 meta_description: 'Akademische Lektoren, Korrektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Lektorat: Leistungen, Ablauf, Kosten & Preise.'
 use_meta_keywords: false

@@ -1,5 +1,6 @@
 ---
 id: 2b3b7b9a-1887-430f-ad24-412937ddac3f
+blueprint: pages
 title: 'Ghostwriter Job'
 replicator:
   -
@@ -101,12 +102,6 @@ replicator:
                 attrs:
                   color: 'rgb(255, 102, 2)'
                   hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /jobs
-                  target: null
-                  rel: null
             text: Jobs
           -
             type: text
@@ -257,7 +252,50 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: "\_und Bachelorarbeiten (auch Bachelorthesis genannt), bis hin zu Mustervorlagen für Masterarbeiten & Dissertationen. Bei uns haben Sie absolut flexible Arbeitszeiten – Sie nehmen nur die Aufträge an, die für Sie von Interesse sind. GWriters steht für absolute Qualität, Transparenz und Zuverlässigkeit. Als Ghostwriter in unserem Team haben sie keinerlei Verpflichtungen zu Mindestvolumina an Aufträgen oder Ähnlichem – Sie nehmen nur den Auftrag an, den auch Ihre persönliche Zeitplanung zulässt. Auch während der Bearbeitungszeiträume sind Sie frei bei der Arbeitseinteilung. Einzige Beschränkung ist lediglich ein möglicherweise einzuhaltender Abgabetermin, der in den meisten Fällen vorher feststeht und Ihnen somit Planungssicherheit gewährleistet."
+            text: "\_und Bachelorarbeiten (auch Bachelorthesis genannt), bis hin zu Mustervorlagen für Masterarbeiten & Dissertationen. Bei uns haben Sie absolut flexible Arbeitszeiten – Sie nehmen nur die Aufträge an, die für Sie von Interesse sind. GWriters steht für absolute Qualität, Transparenz und Zuverlässigkeit."
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: 'Als Ghostwriter in unserem Team haben sie keinerlei Verpflichtungen zu Mindestvolumina an Aufträgen oder Ähnlichem – Sie nehmen nur den Auftrag an, den auch Ihre persönliche Zeitplanung zulässt. Auch während der Bearbeitungszeiträume sind Sie frei bei der Arbeitseinteilung. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Bei GWriters erhalten Ghostwriter Projekte angeboten, die zu ihrem Fachbereich und ihrer Expertise passen. Ob sie diese annehmen, entscheiden die akademischen Ghostwriter selbst. Praktischerweise ist es ihnen so möglich, sich Arbeitsphasen selbst einzuteilen und diese mit dem privaten Zeitplan abzustimmen. Besonders bei beliebten Fachbereichen, wie beispielsweise '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /fachrichtungen/bwl
+                  target: null
+                  rel: null
+            text: BWL
+          -
+            type: text
+            text: ' oder '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /fachrichtungen/jura
+                  target: null
+                  rel: null
+            text: Jura
+          -
+            type: text
+            text: ', haben wir monatlich mehrere hundert Ghostwriting Jobs zu vergeben. Einzige Beschränkung ist lediglich ein möglicherweise einzuhaltender Abgabetermin, der in den meisten Fällen vorher feststeht und Ihnen somit Planungssicherheit gewährleistet.'
       -
         type: heading
         attrs:
@@ -291,7 +329,29 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Eine freiberufliche Beschäftigung in unserem GWriters Team hat den Vorteil, dass jeder Job von zu Hause aus ausgeführt werden kann und Sie sich die Aufträge nach persönlichem Erfahrungs- und Interessengebiet aussuchen können. Durch die Erfahrung, die Sie in Ihrem Beruf oder Ihrer Berufung gesammelt haben, sind Sie in der Lage, die Aufträge in höchster Qualität abzuarbeiten. So können Sie sich als freiberuflicher Ghostwriter in unserem Team eine attraktive Nebenverdienstmöglichkeit erschließen, in welcher Sie garantiert nur in Themengebieten eingesetzt werden, welche Ihr Interesse finden, die Auswahl nehmen Sie selbst vor. Der Job des als Ghostwriter in unserem GWriters Team ist die ideale Nebenbeschäftigung für Akademiker jeder Fachrichtung.'
+            text: 'Eine freiberufliche Beschäftigung in unserem GWriters Team hat den Vorteil, dass jeder Job von zu Hause aus ausgeführt werden kann und Sie sich die Aufträge nach persönlichem Erfahrungs- und Interessengebiet aussuchen können. Durch die Erfahrung, die Sie in Ihrem Beruf oder Ihrer Berufung gesammelt haben, sind Sie in der Lage, die Aufträge in höchster Qualität abzuarbeiten.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Die einzige Voraussetzung ist eine funktionierende Internetverbindung und die telefonische Erreichbarkeit. Denn sollte es Feedback zum Geschriebenen oder Rückfragen vom Kunden geben, möchten wir Sie möglichst zeitnah erreichen können.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: 'So können Sie sich als freiberuflicher Ghostwriter in unserem Team eine attraktive Nebenverdienstmöglichkeit erschließen, in welcher Sie garantiert nur in Themengebieten eingesetzt werden, welche Ihr Interesse finden, die Auswahl nehmen Sie selbst vor. Der Job des als Ghostwriter in unserem GWriters Team ist die ideale Nebenbeschäftigung für Akademiker jeder Fachrichtung.'
       -
         type: paragraph
         content:
@@ -308,6 +368,90 @@ replicator:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
             text: 'Sie als Ghostwriter bleiben bei der Bearbeitung von Aufträgen anonym, GWriters garantiert seinen Ghostwritern sowie den Auftraggebern, dass sämtliche Daten unter keinem Umstand an Dritte weitergegeben werden.'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Flexible Arbeitszeiten'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Mit unseren Kunden und Ghostwritern vereinbaren wir bei Auftragsstart einige feste Termine. Neben dem finalen Abgabedatum sind es bei größeren Projekten, wie beispielsweise bei Texten in Form einer '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Bachelorarbeit
+          -
+            type: text
+            text: ' oder '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/masterarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Masterarbeit
+          -
+            type: text
+            text: ', Termine für Teillieferungen des Geschriebenen. Solange Sie sich an diese Termine haltet, spielt es für uns keine Rolle, wie Sie sich Ihre Arbeitszeiten einteilen.'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Als akademischer Ghostwriter Fachwissen anwenden'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Nicht selten beklagen sich Absolventen von Universitäten darüber, dass sie ihr mühsam angelerntes Studienwissen nicht in der Arbeitswelt anwenden können. Wer sich in der Welt der Wissenschaft wohl fühlt und sie ungerne ganz verlassen möchte, ist im Ghostwriting-Team von GWriters gut aufgehoben. Da Sie als akademischer Ghostwriter bei GWriters Ihr Arbeitspensum selbst bestimmen könnt, ist es problemlos möglich auch nebenberuflich für unsere '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriting/ghostwriting-agentur
+                  target: null
+                  rel: null
+            text: 'Ghostwriting Agentur'
+          -
+            type: text
+            text: ' Mustervorlagen zu verfassen.'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Ghostwriting ist eine intellektuelle Herausforderung'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Bei GWriters ist jedes Projekt ein Unikat. Mit jedem neuen Thema gibt es eine neue intellektuelle Herausforderungen und unterschiedliche Arbeitsweisen, die ausprobiert werden können. Zudem könnt Sie Ihre eigenen Ideen in Projekte einbringen, den Grad zwischen Empirie und Theorie bei Arbeiten mitbestimmen und sich laufend in neue interessante Themenbereiche vorwagen.'
+      -
+        type: paragraph
+        content:
           -
             type: hard_break
             marks:
@@ -345,8 +489,8 @@ replicator:
     type: editor
     enabled: true
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623333137
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1625680026
 page_title: 'GWriters • Ghostwriter Job'
 meta_title: 'GWriters • Ghostwriter Job'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie bester Verdienst & volle Freiheit - Ghostwriter Job bei GWriters!'
