@@ -1,5 +1,6 @@
 ---
 id: ee7572aa-9e1a-4152-928f-2a05814a2b39
+blueprint: pages
 title: 'Suche Ghostwriter'
 teaser:
   -
@@ -287,10 +288,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/akademische-ghostwriter-vorteile
+                  href: /ghostwriter-job
                   target: null
                   rel: null
-            text: '5 unschlagbare Vorteile, die für einen Job als akademischer Ghostwriter sprechen'
+            text: 'Arbeiten als akademischer Ghostwriter'
           -
             type: hard_break
           -
@@ -335,7 +336,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623342909
+updated_at: 1625762703
 meta_title: 'GWriters • professioneller akademischer Ghostwriter gesucht?'
 meta_description: 'Sie benötigen einen Ghostwriter? Wenn Ghostwriter gesucht werden, ist unsere Ghostwriting Agentur der beste Partner für seriösen Service!'
 use_meta_keywords: false
