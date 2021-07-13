@@ -44,8 +44,8 @@ teaser:
         color: '#FF6606'
         spacing_top: false
 teaser_bg: seiten/header-so-funktionierts.jpeg
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1625601128
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1626093956
 replicator:
   -
     bard:
@@ -507,7 +507,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/akademische-ghostwriter-gwriters-angebot
+                  href: /so-funktioniert-es
                   target: null
                   rel: null
             text: 'Video: Wie entsteht ein Ghostwriter-Angebot bei GWriters?'
@@ -531,10 +531,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/gwriters-akademische-ghostwriter-ethik
+                  href: /ghostwriter
                   target: null
                   rel: null
-            text: 'Video: Akademische Ghostwriter & Ethik bei GWriters'
+            text: 'Video: Akademische Ghostwriter'
       -
         type: paragraph
         content:

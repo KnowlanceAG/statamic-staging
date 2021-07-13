@@ -1,5 +1,6 @@
 ---
 id: b9b1d323-3250-4ab0-b8a1-ade30acce135
+blueprint: pages
 title: 'Korrektorat Preise'
 teaser:
   -
@@ -189,10 +190,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/akademisches-ghostwriting-alternativen
+                  href: /ghostwriting
                   target: null
                   rel: null
-            text: 'Video: 4 Alternativen zum akademischen Ghostwriting'
+            text: 'Video: Akademisches Ghostwriting'
           -
             type: hard_break
           -
@@ -226,7 +227,7 @@ replicator:
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623343960
+updated_at: 1625762878
 page_title: 'Korrektorat Preise - sicher und fair • GWriters'
 meta_title: 'Korrektorat Preise - sicher und fair • GWriters'
 meta_description: 'Möchten Sie die aktuellen Korrektorat Preise erfahren? Die Ghostwriter Agentur GWriters.de arbeitet diskret, qualitativ und zu fairen Preisen.'

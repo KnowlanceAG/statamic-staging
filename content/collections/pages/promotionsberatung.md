@@ -367,20 +367,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Grundsätzlich ist der Erwerb eines Doktortitels im Ausland nicht illegal. Neben der Erarbeitung und Verfassung der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/doktorarbeit
-                          target: null
-                          rel: null
-                    text: Doktorarbeit
-                  -
-                    type: text
-                    text: ', ist allerdings auch die Institution ein Kriterium für die Zulässigkeit der Titelverleihung. Nur über ausländische Institutionen, die zur Verleihung der Doktorwürde befugt und von deutschen Behörden anerkannt sind, kann rechtmäßig eine Promotion erfolgen. Hierbei gilt es darauf zu achten, stets an einer international anerkannten Hochschule zu promovieren.'
+                    text: 'Grundsätzlich ist der Erwerb eines Doktortitels im Ausland nicht illegal. Neben der Erarbeitung und Verfassung der Doktorarbeit, ist allerdings auch die Institution ein Kriterium für die Zulässigkeit der Titelverleihung. Nur über ausländische Institutionen, die zur Verleihung der Doktorwürde befugt und von deutschen Behörden anerkannt sind, kann rechtmäßig eine Promotion erfolgen. Hierbei gilt es darauf zu achten, stets an einer international anerkannten Hochschule zu promovieren.'
               -
                 type: paragraph
                 content:
@@ -520,9 +507,9 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /blog/promotionsberater-ghostwriter
+                          href: /promotionsberatung
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: null
                     text: 'Promotionsberatung & Ghostwriting – Was sind die Unterschiede?'
                   -
                     type: hard_break
@@ -548,18 +535,6 @@ replicator:
                           target: _blank
                           rel: 'noopener noreferrer'
                     text: 'Doktorvater finden – Praktische Tipps für Deine Suche'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/doktorarbeit-erfolgreich
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Was macht eine erfolgreiche Doktorarbeit aus?'
               -
                 type: heading
                 attrs:
@@ -648,7 +623,7 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1625685751
+updated_at: 1626088456
 meta_title: 'Unsere seriöse Promotionsberatung • GWriters'
 meta_description: 'Bei GWriters erhalten Sie eine seriöse Promotionsberatung von unseren erfahrenen akademischen Ghostwritern, Lektoren und Coaches. Auf Sie zugeschnitten!'
 use_meta_keywords: false

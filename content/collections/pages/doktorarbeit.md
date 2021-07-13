@@ -1637,9 +1637,9 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/promotionsberater-ghostwriter
-                  target: _blank
-                  rel: 'noopener noreferrer'
+                  href: /promotionsberatung
+                  target: null
+                  rel: null
             text: 'Promotionsberatung & Ghostwriting – Was sind die Unterschiede?'
           -
             type: hard_break
@@ -1673,9 +1673,9 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/doktorarbeit-schreiben-ablauf
-                  target: _blank
-                  rel: 'noopener noreferrer'
+                  href: /blog/dissertation-schreiben-motivationstipps
+                  target: null
+                  rel: null
             text: 'Doktorarbeit schreiben – Wie läuft es ab?'
       -
         type: heading
@@ -1778,8 +1778,8 @@ replicator:
     show_as_card: false
 parent: 6300bfa7-4b29-41fb-a2d9-422ef612d3d4
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1625509586
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1625758395
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false

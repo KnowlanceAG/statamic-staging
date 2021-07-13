@@ -1,5 +1,6 @@
 ---
 id: 0bf935ee-19ca-4690-9c7f-9cb5c399a9b0
+blueprint: pages
 title: 'Korrektor gesucht'
 teaser:
   -
@@ -202,10 +203,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/akademisches-ghostwriting-alternativen
+                  href: /ghostwriting
                   target: null
                   rel: null
-            text: 'Video: 4 Alternativen zum akademischen Ghostwriting'
+            text: 'Video: Akademisches Ghostwriting'
       -
         type: paragraph
         content:
@@ -226,7 +227,7 @@ replicator:
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623343870
+updated_at: 1625762803
 page_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
 meta_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
 meta_description: 'Korrektor gesucht? Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches sowie Informationen zu Ablauf, Kosten & Preisen finden Sie bei GWriters!'
