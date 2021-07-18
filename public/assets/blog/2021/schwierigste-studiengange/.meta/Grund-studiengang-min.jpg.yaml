@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Gründe: Studiengang'
+  caption: 'Gründe für die Studienwahl nach Geschlecht'
 size: 12114
 last_modified: 1626600599
 width: 704
