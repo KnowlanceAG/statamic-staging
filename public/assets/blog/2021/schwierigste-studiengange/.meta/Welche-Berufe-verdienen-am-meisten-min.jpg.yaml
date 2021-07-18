@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: FH
+  caption: 'Einstiegsgehalt nach Studiengang (Quelle: Statista, 2021, https://de.statista.com/statistik/daten/studie/183075/umfrage/einstiegsgehaelter-fuer-hochschulabsolventen-nach-studienrichtung/) URL:'
 size: 48403
 last_modified: 1626603192
 width: 699
