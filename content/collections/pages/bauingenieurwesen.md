@@ -1,5 +1,6 @@
 ---
 id: 9944d809-005e-4651-bf9b-5555f0229245
+blueprint: pages
 title: Bauingenieurwesen
 teaser:
   -
@@ -56,7 +57,7 @@ page_title: 'Bauingenieurwesen Ghostwriter, Lektoren & Coaches • GWriters.de'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1623664782
+updated_at: 1626792583
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1563,7 +1564,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Alle Studieninhalte von Bauingenieurwesen sind in der Abbildung von der'
+                    text: 'Alle Studieninhalte von Bauingenieurwesen sind in der Abbildung von der '
                   -
                     type: text
                     marks:
@@ -1582,7 +1583,7 @@ replicator:
                           href: 'https://h-da.de/studium/studienangebot/studiengaenge/ingenieurwissenschaften/bauingenieurwesen-beng'
                           target: _blank
                           rel: nofollow
-                    text: "\_Hochschule Darmstadt\_"
+                    text: 'Hochschule Darmstadt'
                   -
                     type: text
                     marks:
@@ -1590,7 +1591,20 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: zusehen.
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: 'zu sehen.'
               -
                 type: set
                 attrs:
@@ -1749,7 +1763,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_Bauingenieurwesen,\_"
+                    text: ', '
                   -
                     type: text
                     marks:
@@ -1776,7 +1790,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_Bauingenieurwesen,\_"
+                    text: ",\_"
                   -
                     type: text
                     marks:
@@ -1803,7 +1817,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_Bauingenieurwesen,\_"
+                    text: ",\_"
                   -
                     type: text
                     marks:
@@ -1830,7 +1844,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_Bauingenieurwesen,\_"
+                    text: ",\_"
                   -
                     type: text
                     marks:
@@ -1857,7 +1871,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_Bauingenieurwesen,\_"
+                    text: ",\_"
                   -
                     type: text
                     marks:
@@ -1884,7 +1898,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_Bauingenieurwesen etc."
+                    text: "\_ etc."
               -
                 type: heading
                 attrs:
@@ -2162,7 +2176,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.ftbgu.de/fileadmin/user_upload/Publikationen/berufsbild_bauing.pdf'
+                          href: 'https://ftbgu.de/fileadmin/user_upload/Publikationen/berufsbild_bauing.pdf'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'Tätigkeitsgebiete im Bauingenieurwesen'
