@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1627299997
+updated_at: 1627300081
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1324,12 +1324,6 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '27'
-              -
-                type: set
-                attrs:
-                  values:
                     type: text_box-alignment
                     bard:
                       -
@@ -1339,6 +1333,14 @@ replicator:
                             type: text
                             text: 'Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich auch kostenlos im Rahmen der weiteren Umsetzungsschritte realisiert. Bei Fragen und Änderungswünschen, die im Rahmen dieses gesamten Projektes auftreten, ist ihr Projektmanager immer Ihr persönlicher Ansprechpartner. Dieser Projektmanager bleibt immer gleich während des gesamten Projektes und ist bei Fragen oder Problemen telefonisch oder per E-Mail ständig für Sie erreichbar.'
                     text_ausrichtung: text-left
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '26'
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
