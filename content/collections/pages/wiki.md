@@ -1,8 +1,9 @@
 ---
 id: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
+blueprint: pages
 title: Wiki
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623324855
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1627299365
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -923,20 +924,7 @@ replicator:
             text: 'Verschiedenes:'
           -
             type: text
-            text: ' '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /wiki/diplom-kaufen
-                  target: null
-                  rel: null
-            text: 'Diplom kaufen'
-          -
-            type: text
-            text: " \_|\_"
+            text: "\_"
           -
             type: text
             marks:
