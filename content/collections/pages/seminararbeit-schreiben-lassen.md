@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627296606
+updated_at: 1627296633
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1567,7 +1567,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
