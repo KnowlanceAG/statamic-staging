@@ -1,5 +1,6 @@
 ---
 id: aa35a1ca-0812-4402-a4d5-4a6d4aa8c1c0
+blueprint: pages
 title: Masterarbeit
 teaser:
   -
@@ -188,7 +189,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Leistungen'
+                    text: 'Unsere Leistungen:'
             show_as_card: false
         type: row
         enabled: true
@@ -336,7 +337,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -357,14 +359,15 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /promotionsberatung
+                          href: /leistungen/plagiatspruefung
                           target: null
                           rel: null
-                    text: Promotionsberatung
+                    text: Plagiatsprüfung
             show_as_card: false
         type: row
         enabled: true
@@ -1061,7 +1064,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
-    remove_spacing: false
+    remove_spacing: true
     border: false
   -
     bard:
@@ -1373,8 +1376,8 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623324219
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1627298596
 meta_title: 'Masterarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Mustervorlage für Masterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
