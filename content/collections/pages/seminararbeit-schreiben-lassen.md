@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1627299919
+updated_at: 1627299997
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1309,11 +1309,23 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '29'
+              -
+                type: set
+                attrs:
+                  values:
                     type: floating-img
                     dateien:
                       - seiten/arbeiten/seminararbeit/Kostenlos-feedback-umsetzen.JPG
                     img_size: w-1/4
                     float: float-right
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '27'
               -
                 type: set
                 attrs:
