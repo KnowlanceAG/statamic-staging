@@ -199,7 +199,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Leistungen'
+                    text: 'Unsere Leistungen:'
             show_as_card: false
         type: row
         enabled: true
@@ -1419,7 +1419,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627298432
+updated_at: 1627299206
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
