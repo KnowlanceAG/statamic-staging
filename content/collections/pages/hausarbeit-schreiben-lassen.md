@@ -162,12 +162,6 @@ replicator:
             type: text
             text: 'Auf der einen Seite hört es sich einfach an eine Hausarbeit zu erstellen: einfach mal zehn bis zwanzig Seiten schreiben - fertig. Jedoch grade darin liegt die große Herausforderung bei der Erstellung einer Hausarbeit. Besondere Schwierigkeiten haben die Studienanfänger, denn diese kennen die relevanten Datenbanken, Literaturquellen und wissenschaftlichen Arbeitsmethoden nicht. Selbst wenn alle notwendigen Informationen für sie zur Verfügung stehen oder im Rahmen von Seminaren zum wissenschaftlichen Arbeiten vermittelt werden, entstehen Probleme beim Zusammenführen der Daten, sodass keine schlüssige wissenschaftliche Hausarbeit entsteht.'
       -
-        type: set
-        attrs:
-          values:
-            type: video
-            video: 'https://www.youtube.com/embed/AIQ1xWXO_1M'
-      -
         type: heading
         attrs:
           level: 2
@@ -1425,7 +1419,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627298410
+updated_at: 1627298432
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
