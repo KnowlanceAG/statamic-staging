@@ -1,9 +1,10 @@
 ---
 id: d118c7b2-141d-4bac-972d-c1502381a340
+blueprint: pages
 title: Arbeiten
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623322002
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1627301001
 teaser:
   -
     type: heading
@@ -80,59 +81,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Von besonderer Bedeutung im Rahmen unseres Ghostwriting-Services sind unsere Dienstleistungen rund um die Erstellung von wissenschaftlichen Mustervorlagen. Genannt werden können hier beispielhaft  '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /arbeiten/hausarbeit-schreiben-lassen
-                  target: null
-                  rel: null
-            text: Hausarbeiten
-          -
-            type: text
-            text: ', '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /arbeiten/seminararbeit-schreiben-lassen
-                  target: null
-                  rel: null
-            text: Seminararbeiten
-          -
-            type: text
-            text: ', '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /arbeiten/bachelorarbeit-schreiben-lassen
-                  target: null
-                  rel: null
-            text: Bachelorarbeiten
-          -
-            type: text
-            text: ' und '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /arbeiten/masterarbeit-schreiben-lassen
-                  target: null
-                  rel: null
-            text: Masterarbeiten
-          -
-            type: text
-            text: .
+            text: 'Von besonderer Bedeutung im Rahmen unseres Ghostwriting-Services sind unsere Dienstleistungen rund um die Erstellung von wissenschaftlichen Mustervorlagen. Genannt werden können hier beispielhaft  Hausarbeiten, Seminararbeiten, Bachelorarbeiten und Masterarbeiten.'
       -
         type: heading
         attrs:
