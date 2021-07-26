@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1627307002
+updated_at: 1627307670
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1257,403 +1257,6 @@ replicator:
                   -
                     type: text
                     text: 'Wie sieht der Prozess bei der Erstellung einer Vorlage für die Seminararbeit aus?'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating-img
-                    img_size: w-1/4
-                    float: float-right
-              -
-                type: set
-                attrs:
-                  values:
-                    type: text_box-alignment
-                    bard:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Nach einer unverbindlichen Anfrage auf der Webseite, erhalten Sie ein kostenloses Angebot und eine individuelle Beratung zur Planung eines Projektes von unseren Kundenberater. Nach einer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre wissenschaftlichen Arbeit. Unsere professionellen Projektmanager übernehmen die gesamte Kommunikation, sodass stets Ihre Anonymität und gleichzeitig auch die Anonymität des Autors gesichert ist.'
-                    text_ausrichtung: text-left
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '41'
-              -
-                type: horizontal_rule
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating-img
-                    img_size: w-1/4
-                    float: float-right
-              -
-                type: set
-                attrs:
-                  values:
-                    type: text_box-alignment
-                    bard:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Bei größeren Seminararbeiten ist auch eine anonyme Telefonkonferenz mit dem jeweiligen Autor möglich. Je nach Umfang der Mustervorlage werden eine oder mehrere Teillieferungen vereinbart. Gerade diese Teillieferungen sind wichtig, um einen Abgleich zu erhalten zwischen Ihren Anforderungen aus dem Thema heraus und dem, was Ihr Autor geliefert hat.'
-                    text_ausrichtung: text-left
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '54'
-              -
-                type: horizontal_rule
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating-img
-                    img_size: w-1/4
-                    float: float-right
-              -
-                type: set
-                attrs:
-                  values:
-                    type: text_box-alignment
-                    bard:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich auch kostenlos im Rahmen der weiteren Umsetzungsschritte realisiert. Bei Fragen und Änderungswünschen, die im Rahmen dieses gesamten Projektes auftreten, ist ihr Projektmanager immer Ihr persönlicher Ansprechpartner. Dieser Projektmanager bleibt immer gleich während des gesamten Projektes und ist bei Fragen oder Problemen telefonisch oder per E-Mail ständig für Sie erreichbar.'
-                    text_ausrichtung: text-left
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '28'
-              -
-                type: horizontal_rule
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating-img
-                    img_size: w-1/4
-                    float: float-right
-              -
-                type: set
-                attrs:
-                  values:
-                    type: text_box-alignment
-                    bard:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: "Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen Lektor kontrolliert \_mit Hilfe einer professionellen Software auf Plagiate geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben."
-                    text_ausrichtung: text-left
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '27'
-              -
-                type: horizontal_rule
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: /anfrage
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    spacing_top: false
-              -
-                type: horizontal_rule
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Was ist der Unterschied zwischen einer Vorlesung und einem Seminar?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In der Vorlesung hält ein Dozent Vorträge über bestimmte Themen, zu denen im Anschluss einzelne Fragen gestellt werden können. Bestimmte Leistungen werden von den Teilnehmern nicht erwartet, während der Veranstaltung beschränkt sich die Mitarbeit der Studenten lediglich auf Mitschriften. ?Seminare sollen in kleinen Gruppen begleitend zur Vorlesung stattfinden und enden mit einer zu bewertenden Seminararbeit. Sehr häufig finden diese in den Bereichen der BWL, VWL und Jura statt. Durch ihre geringe Teilnehmerzahl sollen Studenten in Seminaren wesentlich stärker in die Wissensvermittlung eingebunden werden.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die Thematik wird gemeinsam mit dem leitenden Dozenten oder Studenten erarbeitet, besprochen und diskutiert. Im Gegensatz zu Vorlesungen ist in Seminaren eine aktive Mitarbeit erwünscht. In der Praxis scheitert dieses Konzept jedoch oft an der Anzahl der Studenten, die solch ein Seminar belegen möchten. Diese übersteigt in dem meisten Fällen die erstrebte Anzahl von 5-20 Kursteilnehmern um ein Vielfaches, Kurse mit 80-100 Studenten sind keine Seltenheit. ?Solche Umstände führen keineswegs zu einer wirksamen Vermittlung des Lernstoffs, was den Studenten die Beantwortung der Frage „Wie schreibe ich eine Seminararbeit?“ erschwert oder sogar unmöglich macht.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Wie schreibt man eine Seminararbeit?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Je nach Fachrichtung und Dozent gelten unterschiedliche Anforderungen bei der Anfertigung der Seminararbeit. Hierbei müssen jedoch die allgemeinen Vorschriften der wissenschaftlichen Arbeit befolgt werden. Diese beinhalten eine streng logische Gliederung, saubere und transparente Recherche, schlüssige Gedankengänge und Formulierungen (der sprichwörtliche "rote Faden"), sowie konsistente Zitation der verwendeten Literatur.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In den Fachbereichen der Mathematik, Physik und Informatik werden wird oftmals der sichere Umgang mit fachspezifischer Software vorausgesetzt. Oft werden dabei als Unterstützung Muster der Seminararbeit als Beispiele durch den Dozenten veröffentlicht oder durch einen Ghostwriter eine Seminararbeit als Vorlage erstellt.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Einige Formalien haben sich dabei als gängig erwiesen:'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Gliederung der Seminararbeit:'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '• Deckblatt'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Inhaltsverzeichnis Seminararbeit'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Einleitung'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Hauptteil'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Schluss'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Abkürzungsverzeichnis'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Literatur- und Quellenverzeichnis für die verwendeten Quellen.'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Eidesstattliche Erklärung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Formatierung der Seminararbeit:'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '• Seitenrand: oben und unten je 2,5cm, links 5cm, rechts 1,5cm'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Seitenzahlen: unten zentriert/rechts, auf Deckblatt/Inhaltsverzeichnis keine Seitenzahl'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Schriftgröße und –Art im Fließtext: 12 Pt Arial oder Times New Roman, Blocksatz'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Zeilenabstand: 1,5-zeilig'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Fußnotentext: 10 Pt Blocksatz, 1,0-zeilig, Fußnoten werden hoch gestellt'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: Disclaimer
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Einige unserer Blogartikel zum Thema Seminararbeit & Mustervorlage für Seminararbeit schreiben lassen'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/erste-seminararbeit-schreiben
-                          target: null
-                          rel: null
-                    text: 'Erste Seminararbeit schreiben – 8 praktische Tipps vom Profi'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/umfrage-erstellen-tools
-                          target: null
-                          rel: null
-                    text: 'Umfrage erstellen für wissenschaftliche Arbeiten: 6 Tools im Vergleich'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/wissenschaftliche-arbeiten-schreiben
-                          target: null
-                          rel: null
-                    text: 'Wie Du wissenschaftliche Arbeiten in wenigen Tagen schreibst (ohne dabei verrückt zu werden)'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/suche-ghostwriter
-                          target: null
-                          rel: null
-                    text: 'Tipps für die Ghostwriter-Suche'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Nützliche Weblinks & Referenzen'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.avl.uni-mainz.de/hinweise-zum-erstellen-einer-seminararbeit/'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Hinweise zum Erstellen einer Seminararbeit - Johannes Gutenberg Universität Mainz'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.slm.uni-hamburg.de/iaa/studium/downloads/hausarbeiten-und-lektuerelisten.html'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Hausarbeiten und Lektürelisten - Universität Hamburg'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.uni-muenster.de/imperia/md/content/ew/personen/fuerstenau/zak_leitfaden_erstellung_seminarbeit_10-07.pdf'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Formvorgaben für Seminararbeiten - Westfälische Wilhelms-Universität Münster'
-              -
-                type: paragraph
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
@@ -1696,12 +1299,390 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei größeren Seminararbeiten ist auch eine anonyme Telefonkonferenz mit dem jeweiligen Autor möglich. Je nach Umfang der Mustervorlage werden eine oder mehrere Teillieferungen vereinbart. Gerade diese Teillieferungen sind wichtig, um einen Abgleich zu erhalten zwischen Ihren Anforderungen aus dem Thema heraus und dem, was Ihr Autor geliefert hat.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/arbeiten/seminararbeit/Terminvereinbarung.jpg
+                    img_size: w-1/2
+                    float: mx-auto
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich auch kostenlos im Rahmen der weiteren Umsetzungsschritte realisiert. Bei Fragen und Änderungswünschen, die im Rahmen dieses gesamten Projektes auftreten, ist ihr Projektmanager immer Ihr persönlicher Ansprechpartner. Dieser Projektmanager bleibt immer gleich während des gesamten Projektes und ist bei Fragen oder Problemen telefonisch oder per E-Mail ständig für Sie erreichbar.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/arbeiten/seminararbeit/feedback.jpg
+                    img_size: w-1/2
+                    float: mx-auto
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen Lektor kontrolliert \_mit Hilfe einer professionellen Software auf Plagiate geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben."
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/arbeiten/seminararbeit/mustervorlage.jpg
+                    img_size: w-1/2
+                    float: mx-auto
+            show_as_card: false
+        type: row
+        enabled: true
     remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
+    enabled: true
+  -
+    bard:
+      -
+        type: horizontal_rule
+      -
+        type: set
+        attrs:
+          values:
+            type: button
+            button_link: /anfrage
+            button_text: 'JETZT KOSTENLOS ANFRAGEN'
+            button_align: justify-center
+            spacing_top: false
+      -
+        type: horizontal_rule
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Was ist der Unterschied zwischen einer Vorlesung und einem Seminar?'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'In der Vorlesung hält ein Dozent Vorträge über bestimmte Themen, zu denen im Anschluss einzelne Fragen gestellt werden können. Bestimmte Leistungen werden von den Teilnehmern nicht erwartet, während der Veranstaltung beschränkt sich die Mitarbeit der Studenten lediglich auf Mitschriften. ?Seminare sollen in kleinen Gruppen begleitend zur Vorlesung stattfinden und enden mit einer zu bewertenden Seminararbeit. Sehr häufig finden diese in den Bereichen der BWL, VWL und Jura statt. Durch ihre geringe Teilnehmerzahl sollen Studenten in Seminaren wesentlich stärker in die Wissensvermittlung eingebunden werden.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Die Thematik wird gemeinsam mit dem leitenden Dozenten oder Studenten erarbeitet, besprochen und diskutiert. Im Gegensatz zu Vorlesungen ist in Seminaren eine aktive Mitarbeit erwünscht. In der Praxis scheitert dieses Konzept jedoch oft an der Anzahl der Studenten, die solch ein Seminar belegen möchten. Diese übersteigt in dem meisten Fällen die erstrebte Anzahl von 5-20 Kursteilnehmern um ein Vielfaches, Kurse mit 80-100 Studenten sind keine Seltenheit. ?Solche Umstände führen keineswegs zu einer wirksamen Vermittlung des Lernstoffs, was den Studenten die Beantwortung der Frage „Wie schreibe ich eine Seminararbeit?“ erschwert oder sogar unmöglich macht.'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Wie schreibt man eine Seminararbeit?'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Je nach Fachrichtung und Dozent gelten unterschiedliche Anforderungen bei der Anfertigung der Seminararbeit. Hierbei müssen jedoch die allgemeinen Vorschriften der wissenschaftlichen Arbeit befolgt werden. Diese beinhalten eine streng logische Gliederung, saubere und transparente Recherche, schlüssige Gedankengänge und Formulierungen (der sprichwörtliche "rote Faden"), sowie konsistente Zitation der verwendeten Literatur.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'In den Fachbereichen der Mathematik, Physik und Informatik werden wird oftmals der sichere Umgang mit fachspezifischer Software vorausgesetzt. Oft werden dabei als Unterstützung Muster der Seminararbeit als Beispiele durch den Dozenten veröffentlicht oder durch einen Ghostwriter eine Seminararbeit als Vorlage erstellt.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Einige Formalien haben sich dabei als gängig erwiesen:'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Gliederung der Seminararbeit:'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '• Deckblatt'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Inhaltsverzeichnis Seminararbeit'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Einleitung'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Hauptteil'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Schluss'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Abkürzungsverzeichnis'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Literatur- und Quellenverzeichnis für die verwendeten Quellen.'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Eidesstattliche Erklärung'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Formatierung der Seminararbeit:'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '• Seitenrand: oben und unten je 2,5cm, links 5cm, rechts 1,5cm'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Seitenzahlen: unten zentriert/rechts, auf Deckblatt/Inhaltsverzeichnis keine Seitenzahl'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Schriftgröße und –Art im Fließtext: 12 Pt Arial oder Times New Roman, Blocksatz'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Zeilenabstand: 1,5-zeilig'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '• Fußnotentext: 10 Pt Blocksatz, 1,0-zeilig, Fußnoten werden hoch gestellt'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: Disclaimer
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Einige unserer Blogartikel zum Thema Seminararbeit & Mustervorlage für Seminararbeit schreiben lassen'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/erste-seminararbeit-schreiben
+                  target: null
+                  rel: null
+            text: 'Erste Seminararbeit schreiben – 8 praktische Tipps vom Profi'
+          -
+            type: hard_break
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/umfrage-erstellen-tools
+                  target: null
+                  rel: null
+            text: 'Umfrage erstellen für wissenschaftliche Arbeiten: 6 Tools im Vergleich'
+          -
+            type: hard_break
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/wissenschaftliche-arbeiten-schreiben
+                  target: null
+                  rel: null
+            text: 'Wie Du wissenschaftliche Arbeiten in wenigen Tagen schreibst (ohne dabei verrückt zu werden)'
+          -
+            type: hard_break
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/suche-ghostwriter
+                  target: null
+                  rel: null
+            text: 'Tipps für die Ghostwriter-Suche'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Nützliche Weblinks & Referenzen'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.avl.uni-mainz.de/hinweise-zum-erstellen-einer-seminararbeit/'
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
+            text: 'Hinweise zum Erstellen einer Seminararbeit - Johannes Gutenberg Universität Mainz'
+          -
+            type: hard_break
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.slm.uni-hamburg.de/iaa/studium/downloads/hausarbeiten-und-lektuerelisten.html'
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
+            text: 'Hausarbeiten und Lektürelisten - Universität Hamburg'
+          -
+            type: hard_break
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.uni-muenster.de/imperia/md/content/ew/personen/fuerstenau/zak_leitfaden_erstellung_seminarbeit_10-07.pdf'
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
+            text: 'Formvorgaben für Seminararbeiten - Westfälische Wilhelms-Universität Münster'
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: link
+                attrs:
+                  href: /wiki
+                  target: null
+                  rel: null
+            text: '< zurück zur Wiki Übersicht'
+    show_as_card: false
+    type: editor
     enabled: true
 use_meta_keywords: false
 no_index_page: false
