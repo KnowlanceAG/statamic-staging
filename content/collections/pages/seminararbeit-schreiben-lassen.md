@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627296277
+updated_at: 1627296606
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -188,17 +188,29 @@ replicator:
           -
             type: text
             text: "\_bei einer solchen Seminararbeit keine große Herausforderung dar, für ihn ist der Anspruch vergleichsweise gering. So hilft der Bearbeiter dem Studenten gezielt bei seinen Defiziten und unterstützt ihn beispielsweise bei der Gliederung der Seminararbeit. An der abgeschlossenen Seminararbeit kann er die Methodik sehr gut nachvollziehen und muss sie sich nicht mühsam in Eigenregie anlernen."
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Unser Leistungen'
     show_as_card: false
   -
     columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unser Leistungen:'
+                  -
+                    type: hard_break
+            show_as_card: false
+        type: row
+        enabled: true
       -
         responsive_columns: 1
         columns_per_row: '3'
@@ -397,6 +409,8 @@ replicator:
                   -
                     type: text
                     text: 'Wichtige Fachbereiche:'
+                  -
+                    type: hard_break
             show_as_card: false
         type: row
         enabled: true
@@ -1100,7 +1114,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
