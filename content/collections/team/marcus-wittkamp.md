@@ -68,11 +68,11 @@ bard:
                     attrs:
                       align: left
                 text: "\_hat er in diesen Disziplinen bereits eine Vielzahl an wissenschaftlichen Arbeiten und Artikeln verfasst und kann daher auf einen breiten Erfahrungsschatz als Ghostwriter für Wirtschaftswissenschaften zurückblicken. Darüber hinaus nutzt sein einzigartiges Auge fürs Detail als einer unserer Supervisor, die die herausragende Qualität jeder von uns erstellten wissenschaftlichen Arbeit sichern."
-        text_ausrichtung: text-justify
+        text_ausrichtung: text-left
   -
     type: paragraph
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627300581
+updated_at: 1627300616
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
