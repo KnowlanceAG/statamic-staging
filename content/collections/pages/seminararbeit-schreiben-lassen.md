@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1627308983
+updated_at: 1627309186
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1249,14 +1249,6 @@ replicator:
                   -
                     type: text
                     text: "Genau diese Fragestellung ist schwierig zu beantworten ohne Methoden-Know-How und Fachwissen. Hinzu kommt, dass die Themen und die Themenstellungen innerhalb von Seminararbeiten sehr vielfältiger Art und Weise sind. Seminararbeiten sind häufig sehr stark auf eine konkrete Fragestellung fokussiert. Hierfür bringen die besten und grundlegenden Voraussetzungen erfahrene \_Ghostwriter mit sich. Ghostwriter können wertvolle Hilfestellung insbesondere für die Studienanfänger leisten. Beispielsweise sind professionell erstelle Mustervorlagen gute Orientierungsmöglichkeiten für den Anfang des Studiums beim Schreiben einer Seminararbeit. Ghostwriter besitzen sowohl das Methoden-Know-How zur Erstellung einer Seminararbeit, als auch viele große praktische Erfahrung bei der Erstellung einer solchen Arbeit. Zudem forschen die sie schnell und effizient über die jeweilige Themenstellung, die im Rahmen einer Seminararbeit bearbeitet werden muss. Denn Ghostwriter kennen den aktuellen Forschungsstand und haben Zugriff zu relevanten Datenbanken für Literatur und empirische Daten."
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Wie sieht der Prozess bei der Erstellung einer Vorlage für die Seminararbeit aus?'
             show_as_card: false
         type: row
         enabled: true
@@ -1269,6 +1261,24 @@ replicator:
     enabled: true
   -
     columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wie sieht der Prozess bei der Erstellung einer Vorlage für die Seminararbeit aus?'
+            show_as_card: false
+        type: row
+        enabled: true
       -
         responsive_columns: 1
         columns_per_row: '2'
@@ -1324,6 +1334,16 @@ replicator:
                       - seiten/arbeiten/seminararbeit/terminvereinbarung.png
                     img_size: w-1/2
                     float: mx-auto
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard: null
             show_as_card: false
         type: row
         enabled: true
