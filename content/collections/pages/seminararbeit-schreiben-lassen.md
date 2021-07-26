@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1627300670
+updated_at: 1627306975
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1262,8 +1262,6 @@ replicator:
                 attrs:
                   values:
                     type: floating-img
-                    dateien:
-                      - seiten/arbeiten/seminararbeit/unverbindliche-Anfrage-1627299606.JPG
                     img_size: w-1/4
                     float: float-right
               -
@@ -1292,8 +1290,6 @@ replicator:
                 attrs:
                   values:
                     type: floating-img
-                    dateien:
-                      - seiten/arbeiten/seminararbeit/terminvereinbarung.JPG
                     img_size: w-1/4
                     float: float-right
               -
@@ -1322,8 +1318,6 @@ replicator:
                 attrs:
                   values:
                     type: floating-img
-                    dateien:
-                      - seiten/arbeiten/seminararbeit/Kostenlos-feedback-umsetzen.JPG
                     img_size: w-1/4
                     float: float-right
               -
@@ -1352,8 +1346,6 @@ replicator:
                 attrs:
                   values:
                     type: floating-img
-                    dateien:
-                      - seiten/arbeiten/seminararbeit/Mustervorlage-ausliefern.JPG
                     img_size: w-1/4
                     float: float-right
               -
@@ -1666,6 +1658,45 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Nach einer unverbindlichen Anfrage auf der Webseite, erhalten Sie ein kostenloses Angebot und eine individuelle Beratung zur Planung eines Projektes von unseren Kundenberater. Nach einer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre wissenschaftlichen Arbeit. Unsere professionellen Projektmanager übernehmen die gesamte Kommunikation, sodass stets Ihre Anonymität und gleichzeitig auch die Anonymität des Autors gesichert ist.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/arbeiten/seminararbeit/anfrage.jpg
+                    img_size: w-1/4
+                    float: mx-auto
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
