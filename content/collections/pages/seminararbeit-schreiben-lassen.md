@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1627300182
+updated_at: 1627300364
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1257,15 +1257,6 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
-                    dateien:
-                      - seiten/arbeiten/seminararbeit/unverbindliche-Anfrage-1627299606.JPG
-                    img_size: w-1/4
-                    float: float-right
-              -
-                type: set
-                attrs:
-                  values:
                     type: text_box-alignment
                     bard:
                       -
@@ -1279,10 +1270,19 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '31'
+                    type: floating-img
+                    dateien:
+                      - seiten/arbeiten/seminararbeit/unverbindliche-Anfrage-1627299606.JPG
+                    img_size: w-1/4
+                    float: float-right
               -
                 type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '31'
               -
                 type: set
                 attrs:
