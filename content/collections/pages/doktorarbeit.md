@@ -194,19 +194,31 @@ replicator:
           values:
             type: video
             video: 'https://youtu.be/-rglZNi_OUQ'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Unsere Leistungen'
     type: editor
     enabled: true
     show_as_card: false
   -
     columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Leistungen:'
+                  -
+                    type: hard_break
+            show_as_card: false
+        type: row
+        enabled: true
       -
         columns_per_row: '3'
         single-col: true
@@ -383,29 +395,28 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 1
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: false
-    border: false
-  -
-    bard:
       -
-        type: heading
-        attrs:
-          level: 2
-        content:
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
           -
-            type: text
-            text: 'Wichtige Fachbereiche:'
-    type: editor
-    enabled: true
-    show_as_card: false
-  -
-    columns-replicator:
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wichtige Fachbereiche:'
+                  -
+                    type: hard_break
+            show_as_card: false
+        type: row
+        enabled: true
       -
+        responsive_columns: 1
         columns_per_row: '3'
         single-col: false
         grid:
@@ -426,7 +437,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(193, 76, 0)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -447,7 +459,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -468,7 +481,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -489,7 +503,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -510,7 +525,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -531,7 +547,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -552,7 +569,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -573,7 +591,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -594,7 +613,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -615,7 +635,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -636,7 +657,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -660,7 +682,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -681,7 +704,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -702,7 +726,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -723,7 +748,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -744,7 +770,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -765,7 +792,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -786,7 +814,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -807,7 +836,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -828,7 +858,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -849,7 +880,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -873,7 +905,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -894,7 +927,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -915,7 +949,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -936,7 +971,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -957,7 +993,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -978,7 +1015,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -999,7 +1037,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1020,7 +1059,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1041,7 +1081,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1062,7 +1103,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1073,269 +1115,15 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
     type: add_section
     enabled: true
-    remove_spacing: false
+    remove_spacing: true
     border: false
   -
     bard:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Über uns & unseren Service'
-      -
-        type: table
-        content:
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: justify
-                        text: Telefonnummer
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: '+49 (0) 30 809 332 339'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                        text: 'E-Mail Adresse'
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: info@gwriters.de
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                        text: Webseite
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: gwriters.de
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                        text: Arbeitenart
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: Masterarbeit
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                        text: 'Kosten & Preise'
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'ab 80€ pro Seite'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                        text: "100% Anonymität \_\_"
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'vertraglich garantiert'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                        text: Supervisor
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'im Preis inklusive'
       -
         type: horizontal_rule
       -
@@ -1778,8 +1566,8 @@ replicator:
     show_as_card: false
 parent: 6300bfa7-4b29-41fb-a2d9-422ef612d3d4
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1625758395
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1627297608
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
