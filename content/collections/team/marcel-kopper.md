@@ -6,7 +6,7 @@ position: 'COO & Gründer'
 photo:
   - team/Marcel_Kopper_GWriters-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627300567
+updated_at: 1627300640
 detail_position: 'Chief Operating Officer'
 bard:
   -
