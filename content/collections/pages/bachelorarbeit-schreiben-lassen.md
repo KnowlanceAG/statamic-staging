@@ -47,7 +47,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627296897
+updated_at: 1627296935
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -250,6 +250,10 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
                         type: link
                         attrs:
                           href: /ghostwriting
@@ -265,11 +269,12 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -286,11 +291,12 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -310,11 +316,12 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -331,11 +338,12 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -352,11 +360,12 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -376,7 +385,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -398,7 +407,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
