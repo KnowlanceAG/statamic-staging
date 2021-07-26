@@ -47,7 +47,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627296498
+updated_at: 1627296897
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -415,15 +415,6 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 1
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
@@ -445,8 +436,9 @@ replicator:
         type: row
         enabled: true
       -
+        responsive_columns: 1
         columns_per_row: '3'
-        single-col: true
+        single-col: false
         grid:
           -
             bard:
@@ -465,7 +457,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(193, 76, 0)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -486,7 +479,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -507,7 +501,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -528,7 +523,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -549,7 +545,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -570,7 +567,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -591,7 +589,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -612,7 +611,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -633,7 +633,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -654,7 +655,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -675,7 +677,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -699,7 +702,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -720,7 +724,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -741,7 +746,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -762,7 +768,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -783,7 +790,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -804,7 +812,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -825,7 +834,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -846,7 +856,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -867,7 +878,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -888,7 +900,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -912,7 +925,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -933,7 +947,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -954,7 +969,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -975,7 +991,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -996,7 +1013,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1017,7 +1035,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1038,7 +1057,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1059,7 +1079,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1080,7 +1101,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1101,7 +1123,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -1112,7 +1135,6 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
