@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1627300434
+updated_at: 1627300503
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1282,6 +1282,8 @@ replicator:
                     type: spacer
                     padding-y: '41'
               -
+                type: horizontal_rule
+              -
                 type: set
                 attrs:
                   values:
@@ -1309,6 +1311,8 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '54'
+              -
+                type: horizontal_rule
               -
                 type: set
                 attrs:
@@ -1338,7 +1342,7 @@ replicator:
                     type: spacer
                     padding-y: '18'
               -
-                type: paragraph
+                type: horizontal_rule
               -
                 type: set
                 attrs:
@@ -1361,6 +1365,12 @@ replicator:
                             type: text
                             text: "Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen Lektor kontrolliert \_mit Hilfe einer professionellen Software auf Plagiate geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben."
                     text_ausrichtung: text-left
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '27'
               -
                 type: horizontal_rule
               -
