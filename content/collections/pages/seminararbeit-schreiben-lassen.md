@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1627299457
+updated_at: 1627299619
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1259,7 +1259,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - seiten/arbeiten/seminararbeit/unverbindliche-Anfrage.JPG
+                      - seiten/arbeiten/seminararbeit/unverbindliche-Anfrage-1627299606.JPG
                     img_size: w-1/4
                     float: float-right
               -
@@ -1273,7 +1273,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: '31'
               -
                 type: paragraph
               -
