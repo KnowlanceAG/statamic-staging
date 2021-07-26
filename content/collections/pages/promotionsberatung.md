@@ -475,22 +475,6 @@ replicator:
                             type: text
                             text: 'Teilweise agieren illegale Promotionsberater aus dem Ausland oder verbergen ihren wahren Aufenthaltsort gegebenenfalls vollständig.'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Weitere Informationen finden Sie auch hier: '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki/diplom-kaufen
-                          target: null
-                          rel: null
-                    text: 'Diplom kaufen'
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -623,7 +607,7 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1626088456
+updated_at: 1627299438
 meta_title: 'Unsere seriöse Promotionsberatung • GWriters'
 meta_description: 'Bei GWriters erhalten Sie eine seriöse Promotionsberatung von unseren erfahrenen akademischen Ghostwritern, Lektoren und Coaches. Auf Sie zugeschnitten!'
 use_meta_keywords: false
