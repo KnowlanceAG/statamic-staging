@@ -44,8 +44,8 @@ teaser:
         color: '#FF6606'
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627296633
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1627299160
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1254,11 +1254,18 @@ replicator:
                     type: text
                     text: 'Wie sieht der Prozess bei der Erstellung einer Vorlage für die Seminararbeit aus?'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/arbeiten/seminararbeit/unverbindliche-Anfrage.JPG
                     text: 'Nach einer unverbindlichen Anfrage auf der Webseite, erhalten Sie ein kostenloses Angebot und eine individuelle Beratung zur Planung eines Projektes von unseren Kundenberater. Nach einer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre wissenschaftlichen Arbeit. Unsere professionellen Projektmanager übernehmen die gesamte Kommunikation, sodass stets Ihre Anonymität und gleichzeitig auch die Anonymität des Autors gesichert ist.'
+                    ausrichtung: text-bild
+              -
+                type: paragraph
+              -
+                type: paragraph
               -
                 type: paragraph
                 content:
