@@ -47,7 +47,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627296282
+updated_at: 1627296441
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -212,19 +212,31 @@ replicator:
           -
             type: text
             text: ' erhalten Sie jederzeit eine kostenlose Beratung. Möchten Sie ein Coaching oder eine Mustervorlage für Ihre Bachelorarbeit schreiben lassen? Unsere Kundenberater beraten Sie dazu gerne! '
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Unsere Leistungen'
     type: editor
     enabled: true
     show_as_card: false
   -
     columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Leistungen:'
+                  -
+                    type: hard_break
+            show_as_card: false
+        type: row
+        enabled: true
       -
         columns_per_row: '3'
         single-col: true
@@ -411,20 +423,27 @@ replicator:
     remove_spacing: false
     border: false
   -
-    bard:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Wichtige Fachbereiche:'
-    type: editor
-    enabled: true
-    show_as_card: false
-  -
     columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wichtige Fachbereiche:'
+                  -
+                    type: hard_break
+            show_as_card: false
+        type: row
+        enabled: true
       -
         columns_per_row: '3'
         single-col: true
