@@ -57,7 +57,7 @@ page_title: 'Fachrichtungen • GWriters.de'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627300911
+updated_at: 1627300946
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -90,7 +90,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Akademische Ghostwriter von GWriters bieten ihre Leistungen in zahlreichen Fachbereichen und Fachrichtungen an. Je nach Ausrichtung Ihrer Forschung offeriert Ihnen GWriters für die Erstellung Ihrer wissenschaftlichen Mustervorlage einen Ghostwriter aus Ihrem Fachbereich. Unsere Ghostwriter verfügen über umfassende Kenntnisse und Erfahrungen im Fachbereich und sind häufig neben ihrer Tätigkeit als Ghostwriter auch in der unternehmerischen Praxis tätig. Darüber hinaus haben diese auch den für eine systematische und tiefgehende Literaturrecherche notwendigen Zugang zu Datenbanken und aktuellen Informationen zur Forschungsthematik.'
+                    text: 'Akademische Ghostwriter von GWriters bieten ihre Leistungen in zahlreichen Fachbereichen und Fachrichtungen an. Je nach Ausrichtung Ihrer Forschung offeriert Ihnen GWriters für die Erstellung Ihrer wissenschaftlichen Mustervorlage einen Ghostwriter aus Ihrem Fachbereich. Unsere Ghostwriter verfügen über umfassende Kenntnisse und Erfahrungen im Fachbereich und sind häufig neben ihrer Tätigkeit als Ghostwriter auch in der unternehmerischen Praxis tätig. Darüber hinaus haben diese auch den für eine systematische und tief gehende Literaturrecherche notwendigen Zugang zu Datenbanken und aktuellen Informationen zur Forschungsthematik.'
               -
                 type: heading
                 attrs:
