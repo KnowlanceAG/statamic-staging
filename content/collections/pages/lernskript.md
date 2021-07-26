@@ -1,5 +1,6 @@
 ---
 id: 134ba799-3362-4166-86f7-bba4e992d7d7
+blueprint: pages
 title: Lernskript
 teaser:
   -
@@ -325,7 +326,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -346,14 +348,15 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /promotionsberatung
+                          href: /leistungen/plagiatspruefung
                           target: null
                           rel: null
-                    text: Promotionsberatung
+                    text: Plagiatsprüfung
             show_as_card: false
         type: row
         enabled: true
@@ -363,7 +366,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
-    remove_spacing: false
+    remove_spacing: true
     border: false
   -
     bard:
@@ -375,7 +378,7 @@ replicator:
             button_link: /anfrage
             button_text: 'JETZT KOSTENLOS ANFRAGEN'
             color: '#FF6606'
-            spacing_top: false
+            spacing_top: true
       -
         type: paragraph
     type: editor
@@ -1075,7 +1078,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
-    remove_spacing: false
+    remove_spacing: true
     border: false
   -
     bard:
@@ -1098,8 +1101,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623323764
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1627298505
 template: with-side-bar
 meta_title: 'GWriters • professionelles Lernskript schreiben lassen'
 meta_description: 'Lernskript schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
