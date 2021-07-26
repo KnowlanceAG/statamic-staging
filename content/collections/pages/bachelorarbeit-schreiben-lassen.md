@@ -47,7 +47,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627296935
+updated_at: 1627297002
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -238,8 +238,9 @@ replicator:
         type: row
         enabled: true
       -
+        responsive_columns: 1
         columns_per_row: '3'
-        single-col: true
+        single-col: false
         grid:
           -
             bard:
@@ -273,7 +274,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -295,7 +296,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -320,7 +321,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -342,7 +343,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -364,7 +365,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -423,7 +424,6 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
       -
         responsive_columns: 1
         columns_per_row: 1
