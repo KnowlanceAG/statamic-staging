@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1627300537
+updated_at: 1627300670
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -145,7 +145,11 @@ replicator:
                 type: bold
             text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
       -
-        type: paragraph
+        type: set
+        attrs:
+          values:
+            type: video
+            video: 'https://youtu.be/OZ8ZEHZkeb0'
       -
         type: heading
         attrs:
