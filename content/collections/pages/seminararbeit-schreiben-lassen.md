@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1627299619
+updated_at: 1627299792
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1292,11 +1292,29 @@ replicator:
                     type: text
                     text: 'Bei größeren Seminararbeiten ist auch eine anonyme Telefonkonferenz mit dem jeweiligen Autor möglich. Je nach Umfang der Mustervorlage werden eine oder mehrere Teillieferungen vereinbart. Gerade diese Teillieferungen sind wichtig, um einen Abgleich zu erhalten zwischen Ihren Anforderungen aus dem Thema heraus und dem, was Ihr Autor geliefert hat.'
               -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/arbeiten/seminararbeit/Kostenlos-feedback-umsetzen.JPG
+                    img_size: w-1/4
+                    float: float-right
+              -
                 type: paragraph
                 content:
                   -
                     type: text
                     text: 'Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich auch kostenlos im Rahmen der weiteren Umsetzungsschritte realisiert. Bei Fragen und Änderungswünschen, die im Rahmen dieses gesamten Projektes auftreten, ist ihr Projektmanager immer Ihr persönlicher Ansprechpartner. Dieser Projektmanager bleibt immer gleich während des gesamten Projektes und ist bei Fragen oder Problemen telefonisch oder per E-Mail ständig für Sie erreichbar.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/arbeiten/seminararbeit/Mustervorlage-ausliefern.JPG
+                    img_size: w-1/4
+                    float: float-right
               -
                 type: paragraph
                 content:
