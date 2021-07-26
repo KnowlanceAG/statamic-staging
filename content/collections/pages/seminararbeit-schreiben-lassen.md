@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1627299426
+updated_at: 1627299457
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1271,19 +1271,9 @@ replicator:
               -
                 type: set
                 attrs:
-                  enabled: false
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/seminararbeit/unverbindliche-Anfrage.JPG
-                    text: 'Nach einer unverbindlichen Anfrage auf der Webseite, erhalten Sie ein kostenloses Angebot und eine individuelle Beratung zur Planung eines Projektes von unseren Kundenberater. Nach einer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre wissenschaftlichen Arbeit. Unsere professionellen Projektmanager übernehmen die gesamte Kommunikation, sodass stets Ihre Anonymität und gleichzeitig auch die Anonymität des Autors gesichert ist.'
-                    ausrichtung: text-bild
-              -
-                type: set
-                attrs:
                   values:
                     type: spacer
-                    padding-y: '3'
+                    padding-y: '15'
               -
                 type: paragraph
               -
