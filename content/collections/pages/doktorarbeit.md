@@ -358,11 +358,12 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -379,18 +380,19 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: left
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /promotionsberatung
+                          href: /leistungen/plagiatspruefung
                           target: null
                           rel: null
-                    text: Promotionsberatung
+                    text: Plagiatsprüfung
             show_as_card: false
         type: row
         enabled: true
@@ -1567,7 +1569,7 @@ replicator:
 parent: 6300bfa7-4b29-41fb-a2d9-422ef612d3d4
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627297608
+updated_at: 1627299090
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
