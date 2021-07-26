@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1627299792
+updated_at: 1627299831
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1263,11 +1263,18 @@ replicator:
                     img_size: w-1/4
                     float: float-right
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Nach einer unverbindlichen Anfrage auf der Webseite, erhalten Sie ein kostenloses Angebot und eine individuelle Beratung zur Planung eines Projektes von unseren Kundenberater. Nach einer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre wissenschaftlichen Arbeit. Unsere professionellen Projektmanager übernehmen die gesamte Kommunikation, sodass stets Ihre Anonymität und gleichzeitig auch die Anonymität des Autors gesichert ist.'
+                type: set
+                attrs:
+                  values:
+                    type: text_box-alignment
+                    bard:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Nach einer unverbindlichen Anfrage auf der Webseite, erhalten Sie ein kostenloses Angebot und eine individuelle Beratung zur Planung eines Projektes von unseren Kundenberater. Nach einer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre wissenschaftlichen Arbeit. Unsere professionellen Projektmanager übernehmen die gesamte Kommunikation, sodass stets Ihre Anonymität und gleichzeitig auch die Anonymität des Autors gesichert ist.'
+                    text_ausrichtung: text-left
               -
                 type: set
                 attrs:
