@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1627300113
+updated_at: 1627300143
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1310,7 +1310,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '37'
+                    padding-y: '47'
               -
                 type: set
                 attrs:
