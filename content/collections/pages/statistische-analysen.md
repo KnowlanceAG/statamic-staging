@@ -1,5 +1,6 @@
 ---
 id: b6ee03ca-ecab-4749-ade4-45ff821b748d
+blueprint: pages
 title: 'Statistische Analyse'
 teaser:
   -
@@ -179,7 +180,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Leistungen'
+                    text: 'Unsere Leistungen:'
             show_as_card: false
         type: row
         enabled: true
@@ -327,7 +328,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -348,14 +350,15 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /promotionsberatung
+                          href: /leistungen/plagiatspruefung
                           target: null
                           rel: null
-                    text: Promotionsberatung
+                    text: Plagiatsprüfung
             show_as_card: false
         type: row
         enabled: true
@@ -365,7 +368,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
-    remove_spacing: false
+    remove_spacing: true
     border: false
   -
     bard:
@@ -379,7 +382,7 @@ replicator:
             button_link: /anfrage
             button_text: 'JETZT KOSTENLOS ANFRAGEN'
             color: '#FF6606'
-            spacing_top: false
+            spacing_top: true
       -
         type: horizontal_rule
     type: editor
@@ -1079,7 +1082,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
-    remove_spacing: false
+    remove_spacing: true
     border: false
   -
     bard:
@@ -1147,8 +1150,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623324500
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1627298792
 template: with-side-bar
 meta_title: 'GWriters • Statistische Analyse durchführen lassen'
 meta_description: 'Statistische Analysen durchführen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität.'
