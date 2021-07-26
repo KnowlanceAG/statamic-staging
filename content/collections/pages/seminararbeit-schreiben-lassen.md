@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1627307889
+updated_at: 1627308332
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1349,7 +1349,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - 'seiten/arbeiten/seminararbeit/Untitled-3-[Recovered].png'
+                      - seiten/arbeiten/seminararbeit/ooo.png
                     img_size: w-1/2
                     float: mx-auto
               -
