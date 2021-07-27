@@ -16,8 +16,8 @@ RewriteRule ^(.*)$ https://gwriters.ch/$1 [L,R=301]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule !/$ %{REQUEST_URI}/index.html [L]
 
-ErrorDocument 404 /404/index.html
-ErrorDocument 403 /404/index.html
+ErrorDocument 404 /404/
+ErrorDocument 403 /404/
 
 RewriteCond %{HTTP_HOST} ^statamic.gwriters.ch$ [OR]
 RewriteCond %{HTTP_HOST} ^www.gwriters.ch$ [OR]
