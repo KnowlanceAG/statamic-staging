@@ -57,7 +57,7 @@ page_title: 'Bauingenieurwesen Ghostwriter, Lektoren & Coaches • GWriters.de'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1626792583
+updated_at: 1627399430
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2176,7 +2176,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://ftbgu.de/fileadmin/user_upload/Publikationen/berufsbild_bauing.pdf'
+                          href: 'https://www.werde-bauingenieur.de/'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'Tätigkeitsgebiete im Bauingenieurwesen'
