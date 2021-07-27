@@ -20,3 +20,4 @@ composer.phar
 ssg-lockfile
 .dccache
 .antlers.json
+/storage/antlers-language-server
