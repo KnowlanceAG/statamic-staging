@@ -19,3 +19,4 @@ composer.phar
 .vscode
 ssg-lockfile
 .dccache
+.antlers.json
