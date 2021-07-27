@@ -16,8 +16,8 @@ RewriteRule ^(.*)$ https://gwriters.ch/$1 [L,R=301]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule !/$ %{REQUEST_URI}/index.html [L]
 
-ErrorDocument 404 /404/
-ErrorDocument 403 /404/
+ErrorDocument 404 /error-404/index.html
+ErrorDocument 403 /error-404/index.html
 
 RewriteCond %{HTTP_HOST} ^statamic.gwriters.ch$ [OR]
 RewriteCond %{HTTP_HOST} ^www.gwriters.ch$ [OR]
@@ -112,6 +112,8 @@ Redirect 410 /blog/doktorarbeit-erfolgreich
 Redirect 410 /blog/ghostwriter-tipps
 Redirect 410 /blog/akademische-ghostwriter-textteile-schreiben
 Redirect 410 /wayback
+Redirect 410 /404
+Redirect 410 /404/index.html
 
 Redirect 301 /blog/akademische-ghostwriter-gwriters /
 Redirect 301 /blog/doktorarbeit-schreiben /arbeiten/doktorarbeit
