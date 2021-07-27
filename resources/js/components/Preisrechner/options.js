@@ -36,8 +36,7 @@ export const pagesPerDay = [
   { threshold: 12, value: 1.6 },
   { threshold: 20, value: 2 },
   { threshold: 30, value: 3 },
-  { threshold: 50, value: 5 },
-  { threshold: 100, value: 8 }
+  { threshold: 50, value: 5 }
 ]
 
 export const pageFactor = [

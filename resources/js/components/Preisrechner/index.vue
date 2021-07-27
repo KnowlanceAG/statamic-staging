@@ -108,7 +108,11 @@
       </div>
       <div>
         <div class="bg-gray-200">
-          <div v-if="result" class="p-4 text-green-500 bg-green-300 border border-green-400">
+          <p v-if="pagesPerDay > 50" class="p-4 text-xs leading-5 text-red-500 bg-red-300 border border-red-400">
+            Es können maximal 50 Seiten pro Tag bearbeitet werden, bitte
+            korrigieren Sie Ihre Eingabe.
+          </p>
+          <div v-else-if="result" class="p-4 text-green-500 bg-green-300 border border-green-400">
             <label class="control-label">berechneter Preis</label>
             <h2
               id="preisrechner_result"
@@ -118,16 +122,10 @@
             </h2>
             <label class="control-label">inkl. MwSt.</label>
           </div>
-          <div v-else>
-            <p v-if="pagesPerDay > 50" class="p-4 text-xs leading-5 text-red-500 bg-red-300 border border-red-400">
-              Es können maximal 50 Seiten pro Tag bearbeitet werden, bitte
-              korrigieren Sie Ihre Eingabe.
-            </p>
-            <p v-else class="p-4 text-xs leading-5 text-green-500 bg-green-300 border border-green-400">
-              Bitte alle Felder ausfüllen, vorher kann kein Preis berechnet
-              werden.
-            </p>
-          </div>
+          <p v-else class="p-4 text-xs leading-5 text-green-500 bg-green-300 border border-green-400">
+            Bitte alle Felder ausfüllen, vorher kann kein Preis berechnet
+            werden.
+          </p>
         </div>
       </div>
     </div>
