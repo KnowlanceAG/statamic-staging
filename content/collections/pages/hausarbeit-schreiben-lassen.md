@@ -1,5 +1,6 @@
 ---
 id: 29f507a9-89e5-433e-8246-0d00b58746db
+blueprint: pages
 title: Hausarbeit
 teaser:
   -
@@ -161,12 +162,6 @@ replicator:
             type: text
             text: 'Auf der einen Seite hört es sich einfach an eine Hausarbeit zu erstellen: einfach mal zehn bis zwanzig Seiten schreiben - fertig. Jedoch grade darin liegt die große Herausforderung bei der Erstellung einer Hausarbeit. Besondere Schwierigkeiten haben die Studienanfänger, denn diese kennen die relevanten Datenbanken, Literaturquellen und wissenschaftlichen Arbeitsmethoden nicht. Selbst wenn alle notwendigen Informationen für sie zur Verfügung stehen oder im Rahmen von Seminaren zum wissenschaftlichen Arbeiten vermittelt werden, entstehen Probleme beim Zusammenführen der Daten, sodass keine schlüssige wissenschaftliche Hausarbeit entsteht.'
       -
-        type: set
-        attrs:
-          values:
-            type: video
-            video: 'https://www.youtube.com/embed/AIQ1xWXO_1M'
-      -
         type: heading
         attrs:
           level: 2
@@ -204,7 +199,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Leistungen'
+                    text: 'Unsere Leistungen:'
             show_as_card: false
         type: row
         enabled: true
@@ -352,7 +347,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -373,14 +369,15 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /promotionsberatung
+                          href: /leistungen/plagiatspruefung
                           target: null
                           rel: null
-                    text: Promotionsberatung
+                    text: Plagiatsprüfung
             show_as_card: false
         type: row
         enabled: true
@@ -1077,7 +1074,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
-    remove_spacing: false
+    remove_spacing: true
     border: false
   -
     bard:
@@ -1421,8 +1418,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1624279671
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1627299206
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false

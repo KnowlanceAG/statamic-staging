@@ -1,5 +1,6 @@
 ---
 id: 86bd5a7e-428b-40e0-a058-cbc30bfe659b
+published: false
 blueprint: pages
 title: 'Diplom kaufen'
 teaser:
@@ -268,8 +269,8 @@ replicator:
     type: editor
     enabled: true
 parent: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1625763823
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1627289596
 page_title: 'GWriters • Diplom kaufen möglich oder lieber eine Ghostwriter Agentur?'
 template: with-side-bar
 meta_title: 'GWriters • Diplom kaufen möglich oder lieber eine Ghostwriter Agentur?'

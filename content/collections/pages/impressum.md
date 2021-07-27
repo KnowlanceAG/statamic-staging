@@ -1,5 +1,6 @@
 ---
 id: 1f3196aa-76e3-4c7c-9b5a-8381bb49bf4d
+blueprint: pages
 title: Impressum
 teaser:
   -
@@ -39,8 +40,8 @@ teaser:
         spacing_top: false
   -
     type: paragraph
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623326413
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1627288020
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -53,7 +54,7 @@ replicator:
             marks:
               -
                 type: bold
-            text: 'Unsere internationalen Webseiten in den Ländern'
+            text: 'Für Kunden aus Deutschland und der Schweiz erfolgt die Abwicklung aller Projekte & Betreuung der Plattformen'
       -
         type: paragraph
         content:
@@ -111,8 +112,54 @@ replicator:
                   target: null
                   rel: null
             text: Ghostwriter.ch
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'durch das deutschsprachige Team'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Knowlance AG'
           -
             type: hard_break
+          -
+            type: text
+            text: 'Artherstrasse 28A'
+          -
+            type: hard_break
+          -
+            type: text
+            text: '6300 Zug'
+          -
+            type: hard_break
+          -
+            type: text
+            text: Schweiz
+      -
+        type: paragraph
+      -
+        type: paragraph
+      -
+        type: paragraph
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Unsere internationale Webseite in den Ländern'
+      -
+        type: paragraph
+        content:
           -
             type: text
             text: "Großbritannien & USA -\_"
@@ -122,10 +169,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.net'
+                  href: 'https://gwriters.uk'
                   target: null
                   rel: null
-            text: GWriters.net
+            text: GWriters.uk
       -
         type: paragraph
         content:
@@ -134,7 +181,7 @@ replicator:
             marks:
               -
                 type: bold
-            text: 'werden betrieben durch die'
+            text: 'wird betrieben durch die'
       -
         type: paragraph
         content:
@@ -158,34 +205,10 @@ replicator:
             text: 'DE 19801, USA'
       -
         type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Für Kunden aus Deutschland und der Schweiz erfolgt die Betreuung & Abwicklung aller Projekte durch das deutschsprachige Team'
       -
         type: paragraph
-        content:
-          -
-            type: text
-            text: 'Knowlance AG'
-          -
-            type: hard_break
-          -
-            type: text
-            text: 'Artherstrasse 28A'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '6300 Zug'
-          -
-            type: hard_break
-          -
-            type: text
-            text: Schweiz
+      -
+        type: paragraph
       -
         type: heading
         attrs:

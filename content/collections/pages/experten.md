@@ -4,8 +4,8 @@ blueprint: pages
 title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1624435251
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1627300737
 teaser:
   -
     type: heading
@@ -143,7 +143,7 @@ replicator:
                           -
                             type: text
                             text: "\_und anderen akademischen Disziplinen vor."
-                    text_ausrichtung: text-justify
+                    text_ausrichtung: text-left
             show_as_card: false
         type: row
         enabled: true
@@ -275,7 +275,7 @@ replicator:
                           -
                             type: text
                             text: "\_sowie Experten für viele weitere Disziplinen finden Sie bei uns. Dabei werden die Kompetenzen unserer Ghostwriter nach strengen Auswahlverfahren geprüft und verifiziert, sodass wir Ihnen zu jeder Zeit den passenden Spezialisten zur Unterstützung bei Ihrer wissenschaftlichen Fragestellung und Ihrer akademischen Arbeit zur Verfügung stellen können."
-                    text_ausrichtung: text-justify
+                    text_ausrichtung: text-left
               -
                 type: set
                 attrs:
@@ -408,10 +408,19 @@ replicator:
                         content:
                           -
                             type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
                             text: "Bei GWriters gewährleisten wir Ihre Anonymität zu 100% und\_"
                           -
                             type: text
                             marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
                               -
                                 type: link
                                 attrs:
@@ -421,10 +430,19 @@ replicator:
                             text: 'schützen Ihre Daten'
                           -
                             type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
                             text: ' streng nach den Vorgaben von DSGVO und GDPR. Die Speicherung aller Informationen erfolgt auf unseren eigenen Servern mit Standort in der Schweiz, auf die der Zugriff durch Außenstehende unmöglich ist. Darüber hinaus erhält einzig Ihr persönlicher Projektmanager Zugriff auf Ihre Informationen, selbst für Ihren '
                           -
                             type: text
                             marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
                               -
                                 type: link
                                 attrs:
@@ -434,8 +452,13 @@ replicator:
                             text: 'akademischen Ghostwriter'
                           -
                             type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: left
                             text: ' bleiben Sie anonym. Ebenso unbesorgt können Sie auch hinsichtlich der Qualität Ihrer Arbeit sein: jede von uns erstellte Arbeit wird von einem Team von erfahrenen und spezialisierten Supervisoren auf Qualität geprüft. So stellen wir sicher, dass Ihre Arbeit allen akademischen Standards entspricht, denn dies ist auch unser Anspruch an uns selbst.'
-                    text_ausrichtung: text-justify
+                    text_ausrichtung: text-left
             show_as_card: false
         type: row
         enabled: true

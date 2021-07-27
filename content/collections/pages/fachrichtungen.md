@@ -1,5 +1,6 @@
 ---
 id: e45d6722-981e-4f80-bc4c-3c767caf4b6d
+blueprint: pages
 title: Fachrichtungen
 teaser:
   -
@@ -55,8 +56,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Fachrichtungen • GWriters.de'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623265252
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1627300946
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -89,7 +90,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Akademische Ghostwriter von GWriters bieten ihre Leistungen in zahlreichen Fachbereichen und Fachrichtungen an. Je nach Ausrichtung Ihrer Forschung offeriert Ihnen GWriters für die Erstellung Ihrer wissenschaftlichen Mustervorlage einen Ghostwriter aus Ihrem Fachbereich. Unsere Ghostwriter verfügen über umfassende Kenntnisse und Erfahrungen im Fachbereich und sind häufig neben ihrer Tätigkeit als Ghostwriter auch in der unternehmerischen Praxis tätig. Darüber hinaus haben diese auch den für eine systematische und tiefgehende Literaturrecherche notwendigen Zugang zu Datenbanken und aktuellen Informationen zur Forschungsthematik.'
+                    text: 'Akademische Ghostwriter von GWriters bieten ihre Leistungen in zahlreichen Fachbereichen und Fachrichtungen an. Je nach Ausrichtung Ihrer Forschung offeriert Ihnen GWriters für die Erstellung Ihrer wissenschaftlichen Mustervorlage einen Ghostwriter aus Ihrem Fachbereich. Unsere Ghostwriter verfügen über umfassende Kenntnisse und Erfahrungen im Fachbereich und sind häufig neben ihrer Tätigkeit als Ghostwriter auch in der unternehmerischen Praxis tätig. Darüber hinaus haben diese auch den für eine systematische und tief gehende Literaturrecherche notwendigen Zugang zu Datenbanken und aktuellen Informationen zur Forschungsthematik.'
               -
                 type: heading
                 attrs:
@@ -123,6 +124,18 @@ replicator:
                   -
                     type: text
                     text: .
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 1
+        single-col: false
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
               -
                 type: heading
                 attrs:
@@ -130,12 +143,10 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Leistungen'
+                    text: 'Unsere Leistungen:'
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single-col: false
       -
         columns_per_row: '3'
         grid:
@@ -341,17 +352,10 @@ replicator:
         enabled: true
         responsive_columns: 1
         single-col: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns-replicator:
       -
+        responsive_columns: 1
         columns_per_row: 1
+        single-col: false
         grid:
           -
             bard:
@@ -366,19 +370,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single-col: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns-replicator:
       -
+        responsive_columns: 1
         columns_per_row: '3'
+        single-col: false
         grid:
           -
             bard:
@@ -586,8 +581,6 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single-col: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -1011,7 +1004,7 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
-    remove_spacing: false
+    remove_spacing: true
     border: false
 meta_title: 'Fachrichtungen • GWriters.de'
 meta_description: 'Akademische Ghostwriter von GWriters Ihnen in verschiedenen Fachbereichen akademisches Ghostwriting, Schreibunterstützung, Lektorat, Korrektorate und Coachings von erfahrenen & geprüften Ghostwritern ✅'

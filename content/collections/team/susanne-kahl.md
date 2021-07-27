@@ -1,4 +1,6 @@
 ---
+id: 6fd5f928-d931-42b1-b5eb-8f395f5bd71e
+blueprint: team
 title: 'Susanne Kahl'
 photo:
   - team/kahl_gwriters_ghostwriter-1.png
@@ -15,38 +17,61 @@ bard:
             content:
               -
                 type: text
+                marks:
+                  -
+                    type: textAlign
+                    attrs:
+                      align: left
                 text: "Das interdisziplinäre Arbeiten war ein Grundbestandteil der akademischen Ausbildung von Susanne Kahl, dementsprechend breitgefächert sind ihre Fachgebiete, in denen Sie für GWriters wissenschaftliche Arbeiten schreibt. Der Schwerpunkt ihrer Kompetenzen und damit auch der von ihr verfassten wissenschaftlichen Arbeiten liegt in den\_"
               -
                 type: text
                 marks:
                   -
+                    type: textAlign
+                    attrs:
+                      align: left
+                  -
                     type: link
                     attrs:
-                      href: '/fachrichtungen/soziologie'
+                      href: /fachrichtungen/soziologie
                       target: null
                       rel: null
                 text: Sozialwissenschaften
               -
                 type: text
+                marks:
+                  -
+                    type: textAlign
+                    attrs:
+                      align: left
                 text: ", Geisteswissenschaften und\_"
               -
                 type: text
                 marks:
                   -
+                    type: textAlign
+                    attrs:
+                      align: left
+                  -
                     type: link
                     attrs:
-                      href: '/fachrichtungen/wirtschaftswissenschaften'
+                      href: /fachrichtungen/wirtschaftswissenschaften
                       target: null
                       rel: null
                 text: Wirtschaftswissenschaften
               -
                 type: text
+                marks:
+                  -
+                    type: textAlign
+                    attrs:
+                      align: left
                 text: ', aber auch in der Logistik. Durch ihre Leidenschaft dafür, ihren persönlichen Horizont zu erweitern und unsere Kunden bei diversen akademischen Fragestellungen zu unterstützen, hat sich Susanne Kahl in der bereits mehrere Jahre andauernden Zusammenarbeit als eine unserer wichtigsten Expertinnen etabliert.'
-        text_ausrichtung: text-justify
+        text_ausrichtung: text-left
   -
     type: paragraph
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1619161593
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1627300666
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -55,5 +80,5 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-id: 6fd5f928-d931-42b1-b5eb-8f395f5bd71e
+show_as_card: false
 ---

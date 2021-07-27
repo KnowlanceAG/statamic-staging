@@ -1,5 +1,6 @@
 ---
 id: 686e5203-e17a-4101-809a-07c9f799ccfa
+blueprint: pages
 title: Seminararbeit
 teaser:
   -
@@ -44,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623322418
+updated_at: 1627310765
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -144,7 +145,11 @@ replicator:
                 type: bold
             text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
       -
-        type: paragraph
+        type: set
+        attrs:
+          values:
+            type: video
+            video: 'https://youtu.be/OZ8ZEHZkeb0'
       -
         type: heading
         attrs:
@@ -167,13 +172,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Im Rahmen eines Studiums sehen sich Studenten mit verschiedensten Aufgabenstellungen konfrontiert. Seminararbeiten, Klausuren und Hausarbeiten, all diese Themen stellen Studenten vor neue Herausforderungen. Seminararbeiten sollen den Studenten auf das wissenschaftliche Arbeiten vorbereiten und sind besonders im Hinblick auf Abschlussarbeiten, wie die Bachelorarbeit und Masterarbeit, von großer Bedeutung. In überfüllten Hörsälen ist es jedoch nicht möglich, dem Seminarleiter zu folgen. Es fehlt also häufig an Kompetenz und Fähigkeiten, selbstständig eine Seminararbeit zu schreiben. In solchen Fällen ist es also ratsam, auf Hilfe zurückzugreifen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "\_"
+            text: "Im Rahmen eines Studiums sehen sich Studenten mit verschiedensten Aufgabenstellungen konfrontiert. Seminararbeiten, Klausuren und Hausarbeiten, all diese Themen stellen Studenten vor neue Herausforderungen. Seminararbeiten sollen den Studenten auf das wissenschaftliche Arbeiten vorbereiten und sind besonders im Hinblick auf Abschlussarbeiten, wie die Bachelorarbeit und Masterarbeit, von großer Bedeutung. In überfüllten Hörsälen ist es jedoch nicht möglich, dem Seminarleiter zu folgen. Es fehlt also häufig an Kompetenz und Fähigkeiten, selbstständig eine Seminararbeit zu schreiben. In solchen Fällen ist es also ratsam, auf Hilfe zurückzugreifen.\_"
       -
         type: paragraph
         content:
@@ -193,20 +192,36 @@ replicator:
           -
             type: text
             text: "\_bei einer solchen Seminararbeit keine große Herausforderung dar, für ihn ist der Anspruch vergleichsweise gering. So hilft der Bearbeiter dem Studenten gezielt bei seinen Defiziten und unterstützt ihn beispielsweise bei der Gliederung der Seminararbeit. An der abgeschlossenen Seminararbeit kann er die Methodik sehr gut nachvollziehen und muss sie sich nicht mühsam in Eigenregie anlernen."
+    show_as_card: false
+  -
+    columns-replicator:
       -
-        type: heading
-        attrs:
-          level: 2
-        content:
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
           -
-            type: text
-            text: 'Unsere Leistungen'
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unser Leistungen:'
+                  -
+                    type: hard_break
+            show_as_card: false
+        type: row
+        enabled: true
       -
-        type: bullet_list
-        content:
+        responsive_columns: 1
+        columns_per_row: '3'
+        single-col: false
+        grid:
           -
-            type: list_item
-            content:
+            bard:
               -
                 type: paragraph
                 content:
@@ -220,9 +235,6 @@ replicator:
                           target: null
                           rel: null
                     text: Ghostwriting
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -230,37 +242,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: Lektorat
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: /leistungen/uebersetzung
-                          target: null
-                          rel: null
-                    text: Übersetzung
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -268,9 +257,6 @@ replicator:
                           target: null
                           rel: null
                     text: Korrektorat
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -278,37 +264,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /leistungen/formatierung
-                          target: null
-                          rel: null
-                    text: Formatierung
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: Plagiatsprüfung
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -316,15 +279,68 @@ replicator:
                           target: null
                           rel: null
                     text: 'MAXQDA Auswertung'
+            show_as_card: false
           -
-            type: list_item
-            content:
+            bard:
               -
                 type: paragraph
                 content:
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: Lektorat
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/formatierung
+                          target: null
+                          rel: null
+                    text: Formatierung
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -332,32 +348,100 @@ replicator:
                           target: null
                           rel: null
                     text: Promotionsberatung
-      -
-        type: paragraph
-        content:
+            show_as_card: false
           -
-            type: text
-            text: "\_"
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Wichtige Fachbereiche:'
-      -
-        type: bullet_list
-        content:
-          -
-            type: list_item
-            content:
+            bard:
               -
                 type: paragraph
                 content:
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/uebersetzung
+                          target: null
+                          rel: null
+                    text: Übersetzung
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          target: null
+                          rel: null
+                    text: Plagiatsprüfung
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wichtige Fachbereiche:'
+                  -
+                    type: hard_break
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '3'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: underline
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -365,9 +449,6 @@ replicator:
                           target: null
                           rel: null
                     text: Architektur
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -375,37 +456,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /fachrichtungen/bauingenieurwesen
-                          target: null
-                          rel: null
-                    text: Bauingenieurwesen
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: /fachrichtungen/biologie
-                          target: null
-                          rel: null
-                    text: Biologie
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -413,9 +471,6 @@ replicator:
                           target: null
                           rel: null
                     text: BWL
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -423,37 +478,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /fachrichtungen/chemie
-                          target: null
-                          rel: null
-                    text: Chemie
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: /fachrichtungen/elektrotechnik
-                          target: null
-                          rel: null
-                    text: Elektrotechnik
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -461,9 +493,6 @@ replicator:
                           target: null
                           rel: null
                     text: Erziehungswissenschaften
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -471,37 +500,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /fachrichtungen/finanzwissenschaften
-                          target: null
-                          rel: null
-                    text: Finanzwissenschaften
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: /fachrichtungen/geologie
-                          target: null
-                          rel: null
-                    text: Geologie
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -509,9 +515,6 @@ replicator:
                           target: null
                           rel: null
                     text: Germanistik
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -519,37 +522,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /fachrichtungen/geschichte
-                          target: null
-                          rel: null
-                    text: Geschichte
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: /fachrichtungen/informatik
-                          target: null
-                          rel: null
-                    text: Informatik
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -557,9 +537,6 @@ replicator:
                           target: null
                           rel: null
                     text: Jura
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -567,37 +544,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /fachrichtungen/kommunikationswissenschaften
-                          target: null
-                          rel: null
-                    text: Kommunikation
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: /fachrichtungen/kunst
-                          target: null
-                          rel: null
-                    text: Kunst
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -605,9 +559,6 @@ replicator:
                           target: null
                           rel: null
                     text: Literatur
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -615,37 +566,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /fachrichtungen/marketing
-                          target: null
-                          rel: null
-                    text: Marketing
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: /fachrichtungen/maschinenbau
-                          target: null
-                          rel: null
-                    text: Maschinenbau
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -653,9 +581,6 @@ replicator:
                           target: null
                           rel: null
                     text: Mathematik
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -663,37 +588,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /fachrichtungen/medienwissenschaften
-                          target: null
-                          rel: null
-                    text: Medienwissenschaften
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: /fachrichtungen/medizin
-                          target: null
-                          rel: null
-                    text: Medizin
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -701,9 +603,6 @@ replicator:
                           target: null
                           rel: null
                     text: Pflegewissenschaften
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -711,37 +610,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /fachrichtungen/philosophie
-                          target: null
-                          rel: null
-                    text: Philosophie
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: /fachrichtungen/psychologie
-                          target: null
-                          rel: null
-                    text: Psychologie
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -749,9 +625,6 @@ replicator:
                           target: null
                           rel: null
                     text: 'Soziale Arbeit'
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -759,37 +632,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /fachrichtungen/soziologie
-                          target: null
-                          rel: null
-                    text: Soziologie
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: /fachrichtungen/sprachwissenschaften
-                          target: null
-                          rel: null
-                    text: Sprachwissenschaften
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -797,9 +647,6 @@ replicator:
                           target: null
                           rel: null
                     text: VWL
-          -
-            type: list_item
-            content:
               -
                 type: paragraph
                 content:
@@ -807,37 +654,14 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /fachrichtungen/wirtschaftsinformatik
-                          target: null
-                          rel: null
-                    text: Wirtschaftsinformatik
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          align: start
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: /fachrichtungen/wirtschaftswissenschaften
-                          target: null
-                          rel: null
-                    text: Wirtschaftswissenschaften
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -845,441 +669,741 @@ replicator:
                           target: null
                           rel: null
                     text: Zahnmedizin
-      -
-        type: paragraph
-        content:
+            show_as_card: false
           -
-            type: text
-            text: "\_"
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Zur Seminararbeit'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Seminare sind Veranstaltungen an Hochschulen, die sich über den regen Austausch zwischen Studenten und Hochschullehrer definieren, sie kommen demnach dem schulischen Lernen sehr nahe. Der Abschluss eines solchen Seminars wird meist erreicht, indem die Lehrinstitutionen von ihren Studenten Referate erwarten oder eine Seminararbeit schreiben lassen. Dadurch soll der Student nicht nur den Umgang mit wissenschaftlichen Fragestellungen erlernen, sondern auch seine Leistungen und Ergebnisse angemessen in Schrift umsetzen, was der Vorbereitung zur Bachelorarbeit oder Masterarbeit dient.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Durch die nicht selten fehlende Erfahrung mit wissenschaftlichen Arbeiten, in Verbindung mit Leistungs- und Zeitdruck, sind einige Studenten schon dem wissenschaftlichen Arbeiten überfordert und benötigen weit aus mehr Hilfe bei der Seminararbeit, als es einige Hochschulen bieten können.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Des Weiteren herrscht in Deutschland seit einigen Jahren eine Überfüllung der Hörsäle, was die Vermittlung des Lehrstoffs in Vorlesungen und Seminaren deutlich verschlechtert. Hier unterstützen professionelle akademische Freelancer, welche als '
-          -
-            type: text
-            marks:
+            bard:
               -
-                type: link
-                attrs:
-                  href: /lektorat/lektor
-                  target: null
-                  rel: null
-            text: Lektoren
-          -
-            type: text
-            text: ' und Korrektoren tätig sind. Außerdem findet neben der Textkorrektur auch häufig ein gezieltes Coaching für die Seminararbeit statt. Bei einigen Studenten hat es sich entwickelt, dass sie von einem Ghostwriter ihre Seminararbeit schreiben lassen. Dabei sollte jedoch die Seminararbeit des Ghostwriters lediglich als Mustervorlage dienen, da es sich um eine Prüfungsleistung handelt, die vom Studenten selbst erstellt werden muss.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Schwierigkeiten bei wissenschaftlichen Arbeiten'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Häufig haben Studenten Probleme damit, eine vollständige wissenschaftliche Arbeit alleinständig zu schreiben. Die Ursachen sind dafür meistens, dass in den Lehrveranstaltungen ungenügendes Methoden-Wissen vermittelt wird oder unzureichende Unterstützung durch Lehrkräfte angeboten wird. Ohne Methoden-Know-How zu den wissenschaftlichen Arbeitstechniken ist es schwierig, eine Seminararbeit zu schreiben, egal zu welchem Thema. Daher ist oftmals die Fragestellung von Studierenden:'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-            text: 'Wie schaffe ich es jetzt diese Vielzahl '
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-            text: 'der Informationen so zu verarbeiten, '
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-            text: 'dass ich diese im Rahmen einer Seminararbeit '
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-            text: 'auf den Punkt bringen kann?"'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "Genau diese Fragestellung ist schwierig zu beantworten ohne Methoden-Know-How und Fachwissen. Hinzu kommt, dass die Themen und die Themenstellungen innerhalb von Seminararbeiten sehr vielfältiger Art und Weise sind. Seminararbeiten sind häufig sehr stark auf eine konkrete Fragestellung fokussiert. Hierfür bringen die besten und grundlegenden Voraussetzungen erfahrene \_Ghostwriter mit sich. Ghostwriter können wertvolle Hilfestellung insbesondere für die Studienanfänger leisten. Beispielsweise sind professionell erstelle Mustervorlagen gute Orientierungsmöglichkeiten für den Anfang des Studiums beim Schreiben einer Seminararbeit. Ghostwriter besitzen sowohl das Methoden-Know-How zur Erstellung einer Seminararbeit, als auch viele große praktische Erfahrung bei der Erstellung einer solchen Arbeit. Zudem forschen die sie schnell und effizient über die jeweilige Themenstellung, die im Rahmen einer Seminararbeit bearbeitet werden muss. Denn Ghostwriter kennen den aktuellen Forschungsstand und haben Zugriff zu relevanten Datenbanken für Literatur und empirische Daten."
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Wie sieht der Prozess bei der Erstellung einer Vorlage für die Seminararbeit aus?'
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/arbeiten/seminararbeit/Mustervorlage-fuer-eine-Seminararbeit.jpg
-            img_size: w-1/4
-            float: float-right
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Nach einer unverbindlichen Anfrage auf der Webseite, erhalten Sie ein kostenloses Angebot und eine individuelle Beratung zur Planung eines Projektes von unseren Kundenberater. Nach einer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre wissenschaftlichen Arbeit. Unsere professionellen Projektmanager übernehmen die gesamte Kommunikation, sodass stets Ihre Anonymität und gleichzeitig auch die Anonymität des Autors gesichert ist.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "\_"
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Bei größeren Seminararbeiten ist auch eine anonyme Telefonkonferenz mit dem jeweiligen Autor möglich. Je nach Umfang der Mustervorlage werden eine oder mehrere Teillieferungen vereinbart. Gerade diese Teillieferungen sind wichtig, um einen Abgleich zu erhalten zwischen Ihren Anforderungen aus dem Thema heraus und dem, was Ihr Autor geliefert hat.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "\_"
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich auch kostenlos im Rahmen der weiteren Umsetzungsschritte realisiert. Bei Fragen und Änderungswünschen, die im Rahmen dieses gesamten Projektes auftreten, ist ihr Projektmanager immer Ihr persönlicher Ansprechpartner. Dieser Projektmanager bleibt immer gleich während des gesamten Projektes und ist bei Fragen oder Problemen telefonisch oder per E-Mail ständig für Sie erreichbar.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "\_"
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen Lektor kontrolliert \_mit Hilfe einer professionellen Software auf Plagiate geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben."
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Über uns & unseren Service'
-      -
-        type: table
-        content:
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
+                type: paragraph
                 content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                        text: Telefonnummer
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/bauingenieurwesen
+                          target: null
+                          rel: null
+                    text: Bauingenieurwesen
               -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
+                type: paragraph
                 content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        text: '+49 (0) 30 809 332 339'
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/chemie
+                          target: null
+                          rel: null
+                    text: Chemie
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/finanzwissenschaften
+                          target: null
+                          rel: null
+                    text: Finanzwissenschaften
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/geschichte
+                          target: null
+                          rel: null
+                    text: Geschichte
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/kommunikationswissenschaften
+                          target: null
+                          rel: null
+                    text: Kommunikation
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/marketing
+                          target: null
+                          rel: null
+                    text: Marketing
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/medienwissenschaften
+                          target: null
+                          rel: null
+                    text: Medienwissenschaften
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/philosophie
+                          target: null
+                          rel: null
+                    text: Philosophie
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/soziologie
+                          target: null
+                          rel: null
+                    text: Soziologie
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/wirtschaftsinformatik
+                          target: null
+                          rel: null
+                    text: Wirtschaftsinformatik
+            show_as_card: false
           -
-            type: table_row
-            content:
+            bard:
               -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
+                type: paragraph
                 content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                        text: 'E-Mail Adresse'
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/biologie
+                          target: null
+                          rel: null
+                    text: Biologie
               -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
+                type: paragraph
                 content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        text: info@gwriters.de
-          -
-            type: table_row
-            content:
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/elektrotechnik
+                          target: null
+                          rel: null
+                    text: Elektrotechnik
               -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
+                type: paragraph
                 content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                        text: Webseite
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/geologie
+                          target: null
+                          rel: null
+                    text: Geologie
               -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
+                type: paragraph
                 content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        text: gwriters.de
-          -
-            type: table_row
-            content:
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/informatik
+                          target: null
+                          rel: null
+                    text: Informatik
               -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
+                type: paragraph
                 content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                        text: Arbeitenart
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/kunst
+                          target: null
+                          rel: null
+                    text: Kunst
               -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
+                type: paragraph
                 content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        text: Seminararbeit
-          -
-            type: table_row
-            content:
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/maschinenbau
+                          target: null
+                          rel: null
+                    text: Maschinenbau
               -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
+                type: paragraph
                 content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                        text: 'Kosten & Preise'
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/medizin
+                          target: null
+                          rel: null
+                    text: Medizin
               -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
+                type: paragraph
                 content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        text: 'ab 80€ pro Seite'
-          -
-            type: table_row
-            content:
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/psychologie
+                          target: null
+                          rel: null
+                    text: Psychologie
               -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
+                type: paragraph
                 content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                        text: "100% Anonymität \_\_"
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/sprachwissenschaften
+                          target: null
+                          rel: null
+                    text: Sprachwissenschaften
               -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
+                type: paragraph
                 content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        text: 'vertraglich garantiert'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
+                        type: textAlign
+                        attrs:
+                          align: start
                       -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                        text: Supervisor
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                       -
-                        type: text
-                        text: 'im Preis inklusive'
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/wirtschaftswissenschaften
+                          target: null
+                          rel: null
+                    text: Wirtschaftswissenschaften
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
       -
-        type: paragraph
-        content:
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
           -
-            type: text
-            text: "\_"
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Zur Seminararbeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Seminare sind Veranstaltungen an Hochschulen, die sich über den regen Austausch zwischen Studenten und Hochschullehrer definieren, sie kommen demnach dem schulischen Lernen sehr nahe. Der Abschluss eines solchen Seminars wird meist erreicht, indem die Lehrinstitutionen von ihren Studenten Referate erwarten oder eine Seminararbeit schreiben lassen. Dadurch soll der Student nicht nur den Umgang mit wissenschaftlichen Fragestellungen erlernen, sondern auch seine Leistungen und Ergebnisse angemessen in Schrift umsetzen, was der Vorbereitung zur Bachelorarbeit oder Masterarbeit dient.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Durch die nicht selten fehlende Erfahrung mit wissenschaftlichen Arbeiten, in Verbindung mit Leistungs- und Zeitdruck, sind einige Studenten schon dem wissenschaftlichen Arbeiten überfordert und benötigen weit aus mehr Hilfe bei der Seminararbeit, als es einige Hochschulen bieten können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Des Weiteren herrscht in Deutschland seit einigen Jahren eine Überfüllung der Hörsäle, was die Vermittlung des Lehrstoffs in Vorlesungen und Seminaren deutlich verschlechtert. Hier unterstützen professionelle akademische Freelancer, welche als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat/lektor
+                          target: null
+                          rel: null
+                    text: Lektoren
+                  -
+                    type: text
+                    text: ' und Korrektoren tätig sind. Außerdem findet neben der Textkorrektur auch häufig ein gezieltes Coaching für die Seminararbeit statt. Bei einigen Studenten hat es sich entwickelt, dass sie von einem Ghostwriter ihre Seminararbeit schreiben lassen. Dabei sollte jedoch die Seminararbeit des Ghostwriters lediglich als Mustervorlage dienen, da es sich um eine Prüfungsleistung handelt, die vom Studenten selbst erstellt werden muss.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Schwierigkeiten bei wissenschaftlichen Arbeiten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Häufig haben Studenten Probleme damit, eine vollständige wissenschaftliche Arbeit alleinständig zu schreiben. Die Ursachen sind dafür meistens, dass in den Lehrveranstaltungen ungenügendes Methoden-Wissen vermittelt wird oder unzureichende Unterstützung durch Lehrkräfte angeboten wird. Ohne Methoden-Know-How zu den wissenschaftlichen Arbeitstechniken ist es schwierig, eine Seminararbeit zu schreiben, egal zu welchem Thema. Daher ist oftmals die Fragestellung von Studierenden:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Wie schaffe ich es jetzt diese Vielzahl '
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'der Informationen so zu verarbeiten, '
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'dass ich diese im Rahmen einer Seminararbeit '
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'auf den Punkt bringen kann?"'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Genau diese Fragestellung ist schwierig zu beantworten ohne Methoden-Know-How und Fachwissen. Hinzu kommt, dass die Themen und die Themenstellungen innerhalb von Seminararbeiten sehr vielfältiger Art und Weise sind. Seminararbeiten sind häufig sehr stark auf eine konkrete Fragestellung fokussiert. Hierfür bringen die besten und grundlegenden Voraussetzungen erfahrene \_Ghostwriter mit sich. Ghostwriter können wertvolle Hilfestellung insbesondere für die Studienanfänger leisten. Beispielsweise sind professionell erstelle Mustervorlagen gute Orientierungsmöglichkeiten für den Anfang des Studiums beim Schreiben einer Seminararbeit. Ghostwriter besitzen sowohl das Methoden-Know-How zur Erstellung einer Seminararbeit, als auch viele große praktische Erfahrung bei der Erstellung einer solchen Arbeit. Zudem forschen die sie schnell und effizient über die jeweilige Themenstellung, die im Rahmen einer Seminararbeit bearbeitet werden muss. Denn Ghostwriter kennen den aktuellen Forschungsstand und haben Zugriff zu relevanten Datenbanken für Literatur und empirische Daten."
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wie sieht der Prozess bei der Erstellung einer Vorlage für die Seminararbeit aus?'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Nach einer unverbindlichen Anfrage auf der Webseite, erhalten Sie ein kostenloses Angebot und eine individuelle Beratung zur Planung eines Projektes von unseren Kundenberater. Nach einer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre wissenschaftlichen Arbeit. Unsere professionellen Projektmanager übernehmen die gesamte Kommunikation, sodass stets Ihre Anonymität und gleichzeitig auch die Anonymität des Autors gesichert ist.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/arbeiten/seminararbeit/anfrage-angebot.png
+                    img_size: w-1/2
+                    float: mx-auto
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei größeren Seminararbeiten ist auch eine anonyme Telefonkonferenz mit dem jeweiligen Autor möglich. Je nach Umfang der Mustervorlage werden eine oder mehrere Teillieferungen vereinbart. Gerade diese Teillieferungen sind wichtig, um einen Abgleich zu erhalten zwischen Ihren Anforderungen aus dem Thema heraus und dem, was Ihr Autor geliefert hat.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/arbeiten/seminararbeit/termineplanen.png
+                    img_size: w-1/2
+                    float: mx-auto
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich auch kostenlos im Rahmen der weiteren Umsetzungsschritte realisiert. Bei Fragen und Änderungswünschen, die im Rahmen dieses gesamten Projektes auftreten, ist ihr Projektmanager immer Ihr persönlicher Ansprechpartner. Dieser Projektmanager bleibt immer gleich während des gesamten Projektes und ist bei Fragen oder Problemen telefonisch oder per E-Mail ständig für Sie erreichbar.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/arbeiten/seminararbeit/feedbackumsetzen.png
+                    img_size: w-1/2
+                    float: mx-auto
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen Lektor kontrolliert \_mit Hilfe einer professionellen Software auf Plagiate geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben."
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/arbeiten/seminararbeit/lieferung-der-mustervorlage.png
+                    img_size: w-1/2
+                    float: mx-auto
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    bard:
       -
         type: horizontal_rule
       -
@@ -1289,7 +1413,7 @@ replicator:
             type: button
             button_link: /anfrage
             button_text: 'JETZT KOSTENLOS ANFRAGEN'
-            color: '#FF6606'
+            button_align: justify-center
             spacing_top: false
       -
         type: horizontal_rule
@@ -1552,6 +1676,8 @@ replicator:
             text: 'Formvorgaben für Seminararbeiten - Westfälische Wilhelms-Universität Münster'
       -
         type: paragraph
+      -
+        type: paragraph
         content:
           -
             type: text
@@ -1566,6 +1692,8 @@ replicator:
                   rel: null
             text: '< zurück zur Wiki Übersicht'
     show_as_card: false
+    type: editor
+    enabled: true
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false

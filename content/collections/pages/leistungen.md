@@ -4,8 +4,8 @@ blueprint: pages
 title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1624436014
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1627300176
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -88,10 +88,19 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: 'Häufig erkundigen sich Kunden nach der Sicherheit unserer Dienstleistung. Hierfür haben wir selbstverständlich vollstes Verständnis, denn wenige Themen sind sensibler als die eigene akademische Karriere. Wir garantieren, dass wenn Sie bei uns für unseren akademischen '
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                       -
                         type: link
                         attrs:
@@ -101,10 +110,19 @@ replicator:
                     text: Ghostwriting-Service
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: ' bezahlen, dass Sie dafür auch wirklich eine hochwertige Mustervorlage erhalten. Wir haben das Problem der Risikoverteilung zwischen unserem Unternehmen, dem Kunden und dem Ghostwriter effektiv gelöst, indem wir Teillieferungen anbieten. Das bedeutet, dass Sie als Kunde wirklich erst dann zahlen, wenn Sie eine Lieferung von uns erhalten. Der Ghostwriter kann indes sicher sein, dass er auch für seine Leistungen entlohnt wird. Somit sind beide Parteien abgesichert und das Risiko ist auf allen Seiten minimiert. Wir garantieren sowohl unseren Ghostwritern als auch unseren Kunden vollste Anonymität. Bei der Auftragserteilung wird Ihnen ein Mitarbeiter von uns als persönlicher Projektmanager zugeteilt und dieser übernimmt für Sie die gesamte Kommunikation mit Ihrem '
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                       -
                         type: link
                         attrs:
@@ -114,16 +132,30 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: '. So ist Ihr persönlicher Projektmanager auch die einzige Person, die Ihren echten Namen und den echten Namen des Ghostwriters kennt. Des Weiteren erhalten alle Parteien ausschließlich anonymisierte Dateien. Das bedeutet, dass jegliche persönlichen Informationen werden entfernt und es keine Namen in den Unterlagen sichtbar sind. Natürlich berücksichtigt Ihr Ghostwriter auch Ihre spezifischen Formatvorgaben, Literaturanforderungen oder vorgeschriebene Inhalte. Bestenfalls senden Sie uns diese gleich am Anfang der Texterstellung zu. Am Ende wird Ihre Arbeit von einem internen Supervisor lektoriert, der auch gern Ihre spezifischen Formatvorgaben noch einmal berücksichtigt.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: 'Viele Kunden möchten natürlich wissen "Wer schreibt überhaupt meine Arbeit?" Das hängt sehr von Ihrem individuellen Auftrag ab. Wir garantieren dafür, immer den qualifiziertesten Ghostwriter für Ihr Projekt einzusetzen. Es ist klar, dass kein Master-Absolvent oder Diplom-Absolvent eine Mustervorlage für eine '
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                       -
                         type: link
                         attrs:
@@ -133,10 +165,19 @@ replicator:
                     text: 'Doktorarbeit schreibt'
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: ', sondern dass wir in solchen Fällen auch wirklich darauf achten, entweder Doktoren oder habilitierte Professoren zu verpflichten, die umfangreiche Erfahrung mit dem spezifischen Thema haben und absolute Experten auf ihrem Gebiet sind. Wir selbst sind daran interessiert immer die höchste Qualität zu liefern, da dies auch unser Anspruch an uns selber ist und wir unserem Ruf als professionelle und hochwertige '
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                       -
                         type: link
                         attrs:
@@ -146,8 +187,13 @@ replicator:
                     text: 'Ghostwriter Agentur'
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: ' bei jedem Auftrag gerecht werden möchten. Dementsprechend sind wir immer daran interessiert Ihnen die bestmögliche Qualität zu liefern. Jede Arbeit, die von unseren akademischen Ghostwritern erstellt wird, wird von einem internen Supervisor lektoriert und einer Plagiatsprüfung unterzogen. So garantieren wir Ihre Zufriedenheit und stellen sicher, dass unsere Kunden hochwertige wissenschaftliche Unikate erhalten.'
-            text_ausrichtung: text-justify
+            text_ausrichtung: text-left
     type: editor
     enabled: true
     show_as_card: false

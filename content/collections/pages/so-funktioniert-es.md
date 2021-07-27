@@ -5,7 +5,7 @@ title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1625686848
+updated_at: 1627300301
 teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
   -
@@ -118,7 +118,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: justify
+                          align: left
                     text: 'Der Ablauf bei GWriters ist mit dem Ziel, Ihnen einen schnellst- und bestmögliche Umsetzung Ihres Projekts zu ermöglichen, betont einfach gehalten. Sie als Kunde stellen einfach eine kostenlose Anfrage und erhalten dann innerhalb von wenigen Stunden ein unverbindliches Angebot, individuell abgestimmt auf Ihr Projekt. Sobald Sie diesem Angebot zustimmen, erledigen wir den Rest Sie müssen uns lediglich ein Briefing zu Ihrem Projekt zusenden, welches dem Autor als Grundlage für die zu erstellende Mustervorlage dient und mit dessen Hilfe Sie das Projekt von Anfang an in die von Ihnen gewünschte Richtung steuern können. Sie erhalten dann von uns im Laufe der Zeit mehrere Teillieferung, zu denen Sie sich dann gegebenenfalls zurückmelden oder natürlich auch Änderungswünsche äußern können. Diese werden selbstverständlich direkt umgesetzt und vor der Abschlusslieferung wird jede Arbeit von einem übergeordneten Supervisor aus demselben Fachgebiet noch einmal überprüft, um diese qualifiziert zu beurteilen. Im Anschluss wird dann noch eine professionelle Plagiatsprüfung durchgeführt, sodass Sie sich sicher sein können, ein qualitativ einwandfreies Unikat zu erhalten.'
             show_as_card: false
           -
@@ -132,7 +132,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: justify
+                          align: left
                     text: 'Natürlich bieten wir die Möglichkeit, dass Sie sich mit Ihrem persönlichen Autor im Rahmen von anonymen Telefonkonferenzen austauschen können. Im Laufe der Bearbeitungszeit haben Sie zudem selbstverständlich jederzeit die Möglichkeit, Änderungswünsche zu äußern. Die Teillieferung geben noch einen konkreteren Einblick in die Arbeit und Sie haben hier die Möglichkeit, sich jederzeit über den aktuellen Stand Ihres Projekts zu informieren und Ihre Änderungswünsche vom Autor direkt umsetzen zu lassen. Wenn Sie über Originaldokumente verfügen, die der Autor für die Ausarbeitung der Mustervorlage benötigt, können Sie uns diese natürlich auch per Post zuschicken. Da wir aber eine möglichst schnelle Bearbeitung Ihres Auftrages sicherstellen möchten, ziehen wir den elektronischen Weg des Datenaustausches vor.'
             show_as_card: false
         type: row
@@ -436,7 +436,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                               -
                                 type: textColor
                                 attrs:
@@ -449,7 +449,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                               -
                                 type: textColor
                                 attrs:
@@ -468,7 +468,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                               -
                                 type: textColor
                                 attrs:
@@ -481,7 +481,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                               -
                                 type: textColor
                                 attrs:
@@ -500,7 +500,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                               -
                                 type: textColor
                                 attrs:
@@ -513,7 +513,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                               -
                                 type: textColor
                                 attrs:
@@ -532,7 +532,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                               -
                                 type: textColor
                                 attrs:
@@ -568,7 +568,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                             text: 'Was passiert nach der Anfrage nach einem akademischen Ghostwriter bei GWriters in dem Unternehmen intern? Wie entstehen Angebote für '
                           -
                             type: text
@@ -576,7 +576,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                               -
                                 type: link
                                 attrs:
@@ -590,7 +590,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                             text: '? Was macht diese Angebote bei der '
                           -
                             type: text
@@ -598,7 +598,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                               -
                                 type: link
                                 attrs:
@@ -612,7 +612,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                             text: ' GWriters aus?'
                       -
                         type: heading
@@ -636,7 +636,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                             text: 'Der Prozess beginnt immer mit Ihrer unverbindlichen Anfrage '
                           -
                             type: text
@@ -644,7 +644,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                               -
                                 type: link
                                 attrs:
@@ -658,7 +658,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                             text: ' oder auch per Telefon oder E-Mail. Am besten nennen Sie uns hierbei bereits das Thema, Ihre Deadline, den gewünschten Umfang und machen Angaben zum geplanten Inhalt.'
                       -
                         type: heading
@@ -682,7 +682,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                             text: 'Es folgt die Wahl des richtigen Ghostwriters für Ihren Auftrag. Dazu schauen wir in unsere akademische Ghostwriter-Datenbank. Welcher Autor passt zu diesem Thema? Welcher akademische Ghostwriter hat die richtige Qualifikation und genügend Erfahrung?'
                       -
                         type: paragraph
@@ -693,7 +693,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                             text: 'Wir prüfen außerdem unsere internen Ratings und versuchen immer den besten Autor für Ihr Projekt zu finden, um Ihnen einen bestmöglichen Service zu bieten.'
                       -
                         type: heading
@@ -717,7 +717,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                             text: 'Anschließend erfolgt die Kontaktaufnahme mit Ihrem potenziellen akademischen Ghostwriter. Gemeinsam mit diesen eruieren wir bei jedem Projekt die '
                           -
                             type: text
@@ -725,7 +725,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                               -
                                 type: link
                                 attrs:
@@ -739,7 +739,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                             text: '. So garantieren wir Ihnen einen Festpreis, sodass später keine versteckten Kosten mehr auftauchen. Darin inklusive sind natürlich auch das '
                           -
                             type: text
@@ -747,7 +747,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                               -
                                 type: link
                                 attrs:
@@ -761,7 +761,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                             text: ' und die '
                           -
                             type: text
@@ -769,7 +769,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                               -
                                 type: link
                                 attrs:
@@ -783,7 +783,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                             text: .
                       -
                         type: heading
@@ -807,7 +807,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                             text: 'Alle relevanten Daten, die wir für die Angebotserstellung benötigen, werden unter Einhaltung strengster Diskretion weitergegeben. Wir geben allerdings auf keinen Fall personenbezogenen Daten weiter.'
                       -
                         type: heading
@@ -831,7 +831,7 @@ replicator:
                               -
                                 type: textAlign
                                 attrs:
-                                  align: justify
+                                  align: center
                             text: 'Anfragen an uns sowie auch unsere Angebot sind vollkommen unverbindlich. Kosten entstehen für Sie erst, sobald Sie einen Auftrag verbindlich per Vertragsschluss bestätigen.'
                     text_ausrichtung: text-center
               -
