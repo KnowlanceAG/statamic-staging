@@ -16,8 +16,8 @@ RewriteRule ^(.*)$ https://gwriters.ch/$1 [L,R=301]
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule !/$ %{REQUEST_URI}/index.html [L]
 
-ErrorDocument 404 /404/index.html
-ErrorDocument 403 /404/index.html
+ErrorDocument 404 /404/
+ErrorDocument 403 /404/
 
 RewriteCond %{HTTP_HOST} ^statamic.gwriters.ch$ [OR]
 RewriteCond %{HTTP_HOST} ^www.gwriters.ch$ [OR]
@@ -53,6 +53,7 @@ Redirect 301 /blog/bachelorarbeit-schreiben-lassen-kosten /arbeiten/bachelorarbe
 Redirect 301 /blog/bachelorarbeit-schreiben-tipps /arbeiten/bachelorarbeit
 Redirect 301 /blog/bachelorarbeit-thema /bachelorarbeit-thema
 Redirect 301 /blog/bachelorarbeit-thema-finden /bachelorarbeit-thema
+Redirect 301 /blog/doktorarbeit-kaufen /arbeiten/doktorarbeit
 Redirect 301 /blog/empirische-analyse /blog/empirische-theoretische-bachelorarbeit
 Redirect 301 /blog/erste-juristische-prüfung /blog/erste-juristische-pruefung
 Redirect 301 /blog/exposee-erstellen /arbeiten/expose
@@ -62,6 +63,7 @@ Redirect 301 /blog/ghostwriter-erfahrungen /achtung-ghostwriter-betrug
 Redirect 301 /blog/ghostwriter-jobs-als-copywriter-webtexte-und-blogbeitraege-schreiben /blog/ghostwriter-jobs-copywriter-webtexte-blogbeitraege-schreiben
 Redirect 301 /blog/ghostwriter-ratschlaege /blog/ghostwriter-tipps
 Redirect 301 /blog/ghostwriting-ratschlaege /leistungen/ghostwriting
+Redirect 301 /blog/hausarbeit-kaufen /arbeiten/hausarbeit-schreiben-lassen
 Redirect 301 /blog/igor-lorenz /blog/milena-fischer
 Redirect 301 /blog/jura-hausarbeit-seminararbeit-schreiben /fachrichtungen/jura
 Redirect 301 /blog/online-befragung-teilnehmer-finden /blog/umfrage-teilnehmer-finden
@@ -91,6 +93,7 @@ Redirect 301 /themenauswahltool /bachelorarbeit-thema
 Redirect 301 /verschiedenes/promotionsberatung /promotionsberatung
 Redirect 301 /video-ghostwriter-werden-aber-wie /blog/video-ghostwriter-werden-aber-wie
 Redirect 301 /video/qualitative-inhaltsanalyse-mayring /blog/qualitative-inhaltsanalyse-mayring-beispiele
+Redirect 301 /wiki/diplom-kaufen /arbeiten/diplomarbeit
 Redirect 301 /wiki/verschiedenes /wiki
 Redirect 301 /2013-09-10-ksta-turbo-master-in-vier-semestern /presse/2013-09-10-ksta-turbo-master-in-vier-semestern
 Redirect 301 /presse/2015-12-03/business-punk-ein-ghostwriter-stellt-sich-vor /presse/2015-12-03-business-punk-ein-ghostwriter-stellt-sich-vor
@@ -108,6 +111,7 @@ Redirect 301 /wissenschaftliche-arbeiten-schreiben-word /blog/wissenschaftliche-
 Redirect 410 /blog/doktorarbeit-erfolgreich
 Redirect 410 /blog/ghostwriter-tipps
 Redirect 410 /blog/akademische-ghostwriter-textteile-schreiben
+Redirect 410 /wayback
 
 Redirect 301 /blog/akademische-ghostwriter-gwriters /
 Redirect 301 /blog/doktorarbeit-schreiben /arbeiten/doktorarbeit
