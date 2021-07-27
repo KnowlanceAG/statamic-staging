@@ -1,32 +1,32 @@
-export const service = [
-  { Ghostwriting: 90 },
-  { Textredaktion: 30 },
-  { Lektorat: 18 },
-  { Korrektorat: 5 },
-  { Übersetzung: 60 },
-  { Plagiatsprüfung: 2 }
-]
+export const service = {
+  Ghostwriting: 90,
+  Textredaktion: 30,
+  Lektorat: 18,
+  Korrektorat: 5,
+  Übersetzung: 60,
+  Plagiatsprüfung: 2
+}
 
-export const specialField = [
-  { 'ohne Fachbezug': 1 },
-  { Wirtschaft: 1 },
-  { 'Jura/Recht': 1.1 },
-  { Informatik: 1.1 },
-  { Naturwissenschaften: 1.07 },
-  { Geisteswissenschaften: 1 },
-  { Sozialwissenschaften: 1 },
-  { 'Medizin/Zahnmedizin': 1.1 },
-  { Architektur: 1.06 },
-  { Ingenieurwissenschaften: 1.1 },
-  { Sportwissenschaften: 1 },
-  { 'Sonstige Fachbereiche': 1 }
-]
+export const specialField = {
+  'ohne Fachbezug': 1,
+  Wirtschaft: 1,
+  'Jura/Recht': 1.1,
+  Informatik: 1.1,
+  Naturwissenschaften: 1.07,
+  Geisteswissenschaften: 1,
+  Sozialwissenschaften: 1,
+  'Medizin/Zahnmedizin': 1.1,
+  Architektur: 1.06,
+  Ingenieurwissenschaften: 1.1,
+  Sportwissenschaften: 1,
+  'Sonstige Fachbereiche': 1
+}
 
-export const qualityLevel = [
-  { Economy: 0.89 },
-  { Business: 1 },
-  { Academic: 1.18 }
-]
+export const qualityLevel = {
+  Economy: 0.89,
+  Business: 1,
+  Academic: 1.18
+}
 
 export const timeType = [{ Tage: 1 }, { Wochen: 7 }, { Monate: 30 }]
 

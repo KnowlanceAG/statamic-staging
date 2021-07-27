@@ -10,11 +10,11 @@
             <select v-model="service" id="service" class="w-full">
                 <option value="">Leistung wählen..</option>
                 <option
-                    v-for="service in serviceOptions"
-                    :key="service.key"
-                    :value="service.value"
+                    v-for="service in Object.keys(options.service)"
+                    :key="service"
+                    :value="service"
                 >
-                    {{ service.key }}
+                    {{ service }}
                 </option>
             </select>
         </div>
@@ -27,11 +27,11 @@
             <select v-model="specialField" id="specialField" class="w-full">
                 <option value="">Fachbereich wählen..</option>
                 <option
-                    v-for="specialField in specialFieldOptions"
-                    :key="specialField.key"
-                    :value="specialField.value"
+                    v-for="specialField in Object.keys(options.specialField)"
+                    :key="specialField"
+                    :value="specialField"
                 >
-                    {{ specialField.key }}
+                    {{ specialField }}
                 </option>
             </select>
         </div>
@@ -42,11 +42,11 @@
             <select v-model="qualityLevel" id="qualityLevel" class="w-full">
                 <option value="">Qualitätslevel wählen..</option>
                 <option
-                    v-for="qualityLevel in qualityLevelOptions"
-                    :key="qualityLevel.key"
-                    :value="qualityLevel.value"
+                    v-for="qualityLevel in Object.keys(options.qualityLevel)"
+                    :key="qualityLevel"
+                    :value="qualityLevel"
                 >
-                    {{ qualityLevel.key }}
+                    {{ qualityLevel }}
                 </option>
              </select>
         </div>
@@ -57,8 +57,10 @@
             <input
                 v-model="pages"
                 type="number"
-                pattern="\d*"
+                inputmode="numeric"
+                pattern="[0-9]+"
                 autocomplete="off"
+                min="1"
                 max="9999"
                 id="pages"
                 class="w-full"
@@ -74,8 +76,10 @@
                 <input
                     v-model="timeUnit"
                     type="number"
-                    pattern="\d*"
+                    inputmode="numeric"
+                    pattern="[0-9]+"
                     autocomplete="off"
+                    min="1"
                     max="99999"
                     id="timeUnit"
                     class="w-full pr-2"
@@ -156,21 +160,13 @@ export default {
   watch: {
     pages: function(value) {
       if (value > 9999) this.pages = 9999
+      if (value < 1) this.pages = 1
     },
     timeUnit: function(value) {
       if (value > 999999) this.timeUnit = 999999
     }
   },
   computed: {
-    serviceOptions() {
-      return this.mapArrays(this.options.service)
-    },
-    specialFieldOptions() {
-      return this.mapArrays(this.options.specialField)
-    },
-    qualityLevelOptions() {
-      return this.mapArrays(this.options.qualityLevel)
-    },
     timeTypeOptions() {
       return this.mapArrays(this.options.timeType)
     },
@@ -178,10 +174,16 @@ export default {
       return parseInt(this.timeUnit) * parseInt(this.timeType)
     },
     pagesPerDay() {
-      if (!this.daysToDeliver || !this.pages) return null
+      if (
+          !this.daysToDeliver
+          || this.daysToDeliver < 1
+          || !this.pages
+        ) return null
+
       return this.pages / this.daysToDeliver
     },
     pagesPerDayIndex() {
+      if (!this.pagesPerDay) return null
       const index = this.options.pagesPerDay.find(
         p => this.pagesPerDay <= p.threshold
       )
@@ -196,9 +198,9 @@ export default {
     complete() {
       return (
         this.pages &&
-        this.service &&
-        this.specialField &&
-        this.qualityLevel &&
+        this.service && options.service[this.service] &&
+        this.specialField && options.specialField[this.specialField] &&
+        this.qualityLevel && options.qualityLevel[this.qualityLevel] &&
         this.pagesPerDayIndex &&
         this.pageFactorIndex
       )
@@ -206,12 +208,12 @@ export default {
     result() {
       if (!this.complete) return false
       const result =
-        this.pages *
-        this.service *
-        this.specialField *
-        this.qualityLevel *
-        this.pagesPerDayIndex *
-        this.pageFactorIndex
+        Number.parseInt(this.pages) *
+        options.service[this.service] *
+        options.specialField[this.specialField] *
+        options.qualityLevel[this.qualityLevel] *
+        Number.parseFloat(this.pagesPerDayIndex) *
+        Number.parseFloat(this.pageFactorIndex)
 
       return result.toLocaleString('de-DE', {
         style: 'currency',
