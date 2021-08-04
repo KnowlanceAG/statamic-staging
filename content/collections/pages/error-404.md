@@ -1,8 +1,9 @@
 ---
 id: 37e5f95c-1bbb-4a1b-8000-07841c524a71
+blueprint: pages
 title: 'Seite wurde nicht gefunden. • GWriters.de'
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1627381181
+updated_at: 1627478429
 replicator:
   -
     bard:
@@ -58,7 +59,7 @@ replicator:
     enabled: true
     show_as_card: false
 use_meta_keywords: false
-no_index_page: false
+no_index_page: true
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
