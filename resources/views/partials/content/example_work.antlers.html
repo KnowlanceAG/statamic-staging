@@ -1,8 +1,8 @@
-<div class="p-12 bg-gray-200 flex flex-row">
-    <div class="p-4 w-1/2 flex justify-center">
+<div class="p-12 bg-gray-200 flex sm:flex-row flex-col">
+    <div class="p-4 sm:w-1/2 w-full flex justify-center">
          {{ responsive:ex_image alt="{ex_image:alt}" class="" }}
     </div>
-    <div class="w-1/2">
+    <div class="sm:w-1/2 w-full">
         <h2>{{ ex_title }}</h2>
         <p>Fachbereich: {{ ex_fachbereich }}<a href="{{ url }}" class="text-orange-500">{{ title }}</a> {{ /ex_fachbereich }}<br>
         Arbeitenart: {{ ex_type }} <br>
