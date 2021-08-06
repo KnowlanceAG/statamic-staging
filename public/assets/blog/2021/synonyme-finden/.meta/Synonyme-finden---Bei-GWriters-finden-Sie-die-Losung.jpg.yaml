@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'synonyme finden'
 size: 48121
 last_modified: 1628260719
 width: 886
