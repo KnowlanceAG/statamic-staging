@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Woxikon synonyme finden'
 size: 77537
 last_modified: 1628260301
 width: 1366
