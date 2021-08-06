@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'synonyme finden Duden'
+  caption: 'Quelle: Pixabay'
 size: 56538
 last_modified: 1628260374
 width: 480
