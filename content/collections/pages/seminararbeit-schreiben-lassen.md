@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1628499730
+updated_at: 1628500465
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -269,6 +269,23 @@ replicator:
                   color: '#333333'
                   hex: '#000'
             text: 'Da wir keine Studenten oder Hobbyschreiber beschäftigen, können wir Ihnen eine qualitativ hochwertige Mustervorlage garantieren. Bei unseren erfahrenen akademischen Autoren handelt es sich größtenteils um Doktoren oder Professoren. Da diese selbst promoviert oder habilitiert haben, kennen Sie alle Schwierigkeiten des wissenschaftlichen Arbeitens.'
+      -
+        type: set
+        attrs:
+          values:
+            type: example_work
+            ex_img_right: false
+            ex_image: seiten/besipielarbeit.JPG
+            ex_title: 'Auswirkungen der Digitalisierung auf die Wertschöpfungskette'
+            ex_fachbereich:
+              - 0c7a7458-3742-45a8-b2d4-313a1d29ef66
+            ex_type: Seminararbeit
+            ex_pages: '12'
+            ex_zitation: 'Harvard Style'
+            ex_button_link: /ghostwriting-beispielarbeiten/seminararbeit-beispiel
+            ex_button_text: WEITERLESEN
+            ex_button_align: justify-end
+            ex_spacing_top: false
       -
         type: heading
         attrs:
@@ -1717,21 +1734,6 @@ replicator:
           -
             type: text
             text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-      -
-        type: set
-        attrs:
-          values:
-            type: example_work
-            ex_img_right: false
-            ex_image: seiten/besipielarbeit.JPG
-            ex_title: 'Auswirkungen der Digitalisierung auf die Wertschöpfungskette'
-            ex_type: Seminararbeit
-            ex_pages: '12'
-            ex_zitation: 'Harvard Style'
-            ex_button_link: /ghostwriting-beispielarbeiten/seminararbeit-beispiel
-            ex_button_text: WEITERLESEN
-            ex_button_align: justify-end
-            ex_spacing_top: false
       -
         type: heading
         attrs:
