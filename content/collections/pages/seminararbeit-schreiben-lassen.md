@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1628500465
+updated_at: 1628501077
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1348,15 +1348,6 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
@@ -1400,8 +1391,154 @@ replicator:
                       - seiten/arbeiten/seminararbeit/anfrage-angebot.png
                     img_size: w-1/2
                     float: mx-auto
+            show_as_card: false
+          -
+            bard:
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei größeren Seminararbeiten ist auch eine anonyme Telefonkonferenz mit dem jeweiligen Autor möglich. Je nach Umfang der Mustervorlage werden eine oder mehrere Teillieferungen vereinbart. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Gerade diese Teillieferungen sind wichtig, um einen Abgleich zu erhalten zwischen Ihren Anforderungen aus dem Thema heraus und dem, was Ihr Autor geliefert hat.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/arbeiten/seminararbeit/termineplanen.png
+                    img_size: w-1/2
+                    float: mx-auto
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich auch kostenlos im Rahmen der weiteren Umsetzungsschritte realisiert. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei Fragen und Änderungswünschen, die im Rahmen dieses gesamten Projektes auftreten, ist ihr Projektmanager immer Ihr persönlicher Ansprechpartner. Dieser Projektmanager bleibt immer gleich während des gesamten Projektes und ist bei Fragen oder Problemen telefonisch oder per E-Mail ständig für Sie erreichbar.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/arbeiten/seminararbeit/feedbackumsetzen.png
+                    img_size: w-1/2
+                    float: mx-auto
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen Lektor kontrolliert \_mit Hilfe einer professionellen Software auf Plagiate geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben."
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/arbeiten/seminararbeit/lieferung-der-mustervorlage.png
+                    img_size: w-1/2
+                    float: mx-auto
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wie sieht der Prozess bei der Erstellung einer Vorlage für die Seminararbeit aus?'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/arbeiten/seminararbeit/anfrage-angebot.png
+                    img_size: w-1/2
+                    float: mx-auto
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Nach einer unverbindlichen Anfrage auf der Webseite, erhalten Sie ein kostenloses Angebot und eine individuelle Beratung zur Planung eines Projektes von unseren Kundenberater. Nach einer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre wissenschaftlichen Arbeit. Unsere professionellen Projektmanager übernehmen die gesamte Kommunikation, sodass stets Ihre Anonymität und gleichzeitig auch die Anonymität des Autors gesichert ist.'
             show_as_card: false
         type: row
         enabled: true
@@ -1509,7 +1646,7 @@ replicator:
     bg-image-fixed: false
     border: false
     type: add_section
-    enabled: true
+    enabled: false
   -
     bard:
       -
