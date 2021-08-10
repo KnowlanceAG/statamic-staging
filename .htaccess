@@ -111,9 +111,11 @@ Redirect 301 /wissenschaftliche-arbeiten-schreiben-word /blog/wissenschaftliche-
 Redirect 410 /blog/doktorarbeit-erfolgreich
 Redirect 410 /blog/ghostwriter-tipps
 Redirect 410 /blog/akademische-ghostwriter-textteile-schreiben
+
 Redirect 410 /wayback
 Redirect 410 /404
 Redirect 410 /404/index.html
+Redirect 410 /author/igor-lorenz
 
 Redirect 301 /blog/akademische-ghostwriter-gwriters /
 Redirect 301 /blog/doktorarbeit-schreiben /arbeiten/doktorarbeit
