@@ -1154,8 +1154,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627299014
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1628584467
 template: with-side-bar
 meta_title: 'GWriters • Statistische Analyse durchführen lassen'
 meta_description: 'Statistische Analysen durchführen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität.'
@@ -1170,4 +1170,5 @@ twitter_card_type_page: summary
 og_title: 'GWriters • Statistische Analyse durchführen lassen'
 og_description: 'Statistische Analysen durchführen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität.'
 og_image: GWriters-Logo.png
+arbeitsgruppe: a_sonstige_arbeiten
 ---

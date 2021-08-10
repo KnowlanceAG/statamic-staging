@@ -1568,8 +1568,8 @@ replicator:
     show_as_card: false
 parent: 6300bfa7-4b29-41fb-a2d9-422ef612d3d4
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627299090
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1628584290
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1584,4 +1584,5 @@ og_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Mustervorlage für Doktorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 page_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
+arbeitsgruppe: a_abschlussarbeiten
 ---
