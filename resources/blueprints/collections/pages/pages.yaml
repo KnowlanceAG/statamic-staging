@@ -99,15 +99,6 @@ sections:
           listable: false
           localizable: true
       -
-        handle: template
-        field:
-          type: template
-          display: Template
-          localizable: true
-  kontext:
-    display: Kontext
-    fields:
-      -
         handle: fachrichtungsgruppe
         field:
           options:
@@ -151,11 +142,8 @@ sections:
           listable: hidden
           if: parentIsArbeiten
       -
-        handle: info
+        handle: template
         field:
-          html: '<h3>Keine Kontext-Konfiguration notwendig.</h3>'
-          display: Information
-          type: html
-          icon: code
-          listable: hidden
-          if: noContextConfig
+          type: template
+          display: Template
+          localizable: true
