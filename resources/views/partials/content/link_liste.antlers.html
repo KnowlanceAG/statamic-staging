@@ -30,16 +30,16 @@
               {{ category }}
                 <div
                   class="accordion-tab mb-4 {{ if active }}active{{ /if }}">
-                  <div class="header block px-6 py-3 bg-gray-400 hover:cursor-pointer"
+                  <div class="header block px-2 md:px-6 py-2 md:py-4 bg-gray-400 hover:cursor-pointer"
                     data-target="#accordion-tab-{{ index }}">
-                    <h3 class="flex justify-between p-0 m-0 hover:text-orange-500  hover:cursor-pointer">
-                      <span>
+                    <div class="flex justify-between p-0 m-0 hover:text-orange-500">
+                      <span class="mt-2 md:mt-1 text-base md:text-xl">
                         {{ title }}
                       </span>
                       <div class="w-10">
                         {{ icon | raw }}
                       </div>
-                    </h3>
+                    </div>
                   </div>
                   <div id="accordion-tab-{{ index }}"
                     class="content overflow-hidden transition-all duration-500">
