@@ -1,5 +1,6 @@
 ---
 id: 06fbb3f4-51c2-4f11-832e-9b72a495857d
+blueprint: pages
 title: VWL
 teaser:
   -
@@ -55,8 +56,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'GWriters • VWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1628584856
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1629093089
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -165,6 +166,12 @@ replicator:
                         attrs:
                           align: start
                     text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: video
+                    video: 'https://youtu.be/9MpRbc1ZtcE'
               -
                 type: heading
                 attrs:
@@ -1141,5 +1148,4 @@ meta_description: 'Hilfe durch Experten und akademische Ghostwriter der VWL – 
 og_title: 'GWriters • VWL - Ghostwriter, Lektoren & Coaches'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der VWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 ---
