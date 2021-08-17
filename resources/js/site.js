@@ -2,9 +2,9 @@ import 'alpinejs'
 import './components/cookieconsent/dist/cookieconsent.js'
 
 function menuOpener () {
-  var menu = document.querySelector('.menu-mobile')
-  var body = document.querySelector('.body')
-  var overlayer = document.querySelector('.menu-overlayer')
+  const menu = document.querySelector('.menu-mobile')
+  const body = document.querySelector('.body')
+  const overlayer = document.querySelector('.menu-overlayer')
 
   document.querySelector('.menu-opener').addEventListener('click', e => {
     body.classList.toggle('overflow-hidden')
@@ -20,59 +20,66 @@ function menuOpener () {
 }
 
 function lazzyVideo () {
-  var vidDefer = document.querySelectorAll('.lazy')
-  for (var i = 0; i < vidDefer.length; i++) {
-    if (vidDefer[i].getAttribute('data-src')) {
-      vidDefer[i].setAttribute('src', vidDefer[i].getAttribute('data-src'))
+  const vidDefer = document.querySelectorAll('.lazy')
+  for (const vid of vidDefer) {
+    if (vid.getAttribute('data-src')) {
+      vid.setAttribute('src', vidDefer[i].getAttribute('data-src'))
     }
   }
 }
 
 function tabToggle () {
-  var gwritersTabs = document.querySelectorAll('div.link-list-header > p')
+  const gwritersTabs = document.querySelectorAll('div.link-list-header > p')
   function gwritersTabClicks (tabClickEvent) {
-    for (var i = 0; i < gwritersTabs.length; i++) {
-      gwritersTabs[i].classList.remove('active')
+    for (const tab of gwritersTabs) {
+      tab.classList.remove('active')
     }
 
-    var clickedTab = tabClickEvent.currentTarget
+    const clickedTab = tabClickEvent.currentTarget
     clickedTab.classList.add('active')
-    var gwritersContentPanes = document.querySelectorAll('.link-list-body')
+    const gwritersContentPanes = document.querySelectorAll('.link-list-body')
 
-    for (i = 0; i < gwritersContentPanes.length; i++) {
-      gwritersContentPanes[i].classList.remove('active')
+    for (const pane of gwritersContentPanes) {
+      pane.classList.remove('active')
     }
 
-    var anchorReference = tabClickEvent.target
-    var activePaneId = anchorReference.getAttribute('data-target')
-    var activePane = document.querySelector('.' + activePaneId)
+    const anchorReference = tabClickEvent.target
+    const activePaneId = anchorReference.getAttribute('data-target')
+    const activePane = document.querySelector('.' + activePaneId)
     activePane.classList.add('active')
   }
-  for (var i = 0; i < gwritersTabs.length; i++) {
-    gwritersTabs[i].addEventListener('click', gwritersTabClicks)
+
+  for (const tab of gwritersTabs) {
+    tab.addEventListener('click', gwritersTabClicks)
   }
 }
 
 function accordionToogle () {
-  var accordionTabs = document.querySelectorAll('div.accordion-tab')
+  const accordionTabs = document.querySelectorAll('div.accordion-tab')
+
+  for (const tab of accordionTabs) {
+    tab.addEventListener('click', accordionTabClicks)
+  }
 
   function accordionTabClicks (tabClickEvent) {
-    for (var i = 0; i < accordionTabs.length; i++) {
-      accordionTabs[i].classList.remove('active')
+    const clickedTab = tabClickEvent.currentTarget
+    const active = clickedTab.classList.contains('active')
+
+    for (const tab of accordionTabs) {
+      tab.classList.remove('active')
     }
 
-    var clickedTab = tabClickEvent.currentTarget
-    clickedTab.classList.add('active')
-    var accordionTabsContent = document.querySelectorAll(
+    if (!active) {
+      clickedTab.classList.add('active')
+    }
+
+    const accordionTabsContent = document.querySelectorAll(
       'div.accordion-tab.content'
     )
 
-    for (i = 0; i < accordionTabsContent.length; i++) {
-      accordionTabsContent[i].classList.remove('active')
+    for (const content of accordionTabsContent) {
+      content.classList.remove('active')
     }
-  }
-  for (var i = 0; i < accordionTabs.length; i++) {
-    accordionTabs[i].addEventListener('click', accordionTabClicks)
   }
 }
 
@@ -92,7 +99,7 @@ function setLocalizedContent () {
   }
 }
 function cookienotice () {
-  var cookieconsent = initCookieConsent()
+  const cookieconsent = initCookieConsent()
 
   cookieconsent.run({
     current_lang: 'de',
@@ -180,7 +187,7 @@ function cookienotice () {
   })
 }
 
-var ready = callback => {
+const ready = callback => {
   if (document.readyState != 'loading') callback()
   else document.addEventListener('DOMContentLoaded', callback)
 }
