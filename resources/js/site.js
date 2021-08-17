@@ -23,7 +23,7 @@ function lazzyVideo () {
   const vidDefer = document.querySelectorAll('.lazy')
   for (const vid of vidDefer) {
     if (vid.getAttribute('data-src')) {
-      vid.setAttribute('src', vidDefer[i].getAttribute('data-src'))
+      vid.setAttribute('src', vid.getAttribute('data-src'))
     }
   }
 }
