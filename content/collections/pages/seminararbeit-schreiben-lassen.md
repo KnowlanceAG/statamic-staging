@@ -44,8 +44,8 @@ teaser:
         color: '#FF6606'
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1628501255
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1628584055
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1852,4 +1852,5 @@ meta_description: 'Mustervorlage für Ihre Seminararbeit schreiben lassen & Hilf
 og_title: 'GWriters • Mustervorlage für Seminararbeit schreiben lassen'
 og_description: 'Mustervorlage für Ihre Seminararbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
+arbeitsgruppe: a_studienarbeiten
 ---

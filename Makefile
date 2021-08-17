@@ -3,4 +3,4 @@ start:
 	yarn watch
 
 build:
-	yarn build
+	yarn prod

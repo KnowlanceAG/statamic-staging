@@ -1,192 +1,202 @@
-import 'alpinejs';
+import 'alpinejs'
 import './components/cookieconsent/dist/cookieconsent.js'
 
-function menuOpener() {
-    var menu = document.querySelector(".menu-mobile");
-    var body = document.querySelector(".body");
-    var overlayer = document.querySelector(".menu-overlayer");
+function menuOpener () {
+  const menu = document.querySelector('.menu-mobile')
+  const body = document.querySelector('.body')
+  const overlayer = document.querySelector('.menu-overlayer')
 
-    document.querySelector(".menu-opener").addEventListener("click", (e) => {
-        body.classList.toggle('overflow-hidden')
-        menu.classList.toggle('hidden')
-        overlayer.classList.toggle('hidden')
-    });
+  document.querySelector('.menu-opener').addEventListener('click', e => {
+    body.classList.toggle('overflow-hidden')
+    menu.classList.toggle('hidden')
+    overlayer.classList.toggle('hidden')
+  })
 
-    document.querySelector(".menu-closer").addEventListener("click", (e) => {
-        body.classList.toggle('overflow-hidden')
-        menu.classList.toggle('hidden')
-        overlayer.classList.toggle('hidden')
-    });
+  document.querySelector('.menu-closer').addEventListener('click', e => {
+    body.classList.toggle('overflow-hidden')
+    menu.classList.toggle('hidden')
+    overlayer.classList.toggle('hidden')
+  })
 }
 
-function lazzyVideo() {
-    var vidDefer = document.querySelectorAll(".lazy");
-    for (var i = 0; i < vidDefer.length; i++) {
-        if (vidDefer[i].getAttribute('data-src')) {
-            vidDefer[i].setAttribute('src', vidDefer[i].getAttribute('data-src'))
-        }
+function lazzyVideo () {
+  const vidDefer = document.querySelectorAll('.lazy')
+  for (const vid of vidDefer) {
+    if (vid.getAttribute('data-src')) {
+      vid.setAttribute('src', vidDefer[i].getAttribute('data-src'))
     }
+  }
 }
 
-function tabToggle() {
-    var gwritersTabs = document.querySelectorAll("div.link-list-header > p");
-    function gwritersTabClicks(tabClickEvent) {
-        for (var i = 0; i < gwritersTabs.length; i++) {
-            gwritersTabs[i].classList.remove("active");
-        }
-
-        var clickedTab = tabClickEvent.currentTarget;
-        clickedTab.classList.add("active");
-        var gwritersContentPanes = document.querySelectorAll(".link-list-body");
-
-        for (i = 0; i < gwritersContentPanes.length; i++) {
-            gwritersContentPanes[i].classList.remove("active");
-        }
-
-        var anchorReference = tabClickEvent.target;
-        var activePaneId = anchorReference.getAttribute("data-target");
-        var activePane = document.querySelector('.'+activePaneId);
-        activePane.classList.add("active");
+function tabToggle () {
+  const gwritersTabs = document.querySelectorAll('div.link-list-header > p')
+  function gwritersTabClicks (tabClickEvent) {
+    for (const tab of gwritersTabs) {
+      tab.classList.remove('active')
     }
-    for (var i = 0; i < gwritersTabs.length; i++) {
-        gwritersTabs[i].addEventListener("click", gwritersTabClicks)
+
+    const clickedTab = tabClickEvent.currentTarget
+    clickedTab.classList.add('active')
+    const gwritersContentPanes = document.querySelectorAll('.link-list-body')
+
+    for (const pane of gwritersContentPanes) {
+      pane.classList.remove('active')
     }
+
+    const anchorReference = tabClickEvent.target
+    const activePaneId = anchorReference.getAttribute('data-target')
+    const activePane = document.querySelector('.' + activePaneId)
+    activePane.classList.add('active')
+  }
+
+  for (const tab of gwritersTabs) {
+    tab.addEventListener('click', gwritersTabClicks)
+  }
 }
 
-function accordionToogle() {
-    var accordionTabs = document.querySelectorAll("div.accordion-tab");
+function accordionToogle () {
+  const accordionTabs = document.querySelectorAll('div.accordion-tab')
 
-    function accordionTabClicks(tabClickEvent) {
-        for (var i = 0; i < accordionTabs.length; i++) {
-            accordionTabs[i].classList.remove("active");
-        }
+  for (const tab of accordionTabs) {
+    tab.addEventListener('click', accordionTabClicks)
+  }
 
-        var clickedTab = tabClickEvent.currentTarget;
-        clickedTab.classList.add("active");
-        var accordionTabsContent = document.querySelectorAll("div.accordion-tab.content");
+  function accordionTabClicks (tabClickEvent) {
+    const clickedTab = tabClickEvent.currentTarget
+    const active = clickedTab.classList.contains('active')
 
-        for (i = 0; i < accordionTabsContent.length; i++) {
-            accordionTabsContent[i].classList.remove("active");
-        }
+    for (const tab of accordionTabs) {
+      tab.classList.remove('active')
     }
-    for (var i = 0; i < accordionTabs.length; i++) {
-        accordionTabs[i].addEventListener("click", accordionTabClicks)
+
+    if (!active) {
+      clickedTab.classList.add('active')
     }
+
+    const accordionTabsContent = document.querySelectorAll(
+      'div.accordion-tab.content'
+    )
+
+    for (const content of accordionTabsContent) {
+      content.classList.remove('active')
+    }
+  }
 }
 
-function getLocale() {
-    const tld = window.location.origin.split('.').pop();
-    return tld;
+function getLocale () {
+  const tld = window.location.origin.split('.').pop()
+  return tld
 }
 
 function setLocalizedContent () {
-    const curr = getLocale();
-    const body = document.body;
+  const curr = getLocale()
+  const body = document.body
 
-    if(curr == 'ch') {
-        body.classList.add('ch');
-    } else {
-        body.classList.add('de');
-    }
+  if (curr == 'ch') {
+    body.classList.add('ch')
+  } else {
+    body.classList.add('de')
+  }
 }
 function cookienotice () {
-    var cookieconsent = initCookieConsent();
+  const cookieconsent = initCookieConsent()
 
-    cookieconsent.run({
-        current_lang : 'de',
-        theme_css : '',
-        page_scripts: true,
+  cookieconsent.run({
+    current_lang: 'de',
+    theme_css: '',
+    page_scripts: true,
 
-        onAccept : function(){
+    onAccept: function () {},
 
+    languages: {
+      de: {
+        consent_modal: {
+          title: 'Diese Webseite verwendet Cookies',
+          description:
+            'Diese Websites verwendet Cookies um Ihnen den bestmöglichen Service bieten zu können – nähere Informationen dazu und zu Ihren Rechten als Benutzer finden Sie in unserer Datenschutzerklärung. Klicken Sie auf „Ich stimme zu“, um alle Cookies zu akzeptieren und unsere Website uneingeschränkt nutzen zu können.',
+          primary_btn: {
+            text: 'Ich stimme zu',
+            role: 'accept_all' //'accept_selected' or 'accept_all'
+          },
+          secondary_btn: {
+            text: 'Nur ausgewählte akzeptieren',
+            role: 'accept_selected' //'settings' or 'accept_necessary'
+          }
         },
-
-        languages : {
-            de : {
-                consent_modal : {
-                    title :  "Diese Webseite verwendet Cookies",
-                    description :  'Diese Websites verwendet Cookies um Ihnen den bestmöglichen Service bieten zu können – nähere Informationen dazu und zu Ihren Rechten als Benutzer finden Sie in unserer Datenschutzerklärung. Klicken Sie auf „Ich stimme zu“, um alle Cookies zu akzeptieren und unsere Website uneingeschränkt nutzen zu können.',
-                    primary_btn: {
-                        text: 'Ich stimme zu',
-                        role: 'accept_all'  //'accept_selected' or 'accept_all'
-                    },
-                    secondary_btn: {
-                        text : 'Nur ausgewählte akzeptieren',
-                        role : 'accept_selected'   //'settings' or 'accept_necessary'
-                    }
-                },
-                settings_modal : {
-                    title : 'Cookie Einstellungen',
-                    save_settings_btn : "Einstellungen speichern",
-                    accept_all_btn : "Alle Akzeptieren",
-                    close_btn_label: "Schließen",
-                    cookie_table_headers : [
-                        {col1: "Name" },
-                        {col2: "Source" },
-                        {col3: "Beschreibung" },
-                    ],
-                    blocks : [
-                        {
-                            title : "Cookies",
-                            description: ''
-                        },{
-                            title : "Notwendige",
-                            description: 'Cookienotice',
-                            toggle : {
-                                value : 'necessary',
-                                enabled : true,
-                                readonly: true
-                            },
-                            cookie_table: [
-                                {
-                                    col1: 'cc_cookie',
-                                    col2: 'gwriters.de',
-                                    col3: '',
-                                },
-                            ]
-                        },{
-                            title : "Statistiken",
-                            description: '',
-                            toggle : {
-                                value : 'analytics',
-                                enabled : false,
-                                readonly: false
-                            },
-                            cookie_table: [
-                                {
-                                    col1: '_gat_gtag_UA_30152060_1',
-                                    col2: 'gwriters.de',
-                                    col3: 'Google Analytics - to store a unique user ID',
-                                },
-                                {
-                                    col1: '_ga',
-                                    col2: 'gwriters.de',
-                                    col3: 'Google Analytics - to store and count pageviews',
-                                },
-                                {
-                                    col1: '_gid',
-                                    col2: 'gwriters.de',
-                                    col3: 'Google Analytics - to store and count pageviews.',
-                                }
-                            ]
-                        },
-                    ]
+        settings_modal: {
+          title: 'Cookie Einstellungen',
+          save_settings_btn: 'Einstellungen speichern',
+          accept_all_btn: 'Alle Akzeptieren',
+          close_btn_label: 'Schließen',
+          cookie_table_headers: [
+            { col1: 'Name' },
+            { col2: 'Source' },
+            { col3: 'Beschreibung' }
+          ],
+          blocks: [
+            {
+              title: 'Cookies',
+              description: ''
+            },
+            {
+              title: 'Notwendige',
+              description: 'Cookienotice',
+              toggle: {
+                value: 'necessary',
+                enabled: true,
+                readonly: true
+              },
+              cookie_table: [
+                {
+                  col1: 'cc_cookie',
+                  col2: 'gwriters.de',
+                  col3: ''
                 }
+              ]
+            },
+            {
+              title: 'Statistiken',
+              description: '',
+              toggle: {
+                value: 'analytics',
+                enabled: false,
+                readonly: false
+              },
+              cookie_table: [
+                {
+                  col1: '_gat_gtag_UA_30152060_1',
+                  col2: 'gwriters.de',
+                  col3: 'Google Analytics - to store a unique user ID'
+                },
+                {
+                  col1: '_ga',
+                  col2: 'gwriters.de',
+                  col3: 'Google Analytics - to store and count pageviews'
+                },
+                {
+                  col1: '_gid',
+                  col2: 'gwriters.de',
+                  col3: 'Google Analytics - to store and count pageviews.'
+                }
+              ]
             }
+          ]
         }
-    });
+      }
+    }
+  })
 }
 
-var ready = (callback) => {
-  if (document.readyState != "loading") callback();
-  else document.addEventListener("DOMContentLoaded", callback);
+const ready = callback => {
+  if (document.readyState != 'loading') callback()
+  else document.addEventListener('DOMContentLoaded', callback)
 }
 
 ready(() => {
-    menuOpener();
-    lazzyVideo();
-    tabToggle();
-    accordionToogle();
-    cookienotice();
-    setLocalizedContent();
-});
+  menuOpener()
+  lazzyVideo()
+  tabToggle()
+  accordionToogle()
+  cookienotice()
+  setLocalizedContent()
+})

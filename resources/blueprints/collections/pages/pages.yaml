@@ -99,6 +99,49 @@ sections:
           listable: false
           localizable: true
       -
+        handle: fachrichtungsgruppe
+        field:
+          options:
+            g_technische_fachrichtungen: 'Technische Fachrichtungen'
+            g_medizinische_fachrichtungen: 'Medizinische Fachrichtungen'
+            g_wirtschaftliche_fachbereiche: 'Wirtschaftliche Fachbereiche'
+            g_naturwissenschaften: Naturwissenschaften
+            g_geisteswissenschaften: Geisteswissenschaften
+            g_sozialwissenschaften: Sozialwissenschaften
+          multiple: false
+          max_items: 1
+          clearable: true
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: Fachrichtungsgruppe
+          type: select
+          icon: select
+          instructions: 'Wählen Sie die Gruppe der Fachrichtungen, der diese Seite zugeordnet ist'
+          listable: hidden
+          if: parentIsFachrichtungen
+      -
+        handle: arbeitsgruppe
+        field:
+          options:
+            a_studienarbeiten: Studienarbeiten
+            a_abschlussarbeiten: Abschlussarbeiten
+            a_sonstige_arbeiten: 'Sonstige Arbeiten'
+          multiple: false
+          max_items: 1
+          clearable: true
+          searchable: true
+          taggable: false
+          push_tags: false
+          cast_booleans: false
+          display: Arbeitsgruppe
+          type: select
+          icon: select
+          instructions: 'Wählen Sie eine Arbeitsgruppe, der diese Seite zugeordnet ist'
+          listable: hidden
+          if: parentIsArbeiten
+      -
         handle: template
         field:
           type: template

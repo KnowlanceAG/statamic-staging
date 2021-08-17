@@ -1376,8 +1376,8 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627298596
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1628584253
 meta_title: 'Masterarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Mustervorlage für Masterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
@@ -1391,4 +1391,5 @@ twitter_card_type_page: summary
 og_title: 'Masterarbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Mustervorlage für Masterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
+arbeitsgruppe: a_abschlussarbeiten
 ---

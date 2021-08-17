@@ -46,8 +46,8 @@ teaser:
         color: '#FF6606'
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627297002
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1628584201
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1642,4 +1642,5 @@ meta_description: 'Mustervorlage für Bachelorarbeit schreiben lassen & Hilfe vo
 og_title: 'Bachelorarbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Mustervorlage für Bachelorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.jpg
+arbeitsgruppe: a_abschlussarbeiten
 ---
