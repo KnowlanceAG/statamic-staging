@@ -1,8 +1,9 @@
 ---
 id: 8e94ca0e-e5de-46b9-908e-d086cd76f0c8
+blueprint: pages
 title: Datenschutzerklärung
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623326459
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1629385953
 page_title: 'GWriters • Datenschutzerklärung'
 meta_title: 'GWriters • Datenschutzerklärung'
 meta_description: 'Unsere Datenschutzerklärung. GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
@@ -2881,17 +2882,12 @@ replicator:
                 attrs:
                   align: start
               -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-              -
                 type: link
                 attrs:
-                  href: 'https://www.aboutads.info/choices/'
+                  href: 'https://optout.aboutads.info/?c=2&lang=EN'
                   target: null
                   rel: null
-            text: 'https://www.aboutads.info/choices/'
+            text: 'https://optout.aboutads.info/?c=2&lang=EN'
       -
         type: paragraph
         content:
@@ -2923,21 +2919,12 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
-                          href: 'http://optout.networkadvertising.org/'
+                          href: 'https://optout.networkadvertising.org/?c=1'
                           target: null
                           rel: null
-                    text: 'http://optout.networkadvertising.org/'
+                    text: 'https://optout.networkadvertising.org/?c=1'
           -
             type: list_item
             content:
@@ -2948,21 +2935,12 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
-                          href: 'http://www.youronlinechoices.com/uk/your-ad-choices/'
+                          href: 'http://www.youronlinechoices.com/uk/your-ad-choices'
                           target: null
                           rel: null
-                    text: 'http://www.youronlinechoices.com/uk/your-ad-choices/'
+                    text: 'http://www.youronlinechoices.com/uk/your-ad-choices'
       -
         type: paragraph
         content:
@@ -3002,48 +2980,19 @@ replicator:
         content:
           -
             type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
             text: 'Auf unseren Webseiten nutzen wir Google Analytics, ein Webanalysedienst der Google Ireland Limited ('
           -
             type: text
             marks:
               -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-              -
                 type: link
                 attrs:
-                  href: 'https://www.google.de/intl/de/about/'
-                  target: null
-                  rel: null
-            text: 'https://www.google.de/intl/de/about/'
+                  href: 'https://about.google/intl/de/'
+                  target: _blank
+                  rel: 'noopener noreferrer'
+            text: 'https://about.google/intl/de/'
           -
             type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
             text: ') (Gordon House, Barrow Street, Dublin 4, Irland; im Folgenden “Google”). In diesem Zusammenhang werden pseudonymisierte Nutzungsprofile erstellt und Cookies (siehe Punkt “Cookies”) verwendet. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website wie'
       -
         type: ordered_list
