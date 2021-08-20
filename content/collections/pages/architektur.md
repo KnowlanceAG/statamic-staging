@@ -1,5 +1,6 @@
 ---
 id: 1390d32b-dd5d-49d2-85ff-21833c97c8ed
+blueprint: pages
 title: Architektur
 teaser:
   -
@@ -55,8 +56,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'GWriters • Architektur - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1628584366
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1629446917
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -253,6 +254,12 @@ replicator:
                         attrs:
                           align: start
                     text: "\_und Übersetzer beauftragt werden. So wird nicht nur der Student entlastet, sondern auch das qualitative Niveau der Arbeit gehoben und eine bestmögliche Benotung bewirkt."
+              -
+                type: set
+                attrs:
+                  values:
+                    type: video
+                    video: 'https://youtu.be/laxN4EPWOuk'
               -
                 type: heading
                 attrs:
