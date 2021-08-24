@@ -214,6 +214,11 @@ table {
 .has-bg-image {
     @apply bg-no-repeat;
     background-position: top center !important;
+}
+
+/* only on home page */
+.home {
+  .has-bg-image {
     div {
       @media (max-width: 1024px)  {
         /* opera 11.10+ */
@@ -228,6 +233,7 @@ table {
         }
       }
     }
+  }
 }
 
 .hover-content {
