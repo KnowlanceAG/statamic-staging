@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1629895787
+updated_at: 1629895847
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -372,91 +372,6 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-      -
-        columns_per_row: '6'
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - presse/logo-brandeins.png
-                    has_border: false
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - presse/logo-finicial.png
-                    has_border: false
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - presse/logo-neon.png
-                    has_border: false
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - presse/logo-waz.png
-                    has_border: false
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - presse/logo-die-welt.png
-                    has_border: false
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - presse/logo-businesspunk.png
-                    has_border: false
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: false
-        single-col: false
-        responsive_columns: '2'
     is-full: true
     bg-toggle: false
     bg-color: '#D6D6D6'
