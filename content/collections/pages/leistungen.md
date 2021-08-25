@@ -4,8 +4,8 @@ blueprint: pages
 title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627300176
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1629895897
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -194,6 +194,7 @@ replicator:
                           align: left
                     text: ' bei jedem Auftrag gerecht werden möchten. Dementsprechend sind wir immer daran interessiert Ihnen die bestmögliche Qualität zu liefern. Jede Arbeit, die von unseren akademischen Ghostwritern erstellt wird, wird von einem internen Supervisor lektoriert und einer Plagiatsprüfung unterzogen. So garantieren wir Ihre Zufriedenheit und stellen sicher, dass unsere Kunden hochwertige wissenschaftliche Unikate erhalten.'
             text_ausrichtung: text-left
+            column-count: true
     type: editor
     enabled: true
     show_as_card: false
@@ -839,6 +840,7 @@ replicator:
                             type: text
                             text: 'Alle durch uns vermittelten Leistungen unterliegen einer strengen Qualitätskontrolle durch unser Team und unsere Supervisor. Die Betreuung Ihres Auftrages erfolgt durch einen festen, jederzeit erreichbaren Ansprechpartner.'
                     text_ausrichtung: text-center
+                    column-count: false
               -
                 type: heading
                 attrs:
