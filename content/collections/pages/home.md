@@ -64,8 +64,8 @@ teaser:
   -
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1624435106
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1629888856
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -348,6 +348,30 @@ replicator:
         enabled: true
         single-col: false
         responsive_columns: '1'
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: logo_list
+                    dateien:
+                      - presse/logo-brandeins.png
+                      - presse/logo-finicial.png
+                      - presse/logo-neon.png
+                      - presse/logo-waz.png
+                      - presse/logo-die-welt.png
+                      - presse/logo-businesspunk.png
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
       -
         columns_per_row: '6'
         grid:
