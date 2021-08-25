@@ -205,7 +205,11 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
           this.initButtonSpinner()
           const formURL = new URL(actionUrl)
           const source = document.querySelector('[name="gw_source"]')
-          source.setAttribute('value', window.location.hostname)
+
+          // added affiliate as source
+          const isIFrame = !(window === window.parent || window.opener)
+          const sourceValue = isIFrame ? 'Affiliate' : window.location.hostname
+          source.setAttribute('value', sourceValue)
           const formOrigin = formURL.origin
           const submissionURL = formOrigin + route + form.dataset.submissionType
           fetch(submissionURL, {
