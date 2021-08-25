@@ -59,3 +59,12 @@ fields:
       icon: select
       instructions: 'Bitte wählen ...'
       listable: hidden
+  -
+    handle: column-count
+    field:
+      default: false
+      display: 'Zwei Spalten'
+      type: toggle
+      icon: toggle
+      instructions: 'Automatischer Textumbruch auf zwei Spalten'
+      listable: hidden
