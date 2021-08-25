@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1629888856
+updated_at: 1629895787
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -454,7 +454,7 @@ replicator:
                 type: paragraph
             show_as_card: false
         type: row
-        enabled: true
+        enabled: false
         single-col: false
         responsive_columns: '2'
     is-full: true
