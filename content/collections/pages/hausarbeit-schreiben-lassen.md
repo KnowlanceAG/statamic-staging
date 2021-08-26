@@ -100,7 +100,31 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: "\_beschäftigt sich täglich mit wissenschaftlichen Texten und Arbeiten. Unsere akademischen Textschreiber sind zertifizierte Doktoren und Professoren besitzen hervorragende Kenntnisse in Ihren Fachgebieten. Insbesondere Hausarbeiten begleiten Studenten in vielfacher Art und Weise während Ihres Studiums. Es ist demnach möglich, eine professionelle Unterstützung zu jedem Zeitpunkt des Arbeitsverlaufs zu beauftragen."
+            text: "\_beschäftigt sich täglich mit wissenschaftlichen Texten und Arbeiten. Unsere akademischen Textschreiber sind zertifizierte "
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /experten
+                  target: null
+                  rel: null
+            text: 'Doktoren und Professoren'
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ' besitzen hervorragende Kenntnisse in Ihren Fachgebieten. Insbesondere Hausarbeiten begleiten Studenten in vielfacher Art und Weise während Ihres Studiums. Es ist demnach möglich, eine professionelle Unterstützung zu jedem Zeitpunkt des Arbeitsverlaufs zu beauftragen.'
       -
         type: paragraph
         content:
@@ -112,7 +136,31 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: 'Aufgrund der häufig überfordernden Studien- und Privatplanung kommt es regelmäßig dazu, dass sich Studenten eine Mustervorlage für ihre wissenschaftliche Hausarbeit schreiben lassen. Oft geschieht dies direkt zu Beginn einer Texterstellung, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, deren Gliederung und Exposé. Zudem ist es möglich, den Ghostwriter zur Betreuung der Hausarbeit einzusetzen und ihn während des gesamten Prozesses unterstützend agieren zu lassen.'
+            text: 'Aufgrund der häufig überfordernden Studien- und Privatplanung kommt es regelmäßig dazu, dass sich Studenten eine Mustervorlage für ihre wissenschaftliche Hausarbeit schreiben lassen. Oft geschieht dies direkt zu Beginn einer Texterstellung, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, deren Gliederung und '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/expose-erstellen
+                  target: null
+                  rel: null
+            text: Exposé
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: '. Zudem ist es möglich, den Ghostwriter zur Betreuung der Hausarbeit einzusetzen und ihn während des gesamten Prozesses unterstützend agieren zu lassen.'
       -
         type: paragraph
         content:
@@ -260,7 +308,31 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: 'Auf der einen Seite hört es sich einfach an eine Hausarbeit zu erstellen: einfach mal zehn bis zwanzig Seiten schreiben - fertig. Jedoch grade darin liegt die große Herausforderung bei der Erstellung einer Hausarbeit. Besondere Schwierigkeiten haben die Studienanfänger, denn diese kennen die relevanten Datenbanken, Quellen und wissenschaftlichen Arbeitsmethoden nicht. Sie wissen nicht, wie sie eine Forschungsfrage finden und wie eine Literaturrecherche durchgeführt wird.'
+            text: 'Auf der einen Seite hört es sich einfach an eine Hausarbeit zu erstellen: einfach mal zehn bis zwanzig Seiten schreiben - fertig. Jedoch grade darin liegt die große Herausforderung bei der Erstellung einer Hausarbeit. Besondere Schwierigkeiten haben die Studienanfänger, denn diese kennen die relevanten Datenbanken, Quellen und wissenschaftlichen Arbeitsmethoden nicht. Sie wissen nicht, wie sie eine '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/forschungsluecke-finden
+                  target: null
+                  rel: null
+            text: 'Forschungsfrage finden'
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ' und wie eine Literaturrecherche durchgeführt wird.'
       -
         type: paragraph
         content:
@@ -322,7 +394,31 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: 'Vor allen Dingen kennen seriöse Ghostwriter in ihrem persönlichen Themenfeld immer den aktuellen Forschungsstand, da diese den Zugriff auf die notwendigen Datenbanken haben. Diesen Zugriff auf relevante Datenbanken und auch den Zugang zu modernster Analyse Software wie MAXQDA erhalten Ghostwriter über unsere Ghostwriting Agentur sodass diese schnell und effizient arbeiten können. Sie begleiten den Schreibprozess Ihrer wissenschaftlichen Arbeit und finden zu jeder Frage eine passende Lösung.'
+            text: 'Vor allen Dingen kennen seriöse Ghostwriter in ihrem persönlichen Themenfeld immer den aktuellen Forschungsstand, da diese den Zugriff auf die notwendigen Datenbanken haben. Diesen Zugriff auf relevante Datenbanken und auch den Zugang zu modernster Analyse Software wie '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /leistungen/maxqda-auswertung
+                  target: null
+                  rel: null
+            text: MAXQDA
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ' erhalten Ghostwriter über unsere Ghostwriting Agentur sodass diese schnell und effizient arbeiten können. Sie begleiten den Schreibprozess Ihrer wissenschaftlichen Arbeit und finden zu jeder Frage eine passende Lösung.'
     type: editor
     enabled: true
     show_as_card: false
@@ -1272,7 +1368,7 @@ replicator:
                 attrs:
                   color: '#000!important'
                   hex: '#000'
-            text: 'Möchten Sie eine Mustervorlage für Ihre Hausarbeit schreiben lassen oder mit einem akademischen Ghostwriter selber schreiben?'
+            text: 'Möchten Sie eine Mustervorlage für Ihre Hausarbeit schreiben lassen oder mit einem akademischen Ghostwforriter selber schreiben?'
       -
         type: paragraph
         content:
@@ -1296,7 +1392,79 @@ replicator:
                 attrs:
                   color: '#000!important'
                   hex: '#000'
-            text: "Zu jedem Problemfeld während des Schreibprozesses stehen unsere akademischen Autoren zur Verfügung. Unsere Ghostwriting-Agentur arbeitet mit zertifizierten Professoren und Doktoren. Diese unterstützen Sie in vielen wissenschaftlichen Themen, ob es um eine Fallanalyse, ein Experteninterview oder eine Methodenanwendung handelt. Rund \_um alle wissenschaftlichen Themen bietet unsere Schreibagentur professionelle Hilfe an."
+            text: 'Zu jedem Problemfeld während des Schreibprozesses stehen unsere akademischen Autoren zur Verfügung. Unsere Ghostwriting-Agentur arbeitet mit zertifizierten Professoren und Doktoren. Diese unterstützen Sie in vielen wissenschaftlichen Themen, ob es um eine '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/fallstudienanalyse-nach-yin
+                  target: null
+                  rel: null
+            text: Fallanalyse
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: ', ein '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/leitfadengestuetztes-experteninterview
+                  target: null
+                  rel: null
+            text: Experteninterview
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: ' oder eine '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/swot-analyse-beispiel
+                  target: null
+                  rel: null
+            text: Methodenanwendung
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: " handelt. Rund \_um alle wissenschaftlichen Themen bietet unsere Schreibagentur professionelle Hilfe an."
       -
         type: paragraph
         content:
@@ -1308,7 +1476,55 @@ replicator:
                 attrs:
                   color: '#000!important'
                   hex: '#000'
-            text: 'Besondere Schwierigkeiten haben Studierende bei ihrer Themenfindung, der Suche nach Ihrer Forschungsfrage, Ihrer Literaturrecherche und beim Aufbau Ihrer Gliederung. Wenn Sie eine Hausarbeit schreiben müssen, dann sollten Sie ein gutes Zeitmanagement einplanen, sonst können Sie den roten Faden verlieren. Denn grade das richtige Thema zu finden, das Forschungsziel zu erreichen und die zugehörigen aktuellen Literaturquellen und Datenbanken zu finden, benötigt viel Zeit.'
+            text: 'Besondere Schwierigkeiten haben Studierende bei ihrer Themenfindung, der Suche nach Ihrer Forschungsfrage, Ihrer Literaturrecherche und beim Aufbau Ihrer Gliederung. Wenn Sie eine Hausarbeit schreiben müssen, dann sollten Sie ein gutes '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/online-nachhilfe-vorlesung
+                  target: null
+                  rel: null
+            text: Zeitmanagement
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: ' einplanen, sonst können Sie den roten Faden verlieren. Denn grade das richtige Thema zu finden, das Forschungsziel zu erreichen und die zugehörigen aktuellen '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/literaturrecherche-datenbanken-quellen
+                  target: null
+                  rel: null
+            text: 'Literaturquellen und Datenbanken'
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: ' zu finden, benötigt viel Zeit.'
       -
         type: paragraph
         content:
@@ -1350,7 +1566,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /plagiatspruefung
+                  href: /leistungen/plagiatspruefung
                   target: null
                   rel: null
             text: Plagiatsprüfung
@@ -1362,7 +1578,31 @@ replicator:
                 attrs:
                   color: '#000!important'
                   hex: '#000'
-            text: "\_sind gerade bei den anfänglichen wissenschaftlichen Arbeiten üblich. Es gibt auch Studenten, die einen Ghostwriter Hausarbeiten schreiben lassen. Jedoch ist solch eine Ghostwriting-Hausarbeit lediglich als Vorlage zu nutzen und nicht als Prüfungsleistung einzureichen, man kann also nicht einfach eine Hausarbeit kaufen."
+            text: "\_sind gerade bei den anfänglichen wissenschaftlichen Arbeiten üblich. Es gibt auch Studenten, die einen Ghostwriter Hausarbeiten schreiben lassen. Jedoch ist solch eine "
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /ghostwriting-beispielarbeiten
+                  target: null
+                  rel: null
+            text: Ghostwriting-Hausarbeit
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: ' lediglich als Vorlage zu nutzen und nicht als Prüfungsleistung einzureichen, man kann also nicht einfach eine Hausarbeit kaufen.'
       -
         type: set
         attrs:
@@ -1407,7 +1647,31 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: 'Nach einer unverbindlichen Anfrage, die Sie über ein Bestellformular stellen können, erhalten Sie von unserer Schreibagentur ein kostenloses Leistungsangebot und eine individuelle Beratung. Der Auftrag beginnt nach Ihrer Zusage und einer Anzahlung. Es werden einzelne Teillieferungen bzw. Termine geplant. Diese Teillieferungen dienen dazu, Sie über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. Je nach Komplexität des Themas werden mehrere Fachautoren für die Arbeit eingesetzt.'
+            text: 'Nach einer unverbindlichen '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /anfrage
+                  target: null
+                  rel: null
+            text: Anfrage
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ', die Sie über ein Bestellformular stellen können, erhalten Sie von unserer Schreibagentur ein kostenloses Leistungsangebot und eine individuelle Beratung. Der Auftrag beginnt nach Ihrer Zusage und einer Anzahlung. Es werden einzelne Teillieferungen bzw. Termine geplant. Diese Teillieferungen dienen dazu, Sie über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. Je nach Komplexität des Themas werden mehrere Fachautoren für die Arbeit eingesetzt.'
       -
         type: paragraph
         content:
@@ -1431,7 +1695,31 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: 'Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit.'
+            text: 'Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Mehr Information über die Zusammenarbeit mit Ghostwriter erhalten Sie '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /so-funktioniert-es
+                  target: null
+                  rel: null
+            text: hier
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: .
       -
         type: set
         attrs:
@@ -1957,7 +2245,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1629988828
+updated_at: 1629989428
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
