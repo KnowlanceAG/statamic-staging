@@ -18,8 +18,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6602'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
         text: 'Mustervorlage für Hausarbeit schreiben lassen'
   -
     type: paragraph
@@ -56,16 +56,35 @@ replicator:
         content:
           -
             type: text
-            text: 'Hausarbeit schreiben mit der Unterstützung von Experten'
+            marks:
+              -
+                type: bold
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Wie helfen Ihnen unsere Ghostwriter beim Schreiben einer Hausarbeit?'
       -
         type: paragraph
         content:
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: "Ein akademischer\_"
           -
             type: text
             marks:
+              -
+                type: textColor
+                attrs:
+                  color: blue
+                  hex: '#000'
               -
                 type: link
                 attrs:
@@ -75,16 +94,45 @@ replicator:
             text: Ghostwriter
           -
             type: text
-            text: ' beschäftigt sich täglich mit wissenschaftlichen Texten und Arbeiten und besitzt zudem zahlreiche Kenntnisse in seinem Fachgebiet. Insbesondere Hausarbeiten begleiten Studenten in vielfacher Art und Weise während Ihres Studiums. Es ist demnach möglich, ihn zu jedem Zeitpunkt des Arbeitsverlaufs zu beauftragen. Aufgrund der häufig überfordernden Studien- und Privatplanung, dass sich Studenten eine Mustervorlage für ihre wissenschaftliche Hausarbeit schreiben lassen. Oft geschieht dies direkt zu Beginn, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, deren Gliederung und Exposé. Zudem ist es möglich, den Ghostwriter zum Coaching der Hausarbeit einzusetzen und ihn während des gesamten Prozesses unterstützend agieren zu lassen.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: "\_beschäftigt sich täglich mit wissenschaftlichen Texten und Arbeiten. Unsere akademischen Textschreiber sind zertifizierte Doktoren und Professoren besitzen hervorragende Kenntnisse in Ihren Fachgebieten. Insbesondere Hausarbeiten begleiten Studenten in vielfacher Art und Weise während Ihres Studiums. Es ist demnach möglich, eine professionelle Unterstützung zu jedem Zeitpunkt des Arbeitsverlaufs zu beauftragen."
       -
         type: paragraph
         content:
           -
             type: text
-            text: "Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, die Hausarbeit korrekturlesen zu lassen. Neben dem Korrektorat und\_"
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Aufgrund der häufig überfordernden Studien- und Privatplanung kommt es regelmäßig dazu, dass sich Studenten eine Mustervorlage für ihre wissenschaftliche Hausarbeit schreiben lassen. Oft geschieht dies direkt zu Beginn einer Texterstellung, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, deren Gliederung und Exposé. Zudem ist es möglich, den Ghostwriter zur Betreuung der Hausarbeit einzusetzen und ihn während des gesamten Prozesses unterstützend agieren zu lassen.'
+      -
+        type: paragraph
+        content:
           -
             type: text
             marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: "Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, die Hausarbeit Korrekturlesen zu lassen. Neben dem Korrektorat und\_"
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: blue
+                  hex: '#000'
               -
                 type: link
                 attrs:
@@ -94,10 +142,21 @@ replicator:
             text: Lektorat
           -
             type: text
-            text: "\_der Hausarbeit, kann zusätzlich eine umfassende Plagiatsprüfung erfolgen, da besonders zu Studienbeginn aus mangelnder Erfahrung Flüchtigkeitsfehler beim Umgang mit Literatur passieren können. Einige Studenten lassen sich von einem Ghostwriter Hausarbeiten schreiben – in Form von Mustervorlagen – und nutzen solch eine\_"
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: "\_der wissenschaftlichen Arbeit, kann zusätzlich eine umfassende Plagiatsprüfung mit Plagiatesoftware erfolgen. Ein Plagiatcheck ist besonders zum Studienbeginn erforderlich, da aus mangelnder Erfahrung Flüchtigkeitsfehler beim Umgang mit Quellen passieren können. Einige Studenten lassen sich von einem Schreibservice wie Ghostwriter Hausarbeiten schreiben – in Form von Musterarbeiten – und nutzen solch eine\_"
           -
             type: text
             marks:
+              -
+                type: textColor
+                attrs:
+                  color: blue
+                  hex: '#000'
               -
                 type: link
                 attrs:
@@ -107,7 +166,13 @@ replicator:
             text: Ghostwriting
           -
             type: text
-            text: '-Hausarbeit als Vorlage für ihre eigene Arbeit.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: '-Hausarbeit als Musterarbeit für ihre eigene Texterstellung.'
       -
         type: paragraph
         content:
@@ -116,12 +181,22 @@ replicator:
             marks:
               -
                 type: bold
-            text: 'Wenn Sie bei Ihrer Hausarbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine '
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: "Wenn Sie bei Ihrer Hausarbeit Unterstützung benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine\_"
           -
             type: text
             marks:
               -
                 type: bold
+              -
+                type: textColor
+                attrs:
+                  color: blue
+                  hex: '#000'
               -
                 type: link
                 attrs:
@@ -134,6 +209,11 @@ replicator:
             marks:
               -
                 type: bold
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
       -
         type: set
@@ -148,19 +228,51 @@ replicator:
         content:
           -
             type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: 'Warum sollte man sich bei seiner Hausarbeit unterstützen lassen?'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Liegen aufgrund schlechter Lehrplanabstimmung in mehreren Fächern Hausarbeiten an, die zu ähnlicher Zeit zur Abgabe kommen sollen oder fällt die Abgabe einer Hausarbeit in einen Klausurzeitraum, kommt es oft zu Zeitproblemen. Studenten können es kaum schaffen, diese Flut an Anforderungen zu bewältigen. Daher sind sie oftmals auf Hilfe durch Leistungen von außen angewiesen. Durch diese große Entlastung können sie sich ohne Sorgen auf anstehende Klausuren, ihren Nebenjob und andere wichtige Dinge konzentrieren, statt sich mit der Frage zu befassen „Wie schreibe ich eine Hausarbeit?“.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Liegen aufgrund schlechter Lehrplanabstimmung in mehreren Fächern Hausarbeiten an, die zu ähnlicher Zeit zur Abgabe kommen sollen oder fällt die Abgabe einer wissenschaftlichen Arbeit in einen Klausurzeitraum, kommt es oft zu Zeitproblemen. Studierende können es kaum schaffen, diese Flut an Anforderungen zu bewältigen. Daher sind sie oftmals auf Hilfe durch Leistungen von außen angewiesen. Durch diese große Entlastung können sie sich ohne Sorgen auf anstehende Klausuren, ihren Nebenjob und andere wichtige Dinge konzentrieren, statt sich mit der Frage zu befassen „Wie schreibe ich eine Hausarbeit?“.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Auf der einen Seite hört es sich einfach an eine Hausarbeit zu erstellen: einfach mal zehn bis zwanzig Seiten schreiben - fertig. Jedoch grade darin liegt die große Herausforderung bei der Erstellung einer Hausarbeit. Besondere Schwierigkeiten haben die Studienanfänger, denn diese kennen die relevanten Datenbanken, Literaturquellen und wissenschaftlichen Arbeitsmethoden nicht. Selbst wenn alle notwendigen Informationen für sie zur Verfügung stehen oder im Rahmen von Seminaren zum wissenschaftlichen Arbeiten vermittelt werden, entstehen Probleme beim Zusammenführen der Daten, sodass keine schlüssige wissenschaftliche Hausarbeit entsteht.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Auf der einen Seite hört es sich einfach an eine Hausarbeit zu erstellen: einfach mal zehn bis zwanzig Seiten schreiben - fertig. Jedoch grade darin liegt die große Herausforderung bei der Erstellung einer Hausarbeit. Besondere Schwierigkeiten haben die Studienanfänger, denn diese kennen die relevanten Datenbanken, Quellen und wissenschaftlichen Arbeitsmethoden nicht. Sie wissen nicht, wie sie eine Forschungsfrage finden und wie eine Literaturrecherche durchgeführt wird.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Selbst wenn alle notwendigen Informationen für sie zur Verfügung stehen oder im Rahmen von Seminaren zum wissenschaftlichen Arbeiten vermittelt werden, entstehen Probleme beim Schreibprozess, sodass keine schlüssige wissenschaftliche Arbeit entsteht. Auch das Literaturverzeichnis und die Fußnoten spielen eine große Rolle in einer Hausarbeit, denn wenn dieser Teil falsch formuliert oder zitiert ist, kann es zu einem Plagiatsvorwurf führen. Auch die Übernahme einer anderen Hausarbeit führt zu einem Vollplagiat, was bedeutet, dass die wissenschaftliche Arbeit in Teilen vollständig übernommen wurde.'
       -
         type: heading
         attrs:
@@ -168,19 +280,49 @@ replicator:
         content:
           -
             type: text
-            text: 'Was sind die Voraussetzungen für eine gute Hausarbeit?'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#555555'
+                  hex: '#000'
+            text: "Hausarbeit\_schreiben:\_Wie\_sieht\_eine\_erfolgreiche\_Arbeit\_aus?"
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Die Ansprüche an eine wissenschaftliche Hausarbeit sind hoch. Denn bei der Erstellung einer Hausarbeit gilt „in der Kürze liegt die Würze“. Dieser einfache Satz ist beim Schreiben einer Hausarbeit allerdings schwierig umzusetzen. Eine gute Hausarbeit zu schreiben setzt eine gründliche und tief gehende Literaturrecherche voraus. Hierbei ist es wichtig, die relevanten Informationen und Literaturquellen aus verschiedenen Datenbanken herauszufiltern und dann diese Ergebnisse so zusammenzuführen, zu analysieren und zu interpretieren, dass daraus eine gesamthafte Analyse wird. Zudem soll der Kern des Themas auf wenigen Seiten zum aktuellen Forschungsstand erhoben werden. Unerfahrene Studienanfänger sind oftmals verwirrt und wissen nicht, wie sie diese Fülle von Informationen verwerten sollen.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Die Ansprüche an eine wissenschaftliche Arbeit sind hoch. Denn bei der Erstellung einer Hausarbeit gilt „in der Kürze liegt die Würze“. Dieser einfache Satz ist beim Schreiben einer wissenschaftlichen Arbeit allerdings schwierig umzusetzen. Eine gute Hausarbeit zu schreiben setzt eine gründliche und tief gehende Literaturrecherche voraus. Hierbei ist es wichtig, die relevanten Informationen und Literaturquellen aus verschiedenen Datenbanken herauszufiltern und dann diese Ergebnisse so zusammenzuführen, zu analysieren und zu interpretieren, dass daraus eine gesamthafte Analyse wird. Zudem soll die zentrale Forschungsfrage auf wenigen Seiten zum aktuellen Forschungsstand erforscht werden. Unerfahrene Studienanfänger sind oftmals verwirrt und wissen nicht, wie sie diese Fülle von Informationen verwerten sollen.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Diese Probleme von Studenten können durch die Unterstützung von einem akademischen Ghostwriter gelöst werden. Denn professionelle Ghostwriter verfügen aus ihrem eigenen Studium oder Berufsleben über einen ausgedehnten Erfahrungsschutz im Bezug auf das Hausarbeit Schreiben. Sie besitzen darüber hinaus auch das notwendige methodische und fachliche Wissen, auf dem aktuellen Stand, zur Erstellung einer wissenschaftlichen Arbeit. Vor allen Dingen kennen seriöse Ghostwriter in ihrem persönlichen Themenfeld immer den aktuellen Forschungsstand, da diese den Zugriff auf die notwendigen Datenbanken haben. Diesen Zugriff auf relevante Datenbanken und auch den Zugang zu modernster Analyse Software wie MAXQDA erhalten Ghostwriter über unsere Ghostwriting Agentur sodass diese schnell und effizient arbeiten können. Sie begleiten den Erstellungsprozess Ihrer wissenschaftlichen Arbeit und finden zu jeder Frage eine passende Lösung.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Diese Probleme von Studenten können durch die Unterstützung von einem akademischen Ghostwriter gelöst werden. Denn professionelle Ghostwriter verfügen aus ihrem eigenen Studium oder Berufsleben über einen ausgedehnten Erfahrungsschutz im Bezug auf das Hausarbeit Schreiben. Sie besitzen darüber hinaus auch das notwendige methodische und fachliche Wissen, auf dem aktuellen Stand, zur Texterstellung.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Vor allen Dingen kennen seriöse Ghostwriter in ihrem persönlichen Themenfeld immer den aktuellen Forschungsstand, da diese den Zugriff auf die notwendigen Datenbanken haben. Diesen Zugriff auf relevante Datenbanken und auch den Zugang zu modernster Analyse Software wie MAXQDA erhalten Ghostwriter über unsere Ghostwriting Agentur sodass diese schnell und effizient arbeiten können. Sie begleiten den Schreibprozess Ihrer wissenschaftlichen Arbeit und finden zu jeder Frage eine passende Lösung.'
     type: editor
     enabled: true
     show_as_card: false
@@ -1098,51 +1240,198 @@ replicator:
         content:
           -
             type: text
-            text: 'Zur Hausarbeit'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#555555'
+                  hex: '#000'
+            text: "Mustervorlage für Hausarbeit\_schreiben\_lassen:\_Welche\_Alternativen\_gibt\_es\_zum\_Ghostwriter?"
       -
         type: paragraph
         content:
-          -
-            type: text
-            text: 'Um Studenten Kompetenzen auf sprachlicher, formaler, kommunikativer und organisatorischer Ebene zu vermitteln, entscheiden sich Lehrinstitute und Universitäten dazu, Hausarbeiten schreiben zu lassen. Diese sollen Studierende im Laufe des Studiums auf Examensarbeiten (z.B. Bachelorarbeit oder Masterarbeit) vorbereiten und ihnen eine Übersicht über verschiedene Forschungsbereiche und deren Lagen verschaffen. Sie sind im Umfang geringer als eine Abschlussarbeit, sind allerdings auch mit einem ansehnlichen Zeitaufwand verbunden.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Besonders für Studienanfänger, die mit dem Erstellen von wissenschaftlichen Arbeiten unerfahren sind, stellen Sie beträchtliche Schwierigkeiten dar. Hier wird häufig auf ein Coaching zurückgegriffen, um den Studenten bei der Strukturierung und Verfassung seiner Hausarbeit zu unterstützen. Auch ein Lektorat, das '
           -
             type: text
             marks:
               -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Um Studenten Kompetenzen auf sprachlicher, formaler, kommunikativer und organisatorischer Ebene zu vermitteln, entscheiden sich Lehrinstitute und Universitäten dazu, Hausarbeiten schreiben zu lassen. Diese sollen Studierende im Laufe des Studiums auf Examensarbeiten (z.B. Bachelorarbeit oder Masterarbeit) vorbereiten und ihnen eine Übersicht über verschiedene Forschungsbereiche und deren Lagen verschaffen. Sie sind im Umfang geringer als eine Abschlussthesis, sind allerdings auch mit einem ansehnlichen Zeitaufwand verbunden.'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Möchten Sie eine Mustervorlage für Ihre Hausarbeit schreiben lassen oder mit einem akademischen Ghostwriter selber schreiben?'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Besonders für Erstsemesterstudenten, die mit dem Erstellen von wissenschaftlichen Arbeiten unerfahren sind, stellen Sie beträchtliche Schwierigkeiten dar. Hier wird häufig auf eine Betreuung zurückgegriffen, um den Studenten bei der Strukturierung und Verfassung seiner Hausarbeit Tipps zu geben.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: "Zu jedem Problemfeld während des Schreibprozesses stehen unsere akademischen Autoren zur Verfügung. Unsere Ghostwriting-Agentur arbeitet mit zertifizierten Professoren und Doktoren. Diese unterstützen Sie in vielen wissenschaftlichen Themen, ob es um eine Fallanalyse, ein Experteninterview oder eine Methodenanwendung handelt. Rund \_um alle wissenschaftlichen Themen bietet unsere Schreibagentur professionelle Hilfe an."
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Besondere Schwierigkeiten haben Studierende bei ihrer Themenfindung, der Suche nach Ihrer Forschungsfrage, Ihrer Literaturrecherche und beim Aufbau Ihrer Gliederung. Wenn Sie eine Hausarbeit schreiben müssen, dann sollten Sie ein gutes Zeitmanagement einplanen, sonst können Sie den roten Faden verlieren. Denn grade das richtige Thema zu finden, das Forschungsziel zu erreichen und die zugehörigen aktuellen Literaturquellen und Datenbanken zu finden, benötigt viel Zeit.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: "Bei allen Aufgaben und Fragestellungen können unsere Experten Ihnen helfen. Auch wenn Sie lediglich Ihre Text überarbeiten lassen möchten oder Ihre fehlenden Textteile ergänzen lassen möchten (Einleitung, Hauptteil, Fazit). Auch ein Lektorat, eine\_"
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
                 type: link
                 attrs:
-                  href: /korrektorat/korrekturlesen
+                  href: /korrektorat
                   target: null
                   rel: null
-            text: Korrekturlesen
+            text: Korrektur
           -
             type: text
-            text: ' oder eine '
+            text: "\_oder eine\_"
           -
             type: text
             marks:
               -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
                 type: link
                 attrs:
-                  href: /leistungen/plagiatspruefung
+                  href: /plagiatspruefung
                   target: null
                   rel: null
             text: Plagiatsprüfung
           -
             type: text
-            text: ' sind gerade bei den anfänglichen Hausarbeiten üblich. Es gibt auch Studenten, die einen Ghostwriter Hausarbeiten schreiben lassen. Jedoch ist solch eine Ghostwriting-Hausarbeit lediglich als Vorlage zu nutzen und nicht als Prüfuungsleistung einzureichen, man kann also nicht einfach eine Hausarbeit kaufen.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: "\_sind gerade bei den anfänglichen wissenschaftlichen Arbeiten üblich. Es gibt auch Studenten, die einen Ghostwriter Hausarbeiten schreiben lassen. Jedoch ist solch eine Ghostwriting-Hausarbeit lediglich als Vorlage zu nutzen und nicht als Prüfungsleistung einzureichen, man kann also nicht einfach eine Hausarbeit kaufen."
+      -
+        type: set
+        attrs:
+          values:
+            type: example_work
+            ex_img_right: false
+            ex_image: seiten/beispielarbeiten-1.JPG
+            ex_title: 'Weiterentwicklung der Baseler Eigenmittelübereinkunft'
+            ex_fachbereich:
+              - 06fbb3f4-51c2-4f11-832e-9b72a495857d
+            ex_type: Hausarbeit
+            ex_pages: '10'
+            ex_zitation: 'Harvard Style'
+            ex_button_link: 'entry::21ef3416-f1fd-43eb-8e38-ec597763c45f'
+            ex_button_text: Weiterlesen
+            ex_button_align: justify-start
+            ex_spacing_top: false
+      -
+        type: paragraph
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#555555'
+                  hex: '#000'
+            text: "Mustervorlage für Hausarbeit\_schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Nach einer unverbindlichen Anfrage erhalten Sie von unseren kompetenten Mitarbeitern ein kostenloses Angebot und eine individuelle Beratung. Nach ihrer Zusage und einer Anzahlung werden einzelne Teillieferungstermine geplant. Diese Termine dienen dazu, Sie über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. Zudem stellen unsere Projektmanager Ihre Anonymität und gleichzeitig auch die Anonymität des Autors sicher. Die gesamthafte Analyse wird abschließend von einem unabhängigen Lektor aus dem selben Fachbereich kontrolliert. Diese zusätzliche Kontrolle nach unserem bewährten 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Darüber hinaus wird Ihre Mustervorlage mit professioneller Software auf Plagiate geprüft. Sie erhalten somit eine hochqualitative und von Experten auf Qualität geprüfte Mustervorlage zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Nach einer unverbindlichen Anfrage, die Sie über ein Bestellformular stellen können, erhalten Sie von unserer Schreibagentur ein kostenloses Leistungsangebot und eine individuelle Beratung. Der Auftrag beginnt nach Ihrer Zusage und einer Anzahlung. Es werden einzelne Teillieferungen bzw. Termine geplant. Diese Teillieferungen dienen dazu, Sie über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. Je nach Komplexität des Themas werden mehrere Fachautoren für die Arbeit eingesetzt.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Zudem stellen unsere Projektmanager Ihre Anonymität und gleichzeitig auch die Anonymität des Autors sicher. Die gesamthafte Analyse wird abschließend von einem unabhängigen Lektor aus demselben Fachbereich kontrolliert. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffe und Inhalt vorgenommen. Diese zusätzliche Kontrolle nach unserem bewährten 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Darüber hinaus wird Ihre Bestellung mit professioneller Plagiatserkennungssoftware auf Plagiate geprüft.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit.'
       -
         type: set
         attrs:
@@ -1165,19 +1454,46 @@ replicator:
         content:
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#555555'
+                  hex: '#000'
+            text: "Was\_ist\_eigentlich\_eine\_Hausarbeit? "
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: 'Die Hausarbeit ist eine akademische Arbeit, die zu Hause angefertigt werden soll. Das heißt, dass der Student nicht – wie in einer Prüfung – zu einem bestimmten Thema abgefragt wird. Vielmehr wird dem Studenten eine Bearbeitungszeit eingeräumt, in welcher er diese Arbeit anzufertigen hat. Es soll eine Argumentation entwickelt werden, die allen wissenschaftlichen Standards entspricht und die Fähigkeiten des Studenten hinsichtlich der Konzeption und Organisation von Arbeitsprozessen fördert.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'In einigen Fachbereichen, wie der Medizin, Biologie und Chemie, wird zusätzlich zum schriftlichen Teil oftmals die Durchführung einer Untersuchung oder eines Experiments erwartet. Manchmal veröffentlichen Lehrstühle Muster einer Hausarbeit um Studenten Hilfe zu leisten. Wird diese Hilfe nicht geboten, bietet sich die Option, dass Studenten einen Ghostwriter ihre Hausarbeit schreiben lassen und diese Ghostwriting-Hausarbeit dann als Beispiel unterstützend nutzen.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'In einigen Fachbereichen, wie der Medizin, Biologie und Chemie, wird zusätzlich zum schriftlichen Teil oftmals die Durchführung einer Untersuchung oder eines Experiments erwartet. Manchmal veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird diese Hilfe nicht geboten, bietet sich die Option, dass Studenten einen Ghostwriter ihre Hausarbeit schreiben lassen und diese Ghostwriting-Hausarbeit dann als Beispiel unterstützend nutzen.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Die Anforderungen und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich einige Formalien als gängig erwiesen.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Die Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich einige Hochschulgesetze als gängig erwiesen. Laut Prüfungsordnung:'
       -
         type: paragraph
         content:
@@ -1186,47 +1502,174 @@ replicator:
             marks:
               -
                 type: bold
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: 'Gliederung einer Hausarbeit'
           -
             type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: '• Titelblatt'
           -
             type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: '• Inhaltsverzeichnis Hausarbeit'
           -
             type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: '• Einleitung'
           -
             type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: '• Hauptteil'
           -
             type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: '• Schluss'
           -
             type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: '• Bildverzeichnis'
           -
             type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: '• Literatur- und Quellenverzeichnis'
           -
             type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
             text: '• Anhang'
+          -
+            type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: '• '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: Selbstständigkeitserklärung
       -
         type: paragraph
         content:
@@ -1235,41 +1678,130 @@ replicator:
             marks:
               -
                 type: bold
-            text: 'Formatierung einer Hausarbeit'
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Formatierungsrichtlinien einer Hausarbeit'
           -
             type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: '• Schriftart: Times New Roman (oder Arial Größe 11)'
           -
             type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: '• Schriftgröße: 12 Punkt'
           -
             type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: '• Zeilenabstand: 1,5'
           -
             type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: '• Ränder: oben und unten jeweils 2,5 cm, links und rechts jeweils 3 cm'
           -
             type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: '• Absatzformat: Blocksatz (auf Trennung achten)'
           -
             type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: '• Fußnoten: Schriftgröße 10'
           -
             type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
           -
             type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
             text: '• Nummerierung: alle Seiten nummeriert, außer Titelblatt, Inhaltsverzeichnis einer Hausarbeit, Literaturverzeichnis und Anhang'
       -
         type: heading
@@ -1284,7 +1816,13 @@ replicator:
         content:
           -
             type: text
-            text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Hausarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch.'
       -
         type: heading
         attrs:
@@ -1418,8 +1956,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1628583971
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1629988828
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
