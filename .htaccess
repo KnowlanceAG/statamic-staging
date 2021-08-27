@@ -42,6 +42,7 @@ RewriteRule ^robots.txt$  /robots_de.txt [L]
 Redirect 301 /Seminararbeit-beispiel-blockchain /hausarbeit-beispiel-embryonenforschung
 Redirect 301 /abgesendet-new /anfrage-abgesendet-adag
 Redirect 301 /aff-request /anfrage
+Redirect 301 /anfrage-adag /anfrage
 Redirect 301 /anfrage-mobile1 /anfrage-mobile
 Redirect 301 /anfrage-sm /anfrage
 Redirect 301 /arbeiten/bachelorarbeit /arbeiten/bachelorarbeit-schreiben-lassen
