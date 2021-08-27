@@ -107,6 +107,11 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
   const formOrigin = formURL.origin
   const tokenURL = formOrigin + tokenRoute;
 
+  const isIFrame = !(window === window.parent || window.opener)
+  if (isIFrame) {
+    document.body.classList.add('iframe')
+  }
+
   // Receive and refresh form token
   const hiddenInputs = document.querySelectorAll(selector);
   if (hiddenInputs.length) {
@@ -202,7 +207,6 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
           const source = document.querySelector('[name="gw_source"]')
 
           // added affiliate as source
-          const isIFrame = !(window === window.parent || window.opener)
           const sourceValue = isIFrame ? 'Affiliate' : window.location.hostname
           source.setAttribute('value', sourceValue)
           const formOrigin = formURL.origin

@@ -197,6 +197,28 @@ table {
     }
 }
 
+
+/* iframe styles */
+body.iframe {
+  padding-top: 0px !important;
+  header, aside, footer, #cc--main {
+    display: none !important;
+  }
+  p, h1 {
+    display: none !important;
+  }
+
+  form {
+    p, h1 {
+      display: block !important;
+    }
+  }
+  section {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+}
+
 /* helper classes */
 .is-full {
     left: 50%;
