@@ -110,6 +110,11 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
   const isIFrame = !(window === window.parent || window.opener)
   if (isIFrame) {
     document.body.classList.add('iframe')
+    const form = document.querySelector('form')
+    if (form) {
+      form.parentElement.classList.remove('lg:col-span-2')
+      form.parentElement.classList.add('lg:col-span-3')
+    }
   }
 
   // Receive and refresh form token
