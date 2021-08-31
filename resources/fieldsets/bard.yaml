@@ -155,6 +155,11 @@ fields:
             -
               import: example_work
               prefix: ex_
+        logo_list:
+          display: 'Logo Liste'
+          fields:
+            -
+              import: logo_list
       container: assets
       enable_input_rules: true
       enable_paste_rules: true
