@@ -952,7 +952,7 @@ replicator:
         type: row
         enabled: true
         single-col: false
-        responsive_columns: 1
+        responsive_columns: 2
     is-full: true
     bg-toggle: true
     bg-image: seiten/full-scaled.jpg
