@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Wie viel Plagiat ist erlaubt: Plagiatscan'
 size: 258934
 last_modified: 1630520292
 width: 1366
