@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'wie viel Plagiat ist erlaubt'
 size: 44420
 last_modified: 1630584328
 width: 886
