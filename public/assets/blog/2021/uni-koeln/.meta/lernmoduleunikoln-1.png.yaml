@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Lernmodule an der Uni Köln BWL'
+  caption: 'Quelle: B.Sc. Betriebswirtschaftslehre Studienstart Wintersemester 2016/17, URL: https://wiso.uni-koeln.de/sites/fakultaet/dokumente/downloads/bachelor/b_bwl_erstipraesi.pdf'
 size: 38475
 last_modified: 1631183944
 width: 967
