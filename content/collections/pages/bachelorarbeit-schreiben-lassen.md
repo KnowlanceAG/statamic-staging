@@ -47,7 +47,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1631721028
+updated_at: 1631722440
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1434,13 +1434,15 @@ replicator:
             type: text
             marks:
               -
-                type: bold
-              -
-                type: textColor
+                type: link
                 attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Gliederung einer Bachelorarbeit:'
+                  href: /blog/aufbau-wissenschaftliche-arbeit
+                  target: null
+                  rel: null
+            text: Gliederung
+          -
+            type: text
+            text: ' einer Masterarbeit'
       -
         type: bullet_list
         content:
@@ -1456,9 +1458,18 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/deckblatt-vorlage
+                          target: null
+                          rel: null
                     text: Deckblatt
+      -
+        type: bullet_list
+        content:
           -
             type: list_item
             content:
@@ -1471,8 +1482,14 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/abstract-schreiben
+                          target: null
+                          rel: null
                     text: Abstract
           -
             type: list_item
@@ -1486,7 +1503,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: Vorwort
           -
@@ -1501,8 +1518,14 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/inhaltsverzeichnis-vorlage
+                          target: null
+                          rel: null
                     text: 'Inhaltsverzeichnis (Kapitel, Unterkapitel)'
           -
             type: list_item
@@ -1516,9 +1539,39 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
-                    text: 'Abbildungs- und Tabellenverzeichnis'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/abbildungsverzeichnis
+                          target: null
+                          rel: null
+                    text: Abbildungs
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '- und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/tabellenverzeichnis-beispiel
+                          target: null
+                          rel: null
+                    text: Tabellenverzeichnis
           -
             type: list_item
             content:
@@ -1531,8 +1584,14 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/abkuerzungsverzeichnis
+                          target: null
+                          rel: null
                     text: Abkürzungsverzeichnis
           -
             type: list_item
@@ -1546,8 +1605,14 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/bachelorarbeit-einleitung
+                          target: null
+                          rel: null
                     text: Einleitung
           -
             type: list_item
@@ -1561,7 +1626,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: Hauptteil
           -
@@ -1576,7 +1641,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: Schlussteil/Fazit
           -
@@ -1591,8 +1656,14 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/literaturverzeichnis-beispiel
+                          target: null
+                          rel: null
                     text: Literaturverzeichnis
           -
             type: list_item
@@ -1606,8 +1677,14 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/anhangsverzeichnis
+                          target: null
+                          rel: null
                     text: Anhang
           -
             type: list_item
@@ -1621,9 +1698,51 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/eidesstattliche-erklaerung-muster
+                          target: null
+                          rel: null
                     text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Oft haben Studierende Schwierigkeiten beim Zitieren von Quellen, sowohl im Literaturverzeichnis noch in der Fußnote. Wie ein Zitat aufgebaut sein soll und welche Regeln hierbei gehalten werden müssen, erfahren Sie in einzelnen Etappen '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/literaturquellen-richtig-zitieren
+                  target: null
+                  rel: null
+            text: hier
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: .
       -
         type: heading
         attrs:
