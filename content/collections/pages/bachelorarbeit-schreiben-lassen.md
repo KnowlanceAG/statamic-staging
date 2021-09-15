@@ -47,7 +47,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1631720434
+updated_at: 1631721028
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -186,7 +186,13 @@ replicator:
         content:
           -
             type: text
-            text: 'Niemand möchte bei ohnehin schon kurzen Bearbeitungszeiten mit der Frage „Wie schreibe ich eine Bachelorarbeit?” wertvolle Bearbeitungszeit verlieren und Zeitdruck bekommen. Daher wenden sich einige Studenten an akademische Freelancer und professionelle wissenschaftliche Ghostwriter. Sie holen sich Hilfe, indem sie die Arbeit von einem akademischen Lektor bzw. Wissenschaftslektor kontrollieren lassen oder bei Bedarf eine Korrekturschleife vornehmen lassen. Und anschließend helfen sie auch mit einem Plagiatscheck, um den Text plagiatsfrei fertigen zu stellen. Auch können Sie vorab eine '
+            text: 'Niemand möchte bei ohnehin schon kurzen Bearbeitungszeiten mit der Frage „Wie schreibe ich eine Bachelorarbeit?” wertvolle Bearbeitungszeit verlieren und Zeitdruck bekommen. Daher wenden sich einige Studenten an akademische Freelancer und professionelle wissenschaftliche Ghostwriter. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Sie holen sich Hilfe, indem sie die Arbeit von einem akademischen Lektor bzw. Wissenschaftslektor kontrollieren lassen oder bei Bedarf eine Korrekturschleife vornehmen lassen. Und anschließend helfen sie auch mit einem Plagiatscheck, um den Text plagiatsfrei fertigen zu stellen. Auch können Sie vorab eine '
           -
             type: text
             marks:
@@ -217,7 +223,19 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: 'Alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen hervorragende fachliche Kompetenzen und methodische Erfahrung im Hinblick auf wissenschaftliches Arbeiten vor. Daher können diese Ihnen bei Ihrer Bachelorarbeit Hilfe in verschiedenen Formen, individuell abgestimmt auf Ihre Bedürfnisse bieten. Im obigen Video erklären wir Ihnen, wie sich der Coaching Service von unserer akademischen Ghostwriting-Agentur für Bachelorarbeiten gestaltet. Dies gilt natürlich auch für alle anderen Arten von wissenschaftlichen Arbeiten. Das Coachen kann sowohl in Form von Textteilen Ergänzung/Überarbeitung als auch Beantwortungen der wissenschaftlichen Fragestellungen während des Schreibprozesses folgen.'
+            text: 'Alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen hervorragende fachliche Kompetenzen und methodische Erfahrung im Hinblick auf wissenschaftliches Arbeiten vor. Daher können diese Ihnen bei Ihrer Bachelorarbeit Hilfe in verschiedenen Formen, individuell abgestimmt auf Ihre Bedürfnisse bieten. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Im obigen Video erklären wir Ihnen, wie sich der Coaching Service von unserer akademischen Ghostwriting-Agentur für Bachelorarbeiten gestaltet. Dies gilt natürlich auch für alle anderen Arten von wissenschaftlichen Arbeiten. Das Coachen kann sowohl in Form von Textteilen Ergänzung/Überarbeitung als auch Beantwortungen der wissenschaftlichen Fragestellungen während des Schreibprozesses folgen.'
       -
         type: paragraph
         content:
@@ -1388,7 +1406,9 @@ replicator:
             type: text
             text: 'Insgesamt beläuft sich die dafür vorgesehene Bearbeitungszeit auf bis zu 4 Monate. Vorlagen und Beispiele kann ein Student vom Lehrinstitut selbst erlangen. Akademisches Ghostwriting ist eine alternative. Man kann von einem Ghostwriter eine Bachelorarbeit schreiben lassen, welche als Orientierungshilfe dient.'
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 2
         content:
           -
             type: text
@@ -1406,7 +1426,9 @@ replicator:
                   hex: '#000'
             text: 'Die Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich einige Hochschulgesetze als gängig erwiesen. Laut Prüfungsordnung:'
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 3
         content:
           -
             type: text
@@ -1420,352 +1442,280 @@ replicator:
                   hex: '#000'
             text: 'Gliederung einer Bachelorarbeit:'
       -
-        type: paragraph
+        type: bullet_list
         content:
           -
-            type: text
-            text: "·\_\_\_\_\_\_ "
-          -
-            type: text
-            marks:
+            type: list_item
+            content:
               -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: Deckblatt
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: Deckblatt
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: Abstract
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: Vorwort
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Inhaltsverzeichnis (Kapitel, Unterkapitel)'
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Abbildungs- und Tabellenverzeichnis'
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: Abkürzungsverzeichnis
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: Einleitung
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: Hauptteil
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: Schlussteil/Fazit
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: Literaturverzeichnis
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: Anhang
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 2
         content:
           -
             type: text
-            text: "·\_\_\_\_\_\_ "
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: Abstract
+            text: 'Allgemeine Formatierungsrichtlinien einer Bachelorarbeit '
       -
-        type: paragraph
+        type: bullet_list
         content:
           -
-            type: text
-            text: "·\_\_\_\_\_\_ "
-          -
-            type: text
-            marks:
+            type: list_item
+            content:
               -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: Vorwort
-      -
-        type: paragraph
-        content:
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Schriftart: Times New Roman (oder Arial Größe 11) '
           -
-            type: text
-            text: "·\_\_\_\_\_\_ "
-          -
-            type: text
-            marks:
+            type: list_item
+            content:
               -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Inhaltsverzeichnis (Kapitel, Unterkapitel)'
-      -
-        type: paragraph
-        content:
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Schriftgröße: 12 Punkt'
           -
-            type: text
-            text: "·\_\_\_\_\_\_ "
-          -
-            type: text
-            marks:
+            type: list_item
+            content:
               -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Abbildungs- und Tabellenverzeichnis'
-      -
-        type: paragraph
-        content:
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zeilenabstand: 1,5'
           -
-            type: text
-            text: "·\_\_\_\_\_\_ "
-          -
-            type: text
-            marks:
+            type: list_item
+            content:
               -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: Abkürzungsverzeichnis
-      -
-        type: paragraph
-        content:
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ränder: oben und unten jeweils 2,5 cm, links und rechts jeweils 3 cm'
           -
-            type: text
-            text: "·\_\_\_\_\_\_ "
-          -
-            type: text
-            marks:
+            type: list_item
+            content:
               -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: Einleitung
-      -
-        type: paragraph
-        content:
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Absatzformat: Blocksatz (auf Trennung achten)'
           -
-            type: text
-            text: "·\_\_\_\_\_\_ "
-          -
-            type: text
-            marks:
+            type: list_item
+            content:
               -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: Hauptteil
-      -
-        type: paragraph
-        content:
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand'
           -
-            type: text
-            text: "·\_\_\_\_\_\_ "
-          -
-            type: text
-            marks:
+            type: list_item
+            content:
               -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: Schlussteil/Fazit
-      -
-        type: paragraph
-        content:
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand'
           -
-            type: text
-            text: "·\_\_\_\_\_\_ "
-          -
-            type: text
-            marks:
+            type: list_item
+            content:
               -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: Literaturverzeichnis
-      -
-        type: paragraph
-        content:
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Fußnoten: Schriftgröße 10 '
           -
-            type: text
-            text: "·\_\_\_\_\_\_ "
-          -
-            type: text
-            marks:
+            type: list_item
+            content:
               -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: Anhang
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "·\_\_\_\_\_\_ "
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-            text: 'Allgemeine Formatierungsrichtlinien einer Bachelorarbeit'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-            text: '• Schriftart: Times New Roman (oder Arial Größe 11)'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-            text: '• Schriftgröße: 12 Punkt'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-            text: '• Zeilenabstand: 1,5'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-            text: '• Ränder: oben und unten jeweils 2,5 cm, links und rechts jeweils 3 cm'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-            text: '• Absatzformat: Blocksatz (auf Trennung achten)'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-            text: '• Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-            text: '• Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-            text: '• Fußnoten: Schriftgröße 10'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#444444'
-                  hex: '#000'
-            text: '• Seitenzahlen: alle Seiten nummeriert, außer Titelblatt, Inhaltsverzeichnis einer Bachelorarbeit, Literaturverzeichnis und Anhang'
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Seitenzahlen: alle Seiten nummeriert, außer Titelblatt, Inhaltsverzeichnis einer Bachelorarbeit, Literaturverzeichnis und Anhang'
       -
         type: horizontal_rule
       -
