@@ -67,7 +67,13 @@ replicator:
             text: Ghostwriter
           -
             type: text
-            text: ' Masterarbeiten und deren Erstellung problemlos zu jedem Zeitpunkt übernehmen. Oft geschieht dies direkt zu Beginn, bei der eigentlichen Themenfindung und dem Aufbau einer Masterarbeit. Ebenfalls ist es möglich, Hilfe bei der bereits begonnenen Arbeit in Anspruch zu nehmen oder sich bei Teilbereichen helfen zu lassen. Zudem können Leistungen wie das '
+            text: ' wissenschaftliche Texterstellungen problemlos zu jedem Zeitpunkt übernehmen. In solchen Fällen steht dann im Leistungszentrum, dass sich Studenten von Ghostwritern eine Mustervorlage für die eigene Masterarbeit schreiben lassen. Oft geschieht dies direkt zu Beginn einer Texterstellung, bei der eigentlichen Themenfindung, der Literaturrecherche und dem Aufbau einer Masterarbeit. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Ebenfalls ist es möglich, Hilfe während des Schreibprozesses in Anspruch zu nehmen oder sich bei Teilbereichen helfen zu lassen. Zudem können Leistungen wie das '
           -
             type: text
             marks:
@@ -82,11 +88,91 @@ replicator:
             type: text
             text: ' und das Korrektorat der Masterarbeit, die bereits durch den Studenten fertiggestellt wurde, in Anspruch genommen werden.'
       -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Ablauf: Zusammenarbeit mit Ghostwriter'
+      -
         type: paragraph
         content:
           -
             type: text
-            text: 'Anschließend kann eine umfassende Plagiatsprüfung erfolgen, um mögliche Risiken zu umgehen, die aufgrund von Schwierigkeiten oder Flüchtigkeitsfehlern im Umgang mit Literatur entstehen könnten. Einen Ghostwriter eine Mustervorlage für seine Masterarbeit schreiben lassen, bietet für einige Studenten auch eine Option. Diese Ghostwriter-Masterarbeit kann als Orientierungshilfe bei der Erstellung der eigenen Arbeit genutzt werden.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Während der '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /so-funktioniert-es
+                  target: null
+                  rel: null
+            text: 'Zusammenarbeit mit Ghostwritern'
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: " stellen unsere Projektmanager die Anonymität des Auftraggebers und gleichzeitig auch die Anonymität des Autors sicher.\_Zu jedem Problemfeld werden einzelne Teillieferungen bzw. Termine vereinbart. \_Diese Teillieferungen dienen dazu, den Auftraggeber über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. "
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'So können für den Zeitraum der Auftragsausführung geltende Anforderungen genannt werden bezüglich der wissenschaftlichen Abschlussarbeit. In dieser Revisionszeit werden je nach Komplexität und Umfang des Themas bzw. der Aufgabenstellung auch mehrere '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /experten
+                  target: null
+                  rel: null
+            text: 'ausgebildete Fachautoren'
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ' für die Arbeit eingesetzt.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Anschließend kann der Text auf Plagiate geprüft werden, um mögliche Risiken zu umgehen, die aufgrund von Schwierigkeiten oder Flüchtigkeitsfehlern im Umgang mit Literatur entstehen könnten. Einen Ghostwriter eine Mustervorlage für seine Masterarbeit schreiben lassen, bietet für einige Masterstudenten auch eine Option. Diese Ghostwriter-Masterthesis kann als Orientierung bei der Erstellung der eigenen Arbeit genutzt werden.'
       -
         type: paragraph
         content:
@@ -113,7 +199,7 @@ replicator:
             marks:
               -
                 type: bold
-            text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+            text: '. Unsere Schreibagentur melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
           -
             type: hard_break
             marks:
@@ -132,7 +218,13 @@ replicator:
         content:
           -
             type: text
-            text: 'Die Masterarbeit ist die letzte anzufertigende Examensarbeit im Bachelor-/Masterstudium und stellt damit den Türöffner in die Berufswelt dar. Studenten streben danach, in Betrieben unterzukommen und müssen versuchen, in der Berufswelt Fuß zu fassen. Die Rückzahlung des BAföG steht an, viele wollen eine Familie gründen und sich endgültig von den Eltern lösen. Das ist ohne Anstellung in einem Beruf nicht zu bewältigen. Das führt dazu, dass man sich selbst unter Druck setzt, die Hürde der Masterarbeit schnell und ohne Probleme zu überwinden.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Die Masterarbeit ist die letzte anzufertigende Examensarbeit im Bachelor-/Masterstudium und stellt damit den Türöffner in die Berufswelt dar. Studenten streben danach, in Betrieben unterzukommen und müssen versuchen, in der Berufswelt Fuß zu fassen. Die Rückzahlung des BAföG steht an, viele wollen eine Familie gründen und sich endgültig von den Eltern lösen. Das ist ohne Anstellung in einem Beruf nicht zu bewältigen. Das führt dazu, dass man sich selbst unter Druck setzt, Fehler macht, die Hürde der Masterthesis schnell und ohne Probleme zu überwinden.'
       -
         type: paragraph
         content:
@@ -151,7 +243,7 @@ replicator:
             text: Textkorrektur
           -
             type: text
-            text: ', das Lektorat sowie die '
+            text: ', das Lektorat sowie '
           -
             type: text
             marks:
@@ -161,10 +253,70 @@ replicator:
                   href: /leistungen/plagiatspruefung
                   target: null
                   rel: null
-            text: Plagiatsprüfung
+            text: 'Überprüfung auf Plagiate'
           -
             type: text
-            text: '. Somit kann sich der Student auf die wesentlichen Dinge in seinem Leben konzentrieren, statt lange Zeit vor der Frage zu stehen ,,Wie schreibe ich eine Masterarbeit?“.'
+            text: '. Durch diese Dienstleistung kann sich der Student auf die wesentlichen Dinge in seinem Leben konzentrieren, statt lange Zeit vor der Fragestellung zu stehen ,,Wie schreibe ich eine Masterarbeit?“. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'In unserer akademischen Agentur arbeiten Ghostwriter mit wissenschaftlichen methodischen Ansätzen. Sowohl in der Theorie als auch in der Praxis haben sie viele Jahre Erfahrung. Sie wissen wie z.B. '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/leitfadengestuetztes-experteninterview
+                  target: null
+                  rel: null
+            text: Experten-Befragungen
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ' oder '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /gwriters-akademie/fragebogen-vorlage
+                  target: null
+                  rel: null
+            text: Studienumfragen
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ' erstellt werden. In jedem Gebiet, wo bei Ihnen selbst keine ausreichenden Kenntnisse vorliegen, können unsere Doktoren und Experten Sie unterstützen. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn.'
       -
         type: set
         attrs:
@@ -1094,13 +1246,69 @@ replicator:
         content:
           -
             type: text
-            text: 'Der Master folgt dem Bachelorgrad und ist somit der zweite akademische Grad, welcher bei einem Studium innerhalb der EU und in den meisten englischsprachigen Ländern erreicht werden kann. Der erste akademische Grad ist der Bachelor, bei dem Universitäten und Hochschulen von ihren Studenten eine Bachelorarbeit schreiben lassen. Die Prüfung zum Master besteht aus einem studienbegleitenden Teil, der Examens- oder Masterarbeit (auch Masterthesis) und der mündlichen Abschlussprüfung. Für das Vollenden des Masterstudiums ist vorgesehen, dass Lehrinstitute von ihren Studenten eine Masterarbeit schreiben lassen. Dadurch soll geprüft werden, ob der Student in der Lage ist, ordnungsgemäß zu einer speziellen Fragestellung zu recherchieren und sie wissenschaftlich zu erarbeiten.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Der Masterabschluss folgt dem Bachelorgrad und ist somit der zweite akademische Grad, welcher bei einem Studium innerhalb der EU und in den meisten englischsprachigen Ländern erreicht werden kann. Der erste akademische Grad ist der Bachelor, bei dem Universitäten und Hochschulen von ihren Studenten eine Bachelorarbeit schreiben lassen. '
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Die damit verbundene Arbeit ist sehr zeitintensiv und umfangreich. Trotz dem deutlich höheren Anspruch der Masterarbeit im Vergleich zu einer Hausarbeit oder Bachelorarbeit, erhalten Studenten von Hochschulen oft nicht ausreichend Hilfe. Nicht selten brauchen die Studenten mehr als nur eine Textkorrektur, sondern auch Unterstützung beim Aufbau und Verfassen der Arbeit. Abhilfe schafft hier neben dem klassischen Lektorat ein professionelles Coaching für die Masterarbeit. Teilweise werden für Mustervorlagen für eine Masterarbeit Ghostwriter eingesetzt, wobei diese Ghostwriting-Masterarbeit nur als Orientierungshilfe dienen sollte.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Die Prüfung zum Masterabschluss besteht aus einem studienbegleitenden Teil, der Examens- oder Masterarbeit (auch Masterthesis) und der mündlichen Abschlussprüfung. Für das Vollenden des Masterstudiums ist vorgesehen, dass Lehrinstitute von ihren Studenten eine Masterarbeit schreiben lassen. Dadurch soll geprüft werden, ob der Student in der Lage ist, ordnungsgemäß zu einer speziellen Fragestellung zu recherchieren und sie wissenschaftlich zu erarbeiten.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Die damit verbundene Thesis ist sehr zeitintensiv und umfangreich. Trotz dem deutlich höheren Anspruch der Masterthesis im Vergleich zu einer Hausarbeit oder Bachelorarbeit, erhalten Studierende von Hochschulen oft nicht ausreichend Hilfe. Nicht selten brauchen die Studierenden mehr als nur eine Textkorrektur, sondern auch Unterstützung beim Aufbau und Verfassen der Arbeit. '
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Abhilfe für eine Masterarbeit '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Abhilfe schafft hier, neben der Arbeitskorrektur und der Plagiatsprüfung, ein professionelles Coaching für die Masterarbeit. Teilweise werden für Mustervorlagen für eine Masterarbeit Ghostwriter eingesetzt, wobei diese Ghostwriting-Masterarbeit nur als Orientierungshilfe dienen sollte Denn unsere Ghostwriter sind mehr als akademisch ausgebildete Autoren. Sie sind Doktoren und Professoren, die sich täglich mit wissenschaftlichen Texten beschäftigen.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Unsere seriösen Ghostwriter kennen den aktuellen Kenntnisstand und alle Methoden zur wissenschaftlichen Forschung. Der Forschungsstand benennt den aktuellen Stand der Forschung im Bezug zum Thema einer wissenschaftlichen Arbeit. Somit kann eine Forschungslücke gefunden und eine wissenschaftliche Forschungsfrage erstellt werden.'
       -
         type: heading
         attrs:
@@ -1114,7 +1322,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Um die Wettbewerbsfähigkeit zu erhöhen, eine Vergleichbarkeit von Studiengängen zu erreichen und die Mobilität und Flexibilität im Studium zu gewährleisten, wurde 1999 von 29 EU-Bildungsministern die Bologna-Erklärung unterzeichnet. Mit der Umsetzung der Bologna-Reform wurden in Deutschland die alten Magister- und Diplomstudiengänge, abgeschlossen mit der Magisterarbeit und Diplomarbeit, zunehmend durch Bachelor- und Masterstudiengänge ersetzt. Hierbei ist der Mastergrad mit dem Magister- und Diplomgrad vergleichbar.'
+            text: 'Um die Wettbewerbsfähigkeit zu erhöhen, eine Vergleichbarkeit von Studiengängen zu erreichen und die Mobilität und Flexibilität im Studium zu gewährleisten, wurde 1999 von 29 EU-Bildungsministern die Bologna-Erklärung unterzeichnet. Mit der Umsetzung der Bologna-Reform wurden in Deutschland die alten Magisterstudiengänge- und Diplomstudiengänge, abgeschlossen mit der Magisterarbeit und Diplomarbeit, zunehmend durch Bachelor- und Masterstudiengänge ersetzt. Hierbei ist der Mastergrad mit dem Magister- und Diplomgrad vergleichbar.'
       -
         type: paragraph
         content:
@@ -1134,13 +1342,51 @@ replicator:
         content:
           -
             type: text
-            text: 'Je nach Fachrichtung und Institution umfasst die Masterarbeit inklusive Exposé 60-100 Seiten. Sie muss alle Kriterien einer akademischen Arbeit erfüllen und wird mit 15-30 ECTS-Punkten bewertet. Somit ist diese Leistung grundlegend für den Erfolg des Studiums und nicht einfach abzuhandeln. Höchste wissenschaftliche Standards werden angelegt um ihre Qualität zu beurteilen. Im Bereich der Medizin, beispielsweise, dient die Masterarbeit oft als Fundament der Dissertation.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Je nach Fachbereich und Institution umfasst die Masterarbeit inklusive Exposé 60-100 Seiten. Sie muss alle Kriterien einer akademischen Arbeit innerhalb von 5 bis 6 Monaten erfüllen und wird mit 15-30 ECTS-Punkten bewertet. Somit ist diese Leistung grundlegend für den Erfolg des Studiums und nicht einfach abzuhandeln. Höchste wissenschaftliche Standards werden angelegt um ihre Qualität zu beurteilen. Im Bereich der Medizin, beispielsweise, dient die Masterarbeit oft als Fundament der Dissertation.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Neben Themenfindung, Recherche der passenden Literatur und einigen Organisationsaspekten, wie der Suche eines Ansprechpartners zur Betreuung der Masterarbeit, sind auch zahlreiche formale Richtlinien zu beachten. Bei einigen Fächern, wie der BWL oder VWL sind oftmals statistische Analysen anzufertigen. Oft wird durch das Lehrinstitut ein Muster der Masterarbeit als Beispiel veröffentlicht, was als Orientierungshilfe genutzt werden kann. Wenn diese Unterstützung nicht vorhanden ist, schaffen sich einige Studenten Abhilfe, indem sie einen Ghostwriter ihre Masterarbeit schreiben lassen. Die Ghostwriting-Masterarbeit wird dann als Mustervorlage genutzt.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Neben Themenfindung, Literaturrecherche und einigen Organisationsaspekten, wie der Suche eines Ansprechpartners zur Betreuung der Masterarbeit, sind auch zahlreiche formale Richtlinien zu beachten. Bei einigen Fächern, wie der BWL oder VWL sind oftmals statistische Untersuchungen anzufertigen. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Oft wird durch das Lehrinstitut ein Muster der Masterarbeit als Beispiel veröffentlicht, was als Orientierungshilfe genutzt werden kann. Wenn diese Unterstützung nicht vorhanden ist, schaffen sich einige Studenten Abhilfe, indem sie einen Ghostwriter ihre Masterarbeit schreiben lassen. In kleinen Arbeitsschritten erstellt unsere Schreibagentur je nach Themenstellung und Bedürfnissen eine Mustervorlage für die Masterarbeit. Die Ghostwriting-Masterarbeit wird dann als Mustervorlage genutzt.'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Gliederung und Formalien einer Masterarbeit:'
       -
         type: paragraph
         content:
@@ -1148,54 +1394,331 @@ replicator:
             type: text
             text: 'Trotz unterschiedlicher Anforderungen der einzelnen Lehrinstitute, haben sich einige Formalien als gängig erwiesen:'
       -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/aufbau-wissenschaftliche-arbeit
+                  target: null
+                  rel: null
+            text: Gliederung
+          -
+            type: text
+            text: ' einer Masterarbeit'
+      -
+        type: bullet_list
+        content:
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/deckblatt-vorlage
+                          target: null
+                          rel: null
+                    text: Deckblatt
+      -
+        type: bullet_list
+        content:
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/abstract-schreiben
+                          target: null
+                          rel: null
+                    text: Abstract
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Vorwort
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/inhaltsverzeichnis-vorlage
+                          target: null
+                          rel: null
+                    text: 'Inhaltsverzeichnis (Kapitel, Unterkapitel)'
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/abbildungsverzeichnis
+                          target: null
+                          rel: null
+                    text: Abbildungs
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '- und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/tabellenverzeichnis-beispiel
+                          target: null
+                          rel: null
+                    text: Tabellenverzeichnis
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/abkuerzungsverzeichnis
+                          target: null
+                          rel: null
+                    text: Abkürzungsverzeichnis
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/bachelorarbeit-einleitung
+                          target: null
+                          rel: null
+                    text: Einleitung
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Hauptteil
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Schlussteil/Fazit
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/literaturverzeichnis-beispiel
+                          target: null
+                          rel: null
+                    text: Literaturverzeichnis
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/anhangsverzeichnis
+                          target: null
+                          rel: null
+                    text: Anhang
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/eidesstattliche-erklaerung-muster
+                          target: null
+                          rel: null
+                    text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
+      -
         type: paragraph
         content:
           -
             type: text
             marks:
               -
-                type: bold
-            text: 'Gliederung einer Masterarbeit'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Deckblatt'
-          -
-            type: hard_break
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Oft haben Studierende Schwierigkeiten beim Zitieren von Quellen, sowohl im Literaturverzeichnis noch in der Fußnote. Wie ein Zitat aufgebaut sein soll und welche Regeln hierbei gehalten werden müssen, erfahren Sie in einzelnen Etappen '
           -
             type: text
-            text: '• Inhaltsverzeichnnis Masterarbeit'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Einleitung'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Hauptteil'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Schlussteil/ Fazit'
-          -
-            type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/literaturquellen-richtig-zitieren
+                  target: null
+                  rel: null
+            text: hier
           -
             type: text
-            text: '• Literatur- und Quellenverzeichnis'
-          -
-            type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: .
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
           -
             type: text
-            text: '• Anhang'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Erklärung gemäß Masterprüfungsordnung'
+            text: 'Formatierung einer Masterarbeit'
       -
         type: paragraph
         content:
@@ -1204,42 +1727,78 @@ replicator:
             marks:
               -
                 type: bold
-            text: 'Formatierung einer Masterarbeit'
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Wichtig: Vor der Abgabe müssen Formatierungsrichtlinien beachtet werden'
+      -
+        type: bullet_list
+        content:
           -
-            type: hard_break
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Seitenrand: oben und unten je 2cm, links 5cm, rechts 1cm'
           -
-            type: text
-            text: '• Seitenrand: oben und unten je 2cm, links 5cm, rechts 1cm'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Seitenzahlen: unten zentriert/rechts, auf Deckblatt/Inhaltsverzeichnis keine Seitenzahl'
           -
-            type: hard_break
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Schriftgröße und –Art im Fließtext: 12 Pt Arial oder Times New Roman, Blocksatz'
           -
-            type: text
-            text: '• Seitenzahlen: unten zentriert/rechts, auf Deckblatt/Inhaltsverzeichnis keine Seitenzahl'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zeilenabstand: 1,5-zeilig'
           -
-            type: hard_break
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand'
           -
-            type: text
-            text: '• Schriftgröße und –Art im Fließtext: 12 Pt Arial oder Times New Roman, Blocksatz'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand'
           -
-            type: hard_break
-          -
-            type: text
-            text: '• Zeilenabstand: 1,5-zeilig'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Fußnotentext: 10 Pt Blocksatz, 1,0-zeilig, Fußnoten werden hoch gestellt'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Fußnotentext: 10 Pt Blocksatz, 1,0-zeilig, Fußnoten werden hoch gestellt'
       -
         type: heading
         attrs:
@@ -1376,8 +1935,8 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1628584253
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1631722708
 meta_title: 'Masterarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Mustervorlage für Masterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
