@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Homeoffice: Online Praktikum'
 size: 42508
 last_modified: 1632232636
 width: 886
