@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1629881678
+updated_at: 1631087899
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -61,9 +61,9 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: '#333333'
+                  color: black
                   hex: '#000'
-            text: 'Wissenschaftliches Schreiben ist eine der ersten großen Herausforderungen im Rahmen des Studiums für einen Studienanfänger. Es ist üblich, dass Universitäten ihre Studenten mindestens eine Seminararbeit schreiben lassen. Akademische Ghostwriter werden hierbei oft als Unterstützung herangezogen. Grund hierfür ist, dass Seminararbeiten durch eine starke Gewichtung in Form von Creditpoints eine wichtige Bedeutung für den Studienabschluss haben.'
+            text: 'Wissenschaftliches Schreiben ist eine der ersten großen Herausforderungen im Rahmen des Studiums für einen Studienanfänger. Es ist üblich, dass Universitäten ihre Studierenden mindestens eine Seminararbeit schreiben lassen. Akademische Ghostwriter werden hierbei oft als Hilfe herangezogen. Grund hierfür ist, dass Seminararbeiten durch eine starke Gewichtung in Form von Creditpoints eine wichtige Bedeutung für den Studienabschluss haben.'
       -
         type: paragraph
         content:
@@ -73,7 +73,7 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: '#333333'
+                  color: black
                   hex: '#000'
             text: 'Studierende beauftragen häufig für die Unterstützung bei ihren Seminararbeiten Ghostwriter. Diese bieten eine Vielzahl von Leistungen und Hilfestellungen an. Sie können daher zu jedem Zeitpunkt des Arbeitsverlaufs beauftragt werden können.'
       -
@@ -85,9 +85,9 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: '#333333'
+                  color: black
                   hex: '#000'
-            text: 'Oft geschieht dies direkt am Anfang bei der Themenwahl, bei Problemen bei der Literaturrecherche, dem Aufbau einer Seminararbeit und deren Exposé. Zudem ist es möglich, einen akademischen Experten im Laufe des Schreibprozesses um Rat zu fragen. Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, die Seminararbeit Korrekturlesen zu lassen.'
+            text: 'Oft geschieht dies direkt am Anfang bei der Themenwahl und der Definition der Leitfrage, bei Problemen bei der Literaturrecherche, dem Aufbau einer Seminararbeit, deren Exposé und der Erstellung von Präsentation. Zudem ist es möglich, einen akademischen Experten im Laufe des Schreibprozesses um Rat zu fragen. Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, die Seminararbeit Korrekturlesen und von einem Wissenschaftslektor kontrollieren zu lassen.'
       -
         type: paragraph
         content:
@@ -147,7 +147,7 @@ replicator:
                 attrs:
                   color: '#333333'
                   hex: '#000'
-            text: "\_durch unsere Ghostwriting-Agentur erfolgen. Auch ein sog. Coaching mit fachlichem Wissen unterstützt den Studenten bei seiner Seminararbeit. Einige Studenten möchten sich auch eine Mustervorlage für ihre Seminararbeit schreiben lassen, um diese Arbeit als Vorlage für ihre eigene akademischen Arbeit zu nutzen."
+            text: "\_durch unsere Ghostwriting-Agentur erfolgen. Auch ein sog. Coaching mit fachlichem Wissen unterstützt den Studenten bei seiner Seminararbeit oder im Studienprozess. Einige Studenten möchten sich auch eine Mustervorlage für ihre Seminararbeit schreiben lassen, um diese Arbeit als Vorlage für ihre eigene akademischen Arbeit zu nutzen."
       -
         type: paragraph
         content:
@@ -309,7 +309,7 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: '#333333'
+                  color: black
                   hex: '#000'
             text: 'Seminare sind Veranstaltungen an Hochschulen, die sich über den regen Austausch zwischen Studenten und Hochschullehrer definieren. Der Abschluss eines solchen Seminars wird meist erreicht, indem die Lehrinstitutionen von ihren Studenten Referate bzw. Präsentationen erwarten oder eine Seminararbeit schreiben lassen.'
       -
@@ -321,9 +321,9 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: '#333333'
+                  color: black
                   hex: '#000'
-            text: 'Dadurch soll der Student nicht nur den Umgang mit wissenschaftlichen Fragestellungen erlernen, sondern auch seine Leistungen und Ergebnisse angemessen in Schrift umsetzen. Solche Projektarbeiten dienen zur Vorbereitung einer Bachelorarbeit oder Masterarbeit.'
+            text: 'Dadurch soll der Student nicht nur den Umgang mit wissenschaftlichen Fragestellungen erlernen, sondern auch seine Leistungen und Ergebnisse angemessen in Schrift umsetzen. Solche Projektarbeiten und Aufgaben dienen zur Vorbereitung einer Bachelorarbeit oder Masterarbeit.'
       -
         type: paragraph
         content:
@@ -333,9 +333,9 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: '#333333'
+                  color: black
                   hex: '#000'
-            text: 'Durch die nicht selten fehlende Erfahrung mit wissenschaftlichen Arbeiten, in Verbindung mit Leistungs- und Zeitdruck, sind einige Studenten schon den akademischen Texten überfordert. Sie benötigen weitaus mehr Hilfe bei der Seminararbeit, als es einige Hochschulen bieten können.'
+            text: 'Durch die nicht selten fehlende Erfahrung mit wissenschaftlichen Arbeiten und deren Aufgaben, in Verbindung mit Leistungs- und Zeitdruck, sind einige Studenten schon den akademischen Texten überfordert. Sie benötigen weitaus mehr Hilfe bei der Seminararbeit, als es einige Hochschulen bieten können.'
       -
         type: paragraph
         content:
@@ -345,9 +345,9 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: '#333333'
+                  color: black
                   hex: '#000'
-            text: 'Bei einigen Studenten hat es sich entwickelt, dass sie von einem erfahrenen Ghostwriter ihre Seminararbeit schreiben lassen. Dabei sollte jedoch die Seminararbeit des Ghostwriters lediglich als Mustervorlage dienen, da es sich um eine Prüfungsleistung handelt, die vom Studenten selbst erstellt werden muss.'
+            text: 'Die Hilflosigkeit hat bei einigen Studenten dazu geführt, dass diese von einem erfahrenen Ghostwriter ihre Seminararbeit schreiben lassen. Dabei sollte jedoch die Seminararbeit des Ghostwriters lediglich als Mustervorlage dienen, da es sich um eine Prüfungsleistung handelt, die vom Studenten selbst erstellt werden muss.'
       -
         type: heading
         attrs:
@@ -378,13 +378,25 @@ replicator:
         content:
           -
             type: text
-            text: 'Im Rahmen eines Studiums sehen sich Studenten mit verschiedensten Aufgabenstellungen konfrontiert. Seminararbeiten, Klausuren und Hausarbeiten, all diese Themen stellen Studenten vor neue Herausforderungen. '
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Im Rahmen eines Studiums sehen sich Studenten mit verschiedensten Aufgabenstellungen konfrontiert. Seminararbeiten, Klausuren und Hausarbeiten, all diese Themen und entstehende Zeitprobleme stellen Studenten vor neue Herausforderungen.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Seminararbeiten sollen den Studenten auf das wissenschaftliche Arbeiten vorbereiten und sind besonders im Hinblick auf Abschlussarbeiten, wie die Bachelorarbeit und Masterarbeit, von großer Bedeutung. In überfüllten Hörsälen ist es jedoch nicht möglich, dem Seminarleiter zu folgen. '
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Seminararbeiten sollen den Studenten auf das wissenschaftliche Arbeiten vorbereiten und sind besonders im Hinblick auf Abschlussarbeiten, wie die Bachelorarbeit und Masterarbeit, von großer Bedeutung. In überfüllten Hörsälen ist es jedoch nicht möglich, dem Seminarleiter zu folgen.'
       -
         type: paragraph
         content:
@@ -415,13 +427,16 @@ replicator:
         content:
           -
             type: text
+            text: 'Professionell erstellte Mustervorlagen bieten gute Orientierungsmöglichkeiten für den Anfang des Studiums beim Schreiben einer Seminararbeit. Ghostwriter betrachten jede akademische Aufgabe aus einer wissenschaftlichen Perspektive. Sie besitzen sowohl das Wissen zur Erstellung einer Seminararbeit, als auch umfassende praktische Erfahrung bei der Erstellung wissenschaftlicher Arbeiten in Form der Forschungsmethodik'
+          -
+            type: text
             marks:
               -
                 type: textColor
                 attrs:
                   color: '#333333'
                   hex: '#000'
-            text: 'Professionell erstelle Mustervorlagen bieten gute Orientierungsmöglichkeiten für den Anfang des Studiums beim Schreiben einer Seminararbeit. Ghostwriter besitzen sowohl das Methoden-Know-How zur Erstellung einer Seminararbeit, als auch umfassende praktische Erfahrung bei der Erstellung wissenschaftlicher Arbeiten.'
+            text: .
     show_as_card: false
   -
     columns-replicator:
@@ -1378,7 +1393,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Nach einer unverbindlichen Anfrage auf der Webseite, erhalten Sie ein kostenloses Angebot und eine individuelle Beratung zur Planung eines Projektes von unseren Kundenberater. Nach einer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre wissenschaftlichen Arbeit. Unsere professionellen Projektmanager übernehmen die gesamte Kommunikation, sodass stets Ihre Anonymität und gleichzeitig auch die Anonymität des Autors gesichert ist.'
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Nach einer unverbindlichen Anfrage auf der Webseite, erhalten Sie ein kostenloses Leistungsangebot und eine individuelle Beratung zur Planung eines Projektes von unseren Kundenberater. Nach einer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre Arbeit. Unsere professionellen Projektmanager aus unserer Schreibservice übernehmen die gesamte Kommunikation, sodass stets Ihre Anonymität und gleichzeitig auch die Unbekanntheit des Autors gesichert ist.'
             show_as_card: false
           -
             bard:
@@ -1399,13 +1420,25 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Bei größeren Seminararbeiten ist auch eine anonyme Telefonkonferenz mit dem jeweiligen Autor möglich. Je nach Umfang der Mustervorlage werden eine oder mehrere Teillieferungen vereinbart. '
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Bei größeren Seminararbeiten oder auch bei Ihrer Abschlussarbeit ist auch eine anonyme Telefonkonferenz mit dem jeweiligen Autor möglich. Je nach Umfang der Mustervorlage werden eine oder mehrere Teillieferungen vereinbart.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Gerade diese Teillieferungen sind wichtig, um einen Abgleich zu erhalten zwischen Ihren Anforderungen aus dem Thema heraus und dem, was Ihr Autor geliefert hat.'
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Gerade diese Teillieferungstermine sind wichtig, um einen Abgleich zu erhalten zwischen Ihren Anforderungen aus dem Thema heraus und dem, was Ihr Autor geliefert hat.'
             show_as_card: false
           -
             bard:
@@ -1433,13 +1466,25 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich auch kostenlos im Rahmen der weiteren Umsetzungsschritte realisiert. '
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich auch kostenlos im Rahmen der weiteren Umsetzungsschritte realisiert.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Bei Fragen und Änderungswünschen, die im Rahmen dieses gesamten Projektes auftreten, ist ihr Projektmanager immer Ihr persönlicher Ansprechpartner. Dieser Projektmanager bleibt immer gleich während des gesamten Projektes und ist bei Fragen oder Problemen telefonisch oder per E-Mail ständig für Sie erreichbar.'
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Bei Fragen und Änderungswünschen, die im Rahmen dieses gesamten Projektes auftreten, ist ihr Projektmanager immer Ihr persönlicher Ansprechpartner. Dieser Ansprechpartner bleibt immer gleich während des gesamten Projektes und ist bei Fragen oder Problemen telefonisch oder per E-Mail ständig für Sie erreichbar.'
             show_as_card: false
           -
             bard:
@@ -1469,7 +1514,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen Lektor kontrolliert \_mit Hilfe einer professionellen Software auf Plagiate geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben."
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: "Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen Lektor kontrolliert\_mit Hilfe einer professionellen Software auf Plagiate geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben."
             show_as_card: false
           -
             bard:
@@ -1524,9 +1575,9 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: '#333333'
+                  color: black
                   hex: '#000'
-            text: 'In der Vorlesung hält ein Dozent Vorträge über bestimmte Themen, zu denen im Anschluss einzelne Fragen gestellt werden können. Bestimmte Leistungen werden von den Teilnehmern nicht erwartet, während der Veranstaltung beschränkt sich die Mitarbeit der Studenten lediglich auf Mitschriften.'
+            text: 'In der Vorlesung hält ein Dozent Vorträge über bestimmte Themen, zu denen im Anschluss einzelne Fragen gestellt werden können. Bestimmte Arbeiten werden von den Teilnehmern nicht erwartet, während der Veranstaltung beschränkt sich die Mitarbeit der Studenten lediglich auf Mitschriften.'
       -
         type: paragraph
         content:
@@ -1536,9 +1587,9 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: '#333333'
+                  color: black
                   hex: '#000'
-            text: 'Seminare sollen in kleinen Gruppen begleitend zur Vorlesung stattfinden und enden mit einer zu bewertenden Seminararbeit. Sehr häufig finden diese in den Bereichen der BWL, VWL und Jura statt. Durch ihre geringe Teilnehmerzahl sollen Studenten in Seminaren wesentlich stärker in die Wissensvermittlung eingebunden werden.'
+            text: 'Seminarveranstaltungen sollen in kleinen Gruppen begleitend zur Vorlesung stattfinden und enden mit einer zu bewertenden Seminararbeit. Sehr häufig finden diese in den Bereichen der BWL, VWL und Jura statt. Der Vorteil einer Seminarveranstaltung ist es, dass durch ihre geringe Teilnehmerzahl Studierende in Seminaren wesentlich stärker in die Wissensvermittlung eingebunden werden.'
       -
         type: paragraph
         content:
@@ -1548,9 +1599,9 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: '#333333'
+                  color: black
                   hex: '#000'
-            text: 'Die Thematik wird gemeinsam mit dem leitenden Dozenten oder Studenten erarbeitet, besprochen und diskutiert. Im Gegensatz zu Vorlesungen ist in Seminaren eine aktive Mitarbeit erwünscht. In der Praxis scheitert dieses Konzept jedoch oft an der Anzahl der Studenten, die solch ein Seminar belegen möchten.'
+            text: 'Die Thematik wird gemeinsam mit dem leitenden Dozenten oder Kommilitonen erarbeitet, besprochen und diskutiert. Im Gegensatz zu Lehrveranstaltungen in den Vorlesungsräumen ist in Seminaren eine aktive Zusammenarbeit erwünscht. In der Praxis scheitert dieses Konzept jedoch oft an der Anzahl der Studenten, die solch ein Seminar belegen möchten.'
       -
         type: paragraph
         content:
@@ -1560,9 +1611,9 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: '#333333'
+                  color: black
                   hex: '#000'
-            text: 'Diese übersteigt in dem meisten Fällen die erstrebte Anzahl von 5-20 Kursteilnehmern um ein Vielfaches. Kurse mit 80-100 Studenten sind keine Seltenheit. Solche Umstände führen keineswegs zu einer wirksamen Vermittlung des Lernstoffs und erschweren den Studenten die Beantwortung der Frage „Wie schreibe ich eine Seminararbeit?“'
+            text: 'Diese übersteigt in dem meisten Fällen die erstrebte Anzahl von 5-20 Kursteilnehmern um ein Vielfaches. Kurse mit 80-100 Studierenden sind keine Seltenheit. Solche Umstände führen keineswegs zu einer wirksamen Vermittlung des Lernstoffs und erschweren den Studenten die Beantwortung der Frage „Wie schreibe ich eine Seminararbeit?“'
       -
         type: heading
         attrs:
@@ -1580,9 +1631,9 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: '#333333'
+                  color: black
                   hex: '#000'
-            text: 'Je nach Fachrichtung und Dozent gelten unterschiedliche Anforderungen bei der Anfertigung der Seminararbeit. Hierbei müssen jedoch die allgemeinen Vorschriften der wissenschaftlichen Arbeit befolgt werden. Diese beinhalten eine streng logische Gliederung, saubere und transparente Recherche, schlüssige Gedankengänge und Formulierungen (der sprichwörtliche "rote Faden"), sowie konsistente Zitation der verwendeten Literatur.'
+            text: 'Je nach Fachrichtung und Dozent gelten unterschiedliche Anforderungen bei der Anfertigung der Seminararbeit. Hierbei müssen jedoch die allgemeinen Vorschriften der wissenschaftlichen Arbeit befolgt werden. Diese beinhalten eine streng logische Gliederung, konkrete Leitfrage, saubere und transparente Recherche, schlüssige Gedankengänge und Formulierungen (der sprichwörtliche "rote Faden"), sowie konsistente Zitation der verwendeten Literatur sei es in der Fußnote als auch im Literaturverzeichnis.'
       -
         type: paragraph
         content:
@@ -1592,9 +1643,9 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: '#333333'
+                  color: black
                   hex: '#000'
-            text: 'In den Fachbereichen der Mathematik, Physik und Informatik werden oftmals der sichere Umgang mit fachspezifischer Software vorausgesetzt. Oft werden dabei als Unterstützung Muster der Seminararbeit als Beispiele durch den Dozenten veröffentlicht oder durch einen Ghostwriter eine Seminararbeit als Vorlage erstellt.'
+            text: 'In den Fachbereichen der Mathematik, Physik und Informatik werden oftmals der sichere Umgang mit fachspezifischer Software vorausgesetzt. Oft werden dabei als Unterstützung Muster der Seminararbeit als Beispiele durch den Dozenten veröffentlicht oder durch eine Ghostwriterin eine Seminararbeit als Vorlage erstellt.'
       -
         type: paragraph
         content:
@@ -1604,7 +1655,7 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: '#333333'
+                  color: black
                   hex: '#000'
             text: 'Einige Formalien haben sich dabei als gängig erwiesen:'
       -
@@ -1615,7 +1666,7 @@ replicator:
             marks:
               -
                 type: bold
-            text: 'Gliederung der Seminararbeit:'
+            text: 'Gliederungsebenen der Seminararbeit:'
       -
         type: paragraph
         content:
@@ -1641,7 +1692,7 @@ replicator:
             type: hard_break
           -
             type: text
-            text: '• Schluss/Fazit'
+            text: '• Schlussfolgerungen/Fazit'
           -
             type: hard_break
           -
@@ -1656,7 +1707,7 @@ replicator:
             type: hard_break
           -
             type: text
-            text: '• Eidesstattliche Erklärung'
+            text: '• Eidesstattliche Erklärung/Eigenständigkeitserklärung'
       -
         type: paragraph
         content:
@@ -1715,7 +1766,13 @@ replicator:
         content:
           -
             type: text
-            text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
       -
         type: heading
         attrs:
