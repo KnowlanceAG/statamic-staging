@@ -188,7 +188,31 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: 'Neben der schulischen Hilfe durch einen Lehrer, der als Betreuer bei der Facharbeit zuständig ist, kann ein Coaching durch einen sog. Akademischen Ghostwriter erfolgen. Dieser beschäftigt sich hauptberuflich mit wissenschaftlichen Texten und Arbeiten und besitzt zudem zahlreiche Kenntnisse in seinem Fachgebiet. Der Schüler kann ihn aus diesem Grund ohne Schwierigkeiten zu jedem Zeitpunkt und Problem des Schreibprozesses beauftragen.'
+            text: 'Neben der schulischen Hilfe durch einen Lehrer, der als Betreuer bei der Facharbeit zuständig ist, kann ein '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/gwriters-coaching
+                  target: null
+                  rel: null
+            text: Coaching
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ' durch einen sog. Akademischen Ghostwriter erfolgen. Dieser beschäftigt sich hauptberuflich mit wissenschaftlichen Texten und Arbeiten und besitzt zudem zahlreiche Kenntnisse in seinem Fachgebiet. Der Schüler kann ihn aus diesem Grund ohne Schwierigkeiten zu jedem Zeitpunkt und Problem des Schreibprozesses beauftragen.'
       -
         type: paragraph
         content:
@@ -200,7 +224,31 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: 'Oft geschieht dies direkt zu Beginn der Texterstellung im Vorbereitungsprozess, bei der Forschung, der Themenfindung, der Literaturrecherche (Fachliteratur), der Strukturierung, der Gliederung und dem Aufbau der fachbezogenen Arbeit (Einleitung, Kernteil, Hauptteil, Fazit, Formalitäten). Ebenfalls besteht bei Zeitnot die Möglichkeit, den Freelancer zum Coaching der Facharbeit einzusetzen und ihn während des gesamten Schreibprozesses unterstützend agieren zu lassen.'
+            text: 'Oft geschieht dies direkt zu Beginn der Texterstellung im Vorbereitungsprozess, bei der Forschung, der Themenfindung, der Literaturrecherche (Fachliteratur), der Strukturierung, '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/aufbau-wissenschaftliche-arbeit
+                  target: null
+                  rel: null
+            text: 'der Gliederung und dem Aufbau der fachbezogenen Arbeit'
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ' (Einleitung, Kernteil, Hauptteil, Fazit, Formalitäten). Ebenfalls besteht bei Zeitnot die Möglichkeit, den Freelancer zum Coaching der Facharbeit einzusetzen und ihn während des gesamten Schreibprozesses unterstützend agieren zu lassen.'
       -
         type: paragraph
         content:
@@ -1700,7 +1748,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1632753768
+updated_at: 1632754517
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
