@@ -71,7 +71,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Zudem können auch Präsentationsentwürfe durch eine professionelle Beratung ergänzt oder überarbeitet werden. Die Visualisierung einer wissenschaftlichen Folienpräsentation sollte verständlich sein und mit wichtigen Inhalten sowie passenden Grafikformaten versehen werden.'
+            text: 'Zudem können auch Präsentationsentwürfe durch '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/gwriters-coaching
+                  target: null
+                  rel: null
+            text: 'eine professionelle Beratung'
+          -
+            type: text
+            text: ' ergänzt oder überarbeitet werden. Die Visualisierung einer wissenschaftlichen Folienpräsentation sollte verständlich sein und mit wichtigen Inhalten sowie passenden Grafikformaten versehen werden.'
       -
         type: paragraph
         content:
@@ -107,7 +120,31 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: "Daher verschaffen sich einige Unternehmen oder Studenten eine umfassende Hilfe, indem sie Musterpräsentation von einem professionellen Präsentationsersteller & Ghostwriter\_für ihre PowerPoint-Präsentation erstellen lassen."
+            text: 'Daher verschaffen sich einige Unternehmen oder Studenten eine umfassende Hilfe, indem sie '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /gwriters-akademie/powerpoint-praesentation-vorlage
+                  target: null
+                  rel: null
+            text: Musterpräsentation
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: " von einem professionellen Präsentationsersteller & Ghostwriter\_für ihre PowerPoint-Präsentation erstellen lassen."
       -
         type: paragraph
         content:
@@ -185,7 +222,103 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: 'Diese Zielgruppen können Studenten, Schüler aber auch Mitarbeiter aus einem Unternehmen sein. Besonders Studierende wissen nicht, wie sie ihre Hausarbeit oder Bachelorarbeit auf wenige Folien komprimieren sollen. Häufig fordern Hochschulen von Studenten nach der Bachelorarbeit oder Masterarbeit, dass diese ein Kolloquium vorbereiten. Dabei gelten unterschiedliche Leitfäden, je nach Hochschulvorgaben ändern sich die Richtlinien einer Präsentation.'
+            text: 'Diese Zielgruppen können Studenten, Schüler aber auch Mitarbeiter aus einem Unternehmen sein. Besonders Studierende wissen nicht, wie sie ihre '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/hausarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Hausarbeit
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ' oder '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Bachelorarbeit
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ' auf wenige Folien komprimieren sollen. Häufig fordern Hochschulen von Studenten nach der Bachelorarbeit oder '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/masterarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Masterarbeit
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ', dass diese ein '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/kolloquium-bachelorarbeit
+                  target: null
+                  rel: null
+            text: Kolloquium
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ' vorbereiten. Dabei gelten unterschiedliche Leitfäden, je nach Hochschulvorgaben ändern sich die Richtlinien einer Präsentation.'
       -
         type: paragraph
         content:
@@ -217,7 +350,55 @@ replicator:
                 attrs:
                   color: '#000!important'
                   hex: '#000'
-            text: 'Außer der Musterpräsentationen gibt es weitere Leistungsbereiche in denen wir unsere professionelle Dienstleistung anbieten, wie das Korrektorat, Lektorat oder eine professionelle Beratung. Die Korrekturen in der Arbeit dienen dazu, um grammatikalische und syntaktische Fehler zu vermeiden sowie korrekte Sätze zu formulieren. Auch können Studierende den Text von einem Fachautoren lektorieren lassen, was hilft, den Textinhalt zu überprüfen. Die beiden Leistungen werden von Experten in Ihrem Fachbereich betreut, die das methodische Know-How und das Forschungsthema beherrschen.'
+            text: 'Außer der Musterpräsentationen gibt es weitere Leistungsbereiche in denen wir unsere professionelle Dienstleistung anbieten, wie das '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /Korrektorat
+                  target: null
+                  rel: null
+            text: Korrektorat
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /lektorat
+                  target: null
+                  rel: null
+            text: Lektorat
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: ' oder eine professionelle Beratung. Die Korrekturen in der Arbeit dienen dazu, um grammatikalische und syntaktische Fehler zu vermeiden sowie korrekte Sätze zu formulieren. Auch können Studierende den Text von einem Fachautoren lektorieren lassen, was hilft, den Textinhalt zu überprüfen. Die beiden Leistungen werden von Experten in Ihrem Fachbereich betreut, die das methodische Know-How und das Forschungsthema beherrschen.'
       -
         type: paragraph
         content:
@@ -1853,7 +2034,31 @@ replicator:
                 attrs:
                   color: '#000!important'
                   hex: '#000'
-            text: 'Die ganze Kommunikation zwischen dem Auftraggeber und dem qualifizierten Bearbeiter bleibt Anonym. Da der Datenschutz besonders wichtig für unsere Agentur ist, werden auch alle Daten vom Auftraggeber im Anschluss an den Auftrag und die Bereitstellung des wissenschaftlichen Ergebnisses gelöscht.'
+            text: 'Die ganze Kommunikation zwischen dem Auftraggeber und dem qualifizierten Bearbeiter bleibt Anonym. Da der '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/gwriters-diskretion-kunden
+                  target: null
+                  rel: null
+            text: Datenschutz
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: ' besonders wichtig für unsere Agentur ist, werden auch alle Daten vom Auftraggeber im Anschluss an den Auftrag und die Bereitstellung des wissenschaftlichen Ergebnisses gelöscht.'
     type: editor
     enabled: true
     show_as_card: false
@@ -2818,7 +3023,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1633336226
+updated_at: 1633347643
 template: with-side-bar
 meta_title: 'GWriters • professionell Präsentation erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
