@@ -43,8 +43,6 @@ class Categorize extends Tags
     $groups = [];
     $icons = $this->categoryIcons();
 
-    Log::debug('icons', $icons);
-
     $entryCollection = $this->context->get('eintraege')->value()->all();
 
     $mapped = array_map(function ($entry) use (&$groups, $icons) {
@@ -110,7 +108,15 @@ class Categorize extends Tags
       array_push($data, $groupData);
     }
 
-    Log::debug('data', $data);
+    array_walk($data, function (&$item, $key) {
+      if ($item['category']['title'] == 'Sonstige Arbeiten') {
+        array_push($item['category']['entries'], [
+          'url' => '/expose',
+          'title' => 'Exposé'
+        ]);
+      }
+    });
+
     return $data;
   }
 }
