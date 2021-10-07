@@ -1,5 +1,6 @@
 ---
 id: 732a74b5-a07f-4671-a9b3-27a1fb1c9563
+blueprint: pages
 title: 'Allgemeine Geschäftsbedingungen'
 replicator:
   -
@@ -17,7 +18,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Sehr geehrter Kunde, im Folgenden finden Sie die allgemeinen Geschäftsbedingungen der Knowlance AG, die die Kundenbetreuung für alle Kunden aus Deutschland, Österreich und der Schweiz übernimmt. Wenn Sie Fragen zu diesen Bedingungen haben, zögern Sie bitte nicht, uns jederzeit zu kontaktieren.'
+            text: 'Sehr geehrter Kunde, im Folgenden finden Sie die allgemeinen Geschäftsbedingungen der Knowlance AG, die die Kundenbetreuung für alle Kunden aus Deutschland und der Schweiz übernimmt. Wenn Sie Fragen zu diesen Bedingungen haben, zögern Sie bitte nicht, uns jederzeit zu kontaktieren.'
       -
         type: paragraph
         content:
@@ -64,6 +65,12 @@ replicator:
           -
             type: text
             text: 'Kunden können Anfragen über unser Kontaktformular oder über unsere Vertriebspartner und Affiliates stellen. Die Anforderungen an die vertraglichen Leistungen sind so differenziert wie möglich zu benennen, damit wir ein Angebot auf der Grundlage aller Forderungen des Kunden unterbreiten können. Ein Vertrag kommt zustande, wenn der Kunde unser Angebot innerhalb einer entsprechenden Frist annimmt. Verträge können per E-Mail abgeschlossen werden.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Vertragsschlüsse mit oder für Kunden mit Wohnsitz in Österreich oder die an österreichischen Unis, Fachhochschulen oder Schulen eingeschrieben sind, werden abgelehnt.'
       -
         type: heading
         attrs:
@@ -461,8 +468,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623328665
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1633596642
 page_title: 'GWriters • Allgemeine Geschäftsbedingungen'
 template: without-teaser-with-sidebar
 meta_title: 'GWriters • Allgemeine Geschäftsbedingungen'
