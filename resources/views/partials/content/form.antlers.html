@@ -14,7 +14,8 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
     </div>
 
     {{ fields }}
-      {{ if handle=='gw_source' }}
+      {{ if handle=='req_ip' }}
+      {{ elseif handle=='gw_source' }}
         <div class="hidden">
           {{ field }}
         </div>

@@ -69,3 +69,13 @@ sections:
           type: text
           icon: text
           listable: hidden
+      -
+        handle: req_ip
+        field:
+          input_type: text
+          antlers: false
+          display: req_ip
+          type: text
+          icon: text
+          instructions: 'Request IP'
+          listable: hidden
