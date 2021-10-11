@@ -27,6 +27,7 @@ preferences:
         - e_mail_adresse
         - gw_source
         - req_ip
+      per_page: 100
     autorenbewerbung:
       columns:
         - datestamp
