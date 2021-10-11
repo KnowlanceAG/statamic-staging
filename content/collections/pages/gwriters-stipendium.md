@@ -1,8 +1,9 @@
 ---
 id: a016335c-333e-432d-838d-460350d21052
+blueprint: pages
 title: 'Das GWriters Stipendium'
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623324616
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1633958531
 teaser:
   -
     type: heading
@@ -36,7 +37,7 @@ teaser:
                 marks:
                   -
                     type: bold
-                text: 'Ihr Talent verdient Förderung! Unsere'
+                text: 'Ihr Talent verdient Förderung! Unsere '
               -
                 type: text
                 marks:
@@ -48,7 +49,7 @@ teaser:
                       href: /ghostwriting/ghostwriting-agentur/
                       target: null
                       rel: null
-                text: ' Ghostwriter Agentur'
+                text: 'Ghostwriter Agentur'
               -
                 type: text
                 marks:
@@ -67,6 +68,7 @@ teaser:
                     type: bold
                 text: 'innovativ denkende Studierende mit unserem neuen GWriters Stipendium.'
         text_ausrichtung: text-center
+        column-count: false
   -
     type: paragraph
   -
@@ -87,7 +89,13 @@ replicator:
         content:
           -
             type: text
-            text: 'Für das Studienjahr 2021 (Sommersemester 2021 und Wintersemester 2021/2022) vergibt GWriters erneut ein Stipendium für Studenten in Deutschland und in der Schweiz. Dieses private Stipendium hat zum Ziel, besonders begabte und engagierte Studenten bei dem Erreichen ihrer Ziele finanziell zu unterstützen, denn wir vertreten die Philosophie, dass jeder, unabhängig von seinen privaten, finanziellen oder gesellschaftlichen Hintergründen, die Chance auf Bildung verdient.'
+            text: 'Für das Studienjahr 2022 (Sommersemester 2022 und Wintersemester 2022/2023) vergibt GWriters erneut ein Stipendium für Studenten in Deutschland und in der Schweiz. Dieses private Stipendium hat zum Ziel, besonders begabte und engagierte Studenten bei dem Erreichen ihrer Ziele finanziell zu unterstützen, denn wir vertreten die Philosophie, dass jeder, unabhängig von seinen privaten, finanziellen oder gesellschaftlichen Hintergründen, die Chance auf Bildung verdient.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Mit dem Stipendium möchten wir unter anderem auch besonders internationale Vorhaben wie Auslandsaufenthalte fördern, indem wir durch das Stipendium bspw. Kosten wie Reisekosten, Lebenshaltungskosten, Studiengebühren decken.'
       -
         type: heading
         attrs:
@@ -101,7 +109,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Die Förderung wird in monatlichen Raten von 200 Euro über einen Zeitraum von 12 Monaten ausgezahlt und ist für die Deckung der Studiengebühren/Semesterbeiträge und Lebenshaltungskosten gedacht. Eine Verlängerung des Förderungszeitraums ist durch erneute Bewerbung im Folgejahr möglich. Beendet wird die Förderung jedoch in jedem Falle mit dem Abschluss des Studiums.'
+            text: 'Die Förderung wird in monatlichen Raten von 400 Euro über einen Zeitraum von 12 Monaten ausgezahlt und ist für die Deckung der Studiengebühren/Semesterbeiträge und Lebenshaltungskosten gedacht. Eine Verlängerung des Förderungszeitraums ist durch erneute Bewerbung im Folgejahr möglich. Beendet wird die Förderung jedoch in jedem Falle mit dem Abschluss des Studiums.'
       -
         type: heading
         attrs:
@@ -179,6 +187,15 @@ replicator:
                   -
                     type: text
                     text: 'Bei Stipendienantritt müssen Sie noch mindestens zwei Semester innerhalb der Regelstudienzeit vor sich haben'
+          -
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Vorteilhaft: geplantes Auslandsstudium und internationale Ambitionen'
       -
         type: heading
         attrs:
@@ -300,22 +317,15 @@ replicator:
             text: 'Bewerbungsfrist:'
           -
             type: text
-            text: ' jeweils zum '
+            text: ' '
           -
             type: text
             marks:
               -
                 type: bold
-            text: 31.12.
-          -
-            type: text
-            text: ' eines jeden Jahres.'
+            text: 31.12.2021
       -
         type: paragraph
-        content:
-          -
-            type: text
-            text: '(Für Deutschland und die Schweiz gibt es jeweils nur ein Stipendium pro Land)'
       -
         type: paragraph
         content:
