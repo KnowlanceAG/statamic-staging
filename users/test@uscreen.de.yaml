@@ -9,7 +9,6 @@ preferences:
       per_page: 100
     blog:
       after_save: continue_editing
-      per_page: 100
     team:
       columns:
         - title
