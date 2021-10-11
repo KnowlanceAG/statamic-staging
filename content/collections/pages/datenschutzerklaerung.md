@@ -3,7 +3,7 @@ id: 8e94ca0e-e5de-46b9-908e-d086cd76f0c8
 blueprint: pages
 title: Datenschutzerklärung
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1629385961
+updated_at: 1633965671
 page_title: 'GWriters • Datenschutzerklärung'
 meta_title: 'GWriters • Datenschutzerklärung'
 meta_description: 'Unsere Datenschutzerklärung. GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
@@ -1319,6 +1319,40 @@ replicator:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
             text: 'Die Rechtsgrundlage für die Datenverarbeitung ist Art. 6 Abs. 1 S. 1 lit. f DS-GVO. Unser berechtigtes Interesse folgt aus oben aufgelisteten Zwecken zur Datenerhebung.'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(0, 0, 0)'
+                  hex: '#000'
+            text: '7.3. IP-Adressen-Speicherung und -Zuordnung'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(0, 0, 0)'
+                  hex: '#000'
+            text: 'Da wir aus unternehmenspolitischen Gründen unser Angebot in manchen Ländern nicht bereitstellen, erfassen wir beim Besuch unserer Website die IP-Adresse unserer Besucher. Dies erfolgt auch im Zusammenhang mit der Übermittlung von Anfragen über ein Kontaktformular oder per E-Mail. Die Speicherung der IP-Adressen und der Abgleich mit Anfragen von Personen dient unserem berechtigten Interesse, Verträge nur in den Ländern einzugehen, in denen wir unsere Tätigkeit auch anbieten und basiert daher auf Art. 6 Abs. 1 f) DSGVO; soweit in manchen Ländern das Angebot mancher Dienstleistungen verboten ist, basiert die Speicherung zudem auf Art. 6 Abs. 1 c) DSGVO. Die Löschung der IP-Daten erfolgt spätestens innerhalb der gesetzlichen Löschfristen, in der Regel aber 1 Monat nach dem Besuch unserer Website.'
       -
         type: heading
         attrs:
