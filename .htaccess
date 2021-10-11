@@ -153,3 +153,5 @@ Redirect 301 /blog/wissenschaftliches-lektorat /lektorat
 Redirect 301 /blog/promotionsberater-ghostwriter /promotionsberatung
 Redirect 301 /blog/akademische-ghostwriter-gwriters-angebot /so-funktioniert-es
 Redirect 301 /arbeiten/expose /expose
+Redirect 301 /wiki/arbeiten/diplomarbeit/ /arbeiten/diplomarbeit
+Redirect 301 /arbeiten/dissertation /arbeiten/doktorarbeit

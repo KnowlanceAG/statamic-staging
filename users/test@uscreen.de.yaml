@@ -26,3 +26,19 @@ preferences:
         - lieferdatum
         - e_mail_adresse
         - gw_source
+        - req_ip
+    autorenbewerbung:
+      columns:
+        - datestamp
+        - nachname
+        - e_mail_adresse
+        - gw_source
+        - req_ip
+    contact-form:
+      columns:
+        - datestamp
+        - name
+        - email
+        - subject
+        - gw_source
+        - req_ip
