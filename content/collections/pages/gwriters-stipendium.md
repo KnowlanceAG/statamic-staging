@@ -3,7 +3,7 @@ id: a016335c-333e-432d-838d-460350d21052
 blueprint: pages
 title: 'Das GWriters Stipendium'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1633958452
+updated_at: 1633958531
 teaser:
   -
     type: heading
