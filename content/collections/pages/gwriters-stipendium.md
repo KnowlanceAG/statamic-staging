@@ -3,7 +3,7 @@ id: a016335c-333e-432d-838d-460350d21052
 blueprint: pages
 title: 'Das GWriters Stipendium'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1633958531
+updated_at: 1634032325
 teaser:
   -
     type: heading
@@ -89,7 +89,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Für das Studienjahr 2022 (Sommersemester 2022 und Wintersemester 2022/2023) vergibt GWriters erneut ein Stipendium für Studenten in Deutschland und in der Schweiz. Dieses private Stipendium hat zum Ziel, besonders begabte und engagierte Studenten bei dem Erreichen ihrer Ziele finanziell zu unterstützen, denn wir vertreten die Philosophie, dass jeder, unabhängig von seinen privaten, finanziellen oder gesellschaftlichen Hintergründen, die Chance auf Bildung verdient.'
+            text: 'Für das Studienjahr 2022 (Sommersemester 2022 und Wintersemester 2022/2023) vergibt GWriters erneut ein Stipendium für Studierende in Deutschland und in der Schweiz. Dieses private Stipendium hat zum Ziel, besonders begabte und engagierte Studierende bei dem Erreichen ihrer Ziele finanziell zu unterstützen, denn wir vertreten die Philosophie, dass jeder, unabhängig von seinen privaten, finanziellen oder gesellschaftlichen Hintergründen, die Chance auf Bildung verdient.'
       -
         type: paragraph
         content:
@@ -129,7 +129,7 @@ replicator:
             text: 'Wer erhält das Stipendium?'
           -
             type: text
-            text: ' Studierende, die hervorragende Leistungen in ihrem Studium erbringen, ein großes Interesse an Forschung und Entwicklung von Innovationen in ihrem Fachbereich zeigen und Herausragendes leisten möchten. Unabhängig vom aktuellen Studienfortschritt sind alle aktuell an einer deutschen, österreichischen oder Schweizer Hochschule immatrikulierten Personen und auch Doktoranden für das GWriters Stipendium zugelassen. Die Auswahl der Stipendiatinnen und Stipendiaten erfolgt durch den Vorstand unseres Unternehmens.'
+            text: ' Studierende, die hervorragende Leistungen in ihrem Studium erbringen, ein großes Interesse an Forschung und Entwicklung von Innovationen in ihrem Fachbereich zeigen und Herausragendes leisten möchten. Unabhängig vom aktuellen Studienfortschritt sind alle aktuell an einer deutschen oder schweizerischen Hochschule immatrikulierten Personen und auch Doktorandinnen und Doktoranden für das GWriters Stipendium zugelassen. Die Auswahl der Stipendiatinnen und Stipendiaten erfolgt durch den Vorstand unseres Unternehmens.'
       -
         type: paragraph
         content:
