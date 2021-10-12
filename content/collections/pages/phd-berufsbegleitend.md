@@ -1,5 +1,6 @@
 ---
 id: 25799f6e-c620-4386-8c1d-bc1efefdb651
+blueprint: pages
 title: 'Promotionsberatung zum berufsbegleitenden Doctor of Philosophy (Ph.D.)'
 teaser:
   -
@@ -587,63 +588,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Führbarkeit eines Ph.D. in Österreich und der Schweiz'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "In\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Österreich
-                  -
-                    type: text
-                    text: "\_setzt die Verleihung des Titels „Ph.D.“ 3 Jahre wissenschaftlicher Forschungsarbeit voraus. Voraussetzung ist in der Regel die Erlangung eines akademischen Abschlusses der zweiten Stufe des Bologna-Modells (Master, Magister oder vergleichbare Grade). Ausnahmsweise kann auch der\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: italic
-                    text: 'Bachelor with Honours'
-                  -
-                    type: text
-                    text: "\_genügen, sofern er mindestens mit dem Prädikat „Cum Laude“ bewertet wurde."
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Anders als in Deutschland berechtigt der Ph.D. in einigen Bundesländern bereits zu Lehrtätigkeiten an einer Universität oder Fachhochschule. Wie in Deutschland kann der Titel „Ph.D.“ in amtlichen Ausweisdokumenten dem Namen nachgestellt werden.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Das Führen eines ausländischen Ph.D. in Österreich bedingt, dass dieser Titel von einer Hochschule oder anderen Bildungsinstitution verliehen wurde, die im Herkunftsstaat als postsekundäre Bildungseinrichtung anerkannt ist. In amtliche Ausweisdokumente dürfen ausländische Ph.D.-Grade nur eingetragen werden, wenn sie in EU- und EWR-Staaten, in der Schweiz oder als theologischer Grad an einer päpstlichen Universität erworben wurden. Unzulässig ist wie in Deutschland ein „Austausch“ des ähnlich klingenden ausländischen Titels (wie des tschechischen „PhDr.“) gegen den inländischen Ph.D.'
+                    text: 'Führbarkeit eines Ph.D. in der Schweiz'
               -
                 type: paragraph
                 content:
@@ -658,7 +603,7 @@ replicator:
                     text: Schweiz
                   -
                     type: text
-                    text: "\_gelten keine wesentlich von Deutschland und Österreich abweichenden Regelungen zum Erwerb des Ph.D. Das Doktorat setzt einen geeigneten Studienabschluss (Diplom, Magister, Staatsexamen oder Master) voraus; die konkreten Zulassungsbedingungen regelt jede Hochschule in Eigenregie. Ein Doktortitel kann nur von einer der 12 Schweizer Universitäten verliehen werden. Fachspezifisch variiert die Doktoratsdauer zwischen 2 und 7 Jahren, wobei (im Unterschied zu Deutschland) ein Abschluss in Rechts- oder\_"
+                    text: "\_gelten keine wesentlich von Deutschland abweichenden Regelungen zum Erwerb des Ph.D. Das Doktorat setzt einen geeigneten Studienabschluss (Diplom, Magister, Staatsexamen oder Master) voraus; die konkreten Zulassungsbedingungen regelt jede Hochschule in Eigenregie. Ein Doktortitel kann nur von einer der 12 Schweizer Universitäten verliehen werden. Fachspezifisch variiert die Doktoratsdauer zwischen 2 und 7 Jahren, wobei (im Unterschied zu Deutschland) ein Abschluss in Rechts- oder\_"
                   -
                     type: text
                     marks:
@@ -687,7 +632,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Im Ausland verliehene Ph.D.-Titel dürfen in der Schweiz durch einen dem Namen vorangestellten „Dr.“ ersetzt werden. Es ist lediglich untersagt, sowohl „Dr.“ als auch „Ph.D.“ für denselben akademischen Titel im Namen zu führen. Im Übrigen regeln Abkommen der Schweiz mit Österreich, Deutschland, Italien und Frankreich die gegenseitige Anerkennung von akademischen Abschlüssen.'
+                    text: 'Im Ausland verliehene Ph.D.-Titel dürfen in der Schweiz durch einen dem Namen vorangestellten „Dr.“ ersetzt werden. Es ist lediglich untersagt, sowohl „Dr.“ als auch „Ph.D.“ für denselben akademischen Titel im Namen zu führen. Im Übrigen regeln Abkommen der Schweiz mit Deutschland, Italien und Frankreich die gegenseitige Anerkennung von akademischen Abschlüssen.'
               -
                 type: heading
                 attrs:
@@ -735,8 +680,8 @@ replicator:
 page_title: 'Seriöse Promotionsberatung für Ihren Ph.D. • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623342193
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1634032955
 meta_title: 'Seriöse Promotionsberatung für Ihren Ph.D. • GWriters'
 meta_description: 'Bei GWriters.de erhalten Sie eine seriöse Promotionsberatung für Ihr Promotion zum Ph.D. Profitieren Sie jetzt von unserem Expertenwissen!'
 use_meta_keywords: false
