@@ -1,5 +1,6 @@
 ---
 id: cc7138ee-1b58-4e13-9f89-8edaba3d61f1
+blueprint: pages
 title: 'Berufsbegleitender Master of Business Administration (MBA)'
 teaser:
   -
@@ -139,7 +140,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Als karriereträchtiger Nachweis wirtschaftswissenschaftlicher Kompetenz ist der MBA der weltweit beliebteste, am meisten nachgefragte akademische Titel mit vielen hunderttausend Studenten. In Deutschland, Österreich und der Schweiz werden mittlerweile insgesamt über 450 MBA-Programme angeboten.'
+                    text: 'Als karriereträchtiger Nachweis wirtschaftswissenschaftlicher Kompetenz ist der MBA der weltweit beliebteste, am meisten nachgefragte akademische Titel mit vielen hunderttausend Studenten. In Deutschland und der Schweiz werden mittlerweile insgesamt über 450 MBA-Programme angeboten.'
               -
                 type: paragraph
                 content:
@@ -512,91 +513,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Ausbildungsgang in Österreich und der Schweiz'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Österreich:'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'MBA-Vollzeitstudiengänge dauern in Österreich ein bis zwei Jahre, das überwiegend genutzte berufsbegleitende Studium nimmt bis zu drei Jahre in Anspruch. Zulassungsvoraussetzung ist ein Hochschulabschluss (Bachelor oder Diplom), meist werden auch einige Jahre Berufserfahrung gefordert. Manche österreichischen Hochschulen ermöglichen auch fachlich hochqualifizierten Bewerbern ohne Studienabschluss den Zugang. Die dort erworbenen Abschlüsse haben jedoch lediglich den Status eines Mastergrads in der Weiterbildung und ermöglichen keine Zulassung zum Doktoratsstudium.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Lehrgangs-Interessenten müssen zunächst ein Bewerbungs- und ein Motivationsschreiben übersenden. Werden sie danach für potenziell geeignet erachtet, folgt die Einladung zu einem Vorstellungsgespräch, gegebenenfalls in Verbindung mit einem Assessment-Center, einem Englisch-Test oder sonstigen Zusatzprüfungen. Nach positivem Ausgang müssen sich die Bewerber der Befragung durch die Zulassungskommission stellen. Erst wenn auch dieses erfolgreich überstanden wurde, steht die Tür zur Immatrikulation offen. Privatuniversitäten wie die Webster University Vienna bieten modularisierte Teilzeitstudiengänge für Berufstätige an, die regelmäßige Wochenendkurse einschließen. Die Kosten eines Studiums an Privatuniversitäten rangieren zwischen 2.000 € und mehr als 25.000 €.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Günstiger, dafür aber bedeutend stärker frequentiert sind die MBA-Lehrgänge an den staatlichen Universitäten wie der Donau Universität Krems oder der LIMAK Linz mit einem sehr umfangreichen Angebot an Vertiefungs- und Spezialisierungskursen. Teilweise (etwa an der FH Wien) sind mehrwöchige Auslandsmodule zu absolvieren.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Schweiz:'
+                    text: 'Ausbildungsgang in der Schweiz'
               -
                 type: paragraph
                 content:
@@ -630,7 +547,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Anerkennung und Führung eines ausländischen MBA-Titels in Deutschland, Österreich und der Schweiz'
+                    text: 'Anerkennung und Führung eines ausländischen MBA-Titels in Deutschland und der Schweiz'
               -
                 type: heading
                 attrs:
@@ -709,48 +626,6 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Österreich:'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Grundvoraussetzung für die\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Anerkennung
-                  -
-                    type: text
-                    text: "\_ist, dass das ausländische Institut, an welchem der Master erworben wurde, in seinem Sitzstaat den Status einer\_postsekundären Bildungseinrichtung\_(Universität, Hochschule oder gleichrangige Einrichtung) besitzt. Die\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Führung
-                  -
-                    type: text
-                    text: "\_des ausländischen Grades bedarf in Österreich keiner gesonderten Genehmigung; die Bezeichnung muss derjenigen in der ausländischen Verleihungsurkunde entsprechen (in kompletter oder abgekürzter Form), eigenmächtige Umwandlungen in entsprechende österreichische Grade sind untersagt. Sofern der ausländische Master in einem EU-/EWR-Staat, der Schweiz oder an einer päpstlichen Hochschule in Rom erlangt wurde, kann dieser in abgekürzter Form auch in amtliche Urkunden übernommen werden. Detaillierte und individualisierte Auskünfte zur Führbarkeit ausländischer akademischer Titel in Österreich erteilt das Nationale Informationszentrum für akademische Anerkennung (ENIC NARIC Austria) über seine Ansprechstellen an den Universitäten und Fachhochschulen."
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: 'Schweiz:'
               -
                 type: paragraph
@@ -767,7 +642,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Der im Ausland erworbene MBA darf in der Schweiz genauso geführt werden, wie es die gesetzlichen Bestimmungen des Landes erlauben, in dem er verliehen wurde. Wie in Österreich ist die „Anpassung“ des Titels an die entsprechende nationale Gradbezeichnung nicht zulässig. Der Schutz schweizerischer Titel gegen unberechtigtes Führen und missbräuchliche Gleichsetzung mit ausländischen Titeln ist kantonal unterschiedlich geregelt und strafrechtlich sanktioniert.'
+                    text: 'Der im Ausland erworbene MBA darf in der Schweiz genauso geführt werden, wie es die gesetzlichen Bestimmungen des Landes erlauben, in dem er verliehen wurde. Die „Anpassung“ des Titels an die entsprechende nationale Gradbezeichnung ist nicht zulässig. Der Schutz schweizerischer Titel gegen unberechtigtes Führen und missbräuchliche Gleichsetzung mit ausländischen Titeln ist kantonal unterschiedlich geregelt und strafrechtlich sanktioniert.'
             show_as_card: false
         type: row
         enabled: true
@@ -781,8 +656,8 @@ replicator:
 page_title: 'Berufsbegleitender Master of Business Administration • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623342649
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1634033151
 meta_title: 'Berufsbegleitender Master of Business Administration • GWriters'
 meta_description: 'Finden Sie hier alle Informationen über das berufsbegleitende Studium zum MBA und finden Sie akademische Ghostwriter, Coaches und mehr bei GWriters.de!'
 use_meta_keywords: false

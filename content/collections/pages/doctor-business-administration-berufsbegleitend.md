@@ -1,5 +1,6 @@
 ---
 id: db00aa9f-765e-4732-93d6-14da841adcfe
+blueprint: pages
 title: 'Promotionsberatung zum berufsbegleitenden Doctor of Business Administration'
 teaser:
   -
@@ -296,7 +297,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Die Zulassung zu einem DBA-Studiengang erfordert in Deutschland, Österreich und der Schweiz gleichermaßen einen Abschluss der zweiten Bologna-Ebene mit mindestens 300 ECTS-Punkten (Master, Magister, Staatsexamen, Universitätsdiplom o.ä.). Ferner wird regelmäßig mehrjährige Managementerfahrung erwartet. Der Verleihung des DBA-Titels gehen voraus:'
+                    text: 'Die Zulassung zu einem DBA-Studiengang erfordert in Deutschland und der Schweiz gleichermaßen einen Abschluss der zweiten Bologna-Ebene mit mindestens 300 ECTS-Punkten (Master, Magister, Staatsexamen, Universitätsdiplom o.ä.). Ferner wird regelmäßig mehrjährige Managementerfahrung erwartet. Der Verleihung des DBA-Titels gehen voraus:'
               -
                 type: bullet_list
                 content:
@@ -460,7 +461,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Führbarkeit eines im Ausland erworbenen DBA-Titels in Deutschland, Österreich und der Schweiz'
+                    text: 'Führbarkeit eines im Ausland erworbenen DBA-Titels in Deutschland und der Schweiz'
               -
                 type: heading
                 attrs:
@@ -537,40 +538,6 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Österreich:'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Sofern die verleihende Hochschule im Ausland dort als postsekundäre Bildungseinrichtung anerkannt ist, kann der ausländische DBA generell wie ein inländischer Doktortitel ohne weitere Zusätze oder Herkunftsbezeichnungen geführt werden. Da Österreich wie Deutschland den DBA-Erwerb praktisch nur über Kooperationen mit britischen Universitäten anbietet, die dann auch die Verleihung vornehmen, ergibt sich auch keine Notwendigkeit zur Nostrifizierung (Gleichwertigkeits-Anerkennung), um den Doktortitel in Österreich tragen zu dürfen. Ferner dürfen bei verleihungsberechtigten Hochschulen im Ausland erworbene DBA-Titel auch in öffentlichen Urkunden verwendet werden.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
                     text: 'Schweiz:'
               -
                 type: paragraph
@@ -587,7 +554,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'In der Schweiz darf der wie in Deutschland und Österreich regelmäßig über eine ausländische bzw. eine kooperierende britische Hochschule erlangte DBA-Titel ohne Gleichwertigkeitsbescheinigung in der Verleihungsform „DBA“ oder als „Dr.“ geführt werden.'
+                    text: 'In der Schweiz darf der wie in Deutschland regelmäßig über eine ausländische bzw. eine kooperierende britische Hochschule erlangte DBA-Titel ohne Gleichwertigkeitsbescheinigung in der Verleihungsform „DBA“ oder als „Dr.“ geführt werden.'
             show_as_card: false
         type: row
         enabled: true
@@ -601,8 +568,8 @@ replicator:
 page_title: 'Promotionsberatung zum berufsbegleitenden DBA • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623342304
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1634033172
 meta_title: 'Promotionsberatung zum berufsbegleitenden DBA • GWriters'
 meta_description: 'Bei GWriters.de erhalten Sie eine seriöse Promotionsberatung für Ihren berufsbegleitenden DBA - Profitieren Sie jetzt von unserem Expertenwissen!'
 use_meta_keywords: false
