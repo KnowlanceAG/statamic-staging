@@ -25,7 +25,7 @@
     "uscreen/better-statamic-bard-text-color": "*",
     "uscreen/cpssg": "*",
     "uscreen/link-extended": "*",
-    "withcandour/aardvark-seo": "2.0.14"
+    "withcandour/aardvark-seo": "2.0.15"
   },
   "require-dev": {
     "barryvdh/laravel-debugbar": "^3.5",

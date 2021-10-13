@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "23eb862101d3cf1ff7cce539efa96d69",
+    "content-hash": "e0959d9a55b0006defb75b6d67440d1b",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -8142,16 +8142,16 @@
         },
         {
             "name": "withcandour/aardvark-seo",
-            "version": "2.0.14",
+            "version": "2.0.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WithCandour/statamic-aardvark-seo.git",
-                "reference": "e3e66a6b0ebd82b9762b2ac9706ec7538cc2a0b0"
+                "reference": "beaf5aebff5c7be580a3ac89404360426d52b061"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WithCandour/statamic-aardvark-seo/zipball/e3e66a6b0ebd82b9762b2ac9706ec7538cc2a0b0",
-                "reference": "e3e66a6b0ebd82b9762b2ac9706ec7538cc2a0b0",
+                "url": "https://api.github.com/repos/WithCandour/statamic-aardvark-seo/zipball/beaf5aebff5c7be580a3ac89404360426d52b061",
+                "reference": "beaf5aebff5c7be580a3ac89404360426d52b061",
                 "shasum": ""
             },
             "require": {
@@ -8199,9 +8199,9 @@
             ],
             "support": {
                 "issues": "https://github.com/WithCandour/statamic-aardvark-seo/issues",
-                "source": "https://github.com/WithCandour/statamic-aardvark-seo/tree/2.0.14"
+                "source": "https://github.com/WithCandour/statamic-aardvark-seo/tree/2.0.15"
             },
-            "time": "2021-06-22T11:42:02+00:00"
+            "time": "2021-08-26T16:31:34+00:00"
         }
     ],
     "packages-dev": [
