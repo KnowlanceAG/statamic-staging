@@ -2134,16 +2134,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v8.63.0",
+            "version": "v8.64.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "8f3d280f36a427730c8c8fa34316c79eed38781e"
+                "reference": "3337c029e1bb31d9712d27437cc27010ba302c9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/8f3d280f36a427730c8c8fa34316c79eed38781e",
-                "reference": "8f3d280f36a427730c8c8fa34316c79eed38781e",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/3337c029e1bb31d9712d27437cc27010ba302c9e",
+                "reference": "3337c029e1bb31d9712d27437cc27010ba302c9e",
                 "shasum": ""
             },
             "require": {
@@ -2301,7 +2301,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-10-05T14:04:25+00:00"
+            "time": "2021-10-12T13:43:13+00:00"
         },
         {
             "name": "laravel/helpers",
@@ -4590,16 +4590,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.2.14",
+            "version": "v3.2.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "ac8d7679b190bba9f27ebc3b6c4b47f44518d020"
+                "reference": "746d340e925960423e927c94a798c649ea858cd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/ac8d7679b190bba9f27ebc3b6c4b47f44518d020",
-                "reference": "ac8d7679b190bba9f27ebc3b6c4b47f44518d020",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/746d340e925960423e927c94a798c649ea858cd0",
+                "reference": "746d340e925960423e927c94a798c649ea858cd0",
                 "shasum": ""
             },
             "require": {
@@ -4668,7 +4668,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.2.14"
+                "source": "https://github.com/statamic/cms/tree/v3.2.15"
             },
             "funding": [
                 {
@@ -4676,7 +4676,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-10-08T21:01:55+00:00"
+            "time": "2021-10-12T16:59:56+00:00"
         },
         {
             "name": "statamic/ssg",
@@ -7615,7 +7615,7 @@
         },
         {
             "name": "uscreen/cpssg",
-            "version": "dev-master",
+            "version": "dev-95d494ef656dc3bdae5c7424e1b5c9c670260990",
             "dist": {
                 "type": "path",
                 "url": "addons/uscreen/cpssg",
@@ -8362,19 +8362,20 @@
         },
         {
             "name": "facade/ignition",
-            "version": "2.14.1",
+            "version": "2.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/ignition.git",
-                "reference": "6d89c4c99537f487ad29f646d57ebf107ef714ed"
+                "reference": "3ee6e94815462bcf09bca0efc1c9069685df8da3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/ignition/zipball/6d89c4c99537f487ad29f646d57ebf107ef714ed",
-                "reference": "6d89c4c99537f487ad29f646d57ebf107ef714ed",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/3ee6e94815462bcf09bca0efc1c9069685df8da3",
+                "reference": "3ee6e94815462bcf09bca0efc1c9069685df8da3",
                 "shasum": ""
             },
             "require": {
+                "ext-curl": "*",
                 "ext-json": "*",
                 "ext-mbstring": "*",
                 "facade/flare-client-php": "^1.9.1",
@@ -8434,7 +8435,7 @@
                 "issues": "https://github.com/facade/ignition/issues",
                 "source": "https://github.com/facade/ignition"
             },
-            "time": "2021-10-08T12:34:52+00:00"
+            "time": "2021-10-11T15:24:06+00:00"
         },
         {
             "name": "filp/whoops",
