@@ -89,4 +89,6 @@ return [
     'directory' => 'img',
   ],
 
+  'failures' => false, // 'errors' or 'warnings'
+
 ];
