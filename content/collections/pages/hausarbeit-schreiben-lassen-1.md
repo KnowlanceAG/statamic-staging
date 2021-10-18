@@ -84,7 +84,7 @@ replicator:
                           -
                             type: text
                             text: ', der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.'
-                    text_ausrichtung: text-center
+                    text_ausrichtung: text-left
                     column-count: false
               -
                 type: set
@@ -191,6 +191,143 @@ replicator:
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Hausarbeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Aufgrund der häufig überfordernden Studien- und Privatplanung kommt es regelmäßig dazu, dass sich Studenten eine Mustervorlage für ihre wissenschaftliche Hausarbeit schreiben lassen. Oft geschieht dies direkt zu Beginn einer Texterstellung, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, deren Gliederung und Exposé. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zudem ist es möglich, den Ghostwriter zur Betreuung der Hausarbeit einzusetzen und ihn während des gesamten Prozesses unterstützend agieren zu lassen. Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, die Hausarbeit Korrekturlesen zu lassen. Neben dem Korrektorat und Lektorat der wissenschaftlichen Arbeit, kann zusätzlich eine umfassende Plagiatsprüfung mit Plagiatssoftware erfolgen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein professionelle Unterstützung bei der ersten Hausarbeit durch akademische Ghostwriter zu Studienbeginn ist besonders ratsam. Zu diesem Zeitpunkt kommt es aufgrund mangelnder Erfahrung zu Flüchtigkeitsfehler beim Schreiben oder Umgang mit wissenschaftlichen Quellen passieren können. Hier fehlt es oft an Hilfestellung bei der Hausarbeit seitens der Betreuer, Professoren und Universitäten.'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Fordern Sie jetzt kostenlos ein unverbindliche Angebot an'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wenn Sie bei Ihrer Hausarbeit Unterstützung benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine unverbindliche Anfrage schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: true
+    bg-toggle: false
+    bg-color: '#D6D6D6'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: phone_cta
+                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
+                    open: 'Mo.-Fr. 9:00-18:00'
+              -
+                type: paragraph
+            show_as_card: true
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für alle anderen Fachbereiche beginnen ab\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '80,- € pro Normseite.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    button_align: justify-start
+                    spacing_top: false
+              -
+                type: paragraph
+            show_as_card: true
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: true
+    bg-toggle: false
+    bg-color: '#D6D6D6'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -2393,7 +2530,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634565799
+updated_at: 1634568029
 template: without-teaser
 use_meta_keywords: false
 no_index_page: false
@@ -2403,9 +2540,9 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-meta_title: 'GWriters • Mustervorlage für Hausarbeit schreiben lassen'
+meta_title: 'Hausarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Mustervorlage für Hausarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
-og_title: 'GWriters • Mustervorlage für Hausarbeit schreiben lassen'
+og_title: 'Hausarbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Mustervorlage für Hausarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_studienarbeiten
