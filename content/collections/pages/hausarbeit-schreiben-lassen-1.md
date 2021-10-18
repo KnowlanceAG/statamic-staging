@@ -281,7 +281,7 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: 1
+        columns_per_row: '2'
         single-col: false
         grid:
           -
@@ -318,7 +318,7 @@ replicator:
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
                     button_align: justify-start
-                    spacing_top: false
+                    spacing_top: true
               -
                 type: paragraph
             show_as_card: true
@@ -2530,7 +2530,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634568029
+updated_at: 1634568408
 template: without-teaser
 use_meta_keywords: false
 no_index_page: false
