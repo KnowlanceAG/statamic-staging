@@ -125,7 +125,22 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Überzeugen Sie sich von der Qualität unseres Ghostwriter Services anhand unserer Kundenstimmen'
+                    text: 'Überzeugen Sie sich von der Qualität unseres Ghostwriter'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Services anhand unserer Kundenstimmen'
               -
                 type: heading
                 attrs:
@@ -2378,7 +2393,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634565690
+updated_at: 1634565799
 template: without-teaser
 use_meta_keywords: false
 no_index_page: false
