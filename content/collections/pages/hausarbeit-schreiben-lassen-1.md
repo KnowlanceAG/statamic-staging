@@ -1,5 +1,6 @@
 ---
 id: cb0a74d3-ed84-4dad-b3a7-c368aec13800
+published: false
 blueprint: pages
 title: 'Hausarbeit (Dupliziert)'
 teaser:
@@ -2244,8 +2245,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1629989428
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1634564025
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
