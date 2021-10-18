@@ -49,6 +49,138 @@ teaser:
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 2
+              -
+                type: set
+                attrs:
+                  values:
+                    type: text_box-alignment
+                    bard:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Hausarbeit. Bei uns finden Sie exakt den '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'akademischen Ghostwriter für Ihre Hausarbeit'
+                          -
+                            type: text
+                            text: ', der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.'
+                    text_ausrichtung: text-center
+                    column-count: false
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 2
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Überzeugen Sie sich von der Qualität unseres Ghostwriter Services anhand unserer Kundenstimmen'
+              -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: insert_html
+                    html: |-
+                      <!-- ProvenExpert Bewertungssiegel -->
+                      <div id="pewl"></div>
+                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
+                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+                      <!-- ProvenExpert Bewertungssiegel Ende -->
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: true
+    bg-toggle: false
+    bg-color: '#F9F9F9'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
     bard:
       -
         type: heading
@@ -2246,7 +2378,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634564039
+updated_at: 1634565690
 template: without-teaser
 use_meta_keywords: false
 no_index_page: false
