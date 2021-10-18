@@ -243,9 +243,22 @@ replicator:
         enabled: true
       -
         responsive_columns: 1
-        columns_per_row: '3'
+        columns_per_row: 1
         single-col: false
         grid:
+          -
+            bard: null
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '4'
+        single-col: false
+        grid:
+          -
+            bard: null
+            show_as_card: false
           -
             bard:
               -
@@ -305,9 +318,6 @@ replicator:
                           target: null
                           rel: null
                     text: 'MAXQDA Auswertung'
-            show_as_card: false
-          -
-            bard:
               -
                 type: paragraph
                 content:
@@ -330,6 +340,9 @@ replicator:
                           target: null
                           rel: null
                     text: Lektorat
+            show_as_card: false
+          -
+            bard:
               -
                 type: paragraph
                 content:
@@ -374,9 +387,6 @@ replicator:
                           target: null
                           rel: null
                     text: Promotionsberatung
-            show_as_card: false
-          -
-            bard:
               -
                 type: paragraph
                 content:
@@ -421,6 +431,9 @@ replicator:
                           target: null
                           rel: null
                     text: Plagiatsprüfung
+            show_as_card: false
+          -
+            bard: null
             show_as_card: false
         type: row
         enabled: true
@@ -2743,7 +2756,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634569408
+updated_at: 1634569767
 template: without-teaser
 use_meta_keywords: false
 no_index_page: false
