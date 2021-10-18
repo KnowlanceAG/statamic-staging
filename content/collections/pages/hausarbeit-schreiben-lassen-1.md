@@ -247,34 +247,7 @@ replicator:
         single-col: true
         grid:
           -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: insert_html
-                    html: |-
-                      <table style="width: 100%;">
-                      <tbody>
-                      <tr style="height: 23px;">
-                      <td style="height: 23px;">&nbsp;<a href="https://gwriters.de/ghostwriting">Ghostwriting</a></td>
-                      <td style="height: 23px;">&nbsp;<a href="https://gwriters.de/lektorat">Lektorat</a></td>
-                      <td style="height: 23px;">&nbsp;<a href="https://gwriters.de/leistungen/uebersetzung">&Uuml;bersetzung</a></td>
-                      </tr>
-                      <tr style="height: 23px;">
-                      <td style="height: 23px;">&nbsp;<a href="https://gwriters.de/korrektorat">Korrektorat</a></td>
-                      <td style="height: 23px;">&nbsp;<a href="https://gwriters.de/leistungen/formatierung">Formatierung</a></td>
-                      <td style="height: 23px;">&nbsp;<a href="https://gwriters.de/leistungen/plagiatspruefung">Plagiatspr&uuml;fung</a></td>
-                      </tr>
-                      <tr style="height: 23.5px;">
-                      <td style="height: 23.5px;">&nbsp;<a href="https://gwriters.de/leistungen/maxqda-auswertung">MAXQDA Auswertung</a></td>
-                      <td style="height: 23.5px;">&nbsp;<a href="https://gwriters.de/promotionsberatung">Promotionsberatung</a></td>
-                      <td style="height: 23.5px;">&nbsp;</td>
-                      </tr>
-                      </tbody>
-                      </table>
-              -
-                type: paragraph
+            bard: null
             show_as_card: false
         type: row
         enabled: true
@@ -2597,7 +2570,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634571484
+updated_at: 1634572141
 template: without-teaser
 use_meta_keywords: false
 no_index_page: false
