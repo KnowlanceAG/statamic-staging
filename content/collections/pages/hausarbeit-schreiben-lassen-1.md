@@ -250,13 +250,19 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '1'
+              -
                 type: heading
                 attrs:
                   level: 2
                 content:
                   -
                     type: text
-                    text: 'Fordern Sie jetzt kostenlos ein unverbindliche Angebot an'
+                    text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
               -
                 type: paragraph
                 content:
@@ -266,10 +272,16 @@ replicator:
                       -
                         type: bold
                     text: 'Wenn Sie bei Ihrer Hausarbeit Unterstützung benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine unverbindliche Anfrage schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '1'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: true
     bg-toggle: false
     bg-color: '#D6D6D6'
@@ -299,6 +311,12 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '1'
+              -
                 type: paragraph
                 content:
                   -
@@ -320,11 +338,15 @@ replicator:
                     button_align: justify-start
                     spacing_top: true
               -
-                type: paragraph
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '1'
             show_as_card: true
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: true
     bg-toggle: false
     bg-color: '#D6D6D6'
@@ -2530,7 +2552,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634568408
+updated_at: 1634568670
 template: without-teaser
 use_meta_keywords: false
 no_index_page: false
