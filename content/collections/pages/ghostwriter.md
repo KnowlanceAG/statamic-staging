@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 teaser_bg: seiten/header-so-funktionierts.jpeg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1634628633
+updated_at: 1634628658
 replicator:
   -
     bard:
@@ -126,7 +126,7 @@ replicator:
             type: floating-img
             dateien:
               - seiten/arbeiten/hausarbeit/ghostwriter.jpg
-            img_size: w-3/4
+            img_size: w-full
             float: mx-auto
       -
         type: heading
