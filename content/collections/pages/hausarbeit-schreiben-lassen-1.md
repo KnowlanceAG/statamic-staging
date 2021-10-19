@@ -247,7 +247,42 @@ replicator:
         single-col: true
         grid:
           -
-            bard: null
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: leistungen_uebersicht_4-spaltig
+                    grid:
+                      -
+                        image:
+                          - logo-startseite/icon-ghostwriting.svg
+                        headline: GHOSTWRITING
+                        hover_content: 'Lassen Sie Ihre wissenschaftliche Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        link:
+                          - 0328a685-5f37-4f91-bd4b-79c53adaea8d
+                      -
+                        image:
+                          - logo-startseite/icon-lektorat.svg
+                        headline: LEKTORAT
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
+                        link:
+                          - 659e7e81-6d07-4eea-9ef2-325e72618036
+                      -
+                        image:
+                          - leistung/icons/search-book.png
+                        headline: 'MAXQDA AUSWERTUNG'
+                        hover_content: 'Unsere erfahrenen Experten führen Ihre qualitative Inhaltsanalyse mittels einer professionellen MAXQDA Auswertung durch.'
+                        link:
+                          - dafbcd3b-fd08-4c5b-94be-f2a80c140953
+                      -
+                        image:
+                          - leistung/icons/hat.svg
+                        headline: PROMOTIONSBERATUNG
+                        hover_content: 'Verlassen Sie sich auf unsere umfassende und seriöse Promotionsberatung und führen Sie Ihre Promotion zum Erfolg.'
+                        link: null
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -2570,7 +2605,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634572206
+updated_at: 1634641618
 template: without-teaser
 use_meta_keywords: false
 no_index_page: false
