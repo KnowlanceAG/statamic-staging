@@ -217,7 +217,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Aufgrund der häufig überfordernden Studien- und Privatplanung kommt es regelmäßig dazu, dass sich Studenten eine Mustervorlage für ihre wissenschaftliche Hausarbeit schreiben lassen. Oft geschieht dies direkt zu Beginn einer Texterstellung, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, deren Gliederung und Exposé. '
+                    text: 'Aufgrund der häufig überfordernden Studien- und Privatplanung kommt es regelmäßig dazu, dass sich Studenten eine Mustervorlage für ihre wissenschaftliche Hausarbeit schreiben lassen. Oft geschieht es direkt zu Beginn einer Texterstellung, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, der Gliederung oder dem Exposé, dass sich Studenten eine Mustervorlage für Ihre Hausarbeit kaufen.'
               -
                 type: paragraph
                 content:
@@ -230,14 +230,6 @@ replicator:
                   -
                     type: text
                     text: 'Ein professionelle Unterstützung bei der ersten Hausarbeit durch akademische Ghostwriter zu Studienbeginn ist besonders ratsam. Zu diesem Zeitpunkt kommt es aufgrund mangelnder Erfahrung zu Flüchtigkeitsfehler beim Schreiben oder Umgang mit wissenschaftlichen Quellen passieren können. Hier fehlt es oft an Hilfestellung bei der Hausarbeit seitens der Betreuer, Professoren und Universitäten.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere Leistungen'
             show_as_card: false
         type: row
         enabled: true
@@ -248,6 +240,20 @@ replicator:
         grid:
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '29'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Leistungen im Überblick'
               -
                 type: set
                 attrs:
@@ -265,7 +271,7 @@ replicator:
                         image:
                           - logo-startseite/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
@@ -281,6 +287,12 @@ replicator:
                         headline: PROMOTIONSBERATUNG
                         hover_content: 'Verlassen Sie sich auf unsere umfassende und seriöse Promotionsberatung und führen Sie Ihre Promotion zum Erfolg.'
                         link: null
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '31'
               -
                 type: paragraph
             show_as_card: false
@@ -374,7 +386,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für alle anderen Fachbereiche beginnen ab\_"
+                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
                   -
                     type: text
                     marks:
@@ -408,303 +420,229 @@ replicator:
     type: add_section
     enabled: true
   -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Akademische Experten schreiben Ihre Hausarbeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'GWriters bietet Ihnen einen professionellen Schreibservice durch erfahrene akademische Ghostwriter. Dank ihrer weitreichenden Erfahrung können unsere Experten Sie in jeder Projektphase effektiv beim '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Schreiben Ihrer Hausarbeit unterstützen'
+                  -
+                    type: text
+                    text: .
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei den Ghostwritern von GWriters handelt es sich um erfahrene Akademiker, die häufig selbst noch als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Forscher, Doktoren und Professoren aktiv'
+                  -
+                    type: text
+                    text: ' sind. Sie profitieren daher von deren Fachwissen auf dem neuesten Stand der Forschung. Von diesen können Sie sich nicht nur eine Mustervorlage für Ihre Hausarbeit schreiben lassen, sondern sich auch bei der Themenfindung oder der Entwicklung der Forschungsfrage beraten lassen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Darüber hinaus schützen wir als Ghostwriting Agentur verlässlich Ihre Anonymität während der Erstellung der Mustervorlage für Ihre Hausarbeit. So stehen Sie jederzeit in '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'anonymen Kontakt zu Ihrem Ghostwriter'
+                  -
+                    type: text
+                    text: ' und behalten die volle Kontrolle.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Jede Leistung die Sie von unseren Ghostwritern erhalten, unterliegt der GWriters Qualitätsgarantie. Ob Sie sich durch ein Lektorat, ein Korrektorat oder eine Plagiatsprüfung unterstützen lassen wollen oder eine Mustervorlage für Ihre Hausarbeit kaufen möchten - jede Lieferung wird durch einen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'unabhängigen Supervisor auf Qualität geprüft'
+                  -
+                    type: text
+                    text: .
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(0,0,0,var(--tw-text-opacity)) !important'
+                          hex: '#000'
+                    text: 'Warum sollten Sie sich unterstützen lassen?'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Wir lösen Schreibblockaden bei fehlender Unterstützung durch Betreuer & Professoren'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Wir lösen Ihre Zeitprobleme mit Ihrer Hausarbeit während der Klausurphase und bei mehreren Abgaben'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Mit den relevanten Datenbanken, Quellen und wissenschaftlichen Arbeitsmethoden helfen wir auch  Studienanfängern effektiv'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Akademische Ghostwriter helfen nicht nur  im Schreibprozess, sondern auch bei der Literaturrecherche oder der Forschungsfrage'
+                          -
+                            type: hard_break
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: video
+                    video: 'https://youtu.be/BFHgSZP9rCE'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#F2F2F2'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    ausrichtung: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    ausrichtung: text-bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    ausrichtung: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    ausrichtung: text-bild
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
     bard:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Wie helfen Ihnen unsere Ghostwriter beim Schreiben einer Hausarbeit?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: "Ein akademischer\_"
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: blue
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /ghostwriter
-                  target: null
-                  rel: null
-            text: Ghostwriter
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: "\_beschäftigt sich täglich mit wissenschaftlichen Texten und Arbeiten. Unsere akademischen Textschreiber sind zertifizierte "
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /experten
-                  target: null
-                  rel: null
-            text: 'Doktoren und Professoren'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: ' besitzen hervorragende Kenntnisse in Ihren Fachgebieten. Insbesondere Hausarbeiten begleiten Studenten in vielfacher Art und Weise während Ihres Studiums. Es ist demnach möglich, eine professionelle Unterstützung zu jedem Zeitpunkt des Arbeitsverlaufs zu beauftragen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Aufgrund der häufig überfordernden Studien- und Privatplanung kommt es regelmäßig dazu, dass sich Studenten eine Mustervorlage für ihre wissenschaftliche Hausarbeit schreiben lassen. Oft geschieht dies direkt zu Beginn einer Texterstellung, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, deren Gliederung und '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /blog/expose-erstellen
-                  target: null
-                  rel: null
-            text: Exposé
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: '. Zudem ist es möglich, den Ghostwriter zur Betreuung der Hausarbeit einzusetzen und ihn während des gesamten Prozesses unterstützend agieren zu lassen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: "Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, die Hausarbeit Korrekturlesen zu lassen. Neben dem Korrektorat und\_"
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: blue
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /lektorat
-                  target: null
-                  rel: null
-            text: Lektorat
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: "\_der wissenschaftlichen Arbeit, kann zusätzlich eine umfassende Plagiatsprüfung mit Plagiatesoftware erfolgen. Ein Plagiatcheck ist besonders zum Studienbeginn erforderlich, da aus mangelnder Erfahrung Flüchtigkeitsfehler beim Umgang mit Quellen passieren können. Einige Studenten lassen sich von einem Schreibservice wie Ghostwriter Hausarbeiten schreiben – in Form von Musterarbeiten – und nutzen solch eine\_"
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: blue
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting
-                  target: null
-                  rel: null
-            text: Ghostwriting
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: '-Hausarbeit als Musterarbeit für ihre eigene Texterstellung.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: "Wenn Sie bei Ihrer Hausarbeit Unterstützung benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine\_"
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textColor
-                attrs:
-                  color: blue
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /anfrage
-                  target: null
-                  rel: null
-            text: 'unverbindliche Anfrage schicken'
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-      -
-        type: set
-        attrs:
-          values:
-            type: video
-            video: 'https://youtu.be/BFHgSZP9rCE'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Warum sollte man sich bei seiner Hausarbeit unterstützen lassen?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Liegen aufgrund schlechter Lehrplanabstimmung in mehreren Fächern Hausarbeiten an, die zu ähnlicher Zeit zur Abgabe kommen sollen oder fällt die Abgabe einer wissenschaftlichen Arbeit in einen Klausurzeitraum, kommt es oft zu Zeitproblemen. Studierende können es kaum schaffen, diese Flut an Anforderungen zu bewältigen. Daher sind sie oftmals auf Hilfe durch Leistungen von außen angewiesen. Durch diese große Entlastung können sie sich ohne Sorgen auf anstehende Klausuren, ihren Nebenjob und andere wichtige Dinge konzentrieren, statt sich mit der Frage zu befassen „Wie schreibe ich eine Hausarbeit?“.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Auf der einen Seite hört es sich einfach an eine Hausarbeit zu erstellen: einfach mal zehn bis zwanzig Seiten schreiben - fertig. Jedoch grade darin liegt die große Herausforderung bei der Erstellung einer Hausarbeit. Besondere Schwierigkeiten haben die Studienanfänger, denn diese kennen die relevanten Datenbanken, Quellen und wissenschaftlichen Arbeitsmethoden nicht. Sie wissen nicht, wie sie eine '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /blog/forschungsluecke-finden
-                  target: null
-                  rel: null
-            text: 'Forschungsfrage finden'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: ' und wie eine Literaturrecherche durchgeführt wird.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Selbst wenn alle notwendigen Informationen für sie zur Verfügung stehen oder im Rahmen von Seminaren zum wissenschaftlichen Arbeiten vermittelt werden, entstehen Probleme beim Schreibprozess, sodass keine schlüssige wissenschaftliche Arbeit entsteht. Auch das Literaturverzeichnis und die Fußnoten spielen eine große Rolle in einer Hausarbeit, denn wenn dieser Teil falsch formuliert oder zitiert ist, kann es zu einem Plagiatsvorwurf führen. Auch die Übernahme einer anderen Hausarbeit führt zu einem Vollplagiat, was bedeutet, dass die wissenschaftliche Arbeit in Teilen vollständig übernommen wurde.'
       -
         type: heading
         attrs:
@@ -784,202 +722,6 @@ replicator:
     show_as_card: false
   -
     columns-replicator:
-      -
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere Leistungen:'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-      -
-        columns_per_row: '3'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat
-                          target: null
-                          rel: null
-                    text: Korrektorat
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/maxqda-auswertung
-                          target: null
-                          rel: null
-                    text: 'MAXQDA Auswertung'
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: Lektorat
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/formatierung
-                          target: null
-                          rel: null
-                    text: Formatierung
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /promotionsberatung
-                          target: null
-                          rel: null
-                    text: Promotionsberatung
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/uebersetzung
-                          target: null
-                          rel: null
-                    text: Übersetzung
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: Plagiatsprüfung
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
       -
         columns_per_row: 1
         single-col: false
@@ -2605,7 +2347,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634641618
+updated_at: 1634652569
 template: without-teaser
 use_meta_keywords: false
 no_index_page: false
