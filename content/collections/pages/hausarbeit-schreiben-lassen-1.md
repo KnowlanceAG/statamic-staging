@@ -231,7 +231,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '29'
+                    padding-y: '20'
               -
                 type: heading
                 attrs:
@@ -278,7 +278,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '31'
+                    padding-y: '10'
               -
                 type: paragraph
             show_as_card: false
@@ -592,6 +592,14 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 3
@@ -661,7 +669,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -673,10 +681,23 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single-col: true
         grid:
           -
             bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Wir unterstützen Sie bei nahezu allen akademischen Fachbereichen & Arbeiten!'
               -
                 type: set
                 attrs:
@@ -718,6 +739,216 @@ replicator:
                           - 925eedca-5fbe-4da9-a307-807426feaeeb
                           - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
                           - 06fbb3f4-51c2-4f11-832e-9b72a495857d
+                      -
+                        text: Arbeiten
+                        eintraege:
+                          - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
+                          - 99cd8e42-b21c-4cea-a162-a9454db2375f
+                          - 89093abd-fdd4-4830-a368-7ede1b75ca1a
+                          - 5659593d-2756-4e9f-a5b3-b391103d9886
+                          - 425234fd-eb40-4dab-bb3d-95bbac5948eb
+                          - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
+                          - 62115090-7bb2-448f-bb32-a32bb5977382
+                          - 29f507a9-89e5-433e-8246-0d00b58746db
+                          - 134ba799-3362-4166-86f7-bba4e992d7d7
+                          - 5c6db140-ee4a-4a88-bf56-4153664421d4
+                          - aa35a1ca-0812-4402-a4d5-4a6d4aa8c1c0
+                          - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
+                          - 686e5203-e17a-4101-809a-07c9f799ccfa
+                          - b6ee03ca-ecab-4749-ade4-45ff821b748d
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    spacing_top: false
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: true
+    bg-toggle: false
+    bg-image-fixed: false
+    border: true
+    type: add_section
+    enabled: true
+  -
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/beispielarbeiten-1.JPG
+                    ex_title: 'Weiterentwicklung der Baseler Eigenmittelübereinkunft'
+                    ex_fachbereich:
+                      - 06fbb3f4-51c2-4f11-832e-9b72a495857d
+                    ex_type: Hausarbeit
+                    ex_pages: '10'
+                    ex_zitation: 'Harvard Style'
+                    ex_button_link: 'entry::21ef3416-f1fd-43eb-8e38-ec597763c45f'
+                    ex_button_text: WEITERLESEN
+                    ex_color: '#FF6606'
+                    ex_spacing_top: false
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Über den Autor'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - team/wittkamp_gwriters_ghostwriter_rund.png
+                    img_size: w-1/2
+                    float: mx-auto
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Diplom Betriebswirt Marcus Wittkamp'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Senior Ghostwriter & Supervisor'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#F7F7F7'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Häufig gestellte Fragen'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: accordion-wrapper
+                    items:
+                      -
+                        headline: 'Darf ich die erstellte Mustervorlage als eigene Hausarbeit abgeben?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Hausarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch.'
+                        active: false
               -
                 type: paragraph
             show_as_card: false
@@ -732,820 +963,6 @@ replicator:
     enabled: true
   -
     bard:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#555555'
-                  hex: '#000'
-            text: "Hausarbeit\_schreiben:\_Wie\_sieht\_eine\_erfolgreiche\_Arbeit\_aus?"
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Die Ansprüche an eine wissenschaftliche Arbeit sind hoch. Denn bei der Erstellung einer Hausarbeit gilt „in der Kürze liegt die Würze“. Dieser einfache Satz ist beim Schreiben einer wissenschaftlichen Arbeit allerdings schwierig umzusetzen. Eine gute Hausarbeit zu schreiben setzt eine gründliche und tief gehende Literaturrecherche voraus. Hierbei ist es wichtig, die relevanten Informationen und Literaturquellen aus verschiedenen Datenbanken herauszufiltern und dann diese Ergebnisse so zusammenzuführen, zu analysieren und zu interpretieren, dass daraus eine gesamthafte Analyse wird. Zudem soll die zentrale Forschungsfrage auf wenigen Seiten zum aktuellen Forschungsstand erforscht werden. Unerfahrene Studienanfänger sind oftmals verwirrt und wissen nicht, wie sie diese Fülle von Informationen verwerten sollen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Diese Probleme von Studenten können durch die Unterstützung von einem akademischen Ghostwriter gelöst werden. Denn professionelle Ghostwriter verfügen aus ihrem eigenen Studium oder Berufsleben über einen ausgedehnten Erfahrungsschutz im Bezug auf das Hausarbeit Schreiben. Sie besitzen darüber hinaus auch das notwendige methodische und fachliche Wissen, auf dem aktuellen Stand, zur Texterstellung.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Vor allen Dingen kennen seriöse Ghostwriter in ihrem persönlichen Themenfeld immer den aktuellen Forschungsstand, da diese den Zugriff auf die notwendigen Datenbanken haben. Diesen Zugriff auf relevante Datenbanken und auch den Zugang zu modernster Analyse Software wie '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /leistungen/maxqda-auswertung
-                  target: null
-                  rel: null
-            text: MAXQDA
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: ' erhalten Ghostwriter über unsere Ghostwriting Agentur sodass diese schnell und effizient arbeiten können. Sie begleiten den Schreibprozess Ihrer wissenschaftlichen Arbeit und finden zu jeder Frage eine passende Lösung.'
-    type: editor
-    enabled: true
-    show_as_card: false
-  -
-    columns-replicator:
-      -
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Wichtige Fachbereiche:'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-      -
-        columns_per_row: '3'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: underline
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(193, 76, 0)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/architektur
-                          target: null
-                          rel: null
-                    text: Architektur
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/bwl
-                          target: null
-                          rel: null
-                    text: BWL
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/erziehungswissenschaften-ghostwriter
-                          target: null
-                          rel: null
-                    text: Erziehungswissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/germanistik-ghostwriter
-                          target: null
-                          rel: null
-                    text: Germanistik
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/jura
-                          target: null
-                          rel: null
-                    text: Jura
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/literatur
-                          target: null
-                          rel: null
-                    text: Literatur
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/mathematik
-                          target: null
-                          rel: null
-                    text: Mathematik
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/pflegewissenschaften
-                          target: null
-                          rel: null
-                    text: Pflegewissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/soziale-arbeit
-                          target: null
-                          rel: null
-                    text: 'Soziale Arbeit'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/vwl
-                          target: null
-                          rel: null
-                    text: VWL
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/zahnmedizin
-                          target: null
-                          rel: null
-                    text: Zahnmedizin
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/bauingenieurwesen
-                          target: null
-                          rel: null
-                    text: Bauingenieurwesen
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/chemie
-                          target: null
-                          rel: null
-                    text: Chemie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/finanzwissenschaften
-                          target: null
-                          rel: null
-                    text: Finanzwissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/geschichte
-                          target: null
-                          rel: null
-                    text: Geschichte
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/kommunikationswissenschaften
-                          target: null
-                          rel: null
-                    text: Kommunikation
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/marketing
-                          target: null
-                          rel: null
-                    text: Marketing
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/medienwissenschaften
-                          target: null
-                          rel: null
-                    text: Medienwissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/philosophie
-                          target: null
-                          rel: null
-                    text: Philosophie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/soziologie
-                          target: null
-                          rel: null
-                    text: Soziologie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/wirtschaftsinformatik
-                          target: null
-                          rel: null
-                    text: Wirtschaftsinformatik
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/biologie
-                          target: null
-                          rel: null
-                    text: Biologie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/elektrotechnik
-                          target: null
-                          rel: null
-                    text: Elektrotechnik
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/geologie
-                          target: null
-                          rel: null
-                    text: Geologie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/informatik
-                          target: null
-                          rel: null
-                    text: Informatik
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/kunst
-                          target: null
-                          rel: null
-                    text: Kunst
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/maschinenbau
-                          target: null
-                          rel: null
-                    text: Maschinenbau
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/medizin
-                          target: null
-                          rel: null
-                    text: Medizin
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/psychologie
-                          target: null
-                          rel: null
-                    text: Psychologie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/sprachwissenschaften
-                          target: null
-                          rel: null
-                    text: Sprachwissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)!important'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/wirtschaftswissenschaften
-                          target: null
-                          rel: null
-                    text: Wirtschaftswissenschaften
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    bard:
-      -
-        type: horizontal_rule
-      -
-        type: set
-        attrs:
-          values:
-            type: button
-            button_link: /anfrage
-            button_text: 'JETZT KOSTENLOS ANFRAGEN'
-            color: '#FF6606'
-            spacing_top: false
-      -
-        type: horizontal_rule
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#555555'
-                  hex: '#000'
-            text: "Mustervorlage für Hausarbeit\_schreiben\_lassen:\_Welche\_Alternativen\_gibt\_es\_zum\_Ghostwriter?"
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Um Studenten Kompetenzen auf sprachlicher, formaler, kommunikativer und organisatorischer Ebene zu vermitteln, entscheiden sich Lehrinstitute und Universitäten dazu, Hausarbeiten schreiben zu lassen. Diese sollen Studierende im Laufe des Studiums auf Examensarbeiten (z.B. Bachelorarbeit oder Masterarbeit) vorbereiten und ihnen eine Übersicht über verschiedene Forschungsbereiche und deren Lagen verschaffen. Sie sind im Umfang geringer als eine Abschlussthesis, sind allerdings auch mit einem ansehnlichen Zeitaufwand verbunden.'
       -
         type: heading
         attrs:
@@ -1795,25 +1212,6 @@ replicator:
                   hex: '#000'
             text: ' lediglich als Vorlage zu nutzen und nicht als Prüfungsleistung einzureichen, man kann also nicht einfach eine Hausarbeit kaufen.'
       -
-        type: set
-        attrs:
-          values:
-            type: example_work
-            ex_img_right: false
-            ex_image: seiten/beispielarbeiten-1.JPG
-            ex_title: 'Weiterentwicklung der Baseler Eigenmittelübereinkunft'
-            ex_fachbereich:
-              - 06fbb3f4-51c2-4f11-832e-9b72a495857d
-            ex_type: Hausarbeit
-            ex_pages: '10'
-            ex_zitation: 'Harvard Style'
-            ex_button_link: 'entry::21ef3416-f1fd-43eb-8e38-ec597763c45f'
-            ex_button_text: Weiterlesen
-            ex_button_align: justify-start
-            ex_spacing_top: false
-      -
-        type: paragraph
-      -
         type: heading
         attrs:
           level: 3
@@ -1912,14 +1310,79 @@ replicator:
                   hex: '#000'
             text: .
       -
-        type: set
+        type: heading
         attrs:
-          values:
-            type: bilder
-            assets:
-              - seiten/arbeiten/hausarbeit/Hausarbeit-schreiben-lassen.jpg
-            has_border: false
-            img-alignment: justify-center
+          level: 2
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: "Hausarbeit\_schreiben:\_Wie\_sieht\_eine\_erfolgreiche\_Arbeit\_aus?"
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Die Ansprüche an eine wissenschaftliche Arbeit sind hoch. Denn bei der Erstellung einer Hausarbeit gilt „in der Kürze liegt die Würze“. Dieser einfache Satz ist beim Schreiben einer wissenschaftlichen Arbeit allerdings schwierig umzusetzen. Eine gute Hausarbeit zu schreiben setzt eine gründliche und tief gehende Literaturrecherche voraus. Hierbei ist es wichtig, die relevanten Informationen und Literaturquellen aus verschiedenen Datenbanken herauszufiltern und dann diese Ergebnisse so zusammenzuführen, zu analysieren und zu interpretieren, dass daraus eine gesamthafte Analyse wird. Zudem soll die zentrale Forschungsfrage auf wenigen Seiten zum aktuellen Forschungsstand erforscht werden. Unerfahrene Studienanfänger sind oftmals verwirrt und wissen nicht, wie sie diese Fülle von Informationen verwerten sollen.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Diese Probleme von Studenten können durch die Unterstützung von einem akademischen Ghostwriter gelöst werden. Denn professionelle Ghostwriter verfügen aus ihrem eigenen Studium oder Berufsleben über einen ausgedehnten Erfahrungsschutz im Bezug auf das Hausarbeit Schreiben. Sie besitzen darüber hinaus auch das notwendige methodische und fachliche Wissen, auf dem aktuellen Stand, zur Texterstellung.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Vor allen Dingen kennen seriöse Ghostwriter in ihrem persönlichen Themenfeld immer den aktuellen Forschungsstand, da diese den Zugriff auf die notwendigen Datenbanken haben. Diesen Zugriff auf relevante Datenbanken und auch den Zugang zu modernster Analyse Software wie '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /leistungen/maxqda-auswertung
+                  target: null
+                  rel: null
+            text: MAXQDA
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: ' erhalten Ghostwriter über unsere Ghostwriting Agentur sodass diese schnell und effizient arbeiten können. Sie begleiten den Schreibprozess Ihrer wissenschaftlichen Arbeit und finden zu jeder Frage eine passende Lösung.'
       -
         type: heading
         attrs:
@@ -2292,16 +1755,6 @@ replicator:
             text: Disclaimer
       -
         type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Hausarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch.'
       -
         type: heading
         attrs:
@@ -2436,7 +1889,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634679334
+updated_at: 1634684169
 template: default
 use_meta_keywords: false
 no_index_page: false
