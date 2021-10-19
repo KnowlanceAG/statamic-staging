@@ -606,36 +606,52 @@ replicator:
           -
             bard:
               -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: "Mustervorlage für Hausarbeit\_schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
+              -
                 type: set
                 attrs:
                   values:
                     type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/anfrage.jpg
+                    text: |-
+                      <br>
+                      <br>
+                      Nach einer unverbindlichen Anfrage, die Sie über ein Bestellformular stellen können, erhalten Sie von unserer Schreibagentur ein kostenloses Leistungsangebot und eine individuelle Beratung. 
                     ausrichtung: bild-text
               -
                 type: set
                 attrs:
                   values:
                     type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/termineplanen.png
                     ausrichtung: text-bild
               -
                 type: set
                 attrs:
                   values:
                     type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
                     ausrichtung: bild-text
               -
                 type: set
                 attrs:
                   values:
                     type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
                     ausrichtung: text-bild
               -
                 type: paragraph
@@ -2355,7 +2371,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634652775
+updated_at: 1634653647
 template: without-teaser
 use_meta_keywords: false
 no_index_page: false
