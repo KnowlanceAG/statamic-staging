@@ -67,25 +67,11 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: text_box-alignment
-                    bard:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Hausarbeit. Bei uns finden Sie exakt den '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'akademischen Ghostwriter für Ihre Hausarbeit'
-                          -
-                            type: text
-                            text: ', der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.'
-                    text_ausrichtung: text-left
-                    column-count: false
+                    type: insert_html
+                    html: |-
+                      <p style="font-size:18px">
+                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Hausarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Hausarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
+                      </p>
               -
                 type: set
                 attrs:
@@ -657,6 +643,7 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
                     ausrichtung: bild-text
+                    text: 'Nach der Fertigstellung erhalten Sie die fertige Mustervorlage zu Ihrer Hausarbeit. Vorab wird diese von einem unabhängigen Lektor aus Ihrem Fachbereich korrektur gelesen. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Diese Kontrolle nach unserem bewährten 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Darüber hinaus wird Ihre Hausarbeit mit professioneller Plagiatserkennungssoftware auf Plagiate geprüft.'
               -
                 type: set
                 attrs:
@@ -665,6 +652,10 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
                     ausrichtung: text-bild
+                    text: |-
+                      <br>
+                      <br>
+                      Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Falls Sie hierzu Änderungswünsche haben, setzen wir diese selbstverständlich kostenfrei um.
               -
                 type: paragraph
             show_as_card: false
@@ -2383,7 +2374,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634654109
+updated_at: 1634678671
 template: without-teaser
 use_meta_keywords: false
 no_index_page: false
