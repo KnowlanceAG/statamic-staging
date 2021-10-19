@@ -669,6 +669,39 @@ replicator:
     type: add_section
     enabled: true
   -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: link_liste
+                    raster:
+                      -
+                        text: 'Wir unterstützen Sie in nahezu allen akademischen Fachbereichen!'
+                        eintraege:
+                          - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
+                          - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
+                          - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
     bard:
       -
         type: heading
@@ -2374,7 +2407,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634678682
+updated_at: 1634679003
 template: without-teaser
 use_meta_keywords: false
 no_index_page: false
