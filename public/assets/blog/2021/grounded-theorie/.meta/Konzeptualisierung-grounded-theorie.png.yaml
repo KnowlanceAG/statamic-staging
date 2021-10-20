@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Konzepte erstellen'
+  caption: 'Konzept mit Merkmal (In Anlehnung an Böhm 1994)'
 size: 19631
 last_modified: 1634740719
 width: 1481
