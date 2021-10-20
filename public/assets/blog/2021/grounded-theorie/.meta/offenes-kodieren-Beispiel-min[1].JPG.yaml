@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'offenes kodieren Beispiel'
+  caption: 'Offenes Kodieren Beispiel: Zerlegung des Textes in Sinneinheiten (Quelle: Böjm, 1994)'
 size: 106472
 last_modified: 1634736956
 width: 855
