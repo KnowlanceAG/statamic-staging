@@ -805,9 +805,304 @@ replicator:
     type: add_section
     enabled: true
   -
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wie lässt sich eine erfolgreiche Hausarbeit schreiben?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Eine Hausarbeit wird von Studierenden, im Gegensatz zur Klausur, wie jede akademische Arbeit zu Hause selbständig angefertigt. Es muss eine Argumentation entwickelt werden, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'die allen wissenschaftlichen Standards entspricht'
+                  -
+                    type: text
+                    text: '. Dies soll die Fähigkeiten des Studenten oder der Studentin hinsichtlich der Konzeption und Organisation von wissenschaftlichen Arbeitsprozessen fördern.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Es muss eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'wissenschaftliche Forschungsfrage'
+                  -
+                    type: text
+                    text: ' definiert und eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'tief gehende Literaturrecherche'
+                  -
+                    type: text
+                    text: ' durchgeführt werden. Diese Forschungsfrage muss anhand der recherchierten Informationen entsprechend der zuvor erstellten Gliederung beantwortet werden. In einigen Fachbereichen, wie der Medizin, Biologie und Chemie, wird zusätzlich zum schriftlichen Teil oftmals die Durchführung einer Untersuchung oder eines Experiments erwartet. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'einige Formatvorgaben als gängig erwiesen'
+                  -
+                    type: text
+                    text: '. Laut Prüfungsordnung bzw. Hochschulgesetz:'
+            show_as_card: false
+        type: row
+        enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Gliederung einer Hausarbeit'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Titelblatt
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Inhaltsverzeichnis Hausarbeit'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Einleitung
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Hauptteil
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Schluss
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Bildverzeichnis
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Literatur- und Quellenverzeichnis'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Anhang
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Selbstständigkeitserklärung
+            show_as_card: false
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Formatierungsrichtlinien einer Hausarbeit'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Schriftart: Times New Roman (oder Arial Größe 11)'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Schriftgröße: 12 Punkt'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Zeilenabstand: 1,5'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Ränder: oben und unten jeweils 2,5 cm, links und rechts jeweils 3 cm'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Absatzformat: Blocksatz (auf Trennung achten)'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Fußnoten: Schriftgröße 10'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Nummerierung: alle Seiten nummeriert, außer Titelblatt, Inhaltsverzeichnis einer Hausarbeit, Literaturverzeichnis und Anhang'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Hausarbeit schreiben lassen - Was erwartet Sie?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird diese Hilfe nicht geboten, bietet sich die Option, dass sich Studierende eine Mustervorlage von einem Ghostwriter für ihre Hausarbeit schreiben lassen. Diese Ghostwriting-Hausarbeit kann anschließend als Beispiel unterstützend genutzt werden.'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#F7F7F7'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -846,7 +1141,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
+                  level: 3
                 content:
                   -
                     type: text
@@ -962,6 +1257,112 @@ replicator:
     type: add_section
     enabled: true
   -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wann sollten Sie sich unterstützen lassen?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Ansprüche an eine wissenschaftliche Arbeit sind hoch. Eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'gute Hausarbeit zu schreiben'
+                  -
+                    type: text
+                    text: ' setzt eine gründliche und tief gehende Literaturrecherche voraus. Hierbei ist es wichtig, die relevanten Informationen und Literaturquellen aus verschiedenen Datenbanken herauszufiltern. Anschließend gilt es, diese Ergebnisse zusammenzuführen, zu analysieren und zu interpretieren. So soll sich eine gesamthafte Analyse entwickeln.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zudem soll die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'zentrale Forschungsfrage mit Würdigung des aktuellen Forschungsstands'
+                  -
+                    type: text
+                    text: ' auf wenigen Seiten erforscht werden. Unerfahrene Studienanfänger sind oftmals mit dem Komprimieren der Informationsmenge und aufgrund der hohen akademischen Ansprüche überfordert. Dadurch stoßen Studierende auf Schreibblockaden und andere Probleme, besonders wenn diese ihre erste Hausarbeit schreiben.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In solchen Fällen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'helfen unsere akademischen Ghostwriter von GWriters'
+                  -
+                    type: text
+                    text: '. Diese verfügen über einen ausgedehnten Erfahrungsschutz im Verfassen wissenschaftlicher Arbeiten. Sie besitzen darüber hinaus auch das notwendige methodische und fachliche Wissen für das Verfassen akademischer Texte.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Unsere Experten kennen in ihrem Fachbereich immer den aktuellen Forschungsstand'
+                  -
+                    type: text
+                    text: ' und haben Zugriff auf die notwendigen Literatur-Datenbanken. Wir arbeiten zudem mit modernster Analyse Software wie SPSS, Stata oder R für statistische Analysen sowie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/maxqda-auswertung
+                          target: null
+                          rel: null
+                    text: MAXQDA
+                  -
+                    type: text
+                    text: ' für qualitative Analysen. Dies zeichnet eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'seriöse Ghostwriting Agentur'
+                  -
+                    type: text
+                    text: ' aus.'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
     bard:
       -
         type: heading
@@ -972,343 +1373,19 @@ replicator:
             type: text
             marks:
               -
-                type: textColor
+                type: textAlign
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Möchten Sie eine Mustervorlage für Ihre Hausarbeit schreiben lassen oder mit einem akademischen Ghostwforriter selber schreiben?'
+                  align: center
+            text: 'Einige unserer Blogartikel zum Thema Hausarbeit'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Besonders für Erstsemesterstudenten, die mit dem Erstellen von wissenschaftlichen Arbeiten unerfahren sind, stellen Sie beträchtliche Schwierigkeiten dar. Hier wird häufig auf eine Betreuung zurückgegriffen, um den Studenten bei der Strukturierung und Verfassung seiner Hausarbeit Tipps zu geben.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Zu jedem Problemfeld während des Schreibprozesses stehen unsere akademischen Autoren zur Verfügung. Unsere Ghostwriting-Agentur arbeitet mit zertifizierten Professoren und Doktoren. Diese unterstützen Sie in vielen wissenschaftlichen Themen, ob es um eine '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /blog/fallstudienanalyse-nach-yin
-                  target: null
-                  rel: null
-            text: Fallanalyse
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: ', ein '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /blog/leitfadengestuetztes-experteninterview
-                  target: null
-                  rel: null
-            text: Experteninterview
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: ' oder eine '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /blog/swot-analyse-beispiel
-                  target: null
-                  rel: null
-            text: Methodenanwendung
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: " handelt. Rund \_um alle wissenschaftlichen Themen bietet unsere Schreibagentur professionelle Hilfe an."
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Besondere Schwierigkeiten haben Studierende bei ihrer Themenfindung, der Suche nach Ihrer Forschungsfrage, Ihrer Literaturrecherche und beim Aufbau Ihrer Gliederung. Wenn Sie eine Hausarbeit schreiben müssen, dann sollten Sie ein gutes '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /blog/online-nachhilfe-vorlesung
-                  target: null
-                  rel: null
-            text: Zeitmanagement
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: ' einplanen, sonst können Sie den roten Faden verlieren. Denn grade das richtige Thema zu finden, das Forschungsziel zu erreichen und die zugehörigen aktuellen '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /blog/literaturrecherche-datenbanken-quellen
-                  target: null
-                  rel: null
-            text: 'Literaturquellen und Datenbanken'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: ' zu finden, benötigt viel Zeit.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: "Bei allen Aufgaben und Fragestellungen können unsere Experten Ihnen helfen. Auch wenn Sie lediglich Ihre Text überarbeiten lassen möchten oder Ihre fehlenden Textteile ergänzen lassen möchten (Einleitung, Hauptteil, Fazit). Auch ein Lektorat, eine\_"
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /korrektorat
-                  target: null
-                  rel: null
-            text: Korrektur
-          -
-            type: text
-            text: "\_oder eine\_"
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /leistungen/plagiatspruefung
-                  target: null
-                  rel: null
-            text: Plagiatsprüfung
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: "\_sind gerade bei den anfänglichen wissenschaftlichen Arbeiten üblich. Es gibt auch Studenten, die einen Ghostwriter Hausarbeiten schreiben lassen. Jedoch ist solch eine "
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting-beispielarbeiten
-                  target: null
-                  rel: null
-            text: Ghostwriting-Hausarbeit
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: ' lediglich als Vorlage zu nutzen und nicht als Prüfungsleistung einzureichen, man kann also nicht einfach eine Hausarbeit kaufen.'
-      -
-        type: heading
+        type: set
         attrs:
-          level: 3
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#555555'
-                  hex: '#000'
-            text: "Mustervorlage für Hausarbeit\_schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Nach einer unverbindlichen '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /anfrage
-                  target: null
-                  rel: null
-            text: Anfrage
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: ', die Sie über ein Bestellformular stellen können, erhalten Sie von unserer Schreibagentur ein kostenloses Leistungsangebot und eine individuelle Beratung. Der Auftrag beginnt nach Ihrer Zusage und einer Anzahlung. Es werden einzelne Teillieferungen bzw. Termine geplant. Diese Teillieferungen dienen dazu, Sie über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. Je nach Komplexität des Themas werden mehrere Fachautoren für die Arbeit eingesetzt.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Zudem stellen unsere Projektmanager Ihre Anonymität und gleichzeitig auch die Anonymität des Autors sicher. Die gesamthafte Analyse wird abschließend von einem unabhängigen Lektor aus demselben Fachbereich kontrolliert. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffe und Inhalt vorgenommen. Diese zusätzliche Kontrolle nach unserem bewährten 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Darüber hinaus wird Ihre Bestellung mit professioneller Plagiatserkennungssoftware auf Plagiate geprüft.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Mehr Information über die Zusammenarbeit mit Ghostwriter erhalten Sie '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /so-funktioniert-es
-                  target: null
-                  rel: null
-            text: hier
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: .
+          values:
+            type: blog_entries
+            entries:
+              - 8f956f01-0057-4727-86bd-227150d4d7c9
+              - d61b6932-74b9-4ece-9da6-a54a1265c9a3
+              - 3f184e1e-936d-431a-811d-566210ffea43
       -
         type: heading
         attrs:
@@ -1318,507 +1395,9 @@ replicator:
             type: text
             marks:
               -
-                type: textColor
+                type: textAlign
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: "Hausarbeit\_schreiben:\_Wie\_sieht\_eine\_erfolgreiche\_Arbeit\_aus?"
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Die Ansprüche an eine wissenschaftliche Arbeit sind hoch. Denn bei der Erstellung einer Hausarbeit gilt „in der Kürze liegt die Würze“. Dieser einfache Satz ist beim Schreiben einer wissenschaftlichen Arbeit allerdings schwierig umzusetzen. Eine gute Hausarbeit zu schreiben setzt eine gründliche und tief gehende Literaturrecherche voraus. Hierbei ist es wichtig, die relevanten Informationen und Literaturquellen aus verschiedenen Datenbanken herauszufiltern und dann diese Ergebnisse so zusammenzuführen, zu analysieren und zu interpretieren, dass daraus eine gesamthafte Analyse wird. Zudem soll die zentrale Forschungsfrage auf wenigen Seiten zum aktuellen Forschungsstand erforscht werden. Unerfahrene Studienanfänger sind oftmals verwirrt und wissen nicht, wie sie diese Fülle von Informationen verwerten sollen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Diese Probleme von Studenten können durch die Unterstützung von einem akademischen Ghostwriter gelöst werden. Denn professionelle Ghostwriter verfügen aus ihrem eigenen Studium oder Berufsleben über einen ausgedehnten Erfahrungsschutz im Bezug auf das Hausarbeit Schreiben. Sie besitzen darüber hinaus auch das notwendige methodische und fachliche Wissen, auf dem aktuellen Stand, zur Texterstellung.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Vor allen Dingen kennen seriöse Ghostwriter in ihrem persönlichen Themenfeld immer den aktuellen Forschungsstand, da diese den Zugriff auf die notwendigen Datenbanken haben. Diesen Zugriff auf relevante Datenbanken und auch den Zugang zu modernster Analyse Software wie '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /leistungen/maxqda-auswertung
-                  target: null
-                  rel: null
-            text: MAXQDA
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: ' erhalten Ghostwriter über unsere Ghostwriting Agentur sodass diese schnell und effizient arbeiten können. Sie begleiten den Schreibprozess Ihrer wissenschaftlichen Arbeit und finden zu jeder Frage eine passende Lösung.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Wie schreibt man eine Hausarbeit?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#555555'
-                  hex: '#000'
-            text: "Was\_ist\_eigentlich\_eine\_Hausarbeit? "
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Die Hausarbeit ist eine akademische Arbeit, die zu Hause angefertigt werden soll. Das heißt, dass der Student nicht – wie in einer Prüfung – zu einem bestimmten Thema abgefragt wird. Vielmehr wird dem Studenten eine Bearbeitungszeit eingeräumt, in welcher er diese Arbeit anzufertigen hat. Es soll eine Argumentation entwickelt werden, die allen wissenschaftlichen Standards entspricht und die Fähigkeiten des Studenten hinsichtlich der Konzeption und Organisation von Arbeitsprozessen fördert.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'In einigen Fachbereichen, wie der Medizin, Biologie und Chemie, wird zusätzlich zum schriftlichen Teil oftmals die Durchführung einer Untersuchung oder eines Experiments erwartet. Manchmal veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird diese Hilfe nicht geboten, bietet sich die Option, dass Studenten einen Ghostwriter ihre Hausarbeit schreiben lassen und diese Ghostwriting-Hausarbeit dann als Beispiel unterstützend nutzen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Die Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich einige Hochschulgesetze als gängig erwiesen. Laut Prüfungsordnung:'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Gliederung einer Hausarbeit'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: '• Titelblatt'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: '• Inhaltsverzeichnis Hausarbeit'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: '• Einleitung'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: '• Hauptteil'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: '• Schluss'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: '• Bildverzeichnis'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: '• Literatur- und Quellenverzeichnis'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: '• Anhang'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: '• '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: Selbstständigkeitserklärung
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Formatierungsrichtlinien einer Hausarbeit'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: '• Schriftart: Times New Roman (oder Arial Größe 11)'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: '• Schriftgröße: 12 Punkt'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: '• Zeilenabstand: 1,5'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: '• Ränder: oben und unten jeweils 2,5 cm, links und rechts jeweils 3 cm'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: '• Absatzformat: Blocksatz (auf Trennung achten)'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: '• Fußnoten: Schriftgröße 10'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: '• Nummerierung: alle Seiten nummeriert, außer Titelblatt, Inhaltsverzeichnis einer Hausarbeit, Literaturverzeichnis und Anhang'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: Disclaimer
-      -
-        type: paragraph
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Einige unserer Blogartikel zur Hausarbeit & Mustervorlage für Hausarbeit schreiben lassen'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/hausarbeit-einleitung
-                  target: _blank
-                  rel: 'noopener noreferrer'
-            text: 'Einleitung Hausarbeit – Was gehört rein und was nicht?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/erste-seminararbeit-schreiben
-                  target: _blank
-                  rel: 'noopener noreferrer'
-            text: 'Erste Seminararbeit schreiben – 5 praktische Tipps vom Profi'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/wissenschaftliche-hausarbeit
-                  target: _blank
-                  rel: 'noopener noreferrer'
-            text: 'Alles über wissenschaftliche Hausarbeiten'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/ghostwriter-agentur
-                  target: _blank
-                  rel: 'noopener noreferrer'
-            text: 'Video: Worauf Du bei einer Ghostwriter Agentur achten solltest'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
+                  align: center
             text: 'Weitere Links & Referenzen'
       -
         type: paragraph
@@ -1826,6 +1405,10 @@ replicator:
           -
             type: text
             marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
               -
                 type: link
                 attrs:
@@ -1835,9 +1418,18 @@ replicator:
             text: 'Leitfaden zum Verfassen einer wissenschaftlichen Hausarbeit - Universität Bonn'
           -
             type: hard_break
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
           -
             type: text
             marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
               -
                 type: link
                 attrs:
@@ -1847,9 +1439,18 @@ replicator:
             text: 'Leitfaden für das Verfassen von Jura Hausarbeiten - Goethe Universität Frankfurt am Main'
           -
             type: hard_break
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
           -
             type: text
             marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
               -
                 type: link
                 attrs:
@@ -1859,9 +1460,18 @@ replicator:
             text: 'Leitfaden zum Verfassen einer Hausarbeit - Uni Potsdam'
           -
             type: hard_break
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
           -
             type: text
             marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
               -
                 type: link
                 attrs:
@@ -1878,6 +1488,10 @@ replicator:
               -
                 type: bold
               -
+                type: textAlign
+                attrs:
+                  align: center
+              -
                 type: link
                 attrs:
                   href: /wiki
@@ -1889,7 +1503,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634684207
+updated_at: 1635166333
 template: default
 use_meta_keywords: false
 no_index_page: false
