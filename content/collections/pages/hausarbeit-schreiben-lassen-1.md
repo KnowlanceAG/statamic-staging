@@ -203,19 +203,82 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Aufgrund der häufig überfordernden Studien- und Privatplanung kommt es regelmäßig dazu, dass sich Studenten eine Mustervorlage für ihre wissenschaftliche Hausarbeit schreiben lassen. Oft geschieht es direkt zu Beginn einer Texterstellung, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, der Gliederung oder dem Exposé, dass sich Studenten eine Mustervorlage für Ihre Hausarbeit kaufen.'
+                    text: 'Aufgrund der häufig überfordernden Studien- und Privatplanung kommt es regelmäßig dazu, dass sich Studenten eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Mustervorlage für ihre wissenschaftliche Hausarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '. Oft geschieht es direkt zu Beginn einer Texterstellung, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, der Gliederung oder dem Exposé, dass sich Studenten eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Mustervorlage für Ihre Hausarbeit kaufen'
+                  -
+                    type: text
+                    text: .
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Zudem ist es möglich, den Ghostwriter zur Betreuung der Hausarbeit einzusetzen und ihn während des gesamten Prozesses unterstützend agieren zu lassen. Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, die Hausarbeit Korrekturlesen zu lassen. Neben dem Korrektorat und Lektorat der wissenschaftlichen Arbeit, kann zusätzlich eine umfassende Plagiatsprüfung mit Plagiatssoftware erfolgen.'
+                    text: 'Zudem ist es möglich, den Ghostwriter zur '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Betreuung der Hausarbeit einzusetzen'
+                  -
+                    type: text
+                    text: ' und ihn während des gesamten Prozesses unterstützend agieren zu lassen. Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'die Hausarbeit Korrekturlesen zu lassen'
+                  -
+                    type: text
+                    text: '. Neben dem Korrektorat und Lektorat der wissenschaftlichen Arbeit, kann zusätzlich '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'eine umfassende Plagiatsprüfung '
+                  -
+                    type: text
+                    text: 'mit Plagiatssoftware erfolgen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ein professionelle Unterstützung bei der ersten Hausarbeit durch akademische Ghostwriter zu Studienbeginn ist besonders ratsam. Zu diesem Zeitpunkt kommt es aufgrund mangelnder Erfahrung zu Flüchtigkeitsfehler beim Schreiben oder Umgang mit wissenschaftlichen Quellen passieren können. Hier fehlt es oft an Hilfestellung bei der Hausarbeit seitens der Betreuer, Professoren und Universitäten.'
+                    text: 'Ein professionelle Unterstützung bei der ersten Hausarbeit durch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'akademische Ghostwriter'
+                  -
+                    type: text
+                    text: ' zu Studienbeginn ist besonders ratsam. Zu diesem Zeitpunkt kommt es aufgrund mangelnder Erfahrung zu Flüchtigkeitsfehler beim Schreiben oder im Umgang mit wissenschaftlichen Quellen passieren können. Hier fehlt es oft an '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Hilfestellung bei der Hausarbeit'
+                  -
+                    type: text
+                    text: ' seitens der Betreuer, Professoren und Universitäten.'
             show_as_card: false
         type: row
         enabled: true
@@ -1089,13 +1152,19 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Hausarbeit schreiben lassen - Was erwartet Sie?'
+                    text: 'Was erwartet Sie bei einer Ghostwriter Hausarbeit?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird diese Hilfe nicht geboten, bietet sich die Option, dass sich Studierende eine Mustervorlage von einem Ghostwriter für ihre Hausarbeit schreiben lassen. Diese Ghostwriting-Hausarbeit kann anschließend als Beispiel unterstützend genutzt werden.'
+                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird diese Hilfe nicht geboten, bietet sich die Option, dass sich Studierende eine Mustervorlage von einem Ghostwriter für ihre Hausarbeit schreiben lassen. Diese Ghostwriting-Hausarbeit kann anschließend als Beispiel unterstützend genutzt werden. Um Ihnen eine bessere Vorstellung davon zu geben, was Sie von unserer Schreibagentur erhalten, stellen wir Ihnen im Folgenden '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'ein Ghostwriting Beispiel zum kostenlosen Download bereit:'
             show_as_card: false
         type: row
         enabled: true
@@ -1221,57 +1290,6 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Häufig gestellte Fragen'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: accordion-wrapper
-                    items:
-                      -
-                        headline: 'Darf ich die erstellte Mustervorlage als eigene Hausarbeit abgeben?'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Hausarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch.'
-                        active: false
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
                     text: 'Wann sollten Sie sich unterstützen lassen?'
               -
                 type: paragraph
@@ -1352,6 +1370,57 @@ replicator:
                   -
                     type: text
                     text: ' aus.'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Häufig gestellte Fragen'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: accordion-wrapper
+                    items:
+                      -
+                        headline: 'Darf ich die erstellte Mustervorlage als eigene Hausarbeit abgeben?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Hausarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch.'
+                        active: false
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1503,7 +1572,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1635166365
+updated_at: 1635167176
 template: default
 use_meta_keywords: false
 no_index_page: false
