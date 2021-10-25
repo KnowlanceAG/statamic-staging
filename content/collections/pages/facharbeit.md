@@ -156,7 +156,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /seminararbeit-schreiben-lassen
+                  href: /arbeiten/seminararbeit-schreiben-lassen
                   target: null
                   rel: null
             text: Seminararbeit
@@ -1748,7 +1748,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1635196199
+updated_at: 1635196246
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
