@@ -222,6 +222,69 @@ replicator:
             type: text
             text: 'Warum eine Ghostwriting Agentur?'
       -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/ghostwriting-agentur/kommunikation.png
+            img_size: w-1/2
+            float: float-right
+      -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/ghostwriting-agentur/professoren.png
+            img_size: w-1/2
+            float: float-right
+      -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/ghostwriting-agentur/kurze-bearbeitungszeit.png
+            img_size: w-1/2
+            float: float-right
+      -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/ghostwriting-agentur/wissen.png
+            img_size: w-1/2
+            float: float-right
+      -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/ghostwriting-agentur/leistungen.png
+            img_size: w-1/2
+            float: float-right
+      -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/ghostwriting-agentur/leistungen1.png
+            img_size: w-1/2
+            float: float-right
+      -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/ghostwriting-agentur/ghostwritingpacket.png
+            img_size: w-1/2
+            float: float-right
+      -
         type: paragraph
         content:
           -
@@ -311,73 +374,6 @@ replicator:
           -
             type: text
             text: '. Eine professionelle Schreibagentur stellt sicher, dass Ihr wissenschaftlicher Text von einem unabhängigen Lektor mit Fachwissen korrigiert wird. Dieser benötigt wiederum geringere Qualifikationen als ein Ghostwriter, welcher eine Musterarbeit selbstständig verfasst.'
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/kommunikation.png
-            img_size: w-1/2
-            float: float-right
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/professoren.png
-            img_size: w-1/2
-            float: float-right
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/kurze-bearbeitungszeit.png
-            img_size: w-1/2
-            float: float-right
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/wissen.png
-            img_size: w-1/2
-            float: float-right
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/leistungen.png
-            img_size: w-3/4
-            float: float-left
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/leistungen1.png
-            img_size: w-3/4
-            float: float-right
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/ghostwritingpacket.png
-            img_size: w-3/4
-            float: float-left
-      -
-        type: paragraph
-      -
-        type: paragraph
       -
         type: heading
         attrs:
@@ -538,7 +534,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635154590
+updated_at: 1635154692
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
