@@ -61,15 +61,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: 2
-              -
-                type: set
-                attrs:
-                  values:
                     type: insert_html
                     html: |-
-                      <p style="font-size:18px">
+                      <p style="font-size:18px" align="center">
                       Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Hausarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Hausarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
                       </p>
               -
@@ -77,13 +71,11 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: 2
-              -
-                type: paragraph
+                    padding-y: '30'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -1649,7 +1641,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1635169726
+updated_at: 1635171247
 template: default
 use_meta_keywords: false
 no_index_page: false
