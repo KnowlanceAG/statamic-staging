@@ -1357,16 +1357,12 @@ replicator:
                   -
                     type: text
                     text: ' aus.'
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
               -
                 type: set
                 attrs:
@@ -1611,7 +1607,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1635169071
+updated_at: 1635169280
 template: default
 use_meta_keywords: false
 no_index_page: false
