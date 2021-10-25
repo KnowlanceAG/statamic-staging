@@ -319,7 +319,7 @@ replicator:
             dateien:
               - seiten/ghostwriting-agentur/kommunikation.png
             img_size: w-3/4
-            float: mx-auto
+            float: float-left
       -
         type: set
         attrs:
@@ -328,7 +328,7 @@ replicator:
             dateien:
               - seiten/ghostwriting-agentur/professoren.png
             img_size: w-3/4
-            float: mx-auto
+            float: float-right
       -
         type: set
         attrs:
@@ -337,7 +337,7 @@ replicator:
             dateien:
               - seiten/ghostwriting-agentur/kurze-bearbeitungszeit.png
             img_size: w-3/4
-            float: mx-auto
+            float: float-left
       -
         type: set
         attrs:
@@ -346,7 +346,7 @@ replicator:
             dateien:
               - seiten/ghostwriting-agentur/wissen.png
             img_size: w-3/4
-            float: mx-auto
+            float: float-right
       -
         type: set
         attrs:
@@ -355,7 +355,7 @@ replicator:
             dateien:
               - seiten/ghostwriting-agentur/leistungen.png
             img_size: w-3/4
-            float: mx-auto
+            float: float-left
       -
         type: set
         attrs:
@@ -364,7 +364,7 @@ replicator:
             dateien:
               - seiten/ghostwriting-agentur/leistungen1.png
             img_size: w-3/4
-            float: mx-auto
+            float: float-right
       -
         type: set
         attrs:
@@ -373,7 +373,7 @@ replicator:
             dateien:
               - seiten/ghostwriting-agentur/ghostwritingpacket.png
             img_size: w-3/4
-            float: mx-auto
+            float: float-left
       -
         type: paragraph
       -
@@ -538,7 +538,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635154444
+updated_at: 1635154527
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
