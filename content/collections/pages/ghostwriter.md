@@ -45,7 +45,7 @@ teaser:
         spacing_top: false
 teaser_bg: seiten/header-so-funktionierts.jpeg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1626093956
+updated_at: 1634632719
 replicator:
   -
     bard:
@@ -75,6 +75,174 @@ replicator:
             type: text
             marks:
               -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Unsere unsichtbaren Textverfasser sind im Alltag häufig Doktoren und Professoren. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten. Aufgrund ihrer praktischen Erfahrung und fachlichen Kenntnisse in ihrem jeweiligen Fachbereich können diese Sie zu jedem Zeitpunkt der Texterstellung unterstützen. Unsere '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /ghostwriting/ghostwriting-agentur
+                  target: null
+                  rel: null
+            text: 'professionelle Ghostwriter-Agentur'
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ' arbeitet ausschließlich mit hochqualifizierten Akademikern zusammen, die versiert und zuverlässig Mustervorlagen für unterschiedliche wissenschaftliche Aufgaben (Hochschularbeiten, Abschlussarbeiten, Businesspläne, '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/praesentationen
+                  target: null
+                  rel: null
+            text: Präsentationen
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ' etc.) nach Kundenwünschen erstellen.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Unsere anonymen Autoren bieten zu vielen wissenschaftlichen Themenbereichen professionelle Unterstützung an: bei der Textüberarbeitung, Formulierung von Texten, Literaturrecherche, Themenfindung, Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederung sein. Diese Unterstützung kann neben der Erstellung von Mustervorlagen auch durch Coaching sowie Beratung erfolgen. Wir finden für Sie rund um das Thema „wissenschaftliches Arbeiten“ für jede Aufgabenstellung passende Fachautoren als Hilfestellung, wenn Sie eine Mustervorlage für Ihre '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/hausarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Hausarbeit
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/seminararbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Seminararbeit
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Bachelorarbeit
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ' und '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/masterarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Masterarbeit
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ' schreiben lassen möchten.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
                 type: bold
             text: 'Wenn Sie Unterstützung durch einen Ghostwriter benötigen, dann können Sie uns gerne sofort eine '
           -
@@ -95,6 +263,15 @@ replicator:
               -
                 type: bold
             text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+      -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/arbeiten/hausarbeit/ghostwriter.jpg
+            img_size: w-full
+            float: mx-auto
       -
         type: heading
         attrs:
@@ -121,7 +298,7 @@ replicator:
             text: Ghostwriting
           -
             type: text
-            text: ' handelt es sich um das Verfassen von Mustervorlagen für wissenschaftliche Texte nach individuellen Vorgaben der Kunden. Dabei kann es sich um die Vorlage für eine Masterarbeit oder Dissertation handeln., auch kommt es häufig dazu, dass sich Studenten Mustervorlagen für die eigene '
+            text: ' handelt es sich um das Verfassen von Mustervorlagen für wissenschaftliche Texte nach individuellen Vorgaben der Kunden. Dabei kann es sich um die Vorlage für eine Hausarbeit, Seminararbeit, Masterarbeit oder Dissertation handeln., auch kommt es häufig dazu, dass sich Studenten Mustervorlagen für die eigene '
           -
             type: text
             marks:
@@ -136,6 +313,102 @@ replicator:
             type: text
             text: '. Allerdings beschränkt sich akademisches Ghostwriting nicht auf das eben beschriebene Gebiet. Unter akademischem Ghostwriting versteht man weiterhin die Erstellung von wissenschaftlichen Grundlagentexten für ein fokussiertes Forschungsgebiet, Übernahme und Dokumentation der Literaturrecherche zu einem bestimmten Thema oder auch dem Verfassen von Fachartikeln. Weiterhin beauftragen teilweise auch große Unternehmen akademische Ghostwriter mit der Erstellung von wissenschaftlich fundierten Texten für geschäftliche Zwecke.'
       -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Das Professionelle Leistungspacket von Ghostwriter, die nach Kundenanforderungen Mustervorlagen für geschäftliche und akademischen Zwecken verfassen, beinhaltet weitere Leistungsbereiche, wie das '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /korrektorat
+                  target: null
+                  rel: null
+            text: Korrektorat
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /lektorat
+                  target: null
+                  rel: null
+            text: Lektorat
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: ' und '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /leistungen/plagiatspruefung
+                  target: null
+                  rel: null
+            text: Plagiatsprüfung
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: '. Ebenfalls ist es möglich diese Optionen zum Beispiel Lektoratsservice oder Korrektorat in jedem Abschnitt in Anspruch zu nehmen.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Die Korrekturen in der Arbeit dienen dazu, um grammatikalische und syntaktische Fehler zu vermeiden sowie korrekte und wissenschaftliche Sätze zu formulieren. Schließlich wird die Musterarbeit von einem Fachautoren im Leistungsbereich Lektorat und Korrektorat überprüft. Nach den Korrekturen kann eine umfassende Plagiatsprüfung erfolgen. Besonders Studenten entscheiden sich für diese kompakten Leistungen, um eine Musterarbeit vollständig für ihre Hausarbeit, Seminararbeit, Bachelorarbeit oder Masterarbeit schreiben lassen zu können.'
+      -
         type: heading
         attrs:
           level: 2
@@ -148,7 +421,73 @@ replicator:
         content:
           -
             type: text
-            text: 'Ein häufiges Problem im heutigen Ghostwriting Markt ist es, einen professionellen und seriösen Ghostwriter finden zu können, ohne dabei an einen sogenannten Hobbyschreiber oder gar eine zwielichtige Agentur zu geraten, bei der man im schlimmsten Fall ein Plagiat oder eine aus einer anderen Sprache übersetzte Arbeit erhält. Um Sie und unsere Kunden zu schützen und zu informieren, haben wir hier eimal die wichtigsten Informationen zusammengestellt, damit Sie auch für Ihr Projekt garantiert einen seriösen Ghostwriter finden.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Ein häufiges Problem im heutigen Ghostwriting Markt ist es, einen professionellen und seriösen Ghostwriter finden zu können, ohne dabei an einen sogenannten Hobbyschreiber oder gar eine zwielichtige Agentur zu geraten, bei der man im schlimmsten Fall ein Plagiat oder eine aus einer anderen Sprache übersetzte Arbeit erhält. Um Sie und unsere Kunden zu schützen und zu informieren, haben wir hier einmal die wichtigsten Informationen zusammengestellt, damit Sie auch für Ihr Projekt garantiert einen seriösen Ghostwriter finden. Eine seriöse Ghostwriting Agentur arbeitet mit zertifizierten Ghostwritern aus jedem Fachbereich. Wenn Sie zum Beispiel Physik studieren, beauftragt unser professioneller Schreibservice ausschließliche ausgebildete Physiker für Ihre Projekte, keinesfalls Hobbyschreiber.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Zudem spielt eine seriöse Schreibagentur eine wichtige Rolle beim Finden eines geeigneten akademischen Ghostwriters. Eine Agentur für Ghostwriter verfügt, wenn sie als seriös einzustufen ist, über einen weitreichenden Pool von Ghostwritern. Aus diesem können genau die Schreiber ausgewählt werden, die die erforderlichen Qualifikationen für die jeweilige Aufgabe mitbringen, sei es die erforderliche fachliche Kompetenz oder auch das Wissen, wie die vorliegenden Daten statistisch ausgewertet oder welche akademischen Formalia eingehalten werden müssen. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Darüber hinaus stellt eine Schreibagentur viele professionelle Programmen kostenlos an einem Ghostwriter zur Verfügung, wie Plagiatssoftware, Zugriff auf relevanten Datenbanken/ Fachzeitschriften, automatisierten Zitiersystemen sowie Programme für quantitative Auswertungen oder qualitative Inhaltsanalysen wie SPSS und '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /leistungen/maxqda-auswertung
+                  target: null
+                  rel: null
+            text: MAXQDA
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: '. Für inhaltliche Korrekturen einer Musterarbeit, beauftragt eine akademische Dienstleistung einen unabhängigen professionellen Lektor.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Akademische Ghostwriter oder Ghostwriterinnen schreiben nicht nur wissenschaftliche Musterarbeiten, einen Ghostwriter kann man auch für das Zeichnen beauftragen, genauer gesagt für das Erstellen technischer Zeichnungen. Besonders im Architekturstudium oder Ingenieursstudium möchten Studierende Musterzeichnungen für ihre Abgaben erstellen lassen.'
       -
         type: set
         attrs:

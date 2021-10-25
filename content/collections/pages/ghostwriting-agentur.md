@@ -1,5 +1,6 @@
 ---
 id: fdceae47-e359-46a5-a28e-9b4b7e1163aa
+blueprint: pages
 title: 'Ghostwriting Agentur'
 teaser:
   -
@@ -51,7 +52,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Häufig suchen Akademiker jemanden, der sie beim Erstellen wissenschaftlicher Texte unterstützt, ihnen ein Grundkonzept für eine akademische Arbeit erstellt oder Ihnen das Schreiben durch die Erstellung von Mustervorlagen erheblich erleichtert. So wird jemand für das Verfassen eben dieser Vorlage einer Haus- oder Diplomarbeit gesucht oder eine Unterstützung bei der Bachelorarbeit oder der Dissertation. Es wird ein '
+            text: 'Häufig suchen Akademiker jemanden, der sie beim Erstellen wissenschaftlicher Texte unterstützt, ihnen ein Grundkonzept für eine akademische Arbeit erstellt oder Ihnen das Schreiben durch die Erstellung von Mustervorlagen erheblich erleichtert. So wird jemand für das Verfassen eben dieser Vorlage einer Hausarbeit, Seminararbeit, Bachelorarbeit, Doktorarbeit bzw. Dissertation oder Diplomarbeit gesucht oder eine Unterstützung bei dem Geschäftsplan oder dem Geschäftsbericht. Es wird ein '
           -
             type: text
             marks:
@@ -91,7 +92,46 @@ replicator:
             text: 'Zeitdruck in einem modernen Studium'
           -
             type: text
-            text: ' im Bachelor- und Mastersystem nach der Bolognareform. Aber es gibt auch andere Gründe, wie etwa fehlende Sprachkenntnisse oder eine Schreibblockade. Daher bieten '
+            text: ' im Bachelor- und Mastersystem nach der Bolognareform. '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Aber es gibt auch andere Gründe, wie etwa fehlende Sprachkenntnisse, falscher Schreibstil, eine Schreibschwäche oder eine Schreibblockade.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Grade die Studienarbeiten wie Hausarbeiten und Seminararbeiten sind eine gute Vorbereitung auf die Abschlussarbeit (Bachelorarbeit und Masterarbeit). Allerdings haben besonders Studienanfänger Schwierigkeiten beim Schreiben einer Hausarbeit oder Seminararbeit, da sie vorher in ihrer Schulzeit noch nicht mit solchen Aufgabenstellungen konfrontiert worden sind.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Durch die fehlende Unterstützung im Universitätsalltag haben viele Studenten Problemen bei der Themenfindung, der Forschungsfrage und der Literaturrecherche. Aber auch beim Aufbau einer wissenschaftlichen Arbeit wie Bachelorarbeiten, deren Exposé und der Erstellung von Präsentation oder Vorträgen. Hier suchen viele Studierende nach seriösen und authentischen Ghostwriting Agenturen.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Daher bieten '
           -
             type: text
             marks:
@@ -131,12 +171,48 @@ replicator:
             marks:
               -
                 type: bold
-            text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+            text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten ('
           -
-            type: hard_break
+            type: text
+            text: 'Bachelorarbeit, Masterarbeit, Doktorarbeit, Diplomarbeit) '
+          -
+            type: text
             marks:
               -
                 type: bold
+            text: 'oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Zusammenarbeit mit qualifizierten Ghostwriter'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Unsere seriöse Schreibagentur GWriters arbeitet mit akademischen Experten zusammen, die als wissenschaftlich erfahrene Sprachexperten zu jedem Zeitpunkt des Schreibprozesses eine Unterstützung anbieten. Denn unsere qualifizierten Autoren sind im alltäglichen Leben oft als Professoren und Doktoren beschäftigt. Diese setzen sich tagtäglich mit wissenschaftlichen Aufgabenstellungen auseinander und verfügen über viele Jahre Erfahrungen in ihrem jeweiligen Themenfeld.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'In der akademischen Biografie eines Ghostwriters findet sich eine Vielzahl praktischer und theoretischer Erfahrungen in der wissenschaftlichen Branche. Dadurch haben Studierende die Möglichkeit, akademische Ghostwriter im Laufe der Schreibphase um einen Rat oder Tipp bzgl. der methodischen Umsetzung des eigenen Projekts zu fragen. Selbst wenn ein Student sich dazu entscheidet, eigenständig zu arbeiten, ist es bei einer wissenschaftlichen Aufgabenstellung ratsam, den verfassten Text zur Korrektur abzugeben und von einem Lektoratsservice überprüfen zu lassen.'
       -
         type: heading
         attrs:
@@ -146,11 +222,80 @@ replicator:
             type: text
             text: 'Warum eine Ghostwriting Agentur?'
       -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/ghostwriting-agentur/kommunikation.png
+            img_size: w-1/2
+            float: float-right
+      -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/ghostwriting-agentur/professoren.png
+            img_size: w-1/2
+            float: float-right
+      -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/ghostwriting-agentur/kurze-bearbeitungszeit.png
+            img_size: w-1/2
+            float: float-right
+      -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/ghostwriting-agentur/wissen.png
+            img_size: w-1/2
+            float: float-right
+      -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/ghostwriting-agentur/leistungen.png
+            img_size: w-1/2
+            float: float-right
+      -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/ghostwriting-agentur/leistungen1.png
+            img_size: w-1/2
+            float: float-right
+      -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/ghostwriting-agentur/ghostwritingpacket.png
+            img_size: w-1/2
+            float: float-right
+      -
         type: paragraph
         content:
           -
             type: text
-            text: 'Eine Agentur für Ghostwriter, eine sogenannte Ghostwriting Agentur, verfügt, wenn sie als seriös einzustufen ist, über einen Pool von Ghostwritern. Aus diesem können die Schreiber ausgewählt werden, die die erforderlichen Qualifikationen für die jeweilige Aufgabe mitbringen, sei es die erforderliche fachliche Kompetenz oder auch das Wissen, welche akademischen Formalia eingehalten werden müssen. Akademisches Ghostwriting erfordert oft einen möglichst großen Pool ausgewählter Autoren, da der bei wissenschaftlichen Arbeiten erforderliche hohe Spezialisierungsgrad einen Fachmann auf dem spezifischen Gebiet erfordert. Doch wie findet man am besten jemanden der diesen hohen Ansprüchen gerecht wird? Eine offene Suche kann sich als riskant erweisen, da ein solches Thema mit äußerster Diskretion behandelt werden sollte.'
+            text: 'Eine Agentur für Ghostwriter, eine sogenannte Ghostwriting Agentur, verfügt, wenn sie als seriös einzustufen ist, über einen Pool von Ghostwritern. Aus diesem können die Schreiber ausgewählt werden, die die erforderlichen Qualifikationen für die jeweilige Aufgabe mitbringen, sei es die erforderliche fachliche Kompetenz oder auch das Wissen, welche akademischen Formalia eingehalten werden müssen. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Akademisches Ghostwriting erfordert oft einen möglichst großen Pool ausgewählter Autoren, da der bei wissenschaftlichen Arbeiten erforderliche hohe Spezialisierungsgrad einen Fachmann aus dem spezifischen Bereich erfordert. Doch wie findet man am besten jemanden der diesen hohen Ansprüchen gerecht wird? Eine offene Suche kann sich als riskant erweisen, da ein solches Thema mit äußerster Diskretion behandelt werden sollte.'
       -
         type: paragraph
         content:
@@ -169,7 +314,27 @@ replicator:
             text: Abzock-Angebote
           -
             type: text
-            text: ', die eine Mustervorlage für eine akademische Arbeit nicht in der notwenigen Güte verfassen können. Vor diesen Kriminellen kann man sich durch das Beauftragen einer seriösen Agentur für Ghostwriter schützen. Eine seriöse Ghostwriting Agentur nimmt dem Auftraggeber die Arbeit ab, sich einen Ghostwriter suchen, dessen Kompetenzen und Qualifikationen auf die eigenen Bedürfnisse zugeschnitten sind. Sie kann aus einem breiten Band von Mitarbeitern genau den Ghostwriter finden, der den jeweiligen Ansprüchen an wissenschaftlicher Qualität genügt. Meist bieten Ghostwriting Agenturen auch ein Korrektorat oder '
+            text: ', die eine Musterarbeit für eine akademische Arbeit nicht in der notwenigen Güte verfassen können. Vor diesen Kriminellen kann man sich durch das Beauftragen einer seriösen Agentur für Ghostwriter schützen. '
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Weitere professionelle Leistungen- Ghostwriting Agentur'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Eine seriöse und vertraute Ghostwriting Agentur nimmt dem Auftraggeber die Arbeit ab, sich einen Ghostwriter suchen, dessen Kompetenzen und Qualifikationen auf die eigenen Bedürfnisse zugeschnitten sind. Sie kann aus einem breiten Band von Mitarbeitern genau den Ghostwriter finden, der den jeweiligen Ansprüchen an wissenschaftlicher Qualität genügt. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Meist bieten Ghostwriting Agenturen auch ein Korrektorat oder '
           -
             type: text
             marks:
@@ -208,7 +373,7 @@ replicator:
             text: Lektor
           -
             type: text
-            text: '. Dieser benötigt wiederum geringere Qualifikationen als ein Ghostwriter, welcher eine Mustervorlage selbstständig verfasst.'
+            text: '. Eine professionelle Schreibagentur stellt sicher, dass Ihr wissenschaftlicher Text von einem unabhängigen Lektor mit Fachwissen korrigiert wird. Dieser benötigt wiederum geringere Qualifikationen als ein Ghostwriter, welcher eine Musterarbeit selbstständig verfasst.'
       -
         type: heading
         attrs:
@@ -222,7 +387,37 @@ replicator:
         content:
           -
             type: text
-            text: 'Eine Agentur kann ein wichtiger Ansprechpartner bei der Absolvierung eines Studiums sein. Im Studium schreiben Studenten Prüfungen und Klausuren in mehreren Fächern. Ein einzelner Ghostwriter kann kaum in der Lage sein, alle diese Fächer sicher zu beherrschen. Bei einer seriösen Ghostwriting Agentur haben Sie als Kunde die Möglichkeit, alle Leistungen aus einer Hand zu bekommen. Hat man bereits gute Erfahrungen mit einer Agentur gemacht, so muss man sich für eine Mustervorlage für ein anderes Thema nicht mühsam einen neuen Schreiber suchen, das erledigt die Agentur.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Eine Agentur kann ein wichtiger Ansprechpartner beim Universitätsabschluss sein, besonders bei einer wissenschaftlichen Texterstellung. Im Studium schreiben Studenten Prüfungen und Klausuren in mehreren Fachrichtungen. Ein einzelner Ghostwriter kann kaum in der Lage sein, alle diese Fachbereiche sicher zu beherrschen. Bei einer seriösen Ghostwriting Agentur haben Sie als Kunde die Möglichkeit, alle Leistungen wie das Ghostwriting, Korrektorat, Lektorat oder Plagiatsprüfungen in allen Fachbereichen wie Sozialwissenschaften, BWL etc. aus einer Hand zu erhalten. Hat man bereits gute Erfahrungen mit einer Agentur gemacht, so muss man sich für eine Mustervorlage für ein anderes Thema nicht mühsam einen neuen Schreiber suchen, das erledigt die vertraute Agentur.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Eine Ghostwriting Agentur vermittelt für jede Fachrichtung und Leistung professionelle Ghostwriter. Sie arbeitet mit vielen Fachautoren zusammen. Wenn zum Beispiel ein Student an einem Hochschulstudium BWL studiert und eine Mustervorlage in diesem Themenfeld brauchen, wird aus vielen zertifizierten Ghostwriter aus dieser Branche der passende Ghostwriter ausgewählt und beauftragt.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Bei der Beauftragung eines Ghostwriters ist es wichtig vorher zu wissen, wann der Abgabetermin einer Abschlussarbeit ist. So kann genügend Zeit für die Erstellung der eigenen Arbeit eingeplant werden. Aber auch bei einer kurzen Bearbeitungszeit findet ein seriöser Schreibservice den passenden Ghostwriter für Sie. Außerdem stellt eine Agentur den Auftragsschreibern auch eine Reihe professioneller Programme kostenlos zur Verfügung, bspw. den Zugriff auf relevanten Datenbanken, Plagiatssoftwares, automatische Zitiersysteme sowie quantitative und qualitative Analysesoftwares wie SPSS, Stata, R oder MAXQDA.'
       -
         type: horizontal_rule
       -
@@ -241,7 +436,13 @@ replicator:
         content:
           -
             type: text
-            text: 'Aber auch unter anderen Umständen kann eine Agentur von Nutzen sein. Ist man beispielsweise mit Schreibstil oder Umsetzung der Mustervorlage unzufrieden sind seriöse Agenturen in der Lage einen anderen Verfasser für die Mustervorlage für die akademische Arbeit bereitzustellen. Dies ist natürlich auch möglich, sollte es auf Seiten des Ghostwriters zu Problemen kommen, sodass er die Arbeit nicht fertigstellen kann, beispielsweise ein Krankheitsfall. Die Ghostwriting Agentur ist also Vermittler zwischen Auftraggeber und dem Ghostwriter und sichert die Qualität, Quantität sowie pünktliche Bearbeitung, die so eine wissenschaftliche Abgabe erfordern.'
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: 'Aber auch unter anderen Umständen kann eine vertraute Agentur von Nutzen sein. Ist man beispielsweise mit Schreibstil oder Umsetzung der Mustervorlage unzufrieden sind seriöse Agenturen in der Lage einen anderen Verfasser für die Mustervorlage für die akademische Aufgabenstellung bereitzustellen. Dies ist natürlich auch möglich, sollte es auf Seiten des Ghostwriters zu Problemen kommen, sodass er die Arbeit nicht fertigstellen kann, beispielsweise ein Krankheitsfall. Die Ghostwriting Agentur ist also Vermittler zwischen Auftraggeber und dem Ghostwriter und garantiert die Sicherheit, die Qualität, die Quantität sowie einen pünktlichen Abgabetermin, die so eine wissenschaftliche Abgabe erfordern.'
       -
         type: heading
         attrs:
@@ -333,7 +534,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623343028
+updated_at: 1635154747
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
