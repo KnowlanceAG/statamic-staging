@@ -1347,20 +1347,7 @@ replicator:
                     text: 'Unsere Experten kennen in ihrem Fachbereich immer den aktuellen Forschungsstand'
                   -
                     type: text
-                    text: ' und haben Zugriff auf die notwendigen Literatur-Datenbanken. Wir arbeiten zudem mit modernster Analyse Software wie SPSS, Stata oder R für statistische Analysen sowie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/maxqda-auswertung
-                          target: null
-                          rel: null
-                    text: MAXQDA
-                  -
-                    type: text
-                    text: ' für qualitative Analysen. Dies zeichnet eine '
+                    text: ' und haben Zugriff auf die notwendigen Literatur-Datenbanken. Wir arbeiten zudem mit modernster Analyse Software wie SPSS, Stata oder R für statistische Analysen sowie MAXQDA für qualitative Analysen. Dies zeichnet eine '
                   -
                     type: text
                     marks:
@@ -1370,6 +1357,28 @@ replicator:
                   -
                     type: text
                     text: ' aus.'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1403,6 +1412,36 @@ replicator:
                   values:
                     type: accordion-wrapper
                     items:
+                      -
+                        headline: 'Welche Qualifikationen hat mein akademischer Ghostwriter?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Wir garantieren, dass es sich bei Ihrem Ghostwriter um einen absoluten Experten in Ihrem Fachgebiet handelt. In unserer Agentur setzen wir mindestens einen Masterabschluss voraus. Bei vielen unserer Ghostwriter handelt es sich aber um Doktoren und auch Professoren, die selbst noch in der Wissenschaft aktiv sind.'
+                        active: false
+                      -
+                        headline: 'Wie wird bei GWriters meine Anonymität sichergestellt?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO/GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts.'
+                        active: false
+                      -
+                        headline: 'Was kostet eine Mustervorlage für meine Hausarbeit?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Eine Mustervorlage für eine 10-seitige Hausarbeit erhalten Sie bereits ab 800 €. Die Preise pro Seite können aber noch variieren, abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen.'
+                        active: false
                       -
                         headline: 'Darf ich die erstellte Mustervorlage als eigene Hausarbeit abgeben?'
                         accordion_content:
@@ -1572,7 +1611,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1635167176
+updated_at: 1635169071
 template: default
 use_meta_keywords: false
 no_index_page: false
