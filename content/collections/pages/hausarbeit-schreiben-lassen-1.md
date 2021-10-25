@@ -884,6 +884,12 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1129,6 +1135,24 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
     remove_spacing: true
     is-full: false
     bg-toggle: false
@@ -1283,6 +1307,12 @@ replicator:
         grid:
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -1491,6 +1521,12 @@ replicator:
               - d61b6932-74b9-4ece-9da6-a54a1265c9a3
               - 3f184e1e-936d-431a-811d-566210ffea43
       -
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: '40'
+      -
         type: heading
         attrs:
           level: 2
@@ -1602,12 +1638,18 @@ replicator:
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
+      -
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: '40'
     type: editor
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1635169280
+updated_at: 1635169602
 template: default
 use_meta_keywords: false
 no_index_page: false
