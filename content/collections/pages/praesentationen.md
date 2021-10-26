@@ -362,7 +362,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /Korrektorat
+                  href: /korrektorat
                   target: null
                   rel: null
             text: Korrektorat
@@ -3022,8 +3022,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1633347643
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1635196302
 template: with-side-bar
 meta_title: 'GWriters • professionell Präsentation erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
