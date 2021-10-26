@@ -1,6 +1,5 @@
 ---
 id: cb0a74d3-ed84-4dad-b3a7-c368aec13800
-published: false
 blueprint: pages
 title: 'Hausarbeit (Dupliziert)'
 teaser:
@@ -1428,10 +1427,18 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: accordion-wrapper
+                    type: accordion-custom-wrapper
                     items:
                       -
-                        headline: 'Welche Qualifikationen hat mein akademischer Ghostwriter?'
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Welche Qualifikationen hat mein akademischer Ghostwriter?'
                         accordion_content:
                           -
                             type: paragraph
@@ -1441,7 +1448,15 @@ replicator:
                                 text: 'Wir garantieren, dass es sich bei Ihrem Ghostwriter um einen absoluten Experten in Ihrem Fachgebiet handelt. In unserer Agentur setzen wir mindestens einen Masterabschluss voraus. Bei vielen unserer Ghostwriter handelt es sich aber um Doktoren und auch Professoren, die selbst noch in der Wissenschaft aktiv sind.'
                         active: false
                       -
-                        headline: 'Wie wird bei GWriters meine Anonymität sichergestellt?'
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Wie wird bei GWriters meine Anonymität sichergestellt?'
                         accordion_content:
                           -
                             type: paragraph
@@ -1451,7 +1466,15 @@ replicator:
                                 text: 'Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO/GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts.'
                         active: false
                       -
-                        headline: 'Was kostet eine Mustervorlage für meine Hausarbeit?'
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Was kostet eine Mustervorlage für meine Hausarbeit?'
                         accordion_content:
                           -
                             type: paragraph
@@ -1461,7 +1484,15 @@ replicator:
                                 text: 'Eine Mustervorlage für eine 10-seitige Hausarbeit erhalten Sie bereits ab 800 €. Die Preise pro Seite können aber noch variieren, abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen.'
                         active: false
                       -
-                        headline: 'Darf ich die erstellte Mustervorlage als eigene Hausarbeit abgeben?'
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Darf ich die erstellte Mustervorlage als eigene Hausarbeit abgeben?'
                         accordion_content:
                           -
                             type: paragraph
@@ -1640,8 +1671,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1635172161
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1635261958
 template: default
 use_meta_keywords: false
 no_index_page: false
