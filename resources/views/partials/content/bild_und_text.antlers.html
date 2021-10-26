@@ -7,7 +7,7 @@
             src="{{ url }}" {{ if alt }} alt="
           {{ bild:alt }}" {{ /if }}>
         {{ else }}
-          {{ responsive:bild alt="{alt}" class="w-full h-auto" }}
+          {{ responsive:bild alt="{ alt }" class="h-auto mx-auto" glide:width="width" }}
         {{ /if }}
       {{ /bild }}
     </div>
@@ -29,7 +29,7 @@
               src="{{ url }}" {{ if alt }} alt="
             {{ alt }}" {{ /if }}>
           {{ else }}
-            {{ responsive:bild alt="{ alt }" class="w-full h-auto" }}
+            {{ responsive:bild alt="{ alt }" class="h-auto mx-auto" glide:width="width" }}
           {{ /if }}
         {{ /bild }}
       </div>
