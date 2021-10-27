@@ -1244,6 +1244,8 @@ replicator:
                       - team/wittkamp_gwriters_ghostwriter_rund.png
                     img_size: w-1/2
                     float: mx-auto
+                    image_options:
+                      - no_upscale
               -
                 type: paragraph
               -
@@ -1672,7 +1674,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1635261958
+updated_at: 1635336201
 template: default
 use_meta_keywords: false
 no_index_page: false
