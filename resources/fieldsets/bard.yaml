@@ -149,6 +149,11 @@ fields:
           fields:
             -
               import: accordion
+        accordion-custom-wrapper:
+          display: 'Accordion Custom'
+          fields:
+            -
+              import: accordion_custom
         example_work:
           display: Beispielarbeiten
           fields:
@@ -163,6 +168,7 @@ fields:
       container: assets
       enable_input_rules: true
       enable_paste_rules: true
+      instructions_position: above
   -
     handle: show_as_card
     field:
