@@ -70,7 +70,7 @@ footer .bg-gray-500 .text-xs {
   font-size: 11px !important;
 }
 
-[class^="leading-"] {
+[class^='leading-'] {
   p {
     line-height: inherit;
   }
@@ -94,7 +94,7 @@ a.arrow {
 }
 
 a.arrow::after {
-  content: "";
+  content: '';
   width: 12px;
   height: 28px;
   position: absolute;
@@ -110,7 +110,8 @@ textarea {
   @apply p-2 w-full border border-gray-300 bg-white text-sm focus:outline-none;
 }
 
-input[type="file"] {}
+input[type='file'] {
+}
 
 select {
   @apply p-2 py-3 w-full border border-gray-300 bg-white text-sm focus:outline-none;
@@ -131,7 +132,6 @@ table {
       @apply hover:bg-gray-200;
 
       &:first-child {
-
         th,
         td {
           @apply border-0;
@@ -169,7 +169,6 @@ table {
 }
 
 .content {
-
   ul,
   ol {
     @apply pl-8 text-gray-550;
@@ -231,7 +230,6 @@ table {
   }
 }
 
-
 /* iframe styles */
 body.iframe {
   padding-top: 0px !important;
@@ -249,7 +247,6 @@ body.iframe {
   }
 
   form {
-
     p,
     h1 {
       display: block !important;
@@ -332,7 +329,7 @@ body.iframe {
   position: relative;
 
   &:before {
-    content: "";
+    content: '';
     position: absolute;
     top: 3px;
     left: 0;
@@ -445,12 +442,16 @@ body.ch {
 
 .accordion-custom {
   .header:hover {
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       @apply text-white;
     }
   }
 }
-
 
 .video-container {
   position: relative;
@@ -483,7 +484,7 @@ body.ch {
   width: 70px;
 }
 
-.spinner>div {
+.spinner > div {
   @apply bg-white inline-block rounded-full;
   width: 18px;
   height: 18px;
@@ -502,20 +503,18 @@ body.ch {
 }
 
 @-webkit-keyframes sk-bouncedelay {
-
   0%,
   80%,
   100% {
-    -webkit-transform: scale(0)
+    -webkit-transform: scale(0);
   }
 
   40% {
-    -webkit-transform: scale(1.0)
+    -webkit-transform: scale(1);
   }
 }
 
 @keyframes sk-bouncedelay {
-
   0%,
   80%,
   100% {
@@ -524,11 +523,10 @@ body.ch {
   }
 
   40% {
-    -webkit-transform: scale(1.0);
-    transform: scale(1.0);
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
-
 
 #cm {
   max-width: 36em !important;
