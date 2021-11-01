@@ -331,7 +331,7 @@ replicator:
                     bild:
                       - seiten/ghostwriting-agentur/dienstleistung2.png
                     text: |-
-                      **Verschiedene Leistungen:**
+                      **Verschiedene professionelle Leistungen:**
                       -Lektorat
                       -Korrektorat
                       -Plagiatsprüfung
@@ -638,7 +638,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635776963
+updated_at: 1635777041
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
