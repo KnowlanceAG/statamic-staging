@@ -616,7 +616,7 @@ replicator:
                       - seiten/ghostwriting-agentur/programme-kostenlos2.png
                     text: |
                       <br>
-                      **Kostenlose Zugriffe:**
+                      Kostenlose Zugriffe:
                       <br>
                       -SPSS
                       <br>
@@ -642,7 +642,7 @@ replicator:
                     text: |-
                       <br>
                       <br>
-                      Sichert **100% Anonymität **
+                      Sichert 100% Anonymität 
                       <br>(Ghostwriter & Auftraggeber)
                     ausrichtung: bild-text
               -
@@ -697,7 +697,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635776518
+updated_at: 1635776644
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
