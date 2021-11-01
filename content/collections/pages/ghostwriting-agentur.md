@@ -565,12 +565,6 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: set
-                attrs:
-                  values:
                     type: floating-img
                     dateien:
                       - seiten/ghostwriting-agentur/dienstleistung.png
@@ -579,53 +573,61 @@ replicator:
                     image_options:
                       - no_upscale
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Verschiedene Leistungen:'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '-Lektorat'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '-Korrektorat'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '-Plagiatsprüfung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '-Formatierung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '-MAXQDA Auswertung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '-Übersetzung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '-Promotionsberatung'
+                type: set
+                attrs:
+                  values:
+                    type: text_box-alignment
+                    bard:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Verschiedene Leistungen:'
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: '-Lektorat'
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: '-Korrektorat'
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: '-Plagiatsprüfung'
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: '-Formatierung'
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: '-MAXQDA Auswertung'
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: '-Übersetzung'
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: '-Promotionsberatung'
+                    text_ausrichtung: text-right
+                    column-count: false
             show_as_card: false
           -
             bard:
@@ -750,7 +752,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635772484
+updated_at: 1635772542
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
