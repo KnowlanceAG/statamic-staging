@@ -564,6 +564,12 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: set
+                attrs:
+                  values:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriting-agentur/ghostwriter-doktoren2.png
@@ -579,6 +585,12 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: set
+                attrs:
+                  values:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriting-agentur/interdiszipliniertes-wissen2.png
@@ -589,6 +601,12 @@ replicator:
                       <br>
                       in vielen Fachbereichen
                     ausrichtung: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
               -
                 type: set
                 attrs:
@@ -612,11 +630,26 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: set
+                attrs:
+                  values:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriting-agentur/kommunikation2.png
-                    text: 'Sichert 100% Anonymität (Ghostwriter & Auftraggeber)'
+                    text: |-
+                      <br>
+                      <br>
+                      Sichert 100% Anonymität (Ghostwriter & Auftraggeber)
                     ausrichtung: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
               -
                 type: set
                 attrs:
@@ -624,8 +657,17 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriting-agentur/bearbeitungszeit2.png
-                    text: 'Kurze Bearbeitungszeit'
+                    text: |-
+                      <br>
+                      <br>
+                      Kurze Bearbeitungszeit
                     ausrichtung: text-bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
               -
                 type: set
                 attrs:
@@ -654,7 +696,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635776068
+updated_at: 1635776298
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
