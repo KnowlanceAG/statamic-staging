@@ -564,10 +564,18 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '16'
+              -
+                type: set
+                attrs:
+                  values:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriting-agentur/ghostwriter-doktoren.png
                     text: |-
+                      <br>
+                      <br>
                       <br>
                       <br>
                       Arbeitet mit akademischenGhostwriter:
@@ -588,7 +596,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635773638
+updated_at: 1635773708
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
