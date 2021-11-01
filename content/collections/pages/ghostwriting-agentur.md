@@ -546,6 +546,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  enabled: false
                   values:
                     type: bild_und_text
                     bild:
@@ -567,7 +568,64 @@ replicator:
                     type: spacer
                     padding-y: '30'
               -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/ghostwriting-agentur/dienstleistung.png
+                    img_size: w-1/2
+                    float: float-left
+                    image_options:
+                      - no_upscale
+              -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Verschiedene Leistungen:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '-Lektorat'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '-Korrektorat'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '-Plagiatsprüfung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '-Formatierung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '-MAXQDA Auswertung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '-Übersetzung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '-Promotionsberatung'
             show_as_card: false
           -
             bard:
@@ -692,7 +750,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635772402
+updated_at: 1635772484
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
