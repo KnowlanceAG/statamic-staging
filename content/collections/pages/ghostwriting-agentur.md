@@ -564,20 +564,34 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '16'
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/ghostwriter-doktoren2.png
+                    text: |-
+                      <br>
+                      <br>
+                      Arbeitet mit akademischen Ghostwriter:
+                      -Doktoren
+                      -Professoren
+                    ausrichtung: text-bild
               -
                 type: set
                 attrs:
                   values:
                     type: bild_und_text
                     bild:
-                      - seiten/ghostwriting-agentur/ghostwriter-doktoren2.png
+                      - seiten/ghostwriting-agentur/interdiszipliniertes-wissen2.png
                     text: |-
-                      Arbeitet mit akademischen Ghostwriter:
-                      -Doktoren
-                      -Professoren
+                      <br>
+                      <br>
+                      Interdiszipliniertes Wissen 
+                      in vielen Fachbereichen
                     ausrichtung: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
               -
                 type: paragraph
             show_as_card: false
@@ -592,7 +606,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635774799
+updated_at: 1635775055
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
