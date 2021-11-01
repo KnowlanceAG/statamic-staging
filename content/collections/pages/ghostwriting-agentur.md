@@ -565,10 +565,10 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: '29'
               -
                 type: paragraph
-            show_as_card: false
+            show_as_card: true
           -
             bard:
               -
@@ -680,7 +680,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635772279
+updated_at: 1635772328
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
