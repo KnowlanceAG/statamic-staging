@@ -538,7 +538,7 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: '3'
+        columns_per_row: 1
         single-col: false
         grid:
           -
@@ -547,38 +547,31 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
-                    dateien:
-                      - seiten/ghostwriting-agentur/leistungen1.png
-                    img_size: w-full
-                    float: mx-auto
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating-img
-                    dateien:
-                      - seiten/ghostwriting-agentur/professoren.png
-                    img_size: w-full
-                    float: mx-auto
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/dienstleistung.png
+                    text: |-
+                      Verschiedene Leistungen:
+                      -Lektorat
+                      -Korrektorat
+                      -Plagiatsprüfung
+                      -Formatierung
+                      -MAXQDA Auswertung
+                      -Übersetzung
+                      -Promotionsberatung
+                    ausrichtung: bild-text
               -
                 type: set
                 attrs:
                   values:
-                    type: floating-img
-                    dateien:
-                      - seiten/ghostwriting-agentur/wissen.png
-                    img_size: w-full
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/ghostwriter-doktoren.png
+                    text: |-
+                      Arbeitet mit akademischenGhostwriter:
+                      -Doktoren
+                      -Professoren
+                    ausrichtung: text-bild
               -
                 type: paragraph
             show_as_card: false
@@ -593,7 +586,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635773298
+updated_at: 1635773556
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
