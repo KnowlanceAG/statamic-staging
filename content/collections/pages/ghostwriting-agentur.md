@@ -375,6 +375,8 @@ replicator:
             type: text
             text: '. Eine professionelle Schreibagentur stellt sicher, dass Ihr wissenschaftlicher Text von einem unabhängigen Lektor mit Fachwissen korrigiert wird. Dieser benötigt wiederum geringere Qualifikationen als ein Ghostwriter, welcher eine Musterarbeit selbstständig verfasst.'
       -
+        type: paragraph
+      -
         type: heading
         attrs:
           level: 2
@@ -532,9 +534,60 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/dienstleistung.png
+                    text: |-
+                      Verschiedene Leistungen:
+                      -Lektorat
+                      -Korrektorat
+                      -Plagiatsprüfung
+                      -Formatierung
+                      -MAXQDA Auswertung
+                      -Übersetzung
+                      -Promotionsberatung
+                    ausrichtung: bild-text
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/bearbeitungszeit.png
+                    text: 'Kurze Bearbeitungszeiten'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-image-fixed: false
+    border: true
+    type: add_section
+    enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635154747
+updated_at: 1635771852
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
