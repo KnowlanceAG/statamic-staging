@@ -546,24 +546,6 @@ replicator:
               -
                 type: set
                 attrs:
-                  enabled: false
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/ghostwriting-agentur/dienstleistung.png
-                    text: |-
-                      Verschiedene Leistungen:
-                      -Lektorat
-                      -Korrektorat
-                      -Plagiatsprüfung
-                      -Formatierung
-                      -MAXQDA Auswertung
-                      -Übersetzung
-                      -Promotionsberatung
-                    ausrichtung: bild-text
-              -
-                type: set
-                attrs:
                   values:
                     type: floating-img
                     dateien:
@@ -641,6 +623,24 @@ replicator:
               -
                 type: set
                 attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/ghostwriting-agentur/bearbeitungszeit.png
+                    img_size: w-3/4
+                    float: float-left
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Kurze Bearbeitungszeiten'
+              -
+                type: set
+                attrs:
+                  enabled: false
                   values:
                     type: bild_und_text
                     bild:
@@ -739,7 +739,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635772707
+updated_at: 1635772791
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
