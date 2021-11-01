@@ -551,7 +551,7 @@ replicator:
                     bild:
                       - seiten/ghostwriting-agentur/dienstleistung2.png
                     text: |-
-                      Verschiedene Leistungen:
+                      **Verschiedene Leistungen:**
                       -Lektorat
                       -Korrektorat
                       -Plagiatsprüfung
@@ -597,7 +597,7 @@ replicator:
                     text: |-
                       <br>
                       <br>
-                      Interdiszipliniertes Wissen 
+                      **Interdiszipliniertes Wissen** 
                       <br>
                       in vielen Fachbereichen
                     ausrichtung: bild-text
@@ -616,7 +616,7 @@ replicator:
                       - seiten/ghostwriting-agentur/programme-kostenlos2.png
                     text: |
                       <br>
-                      Kostenlose Zugriffe:
+                      **Kostenlose Zugriffe:**
                       <br>
                       -SPSS
                       <br>
@@ -642,7 +642,7 @@ replicator:
                     text: |-
                       <br>
                       <br>
-                      Sichert 100% Anonymität 
+                      Sichert **100% Anonymität **
                       <br>(Ghostwriter & Auftraggeber)
                     ausrichtung: bild-text
               -
@@ -677,7 +677,7 @@ replicator:
                     bild:
                       - seiten/ghostwriting-agentur/ghostwritingpacket-1635773934.png
                     text: |-
-                      Schwerpunkt: Ghostwritingpaket
+                      **Schwerpunkt: Ghostwritingpaket**
                       -Mustervorlage für wissenschaftliche <br>Arbeiten schreiben
                       -Lektorat & Korrektorat
                       -Plagiatsprüfung
@@ -697,7 +697,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635776407
+updated_at: 1635776518
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
