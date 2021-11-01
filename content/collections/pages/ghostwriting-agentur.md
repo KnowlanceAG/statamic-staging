@@ -565,10 +565,10 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '29'
+                    padding-y: '30'
               -
                 type: paragraph
-            show_as_card: true
+            show_as_card: false
           -
             bard:
               -
@@ -580,6 +580,12 @@ replicator:
                       - seiten/ghostwriting-agentur/bearbeitungszeit.png
                     text: 'Kurze Bearbeitungszeiten'
                     ausrichtung: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
               -
                 type: paragraph
             show_as_card: false
@@ -597,6 +603,12 @@ replicator:
                       -Doktoren
                       -Professoren
                     ausrichtung: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
               -
                 type: paragraph
             show_as_card: false
@@ -680,7 +692,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635772328
+updated_at: 1635772402
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
