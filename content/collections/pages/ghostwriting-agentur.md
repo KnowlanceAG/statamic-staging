@@ -538,7 +538,7 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: '3'
         single-col: false
         grid:
           -
@@ -550,7 +550,7 @@ replicator:
                     type: floating-img
                     dateien:
                       - seiten/ghostwriting-agentur/leistungen1.png
-                    img_size: w-3/4
+                    img_size: w-full
                     float: mx-auto
               -
                 type: paragraph
@@ -564,8 +564,21 @@ replicator:
                     type: floating-img
                     dateien:
                       - seiten/ghostwriting-agentur/professoren.png
-                    img_size: w-3/4
+                    img_size: w-full
                     float: mx-auto
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/ghostwriting-agentur/wissen.png
+                    img_size: w-full
               -
                 type: paragraph
             show_as_card: false
@@ -580,7 +593,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635773229
+updated_at: 1635773298
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
