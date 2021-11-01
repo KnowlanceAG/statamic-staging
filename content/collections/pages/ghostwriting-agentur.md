@@ -538,7 +538,7 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: 1
+        columns_per_row: '2'
         single-col: false
         grid:
           -
@@ -573,6 +573,7 @@ replicator:
                     bild:
                       - seiten/ghostwriting-agentur/bearbeitungszeit.png
                     text: 'Kurze Bearbeitungszeiten'
+                    ausrichtung: bild-text
               -
                 type: paragraph
             show_as_card: false
@@ -587,7 +588,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635771852
+updated_at: 1635771880
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
