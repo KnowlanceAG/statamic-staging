@@ -538,7 +538,7 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: '6'
+        columns_per_row: '2'
         single-col: false
         grid:
           -
@@ -550,71 +550,8 @@ replicator:
                     type: floating-img
                     dateien:
                       - seiten/ghostwriting-agentur/leistungen1.png
-                    img_size: w-full
-                    float: float-left
-                    image_options:
-                      - no_upscale
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Verschiedene Leistungen:'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '-Lektorat'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '-Korrektorat'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '-Plagiatsprüfung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '-Formatierung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '-MAXQDA Auswertung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '-Übersetzung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '-Promotionsberatung'
-              -
-                type: set
-                attrs:
-                  enabled: false
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/ghostwriting-agentur/bearbeitungszeit.png
-                    text: 'Kurze Bearbeitungszeiten'
-                    ausrichtung: bild-text
+                    img_size: w-3/4
+                    float: mx-auto
               -
                 type: paragraph
             show_as_card: false
@@ -626,121 +563,24 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - seiten/ghostwriting-agentur/bearbeitungszeit.png
+                      - seiten/ghostwriting-agentur/professoren.png
                     img_size: w-3/4
-                    float: float-left
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Kurze Bearbeitungszeiten'
-              -
-                type: set
-                attrs:
-                  enabled: false
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/ghostwriting-agentur/ghostwriter-doktoren.png
-                    text: |-
-                      Arbeitet mit akademischenGhostwriter:
-                      -Doktoren
-                      -Professoren
-                    ausrichtung: bild-text
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Kurze Bearbeitungszeiten'
-              -
-                type: set
-                attrs:
-                  enabled: false
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/ghostwriting-agentur/kommunikation-1635771587.png
-                    text: !!binary U2ljaGVydCAxMDAlIEFub255bWl0w6R0IAMoR2hvc3R3cml0ZXIgJiBBdWZ0cmFnZ2ViZXIp
-                    ausrichtung: bild-text
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/ghostwriting-agentur/interdiszipliniertes-wissen.png
-                    text: |
-                      Interdiszipliniertes Wissen 
-                      in vielen Fachbereichen
-                    ausrichtung: bild-text
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/ghostwriting-agentur/programme-kostenlos.png
-                    text: |-
-                      Kostenlose Zugriffe:
-                      -SPSS
-                      -MAXQDA
-                      -Zitiersystem
-                      -Datenbanken
-                    ausrichtung: bild-text
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/ghostwriting-agentur/ghostwriting-packet.png
-                    text: |-
-                      Schwerpunkt: Ghostwritingpaket
-                      -Mustervorlage für wissenschaftliche 
-                        Arbeiten schreiben
-                      -Lektorat & Korrektorat
-                      -Plagiatsprüfung
-                      -Qualitätsprüfung
-                    ausrichtung: bild-text
+                    float: mx-auto
               -
                 type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: true
+    remove_spacing: false
+    is-full: false
     bg-toggle: false
     bg-image-fixed: false
-    border: true
+    border: false
     type: add_section
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635773102
+updated_at: 1635773229
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
