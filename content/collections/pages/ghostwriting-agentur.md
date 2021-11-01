@@ -222,69 +222,6 @@ replicator:
             type: text
             text: 'Warum eine Ghostwriting Agentur?'
       -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/kommunikation.png
-            img_size: w-1/2
-            float: float-right
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/professoren.png
-            img_size: w-1/2
-            float: float-right
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/kurze-bearbeitungszeit.png
-            img_size: w-1/2
-            float: float-right
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/wissen.png
-            img_size: w-1/2
-            float: float-right
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/leistungen.png
-            img_size: w-1/2
-            float: float-right
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/leistungen1.png
-            img_size: w-1/2
-            float: float-right
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/ghostwritingpacket.png
-            img_size: w-1/2
-            float: float-right
-      -
         type: paragraph
         content:
           -
@@ -374,163 +311,6 @@ replicator:
           -
             type: text
             text: '. Eine professionelle Schreibagentur stellt sicher, dass Ihr wissenschaftlicher Text von einem unabhängigen Lektor mit Fachwissen korrigiert wird. Dieser benötigt wiederum geringere Qualifikationen als ein Ghostwriter, welcher eine Musterarbeit selbstständig verfasst.'
-      -
-        type: paragraph
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Welche Vorteile hat eine Ghostwriter Agentur gegenüber einem einzelnen Ghostwriter?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Eine Agentur kann ein wichtiger Ansprechpartner beim Universitätsabschluss sein, besonders bei einer wissenschaftlichen Texterstellung. Im Studium schreiben Studenten Prüfungen und Klausuren in mehreren Fachrichtungen. Ein einzelner Ghostwriter kann kaum in der Lage sein, alle diese Fachbereiche sicher zu beherrschen. Bei einer seriösen Ghostwriting Agentur haben Sie als Kunde die Möglichkeit, alle Leistungen wie das Ghostwriting, Korrektorat, Lektorat oder Plagiatsprüfungen in allen Fachbereichen wie Sozialwissenschaften, BWL etc. aus einer Hand zu erhalten. Hat man bereits gute Erfahrungen mit einer Agentur gemacht, so muss man sich für eine Mustervorlage für ein anderes Thema nicht mühsam einen neuen Schreiber suchen, das erledigt die vertraute Agentur.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Eine Ghostwriting Agentur vermittelt für jede Fachrichtung und Leistung professionelle Ghostwriter. Sie arbeitet mit vielen Fachautoren zusammen. Wenn zum Beispiel ein Student an einem Hochschulstudium BWL studiert und eine Mustervorlage in diesem Themenfeld brauchen, wird aus vielen zertifizierten Ghostwriter aus dieser Branche der passende Ghostwriter ausgewählt und beauftragt.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Bei der Beauftragung eines Ghostwriters ist es wichtig vorher zu wissen, wann der Abgabetermin einer Abschlussarbeit ist. So kann genügend Zeit für die Erstellung der eigenen Arbeit eingeplant werden. Aber auch bei einer kurzen Bearbeitungszeit findet ein seriöser Schreibservice den passenden Ghostwriter für Sie. Außerdem stellt eine Agentur den Auftragsschreibern auch eine Reihe professioneller Programme kostenlos zur Verfügung, bspw. den Zugriff auf relevanten Datenbanken, Plagiatssoftwares, automatische Zitiersysteme sowie quantitative und qualitative Analysesoftwares wie SPSS, Stata, R oder MAXQDA.'
-      -
-        type: horizontal_rule
-      -
-        type: set
-        attrs:
-          values:
-            type: button
-            button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-            button_text: 'JETZT KOSTENLOS ANFRAGEN'
-            color: '#FF6606'
-            spacing_top: false
-      -
-        type: horizontal_rule
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Aber auch unter anderen Umständen kann eine vertraute Agentur von Nutzen sein. Ist man beispielsweise mit Schreibstil oder Umsetzung der Mustervorlage unzufrieden sind seriöse Agenturen in der Lage einen anderen Verfasser für die Mustervorlage für die akademische Aufgabenstellung bereitzustellen. Dies ist natürlich auch möglich, sollte es auf Seiten des Ghostwriters zu Problemen kommen, sodass er die Arbeit nicht fertigstellen kann, beispielsweise ein Krankheitsfall. Die Ghostwriting Agentur ist also Vermittler zwischen Auftraggeber und dem Ghostwriter und garantiert die Sicherheit, die Qualität, die Quantität sowie einen pünktlichen Abgabetermin, die so eine wissenschaftliche Abgabe erfordern.'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: Disclaimer
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Blogartikel zum Thema Ghostwriting Agentur'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/ghostwriter-agentur
-                  target: null
-                  rel: null
-            text: 'Video: Worauf Du bei einer Ghostwriter Agentur achten solltest'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/erfahrungsbericht-ghostwriter-gwriters
-                  target: null
-                  rel: null
-            text: 'Erfahrungsbericht zur Arbeit als Ghostwriter bei GWriters'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/ghostwriting-gwriters-teillieferungen
-                  target: null
-                  rel: null
-            text: 'Video: Teillieferungen – Wozu sie bei GWriters da sind & was Du beachten solltest'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/ghostwriter-auftrag-tipps
-                  target: null
-                  rel: null
-            text: 'Tipps für einen erfolgreichen Ghostwriter-Auftrag'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
     show_as_card: false
     type: editor
     enabled: true
@@ -695,9 +475,170 @@ replicator:
     border: false
     type: add_section
     enabled: true
+  -
+    bard:
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Welche Vorteile hat eine Ghostwriter Agentur gegenüber einem einzelnen Ghostwriter?'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Eine Agentur kann ein wichtiger Ansprechpartner beim Universitätsabschluss sein, besonders bei einer wissenschaftlichen Texterstellung. Im Studium schreiben Studenten Prüfungen und Klausuren in mehreren Fachrichtungen. Ein einzelner Ghostwriter kann kaum in der Lage sein, alle diese Fachbereiche sicher zu beherrschen. Bei einer seriösen Ghostwriting Agentur haben Sie als Kunde die Möglichkeit, alle Leistungen wie das Ghostwriting, Korrektorat, Lektorat oder Plagiatsprüfungen in allen Fachbereichen wie Sozialwissenschaften, BWL etc. aus einer Hand zu erhalten. Hat man bereits gute Erfahrungen mit einer Agentur gemacht, so muss man sich für eine Mustervorlage für ein anderes Thema nicht mühsam einen neuen Schreiber suchen, das erledigt die vertraute Agentur.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Eine Ghostwriting Agentur vermittelt für jede Fachrichtung und Leistung professionelle Ghostwriter. Sie arbeitet mit vielen Fachautoren zusammen. Wenn zum Beispiel ein Student an einem Hochschulstudium BWL studiert und eine Mustervorlage in diesem Themenfeld brauchen, wird aus vielen zertifizierten Ghostwriter aus dieser Branche der passende Ghostwriter ausgewählt und beauftragt.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Bei der Beauftragung eines Ghostwriters ist es wichtig vorher zu wissen, wann der Abgabetermin einer Abschlussarbeit ist. So kann genügend Zeit für die Erstellung der eigenen Arbeit eingeplant werden. Aber auch bei einer kurzen Bearbeitungszeit findet ein seriöser Schreibservice den passenden Ghostwriter für Sie. Außerdem stellt eine Agentur den Auftragsschreibern auch eine Reihe professioneller Programme kostenlos zur Verfügung, bspw. den Zugriff auf relevanten Datenbanken, Plagiatssoftwares, automatische Zitiersysteme sowie quantitative und qualitative Analysesoftwares wie SPSS, Stata, R oder MAXQDA.'
+      -
+        type: horizontal_rule
+      -
+        type: set
+        attrs:
+          values:
+            type: button
+            button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+            button_text: 'JETZT KOSTENLOS ANFRAGEN'
+            spacing_top: false
+      -
+        type: paragraph
+      -
+        type: horizontal_rule
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Aber auch unter anderen Umständen kann eine vertraute Agentur von Nutzen sein. Ist man beispielsweise mit Schreibstil oder Umsetzung der Mustervorlage unzufrieden sind seriöse Agenturen in der Lage einen anderen Verfasser für die Mustervorlage für die akademische Aufgabenstellung bereitzustellen. Dies ist natürlich auch möglich, sollte es auf Seiten des Ghostwriters zu Problemen kommen, sodass er die Arbeit nicht fertigstellen kann, beispielsweise ein Krankheitsfall. Die Ghostwriting Agentur ist also Vermittler zwischen Auftraggeber und dem Ghostwriter und garantiert die Sicherheit, die Qualität, die Quantität sowie einen pünktlichen Abgabetermin, die so eine wissenschaftliche Abgabe erfordern.'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: Disclaimer
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Blogartikel zum Thema Ghostwriting Agentur'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/ghostwriter-agentur
+                  target: null
+                  rel: null
+            text: 'Video: Worauf Du bei einer Ghostwriter Agentur achten solltest'
+          -
+            type: hard_break
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/erfahrungsbericht-ghostwriter-gwriters
+                  target: null
+                  rel: null
+            text: 'Erfahrungsbericht zur Arbeit als Ghostwriter bei GWriters'
+          -
+            type: hard_break
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/ghostwriting-gwriters-teillieferungen
+                  target: null
+                  rel: null
+            text: 'Video: Teillieferungen – Wozu sie bei GWriters da sind & was Du beachten solltest'
+          -
+            type: hard_break
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/ghostwriter-auftrag-tipps
+                  target: null
+                  rel: null
+            text: 'Tipps für einen erfolgreichen Ghostwriter-Auftrag'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: link
+                attrs:
+                  href: /wiki
+                  target: null
+                  rel: null
+            text: '< zurück zur Wiki Übersicht'
+    show_as_card: false
+    type: editor
+    enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635776792
+updated_at: 1635776963
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
