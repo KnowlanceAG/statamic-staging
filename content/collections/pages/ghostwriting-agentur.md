@@ -549,7 +549,7 @@ replicator:
                   values:
                     type: bild_und_text
                     bild:
-                      - seiten/ghostwriting-agentur/ghostwritingpacket-1635773934.png
+                      - seiten/ghostwriting-agentur/dienstleistung2.png
                     text: |-
                       Verschiedene Leistungen:
                       -Lektorat
@@ -572,7 +572,7 @@ replicator:
                   values:
                     type: bild_und_text
                     bild:
-                      - seiten/ghostwriting-agentur/ghostwriter-doktoren.png
+                      - seiten/ghostwriting-agentur/ghostwriter-doktoren2.png
                     text: |-
                       Arbeitet mit akademischen Ghostwriter:
                       -Doktoren
@@ -592,7 +592,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635773943
+updated_at: 1635774749
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
