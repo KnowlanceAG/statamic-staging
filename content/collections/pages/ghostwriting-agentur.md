@@ -598,11 +598,14 @@ replicator:
                       - seiten/ghostwriting-agentur/programme-kostenlos2.png
                     text: |
                       <br>
-                      <br>
                       Kostenlose Zugriffe:
+                      <br>
                       -SPSS
+                      <br>
                       -MAXQDA
+                      <br>
                       -Zitiersystem
+                      <br>
                       -Datenbanken
                     ausrichtung: text-bild
               -
@@ -619,7 +622,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635775588
+updated_at: 1635775662
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
