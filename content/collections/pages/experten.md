@@ -5,7 +5,7 @@ title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627300737
+updated_at: 1635440643
 teaser:
   -
     type: heading
@@ -144,6 +144,7 @@ replicator:
                             type: text
                             text: "\_und anderen akademischen Disziplinen vor."
                     text_ausrichtung: text-left
+                    column-count: false
             show_as_card: false
         type: row
         enabled: true
@@ -166,7 +167,6 @@ replicator:
             experts:
               - 1afd0ee6-02cf-44ee-86a3-9d7b2992ad91
               - bdab7ac8-0923-4d8c-b848-caa250aa5e62
-              - e65628a8-8ea2-415d-aaa6-fe989df6a568
               - ba5d8a21-c7c4-4743-931e-ef2dfef89cc9
               - 6fd5f928-d931-42b1-b5eb-8f395f5bd71e
               - ece9c0d8-5e69-4361-a79d-acbdb0675182
@@ -276,6 +276,7 @@ replicator:
                             type: text
                             text: "\_sowie Experten für viele weitere Disziplinen finden Sie bei uns. Dabei werden die Kompetenzen unserer Ghostwriter nach strengen Auswahlverfahren geprüft und verifiziert, sodass wir Ihnen zu jeder Zeit den passenden Spezialisten zur Unterstützung bei Ihrer wissenschaftlichen Fragestellung und Ihrer akademischen Arbeit zur Verfügung stellen können."
                     text_ausrichtung: text-left
+                    column-count: false
               -
                 type: set
                 attrs:
@@ -459,6 +460,7 @@ replicator:
                                   align: left
                             text: ' bleiben Sie anonym. Ebenso unbesorgt können Sie auch hinsichtlich der Qualität Ihrer Arbeit sein: jede von uns erstellte Arbeit wird von einem Team von erfahrenen und spezialisierten Supervisoren auf Qualität geprüft. So stellen wir sicher, dass Ihre Arbeit allen akademischen Standards entspricht, denn dies ist auch unser Anspruch an uns selbst.'
                     text_ausrichtung: text-left
+                    column-count: false
             show_as_card: false
         type: row
         enabled: true

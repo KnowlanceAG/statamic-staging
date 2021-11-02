@@ -222,69 +222,6 @@ replicator:
             type: text
             text: 'Warum eine Ghostwriting Agentur?'
       -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/kommunikation.png
-            img_size: w-1/2
-            float: float-right
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/professoren.png
-            img_size: w-1/2
-            float: float-right
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/kurze-bearbeitungszeit.png
-            img_size: w-1/2
-            float: float-right
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/wissen.png
-            img_size: w-1/2
-            float: float-right
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/leistungen.png
-            img_size: w-1/2
-            float: float-right
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/leistungen1.png
-            img_size: w-1/2
-            float: float-right
-      -
-        type: set
-        attrs:
-          values:
-            type: floating-img
-            dateien:
-              - seiten/ghostwriting-agentur/ghostwritingpacket.png
-            img_size: w-1/2
-            float: float-right
-      -
         type: paragraph
         content:
           -
@@ -374,6 +311,172 @@ replicator:
           -
             type: text
             text: '. Eine professionelle Schreibagentur stellt sicher, dass Ihr wissenschaftlicher Text von einem unabhängigen Lektor mit Fachwissen korrigiert wird. Dieser benötigt wiederum geringere Qualifikationen als ein Ghostwriter, welcher eine Musterarbeit selbstständig verfasst.'
+    show_as_card: false
+    type: editor
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/dienstleistung2.png
+                    text: |-
+                      **Verschiedene professionelle Leistungen:**
+                      -Lektorat
+                      -Korrektorat
+                      -Plagiatsprüfung
+                      -Formatierung
+                      -MAXQDA Auswertung
+                      -Übersetzung
+                      -Promotionsberatung
+                    ausrichtung: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/ghostwriter-doktoren2.png
+                    text: |-
+                      <br>
+                      Arbeitet mit akademischen Ghostwriter:
+                      <br>
+                      -Doktoren
+                      <br>
+                      -Professoren
+                    ausrichtung: text-bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/interdiszipliniertes-wissen2.png
+                    text: |-
+                      <br>
+                      <br>
+                      Interdiszipliniertes Wissen
+                      <br>
+                      in vielen Fachbereichen
+                    ausrichtung: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/programme-kostenlos2.png
+                    text: |
+                      <br>
+                      Kostenlose Zugriffe:
+                      <br>
+                      -SPSS
+                      <br>
+                      -MAXQDA
+                      <br>
+                      -Zitiersystem
+                      <br>
+                      -Datenbanken
+                    ausrichtung: text-bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/kommunikation2.png
+                    text: |-
+                      <br>
+                      <br>
+                      Sichert 100% Anonymität 
+                      <br>(Ghostwriter & Auftraggeber)
+                    ausrichtung: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/bearbeitungszeit2.png
+                    text: |-
+                      <br>
+                      <br>
+                      Kurze Bearbeitungszeit
+                    ausrichtung: text-bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/ghostwritingpacket-1635773934.png
+                    text: |-
+                      **Schwerpunkt: Ghostwritingpaket**
+                      -Mustervorlage für wissenschaftliche <br>Arbeiten schreiben
+                      -Lektorat & Korrektorat
+                      -Plagiatsprüfung
+                      -Qualitätsprüfung
+                    ausrichtung: bild-text
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    bard:
       -
         type: heading
         attrs:
@@ -391,7 +494,7 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: black
+                  color: '#000!important'
                   hex: '#000'
             text: 'Eine Agentur kann ein wichtiger Ansprechpartner beim Universitätsabschluss sein, besonders bei einer wissenschaftlichen Texterstellung. Im Studium schreiben Studenten Prüfungen und Klausuren in mehreren Fachrichtungen. Ein einzelner Ghostwriter kann kaum in der Lage sein, alle diese Fachbereiche sicher zu beherrschen. Bei einer seriösen Ghostwriting Agentur haben Sie als Kunde die Möglichkeit, alle Leistungen wie das Ghostwriting, Korrektorat, Lektorat oder Plagiatsprüfungen in allen Fachbereichen wie Sozialwissenschaften, BWL etc. aus einer Hand zu erhalten. Hat man bereits gute Erfahrungen mit einer Agentur gemacht, so muss man sich für eine Mustervorlage für ein anderes Thema nicht mühsam einen neuen Schreiber suchen, das erledigt die vertraute Agentur.'
       -
@@ -403,7 +506,7 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: black
+                  color: '#000!important'
                   hex: '#000'
             text: 'Eine Ghostwriting Agentur vermittelt für jede Fachrichtung und Leistung professionelle Ghostwriter. Sie arbeitet mit vielen Fachautoren zusammen. Wenn zum Beispiel ein Student an einem Hochschulstudium BWL studiert und eine Mustervorlage in diesem Themenfeld brauchen, wird aus vielen zertifizierten Ghostwriter aus dieser Branche der passende Ghostwriter ausgewählt und beauftragt.'
       -
@@ -415,7 +518,7 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: black
+                  color: '#000!important'
                   hex: '#000'
             text: 'Bei der Beauftragung eines Ghostwriters ist es wichtig vorher zu wissen, wann der Abgabetermin einer Abschlussarbeit ist. So kann genügend Zeit für die Erstellung der eigenen Arbeit eingeplant werden. Aber auch bei einer kurzen Bearbeitungszeit findet ein seriöser Schreibservice den passenden Ghostwriter für Sie. Außerdem stellt eine Agentur den Auftragsschreibern auch eine Reihe professioneller Programme kostenlos zur Verfügung, bspw. den Zugriff auf relevanten Datenbanken, Plagiatssoftwares, automatische Zitiersysteme sowie quantitative und qualitative Analysesoftwares wie SPSS, Stata, R oder MAXQDA.'
       -
@@ -427,8 +530,9 @@ replicator:
             type: button
             button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
             button_text: 'JETZT KOSTENLOS ANFRAGEN'
-            color: '#FF6606'
             spacing_top: false
+      -
+        type: paragraph
       -
         type: horizontal_rule
       -
@@ -440,7 +544,7 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: black
+                  color: '#000!important'
                   hex: '#000'
             text: 'Aber auch unter anderen Umständen kann eine vertraute Agentur von Nutzen sein. Ist man beispielsweise mit Schreibstil oder Umsetzung der Mustervorlage unzufrieden sind seriöse Agenturen in der Lage einen anderen Verfasser für die Mustervorlage für die akademische Aufgabenstellung bereitzustellen. Dies ist natürlich auch möglich, sollte es auf Seiten des Ghostwriters zu Problemen kommen, sodass er die Arbeit nicht fertigstellen kann, beispielsweise ein Krankheitsfall. Die Ghostwriting Agentur ist also Vermittler zwischen Auftraggeber und dem Ghostwriter und garantiert die Sicherheit, die Qualität, die Quantität sowie einen pünktlichen Abgabetermin, die so eine wissenschaftliche Abgabe erfordern.'
       -
@@ -534,7 +638,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635154747
+updated_at: 1635777143
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
