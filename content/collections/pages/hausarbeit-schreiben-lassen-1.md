@@ -1223,6 +1223,12 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
                 type: heading
                 attrs:
                   level: 3
@@ -1673,8 +1679,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1635336201
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1636020397
 template: default
 use_meta_keywords: false
 no_index_page: false
