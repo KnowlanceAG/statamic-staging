@@ -1,7 +1,7 @@
 ---
 id: cb0a74d3-ed84-4dad-b3a7-c368aec13800
 blueprint: pages
-title: 'Hausarbeit (Dupliziert)'
+title: Hausarbeit
 teaser:
   -
     type: heading
@@ -1680,7 +1680,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1636020397
+updated_at: 1636020539
 template: default
 use_meta_keywords: false
 no_index_page: false
