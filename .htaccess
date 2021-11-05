@@ -39,8 +39,8 @@ RewriteCond %{HTTP_HOST} ^www.gwriters.de$ [OR]
 RewriteCond %{HTTP_HOST} ^gwriters.de$
 RewriteRule ^robots.txt$  /robots_de.txt [L]
 
-Redirect 301 /blog /blog/page/1
-Redirect 301 /presse /presse/page/1
+Redirect 301 /blog/index.html /blog/page/1
+Redirect 301 /presse/index.html /presse/page/1
 
 Redirect 301 /Seminararbeit-beispiel-blockchain /hausarbeit-beispiel-embryonenforschung
 Redirect 301 /abgesendet-new /anfrage-abgesendet-adag
