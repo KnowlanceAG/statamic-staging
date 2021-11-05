@@ -10,6 +10,10 @@ preferences:
     blog:
       after_save: continue_editing
       per_page: 100
+      columns:
+        - title
+        - slug
+        - date
     team:
       columns:
         - title

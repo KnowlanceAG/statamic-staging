@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'seriöses qualitätsmanagement'
 size: 7238
-last_modified: 1634653685
+last_modified: 1635432103
 width: 370
 height: 280
 mime_type: image/png

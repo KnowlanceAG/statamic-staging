@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1633442186
+updated_at: 1636020677
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -400,7 +400,6 @@ replicator:
                         eintraege:
                           - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
                           - 425234fd-eb40-4dab-bb3d-95bbac5948eb
-                          - 29f507a9-89e5-433e-8246-0d00b58746db
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
                           - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
@@ -413,6 +412,7 @@ replicator:
                           - 5659593d-2756-4e9f-a5b3-b391103d9886
                           - 62115090-7bb2-448f-bb32-a32bb5977382
                           - aa35a1ca-0812-4402-a4d5-4a6d4aa8c1c0
+                          - cb0a74d3-ed84-4dad-b3a7-c368aec13800
                       -
                         text: Fachrichtungen
                         eintraege:
