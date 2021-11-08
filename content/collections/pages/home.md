@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1636020677
+updated_at: 1636377132
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -336,10 +336,11 @@ replicator:
                         type: textColor
                         attrs:
                           color: inherit
+                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /presse
+                          href: /presse/page/1
                           target: null
                           rel: null
                     text: 'GWriters & Team in der Presse'
