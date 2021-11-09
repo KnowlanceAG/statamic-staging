@@ -1402,6 +1402,14 @@ replicator:
                     button_align: justify-center
                     spacing_top: false
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1810,7 +1818,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1636463084
+updated_at: 1636463138
 template: default
 use_meta_keywords: false
 no_index_page: false
