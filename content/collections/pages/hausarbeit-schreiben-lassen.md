@@ -1678,8 +1678,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1636371493
+updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
+updated_at: 1636459599
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -1695,4 +1695,40 @@ og_title: 'Hausarbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Mustervorlage für Hausarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_studienarbeiten
+schema_objects: |-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Welche Qualifikationen hat mein akademischer Ghostwriter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wir garantieren, dass es sich bei Ihrem Ghostwriter um einen absoluten Experten in Ihrem Fachgebiet handelt. In unserer Agentur setzen wir mindestens einen Masterabschluss voraus. Bei vielen unserer Ghostwriter handelt es sich aber um Doktoren und auch Professoren, die selbst noch in der Wissenschaft aktiv sind."
+      }
+    },{
+      "@type": "Question",
+      "name": "Wie wird bei GWriters meine Anonymität sichergestellt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO/GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts."
+      }
+    },{
+      "@type": "Question",
+      "name": "Was kostet eine Mustervorlage für meine Hausarbeit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eine Mustervorlage für eine 10-seitige Hausarbeit erhalten Sie bereits ab 800 €. Die Preise pro Seite können aber noch variieren, abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen."
+      }
+    },{
+      "@type": "Question",
+      "name": "Darf ich die erstellte Mustervorlage als eigene Hausarbeit abgeben?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Hausarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch."
+      }
+    }]
+  }
+  </script>
 ---
