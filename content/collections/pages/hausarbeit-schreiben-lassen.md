@@ -1402,7 +1402,138 @@ replicator:
                     button_align: justify-center
                     spacing_top: false
               -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Hausarbeit schreiben lassen: Kosten & Preise'
+              -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie über eine seriöse Agentur für Ghostwriting eine Mustervorlage für Ihre Hausarbeit kaufen möchten, dann erwarten Sie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'faire aber auch angemessene Preise'
+                  -
+                    type: text
+                    text: '. Seien Sie daher vorsichtig: Wenn Sie Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Hausarbeit günstig'
+                  -
+                    type: text
+                    text: ' schreiben lassen wollen, erwarten Sie häufig Lockangebote von unseriösen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /achtung-ghostwriter-betrug
+                          target: null
+                          rel: null
+                    text: Ghostwriting-Betrügern
+                  -
+                    type: text
+                    text: .
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Jeder Kostenvoranschlag von GWriters enthält die Kosten für:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'die fachliche und wissenschaftliche Kompetenz der Agentur'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'die professionelle Betreuung durch individuelle Projektmanager'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'die Bearbeitung durch erfahrene akademische Ghostwriter'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'und schließlich die Kosten für ein abschließendes Lektorat.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Aufgrund dieser Leistungsbestandteile können wir nur durch ein angemessenes Honorar die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'hohe Qualität Ihrer Hausarbeit garantieren'
+                  -
+                    type: text
+                    text: '. Diese Leistungen können selbstständige Ghostwriter oder Billig-Ghostwriter-Agenturen, die mit günstigen Preisen werben, oftmals nicht bieten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Je nach Anfrage variieren die Kosten für Hausarbeiten in verschiedenen Fachbereichen. Welche Hausarbeit günstig und welche teuer ist, liegt somit auch an den Ansprüchen an die Mustervorlage. Details hierzu können in einem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'kostenlosen Erstgespräch'
+                  -
+                    type: text
+                    text: ' geklärt werden. Vorläufige Informationen zu anfallenden Kosten bietet auch unser Rechner für '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /preise
+                          target: null
+                          rel: null
+                    text: Ghostwriter-Preise
+                  -
+                    type: text
+                    text: .
             show_as_card: false
         type: row
         enabled: true
@@ -1678,8 +1809,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1636459599
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1636463084
 template: default
 use_meta_keywords: false
 no_index_page: false
