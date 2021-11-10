@@ -63,7 +63,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Hausarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Hausarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
+                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Hausarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Hausarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine GHostwriter Hausarbeit als Mustervorlage für Ihre Hausarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
                       </p>
               -
                 type: set
@@ -251,16 +251,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ein professionelle Unterstützung bei der ersten Hausarbeit durch '
+                    text: 'Ein professionelle Unterstützung durch einen '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'akademische Ghostwriter'
+                    text: 'Hausarbeit Ghostwriter'
                   -
                     type: text
-                    text: ' zu Studienbeginn ist besonders ratsam. Zu diesem Zeitpunkt kommt es aufgrund mangelnder Erfahrung zu Flüchtigkeitsfehler beim Schreiben oder im Umgang mit wissenschaftlichen Quellen passieren können. Hier fehlt es oft an '
+                    text: ' ist zu Studienbeginn besonders ratsam. Zu diesem Zeitpunkt kommt es aufgrund mangelnder Erfahrung zu Flüchtigkeitsfehler beim Schreiben oder im Umgang mit wissenschaftlichen Quellen passieren können. Hier fehlt es oft an '
                   -
                     type: text
                     marks:
@@ -376,7 +376,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie bei Ihrer Hausarbeit Unterstützung benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine unverbindliche Anfrage schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+                    text: 'Wenn Sie Unterstützung durch einen Hausarbeit Ghostwriter benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine unverbindliche Anfrage schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
               -
                 type: set
                 attrs:
@@ -1402,7 +1402,146 @@ replicator:
                     button_align: justify-center
                     spacing_top: false
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
                 type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Hausarbeit schreiben lassen: Kosten & Preise'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie über eine seriöse Agentur für Ghostwriting eine Mustervorlage für Ihre Hausarbeit kaufen möchten, dann erwarten Sie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'faire aber auch angemessene Preise'
+                  -
+                    type: text
+                    text: '. Seien Sie daher vorsichtig: Wenn Sie Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Hausarbeit günstig'
+                  -
+                    type: text
+                    text: ' schreiben lassen wollen, erwarten Sie häufig Lockangebote von unseriösen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /achtung-ghostwriter-betrug
+                          target: null
+                          rel: null
+                    text: Ghostwriting-Betrügern
+                  -
+                    type: text
+                    text: .
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Jeder Kostenvoranschlag von GWriters enthält die Kosten für:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'die fachliche und wissenschaftliche Kompetenz der Agentur'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'die professionelle Betreuung durch individuelle Projektmanager'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'die Bearbeitung durch erfahrene akademische Ghostwriter'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'und schließlich die Kosten für ein abschließendes Lektorat.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Aufgrund dieser Leistungsbestandteile können wir nur durch ein angemessenes Honorar die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'hohe Qualität Ihrer Hausarbeit garantieren'
+                  -
+                    type: text
+                    text: '. Diese Leistungen können selbstständige Ghostwriter oder Billig-Ghostwriter-Agenturen, die mit günstigen Preisen werben, oftmals nicht bieten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Je nach Anfrage variieren die Kosten für Hausarbeiten in verschiedenen Fachbereichen. Welche Hausarbeit günstig und welche teuer ist, liegt somit auch an den Ansprüchen an die Mustervorlage. Details hierzu können in einem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'kostenlosen Erstgespräch'
+                  -
+                    type: text
+                    text: ' geklärt werden. Vorläufige Informationen zu anfallenden Kosten bietet auch unser Rechner für '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /preise
+                          target: null
+                          rel: null
+                    text: Ghostwriter-Preise
+                  -
+                    type: text
+                    text: .
             show_as_card: false
         type: row
         enabled: true
@@ -1679,7 +1818,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1636034342
+updated_at: 1636463341
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -1689,10 +1828,46 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-meta_title: 'Hausarbeit schreiben lassen • Mustervorlage von GWriters'
+meta_title: 'Ghostwriter - Hausarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Mustervorlage für Hausarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_title: 'Hausarbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Mustervorlage für Hausarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_studienarbeiten
+schema_objects: |-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Welche Qualifikationen hat mein akademischer Ghostwriter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wir garantieren, dass es sich bei Ihrem Ghostwriter um einen absoluten Experten in Ihrem Fachgebiet handelt. In unserer Agentur setzen wir mindestens einen Masterabschluss voraus. Bei vielen unserer Ghostwriter handelt es sich aber um Doktoren und auch Professoren, die selbst noch in der Wissenschaft aktiv sind."
+      }
+    },{
+      "@type": "Question",
+      "name": "Wie wird bei GWriters meine Anonymität sichergestellt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO/GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts."
+      }
+    },{
+      "@type": "Question",
+      "name": "Was kostet eine Mustervorlage für meine Hausarbeit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eine Mustervorlage für eine 10-seitige Hausarbeit erhalten Sie bereits ab 800 €. Die Preise pro Seite können aber noch variieren, abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen."
+      }
+    },{
+      "@type": "Question",
+      "name": "Darf ich die erstellte Mustervorlage als eigene Hausarbeit abgeben?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Hausarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch."
+      }
+    }]
+  }
+  </script>
 ---
