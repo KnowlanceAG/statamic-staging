@@ -42,6 +42,24 @@
     {{ aardvark-seo:head }}
   {{ /if }}
 
+  <script id='change_header_ch'>
+    (() => {
+      const parts = window.location.hostname.split('.');
+      const tld = parts[parts.length - 1];
+      if (tld === 'ch') {
+        document.documentElement.setAttribute("lang", 'de-ch');
+        const canonical = document.querySelector('link[rel="canonical"]');
+        if (canonical) {
+          canonical.href = window.location;
+        }
+        const metaOGLocale = document.querySelector('meta[property="og:locale"]');
+        if (metaOGLocale) {
+          metaOGLocale.content = 'de-CH';
+        }
+      }
+    })()
+  </script>
+
   {{ if config:app:google_tracking }}
     <link rel='dns-prefetch' href='//www.googletagmanager.com' />
     <script type="text/plain" data-src='https://www.googletagmanager.com/gtag/js?id=UA-30152060-1'
