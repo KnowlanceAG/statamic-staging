@@ -177,8 +177,8 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: orange-500
-                  hex: '#ff6606'
+                  color: black
+                  hex: '#000'
             text: 'Bewerbung als Ghostwriter'
       -
         type: paragraph
@@ -197,7 +197,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://statamic-dynamic.gwriters.de/jobs'
+                  href: /jobs
                   target: null
                   rel: null
             text: www.gwriters.de/jobs
@@ -233,7 +233,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://statamic-dynamic.gwriters.de/anfrage'
+                  href: /anfrage
                   target: null
                   rel: null
             text: Anfrage
@@ -552,7 +552,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1636727354
+updated_at: 1636727404
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
