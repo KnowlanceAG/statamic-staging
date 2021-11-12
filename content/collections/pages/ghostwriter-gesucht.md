@@ -157,6 +157,24 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: video
+                    video: 'https://www.youtube.com/watch?v=D2o98MnO0Ww'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
     remove_spacing: true
     is-full: false
     bg-toggle: false
@@ -552,7 +570,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1636727471
+updated_at: 1636727549
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
