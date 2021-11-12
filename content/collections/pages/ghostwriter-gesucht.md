@@ -305,16 +305,6 @@ replicator:
   -
     bard:
       -
-        type: paragraph
-      -
-        type: paragraph
-      -
-        type: paragraph
-      -
-        type: paragraph
-      -
-        type: horizontal_rule
-      -
         type: heading
         attrs:
           level: 2
@@ -364,6 +354,16 @@ replicator:
                   color: black
                   hex: '#000'
             text: 'Bei der Bearbeitung von Aufträgen stehen Sie durchweg in Kontakt mit einem Mitarbeiter, der eventuelle Fragen gerne beantwortet. Auch Rückfragen bezüglich des Auftrages klärt der Mitarbeiter gerne kurzfristig für Sie. Durch unsere reichhaltige Erfahrung bei der Vermittlung akademischer Dienstleistungen sind wir jederzeit in der Lage, Ihre Fragen gezielt zu beantworten.'
+          -
+            type: hard_break
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+      -
+        type: horizontal_rule
       -
         type: heading
         attrs:
@@ -424,6 +424,14 @@ replicator:
                 zahl: '5.'
                 beschreibung: 'Nach der Fertigstellung wird die Mustervorlage an einen übergeordneten Supervisor zur Überprüfung gegeben, ähnlich eines Lektoratsservices. Nach einer professionellen Plagiatsprüfung wird der erstellte Text von einem Qualitätsmanager kontrolliert und zeitgerecht an den Kunden geliefert.'
       -
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: '19'
+      -
+        type: paragraph
+      -
         type: paragraph
         content:
           -
@@ -435,6 +443,24 @@ replicator:
                   color: black
                   hex: '#000'
             text: 'Außerdem stellt unser Unternehmen den Schreibprofis auch eine Reihe professioneller Programme kostenlos zur Verfügung. Bspw. den Zugriff auf relevanten Datenbanken, Plagiatssoftwares (Plagiatsprüfung), automatische Zitiersysteme sowie quantitative und qualitative Analysesoftwares wie SPSS, Stata, oder MAXQDA.'
+      -
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: '10'
+      -
+        type: paragraph
+      -
+        type: horizontal_rule
+      -
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: '10'
+      -
+        type: paragraph
       -
         type: paragraph
         content:
@@ -520,15 +546,13 @@ replicator:
                   target: null
                   rel: null
             text: '< zurück zur Wiki Übersicht'
-      -
-        type: horizontal_rule
     show_as_card: false
     type: editor
     enabled: true
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1636727246
+updated_at: 1636727354
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
