@@ -410,6 +410,8 @@ replicator:
                 zahl: '1.'
                 beschreibung: 'Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen. Die Anforderungen an die Arbeit entscheiden, in welchem Themenbereich die Mustervorlage geschrieben werden soll.'
       -
+        type: paragraph
+      -
         type: set
         attrs:
           values:
@@ -593,6 +595,12 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '15'
+              -
+                type: set
+                attrs:
+                  values:
                     type: numbers_home
                     grid:
                       -
@@ -622,6 +630,15 @@ replicator:
                     img_size: w-1/2
                     float: mx-auto
               -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/ghostwriter-gesucht/ghostwriter-gesucht.png
+                    img_size: w-1/2
+                    float: mx-auto
+              -
                 type: paragraph
             show_as_card: false
         type: row
@@ -636,7 +653,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1636975258
+updated_at: 1636975531
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
