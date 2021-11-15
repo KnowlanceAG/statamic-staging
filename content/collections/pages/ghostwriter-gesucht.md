@@ -586,7 +586,31 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Außerdem stellt unser Unternehmen den Schreibprofis auch eine Reihe professioneller Programme kostenlos zur Verfügung. Bspw. den Zugriff auf relevanten Datenbanken, Plagiatssoftwares (Plagiatsprüfung), automatische Zitiersysteme sowie quantitative und qualitative Analysesoftwares wie SPSS, Stata, oder MAXQDA.'
+                    text: 'Außerdem stellt unser Unternehmen den Schreibprofis auch eine Reihe professioneller Programme kostenlos zur Verfügung. Bspw. den Zugriff auf relevanten Datenbanken, Plagiatssoftwares (Plagiatsprüfung), automatische Zitiersysteme sowie quantitative und qualitative Analysesoftwares wie SPSS, Stata, oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/maxqda-auswertung
+                          target: null
+                          rel: null
+                    text: MAXQDA
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: .
               -
                 type: set
                 attrs:
@@ -699,7 +723,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1636979192
+updated_at: 1636980628
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
