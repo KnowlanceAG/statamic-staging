@@ -587,8 +587,8 @@ replicator:
                     type: numbers_home
                     grid:
                       -
-                        zahl: '1'
-                        beschreibung: fdhdhh
+                        zahl: '1.'
+                        beschreibung: 'Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen. Die Anforderungen an die Arbeit entscheiden, in welchem Themenbereich die Mustervorlage geschrieben werden soll.'
               -
                 type: set
                 attrs:
@@ -596,8 +596,17 @@ replicator:
                     type: numbers_home
                     grid:
                       -
-                        zahl: '2'
-                        beschreibung: xcvxcv
+                        zahl: '2.'
+                        beschreibung: 'Nach Auftragsbeginn wird durch unsere professionellen Projektmanager ein zum Themenfeld passender Ghostwriter gesucht. Die Betreuung des gesamten Projektes übernimmt der Projektmanager. Er steuert den Prozess von der unverbindlichen Anfrage bis zur Lieferung der Mustervorlage.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '3.'
+                        beschreibung: 'Die gesamte Kommunikation zwischen Auftraggeber und Auftragsschreiber läuft anonym in schriftlicher oder telefonischer Form ab. Als Ghostwriter haben Sie regelmäßige Teillieferungen zu erbringen. Diese Teillieferungen dienen dazu, Feedbacks zum bisher Geschriebene vom Kunden zu erhalten. So hat der Auftraggeber die Möglichkeit, regelmäßig inhaltlichen Einfluss auf die aktuelle Schreibarbeit zu nehmen.'
               -
                 type: paragraph
             show_as_card: false
@@ -609,7 +618,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - GWriters-Logo.jpg
+                      - seiten/ghostwriter-gesucht/anfrage.png
                     img_size: w-1/4
                     float: mx-auto
               -
@@ -627,7 +636,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1636974405
+updated_at: 1636975231
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
