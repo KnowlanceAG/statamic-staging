@@ -622,6 +622,36 @@ replicator:
                         zahl: '3.'
                         beschreibung: '<p align="left">Die gesamte Kommunikation zwischen Auftraggeber und Auftragsschreiber läuft anonym in schriftlicher oder telefonischer Form ab. Als Ghostwriter haben Sie regelmäßige Teillieferungen zu erbringen. Diese Teillieferungen dienen dazu, Feedbacks zum bisher Geschriebene vom Kunden zu erhalten. So hat der Auftraggeber die Möglichkeit, regelmäßig inhaltlichen Einfluss auf die aktuelle Schreibarbeit zu nehmen.<p>'
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '18'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '4.'
+                        beschreibung: '<p align="left">Die Bezahlung der Ghostwriter wird von unseren Projektmanager je nach Komplexität und Umfang des Themas bestimmt. Das vereinbarte Honorar erhalten Sie nach dem erfolgreichen Abschluss eines Projekts.<p>'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '18'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '5.'
+                        beschreibung: '<p align="left">Nach der Fertigstellung wird die Mustervorlage an einen übergeordneten Supervisor zur Überprüfung gegeben, ähnlich eines Lektoratsservices. Nach einer professionellen Plagiatsprüfung wird der erstellte Text von einem Qualitätsmanager kontrolliert und zeitgerecht an den Kunden geliefert.<p>'
+              -
                 type: paragraph
             show_as_card: false
           -
@@ -666,6 +696,36 @@ replicator:
                     img_size: w-1/2
                     float: mx-auto
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '18'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/ghostwriter-gesucht/bezahlung-ghostwriter-1636978356.png
+                    img_size: w-1/2
+                    float: mx-auto
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '18'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/ghostwriter-gesucht/lieferung-der-Arbeit.png
+                    img_size: w-1/2
+                    float: mx-auto
+              -
                 type: paragraph
             show_as_card: false
         type: row
@@ -680,7 +740,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1636976254
+updated_at: 1636978862
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
