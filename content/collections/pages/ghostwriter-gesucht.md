@@ -619,7 +619,7 @@ replicator:
                     type: floating-img
                     dateien:
                       - seiten/ghostwriter-gesucht/anfrage.png
-                    img_size: w-1/4
+                    img_size: w-1/2
                     float: mx-auto
               -
                 type: paragraph
@@ -636,7 +636,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1636975231
+updated_at: 1636975258
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
