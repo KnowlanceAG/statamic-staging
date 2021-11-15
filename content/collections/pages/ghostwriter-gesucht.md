@@ -589,7 +589,7 @@ replicator:
                     type: numbers_home
                     grid:
                       -
-                        zahl: '1.'
+                        zahl: '<p align="left">1.<p>'
                         beschreibung: '<p align="left">Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen. Die Anforderungen an die Arbeit entscheiden, in welchem Themenbereich die Mustervorlage geschrieben werden soll. <p>'
               -
                 type: set
@@ -641,7 +641,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '18'
+                    padding-y: '24'
               -
                 type: set
                 attrs:
@@ -730,6 +730,127 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Außerdem stellt unser Unternehmen den Schreibprofis auch eine Reihe professioneller Programme kostenlos zur Verfügung. Bspw. den Zugriff auf relevanten Datenbanken, Plagiatssoftwares (Plagiatsprüfung), automatische Zitiersysteme sowie quantitative und qualitative Analysesoftwares wie SPSS, Stata, oder MAXQDA.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Bei uns sind jederzeit akademische\_Ghostwriter gesucht, wir würden uns freuen, Sie in unserem Team begrüßen zu dürfen. Bewerben Sie sich dafür einfach auf unserer Webpräsenz unter\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /als-autor-bewerben
+                          target: null
+                          rel: null
+                    text: www.gwriters.de/als-autor-bewerben
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "\_als Ghostwriter an oder kontaktieren Sie uns bei weiteren Rückfragen und Unklarheiten per E-Mail ("
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'mailto:info@gwriters.de'
+                          target: null
+                          rel: null
+                    text: info@gwriters.de
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ).
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /wiki
+                          target: null
+                          rel: null
+                    text: '< zurück zur Wiki Übersicht'
+            show_as_card: false
+        type: row
+        enabled: true
     remove_spacing: false
     is-full: false
     bg-toggle: false
@@ -740,7 +861,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1636978862
+updated_at: 1636979026
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
