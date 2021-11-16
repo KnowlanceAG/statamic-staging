@@ -442,7 +442,7 @@ replicator:
                   values:
                     type: bild_und_text
                     bild:
-                      - seiten/ghostwriter-gesucht/ghostwriter-gesucht.png
+                      - seiten/ghostwriter-gesucht/ghostwriter-gesucht-2.png
                     text: |-
                       > # 2. 
                       <p align="left">Nach Auftragsbeginn wird durch unsere professionellen Projektmanager ein zum Themenfeld passender Ghostwriter gesucht. Die Betreuung des gesamten Projektes übernimmt der Projektmanager. Er steuert den Prozess von der unverbindlichen Anfrage bis zur Lieferung der Mustervorlage. <p>
@@ -453,7 +453,7 @@ replicator:
                   values:
                     type: bild_und_text
                     bild:
-                      - seiten/ghostwriter-gesucht/kommunikation.png
+                      - seiten/ghostwriter-gesucht/kommunikation-ghostwriter-1.png
                     text: |-
                       > # 3. 
                       <p align="left">Die gesamte Kommunikation zwischen Auftraggeber und Auftragsschreiber läuft anonym in schriftlicher oder telefonischer Form ab. Als Ghostwriter haben Sie regelmäßige Teillieferungen zu erbringen. Diese Teillieferungen dienen dazu, Feedbacks zum bisher Geschriebene vom Kunden zu erhalten. So hat der Auftraggeber die Möglichkeit, regelmäßig inhaltlichen Einfluss auf die aktuelle Schreibarbeit zu nehmen.<p>
@@ -464,7 +464,7 @@ replicator:
                   values:
                     type: bild_und_text
                     bild:
-                      - seiten/ghostwriter-gesucht/bezahlung-ghostwriter-1636978356.png
+                      - seiten/ghostwriter-gesucht/bezahlung-ghostwriter-1.png
                     text: |-
                       > # 4. 
                       <p align="left">Die Bezahlung der Ghostwriter wird von unseren Projektmanager je nach Komplexität und Umfang des Themas bestimmt. Das vereinbarte Honorar erhalten Sie nach dem erfolgreichen Abschluss eines Projekts.<p>
@@ -474,6 +474,8 @@ replicator:
                 attrs:
                   values:
                     type: bild_und_text
+                    bild:
+                      - seiten/ghostwriter-gesucht/lieferung-der-arbeit-1.png
                     text: |-
                       > # 5. 
                       <p align="left">Nach der Fertigstellung wird die Mustervorlage an einen übergeordneten Supervisor zur Überprüfung gegeben, ähnlich eines Lektoratsservices. Nach einer professionellen Plagiatsprüfung wird der erstellte Text von einem Qualitätsmanager kontrolliert und zeitgerecht an den Kunden geliefert.<p>
@@ -636,7 +638,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637068436
+updated_at: 1637068546
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
