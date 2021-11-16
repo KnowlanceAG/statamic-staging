@@ -123,14 +123,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '40'
-              -
-                type: paragraph
-              -
                 type: paragraph
                 content:
                   -
@@ -277,6 +269,12 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
                 type: paragraph
                 content:
                   -
@@ -393,7 +391,7 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: left
               -
                 type: textColor
                 attrs:
@@ -419,8 +417,8 @@ replicator:
                     type: numbers_home
                     grid:
                       -
-                        zahl: '1.'
-                        beschreibung: '<p align="left">Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen. Die Anforderungen an die Arbeit entscheiden, in welchem Themenbereich die Mustervorlage geschrieben werden soll. <p>'
+                        zahl: '<p align="left">1.<p>'
+                        beschreibung: '<p align="left">Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen. Die Anforderungen an die Arbeit entscheiden, in welchem Themenbereich die Mustervorlage geschrieben werden soll.<p>'
               -
                 type: set
                 attrs:
@@ -733,7 +731,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1637063865
+updated_at: 1637064092
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
