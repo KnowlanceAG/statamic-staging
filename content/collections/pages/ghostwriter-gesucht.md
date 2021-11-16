@@ -494,7 +494,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '18'
+                    padding-y: '25'
               -
                 type: set
                 attrs:
@@ -664,7 +664,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637068658
+updated_at: 1637068694
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
