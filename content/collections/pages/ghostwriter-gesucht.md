@@ -519,99 +519,6 @@ replicator:
               -
                 type: paragraph
             show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  enabled: false
-                  values:
-                    type: floating-img
-                    dateien:
-                      - seiten/ghostwriter-gesucht/anfrage.png
-                    img_size: w-1/2
-                    float: mx-auto
-                    image_options:
-                      - no_upscale
-              -
-                type: set
-                attrs:
-                  enabled: false
-                  values:
-                    type: spacer
-                    padding-y: '18'
-              -
-                type: set
-                attrs:
-                  enabled: false
-                  values:
-                    type: floating-img
-                    dateien:
-                      - seiten/ghostwriter-gesucht/ghostwriter-gesucht.png
-                    img_size: w-1/2
-                    float: mx-auto
-                    image_options:
-                      - no_upscale
-              -
-                type: set
-                attrs:
-                  enabled: false
-                  values:
-                    type: spacer
-                    padding-y: '18'
-              -
-                type: set
-                attrs:
-                  enabled: false
-                  values:
-                    type: floating-img
-                    dateien:
-                      - seiten/ghostwriter-gesucht/kommunikation.png
-                    img_size: w-1/2
-                    float: mx-auto
-                    image_options:
-                      - no_upscale
-              -
-                type: set
-                attrs:
-                  enabled: false
-                  values:
-                    type: spacer
-                    padding-y: '18'
-              -
-                type: set
-                attrs:
-                  enabled: false
-                  values:
-                    type: floating-img
-                    dateien:
-                      - seiten/ghostwriter-gesucht/bezahlung-ghostwriter-1636978356.png
-                    img_size: w-1/2
-                    float: mx-auto
-                    image_options:
-                      - no_upscale
-              -
-                type: set
-                attrs:
-                  enabled: false
-                  values:
-                    type: spacer
-                    padding-y: '18'
-              -
-                type: set
-                attrs:
-                  enabled: false
-                  values:
-                    type: floating-img
-                    dateien:
-                      - seiten/ghostwriter-gesucht/lieferung-der-Arbeit.png
-                    img_size: w-1/2
-                    float: mx-auto
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
-            show_as_card: false
         type: row
         enabled: true
       -
@@ -777,7 +684,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637066999
+updated_at: 1637067026
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
