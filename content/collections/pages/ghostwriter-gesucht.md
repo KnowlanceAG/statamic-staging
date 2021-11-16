@@ -278,7 +278,7 @@ replicator:
           values:
             type: bild_und_text
             bild:
-              - seiten/ghostwriter-gesucht/bewerbung-ghostwriter.png
+              - seiten/ghostwriter-gesucht/bewerbung-ghostwriter-1.png
             text: |-
               ### Bewerbungsphase:
               -Anschreiben, Lebenslauf & Diplome
@@ -325,8 +325,8 @@ replicator:
               -Auswahl nach Qualifikationen
               -Individuelle Themenschwerpunkte 
               -Sprach- & Softwarekenntnisse
-              -Interne Bewertung:
-                ```   
+              -Interne Bewertung
+              ```
                 		-Zuverlässigkeit
               		-Pünktlichkeit
               		-wissenschaftliche Qualität
@@ -724,7 +724,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637086944
+updated_at: 1637089448
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
