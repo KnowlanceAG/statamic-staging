@@ -440,6 +440,12 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '18'
+              -
+                type: set
+                attrs:
+                  values:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriter-gesucht/ghostwriter-gesucht-2.png
@@ -447,6 +453,14 @@ replicator:
                       > # 2. 
                       <p align="left">Nach Auftragsbeginn wird durch unsere professionellen Projektmanager ein zum Themenfeld passender Ghostwriter gesucht. Die Betreuung des gesamten Projektes übernimmt der Projektmanager. Er steuert den Prozess von der unverbindlichen Anfrage bis zur Lieferung der Mustervorlage. <p>
                     ausrichtung: text-bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '18'
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -462,6 +476,12 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '18'
+              -
+                type: set
+                attrs:
+                  values:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriter-gesucht/bezahlung-ghostwriter-1.png
@@ -469,6 +489,12 @@ replicator:
                       > # 4. 
                       <p align="left">Die Bezahlung der Ghostwriter wird von unseren Projektmanager je nach Komplexität und Umfang des Themas bestimmt. Das vereinbarte Honorar erhalten Sie nach dem erfolgreichen Abschluss eines Projekts.<p>
                     ausrichtung: text-bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '18'
               -
                 type: set
                 attrs:
@@ -638,7 +664,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637068546
+updated_at: 1637068658
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
