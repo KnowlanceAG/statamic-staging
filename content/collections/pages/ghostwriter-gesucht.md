@@ -433,7 +433,7 @@ replicator:
                     bild:
                       - seiten/ghostwriter-gesucht/anfrage-1.png
                     text: |-
-                      > # 1.
+                      > ## 1.
                       <p align="left">Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen. Die Anforderungen an die Arbeit entscheiden, in welchem Themenbereich die Mustervorlage geschrieben werden soll. <p>
                     ausrichtung: text-bild
               -
@@ -450,7 +450,7 @@ replicator:
                     bild:
                       - seiten/ghostwriter-gesucht/ghostwriter-gesucht-2.png
                     text: |-
-                      > # 2. 
+                      > ## 2. 
                       <p align="left">Nach Auftragsbeginn wird durch unsere professionellen Projektmanager ein zum Themenfeld passender Ghostwriter gesucht. Die Betreuung des gesamten Projektes übernimmt der Projektmanager. Er steuert den Prozess von der unverbindlichen Anfrage bis zur Lieferung der Mustervorlage. <p>
                     ausrichtung: bild-text
               -
@@ -469,7 +469,7 @@ replicator:
                     bild:
                       - seiten/ghostwriter-gesucht/kommunikation-ghostwriter-1.png
                     text: |-
-                      > # 3. 
+                      > ## 3. 
                       <p align="left">Die gesamte Kommunikation zwischen Auftraggeber und Auftragsschreiber läuft anonym in schriftlicher oder telefonischer Form ab. Als Ghostwriter haben Sie regelmäßige Teillieferungen zu erbringen. Diese Teillieferungen dienen dazu, Feedbacks zum bisher Geschriebene vom Kunden zu erhalten. So hat der Auftraggeber die Möglichkeit, regelmäßig inhaltlichen Einfluss auf die aktuelle Schreibarbeit zu nehmen.<p>
                     ausrichtung: text-bild
               -
@@ -486,7 +486,7 @@ replicator:
                     bild:
                       - seiten/ghostwriter-gesucht/bezahlung-ghostwriter-1.png
                     text: |-
-                      > # 4. 
+                      > ## 4. 
                       <p align="left">Die Bezahlung der Ghostwriter wird von unseren Projektmanager je nach Komplexität und Umfang des Themas bestimmt. Das vereinbarte Honorar erhalten Sie nach dem erfolgreichen Abschluss eines Projekts.<p>
                     ausrichtung: bild-text
               -
@@ -503,7 +503,7 @@ replicator:
                     bild:
                       - seiten/ghostwriter-gesucht/lieferung-der-arbeit-1.png
                     text: |-
-                      > # 5. 
+                      > ## 5. 
                       <p align="left">Nach der Fertigstellung wird die Mustervorlage an einen übergeordneten Supervisor zur Überprüfung gegeben, ähnlich eines Lektoratsservices. Nach einer professionellen Plagiatsprüfung wird der erstellte Text von einem Qualitätsmanager kontrolliert und zeitgerecht an den Kunden geliefert.<p>
                     ausrichtung: text-bild
               -
@@ -664,7 +664,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637068756
+updated_at: 1637068807
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
