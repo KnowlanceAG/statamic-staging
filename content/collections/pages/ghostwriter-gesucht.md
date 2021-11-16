@@ -281,10 +281,10 @@ replicator:
               - seiten/ghostwriter-gesucht/bewerbung-ghostwriter-1.png
             text: |-
               ### Bewerbungsphase:
-              -Anschreiben, Lebenslauf & Diplome
-              -Publikationen & Forschung
-              -Schreibproben
-              -Erfahrungen mit Ghostwriting
+              - Anschreiben, Lebenslauf & Diplome
+              - Publikationen & Forschung
+              - Schreibproben
+              - Erfahrungen mit Ghostwriting
             ausrichtung: text-bild
       -
         type: set
@@ -301,11 +301,10 @@ replicator:
               - seiten/ghostwriter-gesucht/ghostwriter-Datenbanken-1.png
             text: |-
               ### Aufnahme in die Ghostwriter-Datenbanken:
-              -Verschwiegenheitserklärungen & Vorträge
-              -”Dummy Aufträge”
-              -permanente Qualitätsprüfungen bei 
-               allen Aufträgen
-              -Internes Ranking
+              - Verschwiegenheitserklärungen & Vorträge
+              - ”Dummy Aufträge”
+              - permanente Qualitätsprüfungen bei allen Aufträgen
+              - Internes Ranking
             ausrichtung: text-bild
       -
         type: set
@@ -322,11 +321,10 @@ replicator:
               - seiten/ghostwriter-gesucht/vergabe-projekt.png
             text: |-
               ### Vergabe von Projekten:
-              -Auswahl nach Qualifikationen
-              -Individuelle Themenschwerpunkte 
-              -Sprach- & Softwarekenntnisse
-              -Interne Bewertung
-              ```
+              - Auswahl nach Qualifikationen
+              - Individuelle Themenschwerpunkte 
+              - Sprach- & Softwarekenntnisse
+              - Interne Bewertung
                 		-Zuverlässigkeit
               		-Pünktlichkeit
               		-wissenschaftliche Qualität
@@ -724,7 +722,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637089536
+updated_at: 1637090186
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
