@@ -452,7 +452,7 @@ replicator:
                     text: |-
                       > # 2. 
                       <p align="left">Nach Auftragsbeginn wird durch unsere professionellen Projektmanager ein zum Themenfeld passender Ghostwriter gesucht. Die Betreuung des gesamten Projektes übernimmt der Projektmanager. Er steuert den Prozess von der unverbindlichen Anfrage bis zur Lieferung der Mustervorlage. <p>
-                    ausrichtung: text-bild
+                    ausrichtung: bild-text
               -
                 type: set
                 attrs:
@@ -488,7 +488,7 @@ replicator:
                     text: |-
                       > # 4. 
                       <p align="left">Die Bezahlung der Ghostwriter wird von unseren Projektmanager je nach Komplexität und Umfang des Themas bestimmt. Das vereinbarte Honorar erhalten Sie nach dem erfolgreichen Abschluss eines Projekts.<p>
-                    ausrichtung: text-bild
+                    ausrichtung: bild-text
               -
                 type: set
                 attrs:
@@ -664,7 +664,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637068694
+updated_at: 1637068756
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
