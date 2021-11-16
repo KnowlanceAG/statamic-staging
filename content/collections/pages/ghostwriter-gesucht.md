@@ -30,7 +30,7 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: '22'
+            padding-y: '30'
       -
         type: paragraph
     show_as_card: false
@@ -127,7 +127,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '39'
+                    padding-y: '40'
               -
                 type: paragraph
               -
@@ -732,8 +732,8 @@ replicator:
     enabled: true
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1636980973
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1637063865
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
