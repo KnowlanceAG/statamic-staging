@@ -30,7 +30,7 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: '30'
+            padding-y: '22'
       -
         type: paragraph
     show_as_card: false
@@ -122,6 +122,14 @@ replicator:
             show_as_card: false
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '39'
+              -
+                type: paragraph
               -
                 type: paragraph
                 content:
@@ -256,6 +264,19 @@ replicator:
                   color: '#000!important'
                   hex: '#000'
             text: "\_z.B. von Studierenden übernehmen möchten."
+      -
+        type: set
+        attrs:
+          values:
+            type: floating-img
+            dateien:
+              - seiten/ghostwriter-gesucht/ghostwriter-gesucht-1.png
+            img_size: w-1/2
+            float: mx-auto
+            image_options:
+              - no_upscale
+      -
+        type: paragraph
     show_as_card: false
     type: editor
     enabled: true
@@ -268,12 +289,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
               -
                 type: paragraph
                 content:
@@ -391,7 +406,7 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: left
+                  align: center
               -
                 type: textColor
                 attrs:
@@ -418,7 +433,7 @@ replicator:
                     grid:
                       -
                         zahl: '1.'
-                        beschreibung: '<p align="left">Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen. Die Anforderungen an die Arbeit entscheiden, in welchem Themenbereich die Mustervorlage geschrieben werden soll.<p>'
+                        beschreibung: '<p align="left">Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen. Die Anforderungen an die Arbeit entscheiden, in welchem Themenbereich die Mustervorlage geschrieben werden soll. <p>'
               -
                 type: set
                 attrs:
@@ -730,8 +745,8 @@ replicator:
     enabled: true
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1637064184
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1637064791
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
