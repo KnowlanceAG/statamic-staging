@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'anfrage an Ghostwriter'
 size: 4671
 last_modified: 1637068397
 width: 278
