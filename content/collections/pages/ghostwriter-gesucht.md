@@ -437,6 +437,13 @@ replicator:
                       <p align="left">Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen. Die Anforderungen an die Arbeit entscheiden, in welchem Themenbereich die Mustervorlage geschrieben werden soll. <p>
                     ausrichtung: text-bild
               -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriter-gesucht/ghostwriter-gesucht.png
+              -
                 type: paragraph
               -
                 type: set
@@ -544,6 +551,28 @@ replicator:
                     text: |-
                       > # 1.
                       <p align="left">Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen. Die Anforderungen an die Arbeit entscheiden, in welchem Themenbereich die Mustervorlage geschrieben werden soll. <p>
+                    ausrichtung: text-bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriter-gesucht/ghostwriter-gesucht.png
+                    text: |-
+                      > # 2. 
+                      <p align="left">Nach Auftragsbeginn wird durch unsere professionellen Projektmanager ein zum Themenfeld passender Ghostwriter gesucht. Die Betreuung des gesamten Projektes übernimmt der Projektmanager. Er steuert den Prozess von der unverbindlichen Anfrage bis zur Lieferung der Mustervorlage. <p>
+                    ausrichtung: text-bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriter-gesucht/kommunikation.png
+                    text: |-
+                      > # 3. 
+                      <p align="left">Die gesamte Kommunikation zwischen Auftraggeber und Auftragsschreiber läuft anonym in schriftlicher oder telefonischer Form ab. Als Ghostwriter haben Sie regelmäßige Teillieferungen zu erbringen. Diese Teillieferungen dienen dazu, Feedbacks zum bisher Geschriebene vom Kunden zu erhalten. So hat der Auftraggeber die Möglichkeit, regelmäßig inhaltlichen Einfluss auf die aktuelle Schreibarbeit zu nehmen.<p>
                     ausrichtung: text-bild
               -
                 type: paragraph
@@ -703,7 +732,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637067188
+updated_at: 1637067384
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
