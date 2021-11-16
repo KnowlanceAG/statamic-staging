@@ -298,7 +298,7 @@ replicator:
           values:
             type: bild_und_text
             bild:
-              - seiten/ghostwriter-gesucht/ghostwriter-Datenbanken.png
+              - seiten/ghostwriter-gesucht/ghostwriter-Datenbanken-1.png
             text: |-
               ### Aufnahme in die Ghostwriter-Datenbanken:
               -Verschwiegenheitserklärungen & Vorträge
@@ -319,7 +319,7 @@ replicator:
           values:
             type: bild_und_text
             bild:
-              - seiten/ghostwriter-gesucht/anfrage-1.png
+              - seiten/ghostwriter-gesucht/vergabe-projekt.png
             text: |-
               ### Vergabe von Projekten:
               -Auswahl nach Qualifikationen
@@ -724,7 +724,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637089448
+updated_at: 1637089536
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
