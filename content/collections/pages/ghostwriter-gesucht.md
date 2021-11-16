@@ -265,6 +265,14 @@ replicator:
                   hex: '#000'
             text: "\_z.B. von Studierenden übernehmen möchten."
       -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: 'Ghostwriter gesucht: So wählt GWriters akademische Ghostwriter aus'
+      -
         type: set
         attrs:
           values:
@@ -277,6 +285,41 @@ replicator:
               -Publikationen & Forschung
               -Schreibproben
               -Erfahrungen mit Ghostwriting
+            ausrichtung: text-bild
+      -
+        type: set
+        attrs:
+          values:
+            type: bild_und_text
+            bild:
+              - seiten/ghostwriter-gesucht/ghostwriter-Datenbanken.png
+            text: |-
+              ### Aufnahme in die Ghostwriter-Datenbanken:
+              -Verschwiegenheitserklärungen & Vorträge
+              -”Dummy Aufträge”
+              -permanente Qualitätsprüfungen bei 
+               allen Aufträgen
+              -Internes Ranking
+            ausrichtung: text-bild
+      -
+        type: set
+        attrs:
+          values:
+            type: bild_und_text
+            bild:
+              - seiten/ghostwriter-gesucht/anfrage-1.png
+            text: |-
+              ### Vergabe von Projekten:
+              -Auswahl nach Qualifikationen
+              -Individuelle Themenschwerpunkte 
+              -Sprach- & Softwarekenntnisse
+              -Interne Bewertung:
+                ```   
+                		-Zuverlässigkeit
+              		-Pünktlichkeit
+              		-wissenschaftliche Qualität
+              		-Erfahrungen mit dem GWriters-Team
+              	
             ausrichtung: text-bild
       -
         type: paragraph
@@ -669,7 +712,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637069244
+updated_at: 1637086862
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
