@@ -290,6 +290,12 @@ replicator:
         type: set
         attrs:
           values:
+            type: spacer
+            padding-y: '22'
+      -
+        type: set
+        attrs:
+          values:
             type: bild_und_text
             bild:
               - seiten/ghostwriter-gesucht/ghostwriter-Datenbanken.png
@@ -301,6 +307,12 @@ replicator:
                allen Aufträgen
               -Internes Ranking
             ausrichtung: text-bild
+      -
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: '22'
       -
         type: set
         attrs:
@@ -712,7 +724,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637086862
+updated_at: 1637086944
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
