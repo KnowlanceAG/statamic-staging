@@ -123,14 +123,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '39'
-              -
-                type: paragraph
-              -
                 type: paragraph
                 content:
                   -
@@ -291,7 +283,7 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: '22'
+            padding-y: '15'
       -
         type: set
         attrs:
@@ -311,7 +303,7 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: '61'
+            padding-y: '15'
       -
         type: set
         attrs:
@@ -494,7 +486,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '18'
+                    padding-y: '15'
               -
                 type: set
                 attrs:
@@ -511,7 +503,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '18'
+                    padding-y: '15'
               -
                 type: paragraph
               -
@@ -530,7 +522,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '18'
+                    padding-y: '15'
               -
                 type: set
                 attrs:
@@ -547,7 +539,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '25'
+                    padding-y: '15'
               -
                 type: set
                 attrs:
@@ -566,7 +558,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '14'
+                    padding-y: '15'
               -
                 type: paragraph
               -
@@ -610,7 +602,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '11'
+                    padding-y: '15'
               -
                 type: horizontal_rule
               -
@@ -618,7 +610,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: '15'
               -
                 type: paragraph
                 content:
@@ -717,7 +709,7 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1637142002
+updated_at: 1637142108
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
