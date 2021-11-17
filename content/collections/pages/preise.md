@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637172008
+updated_at: 1637178471
 replicator:
   -
     columns-replicator:
@@ -34,143 +34,18 @@ replicator:
                           hex: '#000'
                     text: 'Unsere Ghostwriter Preise'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: "Der nachfolgende Preisrechner dient als Orientierungshilfe für die Ghostwriter Preise von GWriters. Die angegebenen Preise für\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen
-                          target: null
-                          rel: null
-                    text: 'unsere Leistungen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: "\_richten sich nach unseren Erfahrungswerten mit den akademischen Ghostwritern, Lektoren & Coaches. Grundsätzlich sind die angegebenen Faktoren maßgeblich für die Einschätzung des Aufwandes für den akademischen Experten, unsere Supervisor und Projektbetreuer. "
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: 'Je nach Ihren individuellen Anforderungen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: '(z.B. Schwierigkeitsgrad des Themas, Zeitrahmen für die Schreibarbeit) '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
-                          hex: '#000'
-                    text: 'kann der endgültige Preis bis zu 20% unter oder über dem des Preisrechners liegen. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(0, 0, 0) !important'
-                          hex: '#000'
-                    text: 'Bitte geben Sie außerdem nur die reinen Textseiten (Normseite ca. 1800 Zeichen inkl. Leerzeichen) an. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'Die Normseite ist ein Richtwert, um den Umfang eines Textes quantifizieren zu können.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(0, 0, 0) !important'
-                          hex: '#000'
-                    text: 'Bei dem Ghostwriting sind die Plagiatsprüfung, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'das Korrektorat, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(0, 0, 0) !important'
-                          hex: '#000'
-                    text: 'das Lektorat durch einen Supervisor, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'Formatierung, Quellerecherche, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(0, 0, 0) !important'
-                          hex: '#000'
-                    text: 'alle Verzeichnisse, Deckblatt etc. natürlich im Preis inbegriffen. Wir bieten Qualität – und das zu fairen Preisen.'
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - preise/ghostwriter-preise.png
+                    text: |-
+                      Der nachfolgende Preisrechner dient als Orientierungshilfe für die Ghostwriter Preise von GWriters. Die angegebenen Preise für unsere Leistungen richten sich nach unseren Erfahrungswerten mit den akademischen Ghostwritern, Lektoren & Coaches. Grundsätzlich sind die angegebenen Faktoren maßgeblich für die Einschätzung des Aufwandes für den akademischen Experten, unsere Supervisor und Projektbetreuer. 
+
+                      Je nach Ihren individuellen Anforderungen (z.B. Schwierigkeitsgrad des Themas, Zeitrahmen für die Schreibarbeit) kann der endgültige Preis bis zu 20% unter oder über dem des Preisrechners liegen. Bitte geben Sie außerdem nur die reinen Textseiten (Normseite ca. 1800 Zeichen inkl. Leerzeichen) an. Die Normseite ist ein Richtwert, um den Umfang eines Textes quantifizieren zu können.
+
+                      Bei dem Ghostwriting sind die Plagiatsprüfung, das Korrektorat, das Lektorat durch einen Supervisor, Formatierung, Quellerecherche, alle Verzeichnisse, Deckblatt etc. natürlich im Preis inbegriffen. Wir bieten Qualität – und das zu fairen Preisen.
             show_as_card: false
         type: row
         enabled: true
