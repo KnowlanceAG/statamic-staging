@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637178471
+updated_at: 1637178652
 replicator:
   -
     columns-replicator:
@@ -39,7 +39,7 @@ replicator:
                   values:
                     type: bild_und_text
                     bild:
-                      - preise/ghostwriter-preise.png
+                      - preise/ghostwriter-preise-1637178642.png
                     text: |-
                       Der nachfolgende Preisrechner dient als Orientierungshilfe für die Ghostwriter Preise von GWriters. Die angegebenen Preise für unsere Leistungen richten sich nach unseren Erfahrungswerten mit den akademischen Ghostwritern, Lektoren & Coaches. Grundsätzlich sind die angegebenen Faktoren maßgeblich für die Einschätzung des Aufwandes für den akademischen Experten, unsere Supervisor und Projektbetreuer. 
 
