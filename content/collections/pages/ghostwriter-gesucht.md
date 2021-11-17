@@ -359,9 +359,6 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Als Auftragsschreiber haben Sie keinerlei Verpflichtungen bezüglich Auftragsvolumen oder angenommener Aufträge im Monat. Sie sind bei unserem Schreibservice also weiterhin absolut flexibel. Aufgrund der verschiedensten Projektanfragen bei uns, sind Ghostwriter aller Fachrichtungen gesucht.'
-            show_as_card: false
-          -
-            bard:
               -
                 type: set
                 attrs:
@@ -379,8 +376,6 @@ replicator:
                     button_link: 'entry::bfe3b004-159d-4f4d-bd0d-309563de9806'
                     button_text: 'Ghostwriter Stellenangebote'
                     spacing_top: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -464,7 +459,7 @@ replicator:
               -
                 type: textAlign
                 attrs:
-                  align: center
+                  align: left
               -
                 type: textColor
                 attrs:
@@ -721,8 +716,8 @@ replicator:
     enabled: true
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637091132
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1637141856
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
 use_meta_keywords: false
