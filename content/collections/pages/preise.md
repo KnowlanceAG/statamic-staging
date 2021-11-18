@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637225918
+updated_at: 1637226269
 replicator:
   -
     columns-replicator:
@@ -2044,7 +2044,7 @@ replicator:
                     grid:
                       -
                         zahl: '4.'
-                        beschreibung: '**Ich möchte einen Ghostwriter günstig beauftragen, haben Sie einen Billig-Tarif?**'
+                        beschreibung: 'Ich möchte einen Ghostwriter günstig beauftragen, haben Sie einen Billig-Tarif?'
               -
                 type: paragraph
                 content:
@@ -2052,13 +2052,14 @@ replicator:
                     type: text
                     text: 'Auch wenn wir jederzeit versuchen, Ihnen den Service unserer Ghostwriter günstig – und zwar so günstig wie möglich – zu bieten, bieten wir keinen Billig-Tarif auf Kosten der Qualität unserer Arbeit an. Denn als eine der führenden Ghostwriting Agenturen im deutschsprachigen Raum ist es für uns von höchster Priorität, Ihnen jederzeit höchste Qualität von akademischen Experten liefern zu können.'
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 4
-                content:
-                  -
-                    type: text
-                    text: 'Ich möchte mir eine Hausarbeit schreiben lassen: Kosten im Durchschnitt?'
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '5.'
+                        beschreibung: 'Ich möchte mir eine Hausarbeit schreiben lassen: Kosten im Durchschnitt?'
               -
                 type: paragraph
                 content:
@@ -2079,13 +2080,14 @@ replicator:
                     type: text
                     text: ', liegt zwischen €800 – €1600. Natürlich variieren die Ghostwriter Preise hier aber auch stark abhängig von der geforderten Anzahl der Textseiten, dem Schwierigkeitsgrad Themas, dem Fachbereich und dem zur Verfügung stehenden Bearbeitungszeitraum. In jedem Fall werden wir jedoch versuchen, eine für Sie möglichst kostengünstige und zugleich hochqualitative Lösung zu finden.'
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 4
-                content:
-                  -
-                    type: text
-                    text: 'Ist ein abschließendes Lektorat bereits im Preis inklusive?'
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '6.'
+                        beschreibung: 'Ist ein abschließendes Lektorat bereits im Preis inklusive?'
               -
                 type: paragraph
                 content:
@@ -2105,13 +2107,14 @@ replicator:
                     type: text
                     text: 'der durch uns erstellten Mustervorlage für Ihre Abschlussarbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit o.ä.) immer im Pauschalpreis inklusive. Diese werden von einem übergeordneten Supervisor durchgeführt, der den entsprechenden fachlichen Hintergrund wie Ihr Ghostwriter hat und somit Ihre Arbeit inhaltlich und äußerlich überprüfen und ihr den letzten Schliff geben kann.'
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 4
-                content:
-                  -
-                    type: text
-                    text: 'Was kostet es, einen Ghostwriter für die Quellenrecherche oder Themenfindung zu beauftragen?'
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '7.'
+                        beschreibung: 'Was kostet es, einen Ghostwriter für die Quellenrecherche oder Themenfindung zu beauftragen?'
               -
                 type: paragraph
                 content:
