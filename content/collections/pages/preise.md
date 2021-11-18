@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637226495
+updated_at: 1637226534
 replicator:
   -
     columns-replicator:
@@ -1909,7 +1909,7 @@ replicator:
                     grid:
                       -
                         zahl: '2.'
-                        beschreibung: '<p> Aus welchen Faktoren setzen sich die Preise für Ghostwriting zusammen?</p>'
+                        beschreibung: 'Aus welchen Faktoren setzen sich die Preise für Ghostwriting zusammen?'
               -
                 type: paragraph
                 content:
