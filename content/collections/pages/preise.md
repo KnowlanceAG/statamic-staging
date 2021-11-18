@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637226534
+updated_at: 1637230611
 replicator:
   -
     columns-replicator:
@@ -2061,24 +2061,16 @@ replicator:
                         zahl: '5.'
                         beschreibung: 'Ich möchte mir eine Hausarbeit schreiben lassen: Kosten im Durchschnitt?'
               -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - preise/preisspanne-ghostwriter.png
+                    text: "Die Preisspanne, wenn Sie sich eine Mustervorlage für Ihre\_[Hausarbeit schreiben lassen](/arbeiten/hausarbeit-schreiben-lassen), liegt zwischen €800 – €1600. Natürlich variieren die Ghostwriter Preise hier aber auch stark abhängig von der geforderten Anzahl der Textseiten, dem Schwierigkeitsgrad Themas, dem Fachbereich und dem zur Verfügung stehenden Bearbeitungszeitraum. In jedem Fall werden wir jedoch versuchen, eine für Sie möglichst kostengünstige und zugleich hochqualitative Lösung zu finden."
+                    ausrichtung: text-bild
+              -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Die Preisspanne, wenn Sie sich eine Mustervorlage für Ihre\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: 'Hausarbeit schreiben lassen'
-                  -
-                    type: text
-                    text: ', liegt zwischen €800 – €1600. Natürlich variieren die Ghostwriter Preise hier aber auch stark abhängig von der geforderten Anzahl der Textseiten, dem Schwierigkeitsgrad Themas, dem Fachbereich und dem zur Verfügung stehenden Bearbeitungszeitraum. In jedem Fall werden wir jedoch versuchen, eine für Sie möglichst kostengünstige und zugleich hochqualitative Lösung zu finden.'
               -
                 type: set
                 attrs:
