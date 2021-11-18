@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637224389
+updated_at: 1637224506
 replicator:
   -
     columns-replicator:
@@ -2120,8 +2120,8 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
-    is-full: false
+    remove_spacing: true
+    is-full: true
     bg-toggle: false
     bg-image-fixed: false
     border: true
