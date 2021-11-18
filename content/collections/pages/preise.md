@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637225036
+updated_at: 1637225160
 replicator:
   -
     columns-replicator:
@@ -1852,16 +1852,54 @@ replicator:
                     type: numbers_home
                     grid:
                       -
-                        zahl: '1. Ich möchte einen Ghostwriter mit Doktortitel beauftragen, muss ich mit höheren Ghostwriter Preise rechnen?'
-                        beschreibung: "Die Preise für einen Ghostwriter oder Schreibcoach im akademischen Bereich variieren stark. Als Kunde sollte man sich allerdings darüber im Klaren sein, dass die Kosten für einen Ghostwriter mit entsprechenden Qualifikationen höher sind als für einen Ghostwriter, welcher nicht einmal einen akademischen Abschluss hat. Gerade bei geringen Preisen von Ghostwriting-Agenturen stellt sich so die Frage, ob man eine Mustervorlage für die eigene von jemandem\_Doktorarbeit schreiben lassen\_möchte, der selbst noch nicht einmal eine Dissertation verfasst hat.   Daher werden bei GWriters für jedes Projekt\_ausschließlich Ghostwriter mit mindestens dem gleichen akademischen Abschluss eingesetzt.Wenn es Ihnen besonders wichtig ist, einen Schreibcoach zu engagieren der bereits promoviert hat oder sogar eine Professur innehat, sollte man sich also darauf einstellen, dass für ein solches Ghostwriting ein Aufpreis anfällt. Die Kosten sind höher als wenn Sie eine Billig-Agentur engagieren, die solch einen hochklassigen Service nicht garnieren kann."
-              -
-                type: paragraph
+                        zahl: '1.'
+                        beschreibung: 'Ich möchte einen Ghostwriter mit Doktortitel beauftragen, muss ich mit höheren Ghostwriter Preise rechnen?'
               -
                 type: heading
                 attrs:
                   level: 4
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Preise für einen Ghostwriter oder Schreibcoach im akademischen Bereich variieren stark. Als Kunde sollte man sich allerdings darüber im Klaren sein, dass die Kosten für einen Ghostwriter mit entsprechenden Qualifikationen höher sind als für einen Ghostwriter, welcher nicht einmal einen akademischen Abschluss hat. Gerade bei geringen Preisen von Ghostwriting-Agenturen stellt sich so die Frage, ob man eine Mustervorlage für die eigene von jemandem'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/doktorarbeit
+                          target: null
+                          rel: null
+                    text: "\_Doktorarbeit schreiben lassen\_"
+                  -
+                    type: text
+                    text: 'möchte, der selbst noch nicht einmal eine Dissertation verfasst hat. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Daher werden bei GWriters für jedes Projekt\_ausschließlich Ghostwriter mit mindestens dem gleichen akademischen Abschluss eingesetzt."
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: 'Wenn es Ihnen besonders wichtig ist, einen Schreibcoach zu engagieren der bereits promoviert hat oder sogar eine Professur innehat, sollte man sich also darauf einstellen, dass für ein solches Ghostwriting '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'ein Aufpreis anfällt'
+                  -
+                    type: text
+                    text: '. Die Kosten sind höher als wenn Sie eine Billig-Agentur engagieren, die solch einen hochklassigen Service nicht garnieren kann.'
               -
                 type: heading
                 attrs:
