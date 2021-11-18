@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637230695
+updated_at: 1637230746
 replicator:
   -
     columns-replicator:
@@ -2126,7 +2126,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere akademischen Ghostwriter unterstützen Sie zum Beispiel auch bei der Themenfindung, Formatierung, Quellenrecherche, beim Finden einer Forschungsfrage und der Anwendung von Forschungsmethoden. Die Durchführung von Umfragen, Interviewsauswertungen, sowie qualitative (MAXQDA) und quantitativen (SPSS, Stata, R) Datenauswertungen oder Inhaltsanalysen übernehmen wir ebenfalls für Sie.'
+                    text: 'Unsere akademischen Ghostwriter unterstützen Sie zum Beispiel auch bei der Themenfindung, Formatierung, Quellenrecherche, beim Finden einer Forschungsfrage und der Anwendung von Forschungsmethoden. Die Durchführung von Umfragen, Interviewsauswertungen, sowie qualitative ('
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/maxqda-auswertung
+                          target: null
+                          rel: null
+                    text: MAXQDA
+                  -
+                    type: text
+                    text: ') und quantitativen (SPSS, Stata, R) Datenauswertungen oder Inhaltsanalysen übernehmen wir ebenfalls für Sie.'
                   -
                     type: hard_break
             show_as_card: false
