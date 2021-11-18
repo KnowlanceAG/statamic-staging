@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637225494
+updated_at: 1637225918
 replicator:
   -
     columns-replicator:
@@ -1902,13 +1902,14 @@ replicator:
                     type: text
                     text: '. Die Kosten sind höher als wenn Sie eine Billig-Agentur engagieren, die solch einen hochklassigen Service nicht garnieren kann.'
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 4
-                content:
-                  -
-                    type: text
-                    text: 'Aus welchen Faktoren setzen sich die Preise für Ghostwriting zusammen?'
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '2.'
+                        beschreibung: 'Aus welchen Faktoren setzen sich die Preise für Ghostwriting zusammen?'
               -
                 type: paragraph
                 content:
@@ -2009,13 +2010,14 @@ replicator:
                     type: text
                     text: 'nämlich sehr wohl bewusst und können sich auf ihr Team von akademischen Ghostwritern verlassen.'
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 4
-                content:
-                  -
-                    type: text
-                    text: 'Ist ein hoher Preis eine Garantie für gutes Ghostwriting?'
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '3.'
+                        beschreibung: 'Ist ein hoher Preis eine Garantie für gutes Ghostwriting?'
               -
                 type: paragraph
                 content:
@@ -2035,13 +2037,14 @@ replicator:
                     type: text
                     text: 'Auch sollten man sicher gehen, dass ein Ghostwriter mit der Aufgabe betraut wurde, der reichlich Erfahrung im gefragten Fachgebiet mitbringt. Daher gilt als Faustregel, nicht nur auf den Preis, sondern auch darauf zu achten, ob die Aufgabe in gute Hände gelegt wird.'
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 4
-                content:
-                  -
-                    type: text
-                    text: 'Ich möchte einen Ghostwriter günstig beauftragen, haben Sie einen Billig-Tarif?'
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '4.'
+                        beschreibung: '**Ich möchte einen Ghostwriter günstig beauftragen, haben Sie einen Billig-Tarif?**'
               -
                 type: paragraph
                 content:
