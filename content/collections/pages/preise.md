@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637178652
+updated_at: 1637224389
 replicator:
   -
     columns-replicator:
@@ -1818,6 +1818,25 @@ replicator:
                   -
                     type: text
                     text: 'Sollten Sie nicht selbst eine Änderung des Auftragsumfangs wünschen, erwarten Sie keine weiteren Kosten für unseren Ghostwriting-Service. Das versprechen wir Ihnen!'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
               -
                 type: heading
                 attrs:
@@ -1870,7 +1889,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: 'ein Aufpreis anfällt'
                   -
@@ -1896,7 +1915,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: 'die Komplexität des '
                   -
@@ -1977,7 +1996,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Professionalität '
                   -
@@ -2070,7 +2089,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: 'sind Zusatzleistungen wie das Lektorat und Korrektorat, '
                   -
@@ -2105,7 +2124,7 @@ replicator:
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
-    border: false
+    border: true
     type: add_section
     enabled: true
 use_meta_keywords: false
