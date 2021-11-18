@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637225394
+updated_at: 1637225494
 replicator:
   -
     columns-replicator:
@@ -1844,6 +1844,11 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                     text: 'Die wichtigsten Fragen und Antworten zu unseren Ghostwriter Preisen'
               -
                 type: set
@@ -1852,12 +1857,8 @@ replicator:
                     type: numbers_home
                     grid:
                       -
-                        zahl: '<p align="left">1.</p>'
-                        beschreibung: '<p align="left">Ich möchte einen Ghostwriter mit Doktortitel beauftragen, muss ich mit höheren Ghostwriter Preise rechnen?</p>'
-              -
-                type: heading
-                attrs:
-                  level: 4
+                        zahl: '1.'
+                        beschreibung: 'Ich möchte einen Ghostwriter mit Doktortitel beauftragen, muss ich mit höheren Ghostwriter Preise rechnen?'
               -
                 type: paragraph
                 content:
