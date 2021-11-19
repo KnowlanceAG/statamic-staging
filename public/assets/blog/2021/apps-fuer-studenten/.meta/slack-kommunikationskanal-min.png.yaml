@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Slack Kommunikationstool'
+  caption: Slack
 size: 46877
 last_modified: 1637316907
 width: 810
