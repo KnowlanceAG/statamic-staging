@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Math 42'
+  caption: 'Math 42 App'
 size: 50967
 last_modified: 1637328265
 width: 689
