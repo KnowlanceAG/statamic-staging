@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: Citavi
+  caption: 'Citavi- Literaturtool'
 size: 51017
 last_modified: 1637322778
 width: 861
