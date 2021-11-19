@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'KingDraw Chemical Structure Editor'
+  title: 'Molekülstruktur erstellen - KingDraw Chemical Structure Editor App'
 size: 176387
 last_modified: 1637315712
 width: 850
