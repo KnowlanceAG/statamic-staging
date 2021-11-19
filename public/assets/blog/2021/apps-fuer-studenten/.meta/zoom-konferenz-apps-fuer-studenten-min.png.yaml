@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Zoom App'
+  caption: 'Zoom App'
 size: 157144
 last_modified: 1637317810
 width: 858
