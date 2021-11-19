@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Session App'
+  caption: 'Quelle: https://freedom.to/freedom-for-ios'
 size: 30718
 last_modified: 1637310153
 width: 337
