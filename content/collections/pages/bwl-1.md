@@ -1,5 +1,6 @@
 ---
 id: 89bfdf0d-d156-4ee5-9575-09e85f7e3655
+published: false
 blueprint: pages
 title: 'BWL (Dupliziert)'
 teaser:
@@ -57,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638570051
+updated_at: 1638570099
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
