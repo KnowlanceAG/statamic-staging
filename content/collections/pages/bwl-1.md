@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638560493
+updated_at: 1638564672
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -282,68 +282,88 @@ replicator:
             bard:
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: "Wenn Sie bei Ihrer akademischen Arbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit) im Fachgebiet BWL Schwierigkeiten haben und Unterstützung benötigen, dann können Sie uns an unsere Agentur sofort eine\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/anfrage'
-                          target: null
-                          rel: null
-                    text: 'unverbindliche Anfrage schicken'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: '. '
               -
-                type: paragraph
+                type: blockquote
                 content:
                   -
-                    type: text
-                    marks:
+                    type: paragraph
+                    content:
                       -
-                        type: bold
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: textAlign
+                            attrs:
+                              align: center
+                          -
+                            type: textColor
+                            attrs:
+                              color: white
+                              hex: '#fff'
+                        text: "Wenn Sie bei Ihrer akademischen Arbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit) im Fachgebiet BWL Schwierigkeiten haben und Unterstützung benötigen, dann können Sie uns an unsere Agentur sofort eine\_"
                       -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arbeitsarten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: textAlign
+                            attrs:
+                              align: center
+                          -
+                            type: textColor
+                            attrs:
+                              color: white
+                              hex: '#fff'
+                          -
+                            type: link
+                            attrs:
+                              href: 'https://gwriters.de/anfrage'
+                              target: null
+                              rel: null
+                        text: 'unverbindliche Anfrage schicken'
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: textAlign
+                            attrs:
+                              align: center
+                          -
+                            type: textColor
+                            attrs:
+                              color: white
+                              hex: '#fff'
+                        text: '. '
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: textAlign
+                            attrs:
+                              align: center
+                          -
+                            type: textColor
+                            attrs:
+                              color: white
+                              hex: '#fff'
+                        text: 'Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arbeitsarten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: true
     bg-toggle: false
-    bg-color: '#D6D6D6'
+    bg-color: '#8A8A8A'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -402,7 +422,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -456,6 +476,37 @@ replicator:
                   values:
                     type: video
                     video: 'https://youtu.be/PmgIh10dij0'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#F9F9F9'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    button_align: justify-center
+                    spacing_top: false
               -
                 type: paragraph
             show_as_card: false
@@ -553,7 +604,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -606,10 +657,138 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#FFC5A2'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Inhalte des BWL-Studiums'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In dem betriebswirtschaftlichen Studium lernen Studenten u.a. Projekte zu managen, betriebliche Abläufe zu analysieren und sie zu steuern. Dabei sind Praxiseinheiten (Praktika) und Projektarbeiten wesentliche Elemente des Studiums, die das erlernte Fachwissen vertiefen und erweitern sollen. Ebenfalls wird der Fremdsprachenkompetenz der Studenten eine hohe Bedeutung zugeschrieben.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Neben der englischen Sprache werden oftmals die spanische, russische, französische oder chinesische Sprache unterrichtet. Die Basis des Fachwissens bilden Grundlagenfächer/Pflichtbereiche wie Finanzierung, Rechnungswesen, Personalwesen, Produktion und\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/marketing'
+                          target: null
+                          rel: null
+                    text: Marketing
+                  -
+                    type: text
+                    text: '. Diese Grundlagenfächer werden in höheren Semestern durch Schwerpunkte, die der Student wählt, weiter vertieft.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im Detail gehören zu den wesentlichen Elementen eines betriebswirtschaftlichen Studiums die Themen Planung (Businessplan, Marketingkonzept), Organisation und Analyse sowie Elemente aus der Soziologie, der Arbeits- und Organisationspsychologie, dem Personalwesen sowie der Rechts- und Politikwissenschaft. Im Studium gliedert sich die BWL und damit auch die Wissensvermittlung im Regelfall in die „Allgemeine Betriebswirtschaftslehre“ (ABWL) und die „Spezielle Betriebswirtschaftslehre“ (SBWL). Während bei der ABWL die genannten Themen Planung, Organisation und Rechnungswesen im Vordergrund stehen, konzentriert sich die SBWL auf Fragestellungen, die in bestimmten Branchen relevanten werden. Hier können dann die Themenbereiche Marketing, Personal, Controlling und Finanzen oder auch Produktion erwähnt werden.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - seiten/fachrichtungen/BWL-Ghostwriter.png
+                    has_border: false
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '52'
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Jedoch bereiten gerade die Grundlagenfächer Mathe, Statistik und Recht sehr vielen Studenten erhebliche Probleme. Sie entscheiden sich nicht selten dazu Ghostwriter und andere akademische Freelancer zu engagieren um sich optimal auf Prüfungen vorbereiten zu können. Ghostwriting-Arbeiten dürfen nicht als solche verwendet werden, wenn es sich um Prüfungsleistungen handelt. BWL-Ghostwriter sind jedoch in anderen Fällen, wie beispielsweise bei der Erstellung einer Marktanalyse/eines Businessplans für ein Unternehmen oder das Schreiben eines Buches für eine Privatperson, zulässig.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/besipielarbeit.JPG
+                    ex_title: 'BWL Beispielarbeit jetzt KOSTENLOS runterladen!'
+                    ex_fachbereich:
+                      - 0c7a7458-3742-45a8-b2d4-313a1d29ef66
+                    ex_type: Seminararbeit
+                    ex_pages: '12'
+                    ex_zitation: 'Harvard Style'
+                    ex_button_link: 'entry::96cae355-3c82-4ead-9c6f-b091dcd86f36'
+                    ex_button_text: WEITERLESEN
+                    ex_spacing_top: false
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#F9F9F9'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -627,32 +806,16 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    button_align: justify-center
-                    spacing_top: false
+                    type: link_liste
+                    raster:
+                      -
+                        text: Arbeiten
+                        eintraege: null
+                      -
+                        text: Fachrichtungen
+                        eintraege: null
               -
                 type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard: null
             show_as_card: false
         type: row
         enabled: true
