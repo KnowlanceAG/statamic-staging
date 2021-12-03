@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638566551
+updated_at: 1638569179
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -253,8 +253,54 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Themenfindung, Formulierung von Wirtschaftstexten/Fachtexten, Literaturrecherche, Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederung sein.'
+                        type: link
+                        attrs:
+                          href: /bachelorarbeit-thema
+                          target: null
+                          rel: null
+                    text: Themenfindung
+                  -
+                    type: text
+                    text: ', Formulierung von Wirtschaftstexten/Fachtexten, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/literaturrecherche-datenbanken-quellen
+                          target: null
+                          rel: null
+                    text: Literaturrecherche
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/forschungsluecke-finden
+                          target: null
+                          rel: null
+                    text: Forschungsfrage
+                  -
+                    type: text
+                    text: ', beim Ergänzen von Textteilen oder beim Erstellen von '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/aufbau-wissenschaftliche-arbeit
+                          target: null
+                          rel: null
+                    text: Gliederung
+                  -
+                    type: text
+                    text: ' sein.'
               -
                 type: paragraph
               -
@@ -320,7 +366,7 @@ replicator:
                           -
                             type: link
                             attrs:
-                              href: 'https://gwriters.de/anfrage'
+                              href: /anfrage
                               target: null
                               rel: null
                         text: 'unverbindliche Anfrage schicken'
@@ -390,7 +436,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Jeder unserer ausgewählten Ghostwriter der BWL besitzt tiefgründige Fachkenntnisse und Erfahrungen in seinem Einsatzbereichund kann umfassende Schreiberfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen. So ist es uns möglich, unseren Kunden bei den verschiedensten Ausarbeitungen/Texterstellungen umfassenden und individuellen Beistand zu leisten. Dieser variiert nach dem persönlichen Einsatz des Studenten. '
+                    text: 'Jeder unserer ausgewählten Ghostwriter der BWL besitzt tiefgründige Fachkenntnisse und Erfahrungen in seinem Einsatzbereich und kann umfassende Schreiberfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen. So ist es uns möglich, unseren Kunden bei den verschiedensten Ausarbeitungen/Texterstellungen umfassenden und individuellen Beistand zu leisten. Dieser variiert nach dem persönlichen Einsatz des Studenten. '
               -
                 type: paragraph
                 content:
@@ -408,7 +454,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/ghostwriting'
+                          href: /ghostwriting
                           target: null
                           rel: null
                     text: Ghostwriting
@@ -463,7 +509,25 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Abschlussarbeit, Businessplan, Marketingkonzept'
+                    text: 'Abschlussarbeit, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/businessplan-erstellen-lassen
+                          target: null
+                          rel: null
+                    text: Businessplan
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ', Marketingkonzept'
                   -
                     type: text
                     text: ' etc.) Musterarbeiten. Außerdem kennen akademische Ghostwriter den aktuellen Forschungsstand zu vielen BWL-Themenstellungen und haben auf relevanten Datenbanken Zugriff, wie Fachzeitschriften, Fachartikel etc.'
@@ -554,13 +618,26 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/wirtschaftswissenschaften'
+                          href: /fachrichtungen/wirtschaftswissenschaften
                           target: null
                           rel: null
                     text: Wirtschaftswissenschaften
                   -
                     type: text
-                    text: "\_(WiWi). Sie ist eng verwandt mit der Volkswirtschaftslehre ("
+                    text: "\_(WiWi). Sie ist eng verwandt mit der "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/vwl
+                          target: null
+                          rel: null
+                    text: Volkswirtschaftslehre
+                  -
+                    type: text
+                    text: ' ('
                   -
                     type: text
                     marks:
@@ -569,22 +646,34 @@ replicator:
                         attrs:
                           color: blue
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/vwl'
-                          target: null
-                          rel: null
                     text: VWL
                   -
                     type: text
                     text: ') und beschäftigt sich mit dem Verständnis von Unternehmen und der Umsetzung und Kontrolle von Vorgängen in Unternehmen; einfach formuliert: die BWL betrachtet Themenstellungen aus der „Maulwurfperspektive“, während die VWL die „Vogelperspektive“ einnimmt. Ein Betriebswirt oder eine Betriebswirtin analysiert das gegebene betriebswirtschaftliche Umfeld und besondere Ausgangssituationen im Unternehmen und trifft Entscheidungen zur Förderung des Unternehmenserfolgs. Betriebswirtschaftliche Fachgebiete sind unter Studierenden sehr beliebt. '
               -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::c7bc4fcc-032f-46aa-bab7-2a78b0e21aaf'
+                    button_text: 'Bachelorarbeit-Thema BWL: 75 Vorschläge'
+                    spacing_top: false
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Karriereaussichten von BWL'
+              -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Im Vordergrund eines BWL-Studiengangs steht dabei der Umgang mit Zahlen und die Karriereaussicht, später im Management eines Unternehmens arbeiten zu können. Der große Vorteil eines BWL-Studiengangs ist es, dass man sehr generalistisch auf ein breites Aufgabenfeld bzw. Berufsleben in der Wirtschaft vorbereitet wird und damit die Karrierechancen sehr gut sind. Um ihre Standardleistungen zu optimieren und sich somit von der Menge hervorzuheben, engagieren einige Studenten der BWL Ghostwriter und Freelancer, die ihnen bei ihrer schriftlichen Ausarbeitung durch die Erstellung von Mustervorlagen zur Seite stehen. Zudem wird die erstellte Mustervorlage von unabhängigen Lektoren und Korrekturleser aus dem Fachgebiet BWL überprüft, um Verbersserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorzunehmen. \_"
+                    text: "Im Vordergrund eines BWL-Studiengangs steht dabei der Umgang mit Zahlen und die Karriereaussicht, später im Management eines Unternehmens arbeiten zu können. Der große Vorteil eines BWL-Studiengangs ist es, dass man sehr generalistisch auf ein breites Aufgabenfeld bzw. Berufsleben in der Wirtschaft vorbereitet wird und damit die Karrierechancen sehr gut sind. Um ihre Standardleistungen zu optimieren und sich somit von der Menge hervorzuheben, engagieren einige Studenten der BWL Ghostwriter und Freelancer, die ihnen bei ihrer schriftlichen Ausarbeitung durch die Erstellung von Mustervorlagen zur Seite stehen. Zudem wird die erstellte Mustervorlage von unabhängigen Lektoren und Korrekturleser aus dem Fachgebiet BWL überprüft, um Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorzunehmen. \_"
               -
                 type: heading
                 attrs:
@@ -631,7 +720,22 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'BWL kann deutschlandweit studiert werden, dabei unterscheiden sich die Angebote der Fachhochschulen und Universitäten insbesondere in ihrer inhaltlichen Ausrichtung bei späteren Vertiefungen im Studium. Auch private Hochschulen bieten im BWL-Kontext in den letzten Jahren verstärkt ihre Dienstleistungen an. Hierbei handelt es sich meist um berufsbegleitende Fachbereiche, die sich auf ein bestimmtes Themenfeld (z.B. Marketing) konzentrieren.'
+                    text: 'BWL kann deutschlandweit studiert werden, dabei unterscheiden sich die Angebote der Fachhochschulen und Universitäten insbesondere in ihrer inhaltlichen Ausrichtung bei späteren Vertiefungen im Studium. Auch private Hochschulen bieten im BWL-Kontext in den letzten Jahren verstärkt ihre Dienstleistungen an. Hierbei handelt es sich meist um berufsbegleitende Fachbereiche, die sich auf ein bestimmtes Themenfeld (z.B. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/marketing
+                          target: null
+                          rel: null
+                    text: Marketing
+                  -
+                    type: text
+                    text: ') konzentrieren.'
+              -
+                type: paragraph
               -
                 type: paragraph
                 content:
@@ -653,7 +757,29 @@ replicator:
                         type: textAlign
                         attrs:
                           align: left
-                    text: 'Dabei können nur Lehrinstitute, die über ein Promotionsrecht verfügen, von ihren Studenten der BWL eine Dissertation schreiben lassen und ihnen einen Doktortitel verleihen. Besonders bei diesem akademischen Grad ist in der BWL Ghostwriting verbreitet. Ein BWL-Ghostwriter hilft dem Doktoranden durch das Erstellen einer Mustervorlage, die als Orientierungshilfe genutzt wird.'
+                    text: 'Dabei können nur Lehrinstitute, die über ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: link
+                        attrs:
+                          href: /promotionsberatung/berufsbegleitende-promotion-standardisierte-promotionsprogramme
+                          target: null
+                          rel: null
+                    text: Promotionsrecht
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: ' verfügen, von ihren Studenten der BWL eine Dissertation schreiben lassen und ihnen einen Doktortitel verleihen. Besonders bei diesem akademischen Grad ist in der BWL Ghostwriting verbreitet. Ein BWL-Ghostwriter hilft dem Doktoranden durch das Erstellen einer Mustervorlage, die als Orientierungshilfe genutzt wird.'
             show_as_card: false
           -
             bard:
@@ -671,6 +797,11 @@ replicator:
                     assets:
                       - seiten/fachrichtungen/Ghostwriter_BWL_Studium_Aufbau-1.png
                     has_border: false
+              -
+                type: set
+                attrs:
+                  values:
+                    type: insert_html
               -
                 type: paragraph
               -
@@ -723,12 +854,6 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/fachrichtungen/marketing'
-                          target: null
-                          rel: null
                     text: Marketing
                   -
                     type: text
@@ -738,7 +863,22 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Im Detail gehören zu den wesentlichen Elementen eines betriebswirtschaftlichen Studiums die Themen Planung (Businessplan, Marketingkonzept), Organisation und Analyse sowie Elemente aus der Soziologie, der Arbeits- und Organisationspsychologie, dem Personalwesen sowie der Rechts- und Politikwissenschaft. Im Studium gliedert sich die BWL und damit auch die Wissensvermittlung im Regelfall in die „Allgemeine Betriebswirtschaftslehre“ (ABWL) und die „Spezielle Betriebswirtschaftslehre“ (SBWL). Während bei der ABWL die genannten Themen Planung, Organisation und Rechnungswesen im Vordergrund stehen, konzentriert sich die SBWL auf Fragestellungen, die in bestimmten Branchen relevanten werden. Hier können dann die Themenbereiche Marketing, Personal, Controlling und Finanzen oder auch Produktion erwähnt werden.'
+                    text: 'Im Detail gehören zu den wesentlichen Elementen eines betriebswirtschaftlichen Studiums die Themen Planung (Businessplan, Marketingkonzept), Organisation und Analyse sowie Elemente aus der Soziologie, der Arbeits- und Organisationspsychologie, dem Personalwesen sowie der Rechts- und Politikwissenschaft. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im Studium gliedert sich die BWL und damit auch die Wissensvermittlung im Regelfall in die „Allgemeine Betriebswirtschaftslehre“ (ABWL) und die „Spezielle Betriebswirtschaftslehre“ (SBWL). Während bei der ABWL die genannten Themen Planung, Organisation und Rechnungswesen im Vordergrund stehen, konzentriert sich die SBWL auf Fragestellungen, die in bestimmten Branchen relevanten werden. Hier können dann die Themenbereiche '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Marketing, Personal, Controlling und Finanzen oder auch Produktion'
+                  -
+                    type: text
+                    text: ' erwähnt werden.'
               -
                 type: set
                 attrs:
@@ -1035,6 +1175,17 @@ replicator:
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: blog_entries
+                    entries:
+                      - c7bc4fcc-032f-46aa-bab7-2a78b0e21aaf
+                      - be1aacde-86af-4b82-9a8b-10b05c6743b5
+                      - d61b6932-74b9-4ece-9da6-a54a1265c9a3
               -
                 type: paragraph
             show_as_card: false
