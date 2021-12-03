@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638565515
+updated_at: 1638565655
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -895,7 +895,9 @@ replicator:
                     type: text
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
-                type: paragraph
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
                     type: text
@@ -907,67 +909,98 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
                         type: textColor
                         attrs:
-                          color: blue
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
                         attrs:
                           href: 'https://ranking.zeit.de/che/de/'
                           target: _blank
-                          rel: null
+                          rel: 'noopener noreferrer nofollow'
                     text: 'CHE Hochschulranking 2020 – Zeit Online'
                   -
                     type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
                         type: textColor
                         attrs:
-                          color: blue
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
                         attrs:
                           href: 'https://de.wikipedia.org/wiki/Betriebswirtschaftslehre'
                           target: _blank
-                          rel: null
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Grundinformationen zur BWL – Wikipedia'
                   -
                     type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
                         type: textColor
                         attrs:
-                          color: blue
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
                         attrs:
                           href: 'https://www.handelsblatt.com/'
                           target: _blank
-                          rel: null
+                          rel: nofollow
                     text: 'Wirtschaftsnachrichten – Handelsblatt'
                   -
                     type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
                   -
                     type: text
                     marks:
                       -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
                         type: textColor
                         attrs:
-                          color: blue
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
                         attrs:
                           href: 'https://ranking.zeit.de/che/de/fachinfo/24'
                           target: _blank
-                          rel: null
+                          rel: 'noopener noreferrer nofollow'
                     text: 'BWL studieren – Zeit Online'
                   -
                     type: text
@@ -975,14 +1008,9 @@ replicator:
                       -
                         type: bold
                       -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/wiki'
+                          href: /wiki
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
