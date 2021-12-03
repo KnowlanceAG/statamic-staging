@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638565655
+updated_at: 1638566551
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -589,16 +589,6 @@ replicator:
                 type: heading
                 attrs:
                   level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Aufbau eines BWL-Studiums'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Kenntnisse der Betriebswirtschaft kann man durch eine Lehre im kaufmännischen Bereich, ein berufsbegleitendes Studium, ein duales Studium oder durch ein Vollzeitstudium an einer Universität oder Fachhochschule erlangen. BWL kann deutschlandweit studiert werden, dabei unterscheiden sich die Angebote der Fachhochschulen und Universitäten insbesondere in ihrer inhaltlichen Ausrichtung bei späteren Vertiefungen im Studium. Auch private Hochschulen bieten im BWL-Kontext in den letzten Jahren verstärkt ihre Dienstleistungen an. Hierbei handelt es sich meist um berufsbegleitende Fachbereiche, die sich auf ein bestimmtes Themenfeld (z.B. Marketing) konzentrieren.'
               -
                 type: paragraph
             show_as_card: false
@@ -621,13 +611,27 @@ replicator:
           -
             bard:
               -
-                type: set
+                type: paragraph
+              -
+                type: heading
                 attrs:
-                  values:
-                    type: spacer
-                    padding-y: '24'
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Aufbau eines BWL-Studiums'
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Kenntnisse der Betriebswirtschaft kann man durch eine Lehre im kaufmännischen Bereich, ein berufsbegleitendes Studium, ein duales Studium oder durch ein Vollzeitstudium an einer Universität oder Fachhochschule erlangen. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'BWL kann deutschlandweit studiert werden, dabei unterscheiden sich die Angebote der Fachhochschulen und Universitäten insbesondere in ihrer inhaltlichen Ausrichtung bei späteren Vertiefungen im Studium. Auch private Hochschulen bieten im BWL-Kontext in den letzten Jahren verstärkt ihre Dienstleistungen an. Hierbei handelt es sich meist um berufsbegleitende Fachbereiche, die sich auf ein bestimmtes Themenfeld (z.B. Marketing) konzentrieren.'
               -
                 type: paragraph
                 content:
@@ -635,15 +639,30 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Der BWL-Studienabschluss besteht beim Bachelorstudiengang aus 6 Semestern und kann mit dem Masterstudiengang, bestehend aus 4 Semestern, fortgesetzt werden. Als Examensarbeit zählten ehemals die Magisterarbeit und die Diplomarbeit, nach der Bologna-Reform jedoch die Bachelorarbeit (Bachelor Thesis) und die Masterarbeit (Master Thesis). Optional kann darauf aufbauend die Promotion erfolgen. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
                       -
                         type: textAlign
                         attrs:
                           align: left
-                    text: 'Der BWL-Studienabschluss besteht beim Bachelorstudiengang aus 6 Semestern und kann mit dem Masterstudiengang, bestehend aus 4 Semestern, fortgesetzt werden. Als Examensarbeit zählten ehemals die Magisterarbeit und die Diplomarbeit, nach der Bologna-Reform jedoch die Bachelorarbeit (Bachelor Thesis) und die Masterarbeit (Master Thesis). Optional kann darauf aufbauend die Promotion erfolgen. Dabei können nur Lehrinstitute, die über ein Promotionsrecht verfügen, von ihren Studenten der BWL eine Dissertation schreiben lassen und ihnen einen Doktortitel verleihen. Besonders bei diesem akademischen Grad ist in der BWL Ghostwriting verbreitet. Ein BWL-Ghostwriter hilft dem Doktoranden durch das Erstellen einer Mustervorlage, die als Orientierungshilfe genutzt wird.'
+                    text: 'Dabei können nur Lehrinstitute, die über ein Promotionsrecht verfügen, von ihren Studenten der BWL eine Dissertation schreiben lassen und ihnen einen Doktortitel verleihen. Besonders bei diesem akademischen Grad ist in der BWL Ghostwriting verbreitet. Ein BWL-Ghostwriter hilft dem Doktoranden durch das Erstellen einer Mustervorlage, die als Orientierungshilfe genutzt wird.'
             show_as_card: false
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '63'
               -
                 type: set
                 attrs:
@@ -654,10 +673,12 @@ replicator:
                     has_border: false
               -
                 type: paragraph
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: true
     bg-toggle: false
     bg-color: '#FFC5A2'
