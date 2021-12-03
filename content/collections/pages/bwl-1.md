@@ -57,7 +57,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638569520
+updated_at: 1638569818
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -891,6 +891,10 @@ replicator:
                     has_border: false
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Jedoch bereiten gerade die Grundlagenfächer Mathe, Statistik und Recht sehr vielen Studenten erhebliche Probleme. Sie entscheiden sich nicht selten dazu Ghostwriter und andere akademische Freelancer zu engagieren um sich optimal auf Prüfungen vorbereiten zu können. Ghostwriting-Arbeiten dürfen nicht als solche verwendet werden, wenn es sich um Prüfungsleistungen handelt. BWL-Ghostwriter sind jedoch in anderen Fällen, wie beispielsweise bei der Erstellung einer Marktanalyse/eines Businessplans für ein Unternehmen oder das Schreiben eines Buches für eine Privatperson, zulässig.'
             show_as_card: false
         type: row
         enabled: true
@@ -908,23 +912,6 @@ replicator:
         columns_per_row: '2'
         single-col: false
         grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '52'
-              -
-                type: paragraph
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Jedoch bereiten gerade die Grundlagenfächer Mathe, Statistik und Recht sehr vielen Studenten erhebliche Probleme. Sie entscheiden sich nicht selten dazu Ghostwriter und andere akademische Freelancer zu engagieren um sich optimal auf Prüfungen vorbereiten zu können. Ghostwriting-Arbeiten dürfen nicht als solche verwendet werden, wenn es sich um Prüfungsleistungen handelt. BWL-Ghostwriter sind jedoch in anderen Fällen, wie beispielsweise bei der Erstellung einer Marktanalyse/eines Businessplans für ein Unternehmen oder das Schreiben eines Buches für eine Privatperson, zulässig.'
-            show_as_card: false
           -
             bard:
               -
@@ -1185,9 +1172,9 @@ replicator:
                   values:
                     type: blog_entries
                     entries:
-                      - c7bc4fcc-032f-46aa-bab7-2a78b0e21aaf
                       - be1aacde-86af-4b82-9a8b-10b05c6743b5
                       - d61b6932-74b9-4ece-9da6-a54a1265c9a3
+                      - 0408641d-3a59-44ce-a059-1b75afd3ecc4
               -
                 type: paragraph
             show_as_card: false
