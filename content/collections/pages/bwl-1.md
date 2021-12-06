@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1638787390
+updated_at: 1638787861
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -363,12 +363,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
                 type: paragraph
               -
                 type: heading
@@ -498,6 +492,14 @@ replicator:
                           - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
                           - f07c0010-40dd-407e-bf32-a1a260b5016b
                           - b8930678-fff6-4d7a-8ae8-056605f303f2
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -743,7 +745,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Karriereaussichten von BWL'
+                    text: 'Karriereaussichten nach dem BWL-Studium'
               -
                 type: paragraph
                 content:
@@ -943,6 +945,14 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1090,10 +1100,18 @@ replicator:
                   -
                     type: text
                     text: '. Ghostwriter sind jedoch in anderen Fällen, wie beispielsweise bei der Erstellung einer Marktanalyse/eines Businessplans für ein Unternehmen oder das Schreiben eines Buches für eine Privatperson, zulässig.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: true
     bg-toggle: false
     bg-image-fixed: false
@@ -1272,11 +1290,17 @@ replicator:
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
                 type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
