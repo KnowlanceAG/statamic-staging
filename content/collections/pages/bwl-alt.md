@@ -1,5 +1,7 @@
 ---
 id: 0c7a7458-3742-45a8-b2d4-313a1d29ef66
+published: false
+blueprint: pages
 title: BWL
 teaser:
   -
@@ -55,8 +57,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1628584866
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1638796393
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
