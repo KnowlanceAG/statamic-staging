@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1638785598
+updated_at: 1638785615
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -657,7 +657,13 @@ replicator:
                     text: VWL
                   -
                     type: text
-                    text: ') und beschäftigt sich mit dem Verständnis von Unternehmen und der Umsetzung und Kontrolle von Vorgängen in Unternehmen; einfach formuliert: die BWL betrachtet Themenstellungen aus der „Maulwurfperspektive“, während die VWL die „Vogelperspektive“ einnimmt. Ein Betriebswirt oder eine Betriebswirtin analysiert das gegebene betriebswirtschaftliche Umfeld und besondere Ausgangssituationen im Unternehmen und trifft Entscheidungen zur Förderung des Unternehmenserfolgs. Betriebswirtschaftliche Fachgebiete sind unter Studierenden sehr beliebt. '
+                    text: ') und beschäftigt sich mit dem Verständnis von Unternehmen und der Umsetzung und Kontrolle von Vorgängen in Unternehmen; einfach formuliert: die BWL betrachtet Themenstellungen aus der „Maulwurfperspektive“, während die VWL die „Vogelperspektive“ einnimmt.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Betriebswirt oder eine Betriebswirtin analysiert das gegebene betriebswirtschaftliche Umfeld und besondere Ausgangssituationen im Unternehmen und trifft Entscheidungen zur Förderung des Unternehmenserfolgs. Betriebswirtschaftliche Fachgebiete sind unter Studierenden sehr beliebt. '
               -
                 type: set
                 attrs:
@@ -685,7 +691,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Im Vordergrund eines BWL-Studiengangs steht dabei der Umgang mit Zahlen und die Karriereaussicht, später im Management eines Unternehmens arbeiten zu können. Der große Vorteil eines BWL-Studiengangs ist es, dass man sehr generalistisch auf ein breites Aufgabenfeld bzw. Berufsleben in der Wirtschaft vorbereitet wird und damit die Karrierechancen sehr gut sind. Um ihre Standardleistungen zu optimieren und sich somit von der Menge hervorzuheben, engagieren einige Studenten der BWL Ghostwriter und Freelancer, die ihnen bei ihrer schriftlichen Ausarbeitung durch die Erstellung von Mustervorlagen zur Seite stehen. Zudem wird die erstellte Mustervorlage von unabhängigen Lektoren und Korrekturleser aus dem Fachgebiet BWL überprüft, um Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorzunehmen.'
+                    text: 'Im Vordergrund eines BWL-Studiengangs steht dabei der Umgang mit Zahlen und die Karriereaussicht, später im Management eines Unternehmens arbeiten zu können. Der große Vorteil eines BWL-Studiengangs ist es, dass man sehr generalistisch auf ein breites Aufgabenfeld bzw. Berufsleben in der Wirtschaft vorbereitet wird und damit die Karrierechancen sehr gut sind.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Um ihre Standardleistungen zu optimieren und sich somit von der Menge hervorzuheben, engagieren einige Studenten der BWL Ghostwriter und Freelancer, die ihnen bei ihrer schriftlichen Ausarbeitung durch die Erstellung von Mustervorlagen zur Seite stehen. Zudem wird die erstellte Mustervorlage von unabhängigen Lektoren und Korrekturleser aus dem Fachgebiet BWL überprüft, um Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorzunehmen.'
             show_as_card: false
         type: row
         enabled: true
