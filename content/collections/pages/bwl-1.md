@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1638784803
+updated_at: 1638785114
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -263,46 +263,7 @@ replicator:
                     text: Themenfindung
                   -
                     type: text
-                    text: ', Formulierung von Wirtschaftstexten/Fachtexten, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/literaturrecherche-datenbanken-quellen
-                          target: null
-                          rel: null
-                    text: Literaturrecherche
-                  -
-                    type: text
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/forschungsluecke-finden
-                          target: null
-                          rel: null
-                    text: Forschungsfrage
-                  -
-                    type: text
-                    text: ', beim Ergänzen von Textteilen oder beim Erstellen von '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/aufbau-wissenschaftliche-arbeit
-                          target: null
-                          rel: null
-                    text: Gliederung
-                  -
-                    type: text
-                    text: ' sein.'
+                    text: ', Formulierung von Wirtschaftstexten/Fachtexten, Literaturrecherche, Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederung sein.'
               -
                 type: paragraph
               -
@@ -463,10 +424,16 @@ replicator:
                   -
                     type: text
                     text: "\_einer Musterarbeit für die betriebswirtschaftliche Arbeit oder verschiedene Teilbereiche von Leistungen in Auftrag geben. So ist es auch üblich, dass der Ghostwriter den Studenten bereits bei der Suche nach der passenden Literatur unterstützt, ihm bei der Texterstellung beratend zur Seite steht oder eine bereits durch den Studenten fertig geschriebene Arbeit lektoriert und korrigiert. Auch ein Coaching und Training ist möglich, um den Studenten in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten."
-              -
-                type: heading
-                attrs:
-                  level: 3
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
               -
                 type: set
                 attrs:
@@ -477,53 +444,53 @@ replicator:
                         text: Arbeiten
                         eintraege:
                           - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
-                          - aa35a1ca-0812-4402-a4d5-4a6d4aa8c1c0
-                          - 89093abd-fdd4-4830-a368-7ede1b75ca1a
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
-                          - 5c6db140-ee4a-4a88-bf56-4153664421d4
-                          - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
-                          - cb0a74d3-ed84-4dad-b3a7-c368aec13800
-                          - 62115090-7bb2-448f-bb32-a32bb5977382
-                          - 686e5203-e17a-4101-809a-07c9f799ccfa
-                          - 425234fd-eb40-4dab-bb3d-95bbac5948eb
-                          - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
-                          - 134ba799-3362-4166-86f7-bba4e992d7d7
-                          - b6ee03ca-ecab-4749-ade4-45ff821b748d
-                          - b42eb586-1305-4faf-8d59-79e53ff91373
+                          - 89093abd-fdd4-4830-a368-7ede1b75ca1a
                           - 5659593d-2756-4e9f-a5b3-b391103d9886
+                          - 425234fd-eb40-4dab-bb3d-95bbac5948eb
+                          - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
+                          - 62115090-7bb2-448f-bb32-a32bb5977382
+                          - cb0a74d3-ed84-4dad-b3a7-c368aec13800
+                          - 134ba799-3362-4166-86f7-bba4e992d7d7
+                          - 5c6db140-ee4a-4a88-bf56-4153664421d4
+                          - aa35a1ca-0812-4402-a4d5-4a6d4aa8c1c0
+                          - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
+                          - 686e5203-e17a-4101-809a-07c9f799ccfa
+                          - b6ee03ca-ecab-4749-ade4-45ff821b748d
                       -
                         text: Fachrichtungen
                         eintraege:
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
                           - 9944d809-005e-4651-bf9b-5555f0229245
-                          - 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
-                          - ba720f59-eeef-4287-b441-251391efa6bc
-                          - 84a37239-87ee-45fb-b2d1-058a86fecfbb
                           - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
+                          - 0c7a7458-3742-45a8-b2d4-313a1d29ef66
                           - a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
-                          - 45680fad-6f7a-437f-88c2-23e0bc080818
-                          - f501c52c-7217-448e-bb53-d6f84c7e51c8
-                          - 522e26b9-451d-43a8-a204-2e0f75b87f4b
-                          - bfd868ec-f81c-4805-8122-2e11008e72f2
-                          - 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
-                          - 06fbb3f4-51c2-4f11-832e-9b72a495857d
-                          - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
-                          - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
+                          - 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
                           - 4476be29-c55a-45b7-ac4a-0e300dfdb8b6
-                          - dc0c7edd-0724-4454-9525-49b8f9065f16
-                          - 925eedca-5fbe-4da9-a307-807426feaeeb
-                          - f07c0010-40dd-407e-bf32-a1a260b5016b
-                          - b8930678-fff6-4d7a-8ae8-056605f303f2
+                          - 522e26b9-451d-43a8-a204-2e0f75b87f4b
+                          - 45680fad-6f7a-437f-88c2-23e0bc080818
+                          - 34f7528d-839e-4ef6-b735-627084dba887
                           - 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
                           - d72509d7-bb3a-40dd-a757-3317732e2a57
+                          - ba720f59-eeef-4287-b441-251391efa6bc
                           - a9cc9473-308b-4615-8f30-d545f7f63faf
+                          - dc0c7edd-0724-4454-9525-49b8f9065f16
                           - 1363a62f-c0e9-4dba-aa09-d331c4fa8260
                           - a9561621-8360-4ecf-855c-753f4a217c5a
-                          - 21aff10c-582a-440f-9f50-1af525566292
+                          - bfd868ec-f81c-4805-8122-2e11008e72f2
+                          - 84a37239-87ee-45fb-b2d1-058a86fecfbb
+                          - f501c52c-7217-448e-bb53-d6f84c7e51c8
+                          - 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
                           - b850974c-8d2d-4448-b168-3dccef384025
-                          - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
                           - 051a1060-2c31-4edd-af39-c44fe3842526
+                          - 21aff10c-582a-440f-9f50-1af525566292
                           - 839e6791-eebd-4bc8-8975-a278836a9c05
+                          - 925eedca-5fbe-4da9-a307-807426feaeeb
+                          - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
+                          - f07c0010-40dd-407e-bf32-a1a260b5016b
+                          - b8930678-fff6-4d7a-8ae8-056605f303f2
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
