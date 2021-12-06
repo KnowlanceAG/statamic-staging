@@ -57,7 +57,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1638796426
+updated_at: 1638796731
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -465,7 +465,6 @@ replicator:
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
                           - 9944d809-005e-4651-bf9b-5555f0229245
                           - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
-                          - 0c7a7458-3742-45a8-b2d4-313a1d29ef66
                           - a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
                           - 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
                           - 4476be29-c55a-45b7-ac4a-0e300dfdb8b6
