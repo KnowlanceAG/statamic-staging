@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1638785615
+updated_at: 1638786717
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -237,6 +237,8 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textColor
                         attrs:
                           color: blue
@@ -250,7 +252,7 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: "\_benötigt. Besonders haben Auftraggeber in diesem Studienlaufbahn Schwierigkeiten bei der "
+                    text: "\_benötigt. Unsere Auftraggeber haben in dieser Studienlaufbahn besonders Schwierigkeiten bei der "
                   -
                     type: text
                     marks:
@@ -399,7 +401,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Jeder unserer ausgewählten Ghostwriter der BWL besitzt tiefgründige Fachkenntnisse und Erfahrungen in seinem Einsatzbereich und kann umfassende Schreiberfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen. So ist es uns möglich, unseren Kunden bei den verschiedensten Ausarbeitungen/Texterstellungen umfassenden und individuellen Beistand zu leisten. Dieser variiert nach dem persönlichen Einsatz des Studenten. '
+                    text: 'Jeder unserer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'ausgewählten Ghostwriter der BWL besitzt tiefgründige Fachkenntnisse'
+                  -
+                    type: text
+                    text: ' und Erfahrungen in seinem Einsatzbereich und kann umfassende Schreiberfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen. So ist es uns möglich, unseren Kunden bei den verschiedensten Ausarbeitungen/Texterstellungen umfassenden und individuellen Beistand zu leisten. Dieser variiert nach dem persönlichen Einsatz des Studenten. '
               -
                 type: paragraph
                 content:
@@ -409,6 +420,8 @@ replicator:
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
                       -
                         type: textColor
                         attrs:
@@ -423,7 +436,13 @@ replicator:
                     text: Ghostwriting
                   -
                     type: text
-                    text: "\_einer Musterarbeit für die betriebswirtschaftliche Arbeit oder verschiedene Teilbereiche von Leistungen in Auftrag geben. So ist es auch üblich, dass der Ghostwriter den Studenten bereits bei der Suche nach der passenden Literatur unterstützt, ihm bei der Texterstellung beratend zur Seite steht oder eine bereits durch den Studenten fertig geschriebene Arbeit lektoriert und korrigiert. Auch ein Coaching und Training ist möglich, um den Studenten in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten."
+                    marks:
+                      -
+                        type: bold
+                    text: "\_einer Musterarbeit für die betriebswirtschaftliche Arbeit"
+                  -
+                    type: text
+                    text: ' oder verschiedene Teilbereiche von Leistungen in Auftrag geben. So ist es auch üblich, dass der Ghostwriter den Studenten bereits bei der Suche nach der passenden Literatur unterstützt, ihm bei der Texterstellung beratend zur Seite steht oder eine bereits durch den Studenten fertig geschriebene Arbeit lektoriert und korrigiert. Auch ein Coaching und Training ist möglich, um den Studenten in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten.'
             show_as_card: false
         type: row
         enabled: true
@@ -657,13 +676,28 @@ replicator:
                     text: VWL
                   -
                     type: text
-                    text: ') und beschäftigt sich mit dem Verständnis von Unternehmen und der Umsetzung und Kontrolle von Vorgängen in Unternehmen; einfach formuliert: die BWL betrachtet Themenstellungen aus der „Maulwurfperspektive“, während die VWL die „Vogelperspektive“ einnimmt.'
+                    text: ') und beschäftigt sich mit dem Verständnis von Unternehmen und der Umsetzung und Kontrolle von Vorgängen in Unternehmen; einfach formuliert: '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'die BWL betrachtet Themenstellungen aus der „Maulwurfperspektive“, während die VWL die „Vogelperspektive“ einnimmt.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ein Betriebswirt oder eine Betriebswirtin analysiert das gegebene betriebswirtschaftliche Umfeld und besondere Ausgangssituationen im Unternehmen und trifft Entscheidungen zur Förderung des Unternehmenserfolgs. Betriebswirtschaftliche Fachgebiete sind unter Studierenden sehr beliebt. '
+                    text: 'Ein Betriebswirt oder eine Betriebswirtin analysiert das gegebene betriebswirtschaftliche Umfeld und besondere Ausgangssituationen im Unternehmen und trifft '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Entscheidungen zur Förderung des Unternehmenserfolgs'
+                  -
+                    type: text
+                    text: '. Betriebswirtschaftliche Fachgebiete sind unter Studierenden sehr beliebt. '
               -
                 type: set
                 attrs:
@@ -691,13 +725,40 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Im Vordergrund eines BWL-Studiengangs steht dabei der Umgang mit Zahlen und die Karriereaussicht, später im Management eines Unternehmens arbeiten zu können. Der große Vorteil eines BWL-Studiengangs ist es, dass man sehr generalistisch auf ein breites Aufgabenfeld bzw. Berufsleben in der Wirtschaft vorbereitet wird und damit die Karrierechancen sehr gut sind.'
+                    text: 'Im Vordergrund eines BWL-Studiengangs steht dabei der Umgang mit Zahlen und die Karriereaussicht, später im '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Management eines Unternehmens'
+                  -
+                    type: text
+                    text: ' arbeiten zu können. Der große Vorteil eines BWL-Studiengangs ist es, dass man sehr generalistisch auf ein breites Aufgabenfeld bzw. Berufsleben in der Wirtschaft vorbereitet wird und damit die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Karrierechancen sehr gut'
+                  -
+                    type: text
+                    text: ' sind.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Um ihre Standardleistungen zu optimieren und sich somit von der Menge hervorzuheben, engagieren einige Studenten der BWL Ghostwriter und Freelancer, die ihnen bei ihrer schriftlichen Ausarbeitung durch die Erstellung von Mustervorlagen zur Seite stehen. Zudem wird die erstellte Mustervorlage von unabhängigen Lektoren und Korrekturleser aus dem Fachgebiet BWL überprüft, um Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorzunehmen.'
+                    text: 'Um ihre Standardleistungen zu optimieren und sich somit von der Menge hervorzuheben, engagieren einige Studenten der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'BWL Ghostwriter und Freelancer, die ihnen bei ihrer schriftlichen Ausarbeitung durch die Erstellung von Mustervorlagen zur Seite stehen'
+                  -
+                    type: text
+                    text: '. Zudem wird die erstellte Mustervorlage von unabhängigen Lektoren und Korrekturleser aus dem Fachgebiet BWL überprüft, um Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorzunehmen.'
             show_as_card: false
         type: row
         enabled: true
@@ -718,8 +779,6 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -732,13 +791,31 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Kenntnisse der Betriebswirtschaft kann man durch eine Lehre im kaufmännischen Bereich, ein berufsbegleitendes Studium, ein duales Studium oder durch ein Vollzeitstudium an einer Universität oder Fachhochschule erlangen. '
+                    text: 'Kenntnisse der Betriebswirtschaft kann man durch eine Lehre im kaufmännischen Bereich, ein berufsbegleitendes Studium, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'ein duales Studium oder durch ein Vollzeitstudium'
+                  -
+                    type: text
+                    text: ' an einer Universität oder Fachhochschule erlangen. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'BWL kann deutschlandweit studiert werden, dabei unterscheiden sich die Angebote der Fachhochschulen und Universitäten insbesondere in ihrer inhaltlichen Ausrichtung bei späteren Vertiefungen im Studium. Auch private Hochschulen bieten im BWL-Kontext in den letzten Jahren verstärkt ihre Dienstleistungen an. Hierbei handelt es sich meist um berufsbegleitende Fachbereiche, die sich auf ein bestimmtes Themenfeld (z.B. '
+                    text: 'BWL kann deutschlandweit studiert werden, dabei unterscheiden sich die Angebote der Fachhochschulen und Universitäten insbesondere in ihrer inhaltlichen Ausrichtung bei späteren Vertiefungen im Studium. Auch private Hochschulen bieten im BWL-Kontext in den letzten Jahren verstärkt ihre Dienstleistungen an. Hierbei handelt es sich meist um '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'berufsbegleitende Fachbereiche'
+                  -
+                    type: text
+                    text: ', die sich auf ein bestimmtes Themenfeld (z.B. '
                   -
                     type: text
                     marks:
@@ -754,50 +831,56 @@ replicator:
                     text: ') konzentrieren.'
               -
                 type: paragraph
-              -
-                type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Der BWL-Studienabschluss besteht beim Bachelorstudiengang aus 6 Semestern und kann mit dem Masterstudiengang, bestehend aus 4 Semestern, fortgesetzt werden. Als Examensarbeit zählten ehemals die Magisterarbeit und die Diplomarbeit, nach der Bologna-Reform jedoch die Bachelorarbeit (Bachelor Thesis) und die Masterarbeit (Master Thesis). Optional kann darauf aufbauend die Promotion erfolgen. '
-              -
-                type: paragraph
-                content:
+                    text: 'Der BWL-Studienabschluss besteht beim Bachelorstudiengang aus 6 Semestern und kann mit dem Masterstudiengang, bestehend aus 4 Semestern, fortgesetzt werden. Als Examensarbeit zählten ehemals die Magisterarbeit und die Diplomarbeit, nach der Bologna-Reform jedoch die '
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Dabei können nur Lehrinstitute, die über ein '
+                        type: bold
+                    text: 'Bachelorarbeit (Bachelor Thesis)'
+                  -
+                    type: text
+                    text: ' und die '
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: left
+                        type: bold
+                    text: 'Masterarbeit (Master Thesis)'
+                  -
+                    type: text
+                    text: '. Optional kann darauf aufbauend die '
+                  -
+                    type: text
+                    marks:
                       -
                         type: link
                         attrs:
-                          href: /promotionsberatung/berufsbegleitende-promotion-standardisierte-promotionsprogramme
+                          href: /promotionsberatung
                           target: null
                           rel: null
-                    text: Promotionsrecht
+                    text: Promotion
+                  -
+                    type: text
+                    text: ' erfolgen. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Dabei können nur Lehrinstitute, die über ein Promotionsrecht verfügen, von ihren Studenten der BWL eine Dissertation schreiben lassen und ihnen einen Doktortitel verleihen. Besonders bei diesem akademischen Grad ist in der BWL Ghostwriting verbreitet. Ein '
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: ' verfügen, von ihren Studenten der BWL eine Dissertation schreiben lassen und ihnen einen Doktortitel verleihen. Besonders bei diesem akademischen Grad ist in der BWL Ghostwriting verbreitet. Ein BWL-Ghostwriter hilft dem Doktoranden durch das Erstellen einer Mustervorlage, die als Orientierungshilfe genutzt wird.'
+                        type: bold
+                    text: 'BWL-Ghostwriter hilft Doktoranden'
+                  -
+                    type: text
+                    text: ' durch das Erstellen einer Mustervorlage, die als Orientierungshilfe genutzt wird.'
             show_as_card: false
           -
             bard:
@@ -848,16 +931,51 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In dem betriebswirtschaftlichen Studium lernen Studenten u.a. Projekte zu managen, betriebliche Abläufe zu analysieren und sie zu steuern. Dabei sind Praxiseinheiten (Praktika) und Projektarbeiten wesentliche Elemente des Studiums, die das erlernte Fachwissen vertiefen und erweitern sollen. Ebenfalls wird der Fremdsprachenkompetenz der Studenten eine hohe Bedeutung zugeschrieben.'
+                    text: 'In dem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'betriebswirtschaftlichen Studium'
+                  -
+                    type: text
+                    text: ' lernen Studenten u.a. Projekte zu managen, betriebliche Abläufe zu analysieren und sie zu steuern. Dabei sind '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Praxiseinheiten
+                  -
+                    type: text
+                    text: ' (Praktika) und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Projektarbeiten
+                  -
+                    type: text
+                    text: ' wesentliche Elemente des Studiums, die das erlernte Fachwissen vertiefen und erweitern sollen. Ebenfalls wird der Fremdsprachenkompetenz der Studenten eine hohe Bedeutung zugeschrieben.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Neben der englischen Sprache werden oftmals die spanische, russische, französische oder chinesische Sprache unterrichtet. Die Basis des Fachwissens bilden Grundlagenfächer/Pflichtbereiche wie Finanzierung, Rechnungswesen, Personalwesen, Produktion und\_"
+                    text: 'Neben der englischen Sprache werden oftmals die spanische, russische, französische oder chinesische Sprache unterrichtet. Die Basis des Fachwissens bilden Grundlagenfächer/Pflichtbereiche wie '
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
+                    text: "Finanzierung, Rechnungswesen, Personalwesen, Produktion und\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
                       -
                         type: textColor
                         attrs:
@@ -872,7 +990,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Im Detail gehören zu den wesentlichen Elementen eines betriebswirtschaftlichen Studiums die Themen Planung (Businessplan, Marketingkonzept), Organisation und Analyse sowie Elemente aus der Soziologie, der Arbeits- und Organisationspsychologie, dem Personalwesen sowie der Rechts- und Politikwissenschaft. '
+                    text: 'Im Detail gehören zu den wesentlichen Elementen eines betriebswirtschaftlichen Studiums die Themen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Planung (Businessplan, Marketingkonzept), Organisation und Analyse'
+                  -
+                    type: text
+                    text: ' sowie Elemente aus der Soziologie, der Arbeits- und Organisationspsychologie, dem Personalwesen sowie der Rechts- und Politikwissenschaft. '
               -
                 type: paragraph
                 content:
@@ -901,52 +1028,34 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Jedoch bereiten gerade die Grundlagenfächer Mathe, Statistik und Recht sehr vielen Studenten erhebliche Probleme. Sie entscheiden sich nicht selten dazu Ghostwriter und andere akademische Freelancer zu engagieren um sich optimal auf Prüfungen vorbereiten zu können. Ghostwriting-Arbeiten dürfen nicht als solche verwendet werden, wenn es sich um Prüfungsleistungen handelt. BWL-Ghostwriter sind jedoch in anderen Fällen, wie beispielsweise bei der Erstellung einer Marktanalyse/eines Businessplans für ein Unternehmen oder das Schreiben eines Buches für eine Privatperson, zulässig.'
+                    text: 'Jedoch bereiten gerade die Grundlagenfächer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Mathe, Statistik und Recht'
+                  -
+                    type: text
+                    text: ' sehr vielen Studenten erhebliche Probleme. Sie entscheiden sich nicht selten dazu, Ghostwriter und andere akademische Freelancer zu engagieren um sich optimal auf Prüfungen vorbereiten zu können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Ghostwriting-Arbeiten dürfen nicht als Prüfungsleistungen verwendet werden'
+                  -
+                    type: text
+                    text: '. Ghostwriter sind jedoch in anderen Fällen, wie beispielsweise bei der Erstellung einer Marktanalyse/eines Businessplans für ein Unternehmen oder das Schreiben eines Buches für eine Privatperson, zulässig.'
             show_as_card: false
         type: row
         enabled: true
     remove_spacing: true
     is-full: true
     bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '1'
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/besipielarbeit.JPG
-                    ex_title: 'BWL Beispielarbeit jetzt KOSTENLOS runterladen!'
-                    ex_fachbereich:
-                      - 0c7a7458-3742-45a8-b2d4-313a1d29ef66
-                    ex_type: Seminararbeit
-                    ex_pages: '12'
-                    ex_zitation: 'Harvard Style'
-                    ex_button_link: 'entry::96cae355-3c82-4ead-9c6f-b091dcd86f36'
-                    ex_button_text: WEITERLESEN
-                    ex_spacing_top: false
-                    ex_button_align: justify-center
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-color: '#F9F9F9'
     bg-image-fixed: false
     border: false
     type: add_section
