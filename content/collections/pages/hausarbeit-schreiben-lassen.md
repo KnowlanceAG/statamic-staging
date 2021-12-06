@@ -767,7 +767,6 @@ replicator:
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
                           - 9944d809-005e-4651-bf9b-5555f0229245
                           - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
-                          - 0c7a7458-3742-45a8-b2d4-313a1d29ef66
                           - a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
                           - 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
                           - 4476be29-c55a-45b7-ac4a-0e300dfdb8b6
@@ -793,6 +792,7 @@ replicator:
                           - 925eedca-5fbe-4da9-a307-807426feaeeb
                           - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
                           - 06fbb3f4-51c2-4f11-832e-9b72a495857d
+                          - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
                       -
                         text: Arbeiten
                         eintraege:
@@ -1818,7 +1818,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1636463341
+updated_at: 1638796536
 template: default
 use_meta_keywords: false
 no_index_page: false
