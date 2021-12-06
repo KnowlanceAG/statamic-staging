@@ -57,8 +57,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638570099
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1638784524
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -800,22 +800,13 @@ replicator:
                     assets:
                       - seiten/fachrichtungen/Ghostwriter_BWL_Studium_Aufbau-1.png
                     has_border: false
-              -
-                type: set
-                attrs:
-                  values:
-                    type: insert_html
-              -
-                type: paragraph
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
     remove_spacing: true
     is-full: true
     bg-toggle: false
-    bg-color: '#FFC5A2'
+    bg-color: '#F0F0F0'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -1033,19 +1024,18 @@ replicator:
           -
             bard:
               -
-                type: heading
+                type: paragraph
+              -
+                type: set
                 attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: Disclaimer
+                  values:
+                    type: blog_entries
+                    entries:
+                      - be1aacde-86af-4b82-9a8b-10b05c6743b5
+                      - d61b6932-74b9-4ece-9da6-a54a1265c9a3
+                      - 0408641d-3a59-44ce-a059-1b75afd3ecc4
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
                 type: heading
                 attrs:
@@ -1053,6 +1043,11 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                     text: 'Nützliche Weblinks'
               -
                 type: paragraph
@@ -1063,7 +1058,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1082,14 +1077,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1108,14 +1103,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1134,14 +1129,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1160,25 +1155,16 @@ replicator:
                       -
                         type: bold
                       -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
                         type: link
                         attrs:
                           href: /wiki
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: blog_entries
-                    entries:
-                      - be1aacde-86af-4b82-9a8b-10b05c6743b5
-                      - d61b6932-74b9-4ece-9da6-a54a1265c9a3
-                      - 0408641d-3a59-44ce-a059-1b75afd3ecc4
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
