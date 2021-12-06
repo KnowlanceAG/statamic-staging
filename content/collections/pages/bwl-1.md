@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1638784524
+updated_at: 1638784675
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1019,7 +1019,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single-col: false
         grid:
           -
             bard:
@@ -1035,6 +1035,12 @@ replicator:
                       - d61b6932-74b9-4ece-9da6-a54a1265c9a3
                       - 0408641d-3a59-44ce-a059-1b75afd3ecc4
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '40'
+              -
                 type: paragraph
               -
                 type: heading
@@ -1048,7 +1054,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Nützliche Weblinks'
+                    text: 'Nützliche Weblinks & Referenzen'
               -
                 type: paragraph
                 content:
@@ -1149,6 +1155,9 @@ replicator:
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'BWL studieren – Zeit Online'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
                     marks:
