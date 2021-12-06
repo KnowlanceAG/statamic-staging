@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1638786749
+updated_at: 1638787348
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -128,26 +128,6 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Unsere Leistungen im Fachbereich BWL'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
               -
                 type: set
                 attrs:
@@ -195,7 +175,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
@@ -266,12 +246,6 @@ replicator:
                   -
                     type: text
                     text: ', Formulierung von Wirtschaftstexten/Fachtexten, Literaturrecherche, Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederung sein.'
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -371,7 +345,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#8A8A8A'
@@ -388,6 +362,14 @@ replicator:
         grid:
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -443,6 +425,14 @@ replicator:
                   -
                     type: text
                     text: ' oder verschiedene Teilbereiche von Leistungen in Auftrag geben. So ist es auch üblich, dass der Ghostwriter den Studenten bereits bei der Suche nach der passenden Literatur unterstützt, ihm bei der Texterstellung beratend zur Seite steht oder eine bereits durch den Studenten fertig geschriebene Arbeit lektoriert und korrigiert. Auch ein Coaching und Training ist möglich, um den Studenten in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -508,12 +498,10 @@ replicator:
                           - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
                           - f07c0010-40dd-407e-bf32-a1a260b5016b
                           - b8930678-fff6-4d7a-8ae8-056605f303f2
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -529,6 +517,12 @@ replicator:
         grid:
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -561,6 +555,14 @@ replicator:
             show_as_card: false
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -598,6 +600,12 @@ replicator:
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
                     button_align: justify-center
                     spacing_top: false
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
               -
                 type: paragraph
             show_as_card: false
@@ -702,6 +710,14 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
                     type: example_work
                     ex_img_right: false
                     ex_image: seiten/besipielarbeit.JPG
@@ -712,6 +728,14 @@ replicator:
                     ex_button_link: 'https://gwriters.de/assets/downloads/ghostwriting-beispielarbeiten/Seminararbeit-Beispiel-BWL-Auswirkungen-der-Digitalisierung-auf-die-Wertschopfungskette.pdf'
                     ex_button_text: Download
                     ex_spacing_top: false
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -762,7 +786,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -901,7 +925,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F0F0F0'
@@ -1019,10 +1043,26 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
                     type: bilder
                     assets:
                       - seiten/fachrichtungen/BWL-Ghostwriter.png
                     has_border: false
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
               -
                 type: paragraph
                 content:
@@ -1053,7 +1093,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-image-fixed: false
@@ -1231,10 +1271,18 @@ replicator:
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '40'
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
