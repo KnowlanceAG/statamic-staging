@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1638785305
+updated_at: 1638785598
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -535,25 +535,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Abschlussarbeit, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/businessplan-erstellen-lassen
-                          target: null
-                          rel: null
-                    text: Businessplan
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ', Marketingkonzept'
+                    text: 'Abschlussarbeit, Businessplan, Marketingkonzept'
                   -
                     type: text
                     text: ' etc.) Musterarbeiten. Außerdem kennen akademische Ghostwriter den aktuellen Forschungsstand zu vielen BWL-Themenstellungen und haben auf relevanten Datenbanken Zugriff, wie Fachzeitschriften, Fachartikel etc.'
@@ -680,13 +662,16 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: button
-                    button_link: 'entry::c7bc4fcc-032f-46aa-bab7-2a78b0e21aaf'
-                    button_text: 'Bachelorarbeit-Thema BWL: 75 Vorschläge 📊📉'
-                    spacing_top: false
-                    color: '#858585'
-              -
-                type: paragraph
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/besipielarbeit.JPG
+                    ex_title: 'BWL Seminararbeit Beispiel jetzt KOSTENLOS herunterladen!'
+                    ex_type: Seminararbeit
+                    ex_pages: '12'
+                    ex_zitation: 'Harvard Style'
+                    ex_button_link: 'https://gwriters.de/assets/downloads/ghostwriting-beispielarbeiten/Seminararbeit-Beispiel-BWL-Auswirkungen-der-Digitalisierung-auf-die-Wertschopfungskette.pdf'
+                    ex_button_text: Download
+                    ex_spacing_top: false
               -
                 type: heading
                 attrs:
@@ -700,13 +685,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Im Vordergrund eines BWL-Studiengangs steht dabei der Umgang mit Zahlen und die Karriereaussicht, später im Management eines Unternehmens arbeiten zu können. Der große Vorteil eines BWL-Studiengangs ist es, dass man sehr generalistisch auf ein breites Aufgabenfeld bzw. Berufsleben in der Wirtschaft vorbereitet wird und damit die Karrierechancen sehr gut sind. Um ihre Standardleistungen zu optimieren und sich somit von der Menge hervorzuheben, engagieren einige Studenten der BWL Ghostwriter und Freelancer, die ihnen bei ihrer schriftlichen Ausarbeitung durch die Erstellung von Mustervorlagen zur Seite stehen. Zudem wird die erstellte Mustervorlage von unabhängigen Lektoren und Korrekturleser aus dem Fachgebiet BWL überprüft, um Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorzunehmen. \_"
-              -
-                type: heading
-                attrs:
-                  level: 2
-              -
-                type: paragraph
+                    text: 'Im Vordergrund eines BWL-Studiengangs steht dabei der Umgang mit Zahlen und die Karriereaussicht, später im Management eines Unternehmens arbeiten zu können. Der große Vorteil eines BWL-Studiengangs ist es, dass man sehr generalistisch auf ein breites Aufgabenfeld bzw. Berufsleben in der Wirtschaft vorbereitet wird und damit die Karrierechancen sehr gut sind. Um ihre Standardleistungen zu optimieren und sich somit von der Menge hervorzuheben, engagieren einige Studenten der BWL Ghostwriter und Freelancer, die ihnen bei ihrer schriftlichen Ausarbeitung durch die Erstellung von Mustervorlagen zur Seite stehen. Zudem wird die erstellte Mustervorlage von unabhängigen Lektoren und Korrekturleser aus dem Fachgebiet BWL überprüft, um Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorzunehmen.'
             show_as_card: false
         type: row
         enabled: true
