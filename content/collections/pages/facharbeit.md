@@ -1712,7 +1712,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://abi.unicum.de/schule-a-z/auf-einen-blick/facharbeit-schreiben'
+                  href: 'https://abi.unicum.de/schule-a-z/lernen/eine-facharbeit-schreiben'
                   target: _blank
                   rel: 'noopener noreferrer nofollow'
             text: 'Facharbeit schreiben - Hilfe zur Planung und Erstellung'
@@ -1748,7 +1748,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1635196246
+updated_at: 1638883912
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
