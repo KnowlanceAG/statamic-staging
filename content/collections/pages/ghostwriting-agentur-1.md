@@ -209,7 +209,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single-col: true
         grid:
           -
             bard:
@@ -297,6 +297,18 @@ replicator:
                   values:
                     type: example_work
                     ex_img_right: false
+                    ex_image: seiten/beispielarbeiten-1.JPG
+                    ex_title: 'Kostenlos BEISPIELARBEITEN runterladen'
+                    ex_fachbereich:
+                      - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
+                      - f07c0010-40dd-407e-bf32-a1a260b5016b
+                      - a9cc9473-308b-4615-8f30-d545f7f63faf
+                      - 06fbb3f4-51c2-4f11-832e-9b72a495857d
+                    ex_type: 'Hausarbeit, Seminararbeit etc.'
+                    ex_zitation: 'Harvard Style, Deutsche Zitierweise, APA Style'
+                    ex_button_link: 'entry::b2decf22-7419-401e-9a2d-3713194ce4d0'
+                    ex_button_text: 'JETZT RUNTERLADEN'
+                    ex_button_align: justify-center
                     ex_spacing_top: false
               -
                 type: paragraph
@@ -636,7 +648,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638885613
+updated_at: 1638886365
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
