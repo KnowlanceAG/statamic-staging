@@ -1328,7 +1328,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '34'
+                    padding-y: '36'
               -
                 type: paragraph
               -
@@ -1612,92 +1612,6 @@ replicator:
     type: add_section
     enabled: true
   -
-    bard:
-      -
-        type: horizontal_rule
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-            text: 'Wir unterstützen Sie bei nahezu allen akademischen Fachbereichen & Arbeiten!'
-      -
-        type: set
-        attrs:
-          values:
-            type: link_liste
-            raster:
-              -
-                text: Fachrichtungen
-                eintraege:
-                  - b850974c-8d2d-4448-b168-3dccef384025
-                  - 051a1060-2c31-4edd-af39-c44fe3842526
-                  - 839e6791-eebd-4bc8-8975-a278836a9c05
-                  - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
-                  - bfd868ec-f81c-4805-8122-2e11008e72f2
-                  - a9561621-8360-4ecf-855c-753f4a217c5a
-                  - dc0c7edd-0724-4454-9525-49b8f9065f16
-                  - d72509d7-bb3a-40dd-a757-3317732e2a57
-                  - 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
-                  - 45680fad-6f7a-437f-88c2-23e0bc080818
-                  - 522e26b9-451d-43a8-a204-2e0f75b87f4b
-                  - 4476be29-c55a-45b7-ac4a-0e300dfdb8b6
-                  - 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
-                  - a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
-                  - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
-                  - 9944d809-005e-4651-bf9b-5555f0229245
-                  - 84a37239-87ee-45fb-b2d1-058a86fecfbb
-                  - f501c52c-7217-448e-bb53-d6f84c7e51c8
-                  - 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
-                  - 21aff10c-582a-440f-9f50-1af525566292
-                  - 925eedca-5fbe-4da9-a307-807426feaeeb
-                  - f07c0010-40dd-407e-bf32-a1a260b5016b
-                  - b8930678-fff6-4d7a-8ae8-056605f303f2
-                  - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
-                  - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
-                  - 34f7528d-839e-4ef6-b735-627084dba887
-                  - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
-                  - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
-                  - 06fbb3f4-51c2-4f11-832e-9b72a495857d
-                  - a9cc9473-308b-4615-8f30-d545f7f63faf
-                  - 1363a62f-c0e9-4dba-aa09-d331c4fa8260
-              -
-                text: Arbeiten
-                eintraege:
-                  - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
-                  - 99cd8e42-b21c-4cea-a162-a9454db2375f
-                  - 5659593d-2756-4e9f-a5b3-b391103d9886
-                  - 89093abd-fdd4-4830-a368-7ede1b75ca1a
-                  - 425234fd-eb40-4dab-bb3d-95bbac5948eb
-                  - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
-                  - 62115090-7bb2-448f-bb32-a32bb5977382
-                  - cb0a74d3-ed84-4dad-b3a7-c368aec13800
-                  - 134ba799-3362-4166-86f7-bba4e992d7d7
-                  - aa35a1ca-0812-4402-a4d5-4a6d4aa8c1c0
-                  - 5c6db140-ee4a-4a88-bf56-4153664421d4
-                  - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
-                  - 686e5203-e17a-4101-809a-07c9f799ccfa
-                  - b6ee03ca-ecab-4749-ade4-45ff821b748d
-                  - b42eb586-1305-4faf-8d59-79e53ff91373
-      -
-        type: heading
-        attrs:
-          level: 2
-      -
-        type: horizontal_rule
-      -
-        type: paragraph
-    show_as_card: true
-    type: editor
-    enabled: false
-  -
     columns-replicator:
       -
         responsive_columns: 1
@@ -1778,7 +1692,7 @@ replicator:
                           - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
               -
                 type: paragraph
-            show_as_card: false
+            show_as_card: true
         type: row
         enabled: true
     remove_spacing: false
@@ -1908,7 +1822,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638893722
+updated_at: 1638893821
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
