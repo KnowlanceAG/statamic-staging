@@ -972,6 +972,20 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: bilder
+                    assets:
+                      - seiten/ghostwriting-agentur/ghostwriter-doktoren2.png
+                    img-alignment: justify-center
+                    has_border: false
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
                     type: spacer
                     padding-y: '17'
               -
@@ -987,7 +1001,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: right
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1000,7 +1014,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: right
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1012,7 +1026,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: right
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1028,7 +1042,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: right
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1041,7 +1055,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: right
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1053,27 +1067,13 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: right
+                          align: center
                       -
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: '-Professoren'
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/ghostwriting-agentur/ghostwriter-doktoren2.png
-                    img-alignment: justify-start
-                    has_border: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1100,7 +1100,7 @@ replicator:
                     type: bilder
                     assets:
                       - seiten/ghostwriting-agentur/interdiszipliniertes-wissen2.png
-                    img-alignment: justify-end
+                    img-alignment: justify-center
                     has_border: false
               -
                 type: paragraph
@@ -1126,7 +1126,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1139,7 +1139,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1151,7 +1151,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1181,6 +1181,20 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: bilder
+                    assets:
+                      - seiten/ghostwriting-agentur/programme-kostenlos2.png
+                    img-alignment: justify-center
+                    has_border: false
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
                     type: spacer
                     padding-y: '11'
               -
@@ -1196,7 +1210,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: right
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1212,7 +1226,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: right
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1225,7 +1239,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: right
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1237,7 +1251,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: right
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1250,7 +1264,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: right
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1262,7 +1276,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: right
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1275,7 +1289,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: right
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1287,27 +1301,13 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: right
+                          align: center
                       -
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: '-Datenbanken'
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/ghostwriting-agentur/programme-kostenlos2.png
-                    img-alignment: justify-start
-                    has_border: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1334,7 +1334,7 @@ replicator:
                     type: bilder
                     assets:
                       - seiten/ghostwriting-agentur/kommunikation2.png
-                    img-alignment: justify-end
+                    img-alignment: justify-center
                     has_border: false
               -
                 type: paragraph
@@ -1360,7 +1360,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1376,7 +1376,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1406,6 +1406,20 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: bilder
+                    assets:
+                      - seiten/ghostwriting-agentur/bearbeitungszeit2.png
+                    img-alignment: justify-center
+                    has_border: false
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
                     type: spacer
                     padding-y: '36'
               -
@@ -1421,27 +1435,13 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: right
+                          align: center
                       -
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Kurze Bearbeitungszeit'
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/ghostwriting-agentur/bearbeitungszeit2.png
-                    img-alignment: justify-start
-                    has_border: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1870,7 +1870,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638894783
+updated_at: 1638894947
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
