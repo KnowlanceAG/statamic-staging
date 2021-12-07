@@ -1388,7 +1388,7 @@ replicator:
                     type: bilder
                     assets:
                       - seiten/ghostwriting-agentur/ghostwritingpacket-1635773934.png
-                    img-alignment: justify-end
+                    img-alignment: justify-center
                     has_border: false
               -
                 type: paragraph
@@ -1414,7 +1414,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1430,7 +1430,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1443,7 +1443,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1455,7 +1455,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1468,7 +1468,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1480,7 +1480,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1493,7 +1493,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1505,7 +1505,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1518,7 +1518,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1530,7 +1530,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1696,8 +1696,9 @@ replicator:
         enabled: true
     remove_spacing: false
     is-full: true
-    bg-toggle: false
+    bg-toggle: true
     bg-color: '#D6D6D6'
+    bg-image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
     bg-image-fixed: false
     border: false
     type: add_section
@@ -1724,19 +1725,22 @@ replicator:
                           hex: '#000'
                     text: 'Aber auch unter anderen Umständen kann eine vertraute Agentur von Nutzen sein. Ist man beispielsweise mit Schreibstil oder Umsetzung der Mustervorlage unzufrieden sind seriöse Agenturen in der Lage einen anderen Verfasser für die Mustervorlage für die akademische Aufgabenstellung bereitzustellen. Dies ist natürlich auch möglich, sollte es auf Seiten des Ghostwriters zu Problemen kommen, sodass er die Arbeit nicht fertigstellen kann, beispielsweise ein Krankheitsfall. Die Ghostwriting Agentur ist also Vermittler zwischen Auftraggeber und dem Ghostwriter und garantiert die Sicherheit, die Qualität, die Quantität sowie einen pünktlichen Abgabetermin, die so eine wissenschaftliche Abgabe erfordern.'
               -
-                type: heading
-                attrs:
-                  level: 3
+                type: blockquote
                 content:
                   -
-                    type: text
-                    text: Disclaimer
-              -
-                type: paragraph
-                content:
+                    type: heading
+                    attrs:
+                      level: 3
+                    content:
+                      -
+                        type: text
+                        text: Disclaimer
                   -
-                    type: text
-                    text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
               -
                 type: heading
                 attrs:
@@ -1746,54 +1750,19 @@ replicator:
                     type: text
                     text: 'Blogartikel zum Thema Ghostwriting Agentur'
               -
+                type: set
+                attrs:
+                  values:
+                    type: blog_entries
+                    entries:
+                      - 636b91b0-241e-4fbf-a315-2267fa607bd3
+                      - 31c2d3bf-b5f9-4b8f-8ec8-4c80cc55fc93
+                      - de34a06b-d2ba-4dd0-ac3a-8d2761fd005e
+                      - 24ba331e-8f49-4a91-a310-dd85b6281939
+                      - ece83e8a-3c91-4e07-8c58-4bcd1c937ec1
+                      - a2cde5ef-6e62-42fc-a5dc-ea0e899eb3da
+              -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/ghostwriter-agentur
-                          target: null
-                          rel: null
-                    text: 'Video: Worauf Du bei einer Ghostwriter Agentur achten solltest'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/erfahrungsbericht-ghostwriter-gwriters
-                          target: null
-                          rel: null
-                    text: 'Erfahrungsbericht zur Arbeit als Ghostwriter bei GWriters'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/ghostwriting-gwriters-teillieferungen
-                          target: null
-                          rel: null
-                    text: 'Video: Teillieferungen – Wozu sie bei GWriters da sind & was Du beachten solltest'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/ghostwriter-auftrag-tipps
-                          target: null
-                          rel: null
-                    text: 'Tipps für einen erfolgreichen Ghostwriter-Auftrag'
               -
                 type: paragraph
                 content:
@@ -1821,7 +1790,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638893828
+updated_at: 1638894661
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
