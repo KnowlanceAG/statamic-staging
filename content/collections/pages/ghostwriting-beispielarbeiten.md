@@ -66,8 +66,8 @@ teaser:
     type: paragraph
 teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627301106
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1638886167
 replicator:
   -
     bard:
@@ -275,7 +275,7 @@ replicator:
             ex_image: seiten/besipielarbeit.JPG
             ex_title: 'Auswirkungen der Digitalisierung auf die Wertschöpfungskette'
             ex_fachbereich:
-              - 0c7a7458-3742-45a8-b2d4-313a1d29ef66
+              - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
             ex_type: Seminararbeit
             ex_pages: '12'
             ex_zitation: 'Harvard Style'
@@ -310,7 +310,7 @@ replicator:
             ex_image: seiten/Beispielarbeiten-2.JPG
             ex_title: 'Blockchain-Technologie – Nutzen, Potenziale und Barrieren von Smart Contracts'
             ex_fachbereich:
-              - 0c7a7458-3742-45a8-b2d4-313a1d29ef66
+              - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
             ex_type: Seminararbeit
             ex_pages: '10'
             ex_zitation: 'APA Style'
@@ -371,6 +371,8 @@ replicator:
             ex_color: '#FF6606'
             ex_button_align: justify-start
             ex_spacing_top: false
+            ex_fachbereich:
+              - a9cc9473-308b-4615-8f30-d545f7f63faf
       -
         type: paragraph
     show_as_card: false
