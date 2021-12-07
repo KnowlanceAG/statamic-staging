@@ -4,8 +4,8 @@ blueprint: pages
 title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1637230746
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1638881716
 replicator:
   -
     columns-replicator:
@@ -1983,20 +1983,7 @@ replicator:
                     text: Lektorat
                   -
                     type: text
-                    text: ' und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /plagiatsprüfung
-                          target: null
-                          rel: null
-                    text: Plagiatsprüfung
-                  -
-                    type: text
-                    text: '), der als Festpreisangebot deklariert wird, also nicht überschritten wird, ganz egal wie viel Mehrarbeit noch über den geschätzten Aufwand entsteht. Gute Agenturen sind sich der eigenen '
+                    text: ' und Plagiatsprüfung), der als Festpreisangebot deklariert wird, also nicht überschritten wird, ganz egal wie viel Mehrarbeit noch über den geschätzten Aufwand entsteht. Gute Agenturen sind sich der eigenen '
                   -
                     type: text
                     marks:
