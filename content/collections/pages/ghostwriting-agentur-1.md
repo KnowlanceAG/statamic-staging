@@ -1,5 +1,6 @@
 ---
 id: 668e0c8c-c639-43af-bab2-39fc23aab070
+published: false
 blueprint: pages
 title: 'Ghostwriting Agentur (Dupliziert)'
 teaser:
@@ -47,6 +48,18 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
     bard:
+      -
+        type: paragraph
+      -
+        type: paragraph
+      -
+        type: paragraph
+      -
+        type: paragraph
+      -
+        type: paragraph
+      -
+        type: paragraph
       -
         type: paragraph
         content:
@@ -313,6 +326,72 @@ replicator:
             text: '. Eine professionelle Schreibagentur stellt sicher, dass Ihr wissenschaftlicher Text von einem unabhängigen Lektor mit Fachwissen korrigiert wird. Dieser benötigt wiederum geringere Qualifikationen als ein Ghostwriter, welcher eine Musterarbeit selbstständig verfasst.'
     show_as_card: false
     type: editor
+    enabled: false
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Bei GWriters erhalten Sie kompetente Unterstützung für wissenschaftliche Leistungen in jedem Fachgebiet. Bei unserer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Ghostwriting Agentur'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: " finden Sie exakt den\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'akademischen Ghostwriter für Ihre Aufgabenstellungen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: ', der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und bei einem Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Doktoren und Professoren arbeitet.'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
     enabled: true
   -
     columns-replicator:
@@ -474,7 +553,7 @@ replicator:
     bg-image-fixed: false
     border: false
     type: add_section
-    enabled: true
+    enabled: false
   -
     bard:
       -
@@ -638,7 +717,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1635777143
+updated_at: 1638884512
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -647,7 +726,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-template: with-side-bar
+template: default
 page_title: 'Alle Vorteile einer seriösen Ghostwriting Agentur • GWriters'
 meta_title: 'Alle Vorteile einer seriösen Ghostwriting Agentur • GWriters'
 meta_description: 'Sie möchten Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen? Unsere Ghostwriting Agentur bietet Ihnen Preissicherheit und Diskretion.'
