@@ -1,5 +1,6 @@
 ---
 id: 8ce56e7c-7e52-478b-bdc4-0408abcc8fb5
+blueprint: pages
 title: 'Erstellt GWriters auch hochwertigen Content für meine Website / meinen Blog?'
 replicator:
   -
@@ -79,7 +80,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog
+                  href: /blog/page/1
                   target: null
                   rel: null
             text: blogs
@@ -119,8 +120,8 @@ replicator:
     type: editor
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623331833
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1638884303
 meta_title: 'Erstellung von hochwertigen Website Content? • GWriters'
 meta_description: 'Sie benötigen qualitativen und professionellen Inhalt für Ihre Branche und Webseite? Das akademische Expertenteam von GWriters.de steht bereit!'
 use_meta_keywords: false
