@@ -46,7 +46,7 @@ teaser:
         spacing_top: false
 teaser_bg: seiten/header-so-funktionierts.jpeg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638997749
+updated_at: 1638998015
 replicator:
   -
     bard:

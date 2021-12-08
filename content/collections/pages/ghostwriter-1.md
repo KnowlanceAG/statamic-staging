@@ -2,7 +2,7 @@
 id: a0a35314-4e42-429e-ae58-9c7bd8fae01c
 published: false
 blueprint: pages
-title: 'Ghostwriting Agentur (Dupliziert) (Dupliziert)'
+title: 'Ghostwriter (Dupliziert)'
 teaser:
   -
     type: heading
@@ -1666,7 +1666,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638997177
+updated_at: 1638997777
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1676,10 +1676,10 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: default
-page_title: 'Alle Vorteile einer seriösen Ghostwriting Agentur • GWriters'
-meta_title: 'Alle Vorteile einer seriösen Ghostwriting Agentur • GWriters'
-meta_description: 'Sie möchten Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen? Unsere Ghostwriting Agentur bietet Ihnen Preissicherheit und Diskretion.'
-og_title: 'Alle Vorteile einer seriösen Ghostwriting Agentur • GWriters'
-og_description: 'Sie möchten Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen? Unsere Ghostwriting Agentur bietet Ihnen Preissicherheit und Diskretion.'
+page_title: 'GWriters • Ghostwriter - Wer und was ist das?'
+meta_title: 'GWriters • Ghostwriter - Wer und was ist das?'
+meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Ghostwriting: Leistungen, Ablauf, Kosten & Preise.'
+og_title: 'GWriters • Ghostwriter - Wer und was ist das?'
+og_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Ghostwriting: Leistungen, Ablauf, Kosten & Preise.'
 og_image: GWriters-Logo.png
 ---
