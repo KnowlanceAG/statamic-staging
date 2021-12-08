@@ -1066,78 +1066,90 @@ replicator:
           -
             bard:
               -
-                type: heading
-                attrs:
-                  level: 3
+                type: blockquote
                 content:
                   -
-                    type: text
-                    text: 'Vertrauenswürdige Ghostwriter Vergleiche lesen'
+                    type: heading
+                    attrs:
+                      level: 3
+                    content:
+                      -
+                        type: text
+                        text: 'Vertrauenswürdige Ghostwriter Vergleiche lesen'
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: 'Handelt es sich um ein bekanntes Vergleichsportal wie '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: Provenexpert
+                      -
+                        type: text
+                        text: ' oder '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: Google
+                      -
+                        type: text
+                        text: '? Einige Ghostwriting Betrüger erstellen ganze Vergleichsportale mit gefälschten Bewertungen, um Wettbewerber zu unrecht zu diffamieren. Bekannte "schwarze Schaafe", denen Sie kein Vertrauen schenken sollten, sind:'
+                  -
+                    type: bullet_list
+                    content:
+                      -
+                        type: list_item
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: ghostwritertest.com
+                      -
+                        type: list_item
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: ghostwritererfahrung.com
+                      -
+                        type: list_item
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: ghostwritingerfahrungen.com
+                      -
+                        type: list_item
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: ghostwriter-vergleich.de
+              -
+                type: set
+                attrs:
+                  enabled: false
+                  values:
+                    type: spacer
+                    padding-y: '10'
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Handelt es sich um ein bekanntes Vergleichsportal wie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Provenexpert
-                  -
-                    type: text
-                    text: ' oder '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Google
-                  -
-                    type: text
-                    text: '? Einige Ghostwriting Betrüger erstellen ganze Vergleichsportale mit gefälschten Bewertungen, um Wettbewerber zu unrecht zu diffamieren. Bekannte "schwarze Schaafe", denen Sie kein Vertrauen schenken sollten, sind:'
               -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: ghostwritertest.com
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: ghostwritererfahrung.com
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: ghostwritingerfahrungen.com
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: ghostwriter-vergleich.de
-                      -
-                        type: paragraph
+                type: paragraph
               -
                 type: paragraph
             show_as_card: true
@@ -1173,14 +1185,207 @@ replicator:
               -
                 type: paragraph
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '13'
+              -
                 type: paragraph
             show_as_card: true
         type: row
         enabled: true
     remove_spacing: true
     is-full: true
-    bg-toggle: true
-    bg-image-fixed: true
+    bg-toggle: false
+    bg-color: '#D6D6D6'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: accordion-custom-wrapper
+                    items:
+                      -
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Webseite der Ghostwriter Agentur '
+                          -
+                            type: paragraph
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Auch die Webseite eines Ghostwriters oder einer Ghostwriting Agentur stellt ein wichtiges Kriterium für dessen Seriosität dar. Erhalten Sie genügend Hintergrundinformationen über den Ghostwriter oder die Ghostwriter Agentur? Enthält die Webseite ein ordentliches '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /impressum
+                                      target: null
+                                      rel: null
+                                text: Impressum
+                              -
+                                type: text
+                                text: ' und eine DSGVO-konforme '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /datenschutzerklaerung
+                                      target: null
+                                      rel: null
+                                text: Datenschutzerklärung
+                              -
+                                type: text
+                                text: '? All dies sind Fragen, die Sie sich unbedingt stellen sollten, wenn Sie eine einen seriösen Ghostwriter finden möchten.'
+                        active: true
+                      -
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Verhalten der Ghostwriter Agentur'
+                          -
+                            type: paragraph
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Nicht zuletzt gibt natürlich auch das Verhalten einer Agentur oder eines Ghostwriters im direkten Kontakt einen wichtigen Anhaltspunkt bzgl. der Seriosität. Beispielsweise ist es essentiell, dass man Sie von Beginn an beteiligt, wenn von der Agentur für Ihr Projekt ein Ghostwriter gesucht wird. Des Weiteren gehört zu einem seriösen Ghostwriting Service auch immer eine'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: ' initiale Telefonkonferenz'
+                              -
+                                type: text
+                                text: ', bei der ein Vertrauensverhältnis zwischen Kunde und Ghostwriter geschaffen wird und ein gemeinsamer Fahrplan für das Projekt abgestimmt und festgelegt wird.'
+                        active: true
+                      -
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textAlign
+                                    attrs:
+                                      align: start
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Ghostwriter schreiben individuelle Unikate'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Seriöse Ghostwriter und Agenturen verkaufen keine fertigen Arbeiten "aus der Schublade". Kunden, die eine fertige '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/hausarbeit-schreiben-lassen
+                                      target: null
+                                      rel: null
+                                text: 'Hausarbeit kaufen'
+                              -
+                                type: text
+                                text: ' möchten oder die erfolgreiche Arbeit eines Kommilitonen umschreiben lassen wollen, müssen wir leider ablehnen. Dies genügt nicht unseren eigenen '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /faq/qualitaet-ghostwriter
+                                      target: _blank
+                                      rel: 'noopener noreferrer'
+                                text: Ghostwriting-Qualitätsansprüchen
+                              -
+                                type: text
+                                text: .
+                        active: true
+                      -
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                        accordion_content: null
+                        active: true
+                      -
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Hinter welchen Kulissen verbergen sich Ghostwriter?'
+                          -
+                            type: paragraph
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Ghostwriter schreiben nicht nur hochwissenschaftliche Artikel, welche nur von wenigen Menschen gelesen werden. Vielmehr findet man ihre Ergebnisse in vielen Bereichen, welche uns im täglichen Leben begegnen. So existieren neben Werken á la zu Guttenberg auch von „Geisterhand“ geschriebene Reden, Songtexte, Autobiografien, Bücher und sogar Drehbücher von bekannten Filmen.'
+                        active: true
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
     border: false
     type: add_section
     enabled: true
@@ -1364,7 +1569,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638983972
+updated_at: 1638994971
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
