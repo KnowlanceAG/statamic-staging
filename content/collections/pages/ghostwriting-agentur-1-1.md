@@ -1142,6 +1142,8 @@ replicator:
                                   -
                                     type: text
                                     text: ghostwriter-vergleich.de
+                              -
+                                type: paragraph
                       -
                         type: paragraph
                         content:
@@ -1163,85 +1165,14 @@ replicator:
                             text: 'verlinkt werden. Oft können Sie Ghostwriter Vergleiche auch auf einfache Weise selbst testen: Können Sie selbst Ghostwriter Bewertungen hinzufügen? Falls dies nicht funktionieren sollte, können Sie davon ausgehen, dass auch die anderen Ghostwriter Bewertungen nur vom Seitenbetreiber selbst hinzugefügt worden sind. Von solchen gefälschten Vergleichsportalen und den dort beworbenen Ghostwriter Agenturen sollten Sie sich unbedingt fern halten.'
                     column-count: true
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
                   level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Vertrauenswürdige Ghostwriter Vergleiche lesen'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Handelt es sich um ein bekanntes Vergleichsportal wie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Provenexpert
-                  -
-                    type: text
-                    text: ' oder '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Google
-                  -
-                    type: text
-                    text: '? Einige Ghostwriting Betrüger erstellen ganze Vergleichsportale mit gefälschten Bewertungen, um Wettbewerber zu unrecht zu diffamieren. Bekannte "schwarze Schaafe", denen Sie kein Vertrauen schenken sollten, sind:'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: ghostwritertest.com
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: ghostwritererfahrung.com
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: ghostwritingerfahrungen.com
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: ghostwriter-vergleich.de
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
+    is-full: true
     bg-toggle: false
     bg-image-fixed: false
     border: false
@@ -1427,7 +1358,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638966844
+updated_at: 1638967200
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
