@@ -21,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Ghostwriting Agentur'
+        text: Ghostwriter
   -
     type: paragraph
     content:
@@ -34,7 +34,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'GWriters ist eine Ghostwriter Agentur für Ghostwriting & Lektorate – diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Akademische Ghostwriter & wissenschaftliche Experten – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -191,7 +191,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single-col: true
         grid:
           -
             bard:
@@ -286,7 +286,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: '54'
               -
                 type: paragraph
               -
@@ -701,120 +701,132 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Warum eine Ghostwriting Agentur?'
+                    text: 'Akademische Ghostwriter'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Eine Agentur für Ghostwriter, eine sogenannte Ghostwriting Agentur, verfügt, wenn sie als seriös einzustufen ist, über einen Pool von Ghostwritern. Aus diesem können die Schreiber ausgewählt werden, die die erforderlichen Qualifikationen für die jeweilige Aufgabe mitbringen, sei es die erforderliche fachliche Kompetenz oder auch das Wissen, welche akademischen Formalia eingehalten werden müssen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Akademisches Ghostwriting erfordert oft einen möglichst großen Pool ausgewählter Autoren, da der bei wissenschaftlichen Arbeiten erforderliche hohe Spezialisierungsgrad einen Fachmann aus dem spezifischen Bereich erfordert. Doch wie findet man am besten jemanden der diesen hohen Ansprüchen gerecht wird? Eine offene Suche kann sich als riskant erweisen, da ein solches Thema mit äußerster Diskretion behandelt werden sollte.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Internet finden sich leider viele '
+                    text: 'Beim akademischen '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /achtung-ghostwriter-betrug
+                          href: /ghostwriting
                           target: null
                           rel: null
-                    text: Abzock-Angebote
+                    text: Ghostwriting
                   -
                     type: text
-                    text: ', die eine Musterarbeit für eine akademische Arbeit nicht in der notwenigen Güte verfassen können. Vor diesen Kriminellen kann man sich durch das Beauftragen einer seriösen Agentur für Ghostwriter schützen. '
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
+                    text: ' handelt es sich um das Verfassen von Mustervorlagen für wissenschaftliche Texte nach individuellen Vorgaben der Kunden. Dabei kann es sich um die Vorlage für eine Hausarbeit, Seminararbeit, Masterarbeit oder Dissertation handeln., auch kommt es häufig dazu, dass sich Studenten Mustervorlagen für die eigene '
                   -
                     type: text
-                    text: 'Weitere professionelle Leistungen- Ghostwriting Agentur'
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Bachelorarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '. Allerdings beschränkt sich akademisches Ghostwriting nicht auf das eben beschriebene Gebiet. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Eine seriöse und vertraute Ghostwriting Agentur nimmt dem Auftraggeber die Arbeit ab, sich einen Ghostwriter suchen, dessen Kompetenzen und Qualifikationen auf die eigenen Bedürfnisse zugeschnitten sind. Sie kann aus einem breiten Band von Mitarbeitern genau den Ghostwriter finden, der den jeweiligen Ansprüchen an wissenschaftlicher Qualität genügt. '
+                    text: 'Unter akademischem Ghostwriting versteht man weiterhin die Erstellung von wissenschaftlichen Grundlagentexten für ein fokussiertes Forschungsgebiet, Übernahme und Dokumentation der Literaturrecherche zu einem bestimmten Thema oder auch dem Verfassen von Fachartikeln. Weiterhin beauftragen teilweise auch große Unternehmen akademische Ghostwriter mit der Erstellung von wissenschaftlich fundierten Texten für geschäftliche Zwecke.'
               -
-                type: paragraph
+                type: blockquote
                 content:
                   -
-                    type: text
-                    text: 'Meist bieten Ghostwriting Agenturen auch ein Korrektorat oder '
-                  -
-                    type: text
-                    marks:
+                    type: paragraph
+                    content:
                       -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: Lektorat
-                  -
-                    type: text
-                    text: ' für Ihren akademischen Text an. Auch hier ist es wichtig, seriöse Agenturen zu nutzen obwohl ein Korrektorat geringere Anforderungen an den '
-                  -
-                    type: text
-                    marks:
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: 'Das Professionelle Leistungspacket von Ghostwriter, die nach Kundenanforderungen Mustervorlagen für geschäftliche und akademischen Zwecken verfassen, beinhaltet weitere Leistungsbereiche, wie das '
                       -
-                        type: link
-                        attrs:
-                          href: /korrektorat/korrektor
-                          target: null
-                          rel: null
-                    text: Korrektor
-                  -
-                    type: text
-                    text: ' stellt als ein Lektorat an den '
-                  -
-                    type: text
-                    marks:
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                          -
+                            type: link
+                            attrs:
+                              href: /korrektorat
+                              target: null
+                              rel: null
+                        text: Korrektorat
                       -
-                        type: link
-                        attrs:
-                          href: /lektorat/lektor
-                          target: null
-                          rel: null
-                    text: Lektor
-                  -
-                    type: text
-                    text: '. Eine professionelle Schreibagentur stellt sicher, dass Ihr wissenschaftlicher Text von einem unabhängigen Lektor mit Fachwissen korrigiert wird. Dieser benötigt wiederum geringere Qualifikationen als ein Ghostwriter, welcher eine Musterarbeit selbstständig verfasst.'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: ', '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                          -
+                            type: link
+                            attrs:
+                              href: /lektorat
+                              target: null
+                              rel: null
+                        text: Lektorat
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: ' und '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                          -
+                            type: link
+                            attrs:
+                              href: /leistungen/plagiatspruefung
+                              target: null
+                              rel: null
+                        text: Plagiatsprüfung
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: '. Ebenfalls ist es möglich diese Optionen zum Beispiel Lektoratsservice oder Korrektorat in jedem Abschnitt in Anspruch zu nehmen.'
               -
                 type: heading
                 attrs:
@@ -857,861 +869,114 @@ replicator:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
                         image:
-                          - leistung/icons/search-book.png
-                        headline: 'MAXQDA AUSWERTUNG'
-                        hover_content: 'Unsere erfahrenen Experten führen Ihre qualitative Inhaltsanalyse mittels einer professionellen MAXQDA Auswertung durch.'
+                          - leistung/icons/secure.svg
+                        headline: PLAGIATSPRÜFUNG
+                        hover_content: 'Jede wissenschaftliche Arbeit sollte einer Plagiatsprüfung unterzogen werden um böse Überraschungen auszuschließen.'
                         link:
-                          - dafbcd3b-fd08-4c5b-94be-f2a80c140953
+                          - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
                       -
                         image:
-                          - leistung/icons/hat.svg
-                        headline: PROMOTIONSBERATUNG
-                        hover_content: 'Verlassen Sie sich auf unsere umfassende und seriöse Promotionsberatung und führen Sie Ihre Promotion zum Erfolg.'
+                          - leistung/icons/eraser_1.svg
+                        headline: KORREKTORAT
+                        hover_content: 'Vier Augen sehen mehr als zwei. Ein professionelles Korrektorat überarbeitet sprachliche Fehler Ihrer wissenschaftlichen Arbeit'
                         link:
                           - 6dd15231-c8e7-43fe-949e-af68de19ab1b
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '14'
+              -
                 type: paragraph
-            show_as_card: true
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die Korrekturen in der Arbeit dienen dazu, um grammatikalische und syntaktische Fehler zu vermeiden sowie korrekte und wissenschaftliche Sätze zu formulieren. Schließlich wird die Musterarbeit von einem Fachautoren im Leistungsbereich Lektorat und Korrektorat überprüft. Nach den Korrekturen kann eine umfassende Plagiatsprüfung erfolgen. Besonders Studenten entscheiden sich für diese kompakten Leistungen, um eine Musterarbeit vollständig für ihre Hausarbeit, Seminararbeit, Bachelorarbeit oder Masterarbeit schreiben lassen zu können.'
+            show_as_card: false
         type: row
         enabled: true
     remove_spacing: false
     is-full: true
     bg-toggle: false
+    bg-color: '#F9F9F9'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Seriöse Ghostwriter finden'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Ein häufiges Problem im heutigen Ghostwriting Markt ist es, einen professionellen und seriösen Ghostwriter finden zu können, ohne dabei an einen sogenannten Hobbyschreiber oder gar eine zwielichtige Agentur zu geraten, bei der man im schlimmsten Fall ein Plagiat oder eine aus einer anderen Sprache übersetzte Arbeit erhält. Um Sie und unsere Kunden zu schützen und zu informieren, haben wir hier einmal die wichtigsten Informationen zusammengestellt, damit Sie auch für Ihr Projekt garantiert einen seriösen Ghostwriter finden. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Eine seriöse Ghostwriting Agentur arbeitet mit zertifizierten Ghostwritern aus jedem Fachbereich. Wenn Sie zum Beispiel Physik studieren, beauftragt unser professioneller Schreibservice ausschließliche ausgebildete Physiker für Ihre Projekte, keinesfalls Hobbyschreiber.'
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: video
+                    video: 'https://www.youtube.com/embed/WH2LPAqKuKE'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
     bg-color: '#D6D6D6'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/ghostwriting-agentur/dienstleistung2.png
-                    img-alignment: justify-center
-                    has_border: false
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Verschiedene professionelle '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Leistungen:'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: '-Lektorat'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: '-Korrektorat'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: '-Plagiatsprüfung'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: '-Formatierung'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: '-MAXQDA Auswertung'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: '-Übersetzung'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: '-Promotionsberatung'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/ghostwriting-agentur/ghostwriter-doktoren2.png
-                    img-alignment: justify-center
-                    has_border: false
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '17'
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Arbeitet mit akademischen '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Ghostwriter:'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: '-Doktoren'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: '-Professoren'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/ghostwriting-agentur/interdiszipliniertes-wissen2.png
-                    img-alignment: justify-center
-                    has_border: false
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '27'
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Interdiszipliniertes Wissen'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'in vielen Fachbereichen'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/ghostwriting-agentur/programme-kostenlos2.png
-                    img-alignment: justify-center
-                    has_border: false
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '11'
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Kostenlose Zugriffe:'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: '-SPSS'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: '-MAXQDA'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: '-Zitiersystem'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: '-Datenbanken'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/ghostwriting-agentur/kommunikation2.png
-                    img-alignment: justify-center
-                    has_border: false
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '27'
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Sichert 100% Anonymität'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: '(Ghostwriter & Auftraggeber)'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/ghostwriting-agentur/bearbeitungszeit2.png
-                    img-alignment: justify-center
-                    has_border: false
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '36'
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Kurze Bearbeitungszeit'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/ghostwriting-agentur/ghostwritingpacket-1635773934.png
-                    img-alignment: justify-center
-                    has_border: false
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '11'
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Schwerpunkt: Ghostwritingpaket'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: '-Mustervorlage für wissenschaftliche'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: '  Arbeiten schreiben'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: '-Lektorat & Korrektorat'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: '-Plagiatsprüfung'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: '-Qualitätsprüfung'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
   -
     columns-replicator:
       -
@@ -1722,49 +987,256 @@ replicator:
           -
             bard:
               -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Zudem spielt eine seriöse Schreibagentur eine wichtige Rolle beim Finden eines geeigneten akademischen Ghostwriters. Eine Agentur für Ghostwriter verfügt, wenn sie als seriös einzustufen ist, über einen weitreichenden Pool von Ghostwritern. Aus diesem können genau die Schreiber ausgewählt werden, die die erforderlichen Qualifikationen für die jeweilige Aufgabe mitbringen, sei es die erforderliche fachliche Kompetenz oder auch das Wissen, wie die vorliegenden Daten statistisch ausgewertet oder welche akademischen Formalia eingehalten werden müssen. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Darüber hinaus stellt eine Schreibagentur viele professionelle Programmen kostenlos an einem Ghostwriter zur Verfügung, wie Plagiatssoftware, Zugriff auf relevanten Datenbanken/ Fachzeitschriften, automatisierten Zitiersystemen sowie Programme für quantitative Auswertungen oder qualitative Inhaltsanalysen wie SPSS und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/maxqda-auswertung
+                          target: null
+                          rel: null
+                    text: MAXQDA
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Für inhaltliche Korrekturen einer Musterarbeit, beauftragt eine akademische Dienstleistung einen unabhängigen professionellen Lektor.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Akademische Ghostwriter oder Ghostwriterinnen schreiben nicht nur wissenschaftliche Musterarbeiten, einen Ghostwriter kann man auch für das Zeichnen beauftragen, genauer gesagt für das Erstellen technischer Zeichnungen. Besonders im Architekturstudium oder Ingenieursstudium möchten Studierende Musterzeichnungen für ihre Abgaben erstellen lassen.'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: text_box-alignment
+                    bard:
+                      -
+                        type: heading
+                        attrs:
+                          level: 3
+                        content:
+                          -
+                            type: text
+                            text: 'Vertrauenswürdige Ghostwriter Vergleiche lesen'
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Handelt es sich um ein bekanntes Vergleichsportal wie '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Provenexpert
+                          -
+                            type: text
+                            text: ' oder '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Google
+                          -
+                            type: text
+                            text: '? Einige Ghostwriting Betrüger erstellen ganze Vergleichsportale mit gefälschten Bewertungen, um Wettbewerber zu unrecht zu diffamieren. Bekannte "schwarze Schaafe", denen Sie kein Vertrauen schenken sollten, sind:'
+                      -
+                        type: bullet_list
+                        content:
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    text: ghostwritertest.com
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    text: ghostwritererfahrung.com
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    text: ghostwritingerfahrungen.com
+                          -
+                            type: list_item
+                            content:
+                              -
+                                type: paragraph
+                                content:
+                                  -
+                                    type: text
+                                    text: ghostwriter-vergleich.de
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Oft lassen sich solche Portale daran erkennen, dass nur eine einzige Ghostwriter Agentur bzw. die verschiedenen Portale einer Agentur empfohlen werden. Besonders auffällig ist dies bspw. auf ghostwritingerfahrungen.com, wo die drei Portale einer osteuropäischen Agentur bereits auf der '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /
+                                  target: null
+                                  rel: null
+                            text: 'Startseite '
+                          -
+                            type: text
+                            text: 'verlinkt werden. Oft können Sie Ghostwriter Vergleiche auch auf einfache Weise selbst testen: Können Sie selbst Ghostwriter Bewertungen hinzufügen? Falls dies nicht funktionieren sollte, können Sie davon ausgehen, dass auch die anderen Ghostwriter Bewertungen nur vom Seitenbetreiber selbst hinzugefügt worden sind. Von solchen gefälschten Vergleichsportalen und den dort beworbenen Ghostwriter Agenturen sollten Sie sich unbedingt fern halten.'
+                    column-count: true
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
-                  level: 2
+                  level: 3
                 content:
                   -
                     type: text
-                    text: 'Welche Vorteile hat eine Ghostwriter Agentur gegenüber einem einzelnen Ghostwriter?'
+                    text: 'Vertrauenswürdige Ghostwriter Vergleiche lesen'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Eine Agentur kann ein wichtiger Ansprechpartner beim Universitätsabschluss sein, besonders bei einer wissenschaftlichen Texterstellung. Im Studium schreiben Studenten Prüfungen und Klausuren in mehreren Fachrichtungen. Ein einzelner Ghostwriter kann kaum in der Lage sein, alle diese Fachbereiche sicher zu beherrschen. Bei einer seriösen Ghostwriting Agentur haben Sie als Kunde die Möglichkeit, alle Leistungen wie das Ghostwriting, Korrektorat, Lektorat oder Plagiatsprüfungen in allen Fachbereichen wie Sozialwissenschaften, BWL etc. aus einer Hand zu erhalten. Hat man bereits gute Erfahrungen mit einer Agentur gemacht, so muss man sich für eine Mustervorlage für ein anderes Thema nicht mühsam einen neuen Schreiber suchen, das erledigt die vertraute Agentur.'
-              -
-                type: paragraph
-                content:
+                    text: 'Handelt es sich um ein bekanntes Vergleichsportal wie '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Eine Ghostwriting Agentur vermittelt für jede Fachrichtung und Leistung professionelle Ghostwriter. Sie arbeitet mit vielen Fachautoren zusammen. Wenn zum Beispiel ein Student an einem Hochschulstudium BWL studiert und eine Mustervorlage in diesem Themenfeld brauchen, wird aus vielen zertifizierten Ghostwriter aus dieser Branche der passende Ghostwriter ausgewählt und beauftragt.'
-              -
-                type: paragraph
-                content:
+                        type: bold
+                    text: Provenexpert
+                  -
+                    type: text
+                    text: ' oder '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Bei der Beauftragung eines Ghostwriters ist es wichtig vorher zu wissen, wann der Abgabetermin einer Abschlussarbeit ist. So kann genügend Zeit für die Erstellung der eigenen Arbeit eingeplant werden. Aber auch bei einer kurzen Bearbeitungszeit findet ein seriöser Schreibservice den passenden Ghostwriter für Sie. Außerdem stellt eine Agentur den Auftragsschreibern auch eine Reihe professioneller Programme kostenlos zur Verfügung, bspw. den Zugriff auf relevanten Datenbanken, Plagiatssoftwares, automatische Zitiersysteme sowie quantitative und qualitative Analysesoftwares wie SPSS, Stata, R oder MAXQDA.'
+                        type: bold
+                    text: Google
+                  -
+                    type: text
+                    text: '? Einige Ghostwriting Betrüger erstellen ganze Vergleichsportale mit gefälschten Bewertungen, um Wettbewerber zu unrecht zu diffamieren. Bekannte "schwarze Schaafe", denen Sie kein Vertrauen schenken sollten, sind:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: ghostwritertest.com
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: ghostwritererfahrung.com
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: ghostwritingerfahrungen.com
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: ghostwriter-vergleich.de
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1955,7 +1427,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638961886
+updated_at: 1638966844
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
