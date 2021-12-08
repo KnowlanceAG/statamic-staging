@@ -1,5 +1,6 @@
 ---
 id: fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
+blueprint: pages
 title: Plagiatsprüfung
 teaser:
   -
@@ -84,7 +85,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://guttenplag.wikia.org/de/wiki/PlagiatsKategorien'
+                          href: 'https://guttenplag.fandom.com/de/wiki/PlagiatsKategorien'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'Arten von Plagiaten'
@@ -836,8 +837,8 @@ replicator:
     enabled: true
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623263261
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1638883771
 template: with-side-bar
 meta_title: 'Plagiatsprüfung - Mehr Sicherheit für Ihre Abschlussarbeit'
 meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Plagiatsprüfung: Leistungen, Ablauf, Kosten & Preise.'

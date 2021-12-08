@@ -3,7 +3,7 @@ id: 8e94ca0e-e5de-46b9-908e-d086cd76f0c8
 blueprint: pages
 title: Datenschutzerklärung
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1633965671
+updated_at: 1638883712
 page_title: 'GWriters • Datenschutzerklärung'
 meta_title: 'GWriters • Datenschutzerklärung'
 meta_description: 'Unsere Datenschutzerklärung. GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
@@ -3021,13 +3021,13 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://about.google/intl/de/'
-                  target: _blank
-                  rel: 'noopener noreferrer'
-            text: 'https://about.google/intl/de/'
+                  href: 'https://about.google/'
+                  target: null
+                  rel: null
+            text: 'https://about.google/'
           -
             type: text
-            text: ') (Gordon House, Barrow Street, Dublin 4, Irland; im Folgenden “Google”). In diesem Zusammenhang werden pseudonymisierte Nutzungsprofile erstellt und Cookies (siehe Punkt “Cookies”) verwendet. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website wie'
+            text: "\_) (Gordon House, Barrow Street, Dublin 4, Irland; im Folgenden “Google”). In diesem Zusammenhang werden pseudonymisierte Nutzungsprofile erstellt und Cookies (siehe Punkt “Cookies”) verwendet. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website wie"
       -
         type: ordered_list
         attrs:

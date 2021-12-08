@@ -1,5 +1,6 @@
 ---
 id: dafbcd3b-fd08-4c5b-94be-f2a80c140953
+blueprint: pages
 title: 'MAXQDA Auswertung'
 teaser:
   -
@@ -1261,7 +1262,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.maxqda.de/was-ist-maxqda'
+                          href: 'https://www.maxqda.de/warum-maxqda'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: Herstellerseite
@@ -1280,8 +1281,8 @@ replicator:
     enabled: true
     border: false
 parent: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623263306
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1638883826
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
