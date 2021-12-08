@@ -1,5 +1,6 @@
 ---
 id: a0a35314-4e42-429e-ae58-9c7bd8fae01c
+published: false
 blueprint: pages
 title: 'Ghostwriting Agentur (Dupliziert) (Dupliziert)'
 teaser:
@@ -64,25 +65,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Bei der Ghostwriting Agentur GWriters erhalten Sie kompetente Unterstützung für wissenschaftliche Leistungen in jedem Fachgebiet. Bei unserer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Ghostwriting Agentur'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: " finden Sie exakt den\_"
+                    text: "Bei GWriters erhalten Sie kompetente Unterstützung für wissenschaftliche Leistungen in jedem Fachgebiet. Bei unserer Ghostwriting Agentur finden Sie exakt den\_"
                   -
                     type: text
                     marks:
@@ -100,7 +83,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: ', der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und bei einem Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Doktoren und Professoren arbeitet.'
+                    text: ', der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und bei einem professionellen Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Doktoren und Professoren arbeitet.'
             show_as_card: false
         type: row
         enabled: true
@@ -198,7 +181,7 @@ replicator:
     is-full: true
     bg-toggle: true
     bg-color: '#F9F9F9'
-    bg-image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+    bg-image: seiten/ghostwriting-agentur/ghostwriter-titelbild.jpg
     bg-image-fixed: false
     border: false
     type: add_section
@@ -208,7 +191,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single-col: false
         grid:
           -
             bard:
@@ -222,27 +205,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'Häufig suchen Akademiker jemanden, der sie beim Erstellen wissenschaftlicher Texte unterstützt, ihnen ein Grundkonzept für eine akademische Arbeit erstellt oder Ihnen das Schreiben durch die Erstellung von Mustervorlagen erheblich erleichtert. So wird jemand für das Verfassen eben dieser Vorlage einer'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: ' Hausarbeit, Seminararbeit, Bachelorarbeit, Doktorarbeit bzw. Dissertation'
+                    text: 'Ein Ghostwriter ist nicht etwa ein '
                   -
                     type: text
                     marks:
@@ -250,31 +213,13 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: " oder Diplomarbeit gesucht oder eine Unterstützung bei dem Geschäftsplan oder dem Geschäftsbericht. Es wird ein\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /lektorat/lektor
                           target: null
                           rel: null
-                    text: Ghostwriter
+                    text: Lektor
                   -
                     type: text
                     marks:
@@ -282,12 +227,28 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: "\_gesucht."
+                    text: ' oder Korrektor. Der „Geist“ kontrolliert oder überarbeitet in der Regel keine Arbeiten, sondern verfasst selbstständig ein Werk nach den individuellen Vorgaben einer anderen Person - dessen Rechte er an den Käufer abtritt. Mit der Abgabe aller Nutzungsrechte taucht der Ghostwriter dann nicht mehr als Autor auf und ist für den Leser somit als Verfasser unsichtbar. Er ist ein Geist – ein Ghostwriter.'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -305,22 +266,71 @@ replicator:
                     type: example_work
                     ex_img_right: false
                     ex_image: seiten/beispielarbeiten-1.JPG
-                    ex_title: 'Kostenlos BEISPIELARBEITEN runterladen'
+                    ex_title: 'Weiterentwicklung der Baseler Eigenmittelübereinkunft'
                     ex_fachbereich:
-                      - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
-                      - f07c0010-40dd-407e-bf32-a1a260b5016b
-                      - a9cc9473-308b-4615-8f30-d545f7f63faf
                       - 06fbb3f4-51c2-4f11-832e-9b72a495857d
-                    ex_type: 'Hausarbeit, Seminararbeit etc.'
-                    ex_zitation: 'Harvard Style, Deutsche Zitierweise, APA Style'
-                    ex_button_link: 'entry::b2decf22-7419-401e-9a2d-3713194ce4d0'
+                    ex_type: Hausarbeit
+                    ex_zitation: 'Harvard Style'
+                    ex_button_link: 'entry::21ef3416-f1fd-43eb-8e38-ec597763c45f'
                     ex_button_text: 'JETZT RUNTERLADEN'
                     ex_button_align: justify-center
                     ex_spacing_top: true
+                    ex_pages: '10'
               -
                 type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - team/wittkamp_gwriters_ghostwriter_rund.png
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Diplom Betriebswirt Marcus Wittkamp'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Senior Ghostwriter & Supervisor'
             show_as_card: false
         type: row
         enabled: true
@@ -347,86 +357,67 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Was ist eine Ghostwriting Agentur?'
+                    text: 'Wer sind unsere Ghostwriter?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ein akademischer Ghostwriter ist jemand, der Akademikern beim Verfassen so einer wissenschaftlichen Arbeit hilft, ihre Forschungsergebnisse textlich auswertet oder eine ganze Mustervorlage für einen wissenschaftlichen Text für diese erstellt. Die Gründe hierfür sind mannigfaltig. Ein wichtiger Grund ist der '
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Unsere unsichtbaren Textverfasser sind im Alltag häufig Doktoren und Professoren. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten. Aufgrund ihrer praktischen Erfahrung und fachlichen Kenntnisse in ihrem jeweiligen Fachbereich können diese Sie zu jedem Zeitpunkt der Texterstellung unterstützen. Unsere '
                   -
                     type: text
                     marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: 'https://www.sueddeutsche.de/bildung/zeitdruck-im-bachelor-studium-menschen-sind-keine-lernmaschinen-1.1185528'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Zeitdruck in einem modernen Studium'
-                  -
-                    type: text
-                    text: ' im Bachelor- und Mastersystem nach der Bolognareform. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Aber es gibt auch andere Gründe, wie etwa fehlende Sprachkenntnisse, falscher Schreibstil, eine Schreibschwäche oder eine Schreibblockade.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Grade die Studienarbeiten wie Hausarbeiten und Seminararbeiten sind eine gute Vorbereitung auf die Abschlussarbeit (Bachelorarbeit und Masterarbeit). Allerdings haben besonders Studienanfänger Schwierigkeiten beim Schreiben einer Hausarbeit oder Seminararbeit, da sie vorher in ihrer Schulzeit noch nicht mit solchen Aufgabenstellungen konfrontiert worden sind.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Durch die fehlende Unterstützung im Universitätsalltag haben viele Studenten Problemen bei der Themenfindung, der Forschungsfrage und der Literaturrecherche. Aber auch beim Aufbau einer wissenschaftlichen Arbeit wie Bachelorarbeiten, deren Exposé und der Erstellung von Präsentation oder Vorträgen. Hier suchen viele Studierende nach seriösen und authentischen Ghostwriting Agenturen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Daher bieten '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
+                          href: /ghostwriting/ghostwriting-agentur
                           target: null
                           rel: null
-                    text: Ghostwriting
+                    text: 'professionelle Ghostwriter-Agentur'
                   -
                     type: text
-                    text: ' Agenturen einen Service, der diese auf diese Art von Problemen zugeschnitten ist. Sie suchen im Idealfall einen auf die Bedürfnisse des Auftraggebers zugeschnittenen akademischen Autor, der ihnen dabei hilft Ihre wissenschaftliche Arbeit zu verfassen.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' arbeitet ausschließlich mit hochqualifizierten Akademikern zusammen, die versiert und zuverlässig Mustervorlagen für unterschiedliche wissenschaftliche Aufgaben (Hochschularbeiten, Abschlussarbeiten, Businesspläne, '
                   -
                     type: text
-                    text: 'Zusammenarbeit mit qualifizierten Ghostwriter'
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/praesentationen
+                          target: null
+                          rel: null
+                    text: Präsentationen
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' etc.) nach Kundenwünschen erstellen.'
               -
                 type: paragraph
                 content:
@@ -438,10 +429,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere seriöse Schreibagentur GWriters arbeitet mit akademischen Experten zusammen, die als wissenschaftlich erfahrene Sprachexperten zu jedem Zeitpunkt des Schreibprozesses eine Unterstützung anbieten. Denn unsere qualifizierten Autoren sind im alltäglichen Leben oft als Professoren und Doktoren beschäftigt. Diese setzen sich tagtäglich mit wissenschaftlichen Aufgabenstellungen auseinander und verfügen über viele Jahre Erfahrungen in ihrem jeweiligen Themenfeld.'
-              -
-                type: paragraph
-                content:
+                    text: 'Unsere anonymen Autoren bieten zu vielen wissenschaftlichen Themenbereichen professionelle Unterstützung an: bei der Textüberarbeitung, Formulierung von Texten, Literaturrecherche, Themenfindung, Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederung sein. Diese Unterstützung kann neben der Erstellung von Mustervorlagen auch durch Coaching sowie Beratung erfolgen. Wir finden für Sie rund um das Thema „wissenschaftliches Arbeiten“ für jede Aufgabenstellung passende Fachautoren als Hilfestellung, wenn Sie eine Mustervorlage für Ihre '
                   -
                     type: text
                     marks:
@@ -450,9 +438,94 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'In der akademischen Biografie eines Ghostwriters findet sich eine Vielzahl praktischer und theoretischer Erfahrungen in der wissenschaftlichen Branche. Dadurch haben Studierende die Möglichkeit, akademische Ghostwriter im Laufe der Schreibphase um einen Rat oder Tipp bzgl. der methodischen Umsetzung des eigenen Projekts zu fragen. Selbst wenn ein Student sich dazu entscheidet, eigenständig zu arbeiten, ist es bei einer wissenschaftlichen Aufgabenstellung ratsam, den verfassten Text zur Korrektur abzugeben und von einem Lektoratsservice überprüfen zu lassen.'
-              -
-                type: paragraph
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Hausarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Seminararbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Bachelorarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Masterarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' schreiben lassen möchten.'
             show_as_card: false
         type: row
         enabled: true
@@ -494,7 +567,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie bei Ihrer akademischen Arbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine '
+                    text: 'Wenn Sie Unterstützung durch einen Ghostwriter benötigen, dann können Sie uns gerne sofort eine '
                   -
                     type: text
                     marks:
@@ -512,16 +585,13 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten (Bachelorarbeit, Masterarbeit, Doktorarbeit, Diplomarbeit)'
-                  -
-                    type: text
-                    text: ' '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
             show_as_card: false
         type: row
         enabled: true
@@ -1870,7 +1940,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638956779
+updated_at: 1638961599
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
