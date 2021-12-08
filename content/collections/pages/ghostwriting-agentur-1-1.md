@@ -242,7 +242,7 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: 1
+        columns_per_row: '2'
         single-col: false
         grid:
           -
@@ -279,15 +279,29 @@ replicator:
               -
                 type: paragraph
             show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Über den Autor'
               -
                 type: set
                 attrs:
@@ -334,13 +348,14 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
-    is-full: false
+    remove_spacing: true
+    is-full: true
     bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
     enabled: true
+    bg-color: '#F7F7F7'
   -
     columns-replicator:
       -
@@ -1940,7 +1955,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638961599
+updated_at: 1638961886
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
