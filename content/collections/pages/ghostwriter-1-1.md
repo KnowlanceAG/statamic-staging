@@ -1,7 +1,8 @@
 ---
 id: 0a43ac90-027e-40a8-8ba6-1cb5e5062749
+published: false
 blueprint: pages
-title: 'Ghostwriter (Dupliziert)'
+title: 'Ghostwriter (Dupliziert)1'
 teaser:
   -
     type: heading
@@ -45,7 +46,7 @@ teaser:
         spacing_top: false
 teaser_bg: seiten/header-so-funktionierts.jpeg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1634632719
+updated_at: 1638997749
 replicator:
   -
     bard:
