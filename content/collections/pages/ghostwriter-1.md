@@ -202,10 +202,20 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Ein Ghostwriter ist nicht etwa ein '
+                    text: 'Ein Ghostwriter'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: ' ist nicht etwa ein '
                   -
                     type: text
                     marks:
@@ -1359,7 +1369,26 @@ replicator:
                               -
                                 type: text
                                 text: 'Nur legale Ghostwriting-Services'
-                        accordion_content: null
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Ist '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /blog/plagiate-ghostwriting-legal
+                                      target: null
+                                      rel: null
+                                text: 'Ghostwriting legal'
+                              -
+                                type: text
+                                text: '? Ja! Anders steht es aber um das Schreiben von Klausuren für Kunden und den Handel mit Titeln von dubiosen Universitäten. Solche illegalen Dienstleistung würde Ihnen eine seriöse Ghostwriting Agentur niemals anbieten. GWriters handelt stets legal, auch zu Ihrem Schutz!'
                         active: true
                       -
                         headline:
@@ -1520,7 +1549,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -1666,7 +1695,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638998595
+updated_at: 1638999202
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
