@@ -1355,6 +1355,10 @@ replicator:
                             type: heading
                             attrs:
                               level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Nur legale Ghostwriting-Services'
                         accordion_content: null
                         active: true
                       -
@@ -1492,17 +1496,115 @@ replicator:
           -
             bard:
               -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Die Menschen hinter dem Geist'
+              -
                 type: paragraph
                 content:
                   -
                     type: text
+                    text: 'Ghostwriter haben die verschiedensten Motive. In der Regel sind sie freiberuflich tätig und werden überdurchschnittlich gut für ihre Arbeit entlohnt. Daraus ergibt sich ein Beruf mit genügend finanzieller Freiheit und flexibler Zeiteinteilung. Des Weiteren werden viele Ghostwriter von der Leidenschaft zum Schreiben angetrieben. Bei Drehbüchern oder Büchern stellt sich im ersten Moment zwar die Frage, warum diese Leute ihr Werk nicht selbst veröffentlichen, wenn es qualitativ einwandfrei verfasst ist. Beantworten lässt sich diese Frage allerdings schnell: In der Regel fehlt der Bekanntheitsgrad oder die Liquidität, um eine Veröffentlichung inklusive Marketing in einem effektiven Umfang umzusetzen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Mit der wachsenden Bedeutung von Studienabschlüssen und Titeln für die Karrierechancen im Beruf wächst auch der Markt für akademische Ghostwriter stetig weiter. Doch nicht nur die Nachfrage ist hoch: Wissenschaftliche Autoren werden häufig verhältnismäßig schlecht bezahlt. Viele dieser Menschen entschließen sich von daher zu einer zusätzlichen Nebentätigkeit. Das akademische Ghostwriting liegt hier nahe, da sich diese Personen tagtäglich mit der Forschung und dem wissenschaftlichem Arbeiten auseinandersetzen.'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '100'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: true
+    bg-image: seiten/ghostwriting-agentur/anonymitat.jpg
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: Anonymität
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Grundsätzlich kommt es in den seltensten Fällen vor, dass Ghostwriter als solche auch in der Öffentlichkeit gezeigt werden. Gerade akademische Ghostwriter verpflichten sich zu Stillschweigen und werden bei der Zusammenarbeit mit einer entsprechenden Agentur niemals (anders als beispielsweise bei Autobiographien) einen persönlichen Kontakt zum Auftraggeber haben. Die Anonymität steht an oberster Stelle um nicht zuletzt gerade den Auftraggeber zu schützen. Dem Kunden wird bei Vorlagen für '
+                  -
+                    type: text
                     marks:
                       -
-                        type: textColor
+                        type: link
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Aber auch unter anderen Umständen kann eine vertraute Agentur von Nutzen sein. Ist man beispielsweise mit Schreibstil oder Umsetzung der Mustervorlage unzufrieden sind seriöse Agenturen in der Lage einen anderen Verfasser für die Mustervorlage für die akademische Aufgabenstellung bereitzustellen. Dies ist natürlich auch möglich, sollte es auf Seiten des Ghostwriters zu Problemen kommen, sodass er die Arbeit nicht fertigstellen kann, beispielsweise ein Krankheitsfall. Die Ghostwriting Agentur ist also Vermittler zwischen Auftraggeber und dem Ghostwriter und garantiert die Sicherheit, die Qualität, die Quantität sowie einen pünktlichen Abgabetermin, die so eine wissenschaftliche Abgabe erfordern.'
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Masterarbeiten
+                  -
+                    type: text
+                    text: ' dringend davon abgeraten, den Text zu übernehmen, sondern diesen tatsächlich nur als Vorlage zur Bearbeitung zu sehen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Falsche Schreibweisen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Fälschlicherweise wird Ghostwriter häufig auch Ghostwritter, Ghost writer oder gohstwriter geschrieben.'
               -
                 type: blockquote
                 content:
@@ -1519,7 +1621,7 @@ replicator:
                     content:
                       -
                         type: text
-                        text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
+                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
                 type: heading
                 attrs:
@@ -1527,21 +1629,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Blogartikel zum Thema Ghostwriting Agentur'
+                    text: 'Blogartikel über Ghostwriter'
               -
                 type: set
                 attrs:
                   values:
                     type: blog_entries
                     entries:
-                      - 636b91b0-241e-4fbf-a315-2267fa607bd3
-                      - 31c2d3bf-b5f9-4b8f-8ec8-4c80cc55fc93
-                      - de34a06b-d2ba-4dd0-ac3a-8d2761fd005e
-                      - 24ba331e-8f49-4a91-a310-dd85b6281939
-                      - ece83e8a-3c91-4e07-8c58-4bcd1c937ec1
+                      - 4148325d-d0d4-4055-9104-c4cb39f5a282
+                      - 286294bc-3927-4a37-b1e0-defe39884464
                       - a2cde5ef-6e62-42fc-a5dc-ea0e899eb3da
-              -
-                type: paragraph
               -
                 type: paragraph
                 content:
@@ -1560,8 +1657,8 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
-    is-full: false
+    remove_spacing: true
+    is-full: true
     bg-toggle: false
     bg-image-fixed: false
     border: false
@@ -1569,7 +1666,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638994971
+updated_at: 1638997177
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
