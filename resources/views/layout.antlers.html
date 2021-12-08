@@ -42,19 +42,38 @@
     {{ aardvark-seo:head }}
   {{ /if }}
 
-  <script id='change_header_ch'>
+  <script id='change_header'>
     (() => {
-      const parts = window.location.hostname.split('.');
-      const tld = parts[parts.length - 1];
+      const hostnameParts = window.location.hostname.split('.');
+      const tld = hostnameParts[hostnameParts.length - 1];
       if (tld === 'ch') {
         document.documentElement.setAttribute("lang", 'de-CH');
+
         const canonical = document.querySelector('link[rel="canonical"]');
+        const metaOGLocale = document.querySelector('meta[property="og:locale"]');
+        const metaOGUrl = document.querySelector('meta[property="og:url"]');
         if (canonical) {
           canonical.href = window.location;
         }
-        const metaOGLocale = document.querySelector('meta[property="og:locale"]');
+        if (metaOGUrl) {
+          metaOGUrl.content = window.location;
+        }
         if (metaOGLocale) {
           metaOGLocale.content = 'de-CH';
+        }
+        // return as pagination already handled
+        return;
+      }
+
+      // handle canonical and og:url on paginated pages
+      if (window.location.pathname.match(/^\/(blog|presse)\/page\//)) {
+        const canonical = document.querySelector('link[rel="canonical"]');
+        const metaOGUrl = document.querySelector('meta[property="og:url"]');
+        if (canonical) {
+          canonical.href = window.location;
+        }
+        if (metaOGUrl) {
+          metaOGUrl.content = window.location;
         }
       }
     })()
