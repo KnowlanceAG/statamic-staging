@@ -681,10 +681,6 @@ replicator:
                 type: heading
                 attrs:
                   level: 2
-              -
-                type: heading
-                attrs:
-                  level: 2
                 content:
                   -
                     type: text
@@ -744,6 +740,46 @@ replicator:
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/dienstleistung2.png
+                    text: |-
+                      ## Verschiedene professionelle Leistungen:
+
+                      - Ghostwriting
+                      - Lektorat
+                      - Korrektorat
+                      - Plagiatsprüfung
+                      - Formatierung
+                      - MAXQDA Auswertung
+                      - Übersetzung
+                      - Promotionsberatung
+                    ausrichtung: bild-text
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
@@ -1896,7 +1932,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1639060809
+updated_at: 1639060995
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
