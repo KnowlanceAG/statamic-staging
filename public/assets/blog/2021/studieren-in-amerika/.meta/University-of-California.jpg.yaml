@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'University of California'
+  caption: 'University of California'
 size: 84333
 last_modified: 1639142109
 width: 394
