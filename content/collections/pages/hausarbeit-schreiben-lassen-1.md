@@ -624,123 +624,27 @@ replicator:
                     grid:
                       -
                         zahl: '1.'
-                        beschreibung: 'Alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen hervorragende fachliche Kompetenzen und methodische Erfahrung im Hinblick auf wissenschaftliches Arbeiten vor. Daher können diese Ihnen bei Ihrer Bachelorarbeit Hilfe in verschiedenen Formen, individuell abgestimmt auf Ihre Bedürfnisse bieten. '
+                        beschreibung: '<p align="left">Alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen hervorragende fachliche Kompetenzen und methodische Erfahrung im Hinblick auf wissenschaftliches Arbeiten vor. Daher können diese Ihnen bei Ihrer Bachelorarbeit Hilfe in verschiedenen Formen, individuell abgestimmt auf Ihre Bedürfnisse bieten. <p >'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '2.'
+                        beschreibung: "<p align=\"left\">Zu jeder Fragestellung während des Schreibprozesses von Bachelorarbeit stehen unsere akademischen Autoren zur Verfügung. Unser Schreibservice kooperiert mit zertifizierten Professoren und Doktoren zusammen. Diese unterstützen Sie bei der Anwendung Ihrer Forschungsmethode, ob es um eine\_Fallanalyse, ein\_Experteninterview\_oder eine\_Methodenanwendung\_handelt. Rund um alle Bachelorthemen bietet unsere Ghostwriting-Agentur professionelle Unterstützung an."
+              -
+                type: set
+                attrs:
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '3.'
+                        beschreibung: '<p align="left">Im Video erklären wir Ihnen, wie sich der Coaching Service von unserer akademischen Ghostwriting-Agentur für Bachelorarbeiten gestaltet. Dies gilt natürlich auch für alle anderen Arten von wissenschaftlichen Arbeiten. Das Coachen kann sowohl in Form von Textteilen Ergänzung/Überarbeitung als auch Beantwortungen der wissenschaftlichen Fragestellungen während des Schreibprozesses folgen.'
               -
                 type: paragraph
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen hervorragende fachliche Kompetenzen und methodische Erfahrung im Hinblick auf wissenschaftliches Arbeiten vor. Daher können diese Ihnen bei Ihrer Bachelorarbeit Hilfe in verschiedenen Formen, individuell abgestimmt auf Ihre Bedürfnisse bieten. '
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: 'Im Video erklären wir Ihnen, wie sich der Coaching Service von unserer akademischen Ghostwriting-Agentur für Bachelorarbeiten gestaltet. Dies gilt natürlich auch für alle anderen Arten von wissenschaftlichen Arbeiten. Das Coachen kann sowohl in Form von Textteilen Ergänzung/Überarbeitung als auch Beantwortungen der wissenschaftlichen Fragestellungen während des Schreibprozesses folgen.'
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: "Zu jeder Fragestellung während des Schreibprozesses von Bachelorarbeit stehen unsere akademischen Autoren zur Verfügung. Unser Schreibservice kooperiert mit zertifizierten Professoren und Doktoren zusammen. Diese unterstützen Sie bei der Anwendung Ihrer Forschungsmethode, ob es um eine\_"
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /blog/fallstudienanalyse-nach-yin
-                                  target: null
-                                  rel: null
-                            text: Fallanalyse
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: ", ein\_"
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /blog/leitfadengestuetztes-experteninterview
-                                  target: null
-                                  rel: null
-                            text: Experteninterview
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: "\_oder eine\_"
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /blog/swot-analyse-beispiel
-                                  target: null
-                                  rel: null
-                            text: Methodenanwendung
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: "\_handelt. Rund um alle Bachelorthemen bietet unsere Ghostwriting-Agentur professionelle Unterstützung an."
             show_as_card: false
           -
             bard:
@@ -748,11 +652,44 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '34'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
                     type: video
                     video: 'https://youtu.be/BFHgSZP9rCE'
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '28'
+              -
                 type: paragraph
-            show_as_card: false
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Hilfe oder wissenschaftliche Texterstellung benötigen, wenden Sie sich gerne an uns. Über '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unser Kontaktformular'
+                  -
+                    type: text
+                    text: ' erhalten Sie jederzeit eine kostenlose Beratung. Möchten Sie ein Coaching oder eine Mustervorlage für Ihre Bachelorarbeit schreiben lassen? Unsere Kundenberater beraten Sie dazu gerne! '
+            show_as_card: true
         type: row
         enabled: true
     remove_spacing: true
@@ -777,7 +714,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
+                    padding-y: '38'
               -
                 type: paragraph
               -
@@ -799,7 +736,7 @@ replicator:
                         attrs:
                           color: 'rgba(68,68,68,var(--tw-text-opacity))'
                           hex: '#000'
-                    text: "Mustervorlage für Hausarbeit\_schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
+                    text: "Mustervorlage für Bachelorarbeit schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
               -
                 type: set
                 attrs:
@@ -832,7 +769,7 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
                     ausrichtung: bild-text
-                    text: 'Nach der Fertigstellung erhalten Sie die fertige Mustervorlage zu Ihrer Hausarbeit. Vorab wird diese von einem unabhängigen Lektor aus Ihrem Fachbereich korrektur gelesen. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Diese Kontrolle nach unserem bewährten 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Darüber hinaus wird Ihre Hausarbeit mit professioneller Plagiatserkennungssoftware auf Plagiate geprüft.'
+                    text: 'Nach der Fertigstellung erhalten Sie die fertige Mustervorlage zu Ihrer Bachelorarbeit. Vorab wird diese von einem unabhängigen Lektor aus Ihrem Fachbereich korrektur gelesen. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Diese Kontrolle nach unserem bewährten 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Darüber hinaus wird Ihre Hausarbeit mit professioneller Plagiatserkennungssoftware auf Plagiate geprüft.'
               -
                 type: set
                 attrs:
@@ -844,7 +781,7 @@ replicator:
                     text: |-
                       <br>
                       <br>
-                      Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Falls Sie hierzu Änderungswünsche haben, setzen wir diese selbstverständlich kostenfrei um.
+                      Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Bachelorarbeit. Falls Sie hierzu Änderungswünsche haben, setzen wir diese selbstverständlich kostenfrei um.
               -
                 type: paragraph
             show_as_card: false
@@ -986,7 +923,7 @@ replicator:
     enabled: true
   -
     remove_spacing: true
-    is-full: false
+    is-full: true
     bg-toggle: false
     bg-image-fixed: false
     border: false
@@ -995,8 +932,8 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
+        columns_per_row: '2'
+        single-col: false
         grid:
           -
             bard:
@@ -1013,64 +950,78 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wie lässt sich eine erfolgreiche Hausarbeit schreiben?'
+                    text: 'Zum Bachelor'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Eine Hausarbeit wird von Studierenden, im Gegensatz zur Klausur, wie jede akademische Arbeit zu Hause selbständig angefertigt. Es muss eine Argumentation entwickelt werden, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'die allen wissenschaftlichen Standards entspricht'
-                  -
-                    type: text
-                    text: '. Dies soll die Fähigkeiten des Studenten oder der Studentin hinsichtlich der Konzeption und Organisation von wissenschaftlichen Arbeitsprozessen fördern.'
+                    text: 'Der Bachelorabschluss ist der erste akademische Grad, welcher innerhalb der EU und einigen englischsprachigen Ländern erreicht werden kann. Er wird mit der Bachelorarbeit, auch Bachelor Thesis genannt, abgeschlossen. Dabei handelt es sich um eine wissenschaftliche Arbeit, bei der der Student seine fachlichen Kompetenzen unter Beweis stellt.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Es muss eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'wissenschaftliche Forschungsfrage'
-                  -
-                    type: text
-                    text: ' definiert und eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'tief gehende Literaturrecherche'
-                  -
-                    type: text
-                    text: ' durchgeführt werden. Diese Forschungsfrage muss anhand der recherchierten Informationen entsprechend der zuvor erstellten Gliederung beantwortet werden. In einigen Fachbereichen, wie der Medizin, Biologie und Chemie, wird zusätzlich zum schriftlichen Teil oftmals die Durchführung einer Untersuchung oder eines Experiments erwartet. '
+                    text: 'Die Note der Bachelorarbeit beeinflusst die Abschlussnote bis zu 20%. Ein erfolgreich abgeschlossenes Bachelorstudium bildet das Grundlagenstudium und ist die Voraussetzung für den Beginn eines Masterstudiums. Der sichere Einsatz von wissenschaftlichen Methoden ist dabei grundlegend für den Erfolg.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich '
+                    text: 'Bei einigen Studierende hat es sich ergeben, dass sie von einem Ghostwriter ihre Bachelorarbeit schreiben lassen. Durch akademisches Ghostwriting kann der Aufwand für die akademische Arbeit gering halten werden.'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'einige Formatvorgaben als gängig erwiesen'
+                    text: 'Die Ghostwriting-Bachelorarbeit sollte jedoch nur unterstützend sein. Das Werk eines Writers darf man nicht als eigenes ausgeben. Es darf lediglich als Orientierungshilfe dienen.'
+            show_as_card: true
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '27'
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
                   -
                     type: text
-                    text: '. Laut Prüfungsordnung bzw. Hochschulgesetz:'
-            show_as_card: false
+                    text: 'Internationale Unterschiede'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Bologna-Erklärung wurde 1999 von 29 EU-Bildungsministern unterzeichnet. Die Umsetzung des Bologna-Prozesses hat in der Hochschullandschaft weitreichende Auswirkungen gehabt.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'So wurden beispielsweise Diplomstudiengänge, abgeschlossen mit dem Schreiben der Magisterarbeit und Diplomarbeit, weitgehend abgeschafft. Ein zweistufiges System von Hochschulabschlüssen wurde eingeführt. Man spricht heutzutage vom Bachelor-/Masterstudium.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Dessen Abschluss wird erreicht, indem Hochschulen von ihren Studenten eine Seminararbeit/Hausarbeit/Masterarbeit/ Bachelorarbeit schreiben lassen. Das europäische System ist nicht zu vergleichen mit dem in den Vereinigten Staaten von Amerika. Dort ist die Vergabe eines Bachelors auch ohne das Verfassen von wissenschaftlichen Abschlussarbeiten möglich.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Auch Colleges wird die Möglichkeit geboten, dass sie Studenten eine Bachelor Thesis schreiben lassen. Unterscheiden muss man diesen Abschluss aber von denen der Eliteuniversitäten in den USA. Trotz scheinbar gleicher Abschlussbezeichnung steckt ein anderes Bildungsniveau dahinter. Dies führt oft zu Problemen in der Akkreditierung von Studienleistungen.'
+            show_as_card: true
         type: row
         enabled: true
+    bg-color: '#D6D6D6'
   -
     columns-replicator:
       -
@@ -1945,7 +1896,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1639397624
+updated_at: 1639399060
 template: default
 use_meta_keywords: false
 no_index_page: false
