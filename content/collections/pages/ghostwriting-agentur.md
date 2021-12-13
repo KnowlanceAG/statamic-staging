@@ -1,8 +1,7 @@
 ---
 id: 668e0c8c-c639-43af-bab2-39fc23aab070
-published: false
 blueprint: pages
-title: 'Ghostwriting Agentur (Dupliziert)'
+title: 'Ghostwriting Agentur'
 teaser:
   -
     type: heading
@@ -1520,8 +1519,8 @@ replicator:
     type: add_section
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1639404532
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1639420371
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
