@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'studieren in Amerika: Beliebtheit'
+  caption: 'Quelle: Statista, 2016: Die beliebtesten Gastländer internationaler Studenten'
 size: 172604
 last_modified: 1639136790
 width: 898
