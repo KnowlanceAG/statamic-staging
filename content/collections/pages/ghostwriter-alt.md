@@ -1,7 +1,8 @@
 ---
 id: 81a83d40-bdef-4b4f-9ddc-ec55785e6a30
+published: false
 blueprint: pages
-title: Ghostwriter
+title: Ghostwriter-alt
 teaser:
   -
     type: heading
@@ -45,7 +46,7 @@ teaser:
         spacing_top: false
 teaser_bg: seiten/header-so-funktionierts.jpeg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1634632719
+updated_at: 1639420182
 replicator:
   -
     bard:
