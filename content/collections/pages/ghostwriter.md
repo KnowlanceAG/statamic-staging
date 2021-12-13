@@ -1,8 +1,7 @@
 ---
 id: a0a35314-4e42-429e-ae58-9c7bd8fae01c
-published: false
 blueprint: pages
-title: 'Ghostwriter (Dupliziert)'
+title: Ghostwriter
 teaser:
   -
     type: heading
@@ -1695,7 +1694,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638999595
+updated_at: 1639420190
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
