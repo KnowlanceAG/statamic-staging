@@ -66,7 +66,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Hausarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine GHostwriter Hausarbeit als Mustervorlage für Ihre Hausarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
+                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Hausarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Hausarbeit als Mustervorlage für Ihre Hausarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
                       </p>
               -
                 type: set
@@ -263,10 +263,18 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Eine weitere Option bietet das '
+                    text: 'Eine weitere Option bietet das'
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
                       -
                         type: link
                         attrs:
@@ -276,10 +284,18 @@ replicator:
                     text: Lektorat
                   -
                     type: text
-                    text: ' und Korrektorat der Bachelorarbeit, die bereits von dem Studenten fertiggestellt wurde. Anschließend kann eine umfassende '
+                    marks:
+                      -
+                        type: bold
+                    text: ' und Korrektorat'
+                  -
+                    type: text
+                    text: ' der Bachelorarbeit, die bereits von dem Studenten fertiggestellt wurde. Anschließend kann eine umfassende '
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
                       -
                         type: link
                         attrs:
@@ -289,7 +305,22 @@ replicator:
                     text: Plagiatsprüfung
                   -
                     type: text
-                    text: ' erfolgen. Es ist ebenfalls möglich, dass eine Ghostwriterin Bachelorarbeiten, in jedem Abschnitt, die bereits begonnen wurden, überarbeitet. Alternativ können Studenten während des gesamten Ablaufs der Bachelorarbeit ein Coaching anfordern.'
+                    marks:
+                      -
+                        type: bold
+                    text: ' '
+                  -
+                    type: text
+                    text: 'erfolgen. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Es ist ebenfalls möglich, dass eine Ghostwriterin Bachelorarbeiten, in jedem Abschnitt, die bereits begonnen wurden, überarbeitet. '
+                  -
+                    type: text
+                    text: 'Alternativ können Studenten während des gesamten Ablaufs der Bachelorarbeit ein Coaching anfordern.'
             show_as_card: false
         type: row
         enabled: true
@@ -396,7 +427,34 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie Unterstützung durch einen Hausarbeit Ghostwriter benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine unverbindliche Anfrage schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Unterstützung oder akademisches Ghostwriting benötigen, dann senden Sie uns eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot bei Ihnen zurück. Auch rufen wir Sie gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen. Gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben. Diese erfüllt alle akademischen Standards und Anforderungen.'
               -
                 type: set
                 attrs:
@@ -495,67 +553,32 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Akademische Experten schreiben Ihre Hausarbeit'
+                    text: 'Akademische Experten schreiben Ihre Bachelorarbeit'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'GWriters bietet Ihnen einen professionellen Schreibservice durch erfahrene akademische Ghostwriter. Dank ihrer weitreichenden Erfahrung können unsere Experten Sie in jeder Projektphase effektiv beim '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Schreiben Ihrer Hausarbeit unterstützen'
-                  -
-                    type: text
-                    text: .
+                    text: 'Niemand möchte bei ohnehin schon kurzen Bearbeitungszeiten mit der Frage „Wie schreibe ich eine Bachelorarbeit?” wertvolle Bearbeitungszeit verlieren und Zeitdruck bekommen. Daher wenden sich einige Studenten an akademische Freelancer und professionelle wissenschaftliche Ghostwriter. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Bei den Ghostwritern von GWriters handelt es sich um erfahrene Akademiker, die häufig selbst noch als '
+                    text: 'Sie holen sich Hilfe, indem sie die Arbeit von einem akademischen Lektor bzw. Wissenschaftslektor kontrollieren lassen oder bei Bedarf eine Korrekturschleife vornehmen lassen. Und anschließend helfen sie auch mit einem Plagiatscheck, um den Text plagiatsfrei fertigen zu stellen. Auch können Sie vorab eine '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Forscher, Doktoren und Professoren aktiv'
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
                   -
                     type: text
-                    text: ' sind. Sie profitieren daher von deren Fachwissen auf dem neuesten Stand der Forschung. Von diesen können Sie sich nicht nur eine Mustervorlage für Ihre Hausarbeit schreiben lassen, sondern sich auch bei der Themenfindung oder der Entwicklung der Forschungsfrage beraten lassen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Darüber hinaus schützen wir als Ghostwriting Agentur verlässlich Ihre Anonymität während der Erstellung der Mustervorlage für Ihre Hausarbeit. So stehen Sie jederzeit in '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'anonymen Kontakt zu Ihrem Ghostwriter'
-                  -
-                    type: text
-                    text: ' und behalten die volle Kontrolle.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Jede Leistung die Sie von unseren Ghostwritern erhalten, unterliegt der GWriters Qualitätsgarantie. Ob Sie sich durch ein Lektorat, ein Korrektorat oder eine Plagiatsprüfung unterstützen lassen wollen oder eine Mustervorlage für Ihre Hausarbeit kaufen möchten - jede Lieferung wird durch einen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'unabhängigen Supervisor auf Qualität geprüft'
-                  -
-                    type: text
-                    text: .
+                    text: '-Bachelorarbeit als Mustervorlage anfertigen.'
             show_as_card: false
         type: row
         enabled: true
@@ -594,6 +617,17 @@ replicator:
                           hex: '#000'
                     text: 'Warum sollten Sie sich unterstützen lassen?'
               -
+                type: set
+                attrs:
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '1.'
+                        beschreibung: 'Alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen hervorragende fachliche Kompetenzen und methodische Erfahrung im Hinblick auf wissenschaftliches Arbeiten vor. Daher können diese Ihnen bei Ihrer Bachelorarbeit Hilfe in verschiedenen Formen, individuell abgestimmt auf Ihre Bedürfnisse bieten. '
+              -
+                type: paragraph
+              -
                 type: bullet_list
                 content:
                   -
@@ -604,36 +638,109 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Wir lösen Schreibblockaden bei fehlender Unterstützung durch Betreuer & Professoren'
-                  -
-                    type: list_item
-                    content:
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen hervorragende fachliche Kompetenzen und methodische Erfahrung im Hinblick auf wissenschaftliches Arbeiten vor. Daher können diese Ihnen bei Ihrer Bachelorarbeit Hilfe in verschiedenen Formen, individuell abgestimmt auf Ihre Bedürfnisse bieten. '
                       -
                         type: paragraph
                         content:
                           -
                             type: text
-                            text: 'Wir lösen Ihre Zeitprobleme mit Ihrer Hausarbeit während der Klausurphase und bei mehreren Abgaben'
-                  -
-                    type: list_item
-                    content:
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Im Video erklären wir Ihnen, wie sich der Coaching Service von unserer akademischen Ghostwriting-Agentur für Bachelorarbeiten gestaltet. Dies gilt natürlich auch für alle anderen Arten von wissenschaftlichen Arbeiten. Das Coachen kann sowohl in Form von Textteilen Ergänzung/Überarbeitung als auch Beantwortungen der wissenschaftlichen Fragestellungen während des Schreibprozesses folgen.'
                       -
                         type: paragraph
                         content:
                           -
                             type: text
-                            text: 'Mit den relevanten Datenbanken, Quellen und wissenschaftlichen Arbeitsmethoden helfen wir auch  Studienanfängern effektiv'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: "Zu jeder Fragestellung während des Schreibprozesses von Bachelorarbeit stehen unsere akademischen Autoren zur Verfügung. Unser Schreibservice kooperiert mit zertifizierten Professoren und Doktoren zusammen. Diese unterstützen Sie bei der Anwendung Ihrer Forschungsmethode, ob es um eine\_"
                           -
                             type: text
-                            text: 'Akademische Ghostwriter helfen nicht nur  im Schreibprozess, sondern auch bei der Literaturrecherche oder der Forschungsfrage'
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/fallstudienanalyse-nach-yin
+                                  target: null
+                                  rel: null
+                            text: Fallanalyse
                           -
-                            type: hard_break
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: ", ein\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/leitfadengestuetztes-experteninterview
+                                  target: null
+                                  rel: null
+                            text: Experteninterview
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: "\_oder eine\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/swot-analyse-beispiel
+                                  target: null
+                                  rel: null
+                            text: Methodenanwendung
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: "\_handelt. Rund um alle Bachelorthemen bietet unsere Ghostwriting-Agentur professionelle Unterstützung an."
             show_as_card: false
           -
             bard:
@@ -1838,7 +1945,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1639396132
+updated_at: 1639397624
 template: default
 use_meta_keywords: false
 no_index_page: false
