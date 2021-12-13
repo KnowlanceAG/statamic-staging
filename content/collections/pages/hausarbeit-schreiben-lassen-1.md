@@ -13,6 +13,8 @@ teaser:
         type: text
         marks:
           -
+            type: bold
+          -
             type: textAlign
             attrs:
               align: center
@@ -21,7 +23,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Mustervorlage für Hausarbeit schreiben lassen'
+        text: 'Mustervorlage für Bachelorarbeit schreiben lassen'
   -
     type: paragraph
     content:
@@ -34,7 +36,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Hilfe vom akademischen Ghostwriter bei Ihrer Hausarbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Professionelle Hilfe vom akademischen Ghostwriter bei Ihrer Bachelorarbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -64,7 +66,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Hausarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Hausarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine GHostwriter Hausarbeit als Mustervorlage für Ihre Hausarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
+                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Hausarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine GHostwriter Hausarbeit als Mustervorlage für Ihre Hausarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
                       </p>
               -
                 type: set
@@ -189,28 +191,70 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Hausarbeit'
+                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Bachelorarbeit'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Aufgrund der häufig überfordernden Studien- und Privatplanung kommt es regelmäßig dazu, dass sich Studenten eine '
+                    text: 'Ein akademischer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: ' kann durch seine Erfahrungen und fachlichen Kenntnisse Studenten professionell unterstützen. Dies kann direkt zu Beginn der Bearbeitung geschehen. Bei der Themenauswahl, Literaturrecherche, dem Aufbau einer Bachelorarbeit (Einleitung, Hauptteil, Fazit) sowie dessen Gliederung (Kapitel, Unterkapitel) und Exposé.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Zudem ist es möglich, dass Studierende von akademischen Ghostwritern eine '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Mustervorlage für ihre wissenschaftliche Hausarbeit schreiben lassen'
-                  -
-                    type: text
-                    text: '. Oft geschieht es direkt zu Beginn einer Texterstellung, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, der Gliederung oder dem Exposé, dass sich Studenten eine '
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Mustervorlage für ihre Bachelorarbeit schreiben lassen'
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Mustervorlage für Ihre Hausarbeit kaufen'
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Diese Ghostwriter-Bachelorarbeit können diese dann als Vorlage für die eigene akademische Arbeit nutzen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Außerdem kennen akademische Ghostwriter den aktuellen Forschungsstand zu vielen Themenstellungen und haben auf relevanten Datenbanken Zugriff. Sie finden und führen wissenschaftliche Quellen und Daten für Ihre Forschungsfrage zusammen'
                   -
                     type: text
                     text: .
@@ -219,58 +263,33 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Zudem ist es möglich, den Ghostwriter zur '
+                    text: 'Eine weitere Option bietet das '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Betreuung der Hausarbeit einzusetzen'
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: Lektorat
                   -
                     type: text
-                    text: ' und ihn während des gesamten Prozesses unterstützend agieren zu lassen. Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'die Hausarbeit Korrekturlesen zu lassen'
-                  -
-                    type: text
-                    text: '. Neben dem Korrektorat und Lektorat der wissenschaftlichen Arbeit, kann zusätzlich '
+                    text: ' und Korrektorat der Bachelorarbeit, die bereits von dem Studenten fertiggestellt wurde. Anschließend kann eine umfassende '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'eine umfassende Plagiatsprüfung '
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          target: null
+                          rel: null
+                    text: Plagiatsprüfung
                   -
                     type: text
-                    text: 'mit Plagiatssoftware erfolgen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein professionelle Unterstützung durch einen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Hausarbeit Ghostwriter'
-                  -
-                    type: text
-                    text: ' ist zu Studienbeginn besonders ratsam. Zu diesem Zeitpunkt kommt es aufgrund mangelnder Erfahrung zu Flüchtigkeitsfehler beim Schreiben oder im Umgang mit wissenschaftlichen Quellen passieren können. Hier fehlt es oft an '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Hilfestellung bei der Hausarbeit'
-                  -
-                    type: text
-                    text: ' seitens der Betreuer, Professoren und Universitäten.'
+                    text: ' erfolgen. Es ist ebenfalls möglich, dass eine Ghostwriterin Bachelorarbeiten, in jedem Abschnitt, die bereits begonnen wurden, überarbeitet. Alternativ können Studenten während des gesamten Ablaufs der Bachelorarbeit ein Coaching anfordern.'
             show_as_card: false
         type: row
         enabled: true
@@ -1819,7 +1838,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1639395063
+updated_at: 1639396132
 template: default
 use_meta_keywords: false
 no_index_page: false
