@@ -975,11 +975,11 @@ replicator:
                   -
                     type: text
                     text: 'Die Ghostwriting-Bachelorarbeit sollte jedoch nur unterstützend sein. Das Werk eines Writers darf man nicht als eigenes ausgeben. Es darf lediglich als Orientierungshilfe dienen.'
-            show_as_card: true
+            show_as_card: false
         type: row
         enabled: true
     bg-color: '#D6D6D6'
-    bg-image: seiten/arbeiten/bachelorarbeit-schreiben-lassen.jpg
+    bg-image: seiten/arbeiten/162372506_fb-link.jpg
   -
     columns-replicator:
       -
@@ -1854,7 +1854,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1639477728
+updated_at: 1639478025
 template: default
 use_meta_keywords: false
 no_index_page: false
