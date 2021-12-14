@@ -924,7 +924,7 @@ replicator:
   -
     remove_spacing: true
     is-full: true
-    bg-toggle: false
+    bg-toggle: true
     bg-image-fixed: false
     border: false
     type: add_section
@@ -976,52 +976,10 @@ replicator:
                     type: text
                     text: 'Die Ghostwriting-Bachelorarbeit sollte jedoch nur unterstützend sein. Das Werk eines Writers darf man nicht als eigenes ausgeben. Es darf lediglich als Orientierungshilfe dienen.'
             show_as_card: true
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '27'
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Internationale Unterschiede'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die Bologna-Erklärung wurde 1999 von 29 EU-Bildungsministern unterzeichnet. Die Umsetzung des Bologna-Prozesses hat in der Hochschullandschaft weitreichende Auswirkungen gehabt.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'So wurden beispielsweise Diplomstudiengänge, abgeschlossen mit dem Schreiben der Magisterarbeit und Diplomarbeit, weitgehend abgeschafft. Ein zweistufiges System von Hochschulabschlüssen wurde eingeführt. Man spricht heutzutage vom Bachelor-/Masterstudium.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Dessen Abschluss wird erreicht, indem Hochschulen von ihren Studenten eine Seminararbeit/Hausarbeit/Masterarbeit/ Bachelorarbeit schreiben lassen. Das europäische System ist nicht zu vergleichen mit dem in den Vereinigten Staaten von Amerika. Dort ist die Vergabe eines Bachelors auch ohne das Verfassen von wissenschaftlichen Abschlussarbeiten möglich.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Auch Colleges wird die Möglichkeit geboten, dass sie Studenten eine Bachelor Thesis schreiben lassen. Unterscheiden muss man diesen Abschluss aber von denen der Eliteuniversitäten in den USA. Trotz scheinbar gleicher Abschlussbezeichnung steckt ein anderes Bildungsniveau dahinter. Dies führt oft zu Problemen in der Akkreditierung von Studienleistungen.'
-            show_as_card: true
         type: row
         enabled: true
     bg-color: '#D6D6D6'
+    bg-image: seiten/arbeiten/bachelorarbeit-schreiben-lassen.jpg
   -
     columns-replicator:
       -
@@ -1896,7 +1854,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1639399060
+updated_at: 1639477728
 template: default
 use_meta_keywords: false
 no_index_page: false
