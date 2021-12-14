@@ -1466,35 +1466,6 @@ replicator:
     type: add_section
     enabled: true
   -
-    bard:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-            text: 'Einige unserer Blogartikel zum Thema Ghostwriter'
-      -
-        type: set
-        attrs:
-          values:
-            type: blog_entries
-            entries:
-              - 4148325d-d0d4-4055-9104-c4cb39f5a282
-              - 286294bc-3927-4a37-b1e0-defe39884464
-              - a2cde5ef-6e62-42fc-a5dc-ea0e899eb3da
-      -
-        type: paragraph
-    show_as_card: false
-    type: editor
-    enabled: true
-  -
     columns-replicator:
       -
         responsive_columns: 1
@@ -1559,10 +1530,10 @@ replicator:
     bg-image-fixed: false
     border: false
     type: add_section
-    enabled: false
+    enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1639498235
+updated_at: 1639498270
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
