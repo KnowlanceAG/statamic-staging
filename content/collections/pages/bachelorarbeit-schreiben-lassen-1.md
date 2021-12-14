@@ -981,7 +981,7 @@ replicator:
                   -
                     type: text
                     text: 'Es darf lediglich als Orientierungshilfe dienen.'
-            show_as_card: false
+            show_as_card: true
         type: row
         enabled: true
     bg-color: '#D6D6D6'
@@ -2289,7 +2289,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1639495788
+updated_at: 1639495876
 template: default
 use_meta_keywords: false
 no_index_page: false
