@@ -55,38 +55,24 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: "Bei GWriters erhalten Sie kompetente Unterstützung für wissenschaftliche Leistungen in jedem Fachgebiet. Bei unserer Ghostwriting Agentur finden Sie exakt den\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'akademischen Ghostwriter für Ihre Aufgabenstellungen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: ', der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und bei einem professionellen Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Doktoren und Professoren arbeitet.'
+                type: set
+                attrs:
+                  values:
+                    type: insert_html
+                    html: |-
+                      <p style="font-size:18px" align="center">
+                      Bei GWriters erhalten Sie kompetente Unterstützung für wissenschaftliche Leistungen in jedem Fachgebiet. Bei unserer Ghostwriting Agentur finden Sie exakt den <b>akademischen Ghostwriter für Ihre Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und bei einem professionellen Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Doktoren und Professoren arbeitet.
+                      </p>
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -195,33 +181,44 @@ replicator:
           -
             bard:
               -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter - durch GWriters neu definiert'
+              -
                 type: paragraph
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textAlign
                         attrs:
-                          align: center
-                    text: 'Ein Ghostwriter'
+                          align: left
+                    text: 'Ein Ghostwriter '
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
-                    text: ' ist nicht etwa ein '
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
+                          hex: '#000'
+                    text: 'ist nicht etwa ein '
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -235,7 +232,12 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
+                          hex: '#000'
                     text: ' oder Korrektor. Der „Geist“ kontrolliert oder überarbeitet in der Regel keine Arbeiten, sondern verfasst selbstständig ein Werk nach den individuellen Vorgaben einer anderen Person - dessen Rechte er an den Käufer abtritt. Mit der Abgabe aller Nutzungsrechte taucht der Ghostwriter dann nicht mehr als Autor auf und ist für den Leser somit als Verfasser unsichtbar. Er ist ein Geist – ein Ghostwriter.'
             show_as_card: false
         type: row
@@ -262,16 +264,6 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '20'
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
                     type: example_work
                     ex_img_right: false
                     ex_image: seiten/beispielarbeiten-1.JPG
@@ -281,7 +273,7 @@ replicator:
                     ex_type: Hausarbeit
                     ex_zitation: 'Harvard Style'
                     ex_button_link: 'entry::21ef3416-f1fd-43eb-8e38-ec597763c45f'
-                    ex_button_text: 'JETZT RUNTERLADEN'
+                    ex_button_text: Weiterlesen
                     ex_button_align: justify-center
                     ex_spacing_top: true
                     ex_pages: '10'
@@ -295,9 +287,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '54'
-              -
-                type: paragraph
+                    padding-y: '20'
               -
                 type: heading
                 attrs:
@@ -374,6 +364,12 @@ replicator:
         grid:
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -453,7 +449,10 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere anonymen Autoren bieten zu vielen wissenschaftlichen Themenbereichen professionelle Unterstützung an: bei der Textüberarbeitung, Formulierung von Texten, Literaturrecherche, Themenfindung, Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederung sein. Diese Unterstützung kann neben der Erstellung von Mustervorlagen auch durch Coaching sowie Beratung erfolgen. Wir finden für Sie rund um das Thema „wissenschaftliches Arbeiten“ für jede Aufgabenstellung passende Fachautoren als Hilfestellung, wenn Sie eine Mustervorlage für Ihre '
+                    text: 'Unsere anonymen Autoren bieten zu vielen wissenschaftlichen Themenbereichen professionelle Unterstützung an: bei der Textüberarbeitung, Formulierung von Texten, Literaturrecherche, Themenfindung, Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederung sein. Diese Unterstützung kann neben der Erstellung von Mustervorlagen auch durch Coaching sowie Beratung erfolgen.'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
                     marks:
@@ -462,22 +461,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Hausarbeit
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', '
+                    text: 'Wir finden für Sie rund um das Thema „wissenschaftliches Arbeiten“ für jede Aufgabenstellung passende Fachautoren als Hilfestellung, wenn Sie eine Mustervorlage für Ihre Hausarbeit, '
                   -
                     type: text
                     marks:
@@ -501,31 +485,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Bachelorarbeit
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' und '
+                    text: ', Bachelorarbeit und '
                   -
                     type: text
                     marks:
@@ -540,7 +500,7 @@ replicator:
                           href: /arbeiten/masterarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: Masterarbeit
+                    text: 'Masterarbeit schreiben lassen'
                   -
                     type: text
                     marks:
@@ -549,7 +509,13 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' schreiben lassen möchten.'
+                    text: ' möchten.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
             show_as_card: false
         type: row
         enabled: true
@@ -609,13 +575,13 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
+                    padding-y: '1'
             show_as_card: false
         type: row
         enabled: true
@@ -643,8 +609,6 @@ replicator:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo.-Fr. 9:00-18:00'
-              -
-                type: paragraph
             show_as_card: true
           -
             bard:
@@ -680,7 +644,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: '3'
               -
                 type: paragraph
             show_as_card: true
@@ -716,20 +680,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Beim akademischen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    text: ' handelt es sich um das Verfassen von Mustervorlagen für wissenschaftliche Texte nach individuellen Vorgaben der Kunden. Dabei kann es sich um die Vorlage für eine Hausarbeit, Seminararbeit, Masterarbeit oder Dissertation handeln., auch kommt es häufig dazu, dass sich Studenten Mustervorlagen für die eigene '
+                    text: 'Beim akademischen Ghostwriting handelt es sich um das Verfassen von Mustervorlagen für wissenschaftliche Texte nach individuellen Vorgaben der Kunden. Dabei kann es sich um die Vorlage für eine Hausarbeit, Seminararbeit, Masterarbeit oder Dissertation handeln. Auch kommt es häufig dazu, dass sich Studenten Mustervorlagen für die eigene '
                   -
                     type: text
                     marks:
@@ -748,94 +699,19 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unter akademischem Ghostwriting versteht man weiterhin die Erstellung von wissenschaftlichen Grundlagentexten für ein fokussiertes Forschungsgebiet, Übernahme und Dokumentation der Literaturrecherche zu einem bestimmten Thema oder auch dem Verfassen von Fachartikeln. Weiterhin beauftragen teilweise auch große Unternehmen akademische Ghostwriter mit der Erstellung von wissenschaftlich fundierten Texten für geschäftliche Zwecke.'
+                    text: 'Unter akademischem Ghostwriting versteht man weiterhin die Erstellung von wissenschaftlichen Grundlagentexten für ein fokussiertes Forschungsgebiet, Übernahme und Dokumentation der Literaturrecherche zu einem bestimmten Thema oder auch dem Verfassen von Fachartikeln.'
               -
-                type: blockquote
+                type: paragraph
                 content:
                   -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Das Professionelle Leistungspacket von Ghostwriter, die nach Kundenanforderungen Mustervorlagen für geschäftliche und akademischen Zwecken verfassen, beinhaltet weitere Leistungsbereiche, wie das '
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                          -
-                            type: link
-                            attrs:
-                              href: /korrektorat
-                              target: null
-                              rel: null
-                        text: Korrektorat
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: ', '
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                          -
-                            type: link
-                            attrs:
-                              href: /lektorat
-                              target: null
-                              rel: null
-                        text: Lektorat
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: ' und '
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                          -
-                            type: link
-                            attrs:
-                              href: /leistungen/plagiatspruefung
-                              target: null
-                              rel: null
-                        text: Plagiatsprüfung
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: '. Ebenfalls ist es möglich diese Optionen zum Beispiel Lektoratsservice oder Korrektorat in jedem Abschnitt in Anspruch zu nehmen.'
+                    type: text
+                    text: 'Weiterhin beauftragen teilweise auch etablierte Unternehmen akademische Ghostwriter mit der Erstellung von wissenschaftlich fundierten Texten für geschäftliche Zwecke.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -897,7 +773,20 @@ replicator:
                     type: spacer
                     padding-y: '14'
               -
-                type: paragraph
+                type: blockquote
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: 'Das professionelle Leistungspaket von Ghostwritern, die nach Kundenanforderungen Mustervorlagen für geschäftliche und akademischen Zwecken verfassen, beinhaltet weitere Leistungsbereiche, wie das Korrektorat, Lektorat und Plagiatsprüfung. '
               -
                 type: paragraph
                 content:
@@ -909,11 +798,35 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Die Korrekturen in der Arbeit dienen dazu, um grammatikalische und syntaktische Fehler zu vermeiden sowie korrekte und wissenschaftliche Sätze zu formulieren. Schließlich wird die Musterarbeit von einem Fachautoren im Leistungsbereich Lektorat und Korrektorat überprüft. Nach den Korrekturen kann eine umfassende Plagiatsprüfung erfolgen. Besonders Studenten entscheiden sich für diese kompakten Leistungen, um eine Musterarbeit vollständig für ihre Hausarbeit, Seminararbeit, Bachelorarbeit oder Masterarbeit schreiben lassen zu können.'
+                    text: 'Die Korrekturen in der Arbeit dienen dazu, um grammatikalische und syntaktische Fehler zu vermeiden sowie korrekte und wissenschaftliche Sätze zu formulieren. Schließlich wird die Musterarbeit von einem Fachautoren im Leistungsbereich Lektorat und Korrektorat überprüft.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Nach den Korrekturen kann eine umfassende Plagiatsprüfung erfolgen. Besonders Studenten entscheiden sich für diese kompakten Leistungen, um eine Musterarbeit vollständig für ihre Hausarbeit, Seminararbeit, Bachelorarbeit oder Masterarbeit schreiben lassen zu können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Akademische Ghostwriter oder Ghostwriterinnen schreiben nicht nur wissenschaftliche Musterarbeiten, einen Ghostwriter kann man auch für das Zeichnen beauftragen, genauer gesagt für das Erstellen technischer Zeichnungen. Besonders im Architekturstudium oder Ingenieursstudium möchten Studierende Musterzeichnungen für ihre Abgaben erstellen lassen.'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
@@ -949,7 +862,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Ein häufiges Problem im heutigen Ghostwriting Markt ist es, einen professionellen und seriösen Ghostwriter finden zu können, ohne dabei an einen sogenannten Hobbyschreiber oder gar eine zwielichtige Agentur zu geraten, bei der man im schlimmsten Fall ein Plagiat oder eine aus einer anderen Sprache übersetzte Arbeit erhält. Um Sie und unsere Kunden zu schützen und zu informieren, haben wir hier einmal die wichtigsten Informationen zusammengestellt, damit Sie auch für Ihr Projekt garantiert einen seriösen Ghostwriter finden. '
+                    text: 'Ein häufiges Problem im heutigen Ghostwriting Markt ist es, einen professionellen und seriösen Ghostwriter finden zu können, ohne dabei an einen sogenannten Hobbyschreiber oder gar eine zwielichtige Agentur zu geraten. Denn im schlimmsten Fall erhält man dabei ein Plagiat oder eine aus einer anderen Sprache übersetzte Arbeit.'
               -
                 type: paragraph
                 content:
@@ -985,7 +898,7 @@ replicator:
     border: false
     type: add_section
     enabled: true
-    bg-color: '#D6D6D6'
+    bg-color: '#F2F2F2'
   -
     columns-replicator:
       -
@@ -995,6 +908,14 @@ replicator:
         grid:
           -
             bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Zusammenarbeit von Ghostwritern & Agenturen'
               -
                 type: paragraph
                 content:
@@ -1043,18 +964,6 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: '. Für inhaltliche Korrekturen einer Musterarbeit, beauftragt eine akademische Dienstleistung einen unabhängigen professionellen Lektor.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Akademische Ghostwriter oder Ghostwriterinnen schreiben nicht nur wissenschaftliche Musterarbeiten, einen Ghostwriter kann man auch für das Zeichnen beauftragen, genauer gesagt für das Erstellen technischer Zeichnungen. Besonders im Architekturstudium oder Ingenieursstudium möchten Studierende Musterzeichnungen für ihre Abgaben erstellen lassen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1148,19 +1057,6 @@ replicator:
                               -
                                 type: text
                                 text: ghostwriter-vergleich.de
-              -
-                type: set
-                attrs:
-                  enabled: false
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
             show_as_card: true
           -
             bard:
@@ -1169,38 +1065,19 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '16'
-              -
-                type: paragraph
+                    padding-y: '15'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Oft lassen sich solche Portale daran erkennen, dass nur eine einzige Ghostwriter Agentur bzw. die verschiedenen Portale einer Agentur empfohlen werden. Besonders auffällig ist dies bspw. auf ghostwritingerfahrungen.com, wo die drei Portale einer osteuropäischen Agentur bereits auf der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /
-                          target: null
-                          rel: null
-                    text: 'Startseite '
-                  -
-                    type: text
-                    text: 'verlinkt werden. Oft können Sie Ghostwriter Vergleiche auch auf einfache Weise selbst testen: Können Sie selbst Ghostwriter Bewertungen hinzufügen? Falls dies nicht funktionieren sollte, können Sie davon ausgehen, dass auch die anderen Ghostwriter Bewertungen nur vom Seitenbetreiber selbst hinzugefügt worden sind. Von solchen gefälschten Vergleichsportalen und den dort beworbenen Ghostwriter Agenturen sollten Sie sich unbedingt fern halten.'
-              -
-                type: paragraph
+                    text: 'Oft lassen sich solche Portale daran erkennen, dass nur eine einzige Ghostwriter Agentur bzw. die verschiedenen Portale einer Agentur empfohlen werden. Besonders auffällig ist dies bspw. auf ghostwritingerfahrungen.com, wo die drei Portale einer osteuropäischen Agentur bereits auf der Startseite verlinkt werden. Oft können Sie Ghostwriter Vergleiche auch auf einfache Weise selbst testen: Können Sie selbst Ghostwriter Bewertungen hinzufügen? Falls dies nicht funktionieren sollte, können Sie davon ausgehen, dass auch die anderen Ghostwriter Bewertungen nur vom Seitenbetreiber selbst hinzugefügt worden sind. Von solchen gefälschten Vergleichsportalen und den dort beworbenen Ghostwriter Agenturen sollten Sie sich unbedingt fern halten.'
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '13'
-              -
-                type: paragraph
+                    padding-y: '15'
             show_as_card: true
         type: row
         enabled: true
@@ -1225,196 +1102,168 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: accordion-custom-wrapper
-                    items:
-                      -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Webseite der Ghostwriter Agentur '
-                          -
-                            type: paragraph
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Auch die Webseite eines Ghostwriters oder einer Ghostwriting Agentur stellt ein wichtiges Kriterium für dessen Seriosität dar. Erhalten Sie genügend Hintergrundinformationen über den Ghostwriter oder die Ghostwriter Agentur? Enthält die Webseite ein ordentliches '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /impressum
-                                      target: null
-                                      rel: null
-                                text: Impressum
-                              -
-                                type: text
-                                text: ' und eine DSGVO-konforme '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /datenschutzerklaerung
-                                      target: null
-                                      rel: null
-                                text: Datenschutzerklärung
-                              -
-                                type: text
-                                text: '? All dies sind Fragen, die Sie sich unbedingt stellen sollten, wenn Sie eine einen seriösen Ghostwriter finden möchten.'
-                        active: true
-                      -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Verhalten der Ghostwriter Agentur'
-                          -
-                            type: paragraph
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Nicht zuletzt gibt natürlich auch das Verhalten einer Agentur oder eines Ghostwriters im direkten Kontakt einen wichtigen Anhaltspunkt bzgl. der Seriosität. Beispielsweise ist es essentiell, dass man Sie von Beginn an beteiligt, wenn von der Agentur für Ihr Projekt ein Ghostwriter gesucht wird. Des Weiteren gehört zu einem seriösen Ghostwriting Service auch immer eine'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: ' initiale Telefonkonferenz'
-                              -
-                                type: text
-                                text: ', bei der ein Vertrauensverhältnis zwischen Kunde und Ghostwriter geschaffen wird und ein gemeinsamer Fahrplan für das Projekt abgestimmt und festgelegt wird.'
-                        active: true
-                      -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                  -
-                                    type: textAlign
-                                    attrs:
-                                      align: start
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Ghostwriter schreiben individuelle Unikate'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Seriöse Ghostwriter und Agenturen verkaufen keine fertigen Arbeiten "aus der Schublade". Kunden, die eine fertige '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /arbeiten/hausarbeit-schreiben-lassen
-                                      target: null
-                                      rel: null
-                                text: 'Hausarbeit kaufen'
-                              -
-                                type: text
-                                text: ' möchten oder die erfolgreiche Arbeit eines Kommilitonen umschreiben lassen wollen, müssen wir leider ablehnen. Dies genügt nicht unseren eigenen '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /faq/qualitaet-ghostwriter
-                                      target: _blank
-                                      rel: 'noopener noreferrer'
-                                text: Ghostwriting-Qualitätsansprüchen
-                              -
-                                type: text
-                                text: .
-                        active: true
-                      -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Nur legale Ghostwriting-Services'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Ist '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /blog/plagiate-ghostwriting-legal
-                                      target: null
-                                      rel: null
-                                text: 'Ghostwriting legal'
-                              -
-                                type: text
-                                text: '? Ja! Anders steht es aber um das Schreiben von Klausuren für Kunden und den Handel mit Titeln von dubiosen Universitäten. Solche illegalen Dienstleistung würde Ihnen eine seriöse Ghostwriting Agentur niemals anbieten. GWriters handelt stets legal, auch zu Ihrem Schutz!'
-                        active: true
-                      -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Hinter welchen Kulissen verbergen sich Ghostwriter?'
-                          -
-                            type: paragraph
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Ghostwriter schreiben nicht nur hochwissenschaftliche Artikel, welche nur von wenigen Menschen gelesen werden. Vielmehr findet man ihre Ergebnisse in vielen Bereichen, welche uns im täglichen Leben begegnen. So existieren neben Werken á la zu Guttenberg auch von „Geisterhand“ geschriebene Reden, Songtexte, Autobiografien, Bücher und sogar Drehbücher von bekannten Filmen.'
-                        active: true
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Webseite der Ghostwriter Agentur '
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Auch die Webseite eines Ghostwriters oder einer Ghostwriting Agentur stellt ein wichtiges Kriterium für dessen Seriosität dar. Erhalten Sie genügend Hintergrundinformationen über den Ghostwriter oder die Ghostwriter Agentur? Enthält die Webseite ein ordentliches '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /impressum
+                          target: null
+                          rel: null
+                    text: Impressum
+                  -
+                    type: text
+                    text: ' und eine DSGVO-konforme '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /datenschutzerklaerung
+                          target: null
+                          rel: null
+                    text: Datenschutzerklärung
+                  -
+                    type: text
+                    text: '? All dies sind Fragen, die Sie sich unbedingt stellen sollten, wenn Sie eine einen seriösen Ghostwriter finden möchten.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Verhalten der Mitarbeiter & Ghostwriter'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Nicht zuletzt gibt natürlich auch das Verhalten einer Agentur oder eines Ghostwriters im direkten Kontakt einen wichtigen Anhaltspunkt bzgl. der Seriosität. Beispielsweise ist es essentiell, dass man Sie von Beginn an beteiligt, wenn von der Agentur für Ihr Projekt ein Ghostwriter gesucht wird. Des Weiteren gehört zu einem seriösen Ghostwriting Service auch immer eine'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' initiale Telefonkonferenz'
+                  -
+                    type: text
+                    text: ', bei der ein Vertrauensverhältnis zwischen Kunde und Ghostwriter geschaffen wird und ein gemeinsamer Fahrplan für das Projekt abgestimmt und festgelegt wird.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Ghostwriter schreiben individuelle Unikate'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Seriöse Ghostwriter und Agenturen verkaufen keine fertigen Arbeiten "aus der Schublade". Kunden, die eine fertige '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Hausarbeit kaufen'
+                  -
+                    type: text
+                    text: ' möchten oder die erfolgreiche Arbeit eines Kommilitonen umschreiben lassen wollen, müssen wir leider ablehnen. Dies genügt nicht unseren eigenen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /faq/qualitaet-ghostwriter
+                          target: _blank
+                          rel: 'noopener noreferrer'
+                    text: Ghostwriting-Qualitätsansprüchen
+                  -
+                    type: text
+                    text: .
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Nur legale Ghostwriting-Services'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ist '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/plagiate-ghostwriting-legal
+                          target: null
+                          rel: null
+                    text: 'Ghostwriting legal'
+                  -
+                    type: text
+                    text: '? Ja! Anders steht es aber um das Schreiben von Klausuren für Kunden und den Handel mit Titeln von dubiosen Universitäten. Solche illegalen Dienstleistung würde Ihnen eine seriöse Ghostwriting Agentur niemals anbieten. GWriters handelt stets legal, auch zu Ihrem Schutz!'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Hinter welchen Kulissen verbergen sich Ghostwriter?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter schreiben nicht nur hochwissenschaftliche Artikel, welche nur von wenigen Menschen gelesen werden. Vielmehr findet man ihre Ergebnisse in vielen Bereichen, welche uns im täglichen Leben begegnen. So existieren neben Werken á la zu Guttenberg auch von „Geisterhand“ geschriebene Reden, Songtexte, Autobiografien, Bücher und sogar Drehbücher von bekannten Filmen.'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -1502,11 +1351,11 @@ replicator:
                           - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
               -
                 type: paragraph
-            show_as_card: true
+            show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
-    is-full: true
+    remove_spacing: true
+    is-full: false
     bg-toggle: true
     bg-color: '#D6D6D6'
     bg-image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
@@ -1536,62 +1385,25 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriter haben die verschiedensten Motive. In der Regel sind sie freiberuflich tätig und werden überdurchschnittlich gut für ihre Arbeit entlohnt. Daraus ergibt sich ein Beruf mit genügend finanzieller Freiheit und flexibler Zeiteinteilung. Des Weiteren werden viele Ghostwriter von der Leidenschaft zum Schreiben angetrieben. Bei Drehbüchern oder Büchern stellt sich im ersten Moment zwar die Frage, warum diese Leute ihr Werk nicht selbst veröffentlichen, wenn es qualitativ einwandfrei verfasst ist. Beantworten lässt sich diese Frage allerdings schnell: In der Regel fehlt der Bekanntheitsgrad oder die Liquidität, um eine Veröffentlichung inklusive Marketing in einem effektiven Umfang umzusetzen.'
+                    text: 'Ghostwriter haben die verschiedensten Motive. In der Regel sind sie freiberuflich tätig und werden überdurchschnittlich gut für ihre Arbeit entlohnt. Daraus ergibt sich ein Beruf mit genügend finanzieller Freiheit und flexibler Zeiteinteilung. Des Weiteren werden viele Ghostwriter von der Leidenschaft zum Schreiben angetrieben.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Mit der wachsenden Bedeutung von Studienabschlüssen und Titeln für die Karrierechancen im Beruf wächst auch der Markt für akademische Ghostwriter stetig weiter. Doch nicht nur die Nachfrage ist hoch: Wissenschaftliche Autoren werden häufig verhältnismäßig schlecht bezahlt. Viele dieser Menschen entschließen sich von daher zu einer zusätzlichen Nebentätigkeit. Das akademische Ghostwriting liegt hier nahe, da sich diese Personen tagtäglich mit der Forschung und dem wissenschaftlichem Arbeiten auseinandersetzen.'
+                    text: 'Bei Drehbüchern oder Büchern stellt sich im ersten Moment zwar die Frage, warum diese Leute ihr Werk nicht selbst veröffentlichen, wenn es qualitativ einwandfrei verfasst ist. Beantworten lässt sich diese Frage allerdings schnell: In der Regel fehlt der Bekanntheitsgrad oder die Liquidität, um eine Veröffentlichung inklusive Marketing in einem effektiven Umfang umzusetzen.'
               -
                 type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '100'
+                content:
+                  -
+                    type: text
+                    text: 'Mit der wachsenden Bedeutung von Studienabschlüssen und Titeln für die Karrierechancen im Beruf wächst auch der Markt für akademische Ghostwriter stetig weiter. Doch nicht nur die Nachfrage ist hoch: Wissenschaftliche Autoren werden häufig verhältnismäßig schlecht bezahlt. Viele dieser Menschen entschließen sich von daher zu einer zusätzlichen Nebentätigkeit.'
               -
                 type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: true
-    bg-image: seiten/ghostwriting-agentur/anonymitat.jpg
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
+                content:
+                  -
+                    type: text
+                    text: 'Das akademische Ghostwriting liegt hier nahe, da sich diese Personen tagtäglich mit der Forschung und dem wissenschaftlichem Arbeiten auseinandersetzen.'
               -
                 type: heading
                 attrs:
@@ -1605,20 +1417,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Grundsätzlich kommt es in den seltensten Fällen vor, dass Ghostwriter als solche auch in der Öffentlichkeit gezeigt werden. Gerade akademische Ghostwriter verpflichten sich zu Stillschweigen und werden bei der Zusammenarbeit mit einer entsprechenden Agentur niemals (anders als beispielsweise bei Autobiographien) einen persönlichen Kontakt zum Auftraggeber haben. Die Anonymität steht an oberster Stelle um nicht zuletzt gerade den Auftraggeber zu schützen. Dem Kunden wird bei Vorlagen für '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Masterarbeiten
-                  -
-                    type: text
-                    text: ' dringend davon abgeraten, den Text zu übernehmen, sondern diesen tatsächlich nur als Vorlage zur Bearbeitung zu sehen.'
+                    text: 'Grundsätzlich kommt es in den seltensten Fällen vor, dass Ghostwriter als solche auch in der Öffentlichkeit gezeigt werden. Gerade akademische Ghostwriter verpflichten sich zu Stillschweigen und werden bei der Zusammenarbeit mit einer entsprechenden Agentur niemals (anders als beispielsweise bei Autobiographien) einen persönlichen Kontakt zum Auftraggeber haben. Die Anonymität steht an oberster Stelle um nicht zuletzt gerade den Auftraggeber zu schützen. Dem Kunden wird bei Vorlagen für Masterarbeiten dringend davon abgeraten, den Text zu übernehmen, sondern diesen tatsächlich nur als Vorlage zur Bearbeitung zu sehen.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -1639,7 +1444,7 @@ replicator:
                   -
                     type: heading
                     attrs:
-                      level: 3
+                      level: 2
                     content:
                       -
                         type: text
@@ -1650,6 +1455,25 @@ replicator:
                       -
                         type: text
                         text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
               -
                 type: heading
                 attrs:
@@ -1657,7 +1481,12 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Blogartikel über Ghostwriter'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Einige unserer Blogartikel zum Thema Ghostwriter'
               -
                 type: set
                 attrs:
@@ -1668,6 +1497,12 @@ replicator:
                       - 286294bc-3927-4a37-b1e0-defe39884464
                       - a2cde5ef-6e62-42fc-a5dc-ea0e899eb3da
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '40'
+              -
                 type: paragraph
                 content:
                   -
@@ -1675,6 +1510,10 @@ replicator:
                     marks:
                       -
                         type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                       -
                         type: link
                         attrs:
@@ -1685,7 +1524,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-image-fixed: false
@@ -1693,8 +1532,8 @@ replicator:
     type: add_section
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1639420190
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1639493878
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
