@@ -331,175 +331,6 @@ replicator:
           -
             bard:
               -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Ablauf: Zusammenarbeit mit Ghostwriter'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Während der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /so-funktioniert-es
-                          target: null
-                          rel: null
-                    text: 'Zusammenarbeit mit Ghostwritern'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' stellen unsere Projektmanager die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Anonymität des Auftraggebers und gleichzeitig auch die Anonymität des Autors sicher'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ".\_Zu jedem Problemfeld werden einzelne Teillieferungen bzw. Termine vereinbart. \_Diese Teillieferungen dienen dazu, den Auftraggeber über den aktuellen Stand der Arbeit zu informieren und Ihre "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Feedbacks kostenlos umzusetzen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: '. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'So können für den Zeitraum der Auftragsausführung geltende Anforderungen genannt werden bezüglich der wissenschaftlichen Abschlussarbeit. In dieser Revisionszeit werden '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'je nach Komplexität und Umfang des Themas bzw. der Aufgabenstellung auch mehrere '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /experten
-                          target: null
-                          rel: null
-                    text: 'ausgebildete Fachautoren'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' für die Arbeit eingesetzt.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Anschließend kann der Text auf Plagiate geprüft werden, um mögliche Risiken zu umgehen, die aufgrund von Schwierigkeiten oder Flüchtigkeitsfehlern im Umgang mit Literatur entstehen könnten. Einen Ghostwriter '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'eine Mustervorlage für seine Masterarbeit schreiben lassen'
-                  -
-                    type: text
-                    text: ', bietet für einige Masterstudenten auch eine Option. Diese Ghostwriter-Masterthesis kann als Orientierung bei der Erstellung der eigenen Arbeit genutzt werden.'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
                 type: set
                 attrs:
                   values:
@@ -521,7 +352,25 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie Unterstützung durch einen Hausarbeit Ghostwriter benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine unverbindliche Anfrage schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+                    text: 'Wenn Sie bei Ihrer Masterarbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage schicken'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '. Unsere Schreibagentur melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
               -
                 type: set
                 attrs:
@@ -620,67 +469,111 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Akademische Experten schreiben Ihre Hausarbeit'
+                    text: 'Ghostwriter Masterarbeit: Warum sollte man sich helfen lassen?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'GWriters bietet Ihnen einen professionellen Schreibservice durch erfahrene akademische Ghostwriter. Dank ihrer weitreichenden Erfahrung können unsere Experten Sie in jeder Projektphase effektiv beim '
-                  -
-                    type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Schreiben Ihrer Hausarbeit unterstützen'
-                  -
-                    type: text
-                    text: .
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die Masterarbeit ist die letzte anzufertigende Examensarbeit im Bachelor-/Masterstudium und stellt damit den Türöffner in die Berufswelt dar. Studenten streben danach, in Betrieben unterzukommen und müssen versuchen, in der Berufswelt Fuß zu fassen. Die Rückzahlung des BAföG steht an, viele wollen eine Familie gründen und sich endgültig von den Eltern lösen. Das ist ohne Anstellung in einem Beruf nicht zu bewältigen. Das führt dazu, dass man sich selbst unter Druck setzt, Fehler macht, die Hürde der Masterthesis schnell und ohne Probleme zu überwinden.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Bei den Ghostwritern von GWriters handelt es sich um erfahrene Akademiker, die häufig selbst noch als '
+                    text: 'Dabei greifen Studenten oft auf die Hilfe von akademischen Freelancern und Ghostwritern zurück, die tiefgründige Kenntnisse in dem geforderten Fachbereich aufweisen und bereits Erfahrung mit wissenschaftlichen Arbeiten haben. Sie entlasten den Studenten durch Ghostwriting, Coaching bei der Strukturierung und übernehmen die '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Forscher, Doktoren und Professoren aktiv'
+                        type: link
+                        attrs:
+                          href: /korrektorat/textkorrektur
+                          target: null
+                          rel: null
+                    text: Textkorrektur
                   -
                     type: text
-                    text: ' sind. Sie profitieren daher von deren Fachwissen auf dem neuesten Stand der Forschung. Von diesen können Sie sich nicht nur eine Mustervorlage für Ihre Hausarbeit schreiben lassen, sondern sich auch bei der Themenfindung oder der Entwicklung der Forschungsfrage beraten lassen.'
+                    text: ', das Lektorat sowie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          target: null
+                          rel: null
+                    text: 'Überprüfung auf Plagiate'
+                  -
+                    type: text
+                    text: '. Durch diese Dienstleistung kann sich der Student auf die wesentlichen Dinge in seinem Leben konzentrieren, statt lange Zeit vor der Fragestellung zu stehen ,,Wie schreibe ich eine Masterarbeit?“. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Darüber hinaus schützen wir als Ghostwriting Agentur verlässlich Ihre Anonymität während der Erstellung der Mustervorlage für Ihre Hausarbeit. So stehen Sie jederzeit in '
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'In unserer akademischen Agentur arbeiten Ghostwriter mit wissenschaftlichen methodischen Ansätzen. Sowohl in der Theorie als auch in der Praxis haben sie viele Jahre Erfahrung. Sie wissen wie z.B. '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'anonymen Kontakt zu Ihrem Ghostwriter'
-                  -
-                    type: text
-                    text: ' und behalten die volle Kontrolle.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Jede Leistung die Sie von unseren Ghostwritern erhalten, unterliegt der GWriters Qualitätsgarantie. Ob Sie sich durch ein Lektorat, ein Korrektorat oder eine Plagiatsprüfung unterstützen lassen wollen oder eine Mustervorlage für Ihre Hausarbeit kaufen möchten - jede Lieferung wird durch einen '
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/leitfadengestuetztes-experteninterview
+                          target: null
+                          rel: null
+                    text: Experten-Befragungen
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'unabhängigen Supervisor auf Qualität geprüft'
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' oder '
                   -
                     type: text
-                    text: .
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/fragebogen-vorlage
+                          target: null
+                          rel: null
+                    text: Studienumfragen
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' erstellt werden. In jedem Gebiet, wo bei Ihnen selbst keine ausreichenden Kenntnisse vorliegen, können unsere Doktoren und Experten Sie unterstützen. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn.'
             show_as_card: false
         type: row
         enabled: true
@@ -738,7 +631,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Wir lösen Ihre Zeitprobleme mit Ihrer Hausarbeit während der Klausurphase und bei mehreren Abgaben'
+                            text: 'Wir lösen Ihre Zeitprobleme mit Ihrer Masterarbeit während der Klausurphase und bei mehreren Abgaben'
                   -
                     type: list_item
                     content:
@@ -797,7 +690,102 @@ replicator:
                     type: spacer
                     padding-y: '30'
               -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Ablauf: Zusammenarbeit mit Ghostwriter'
+              -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Zu jedem Problemfeld werden einzelne Teillieferungen bzw. Termine vereinbart. \_Diese Teillieferungen dienen dazu, den Auftraggeber über den aktuellen Stand der Arbeit zu informieren und Ihre "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Feedbacks kostenlos umzusetzen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'So können für den Zeitraum der Auftragsausführung geltende Anforderungen genannt werden bezüglich der wissenschaftlichen Abschlussarbeit. In dieser Revisionszeit werden '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'je nach Komplexität und Umfang des Themas bzw. der Aufgabenstellung auch mehrere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /experten
+                          target: null
+                          rel: null
+                    text: 'ausgebildete Fachautoren'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' für die Arbeit eingesetzt.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Anschließend kann der Text auf Plagiate geprüft werden, um mögliche Risiken zu umgehen, die aufgrund von Schwierigkeiten oder Flüchtigkeitsfehlern im Umgang mit Literatur entstehen könnten. '
               -
                 type: heading
                 attrs:
@@ -807,17 +795,10 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textAlign
                         attrs:
                           align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                          hex: '#000'
-                    text: "Mustervorlage für Hausarbeit\_schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
+                    text: 'Ablauf: Zusammenarbeit mit Ghostwriter'
               -
                 type: set
                 attrs:
@@ -829,6 +810,8 @@ replicator:
                       <br>
                       <br>
                       Nach einer unverbindlichen Anfrage, die Sie über ein Bestellformular stellen können, erhalten Sie von unserer Schreibagentur ein kostenloses Leistungsangebot und eine individuelle Beratung. Der Auftrag beginnt nach Ihrer Zusage und einer Anzahlung.
+
+                      Während der [Zusammenarbeit mit Ghostwritern](/so-funktioniert-es) stellen unsere Projektmanager die Anonymität des Auftraggebers und gleichzeitig auch die Anonymität des Autors sicher. 
                     ausrichtung: bild-text
               -
                 type: set
@@ -840,7 +823,9 @@ replicator:
                     text: |-
                       <br>
                       <br>
-                      Es werden einzelne Teillieferungen bzw. Termine geplant. Diese Teillieferungen dienen dazu, Sie über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. Je nach Komplexität des Themas werden mehrere Fachautoren für die Arbeit eingesetzt.
+                      Zu jedem Problemfeld werden einzelne Teillieferungen bzw. Termine vereinbart.  Diese Teillieferungen dienen dazu, den Auftraggeber über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. 
+
+                      So können für den Zeitraum der Auftragsausführung geltende Anforderungen genannt werden bezüglich der wissenschaftlichen Abschlussarbeit. In dieser Revisionszeit werden je nach Komplexität und Umfang des Themas bzw. der Aufgabenstellung auch mehrere [ausgebildete Fachautoren](/experten) für die Arbeit eingesetzt.
                     ausrichtung: text-bild
               -
                 type: set
@@ -850,7 +835,7 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
                     ausrichtung: bild-text
-                    text: 'Nach der Fertigstellung erhalten Sie die fertige Mustervorlage zu Ihrer Hausarbeit. Vorab wird diese von einem unabhängigen Lektor aus Ihrem Fachbereich korrektur gelesen. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Diese Kontrolle nach unserem bewährten 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Darüber hinaus wird Ihre Hausarbeit mit professioneller Plagiatserkennungssoftware auf Plagiate geprüft.'
+                    text: 'Nach der Fertigstellung erhalten Sie die fertige Mustervorlage zu Ihrer Masterarbeit. Vorab wird diese von einem unabhängigen [Lektor](/lektorat) aus Ihrem Fachbereich [korrektur](/korrektorat) gelesen. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Diese Kontrolle nach unserem bewährten 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Anschließend kann der Text auf [Plagiate](/plagiatsprüfung) geprüft werden, um mögliche Risiken zu umgehen, die aufgrund von Schwierigkeiten oder Flüchtigkeitsfehlern im Umgang mit Literatur entstehen könnten. '
               -
                 type: set
                 attrs:
@@ -863,6 +848,8 @@ replicator:
                       <br>
                       <br>
                       Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Falls Sie hierzu Änderungswünsche haben, setzen wir diese selbstverständlich kostenfrei um.
+
+                      Einen Ghostwriter eine Mustervorlage für seine Masterarbeit schreiben lassen, bietet für einige Masterstudenten auch eine Option. Diese Ghostwriter-Masterthesis kann als Orientierung bei der Erstellung der eigenen Arbeit genutzt werden.
               -
                 type: paragraph
             show_as_card: false
@@ -1963,7 +1950,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1639588738
+updated_at: 1639593946
 template: default
 use_meta_keywords: false
 no_index_page: false
