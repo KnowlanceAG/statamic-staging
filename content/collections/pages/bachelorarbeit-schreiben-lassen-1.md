@@ -66,7 +66,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Hausarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Hausarbeit als Mustervorlage für Ihre Bachelorarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
+                      Bei GWriters finden Sie exakt den <b>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten eine Ghostwriter Bachelorarbeit als Mustervorlage für Ihre Bachelorarbeit schreiben lassen? Dann wenden Sie sich an einen komptenten Partner und sichern sich so Ihren Erfolg! Unsere seriöse Ghostwriting Agentur arbeitet ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren.
                       </p>
               -
                 type: set
@@ -211,7 +211,16 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: ' kann durch seine Erfahrungen und fachlichen Kenntnisse Studenten professionell unterstützen. Dies kann direkt zu Beginn der Bearbeitung geschehen. Bei der Themenauswahl, Literaturrecherche, dem Aufbau einer Bachelorarbeit (Einleitung, Hauptteil, Fazit) sowie dessen Gliederung (Kapitel, Unterkapitel) und Exposé.'
+                    text: ' kann durch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'seine Erfahrungen und fachlichen Kenntnisse Studenten professionell unterstützen'
+                  -
+                    type: text
+                    text: '. Dies kann direkt zu Beginn der Bearbeitung geschehen. Bei der Themenauswahl, Literaturrecherche, dem Aufbau einer Bachelorarbeit (Einleitung, Hauptteil, Fazit) sowie dessen Gliederung (Kapitel, Unterkapitel) und Exposé.'
               -
                 type: paragraph
                 content:
@@ -255,10 +264,30 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Außerdem kennen akademische Ghostwriter den aktuellen Forschungsstand zu vielen Themenstellungen und haben auf relevanten Datenbanken Zugriff. Sie finden und führen wissenschaftliche Quellen und Daten für Ihre Forschungsfrage zusammen'
+                    text: 'Außerdem kennen akademische Ghostwriter den aktuellen Forschungsstand zu vielen Themenstellungen und haben auf relevanten Datenbanken Zugriff. Durch Ihre Erfahrung als '
                   -
                     type: text
-                    text: .
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Doktoren und Professoren'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' können diese wissenschaftliche Quellen und Daten für Ihre Forschungsfrage finden und zusammenführen'
+                  -
+                    type: text
+                    text: '. '
               -
                 type: paragraph
                 content:
@@ -447,21 +476,6 @@ replicator:
                       -
                         type: bold
                     text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot bei Ihnen zurück. Auch rufen wir Sie gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen. Gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben. Diese erfüllt alle akademischen Standards und Anforderungen.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '1'
             show_as_card: false
         type: row
         enabled: true
@@ -554,22 +568,33 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Akademische Experten schreiben Ihre Bachelorarbeit'
+                    text: 'Bachelorarbeit schreiben lassen - von akademischen Experten'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Niemand möchte bei ohnehin schon kurzen Bearbeitungszeiten mit der Frage „Wie schreibe ich eine Bachelorarbeit?” wertvolle Bearbeitungszeit verlieren und Zeitdruck bekommen. Daher wenden sich einige Studenten an akademische Freelancer und professionelle wissenschaftliche Ghostwriter. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Sie holen sich Hilfe, indem sie die Arbeit von einem akademischen Lektor bzw. Wissenschaftslektor kontrollieren lassen oder bei Bedarf eine Korrekturschleife vornehmen lassen. Und anschließend helfen sie auch mit einem Plagiatscheck, um den Text plagiatsfrei fertigen zu stellen. Auch können Sie vorab eine '
+                    text: 'Niemand möchte bei ohnehin schon kurzen Bearbeitungszeiten mit der Frage „Wie schreibe ich eine Bachelorarbeit?” wertvolle Bearbeitungszeit verlieren und Zeitdruck bekommen. Daher wenden sich einige Studenten an akademische Freelancer und '
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
+                    text: 'professionelle wissenschaftliche Ghostwriter'
+                  -
+                    type: text
+                    text: '. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sie holen sich Hilfe, indem sie die Arbeit von einem akademischen Lektor bzw. Wissenschaftslektor kontrollieren lassen. Anschließend helfen diese auch mit einem Plagiatscheck, um den Text plagiatsfrei fertigen zu stellen. Auch können Sie vorab eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
                       -
                         type: link
                         attrs:
@@ -579,7 +604,25 @@ replicator:
                     text: Ghostwriting
                   -
                     type: text
-                    text: '-Bachelorarbeit als Mustervorlage anfertigen.'
+                    marks:
+                      -
+                        type: bold
+                    text: '-Bachelorarbeit als Mustervorlage anfertigen'
+                  -
+                    type: text
+                    text: .
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen hervorragende fachliche Kompetenzen und methodische Erfahrung im Hinblick auf wissenschaftliches Arbeiten vor. Daher können diese Ihnen bei Ihrer Bachelorarbeit Hilfe in verschiedenen Formen, individuell abgestimmt auf Ihre Bedürfnisse bieten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Zu jeder Fragestellung während des Schreibprozesses von Bachelorarbeit stehen unsere akademischen Autoren zur Verfügung. Unser Schreibservice kooperiert mit zertifizierten Professoren und Doktoren zusammen. Diese unterstützen Sie bei der Anwendung Ihrer Forschungsmethode, ob es um eine\_Fallanalyse, ein\_Experteninterview\_oder eine\_Methodenanwendung\_handelt. Rund um alle Bachelorthemen bietet unsere Ghostwriting-Agentur professionelle Unterstützung an."
             show_as_card: false
         type: row
         enabled: true
@@ -618,34 +661,11 @@ replicator:
                           hex: '#000'
                     text: 'Warum sollten Sie sich unterstützen lassen?'
               -
-                type: set
-                attrs:
-                  values:
-                    type: numbers_home
-                    grid:
-                      -
-                        zahl: '1.'
-                        beschreibung: '<p align="left">Alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen hervorragende fachliche Kompetenzen und methodische Erfahrung im Hinblick auf wissenschaftliches Arbeiten vor. Daher können diese Ihnen bei Ihrer Bachelorarbeit Hilfe in verschiedenen Formen, individuell abgestimmt auf Ihre Bedürfnisse bieten. <p >'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: numbers_home
-                    grid:
-                      -
-                        zahl: '2.'
-                        beschreibung: "<p align=\"left\">Zu jeder Fragestellung während des Schreibprozesses von Bachelorarbeit stehen unsere akademischen Autoren zur Verfügung. Unser Schreibservice kooperiert mit zertifizierten Professoren und Doktoren zusammen. Diese unterstützen Sie bei der Anwendung Ihrer Forschungsmethode, ob es um eine\_Fallanalyse, ein\_Experteninterview\_oder eine\_Methodenanwendung\_handelt. Rund um alle Bachelorthemen bietet unsere Ghostwriting-Agentur professionelle Unterstützung an."
-              -
-                type: set
-                attrs:
-                  values:
-                    type: numbers_home
-                    grid:
-                      -
-                        zahl: '3.'
-                        beschreibung: '<p align="left">Im Video erklären wir Ihnen, wie sich der Coaching Service von unserer akademischen Ghostwriting-Agentur für Bachelorarbeiten gestaltet. Dies gilt natürlich auch für alle anderen Arten von wissenschaftlichen Arbeiten. Das Coachen kann sowohl in Form von Textteilen Ergänzung/Überarbeitung als auch Beantwortungen der wissenschaftlichen Fragestellungen während des Schreibprozesses folgen.'
-              -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im Video erklären wir Ihnen, wie sich der Coaching Service von unserer akademischen Ghostwriting-Agentur für Bachelorarbeiten gestaltet. Dies gilt natürlich auch für alle anderen Arten von wissenschaftlichen Arbeiten. Das Coachen kann sowohl in Form von Textteilen Ergänzung/Überarbeitung als auch Beantwortungen der wissenschaftlichen Fragestellungen während des Schreibprozesses folgen.'
             show_as_card: false
           -
             bard:
@@ -653,44 +673,11 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '34'
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
                     type: video
-                    video: 'https://youtu.be/BFHgSZP9rCE'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '28'
+                    video: 'https://www.youtube.com/embed/EBDyFVLD0V0'
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Hilfe oder wissenschaftliche Texterstellung benötigen, wenden Sie sich gerne an uns. Über '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /anfrage
-                          target: null
-                          rel: null
-                    text: 'unser Kontaktformular'
-                  -
-                    type: text
-                    text: ' erhalten Sie jederzeit eine kostenlose Beratung. Möchten Sie ein Coaching oder eine Mustervorlage für Ihre Bachelorarbeit schreiben lassen? Unsere Kundenberater beraten Sie dazu gerne! '
-            show_as_card: true
+            show_as_card: false
         type: row
         enabled: true
     remove_spacing: true
@@ -748,7 +735,7 @@ replicator:
                     text: |-
                       <br>
                       <br>
-                      Nach einer unverbindlichen Anfrage, die Sie über ein Bestellformular stellen können, erhalten Sie von unserer Schreibagentur ein kostenloses Leistungsangebot und eine individuelle Beratung. Der Auftrag beginnt nach Ihrer Zusage und einer Anzahlung.
+                      Der Prozess beginnt mit einer unverbindlichen Anfrage von Ihnen an uns. Diese können Sie einfach über unser Anfrageformular stellen. Innerhalb kürzester Zeit werden Sie anschließend von unseren Kundenberatern kontaktiert. Diese beraten Sie gerne und erstellen ein kostenloses Angebot für Sie.
                     ausrichtung: bild-text
               -
                 type: set
@@ -760,7 +747,7 @@ replicator:
                     text: |-
                       <br>
                       <br>
-                      Es werden einzelne Teillieferungen bzw. Termine geplant. Diese Teillieferungen dienen dazu, Sie über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. Je nach Komplexität des Themas werden mehrere Fachautoren für die Arbeit eingesetzt.
+                      Nach Ihrer Annahme des Angebots beginnen wir mit der Bearbeitung. Ihr persönlicher Projektmanager legt mehrere Teillieferungstermine zur Abstimmung fest. Ihre Feedbacks zu diesen setzen wir selbstverständlich kostenfrei um!
                     ausrichtung: text-bild
               -
                 type: set
@@ -770,7 +757,7 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
                     ausrichtung: bild-text
-                    text: 'Nach der Fertigstellung erhalten Sie die fertige Mustervorlage zu Ihrer Bachelorarbeit. Vorab wird diese von einem unabhängigen Lektor aus Ihrem Fachbereich korrektur gelesen. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Diese Kontrolle nach unserem bewährten 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Darüber hinaus wird Ihre Hausarbeit mit professioneller Plagiatserkennungssoftware auf Plagiate geprüft.'
+                    text: 'Nach der Fertigstellung erhalten Sie die fertige Mustervorlage zu Ihrer Bachelorarbeit. Vor der Lieferung wird der gesamte Text im Rahmen unserer Qualitätssicherung von einem unabhängigen Fachlektor geprüft. Diese stammt selbstverständlich aus dem jeweiligen Fachbereich und kontrolliert Sprachstil, Satzbau und Inhalt. Diese Kontrolle nach unserem bewährten 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Zudem nutzen wir professionelle Software für eine tiefgehende Plagiatsprüfung.'
               -
                 type: set
                 attrs:
@@ -782,9 +769,53 @@ replicator:
                     text: |-
                       <br>
                       <br>
-                      Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Bachelorarbeit. Falls Sie hierzu Änderungswünsche haben, setzen wir diese selbstverständlich kostenfrei um.
+                      Sie erhalten von uns als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Bachelorarbeit. Diese ist garantiert frei von Plagiaten und von Experten auf Qualität geprüft. Falls Sie hierzu Änderungswünsche haben, setzen wir diese selbstverständlich kostenfrei um.
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Hilfe oder wissenschaftliche Texterstellung benötigen, wenden Sie sich gerne an uns. Über '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unser Kontaktformular'
+                  -
+                    type: text
+                    text: ' erhalten Sie jederzeit eine kostenlose Beratung. Möchten Sie ein Coaching oder eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Mustervorlage für Ihre Bachelorarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '? Unsere Kundenberater beraten Sie dazu gerne! '
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOSE ANFRAGE SCHICKEN!'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
             show_as_card: false
         type: row
         enabled: true
@@ -861,7 +892,6 @@ replicator:
                       -
                         text: Arbeiten
                         eintraege:
-                          - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
                           - 89093abd-fdd4-4830-a368-7ede1b75ca1a
                           - 5659593d-2756-4e9f-a5b3-b391103d9886
@@ -966,133 +996,7 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Der Bachelorabschluss ist der erste akademische Grad, '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'welcher innerhalb der EU und einigen englischsprachigen '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'Ländern erreicht werden kann. Er wird mit der Bachelorarbeit, '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'auch Bachelor Thesis genannt, abgeschlossen. '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'Dabei handelt es sich um eine wissenschaftliche Arbeit, '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'bei der der Student seine fachlichen Kompetenzen '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'unter Beweis stellt.'
+                    text: 'Der Bachelorabschluss ist der erste akademische Grad, welcher innerhalb der EU und einigen englischsprachigen Ländern erreicht werden kann. Er wird mit der Bachelorarbeit, auch Bachelor Thesis genannt, abgeschlossen. Dabei handelt es sich um eine wissenschaftliche Arbeit, bei der der Student seine fachlichen Kompetenzen unter Beweis stellt.'
               -
                 type: paragraph
                 content:
@@ -1106,112 +1010,7 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Die Note der Bachelorarbeit beeinflusst die Abschlussnote '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'bis zu 20%. Ein erfolgreich abgeschlossenes Bachelorstudium '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'bildet das Grundlagenstudium und ist die Voraussetzung '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'für den Beginn eines Masterstudiums. Der sichere Einsatz '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'von wissenschaftlichen Methoden ist dabei grundlegend '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'für den Erfolg.'
+                    text: 'Die Note der Bachelorarbeit beeinflusst die Abschlussnote bis zu 20%. Ein erfolgreich abgeschlossenes Bachelorstudium bildet das Grundlagenstudium und ist die Voraussetzung für den Beginn eines Masterstudiums. Der sichere Einsatz von wissenschaftlichen Methoden ist dabei grundlegend für den Erfolg.'
               -
                 type: paragraph
                 content:
@@ -1225,70 +1024,7 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Bei einigen Studierende hat es sich ergeben, dass sie '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'von einem Ghostwriter ihre Bachelorarbeit schreiben lassen. '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'Durch akademisches Ghostwriting kann der Aufwand für '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'die akademische Arbeit gering halten werden.'
+                    text: 'Bei einigen Studierende hat es sich ergeben, dass sie von einem Ghostwriter ihre Bachelorarbeit schreiben lassen. Durch akademisches Ghostwriting kann der Aufwand für die akademische Arbeit gering halten werden.'
               -
                 type: paragraph
                 content:
@@ -1302,70 +1038,10 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Die Ghostwriting-Bachelorarbeit sollte jedoch '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'nur unterstützend sein. Das Werk eines Writers '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'darf man nicht als eigenes ausgeben. '
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'Es darf lediglich als Orientierungshilfe dienen.'
+                    text: 'Die Ghostwriting-Bachelorarbeit sollte jedoch nur unterstützend sein. Das Werk eines Writers darf man nicht als eigenes ausgeben. Es darf lediglich als Orientierungshilfe dienen.'
+            show_as_card: false
+          -
+            bard: null
             show_as_card: false
         type: row
         enabled: true
@@ -2567,8 +2243,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1639564464
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1639584110
 template: default
 use_meta_keywords: false
 no_index_page: false
