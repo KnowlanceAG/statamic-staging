@@ -238,7 +238,35 @@ replicator:
                         attrs:
                           color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
                           hex: '#000'
-                    text: ' oder Korrektor. Der „Geist“ kontrolliert oder überarbeitet in der Regel keine Arbeiten, sondern verfasst selbstständig ein Werk nach den individuellen Vorgaben einer anderen Person - dessen Rechte er an den Käufer abtritt. Mit der Abgabe aller Nutzungsrechte taucht der Ghostwriter dann nicht mehr als Autor auf und ist für den Leser somit als Verfasser unsichtbar. Er ist ein Geist – ein Ghostwriter.'
+                    text: ' oder Korrektor. Der „Geist“ kontrolliert oder überarbeitet in der Regel keine Arbeiten, sondern '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
+                          hex: '#000'
+                    text: 'verfasst selbstständig ein Werk nach den individuellen Vorgaben einer anderen Person'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
+                          hex: '#000'
+                    text: ' - dessen Rechte er an den Käufer abtritt. Mit der Abgabe aller Nutzungsrechte taucht der Ghostwriter dann nicht mehr als Autor auf und ist für den Leser somit als Verfasser unsichtbar. Er ist ein Geist – ein Ghostwriter.'
             show_as_card: false
         type: row
         enabled: true
@@ -389,7 +417,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere unsichtbaren Textverfasser sind im Alltag häufig Doktoren und Professoren. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten. Aufgrund ihrer praktischen Erfahrung und fachlichen Kenntnisse in ihrem jeweiligen Fachbereich können diese Sie zu jedem Zeitpunkt der Texterstellung unterstützen. Unsere '
+                    text: 'Unsere unsichtbaren Textverfasser sind im Alltag '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'häufig Doktoren und Professoren'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten. Aufgrund ihrer praktischen Erfahrung und fachlichen Kenntnisse in ihrem jeweiligen Fachbereich können diese Sie zu jedem Zeitpunkt der Texterstellung unterstützen. Unsere '
                   -
                     type: text
                     marks:
@@ -413,7 +461,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' arbeitet ausschließlich mit hochqualifizierten Akademikern zusammen, die versiert und zuverlässig Mustervorlagen für unterschiedliche wissenschaftliche Aufgaben (Hochschularbeiten, Abschlussarbeiten, Businesspläne, '
+                    text: ' arbeitet ausschließlich mit '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'hochqualifizierten Akademikern'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' zusammen, die versiert und zuverlässig Mustervorlagen für unterschiedliche wissenschaftliche Aufgaben (Hochschularbeiten, Abschlussarbeiten, Businesspläne, '
                   -
                     type: text
                     marks:
@@ -449,7 +517,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere anonymen Autoren bieten zu vielen wissenschaftlichen Themenbereichen professionelle Unterstützung an: bei der Textüberarbeitung, Formulierung von Texten, Literaturrecherche, Themenfindung, Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederung sein. Diese Unterstützung kann neben der Erstellung von Mustervorlagen auch durch Coaching sowie Beratung erfolgen.'
+                    text: 'Unsere anonymen Autoren bieten zu vielen wissenschaftlichen Themenbereichen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'professionelle Unterstützung'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' an: bei der Textüberarbeitung, Formulierung von Texten, Literaturrecherche, Themenfindung, Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederung sein. Diese Unterstützung kann neben der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Erstellung von Mustervorlagen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' auch durch Coaching sowie Beratung erfolgen.'
               -
                 type: paragraph
                 content:
@@ -461,10 +569,23 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Wir finden für Sie rund um das Thema „wissenschaftliches Arbeiten“ für jede Aufgabenstellung passende Fachautoren als Hilfestellung, wenn Sie eine Mustervorlage für Ihre Hausarbeit, '
+                    text: 'Wir finden für Sie rund um das Thema „wissenschaftliches Arbeiten“ für jede Aufgabenstellung passende Fachautoren als Hilfestellung, wenn Sie eine '
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Mustervorlage für Ihre Hausarbeit, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
                       -
                         type: textColor
                         attrs:
@@ -481,6 +602,8 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
@@ -489,6 +612,8 @@ replicator:
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
                       -
                         type: textColor
                         attrs:
@@ -505,11 +630,22 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' möchten.'
+                    text: ' möchten'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: .
               -
                 type: set
                 attrs:
@@ -680,7 +816,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Beim akademischen Ghostwriting handelt es sich um das Verfassen von Mustervorlagen für wissenschaftliche Texte nach individuellen Vorgaben der Kunden. Dabei kann es sich um die Vorlage für eine Hausarbeit, Seminararbeit, Masterarbeit oder Dissertation handeln. Auch kommt es häufig dazu, dass sich Studenten Mustervorlagen für die eigene '
+                    text: 'Beim akademischen Ghostwriting handelt es sich um das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Verfassen von Mustervorlagen für wissenschaftliche Texte'
+                  -
+                    type: text
+                    text: ' nach individuellen Vorgaben der Kunden. Dabei kann es sich um die Vorlage für eine Hausarbeit, Seminararbeit, Masterarbeit oder Dissertation handeln. Auch kommt es häufig dazu, dass sich Studenten Mustervorlagen für die eigene '
                   -
                     type: text
                     marks:
@@ -693,19 +838,57 @@ replicator:
                     text: 'Bachelorarbeit schreiben lassen'
                   -
                     type: text
-                    text: '. Allerdings beschränkt sich akademisches Ghostwriting nicht auf das eben beschriebene Gebiet. '
+                    text: '. Allerdings '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'beschränkt sich akademisches Ghostwriting nicht nur auf Texterstellungen'
+                  -
+                    type: text
+                    text: '. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unter akademischem Ghostwriting versteht man weiterhin die Erstellung von wissenschaftlichen Grundlagentexten für ein fokussiertes Forschungsgebiet, Übernahme und Dokumentation der Literaturrecherche zu einem bestimmten Thema oder auch dem Verfassen von Fachartikeln.'
+                    text: 'Unter akademischem Ghostwriting versteht man weiterhin die Erstellung von wissenschaftlichen Grundlagentexten für ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'fokussiertes Forschungsgebiet'
+                  -
+                    type: text
+                    text: ', Übernahme und Dokumentation der Literaturrecherche zu einem bestimmten Thema oder auch dem Verfassen von Fachartikeln.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Weiterhin beauftragen teilweise auch etablierte Unternehmen akademische Ghostwriter mit der Erstellung von wissenschaftlich fundierten Texten für geschäftliche Zwecke.'
+                    text: 'Weiterhin '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: beauftragen
+                  -
+                    type: text
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'etablierte Unternehmen akademische Ghostwriter'
+                  -
+                    type: text
+                    text: ' mit der Erstellung von wissenschaftlich fundierten Texten für geschäftliche Zwecke.'
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -823,6 +1006,16 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Akademische Ghostwriter oder Ghostwriterinnen schreiben nicht nur wissenschaftliche Musterarbeiten, einen Ghostwriter kann man auch für das Zeichnen beauftragen, genauer gesagt für das Erstellen technischer Zeichnungen. Besonders im Architekturstudium oder Ingenieursstudium möchten Studierende Musterzeichnungen für ihre Abgaben erstellen lassen.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOSE ANFRAGE STELLEN!'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
             show_as_card: false
         type: row
         enabled: true
@@ -1168,6 +1361,24 @@ replicator:
                     type: text
                     text: ', bei der ein Vertrauensverhältnis zwischen Kunde und Ghostwriter geschaffen wird und ein gemeinsamer Fahrplan für das Projekt abgestimmt und festgelegt wird.'
               -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOSE ANFRAGE STELLEN!'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 3
@@ -1422,6 +1633,16 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOSE ANFRAGE STELLEN!'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: set
+                attrs:
+                  values:
                     type: spacer
                     padding-y: '30'
               -
@@ -1532,8 +1753,8 @@ replicator:
     type: add_section
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1639498573
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1639579581
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
