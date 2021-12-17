@@ -167,12 +167,13 @@ replicator:
         enabled: true
     remove_spacing: false
     is-full: true
-    bg-toggle: false
+    bg-toggle: true
     bg-color: '#F9F9F9'
     bg-image-fixed: false
     border: false
     type: add_section
     enabled: true
+    bg-image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
   -
     columns-replicator:
       -
@@ -1052,6 +1053,7 @@ replicator:
     remove_spacing: true
     is-full: true
     bg-toggle: false
+    bg-color: '#F9F9F9'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -1078,52 +1080,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wann sollten Sie sich unterstützen lassen?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die Ansprüche an eine wissenschaftliche Arbeit sind hoch. Eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'gute Hausarbeit zu schreiben'
-                  -
-                    type: text
-                    text: ' setzt eine gründliche und tief gehende Literaturrecherche voraus. Hierbei ist es wichtig, die relevanten Informationen und Literaturquellen aus verschiedenen Datenbanken herauszufiltern. Anschließend gilt es, diese Ergebnisse zusammenzuführen, zu analysieren und zu interpretieren. So soll sich eine gesamthafte Analyse entwickeln.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Zudem soll die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'zentrale Forschungsfrage mit Würdigung des aktuellen Forschungsstands'
-                  -
-                    type: text
-                    text: ' auf wenigen Seiten erforscht werden. Unerfahrene Studienanfänger sind oftmals mit dem Komprimieren der Informationsmenge und aufgrund der hohen akademischen Ansprüche überfordert. Dadurch stoßen Studierende auf Schreibblockaden und andere Probleme, besonders wenn diese ihre erste Hausarbeit schreiben.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In solchen Fällen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'helfen unsere akademischen Ghostwriter von GWriters'
-                  -
-                    type: text
-                    text: '. Diese verfügen über einen ausgedehnten Erfahrungsschutz im Verfassen wissenschaftlicher Arbeiten. Sie besitzen darüber hinaus auch das notwendige methodische und fachliche Wissen für das Verfassen akademischer Texte.'
+                    text: 'Wie schreibt man eine Masterarbeit?'
               -
                 type: paragraph
                 content:
@@ -1131,177 +1088,39 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Unsere Experten kennen in ihrem Fachbereich immer den aktuellen Forschungsstand'
-                  -
-                    type: text
-                    text: ' und haben Zugriff auf die notwendigen Literatur-Datenbanken. Wir arbeiten zudem mit modernster Analyse Software wie SPSS, Stata oder R für statistische Analysen sowie MAXQDA für qualitative Analysen. Dies zeichnet eine '
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Je nach Fachbereich und Institution umfasst die Masterarbeit inklusive Exposé 60-100 Seiten. Sie muss alle Kriterien einer akademischen Arbeit innerhalb von 5 bis 6 Monaten erfüllen und wird mit 15-30 ECTS-Punkten bewertet. Somit ist diese Leistung grundlegend für den Erfolg des Studiums und nicht einfach abzuhandeln. Höchste wissenschaftliche Standards werden angelegt um ihre Qualität zu beurteilen. Im Bereich der Medizin, beispielsweise, dient die Masterarbeit oft als Fundament der Dissertation.'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'seriöse Ghostwriting Agentur'
-                  -
-                    type: text
-                    text: ' aus.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '20'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    button_align: justify-center
-                    spacing_top: false
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Neben Themenfindung, Literaturrecherche und einigen Organisationsaspekten, wie der Suche eines Ansprechpartners zur Betreuung der Masterarbeit, sind auch zahlreiche formale Richtlinien zu beachten. Bei einigen Fächern, wie der BWL oder VWL sind oftmals statistische Untersuchungen anzufertigen. '
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Oft wird durch das Lehrinstitut ein Muster der Masterarbeit als Beispiel veröffentlicht, was als Orientierungshilfe genutzt werden kann. Wenn diese Unterstützung nicht vorhanden ist, schaffen sich einige Studenten Abhilfe, indem sie einen Ghostwriter ihre Masterarbeit schreiben lassen. In kleinen Arbeitsschritten erstellt unsere Schreibagentur je nach Themenstellung und Bedürfnissen eine Mustervorlage für die Masterarbeit. Die Ghostwriting-Masterarbeit wird dann als Mustervorlage genutzt.'
               -
                 type: heading
                 attrs:
                   level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Hausarbeit schreiben lassen: Kosten & Preise'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wenn Sie über eine seriöse Agentur für Ghostwriting eine Mustervorlage für Ihre Hausarbeit kaufen möchten, dann erwarten Sie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'faire aber auch angemessene Preise'
-                  -
-                    type: text
-                    text: '. Seien Sie daher vorsichtig: Wenn Sie Ihre '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Hausarbeit günstig'
-                  -
-                    type: text
-                    text: ' schreiben lassen wollen, erwarten Sie häufig Lockangebote von unseriösen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /achtung-ghostwriter-betrug
-                          target: null
-                          rel: null
-                    text: Ghostwriting-Betrügern
-                  -
-                    type: text
-                    text: .
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Jeder Kostenvoranschlag von GWriters enthält die Kosten für:'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'die fachliche und wissenschaftliche Kompetenz der Agentur'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'die professionelle Betreuung durch individuelle Projektmanager'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'die Bearbeitung durch erfahrene akademische Ghostwriter'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'und schließlich die Kosten für ein abschließendes Lektorat.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Aufgrund dieser Leistungsbestandteile können wir nur durch ein angemessenes Honorar die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'hohe Qualität Ihrer Hausarbeit garantieren'
-                  -
-                    type: text
-                    text: '. Diese Leistungen können selbstständige Ghostwriter oder Billig-Ghostwriter-Agenturen, die mit günstigen Preisen werben, oftmals nicht bieten.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Je nach Anfrage variieren die Kosten für Hausarbeiten in verschiedenen Fachbereichen. Welche Hausarbeit günstig und welche teuer ist, liegt somit auch an den Ansprüchen an die Mustervorlage. Details hierzu können in einem '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'kostenlosen Erstgespräch'
-                  -
-                    type: text
-                    text: ' geklärt werden. Vorläufige Informationen zu anfallenden Kosten bietet auch unser Rechner für '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /preise
-                          target: null
-                          rel: null
-                    text: Ghostwriter-Preise
-                  -
-                    type: text
-                    text: .
             show_as_card: false
         type: row
         enabled: true
@@ -1328,99 +1147,427 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Häufig gestellte Fragen'
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Gliederung und Formalien einer Masterarbeit:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Trotz unterschiedlicher Anforderungen der einzelnen Lehrinstitute, haben sich einige Formalien als gängig erwiesen:'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#F9F9F9'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/aufbau-wissenschaftliche-arbeit
+                          target: null
+                          rel: null
+                    text: Gliederung
+                  -
+                    type: text
+                    text: ' einer Masterarbeit'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/deckblatt-vorlage
+                                  target: null
+                                  rel: null
+                            text: Deckblatt
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/bachelorarbeit-abstract
+                                  target: null
+                                  rel: null
+                            text: Abstract
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: Vorwort
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/inhaltsverzeichnis-vorlage
+                                  target: null
+                                  rel: null
+                            text: 'Inhaltsverzeichnis (Kapitel, Unterkapitel)'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/abbildungsverzeichnis
+                                  target: null
+                                  rel: null
+                            text: Abbildungs
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: '- und '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/tabellenverzeichnis-beispiel
+                                  target: null
+                                  rel: null
+                            text: Tabellenverzeichnis
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/abkuerzungsverzeichnis
+                                  target: null
+                                  rel: null
+                            text: Abkürzungsverzeichnis
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/bachelorarbeit-einleitung
+                                  target: null
+                                  rel: null
+                            text: Einleitung
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: Hauptteil
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: Schlussteil/Fazit
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/literaturverzeichnis-beispiel
+                                  target: null
+                                  rel: null
+                            text: Literaturverzeichnis
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/anhangsverzeichnis
+                                  target: null
+                                  rel: null
+                            text: Anhang
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/eidesstattliche-erklaerung-muster
+                                  target: null
+                                  rel: null
+                            text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
+            show_as_card: true
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Formatierung einer Masterarbeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Wichtig: Vor der Abgabe müssen Formatierungsrichtlinien beachtet werden'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Seitenrand: oben und unten je 2cm, links 5cm, rechts 1cm'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Seitenzahlen: unten zentriert/rechts, auf Deckblatt/Inhaltsverzeichnis keine Seitenzahl'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Schriftgröße und –Art im Fließtext: 12 Pt Arial oder Times New Roman, Blocksatz'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Zeilenabstand: 1,5-zeilig'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Fußnotentext: 10 Pt Blocksatz, 1,0-zeilig, Fußnoten werden hoch gestellt'
               -
                 type: set
                 attrs:
                   values:
-                    type: accordion-custom-wrapper
-                    items:
-                      -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Welche Qualifikationen hat mein akademischer Ghostwriter?'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Wir garantieren, dass es sich bei Ihrem Ghostwriter um einen absoluten Experten in Ihrem Fachgebiet handelt. In unserer Agentur setzen wir mindestens einen Masterabschluss voraus. Bei vielen unserer Ghostwriter handelt es sich aber um Doktoren und auch Professoren, die selbst noch in der Wissenschaft aktiv sind.'
-                        active: false
-                      -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Wie wird bei GWriters meine Anonymität sichergestellt?'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO/GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts.'
-                        active: false
-                      -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Was kostet eine Mustervorlage für meine Hausarbeit?'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Eine Mustervorlage für eine 10-seitige Hausarbeit erhalten Sie bereits ab 800 €. Die Preise pro Seite können aber noch variieren, abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen.'
-                        active: false
-                      -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Darf ich die erstellte Mustervorlage als eigene Hausarbeit abgeben?'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Hausarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch.'
-                        active: false
+                    type: spacer
+                    padding-y: '19'
               -
                 type: paragraph
-            show_as_card: false
+            show_as_card: true
         type: row
         enabled: true
-    remove_spacing: false
-    is-full: false
+    remove_spacing: true
+    is-full: true
     bg-toggle: false
+    bg-color: '#F9F9F9'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -1446,9 +1593,9 @@ replicator:
           values:
             type: blog_entries
             entries:
-              - 8f956f01-0057-4727-86bd-227150d4d7c9
-              - d61b6932-74b9-4ece-9da6-a54a1265c9a3
-              - 3f184e1e-936d-431a-811d-566210ffea43
+              - 14a0cd0f-a99b-4b6c-8f33-bda6ea547856
+              - a26081b8-f79e-4515-8c28-31d320f1e4fd
+              - 90c98a48-07aa-44a7-bfa5-187a2717a778
       -
         type: set
         attrs:
@@ -1481,10 +1628,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://www.germanistik.uni-bonn.de/institut/abteilungen/vergleichende-literaturwissenschaft-komparatistik/studium/studienberatung/leitfaden-zum-verfassen-einer-wissenschaftlichen-hausarbeit/view'
+                  href: 'https://de.wikipedia.org/wiki/Master'
                   target: _blank
                   rel: 'noopener noreferrer nofollow'
-            text: 'Leitfaden zum Verfassen einer wissenschaftlichen Hausarbeit - Universität Bonn'
+            text: 'Master - Wikipedia'
           -
             type: hard_break
             marks:
@@ -1502,10 +1649,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://www.jura.uni-frankfurt.de/90083151/Erstellung_von_Hausarbeiten_Leitfaden_fuer_Studierende_2020_07_WEB.pdf'
+                  href: 'https://www.zeit.de/campus/2010/03/Studium-Master-Empfehlungsschreiben'
                   target: _blank
                   rel: 'noopener noreferrer nofollow'
-            text: 'Leitfaden für das Verfassen von Jura Hausarbeiten - Goethe Universität Frankfurt am Main'
+            text: 'Masterstudium: Nicht zu empfehlen - Zeit Online'
           -
             type: hard_break
             marks:
@@ -1523,31 +1670,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://www.uni-potsdam.de/fileadmin/projects/schulpaedagogik/Dokumente/Hausarbeit_Anleitung.pdf'
+                  href: 'https://www.faz.net/aktuell/politik/inland/hochschulreform-in-der-bologna-falle-11877689.html'
                   target: _blank
                   rel: 'noopener noreferrer nofollow'
-            text: 'Leitfaden zum Verfassen einer Hausarbeit - Uni Potsdam'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: 'https://geschichte.uni-greifswald.de/institut/mitarbeitende/fachschaftsrat/fsr-tipps/tipps-zum-schreiben-von-hausarbeiten/'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Tipps zum Schreiben von Hausarbeiten - Uni Greifswald'
+            text: 'In der Bologna-Falle - FAZ'
       -
         type: paragraph
         content:
@@ -1578,7 +1704,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1639748713
+updated_at: 1639766411
 template: default
 use_meta_keywords: false
 no_index_page: false
