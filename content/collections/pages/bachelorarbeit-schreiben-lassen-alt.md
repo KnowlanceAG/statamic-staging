@@ -1,7 +1,8 @@
 ---
 id: 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
+published: false
 blueprint: pages
-title: Bachelorarbeit
+title: Bachelorarbeit-alt
 teaser:
   -
     type: heading
@@ -47,7 +48,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1631722793
+updated_at: 1639998722
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
