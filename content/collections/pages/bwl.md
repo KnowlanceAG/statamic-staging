@@ -57,7 +57,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1638886014
+updated_at: 1639998959
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -445,7 +445,6 @@ replicator:
                       -
                         text: Arbeiten
                         eintraege:
-                          - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
                           - 89093abd-fdd4-4830-a368-7ede1b75ca1a
                           - 5659593d-2756-4e9f-a5b3-b391103d9886
@@ -459,6 +458,7 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 686e5203-e17a-4101-809a-07c9f799ccfa
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
+                          - 68b88fd1-ec03-4ea8-9292-431555e47744
                       -
                         text: Fachrichtungen
                         eintraege:
