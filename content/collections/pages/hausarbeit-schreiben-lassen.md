@@ -796,7 +796,6 @@ replicator:
                       -
                         text: Arbeiten
                         eintraege:
-                          - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
                           - 89093abd-fdd4-4830-a368-7ede1b75ca1a
                           - 5659593d-2756-4e9f-a5b3-b391103d9886
@@ -809,6 +808,7 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 686e5203-e17a-4101-809a-07c9f799ccfa
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
+                          - 68b88fd1-ec03-4ea8-9292-431555e47744
               -
                 type: set
                 attrs:
@@ -1817,8 +1817,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1638796536
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1639999122
 template: default
 use_meta_keywords: false
 no_index_page: false
