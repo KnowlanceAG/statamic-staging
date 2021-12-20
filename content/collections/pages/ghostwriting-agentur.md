@@ -1216,7 +1216,6 @@ replicator:
                       -
                         text: Arbeiten
                         eintraege:
-                          - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
                           - 89093abd-fdd4-4830-a368-7ede1b75ca1a
                           - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
@@ -1231,6 +1230,7 @@ replicator:
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
                           - 686e5203-e17a-4101-809a-07c9f799ccfa
                           - b42eb586-1305-4faf-8d59-79e53ff91373
+                          - 68b88fd1-ec03-4ea8-9292-431555e47744
                       -
                         text: Fachrichtungen
                         eintraege:
@@ -1520,7 +1520,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1639420503
+updated_at: 1640002868
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
