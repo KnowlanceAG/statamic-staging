@@ -308,7 +308,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single-col: true
         grid:
           -
             bard:
@@ -445,7 +445,49 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie Unterstützung durch einen Hausarbeit Ghostwriter benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine unverbindliche Anfrage schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Wenn Sie bei Ihrer Seminararbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: _blank
+                          rel: null
+                    text: 'unverbindliche Anfrage schicken'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück. Falls Sie eine kostenlose telefonische Beratung wünschen, rufen wir Sie auch gerne an.'
               -
                 type: set
                 attrs:
@@ -532,8 +574,8 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
+        columns_per_row: '2'
+        single-col: false
         grid:
           -
             bard:
@@ -544,67 +586,68 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Akademische Experten schreiben Ihre Hausarbeit'
+                    text: 'Ihre Mustervorlage von erfahrenen Doktoren und Professoren'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'GWriters bietet Ihnen einen professionellen Schreibservice durch erfahrene akademische Ghostwriter. Dank ihrer weitreichenden Erfahrung können unsere Experten Sie in jeder Projektphase effektiv beim '
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Ein akademischer\_"
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Schreiben Ihrer Hausarbeit unterstützen'
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: _blank
+                          rel: null
+                    text: Ghostwriter
                   -
                     type: text
-                    text: .
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "\_beschäftigt sich täglich mit dem Verfassen von disziplinären und interdisziplinären wissenschaftlichen Texten und Arbeiten. Unsere akademischen Autoren sind zertifizierte Akademiker und besitzen zahlreiche Kenntnisse aus ihrem Fachgebiet. Unsere Ghostwriting-Agentur arbeitet ausschließlich mit professionellen Akademikern, Doktoren und Professoren zusammen."
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Bei den Ghostwritern von GWriters handelt es sich um erfahrene Akademiker, die häufig selbst noch als '
-                  -
-                    type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Forscher, Doktoren und Professoren aktiv'
-                  -
-                    type: text
-                    text: ' sind. Sie profitieren daher von deren Fachwissen auf dem neuesten Stand der Forschung. Von diesen können Sie sich nicht nur eine Mustervorlage für Ihre Hausarbeit schreiben lassen, sondern sich auch bei der Themenfindung oder der Entwicklung der Forschungsfrage beraten lassen.'
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Da wir keine Studenten oder Hobbyschreiber beschäftigen, können wir Ihnen eine qualitativ hochwertige Mustervorlage garantieren. Bei unseren erfahrenen akademischen Autoren handelt es sich größtenteils um Doktoren oder Professoren. Da diese selbst promoviert oder habilitiert haben, kennen Sie alle Schwierigkeiten des wissenschaftlichen Arbeitens.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - seiten/arbeiten/seminararbeit/seminararbeit_schreiben_lassen_professoren_doktoren.png
+                    has_border: false
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Darüber hinaus schützen wir als Ghostwriting Agentur verlässlich Ihre Anonymität während der Erstellung der Mustervorlage für Ihre Hausarbeit. So stehen Sie jederzeit in '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'anonymen Kontakt zu Ihrem Ghostwriter'
-                  -
-                    type: text
-                    text: ' und behalten die volle Kontrolle.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Jede Leistung die Sie von unseren Ghostwritern erhalten, unterliegt der GWriters Qualitätsgarantie. Ob Sie sich durch ein Lektorat, ein Korrektorat oder eine Plagiatsprüfung unterstützen lassen wollen oder eine Mustervorlage für Ihre Hausarbeit kaufen möchten - jede Lieferung wird durch einen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'unabhängigen Supervisor auf Qualität geprüft'
-                  -
-                    type: text
-                    text: .
             show_as_card: false
         type: row
         enabled: true
@@ -1887,7 +1930,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640086513
+updated_at: 1640086868
 template: default
 use_meta_keywords: false
 no_index_page: false
