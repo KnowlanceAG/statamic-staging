@@ -407,7 +407,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -580,6 +580,28 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - seiten/arbeiten/seminararbeit/seminararbeit_schreiben_lassen_professoren_doktoren.png
+                    img-alignment: justify-center
+                    has_border: false
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            bard:
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -636,19 +658,6 @@ replicator:
                           hex: '#000'
                     text: 'Da wir keine Studenten oder Hobbyschreiber beschäftigen, können wir Ihnen eine qualitativ hochwertige Mustervorlage garantieren. Bei unseren erfahrenen akademischen Autoren handelt es sich größtenteils um Doktoren oder Professoren. Da diese selbst promoviert oder habilitiert haben, kennen Sie alle Schwierigkeiten des wissenschaftlichen Arbeitens.'
             show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/arbeiten/seminararbeit/seminararbeit_schreiben_lassen_professoren_doktoren.png
-                    has_border: false
-              -
-                type: paragraph
-            show_as_card: false
         type: row
         enabled: true
     remove_spacing: false
@@ -686,46 +695,51 @@ replicator:
                           hex: '#000'
                     text: 'Warum sollten Sie sich unterstützen lassen?'
               -
-                type: bullet_list
+                type: paragraph
                 content:
                   -
-                    type: list_item
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Wir lösen Schreibblockaden bei fehlender Unterstützung durch Betreuer & Professoren'
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: "Im Video erklären wir Ihnen, wie eine Seminararbeit aufgebaut ist und wie sich der wissenschaftlicher Service von unserer\_"
                   -
-                    type: list_item
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Wir lösen Ihre Zeitprobleme mit Ihrer Hausarbeit während der Klausurphase und bei mehreren Abgaben'
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: "akademischen Ghostwriting-Agentur für Seminararbeiten\_"
                   -
-                    type: list_item
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Mit den relevanten Datenbanken, Quellen und wissenschaftlichen Arbeitsmethoden helfen wir auch  Studienanfängern effektiv'
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: 'gestaltet. Dies gilt natürlich auch für alle anderen Formen von wissenschaftlichen Arbeiten.'
                   -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Akademische Ghostwriter helfen nicht nur  im Schreibprozess, sondern auch bei der Literaturrecherche oder der Forschungsfrage'
-                          -
-                            type: hard_break
+                    type: hard_break
             show_as_card: false
           -
             bard:
@@ -734,7 +748,7 @@ replicator:
                 attrs:
                   values:
                     type: video
-                    video: 'https://youtu.be/BFHgSZP9rCE'
+                    video: 'https://youtu.be/OZ8ZEHZkeb0'
               -
                 type: paragraph
             show_as_card: false
@@ -1930,7 +1944,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640086868
+updated_at: 1640088308
 template: default
 use_meta_keywords: false
 no_index_page: false
