@@ -21,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Mustervorlage für Hausarbeit schreiben lassen'
+        text: 'Mustervorlage für Seminararbeit schreiben lassen'
   -
     type: paragraph
     content:
@@ -34,7 +34,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Hilfe vom akademischen Ghostwriter bei Ihrer Hausarbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Hilfe vom akademischen Ghostwriter bei Ihrer Seminararbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -308,117 +308,6 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Hausarbeit'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Studierende beauftragen häufig für die Unterstützung bei ihren Seminararbeiten Ghostwriter. Diese bieten eine Vielzahl von Leistungen und Hilfestellungen an. Sie können daher zu jedem Zeitpunkt des Arbeitsverlaufs beauftragt werden können.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Oft geschieht dies direkt am Anfang bei der Themenwahl und der Definition der Leitfrage, bei Problemen bei der Literaturrecherche, dem Aufbau einer Seminararbeit, deren Exposé und der Erstellung von Präsentation. Zudem ist es möglich, einen akademischen Experten im Laufe des Schreibprozesses um Rat zu fragen. Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, die Seminararbeit Korrekturlesen und von einem Wissenschaftslektor kontrollieren zu lassen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: "Neben der Korrektur und dem\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: _blank
-                          rel: null
-                    text: Lektorat
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: "\_der Seminararbeit, kann zusätzlich eine umfassende\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: _blank
-                          rel: null
-                    text: Plagiatsprüfung
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: "\_durch unsere Ghostwriting-Agentur erfolgen. Auch ein sog. Coaching mit fachlichem Wissen unterstützt den Studenten bei seiner Seminararbeit oder im Studienprozess. Einige Studenten möchten sich auch eine Mustervorlage für ihre Seminararbeit schreiben lassen, um diese Arbeit als Vorlage für ihre eigene akademischen Arbeit zu nutzen."
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
         single-col: false
         grid:
           -
@@ -574,31 +463,120 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
+        columns_per_row: 1
+        single-col: true
         grid:
           -
             bard:
               -
-                type: set
+                type: heading
                 attrs:
-                  values:
-                    type: spacer
-                    padding-y: '20'
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Hausarbeit'
               -
                 type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/arbeiten/seminararbeit/seminararbeit_schreiben_lassen_professoren_doktoren.png
-                    img-alignment: justify-center
-                    has_border: false
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Studierende beauftragen häufig für die Unterstützung bei ihren Seminararbeiten Ghostwriter. Diese bieten eine Vielzahl von Leistungen und Hilfestellungen an. Sie können daher zu jedem Zeitpunkt des Arbeitsverlaufs beauftragt werden können.'
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Oft geschieht dies direkt am Anfang bei der Themenwahl und der Definition der Leitfrage, bei Problemen bei der Literaturrecherche, dem Aufbau einer Seminararbeit, deren Exposé und der Erstellung von Präsentation. Zudem ist es möglich, einen akademischen Experten im Laufe des Schreibprozesses um Rat zu fragen. Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, die Seminararbeit Korrekturlesen und von einem Wissenschaftslektor kontrollieren zu lassen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Neben der Korrektur und dem\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: _blank
+                          rel: null
+                    text: Lektorat
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "\_der Seminararbeit, kann zusätzlich eine umfassende\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          target: _blank
+                          rel: null
+                    text: Plagiatsprüfung
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "\_durch unsere Ghostwriting-Agentur erfolgen. Auch ein sog. Coaching mit fachlichem Wissen unterstützt den Studenten bei seiner Seminararbeit oder im Studienprozess. Einige Studenten möchten sich auch eine Mustervorlage für ihre Seminararbeit schreiben lassen, um diese Arbeit als Vorlage für ihre eigene akademischen Arbeit zu nutzen."
             show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
           -
             bard:
               -
@@ -657,87 +635,6 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Da wir keine Studenten oder Hobbyschreiber beschäftigen, können wir Ihnen eine qualitativ hochwertige Mustervorlage garantieren. Bei unseren erfahrenen akademischen Autoren handelt es sich größtenteils um Doktoren oder Professoren. Da diese selbst promoviert oder habilitiert haben, kennen Sie alle Schwierigkeiten des wissenschaftlichen Arbeitens.'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(0,0,0,var(--tw-text-opacity)) !important'
-                          hex: '#000'
-                    text: 'Warum sollten Sie sich unterstützen lassen?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                          hex: '#000'
-                    text: "Im Video erklären wir Ihnen, wie eine Seminararbeit aufgebaut ist und wie sich der wissenschaftlicher Service von unserer\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                          hex: '#000'
-                    text: "akademischen Ghostwriting-Agentur für Seminararbeiten\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                          hex: '#000'
-                    text: 'gestaltet. Dies gilt natürlich auch für alle anderen Formen von wissenschaftlichen Arbeiten.'
                   -
                     type: hard_break
             show_as_card: false
@@ -754,105 +651,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F2F2F2'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                          hex: '#000'
-                    text: "Mustervorlage für Hausarbeit\_schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/anfrage.png
-                    text: |-
-                      <br>
-                      <br>
-                      Nach einer unverbindlichen Anfrage auf der Webseite, erhalten Sie ein kostenloses Leistungsangebot und eine individuelle Beratung zur Planung eines Projektes von unseren Kundenberater. Nach einer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre Arbeit. Unsere professionellen Projektmanager aus unserer Schreibservice übernehmen die gesamte Kommunikation, sodass stets Ihre Anonymität und gleichzeitig auch die Unbekanntheit des Autors gesichert ist. Bei größeren Seminararbeiten oder auch bei Ihrer Abschlussarbeit ist auch eine anonyme Telefonkonferenz mit dem jeweiligen Autor möglich.
-                    ausrichtung: bild-text
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/termineplanen.png
-                    text: |+
-                      <br>
-                      <br>
-                      Je nach Umfang der Mustervorlage werden eine oder mehrere Teillieferungen vereinbart. Gerade diese Teillieferungstermine sind wichtig, um einen Abgleich zu erhalten zwischen Ihren Anforderungen aus dem Thema heraus und dem, was Ihr Autor geliefert hat. Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich auch kostenlos im Rahmen der weiteren Umsetzungsschritte realisiert.
-
-                    ausrichtung: text-bild
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
-                    ausrichtung: bild-text
-                    text: 'Bei Fragen und Änderungswünschen, die im Rahmen dieses gesamten Projektes auftreten, ist ihr Projektmanager immer Ihr persönlicher Ansprechpartner. Dieser Ansprechpartner bleibt immer gleich während des gesamten Projektes und ist bei Fragen oder Problemen telefonisch oder per E-Mail ständig für Sie erreichbar.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
-                    ausrichtung: text-bild
-                    text: |-
-                      <br>
-                      <br>
-                      Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen Lektor kontrolliert mit Hilfe einer professionellen Software auf Plagiate geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben.
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
@@ -958,11 +760,298 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: 1
+        columns_per_row: '2'
         single-col: false
         grid:
           -
             bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Was ist eine Seminararbeit?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Seminare sind Veranstaltungen an Hochschulen, die sich über den regen Austausch zwischen Studenten und Hochschullehrer definieren. Der Abschluss eines solchen Seminars wird meist erreicht, indem die Lehrinstitutionen von ihren Studenten Referate bzw. Präsentationen erwarten oder eine Seminararbeit schreiben lassen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Dadurch soll der Student nicht nur den Umgang mit wissenschaftlichen Fragestellungen erlernen, sondern auch seine Leistungen und Ergebnisse angemessen in Schrift umsetzen. Solche Projektarbeiten und Aufgaben dienen zur Vorbereitung einer Bachelorarbeit oder Masterarbeit.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Durch die nicht selten fehlende Erfahrung mit wissenschaftlichen Arbeiten und deren Aufgaben, in Verbindung mit Leistungs- und Zeitdruck, sind einige Studenten schon den akademischen Texten überfordert. Sie benötigen weitaus mehr Hilfe bei der Seminararbeit, als es einige Hochschulen bieten können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die Hilflosigkeit hat bei einigen Studenten dazu geführt, dass diese von einem erfahrenen Ghostwriter ihre Seminararbeit schreiben lassen. Dabei sollte jedoch die Seminararbeit des Ghostwriters lediglich als Mustervorlage dienen, da es sich um eine Prüfungsleistung handelt, die vom Studenten selbst erstellt werden muss.'
+            show_as_card: true
+          -
+            bard: null
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: true
+    bg-color: '#F9F9F9'
+    bg-image: seiten/arbeiten/seminararbeit/seminararbeit-plan.jpg
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: "Mustervorlage für Hausarbeit\_schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/arbeiten/hausarbeit/anfrage.png
+                    text: |-
+                      <br>
+                      <br>
+                      Nach einer unverbindlichen Anfrage auf der Webseite, erhalten Sie ein kostenloses Leistungsangebot und eine individuelle Beratung zur Planung eines Projektes von unseren Kundenberater. Nach einer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre Arbeit. Unsere professionellen Projektmanager aus unserer Schreibservice übernehmen die gesamte Kommunikation, sodass stets Ihre Anonymität und gleichzeitig auch die Unbekanntheit des Autors gesichert ist. Bei größeren Seminararbeiten oder auch bei Ihrer Abschlussarbeit ist auch eine anonyme Telefonkonferenz mit dem jeweiligen Autor möglich.
+                    ausrichtung: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/arbeiten/hausarbeit/termineplanen.png
+                    text: |+
+                      <br>
+                      <br>
+                      Je nach Umfang der Mustervorlage werden eine oder mehrere Teillieferungen vereinbart. Gerade diese Teillieferungstermine sind wichtig, um einen Abgleich zu erhalten zwischen Ihren Anforderungen aus dem Thema heraus und dem, was Ihr Autor geliefert hat. Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich auch kostenlos im Rahmen der weiteren Umsetzungsschritte realisiert.
+
+                    ausrichtung: text-bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
+                    ausrichtung: bild-text
+                    text: 'Bei Fragen und Änderungswünschen, die im Rahmen dieses gesamten Projektes auftreten, ist ihr Projektmanager immer Ihr persönlicher Ansprechpartner. Dieser Ansprechpartner bleibt immer gleich während des gesamten Projektes und ist bei Fragen oder Problemen telefonisch oder per E-Mail ständig für Sie erreichbar.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
+                    ausrichtung: text-bild
+                    text: |-
+                      <br>
+                      <br>
+                      Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen Lektor kontrolliert mit Hilfe einer professionellen Software auf Plagiate geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben.
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Warum sollte man auf Hilfe von Ghostwritern bei der Seminararbeit zurückgreifen?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Im Rahmen eines Studiums sehen sich Studenten mit verschiedensten Aufgabenstellungen konfrontiert. Seminararbeiten, Klausuren und Hausarbeiten, all diese Themen und entstehende Zeitprobleme stellen Studenten vor neue Herausforderungen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Seminararbeiten sollen den Studenten auf das wissenschaftliche Arbeiten vorbereiten und sind besonders im Hinblick auf Abschlussarbeiten, wie die Bachelorarbeit und Masterarbeit, von großer Bedeutung. In überfüllten Hörsälen ist es jedoch nicht möglich, dem Seminarleiter zu folgen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Es fehlt also häufig an Kompetenz und Fähigkeiten, selbstständig eine Seminararbeit zu schreiben. In solchen Fällen ist es also ratsam, auf Hilfe zurückzugreifen. Für den akademischen Freelancer stellt die Unterstützung und das\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: "\_bei einer solchen Seminararbeit keine große Herausforderung dar, für ihn ist der Anspruch vergleichsweise gering. "
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'So hilft der Bearbeiter dem Studenten gezielt bei seinen Defiziten und unterstützt ihn beispielsweise bei der Gliederung der Seminararbeit. An der abgeschlossenen Seminararbeit kann er die Methodik sehr gut nachvollziehen und muss sie sich nicht mühsam in Eigenregie anlernen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Professionell erstellte Mustervorlagen bieten gute Orientierungsmöglichkeiten für den Anfang des Studiums beim Schreiben einer Seminararbeit. Ghostwriter betrachten jede akademische Aufgabe aus einer wissenschaftlichen Perspektive. Sie besitzen sowohl das Wissen zur Erstellung einer Seminararbeit, als auch umfassende praktische Erfahrung bei der Erstellung wissenschaftlicher Arbeiten in Form der Forschungsmethodik'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: .
+            show_as_card: false
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '25'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - seiten/arbeiten/seminararbeit/Seminararbeit.jpg
+                    img-alignment: justify-end
+                    has_border: false
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -972,6 +1061,7 @@ replicator:
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
                     color: '#FF6606'
                     spacing_top: false
+                    button_align: justify-center
               -
                 type: paragraph
             show_as_card: false
@@ -982,6 +1072,152 @@ replicator:
     bg-toggle: false
     bg-image-fixed: false
     border: true
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Was erwartet Sie bei einer Ghostwriter Seminararbeit?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird diese Hilfe nicht geboten, bietet sich die Option, dass sich Studierende eine Mustervorlage von einem Ghostwriter für ihre Seminararbeit schreiben lassen. Diese Ghostwriting-Seminararbeit kann anschließend als Beispiel unterstützend genutzt werden. Um Ihnen eine bessere Vorstellung davon zu geben, was Sie von unserer Schreibagentur erhalten, stellen wir Ihnen im Folgenden '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'ein Ghostwriting Beispiel zum kostenlosen Download bereit:'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#F7F7F7'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/besipielarbeit.JPG
+                    ex_title: 'Auswirkungen der Digitalisierung auf die Wertschöpfungskette'
+                    ex_fachbereich:
+                      - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
+                    ex_type: Seminararbeit
+                    ex_pages: '12'
+                    ex_zitation: 'Harvard Style'
+                    ex_button_link: 'entry::96cae355-3c82-4ead-9c6f-b091dcd86f36'
+                    ex_button_text: WEITERLESEN
+                    ex_color: '#FF6606'
+                    ex_spacing_top: false
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Über den Autor'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - team/wittkamp_gwriters_ghostwriter_rund.png
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Diplom Betriebswirt Marcus Wittkamp'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Senior Ghostwriter & Supervisor'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#F7F7F7'
+    bg-image-fixed: false
+    border: false
     type: add_section
     enabled: true
   -
@@ -1013,61 +1249,61 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wie lässt sich eine erfolgreiche Hausarbeit schreiben?'
+                    text: 'Was ist der Unterschied zwischen einer Vorlesung und einem Seminar?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Eine Hausarbeit wird von Studierenden, im Gegensatz zur Klausur, wie jede akademische Arbeit zu Hause selbständig angefertigt. Es muss eine Argumentation entwickelt werden, '
-                  -
-                    type: text
                     marks:
                       -
-                        type: bold
-                    text: 'die allen wissenschaftlichen Standards entspricht'
-                  -
-                    type: text
-                    text: '. Dies soll die Fähigkeiten des Studenten oder der Studentin hinsichtlich der Konzeption und Organisation von wissenschaftlichen Arbeitsprozessen fördern.'
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'In der Vorlesung hält ein Dozent Vorträge über bestimmte Themen, zu denen im Anschluss einzelne Fragen gestellt werden können. Bestimmte Arbeiten werden von den Teilnehmern nicht erwartet, während der Veranstaltung beschränkt sich die Mitarbeit der Studenten lediglich auf Mitschriften.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Es muss eine '
-                  -
-                    type: text
                     marks:
                       -
-                        type: bold
-                    text: 'wissenschaftliche Forschungsfrage'
-                  -
-                    type: text
-                    text: ' definiert und eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'tief gehende Literaturrecherche'
-                  -
-                    type: text
-                    text: ' durchgeführt werden. Diese Forschungsfrage muss anhand der recherchierten Informationen entsprechend der zuvor erstellten Gliederung beantwortet werden. In einigen Fachbereichen, wie der Medizin, Biologie und Chemie, wird zusätzlich zum schriftlichen Teil oftmals die Durchführung einer Untersuchung oder eines Experiments erwartet. '
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Seminarveranstaltungen sollen in kleinen Gruppen begleitend zur Vorlesung stattfinden und enden mit einer zu bewertenden Seminararbeit. Sehr häufig finden diese in den Bereichen der BWL, VWL und Jura statt. Der Vorteil einer Seminarveranstaltung ist es, dass durch ihre geringe Teilnehmerzahl Studierende in Seminaren wesentlich stärker in die Wissensvermittlung eingebunden werden.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich '
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die Thematik wird gemeinsam mit dem leitenden Dozenten oder Kommilitonen erarbeitet, besprochen und diskutiert. Im Gegensatz zu Lehrveranstaltungen in den Vorlesungsräumen ist in Seminaren eine aktive Zusammenarbeit erwünscht. In der Praxis scheitert dieses Konzept jedoch oft an der Anzahl der Studenten, die solch ein Seminar belegen möchten.'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'einige Formatvorgaben als gängig erwiesen'
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Diese übersteigt in dem meisten Fällen die erstrebte Anzahl von 5-20 Kursteilnehmern um ein Vielfaches. Kurse mit 80-100 Studierenden sind keine Seltenheit. Solche Umstände führen keineswegs zu einer wirksamen Vermittlung des Lernstoffs und erschweren den Studenten die Beantwortung der Frage „Wie schreibe ich eine Seminararbeit?“'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    text: '. Laut Prüfungsordnung bzw. Hochschulgesetz:'
+                    text: Vorlesung
             show_as_card: false
         type: row
         enabled: true
@@ -1273,152 +1509,6 @@ replicator:
     remove_spacing: true
     is-full: false
     bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Was erwartet Sie bei einer Ghostwriter Hausarbeit?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird diese Hilfe nicht geboten, bietet sich die Option, dass sich Studierende eine Mustervorlage von einem Ghostwriter für ihre Hausarbeit schreiben lassen. Diese Ghostwriting-Hausarbeit kann anschließend als Beispiel unterstützend genutzt werden. Um Ihnen eine bessere Vorstellung davon zu geben, was Sie von unserer Schreibagentur erhalten, stellen wir Ihnen im Folgenden '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'ein Ghostwriting Beispiel zum kostenlosen Download bereit:'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F7F7F7'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/beispielarbeiten-1.JPG
-                    ex_title: 'Weiterentwicklung der Baseler Eigenmittelübereinkunft'
-                    ex_fachbereich:
-                      - 06fbb3f4-51c2-4f11-832e-9b72a495857d
-                    ex_type: Hausarbeit
-                    ex_pages: '10'
-                    ex_zitation: 'Harvard Style'
-                    ex_button_link: 'entry::21ef3416-f1fd-43eb-8e38-ec597763c45f'
-                    ex_button_text: WEITERLESEN
-                    ex_color: '#FF6606'
-                    ex_spacing_top: false
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '20'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Über den Autor'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating-img
-                    dateien:
-                      - team/wittkamp_gwriters_ghostwriter_rund.png
-                    img_size: w-1/2
-                    float: mx-auto
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Diplom Betriebswirt Marcus Wittkamp'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Senior Ghostwriter & Supervisor'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F7F7F7'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -1945,7 +2035,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640097940
+updated_at: 1640104401
 template: default
 use_meta_keywords: false
 no_index_page: false
