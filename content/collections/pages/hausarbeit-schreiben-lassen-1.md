@@ -669,6 +669,14 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -790,7 +798,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Seminare sind Veranstaltungen an Hochschulen, die sich über den regen Austausch zwischen Studenten und Hochschullehrer definieren. Der Abschluss eines solchen Seminars wird meist erreicht, indem die Lehrinstitutionen von ihren Studenten Referate bzw. Präsentationen erwarten oder eine Seminararbeit schreiben lassen.'
+                    text: 'Seminare sind '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Veranstaltungen an Hochschulen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', die sich über den regen Austausch zwischen Studenten und Hochschullehrer definieren. Der Abschluss eines solchen Seminars wird meist erreicht, indem die Lehrinstitutionen von ihren Studenten '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Referate bzw. Präsentationen erwarten oder eine Seminararbeit'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' schreiben lassen.'
               -
                 type: paragraph
                 content:
@@ -826,7 +874,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Die Hilflosigkeit hat bei einigen Studenten dazu geführt, dass diese von einem erfahrenen Ghostwriter ihre Seminararbeit schreiben lassen. Dabei sollte jedoch die Seminararbeit des Ghostwriters lediglich als Mustervorlage dienen, da es sich um eine Prüfungsleistung handelt, die vom Studenten selbst erstellt werden muss.'
+                    text: 'Die Hilflosigkeit hat bei einigen Studenten dazu geführt, dass diese von einem erfahrenen Ghostwriter ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Seminararbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Dabei sollte jedoch die Seminararbeit des Ghostwriters lediglich als Mustervorlage dienen, da es sich um eine Prüfungsleistung handelt, die vom Studenten selbst erstellt werden muss.'
             show_as_card: true
           -
             bard: null
@@ -886,10 +954,7 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/arbeiten/hausarbeit/anfrage.png
-                    text: |-
-                      <br>
-                      <br>
-                      Nach einer unverbindlichen Anfrage auf der Webseite, erhalten Sie ein kostenloses Leistungsangebot und eine individuelle Beratung zur Planung eines Projektes von unseren Kundenberater. Nach einer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre Arbeit. Unsere professionellen Projektmanager aus unserer Schreibservice übernehmen die gesamte Kommunikation, sodass stets Ihre Anonymität und gleichzeitig auch die Unbekanntheit des Autors gesichert ist. Bei größeren Seminararbeiten oder auch bei Ihrer Abschlussarbeit ist auch eine anonyme Telefonkonferenz mit dem jeweiligen Autor möglich.
+                    text: 'Nach einer [**unverbindlichen Anfrage**](/anfrage) auf der Webseite, erhalten Sie ein **kostenloses Leistungsangebot** und eine individuelle Beratung zur Planung eines Projektes von unseren Kundenberater. Nach einer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre Arbeit. Unsere professionellen Projektmanager aus unserer Schreibservice übernehmen die gesamte Kommunikation, sodass stets Ihre Anonymität und gleichzeitig auch die Unbekanntheit des Autors gesichert ist. Bei größeren Seminararbeiten oder auch bei Ihrer Abschlussarbeit ist auch eine anonyme Telefonkonferenz mit dem jeweiligen Autor möglich.'
                     ausrichtung: bild-text
               -
                 type: set
@@ -899,9 +964,7 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/termineplanen.png
                     text: |+
-                      <br>
-                      <br>
-                      Je nach Umfang der Mustervorlage werden eine oder mehrere Teillieferungen vereinbart. Gerade diese Teillieferungstermine sind wichtig, um einen Abgleich zu erhalten zwischen Ihren Anforderungen aus dem Thema heraus und dem, was Ihr Autor geliefert hat. Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich auch kostenlos im Rahmen der weiteren Umsetzungsschritte realisiert.
+                      **Je nach Umfang der Mustervorlage** werden eine oder mehrere Teillieferungen vereinbart. Gerade diese [**Teillieferungstermine**](/blog/ghostwriting-gwriters-teillieferungen) sind wichtig, um einen Abgleich zu erhalten zwischen Ihren Anforderungen aus dem Thema heraus und dem, was Ihr Autor geliefert hat. Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich auch **kostenlos** im Rahmen der weiteren Umsetzungsschritte realisiert.
 
                     ausrichtung: text-bild
               -
@@ -922,9 +985,8 @@ replicator:
                       - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
                     ausrichtung: text-bild
                     text: |-
-                      <br>
-                      <br>
-                      Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen Lektor kontrolliert mit Hilfe einer professionellen Software auf Plagiate geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben.
+
+                      Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen [Lektor](/lektorat) kontrolliert mit Hilfe einer professionellen Software auf [Plagiate](/leistungen/plagiatspruefung) geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben.
               -
                 type: paragraph
             show_as_card: false
@@ -973,7 +1035,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Im Rahmen eines Studiums sehen sich Studenten mit verschiedensten Aufgabenstellungen konfrontiert. Seminararbeiten, Klausuren und Hausarbeiten, all diese Themen und entstehende Zeitprobleme stellen Studenten vor neue Herausforderungen.'
+                    text: 'Im Rahmen eines Studiums sehen sich Studenten mit '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'verschiedensten Aufgabenstellungen konfrontiert. Seminararbeiten, Klausuren und Hausarbeiten'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', all diese Themen und entstehende Zeitprobleme stellen Studenten vor neue Herausforderungen.'
               -
                 type: paragraph
                 content:
@@ -991,7 +1073,25 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Es fehlt also häufig an Kompetenz und Fähigkeiten, selbstständig eine Seminararbeit zu schreiben. In solchen Fällen ist es also ratsam, auf Hilfe zurückzugreifen. Für den akademischen Freelancer stellt die Unterstützung und das\_"
+                    text: 'Es fehlt also häufig an '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Kompetenz und Fähigkeiten, selbstständig eine Seminararbeit zu schreiben'
+                  -
+                    type: text
+                    text: '. In solchen Fällen ist es also ratsam, auf '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Hilfe
+                  -
+                    type: text
+                    text: " zurückzugreifen. Für den akademischen Freelancer stellt die Unterstützung und das\_"
                   -
                     type: text
                     marks:
@@ -1010,13 +1110,37 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'So hilft der Bearbeiter dem Studenten gezielt bei seinen Defiziten und unterstützt ihn beispielsweise bei der Gliederung der Seminararbeit. An der abgeschlossenen Seminararbeit kann er die Methodik sehr gut nachvollziehen und muss sie sich nicht mühsam in Eigenregie anlernen.'
+                    text: 'So hilft der Bearbeiter dem Studenten gezielt bei seinen Defiziten und unterstützt ihn beispielsweise bei der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Gliederung der Seminararbeit'
+                  -
+                    type: text
+                    text: '. An der abgeschlossenen Seminararbeit kann er die Methodik sehr gut nachvollziehen und muss sie sich nicht mühsam in Eigenregie anlernen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Professionell erstellte Mustervorlagen bieten gute Orientierungsmöglichkeiten für den Anfang des Studiums beim Schreiben einer Seminararbeit. Ghostwriter betrachten jede akademische Aufgabe aus einer wissenschaftlichen Perspektive. Sie besitzen sowohl das Wissen zur Erstellung einer Seminararbeit, als auch umfassende praktische Erfahrung bei der Erstellung wissenschaftlicher Arbeiten in Form der Forschungsmethodik'
+                    text: 'Professionell erstellte Mustervorlagen bieten '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'gute Orientierungsmöglichkeiten'
+                  -
+                    type: text
+                    text: ' für den Anfang des Studiums beim Schreiben einer Seminararbeit. Ghostwriter betrachten jede akademische Aufgabe aus einer wissenschaftlichen Perspektive. Sie besitzen sowohl das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wissen zur Erstellung einer Seminararbeit, als auch umfassende praktische Erfahrung bei der Erstellung wissenschaftlicher Arbeiten in Form der Forschungsmethodik'
                   -
                     type: text
                     marks:
@@ -1083,6 +1207,14 @@ replicator:
         grid:
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '22'
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1221,18 +1353,11 @@ replicator:
     type: add_section
     enabled: true
   -
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
     columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single-col: false
         grid:
           -
             bard:
@@ -1243,70 +1368,531 @@ replicator:
                     type: spacer
                     padding-y: '30'
               -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                     text: 'Was ist der Unterschied zwischen einer Vorlesung und einem Seminar?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'In der Vorlesung hält ein Dozent Vorträge über bestimmte Themen, zu denen im Anschluss einzelne Fragen gestellt werden können. Bestimmte Arbeiten werden von den Teilnehmern nicht erwartet, während der Veranstaltung beschränkt sich die Mitarbeit der Studenten lediglich auf Mitschriften.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Seminarveranstaltungen sollen in kleinen Gruppen begleitend zur Vorlesung stattfinden und enden mit einer zu bewertenden Seminararbeit. Sehr häufig finden diese in den Bereichen der BWL, VWL und Jura statt. Der Vorteil einer Seminarveranstaltung ist es, dass durch ihre geringe Teilnehmerzahl Studierende in Seminaren wesentlich stärker in die Wissensvermittlung eingebunden werden.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Die Thematik wird gemeinsam mit dem leitenden Dozenten oder Kommilitonen erarbeitet, besprochen und diskutiert. Im Gegensatz zu Lehrveranstaltungen in den Vorlesungsräumen ist in Seminaren eine aktive Zusammenarbeit erwünscht. In der Praxis scheitert dieses Konzept jedoch oft an der Anzahl der Studenten, die solch ein Seminar belegen möchten.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Diese übersteigt in dem meisten Fällen die erstrebte Anzahl von 5-20 Kursteilnehmern um ein Vielfaches. Kurse mit 80-100 Studierenden sind keine Seltenheit. Solche Umstände führen keineswegs zu einer wirksamen Vermittlung des Lernstoffs und erschweren den Studenten die Beantwortung der Frage „Wie schreibe ich eine Seminararbeit?“'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: Vorlesung
             show_as_card: false
         type: row
         enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#D6D6D6'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+              -
+                type: set
+                attrs:
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '1.'
+                        beschreibung: 'In der Vorlesung hält ein Dozent Vorträge über bestimmte Themen, zu denen im Anschluss einzelne Fragen gestellt werden können. Bestimmte Arbeiten werden von den Teilnehmern nicht erwartet, während der Veranstaltung beschränkt sich die Mitarbeit der Studenten lediglich auf Mitschriften.'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '2.'
+                        beschreibung: 'Seminarveranstaltungen sollen in kleinen Gruppen begleitend zur Vorlesung stattfinden und enden mit einer zu bewertenden Seminararbeit. Sehr häufig finden diese in den Bereichen der BWL, VWL und Jura statt. Der Vorteil einer Seminarveranstaltung ist es, dass durch ihre geringe Teilnehmerzahl Studierende in Seminaren wesentlich stärker in die Wissensvermittlung eingebunden werden.'
+              -
+                type: paragraph
+              -
+                type: paragraph
+              -
+                type: paragraph
+              -
+                type: paragraph
+            show_as_card: true
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '3.'
+                        beschreibung: 'Die Thematik wird gemeinsam mit dem leitenden Dozenten oder Kommilitonen erarbeitet, besprochen und diskutiert. Im Gegensatz zu Lehrveranstaltungen in den Vorlesungsräumen ist in Seminaren eine aktive Zusammenarbeit erwünscht. In der Praxis scheitert dieses Konzept jedoch oft an der Anzahl der Studenten, die solch ein Seminar belegen möchten.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '7'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '4.'
+                        beschreibung: 'Diese übersteigt in dem meisten Fällen die erstrebte Anzahl von 5-20 Kursteilnehmern um ein Vielfaches. Kurse mit 80-100 Studierenden sind keine Seltenheit. Solche Umstände führen keineswegs zu einer wirksamen Vermittlung des Lernstoffs und erschweren den Studenten die Beantwortung der Frage „Wie schreibe ich eine Seminararbeit?“'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '12'
+              -
+                type: paragraph
+            show_as_card: true
+        type: row
+        enabled: true
+    bg-color: '#D6D6D6'
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Zusammenfassung: Vorlesung vs. Seminar'
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Vorlesung '
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Seminar
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'in Großgruppen 80-200 Teilnehmer'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'in Kleingruppen 20-30 Teilnehmer'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Passive Zusammenarbeit mit Dozenten & Kommilitonen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Aktive Zusammenarbeit mit Dozenten & Kommilitonen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Alle Fachrichtungen '
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Besonders im Bereich BWL, VWL, Jura'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Prüfungsleistung: Klausur'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Prüfungsleistung: wissenschaftliche Arbeit'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Schwierigkeiten beim Zusammenfassen von Vorlesungsfolien'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Schwierigkeiten beim Schreiben einer Seminararbeit'
+            show_as_card: true
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#D6D6D6'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Weitere Experten aus unserer Agentur'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - team/svetlana_patrikeewa_ghostwriter_gwriters.png
+                    has_border: false
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - team/svetlana_patrikeewa_ghostwriter_gwriters.png
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: 'Dr. Cordelia Eule'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: 'Supervisorin & Ghostwriterin'
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - team/kahl_gwriters_ghostwriter-1.png
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: true
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wie schreibt man eine Seminararbeit?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Je nach Fachrichtung und Dozent gelten unterschiedliche Anforderungen bei der Anfertigung der Seminararbeit. Hierbei müssen jedoch die allgemeinen Vorschriften der wissenschaftlichen Arbeit befolgt werden. Diese beinhalten eine streng logische Gliederung, konkrete Leitfrage, saubere und transparente Recherche, schlüssige Gedankengänge und Formulierungen (der sprichwörtliche "rote Faden"), sowie konsistente Zitation der verwendeten Literatur sei es in der Fußnote als auch im Literaturverzeichnis.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'In den Fachbereichen der Mathematik, Physik und Informatik werden oftmals der sichere Umgang mit fachspezifischer Software vorausgesetzt. Oft werden dabei als Unterstützung Muster der Seminararbeit als Beispiele durch den Dozenten veröffentlicht oder durch eine Ghostwriterin eine Seminararbeit als Vorlage erstellt.'
+              -
+                type: set
+                attrs:
+                  enabled: false
+                  values:
+                    type: spacer
+                    padding-y: '100'
+              -
+                type: set
+                attrs:
+                  enabled: false
+                  values:
+                    type: spacer
+                    padding-y: '100'
+              -
+                type: set
+                attrs:
+                  enabled: false
+                  values:
+                    type: spacer
+                    padding-y: '100'
+              -
+                type: paragraph
+            show_as_card: true
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: true
+    bg-toggle: true
+    bg-image: seiten/arbeiten/seminararbeit/seminararbeit_schreiben_lassen_professoren_doktoren_.jpg
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
   -
     columns-replicator:
       -
@@ -1323,7 +1909,10 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Gliederung einer Hausarbeit'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Gliederungsebenen der Seminararbeit:'
               -
                 type: bullet_list
                 content:
@@ -1335,7 +1924,19 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Titelblatt
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/deckblatt-vorlage
+                                  target: null
+                                  rel: null
+                            text: Deckblatt
                   -
                     type: list_item
                     content:
@@ -1344,7 +1945,19 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Inhaltsverzeichnis Hausarbeit'
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/inhaltsverzeichnis-vorlage
+                                  target: null
+                                  rel: null
+                            text: 'Inhaltsverzeichnis (Kapitel, Unterkapitel)'
                   -
                     type: list_item
                     content:
@@ -1353,6 +1966,84 @@ replicator:
                         content:
                           -
                             type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/abbildungsverzeichnis
+                                  target: null
+                                  rel: null
+                            text: Abbildungs
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: '- und '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/tabellenverzeichnis-beispiel
+                                  target: null
+                                  rel: null
+                            text: Tabellenverzeichnis
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/abkuerzungsverzeichnis
+                                  target: null
+                                  rel: null
+                            text: Abkürzungsverzeichnis
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/bachelorarbeit-einleitung
+                                  target: null
+                                  rel: null
                             text: Einleitung
                   -
                     type: list_item
@@ -1362,6 +2053,12 @@ replicator:
                         content:
                           -
                             type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
                             text: Hauptteil
                   -
                     type: list_item
@@ -1371,7 +2068,13 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Schluss
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: Schlussteil/Fazit
                   -
                     type: list_item
                     content:
@@ -1380,7 +2083,19 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Bildverzeichnis
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/literaturverzeichnis-beispiel
+                                  target: null
+                                  rel: null
+                            text: Literaturverzeichnis
                   -
                     type: list_item
                     content:
@@ -1389,15 +2104,18 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Literatur- und Quellenverzeichnis'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/anhangsverzeichnis
+                                  target: null
+                                  rel: null
                             text: Anhang
                   -
                     type: list_item
@@ -1407,8 +2125,28 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Selbstständigkeitserklärung
-            show_as_card: false
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/eidesstattliche-erklaerung-muster
+                                  target: null
+                                  rel: null
+                            text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '34'
+              -
+                type: paragraph
+            show_as_card: true
           -
             bard:
               -
@@ -1418,7 +2156,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Formatierungsrichtlinien einer Hausarbeit'
+                    text: 'Formatierungsrichtlinien einer Seminararbeit'
               -
                 type: bullet_list
                 content:
@@ -1430,7 +2168,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Schriftart: Times New Roman (oder Arial Größe 11)'
+                            text: 'Schriftart: Times New Roman/Arial'
                   -
                     type: list_item
                     content:
@@ -1439,7 +2177,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Schriftgröße: 12 Punkt'
+                            text: 'Schriftgröße und –Art im Fließtext: 12 Pt, Blocksatz'
                   -
                     type: list_item
                     content:
@@ -1457,7 +2195,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Ränder: oben und unten jeweils 2,5 cm, links und rechts jeweils 3 cm'
+                            text: 'Seitenrand: oben und unten je 2,5cm, links 5cm, rechts 1,5cm'
                   -
                     type: list_item
                     content:
@@ -1466,7 +2204,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Absatzformat: Blocksatz (auf Trennung achten)'
+                            text: 'Seitenzahlen: unten zentriert/rechts'
                   -
                     type: list_item
                     content:
@@ -1475,7 +2213,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Fußnoten: Schriftgröße 10'
+                            text: 'Kapitelüberschriften: 14 Pt Fettdruck'
                   -
                     type: list_item
                     content:
@@ -1484,8 +2222,26 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Nummerierung: alle Seiten nummeriert, außer Titelblatt, Inhaltsverzeichnis einer Hausarbeit, Literaturverzeichnis und Anhang'
-            show_as_card: false
+                            text: 'Unterkapitelüberschriften: 12 Pt Fettdruck'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Fußnotentext: 10 Pt Blocksatz, 1,0-zeilig, Fußnoten werden hoch gestellt'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Nummerierung: alle Seiten nummeriert, außer Deckblatt, Inhaltsverzeichnis, Literaturverzeichnis und Anhang'
+            show_as_card: true
         type: row
         enabled: true
       -
@@ -1507,12 +2263,13 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
+    is-full: true
     bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
     enabled: true
+    bg-color: '#F9F9F9'
   -
     columns-replicator:
       -
@@ -1523,85 +2280,28 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: heading
-                attrs:
-                  level: 2
+                type: blockquote
                 content:
                   -
-                    type: text
-                    text: 'Wann sollten Sie sich unterstützen lassen?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die Ansprüche an eine wissenschaftliche Arbeit sind hoch. Eine '
-                  -
-                    type: text
-                    marks:
+                    type: heading
+                    attrs:
+                      level: 3
+                    content:
                       -
-                        type: bold
-                    text: 'gute Hausarbeit zu schreiben'
+                        type: text
+                        text: Disclaimer
                   -
-                    type: text
-                    text: ' setzt eine gründliche und tief gehende Literaturrecherche voraus. Hierbei ist es wichtig, die relevanten Informationen und Literaturquellen aus verschiedenen Datenbanken herauszufiltern. Anschließend gilt es, diese Ergebnisse zusammenzuführen, zu analysieren und zu interpretieren. So soll sich eine gesamthafte Analyse entwickeln.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Zudem soll die '
-                  -
-                    type: text
-                    marks:
+                    type: paragraph
+                    content:
                       -
-                        type: bold
-                    text: 'zentrale Forschungsfrage mit Würdigung des aktuellen Forschungsstands'
-                  -
-                    type: text
-                    text: ' auf wenigen Seiten erforscht werden. Unerfahrene Studienanfänger sind oftmals mit dem Komprimieren der Informationsmenge und aufgrund der hohen akademischen Ansprüche überfordert. Dadurch stoßen Studierende auf Schreibblockaden und andere Probleme, besonders wenn diese ihre erste Hausarbeit schreiben.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In solchen Fällen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'helfen unsere akademischen Ghostwriter von GWriters'
-                  -
-                    type: text
-                    text: '. Diese verfügen über einen ausgedehnten Erfahrungsschutz im Verfassen wissenschaftlicher Arbeiten. Sie besitzen darüber hinaus auch das notwendige methodische und fachliche Wissen für das Verfassen akademischer Texte.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Unsere Experten kennen in ihrem Fachbereich immer den aktuellen Forschungsstand'
-                  -
-                    type: text
-                    text: ' und haben Zugriff auf die notwendigen Literatur-Datenbanken. Wir arbeiten zudem mit modernster Analyse Software wie SPSS, Stata oder R für statistische Analysen sowie MAXQDA für qualitative Analysen. Dies zeichnet eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'seriöse Ghostwriting Agentur'
-                  -
-                    type: text
-                    text: ' aus.'
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
               -
                 type: set
                 attrs:
@@ -1609,21 +2309,30 @@ replicator:
                     type: spacer
                     padding-y: '20'
               -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Einige unserer Blogartikel zum Thema Seminararbeit & Mustervorlage für Seminararbeit schreiben lassen'
+              -
                 type: set
                 attrs:
                   values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    button_align: justify-center
-                    spacing_top: false
+                    type: blog_entries
+                    entries:
+                      - 774827ee-5840-450d-aca6-d60187adc46b
+                      - 3c662ff8-7e35-4ed6-9cae-348bc90902d1
+                      - 5187b076-6402-4ce5-a509-9b507d9f773c
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
+                    padding-y: '40'
               -
                 type: paragraph
               -
@@ -1633,245 +2342,92 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Hausarbeit schreiben lassen: Kosten & Preise'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Nützliche Weblinks & Referenzen'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Wenn Sie über eine seriöse Agentur für Ghostwriting eine Mustervorlage für Ihre Hausarbeit kaufen möchten, dann erwarten Sie '
-                  -
-                    type: text
                     marks:
                       -
-                        type: bold
-                    text: 'faire aber auch angemessene Preise'
-                  -
-                    type: text
-                    text: '. Seien Sie daher vorsichtig: Wenn Sie Ihre '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Hausarbeit günstig'
-                  -
-                    type: text
-                    text: ' schreiben lassen wollen, erwarten Sie häufig Lockangebote von unseriösen '
-                  -
-                    type: text
-                    marks:
+                        type: textAlign
+                        attrs:
+                          align: center
                       -
                         type: link
                         attrs:
-                          href: /achtung-ghostwriter-betrug
-                          target: null
-                          rel: null
-                    text: Ghostwriting-Betrügern
+                          href: 'https://www.avl.uni-mainz.de/hinweise-zum-erstellen-einer-seminararbeit/'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Hinweise zum Erstellen einer Seminararbeit - Johannes Gutenberg Universität Mainz'
                   -
-                    type: text
-                    text: .
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Jeder Kostenvoranschlag von GWriters enthält die Kosten für:'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
+                    type: hard_break
+                    marks:
                       -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'die fachliche und wissenschaftliche Kompetenz der Agentur'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'die professionelle Betreuung durch individuelle Projektmanager'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'die Bearbeitung durch erfahrene akademische Ghostwriter'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'und schließlich die Kosten für ein abschließendes Lektorat.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Aufgrund dieser Leistungsbestandteile können wir nur durch ein angemessenes Honorar die '
+                        type: textAlign
+                        attrs:
+                          align: center
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'hohe Qualität Ihrer Hausarbeit garantieren'
-                  -
-                    type: text
-                    text: '. Diese Leistungen können selbstständige Ghostwriter oder Billig-Ghostwriter-Agenturen, die mit günstigen Preisen werben, oftmals nicht bieten.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Je nach Anfrage variieren die Kosten für Hausarbeiten in verschiedenen Fachbereichen. Welche Hausarbeit günstig und welche teuer ist, liegt somit auch an den Ansprüchen an die Mustervorlage. Details hierzu können in einem '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'kostenlosen Erstgespräch'
-                  -
-                    type: text
-                    text: ' geklärt werden. Vorläufige Informationen zu anfallenden Kosten bietet auch unser Rechner für '
-                  -
-                    type: text
-                    marks:
+                        type: textAlign
+                        attrs:
+                          align: center
                       -
                         type: link
                         attrs:
-                          href: /preise
-                          target: null
-                          rel: null
-                    text: Ghostwriter-Preise
+                          href: 'https://www.slm.uni-hamburg.de/iaa/studium/downloads/hausarbeiten-und-lektuerelisten.html'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Hausarbeiten und Lektürelisten - Universität Hamburg'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                   -
                     type: text
-                    text: .
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.uni-muenster.de/imperia/md/content/ew/personen/fuerstenau/zak_leitfaden_erstellung_seminarbeit_10-07.pdf'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Formvorgaben für Seminararbeiten - Westfälische Wilhelms-Universität Münster'
               -
-                type: heading
-                attrs:
-                  level: 2
+                type: paragraph
+              -
+                type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Häufig gestellte Fragen'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: accordion-custom-wrapper
-                    items:
+                    marks:
                       -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Welche Qualifikationen hat mein akademischer Ghostwriter?'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Wir garantieren, dass es sich bei Ihrem Ghostwriter um einen absoluten Experten in Ihrem Fachgebiet handelt. In unserer Agentur setzen wir mindestens einen Masterabschluss voraus. Bei vielen unserer Ghostwriter handelt es sich aber um Doktoren und auch Professoren, die selbst noch in der Wissenschaft aktiv sind.'
-                        active: false
+                        type: bold
                       -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Wie wird bei GWriters meine Anonymität sichergestellt?'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO/GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts.'
-                        active: false
+                        type: textAlign
+                        attrs:
+                          align: center
                       -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Was kostet eine Mustervorlage für meine Hausarbeit?'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Eine Mustervorlage für eine 10-seitige Hausarbeit erhalten Sie bereits ab 800 €. Die Preise pro Seite können aber noch variieren, abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen.'
-                        active: false
-                      -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                text: 'Darf ich die erstellte Mustervorlage als eigene Hausarbeit abgeben?'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Hausarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch.'
-                        active: false
-              -
-                type: paragraph
+                        type: link
+                        attrs:
+                          href: /wiki
+                          target: null
+                          rel: null
+                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
@@ -2035,7 +2591,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640104401
+updated_at: 1640121823
 template: default
 use_meta_keywords: false
 no_index_page: false
