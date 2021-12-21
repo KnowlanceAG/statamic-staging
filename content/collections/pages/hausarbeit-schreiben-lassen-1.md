@@ -64,7 +64,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Hausarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Hausarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine GHostwriter Hausarbeit als Mustervorlage für Ihre Hausarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
+                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Seminararbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Seminararbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Hausarbeit als Mustervorlage für Ihre Seminararbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
                       </p>
               -
                 type: set
@@ -183,94 +183,51 @@ replicator:
           -
             bard:
               -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Hausarbeit'
-              -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Aufgrund der häufig überfordernden Studien- und Privatplanung kommt es regelmäßig dazu, dass sich Studenten eine '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Wissenschaftliches Schreiben ist eine der ersten großen Herausforderungen im Rahmen des Studiums für einen Studienanfänger. Es ist üblich, dass Universitäten ihre Studierenden mindestens eine Seminararbeit schreiben lassen. Akademische Ghostwriter werden hierbei oft als Hilfe herangezogen. Grund hierfür ist, dass '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Mustervorlage für ihre wissenschaftliche Hausarbeit schreiben lassen'
-                  -
-                    type: text
-                    text: '. Oft geschieht es direkt zu Beginn einer Texterstellung, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, der Gliederung oder dem Exposé, dass sich Studenten eine '
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Seminararbeiten
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Mustervorlage für Ihre Hausarbeit kaufen'
-                  -
-                    type: text
-                    text: .
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' durch eine starke Gewichtung in Form von Creditpoints eine wichtige Bedeutung für den Studienabschluss haben.'
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Zudem ist es möglich, den Ghostwriter zur '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Betreuung der Hausarbeit einzusetzen'
-                  -
-                    type: text
-                    text: ' und ihn während des gesamten Prozesses unterstützend agieren zu lassen. Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'die Hausarbeit Korrekturlesen zu lassen'
-                  -
-                    type: text
-                    text: '. Neben dem Korrektorat und Lektorat der wissenschaftlichen Arbeit, kann zusätzlich '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'eine umfassende Plagiatsprüfung '
-                  -
-                    type: text
-                    text: 'mit Plagiatssoftware erfolgen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein professionelle Unterstützung durch einen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Hausarbeit Ghostwriter'
-                  -
-                    type: text
-                    text: ' ist zu Studienbeginn besonders ratsam. Zu diesem Zeitpunkt kommt es aufgrund mangelnder Erfahrung zu Flüchtigkeitsfehler beim Schreiben oder im Umgang mit wissenschaftlichen Quellen passieren können. Hier fehlt es oft an '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Hilfestellung bei der Hausarbeit'
-                  -
-                    type: text
-                    text: ' seitens der Betreuer, Professoren und Universitäten.'
             show_as_card: false
         type: row
         enabled: true
@@ -336,6 +293,117 @@ replicator:
                     padding-y: '10'
               -
                 type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Hausarbeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Studierende beauftragen häufig für die Unterstützung bei ihren Seminararbeiten Ghostwriter. Diese bieten eine Vielzahl von Leistungen und Hilfestellungen an. Sie können daher zu jedem Zeitpunkt des Arbeitsverlaufs beauftragt werden können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Oft geschieht dies direkt am Anfang bei der Themenwahl und der Definition der Leitfrage, bei Problemen bei der Literaturrecherche, dem Aufbau einer Seminararbeit, deren Exposé und der Erstellung von Präsentation. Zudem ist es möglich, einen akademischen Experten im Laufe des Schreibprozesses um Rat zu fragen. Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, die Seminararbeit Korrekturlesen und von einem Wissenschaftslektor kontrollieren zu lassen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Neben der Korrektur und dem\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: _blank
+                          rel: null
+                    text: Lektorat
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "\_der Seminararbeit, kann zusätzlich eine umfassende\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          target: _blank
+                          rel: null
+                    text: Plagiatsprüfung
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "\_durch unsere Ghostwriting-Agentur erfolgen. Auch ein sog. Coaching mit fachlichem Wissen unterstützt den Studenten bei seiner Seminararbeit oder im Studienprozess. Einige Studenten möchten sich auch eine Mustervorlage für ihre Seminararbeit schreiben lassen, um diese Arbeit als Vorlage für ihre eigene akademischen Arbeit zu nutzen."
             show_as_card: false
         type: row
         enabled: true
@@ -1819,7 +1887,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640084878
+updated_at: 1640086513
 template: default
 use_meta_keywords: false
 no_index_page: false
