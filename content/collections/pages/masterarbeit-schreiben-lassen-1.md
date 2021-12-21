@@ -2,7 +2,7 @@
 id: 52f5092f-800b-4742-8636-a840b9ab1ddb
 published: false
 blueprint: pages
-title: 'Hausarbeit (Dupliziert)'
+title: 'Masterarbeit (Dupliziert)'
 teaser:
   -
     type: heading
@@ -1704,7 +1704,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640002551
+updated_at: 1640076410
 template: default
 use_meta_keywords: false
 no_index_page: false
