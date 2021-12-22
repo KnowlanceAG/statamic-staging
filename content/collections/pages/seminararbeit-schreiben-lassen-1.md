@@ -2381,7 +2381,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single-col: true
         grid:
           -
             bard:
@@ -2408,12 +2408,25 @@ replicator:
                               color: '#000!important'
                               hex: '#000'
                         text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '20'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
               -
                 type: paragraph
               -
@@ -2546,7 +2559,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640169446
+updated_at: 1640169541
 template: default
 use_meta_keywords: false
 no_index_page: false
