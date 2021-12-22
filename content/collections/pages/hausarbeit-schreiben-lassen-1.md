@@ -1171,7 +1171,7 @@ replicator:
                     type: bilder
                     assets:
                       - seiten/arbeiten/seminararbeit/Seminararbeit.jpg
-                    img-alignment: justify-end
+                    img-alignment: justify-center
                     has_border: false
               -
                 type: paragraph
@@ -2675,7 +2675,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640164874
+updated_at: 1640164969
 template: default
 use_meta_keywords: false
 no_index_page: false
