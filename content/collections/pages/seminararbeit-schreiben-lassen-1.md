@@ -1,5 +1,6 @@
 ---
 id: 2931f444-5e22-4860-8f40-a41821377b93
+published: false
 blueprint: pages
 title: 'Seminararbeit (Dupliziert)'
 teaser:
@@ -2559,7 +2560,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640169541
+updated_at: 1640171783
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2569,10 +2570,10 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-meta_title: 'Ghostwriter - Hausarbeit schreiben lassen • Mustervorlage von GWriters'
-meta_description: 'Mustervorlage für Hausarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
-og_title: 'Hausarbeit schreiben lassen • Mustervorlage von GWriters'
-og_description: 'Mustervorlage für Hausarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+meta_title: 'GWriters • Mustervorlage für Seminararbeit schreiben lassen'
+meta_description: 'Mustervorlage für Ihre Seminararbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – diskret und geprüft auf Qualität & Plagiate.'
+og_title: 'GWriters • Mustervorlage für Seminararbeit schreiben lassen'
+og_description: 'Mustervorlage für Ihre Seminararbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_studienarbeiten
 schema_objects: |-
