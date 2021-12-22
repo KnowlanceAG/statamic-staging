@@ -1,6 +1,5 @@
 ---
 id: 2931f444-5e22-4860-8f40-a41821377b93
-published: false
 blueprint: pages
 title: 'Seminararbeit (Dupliziert)'
 teaser:
@@ -2686,7 +2685,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640163736
+updated_at: 1640163787
 template: default
 use_meta_keywords: false
 no_index_page: false
