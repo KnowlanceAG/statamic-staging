@@ -1720,7 +1720,7 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: 1
         single-col: false
         grid:
           -
@@ -1734,13 +1734,26 @@ replicator:
                     type: text
                     text: 'Weitere Experten aus unserer Agentur'
               -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - team/svetlana_patrikeewa_ghostwriter_gwriters.png
-                    has_border: false
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '3'
+        single-col: false
+        grid:
+          -
+            bard:
               -
                 type: paragraph
               -
@@ -1771,7 +1784,7 @@ replicator:
                         attrs:
                           color: 'rgba(68,68,68,var(--tw-text-opacity))'
                           hex: '#000'
-                    text: 'Dr. Cordelia Eule'
+                    text: 'M. A. Swetlana Patrikeewa'
               -
                 type: paragraph
                 content:
@@ -1789,9 +1802,7 @@ replicator:
                         attrs:
                           color: 'rgba(68,68,68,var(--tw-text-opacity))'
                           hex: '#000'
-                    text: 'Supervisorin & Ghostwriterin'
-              -
-                type: paragraph
+                    text: 'Senior Ghostwriterin'
             show_as_card: false
           -
             bard:
@@ -1808,6 +1819,90 @@ replicator:
                       - no_upscale
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: 'Susanne Kahl'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: 'Senior Ghostwriterin'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - team/wittkamp_gwriters_ghostwriter_rund.png
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: 'Dipl.-Betriebswirt Marcus Wittkamp'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: 'Supervisor & Senior Ghostwriter'
             show_as_card: false
         type: row
         enabled: true
@@ -2591,7 +2686,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640121823
+updated_at: 1640163736
 template: default
 use_meta_keywords: false
 no_index_page: false
