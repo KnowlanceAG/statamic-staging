@@ -1730,7 +1730,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Weitere Experten aus unserer Agentur'
+                    text: 'Weitere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /experten
+                          target: null
+                          rel: null
+                    text: Experten
+                  -
+                    type: text
+                    text: ' aus unserer Agentur'
               -
                 type: paragraph
             show_as_card: false
@@ -2533,7 +2546,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640169310
+updated_at: 1640169385
 template: default
 use_meta_keywords: false
 no_index_page: false
