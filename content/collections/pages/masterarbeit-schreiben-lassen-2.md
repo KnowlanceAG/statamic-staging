@@ -1,7 +1,8 @@
 ---
 id: 99dc85b2-2ee7-4a5f-ba08-28b35f8bb3fc
+published: false
 blueprint: pages
-title: 'Masterarbeit (Dupliziert) (2)'
+title: 'Doktorarbeit (Dupliziert) (2)'
 teaser:
   -
     type: heading
@@ -1935,8 +1936,8 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1632406938
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1640180456
 meta_title: 'Masterarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Mustervorlage für Masterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
