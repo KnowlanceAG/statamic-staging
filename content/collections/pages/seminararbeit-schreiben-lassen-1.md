@@ -166,12 +166,13 @@ replicator:
         enabled: true
     remove_spacing: false
     is-full: true
-    bg-toggle: false
+    bg-toggle: true
     bg-color: '#F9F9F9'
     bg-image-fixed: false
     border: false
     type: add_section
     enabled: true
+    bg-image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
   -
     columns-replicator:
       -
@@ -2524,7 +2525,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640165119
+updated_at: 1640169179
 template: default
 use_meta_keywords: false
 no_index_page: false
