@@ -274,7 +274,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - leistung/2018-08-31-Plagiatsprufung.svg
+                      - logo-startseite/icon-plagiat.svg
                     img_size: w-1/2
                     float: mx-auto
                     image_options:
@@ -316,7 +316,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - leistung/icon-hat-1.svg
+                      - leistung/icons/hat.svg
                     img_size: w-1/2
                     float: mx-auto
                     image_options:
@@ -365,144 +365,7 @@ replicator:
     remove_spacing: false
     is-full: true
     bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Masterarbeit'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Die Masterarbeit ist die letzte anzufertigende Examensarbeit im Bachelor-/Masterstudium und stellt damit den Türöffner in die Berufswelt dar. Studenten streben danach, in Betrieben unterzukommen und müssen versuchen, in der Berufswelt Fuß zu fassen. Die Rückzahlung des BAföG steht an, viele wollen eine Familie gründen und sich endgültig von den Eltern lösen. Das ist ohne Anstellung in einem Beruf nicht zu bewältigen. Das führt dazu, dass man sich selbst unter Druck setzt, Fehler macht, die Hürde der Masterthesis schnell und ohne Probleme zu überwinden.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Dabei greifen Studenten oft auf die Hilfe von akademischen Freelancern und Ghostwritern zurück, die tiefgründige Kenntnisse in dem geforderten Fachbereich aufweisen und bereits Erfahrung mit wissenschaftlichen Arbeiten haben. Sie entlasten den Studenten durch Ghostwriting, Coaching bei der Strukturierung und übernehmen die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat/textkorrektur
-                          target: null
-                          rel: null
-                    text: Textkorrektur
-                  -
-                    type: text
-                    text: ', das Lektorat sowie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: 'Überprüfung auf Plagiate'
-                  -
-                    type: text
-                    text: '. Durch diese Dienstleistung kann sich der Student auf die wesentlichen Dinge in seinem Leben konzentrieren, statt lange Zeit vor der Fragestellung zu stehen ,,Wie schreibe ich eine Masterarbeit?“. '
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '20'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere Leistungen im Überblick'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: leistungen_uebersicht_4-spaltig
-                    grid:
-                      -
-                        image:
-                          - logo-startseite/icon-ghostwriting.svg
-                        headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre wissenschaftliche Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-                        link:
-                          - 0328a685-5f37-4f91-bd4b-79c53adaea8d
-                      -
-                        image:
-                          - logo-startseite/icon-lektorat.svg
-                        headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
-                        link:
-                          - 659e7e81-6d07-4eea-9ef2-325e72618036
-                      -
-                        image:
-                          - leistung/icons/search-book.png
-                        headline: 'MAXQDA AUSWERTUNG'
-                        hover_content: 'Unsere erfahrenen Experten führen Ihre qualitative Inhaltsanalyse mittels einer professionellen MAXQDA Auswertung durch.'
-                        link:
-                          - dafbcd3b-fd08-4c5b-94be-f2a80c140953
-                      -
-                        image:
-                          - leistung/icons/hat.svg
-                        headline: PROMOTIONSBERATUNG
-                        hover_content: 'Verlassen Sie sich auf unsere umfassende und seriöse Promotionsberatung und führen Sie Ihre Promotion zum Erfolg.'
-                        link: null
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
+    bg-color: '#F9F9F9'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -538,7 +401,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie bei Ihrer Masterarbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine '
+                    text: 'Wenn Sie bei Ihrer Doktorarbeit Unterstützung benötigen, dann können Sie unseren Schreibservice gerne sofort eine '
                   -
                     type: text
                     marks:
@@ -556,7 +419,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '. Unsere Schreibagentur melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot für unsere professionelle Dienstleistung bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. '
               -
                 type: set
                 attrs:
@@ -649,7 +512,13 @@ replicator:
           -
             bard:
               -
-                type: paragraph
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Warum sollte man Hilfe bei seiner Doktorarbeit in Anspruch nehmen?'
               -
                 type: paragraph
                 content:
@@ -657,79 +526,35 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'In unserer akademischen Agentur arbeiten Ghostwriter mit wissenschaftlichen methodischen Ansätzen. Sowohl in der Theorie als auch in der Praxis haben sie viele Jahre Erfahrung. Sie wissen wie z.B. '
+                    text: 'In vielen Ländern, besonders in Deutschland, gilt der Doktorabschluss nach wie vor als klassischer Karrierebeschleuniger. Neben besseren Karrierechancen, werden Arbeitnehmer mit Doktorgrad laut Statistik auch mit höheren Löhnen belohnt. In einigen Branchen, wie der Forschung, Medizin und Wissenschaft, ist der Doktorgrad sogar grundlegend für jeglichen Berufserfolg.'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/leitfadengestuetztes-experteninterview
-                          target: null
-                          rel: null
-                    text: Experten-Befragungen
+                    text: "Die aufwändigste Form der experimentellen Doktorarbeit haben Medizinstudierende. Sie benötigen meist zwei Semester länger. Jedoch lohnt sich die Schreibarbeit im Fachgebiet Medizin, wenn Sie im späteren Berufsleben an einer Universität oder in der Forschung arbeiten möchten. Hier verbringen Promovenden viel Zeit im Labor mit Forschungsmaterialien und um Experimente durchzuführen. \_"
+              -
+                type: paragraph
+                content:
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' oder '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /gwriters-akademie/fragebogen-vorlage
-                          target: null
-                          rel: null
-                    text: Studienumfragen
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' erstellt werden. In jedem Gebiet, wo bei Ihnen selbst keine ausreichenden Kenntnisse vorliegen, können unsere Doktoren und Experten Sie unterstützen. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn.'
+                    text: 'Auch generell ist der akademische Aufstieg sehr zeitintensiv und arbeitslastig. Besonders Berufstätige, die erst Jahre nach ihrem Examen feststellen, dass die Auszeichnung mit einem Doktortitel ihnen einen Karrieresprung verschafft, haben oft Schwierigkeiten sich in ihrem Forschungsbereich neu einzufinden.'
             show_as_card: false
         type: row
         enabled: true
@@ -762,39 +587,54 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Aufgrund seiner Erfahrungen und fachlichen Kenntnisse kann ein akademischer '
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'In oben genannten Fällen helfen akademische Freelancer, die die Forschungsarbeit lektorieren und korrigieren. Um auf Nummer sicher zu gehen, dass ausreichend auf sämtliche Quellen verwiesen wurde, hilft es, den Text auf Plagiate zu prüfen. Wenn in der Schreibphase Unterstützung gefordert ist, die über'
+                  -
+                    type: text
+                    text: ' das '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /korrektorat/korrekturlesen
                           target: null
                           rel: null
-                    text: Ghostwriter
+                    text: Korrekturlesen
                   -
                     type: text
-                    text: ' wissenschaftliche Texterstellungen problemlos zu jedem Zeitpunkt übernehmen. In solchen Fällen steht dann im Leistungszentrum, dass sich Studenten von Ghostwritern eine Mustervorlage für die eigene Masterarbeit schreiben lassen. Oft geschieht dies direkt zu Beginn einer Texterstellung, bei der eigentlichen Themenfindung, der Literaturrecherche und dem Aufbau einer Masterarbeit. '
+                    text: ' hinaus geht, wird häufig von einem Ghostwriter eine Mustervorlage für die Dissertation schreiben gelassen und die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: '-Doktorarbeit als Muster genutzt.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ebenfalls ist es möglich, Hilfe während des Schreibprozesses in Anspruch zu nehmen oder sich bei Teilbereichen helfen zu lassen. Zudem können Leistungen wie das '
-                  -
-                    type: text
                     marks:
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: Lektorat
-                  -
-                    type: text
-                    text: ' und das Korrektorat der Masterarbeit, die bereits durch den Studenten fertiggestellt wurde, in Anspruch genommen werden.'
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Wenn die Karriere im Vordergrund steht, sollten sich die Doktorandinnen nicht primär mit der Fragestellung beschäftigen „Wie schreibe ich eine Doktorarbeit?“, sondern auf mögliche Hilfestellungen zurückgreifen können.'
               -
                 type: paragraph
             show_as_card: false
@@ -813,7 +653,7 @@ replicator:
                 attrs:
                   values:
                     type: video
-                    video: 'https://youtu.be/BFHgSZP9rCE'
+                    video: 'https://youtu.be/-rglZNi_OUQ'
               -
                 type: paragraph
             show_as_card: false
@@ -823,6 +663,144 @@ replicator:
     is-full: true
     bg-toggle: false
     bg-color: '#F2F2F2'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Leistungen im Überblick'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: leistungen_uebersicht_4-spaltig
+                    grid:
+                      -
+                        image:
+                          - logo-startseite/icon-ghostwriting.svg
+                        headline: GHOSTWRITING
+                        hover_content: 'Lassen Sie Ihre wissenschaftliche Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        link:
+                          - 0328a685-5f37-4f91-bd4b-79c53adaea8d
+                      -
+                        image:
+                          - logo-startseite/icon-lektorat.svg
+                        headline: LEKTORAT
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
+                        link:
+                          - 659e7e81-6d07-4eea-9ef2-325e72618036
+                      -
+                        image:
+                          - leistung/icons/search-book.png
+                        headline: 'MAXQDA AUSWERTUNG'
+                        hover_content: 'Unsere erfahrenen Experten führen Ihre qualitative Inhaltsanalyse mittels einer professionellen MAXQDA Auswertung durch.'
+                        link:
+                          - dafbcd3b-fd08-4c5b-94be-f2a80c140953
+                      -
+                        image:
+                          - leistung/icons/hat.svg
+                        headline: PROMOTIONSBERATUNG
+                        hover_content: 'Verlassen Sie sich auf unsere umfassende und seriöse Promotionsberatung und führen Sie Ihre Promotion zum Erfolg.'
+                        link: null
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Professionelle Ghostwriter'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/ghostwriter-doktoren2.png
+                    text: 'Unser professionelles Leistungszentrum arbeitet mit akademisch ausgebildeten Autoren. Diese Autoren sind Doktoren, Professoren, Forscher und wissenschaftliche Mitarbeiter.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '9'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriter-gesucht/vergabe-projekt.png
+                    text: 'Sie beschäftigen sich tagtäglich mit wissenschaftlichen Schreibarbeiten und methodischen Ansätzen in unser Schreibservice. Darüber hinaus haben diese umfassenden Kenntnisse im Umgang mit Forschungsarbeiten.'
+                    ausrichtung: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '9'
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Auch als Betreuer bei der Definition der Problemlage oder wissenschaftlichen Fragstellungen der Dissertation stehen unsere akademischen Ghostwriter zur Verfügung. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn.'
+              -
+                type: paragraph
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
@@ -1899,7 +1877,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640250886
+updated_at: 1640253167
 template: default
 use_meta_keywords: false
 no_index_page: false
