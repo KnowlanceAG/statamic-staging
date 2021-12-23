@@ -21,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Mustervorlage für Masterarbeit schreiben lassen'
+        text: 'Mustervorlage für Doktorarbeit schreiben lassen'
   -
     type: paragraph
     content:
@@ -34,7 +34,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: "\_Hilfe vom akademischen Ghostwriter bei Ihrer Masterarbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate."
+        text: 'Hilfe vom akademischen Ghostwriter bei Ihrer Doktorarbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -441,8 +441,72 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Professionelle Ghostwriter'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/ghostwriter-doktoren2.png
+                    text: 'Unser professionelles Leistungszentrum arbeitet mit akademisch ausgebildeten Autoren. Diese Autoren sind Doktoren, Professoren, Forscher und wissenschaftliche Mitarbeiter.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '9'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriter-gesucht/vergabe-projekt.png
+                    text: 'Sie beschäftigen sich tagtäglich mit wissenschaftlichen Schreibarbeiten und methodischen Ansätzen in unser Schreibservice. Darüber hinaus haben diese umfassenden Kenntnisse im Umgang mit Forschungsarbeiten.'
+                    ausrichtung: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '9'
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Auch als Betreuer bei der Definition der Problemlage oder wissenschaftlichen Fragstellungen der Dissertation stehen unsere akademischen Ghostwriter zur Verfügung. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn.'
+              -
+                type: paragraph
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
         grid:
           -
             bard:
@@ -450,54 +514,63 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: phone_cta
-                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
-                    open: 'Mo.-Fr. 9:00-18:00'
-              -
-                type: paragraph
-            show_as_card: true
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
                     type: spacer
-                    padding-y: '12'
+                    padding-y: '20'
               -
-                type: paragraph
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
                     type: text
-                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: '80,- € pro Normseite.'
+                    text: 'Unsere Leistungen im Überblick'
               -
                 type: set
                 attrs:
                   values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    button_align: justify-start
-                    spacing_top: true
+                    type: leistungen_uebersicht_4-spaltig
+                    grid:
+                      -
+                        image:
+                          - logo-startseite/icon-ghostwriting.svg
+                        headline: GHOSTWRITING
+                        hover_content: 'Lassen Sie Ihre wissenschaftliche Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        link:
+                          - 0328a685-5f37-4f91-bd4b-79c53adaea8d
+                      -
+                        image:
+                          - logo-startseite/icon-lektorat.svg
+                        headline: LEKTORAT
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
+                        link:
+                          - 659e7e81-6d07-4eea-9ef2-325e72618036
+                      -
+                        image:
+                          - leistung/icons/search-book.png
+                        headline: 'MAXQDA AUSWERTUNG'
+                        hover_content: 'Unsere erfahrenen Experten führen Ihre qualitative Inhaltsanalyse mittels einer professionellen MAXQDA Auswertung durch.'
+                        link:
+                          - dafbcd3b-fd08-4c5b-94be-f2a80c140953
+                      -
+                        image:
+                          - leistung/icons/hat.svg
+                        headline: PROMOTIONSBERATUNG
+                        hover_content: 'Verlassen Sie sich auf unsere umfassende und seriöse Promotionsberatung und führen Sie Ihre Promotion zum Erfolg.'
+                        link: null
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
                     padding-y: '10'
-            show_as_card: true
+              -
+                type: paragraph
+            show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: true
+    remove_spacing: false
+    is-full: false
     bg-toggle: false
-    bg-color: '#D6D6D6'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -561,6 +634,71 @@ replicator:
     remove_spacing: false
     is-full: false
     bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: phone_cta
+                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
+                    open: 'Mo.-Fr. 9:00-18:00'
+              -
+                type: paragraph
+            show_as_card: true
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '12'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '80,- € pro Normseite.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    button_align: justify-start
+                    spacing_top: true
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: true
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#D6D6D6'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -663,144 +801,6 @@ replicator:
     is-full: true
     bg-toggle: false
     bg-color: '#F2F2F2'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '20'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere Leistungen im Überblick'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: leistungen_uebersicht_4-spaltig
-                    grid:
-                      -
-                        image:
-                          - logo-startseite/icon-ghostwriting.svg
-                        headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre wissenschaftliche Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-                        link:
-                          - 0328a685-5f37-4f91-bd4b-79c53adaea8d
-                      -
-                        image:
-                          - logo-startseite/icon-lektorat.svg
-                        headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
-                        link:
-                          - 659e7e81-6d07-4eea-9ef2-325e72618036
-                      -
-                        image:
-                          - leistung/icons/search-book.png
-                        headline: 'MAXQDA AUSWERTUNG'
-                        hover_content: 'Unsere erfahrenen Experten führen Ihre qualitative Inhaltsanalyse mittels einer professionellen MAXQDA Auswertung durch.'
-                        link:
-                          - dafbcd3b-fd08-4c5b-94be-f2a80c140953
-                      -
-                        image:
-                          - leistung/icons/hat.svg
-                        headline: PROMOTIONSBERATUNG
-                        hover_content: 'Verlassen Sie sich auf unsere umfassende und seriöse Promotionsberatung und führen Sie Ihre Promotion zum Erfolg.'
-                        link: null
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Professionelle Ghostwriter'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/ghostwriting-agentur/ghostwriter-doktoren2.png
-                    text: 'Unser professionelles Leistungszentrum arbeitet mit akademisch ausgebildeten Autoren. Diese Autoren sind Doktoren, Professoren, Forscher und wissenschaftliche Mitarbeiter.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '9'
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/ghostwriter-gesucht/vergabe-projekt.png
-                    text: 'Sie beschäftigen sich tagtäglich mit wissenschaftlichen Schreibarbeiten und methodischen Ansätzen in unser Schreibservice. Darüber hinaus haben diese umfassenden Kenntnisse im Umgang mit Forschungsarbeiten.'
-                    ausrichtung: bild-text
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '9'
-              -
-                type: paragraph
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Auch als Betreuer bei der Definition der Problemlage oder wissenschaftlichen Fragstellungen der Dissertation stehen unsere akademischen Ghostwriter zur Verfügung. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn.'
-              -
-                type: paragraph
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
@@ -1877,7 +1877,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640253411
+updated_at: 1640253769
 template: default
 use_meta_keywords: false
 no_index_page: false
