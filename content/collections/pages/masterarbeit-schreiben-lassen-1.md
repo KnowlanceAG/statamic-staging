@@ -555,6 +555,14 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -610,7 +618,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '38'
+                    padding-y: '30'
               -
                 type: paragraph
               -
@@ -941,6 +949,14 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 3
@@ -963,6 +979,14 @@ replicator:
             show_as_card: false
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1140,6 +1164,14 @@ replicator:
         grid:
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1583,10 +1615,17 @@ replicator:
             type: text
             marks:
               -
+                type: bold
+              -
                 type: textAlign
                 attrs:
-                  align: center
-            text: 'Einige unserer Blogartikel zum Thema Hausarbeit'
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                  hex: '#000'
+            text: 'Einige unserer Blogartikel zur Masterarbeit & Mustervorlage für Masterarbeit schreiben lassen'
       -
         type: set
         attrs:
@@ -1704,7 +1743,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640181278
+updated_at: 1640287607
 template: default
 use_meta_keywords: false
 no_index_page: false
