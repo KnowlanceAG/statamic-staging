@@ -811,6 +811,14 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -881,7 +889,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '38'
+                    padding-y: '30'
               -
                 type: paragraph
               -
@@ -979,10 +987,27 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '9'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriter-gesucht/ghostwriter-Datenbanken-1.png
                     text: 'Demnach werden mehrere ausgebildete fachliche Autoren für das wissenschaftliche Arbeiten eingesetzt. Als Orientierungshilfe für die Ghostwriter Preise von GWriters können Sie den Preis-Rechner benutzen und Ihre Anforderungen zusammenrechnen lassen. Sobald Sie das Leistungsangebot von unserer Schreibagentur annehmen, beginnt die Planungsphase Ihrer Mustervorlage.'
+                    ausrichtung: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '17'
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -1000,7 +1025,7 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
                     text: 'Während der Anfertigung Ihrer Aufgabe, der von einem professionellen Ghostwriter als Mustervorlage erstellt wird, läuft die gesamte Kommunikation läuft anonym in schriftlicher oder telefonischer Form ab. Selbstverständlich können Sie auch andere Kommunikationskanäle nutzen. Ihr individueller Betreuer übernimmt für Sie die gesamte Kommunikation mit unserem Ghostwriter, von dem wir die Mustervorlage für Ihre Doktorarbeit schreiben lassen.'
-                    ausrichtung: bild-text
+                    ausrichtung: text-bild
               -
                 type: set
                 attrs:
@@ -1023,7 +1048,7 @@ replicator:
                       <br>
                       <br>
                       Sie erhalten einen individuellen Projektbetreuer, der Ihnen kontinuierlich zur Seite steht. Weiterhin erhalten Sie regelmäßig Teillieferungen, um auch stetig Einblick in der aktuellen Schreibarbeit zu erhalten. So können Sie falls gewünscht auch inhaltlich Einfluss nehmen. So haben Sie die Sicherheit, ein qualitativ hochwertiges Werk zu bekommen.
-                    ausrichtung: text-bild
+                    ausrichtung: bild-text
               -
                 type: set
                 attrs:
@@ -1042,7 +1067,7 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/arbeiten/bachelorarbeit-schreiben.jpg
-                    ausrichtung: bild-text
+                    ausrichtung: text-bild
                     text: 'Nachdem die eigentliche Schreibphase mit allen Teillieferungen abgeschlossen ist, erfolgt der Feinschliff. Ihr Feedback wird dabei von Ihrem Ghostwriter in kostenlosen Korrekturschleifen eingearbeitet. Es erfolgt zudem eine Plagiatsprüfung der Mustervorlage, welche Sie für Ihre Doktorarbeit schreiben lassen. Gefolgt wird diese von einem zweiten Lektorat unser Schreibservice im Vier-Augen-Prinzip. Somit ist die Qualitätsgarantie der Arbeit bestätigt.'
               -
                 type: set
@@ -1062,7 +1087,7 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/arbeiten/fertigearbeit.png
-                    ausrichtung: text-bild
+                    ausrichtung: bild-text
                     text: |
 
 
@@ -1207,16 +1232,6 @@ replicator:
                     text: 'So gibt es keine Hochschulen oder Universitäten, die zum Erlangen des Doktortitels von den Doktoranden nicht eine Doktorarbeit schreiben lassen. Promovenden sollen darauf geprüft werden, ob sie in der Lage sind, eine wissenschaftliche Arbeit mit neuen Erkenntnissen eigenständig anzufertigen.'
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Das Erlangen der Doktorwürde ist meist ein langwieriger Schreibprozess, dessen aufwändigster Teil die Ausarbeitung der Dissertation ist. Hier gibt es die Möglichkeit, ein hochwertiges Coaching zu nutzen, um die Doktorandinnen bei der Strukturierung zu unterstützen. Auch ein regelmäßiges Lektorat der Dissertation unterstützt den Studierenden. Um die zeitliche Beanspruchung zu verringern, gibt es Doktorandinnen, die einen Ghostwriter eine Mustervorlage für ihre Doktorarbeit schreiben lassen.'
             show_as_card: true
           -
             bard: null
@@ -1228,43 +1243,12 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
+        columns_per_row: '1'
+        single-col: true
         grid:
           -
             bard:
               -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Unterschiede zum Magister- und Diplomgrad'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Um die Wettbewerbsfähigkeit zu erhöhen, eine Vergleichbarkeit von Studiengängen zu erreichen und die Mobilität und Flexibilität im Studium zu gewährleisten, wurde 1999 von 29 EU-Bildungsministern die Bologna-Erklärung unterzeichnet. Mit der Umsetzung der Bologna-Reform wurden in Deutschland die alten Magisterstudiengänge- und Diplomstudiengänge, abgeschlossen mit der Magisterarbeit und Diplomarbeit, zunehmend durch Bachelor- und Masterstudiengänge ersetzt. Hierbei ist der Mastergrad mit dem Magister- und Diplomgrad vergleichbar.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Der Bachelor ist lediglich eine Art Vorabschluss, welcher früher nicht vorgesehen war. Für die Zulassung zu einem Masterstudiengang muss man im Regelfall einen Bachelorabschluss vorweisen können. Eine Masterarbeit ist per se nicht obligatorisch, die jeweiligen Hochschulen können entscheiden, ob sie von den Studenten eine Masterarbeit schreiben lassen, welche am Ende bewertet wird. Die Kultusministerkonferenz hat sich im Zuge der Qualitätssicherung allerdings dafür ausgesprochen und empfiehlt, dass Lehrinstitute zum Ende des Studiums von Studenten eine Masterarbeit schreiben lassen.'
-            show_as_card: false
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Abhilfe für eine Masterarbeit '
-              -
                 type: paragraph
                 content:
                   -
@@ -1275,21 +1259,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Abhilfe schafft hier, neben der Arbeitskorrektur und der Plagiatsprüfung, ein professionelles Coaching für die Masterarbeit. Teilweise werden für Mustervorlagen für eine Masterarbeit Ghostwriter eingesetzt, wobei diese Ghostwriting-Masterarbeit nur als Orientierungshilfe dienen sollte Denn unsere Ghostwriter sind mehr als akademisch ausgebildete Autoren. Sie sind Doktoren und Professoren, die sich täglich mit wissenschaftlichen Texten beschäftigen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Unsere seriösen Ghostwriter kennen den aktuellen Kenntnisstand und alle Methoden zur wissenschaftlichen Forschung. Der Forschungsstand benennt den aktuellen Stand der Forschung im Bezug zum Thema einer wissenschaftlichen Arbeit. Somit kann eine Forschungslücke gefunden und eine wissenschaftliche Forschungsfrage erstellt werden.'
-              -
-                type: paragraph
+                    text: 'Das Erlangen der Doktorwürde ist meist ein langwieriger Schreibprozess, dessen aufwändigster Teil die Ausarbeitung der Dissertation ist. Hier gibt es die Möglichkeit, ein hochwertiges Coaching zu nutzen, um die Doktorandinnen bei der Strukturierung zu unterstützen. Auch ein regelmäßiges Lektorat der Dissertation unterstützt den Studierenden. Um die zeitliche Beanspruchung zu verringern, gibt es Doktorandinnen, die einen Ghostwriter eine Mustervorlage für ihre Doktorarbeit schreiben lassen.'
               -
                 type: set
                 attrs:
@@ -1319,6 +1289,14 @@ replicator:
         grid:
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '7'
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -1373,7 +1351,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wie schreibt man eine Masterarbeit?'
+                    text: 'Wie schreibt man eine Doktorarbeit?'
               -
                 type: paragraph
                 content:
@@ -1385,7 +1363,79 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Je nach Fachbereich und Institution umfasst die Masterarbeit inklusive Exposé 60-100 Seiten. Sie muss alle Kriterien einer akademischen Arbeit innerhalb von 5 bis 6 Monaten erfüllen und wird mit 15-30 ECTS-Punkten bewertet. Somit ist diese Leistung grundlegend für den Erfolg des Studiums und nicht einfach abzuhandeln. Höchste wissenschaftliche Standards werden angelegt um ihre Qualität zu beurteilen. Im Bereich der Medizin, beispielsweise, dient die Masterarbeit oft als Fundament der Dissertation.'
+                    text: 'Während eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Hausarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Bachelorarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Masterarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' oder Diplomarbeit meist nur bereits vorhandenes Wissen zusammenfasst, wird bei der Dissertation eine Erweiterung des Wissens gefordert. Um die Doktorwürde zu erlangen, muss man demnach in der Forschung tätig gewesen sein und neue Erkenntnisse vorweisen können.'
               -
                 type: paragraph
                 content:
@@ -1397,7 +1447,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Neben Themenfindung, Literaturrecherche und einigen Organisationsaspekten, wie der Suche eines Ansprechpartners zur Betreuung der Masterarbeit, sind auch zahlreiche formale Richtlinien zu beachten. Bei einigen Fächern, wie der BWL oder VWL sind oftmals statistische Untersuchungen anzufertigen. '
+                    text: 'Dieser Prozess dauert oft mehrere Jahre und wird von einem Doktorvater betreut, der zu bestimmten Maßen ein Coaching bei der Dissertation leistet. Die Bearbeitung der Doktorarbeit kann auf verschiedene Weisen erfolgen, welche abhängig vom Fachbereich variieren.'
               -
                 type: paragraph
                 content:
@@ -1409,7 +1459,115 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Oft wird durch das Lehrinstitut ein Muster der Masterarbeit als Beispiel veröffentlicht, was als Orientierungshilfe genutzt werden kann. Wenn diese Unterstützung nicht vorhanden ist, schaffen sich einige Studenten Abhilfe, indem sie einen Ghostwriter ihre Masterarbeit schreiben lassen. In kleinen Arbeitsschritten erstellt unsere Schreibagentur je nach Themenstellung und Bedürfnissen eine Mustervorlage für die Masterarbeit. Die Ghostwriting-Masterarbeit wird dann als Mustervorlage genutzt.'
+                    text: 'Der Doktorand kann sich theoretisch mit einem Sachverhalt beschäftigen oder empirisch/ experimentell ermittelte Daten auswerten, interpretieren, sowie analysieren. Die Untersuchungen geschiehen oftmals durch Umfragen im Bereich der BWL und VWL und durch Experimente in der Forschung, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/biologie
+                          target: null
+                          rel: null
+                    text: Biologie
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/medizin
+                          target: null
+                          rel: null
+                    text: Medizin
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/jura
+                          target: null
+                          rel: null
+                    text: Rechtswissenschaften
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/psychologie
+                          target: null
+                          rel: null
+                    text: Psychologie
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Der Umfang der Doktorarbeit ist ebenfalls stark abhängig vom Fachgebiet, liegt aber generell zwischen 150 und 500 Seiten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Zwar gibt es seitens Doktorväter und Hochschulen einige unterschiedliche Promotionsordnungen, jedoch veröffentlichen Hochschulen oft eine Vorlage einer Dissertation als Beispiel um ihren Studierenden zu helfen. Unterstützend dazu, kann sich ein Doktorand von einem Ghostwriter eine Mustervorlage für seine Doktorarbeit schreiben lassen und diese Ghostwriting-Doktorarbeit als Orientierungshilfe nutzen. Außerdem haben unsere akademischen Autoren zu jeder wissenschaftlichen Fragestellung eine Lösung.'
               -
                 type: heading
                 attrs:
@@ -1434,6 +1592,14 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1446,13 +1612,25 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Gliederung und Formalien einer Masterarbeit:'
+                    text: 'Gliederung und Formalien einer Doktorarbeit:'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Trotz unterschiedlicher Anforderungen der einzelnen Lehrinstitute, haben sich einige Formalien als gängig erwiesen:'
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Einige Voraussetzungen von Promotionsausschuss zur Erstellung der Arbeit haben sich als gängig erwiesen:'
+              -
+                type: paragraph
+              -
+                type: paragraph
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1490,7 +1668,7 @@ replicator:
                     text: Gliederung
                   -
                     type: text
-                    text: ' einer Masterarbeit'
+                    text: ' einer Doktorarbeit'
               -
                 type: bullet_list
                 content:
@@ -1755,6 +1933,8 @@ replicator:
                                   target: null
                                   rel: null
                             text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
+                      -
+                        type: paragraph
             show_as_card: true
           -
             bard:
@@ -1765,7 +1945,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Formatierung einer Masterarbeit'
+                    text: 'Formatierung einer Doktorarbeit'
               -
                 type: paragraph
                 content:
@@ -1847,6 +2027,8 @@ replicator:
                             type: text
                             text: 'Fußnotentext: 10 Pt Blocksatz, 1,0-zeilig, Fußnoten werden hoch gestellt'
               -
+                type: paragraph
+              -
                 type: set
                 attrs:
                   values:
@@ -1868,27 +2050,30 @@ replicator:
   -
     bard:
       -
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: '30'
+      -
+        type: paragraph
+      -
         type: heading
         attrs:
           level: 2
         content:
           -
             type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-            text: 'Einige unserer Blogartikel zum Thema Hausarbeit'
+            text: 'Einige unserer Blogartikel zur Dissertation & Mustervorlage für Doktorarbeit schreiben lassen'
       -
         type: set
         attrs:
           values:
             type: blog_entries
             entries:
-              - 14a0cd0f-a99b-4b6c-8f33-bda6ea547856
-              - a26081b8-f79e-4515-8c28-31d320f1e4fd
-              - 90c98a48-07aa-44a7-bfa5-187a2717a778
+              - 27aa03db-c5fe-4cc4-b6ea-ef050232bc4d
+              - 062bde11-0285-4b8d-835b-89e19a444f09
+              - a11daeb3-1d73-4d6f-9c46-9d0e0c86c4e1
       -
         type: set
         attrs:
@@ -1921,10 +2106,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://de.wikipedia.org/wiki/Master'
+                  href: 'https://www.itp1.uni-stuttgart.de/de/publikationen/'
                   target: _blank
                   rel: 'noopener noreferrer nofollow'
-            text: 'Master - Wikipedia'
+            text: 'Abschlussarbeiten - Universität Stuttgart'
           -
             type: hard_break
             marks:
@@ -1942,10 +2127,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://www.zeit.de/campus/2010/03/Studium-Master-Empfehlungsschreiben'
+                  href: 'https://studieren.de/promovieren-doktortitel.0.html'
                   target: _blank
                   rel: 'noopener noreferrer nofollow'
-            text: 'Masterstudium: Nicht zu empfehlen - Zeit Online'
+            text: 'Der Weg zum Doktortitel - studieren.de'
           -
             type: hard_break
             marks:
@@ -1963,10 +2148,73 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://www.faz.net/aktuell/politik/inland/hochschulreform-in-der-bologna-falle-11877689.html'
+                  href: 'https://www.sueddeutsche.de/thema/Promotion'
                   target: _blank
                   rel: 'noopener noreferrer nofollow'
-            text: 'In der Bologna-Falle - FAZ'
+            text: 'Promotion - Süddeutsche Zeitung'
+          -
+            type: hard_break
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+              -
+                type: link
+                attrs:
+                  href: 'https://www.karriere.de/karrierebeschleuniger-doktortitel-zwei-buchstaben-punkt-/23037918.html'
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
+            text: 'Karrierebeschleuniger Doktortitel - karriere.de'
+          -
+            type: hard_break
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+              -
+                type: link
+                attrs:
+                  href: 'https://www.wiwo.de/erfolg/management/gehaltsreport-fuehrungskraefte-doktortitel-bringt-20-000-euro-mehr-gehalt/8920324.html'
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
+            text: 'Doktortitel bringt 20.000 Euro mehr Gehalt - Wirtschaftswoche'
+          -
+            type: hard_break
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: center
+              -
+                type: link
+                attrs:
+                  href: 'https://www.doccheck.com/de/detail/articles/11846-renaissance-des-doktortitels-ein-zweischneidiger-diskurs'
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
+            text: 'Renaissance des Doktortitels- ein zweischneidiger Diskurs - Doccheck'
       -
         type: paragraph
         content:
@@ -1997,7 +2245,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640259837
+updated_at: 1640285846
 template: default
 use_meta_keywords: false
 no_index_page: false
