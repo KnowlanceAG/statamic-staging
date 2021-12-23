@@ -935,16 +935,83 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '1.'
+                        beschreibung: 'Kostenlose unverbindliche Anfrage'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
                     type: bild_und_text
                     bild:
                       - seiten/arbeiten/hausarbeit/anfrage.png
                     text: |-
                       <br>
                       <br>
-                      Ein kostenloses Angebot über Ihre Anforderungen, erhalten Sie nach einer unverbindlichen Anfrage. Die Anfrage können Sie über ein Bestellformular stellen. Die Zusammenarbei mit Ghostwriter beginnt nach Ihrer Bestätigung. 
+                      Ihre Anfrage ist bei der Schreibagentur GWriters natürlich unverbindlich. Weiterhin gehen wir verantwortungsvoll mit den Daten unserer Kunden um. Und selbst, wenn Sie nicht anonym bei uns anfragen, werden Ihr Daten diskret behandelt und nicht an Dritte weitergegeben.
 
-                      Während der [Zusammenarbeit mit Ghostwritern](/so-funktioniert-es) stellen unsere Projektmanager die Anonymität des Auftraggebers und gleichzeitig auch die Anonymität des Autors sicher. 
+                      Nach der Anfrage erfolgt eine Zusammenfassung aller relevanten Daten des Projektes mit Ihnen zusammen. In der Planungsphase treffen wir anschließend eine Vorauswahl passender Autor bzw. Ghostwriter und Lektoren für die anschließende Zweitkorrektur. 
                     ausrichtung: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '2.'
+                        beschreibung: 'Individuelles Angebot'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
+                    text: |+
+                      Weiterhin werden die konkreten Rahmenbedingungen (z.B. Schutz der Daten) Ihres Projektes besprochen. Auf dessen Basis erstellen wir ein konkretes Leistungsangebot ohne versteckte Kosten. Der Aufwand und demzufolge die Preise für Aufträge zur Texterstellung sind unterschiedlich. Denn je nach Aufgabenstellung, Fachrichtung, Umfang (Seitenanzahl), Zeitangabe, Qualitätslevel und Komplexität des Themas werden unterschiedliche Preise festgelegt. 
+
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriter-gesucht/ghostwriter-Datenbanken-1.png
+                    text: 'Demnach werden mehrere ausgebildete fachliche Autoren für das wissenschaftliche Arbeiten eingesetzt. Als Orientierungshilfe für die Ghostwriter Preise von GWriters können Sie den Preis-Rechner benutzen und Ihre Anforderungen zusammenrechnen lassen. Sobald Sie das Leistungsangebot von unserer Schreibagentur annehmen, beginnt die Planungsphase Ihrer Mustervorlage.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '3.'
+                        beschreibung: ' Doktorarbeit schreiben lassen: Verfassen der Mustervorlage'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
+                    text: 'Während der Anfertigung Ihrer Aufgabe, der von einem professionellen Ghostwriter als Mustervorlage erstellt wird, läuft die gesamte Kommunikation läuft anonym in schriftlicher oder telefonischer Form ab. Selbstverständlich können Sie auch andere Kommunikationskanäle nutzen. Ihr individueller Betreuer übernimmt für Sie die gesamte Kommunikation mit unserem Ghostwriter, von dem wir die Mustervorlage für Ihre Doktorarbeit schreiben lassen.'
+                    ausrichtung: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '4.'
+                        beschreibung: Teillieferungen
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -955,32 +1022,51 @@ replicator:
                     text: |
                       <br>
                       <br>
-                      Zu jedem Problemfeld werden einzelne Teillieferungen bzw. Termine vereinbart.  Diese Teillieferungen dienen dazu, den Auftraggeber über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. 
-
-                      So können für den Zeitraum der Auftragsausführung geltende Anforderungen genannt werden bezüglich der Masterarbeit. In dieser Revisionszeit werden je nach Komplexität und Umfang des Themas bzw. der Aufgabenstellung auch mehrere ausgebildete Fachautoren für die Arbeit eingesetzt.
+                      Sie erhalten einen individuellen Projektbetreuer, der Ihnen kontinuierlich zur Seite steht. Weiterhin erhalten Sie regelmäßig Teillieferungen, um auch stetig Einblick in der aktuellen Schreibarbeit zu erhalten. So können Sie falls gewünscht auch inhaltlich Einfluss nehmen. So haben Sie die Sicherheit, ein qualitativ hochwertiges Werk zu bekommen.
                     ausrichtung: text-bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '5.'
+                        beschreibung: 'Qualitativer Feinschliff und Vier-Augen-Prinzip'
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
                   values:
                     type: bild_und_text
                     bild:
-                      - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
+                      - seiten/arbeiten/bachelorarbeit-schreiben.jpg
                     ausrichtung: bild-text
-                    text: 'Nach der Erstellung der Mustervorlage zu Ihrer Masterarbeit, wird die Arbeit von einem unabhängigen [Lektor](/lektorat) aus Ihrem Fachbereich, [korrektur](/korrektorat) gelesen. Hier werden Verbesserungen an Inhalt und Formulierungen vorgenommen. Anschließend kann der Text auf [Plagiate](/plagiatsprüfung) geprüft werden, um mögliche Risiken zu umgehen, die aufgrund von Schwierigkeiten oder Flüchtigkeitsfehlern im Umgang mit Literatur entstehen könnten. Diese Teilleistungen sind im Preis inklusive. '
+                    text: 'Nachdem die eigentliche Schreibphase mit allen Teillieferungen abgeschlossen ist, erfolgt der Feinschliff. Ihr Feedback wird dabei von Ihrem Ghostwriter in kostenlosen Korrekturschleifen eingearbeitet. Es erfolgt zudem eine Plagiatsprüfung der Mustervorlage, welche Sie für Ihre Doktorarbeit schreiben lassen. Gefolgt wird diese von einem zweiten Lektorat unser Schreibservice im Vier-Augen-Prinzip. Somit ist die Qualitätsgarantie der Arbeit bestätigt.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: numbers_home
+                    grid:
+                      -
+                        zahl: '6.'
+                        beschreibung: 'Finale Lieferung der Mustervorlage'
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
                   values:
                     type: bild_und_text
                     bild:
-                      - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
+                      - seiten/arbeiten/fertigearbeit.png
                     ausrichtung: text-bild
-                    text: |+
-                      <br>
-                      <br>
-                      Bei der Endlieferung erhalten Sie eine hochqualitative und von [Experten](/experten) auf Qualität geprüfte Muster-Masterarbeit als PDF Datei. Falls Sie hierzu Feedbacks haben, setzen wir diese selbstverständlich kostenfrei um.
+                    text: |
 
+
+                      Mit der finalen Lieferung bekommen Sie dann Ihre individuelle Mustervorlage der Dissertation von Ihrem individuellen Betreuer. Da der Datenschutz von dem erstellten wissenschaftlichen Ergebnis besonders für unsere Agentur wichtig ist, werden auch alle Daten vom Auftraggeber bzw. Kunden im Anschluss an den Auftrag gelöscht.
               -
                 type: paragraph
             show_as_card: false
@@ -1878,7 +1964,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640254715
+updated_at: 1640259269
 template: default
 use_meta_keywords: false
 no_index_page: false
