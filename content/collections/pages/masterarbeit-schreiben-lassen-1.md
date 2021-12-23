@@ -72,7 +72,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Masterarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Masterarbeit/b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Hausarbeit als Mustervorlage für Ihre Masterarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
+                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Masterarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Masterarbeit/b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Masterarbeit als Mustervorlage für Ihre Masterarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
                       </p>
               -
                 type: set
@@ -1751,7 +1751,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640287712
+updated_at: 1640288099
 template: default
 use_meta_keywords: false
 no_index_page: false
