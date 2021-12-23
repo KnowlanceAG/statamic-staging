@@ -2,7 +2,7 @@
 id: 0481728e-d2e2-4b99-9a9e-8e5bca901d14
 published: false
 blueprint: pages
-title: 'Masterarbeit (Dupliziert) (Dupliziert)'
+title: 'Doktorarbeit (Dupliziert)'
 teaser:
   -
     type: heading
@@ -64,7 +64,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Hausarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Masterarbeit/b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Hausarbeit als Mustervorlage für Ihre Masterarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
+                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Doktorarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Doktorarbeit/b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Doktorarbeit als Mustervorlage für Ihre Doktorarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
                       </p>
               -
                 type: set
@@ -174,6 +174,201 @@ replicator:
     type: add_section
     enabled: true
     bg-image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Hilfe bei der Doktorarbeit leistet oft ein akademischer Ghostwriter, wenn sich Doktoranden eine Mustervorlage für die Doktorarbeit schreiben lassen. Aufgrund seiner Erfahrungen und fachlichen Kenntnisse in seinem Fachbereich, ist es möglich, ihn ohne aufwendige Einarbeitungszeit zu jedem Zeitpunkt der Schreibphase als Hilfestellung zu beauftragen. Oft geschieht dies direkt zu Beginn der Aufgaben, bei der Themenfindung bzw. Themenwahl, der Literaturrecherche, dem Aufbau einer Doktorarbeit, den methodischen Ansätzen und deren Exposé.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Ebenfalls ist es möglich, Hilfestellungen während des Studiums in Anspruch zu nehmen oder sich Beratung bei einigen Teilaspekten zu verschaffen. Schließlich stellt eine Doktorarbeit erheblich höhere Ansprüche als beispielsweise eine Hausarbeit, Bachelorarbeit oder Masterarbeit.'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '3'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - leistung/icon-lektorat_old.svg
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zudem können Teilleistungen wie das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: Lektorat
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'das Korrektorat der Dissertation, die bereits durch den Doktoranden fertiggestellt wurde, in Anspruch genommen werden. Die Korrekturen in der Arbeit dienen dazu, um grammatikalische und syntaktische Fehler zu vermeiden sowie korrekte Sätze zu formulieren. Auch können Studierende den Text von einem Fachautoren lektorieren lassen, was hilft, den Textinhalt korrekt wiederzugeben. Die beiden Leistungen werden von Fachbereich-Experten betreut, die das methodische Know-How und das Forschungsthema beherrschen.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - leistung/2018-08-31-Plagiatsprufung.svg
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Abschließend kann eine umfassende '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          target: null
+                          rel: null
+                    text: Plagiatsprüfung
+                  -
+                    type: text
+                    text: ' erfolgen, um mögliche Flüchtigkeitsfehler bei Zitaten zu erkennen und den ordnungsgemäßen Umgang mit Quellen zu versichern. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Oft geschieht dieser Fehler während der Literaturrecherche, denn viele Studierende möchten sich die Arbeit erleichtern und Zitationen schnell unterbringen.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - leistung/icon-hat-1.svg
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Nicht selten werden auch Dienstleistungen wie die sog. Beratung zur Promotion in Anspruch genommen. Zudem verschaffen sich einige Doktoranden eine umfassende Hilfe, indem sie Mustervorlagen von einen\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "\_für ihre Doktorarbeit schreiben lassen und diese Ghostwriter-Doktorarbeit als Vorlage für ihre eigene Schreibarbeit nutzen."
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: true
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
   -
     columns-replicator:
       -
@@ -1704,7 +1899,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640249131
+updated_at: 1640250886
 template: default
 use_meta_keywords: false
 no_index_page: false
