@@ -374,6 +374,71 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: phone_cta
+                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
+                    open: 'Mo.-Fr. 9:00-18:00'
+              -
+                type: paragraph
+            show_as_card: true
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '12'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '80,- € pro Normseite.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    button_align: justify-start
+                    spacing_top: true
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: true
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#D6D6D6'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
         columns_per_row: 1
         single-col: false
         grid:
@@ -569,7 +634,7 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
+    is-full: true
     bg-toggle: false
     bg-image-fixed: false
     border: false
@@ -632,73 +697,106 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
+    is-full: true
     bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
     enabled: true
+    bg-color: '#F2F2F2'
   -
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
+        columns_per_row: 1
+        single-col: true
         grid:
           -
             bard:
               -
-                type: set
+                type: heading
                 attrs:
-                  values:
-                    type: phone_cta
-                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
-                    open: 'Mo.-Fr. 9:00-18:00'
-              -
-                type: paragraph
-            show_as_card: true
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '12'
-              -
-                type: paragraph
+                  level: 2
                 content:
-                  -
-                    type: text
-                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: '80,- € pro Normseite.'
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Wir unterstützen Sie bei nahezu allen akademischen Fachbereichen & Arbeiten!'
               -
                 type: set
                 attrs:
                   values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    button_align: justify-start
-                    spacing_top: true
+                    type: link_liste
+                    raster:
+                      -
+                        text: Fachrichtungen
+                        eintraege:
+                          - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
+                          - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
+                          - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
+                          - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
+                          - 9944d809-005e-4651-bf9b-5555f0229245
+                          - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
+                          - a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
+                          - 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
+                          - 4476be29-c55a-45b7-ac4a-0e300dfdb8b6
+                          - 522e26b9-451d-43a8-a204-2e0f75b87f4b
+                          - 45680fad-6f7a-437f-88c2-23e0bc080818
+                          - 34f7528d-839e-4ef6-b735-627084dba887
+                          - 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
+                          - d72509d7-bb3a-40dd-a757-3317732e2a57
+                          - a9cc9473-308b-4615-8f30-d545f7f63faf
+                          - dc0c7edd-0724-4454-9525-49b8f9065f16
+                          - 1363a62f-c0e9-4dba-aa09-d331c4fa8260
+                          - a9561621-8360-4ecf-855c-753f4a217c5a
+                          - bfd868ec-f81c-4805-8122-2e11008e72f2
+                          - 84a37239-87ee-45fb-b2d1-058a86fecfbb
+                          - f501c52c-7217-448e-bb53-d6f84c7e51c8
+                          - 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
+                          - b850974c-8d2d-4448-b168-3dccef384025
+                          - 051a1060-2c31-4edd-af39-c44fe3842526
+                          - 21aff10c-582a-440f-9f50-1af525566292
+                          - 839e6791-eebd-4bc8-8975-a278836a9c05
+                          - f07c0010-40dd-407e-bf32-a1a260b5016b
+                          - b8930678-fff6-4d7a-8ae8-056605f303f2
+                          - 925eedca-5fbe-4da9-a307-807426feaeeb
+                          - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
+                          - 06fbb3f4-51c2-4f11-832e-9b72a495857d
+                          - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
+                      -
+                        text: Arbeiten
+                        eintraege:
+                          - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
+                          - 99cd8e42-b21c-4cea-a162-a9454db2375f
+                          - 89093abd-fdd4-4830-a368-7ede1b75ca1a
+                          - 5659593d-2756-4e9f-a5b3-b391103d9886
+                          - 425234fd-eb40-4dab-bb3d-95bbac5948eb
+                          - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
+                          - 62115090-7bb2-448f-bb32-a32bb5977382
+                          - 134ba799-3362-4166-86f7-bba4e992d7d7
+                          - 5c6db140-ee4a-4a88-bf56-4153664421d4
+                          - aa35a1ca-0812-4402-a4d5-4a6d4aa8c1c0
+                          - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
+                          - 686e5203-e17a-4101-809a-07c9f799ccfa
+                          - b6ee03ca-ecab-4749-ade4-45ff821b748d
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
-            show_as_card: true
+                    padding-y: '30'
+              -
+                type: paragraph
+            show_as_card: false
         type: row
         enabled: true
     remove_spacing: true
-    is-full: true
+    is-full: false
     bg-toggle: false
-    bg-color: '#D6D6D6'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -719,7 +817,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriter Masterarbeit: Warum sollte man sich helfen lassen?'
+                    text: 'Ghostwriter Doktorarbeit: Qualitative Unterstützung'
               -
                 type: paragraph
                 content:
@@ -920,103 +1018,6 @@ replicator:
         enabled: true
     remove_spacing: true
     is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Wir unterstützen Sie bei nahezu allen akademischen Fachbereichen & Arbeiten!'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: link_liste
-                    raster:
-                      -
-                        text: Fachrichtungen
-                        eintraege:
-                          - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
-                          - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
-                          - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
-                          - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
-                          - 9944d809-005e-4651-bf9b-5555f0229245
-                          - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
-                          - a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
-                          - 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
-                          - 4476be29-c55a-45b7-ac4a-0e300dfdb8b6
-                          - 522e26b9-451d-43a8-a204-2e0f75b87f4b
-                          - 45680fad-6f7a-437f-88c2-23e0bc080818
-                          - 34f7528d-839e-4ef6-b735-627084dba887
-                          - 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
-                          - d72509d7-bb3a-40dd-a757-3317732e2a57
-                          - a9cc9473-308b-4615-8f30-d545f7f63faf
-                          - dc0c7edd-0724-4454-9525-49b8f9065f16
-                          - 1363a62f-c0e9-4dba-aa09-d331c4fa8260
-                          - a9561621-8360-4ecf-855c-753f4a217c5a
-                          - bfd868ec-f81c-4805-8122-2e11008e72f2
-                          - 84a37239-87ee-45fb-b2d1-058a86fecfbb
-                          - f501c52c-7217-448e-bb53-d6f84c7e51c8
-                          - 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
-                          - b850974c-8d2d-4448-b168-3dccef384025
-                          - 051a1060-2c31-4edd-af39-c44fe3842526
-                          - 21aff10c-582a-440f-9f50-1af525566292
-                          - 839e6791-eebd-4bc8-8975-a278836a9c05
-                          - f07c0010-40dd-407e-bf32-a1a260b5016b
-                          - b8930678-fff6-4d7a-8ae8-056605f303f2
-                          - 925eedca-5fbe-4da9-a307-807426feaeeb
-                          - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
-                          - 06fbb3f4-51c2-4f11-832e-9b72a495857d
-                          - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
-                      -
-                        text: Arbeiten
-                        eintraege:
-                          - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
-                          - 99cd8e42-b21c-4cea-a162-a9454db2375f
-                          - 89093abd-fdd4-4830-a368-7ede1b75ca1a
-                          - 5659593d-2756-4e9f-a5b3-b391103d9886
-                          - 425234fd-eb40-4dab-bb3d-95bbac5948eb
-                          - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
-                          - 62115090-7bb2-448f-bb32-a32bb5977382
-                          - 134ba799-3362-4166-86f7-bba4e992d7d7
-                          - 5c6db140-ee4a-4a88-bf56-4153664421d4
-                          - aa35a1ca-0812-4402-a4d5-4a6d4aa8c1c0
-                          - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
-                          - 686e5203-e17a-4101-809a-07c9f799ccfa
-                          - b6ee03ca-ecab-4749-ade4-45ff821b748d
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
     bg-toggle: false
     bg-image-fixed: false
     border: false
@@ -1877,7 +1878,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640253769
+updated_at: 1640254715
 template: default
 use_meta_keywords: false
 no_index_page: false
