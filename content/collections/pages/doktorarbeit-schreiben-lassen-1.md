@@ -60,6 +60,14 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '29'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
@@ -2254,7 +2262,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640287201
+updated_at: 1640287956
 template: default
 use_meta_keywords: false
 no_index_page: false
