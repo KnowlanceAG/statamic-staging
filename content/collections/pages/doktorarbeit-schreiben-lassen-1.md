@@ -943,6 +943,14 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
                     type: numbers_home
                     grid:
                       -
@@ -968,6 +976,14 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
                     type: numbers_home
                     grid:
                       -
@@ -988,7 +1004,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '9'
+                    padding-y: '10'
               -
                 type: paragraph
               -
@@ -1030,6 +1046,14 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
                     type: numbers_home
                     grid:
                       -
@@ -1053,6 +1077,14 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
                     type: numbers_home
                     grid:
                       -
@@ -1069,6 +1101,14 @@ replicator:
                       - seiten/arbeiten/bachelorarbeit-schreiben.jpg
                     ausrichtung: text-bild
                     text: 'Nachdem die eigentliche Schreibphase mit allen Teillieferungen abgeschlossen ist, erfolgt der Feinschliff. Ihr Feedback wird dabei von Ihrem Ghostwriter in kostenlosen Korrekturschleifen eingearbeitet. Es erfolgt zudem eine Plagiatsprüfung der Mustervorlage, welche Sie für Ihre Doktorarbeit schreiben lassen. Gefolgt wird diese von einem zweiten Lektorat unser Schreibservice im Vier-Augen-Prinzip. Somit ist die Qualitätsgarantie der Arbeit bestätigt.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -1099,36 +1139,6 @@ replicator:
         enabled: true
     remove_spacing: true
     is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    spacing_top: false
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: true
     bg-toggle: false
     bg-image-fixed: false
     border: false
@@ -2245,7 +2255,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640286449
+updated_at: 1640286988
 template: default
 use_meta_keywords: false
 no_index_page: false
