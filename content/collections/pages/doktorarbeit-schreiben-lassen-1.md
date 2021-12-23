@@ -1132,13 +1132,7 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: gray-700
-                          hex: '#999'
-                    text: 'Zum Master'
+                    text: 'Zur Doktorarbeit'
               -
                 type: paragraph
                 content:
@@ -1148,42 +1142,81 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: gray-700
-                          hex: '#999'
-                    text: 'Der Masterabschluss folgt dem Bachelorgrad und ist somit der zweite akademische Grad, welcher bei einem Studium innerhalb der EU und in den meisten englischsprachigen Ländern erreicht werden kann. Der erste akademische Grad ist der Bachelor, bei dem Universitäten und Hochschulen von ihren Studenten eine Bachelorarbeit schreiben lassen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: gray-700
-                          hex: '#999'
-                    text: 'Die Prüfung zum Masterabschluss besteht aus einem studienbegleitenden Teil, der Examens- oder Masterarbeit (auch Masterthesis) und der mündlichen Abschlussprüfung. Für das Vollenden des Masterstudiums ist vorgesehen, dass Lehrinstitute von ihren Studenten eine Masterarbeit schreiben lassen. Dadurch soll geprüft werden, ob der Student in der Lage ist, ordnungsgemäß zu einer speziellen Fragestellung zu recherchieren und sie wissenschaftlich zu erarbeiten.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: gray-700
-                          hex: '#999'
-                    text: 'Die damit verbundene Thesis ist sehr zeitintensiv und umfangreich. Trotz dem deutlich höheren Anspruch der Masterthesis im Vergleich zu einer Hausarbeit oder Bachelorarbeit, erhalten Studierende von Hochschulen oft nicht ausreichend Hilfe. Nicht selten brauchen die Studierenden mehr als nur eine Textkorrektur, sondern auch Unterstützung beim Aufbau und Verfassen der Arbeit.'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
-                    text: ' '
+                    text: 'Die Voraussetzung für den höchsten akademischen Grad bzw. für den Doktor ist ein guter Hochschulabschluss mit Promotionsrecht. Genauere Zulassungskriterien erfahren Sie an Ihrer jeweiligen Fakultät. Der Begriff Doktorarbeit kann auch als Dissertation verwendet werden. Die Doktorarbeit ist eine wissenschaftliche Arbeit, die an Hochschulen mit Promotionsrecht das Erlangen der Doktorwürde oder des Doktorgrades ermöglicht.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Der Vorgang wird auch Promotion genannt. Die Promotionsprogramme sind unterschiedlich aufgebaut, meist müssen die Promivierenden bestimmte Seminare belegen und Lehrveranstaltungen besuchen. Um Ihre Promotionsverfahren zu betreuen, benötigen Sie einen befugten Dozenten bzw. einen Doktorvater.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Jedoch sind Sie noch nicht mit Ihrem Promotionsprogramm fertig, nach dem Sie Ihre Doktorarbeit erfolgreich abgeben haben. Um die Verleihung des akademischen Doktorgrades zu erreichen, müssten Sie noch Rigorosum und Disputation bestehen. Rigorosum ist eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/doktorarbeit-verteidigen
+                          target: null
+                          rel: null
+                    text: 'mündliche Prüfung'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: " und Disputation ist eine wissenschaftliche Diskussion, in dem von Ihnen eine Verteidigung über Ihre Arbeit erlangt wird.\_"
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'So gibt es keine Hochschulen oder Universitäten, die zum Erlangen des Doktortitels von den Doktoranden nicht eine Doktorarbeit schreiben lassen. Promovenden sollen darauf geprüft werden, ob sie in der Lage sind, eine wissenschaftliche Arbeit mit neuen Erkenntnissen eigenständig anzufertigen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Das Erlangen der Doktorwürde ist meist ein langwieriger Schreibprozess, dessen aufwändigster Teil die Ausarbeitung der Dissertation ist. Hier gibt es die Möglichkeit, ein hochwertiges Coaching zu nutzen, um die Doktorandinnen bei der Strukturierung zu unterstützen. Auch ein regelmäßiges Lektorat der Dissertation unterstützt den Studierenden. Um die zeitliche Beanspruchung zu verringern, gibt es Doktorandinnen, die einen Ghostwriter eine Mustervorlage für ihre Doktorarbeit schreiben lassen.'
             show_as_card: true
           -
             bard: null
@@ -1964,7 +1997,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640259269
+updated_at: 1640259371
 template: default
 use_meta_keywords: false
 no_index_page: false
