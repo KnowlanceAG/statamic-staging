@@ -1,5 +1,6 @@
 ---
 id: 0481728e-d2e2-4b99-9a9e-8e5bca901d14
+published: false
 blueprint: pages
 title: 'Doktorarbeit (Dupliziert)'
 teaser:
@@ -2262,7 +2263,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640288036
+updated_at: 1640909346
 template: default
 use_meta_keywords: false
 no_index_page: false
