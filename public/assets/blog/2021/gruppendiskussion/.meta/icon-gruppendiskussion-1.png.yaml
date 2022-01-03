@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Teilnehmer für Gruppendiskussion'
 size: 4574
 last_modified: 1640870468
 width: 149
