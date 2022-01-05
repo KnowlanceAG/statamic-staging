@@ -21,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Mustervorlage für Seminararbeit schreiben lassen'
+        text: 'Mustervorlage für Facharbeit schreiben lassen'
   -
     type: paragraph
     content:
@@ -34,7 +34,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Hilfe vom akademischen Ghostwriter bei Ihrer Seminararbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Hilfe vom akademischen Ghostwriter bei Ihrer Facharbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate'
   -
     type: set
     attrs:
@@ -64,7 +64,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Seminararbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Seminararbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Hausarbeit als Mustervorlage für Ihre Seminararbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
+                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Facharbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Facharbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Facharbeit als Mustervorlage für Ihre Facharbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
                       </p>
               -
                 type: set
@@ -188,32 +188,15 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Wissenschaftliches Schreiben ist eine der ersten großen Herausforderungen im Rahmen des Studiums für einen Studienanfänger. Es ist üblich, dass Universitäten ihre Studierenden mindestens eine Seminararbeit schreiben lassen. Akademische Ghostwriter werden hierbei oft als Hilfe herangezogen. Grund hierfür ist, dass '
+                    text: 'Obwohl für die Facharbeit einige Wochen Bearbeitungszeit vorgesehen sind, kommen '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: textAlign
                         attrs:
                           align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Seminararbeiten
+                    text: 'Schüler häufig in Zeitnot, weil sie mit der ungewohnten Art zu arbeiten nicht umgehen können bzw. diese sehr aufwendig ist. Außerdem müssen Schüler gleichzeitig für andere Klausuren und Abiturprüfungen lernen - das führt auch zu zeitlichen Problemen. Um bei der Fragestellung ,,Wie schreibe ich eine Facharbeit?“ nicht alleine zu stehen, wenden sich einige Schüler während dem Schreibprozess an einen akademischen '
                   -
                     type: text
                     marks:
@@ -222,11 +205,165 @@ replicator:
                         attrs:
                           align: center
                       -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat/lektor
+                          target: null
+                          rel: null
+                    text: Lektor
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: ' oder Korrektor von einem Schreibservice. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Besonders weil die Arbeit auf das Studium vorbereiten soll und als Übungsmöglichkeit steht, ist es wichtig, Schüler zu unterstützen, ihr Interesse am Studieren zu wecken und sie nicht unnötig zu demotivieren.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' durch eine starke Gewichtung in Form von Creditpoints eine wichtige Bedeutung für den Studienabschluss haben.'
+                    text: 'Eine Arbeit über einen spezifischen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen
+                          target: null
+                          rel: null
+                    text: Fachbereich
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' zu verfassen ist eine gute Vorbereitung für das Studium, wenn Sie als Studierende weitere wissenschaftliche Arbeiten schreiben müssen, wie Ihre erste '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Hausarbeit '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Seminararbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Jedoch werden die wissenschaftlichen Arbeiten von Schullehrern und Dozenten unterschiedlich bewertet. Ein Schullehrer bewertet eine wissenschaftliche Arbeit oberflächlicher, während ein Professor es strenger bewertet.'
               -
                 type: paragraph
             show_as_card: false
@@ -565,12 +702,13 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
+    is-full: true
+    bg-toggle: true
     bg-image-fixed: false
     border: false
     type: add_section
     enabled: true
+    bg-image: seiten/arbeiten/hilfmoglichkeiten-ghostwriter.jpg
   -
     columns-replicator:
       -
@@ -2560,7 +2698,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1641390287
+updated_at: 1641390904
 template: default
 use_meta_keywords: false
 no_index_page: false
