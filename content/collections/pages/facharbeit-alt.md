@@ -1,7 +1,8 @@
 ---
 id: 2b55bfe7-06df-4e71-86da-152e256904ec
+published: false
 blueprint: pages
-title: 'Seminararbeit (Dupliziert) (Dupliziert)'
+title: 'Facharbeit (Dupliziert)'
 teaser:
   -
     type: heading
@@ -2559,7 +2560,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640288972
+updated_at: 1641390287
 template: default
 use_meta_keywords: false
 no_index_page: false
