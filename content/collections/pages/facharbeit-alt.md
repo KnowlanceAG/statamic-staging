@@ -188,15 +188,12 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Obwohl für die Facharbeit einige Wochen Bearbeitungszeit vorgesehen sind, kommen '
-                  -
-                    type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Schüler häufig in Zeitnot, weil sie mit der ungewohnten Art zu arbeiten nicht umgehen können bzw. diese sehr aufwendig ist. Außerdem müssen Schüler gleichzeitig für andere Klausuren und Abiturprüfungen lernen - das führt auch zu zeitlichen Problemen. Um bei der Fragestellung ,,Wie schreibe ich eine Facharbeit?“ nicht alleine zu stehen, wenden sich einige Schüler während dem Schreibprozess an einen akademischen '
+                    text: 'Obwohl für die Facharbeit einige Wochen Bearbeitungszeit vorgesehen sind, kommen Schüler häufig in Zeitnot, weil sie mit der ungewohnten Art zu arbeiten nicht umgehen können bzw. diese sehr aufwendig ist. Außerdem müssen Schüler gleichzeitig für andere Klausuren und Abiturprüfungen lernen - das führt auch zu zeitlichen Problemen. Um bei der Fragestellung ,,Wie schreibe ich eine Facharbeit?“ nicht alleine zu stehen, wenden sich einige Schüler während dem Schreibprozess an einen akademischen '
                   -
                     type: text
                     marks:
@@ -698,7 +695,7 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: "\_durch unsere Ghostwriting-Agentur erfolgen. Auch ein sog. Coaching mit fachlichem Wissen unterstützt den Studenten bei seiner Seminararbeit oder im Studienprozess. Einige Studenten möchten sich auch eine Mustervorlage für ihre Seminararbeit schreiben lassen, um diese Arbeit als Vorlage für ihre eigene akademischen Arbeit zu nutzen."
-            show_as_card: false
+            show_as_card: true
         type: row
         enabled: true
     remove_spacing: false
@@ -2698,7 +2695,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1641390904
+updated_at: 1641391053
 template: default
 use_meta_keywords: false
 no_index_page: false
