@@ -14,3 +14,7 @@ preferences:
     blog:
       per_page: 100
       after_save: continue_editing
+      columns:
+        - title
+        - slug
+        - date
