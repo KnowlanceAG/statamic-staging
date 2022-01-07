@@ -1059,10 +1059,23 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single-col: true
         grid:
           -
             bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Wissenschaftliche Arbeiten '
               -
                 type: set
                 attrs:
@@ -1079,9 +1092,208 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  enabled: false
+                  values:
+                    type: spacer
+                    padding-y: '22'
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Was erwartet Sie bei einer Ghostwriter Facharbeit?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Einen Ghostwriter die Facharbeit schreiben lassen ist auch eine Option. Dabei ist jedoch zu beachten, dass die Ghostwriting-Facharbeit lediglich als Vorlage genutzt werden sollte, da sie nicht als eigene Prüfungsleistung ausgegeben werden darf.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Das ausgewählte Thema für eine fachbezogene Arbeit zeigt, dass der Schüler sich in diesem Themenfeld vertiefen möchten. Daher wählen viele Studenten nach dem Abitur die Fachrichtung aus, mit der sie sich schon einmal auseinandergesetzt haben. Besonders bei den wissenschaftlichen Studienarbeiten (Hausarbeiten, Seminararbeiten) wird ein tiefes Fach-Know-How erwartet.'
+            show_as_card: true
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '50'
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Das ausgewählte Thema für eine fachbezogene Arbeit zeigt, dass der Schüler sich in diesem Themenfeld vertiefen möchten. Daher wählen viele Studenten nach dem Abitur die Fachrichtung aus, mit der sie sich schon einmal auseinandergesetzt haben. Besonders bei den wissenschaftlichen Studienarbeiten (Hausarbeiten, Seminararbeiten) wird ein tiefes Fach-Know-How erwartet.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '44'
+              -
+                type: paragraph
+            show_as_card: true
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#F7F7F7'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/beispielarbeiten-3.JPG
+                    ex_title: 'Sexuelle und Reproduktive Rechte – Ein Menschenrecht zum Schutz von LGBTIQ*-Menschen? Eine politikwissenschaftlich-historische Analyse'
+                    ex_fachbereich:
+                      - f07c0010-40dd-407e-bf32-a1a260b5016b
+                    ex_type: Facharbeit
+                    ex_pages: '10'
+                    ex_zitation: 'Deutsche Zitierweise (Zitieren mit Fußnoten)'
+                    ex_button_link: 'entry::f206afbb-bc01-48a0-bedb-ac88f20e776e'
+                    ex_button_text: WEITERLESEN
+                    ex_color: '#FF6606'
+                    ex_spacing_top: false
+                    ex_button_align: justify-start
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Über den Autor'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - team/wittkamp_gwriters_ghostwriter_rund.png
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Diplom Betriebswirt Marcus Wittkamp'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Senior Ghostwriter & Supervisor'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#F7F7F7'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -1102,13 +1314,7 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Was ist eine Seminararbeit?'
+                    text: 'Zur Facharbeit'
               -
                 type: paragraph
                 content:
@@ -1120,47 +1326,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Seminare sind '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Veranstaltungen an Hochschulen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', die sich über den regen Austausch zwischen Studenten und Hochschullehrer definieren. Der Abschluss eines solchen Seminars wird meist erreicht, indem die Lehrinstitutionen von ihren Studenten '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Referate bzw. Präsentationen erwarten oder eine Seminararbeit'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' schreiben lassen.'
+                    text: 'Die Facharbeit ist für viele die erste Etappe in Richtung wissenschaftliches Arbeiten. Hier muss ein Schüler erstmals zeigen, dass er, nach vorheriger Anleitung durch den Lehrer, eigenständig eine schriftliche Ausarbeitung zu einem Thema anfertigen kann. Die Themenwahl wird in Zusammenarbeit mit einem Lehrer erarbeitet.'
               -
                 type: paragraph
                 content:
@@ -1172,7 +1338,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Dadurch soll der Student nicht nur den Umgang mit wissenschaftlichen Fragestellungen erlernen, sondern auch seine Leistungen und Ergebnisse angemessen in Schrift umsetzen. Solche Projektarbeiten und Aufgaben dienen zur Vorbereitung einer Bachelorarbeit oder Masterarbeit.'
+                    text: 'Die Aktualität eines Themas ist wichtig für eine wissenschaftliche Arbeit, um eine erfolgreiche Abiturnote zu erzielen. Hierbei kann ein akademischer Ghostwriter bei der Themensuche eine gute Hilfe sein. Denn Ghostwriter kennen den aktuellen Forschungsstand, haben zu vielen Datenbanken Zugriff und Forschungsmaterialien zur Verfügung.'
               -
                 type: paragraph
                 content:
@@ -1184,39 +1350,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Durch die nicht selten fehlende Erfahrung mit wissenschaftlichen Arbeiten und deren Aufgaben, in Verbindung mit Leistungs- und Zeitdruck, sind einige Studenten schon den akademischen Texten überfordert. Sie benötigen weitaus mehr Hilfe bei der Seminararbeit, als es einige Hochschulen bieten können.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Die Hilflosigkeit hat bei einigen Studenten dazu geführt, dass diese von einem erfahrenen Ghostwriter ihre '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Seminararbeit schreiben lassen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: '. Dabei sollte jedoch die Seminararbeit des Ghostwriters lediglich als Mustervorlage dienen, da es sich um eine Prüfungsleistung handelt, die vom Studenten selbst erstellt werden muss.'
+                    text: 'Facharbeiten werden in der reformierten Oberstufe verfasst und sollen bereits einigen Anforderungen der Universität entsprechen. Unterstützung wird dabei zum einen seitens der Schule geboten, durch den Lehrer bzw. Betreuer, zum anderen durch einen akademischen Freelancer, der als Lektor oder Korrektor die Facharbeit optimiert.'
             show_as_card: true
           -
             bard: null
@@ -1276,17 +1410,15 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/arbeiten/hausarbeit/anfrage.png
-                    text: 'Nach einer [**unverbindlichen Anfrage**](/anfrage) auf der Webseite, erhalten Sie ein **kostenloses Leistungsangebot** und eine individuelle Beratung zur Planung eines Projektes von unseren Kundenberater. Nach einer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre Arbeit. Unsere professionellen Projektmanager aus unserer Schreibservice übernehmen die gesamte Kommunikation, sodass stets Ihre Anonymität und gleichzeitig auch die Unbekanntheit des Autors gesichert ist. Bei größeren Seminararbeiten oder auch bei Ihrer Abschlussarbeit ist auch eine anonyme Telefonkonferenz mit dem jeweiligen Autor möglich.'
+                    text: 'Die Mustervorlage für Ihre Arbeit wird von unseren akademischen Ghostwriter nach Ihren Bedürfnissen und Anforderungen gestaltet. Der Auftrag startet, nach dem Sie das Angebot angenommen haben. Je nach Komplexität des Themas, werden mehrere Teillieferungen geplant.'
                     ausrichtung: bild-text
               -
                 type: set
                 attrs:
                   values:
                     type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/termineplanen.png
                     text: |+
-                      **Je nach Umfang der Mustervorlage** werden eine oder mehrere Teillieferungen vereinbart. Gerade diese [**Teillieferungstermine**](/blog/ghostwriting-gwriters-teillieferungen) sind wichtig, um einen Abgleich zu erhalten zwischen Ihren Anforderungen aus dem Thema heraus und dem, was Ihr Autor geliefert hat. Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich auch **kostenlos** im Rahmen der weiteren Umsetzungsschritte realisiert.
+                      Während der Durchführung Ihrer Aufgabe, die von einem professionellen Ghostwriter als Mustervorlage erstellt wird, läuft die gesamte Kommunikation anonym in schriftlicher oder telefonischer Form ab. Da der Datenschutz für unsere Agentur besonders wichtig ist, wird die Anonymität der Daten vom Auftraggeber geschützt und nach dem Auftrag und der Übermittlung der wissenschaftlichen Ergebnisse gelöscht.
 
                     ausrichtung: text-bild
               -
@@ -1508,160 +1640,6 @@ replicator:
     bg-toggle: false
     bg-image-fixed: false
     border: true
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '22'
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Was erwartet Sie bei einer Ghostwriter Seminararbeit?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird diese Hilfe nicht geboten, bietet sich die Option, dass sich Studierende eine Mustervorlage von einem Ghostwriter für ihre Seminararbeit schreiben lassen. Diese Ghostwriting-Seminararbeit kann anschließend als Beispiel unterstützend genutzt werden. Um Ihnen eine bessere Vorstellung davon zu geben, was Sie von unserer Schreibagentur erhalten, stellen wir Ihnen im Folgenden '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'ein Ghostwriting Beispiel zum kostenlosen Download bereit:'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F7F7F7'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/besipielarbeit.JPG
-                    ex_title: 'Auswirkungen der Digitalisierung auf die Wertschöpfungskette'
-                    ex_fachbereich:
-                      - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
-                    ex_type: Seminararbeit
-                    ex_pages: '12'
-                    ex_zitation: 'Harvard Style'
-                    ex_button_link: 'entry::96cae355-3c82-4ead-9c6f-b091dcd86f36'
-                    ex_button_text: WEITERLESEN
-                    ex_color: '#FF6606'
-                    ex_spacing_top: false
-              -
-                type: paragraph
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '20'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Über den Autor'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating-img
-                    dateien:
-                      - team/wittkamp_gwriters_ghostwriter_rund.png
-                    img_size: w-1/2
-                    float: mx-auto
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Diplom Betriebswirt Marcus Wittkamp'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Senior Ghostwriter & Supervisor'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F7F7F7'
-    bg-image-fixed: false
-    border: false
     type: add_section
     enabled: true
   -
@@ -2881,7 +2859,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1641561123
+updated_at: 1641565946
 template: default
 use_meta_keywords: false
 no_index_page: false
