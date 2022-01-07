@@ -1296,8 +1296,8 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
+        columns_per_row: 1
+        single-col: true
         grid:
           -
             bard:
@@ -1485,16 +1485,12 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: '. Unterstützung wird dabei zum einen seitens der Schule geboten, durch den Lehrer bzw. Betreuer, zum anderen durch einen akademischen Freelancer, der als Lektor oder Korrektor die Facharbeit optimiert.'
-            show_as_card: true
-          -
-            bard: null
             show_as_card: false
         type: row
         enabled: true
     remove_spacing: true
     is-full: true
     bg-toggle: true
-    bg-color: '#F9F9F9'
     bg-image: seiten/arbeiten/seminararbeit/seminararbeit-plan.jpg
     bg-image-fixed: false
     border: false
@@ -2175,12 +2171,13 @@ replicator:
         enabled: true
     remove_spacing: false
     is-full: true
-    bg-toggle: true
+    bg-toggle: false
     bg-image: seiten/arbeiten/seminararbeit/seminararbeit_schreiben_lassen_professoren_doktoren_.jpg
     bg-image-fixed: false
     border: false
     type: add_section
     enabled: true
+    bg-color: '#F9F9F9'
   -
     columns-replicator:
       -
@@ -2733,7 +2730,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1641578489
+updated_at: 1641579373
 template: default
 use_meta_keywords: false
 no_index_page: false
