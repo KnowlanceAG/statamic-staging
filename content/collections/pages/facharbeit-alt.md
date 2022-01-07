@@ -469,49 +469,25 @@ replicator:
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Wenn Sie bei Ihrer Seminararbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' '
+                    text: 'Wenn Sie bei Ihrer Facharbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /anfrage
-                          target: _blank
+                          target: null
                           rel: null
-                    text: 'unverbindliche Anfrage schicken'
+                    text: 'unverbindliche Anfrage'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück. Falls Sie eine kostenlose telefonische Beratung wünschen, rufen wir Sie auch gerne an.'
+                    text: ' an unseren Schreibservice schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
               -
                 type: set
                 attrs:
@@ -610,7 +586,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Hausarbeit'
+                    text: 'Welche Arten von Hilfe bei der Facharbeit gibt es?'
               -
                 type: paragraph
                 content:
@@ -622,31 +598,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Studierende beauftragen häufig für die Unterstützung bei ihren Seminararbeiten Ghostwriter. Diese bieten eine Vielzahl von Leistungen und Hilfestellungen an. Sie können daher zu jedem Zeitpunkt des Arbeitsverlaufs beauftragt werden können.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Oft geschieht dies direkt am Anfang bei der Themenwahl und der Definition der Leitfrage, bei Problemen bei der Literaturrecherche, dem Aufbau einer Seminararbeit, deren Exposé und der Erstellung von Präsentation. Zudem ist es möglich, einen akademischen Experten im Laufe des Schreibprozesses um Rat zu fragen. Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, die Seminararbeit Korrekturlesen und von einem Wissenschaftslektor kontrollieren zu lassen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: "Neben der Korrektur und dem\_"
+                    text: 'Neben der schulischen Hilfe durch einen Lehrer, der als Betreuer bei der Facharbeit zuständig ist, kann ein '
                   -
                     type: text
                     marks:
@@ -658,10 +610,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /lektorat
-                          target: _blank
+                          href: /blog/gwriters-coaching
+                          target: null
                           rel: null
-                    text: Lektorat
+                    text: Coaching
                   -
                     type: text
                     marks:
@@ -670,7 +622,19 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "\_der Seminararbeit, kann zusätzlich eine umfassende\_"
+                    text: ' durch einen sog. Akademischen Ghostwriter erfolgen. Dieser beschäftigt sich hauptberuflich mit wissenschaftlichen Texten und Arbeiten und besitzt zudem zahlreiche Kenntnisse in seinem Fachgebiet. Der Schüler kann ihn aus diesem Grund ohne Schwierigkeiten zu jedem Zeitpunkt und Problem des Schreibprozesses beauftragen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Oft geschieht dies direkt zu Beginn der Texterstellung im Vorbereitungsprozess, bei der Forschung, der Themenfindung, der Literaturrecherche (Fachliteratur), der Strukturierung, '
                   -
                     type: text
                     marks:
@@ -682,10 +646,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: _blank
+                          href: /blog/aufbau-wissenschaftliche-arbeit
+                          target: null
                           rel: null
-                    text: Plagiatsprüfung
+                    text: 'der Gliederung und dem Aufbau der fachbezogenen Arbeit'
                   -
                     type: text
                     marks:
@@ -694,7 +658,26 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "\_durch unsere Ghostwriting-Agentur erfolgen. Auch ein sog. Coaching mit fachlichem Wissen unterstützt den Studenten bei seiner Seminararbeit oder im Studienprozess. Einige Studenten möchten sich auch eine Mustervorlage für ihre Seminararbeit schreiben lassen, um diese Arbeit als Vorlage für ihre eigene akademischen Arbeit zu nutzen."
+                    text: ' (Einleitung, Kernteil, Hauptteil, Fazit, Formalitäten). Ebenfalls besteht bei Zeitnot die Möglichkeit, den Freelancer zum Coaching der Facharbeit einzusetzen und ihn während des gesamten Schreibprozesses unterstützend agieren zu lassen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zum Beispiel können Ghostwriter einen Gliederungsentwurf für Ihre Gliederung schreiben oder bei der Themenwahl, eine Liste für Themen erstellen. Zudem ist das akademische '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: ' - die Erstellung einer Mustervorlage für die Facharbeit durch einen akademischen Experten - möglich. '
             show_as_card: true
         type: row
         enabled: true
@@ -722,7 +705,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ihre Mustervorlage von erfahrenen Doktoren und Professoren'
+                    text: 'Professionelle Leistungen in Anspruch nehmen '
               -
                 type: paragraph
                 content:
@@ -734,7 +717,18 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Ein akademischer\_"
+                    text: 'Selbst wenn der Schüler eigenständig arbeitet, ist es ratsam, die Facharbeit'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: orange-500
+                          hex: '#ff6606'
+                    text: ' Korrekturlesen'
                   -
                     type: text
                     marks:
@@ -743,13 +737,18 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
                       -
-                        type: link
+                        type: bold
+                      -
+                        type: textColor
                         attrs:
-                          href: /ghostwriter
-                          target: _blank
-                          rel: null
-                    text: Ghostwriter
+                          color: orange-500
+                          hex: '#ff6606'
+                    text: lektorieren
                   -
                     type: text
                     marks:
@@ -758,7 +757,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "\_beschäftigt sich täglich mit dem Verfassen von disziplinären und interdisziplinären wissenschaftlichen Texten und Arbeiten. Unsere akademischen Autoren sind zertifizierte Akademiker und besitzen zahlreiche Kenntnisse aus ihrem Fachgebiet. Unsere Ghostwriting-Agentur arbeitet ausschließlich mit professionellen Akademikern, Doktoren und Professoren zusammen."
+                    text: ' zu lassen. Denn die Verbesserungen zur formalen und inhaltlichen Gestaltung einer wissenschaftlichen Arbeit, die von einer Ghostwriting-Agentur gemacht werden, spielt in fachbezogene Arbeiten eine große Rolle. Daher suchen oft Studenten/Schüler nach speziellen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: orange-500
+                          hex: '#ff6606'
+                    text: Fachautoren
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', die viele Jahre Erfahrungen in dem jeweiligen Themenfeld gemacht haben.'
               -
                 type: paragraph
                 content:
@@ -770,7 +789,69 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Da wir keine Studenten oder Hobbyschreiber beschäftigen, können wir Ihnen eine qualitativ hochwertige Mustervorlage garantieren. Bei unseren erfahrenen akademischen Autoren handelt es sich größtenteils um Doktoren oder Professoren. Da diese selbst promoviert oder habilitiert haben, kennen Sie alle Schwierigkeiten des wissenschaftlichen Arbeitens.'
+                    text: 'Unsere akademischen Ghostwriter sind zertifizierte '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: orange-500
+                          hex: '#ff6606'
+                    text: Dozenten
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ','
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: orange-500
+                          hex: '#ff6606'
+                    text: ' Doktoren'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: orange-500
+                          hex: '#ff6606'
+                    text: Professoren
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. In unserer Schreibagentur finden Sie in nahezu allen Fachrichtungen zu verschiedenen Aufgaben im Bereich des wissenschaftlichen Arbeitens professionelle Fachautoren.'
                   -
                     type: hard_break
             show_as_card: false
@@ -894,6 +975,111 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Weitere professionelle Leistungen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Neben den Leistungen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat
+                          target: null
+                          rel: null
+                    text: Korrekturlesen
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: Lektorat
+                  -
+                    type: text
+                    text: ' der Facharbeit, kann zusätzlich eine umfassende '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          target: null
+                          rel: null
+                    text: Plagiatsprüfung
+                  -
+                    type: text
+                    text: ' von einer Ghostwriting-Agentur erfolgen. Diese ist zu empfehlen, da besonders aus mangelnder Erfahrung mit wissenschaftlichen Texten und dem Umgang mit Fachliteratur, ungewollte Fehler passieren können. Es geschieht nicht selten, dass Schüler eine Mustervorlage für ihre Facharbeit schreiben lassen und diese Ghostwriter-Facharbeit als Vorlage für ihre eigene Arbeit nutzen.'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#F9F9F9'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/arbeiten/facharbeit-ghostwriter.png
+                    img_size: w-3/4
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -2695,7 +2881,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1641391053
+updated_at: 1641561123
 template: default
 use_meta_keywords: false
 no_index_page: false
