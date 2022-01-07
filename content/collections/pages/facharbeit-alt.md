@@ -1417,6 +1417,8 @@ replicator:
                 attrs:
                   values:
                     type: bild_und_text
+                    bild:
+                      - logo-startseite/icon-anonymitat.png
                     text: |+
                       Während der Durchführung Ihrer Aufgabe, die von einem professionellen Ghostwriter als Mustervorlage erstellt wird, läuft die gesamte Kommunikation anonym in schriftlicher oder telefonischer Form ab. Da der Datenschutz für unsere Agentur besonders wichtig ist, wird die Anonymität der Daten vom Auftraggeber geschützt und nach dem Auftrag und der Übermittlung der wissenschaftlichen Ergebnisse gelöscht.
 
@@ -1429,7 +1431,9 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
                     ausrichtung: bild-text
-                    text: 'Bei Fragen und Änderungswünschen, die im Rahmen dieses gesamten Projektes auftreten, ist ihr Projektmanager immer Ihr persönlicher Ansprechpartner. Dieser Ansprechpartner bleibt immer gleich während des gesamten Projektes und ist bei Fragen oder Problemen telefonisch oder per E-Mail ständig für Sie erreichbar.'
+                    text: |-
+                      Ihre Arbeit wird nach der Fertigstellung von einem unabhängigen Autor lektoriert und korrigiert. Abschließend wird eine Plagiatskontrolle durchgeführt, um die Arbeit plagiatfrei zu halten. Nach dem Plagiatstest erhalten Sie eine Quellenauswertung über Ihren Text, die genau erkennt, ob alle Textteile zitiert worden sind. <br>
+                      Die Plagiat-Software zeigt Ihnen die fehlenden Zitate, damit Verbesserungen vorgenommen werden können. Nach der Auftragsausführung wird Ihnen Ihre Mustervorlage als PDF-Datei zugesendet.
               -
                 type: set
                 attrs:
@@ -1440,7 +1444,7 @@ replicator:
                     ausrichtung: text-bild
                     text: |-
 
-                      Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen [Lektor](/lektorat) kontrolliert mit Hilfe einer professionellen Software auf [Plagiate](/leistungen/plagiatspruefung) geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben.
+                      Alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen hervorragende fachliche Kompetenzen und methodische Erfahrung im Hinblick auf wissenschaftliches Arbeiten und Auftragsschreiben nach Kundenvorgaben vor.
               -
                 type: paragraph
             show_as_card: false
@@ -2859,7 +2863,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1641565946
+updated_at: 1641575338
 template: default
 use_meta_keywords: false
 no_index_page: false
