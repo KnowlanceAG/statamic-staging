@@ -956,7 +956,7 @@ replicator:
                     ausrichtung: text-bild
                     text: |-
 
-                      Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen [Lektor](/lektorat) kontrolliert mit Hilfe einer professionellen Software auf [Plagiate](/leistungen/plagiatspruefung) geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben.
+                      Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen Lektor kontrolliert mit Hilfe einer professionellen Software auf Plagiate geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben.
               -
                 type: paragraph
             show_as_card: false
@@ -1061,20 +1061,7 @@ replicator:
                     text: Hilfe
                   -
                     type: text
-                    text: " zurückzugreifen. Für den akademischen Freelancer stellt die Unterstützung und das\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    text: "\_bei einer solchen Seminararbeit keine große Herausforderung dar, für ihn ist der Anspruch vergleichsweise gering. "
+                    text: " zurückzugreifen. Für den akademischen Freelancer stellt die Unterstützung und das\_Ghostwriting\_bei einer solchen Seminararbeit keine große Herausforderung dar, für ihn ist der Anspruch vergleichsweise gering. "
               -
                 type: paragraph
                 content:
@@ -1383,7 +1370,11 @@ replicator:
                         zahl: '1.'
                         beschreibung: 'In der Vorlesung hält ein Dozent Vorträge über bestimmte Themen, zu denen im Anschluss einzelne Fragen gestellt werden können. Bestimmte Arbeiten werden von den Teilnehmern nicht erwartet, während der Veranstaltung beschränkt sich die Mitarbeit der Studenten lediglich auf Mitschriften.'
               -
-                type: paragraph
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
               -
                 type: set
                 attrs:
@@ -1393,19 +1384,9 @@ replicator:
                       -
                         zahl: '2.'
                         beschreibung: 'Seminarveranstaltungen sollen in kleinen Gruppen begleitend zur Vorlesung stattfinden und enden mit einer zu bewertenden Seminararbeit. Sehr häufig finden diese in den Bereichen der BWL, VWL und Jura statt. Der Vorteil einer Seminarveranstaltung ist es, dass durch ihre geringe Teilnehmerzahl Studierende in Seminaren wesentlich stärker in die Wissensvermittlung eingebunden werden.'
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
             show_as_card: true
           -
             bard:
-              -
-                type: paragraph
               -
                 type: paragraph
               -
@@ -1422,9 +1403,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '7'
-              -
-                type: paragraph
+                    padding-y: '15'
               -
                 type: set
                 attrs:
@@ -1455,8 +1434,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1692,18 +1669,25 @@ replicator:
                     type: spacer
                     padding-y: '30'
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
                   level: 2
                 content:
                   -
                     type: text
-                    text: 'Weitere '
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Ausgewählte '
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                       -
                         type: link
                         attrs:
@@ -1713,9 +1697,12 @@ replicator:
                     text: Experten
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                     text: ' aus unserer Agentur'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1784,6 +1771,12 @@ replicator:
                           color: 'rgba(68,68,68,var(--tw-text-opacity))'
                           hex: '#000'
                     text: 'Senior Ghostwriterin'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
             show_as_card: false
           -
             bard:
@@ -1834,6 +1827,12 @@ replicator:
                           color: 'rgba(68,68,68,var(--tw-text-opacity))'
                           hex: '#000'
                     text: 'Senior Ghostwriterin'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
             show_as_card: false
           -
             bard:
@@ -1884,6 +1883,12 @@ replicator:
                           color: 'rgba(68,68,68,var(--tw-text-opacity))'
                           hex: '#000'
                     text: 'Supervisor & Senior Ghostwriter'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
             show_as_card: false
         type: row
         enabled: true
@@ -2335,6 +2340,14 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+              -
                 type: blockquote
                 content:
                   -
@@ -2508,7 +2521,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641822946
+updated_at: 1641823762
 template: default
 use_meta_keywords: false
 no_index_page: false
