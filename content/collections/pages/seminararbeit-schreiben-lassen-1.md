@@ -959,6 +959,52 @@ replicator:
                       Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen Lektor kontrolliert mit Hilfe einer professionellen Software auf Plagiate geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben.
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie bei Ihrer Seminararbeit Hilfe oder wissenschaftliche Texterstellung benötigen, wenden Sie sich gerne an uns. Über '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unser Kontaktformular'
+                  -
+                    type: text
+                    text: ' erhalten Sie jederzeit eine kostenlose Beratung. Möchten Sie ein Coaching oder eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Mustervorlage für Ihre Seminararbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '? Unsere Kundenberater beraten Sie dazu gerne! '
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOSE ANFRAGE SCHICKEN!'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1357,9 +1403,7 @@ replicator:
           -
             bard:
               -
-                type: heading
-                attrs:
-                  level: 2
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -1397,7 +1441,7 @@ replicator:
                     grid:
                       -
                         zahl: '3.'
-                        beschreibung: 'Die Thematik wird gemeinsam mit dem leitenden Dozenten oder Kommilitonen erarbeitet, besprochen und diskutiert. Im Gegensatz zu Lehrveranstaltungen in den Vorlesungsräumen ist in Seminaren eine aktive Zusammenarbeit erwünscht. In der Praxis scheitert dieses Konzept jedoch oft an der Anzahl der Studenten, die solch ein Seminar belegen möchten.'
+                        beschreibung: 'Die Thematik wird gemeinsam mit dem leitenden Dozenten oder Kommilitonen erarbeitet, besprochen und diskutiert. Im Gegensatz zu Vorlesungen ist in Seminaren eine aktive Zusammenarbeit erwünscht. In der Praxis scheitert dieses Konzept jedoch oft an der Anzahl der Studenten, die solch ein Seminar belegen möchten.'
               -
                 type: set
                 attrs:
@@ -1412,15 +1456,7 @@ replicator:
                     grid:
                       -
                         zahl: '4.'
-                        beschreibung: 'Diese übersteigt in dem meisten Fällen die erstrebte Anzahl von 5-20 Kursteilnehmern um ein Vielfaches. Kurse mit 80-100 Studierenden sind keine Seltenheit. Solche Umstände führen keineswegs zu einer wirksamen Vermittlung des Lernstoffs und erschweren den Studenten die Beantwortung der Frage „Wie schreibe ich eine Seminararbeit?“'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '12'
-              -
-                type: paragraph
+                        beschreibung: 'Diese übersteigt in dem meisten Fällen die erstrebte Anzahl von 5-20 Kursteilnehmern um ein Vielfaches. Kurse mit 80-100 Studierenden sind keine Seltenheit. Solche Umstände führen keineswegs zu einer wirksamen Vermittlung des Lernstoffs und erschweren den Studenten die Beantwortung der Frage „Wie schreibe ich eine Seminararbeit?“. Auch an der Betreuung mangelt es.'
             show_as_card: true
         type: row
         enabled: true
@@ -1430,10 +1466,44 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'KLICKEN SIE HIER FÜR EINE KOSTENLOSE BERATUNG!'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#D6D6D6'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
         single-col: true
         grid:
           -
             bard:
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
@@ -2521,7 +2591,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641823762
+updated_at: 1641824689
 template: default
 use_meta_keywords: false
 no_index_page: false
