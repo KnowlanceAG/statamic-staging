@@ -188,47 +188,16 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Wissenschaftliches Schreiben ist eine der ersten großen Herausforderungen im Rahmen des Studiums für einen Studienanfänger. Es ist üblich, dass Universitäten ihre Studierenden mindestens eine Seminararbeit schreiben lassen. Akademische Ghostwriter werden hierbei oft als Hilfe herangezogen. Grund hierfür ist, dass '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: Seminararbeiten
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: ' durch eine starke Gewichtung in Form von Creditpoints eine wichtige Bedeutung für den Studienabschluss haben.'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1967,27 +1936,6 @@ replicator:
                           hex: '#000'
                     text: 'In den Fachbereichen der Mathematik, Physik und Informatik werden oftmals der sichere Umgang mit fachspezifischer Software vorausgesetzt. Oft werden dabei als Unterstützung Muster der Seminararbeit als Beispiele durch den Dozenten veröffentlicht oder durch eine Ghostwriterin eine Seminararbeit als Vorlage erstellt.'
               -
-                type: set
-                attrs:
-                  enabled: false
-                  values:
-                    type: spacer
-                    padding-y: '100'
-              -
-                type: set
-                attrs:
-                  enabled: false
-                  values:
-                    type: spacer
-                    padding-y: '100'
-              -
-                type: set
-                attrs:
-                  enabled: false
-                  values:
-                    type: spacer
-                    padding-y: '100'
-              -
                 type: paragraph
             show_as_card: true
         type: row
@@ -2559,8 +2507,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640288972
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1641822946
 template: default
 use_meta_keywords: false
 no_index_page: false
