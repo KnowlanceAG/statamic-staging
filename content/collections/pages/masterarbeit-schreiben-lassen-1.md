@@ -210,13 +210,62 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Die Masterarbeit ist die letzte anzufertigende Examensarbeit im Bachelor-/Masterstudium und stellt damit den Türöffner in die Berufswelt dar. Studenten streben danach, in Betrieben unterzukommen und müssen versuchen, in der Berufswelt Fuß zu fassen. Die Rückzahlung des BAföG steht an, viele wollen eine Familie gründen und sich endgültig von den Eltern lösen. Das ist ohne Anstellung in einem Beruf nicht zu bewältigen. Das führt dazu, dass man sich selbst unter Druck setzt, Fehler macht, die Hürde der Masterthesis schnell und ohne Probleme zu überwinden.'
+                    text: 'Die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Masterarbeit ist die letzte anzufertigende Examensarbeit'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' im Bachelor-/Masterstudium und stellt damit den Türöffner in die Berufswelt dar. Studenten streben danach, in Betrieben unterzukommen und müssen versuchen, in der Berufswelt Fuß zu fassen. Die Rückzahlung des BAföG steht an, viele wollen eine Familie gründen und sich endgültig von den Eltern lösen. Das ist ohne Anstellung in einem Beruf nicht zu bewältigen. Das führt dazu, dass man sich selbst unter Druck setzt, Fehler macht, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'die Hürde der Masterthesis schnell und ohne Probleme zu überwinden'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: .
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Dabei greifen Studenten oft auf die Hilfe von akademischen Freelancern und Ghostwritern zurück, die tiefgründige Kenntnisse in dem geforderten Fachbereich aufweisen und bereits Erfahrung mit wissenschaftlichen Arbeiten haben. Sie entlasten den Studenten durch Ghostwriting, Coaching bei der Strukturierung und übernehmen die '
+                    text: 'Dabei greifen Studenten oft auf die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Hilfe von akademischen Freelancern und Ghostwritern'
+                  -
+                    type: text
+                    text: ' zurück, die tiefgründige Kenntnisse in dem geforderten Fachbereich aufweisen und bereits Erfahrung mit wissenschaftlichen Arbeiten haben. Sie entlasten den Studenten durch Ghostwriting, Coaching bei der Strukturierung und übernehmen die '
                   -
                     type: text
                     marks:
@@ -242,7 +291,16 @@ replicator:
                     text: 'Überprüfung auf Plagiate'
                   -
                     type: text
-                    text: '. Durch diese Dienstleistung kann sich der Student auf die wesentlichen Dinge in seinem Leben konzentrieren, statt lange Zeit vor der Fragestellung zu stehen ,,Wie schreibe ich eine Masterarbeit?“. '
+                    text: '. Durch diese Dienstleistung kann sich der Student auf die wesentlichen Dinge in seinem Leben konzentrieren, statt lange Zeit vor der Fragestellung zu stehen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ',,Wie schreibe ich eine Masterarbeit?“'
+                  -
+                    type: text
+                    text: '. '
               -
                 type: paragraph
             show_as_card: false
@@ -308,8 +366,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '10'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -329,6 +385,12 @@ replicator:
         grid:
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -434,6 +496,22 @@ replicator:
                     type: spacer
                     padding-y: '10'
             show_as_card: true
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+            show_as_card: false
         type: row
         enabled: true
     remove_spacing: true
@@ -1678,7 +1756,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641916854
+updated_at: 1641926918
 template: default
 use_meta_keywords: false
 no_index_page: false
