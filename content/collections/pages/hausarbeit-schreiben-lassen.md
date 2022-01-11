@@ -597,7 +597,13 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Wir lösen Schreibblockaden bei fehlender Unterstützung durch Betreuer & Professoren'
+                            marks:
+                              -
+                                type: bold
+                            text: 'Wir lösen Schreibblockaden'
+                          -
+                            type: text
+                            text: ' bei fehlender Unterstützung durch Betreuer & Professoren'
                   -
                     type: list_item
                     content:
@@ -606,7 +612,16 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Wir lösen Ihre Zeitprobleme mit Ihrer Hausarbeit während der Klausurphase und bei mehreren Abgaben'
+                            text: 'Wir lösen Ihre Zeitprobleme mit Ihrer '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Hausarbeit
+                          -
+                            type: text
+                            text: ' während der Klausurphase und bei mehreren Abgaben'
                   -
                     type: list_item
                     content:
@@ -615,7 +630,13 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Mit den relevanten Datenbanken, Quellen und wissenschaftlichen Arbeitsmethoden helfen wir auch  Studienanfängern effektiv'
+                            text: 'Mit den relevanten Datenbanken, Quellen und wissenschaftlichen Arbeitsmethoden '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'helfen wir auch Studienanfängern effektiv'
                   -
                     type: list_item
                     content:
@@ -624,7 +645,13 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Akademische Ghostwriter helfen nicht nur  im Schreibprozess, sondern auch bei der Literaturrecherche oder der Forschungsfrage'
+                            marks:
+                              -
+                                type: bold
+                            text: 'Akademische Ghostwriter'
+                          -
+                            type: text
+                            text: ' helfen nicht nur im Schreibprozess, sondern auch bei der Literaturrecherche oder der Forschungsfrage'
                           -
                             type: hard_break
             show_as_card: false
@@ -636,12 +663,10 @@ replicator:
                   values:
                     type: video
                     video: 'https://youtu.be/BFHgSZP9rCE'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F2F2F2'
@@ -664,8 +689,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '30'
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -733,10 +756,50 @@ replicator:
                       Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Falls Sie hierzu Änderungswünsche haben, setzen wir diese selbstverständlich kostenfrei um.
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Hilfe oder wissenschaftliche Texterstellung benötigen, wenden Sie sich gerne an uns. Über '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unser Kontaktformular'
+                  -
+                    type: text
+                    text: ' erhalten Sie jederzeit eine kostenlose Beratung. Möchten Sie ein Coaching oder eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Mustervorlage für Ihre Seminararbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '? Unsere Kundenberater beraten Sie dazu gerne! '
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOSE ANFRAGE SCHICKEN!'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -1679,7 +1742,55 @@ replicator:
     type: add_section
     enabled: true
   -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: blockquote
+                content:
+                  -
+                    type: heading
+                    attrs:
+                      level: 3
+                    content:
+                      -
+                        type: text
+                        text: Disclaimer
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
     bard:
+      -
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: '30'
       -
         type: heading
         attrs:
@@ -1831,7 +1942,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641926911
+updated_at: 1641933162
 template: default
 use_meta_keywords: false
 no_index_page: false
