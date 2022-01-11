@@ -1962,7 +1962,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: true
     bg-toggle: false
     bg-image-fixed: false
@@ -2591,7 +2591,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641824723
+updated_at: 1641916854
 template: default
 use_meta_keywords: false
 no_index_page: false

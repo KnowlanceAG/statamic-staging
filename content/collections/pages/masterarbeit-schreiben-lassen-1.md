@@ -571,7 +571,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
+                    padding-y: '50'
               -
                 type: set
                 attrs:
@@ -1188,9 +1188,6 @@ replicator:
                                   target: null
                                   rel: null
                             text: Deckblatt
-              -
-                type: bullet_list
-                content:
                   -
                     type: list_item
                     content:
@@ -1524,7 +1521,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '28'
+                    padding-y: '20'
             show_as_card: true
         type: row
         enabled: true
@@ -1681,7 +1678,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641909373
+updated_at: 1641916854
 template: default
 use_meta_keywords: false
 no_index_page: false
