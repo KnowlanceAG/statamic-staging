@@ -608,10 +608,18 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Aufgrund seiner Erfahrungen und fachlichen Kenntnisse kann ein akademischer '
+                    text: 'Aufgrund '
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
+                    text: 'seiner Erfahrungen und fachlichen Kenntnisse kann ein akademischer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
                       -
                         type: link
                         attrs:
@@ -621,7 +629,16 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: ' wissenschaftliche Texterstellungen problemlos zu jedem Zeitpunkt übernehmen. In solchen Fällen steht dann im Leistungszentrum, dass sich Studenten von Ghostwritern eine Mustervorlage für die eigene Masterarbeit schreiben lassen. Oft geschieht dies direkt zu Beginn einer Texterstellung, bei der eigentlichen Themenfindung, der Literaturrecherche und dem Aufbau einer Masterarbeit. '
+                    text: ' wissenschaftliche Texterstellungen problemlos zu jedem Zeitpunkt übernehmen. In solchen Fällen steht dann im Leistungszentrum, dass sich Studenten von Ghostwritern eine Mustervorlage für die eigene '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Masterarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '. Oft geschieht dies direkt zu Beginn einer Texterstellung, bei der eigentlichen Themenfindung, der Literaturrecherche und dem Aufbau einer Masterarbeit. '
               -
                 type: paragraph
                 content:
@@ -632,6 +649,8 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: link
                         attrs:
                           href: /lektorat
@@ -640,16 +659,16 @@ replicator:
                     text: Lektorat
                   -
                     type: text
-                    text: ' und das Korrektorat der Masterarbeit, die bereits durch den Studenten fertiggestellt wurde, in Anspruch genommen werden.'
+                    marks:
+                      -
+                        type: bold
+                    text: ' und das Korrektorat der Masterarbeit'
+                  -
+                    type: text
+                    text: ', die bereits durch den Studenten fertiggestellt wurde, in Anspruch genommen werden.'
             show_as_card: false
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '50'
               -
                 type: set
                 attrs:
@@ -661,7 +680,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F2F2F2'
@@ -679,12 +698,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
                 type: heading
                 attrs:
                   level: 3
@@ -693,10 +706,17 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Ablauf: Zusammenarbeit mit akademischen Ghostwritern'
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Mustervorlage für Masterarbeit\_schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
               -
                 type: set
                 attrs:
@@ -709,7 +729,7 @@ replicator:
                       <br>
                       Ein kostenloses Angebot über Ihre Anforderungen, erhalten Sie nach einer unverbindlichen Anfrage. Die Anfrage können Sie über ein Bestellformular stellen. Die Zusammenarbei mit Ghostwriter beginnt nach Ihrer Bestätigung. 
 
-                      Während der [Zusammenarbeit mit Ghostwritern](/so-funktioniert-es) stellen unsere Projektmanager die Anonymität des Auftraggebers und gleichzeitig auch die Anonymität des Autors sicher. 
+                      Während der [Zusammenarbeit mit Ghostwritern](/so-funktioniert-es) stellen unsere Projektmanager die **Anonymität des Auftraggebers** und gleichzeitig auch die Anonymität des Autors sicher. 
                     ausrichtung: bild-text
               -
                 type: set
@@ -723,7 +743,7 @@ replicator:
                       <br>
                       Zu jedem Problemfeld werden einzelne Teillieferungen bzw. Termine vereinbart.  Diese Teillieferungen dienen dazu, den Auftraggeber über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. 
 
-                      So können für den Zeitraum der Auftragsausführung geltende Anforderungen genannt werden bezüglich der Masterarbeit. In dieser Revisionszeit werden je nach Komplexität und Umfang des Themas bzw. der Aufgabenstellung auch mehrere ausgebildete Fachautoren für die Arbeit eingesetzt.
+                      So können für den Zeitraum der Auftragsausführung geltende Anforderungen genannt werden bezüglich der Masterarbeit. In dieser Revisionszeit werden je nach Komplexität und Umfang des Themas bzw. der Aufgabenstellung auch **mehrere ausgebildete Fachautoren für die Arbeit eingesetzt**.
                     ausrichtung: text-bild
               -
                 type: set
@@ -733,7 +753,7 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
                     ausrichtung: bild-text
-                    text: 'Nach der Erstellung der Mustervorlage zu Ihrer Masterarbeit, wird die Arbeit von einem unabhängigen [Lektor](/lektorat) aus Ihrem Fachbereich, korrektur gelesen. Hier werden Verbesserungen an Inhalt und Formulierungen vorgenommen. Anschließend kann der Text auf Plagiate geprüft werden, um mögliche Risiken zu umgehen, die aufgrund von Schwierigkeiten oder Flüchtigkeitsfehlern im Umgang mit Literatur entstehen könnten. Diese Teilleistungen sind im Preis inklusive. '
+                    text: 'Nach der Erstellung der Mustervorlage zu Ihrer Masterarbeit, wird die Arbeit von einem unabhängigen [Lektor](/lektorat) aus Ihrem Fachbereich, korrektur gelesen. Hier werden Verbesserungen an Inhalt und Formulierungen vorgenommen. Anschließend kann der Text **auf Plagiate geprüft** werden, um mögliche Risiken zu umgehen, die aufgrund von Schwierigkeiten oder Flüchtigkeitsfehlern im Umgang mit Literatur entstehen könnten. **Diese Teilleistungen sind im Preis inklusive**. '
               -
                 type: set
                 attrs:
@@ -745,6 +765,7 @@ replicator:
                     text: |+
                       <br>
                       <br>
+
                       Bei der Endlieferung erhalten Sie eine hochqualitative und von [Experten](/experten) auf Qualität geprüfte Muster-Masterarbeit als PDF Datei. Falls Sie hierzu Feedbacks haben, setzen wir diese selbstverständlich kostenfrei um.
 
               -
@@ -787,16 +808,10 @@ replicator:
                     color: '#FF6606'
                     button_align: justify-center
                     spacing_top: false
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -939,7 +954,51 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Der Masterabschluss folgt dem Bachelorgrad und ist somit der zweite akademische Grad, welcher bei einem Studium innerhalb der EU und in den meisten englischsprachigen Ländern erreicht werden kann. Der erste akademische Grad ist der Bachelor, bei dem Universitäten und Hochschulen von ihren Studenten eine Bachelorarbeit schreiben lassen. '
+                    text: 'Der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Masterabschluss folgt dem Bachelorgrad'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ' und ist somit der zweite akademische Grad, welcher bei einem Studium innerhalb der EU und in den meisten englischsprachigen Ländern erreicht werden kann. Der erste akademische Grad ist der Bachelor, bei dem Universitäten und Hochschulen von ihren Studenten eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Bachelorarbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: '. '
               -
                 type: paragraph
                 content:
@@ -951,7 +1010,47 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Die Prüfung zum Masterabschluss besteht aus einem studienbegleitenden Teil, der Examens- oder Masterarbeit (auch Masterthesis) und der mündlichen Abschlussprüfung. Für das Vollenden des Masterstudiums ist vorgesehen, dass Lehrinstitute von ihren Studenten eine Masterarbeit schreiben lassen. Dadurch soll geprüft werden, ob der Student in der Lage ist, ordnungsgemäß zu einer speziellen Fragestellung zu recherchieren und sie wissenschaftlich zu erarbeiten.'
+                    text: 'Die Prüfung zum Masterabschluss besteht aus einem studienbegleitenden Teil, der Examens- oder Masterarbeit (auch Masterthesis) und der mündlichen Abschlussprüfung. Für das Vollenden des Masterstudiums ist vorgesehen, dass Lehrinstitute von ihren Studenten eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Masterarbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: '. Dadurch soll geprüft werden, ob der Student in der Lage ist, ordnungsgemäß zu einer speziellen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Fragestellung zu recherchieren und sie wissenschaftlich zu erarbeiten'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: .
               -
                 type: paragraph
                 content:
@@ -963,7 +1062,47 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Die damit verbundene Thesis ist sehr zeitintensiv und umfangreich. Trotz dem deutlich höheren Anspruch der Masterthesis im Vergleich zu einer Hausarbeit oder Bachelorarbeit, erhalten Studierende von Hochschulen oft nicht ausreichend Hilfe. Nicht selten brauchen die Studierenden mehr als nur eine Textkorrektur, sondern auch Unterstützung beim Aufbau und Verfassen der Arbeit. '
+                    text: 'Die damit verbundene Thesis ist sehr zeitintensiv und umfangreich. Trotz dem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'deutlich höheren Anspruch der Masterthesis im Vergleich zu einer Hausarbeit'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ' oder Bachelorarbeit, erhalten Studierende von Hochschulen oft nicht ausreichend Hilfe. Nicht selten brauchen die Studierenden mehr als nur eine Textkorrektur, sondern auch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Unterstützung beim Aufbau und Verfassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ' der Arbeit. '
             show_as_card: true
           -
             bard: null
@@ -993,13 +1132,67 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Um die Wettbewerbsfähigkeit zu erhöhen, eine Vergleichbarkeit von Studiengängen zu erreichen und die Mobilität und Flexibilität im Studium zu gewährleisten, wurde 1999 von 29 EU-Bildungsministern die Bologna-Erklärung unterzeichnet. Mit der Umsetzung der Bologna-Reform wurden in Deutschland die alten Magisterstudiengänge- und Diplomstudiengänge, abgeschlossen mit der Magisterarbeit und Diplomarbeit, zunehmend durch Bachelor- und Masterstudiengänge ersetzt. Hierbei ist der Mastergrad mit dem Magister- und Diplomgrad vergleichbar.'
+                    text: 'Um die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Wettbewerbsfähigkeit
+                  -
+                    type: text
+                    text: ' zu erhöhen, eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Vergleichbarkeit
+                  -
+                    type: text
+                    text: ' von Studiengängen zu erreichen und die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Mobilität und Flexibilität im Studium'
+                  -
+                    type: text
+                    text: ' zu gewährleisten, wurde 1999 von 29 EU-Bildungsministern die Bologna-Erklärung unterzeichnet. Mit der Umsetzung der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Bologna-Reform
+                  -
+                    type: text
+                    text: ' wurden in Deutschland die alten Magisterstudiengänge- und Diplomstudiengänge, abgeschlossen mit der Magisterarbeit und Diplomarbeit, zunehmend durch Bachelor- und Masterstudiengänge ersetzt. Hierbei ist der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Mastergrad mit dem Magister- und Diplomgrad vergleichbar'
+                  -
+                    type: text
+                    text: .
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Der Bachelor ist lediglich eine Art Vorabschluss, welcher früher nicht vorgesehen war. Für die Zulassung zu einem Masterstudiengang muss man im Regelfall einen Bachelorabschluss vorweisen können. Eine Masterarbeit ist per se nicht obligatorisch, die jeweiligen Hochschulen können entscheiden, ob sie von den Studenten eine Masterarbeit schreiben lassen, welche am Ende bewertet wird. Die Kultusministerkonferenz hat sich im Zuge der Qualitätssicherung allerdings dafür ausgesprochen und empfiehlt, dass Lehrinstitute zum Ende des Studiums von Studenten eine Masterarbeit schreiben lassen.'
+                    text: 'Der Bachelor ist lediglich eine Art Vorabschluss, welcher früher nicht vorgesehen war. Für die Zulassung zu einem Masterstudiengang muss man im Regelfall einen Bachelorabschluss vorweisen können. Eine Masterarbeit ist per se nicht obligatorisch, die jeweiligen Hochschulen können entscheiden, ob sie von den Studenten eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Masterarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: ', welche am Ende bewertet wird. Die Kultusministerkonferenz hat sich im Zuge der Qualitätssicherung allerdings dafür ausgesprochen und empfiehlt, dass Lehrinstitute zum Ende des Studiums von Studenten eine Masterarbeit schreiben lassen.'
             show_as_card: false
           -
             bard:
@@ -1022,7 +1215,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Abhilfe schafft hier, neben der Arbeitskorrektur und der Plagiatsprüfung, ein professionelles Coaching für die Masterarbeit. Teilweise werden für Mustervorlagen für eine Masterarbeit Ghostwriter eingesetzt, wobei diese Ghostwriting-Masterarbeit nur als Orientierungshilfe dienen sollte Denn unsere Ghostwriter sind mehr als akademisch ausgebildete Autoren. Sie sind Doktoren und Professoren, die sich täglich mit wissenschaftlichen Texten beschäftigen.'
+                    text: 'Abhilfe schafft hier, neben der Arbeitskorrektur und der Plagiatsprüfung, ein professionelles Coaching für die Masterarbeit. Teilweise werden für Mustervorlagen für eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Masterarbeit Ghostwriter'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' eingesetzt, wobei diese Ghostwriting-Masterarbeit nur als Orientierungshilfe dienen sollte Denn unsere Ghostwriter sind mehr als akademisch ausgebildete Autoren. Sie sind '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Doktoren und Professoren'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', die sich täglich mit wissenschaftlichen Texten beschäftigen.'
               -
                 type: paragraph
                 content:
@@ -1034,9 +1267,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere seriösen Ghostwriter kennen den aktuellen Kenntnisstand und alle Methoden zur wissenschaftlichen Forschung. Der Forschungsstand benennt den aktuellen Stand der Forschung im Bezug zum Thema einer wissenschaftlichen Arbeit. Somit kann eine Forschungslücke gefunden und eine wissenschaftliche Forschungsfrage erstellt werden.'
-              -
-                type: paragraph
+                    text: 'Unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'seriösen Ghostwriter'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' kennen den aktuellen Kenntnisstand und alle Methoden zur wissenschaftlichen Forschung. Der Forschungsstand benennt den aktuellen Stand der Forschung im Bezug zum Thema einer wissenschaftlichen Arbeit. Somit kann eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Forschungslücke gefunden und eine wissenschaftliche Forschungsfrage erstellt'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' werden.'
               -
                 type: set
                 attrs:
@@ -1125,7 +1396,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Je nach Fachbereich und Institution umfasst die Masterarbeit inklusive Exposé 60-100 Seiten. Sie muss alle Kriterien einer akademischen Arbeit innerhalb von 5 bis 6 Monaten erfüllen und wird mit 15-30 ECTS-Punkten bewertet. Somit ist diese Leistung grundlegend für den Erfolg des Studiums und nicht einfach abzuhandeln. Höchste wissenschaftliche Standards werden angelegt um ihre Qualität zu beurteilen. Im Bereich der Medizin, beispielsweise, dient die Masterarbeit oft als Fundament der Dissertation.'
+                    text: 'Je nach Fachbereich und Institution umfasst die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Masterarbeit inklusive Exposé 60-100 Seiten'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Sie muss alle Kriterien einer akademischen Arbeit innerhalb von 5 bis 6 Monaten erfüllen und wird mit 15-30 ECTS-Punkten bewertet. Somit ist diese Leistung grundlegend für den '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Erfolg des Studiums'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und nicht einfach abzuhandeln. Höchste wissenschaftliche Standards werden angelegt um ihre Qualität zu beurteilen. Im Bereich der Medizin, beispielsweise, dient die Masterarbeit oft als Fundament der Dissertation.'
               -
                 type: paragraph
                 content:
@@ -1137,7 +1448,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Neben Themenfindung, Literaturrecherche und einigen Organisationsaspekten, wie der Suche eines Ansprechpartners zur Betreuung der Masterarbeit, sind auch zahlreiche formale Richtlinien zu beachten. Bei einigen Fächern, wie der BWL oder VWL sind oftmals statistische Untersuchungen anzufertigen. '
+                    text: 'Neben Themenfindung, Literaturrecherche und einigen Organisationsaspekten, wie der Suche eines Ansprechpartners zur '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Betreuung der Masterarbeit'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', sind auch zahlreiche formale Richtlinien zu beachten. Bei einigen Fächern, wie der BWL oder VWL sind oftmals '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'statistische Untersuchungen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' anzufertigen. '
               -
                 type: paragraph
                 content:
@@ -1149,7 +1500,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Oft wird durch das Lehrinstitut ein Muster der Masterarbeit als Beispiel veröffentlicht, was als Orientierungshilfe genutzt werden kann. Wenn diese Unterstützung nicht vorhanden ist, schaffen sich einige Studenten Abhilfe, indem sie einen Ghostwriter ihre Masterarbeit schreiben lassen. In kleinen Arbeitsschritten erstellt unsere Schreibagentur je nach Themenstellung und Bedürfnissen eine Mustervorlage für die Masterarbeit. Die Ghostwriting-Masterarbeit wird dann als Mustervorlage genutzt.'
+                    text: 'Oft wird durch das Lehrinstitut ein Muster der Masterarbeit als Beispiel veröffentlicht, was als Orientierungshilfe genutzt werden kann. Wenn diese Unterstützung nicht vorhanden ist, schaffen sich einige Studenten Abhilfe, indem sie einen Ghostwriter ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Masterarbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. In kleinen Arbeitsschritten erstellt unsere Schreibagentur je nach Themenstellung und Bedürfnissen eine Mustervorlage für die Masterarbeit. Die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Ghostwriting-Masterarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' wird dann als Mustervorlage genutzt.'
             show_as_card: false
         type: row
         enabled: true
@@ -1170,6 +1561,12 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -1188,7 +1585,25 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Trotz unterschiedlicher Anforderungen der einzelnen Lehrinstitute, haben sich einige Formalien als gängig erwiesen. Diese werden von unseren akademischen Experten standardmäßig verwendet und bei Textkorrekturen überprüft. Wenn Sie individuelle Vorgaben haben, setzen wir diese selbstverständlich auch gerne um. Schicken Sie uns einfach eine '
+                    text: 'Trotz unterschiedlicher Anforderungen der einzelnen Lehrinstitute, haben sich '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'einige Formalien als gängig'
+                  -
+                    type: text
+                    text: ' erwiesen. Diese werden von unseren akademischen Experten standardmäßig verwendet und bei Textkorrekturen überprüft. Wenn Sie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'individuelle Vorgaben'
+                  -
+                    type: text
+                    text: ' haben, setzen wir diese selbstverständlich auch gerne um. Schicken Sie uns einfach eine '
                   -
                     type: text
                     marks:
@@ -1603,10 +2018,74 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+            show_as_card: false
+        type: row
+        enabled: true
     remove_spacing: true
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: blockquote
+                content:
+                  -
+                    type: heading
+                    attrs:
+                      level: 3
+                    content:
+                      -
+                        type: text
+                        text: Disclaimer
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
@@ -1756,7 +2235,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641926918
+updated_at: 1641933184
 template: default
 use_meta_keywords: false
 no_index_page: false
