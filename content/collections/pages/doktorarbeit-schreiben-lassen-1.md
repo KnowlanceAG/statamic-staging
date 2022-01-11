@@ -212,13 +212,22 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Hilfe bei der Doktorarbeit leistet oft ein'
+                  -
+                    type: text
+                    marks:
+                      -
                         type: bold
                       -
                         type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Hilfe bei der Doktorarbeit leistet oft ein akademischer Ghostwriter'
+                    text: ' akademischer Ghostwriter'
                   -
                     type: text
                     marks:
@@ -227,7 +236,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ', wenn sich Doktoranden eine Mustervorlage für die Doktorarbeit schreiben lassen. Aufgrund seiner Erfahrungen und fachlichen Kenntnisse in seinem Fachbereich, ist es möglich, ihn ohne aufwendige Einarbeitungszeit zu jedem Zeitpunkt der Schreibphase als Hilfestellung zu beauftragen. Oft geschieht dies direkt zu Beginn der Aufgaben, bei der Themenfindung bzw. Themenwahl, der Literaturrecherche, dem Aufbau einer Doktorarbeit, den methodischen Ansätzen und deren Exposé.'
+                    text: ', wenn sich Doktoranden eine Mustervorlage für die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Doktorarbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Aufgrund seiner Erfahrungen und fachlichen Kenntnisse in seinem Fachbereich, ist es möglich, ihn ohne aufwendige Einarbeitungszeit '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'zu jedem Zeitpunkt der Schreibphase als Hilfestellung zu beauftragen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Oft geschieht dies direkt zu Beginn der Aufgaben, bei der Themenfindung bzw. Themenwahl, der Literaturrecherche, dem Aufbau einer Doktorarbeit, den methodischen Ansätzen und deren Exposé.'
               -
                 type: paragraph
                 content:
@@ -239,7 +288,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Ebenfalls ist es möglich, Hilfestellungen während des Studiums in Anspruch zu nehmen oder sich Beratung bei einigen Teilaspekten zu verschaffen. Schließlich stellt eine Doktorarbeit erheblich höhere Ansprüche als beispielsweise eine Hausarbeit, Bachelorarbeit oder Masterarbeit. '
+                    text: 'Ebenfalls ist es möglich, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Hilfestellungen während des Studiums'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' in Anspruch zu nehmen oder sich Beratung bei einigen Teilaspekten zu verschaffen. Schließlich stellt eine Doktorarbeit erheblich höhere Ansprüche als beispielsweise eine Hausarbeit, Bachelorarbeit oder Masterarbeit. '
                   -
                     type: text
                     marks:
@@ -514,6 +583,12 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -618,6 +693,22 @@ replicator:
                     type: spacer
                     padding-y: '10'
             show_as_card: true
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+            show_as_card: false
         type: row
         enabled: true
     remove_spacing: true
@@ -2143,7 +2234,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641925523
+updated_at: 1641926920
 template: default
 use_meta_keywords: false
 no_index_page: false
