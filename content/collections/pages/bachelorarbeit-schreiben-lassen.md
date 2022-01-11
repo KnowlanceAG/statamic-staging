@@ -231,7 +231,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Zudem ist es möglich, dass Studierende von akademischen Ghostwritern eine '
+                    text: 'Zudem ist es möglich, dass Studierende von akademischen Ghostwritern eine Mustervorlage für ihre '
                   -
                     type: text
                     marks:
@@ -242,7 +242,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Mustervorlage für ihre Bachelorarbeit schreiben lassen'
+                    text: 'Bachelorarbeit schreiben lassen'
                   -
                     type: text
                     marks:
@@ -263,7 +263,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Außerdem kennen akademische Ghostwriter den aktuellen Forschungsstand zu vielen Themenstellungen und haben auf relevanten Datenbanken Zugriff. Durch Ihre Erfahrung als '
+                    text: 'Außerdem kennen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'akademische Ghostwriter'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' den aktuellen Forschungsstand zu vielen Themenstellungen und haben auf relevanten Datenbanken Zugriff. Durch Ihre Erfahrung als '
                   -
                     type: text
                     marks:
@@ -303,8 +323,6 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
                         type: link
                         attrs:
                           href: /lektorat
@@ -316,15 +334,22 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: ' und Korrektorat'
+                    text: ' '
+                  -
+                    type: text
+                    text: und
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' Korrektorat'
                   -
                     type: text
                     text: ' der Bachelorarbeit, die bereits von dem Studenten fertiggestellt wurde. Anschließend kann eine umfassende '
                   -
                     type: text
                     marks:
-                      -
-                        type: bold
                       -
                         type: link
                         attrs:
@@ -334,19 +359,22 @@ replicator:
                     text: Plagiatsprüfung
                   -
                     type: text
+                    text: ' erfolgen. Es ist ebenfalls möglich, dass eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Ghostwriterin Bachelorarbeiten'
+                  -
+                    type: text
+                    text: ', in jedem Abschnitt, die bereits begonnen wurden, überarbeitet.'
+                  -
+                    type: text
                     marks:
                       -
                         type: bold
                     text: ' '
-                  -
-                    type: text
-                    text: 'erfolgen. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Es ist ebenfalls möglich, dass eine Ghostwriterin Bachelorarbeiten, in jedem Abschnitt, die bereits begonnen wurden, überarbeitet. '
                   -
                     type: text
                     text: 'Alternativ können Studenten während des gesamten Ablaufs der Bachelorarbeit ein Coaching anfordern.'
@@ -413,8 +441,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '10'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -502,8 +528,6 @@ replicator:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo.-Fr. 9:00-18:00'
-              -
-                type: paragraph
             show_as_card: true
           -
             bard:
@@ -541,6 +565,22 @@ replicator:
                     type: spacer
                     padding-y: '10'
             show_as_card: true
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+            show_as_card: false
         type: row
         enabled: true
     remove_spacing: true
@@ -2380,7 +2420,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641820886
+updated_at: 1641926913
 template: default
 use_meta_keywords: false
 no_index_page: false
