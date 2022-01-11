@@ -184,11 +184,34 @@ replicator:
           -
             bard:
               -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Seminararbeit schreiben - Ghostwriter unterstützen Sie!'
+              -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Wissenschaftliches Schreiben ist eine der ersten großen Herausforderungen im Rahmen des Studiums für einen Studienanfänger. Es ist üblich, dass Universitäten ihre Studierenden mindestens eine Seminararbeit schreiben lassen. Akademische Ghostwriter werden hierbei oft als Hilfe herangezogen. Grund hierfür ist, dass '
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wissenschaftliches Schreiben ist eine der ersten großen Herausforderungen'
+                  -
+                    type: text
+                    text: ' im Rahmen des Studiums für einen Studienanfänger. Es ist üblich, dass Universitäten ihre Studierenden mindestens eine Seminararbeit schreiben lassen. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Akademische Ghostwriter'
+                  -
+                    type: text
+                    text: ' werden hierbei oft als Hilfe herangezogen. Grund hierfür ist, dass '
                   -
                     type: text
                     marks:
@@ -261,8 +284,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '10'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -380,8 +401,6 @@ replicator:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo.-Fr. 9:00-18:00'
-              -
-                type: paragraph
             show_as_card: true
           -
             bard:
@@ -419,6 +438,22 @@ replicator:
                     type: spacer
                     padding-y: '10'
             show_as_card: true
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+            show_as_card: false
         type: row
         enabled: true
     remove_spacing: true
@@ -2591,7 +2626,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641916854
+updated_at: 1641926914
 template: default
 use_meta_keywords: false
 no_index_page: false
