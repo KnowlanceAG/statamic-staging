@@ -565,7 +565,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Neben der schulischen Hilfe durch einen Lehrer, der als Betreuer bei der Facharbeit zuständig ist, kann ein '
+                    text: 'Neben der schulischen Hilfe durch einen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Lehrer als Betreuer der Facharbeit'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', kann ein '
                   -
                     type: text
                     marks:
@@ -589,7 +609,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' durch einen sog. Akademischen Ghostwriter erfolgen. Dieser beschäftigt sich hauptberuflich mit wissenschaftlichen Texten und Arbeiten und besitzt zudem zahlreiche Kenntnisse in seinem Fachgebiet. Der Schüler kann ihn aus diesem Grund ohne Schwierigkeiten zu jedem Zeitpunkt und Problem des Schreibprozesses beauftragen.'
+                    text: ' durch einen sog. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'akademischen Ghostwriter'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' erfolgen. Dieser beschäftigt sich hauptberuflich mit wissenschaftlichen Texten und Arbeiten und besitzt zudem zahlreiche Kenntnisse in seinem Fachgebiet. Der Schüler kann ihn aus diesem Grund ohne Schwierigkeiten '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'zu jedem Zeitpunkt und Problem des Schreibprozesses beauftragen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: .
               -
                 type: paragraph
                 content:
@@ -601,16 +661,44 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Oft geschieht dies direkt zu Beginn der Texterstellung im Vorbereitungsprozess, bei der Forschung, der Themenfindung, der Literaturrecherche (Fachliteratur), der Strukturierung, der Gliederung und dem Aufbau der fachbezogenen Arbeit (Einleitung, Kernteil, Hauptteil, Fazit, Formalitäten). Ebenfalls besteht bei Zeitnot die Möglichkeit, den Freelancer zum Coaching der Facharbeit einzusetzen und ihn während des gesamten Schreibprozesses unterstützend agieren zu lassen.'
+                    text: 'Oft geschieht dies direkt zu Beginn der Texterstellung im Vorbereitungsprozess, bei der Forschung, der Themenfindung, der Literaturrecherche (Fachliteratur), der Strukturierung, der Gliederung und dem Aufbau der fachbezogenen Arbeit (Einleitung, Kernteil, Hauptteil, Fazit, Formalitäten). Ebenfalls besteht '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'bei Zeitnot die Möglichkeit, den Freelancer zum Coaching der Facharbeit einzusetzen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und ihn während des gesamten Schreibprozesses unterstützend agieren zu lassen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Zum Beispiel können Ghostwriter einen Gliederungsentwurf für Ihre Gliederung schreiben oder bei der Themenwahl, eine Liste für Themen erstellen. Zudem ist das akademische '
+                    text: 'Zum Beispiel können Ghostwriter einen Gliederungsentwurf für Ihre Gliederung schreiben oder bei der Themenwahl, eine Liste für Themen erstellen. Zudem ist das '
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
+                    text: 'akademische '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
                       -
                         type: link
                         attrs:
@@ -654,7 +742,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Selbst wenn der Schüler eigenständig arbeitet, ist es ratsam, die Facharbeit Korrekturlesen und lektorieren zu lassen. Denn die Verbesserungen zur formalen und inhaltlichen Gestaltung einer wissenschaftlichen Arbeit, die von einer Ghostwriting-Agentur gemacht werden, spielt in fachbezogene Arbeiten eine große Rolle. Daher suchen oft Studenten/Schüler nach '
+                    text: 'Selbst wenn der Schüler eigenständig arbeitet, ist es ratsam, die Facharbeit Korrekturlesen und lektorieren zu lassen. Denn die Verbesserungen zur formalen und inhaltlichen Gestaltung einer wissenschaftlichen Arbeit, die von einer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Ghostwriting-Agentur
+                  -
+                    type: text
+                    text: ' gemacht werden, spielt in fachbezogene Arbeiten eine große Rolle. Daher suchen oft Studenten/Schüler nach '
                   -
                     type: text
                     marks:
@@ -697,18 +794,12 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '50'
-              -
-                type: set
-                attrs:
-                  values:
                     type: video
                     video: 'https://youtu.be/OZ8ZEHZkeb0'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F2F2F2'
@@ -725,12 +816,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -801,16 +886,10 @@ replicator:
                           - 686e5203-e17a-4101-809a-07c9f799ccfa
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
                           - 68b88fd1-ec03-4ea8-9292-431555e47744
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -878,7 +957,25 @@ replicator:
                     text: Plagiatsprüfung
                   -
                     type: text
-                    text: ' von einer Ghostwriting-Agentur erfolgen. Diese ist zu empfehlen, da besonders aus mangelnder Erfahrung mit wissenschaftlichen Texten und dem Umgang mit Fachliteratur, ungewollte Fehler passieren können. Es geschieht nicht selten, dass Schüler eine Mustervorlage für ihre Facharbeit schreiben lassen und diese Ghostwriter-Facharbeit als Vorlage für ihre eigene Arbeit nutzen.'
+                    text: ' von einer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Ghostwriting-Agentur
+                  -
+                    type: text
+                    text: ' erfolgen. Diese ist zu empfehlen, da besonders aus mangelnder Erfahrung mit wissenschaftlichen Texten und dem Umgang mit Fachliteratur, ungewollte Fehler passieren können. Es geschieht nicht selten, dass Schüler eine Mustervorlage für ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Facharbeit schreiben lassen'
+                  -
+                    type: text
+                    text: ' und diese Ghostwriter-Facharbeit als Vorlage für ihre eigene Arbeit nutzen.'
               -
                 type: set
                 attrs:
@@ -2271,8 +2368,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '30'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -2289,10 +2384,64 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: blockquote
+                content:
+                  -
+                    type: heading
+                    attrs:
+                      level: 3
+                    content:
+                      -
+                        type: text
+                        text: Disclaimer
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
         single-col: false
         grid:
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -2407,10 +2556,16 @@ replicator:
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '40'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -2419,7 +2574,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641926916
+updated_at: 1641933191
 template: default
 use_meta_keywords: false
 no_index_page: false
