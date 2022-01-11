@@ -166,12 +166,13 @@ replicator:
         enabled: true
     remove_spacing: false
     is-full: true
-    bg-toggle: false
+    bg-toggle: true
     bg-color: '#F9F9F9'
     bg-image-fixed: false
     border: false
     type: add_section
     enabled: true
+    bg-image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
   -
     columns-replicator:
       -
@@ -333,8 +334,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '10'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -410,8 +409,6 @@ replicator:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo.-Fr. 9:00-18:00'
-              -
-                type: paragraph
             show_as_card: true
           -
             bard:
@@ -449,6 +446,22 @@ replicator:
                     type: spacer
                     padding-y: '10'
             show_as_card: true
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+            show_as_card: false
         type: row
         enabled: true
     remove_spacing: true
@@ -1817,8 +1830,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1639999122
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1641926911
 template: default
 use_meta_keywords: false
 no_index_page: false
