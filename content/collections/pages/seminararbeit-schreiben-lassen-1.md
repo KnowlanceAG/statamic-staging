@@ -492,7 +492,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Studierende beauftragen häufig für die Unterstützung bei ihren Seminararbeiten Ghostwriter. Diese bieten eine Vielzahl von Leistungen und Hilfestellungen an. Sie können daher zu jedem Zeitpunkt des Arbeitsverlaufs beauftragt werden können.'
+                    text: 'Studierende beauftragen häufig für die Unterstützung bei ihrer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Seminararbeit Ghostwriter'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Diese bieten eine Vielzahl von Leistungen und Hilfestellungen an. Sie können daher zu jedem Zeitpunkt des Arbeitsverlaufs beauftragt werden können.'
               -
                 type: paragraph
                 content:
@@ -504,7 +524,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Oft geschieht dies direkt am Anfang bei der Themenwahl und der Definition der Leitfrage, bei Problemen bei der Literaturrecherche, dem Aufbau einer Seminararbeit, deren Exposé und der Erstellung von Präsentation. Zudem ist es möglich, einen akademischen Experten im Laufe des Schreibprozesses um Rat zu fragen. Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, die Seminararbeit Korrekturlesen und von einem Wissenschaftslektor kontrollieren zu lassen.'
+                    text: 'Oft geschieht dies direkt am Anfang bei der Themenwahl und der Definition der Leitfrage, bei Problemen bei der Literaturrecherche, dem Aufbau einer Seminararbeit, deren Exposé und der Erstellung von Präsentation. Zudem ist es möglich, einen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'akademischen Experten'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' im Laufe des Schreibprozesses um Rat zu fragen. Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, die Seminararbeit Korrekturlesen und von einem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Wissenschaftslektor kontrollieren zu lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: .
               -
                 type: paragraph
                 content:
@@ -564,7 +624,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "\_durch unsere Ghostwriting-Agentur erfolgen. Auch ein sog. Coaching mit fachlichem Wissen unterstützt den Studenten bei seiner Seminararbeit oder im Studienprozess. Einige Studenten möchten sich auch eine Mustervorlage für ihre Seminararbeit schreiben lassen, um diese Arbeit als Vorlage für ihre eigene akademischen Arbeit zu nutzen."
+                    text: "\_durch unsere "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Ghostwriting-Agentur
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' erfolgen. Auch ein sog. Coaching mit fachlichem Wissen unterstützt den Studenten bei seiner Seminararbeit oder im Studienprozess. Einige Studenten möchten sich auch eine Mustervorlage für ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Seminararbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', um diese Arbeit als Vorlage für ihre eigene akademischen Arbeit zu nutzen.'
             show_as_card: false
         type: row
         enabled: true
@@ -603,10 +703,23 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Ein akademischer\_"
+                    text: 'Ein '
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "akademischer\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
                       -
                         type: textColor
                         attrs:
@@ -627,7 +740,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "\_beschäftigt sich täglich mit dem Verfassen von disziplinären und interdisziplinären wissenschaftlichen Texten und Arbeiten. Unsere akademischen Autoren sind zertifizierte Akademiker und besitzen zahlreiche Kenntnisse aus ihrem Fachgebiet. Unsere Ghostwriting-Agentur arbeitet ausschließlich mit professionellen Akademikern, Doktoren und Professoren zusammen."
+                    text: "\_beschäftigt sich täglich mit dem Verfassen von disziplinären und interdisziplinären wissenschaftlichen Texten und Arbeiten. Unsere akademischen Autoren sind "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'zertifizierte Akademiker und besitzen zahlreiche Kenntnisse aus ihrem Fachgebiet'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Unsere Ghostwriting-Agentur arbeitet ausschließlich mit professionellen Akademikern, Doktoren und Professoren zusammen.'
               -
                 type: paragraph
                 content:
@@ -639,7 +772,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Da wir keine Studenten oder Hobbyschreiber beschäftigen, können wir Ihnen eine qualitativ hochwertige Mustervorlage garantieren. Bei unseren erfahrenen akademischen Autoren handelt es sich größtenteils um Doktoren oder Professoren. Da diese selbst promoviert oder habilitiert haben, kennen Sie alle Schwierigkeiten des wissenschaftlichen Arbeitens.'
+                    text: 'Da wir keine Studenten oder Hobbyschreiber beschäftigen, können wir Ihnen eine qualitativ hochwertige Mustervorlage garantieren. Bei unseren erfahrenen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'akademischen Autoren handelt es sich größtenteils um Doktoren oder Professoren'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Da diese selbst promoviert oder habilitiert haben, kennen Sie alle Schwierigkeiten des wissenschaftlichen Arbeitens.'
                   -
                     type: hard_break
             show_as_card: false
@@ -673,14 +826,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -751,18 +896,10 @@ replicator:
                           - 686e5203-e17a-4101-809a-07c9f799ccfa
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
                           - 68b88fd1-ec03-4ea8-9292-431555e47744
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -823,7 +960,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ', die sich über den regen Austausch zwischen Studenten und Hochschullehrer definieren. Der Abschluss eines solchen Seminars wird meist erreicht, indem die Lehrinstitutionen von ihren Studenten '
+                    text: ', die sich über den regen Austausch zwischen Studenten und Hochschullehrer definieren. Der '
                   -
                     type: text
                     marks:
@@ -834,7 +971,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Referate bzw. Präsentationen erwarten oder eine Seminararbeit'
+                    text: 'Abschluss eines Seminars'
                   -
                     type: text
                     marks:
@@ -843,7 +980,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' schreiben lassen.'
+                    text: ' wird meist erreicht, indem die Lehrinstitutionen von ihren Studenten Referate bzw. Präsentationen erwarten oder eine Seminararbeit schreiben lassen.'
               -
                 type: paragraph
                 content:
@@ -855,31 +992,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Dadurch soll der Student nicht nur den Umgang mit wissenschaftlichen Fragestellungen erlernen, sondern auch seine Leistungen und Ergebnisse angemessen in Schrift umsetzen. Solche Projektarbeiten und Aufgaben dienen zur Vorbereitung einer Bachelorarbeit oder Masterarbeit.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Durch die nicht selten fehlende Erfahrung mit wissenschaftlichen Arbeiten und deren Aufgaben, in Verbindung mit Leistungs- und Zeitdruck, sind einige Studenten schon den akademischen Texten überfordert. Sie benötigen weitaus mehr Hilfe bei der Seminararbeit, als es einige Hochschulen bieten können.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Die Hilflosigkeit hat bei einigen Studenten dazu geführt, dass diese von einem erfahrenen Ghostwriter ihre '
+                    text: 'Dadurch soll der Student nicht nur den Umgang mit wissenschaftlichen Fragestellungen erlernen, sondern auch seine Leistungen und Ergebnisse angemessen in Schrift umsetzen. Solche Projektarbeiten und Aufgaben dienen zur '
                   -
                     type: text
                     marks:
@@ -890,7 +1003,71 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Seminararbeit schreiben lassen'
+                    text: 'Vorbereitung einer Bachelorarbeit oder Masterarbeit'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: .
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Durch die nicht selten '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'fehlende Erfahrung mit wissenschaftlichen Arbeiten'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und deren Aufgaben, in Verbindung mit Leistungs- und Zeitdruck, sind einige Studenten schon den akademischen Texten überfordert. Sie benötigen weitaus mehr Hilfe bei der Seminararbeit, als es einige Hochschulen bieten können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die Hilflosigkeit hat bei einigen Studenten dazu geführt, dass diese von einem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'erfahrenen Ghostwriter ihre Seminararbeit schreiben lassen'
                   -
                     type: text
                     marks:
@@ -901,12 +1078,9 @@ replicator:
                           hex: '#000'
                     text: '. Dabei sollte jedoch die Seminararbeit des Ghostwriters lediglich als Mustervorlage dienen, da es sich um eine Prüfungsleistung handelt, die vom Studenten selbst erstellt werden muss.'
             show_as_card: true
-          -
-            bard: null
-            show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: true
     bg-color: '#F9F9F9'
@@ -924,14 +1098,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1032,18 +1198,10 @@ replicator:
                     color: '#FF6606'
                     button_align: justify-center
                     spacing_top: false
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -1143,6 +1301,34 @@ replicator:
                   -
                     type: text
                     text: " zurückzugreifen. Für den akademischen Freelancer stellt die Unterstützung und das\_Ghostwriting\_bei einer solchen Seminararbeit keine große Herausforderung dar, für ihn ist der Anspruch vergleichsweise gering. "
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '25'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - seiten/arbeiten/seminararbeit/Seminararbeit.jpg
+                    img-alignment: justify-center
+                    has_border: false
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
               -
                 type: paragraph
                 content:
@@ -1189,34 +1375,6 @@ replicator:
                           hex: '#000'
                     text: .
             show_as_card: false
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '25'
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/arbeiten/seminararbeit/Seminararbeit.jpg
-                    img-alignment: justify-center
-                    has_border: false
-              -
-                type: paragraph
-              -
-                type: paragraph
-            show_as_card: false
         type: row
         enabled: true
     remove_spacing: false
@@ -1256,7 +1414,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird diese Hilfe nicht geboten, bietet sich die Option, dass sich Studierende eine Mustervorlage von einem Ghostwriter für ihre Seminararbeit schreiben lassen. Diese Ghostwriting-Seminararbeit kann anschließend als Beispiel unterstützend genutzt werden. Um Ihnen eine bessere Vorstellung davon zu geben, was Sie von unserer Schreibagentur erhalten, stellen wir Ihnen im Folgenden '
+                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird diese Hilfe nicht geboten, bietet sich die Option, dass sich Studierende eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Mustervorlage von einem Ghostwriter für ihre Seminararbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '. Diese Ghostwriting-Seminararbeit kann anschließend als Beispiel unterstützend genutzt werden. Um Ihnen eine bessere Vorstellung davon zu geben, was Sie von unserer Schreibagentur erhalten, stellen wir Ihnen im Folgenden '
                   -
                     type: text
                     marks:
@@ -1396,8 +1563,6 @@ replicator:
                     type: spacer
                     padding-y: '30'
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -1438,8 +1603,6 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
@@ -1466,8 +1629,6 @@ replicator:
             show_as_card: true
           -
             bard:
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
@@ -1515,8 +1676,6 @@ replicator:
                     color: '#FF6606'
                     button_align: justify-center
                     spacing_top: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1748,6 +1907,22 @@ replicator:
                                 type: text
                                 text: 'Schwierigkeiten beim Schreiben einer Seminararbeit'
             show_as_card: true
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+            show_as_card: false
         type: row
         enabled: true
     remove_spacing: true
@@ -2032,7 +2207,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Je nach Fachrichtung und Dozent gelten unterschiedliche Anforderungen bei der Anfertigung der Seminararbeit. Hierbei müssen jedoch die allgemeinen Vorschriften der wissenschaftlichen Arbeit befolgt werden. Diese beinhalten eine streng logische Gliederung, konkrete Leitfrage, saubere und transparente Recherche, schlüssige Gedankengänge und Formulierungen (der sprichwörtliche "rote Faden"), sowie konsistente Zitation der verwendeten Literatur sei es in der Fußnote als auch im Literaturverzeichnis.'
+                    text: 'Je nach Fachrichtung und Dozent gelten unterschiedliche Anforderungen bei der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Anfertigung der Seminararbeit'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Hierbei müssen jedoch die allgemeinen Vorschriften der wissenschaftlichen Arbeit befolgt werden. Diese beinhalten eine streng logische Gliederung, konkrete Leitfrage, saubere und transparente Recherche, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'schlüssige Gedankengänge und Formulierungen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' (der sprichwörtliche "rote Faden"), sowie konsistente Zitation der verwendeten Literatur sei es in der Fußnote als auch im Literaturverzeichnis.'
               -
                 type: paragraph
                 content:
@@ -2044,7 +2259,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'In den Fachbereichen der Mathematik, Physik und Informatik werden oftmals der sichere Umgang mit fachspezifischer Software vorausgesetzt. Oft werden dabei als Unterstützung Muster der Seminararbeit als Beispiele durch den Dozenten veröffentlicht oder durch eine Ghostwriterin eine Seminararbeit als Vorlage erstellt.'
+                    text: 'In den Fachbereichen der Mathematik, Physik und Informatik werden oftmals der sichere Umgang mit fachspezifischer Software vorausgesetzt. Oft werden dabei als Unterstützung Muster der Seminararbeit als Beispiele durch den Dozenten veröffentlicht oder durch eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Ghostwriterin eine Seminararbeit als Vorlage erstellt'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: .
               -
                 type: paragraph
             show_as_card: true
@@ -2422,8 +2657,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '30'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -2450,8 +2683,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '30'
-              -
-                type: paragraph
               -
                 type: blockquote
                 content:
@@ -2626,7 +2857,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641926914
+updated_at: 1641933190
 template: default
 use_meta_keywords: false
 no_index_page: false
