@@ -72,7 +72,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Doktorarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Doktorarbeit/b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Doktorarbeit als Mustervorlage für Ihre Doktorarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
+                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Doktorarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Doktorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Doktorarbeit als Mustervorlage für Ihre Doktorarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
                       </p>
               -
                 type: set
@@ -192,7 +192,9 @@ replicator:
           -
             bard:
               -
-                type: paragraph
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
                     type: text
@@ -202,7 +204,30 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Hilfe bei der Doktorarbeit leistet oft ein akademischer Ghostwriter, wenn sich Doktoranden eine Mustervorlage für die Doktorarbeit schreiben lassen. Aufgrund seiner Erfahrungen und fachlichen Kenntnisse in seinem Fachbereich, ist es möglich, ihn ohne aufwendige Einarbeitungszeit zu jedem Zeitpunkt der Schreibphase als Hilfestellung zu beauftragen. Oft geschieht dies direkt zu Beginn der Aufgaben, bei der Themenfindung bzw. Themenwahl, der Literaturrecherche, dem Aufbau einer Doktorarbeit, den methodischen Ansätzen und deren Exposé.'
+                    text: 'Professionelle Unterstützung bei der Doktorarbeit durch Ghostwriter'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Hilfe bei der Doktorarbeit leistet oft ein akademischer Ghostwriter'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', wenn sich Doktoranden eine Mustervorlage für die Doktorarbeit schreiben lassen. Aufgrund seiner Erfahrungen und fachlichen Kenntnisse in seinem Fachbereich, ist es möglich, ihn ohne aufwendige Einarbeitungszeit zu jedem Zeitpunkt der Schreibphase als Hilfestellung zu beauftragen. Oft geschieht dies direkt zu Beginn der Aufgaben, bei der Themenfindung bzw. Themenwahl, der Literaturrecherche, dem Aufbau einer Doktorarbeit, den methodischen Ansätzen und deren Exposé.'
               -
                 type: paragraph
                 content:
@@ -214,7 +239,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Ebenfalls ist es möglich, Hilfestellungen während des Studiums in Anspruch zu nehmen oder sich Beratung bei einigen Teilaspekten zu verschaffen. Schließlich stellt eine Doktorarbeit erheblich höhere Ansprüche als beispielsweise eine Hausarbeit, Bachelorarbeit oder Masterarbeit.'
+                    text: 'Ebenfalls ist es möglich, Hilfestellungen während des Studiums in Anspruch zu nehmen oder sich Beratung bei einigen Teilaspekten zu verschaffen. Schließlich stellt eine Doktorarbeit erheblich höhere Ansprüche als beispielsweise eine Hausarbeit, Bachelorarbeit oder Masterarbeit. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Alle unsere Leistungen werden von Experten aus dem jeweiligen Fachbereich betreut'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', die das methodische Know-How und selbstverständlich auch Ihr Forschungsthema perfekt beherrschen.'
             show_as_card: false
         type: row
         enabled: true
@@ -240,17 +285,23 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - leistung/icon-lektorat_old.svg
+                      - leistung/icons/icon-lektorat_old.png
                     img_size: w-1/2
                     float: mx-auto
                     image_options:
                       - no_upscale
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
+              -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Zudem können Teilleistungen wie das '
+                    text: 'Mit Leistungen wie dem '
                   -
                     type: text
                     marks:
@@ -272,7 +323,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'das Korrektorat der Dissertation, die bereits durch den Doktoranden fertiggestellt wurde, in Anspruch genommen werden. Die Korrekturen in der Arbeit dienen dazu, um grammatikalische und syntaktische Fehler zu vermeiden sowie korrekte Sätze zu formulieren. Auch können Studierende den Text von einem Fachautoren lektorieren lassen, was hilft, den Textinhalt korrekt wiederzugeben. Die beiden Leistungen werden von Fachbereich-Experten betreut, die das methodische Know-How und das Forschungsthema beherrschen.'
+                    text: 'dem Korrektorat der Dissertation, die bereits durch den Doktoranden fertiggestellt wurde, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'geben unserer Experten Ihrer Arbeit den letzten Schliff'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Die Korrekturen in der Arbeit dienen dazu, um grammatikalische und syntaktische Fehler zu vermeiden sowie korrekte Sätze zu formulieren. Auch können Studierende den Text von einem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Fachautoren lektorieren lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', was hilft, den Textinhalt korrekt wiederzugeben.'
             show_as_card: false
           -
             bard:
@@ -282,11 +373,17 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - logo-startseite/icon-plagiat.svg
+                      - leistung/icons/icon-plagiat.png
                     img_size: w-1/2
                     float: mx-auto
                     image_options:
                       - no_upscale
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
               -
                 type: paragraph
                 content:
@@ -305,7 +402,16 @@ replicator:
                     text: Plagiatsprüfung
                   -
                     type: text
-                    text: ' erfolgen, um mögliche Flüchtigkeitsfehler bei Zitaten zu erkennen und den ordnungsgemäßen Umgang mit Quellen zu versichern. '
+                    text: ' erfolgen, um mögliche '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Flüchtigkeitsfehler bei Zitaten zu erkennen und den ordnungsgemäßen Umgang mit Quellen zu versichern'
+                  -
+                    type: text
+                    text: '. '
                   -
                     type: text
                     marks:
@@ -324,7 +430,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - leistung/icons/hat.svg
+                      - leistung/icons/hat.png
                     img_size: w-1/2
                     float: mx-auto
                     image_options:
@@ -366,79 +472,34 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "\_für ihre Doktorarbeit schreiben lassen und diese Ghostwriter-Doktorarbeit als Vorlage für ihre eigene Schreibarbeit nutzen."
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: phone_cta
-                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
-                    open: 'Mo.-Fr. 9:00-18:00'
-              -
-                type: paragraph
-            show_as_card: true
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '12'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                    text: "\_für ihre "
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: '80,- € pro Normseite.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    button_align: justify-start
-                    spacing_top: true
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-            show_as_card: true
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Doktorarbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und diese Ghostwriter-Doktorarbeit als Vorlage für ihre eigene Schreibarbeit nutzen.'
+            show_as_card: false
         type: row
         enabled: true
     remove_spacing: true
     is-full: true
     bg-toggle: false
-    bg-color: '#D6D6D6'
+    bg-color: '#F9F9F9'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -452,12 +513,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -514,6 +569,69 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: phone_cta
+                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
+                    open: 'Mo.-Fr. 9:00-18:00'
+            show_as_card: true
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '12'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '80,- € pro Normseite.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    button_align: justify-start
+                    spacing_top: true
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: true
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#D6D6D6'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
         columns_per_row: 1
         single-col: true
         grid:
@@ -534,15 +652,13 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriting-agentur/ghostwriter-doktoren2.png
-                    text: 'Unser professionelles Leistungszentrum arbeitet mit akademisch ausgebildeten Autoren. Diese Autoren sind Doktoren, Professoren, Forscher und wissenschaftliche Mitarbeiter.'
+                    text: 'Unsere professionelle Ghostwriting-Agentur arbeitet mit akademisch ausgebildeten Autoren. Diese Autoren sind **Doktoren, Professoren, Forscher und wissenschaftliche Mitarbeite**r.'
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
                     padding-y: '9'
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
@@ -550,16 +666,20 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriter-gesucht/vergabe-projekt.png
-                    text: 'Sie beschäftigen sich tagtäglich mit wissenschaftlichen Schreibarbeiten und methodischen Ansätzen in unser Schreibservice. Darüber hinaus haben diese umfassenden Kenntnisse im Umgang mit Forschungsarbeiten.'
+                    text: 'Sie beschäftigen sich tagtäglich mit wissenschaftlichen Schreibarbeiten und methodischen Ansätzen in unserem Schreibservice. Darüber hinaus haben diese **umfassenden Kenntnisse im Umgang mit Forschungsarbeiten**.'
                     ausrichtung: bild-text
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '9'
+                    padding-y: '30'
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Auch als Betreuer bei der Definition der Problemlage oder wissenschaftlichen Fragestellungen der Dissertation stehen unsere akademischen Ghostwriter zur Verfügung. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn.'
               -
                 type: paragraph
                 content:
@@ -568,9 +688,16 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Auch als Betreuer bei der Definition der Problemlage oder wissenschaftlichen Fragstellungen der Dissertation stehen unsere akademischen Ghostwriter zur Verfügung. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn.'
+                    text: 'Wenn Sie Unterstützung bei Ihrer Doktorarbeit wünschen oder Sie sich für die verschiedenen Möglichkeiten interessieren, schicken Sie uns einfach eine unverbindliche Anfrage. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot zurück.'
               -
-                type: paragraph
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    spacing_top: false
               -
                 type: paragraph
             show_as_card: false
@@ -588,7 +715,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -636,8 +763,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '10'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -791,18 +916,10 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 686e5203-e17a-4101-809a-07c9f799ccfa
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -818,14 +935,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -897,17 +1006,13 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
+                    padding-y: '50'
               -
                 type: set
                 attrs:
                   values:
                     type: video
                     video: 'https://youtu.be/-rglZNi_OUQ'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -929,12 +1034,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
                 type: heading
                 attrs:
                   level: 3
@@ -946,26 +1045,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Ablauf: Zusammenarbeit mit Ghostwriter'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: numbers_home
-                    grid:
-                      -
-                        zahl: '1.'
-                        beschreibung: 'Kostenlose unverbindliche Anfrage'
-              -
-                type: paragraph
+                    text: 'Ablauf: Zusammenarbeit mit einem Ghostwriter für Ihre Doktorarbeit'
               -
                 type: set
                 attrs:
@@ -974,8 +1054,7 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/anfrage.png
                     text: |-
-                      <br>
-                      <br>
+                      **Kostenlose unverbindliche Anfrage**
                       Ihre Anfrage ist bei der Schreibagentur GWriters natürlich unverbindlich. Weiterhin gehen wir verantwortungsvoll mit den Daten unserer Kunden um. Und selbst, wenn Sie nicht anonym bei uns anfragen, werden Ihr Daten diskret behandelt und nicht an Dritte weitergegeben.
 
                       Nach der Anfrage erfolgt eine Zusammenfassung aller relevanten Daten des Projektes mit Ihnen zusammen. In der Planungsphase treffen wir anschließend eine Vorauswahl passender Autor bzw. Ghostwriter und Lektoren für die anschließende Zweitkorrektur. 
@@ -984,37 +1063,12 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: numbers_home
-                    grid:
-                      -
-                        zahl: '2.'
-                        beschreibung: 'Individuelles Angebot'
-              -
-                type: set
-                attrs:
-                  values:
                     type: bild_und_text
                     bild:
                       - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
-                    text: |+
+                    text: |-
+                      **Individuelles Angebot**
                       Weiterhin werden die konkreten Rahmenbedingungen (z.B. Schutz der Daten) Ihres Projektes besprochen. Auf dessen Basis erstellen wir ein konkretes Leistungsangebot ohne versteckte Kosten. Der Aufwand und demzufolge die Preise für Aufträge zur Texterstellung sind unterschiedlich. Denn je nach Aufgabenstellung, Fachrichtung, Umfang (Seitenanzahl), Zeitangabe, Qualitätslevel und Komplexität des Themas werden unterschiedliche Preise festgelegt. 
-
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
@@ -1022,25 +1076,10 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriter-gesucht/ghostwriter-Datenbanken-1.png
-                    text: 'Demnach werden mehrere ausgebildete fachliche Autoren für das wissenschaftliche Arbeiten eingesetzt. Als Orientierungshilfe für die Ghostwriter Preise von GWriters können Sie den Preis-Rechner benutzen und Ihre Anforderungen zusammenrechnen lassen. Sobald Sie das Leistungsangebot von unserer Schreibagentur annehmen, beginnt die Planungsphase Ihrer Mustervorlage.'
+                    text: |-
+                      **Erfahrenes Expertenteam**
+                      Demnach werden mehrere ausgebildete fachliche Autoren für das wissenschaftliche Arbeiten eingesetzt. Als Orientierungshilfe für die Ghostwriter Preise von GWriters können Sie den Preis-Rechner benutzen und Ihre Anforderungen zusammenrechnen lassen. Sobald Sie das Leistungsangebot von unserer Schreibagentur annehmen, beginnt die Planungsphase Ihrer Mustervorlage.
                     ausrichtung: bild-text
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '17'
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: numbers_home
-                    grid:
-                      -
-                        zahl: '3.'
-                        beschreibung: ' Doktorarbeit schreiben lassen: Verfassen der Mustervorlage'
               -
                 type: set
                 attrs:
@@ -1048,27 +1087,10 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
-                    text: 'Während der Anfertigung Ihrer Aufgabe, der von einem professionellen Ghostwriter als Mustervorlage erstellt wird, läuft die gesamte Kommunikation läuft anonym in schriftlicher oder telefonischer Form ab. Selbstverständlich können Sie auch andere Kommunikationskanäle nutzen. Ihr individueller Betreuer übernimmt für Sie die gesamte Kommunikation mit unserem Ghostwriter, von dem wir die Mustervorlage für Ihre Doktorarbeit schreiben lassen.'
+                    text: |-
+                      **Doktorarbeit schreiben lassen: Verfassen der Mustervorlage**
+                      Während der Anfertigung Ihrer Aufgabe, der von einem professionellen Ghostwriter als Mustervorlage erstellt wird, läuft die gesamte Kommunikation läuft anonym in schriftlicher oder telefonischer Form ab. Selbstverständlich können Sie auch andere Kommunikationskanäle nutzen. Ihr individueller Betreuer übernimmt für Sie die gesamte Kommunikation mit unserem Ghostwriter, von dem wir die Mustervorlage für Ihre Doktorarbeit schreiben lassen.
                     ausrichtung: text-bild
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: numbers_home
-                    grid:
-                      -
-                        zahl: '4.'
-                        beschreibung: Teillieferungen
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
@@ -1076,30 +1098,10 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/arbeiten/hausarbeit/termineplanen.png
-                    text: |
-                      <br>
-                      <br>
+                    text: |-
+                      **Regelmäßige Teillieferungen**
                       Sie erhalten einen individuellen Projektbetreuer, der Ihnen kontinuierlich zur Seite steht. Weiterhin erhalten Sie regelmäßig Teillieferungen, um auch stetig Einblick in der aktuellen Schreibarbeit zu erhalten. So können Sie falls gewünscht auch inhaltlich Einfluss nehmen. So haben Sie die Sicherheit, ein qualitativ hochwertiges Werk zu bekommen.
                     ausrichtung: bild-text
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: numbers_home
-                    grid:
-                      -
-                        zahl: '5.'
-                        beschreibung: 'Qualitativer Feinschliff und Vier-Augen-Prinzip'
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
@@ -1108,26 +1110,9 @@ replicator:
                     bild:
                       - seiten/arbeiten/bachelorarbeit-schreiben.jpg
                     ausrichtung: text-bild
-                    text: 'Nachdem die eigentliche Schreibphase mit allen Teillieferungen abgeschlossen ist, erfolgt der Feinschliff. Ihr Feedback wird dabei von Ihrem Ghostwriter in kostenlosen Korrekturschleifen eingearbeitet. Es erfolgt zudem eine Plagiatsprüfung der Mustervorlage, welche Sie für Ihre Doktorarbeit schreiben lassen. Gefolgt wird diese von einem zweiten Lektorat unser Schreibservice im Vier-Augen-Prinzip. Somit ist die Qualitätsgarantie der Arbeit bestätigt.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: numbers_home
-                    grid:
-                      -
-                        zahl: '6.'
-                        beschreibung: 'Finale Lieferung der Mustervorlage'
-              -
-                type: paragraph
+                    text: |-
+                      **Qualitativer Feinschliff und Vier-Augen-Prinzip**
+                      Nachdem die eigentliche Schreibphase mit allen Teillieferungen abgeschlossen ist, erfolgt der Feinschliff. Ihr Feedback wird dabei von Ihrem Ghostwriter in kostenlosen Korrekturschleifen eingearbeitet. Es erfolgt zudem eine Plagiatsprüfung der Mustervorlage, welche Sie für Ihre Doktorarbeit schreiben lassen. Gefolgt wird diese von einem zweiten Lektorat unser Schreibservice im Vier-Augen-Prinzip. Somit ist die Qualitätsgarantie der Arbeit bestätigt.
               -
                 type: set
                 attrs:
@@ -1136,16 +1121,99 @@ replicator:
                     bild:
                       - seiten/arbeiten/fertigearbeit.png
                     ausrichtung: bild-text
-                    text: |
-
-
+                    text: |-
+                      **Finale Lieferung der Mustervorlage**
                       Mit der finalen Lieferung bekommen Sie dann Ihre individuelle Mustervorlage der Dissertation von Ihrem individuellen Betreuer. Da der Datenschutz von dem erstellten wissenschaftlichen Ergebnis besonders für unsere Agentur wichtig ist, werden auch alle Daten vom Auftraggeber bzw. Kunden im Anschluss an den Auftrag gelöscht.
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Das Erlangen der Doktorwürde ist meist ein langwieriger Schreibprozess, dessen aufwändigster Teil die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Ausarbeitung der Dissertation'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' ist. Hier gibt es die Möglichkeit, ein hochwertiges Coaching zu nutzen, um die Doktorandinnen bei der Strukturierung zu unterstützen. Auch ein regelmäßiges Lektorat der Dissertation unterstützt den Studierenden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Um die zeitliche Beanspruchung zu verringern, gibt es Doktorandinnen, die einen Ghostwriter eine Mustervorlage für ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Doktorarbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Wenn Sie sich wie viele andere bei Ihrer Dissertation unterstützen lassen möchten, schicken Sie uns einfach eine unverbindliche Anfrage!'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOSE BERATUNG ERHALTEN'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -1251,53 +1319,9 @@ replicator:
               -
                 type: paragraph
             show_as_card: true
-          -
-            bard: null
-            show_as_card: false
         type: row
         enabled: true
     bg-image: seiten/arbeiten/masterabschluss.jpg
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '1'
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Das Erlangen der Doktorwürde ist meist ein langwieriger Schreibprozess, dessen aufwändigster Teil die Ausarbeitung der Dissertation ist. Hier gibt es die Möglichkeit, ein hochwertiges Coaching zu nutzen, um die Doktorandinnen bei der Strukturierung zu unterstützen. Auch ein regelmäßiges Lektorat der Dissertation unterstützt den Studierenden. Um die zeitliche Beanspruchung zu verringern, gibt es Doktorandinnen, die einen Ghostwriter eine Mustervorlage für ihre Doktorarbeit schreiben lassen.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'UNTERSTÜTZUNG BEI IHREM MASTANFORDERN'
-                    spacing_top: false
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
   -
     columns-replicator:
       -
@@ -1312,9 +1336,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '7'
-              -
-                type: paragraph
+                    padding-y: '10'
               -
                 type: set
                 attrs:
@@ -1334,8 +1356,6 @@ replicator:
                     ex_button_text: 'WEITERE BEISPIELARBEITEN JETZT RUNTERLADEN'
                     ex_button_align: justify-start
                     ex_spacing_top: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1357,12 +1377,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -1375,85 +1389,7 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Während eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Hausarbeit
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Bachelorarbeit
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Masterarbeit
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' oder Diplomarbeit meist nur bereits vorhandenes Wissen zusammenfasst, wird bei der Dissertation eine Erweiterung des Wissens gefordert. Um die Doktorwürde zu erlangen, muss man demnach in der Forschung tätig gewesen sein und neue Erkenntnisse vorweisen können.'
+                    text: 'Während eine Hausarbeit, Bachelorarbeit, Masterarbeit oder Diplomarbeit meist nur bereits vorhandenes Wissen zusammenfasst, wird bei der Dissertation eine Erweiterung des Wissens gefordert. Um die Doktorwürde zu erlangen, muss man demnach in der Forschung tätig gewesen sein und neue Erkenntnisse vorweisen können.'
               -
                 type: paragraph
                 content:
@@ -1477,55 +1413,10 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Der Doktorand kann sich theoretisch mit einem Sachverhalt beschäftigen oder empirisch/ experimentell ermittelte Daten auswerten, interpretieren, sowie analysieren. Die Untersuchungen geschiehen oftmals durch Umfragen im Bereich der BWL und VWL und durch Experimente in der Forschung, '
+                    text: 'Der Doktorand kann sich theoretisch mit einem Sachverhalt beschäftigen oder empirisch/ experimentell ermittelte Daten auswerten, interpretieren, sowie analysieren. Die Untersuchungen geschehen oftmals durch Umfragen im Bereich der BWL und VWL und durch Experimente in de'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/biologie
-                          target: null
-                          rel: null
-                    text: Biologie
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/medizin
-                          target: null
-                          rel: null
-                    text: Medizin
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', '
+                    text: 'r Forschung, Biologie, Medizin, '
                   -
                     type: text
                     marks:
@@ -1549,7 +1440,10 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' oder '
+                    text: ' oder'
+                  -
+                    type: text
+                    text: ' Psychologie. Der Umfang der Doktorarbeit ist ebenfalls stark abhängig vom Fachgebiet, liegt a'
                   -
                     type: text
                     marks:
@@ -1558,22 +1452,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/psychologie
-                          target: null
-                          rel: null
-                    text: Psychologie
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: '. Der Umfang der Doktorarbeit ist ebenfalls stark abhängig vom Fachgebiet, liegt aber generell zwischen 150 und 500 Seiten.'
+                    text: 'ber generell zwischen 150 und 500 Seiten.'
               -
                 type: paragraph
                 content:
@@ -1586,14 +1465,10 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Zwar gibt es seitens Doktorväter und Hochschulen einige unterschiedliche Promotionsordnungen, jedoch veröffentlichen Hochschulen oft eine Vorlage einer Dissertation als Beispiel um ihren Studierenden zu helfen. Unterstützend dazu, kann sich ein Doktorand von einem Ghostwriter eine Mustervorlage für seine Doktorarbeit schreiben lassen und diese Ghostwriting-Doktorarbeit als Orientierungshilfe nutzen. Außerdem haben unsere akademischen Autoren zu jeder wissenschaftlichen Fragestellung eine Lösung.'
-              -
-                type: heading
-                attrs:
-                  level: 2
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -1610,14 +1485,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -1630,7 +1497,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Gliederung und Formalien einer Doktorarbeit:'
+                    text: 'Gliederung und Formalien einer Doktorarbeit'
               -
                 type: paragraph
                 content:
@@ -1642,13 +1509,33 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Einige Voraussetzungen von Promotionsausschuss zur Erstellung der Arbeit haben sich als gängig erwiesen:'
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
+                    text: 'Einige Voraussetzungen von diversen Promotionsausschüssen zur Erstellung von Dissertationen haben sich als gängig erwiesen. Wenn Sie Ihre selbst verfasste Arbeit an unsere Experten zur Korrektur geben, überprüfen diese selbstverständlich auch die Einhaltung dieser Formalia. Falls Sie von uns eine Mustervorlage erstellen lassen, übernehmen wir selbstverständlich auch Ihre individuellen Anforderungen. Teilen Sie uns diese einfach in Ihrer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindlichen Anfrage'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' mit!'
             show_as_card: false
         type: row
         enabled: true
@@ -1711,9 +1598,6 @@ replicator:
                                   target: null
                                   rel: null
                             text: Deckblatt
-              -
-                type: bullet_list
-                content:
                   -
                     type: list_item
                     content:
@@ -2045,15 +1929,11 @@ replicator:
                             type: text
                             text: 'Fußnotentext: 10 Pt Blocksatz, 1,0-zeilig, Fußnoten werden hoch gestellt'
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '19'
-              -
-                type: paragraph
+                    padding-y: '20'
             show_as_card: true
         type: row
         enabled: true
@@ -2262,8 +2142,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1640909346
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1641914449
 template: default
 use_meta_keywords: false
 no_index_page: false
