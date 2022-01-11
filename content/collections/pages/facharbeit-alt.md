@@ -196,19 +196,36 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Obwohl für die Facharbeit einige Wochen Bearbeitungszeit vorgesehen sind, kommen Schüler häufig in Zeitnot, weil sie mit der ungewohnten Art zu arbeiten nicht umgehen können bzw. diese sehr aufwendig ist. Außerdem müssen Schüler gleichzeitig für andere Klausuren und Abiturprüfungen lernen - das führt auch zu zeitlichen Problemen. Um bei der Fragestellung ,,Wie schreibe ich eine Facharbeit?“ nicht alleine zu stehen, wenden sich einige Schüler während dem Schreibprozess an einen akademischen '
+                    text: 'Obwohl für die Facharbeit einige Wochen Bearbeitungszeit vorgesehen sind, kommen '
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: left
+                        type: bold
+                    text: 'Schüler häufig in Zeitnot'
+                  -
+                    type: text
+                    text: ', weil sie mit der ungewohnten Art zu arbeiten nicht umgehen können bzw. diese sehr aufwendig ist. Außerdem müssen Schüler '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'gleichzeitig für andere Klausuren und Abiturprüfungen lernen'
+                  -
+                    type: text
+                    text: ' - das führt auch zu zeitlichen Problemen. Um bei der Fragestellung ,,Wie schreibe ich eine Facharbeit?“ nicht alleine zu stehen, wenden sich einige Schüler während dem Schreibprozess an einen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'akademischen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
                       -
                         type: link
                         attrs:
@@ -218,19 +235,10 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
                     text: ', '
                   -
                     type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
                       -
                         type: link
                         attrs:
@@ -240,51 +248,31 @@ replicator:
                     text: Lektor
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
                     text: ' oder Korrektor von einem Schreibservice. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
+                    text: 'Besonders weil die Arbeit auf das Studium vorbereiten soll und als Übungsmöglichkeit steht, ist es wichtig, '
+                  -
+                    type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Besonders weil die Arbeit auf das Studium vorbereiten soll und als Übungsmöglichkeit steht, ist es wichtig, Schüler zu unterstützen, ihr Interesse am Studieren zu wecken und sie nicht unnötig zu demotivieren.'
+                        type: bold
+                    text: 'Schüler zu unterstützen'
+                  -
+                    type: text
+                    text: ', ihr Interesse am Studieren zu wecken und sie nicht unnötig zu demotivieren.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: 'Eine Arbeit über einen spezifischen '
                   -
                     type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -294,61 +282,32 @@ replicator:
                     text: Fachbereich
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' zu verfassen ist eine gute Vorbereitung für das Studium, wenn Sie als Studierende weitere wissenschaftliche Arbeiten schreiben müssen, wie Ihre erste '
+                    text: ' zu verfassen ist eine gute '
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                        type: bold
+                    text: 'Vorbereitung für das Studium'
+                  -
+                    type: text
+                    text: ', wenn Sie als Studierende weitere wissenschaftliche Arbeiten schreiben müssen, wie Ihre erste '
+                  -
+                    type: text
+                    marks:
                       -
                         type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: 'Hausarbeit '
+                    text: Hausarbeit
+                  -
+                    type: text
+                    text: ' oder '
                   -
                     type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'oder '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -358,16 +317,6 @@ replicator:
                     text: Seminararbeit
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                     text: '. Jedoch werden die wissenschaftlichen Arbeiten von Schullehrern und Dozenten unterschiedlich bewertet. Ein Schullehrer bewertet eine wissenschaftliche Arbeit oberflächlicher, während ein Professor es strenger bewertet.'
             show_as_card: false
         type: row
@@ -452,6 +401,12 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -519,8 +474,6 @@ replicator:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo.-Fr. 9:00-18:00'
-              -
-                type: paragraph
             show_as_card: true
           -
             bard:
@@ -558,6 +511,22 @@ replicator:
                     type: spacer
                     padding-y: '10'
             show_as_card: true
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+            show_as_card: false
         type: row
         enabled: true
     remove_spacing: true
@@ -2450,7 +2419,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641916851
+updated_at: 1641926916
 template: default
 use_meta_keywords: false
 no_index_page: false
