@@ -1655,7 +1655,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Weitere Experten aus unserer Agentur'
+                    text: 'Ausgewählte Experten aus unserer Agentur'
             show_as_card: false
         type: row
         enabled: true
@@ -1724,6 +1724,12 @@ replicator:
                           color: 'rgba(68,68,68,var(--tw-text-opacity))'
                           hex: '#000'
                     text: 'Senior Ghostwriterin'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
             show_as_card: false
           -
             bard:
@@ -1774,6 +1780,12 @@ replicator:
                           color: 'rgba(68,68,68,var(--tw-text-opacity))'
                           hex: '#000'
                     text: 'Senior Ghostwriterin'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
             show_as_card: false
           -
             bard:
@@ -1824,6 +1836,12 @@ replicator:
                           color: 'rgba(68,68,68,var(--tw-text-opacity))'
                           hex: '#000'
                     text: 'Supervisor & Senior Ghostwriter'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
             show_as_card: false
         type: row
         enabled: true
@@ -1908,11 +1926,11 @@ replicator:
                   -
                     type: text
                     text: 'Zwar sind diese von der jeweiligen Schule, oftmals auch vom Lehrer abhängig, es haben sich jedoch einige Formalien als gängig erwiesen:'
-            show_as_card: false
+            show_as_card: true
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
+    is-full: true
     bg-toggle: false
     bg-image: seiten/arbeiten/seminararbeit/seminararbeit_schreiben_lassen_professoren_doktoren_.jpg
     bg-image-fixed: false
@@ -2432,7 +2450,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641916334
+updated_at: 1641916851
 template: default
 use_meta_keywords: false
 no_index_page: false
