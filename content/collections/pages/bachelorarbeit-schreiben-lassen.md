@@ -731,7 +731,22 @@ replicator:
                     text: 'akademischen Ghostwriting-Agentur für Bachelorarbeiten '
                   -
                     type: text
-                    text: 'gestaltet. Dies gilt natürlich auch für alle anderen Arten von wissenschaftlichen Arbeiten. Das Coaching kann sowohl in Form von Textteilen Ergänzung/Überarbeitung als auch der Beantwortung der wissenschaftlichen Fragestellungen während des Schreibprozesses erfolgen.'
+                    text: 'gestaltet. Dies gilt natürlich auch für alle anderen Arten von wissenschaftlichen Arbeiten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das Coaching kann sowohl in Form von Textteilen Ergänzung/Überarbeitung als auch der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Beantwortung der wissenschaftlichen Fragestellungen'
+                  -
+                    type: text
+                    text: ' während des Schreibprozesses erfolgen.'
             show_as_card: false
           -
             bard:
@@ -741,12 +756,10 @@ replicator:
                   values:
                     type: video
                     video: 'https://www.youtube.com/embed/EBDyFVLD0V0'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F2F2F2'
@@ -763,14 +776,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '38'
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -870,12 +875,6 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: set
-                attrs:
-                  values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOSE ANFRAGE SCHICKEN!'
@@ -885,7 +884,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -2226,7 +2225,55 @@ replicator:
     type: add_section
     enabled: true
   -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: blockquote
+                content:
+                  -
+                    type: heading
+                    attrs:
+                      level: 3
+                    content:
+                      -
+                        type: text
+                        text: Disclaimer
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
     bard:
+      -
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: '30'
       -
         type: heading
         attrs:
@@ -2420,7 +2467,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641926913
+updated_at: 1641933182
 template: default
 use_meta_keywords: false
 no_index_page: false
