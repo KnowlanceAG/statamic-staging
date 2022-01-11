@@ -892,7 +892,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'In vielen Ländern, besonders in Deutschland, gilt der Doktorabschluss nach wie vor als klassischer Karrierebeschleuniger. Neben besseren Karrierechancen, werden Arbeitnehmer mit Doktorgrad laut Statistik auch mit höheren Löhnen belohnt. In einigen Branchen, wie der Forschung, Medizin und Wissenschaft, ist der Doktorgrad sogar grundlegend für jeglichen Berufserfolg.'
+                    text: 'In vielen Ländern, besonders in Deutschland, gilt der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Doktorabschluss als klassischer Karrierebeschleuniger'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Neben besseren Karrierechancen, werden Arbeitnehmer mit Doktorgrad laut Statistik auch mit höheren Löhnen belohnt. In einigen Branchen, wie der Forschung, Medizin und Wissenschaft, ist der Doktorgrad sogar grundlegend für jeglichen Berufserfolg.'
               -
                 type: paragraph
                 content:
@@ -904,7 +924,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Die aufwändigste Form der experimentellen Doktorarbeit haben Medizinstudierende. Sie benötigen meist zwei Semester länger. Jedoch lohnt sich die Schreibarbeit im Fachgebiet Medizin, wenn Sie im späteren Berufsleben an einer Universität oder in der Forschung arbeiten möchten. Hier verbringen Promovenden viel Zeit im Labor mit Forschungsmaterialien und um Experimente durchzuführen. \_"
+                    text: 'Die aufwändigste Form der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'experimentellen Doktorarbeit haben Medizinstudierende'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Sie benötigen meist zwei Semester länger. Jedoch lohnt sich die Schreibarbeit im Fachgebiet Medizin, wenn Sie im späteren Berufsleben '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'an einer Universität oder in der Forschung arbeiten'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: " möchten. Hier verbringen Promovenden viel Zeit im Labor mit Forschungsmaterialien und um Experimente durchzuführen. \_"
               -
                 type: paragraph
                 content:
@@ -916,7 +976,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Auch generell ist der akademische Aufstieg sehr zeitintensiv und arbeitslastig. Besonders Berufstätige, die erst Jahre nach ihrem Examen feststellen, dass die Auszeichnung mit einem Doktortitel ihnen einen Karrieresprung verschafft, haben oft Schwierigkeiten sich in ihrem Forschungsbereich neu einzufinden.'
+                    text: 'Auch generell ist der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'akademische Aufstieg sehr zeitintensiv und arbeitslastig'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Besonders Berufstätige, die erst Jahre nach ihrem Examen feststellen, dass die Auszeichnung mit einem Doktortitel ihnen einen Karrieresprung verschafft, haben oft Schwierigkeiten sich in ihrem Forschungsbereich neu einzufinden.'
             show_as_card: false
         type: row
         enabled: true
@@ -1045,7 +1125,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'In oben genannten Fällen helfen akademische Freelancer, die die Forschungsarbeit lektorieren und korrigieren. Um auf Nummer sicher zu gehen, dass ausreichend auf sämtliche Quellen verwiesen wurde, hilft es, den Text auf Plagiate zu prüfen. Wenn in der Schreibphase Unterstützung gefordert ist, die über'
+                    text: 'In oben genannten Fällen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'helfen akademische Freelancer'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', die die Forschungsarbeit lektorieren und korrigieren. Um auf Nummer sicher zu gehen, dass ausreichend auf sämtliche Quellen verwiesen wurde, hilft es, den Text auf Plagiate zu prüfen. Wenn in der Schreibphase Unterstützung gefordert ist, die über'
                   -
                     type: text
                     text: ' das '
@@ -1061,7 +1161,16 @@ replicator:
                     text: Korrekturlesen
                   -
                     type: text
-                    text: ' hinaus geht, wird häufig von einem Ghostwriter eine Mustervorlage für die Dissertation schreiben gelassen und die '
+                    text: ' hinaus geht, wird häufig von einem Ghostwriter eine Mustervorlage für die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Dissertation schreiben gelassen'
+                  -
+                    type: text
+                    text: ' und die '
                   -
                     type: text
                     marks:
@@ -1086,7 +1195,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Wenn die Karriere im Vordergrund steht, sollten sich die Doktorandinnen nicht primär mit der Fragestellung beschäftigen „Wie schreibe ich eine Doktorarbeit?“, sondern auf mögliche Hilfestellungen zurückgreifen können.'
+                    text: 'Wenn die Karriere im Vordergrund steht, sollten sich die Doktorandinnen nicht primär mit der Fragestellung beschäftigen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '„Wie schreibe ich eine Doktorarbeit?“'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', sondern auf mögliche Hilfestellungen zurückgreifen können.'
               -
                 type: paragraph
             show_as_card: false
@@ -1096,18 +1225,12 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '50'
-              -
-                type: set
-                attrs:
-                  values:
                     type: video
                     video: 'https://youtu.be/-rglZNi_OUQ'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F2F2F2'
@@ -1133,10 +1256,17 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Ablauf: Zusammenarbeit mit einem Ghostwriter für Ihre Doktorarbeit'
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Mustervorlage für Doktorarbeit\_schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
               -
                 type: set
                 attrs:
@@ -1146,9 +1276,9 @@ replicator:
                       - seiten/arbeiten/hausarbeit/anfrage.png
                     text: |-
                       **Kostenlose unverbindliche Anfrage**
-                      Ihre Anfrage ist bei der Schreibagentur GWriters natürlich unverbindlich. Weiterhin gehen wir verantwortungsvoll mit den Daten unserer Kunden um. Und selbst, wenn Sie nicht anonym bei uns anfragen, werden Ihr Daten diskret behandelt und nicht an Dritte weitergegeben.
+                      Ihre Anfrage ist bei der Schreibagentur GWriters natürlich unverbindlich. Weiterhin gehen wir verantwortungsvoll mit den Daten unserer Kunden um. Und selbst, wenn Sie nicht anonym bei uns anfragen, werden **Ihre Daten diskret behandelt und nicht an Dritte weitergegeben**.
 
-                      Nach der Anfrage erfolgt eine Zusammenfassung aller relevanten Daten des Projektes mit Ihnen zusammen. In der Planungsphase treffen wir anschließend eine Vorauswahl passender Autor bzw. Ghostwriter und Lektoren für die anschließende Zweitkorrektur. 
+                      Nach der Anfrage erfolgt eine **Zusammenfassung aller relevanten Daten des Projektes** mit Ihnen zusammen. In der Planungsphase treffen wir anschließend eine Vorauswahl passender Autor bzw. Ghostwriter und Lektoren für die anschließende Zweitkorrektur. 
                     ausrichtung: bild-text
               -
                 type: set
@@ -1159,7 +1289,7 @@ replicator:
                       - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
                     text: |-
                       **Individuelles Angebot**
-                      Weiterhin werden die konkreten Rahmenbedingungen (z.B. Schutz der Daten) Ihres Projektes besprochen. Auf dessen Basis erstellen wir ein konkretes Leistungsangebot ohne versteckte Kosten. Der Aufwand und demzufolge die Preise für Aufträge zur Texterstellung sind unterschiedlich. Denn je nach Aufgabenstellung, Fachrichtung, Umfang (Seitenanzahl), Zeitangabe, Qualitätslevel und Komplexität des Themas werden unterschiedliche Preise festgelegt. 
+                      Weiterhin werden die konkreten Rahmenbedingungen (z.B. Schutz der Daten) Ihres Projektes besprochen. Auf dessen Basis erstellen wir ein **konkretes Leistungsangebot ohne versteckte Kosten**. Der Aufwand und demzufolge die Preise für Aufträge zur Texterstellung sind unterschiedlich. Denn je nach Aufgabenstellung, Fachrichtung, Umfang (Seitenanzahl), Zeitangabe, Qualitätslevel und Komplexität des Themas werden unterschiedliche Preise festgelegt. 
               -
                 type: set
                 attrs:
@@ -1169,7 +1299,7 @@ replicator:
                       - seiten/ghostwriter-gesucht/ghostwriter-Datenbanken-1.png
                     text: |-
                       **Erfahrenes Expertenteam**
-                      Demnach werden mehrere ausgebildete fachliche Autoren für das wissenschaftliche Arbeiten eingesetzt. Als Orientierungshilfe für die Ghostwriter Preise von GWriters können Sie den Preis-Rechner benutzen und Ihre Anforderungen zusammenrechnen lassen. Sobald Sie das Leistungsangebot von unserer Schreibagentur annehmen, beginnt die Planungsphase Ihrer Mustervorlage.
+                      Demnach werden mehrere ausgebildete fachliche Autoren für das wissenschaftliche Arbeiten eingesetzt. Als Orientierungshilfe für die [Ghostwriter Preise](/preise) von GWriters können Sie unseren **Preis-Rechner** benutzen und Ihre Anforderungen zusammenrechnen lassen. Sobald Sie das Leistungsangebot von unserer Schreibagentur annehmen, beginnt die Planungsphase Ihrer Mustervorlage.
                     ausrichtung: bild-text
               -
                 type: set
@@ -1180,7 +1310,7 @@ replicator:
                       - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
                     text: |-
                       **Doktorarbeit schreiben lassen: Verfassen der Mustervorlage**
-                      Während der Anfertigung Ihrer Aufgabe, der von einem professionellen Ghostwriter als Mustervorlage erstellt wird, läuft die gesamte Kommunikation läuft anonym in schriftlicher oder telefonischer Form ab. Selbstverständlich können Sie auch andere Kommunikationskanäle nutzen. Ihr individueller Betreuer übernimmt für Sie die gesamte Kommunikation mit unserem Ghostwriter, von dem wir die Mustervorlage für Ihre Doktorarbeit schreiben lassen.
+                      Während der Anfertigung Ihrer Aufgabe, der von einem **professionellen Ghostwriter** als Mustervorlage erstellt wird, läuft die gesamte Kommunikation läuft anonym in schriftlicher oder telefonischer Form ab. Selbstverständlich können Sie auch andere Kommunikationskanäle nutzen. Ihr individueller Betreuer übernimmt für Sie die gesamte Kommunikation mit unserem Ghostwriter, von dem wir die Mustervorlage für Ihre **Doktorarbeit schreiben lassen**.
                     ausrichtung: text-bild
               -
                 type: set
@@ -1191,7 +1321,7 @@ replicator:
                       - seiten/arbeiten/hausarbeit/termineplanen.png
                     text: |-
                       **Regelmäßige Teillieferungen**
-                      Sie erhalten einen individuellen Projektbetreuer, der Ihnen kontinuierlich zur Seite steht. Weiterhin erhalten Sie regelmäßig Teillieferungen, um auch stetig Einblick in der aktuellen Schreibarbeit zu erhalten. So können Sie falls gewünscht auch inhaltlich Einfluss nehmen. So haben Sie die Sicherheit, ein qualitativ hochwertiges Werk zu bekommen.
+                      Sie erhalten einen individuellen Projektbetreuer, der Ihnen kontinuierlich zur Seite steht. Weiterhin erhalten Sie regelmäßig Teillieferungen, um auch **stetig Einblick in die aktuellen Schreibarbeiten** zu erhalten. So können Sie falls gewünscht auch inhaltlich Einfluss nehmen. So haben Sie die Sicherheit, ein **qualitativ hochwertiges Werk** zu bekommen.
                     ausrichtung: bild-text
               -
                 type: set
@@ -1203,7 +1333,7 @@ replicator:
                     ausrichtung: text-bild
                     text: |-
                       **Qualitativer Feinschliff und Vier-Augen-Prinzip**
-                      Nachdem die eigentliche Schreibphase mit allen Teillieferungen abgeschlossen ist, erfolgt der Feinschliff. Ihr Feedback wird dabei von Ihrem Ghostwriter in kostenlosen Korrekturschleifen eingearbeitet. Es erfolgt zudem eine Plagiatsprüfung der Mustervorlage, welche Sie für Ihre Doktorarbeit schreiben lassen. Gefolgt wird diese von einem zweiten Lektorat unser Schreibservice im Vier-Augen-Prinzip. Somit ist die Qualitätsgarantie der Arbeit bestätigt.
+                      Nachdem die eigentliche Schreibphase mit allen Teillieferungen abgeschlossen ist, erfolgt der Feinschliff. Ihr Feedback wird dabei **von Ihrem Ghostwriter in kostenlosen Korrekturschleifen eingearbeitet**. Es erfolgt zudem eine Plagiatsprüfung der Mustervorlage, welche Sie für Ihre Doktorarbeit schreiben lassen. Gefolgt wird diese von einem zweiten **Lektorat im Vier-Augen-Prinzip**. Somit ist die Qualitätsgarantie der Arbeit bestätigt.
               -
                 type: set
                 attrs:
@@ -1214,7 +1344,7 @@ replicator:
                     ausrichtung: bild-text
                     text: |-
                       **Finale Lieferung der Mustervorlage**
-                      Mit der finalen Lieferung bekommen Sie dann Ihre individuelle Mustervorlage der Dissertation von Ihrem individuellen Betreuer. Da der Datenschutz von dem erstellten wissenschaftlichen Ergebnis besonders für unsere Agentur wichtig ist, werden auch alle Daten vom Auftraggeber bzw. Kunden im Anschluss an den Auftrag gelöscht.
+                      Mit der finalen Lieferung bekommen Sie dann Ihre individuelle Mustervorlage der Dissertation von Ihrem individuellen Betreuer. Da der Datenschutz von dem erstellten wissenschaftlichen Ergebnis besonders für unsere Agentur wichtig ist, werden auch **alle Daten vom Auftraggeber bzw. Kunden im Anschluss an den Auftrag gelöscht**.
               -
                 type: set
                 attrs:
@@ -1346,7 +1476,67 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Die Voraussetzung für den höchsten akademischen Grad bzw. für den Doktor ist ein guter Hochschulabschluss mit Promotionsrecht. Genauere Zulassungskriterien erfahren Sie an Ihrer jeweiligen Fakultät. Der Begriff Doktorarbeit kann auch als Dissertation verwendet werden. Die Doktorarbeit ist eine wissenschaftliche Arbeit, die an Hochschulen mit Promotionsrecht das Erlangen der Doktorwürde oder des Doktorgrades ermöglicht.'
+                    text: 'Die Voraussetzung für den höchsten akademischen Grad bzw. für den Doktor ist ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'sehr guter Hochschulabschluss mit Promotionsrecht'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Genauere Zulassungskriterien erfahren Sie an Ihrer jeweiligen Fakultät. Der Begriff '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '"Doktorarbeit"'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' kann auch als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '"Dissertation"'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' verwendet werden. Die Doktorarbeit ist eine wissenschaftliche Arbeit, die an Hochschulen mit Promotionsrecht das Erlangen der Doktorwürde oder des Doktorgrades ermöglicht.'
               -
                 type: paragraph
                 content:
@@ -1358,7 +1548,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Der Vorgang wird auch Promotion genannt. Die Promotionsprogramme sind unterschiedlich aufgebaut, meist müssen die Promivierenden bestimmte Seminare belegen und Lehrveranstaltungen besuchen. Um Ihre Promotionsverfahren zu betreuen, benötigen Sie einen befugten Dozenten bzw. einen Doktorvater.'
+                    text: 'Der Vorgang wird auch Promotion genannt. Die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Promotionsprogramme
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' sind unterschiedlich aufgebaut, meist müssen die Promivierenden bestimmte Seminare belegen und Lehrveranstaltungen besuchen. Um Ihre Promotionsverfahren zu betreuen, benötigen Sie einen befugten '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Dozenten bzw. einen Doktorvater'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: .
               -
                 type: paragraph
                 content:
@@ -1370,7 +1600,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Jedoch sind Sie noch nicht mit Ihrem Promotionsprogramm fertig, nach dem Sie Ihre Doktorarbeit erfolgreich abgeben haben. Um die Verleihung des akademischen Doktorgrades zu erreichen, müssten Sie noch Rigorosum und Disputation bestehen. Rigorosum ist eine '
+                    text: 'Jedoch sind Sie noch nicht mit Ihrem Promotionsprogramm fertig, nachdem Sie Ihre Doktorarbeit erfolgreich abgeben haben. Um die Verleihung des akademischen Doktorgrades zu erreichen, müssten Sie noch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Rigorosum und Disputation bestehen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Rigorosum ist eine '
                   -
                     type: text
                     marks:
@@ -1394,7 +1644,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: " und Disputation ist eine wissenschaftliche Diskussion, in dem von Ihnen eine Verteidigung über Ihre Arbeit erlangt wird.\_"
+                    text: " und Disputation ist eine wissenschaftliche Diskussion, in der von Ihnen eine Verteidigung über Ihre Arbeit erlangt wird.\_"
               -
                 type: paragraph
                 content:
@@ -1406,7 +1656,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'So gibt es keine Hochschulen oder Universitäten, die zum Erlangen des Doktortitels von den Doktoranden nicht eine Doktorarbeit schreiben lassen. Promovenden sollen darauf geprüft werden, ob sie in der Lage sind, eine wissenschaftliche Arbeit mit neuen Erkenntnissen eigenständig anzufertigen.'
+                    text: 'So gibt es keine Hochschulen oder Universitäten, die zum Erlangen des Doktortitels von den Doktoranden nicht eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Doktorarbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Promovenden sollen darauf geprüft werden, ob sie in der Lage sind, eine wissenschaftliche Arbeit mit neuen Erkenntnissen eigenständig anzufertigen.'
               -
                 type: paragraph
             show_as_card: true
@@ -1441,7 +1711,7 @@ replicator:
                       - 06fbb3f4-51c2-4f11-832e-9b72a495857d
                       - f07c0010-40dd-407e-bf32-a1a260b5016b
                     ex_type: 'Hausarbeiten, Seminararbeiten'
-                    ex_pages: '-'
+                    ex_pages: '10 - 20'
                     ex_zitation: 'Harvard Style, APA Style, Deutsche Zitierweise'
                     ex_button_link: 'entry::b2decf22-7419-401e-9a2d-3713194ce4d0'
                     ex_button_text: 'WEITERE BEISPIELARBEITEN JETZT RUNTERLADEN'
@@ -1480,7 +1750,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Während eine Hausarbeit, Bachelorarbeit, Masterarbeit oder Diplomarbeit meist nur bereits vorhandenes Wissen zusammenfasst, wird bei der Dissertation eine Erweiterung des Wissens gefordert. Um die Doktorwürde zu erlangen, muss man demnach in der Forschung tätig gewesen sein und neue Erkenntnisse vorweisen können.'
+                    text: 'Während eine Hausarbeit, Bachelorarbeit, Masterarbeit oder Diplomarbeit meist nur bereits vorhandenes Wissen zusammenfasst, wird bei der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Dissertation eine Erweiterung des Wissens'
+                  -
+                    type: text
+                    text: ' gefordert. Um die Doktorwürde zu erlangen, muss man demnach in der Forschung tätig gewesen sein und neue Erkenntnisse vorweisen können.'
               -
                 type: paragraph
                 content:
@@ -1492,7 +1771,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Dieser Prozess dauert oft mehrere Jahre und wird von einem Doktorvater betreut, der zu bestimmten Maßen ein Coaching bei der Dissertation leistet. Die Bearbeitung der Doktorarbeit kann auf verschiedene Weisen erfolgen, welche abhängig vom Fachbereich variieren.'
+                    text: 'Dieser Prozess dauert oft mehrere Jahre und wird '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'von einem Doktorvater betreut'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', der zu bestimmten Maßen ein Coaching bei der Dissertation leistet. Die Bearbeitung der Doktorarbeit kann auf verschiedene Weisen erfolgen, welche abhängig vom Fachbereich variieren.'
               -
                 type: paragraph
                 content:
@@ -1504,7 +1803,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Der Doktorand kann sich theoretisch mit einem Sachverhalt beschäftigen oder empirisch/ experimentell ermittelte Daten auswerten, interpretieren, sowie analysieren. Die Untersuchungen geschehen oftmals durch Umfragen im Bereich der BWL und VWL und durch Experimente in de'
+                    text: 'Der Doktorand kann sich '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'theoretisch mit einem Sachverhalt beschäftigen oder empirisch/experimentell ermittelte Daten auswerten, interpretieren, sowie analysieren'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Die Untersuchungen geschehen oftmals durch Umfragen im Bereich der BWL und VWL und durch Experimente in de'
                   -
                     type: text
                     text: 'r Forschung, Biologie, Medizin, '
@@ -1543,7 +1862,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'ber generell zwischen 150 und 500 Seiten.'
+                    text: 'ber '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'generell zwischen 150 und 500 Seiten'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: .
               -
                 type: paragraph
                 content:
@@ -1555,7 +1894,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Zwar gibt es seitens Doktorväter und Hochschulen einige unterschiedliche Promotionsordnungen, jedoch veröffentlichen Hochschulen oft eine Vorlage einer Dissertation als Beispiel um ihren Studierenden zu helfen. Unterstützend dazu, kann sich ein Doktorand von einem Ghostwriter eine Mustervorlage für seine Doktorarbeit schreiben lassen und diese Ghostwriting-Doktorarbeit als Orientierungshilfe nutzen. Außerdem haben unsere akademischen Autoren zu jeder wissenschaftlichen Fragestellung eine Lösung.'
+                    text: 'Zwar gibt es seitens Doktorvätern und Hochschulen einige unterschiedliche Promotionsordnungen, jedoch veröffentlichen Hochschulen oft eine Vorlage einer Dissertation als Beispiel um ihren Studierenden zu helfen. Unterstützend dazu, kann sich ein Doktorand von einem Ghostwriter eine Mustervorlage für seine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Doktorarbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und diese Ghostwriting-Doktorarbeit als Orientierungshilfe nutzen. Außerdem haben unsere akademischen Autoren zu jeder wissenschaftlichen Fragestellung eine Lösung.'
             show_as_card: false
         type: row
         enabled: true
@@ -1575,6 +1934,12 @@ replicator:
         grid:
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -1600,7 +1965,67 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Einige Voraussetzungen von diversen Promotionsausschüssen zur Erstellung von Dissertationen haben sich als gängig erwiesen. Wenn Sie Ihre selbst verfasste Arbeit an unsere Experten zur Korrektur geben, überprüfen diese selbstverständlich auch die Einhaltung dieser Formalia. Falls Sie von uns eine Mustervorlage erstellen lassen, übernehmen wir selbstverständlich auch Ihre individuellen Anforderungen. Teilen Sie uns diese einfach in Ihrer '
+                    text: 'Einige Voraussetzungen von diversen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Promotionsausschüssen
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' zur Erstellung von Dissertationen haben sich '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'als gängig erwiesen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Wenn Sie Ihre selbst verfasste Arbeit an unsere Experten zur Korrektur geben, überprüfen diese selbstverständlich auch die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Einhaltung dieser Formalia'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Falls Sie von uns eine Mustervorlage erstellen lassen, übernehmen wir selbstverständlich auch Ihre individuellen Anforderungen. Teilen Sie uns diese einfach in Ihrer '
                   -
                     type: text
                     marks:
@@ -2028,10 +2453,74 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+            show_as_card: false
+        type: row
+        enabled: true
     remove_spacing: true
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: blockquote
+                content:
+                  -
+                    type: heading
+                    attrs:
+                      level: 3
+                    content:
+                      -
+                        type: text
+                        text: Disclaimer
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
@@ -2044,8 +2533,6 @@ replicator:
           values:
             type: spacer
             padding-y: '30'
-      -
-        type: paragraph
       -
         type: heading
         attrs:
@@ -2234,7 +2721,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641926920
+updated_at: 1641933186
 template: default
 use_meta_keywords: false
 no_index_page: false
