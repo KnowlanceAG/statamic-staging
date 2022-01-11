@@ -72,7 +72,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Masterarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Masterarbeit/b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Masterarbeit als Mustervorlage für Ihre Masterarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
+                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Masterarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Masterarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Masterarbeit als Mustervorlage für Ihre Masterarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
                       </p>
               -
                 type: set
@@ -330,12 +330,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -403,8 +397,6 @@ replicator:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo.-Fr. 9:00-18:00'
-              -
-                type: paragraph
             show_as_card: true
           -
             bard:
@@ -462,35 +454,31 @@ replicator:
           -
             bard:
               -
-                type: paragraph
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Professionelle Unterstützung durch akademische Experten'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'In unserer akademischen Agentur arbeiten Ghostwriter mit wissenschaftlichen methodischen Ansätzen. Sowohl in der Theorie als auch in der Praxis haben sie viele Jahre Erfahrung. Sie wissen wie z.B. '
+                    text: 'In unserer akademischen Agentur arbeiten '
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                        type: bold
+                    text: 'Ghostwriter mit umfassender Erfahrung in der Anwendung wissenschaftlicher methodischer Ansätze'
+                  -
+                    type: text
+                    text: '. Sowohl in der Theorie als auch in der Praxis verfügen diese über viele Jahre Erfahrung und wissen bspw. exakt, wie '
+                  -
+                    type: text
+                    marks:
                       -
                         type: link
                         attrs:
@@ -500,49 +488,16 @@ replicator:
                     text: Experten-Befragungen
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' oder '
+                    text: ' oder Studienumfragen erstellt werden. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn. Denn bei unseren Ghostwritern handelt es sich häufig um '
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /gwriters-akademie/fragebogen-vorlage
-                          target: null
-                          rel: null
-                    text: Studienumfragen
+                        type: bold
+                    text: 'Doktoren und Professoren'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' erstellt werden. In jedem Gebiet, wo bei Ihnen selbst keine ausreichenden Kenntnisse vorliegen, können unsere Doktoren und Experten Sie unterstützen. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn.'
+                    text: ', die Sie in jedem Aspekt des wissenschaftlichen Arbeitens unterstützen können.'
             show_as_card: false
         type: row
         enabled: true
@@ -562,14 +517,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -616,8 +563,6 @@ replicator:
                   -
                     type: text
                     text: ' und das Korrektorat der Masterarbeit, die bereits durch den Studenten fertiggestellt wurde, in Anspruch genommen werden.'
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -627,8 +572,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '30'
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
@@ -675,7 +618,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Ablauf: Zusammenarbeit mit Ghostwriter'
+                    text: 'Ablauf: Zusammenarbeit mit akademischen Ghostwritern'
               -
                 type: set
                 attrs:
@@ -712,7 +655,7 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
                     ausrichtung: bild-text
-                    text: 'Nach der Erstellung der Mustervorlage zu Ihrer Masterarbeit, wird die Arbeit von einem unabhängigen [Lektor](/lektorat) aus Ihrem Fachbereich, [korrektur](/korrektorat) gelesen. Hier werden Verbesserungen an Inhalt und Formulierungen vorgenommen. Anschließend kann der Text auf [Plagiate](/plagiatsprüfung) geprüft werden, um mögliche Risiken zu umgehen, die aufgrund von Schwierigkeiten oder Flüchtigkeitsfehlern im Umgang mit Literatur entstehen könnten. Diese Teilleistungen sind im Preis inklusive. '
+                    text: 'Nach der Erstellung der Mustervorlage zu Ihrer Masterarbeit, wird die Arbeit von einem unabhängigen [Lektor](/lektorat) aus Ihrem Fachbereich, korrektur gelesen. Hier werden Verbesserungen an Inhalt und Formulierungen vorgenommen. Anschließend kann der Text auf Plagiate geprüft werden, um mögliche Risiken zu umgehen, die aufgrund von Schwierigkeiten oder Flüchtigkeitsfehlern im Umgang mit Literatur entstehen könnten. Diese Teilleistungen sind im Preis inklusive. '
               -
                 type: set
                 attrs:
@@ -728,25 +671,34 @@ replicator:
 
               -
                 type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie bei Ihrer Masterarbeit Hilfe oder wissenschaftliche Texterstellung benötigen, wenden Sie sich gerne an uns. Über '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unser Kontaktformular'
+                  -
+                    type: text
+                    text: ' erhalten Sie jederzeit eine kostenlose Beratung. Möchten Sie ein Coaching oder eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Mustervorlage für Ihre Masterarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '? Unsere Kundenberater beraten Sie dazu gerne! '
               -
                 type: set
                 attrs:
@@ -755,14 +707,19 @@ replicator:
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
                     color: '#FF6606'
+                    button_align: justify-center
                     spacing_top: false
               -
-                type: paragraph
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
             show_as_card: false
         type: row
         enabled: true
     remove_spacing: true
-    is-full: true
+    is-full: false
     bg-toggle: false
     bg-image-fixed: false
     border: false
@@ -853,8 +810,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '30'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -892,8 +847,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: gray-700
-                          hex: '#999'
+                          color: black
+                          hex: '#000'
                     text: 'Zum Master'
               -
                 type: paragraph
@@ -904,8 +859,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: gray-700
-                          hex: '#999'
+                          color: black
+                          hex: '#000'
                     text: 'Der Masterabschluss folgt dem Bachelorgrad und ist somit der zweite akademische Grad, welcher bei einem Studium innerhalb der EU und in den meisten englischsprachigen Ländern erreicht werden kann. Der erste akademische Grad ist der Bachelor, bei dem Universitäten und Hochschulen von ihren Studenten eine Bachelorarbeit schreiben lassen. '
               -
                 type: paragraph
@@ -916,8 +871,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: gray-700
-                          hex: '#999'
+                          color: black
+                          hex: '#000'
                     text: 'Die Prüfung zum Masterabschluss besteht aus einem studienbegleitenden Teil, der Examens- oder Masterarbeit (auch Masterthesis) und der mündlichen Abschlussprüfung. Für das Vollenden des Masterstudiums ist vorgesehen, dass Lehrinstitute von ihren Studenten eine Masterarbeit schreiben lassen. Dadurch soll geprüft werden, ob der Student in der Lage ist, ordnungsgemäß zu einer speziellen Fragestellung zu recherchieren und sie wissenschaftlich zu erarbeiten.'
               -
                 type: paragraph
@@ -928,18 +883,9 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: gray-700
-                          hex: '#999'
-                    text: 'Die damit verbundene Thesis ist sehr zeitintensiv und umfangreich. Trotz dem deutlich höheren Anspruch der Masterthesis im Vergleich zu einer Hausarbeit oder Bachelorarbeit, erhalten Studierende von Hochschulen oft nicht ausreichend Hilfe. Nicht selten brauchen die Studierenden mehr als nur eine Textkorrektur, sondern auch Unterstützung beim Aufbau und Verfassen der Arbeit.'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
                           color: black
                           hex: '#000'
-                    text: ' '
+                    text: 'Die damit verbundene Thesis ist sehr zeitintensiv und umfangreich. Trotz dem deutlich höheren Anspruch der Masterthesis im Vergleich zu einer Hausarbeit oder Bachelorarbeit, erhalten Studierende von Hochschulen oft nicht ausreichend Hilfe. Nicht selten brauchen die Studierenden mehr als nur eine Textkorrektur, sondern auch Unterstützung beim Aufbau und Verfassen der Arbeit. '
             show_as_card: true
           -
             bard: null
@@ -956,14 +902,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -988,21 +926,13 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
-              -
                 type: heading
                 attrs:
                   level: 3
                 content:
                   -
                     type: text
-                    text: 'Abhilfe für eine Masterarbeit '
+                    text: 'Unterstützung durch eine Ghostwriter-Masterarbeit'
               -
                 type: paragraph
                 content:
@@ -1035,10 +965,9 @@ replicator:
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'UNTERSTÜTZUNG BEI IHREM MASTANFORDERN'
+                    button_text: 'UNTERSTÜTZUNG BEI IHREM MASTER ANFORDERN'
                     spacing_top: false
-              -
-                type: paragraph
+                    color: '#FF6606'
             show_as_card: false
         type: row
         enabled: true
@@ -1071,7 +1000,7 @@ replicator:
                       - 06fbb3f4-51c2-4f11-832e-9b72a495857d
                       - f07c0010-40dd-407e-bf32-a1a260b5016b
                     ex_type: 'Hausarbeiten, Seminararbeiten'
-                    ex_pages: '-'
+                    ex_pages: '10 - 20'
                     ex_zitation: 'Harvard Style, APA Style, Deutsche Zitierweise'
                     ex_button_link: 'entry::b2decf22-7419-401e-9a2d-3713194ce4d0'
                     ex_button_text: 'WEITERE BEISPIELARBEITEN JETZT RUNTERLADEN'
@@ -1099,12 +1028,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -1149,14 +1072,10 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Oft wird durch das Lehrinstitut ein Muster der Masterarbeit als Beispiel veröffentlicht, was als Orientierungshilfe genutzt werden kann. Wenn diese Unterstützung nicht vorhanden ist, schaffen sich einige Studenten Abhilfe, indem sie einen Ghostwriter ihre Masterarbeit schreiben lassen. In kleinen Arbeitsschritten erstellt unsere Schreibagentur je nach Themenstellung und Bedürfnissen eine Mustervorlage für die Masterarbeit. Die Ghostwriting-Masterarbeit wird dann als Mustervorlage genutzt.'
-              -
-                type: heading
-                attrs:
-                  level: 2
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -1173,14 +1092,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -1193,13 +1104,28 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Gliederung und Formalien einer Masterarbeit:'
+                    text: 'Gliederung und Formalien einer Masterarbeit'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Trotz unterschiedlicher Anforderungen der einzelnen Lehrinstitute, haben sich einige Formalien als gängig erwiesen:'
+                    text: 'Trotz unterschiedlicher Anforderungen der einzelnen Lehrinstitute, haben sich einige Formalien als gängig erwiesen. Diese werden von unseren akademischen Experten standardmäßig verwendet und bei Textkorrekturen überprüft. Wenn Sie individuelle Vorgaben haben, setzen wir diese selbstverständlich auch gerne um. Schicken Sie uns einfach eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'kostenlose Anfrage'
+                  -
+                    type: text
+                    text: '!'
             show_as_card: false
         type: row
         enabled: true
@@ -1598,9 +1524,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '19'
-              -
-                type: paragraph
+                    padding-y: '28'
             show_as_card: true
         type: row
         enabled: true
@@ -1614,6 +1538,12 @@ replicator:
     enabled: true
   -
     bard:
+      -
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: '30'
       -
         type: heading
         attrs:
@@ -1751,7 +1681,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641907811
+updated_at: 1641909365
 template: default
 use_meta_keywords: false
 no_index_page: false
