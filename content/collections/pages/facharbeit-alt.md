@@ -2574,7 +2574,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641933191
+updated_at: 1641933885
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2584,9 +2584,9 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-meta_title: 'GWriters • Mustervorlage für Facharbeit schreiben lassen'
+meta_title: 'Facharbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Mustervorlage für Facharbeit schreiben lassen – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-og_title: 'GWriters • Mustervorlage für Facharbeit schreiben lassen'
+og_title: 'Facharbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Mustervorlage für Facharbeit schreiben lassen – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_studienarbeiten
