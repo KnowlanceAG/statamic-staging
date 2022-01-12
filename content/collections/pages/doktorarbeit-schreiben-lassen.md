@@ -1,8 +1,7 @@
 ---
 id: 0481728e-d2e2-4b99-9a9e-8e5bca901d14
-published: false
 blueprint: pages
-title: 'Doktorarbeit (Dupliziert)'
+title: Doktorarbeit
 teaser:
   -
     type: heading
@@ -2721,7 +2720,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641933186
+updated_at: 1641982916
 template: default
 use_meta_keywords: false
 no_index_page: false
