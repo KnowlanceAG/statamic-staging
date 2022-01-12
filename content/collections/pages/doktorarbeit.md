@@ -2644,10 +2644,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://www.karriere.de/karrierebeschleuniger-doktortitel-zwei-buchstaben-punkt-/23037918.html'
+                  href: 'https://www.karriere.de/mein-geld/promotion-und-gehalt-in-welchen-jobs-sich-der-doktortitel-auszahlt/'
                   target: _blank
                   rel: 'noopener noreferrer nofollow'
-            text: 'Karrierebeschleuniger Doktortitel - karriere.de'
+            text: 'Promotion und Gehalt - karriere.de'
           -
             type: hard_break
             marks:
@@ -2720,7 +2720,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641990293
+updated_at: 1642002472
 template: default
 use_meta_keywords: false
 no_index_page: false
