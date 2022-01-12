@@ -1,8 +1,7 @@
 ---
 id: 52f5092f-800b-4742-8636-a840b9ab1ddb
-published: false
 blueprint: pages
-title: 'Masterarbeit (Dupliziert)'
+title: Masterarbeit
 teaser:
   -
     type: heading
@@ -2235,7 +2234,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641933971
+updated_at: 1641982822
 template: default
 use_meta_keywords: false
 no_index_page: false
