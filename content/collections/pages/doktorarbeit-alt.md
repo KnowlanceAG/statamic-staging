@@ -1,5 +1,6 @@
 ---
 id: 89093abd-fdd4-4830-a368-7ede1b75ca1a
+published: false
 blueprint: pages
 title: 'Doktorarbeit (alt)'
 teaser:
@@ -2120,7 +2121,7 @@ replicator:
 parent: 6300bfa7-4b29-41fb-a2d9-422ef612d3d4
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641982891
+updated_at: 1641982907
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
