@@ -1,7 +1,8 @@
 ---
 id: 62115090-7bb2-448f-bb32-a32bb5977382
+published: false
 blueprint: pages
-title: Facharbeit
+title: 'Facharbeit (alt)'
 teaser:
   -
     type: heading
@@ -1748,7 +1749,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1638883912
+updated_at: 1641983028
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
