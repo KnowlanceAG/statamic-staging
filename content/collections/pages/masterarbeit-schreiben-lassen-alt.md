@@ -1,7 +1,8 @@
 ---
 id: aa35a1ca-0812-4402-a4d5-4a6d4aa8c1c0
+published: false
 blueprint: pages
-title: Masterarbeit
+title: 'Masterarbeit (alt)'
 teaser:
   -
     type: heading
@@ -1936,7 +1937,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1632406938
+updated_at: 1641982814
 meta_title: 'Masterarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Mustervorlage für Masterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
