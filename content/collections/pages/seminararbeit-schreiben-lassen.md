@@ -1,8 +1,7 @@
 ---
 id: 2931f444-5e22-4860-8f40-a41821377b93
-published: false
 blueprint: pages
-title: 'Seminararbeit (Dupliziert)'
+title: Seminararbeit
 teaser:
   -
     type: heading
@@ -2857,7 +2856,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641933914
+updated_at: 1641982858
 template: default
 use_meta_keywords: false
 no_index_page: false
