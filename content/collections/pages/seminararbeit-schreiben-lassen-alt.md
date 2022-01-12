@@ -1,7 +1,7 @@
 ---
 id: 686e5203-e17a-4101-809a-07c9f799ccfa
 blueprint: pages
-title: Seminararbeit
+title: 'Seminararbeit (alt)'
 teaser:
   -
     type: heading
@@ -44,8 +44,8 @@ teaser:
         color: '#FF6606'
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1631087899
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1641982852
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
