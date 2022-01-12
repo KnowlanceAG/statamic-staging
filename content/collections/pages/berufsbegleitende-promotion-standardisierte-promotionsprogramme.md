@@ -1,5 +1,6 @@
 ---
 id: c0ebe1e4-7e7d-4ecb-82c5-51d53db9fe7e
+blueprint: pages
 title: 'Berufsbegleitende Promotion in standardisierten Promotionsprogrammen'
 teaser:
   -
@@ -1169,7 +1170,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.euro-fh.de/news/internationales-promotionsstudium/'
+                          href: 'https://www.euro-fh.de/'
                           target: _blank
                           rel: nofollow
                     text: 'Euro-FH in Hamburg hat ein eigenes Promotionsrecht'
@@ -1548,8 +1549,8 @@ replicator:
 page_title: 'Standardisierte Promotionsprogramme neben dem Beruf • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623341749
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1642001668
 meta_title: 'Standardisierte Promotionsprogramme neben dem Beruf • GWriters'
 meta_description: 'Finden Sie jetzt das passende standardisierte Promotionsprogramm für Ihre nebenberufliche Promotion und profitieren Sie von unserer Promotionsberatung!'
 use_meta_keywords: false
