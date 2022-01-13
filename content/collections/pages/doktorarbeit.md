@@ -60,25 +60,11 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '29'
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
                       Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Doktorarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Doktorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine Ghostwriter Doktorarbeit als Mustervorlage für Ihre Doktorarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
                       </p>
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
             show_as_card: false
         type: row
         enabled: true
@@ -2720,7 +2706,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1642002472
+updated_at: 1642079746
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2735,7 +2721,7 @@ meta_description: 'Mustervorlage für Doktorarbeit schreiben lassen & Hilfe vom 
 og_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Mustervorlage für Doktorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-arbeitsgruppe: a_studienarbeiten
+arbeitsgruppe: a_abschlussarbeiten
 schema_objects: |-
   <script type="application/ld+json">
   {
