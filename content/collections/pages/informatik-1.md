@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642619879
+updated_at: 1642621998
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -199,12 +199,22 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Informatik-Ghostwriter unterstützen Sie im Informatik-Studium'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: Informatik
               -
                 type: paragraph
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: 'Die Informatik ist die Lehre von der Informationsverarbeitung mit Hilfe von digitalen Verarbeitungseinheiten. Sie hat sich aus der Mathematik entwickelt und erfordert ein hohes Maß an logischem Denkvermögen. Zudem sind auch Elemente der Physik und Elektrotechnik essentiell in der Informatik. Besonders in der modernen und automatisierten Welt sind Informatiker gesuchte Fachkräfte. Das Studium erweist sich jedoch als sehr anspruchsvoll, da es den studentischen Alltag mit hohen Durchfallquoten prägt. Neben zahlreichen Hausarbeiten und Abgaben, ist im Bachelorstudium vorgesehen, dass Hochschulen von Studierenden der Informatik eine Bachelorarbeit schreiben lassen. '
               -
                 type: paragraph
@@ -249,6 +259,8 @@ replicator:
                         attrs:
                           align: start
                     text: "\_und akademische Freelancer zurück. Diese weisen Kompetenz und hinreichende Erfahrungen bei der Erstellung von wissenschaftlichen Arbeiten der Informatik auf."
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -355,192 +367,6 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Informatik-Ghostwriter & Freelancer'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Unser Schreibservice von erfahrenen Akademikern aus der Informatik unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Hausübung, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen vor und während der Schreibphase umfassenden individuellen Beistand bzw. eine Nachhilfe. Unsere Agentur arbeitet mit Professoren und Fachinformatiker. Jeder unserer Freelancer und Ghostwriter der Informatik besitzt tiefgründige Fachkenntnisse in seinem speziellen Teilbereich und kann umfassende Erfahrungen im Erstellen von akademischen Arbeiten vorweisen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Der akademische Ghostwriter agiert oftmals'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(0, 0, 0) !important'
-                          hex: '#000'
-                    text: " als\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(0, 0, 0) !important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat/lektor
-                          target: null
-                          rel: null
-                    text: Lektor
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
-                          hex: '#000'
-                    text: ",\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(0, 0, 0) !important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat/korrektor
-                          target: null
-                          rel: null
-                    text: Korrektor
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
-                          hex: '#000'
-                    text: "\_und Übersetzer, kann jedoch auch bei der Erstellung der Arbeit und der Textredaktion beratend zur Seite stehen. "
-                  -
-                    type: text
-                    text: 'Bei Problemen mit dem Verfassen der Hausarbeit unterstützt der wissenschaftliche Ghostwriter mit einem gezielten Coaching (Betreuung) und einer umfassenden Beratung. Auf diesem Wege wird sowohl die wissenschaftliche Kompetenz des Studenten ausgebaut, als auch die Arbeit selbst optimiert.'
-            show_as_card: true
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: true
-    bg-toggle: true
-    bg-color: '#8A8A8A'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-    bg-image: seiten/fachrichtungen/informatik-ghostwriter.jpg
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere BWL-Ghostwriter'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Jeder unserer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'ausgewählten Ghostwriter der BWL besitzt tiefgründige Fachkenntnisse'
-                  -
-                    type: text
-                    text: ' und Erfahrungen in seinem Einsatzbereich und kann umfassende Schreiberfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen. So ist es uns möglich, unseren Kunden bei den verschiedensten Ausarbeitungen/Texterstellungen umfassenden und individuellen Beistand zu leisten. Dieser variiert nach dem persönlichen Einsatz des Studenten. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Er kann entweder das\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: "\_einer Musterarbeit für die betriebswirtschaftliche Arbeit"
-                  -
-                    type: text
-                    text: ' oder verschiedene Teilbereiche von Leistungen in Auftrag geben. So ist es auch üblich, dass der Ghostwriter den Studenten bereits bei der Suche nach der passenden Literatur unterstützt, ihm bei der Texterstellung beratend zur Seite steht oder eine bereits durch den Studenten fertig geschriebene Arbeit lektoriert und korrigiert. Auch ein Coaching und Training ist möglich, um den Studenten in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
         single-col: false
         grid:
           -
@@ -610,6 +436,50 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Informatik-Ghostwriter unterstützen Sie im Informatik-Studium'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unser Schreibservice von erfahrenen Akademikern aus der Informatik unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Hausübung, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen vor und während der Schreibphase umfassenden individuellen Beistand bzw. eine Nachhilfe. Unsere Agentur arbeitet mit Professoren und Fachinformatiker. Jeder unserer Freelancer und Ghostwriter der Informatik besitzt tiefgründige Fachkenntnisse in seinem speziellen Teilbereich und kann umfassende Erfahrungen im Erstellen von akademischen Arbeiten vorweisen. '
+            show_as_card: false
+        type: row
+        enabled: true
     remove_spacing: false
     is-full: false
     bg-toggle: false
@@ -639,28 +509,73 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Warum sollte man BWL-Ghostwriter beauftragen?'
+                    text: 'Warum sollte man Informatik-Ghostwriter beauftragen?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unsere BWL-Ghostwriter sind Betriebswirtschaftlern, zertifizierten Professoren und wissenschaftliche Mitarbeiter im Fachgebiet BWL und VWL. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten und methodischen Ansätzen in unserer Ghostwriting-Agentur. Des Weiteren haben Ghostwriter umfassenden Kenntnisse im Umgang mit Forschungsarbeiten. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'BWL-Ghostwriter erstellen für verschiedene Aufgabenstellungen im Fachbereich BWL ('
+                    text: 'Der akademische Ghostwriter agiert oftmals'
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Abschlussarbeit, Businessplan, Marketingkonzept'
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: " als\_"
                   -
                     type: text
-                    text: ' etc.) Musterarbeiten. Außerdem kennen akademische Ghostwriter den aktuellen Forschungsstand zu vielen BWL-Themenstellungen und haben auf relevanten Datenbanken Zugriff, wie Fachzeitschriften, Fachartikel etc.'
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat/lektor
+                          target: null
+                          rel: null
+                    text: Lektor
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ",\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat/korrektor
+                          target: null
+                          rel: null
+                    text: Korrektor
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "\_und Übersetzer, kann jedoch auch bei der Erstellung der Arbeit und der Textredaktion beratend zur Seite stehen. "
+                  -
+                    type: text
+                    text: 'Bei Problemen mit dem Verfassen der Hausarbeit unterstützt der wissenschaftliche Ghostwriter mit einem gezielten Coaching (Betreuung) und einer umfassenden Beratung. Auf diesem Wege wird sowohl die wissenschaftliche Kompetenz des Studenten ausgebaut, als auch die Arbeit selbst optimiert.'
             show_as_card: false
           -
             bard:
@@ -677,7 +592,7 @@ replicator:
                 attrs:
                   values:
                     type: video
-                    video: 'https://youtu.be/PmgIh10dij0'
+                    video: 'https://www.youtube.com/watch?v=X6VXkzsv6dA'
               -
                 type: paragraph
             show_as_card: false
