@@ -23,7 +23,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'BWL Ghostwriter'
+        text: 'Informatik Ghostwriter'
   -
     type: paragraph
     content:
@@ -39,9 +39,9 @@ teaser:
           -
             type: textColor
             attrs:
-              color: 'rgb(68, 68, 68)'
+              color: '#000!important'
               hex: '#000'
-        text: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Hilfe durch Experten und akademische Ghostwriter der Informatik – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642588505
+updated_at: 1642590881
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -85,8 +85,8 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet BWL. Bei uns finden Sie exakt den 
-                      <b>akademischen Ghostwriter für Ihre BWL Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich BWL in sichere Hände geben und bei einem BWL-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Betriebswirtschaftlern, Doktoren und Professoren arbeitet.
+                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Informatik. Bei uns finden Sie exakt den 
+                      <b>akademischen Ghostwriter für Ihre Informatik Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Informatik in sichere Hände geben und bei einem Informatik-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Informatikern, Doktoren und Professoren arbeitet.
                       </p>
               -
                 type: paragraph
@@ -193,35 +193,46 @@ replicator:
           -
             bard:
               -
-                type: paragraph
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
                     type: text
-                    text: 'BWL ist unter den Studierenden ein äußerst beliebter Studiengang und ist aus diesem Grund an vielen Hochschulen „überlaufen“. Wer auffallen will, muss immerzu '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'qualitativ hochwertige Ausarbeitungen'
-                  -
-                    type: text
-                    text: " liefern und stets einen sehr guten Notendurchschnitt \_erzielen. Dies zu leisten ist nicht leicht. Gerade, wenn Studierenden neben dem Studium zur Finanzierung der Studiengebühren und ihres Lebensunterhalts arbeiten, kommt zu dem Leistungsdruck ein zusätzlicher Zeitdruck hinzu. "
+                    text: 'Informatik-Ghostwriter unterstützen Sie im Informatik-Studium'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Speziell im Bereich der BWL wird aus diesem Grund in diesem Zeitrahmen oftmals die Hilfe unserer\_"
+                    text: 'Die Informatik ist die Lehre von der Informationsverarbeitung mit Hilfe von digitalen Verarbeitungseinheiten. Sie hat sich aus der Mathematik entwickelt und erfordert ein hohes Maß an logischem Denkvermögen. Zudem sind auch Elemente der Physik und Elektrotechnik essentiell in der Informatik. Besonders in der modernen und automatisierten Welt sind Informatiker gesuchte Fachkräfte. Das Studium erweist sich jedoch als sehr anspruchsvoll, da es den studentischen Alltag mit hohen Durchfallquoten prägt. Neben zahlreichen Hausarbeiten und Abgaben, ist im Bachelorstudium vorgesehen, dass Hochschulen von Studierenden der Informatik eine Bachelorarbeit schreiben lassen. '
+              -
+                type: paragraph
+                content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
+                        type: textAlign
+                        attrs:
+                          align: start
                       -
                         type: textColor
                         attrs:
-                          color: blue
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Aufgrund der zahlreichen Abgaben und anspruchsvollen Anforderungen im Studium greifen einige Studenten der Informatik auf\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -232,20 +243,12 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: "\_benötigt. Unsere Auftraggeber haben in dieser Studienlaufbahn besonders Schwierigkeiten bei der "
-                  -
-                    type: text
                     marks:
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /bachelorarbeit-thema
-                          target: null
-                          rel: null
-                    text: Themenfindung
-                  -
-                    type: text
-                    text: ', Formulierung von Wirtschaftstexten/Fachtexten, Literaturrecherche, Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederung sein.'
+                          align: start
+                    text: "\_und akademische Freelancer zurück. Diese weisen Kompetenz und hinreichende Erfahrungen bei der Erstellung von wissenschaftlichen Arbeiten der Informatik auf."
             show_as_card: false
         type: row
         enabled: true
@@ -266,93 +269,107 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-              -
-                type: blockquote
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: center
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                        text: "Wenn Sie bei Ihrer akademischen Arbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit) im Fachgebiet BWL Schwierigkeiten haben und Unterstützung benötigen, dann können Sie uns an unsere Agentur sofort eine\_"
+                        type: textAlign
+                        attrs:
+                          align: start
                       -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: center
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                          -
-                            type: link
-                            attrs:
-                              href: /anfrage
-                              target: null
-                              rel: null
-                        text: 'unverbindliche Anfrage schicken'
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: center
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                        text: '. '
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Informatik-Ghostwriter & Freelancer'
+              -
+                type: paragraph
+                content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    text: 'Unser Schreibservice von erfahrenen Akademikern aus der Informatik unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Hausübung, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen vor und während der Schreibphase umfassenden individuellen Beistand bzw. eine Nachhilfe. Unsere Agentur arbeitet mit Professoren und Fachinformatiker. Jeder unserer Freelancer und Ghostwriter der Informatik besitzt tiefgründige Fachkenntnisse in seinem speziellen Teilbereich und kann umfassende Erfahrungen im Erstellen von akademischen Arbeiten vorweisen. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Der akademische Ghostwriter agiert oftmals'
+                  -
+                    type: text
+                    marks:
                       -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: center
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                        text: 'Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arbeitsarten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-            show_as_card: false
+                        type: textColor
+                        attrs:
+                          color: 'rgb(0, 0, 0) !important'
+                          hex: '#000'
+                    text: " als\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(0, 0, 0) !important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat/lektor
+                          target: null
+                          rel: null
+                    text: Lektor
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
+                          hex: '#000'
+                    text: ",\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(0, 0, 0) !important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat/korrektor
+                          target: null
+                          rel: null
+                    text: Korrektor
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
+                          hex: '#000'
+                    text: "\_und Übersetzer, kann jedoch auch bei der Erstellung der Arbeit und der Textredaktion beratend zur Seite stehen. "
+                  -
+                    type: text
+                    text: 'Bei Problemen mit dem Verfassen der Hausarbeit unterstützt der wissenschaftliche Ghostwriter mit einem gezielten Coaching (Betreuung) und einer umfassenden Beratung. Auf diesem Wege wird sowohl die wissenschaftliche Kompetenz des Studenten ausgebaut, als auch die Arbeit selbst optimiert.'
+            show_as_card: true
         type: row
         enabled: true
     remove_spacing: false
     is-full: true
-    bg-toggle: false
+    bg-toggle: true
     bg-color: '#8A8A8A'
     bg-image-fixed: false
     border: false
     type: add_section
     enabled: true
+    bg-image: seiten/fachrichtungen/informatik-ghostwriter.jpg
   -
     columns-replicator:
       -
