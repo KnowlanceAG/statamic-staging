@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642626315
+updated_at: 1642675436
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -710,8 +710,8 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
+        columns_per_row: '1'
+        single-col: true
         grid:
           -
             bard:
@@ -722,119 +722,190 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Aufbau eines BWL-Studiums'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Kenntnisse der Betriebswirtschaft kann man durch eine Lehre im kaufmännischen Bereich, ein berufsbegleitendes Studium, '
-                  -
-                    type: text
                     marks:
                       -
                         type: bold
-                    text: 'ein duales Studium oder durch ein Vollzeitstudium'
-                  -
-                    type: text
-                    text: ' an einer Universität oder Fachhochschule erlangen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'BWL kann deutschlandweit studiert werden, dabei unterscheiden sich die Angebote der Fachhochschulen und Universitäten insbesondere in ihrer inhaltlichen Ausrichtung bei späteren Vertiefungen im Studium. Auch private Hochschulen bieten im BWL-Kontext in den letzten Jahren verstärkt ihre Dienstleistungen an. Hierbei handelt es sich meist um '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'berufsbegleitende Fachbereiche'
-                  -
-                    type: text
-                    text: ', die sich auf ein bestimmtes Themenfeld (z.B. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/marketing
-                          target: null
-                          rel: null
-                    text: Marketing
-                  -
-                    type: text
-                    text: ') konzentrieren.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Der BWL-Studienabschluss besteht beim Bachelorstudiengang aus 6 Semestern und kann mit dem Masterstudiengang, bestehend aus 4 Semestern, fortgesetzt werden. Als Examensarbeit zählten ehemals die Magisterarbeit und die Diplomarbeit, nach der Bologna-Reform jedoch die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Bachelorarbeit (Bachelor Thesis)'
-                  -
-                    type: text
-                    text: ' und die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Masterarbeit (Master Thesis)'
-                  -
-                    type: text
-                    text: '. Optional kann darauf aufbauend die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /promotionsberatung
-                          target: null
-                          rel: null
-                    text: Promotion
-                  -
-                    type: text
-                    text: ' erfolgen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Dabei können nur Lehrinstitute, die über ein Promotionsrecht verfügen, von ihren Studenten der BWL eine Dissertation schreiben lassen und ihnen einen Doktortitel verleihen. Besonders bei diesem akademischen Grad ist in der BWL Ghostwriting verbreitet. Ein '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'BWL-Ghostwriter hilft Doktoranden'
-                  -
-                    type: text
-                    text: ' durch das Erstellen einer Mustervorlage, die als Orientierungshilfe genutzt wird.'
-            show_as_card: false
-          -
-            bard:
+                    text: 'Studieninhalte des Informatikstudiums'
               -
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '63'
+                    type: bild_und_text
+                    bild:
+                      - seiten/fachrichtungen/grundstudium-informatik-1642673507.png
+                    text: 'Im **Grundstudium** werden komplexe und schwierige Themenfelder und Fragestellungen betrachtet. Das Programmieren von Informationen in objektorientierte Programmiersprache (Programmcode) wird eher am Ende des Studiums behandelt. Die Studieninhalte in Informatik können in verschiedene Spezialisierungsrichtungen unterschieden werden. Zu den schwerpunktorientierten Grundlagenfächer gehören Mathematik, Algorithmen, Datenbankprogrammierung und Softwareentwicklung.'
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Die Einführung eines Studienganges für Informatik startete in der DDR und in der Bundesrepublik etwa zeitgleich. Die TU Dresden war im Osten Vorreiter, im Westen bot die Universität Karlsruhe als erstes einen Diplomstudiengang für Informatik an. Dabei haben die Universitäten von ihren Studierenden der Informatik eine Diplomarbeit schreiben lassen. Mittlerweile hat sich die Informatik in viele fachunter- und fachübergreifende Teilgebiete aufgeteilt, so gibt es neben vielen anderen Spezialdisziplinen die Ingenieurinformatik, die\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/wirtschaftsinformatik'
+                          target: null
+                          rel: null
+                    text: Wirtschaftsinformatik
+                  -
+                    type: text
+                    text: "\_und die Chemoinformatik."
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Eine wissenschaftliche Arbeit über zwei verschiedenen Fachbereichen zu schreiben ist sehr anspruchsvoll, daher benötigen viele Studenten externe Hilfe. Besonders Schwierigkeiten haben Studierenden bei der Themenfindung, Literaturrecherche (Fachliteratur), Gliederung und Formulierung einer wissenschaftlichen Arbeit. Denn eine gleichzeitige intensive Beschäftigung mit anderen Fächern ist nicht einfach. Externe Hilfe finden viele Studenten bei seriösen Ghostwriting Agenturen. Sowohl für Haus- als auch für Bachelor- und Masterarbeiten können Sie von einem Ghostwriter mit hervorragendem Fachwissen eine Musterarbeit für Ihre Arbeit schreiben lassen. Anhand dieser Mustervorlage können Sie anschließend mit Leichtigkeit Ihre eigene Informatikarbeit erstellen.'
               -
                 type: set
                 attrs:
                   values:
-                    type: bilder
-                    assets:
-                      - seiten/fachrichtungen/Ghostwriter_BWL_Studium_Aufbau-1.png
-                    has_border: false
+                    type: accordion-wrapper
+                    items:
+                      -
+                        headline: 'Enge Verbindungen zu anderen Fachrichtungen:'
+                        accordion_content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /fachrichtungen/bwl
+                                              target: null
+                                              rel: null
+                                        text: BWL
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /fachrichtungen/chemie
+                                              target: null
+                                              rel: null
+                                        text: Chemie
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /fachrichtungen/mathematik
+                                              target: null
+                                              rel: null
+                                        text: Mathematik
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /fachrichtungen/medizin
+                                              target: null
+                                              rel: null
+                                        text: Medizin
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textAlign
+                                            attrs:
+                                              align: start
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /fachrichtungen/wirtschaftsinformatik
+                                              target: null
+                                              rel: null
+                                        text: Wirtschaftsinformatik
+                        active: true
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -873,93 +944,6 @@ replicator:
                     text: 'Inhalte des BWL-Studiums'
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In dem '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'betriebswirtschaftlichen Studium'
-                  -
-                    type: text
-                    text: ' lernen Studenten u.a. Projekte zu managen, betriebliche Abläufe zu analysieren und sie zu steuern. Dabei sind '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Praxiseinheiten
-                  -
-                    type: text
-                    text: ' (Praktika) und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Projektarbeiten
-                  -
-                    type: text
-                    text: ' wesentliche Elemente des Studiums, die das erlernte Fachwissen vertiefen und erweitern sollen. Ebenfalls wird der Fremdsprachenkompetenz der Studenten eine hohe Bedeutung zugeschrieben.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Neben der englischen Sprache werden oftmals die spanische, russische, französische oder chinesische Sprache unterrichtet. Die Basis des Fachwissens bilden Grundlagenfächer/Pflichtbereiche wie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: "Finanzierung, Rechnungswesen, Personalwesen, Produktion und\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Marketing
-                  -
-                    type: text
-                    text: '. Diese Grundlagenfächer werden in höheren Semestern durch Schwerpunkte, die der Student wählt, weiter vertieft.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Detail gehören zu den wesentlichen Elementen eines betriebswirtschaftlichen Studiums die Themen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Planung (Businessplan, Marketingkonzept), Organisation und Analyse'
-                  -
-                    type: text
-                    text: ' sowie Elemente aus der Soziologie, der Arbeits- und Organisationspsychologie, dem Personalwesen sowie der Rechts- und Politikwissenschaft. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Studium gliedert sich die BWL und damit auch die Wissensvermittlung im Regelfall in die „Allgemeine Betriebswirtschaftslehre“ (ABWL) und die „Spezielle Betriebswirtschaftslehre“ (SBWL). Während bei der ABWL die genannten Themen Planung, Organisation und Rechnungswesen im Vordergrund stehen, konzentriert sich die SBWL auf Fragestellungen, die in bestimmten Branchen relevanten werden. Hier können dann die Themenbereiche '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Marketing, Personal, Controlling und Finanzen oder auch Produktion'
-                  -
-                    type: text
-                    text: ' erwähnt werden.'
               -
                 type: set
                 attrs:
