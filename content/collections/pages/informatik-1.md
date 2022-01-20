@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642681757
+updated_at: 1642684161
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1097,47 +1097,31 @@ replicator:
                         type: bold
                     text: 'Aufbau des Informatikstudiums'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Obwohl die Informatik durchweg logisch aufgebaut ist, zählt das Studium doch zu einem der anspruchsvollsten Studiengängen in der deutschen Hochschullandschaft. Der große Mangel an Arbeitskräften im informationsverarbeitenden Bereich spricht dort für sich. Regulär werden die Abschlussbezeichnungen Bachelor of Science und Master of Science vergeben. Die Zeit für ein Studienabschluss liegt zwischen 6 und 8 Semester für einen Bachelorabschluss (meist 6) und weitere 2 bis 4 Semester (meist 4) für den anschließenden Abschluss im Bereich Master.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein konsekutiver Masterstudiengang hat somit insgesamt mit dem zuvor abgeschlossenem Bachelor eine Studienzeit von 10 Semestern, was 300 ECTS-Punkten entspricht. Im fünften Semester steht ein Praxissemester an. In dieser Phase werden praktische Kenntnisse gesichert und Kontakte zu potenziellen späteren Arbeitgebern aufgebaut. Die praktischen Erfahrungen werden mit einer Projektarbeit abgerundet.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Rahmen des fortgeschrittenen Studienprozesses im Bachelor- und Masterstudium sind die Hochschulen angehalten, dass sie von ihren Informatikstudenten pro Semester mindestens 5-6 Klausuren und eine Hausarbeit schreiben lassen. Abgeschlossen wird das Studium durch das Schreiben einer Examensarbeit. Um den Bachelor zu erreichen wird dabei das Schreiben einer Bachelorarbeit vorgesehen, beim Masterstudiengang ist es die Masterarbeit. Nach dem Master kann eine Promotion gemacht werden, um einen Doktortitel durch eine Doktorarbeit zu erlangen. Daher werden häufig akademische Ghostwriter aufgesucht, die bei der wissenschaftlichen Arbeit helfen oder sogar eine gesamte Musterarbeit erstellen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Nicht nur für eine Hausarbeit, Facharbeit, Seminararbeit oder andere Abgaben während des Studiums bieten sich akademische Freelancer an. Sie können dem Studenten der Informatik auch bei einer Examensausarbeitung, wie der Bachelorarbeit, der Masterarbeit oder sogar der Dissertation unterstützend zur Seite stehen, indem hochqualitative Mustervorlagen verfasst werden. Besonders beliebt sind in der Informatik Ghostwriter, die einem Unternehmen bei ihrer internen IT-Struktur helfen oder ihnen Konzepte visualisieren. In solchen Fällen ist\_"
-                  -
-                    type: text
-                    marks:
+                type: set
+                attrs:
+                  values:
+                    type: accordion-wrapper
+                    items:
                       -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
+                        headline: Studienform
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Obwohl die Informatik durchweg logisch aufgebaut ist, zählt das Studium doch zu einem der anspruchsvollsten Studiengängen in der deutschen Hochschullandschaft. Der große Mangel an Arbeitskräften im informationsverarbeitenden Bereich spricht dort für sich. Regulär werden die Abschlussbezeichnungen Bachelor of Science und Master of Science vergeben. Die Zeit für ein Studienabschluss liegt zwischen 6 und 8 Semester für einen Bachelorabschluss (meist 6) und weitere 2 bis 4 Semester (meist 4) für den anschließenden Abschluss im Bereich Master.'
+                        active: true
                       -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/ghostwriting'
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    text: "\_unproblematisch."
+                        headline: 'Studiendauer: Informatik'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Ein konsekutiver Masterstudiengang hat somit insgesamt mit dem zuvor abgeschlossenem Bachelor eine Studienzeit von 10 Semestern, was 300 ECTS-Punkten entspricht. Im fünften Semester steht ein Praxissemester an. In dieser Phase werden praktische Kenntnisse gesichert und Kontakte zu potenziellen späteren Arbeitgebern aufgebaut. Die praktischen Erfahrungen werden mit einer Projektarbeit abgerundet.'
+                        active: true
               -
                 type: paragraph
               -
@@ -1146,51 +1130,72 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: bilder
-                    assets:
-                      - seiten/fachrichtungen/BWL-Ghostwriter.png
-                    has_border: false
+                    type: floating-img
+                    dateien:
+                      - seiten/fachrichtungen/informatik-studiengang.png
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
+                    padding-y: '16'
               -
                 type: paragraph
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Jedoch bereiten gerade die Grundlagenfächer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Mathe, Statistik und Recht'
-                  -
-                    type: text
-                    text: ' sehr vielen Studenten erhebliche Probleme. Sie entscheiden sich nicht selten dazu, Ghostwriter und andere akademische Freelancer zu engagieren um sich optimal auf Prüfungen vorbereiten zu können.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Ghostwriting-Arbeiten dürfen nicht als Prüfungsleistungen verwendet werden'
-                  -
-                    type: text
-                    text: '. Ghostwriter sind jedoch in anderen Fällen, wie beispielsweise bei der Erstellung einer Marktanalyse/eines Businessplans für ein Unternehmen oder das Schreiben eines Buches für eine Privatperson, zulässig.'
               -
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '15'
+                    type: accordion-wrapper
+                    items:
+                      -
+                        headline: Prüfungsleistungen
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Im Rahmen des fortgeschrittenen Studienprozesses im Bachelor- und Masterstudium sind die Hochschulen angehalten, dass sie von ihren Informatikstudenten pro Semester mindestens 5-6 Klausuren und eine Hausarbeit schreiben lassen. Abgeschlossen wird das Studium durch das Schreiben einer Examensarbeit. Um den Bachelor zu erreichen wird dabei das Schreiben einer Bachelorarbeit vorgesehen, beim Masterstudiengang ist es die Masterarbeit. Nach dem Master kann eine Promotion gemacht werden, um einen Doktortitel durch eine Doktorarbeit zu erlangen. Daher werden häufig akademische Ghostwriter aufgesucht, die bei der wissenschaftlichen Arbeit helfen oder sogar eine gesamte Musterarbeit erstellen.'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "Nicht nur für eine Hausarbeit, Facharbeit, Seminararbeit oder andere Abgaben während des Studiums bieten sich akademische Freelancer an. Sie können dem Studenten der Informatik auch bei einer Examensausarbeitung, wie der Bachelorarbeit, der Masterarbeit oder sogar der Dissertation unterstützend zur Seite stehen, indem hochqualitative Mustervorlagen verfasst werden. Besonders beliebt sind in der Informatik Ghostwriter, die einem Unternehmen bei ihrer internen IT-Struktur helfen oder ihnen Konzepte visualisieren. In solchen Fällen ist\_"
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: 'https://gwriters.de/ghostwriting'
+                                      target: null
+                                      rel: null
+                                text: Ghostwriting
+                              -
+                                type: text
+                                text: "\_unproblematisch."
+                        active: true
+              -
+                type: paragraph
+              -
+                type: paragraph
+              -
+                type: paragraph
+              -
+                type: paragraph
+              -
+                type: paragraph
+              -
+                type: paragraph
               -
                 type: paragraph
             show_as_card: false
@@ -1198,6 +1203,78 @@ replicator:
         enabled: true
     remove_spacing: true
     is-full: true
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/beispielarbeiten-1.JPG
+                    ex_title: 'Weiterentwicklung der Baseler Eigenmittelübereinkunft'
+                    ex_fachbereich:
+                      - 21ef3416-f1fd-43eb-8e38-ec597763c45f
+                    ex_type: Hausarbeit
+                    ex_pages: '10'
+                    ex_zitation: 'Harvard Style'
+                    ex_button_text: Weiterlesen
+                    ex_button_align: justify-start
+                    ex_spacing_top: false
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Allgemeines zur Informatik'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Informatik ist eine recht junge Naturwissenschaft und baut auf dem binären Zahlensystem auf. Mit der Theorie des Binärsystems beschäftigte sich bereits Gottfried Wilhelm Leibniz. Das Binärsystem bildet mit den Booleschen Algebra den Grundstock der Informatik.'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
     bg-toggle: false
     bg-image-fixed: false
     border: false
