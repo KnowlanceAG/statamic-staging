@@ -58,7 +58,7 @@ page_title: 'GWriters • Informatik - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642691192
+updated_at: 1642703904
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -106,70 +106,34 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single-col: false
         grid:
           -
             bard:
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Unsere Leistungen im Fachbereich BWL'
+                  values:
+                    type: spacer
+                    padding-y: '100'
               -
                 type: set
                 attrs:
                   values:
-                    type: leistungen_uebersicht_4-spaltig
-                    grid:
-                      -
-                        image:
-                          - leistung/icon-ghostwriting.svg
-                        headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre BWL Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-                        link:
-                          - 0328a685-5f37-4f91-bd4b-79c53adaea8d
-                      -
-                        image:
-                          - leistung/icon-lektorat.svg
-                        headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (BWL) Korrektheit prüfen.'
-                        link:
-                          - 659e7e81-6d07-4eea-9ef2-325e72618036
-                      -
-                        image:
-                          - logo-startseite/icon-plagiat.svg
-                        headline: PLAGIATSPRÜFUNG
-                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich BWL.'
-                        link:
-                          - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
-                      -
-                        image:
-                          - logo-startseite/icon-uebersetzung.svg
-                        headline: ÜBERSETZUNG
-                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (BWL) Übersetzungen von akademischen Texten, Arbeiten, usw.'
-                        link:
-                          - 7cad538c-ad74-4617-825e-bbac46ebf310
+                    type: spacer
+                    padding-y: '100'
               -
                 type: set
                 attrs:
                   values:
-                    type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH BWL'
-                    color: '#FF6606'
-                    spacing_top: false
+                    type: spacer
+                    padding-y: '100'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '54'
               -
                 type: paragraph
             show_as_card: false
@@ -177,8 +141,8 @@ replicator:
         enabled: true
     remove_spacing: false
     is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
+    bg-toggle: true
+    bg-image: seiten/fachrichtungen/jura-studieren.jpg
     bg-image-fixed: false
     border: false
     type: add_section
@@ -223,6 +187,130 @@ replicator:
                     text: 'Als „Begründer“ der Rechtswissenschaft gilt der Römer Ulpian, der die Rechtswissenschaft als Kenntnis der menschlichen und göttlichen Entwicklung sowie als Wissenschaft vom Gerechten und Ungerechten interpretierte. Rechtswissenschaften können so als hermeneutische Disziplin (Textwissenschaft) verstanden werden und gehören zu den Geisteswissenschaften.'
               -
                 type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Unsere Leistungen im Fachbereich Jura'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: leistungen_uebersicht_4-spaltig
+                    grid:
+                      -
+                        image:
+                          - leistung/icon-ghostwriting.svg
+                        headline: GHOSTWRITING
+                        hover_content: 'Lassen Sie Ihre Jura Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        link:
+                          - 0328a685-5f37-4f91-bd4b-79c53adaea8d
+                      -
+                        image:
+                          - leistung/icon-lektorat.svg
+                        headline: LEKTORAT
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (Jura) Korrektheit prüfen.'
+                        link:
+                          - 659e7e81-6d07-4eea-9ef2-325e72618036
+                      -
+                        image:
+                          - logo-startseite/icon-plagiat.svg
+                        headline: PLAGIATSPRÜFUNG
+                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich Jura.'
+                        link:
+                          - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
+                      -
+                        image:
+                          - logo-startseite/icon-uebersetzung.svg
+                        headline: ÜBERSETZUNG
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (Jura) Übersetzungen von akademischen Texten, Arbeiten, usw.'
+                        link:
+                          - 7cad538c-ad74-4617-825e-bbac46ebf310
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH BWL'
+                    color: '#FF6606'
+                    spacing_top: false
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: true
+    bg-toggle: false
+    bg-color: '#F9F9F9'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Unsere Jura Ghostwriter'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unser Team von erfahrenen Akademikern aus dem Fach Jura unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen sowie bei der Entstehung der Arbeiten. Unsere Akademiker sind Professoren im Rechtsbereich. Für jede rechtliche Problemstellung findet unsere professionelle Ghostwriting-Dienstleistung Ihnen den passenden Ghostwriter aus dem jeweiligen Rechtsgebiet, um Ihren Fall zu bearbeiten und zu lösen. Sie kennen alle Gesetzbücher: Das Sozialgesetzbuch (SGB), das Handelsgesetzbuch (HGB), das Bürgerliche Gesetzbuch (BGB) und das Strafgesetzbuch (StGB).'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Erstellung handelt: wir bieten Ihnen umfassenden individuellen Beistand.'
             show_as_card: false
         type: row
         enabled: true
@@ -320,49 +408,6 @@ replicator:
     is-full: true
     bg-toggle: true
     bg-image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Informatik-Ghostwriter unterstützen Sie im Informatik-Studium'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Unser Schreibservice von erfahrenen Akademikern aus der Informatik unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Hausübung, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen vor und während der Schreibphase umfassenden individuellen Beistand bzw. eine Nachhilfe. Unsere Agentur arbeitet mit Professoren und Fachinformatiker. Jeder unserer Freelancer und Ghostwriter der Informatik besitzt tiefgründige Fachkenntnisse in seinem speziellen Teilbereich und kann umfassende Erfahrungen im Erstellen von akademischen Arbeiten vorweisen. '
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
