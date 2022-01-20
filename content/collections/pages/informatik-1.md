@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642687344
+updated_at: 1642689589
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1602,6 +1602,152 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ziele der Informatik'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Ziele der Informatik ergeben sich aus ihrem allgemeinen und spezifischen Kontext.'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: 'Dem allgemeinen Kontext unterliegen die Verarbeitung der Informationen und das schnelle und automatische Ausführungen von Berechnungen, was sich aus der Herkunft der Informatik aus Mathematikwissenschaften und Ingenieurwissenschaften ergibt.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Daneben sind spezifische Ziele unter anderem'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '• die Konstruktion neuer Berechnungsmöglichkeiten,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• die Programmierung neuer Software,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• die Erstellung von Datensicherungen,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• die Schaffung eines Sicherheitsnetzes beispielsweise für Unternehmen oder'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• die Konzeption von Steuerungsmodulen in Betriebsanlagen.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 2
+              -
+                type: paragraph
+            show_as_card: true
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Berufsbilder im Informatiksektor'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Aufgrund der Breite der Themen und der verschiedenen Teildisziplinen ergeben sich zahlreiche Berufsaussichten für Informatiker. So arbeiten Informatiker oder Informatikerinnen beispielsweise in Unternehmen der IT-Branche, an Universitäten, Unternehmen und Einrichtungen, die sich mit Informations- und Kommunikationstechnik befassen, in der Projektleitung in allen Bereichen der Industrie, der Dienstleistungen, des Handels, der öffentlichen Verwaltung, der Unternehmensberatung und der Versicherungen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ihre Tätigkeitsschwerpunkte umfassen hier u.a. die Programmierung und Entwicklung spezifischer Hard- und Softwareprogrammen sowie die Implementierung von unternehmens- und branchenspezifischen Informations-, Steuerungs- und Kommunikationssystemen. Hinzu kommen die zahlreichen Forschungsfelder, die Informatiker an Universitäten und anderen Forschungseinrichtungen Berufsoptionen bietet. Hinzu kommt die Möglichkeit Informatik als Lehramt an Sekundarschulen, Gymnasien, Förderschulen und berufsbildenden Schulen auszuüben.'
+            show_as_card: true
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: true
+    bg-image: seiten/fachrichtungen/informatik-ghostwriter.jpg
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: blockquote
+                content:
+                  -
+                    type: heading
+                    attrs:
+                      level: 2
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: Disclaimer
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
         columns_per_row: 1
         single-col: false
         grid:
@@ -1619,15 +1765,15 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Einige unserer Blogartikel zum Thema Hausarbeit'
+                    text: 'Einige unserer Blogartikel zum Studiengang Informatik'
               -
                 type: set
                 attrs:
                   values:
                     type: blog_entries
                     entries:
-                      - be1aacde-86af-4b82-9a8b-10b05c6743b5
-                      - d61b6932-74b9-4ece-9da6-a54a1265c9a3
+                      - 7311f5d2-ac4e-4e73-9d84-bc59a9883a9f
+                      - 58bfd707-58fe-484f-8a8a-7e9e77546118
                       - 0408641d-3a59-44ce-a059-1b75afd3ecc4
               -
                 type: set
@@ -1646,10 +1792,12 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Nützliche Weblinks & Referenzen'
+                    text: 'Nützliche Weblinks'
               -
                 type: paragraph
                 content:
@@ -1663,15 +1811,15 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: '#000!important'
+                          color: blue
                           hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: 'https://ranking.zeit.de/che/de/'
+                          href: 'https://www.informatik.kit.edu/'
                           target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'CHE Hochschulranking 2020 – Zeit Online'
+                          rel: null
+                    text: 'Fakultät für Informatik – Karlsruher Institut für Technologie'
                   -
                     type: hard_break
                     marks:
@@ -1689,15 +1837,15 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: '#000!important'
+                          color: blue
                           hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: 'https://de.wikipedia.org/wiki/Betriebswirtschaftslehre'
+                          href: 'https://ranking.zeit.de/che/de/fachinfo/1'
                           target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Grundinformationen zur BWL – Wikipedia'
+                          rel: null
+                    text: 'Informatik studieren – Zeit Online'
                   -
                     type: hard_break
                     marks:
@@ -1715,15 +1863,15 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: '#000!important'
+                          color: blue
                           hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: 'https://www.handelsblatt.com/'
+                          href: 'https://de.wikipedia.org/wiki/Informatikstudium'
                           target: _blank
-                          rel: nofollow
-                    text: 'Wirtschaftsnachrichten – Handelsblatt'
+                          rel: null
+                    text: 'Informatikstudium – Wikipedia'
                   -
                     type: hard_break
                     marks:
@@ -1741,15 +1889,104 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: '#000!important'
+                          color: blue
                           hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: 'https://ranking.zeit.de/che/de/fachinfo/24'
+                          href: 'https://de.wikibooks.org/wiki/Regal:EDV'
                           target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'BWL studieren – Zeit Online'
+                          rel: null
+                    text: 'Regal EDV – Wikibooks'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Fachgesellschaften aus der Informatik'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gi.de/'
+                          target: _blank
+                          rel: null
+                    text: 'Gesellschaft für Informatik'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.acm.org/'
+                          target: _blank
+                          rel: null
+                    text: 'Association for Computing Machinery'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.ieee.org/'
+                          target: _blank
+                          rel: null
+                    text: 'Institute for Electrical and Electronics Engineers'
               -
                 type: paragraph
                 content:
@@ -1763,9 +2000,14 @@ replicator:
                         attrs:
                           align: center
                       -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: /wiki
+                          href: 'https://gwriters.de/wiki'
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
@@ -1774,7 +2016,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: '43'
               -
                 type: paragraph
             show_as_card: false
