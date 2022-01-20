@@ -58,7 +58,7 @@ page_title: 'GWriters • Informatik - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642704117
+updated_at: 1642705321
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -416,6 +416,72 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Was lernt man im Jura Studium?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In einem rechtswissenschaftlichen Studium lernen Studenten Sachverhalte in logische Einheiten aufzuteilen und sie mithilfe von passenden Gesetzen zu interpretieren. Logisches Denken und die Fähigkeit, Gegebenheiten in kürzester Zeit zu analysieren gehören zu den Grundkompetenzen eines Jura-Studenten. Ergänzt wird dies mit der Vermittlung einer strukturierten Vorgehensweise, um hier auch komplexe Sachverhalte erfassen und Falllösungen finden zu können. Diese Fähigkeiten zu Erlangen ist ein langwieriger und aufwendiger Prozess, dessen Anforderungen sehr hoch sind. Die Durchfallquoten in Jura sind wesentlich höher, als bei anderen Studienfächern.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Nichts desto trotz rangiert Jura aber bei einem Blick auf die beliebtesten Studiengänge seit Jahren auf Rang 3, was insbesondere auf die exzellenten Karrierechancen mit einem attraktiven Gehalt nach Abschluss des Jurastudiums zurückzuführen ist: nach 10 Berufsjahren hat sich das Einstiegsgehalt eines ehemaligen Jura Studenten im Schnitt versechsfacht. Als mögliche Berufe, die nach dem Studium in Frage kommen, kann der Richter, der Staatsanwalt, der Rechtsanwalt oder der Notar erwähnt werden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Dementsprechend lastet ein immenser Leistungsdruck auf den Studenten. Ein Jura\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://statamic-dynamic.gwriters.de/ghostwriter'
+                          target: _blank
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: "\_oder Freelancer schafft neue Freiräume für den Studenten, um sich für wichtige Rechtfachprüfungen oder ein Praktikum genügend vorzubereiten zu können. Darüber hinaus steht der Jura Ghostwriter auch als Coach zur Verfügung, um dem Studenten in seiner persönlichen Entwicklung zu begleiten. Dies mit dem Ziel, dass dieser in die Lage versetzt wird, selbständig Jura-Texte zu bearbeiten. So kann der Ghostwriter helfen, die notwendigen Kenntnisse beim Studenten zu vertiefen."
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
         columns_per_row: '2'
         single-col: false
         grid:
@@ -434,73 +500,34 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Warum sollte man Informatik-Ghostwriter beauftragen?'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Warum sollten Jurastudenten sich unterstützen lassen?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Der akademische Ghostwriter agiert oftmals'
+                    text: "Sehen Sie sich jetzt die Vorstellung unserer Jura Ghostwriter in unserem\_"
                   -
                     type: text
                     marks:
                       -
                         type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: " als\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
+                          color: blue
                           hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /lektorat/lektor
-                          target: null
+                          href: 'https://www.youtube.com/watch?v=dK1_IH8Jjak'
+                          target: _blank
                           rel: null
-                    text: Lektor
+                    text: Youtube-Video
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ",\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat/korrektor
-                          target: null
-                          rel: null
-                    text: Korrektor
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: "\_und Übersetzer, kann jedoch auch bei der Erstellung der Arbeit und der Textredaktion beratend zur Seite stehen. "
-                  -
-                    type: text
-                    text: 'Bei Problemen mit dem Verfassen der Hausarbeit unterstützt der wissenschaftliche Ghostwriter mit einem gezielten Coaching (Betreuung) und einer umfassenden Beratung. Auf diesem Wege wird sowohl die wissenschaftliche Kompetenz des Studenten ausgebaut, als auch die Arbeit selbst optimiert.'
+                    text: "\_an! Ein akademischer Ghostwriter in Jura ist meist ein Rechtsanwalt oder examinierter Jurist, hat sein Jurastudium also schon beendet, und verfügt oft schon über langjährige Berufserfahrung z.B. als Rechtsanwalt oder an einem Gericht. Somit hat er bereits genaue Kenntnisse der Abläufe einer juristischen Arbeit und kennt alle nötigen Formalien zu Genüge."
             show_as_card: false
           -
             bard:
@@ -517,7 +544,7 @@ replicator:
                 attrs:
                   values:
                     type: video
-                    video: 'https://www.youtube.com/watch?v=X6VXkzsv6dA'
+                    video: 'https://youtu.be/dK1_IH8Jjak'
               -
                 type: paragraph
             show_as_card: false
