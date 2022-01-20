@@ -20,8 +20,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#ff6606!important'
+              hex: '#000'
         text: 'Informatik Ghostwriter'
   -
     type: paragraph
@@ -57,7 +57,7 @@ page_title: 'GWriters • Informatik - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642689870
+updated_at: 1642689920
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
