@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642675436
+updated_at: 1642681757
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -700,12 +700,13 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
+    is-full: true
     bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
     enabled: true
+    bg-color: '#FFB68A'
   -
     columns-replicator:
       -
@@ -912,7 +913,157 @@ replicator:
     remove_spacing: false
     is-full: true
     bg-toggle: false
-    bg-color: '#F0F0F0'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Informatik Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage schicken'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#D6D6D6'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: phone_cta
+                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
+                    open: 'Mo.-Fr. 9:00-18:00'
+              -
+                type: paragraph
+            show_as_card: true
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '12'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Unsere Preise für Informatik, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '80,- € pro Normseite.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    button_align: justify-start
+                    spacing_top: true
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '2'
+              -
+                type: paragraph
+            show_as_card: true
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#D6D6D6'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -941,15 +1092,54 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Inhalte des BWL-Studiums'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Aufbau des Informatikstudiums'
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Obwohl die Informatik durchweg logisch aufgebaut ist, zählt das Studium doch zu einem der anspruchsvollsten Studiengängen in der deutschen Hochschullandschaft. Der große Mangel an Arbeitskräften im informationsverarbeitenden Bereich spricht dort für sich. Regulär werden die Abschlussbezeichnungen Bachelor of Science und Master of Science vergeben. Die Zeit für ein Studienabschluss liegt zwischen 6 und 8 Semester für einen Bachelorabschluss (meist 6) und weitere 2 bis 4 Semester (meist 4) für den anschließenden Abschluss im Bereich Master.'
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein konsekutiver Masterstudiengang hat somit insgesamt mit dem zuvor abgeschlossenem Bachelor eine Studienzeit von 10 Semestern, was 300 ECTS-Punkten entspricht. Im fünften Semester steht ein Praxissemester an. In dieser Phase werden praktische Kenntnisse gesichert und Kontakte zu potenziellen späteren Arbeitgebern aufgebaut. Die praktischen Erfahrungen werden mit einer Projektarbeit abgerundet.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im Rahmen des fortgeschrittenen Studienprozesses im Bachelor- und Masterstudium sind die Hochschulen angehalten, dass sie von ihren Informatikstudenten pro Semester mindestens 5-6 Klausuren und eine Hausarbeit schreiben lassen. Abgeschlossen wird das Studium durch das Schreiben einer Examensarbeit. Um den Bachelor zu erreichen wird dabei das Schreiben einer Bachelorarbeit vorgesehen, beim Masterstudiengang ist es die Masterarbeit. Nach dem Master kann eine Promotion gemacht werden, um einen Doktortitel durch eine Doktorarbeit zu erlangen. Daher werden häufig akademische Ghostwriter aufgesucht, die bei der wissenschaftlichen Arbeit helfen oder sogar eine gesamte Musterarbeit erstellen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Nicht nur für eine Hausarbeit, Facharbeit, Seminararbeit oder andere Abgaben während des Studiums bieten sich akademische Freelancer an. Sie können dem Studenten der Informatik auch bei einer Examensausarbeitung, wie der Bachelorarbeit, der Masterarbeit oder sogar der Dissertation unterstützend zur Seite stehen, indem hochqualitative Mustervorlagen verfasst werden. Besonders beliebt sind in der Informatik Ghostwriter, die einem Unternehmen bei ihrer internen IT-Struktur helfen oder ihnen Konzepte visualisieren. In solchen Fällen ist\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/ghostwriting'
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: "\_unproblematisch."
+              -
+                type: paragraph
               -
                 type: paragraph
               -
