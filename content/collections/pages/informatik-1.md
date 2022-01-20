@@ -20,8 +20,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6606!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
         text: 'Informatik Ghostwriter'
   -
     type: paragraph
@@ -38,7 +38,7 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
+              color: 'rgba(68,68,68,var(--tw-text-opacity))'
               hex: '#000'
         text: 'Hilfe durch Experten und akademische Ghostwriter der Informatik – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
@@ -57,7 +57,7 @@ page_title: 'GWriters • Informatik - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642689920
+updated_at: 1642689958
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
