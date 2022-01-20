@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642685628
+updated_at: 1642687344
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1307,7 +1307,7 @@ replicator:
                                 marks:
                                   -
                                     type: bold
-                                text: 'Disziplinen der Informatik'
+                                text: 'Disziplinen der Informatik:'
                         accordion_content:
                           -
                             type: paragraph
@@ -1317,51 +1317,239 @@ replicator:
                                 text: 'Die Informatik beherbergt in hierarchischer Ordnung eine Reihe von Disziplinen. Über allem steht dabei die Disziplin der Angewandten Informatik und Realisierung. Aus dieser gehen die Technische Informatik und die Praktische Informatik hervor. Beide wiederum bedingen die Theoretische Informatik.'
                         active: false
                       -
-                        headline: null
-                        accordion_content: null
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Subdisziplinen: '
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '• die Geoinformatik,'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '• die Medizininformatik,'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: "• die\_"
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /fachrichtungen/wirtschaftsinformatik
+                                      target: null
+                                      rel: null
+                                text: "Wirtschaftsinformatik\_"
+                              -
+                                type: text
+                                text: oder
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '• die angewandte Informatik.'
+                        active: false
+                      -
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Der Theoretischen Informatik unterliegen die Teilbereiche:'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '• Theorie formaler Sprachen'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '• Berechenbarkeitstheorie'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '• Formale Semantik'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '• Kryptologie'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '• Logik'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '• Automatentheorie'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '• Komplexitäts-Theorie'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '• Graphentheorie.'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Damit bestehen die Aufgaben der Theoretischen Informatik u.a. in der Entwicklung künstlicher Sprachen zu eindeutigen Algorithmen und der Ableitung von Grundlagen für den Ablauf und das Verhalten informationsverarbeitender Maschinen. Darüberhinaus schafft sie Beschreibungsmittel für die Semantik und Syntax der Programmiersprachen und der komplexen Schaltkreise und klassifiziert berechenbare als auch nichtberechenbare Algorithmusfunktionen.'
+                        active: false
+                      -
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Daneben befasst sich die Praktische Informatik u.a mit:'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '• Programmiersprachen'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '• Algorithmen'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '• Datenstrukturen'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '• dem Compilierbau'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die Praktische Informatik schafft damit die Grundlage für die Arbeit an künstlicher Intelligenz, Informations- und Kommunikationssystemen, grafischer Datenverarbeitung und entwickelt neben Datenstrukturen und Datenorganisationen u.a. auch kognitive Verfahren und Systeme.'
+                        active: false
+                      -
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Zur Technischen Informatik gehören:'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '• Rechnerarchitekturen,'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '• Rechnerorganisation,'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '• Mikroprozessortechniken,'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '• Schaltungstechnik'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '• Rechnerkommunikationen und'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: "• die\_"
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: blue
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /fachrichtungen/elektrotechnik
+                                      target: null
+                                      rel: null
+                                text: Elektrotechnik
+                              -
+                                type: text
+                                text: .
                         active: false
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Mittels dieser Subdisziplinen der Technischen Informatik werden neue Konzepte und Konfigurationen sowohl für Hardware als auch für Computerprogramme als Teilnehmersystem oder Verbundsystem generiert. Ergänzt durch die Produktion von Programmen, die der Steuerung elementarer Hardwarefunktionen dienen und eine Automatisierung der Hardwareeinheiten einzeln als auch als Rechenanlagen ermöglichen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Disziplinen der Informatik'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die Informatik beherbergt in hierarchischer Ordnung eine Reihe von Disziplinen. Über allem steht dabei die Disziplin der Angewandten Informatik und Realisierung. Aus dieser gehen die Technische Informatik und die Praktische Informatik hervor. Beide wiederum bedingen die Theoretische Informatik.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Dabei ergeben sich weitere wissenschaftliche Subdisziplinen wie beispielsweise'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '• die Geoinformatik,'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• die Medizininformatik,'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: "• die\_"
+                    text: "Letztlich gibt es die Angewandte Informatik, die eine Kopplung von Informatik mit anderen Wissenschaftszweigen und Wirtschaftszweigen darstellt und so die Basis zur Anwendung der Informatik in der\_"
                   -
                     type: text
                     marks:
@@ -1373,68 +1561,33 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/fachrichtungen/wirtschaftsinformatik'
+                          href: /fachrichtungen/medizin
                           target: null
                           rel: null
-                    text: "Wirtschaftsinformatik\_"
+                    text: Medizin
                   -
                     type: text
-                    text: oder
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• die angewandte Informatik.'
-              -
-                type: paragraph
-                content:
+                    text: ", der Betriebs- und Volkswirtschaft, der Technik, der Naturwissenschaften und der\_"
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Der Theoretischen Informatik unterliegen die Teilbereiche'
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/mathematik
+                          target: null
+                          rel: null
+                    text: Mathematik
+                  -
+                    type: text
+                    text: "\_bildet."
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '• Theorie formaler Sprachen,'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Berechenbarkeitstheorie,'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Formale Semantik,'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Kryptologie,'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Logik,'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Automatentheorie,'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Komplexitäts-Theorie und'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• Graphentheorie.'
             show_as_card: false
         type: row
         enabled: true
