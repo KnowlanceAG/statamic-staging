@@ -58,7 +58,7 @@ page_title: 'GWriters • Informatik - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642705321
+updated_at: 1642709166
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -105,7 +105,7 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: 1
+        columns_per_row: '2'
         single-col: false
         grid:
           -
@@ -422,6 +422,14 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -471,7 +479,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -605,6 +613,14 @@ replicator:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -614,33 +630,55 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Warum Informatik studieren?'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/fachrichtungen/digitalisierung-informatik-programmieren.png
-                    text: 'Der Umgang mit PC und Smartphones gehört schon zum Alltag und ist aus unserer heutigen digitalisierten Welt nicht mehr wegzudenken. Mittlerweile wird die Welt über die Technik gesteuert. Der Umgang wird tagtäglich einfacher durch die rasante Systementwicklung im Rahmen von Informationstechnologien. Daher empfinden viele Schülerinnen und Schüler das Informatikstudium sehr interessant.'
+                    text: 'Jura Repetitorium: Ghostwriter hilft!'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Doch diese anfängliche Euphorie ist oftmals schnell wieder vorbei, da das Informatikstudium ein sehr komplexes und schwieriges Studium ist. Trotzdem gehört dieses Studium zu den beliebtesten Studiengängen in Deutschland. Denn in der Arbeitswelt wird der Bedarf nach gut ausgebildetem Informatiker oder Informatikerinnen immer bedeutsamer. Jede Branche ist vom IT, EDV und Informatik Know-How abhängig.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - preise/euro.svg
-                    text: 'Zudem hat ein gut ausgebildeter Informatiker oder Informatikerinnen ein Jahresbruttogehalt zwischen **50.000 Euro und 120.000 Euro** zu erwarten. Ein Informatikstudium bereitet die Studierenden auf die zukunftsorientierten Berufe vor. Sowohl im Studium- als auch im Berufsleben sind Informatik Ghostwriter für Studenten und Absolventen eine große Unterstützung. Zum einen besitzen sie eine akademische Ausbildung und zum anderen haben sie praktische Erfahrungen aus dem Berufsleben. Besonders hilfreich sind sie für Studienanfänger und Berufseinsteiger.'
+                    text: "Er berät und coacht den Jurastudenten bei der Erstellung einer vollständigen juristischen Arbeit (z.B. Seminararbeit, Studienabschlussarbeit), kann jedoch auch lediglich mit dem Studenten gemeinsam ein Konzept für die Bearbeitung umsetzen, einfache oder detaillierte Lösungsskizzen erarbeiten, rechtliche (Teil-)Gutachten oder generell eine Teilleistung erbringen, als ein\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://statamic-dynamic.gwriters.de/lektorat/lektor'
+                          target: _blank
+                          rel: null
+                    text: Lektor
+                  -
+                    type: text
+                    text: "\_oder\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://statamic-dynamic.gwriters.de/korrektorat/korrektor'
+                          target: _blank
+                          rel: null
+                    text: Korrektor
+                  -
+                    type: text
+                    text: "\_der Arbeit. Weiterhin bietet unsere Schreib-Agentur Jura Repetitorien an, in dem Ghostwriter für Studenten Übungsmaterialien oder Fortgeschrittenenübungen vorbereiten. Die Informationssammlungen werden in Form von Fällen, Lösungsskizzen, Lernskripten übertragen."
               -
                 type: paragraph
-              -
-                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im Ergebnis erhalten Sie eine Musterarbeit, die als Inspiration dienen kann und sich dabei exakt an die spezifischen juristischen Formatvorgaben hält. Da die Arbeiten ähnliche Anforderungen stellen, wie dies bei einer Klausur der Fall ist, bringen unsere Ghostwriter eine hohe Expertise in der vollständigen Erfassung des Sachverhaltes und im Verständnis für die zu behandelnden juristischen (Schwerpunkt-)Probleme mit.'
               -
                 type: paragraph
               -
@@ -745,7 +783,212 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: '1'
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Weitere interessante Studiengänge im Bereich Rechtswissenschaften:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Wirtschaftsrecht
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Unternehmensrecht
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Steuerrecht
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Wirtschaftsrecht für Technologieunternehmen'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Recht & Management'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Kriminologie
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Rechtspsychologie
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Aufbau eines Jura-Studiums'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das klassische Jurastudium besteht aus mindestens 8, i.d.R. 9, Semestern an einer Universität und wird mit einer staatlichen Prüfung, dem 1. Staatsexamen, abgeschlossen. Nach der Bestehung dieses Examens folgen ein zweijähriges Referendariat und der Abschluss der juristischen Ausbildung durch das 2. Staatsexamen. Wer beide Staatsexamen absolviert hat, ist ein Volljurist und hat eine Anwaltzulassung. Den Titel eines „Volljuristen“ darf man demnach frühestens nach 7 Jahren führen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen. Besonders hier ist im Bereich der Jura\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: "\_verbreitet, weil Doktoranden sich einen großen Teil ihrer Arbeitslast abnehmen lassen können, indem sie von einem Ghostwriter eine Mustervorlage für eine Dissertation schreiben lassen, die sie als Orientierungshilfe nutzen. Einige Universitäten ermöglichen den Studenten das Diplomierungsverfahren, bei dem durch Erstellen einer\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/diplomarbeit
+                          target: null
+                          rel: null
+                    text: Diplomarbeit
+                  -
+                    type: text
+                    text: "\_der akademische Grad „Diplom-Jurist“ erreicht werden kann."
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zusätzlich zu dem eigentlichen Studium können an manchen Universitäten seit einigen Jahren als Nebenstudium in juristischen Teilbereichen Bachelor-, Master- oder Magisterabschlüsse erreicht werden. Sie werden mit der Bachelorarbeit (Bachelor Thesis), der Masterarbeit (Master Thesis), Dissertation und Magisterarbeit abgeschlossen. Ein Bachelor-Studium dauert i.d.R. 3 Jahre, qualifiziert jedoch nicht für einen Beruf als Anwalt oder Richter.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '54'
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: video
+                    video: 'https://www.youtube.com/watch?v=hBlLAoJ6m0I'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#F9F9F9'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
         single-col: true
         grid:
           -
@@ -760,47 +1003,25 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Studieninhalte des Informatikstudiums'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/fachrichtungen/grundstudium-informatik-1642673507.png
-                    text: 'Im **Grundstudium** werden komplexe und schwierige Themenfelder und Fragestellungen betrachtet. Das Programmieren von Informationen in objektorientierte Programmiersprache (Programmcode) wird eher am Ende des Studiums behandelt. Die Studieninhalte in Informatik können in verschiedene Spezialisierungsrichtungen unterschieden werden. Zu den schwerpunktorientierten Grundlagenfächer gehören Mathematik, Algorithmen, Datenbankprogrammierung und Softwareentwicklung.'
-              -
-                type: paragraph
+                    text: 'Inhalt des Jurastudiums'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Die Einführung eines Studienganges für Informatik startete in der DDR und in der Bundesrepublik etwa zeitgleich. Die TU Dresden war im Osten Vorreiter, im Westen bot die Universität Karlsruhe als erstes einen Diplomstudiengang für Informatik an. Dabei haben die Universitäten von ihren Studierenden der Informatik eine Diplomarbeit schreiben lassen. Mittlerweile hat sich die Informatik in viele fachunter- und fachübergreifende Teilgebiete aufgeteilt, so gibt es neben vielen anderen Spezialdisziplinen die Ingenieurinformatik, die\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/wirtschaftsinformatik
-                          target: null
-                          rel: null
-                    text: Wirtschaftsinformatik
-                  -
-                    type: text
-                    text: "\_und die Chemoinformatik."
+                    text: "Zu Beginn des Studiums formen im Grundstudium mit vier Semestern Grundlagenfächer, wie \_Rechtsgeschichte, Rechtsinformatik oder Rechtsphilosophie sowie Rechtssoziologie, die Basis des juristischen Wissens. Des Weiteren wird Wissen zum öffentlichen Recht, zum Zivilrecht und zum Strafrecht vermittelt."
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Eine wissenschaftliche Arbeit über zwei verschiedenen Fachbereichen zu schreiben ist sehr anspruchsvoll, daher benötigen viele Studenten externe Hilfe. Besonders Schwierigkeiten haben Studierenden bei der Themenfindung, Literaturrecherche (Fachliteratur), Gliederung und Formulierung einer wissenschaftlichen Arbeit. Denn eine gleichzeitige intensive Beschäftigung mit anderen Fächern ist nicht einfach. Externe Hilfe finden viele Studenten bei seriösen Ghostwriting Agenturen. Sowohl für Haus- als auch für Bachelor- und Masterarbeiten können Sie von einem Ghostwriter mit hervorragendem Fachwissen eine Musterarbeit für Ihre Arbeit schreiben lassen. Anhand dieser Mustervorlage können Sie anschließend mit Leichtigkeit Ihre eigene Informatikarbeit erstellen.'
+                    text: 'Diese Basis wird nach einer Zwischenprüfung im Hauptstudium mit fünf Semestern erweitert. Neben Handelsrecht, Europarecht, Arbeits- und Sozialrecht, Familienrecht, Erbrecht sowie Steuerrecht werden im Hauptstudium wichtige Schlüsselqualifikationen, wie Rhetorik und Verhandlungsführung, vermittelt. Darüber hinaus muss der Student einen Schwerpunktbereich wählen, wie z.B. Umwelt-, Medien- oder Medizinrecht. Die Wahlmöglichkeiten bei diesen Schwerpunkten können sich jedoch von Universität zu Universität unterscheiden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die nachfolgende Tabelle zeigt die zentralen Inhalte der einzelnen Rechtsgebiete im Überblick.'
               -
                 type: set
                 attrs:
@@ -808,7 +1029,7 @@ replicator:
                     type: accordion-wrapper
                     items:
                       -
-                        headline: 'Enge Verbindungen zu anderen Fachrichtungen:'
+                        headline: 'Handelsrecht §'
                         accordion_content:
                           -
                             type: bullet_list
@@ -821,23 +1042,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /fachrichtungen/bwl
-                                              target: null
-                                              rel: null
-                                        text: BWL
+                                        text: 'Teilgebiet des Zivilrechts'
                               -
                                 type: list_item
                                 content:
@@ -846,23 +1051,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /fachrichtungen/chemie
-                                              target: null
-                                              rel: null
-                                        text: Chemie
+                                        text: 'Inhalt ist das "Recht der Kaufleute"'
                               -
                                 type: list_item
                                 content:
@@ -871,23 +1060,14 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /fachrichtungen/mathematik
-                                              target: null
-                                              rel: null
-                                        text: Mathematik
+                                        text: 'Richtlinien in Deutschland im HGB und in seinen Nebengesetzen'
+                        active: false
+                      -
+                        headline: 'Europarecht 🌎'
+                        accordion_content:
+                          -
+                            type: bullet_list
+                            content:
                               -
                                 type: list_item
                                 content:
@@ -896,23 +1076,7 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /fachrichtungen/medizin
-                                              target: null
-                                              rel: null
-                                        text: Medizin
+                                        text: 'Recht der EU'
                               -
                                 type: list_item
                                 content:
@@ -921,31 +1085,453 @@ replicator:
                                     content:
                                       -
                                         type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /fachrichtungen/wirtschaftsinformatik
-                                              target: null
-                                              rel: null
-                                        text: Wirtschaftsinformatik
-                        active: true
+                                        text: 'Einteilung in Primärrecht (Vertragsrecht) und Sekundärrecht (Gemeinschaftsrecht)'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Primärrecht = völkerrechtliche Verträge'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Sekundärrecht = Richtlinien, Verordnungen'
+                        active: false
+                      -
+                        headline: null
+                        accordion_content: null
+                        active: false
               -
                 type: paragraph
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Rechtsgebiet
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: Inhalt
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: Handelsrecht
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '- Teilgebiet des Zivilrechts'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '- Inhalt ist das "Recht der Kaufleute"'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '- Richtlinien in Deutschland im HGB und in seinen Nebengesetzen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: Europarecht
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '- Recht der EU'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '- Einteilung in Primärrecht (Vertragsrecht) und Sekundärrecht (Gemeinschaftsrecht)'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '- Primärrecht = völkerrechtliche Verträge'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '- Sekundärrecht = Richtlinien, Verordnungen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Arbeits- und Sozialrecht'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '- Arbeitsrecht = Regelung der Rechtsbindungen zwischen Arbeitnehmern und Arbeitgebern, Regelung der Rechtsbeziehungen der Koalitionen'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '- Sozialrecht = Regelung des SGB, Sicherung des Sozialstaatspostulats'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: Familienrecht
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '- Teilgebiet des Zivilrechts'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '- Regelung der Rechtsverhältnisse, die durch Ehe, Familie, Verwandtschaft und Lebenspartnerschaft entstanden sind'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '- Regelung gesetzlicher Vertretungsfunktionen (z. B. Vormundschaft, Pflegeschaft, Betreuung)'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: Erbrecht
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '- Regelung der Verfügungen von Todes Weges'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: Steuerrecht
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '- Teil des Abgabenrechts'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '- alle Steuergesetze, d.h. auch Gesetze der Steuerverwaltung und der Finanzgerichtsbarkeit'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: Umweltrecht
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '- Normen, die dem Umweltschutz dienen'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '- Kernbereich sind Schutzgesetze'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: Medienrecht
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '- Regelung des Umgangs mit Veröffentlichungen'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '- Grundlage ist das GG, insbesondere das Recht der freien Meinungsäußerung'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: Medizinrecht
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: '- rechtliche Aspekte im Gesundheitswesen (Gesundheitsrecht)'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: '- Medizinrecht i.e.S. = Regelung der Rechtsbeziehungen zwischen Arzt und Patient und zwischen Ärzten untereinander'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: IT-Recht
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "-\_\_\_\_\_\_ Auch Rechtsinformatik genannt, rechtliche Betrachtungen in der Informationstechnologie"
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "-\_\_\_\_\_\_ Die Meinungsstreiten etablieren sich im Datenschutzrecht, Softwarerecht oder im IT-Strafrecht"
             show_as_card: false
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
+    is-full: false
     bg-toggle: false
     bg-image-fixed: false
     border: false
@@ -982,7 +1568,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Informatik Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
+                    text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Jura Ghostwriter suchen, dann können Sie an unsere Ghostwriting-Agentur gerne sofort eine\_"
                   -
                     type: text
                     marks:
