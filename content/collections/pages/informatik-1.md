@@ -58,7 +58,7 @@ page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642684161
+updated_at: 1642685628
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1238,9 +1238,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
-    is-full: false
+    remove_spacing: true
+    is-full: true
     bg-toggle: false
+    bg-color: '#F9F9F9'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -1250,7 +1251,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single-col: true
         grid:
           -
             bard:
@@ -1269,7 +1270,171 @@ replicator:
                     type: text
                     text: 'Die Informatik ist eine recht junge Naturwissenschaft und baut auf dem binären Zahlensystem auf. Mit der Theorie des Binärsystems beschäftigte sich bereits Gottfried Wilhelm Leibniz. Das Binärsystem bildet mit den Booleschen Algebra den Grundstock der Informatik.'
               -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/fachrichtungen/informatik.png
+                    text: 'Die Boolesche Algebra beschäftigt sich mit den logischen Beziehungen zweier Ausdrücke, beispielsweise durch die Operatoren UND, ODER und NICHT. Weitere Grundlagen legte Alan Turing 1937 mit der Erfindung seiner Turingmaschine, welche eine Definition von Berechenbarkeit liefert. Eine Funktion heißt berechenbar, gibt es eine Turingmaschine, welche sie berechnen kann. Auf dieses Modell wird bis heute Bezug genommen, geht es um die Berechenbarkeit von Funktionen. Der Begriff „Informatik“ wurde im deutschen Sprachgebrauch nach einem internationalen Kolloquium 1968 etabliert.'
+              -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Heutzutage ist die Informatik nicht mehr nur als rein technische Wissenschaft zu verstehen, sondern wird ergänzt von sozialen und individuellen Gesichtspunkten, womit sich beginnend philosophisch humanistische Züge in den Informatikgedanken drängen. Man spricht von deterministischen Prozessen, die über den technik-deterministischen Prozess hinausgehen und zu einem Evolutionsprozess in Informatikweltbild führen. Gerade in der Entwicklung auf den Gebieten „Computional Neurology“ und „Brain-Computer Interfaces“ fließen das aktuelle Menschen- und Arbeitsbild ein und erweitern den Realitätsausschnitt, der in der Informatik sonst relativ klein ist. Objektivierbarkeit und Wirklichkeit greifen mehr und mehr ineinander.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Hinzu kommt eine Informatik, die sich politischen Regeln unterwirft. Unter dem Motto „Netzpolitik ist Wirtschaftspolitik“ hat sich beispielsweise in Deutschland ein Kompetenzzentrum in Zusammenarbeit von Bundesministerien und den entsprechenden Fachgesellschaften der Informatik entstanden.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: accordion-custom-wrapper
+                    items:
+                      -
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 2
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Disziplinen der Informatik'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die Informatik beherbergt in hierarchischer Ordnung eine Reihe von Disziplinen. Über allem steht dabei die Disziplin der Angewandten Informatik und Realisierung. Aus dieser gehen die Technische Informatik und die Praktische Informatik hervor. Beide wiederum bedingen die Theoretische Informatik.'
+                        active: false
+                      -
+                        headline: null
+                        accordion_content: null
+                        active: false
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Disziplinen der Informatik'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Informatik beherbergt in hierarchischer Ordnung eine Reihe von Disziplinen. Über allem steht dabei die Disziplin der Angewandten Informatik und Realisierung. Aus dieser gehen die Technische Informatik und die Praktische Informatik hervor. Beide wiederum bedingen die Theoretische Informatik.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Dabei ergeben sich weitere wissenschaftliche Subdisziplinen wie beispielsweise'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '• die Geoinformatik,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• die Medizininformatik,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: "• die\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/fachrichtungen/wirtschaftsinformatik'
+                          target: null
+                          rel: null
+                    text: "Wirtschaftsinformatik\_"
+                  -
+                    type: text
+                    text: oder
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• die angewandte Informatik.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Der Theoretischen Informatik unterliegen die Teilbereiche'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '• Theorie formaler Sprachen,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Berechenbarkeitstheorie,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Formale Semantik,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Kryptologie,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Logik,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Automatentheorie,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Komplexitäts-Theorie und'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Graphentheorie.'
             show_as_card: false
         type: row
         enabled: true
