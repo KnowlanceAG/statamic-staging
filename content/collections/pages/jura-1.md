@@ -1,7 +1,8 @@
 ---
 id: fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
+published: false
 blueprint: pages
-title: 'Informatik (Dupliziert) (Dupliziert)'
+title: 'Jura (Dupliziert)'
 teaser:
   -
     type: heading
@@ -22,7 +23,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Informatik Ghostwriter'
+        text: 'Jura Ghostwriter'
   -
     type: paragraph
     content:
@@ -38,9 +39,9 @@ teaser:
           -
             type: textColor
             attrs:
-              color: 'rgba(68,68,68,var(--tw-text-opacity))'
+              color: '#000!important'
               hex: '#000'
-        text: 'Hilfe durch Experten und akademische Ghostwriter der Informatik – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Hilfe durch Experten und akademische Jura Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -57,7 +58,7 @@ page_title: 'GWriters • Informatik - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642689986
+updated_at: 1642691192
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -84,8 +85,8 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Informatik. Bei uns finden Sie exakt den 
-                      <b>akademischen Ghostwriter für Ihre Informatik Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Informatik in sichere Hände geben und bei einem Informatik-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Informatikern, Doktoren und Professoren arbeitet.
+                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Jura. Bei uns finden Sie exakt den 
+                      <b>akademischen Ghostwriter für Ihre Jura Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Jura in sichere Hände geben und bei einem Jura-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Juristen, Doktoren und Professoren arbeitet.
                       </p>
               -
                 type: paragraph
@@ -198,66 +199,28 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: Informatik
+                    text: 'Jura - Rechtswissenschaften'
               -
                 type: paragraph
                 content:
                   -
                     type: text
+                    text: 'Rechtswissenschaften – auch als Jurisprudenz von lateinisch '
+                  -
+                    type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Die Informatik ist die Lehre von der Informationsverarbeitung mit Hilfe von digitalen Verarbeitungseinheiten. Sie hat sich aus der Mathematik entwickelt und erfordert ein hohes Maß an logischem Denkvermögen. Zudem sind auch Elemente der Physik und Elektrotechnik essentiell in der Informatik. Besonders in der modernen und automatisierten Welt sind Informatiker gesuchte Fachkräfte. Das Studium erweist sich jedoch als sehr anspruchsvoll, da es den studentischen Alltag mit hohen Durchfallquoten prägt. Neben zahlreichen Hausarbeiten und Abgaben, ist im Bachelorstudium vorgesehen, dass Hochschulen von Studierenden der Informatik eine Bachelorarbeit schreiben lassen. '
+                        type: bold
+                    text: '„iuris prudenita“ = „Kenntnis des Rechts“ '
+                  -
+                    type: text
+                    text: 'abgeleitet und bezeichnet – haben schon eine lange Tradition und Historie; die Grundzüge finden sich bereits in der Antike, wobei erst in römischer Zeit von einer „echten“ Rechtswissenschaft gesprochen werden kennen, die Fragestellungen systematisch reflektierte. Es geht bei den Rechtswissenschaften im modernen Verständnis darum, juristische Fälle zu durchdringen und Falllösungen zu erarbeiten, die mit dem herrschenden Recht in Einklang stehen. So erfahren die Fälle sowohl eine rechtswissenschaftliche, als auch eine geisteswissenschaftliche Würdigung.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: "Aufgrund der zahlreichen Abgaben und anspruchsvollen Anforderungen im Studium greifen einige Studenten der Informatik auf\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: null
-                          rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: "\_und akademische Freelancer zurück. Diese weisen Kompetenz und hinreichende Erfahrungen bei der Erstellung von wissenschaftlichen Arbeiten der Informatik auf."
+                    text: 'Als „Begründer“ der Rechtswissenschaft gilt der Römer Ulpian, der die Rechtswissenschaft als Kenntnis der menschlichen und göttlichen Entwicklung sowie als Wissenschaft vom Gerechten und Ungerechten interpretierte. Rechtswissenschaften können so als hermeneutische Disziplin (Textwissenschaft) verstanden werden und gehören zu den Geisteswissenschaften.'
               -
                 type: paragraph
             show_as_card: false
