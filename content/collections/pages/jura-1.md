@@ -58,7 +58,7 @@ page_title: 'GWriters • Informatik - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642767821
+updated_at: 1642767977
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1061,7 +1061,33 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Zusätzlich zu dem eigentlichen Studium können an manchen Universitäten seit einigen Jahren als Nebenstudium in juristischen Teilbereichen Bachelor-, Master- oder Magisterabschlüsse erreicht werden. Sie werden mit der Bachelorarbeit (Bachelor Thesis), der Masterarbeit (Master Thesis), Dissertation und Magisterarbeit abgeschlossen. Ein Bachelor-Studium dauert i.d.R. 3 Jahre, qualifiziert jedoch nicht für einen Beruf als Anwalt oder Richter.'
+                    text: 'Zusätzlich zu dem eigentlichen Studium können an manchen Universitäten seit einigen Jahren als Nebenstudium in juristischen Teilbereichen Bachelor-, Master- oder Magisterabschlüsse erreicht werden. Sie werden mit der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Bachelorarbeit
+                  -
+                    type: text
+                    text: ' (Bachelor Thesis), der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Masterarbeit '
+                  -
+                    type: text
+                    text: '(Master Thesis), Dissertation und Magisterarbeit abgeschlossen. Ein Bachelor-Studium dauert i.d.R. 3 Jahre, qualifiziert jedoch nicht für einen Beruf als Anwalt oder Richter.'
             show_as_card: false
           -
             bard:
@@ -1716,7 +1742,33 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Das erfolgreiche Absolvieren des Jurastudiums\_setzt auch das Anfertigen von Haus- und Seminararbeiten voraus. Viele Studierende fühlen sich angesichts dieser Aufgabenstellung schnell überfordert, da das eigentliche wissenschaftliche Erarbeiten bestimmter Fragestellungen im Rahmen der jeweiligen Veranstaltungen des (Haupt-)Studiums regelmäßig nur eine untergeordnete Rolle spielt. Dabei sind beide Aufgaben – sowohl das Anfertigen einer\_Jura Hausarbeit als auch dasjenige einer Jura Seminararbeit – unter Berücksichtigung einiger Hilfestellungen für alle Studierende machbar. Und in besonders schweren Fällen können auch akademische Ghostwriter Jura Studenten professionell unterstützen."
+                    text: "Das erfolgreiche Absolvieren des Jurastudiums\_setzt auch das Anfertigen von "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Haus
+                  -
+                    type: text
+                    text: '- und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Seminararbeiten
+                  -
+                    type: text
+                    text: " voraus. Viele Studierende fühlen sich angesichts dieser Aufgabenstellung schnell überfordert, da das eigentliche wissenschaftliche Erarbeiten bestimmter Fragestellungen im Rahmen der jeweiligen Veranstaltungen des (Haupt-)Studiums regelmäßig nur eine untergeordnete Rolle spielt. Dabei sind beide Aufgaben – sowohl das Anfertigen einer\_Jura Hausarbeit als auch dasjenige einer Jura Seminararbeit – unter Berücksichtigung einiger Hilfestellungen für alle Studierende machbar. Und in besonders schweren Fällen können auch akademische Ghostwriter Jura Studenten professionell unterstützen."
               -
                 type: heading
                 attrs:
