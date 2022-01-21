@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Handout erstellen'
 size: 44940
 last_modified: 1642775291
 width: 886
