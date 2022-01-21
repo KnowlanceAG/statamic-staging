@@ -58,7 +58,7 @@ page_title: 'GWriters • Informatik - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642766410
+updated_at: 1642767821
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -184,7 +184,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Als „Begründer“ der Rechtswissenschaft gilt der Römer Ulpian, der die Rechtswissenschaft als Kenntnis der menschlichen und göttlichen Entwicklung sowie als Wissenschaft vom Gerechten und Ungerechten interpretierte. Rechtswissenschaften können so als hermeneutische Disziplin (Textwissenschaft) verstanden werden und gehören zu den Geisteswissenschaften.'
+                    text: 'Als „Begründer“ der Rechtswissenschaft gilt der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Römer Ulpian'
+                  -
+                    type: text
+                    text: ', der die Rechtswissenschaft als Kenntnis der menschlichen und göttlichen Entwicklung sowie als Wissenschaft vom Gerechten und Ungerechten interpretierte. Rechtswissenschaften können so als hermeneutische Disziplin (Textwissenschaft) verstanden werden und gehören zu den Geisteswissenschaften.'
               -
                 type: paragraph
             show_as_card: false
@@ -304,7 +313,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unser Team von erfahrenen Akademikern aus dem Fach Jura unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen sowie bei der Entstehung der Arbeiten. Unsere Akademiker sind Professoren im Rechtsbereich. Für jede rechtliche Problemstellung findet unsere professionelle Ghostwriting-Dienstleistung Ihnen den passenden Ghostwriter aus dem jeweiligen Rechtsgebiet, um Ihren Fall zu bearbeiten und zu lösen. Sie kennen alle Gesetzbücher: Das Sozialgesetzbuch (SGB), das Handelsgesetzbuch (HGB), das Bürgerliche Gesetzbuch (BGB) und das Strafgesetzbuch (StGB).'
+                    text: 'Unser Team von erfahrenen Akademikern aus dem Fach Jura unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen sowie bei der Entstehung der Arbeiten. Unsere Akademiker sind Professoren im Rechtsbereich. Für jede rechtliche Problemstellung findet unsere professionelle Ghostwriting-Dienstleistung Ihnen den passenden Ghostwriter aus dem jeweiligen Rechtsgebiet, um Ihren Fall zu bearbeiten und zu lösen. Sie kennen alle Gesetzbücher: '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Das Sozialgesetzbuch (SGB), das Handelsgesetzbuch (HGB), das Bürgerliche Gesetzbuch (BGB) und das Strafgesetzbuch (StGB)'
+                  -
+                    type: text
+                    text: .
               -
                 type: paragraph
                 content:
@@ -451,7 +469,25 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Nichts desto trotz rangiert Jura aber bei einem Blick auf die beliebtesten Studiengänge seit Jahren auf Rang 3, was insbesondere auf die exzellenten Karrierechancen mit einem attraktiven Gehalt nach Abschluss des Jurastudiums zurückzuführen ist: nach 10 Berufsjahren hat sich das Einstiegsgehalt eines ehemaligen Jura Studenten im Schnitt versechsfacht. Als mögliche Berufe, die nach dem Studium in Frage kommen, kann der Richter, der Staatsanwalt, der Rechtsanwalt oder der Notar erwähnt werden.'
+                    text: 'Nichts desto trotz rangiert Jura aber bei einem Blick auf die beliebtesten Studiengänge seit Jahren auf Rang 3, was insbesondere auf die exzellenten Karrierechancen mit einem attraktiven Gehalt nach Abschluss des Jurastudiums zurückzuführen ist: nach 10 Berufsjahren hat sich das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Einstiegsgehalt
+                  -
+                    type: text
+                    text: ' eines ehemaligen Jura Studenten im Schnitt '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: versechsfacht
+                  -
+                    type: text
+                    text: '. Als mögliche Berufe, die nach dem Studium in Frage kommen, kann der Richter, der Staatsanwalt, der Rechtsanwalt oder der Notar erwähnt werden.'
               -
                 type: paragraph
                 content:
@@ -475,7 +511,16 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: "\_oder Freelancer schafft neue Freiräume für den Studenten, um sich für wichtige Rechtfachprüfungen oder ein Praktikum genügend vorzubereiten zu können. Darüber hinaus steht der Jura Ghostwriter auch als Coach zur Verfügung, um dem Studenten in seiner persönlichen Entwicklung zu begleiten. Dies mit dem Ziel, dass dieser in die Lage versetzt wird, selbständig Jura-Texte zu bearbeiten. So kann der Ghostwriter helfen, die notwendigen Kenntnisse beim Studenten zu vertiefen."
+                    text: "\_oder Freelancer schafft neue Freiräume für den Studenten, um sich für wichtige Rechtfachprüfungen oder ein Praktikum genügend vorzubereiten zu können. Darüber hinaus steht der "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Jura Ghostwriter'
+                  -
+                    type: text
+                    text: ' auch als Coach zur Verfügung, um dem Studenten in seiner persönlichen Entwicklung zu begleiten. Dies mit dem Ziel, dass dieser in die Lage versetzt wird, selbständig Jura-Texte zu bearbeiten. So kann der Ghostwriter helfen, die notwendigen Kenntnisse beim Studenten zu vertiefen.'
             show_as_card: false
         type: row
         enabled: true
@@ -535,7 +580,25 @@ replicator:
                     text: Youtube-Video
                   -
                     type: text
-                    text: "\_an! Ein akademischer Ghostwriter in Jura ist meist ein Rechtsanwalt oder examinierter Jurist, hat sein Jurastudium also schon beendet, und verfügt oft schon über langjährige Berufserfahrung z.B. als Rechtsanwalt oder an einem Gericht. Somit hat er bereits genaue Kenntnisse der Abläufe einer juristischen Arbeit und kennt alle nötigen Formalien zu Genüge."
+                    text: "\_an! Ein akademischer Ghostwriter in Jura ist meist ein "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Rechtsanwalt oder examinierter Jurist'
+                  -
+                    type: text
+                    text: ', hat sein Jurastudium also schon beendet, und verfügt oft schon über langjährige Berufserfahrung z.B. als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Rechtsanwalt oder an einem Gericht'
+                  -
+                    type: text
+                    text: '. Somit hat er bereits genaue Kenntnisse der Abläufe einer juristischen Arbeit und kennt alle nötigen Formalien zu Genüge.'
             show_as_card: false
           -
             bard:
@@ -636,7 +699,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Er berät und coacht den Jurastudenten bei der Erstellung einer vollständigen juristischen Arbeit (z.B. Seminararbeit, Studienabschlussarbeit), kann jedoch auch lediglich mit dem Studenten gemeinsam ein Konzept für die Bearbeitung umsetzen, einfache oder detaillierte Lösungsskizzen erarbeiten, rechtliche (Teil-)Gutachten oder generell eine Teilleistung erbringen, als ein\_"
+                    text: 'Er berät und coacht den Jurastudenten bei der Erstellung einer vollständigen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'juristischen Arbeit'
+                  -
+                    type: text
+                    text: " (z.B. Seminararbeit, Studienabschlussarbeit), kann jedoch auch lediglich mit dem Studenten gemeinsam ein Konzept für die Bearbeitung umsetzen, einfache oder detaillierte Lösungsskizzen erarbeiten, rechtliche (Teil-)Gutachten oder generell eine Teilleistung erbringen, als ein\_"
                   -
                     type: text
                     marks:
@@ -648,7 +720,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://statamic-dynamic.gwriters.de/lektorat/lektor'
+                          href: /lektorat/lektor
                           target: _blank
                           rel: null
                     text: Lektor
@@ -666,13 +738,22 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://statamic-dynamic.gwriters.de/korrektorat/korrektor'
+                          href: /korrektorat/korrektor
                           target: _blank
                           rel: null
                     text: Korrektor
                   -
                     type: text
-                    text: "\_der Arbeit. Weiterhin bietet unsere Schreib-Agentur Jura Repetitorien an, in dem Ghostwriter für Studenten Übungsmaterialien oder Fortgeschrittenenübungen vorbereiten. Die Informationssammlungen werden in Form von Fällen, Lösungsskizzen, Lernskripten übertragen."
+                    text: "\_der Arbeit. Weiterhin bietet unsere Schreib-Agentur "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Jura Repetitorien'
+                  -
+                    type: text
+                    text: ' an, in dem Ghostwriter für Studenten Übungsmaterialien oder Fortgeschrittenenübungen vorbereiten. Die Informationssammlungen werden in Form von Fällen, Lösungsskizzen, Lernskripten übertragen.'
               -
                 type: paragraph
                 content:
@@ -905,7 +986,34 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Das klassische Jurastudium besteht aus mindestens 8, i.d.R. 9, Semestern an einer Universität und wird mit einer staatlichen Prüfung, dem 1. Staatsexamen, abgeschlossen. Nach der Bestehung dieses Examens folgen ein zweijähriges Referendariat und der Abschluss der juristischen Ausbildung durch das 2. Staatsexamen. Wer beide Staatsexamen absolviert hat, ist ein Volljurist und hat eine Anwaltzulassung. Den Titel eines „Volljuristen“ darf man demnach frühestens nach 7 Jahren führen.'
+                    text: 'Das klassische Jurastudium besteht aus mindestens'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' 8, i.d.R. 9, Semestern an einer Universität'
+                  -
+                    type: text
+                    text: ' und wird mit einer staatlichen Prüfung, dem'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' 1. Staatsexamen'
+                  -
+                    type: text
+                    text: ', abgeschlossen. Nach der Bestehung dieses Examens folgen ein zweijähriges Referendariat und der Abschluss der juristischen Ausbildung durch das 2. Staatsexamen. Wer beide Staatsexamen absolviert hat, ist ein Volljurist und hat eine Anwaltzulassung. Den Titel eines „Volljuristen“ darf man demnach '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'frühestens nach 7 Jahren'
+                  -
+                    type: text
+                    text: ' führen.'
               -
                 type: paragraph
                 content:
@@ -1009,7 +1117,34 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Zu Beginn des Studiums formen im Grundstudium mit vier Semestern Grundlagenfächer, wie \_Rechtsgeschichte, Rechtsinformatik oder Rechtsphilosophie sowie Rechtssoziologie, die Basis des juristischen Wissens. Des Weiteren wird Wissen zum öffentlichen Recht, zum Zivilrecht und zum Strafrecht vermittelt."
+                    text: "Zu Beginn des Studiums formen im Grundstudium mit vier Semestern Grundlagenfächer, wie \_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Rechtsgeschichte, Rechtsinformatik'
+                  -
+                    type: text
+                    text: ' oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Rechtsphilosophie
+                  -
+                    type: text
+                    text: ' sowie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Rechtssoziologie
+                  -
+                    type: text
+                    text: ', die Basis des juristischen Wissens. Des Weiteren wird Wissen zum öffentlichen Recht, zum Zivilrecht und zum Strafrecht vermittelt.'
               -
                 type: paragraph
                 content:
@@ -1848,13 +1983,13 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://statamic-dynamic.gwriters.de/blog/gutachten-schreiben'
+                          href: /blog/gutachten-schreiben
                           target: _blank
                           rel: null
                     text: 'die anzuwendende Gutachtentechnik'
                   -
                     type: text
-                    text: "\_zu beachten und zu nutzen. Achten Sie diesbezüglich darauf, dass zum einen nahe am Sachverhalt der Juraausarbeit formuliert wird, zum anderen aber auch „sauber“ der Sachverhalt unter die jeweiligen Tatbestandsvoraussetzungen subsumiert wird. Schließlich ist im Rahmen der Ausformulierung der Hausarbeit auch maßgeblich, dass die Arbeit „rund“ ist: Dies bedeutet, dass sämtliche, durch die Fallfrage aufgeworfenen Probleme gelöst werden müssen und zudem die Arbeit durch ein Ergebnis geschlossen wird."
+                    text: "\_zu beachten und zu nutzen. Achten Sie diesbezüglich darauf, dass zum einen nahe am Sachverhalt der Jurahausarbeit formuliert wird, zum anderen aber auch „sauber“ der Sachverhalt unter die jeweiligen Tatbestandsvoraussetzungen subsumiert wird. Schließlich ist im Rahmen der Ausformulierung der Hausarbeit auch maßgeblich, dass die Arbeit „rund“ ist: Dies bedeutet, dass sämtliche, durch die Fallfrage aufgeworfenen Probleme gelöst werden müssen und zudem die Arbeit durch ein Ergebnis geschlossen wird."
               -
                 type: paragraph
               -
