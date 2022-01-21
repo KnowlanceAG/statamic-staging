@@ -58,7 +58,7 @@ page_title: 'GWriters • Informatik - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642763630
+updated_at: 1642766259
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1778,146 +1778,6 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Aufbau des Informatikstudiums'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: accordion-wrapper
-                    items:
-                      -
-                        headline: Studienform
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Obwohl die Informatik durchweg logisch aufgebaut ist, zählt das Studium doch zu einem der anspruchsvollsten Studiengängen in der deutschen Hochschullandschaft. Der große Mangel an Arbeitskräften im informationsverarbeitenden Bereich spricht dort für sich. Regulär werden die Abschlussbezeichnungen Bachelor of Science und Master of Science vergeben. Die Zeit für ein Studienabschluss liegt zwischen 6 und 8 Semester für einen Bachelorabschluss (meist 6) und weitere 2 bis 4 Semester (meist 4) für den anschließenden Abschluss im Bereich Master.'
-                        active: true
-                      -
-                        headline: 'Studiendauer: Informatik'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Ein konsekutiver Masterstudiengang hat somit insgesamt mit dem zuvor abgeschlossenem Bachelor eine Studienzeit von 10 Semestern, was 300 ECTS-Punkten entspricht. Im fünften Semester steht ein Praxissemester an. In dieser Phase werden praktische Kenntnisse gesichert und Kontakte zu potenziellen späteren Arbeitgebern aufgebaut. Die praktischen Erfahrungen werden mit einer Projektarbeit abgerundet.'
-                        active: true
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating-img
-                    dateien:
-                      - seiten/fachrichtungen/informatik-studiengang.png
-                    img_size: w-full
-                    image_options:
-                      - no_upscale
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '16'
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: accordion-wrapper
-                    items:
-                      -
-                        headline: Prüfungsleistungen
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Im Rahmen des fortgeschrittenen Studienprozesses im Bachelor- und Masterstudium sind die Hochschulen angehalten, dass sie von ihren Informatikstudenten pro Semester mindestens 5-6 Klausuren und eine Hausarbeit schreiben lassen. Abgeschlossen wird das Studium durch das Schreiben einer Examensarbeit. Um den Bachelor zu erreichen wird dabei das Schreiben einer Bachelorarbeit vorgesehen, beim Masterstudiengang ist es die Masterarbeit. Nach dem Master kann eine Promotion gemacht werden, um einen Doktortitel durch eine Doktorarbeit zu erlangen. Daher werden häufig akademische Ghostwriter aufgesucht, die bei der wissenschaftlichen Arbeit helfen oder sogar eine gesamte Musterarbeit erstellen.'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "Nicht nur für eine Hausarbeit, Facharbeit, Seminararbeit oder andere Abgaben während des Studiums bieten sich akademische Freelancer an. Sie können dem Studenten der Informatik auch bei einer Examensausarbeitung, wie der Bachelorarbeit, der Masterarbeit oder sogar der Dissertation unterstützend zur Seite stehen, indem hochqualitative Mustervorlagen verfasst werden. Besonders beliebt sind in der Informatik Ghostwriter, die einem Unternehmen bei ihrer internen IT-Struktur helfen oder ihnen Konzepte visualisieren. In solchen Fällen ist\_"
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /ghostwriting
-                                      target: null
-                                      rel: null
-                                text: Ghostwriting
-                              -
-                                type: text
-                                text: "\_unproblematisch."
-                        active: true
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
         single-col: false
         grid:
           -
@@ -1967,294 +1827,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Allgemeines zur Informatik'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Ausformulierung der Jura Hausarbeit'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die Informatik ist eine recht junge Naturwissenschaft und baut auf dem binären Zahlensystem auf. Mit der Theorie des Binärsystems beschäftigte sich bereits Gottfried Wilhelm Leibniz. Das Binärsystem bildet mit den Booleschen Algebra den Grundstock der Informatik.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/fachrichtungen/informatik.png
-                    text: 'Die Boolesche Algebra beschäftigt sich mit den logischen Beziehungen zweier Ausdrücke, beispielsweise durch die Operatoren UND, ODER und NICHT. Weitere Grundlagen legte Alan Turing 1937 mit der Erfindung seiner Turingmaschine, welche eine Definition von Berechenbarkeit liefert. Eine Funktion heißt berechenbar, gibt es eine Turingmaschine, welche sie berechnen kann. Auf dieses Modell wird bis heute Bezug genommen, geht es um die Berechenbarkeit von Funktionen. Der Begriff „Informatik“ wurde im deutschen Sprachgebrauch nach einem internationalen Kolloquium 1968 etabliert.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Heutzutage ist die Informatik nicht mehr nur als rein technische Wissenschaft zu verstehen, sondern wird ergänzt von sozialen und individuellen Gesichtspunkten, womit sich beginnend philosophisch humanistische Züge in den Informatikgedanken drängen. Man spricht von deterministischen Prozessen, die über den technik-deterministischen Prozess hinausgehen und zu einem Evolutionsprozess in Informatikweltbild führen. Gerade in der Entwicklung auf den Gebieten „Computional Neurology“ und „Brain-Computer Interfaces“ fließen das aktuelle Menschen- und Arbeitsbild ein und erweitern den Realitätsausschnitt, der in der Informatik sonst relativ klein ist. Objektivierbarkeit und Wirklichkeit greifen mehr und mehr ineinander.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Hinzu kommt eine Informatik, die sich politischen Regeln unterwirft. Unter dem Motto „Netzpolitik ist Wirtschaftspolitik“ hat sich beispielsweise in Deutschland ein Kompetenzzentrum in Zusammenarbeit von Bundesministerien und den entsprechenden Fachgesellschaften der Informatik entstanden.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: accordion-custom-wrapper
-                    items:
-                      -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 2
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Disziplinen der Informatik:'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Die Informatik beherbergt in hierarchischer Ordnung eine Reihe von Disziplinen. Über allem steht dabei die Disziplin der Angewandten Informatik und Realisierung. Aus dieser gehen die Technische Informatik und die Praktische Informatik hervor. Beide wiederum bedingen die Theoretische Informatik.'
-                        active: false
-                      -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Subdisziplinen: '
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '• die Geoinformatik,'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• die Medizininformatik,'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: "• die\_"
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /fachrichtungen/wirtschaftsinformatik
-                                      target: null
-                                      rel: null
-                                text: "Wirtschaftsinformatik\_"
-                              -
-                                type: text
-                                text: oder
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• die angewandte Informatik.'
-                        active: false
-                      -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 2
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Der Theoretischen Informatik unterliegen die Teilbereiche:'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '• Theorie formaler Sprachen'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Berechenbarkeitstheorie'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Formale Semantik'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Kryptologie'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Logik'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Automatentheorie'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Komplexitäts-Theorie'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Graphentheorie.'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Damit bestehen die Aufgaben der Theoretischen Informatik u.a. in der Entwicklung künstlicher Sprachen zu eindeutigen Algorithmen und der Ableitung von Grundlagen für den Ablauf und das Verhalten informationsverarbeitender Maschinen. Darüberhinaus schafft sie Beschreibungsmittel für die Semantik und Syntax der Programmiersprachen und der komplexen Schaltkreise und klassifiziert berechenbare als auch nichtberechenbare Algorithmusfunktionen.'
-                        active: false
-                      -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 2
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Daneben befasst sich die Praktische Informatik u.a mit:'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '• Programmiersprachen'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Algorithmen'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Datenstrukturen'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• dem Compilierbau'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Die Praktische Informatik schafft damit die Grundlage für die Arbeit an künstlicher Intelligenz, Informations- und Kommunikationssystemen, grafischer Datenverarbeitung und entwickelt neben Datenstrukturen und Datenorganisationen u.a. auch kognitive Verfahren und Systeme.'
-                        active: false
-                      -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 2
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Zur Technischen Informatik gehören:'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '• Rechnerarchitekturen,'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Rechnerorganisation,'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Mikroprozessortechniken,'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Schaltungstechnik'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Rechnerkommunikationen und'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: "• die\_"
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: blue
-                                      hex: '#000'
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /fachrichtungen/elektrotechnik
-                                      target: null
-                                      rel: null
-                                text: Elektrotechnik
-                              -
-                                type: text
-                                text: .
-                        active: false
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Mittels dieser Subdisziplinen der Technischen Informatik werden neue Konzepte und Konfigurationen sowohl für Hardware als auch für Computerprogramme als Teilnehmersystem oder Verbundsystem generiert. Ergänzt durch die Produktion von Programmen, die der Steuerung elementarer Hardwarefunktionen dienen und eine Automatisierung der Hardwareeinheiten einzeln als auch als Rechenanlagen ermöglichen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Letztlich gibt es die Angewandte Informatik, die eine Kopplung von Informatik mit anderen Wissenschaftszweigen und Wirtschaftszweigen darstellt und so die Basis zur Anwendung der Informatik in der\_"
+                    text: "Schließlich ist\_"
                   -
                     type: text
                     marks:
@@ -2266,31 +1848,15 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/medizin
-                          target: null
+                          href: 'https://statamic-dynamic.gwriters.de/blog/gutachten-schreiben'
+                          target: _blank
                           rel: null
-                    text: Medizin
+                    text: 'die anzuwendende Gutachtentechnik'
                   -
                     type: text
-                    text: ", der Betriebs- und Volkswirtschaft, der Technik, der Naturwissenschaften und der\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/mathematik
-                          target: null
-                          rel: null
-                    text: Mathematik
-                  -
-                    type: text
-                    text: "\_bildet."
+                    text: "\_zu beachten und zu nutzen. Achten Sie diesbezüglich darauf, dass zum einen nahe am Sachverhalt der Juraausarbeit formuliert wird, zum anderen aber auch „sauber“ der Sachverhalt unter die jeweiligen Tatbestandsvoraussetzungen subsumiert wird. Schließlich ist im Rahmen der Ausformulierung der Hausarbeit auch maßgeblich, dass die Arbeit „rund“ ist: Dies bedeutet, dass sämtliche, durch die Fallfrage aufgeworfenen Probleme gelöst werden müssen und zudem die Arbeit durch ein Ergebnis geschlossen wird."
+              -
+                type: paragraph
               -
                 type: paragraph
             show_as_card: false
@@ -2319,58 +1885,28 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ziele der Informatik'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Seminararbeit Jura – Unterschiede und Anforderungen'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die Ziele der Informatik ergeben sich aus ihrem allgemeinen und spezifischen Kontext.'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: 'Dem allgemeinen Kontext unterliegen die Verarbeitung der Informationen und das schnelle und automatische Ausführungen von Berechnungen, was sich aus der Herkunft der Informatik aus Mathematikwissenschaften und Ingenieurwissenschaften ergibt.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Daneben sind spezifische Ziele unter anderem'
+                    text: 'Die Ausarbeitung der Seminararbeit unterscheidet sich von der Hausarbeit insofern, als hier regelmäßig nicht am Fall gearbeitet, sondern abstrakt die Darstellung und Einordnung eines abstrakten Rechtsproblems gefordert wird. Dies erleichtert in der Vorbereitung der Ausarbeitung der Seminararbeit die Arbeit insofern, als es gerade nicht erforderlich ist, den Sachverhalt korrekt zu bereinigen, erschwert die eigentliche Lösungsskizze allerdings im Hinblick auf den Transferteil der Aufgabenstellung, als insoweit die entsprechende Recherche der Rechtsprobleme zwar als Grundlage der eigenen Ausarbeitung dienen kann, eine vollständig selbständig erdachte Lösung dennoch erforderlich bleibt.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: '• die Konstruktion neuer Berechnungsmöglichkeiten,'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• die Programmierung neuer Software,'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• die Erstellung von Datensicherungen,'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• die Schaffung eines Sicherheitsnetzes beispielsweise für Unternehmen oder'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: '• die Konzeption von Steuerungsmodulen in Betriebsanlagen.'
+                    text: 'Hier kann die Einbeziehung von Autoren von GWriters hilfreich sein, insbesondere da der Mehrwert der Ausarbeitung einer Seminararbeit im Hinblick auf das Studiumsziel des Examens ausgesprochen überschaubar bleibt und insofern die Studienzeit – etwa zur Klausurenübung – oftmals lerntaktisch sinnvoller genutzt werden kann.'
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: 2
+                    padding-y: '56'
               -
                 type: paragraph
             show_as_card: true
@@ -2386,30 +1922,36 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Berufsbilder im Informatiksektor'
+                    text: 'Haus- oder Seminararbeiten in Jura erfolgreich bewältigen'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Aufgrund der Breite der Themen und der verschiedenen Teildisziplinen ergeben sich zahlreiche Berufsaussichten für Informatiker. So arbeiten Informatiker oder Informatikerinnen beispielsweise in Unternehmen der IT-Branche, an Universitäten, Unternehmen und Einrichtungen, die sich mit Informations- und Kommunikationstechnik befassen, in der Projektleitung in allen Bereichen der Industrie, der Dienstleistungen, des Handels, der öffentlichen Verwaltung, der Unternehmensberatung und der Versicherungen.'
+                    text: "Die Ausarbeitung einer Jura Hausarbeit oder auch einer\_Jura Seminararbeit setzt vor allem Zeit voraus. Das Gelingen einer solchen Ausarbeitung hängt von der Gründlichkeit der Durchführung der jeweiligen Arbeitsschritte ab. Es bedarf einer sorgfältigen Sachverhaltslektüre, umfangreicher Skizzen und einer in sich stimmigen Lösungsskizze, um eine überzeugende Ausarbeitung einer Haus- bzw. Seminararbeit zu schaffen."
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ihre Tätigkeitsschwerpunkte umfassen hier u.a. die Programmierung und Entwicklung spezifischer Hard- und Softwareprogrammen sowie die Implementierung von unternehmens- und branchenspezifischen Informations-, Steuerungs- und Kommunikationssystemen. Hinzu kommen die zahlreichen Forschungsfelder, die Informatiker an Universitäten und anderen Forschungseinrichtungen Berufsoptionen bietet. Hinzu kommt die Möglichkeit Informatik als Lehramt an Sekundarschulen, Gymnasien, Förderschulen und berufsbildenden Schulen auszuüben.'
+                    text: 'Auch und gerade deshalb gibt es viele Studenten bzw. Auftraggeber, die sich Mustervorlagen für Ihre Haus- und Seminararbeiten in Jura schreiben lassen. Professionelle Ghostwriting-Agenturen setzen hier dort an, wo es an der Unterstützung durch Lehrende, Doktoranden und Professoren mangelt. Durch Mustervorlagen nach wissenschaftlichen Standards und Experten-Coachings werden die korrekten wissenschaftlichen Arbeitstechniken demonstriert und verständlich erklärt sowie beispielsweise der Unterschied zwischen dem Gutachten- und Urteilsstil verdeutlicht.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei GWriters konnten wir durch unsere langjährige Erfahrung und mit Hilfe unserer hochqualifizierten Jura Ghostwriter, Lektoren und Coaches bereits einer Vielzahl von Studenten zum erfolgreichen Abschluss ihres Jurastudiums verhelfen.'
             show_as_card: true
         type: row
         enabled: true
     remove_spacing: true
     is-full: true
-    bg-toggle: true
-    bg-image: seiten/fachrichtungen/informatik-ghostwriter.jpg
+    bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
     enabled: true
+    bg-color: '#F9F9F9'
   -
     columns-replicator:
       -
@@ -2442,7 +1984,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -2477,9 +2019,9 @@ replicator:
                   values:
                     type: blog_entries
                     entries:
-                      - 7311f5d2-ac4e-4e73-9d84-bc59a9883a9f
-                      - 58bfd707-58fe-484f-8a8a-7e9e77546118
-                      - 0408641d-3a59-44ce-a059-1b75afd3ecc4
+                      - 70e3de9b-2de4-4dec-8edb-aaac764bb6d7
+                      - eafbdab5-b138-4080-8c67-59f5f2c1a5c1
+                      - 77170534-1ca3-42c2-97b1-d3031ddb9b48
               -
                 type: set
                 attrs:
@@ -2521,10 +2063,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.informatik.kit.edu/'
+                          href: 'https://www.gesetze-im-internet.de/bgb/'
                           target: _blank
-                          rel: null
-                    text: 'Fakultät für Informatik – Karlsruher Institut für Technologie'
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Bürgerliches Gesetzbuch – Bundesministerium der Justiz Deutschland'
                   -
                     type: hard_break
                     marks:
@@ -2547,10 +2089,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://ranking.zeit.de/che/de/fachinfo/1'
+                          href: 'https://www.zeit.de/studium/hochschule/2011-03/juranoten-reform'
                           target: _blank
-                          rel: null
-                    text: 'Informatik studieren – Zeit Online'
+                          rel: 'noopener noreferrer nofollow'
+                    text: '“Im Jurastudium werden die Noten plötzlich ganz mau” – Zeit Online'
                   -
                     type: hard_break
                     marks:
@@ -2573,10 +2115,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://de.wikipedia.org/wiki/Informatikstudium'
+                          href: 'https://www.sueddeutsche.de/karriere/endstation-staatspruefung-ungeloeste-faelle-1.559957'
                           target: _blank
-                          rel: null
-                    text: 'Informatikstudium – Wikipedia'
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Endstation Staatsprüfung – Süddeutsche.de'
                   -
                     type: hard_break
                     marks:
@@ -2599,28 +2141,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://de.wikibooks.org/wiki/Regal:EDV'
+                          href: 'https://ranking.zeit.de/che/de/fachinfo/5'
                           target: _blank
-                          rel: null
-                    text: 'Regal EDV – Wikibooks'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Fachgesellschaften aus der Informatik'
-              -
-                type: paragraph
-                content:
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Jura studieren – Zeit Online'
                   -
                     type: text
                     marks:
@@ -2633,65 +2157,7 @@ replicator:
                         attrs:
                           color: blue
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gi.de/'
-                          target: _blank
-                          rel: null
-                    text: 'Gesellschaft für Informatik'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.acm.org/'
-                          target: _blank
-                          rel: null
-                    text: 'Association for Computing Machinery'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.ieee.org/'
-                          target: _blank
-                          rel: null
-                    text: 'Institute for Electrical and Electronics Engineers'
+                    text: ' '
               -
                 type: paragraph
                 content:
@@ -2712,7 +2178,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/wiki'
+                          href: 'https://statamic-dynamic.gwriters.de/wiki'
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
