@@ -58,7 +58,7 @@ page_title: 'GWriters • Informatik - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642689986
+updated_at: 1642768706
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -138,28 +138,28 @@ replicator:
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre BWL Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        hover_content: 'Lassen Sie Ihre Informatik Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (BWL) Korrektheit prüfen.'
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (Informatik) Korrektheit prüfen.'
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
                         image:
                           - logo-startseite/icon-plagiat.svg
                         headline: PLAGIATSPRÜFUNG
-                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich BWL.'
+                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich Informatik.'
                         link:
                           - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
                       -
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
-                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (BWL) Übersetzungen von akademischen Texten, Arbeiten, usw.'
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (Informatik) Übersetzungen von akademischen Texten, Arbeiten, usw.'
                         link:
                           - 7cad538c-ad74-4617-825e-bbac46ebf310
               -
@@ -212,10 +212,20 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textAlign
                         attrs:
                           align: left
-                    text: 'Die Informatik ist die Lehre von der Informationsverarbeitung mit Hilfe von digitalen Verarbeitungseinheiten. Sie hat sich aus der Mathematik entwickelt und erfordert ein hohes Maß an logischem Denkvermögen. Zudem sind auch Elemente der Physik und Elektrotechnik essentiell in der Informatik. Besonders in der modernen und automatisierten Welt sind Informatiker gesuchte Fachkräfte. Das Studium erweist sich jedoch als sehr anspruchsvoll, da es den studentischen Alltag mit hohen Durchfallquoten prägt. Neben zahlreichen Hausarbeiten und Abgaben, ist im Bachelorstudium vorgesehen, dass Hochschulen von Studierenden der Informatik eine Bachelorarbeit schreiben lassen. '
+                    text: 'Die Informatik ist die Lehre von der Informationsverarbeitung'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: ' mit Hilfe von digitalen Verarbeitungseinheiten. Sie hat sich aus der Mathematik entwickelt und erfordert ein hohes Maß an logischem Denkvermögen. Zudem sind auch Elemente der Physik und Elektrotechnik essentiell in der Informatik. Besonders in der modernen und automatisierten Welt sind Informatiker gesuchte Fachkräfte. Das Studium erweist sich jedoch als sehr anspruchsvoll, da es den studentischen Alltag mit hohen Durchfallquoten prägt. Neben zahlreichen Hausarbeiten und Abgaben, ist im Bachelorstudium vorgesehen, dass Hochschulen von Studierenden der Informatik eine Bachelorarbeit schreiben lassen. '
               -
                 type: paragraph
                 content:
@@ -394,7 +404,43 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unser Schreibservice von erfahrenen Akademikern aus der Informatik unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Hausübung, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen vor und während der Schreibphase umfassenden individuellen Beistand bzw. eine Nachhilfe. Unsere Agentur arbeitet mit Professoren und Fachinformatiker. Jeder unserer Freelancer und Ghostwriter der Informatik besitzt tiefgründige Fachkenntnisse in seinem speziellen Teilbereich und kann umfassende Erfahrungen im Erstellen von akademischen Arbeiten vorweisen. '
+                    text: 'Unser Schreibservice von erfahrenen Akademikern aus der Informatik unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Präsentation
+                  -
+                    type: text
+                    text: ', eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Hausübung
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'eine Mustervorlage für eine Abschlussarbeit'
+                  -
+                    type: text
+                    text: ' oder jede andere Form einer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'akademischen Ausarbeitung'
+                  -
+                    type: text
+                    text: ' handelt, wir bieten Ihnen vor und während der Schreibphase umfassenden individuellen Beistand bzw. eine Nachhilfe. Unsere Agentur arbeitet mit Professoren und Fachinformatiker. Jeder unserer Freelancer und Ghostwriter der Informatik besitzt tiefgründige Fachkenntnisse in seinem speziellen Teilbereich und kann umfassende Erfahrungen im Erstellen von akademischen Arbeiten vorweisen. '
             show_as_card: false
         type: row
         enabled: true
@@ -493,7 +539,20 @@ replicator:
                     text: "\_und Übersetzer, kann jedoch auch bei der Erstellung der Arbeit und der Textredaktion beratend zur Seite stehen. "
                   -
                     type: text
-                    text: 'Bei Problemen mit dem Verfassen der Hausarbeit unterstützt der wissenschaftliche Ghostwriter mit einem gezielten Coaching (Betreuung) und einer umfassenden Beratung. Auf diesem Wege wird sowohl die wissenschaftliche Kompetenz des Studenten ausgebaut, als auch die Arbeit selbst optimiert.'
+                    text: 'Bei Problemen mit dem Verfassen der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Hausarbeit
+                  -
+                    type: text
+                    text: ' unterstützt der wissenschaftliche Ghostwriter mit einem gezielten Coaching (Betreuung) und einer umfassenden Beratung. Auf diesem Wege wird sowohl die wissenschaftliche Kompetenz des Studenten ausgebaut, als auch die Arbeit selbst optimiert.'
             show_as_card: false
           -
             bard:
@@ -594,7 +653,25 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Doch diese anfängliche Euphorie ist oftmals schnell wieder vorbei, da das Informatikstudium ein sehr komplexes und schwieriges Studium ist. Trotzdem gehört dieses Studium zu den beliebtesten Studiengängen in Deutschland. Denn in der Arbeitswelt wird der Bedarf nach gut ausgebildetem Informatiker oder Informatikerinnen immer bedeutsamer. Jede Branche ist vom IT, EDV und Informatik Know-How abhängig.'
+                    text: 'Doch diese anfängliche Euphorie ist oftmals schnell wieder vorbei, da das Informatikstudium ein sehr komplexes und schwieriges Studium ist. Trotzdem gehört dieses Studium zu den beliebtesten Studiengängen in Deutschland. Denn in der Arbeitswelt wird der Bedarf nach gut ausgebildetem Informatiker oder Informatikerinnen immer bedeutsamer. Jede Branche ist vom'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' IT, EDV'
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Informatik
+                  -
+                    type: text
+                    text: ' Know-How abhängig.'
               -
                 type: set
                 attrs:
@@ -766,7 +843,22 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Eine wissenschaftliche Arbeit über zwei verschiedenen Fachbereichen zu schreiben ist sehr anspruchsvoll, daher benötigen viele Studenten externe Hilfe. Besonders Schwierigkeiten haben Studierenden bei der Themenfindung, Literaturrecherche (Fachliteratur), Gliederung und Formulierung einer wissenschaftlichen Arbeit. Denn eine gleichzeitige intensive Beschäftigung mit anderen Fächern ist nicht einfach. Externe Hilfe finden viele Studenten bei seriösen Ghostwriting Agenturen. Sowohl für Haus- als auch für Bachelor- und Masterarbeiten können Sie von einem Ghostwriter mit hervorragendem Fachwissen eine Musterarbeit für Ihre Arbeit schreiben lassen. Anhand dieser Mustervorlage können Sie anschließend mit Leichtigkeit Ihre eigene Informatikarbeit erstellen.'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Eine wissenschaftliche Arbeit über zwei verschiedenen Fachbereichen'
+                  -
+                    type: text
+                    text: ' zu schreiben ist sehr anspruchsvoll, daher benötigen viele Studenten externe Hilfe. Besonders Schwierigkeiten haben Studierenden bei der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Themenfindung, Literaturrecherche (Fachliteratur), Gliederung und Formulierung einer wissenschaftlichen Arbeit'
+                  -
+                    type: text
+                    text: '. Denn eine gleichzeitige intensive Beschäftigung mit anderen Fächern ist nicht einfach. Externe Hilfe finden viele Studenten bei seriösen Ghostwriting Agenturen. Sowohl für Haus- als auch für Bachelor- und Masterarbeiten können Sie von einem Ghostwriter mit hervorragendem Fachwissen eine Musterarbeit für Ihre Arbeit schreiben lassen. Anhand dieser Mustervorlage können Sie anschließend mit Leichtigkeit Ihre eigene Informatikarbeit erstellen.'
               -
                 type: set
                 attrs:
@@ -1110,7 +1202,16 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Obwohl die Informatik durchweg logisch aufgebaut ist, zählt das Studium doch zu einem der anspruchsvollsten Studiengängen in der deutschen Hochschullandschaft. Der große Mangel an Arbeitskräften im informationsverarbeitenden Bereich spricht dort für sich. Regulär werden die Abschlussbezeichnungen Bachelor of Science und Master of Science vergeben. Die Zeit für ein Studienabschluss liegt zwischen 6 und 8 Semester für einen Bachelorabschluss (meist 6) und weitere 2 bis 4 Semester (meist 4) für den anschließenden Abschluss im Bereich Master.'
+                                text: 'Obwohl die Informatik durchweg logisch aufgebaut ist, zählt das Studium doch zu einem der anspruchsvollsten Studiengängen in der deutschen Hochschullandschaft. Der große Mangel an Arbeitskräften im informationsverarbeitenden Bereich spricht dort für sich. Regulär werden die Abschlussbezeichnungen Bachelor of Science und Master of Science vergeben. Die Zeit für ein Studienabschluss liegt zwischen '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: '6 und 8 Semester für einen Bachelorabschluss (meist 6) und weitere 2 bis 4 Semester (meist 4) für den anschließenden Abschluss im Bereich Master'
+                              -
+                                type: text
+                                text: .
                         active: true
                       -
                         headline: 'Studiendauer: Informatik'
@@ -1120,7 +1221,25 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Ein konsekutiver Masterstudiengang hat somit insgesamt mit dem zuvor abgeschlossenem Bachelor eine Studienzeit von 10 Semestern, was 300 ECTS-Punkten entspricht. Im fünften Semester steht ein Praxissemester an. In dieser Phase werden praktische Kenntnisse gesichert und Kontakte zu potenziellen späteren Arbeitgebern aufgebaut. Die praktischen Erfahrungen werden mit einer Projektarbeit abgerundet.'
+                                text: 'Ein konsekutiver Masterstudiengang hat somit insgesamt mit dem zuvor abgeschlossenem Bachelor eine Studienzeit von'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: ' 10 Semestern'
+                              -
+                                type: text
+                                text: ', was '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: '300 ECTS-Punkten'
+                              -
+                                type: text
+                                text: ' entspricht. Im fünften Semester steht ein Praxissemester an. In dieser Phase werden praktische Kenntnisse gesichert und Kontakte zu potenziellen späteren Arbeitgebern aufgebaut. Die praktischen Erfahrungen werden mit einer Projektarbeit abgerundet.'
                         active: true
               -
                 type: paragraph
@@ -1158,7 +1277,16 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Im Rahmen des fortgeschrittenen Studienprozesses im Bachelor- und Masterstudium sind die Hochschulen angehalten, dass sie von ihren Informatikstudenten pro Semester mindestens 5-6 Klausuren und eine Hausarbeit schreiben lassen. Abgeschlossen wird das Studium durch das Schreiben einer Examensarbeit. Um den Bachelor zu erreichen wird dabei das Schreiben einer Bachelorarbeit vorgesehen, beim Masterstudiengang ist es die Masterarbeit. Nach dem Master kann eine Promotion gemacht werden, um einen Doktortitel durch eine Doktorarbeit zu erlangen. Daher werden häufig akademische Ghostwriter aufgesucht, die bei der wissenschaftlichen Arbeit helfen oder sogar eine gesamte Musterarbeit erstellen.'
+                                text: 'Im Rahmen des fortgeschrittenen Studienprozesses im Bachelor- und Masterstudium sind die Hochschulen angehalten, dass sie von ihren Informatikstudenten pro Semester'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: ' mindestens 5-6 Klausuren und eine Hausarbeit schreiben lassen'
+                              -
+                                type: text
+                                text: '. Abgeschlossen wird das Studium durch das Schreiben einer Examensarbeit. Um den Bachelor zu erreichen wird dabei das Schreiben einer Bachelorarbeit vorgesehen, beim Masterstudiengang ist es die Masterarbeit. Nach dem Master kann eine Promotion gemacht werden, um einen Doktortitel durch eine Doktorarbeit zu erlangen. Daher werden häufig akademische Ghostwriter aufgesucht, die bei der wissenschaftlichen Arbeit helfen oder sogar eine gesamte Musterarbeit erstellen.'
                           -
                             type: paragraph
                             content:
@@ -1818,7 +1946,7 @@ replicator:
                         attrs:
                           href: 'https://www.informatik.kit.edu/'
                           target: _blank
-                          rel: null
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Fakultät für Informatik – Karlsruher Institut für Technologie'
                   -
                     type: hard_break
@@ -1844,7 +1972,7 @@ replicator:
                         attrs:
                           href: 'https://ranking.zeit.de/che/de/fachinfo/1'
                           target: _blank
-                          rel: null
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Informatik studieren – Zeit Online'
                   -
                     type: hard_break
@@ -1870,7 +1998,7 @@ replicator:
                         attrs:
                           href: 'https://de.wikipedia.org/wiki/Informatikstudium'
                           target: _blank
-                          rel: null
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Informatikstudium – Wikipedia'
                   -
                     type: hard_break
@@ -1896,7 +2024,7 @@ replicator:
                         attrs:
                           href: 'https://de.wikibooks.org/wiki/Regal:EDV'
                           target: _blank
-                          rel: null
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Regal EDV – Wikibooks'
               -
                 type: heading
@@ -1933,7 +2061,7 @@ replicator:
                         attrs:
                           href: 'https://gi.de/'
                           target: _blank
-                          rel: null
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Gesellschaft für Informatik'
                   -
                     type: hard_break
@@ -1959,7 +2087,7 @@ replicator:
                         attrs:
                           href: 'https://www.acm.org/'
                           target: _blank
-                          rel: null
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Association for Computing Machinery'
                   -
                     type: hard_break
@@ -1985,7 +2113,7 @@ replicator:
                         attrs:
                           href: 'https://www.ieee.org/'
                           target: _blank
-                          rel: null
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Institute for Electrical and Electronics Engineers'
               -
                 type: paragraph
