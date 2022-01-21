@@ -58,7 +58,7 @@ page_title: 'GWriters • Informatik - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642713458
+updated_at: 1642763630
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1029,7 +1029,7 @@ replicator:
                     type: accordion-wrapper
                     items:
                       -
-                        headline: 'Handelsrecht §'
+                        headline: 'Handelsrecht § 🧾'
                         accordion_content:
                           -
                             type: bullet_list
@@ -1106,427 +1106,295 @@ replicator:
                                         text: 'Sekundärrecht = Richtlinien, Verordnungen'
                         active: false
                       -
-                        headline: null
-                        accordion_content: null
+                        headline: 'Arbeits- und Sozialrecht ⚖'
+                        accordion_content:
+                          -
+                            type: table
+                            content:
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: null
+                                    content:
+                                      -
+                                        type: bullet_list
+                                        content:
+                                          -
+                                            type: list_item
+                                            content:
+                                              -
+                                                type: paragraph
+                                                content:
+                                                  -
+                                                    type: text
+                                                    text: 'Arbeitsrecht = Regelung der Rechtsbindungen zwischen Arbeitnehmern und Arbeitgebern, Regelung der Rechtsbeziehungen der Koalitionen'
+                                          -
+                                            type: list_item
+                                            content:
+                                              -
+                                                type: paragraph
+                                                content:
+                                                  -
+                                                    type: text
+                                                    text: 'Sozialrecht = Regelung des SGB, Sicherung des Sozialstaatspostulats'
+                        active: false
+                      -
+                        headline: 'Familienrecht 👨‍👩‍👧‍👦'
+                        accordion_content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Teilgebiet des Zivilrechts'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: ' Regelung der Rechtsverhältnisse, die durch Ehe, Familie, Verwandtschaft und Lebenspartnerschaft entstanden sind'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Regelung gesetzlicher Vertretungsfunktionen (z. B. Vormundschaft, Pflegeschaft, Betreuung)'
+                        active: false
+                      -
+                        headline: 'Erbrecht ✝'
+                        accordion_content:
+                          -
+                            type: table
+                            content:
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: null
+                                    content:
+                                      -
+                                        type: bullet_list
+                                        content:
+                                          -
+                                            type: list_item
+                                            content:
+                                              -
+                                                type: paragraph
+                                                content:
+                                                  -
+                                                    type: text
+                                                    text: 'Regelung der Verfügungen von Todes Weges'
+                        active: false
+                      -
+                        headline: 'Umweltrecht 🌳🌲🌴'
+                        accordion_content:
+                          -
+                            type: table
+                            content:
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: null
+                                    content:
+                                      -
+                                        type: bullet_list
+                                        content:
+                                          -
+                                            type: list_item
+                                            content:
+                                              -
+                                                type: paragraph
+                                                content:
+                                                  -
+                                                    type: text
+                                                    text: 'Normen, die dem Umweltschutz dienen'
+                                          -
+                                            type: list_item
+                                            content:
+                                              -
+                                                type: paragraph
+                                                content:
+                                                  -
+                                                    type: text
+                                                    text: 'Kernbereich sind Schutzgesetze'
+                        active: false
+                      -
+                        headline: 'Steuerrecht 💰'
+                        accordion_content:
+                          -
+                            type: table
+                            content:
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: null
+                                    content:
+                                      -
+                                        type: bullet_list
+                                        content:
+                                          -
+                                            type: list_item
+                                            content:
+                                              -
+                                                type: paragraph
+                                                content:
+                                                  -
+                                                    type: text
+                                                    text: 'Teil des Abgabenrechts'
+                                          -
+                                            type: list_item
+                                            content:
+                                              -
+                                                type: paragraph
+                                                content:
+                                                  -
+                                                    type: text
+                                                    text: ' alle Steuergesetze, d.h. auch Gesetze der Steuerverwaltung und der Finanzgerichtsbarkeit'
+                        active: false
+                      -
+                        headline: 'Medienrecht ⏏'
+                        accordion_content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Regelung des Umgangs mit Veröffentlichungen'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Grundlage ist das GG, insbesondere das Recht der freien Meinungsäußerung'
+                        active: false
+                      -
+                        headline: 'Medizinrecht 💊'
+                        accordion_content:
+                          -
+                            type: table
+                            content:
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: null
+                                    content:
+                                      -
+                                        type: bullet_list
+                                        content:
+                                          -
+                                            type: list_item
+                                            content:
+                                              -
+                                                type: paragraph
+                                                content:
+                                                  -
+                                                    type: text
+                                                    text: 'rechtliche Aspekte im Gesundheitswesen (Gesundheitsrecht)'
+                                          -
+                                            type: list_item
+                                            content:
+                                              -
+                                                type: paragraph
+                                                content:
+                                                  -
+                                                    type: text
+                                                    text: 'Medizinrecht i.e.S. = Regelung der Rechtsbeziehungen zwischen Arzt und Patient und zwischen Ärzten untereinander'
+                        active: false
+                      -
+                        headline: 'IT-Recht 💻'
+                        accordion_content:
+                          -
+                            type: table
+                            content:
+                              -
+                                type: table_row
+                                content:
+                                  -
+                                    type: table_cell
+                                    attrs:
+                                      colspan: 1
+                                      rowspan: 1
+                                      colwidth: null
+                                      background: null
+                                    content:
+                                      -
+                                        type: bullet_list
+                                        content:
+                                          -
+                                            type: list_item
+                                            content:
+                                              -
+                                                type: paragraph
+                                                content:
+                                                  -
+                                                    type: text
+                                                    text: 'Auch Rechtsinformatik genannt, rechtliche Betrachtungen in der Informationstechnologie'
+                                          -
+                                            type: list_item
+                                            content:
+                                              -
+                                                type: paragraph
+                                                content:
+                                                  -
+                                                    type: text
+                                                    text: 'Die Meinungsstreiten etablieren sich im Datenschutzrecht, Softwarerecht oder im IT-Strafrecht'
                         active: false
               -
                 type: paragraph
-              -
-                type: table
                 content:
                   -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Rechtsgebiet
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Inhalt
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: Handelsrecht
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '- Teilgebiet des Zivilrechts'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '- Inhalt ist das "Recht der Kaufleute"'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '- Richtlinien in Deutschland im HGB und in seinen Nebengesetzen'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: Europarecht
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '- Recht der EU'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '- Einteilung in Primärrecht (Vertragsrecht) und Sekundärrecht (Gemeinschaftsrecht)'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '- Primärrecht = völkerrechtliche Verträge'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '- Sekundärrecht = Richtlinien, Verordnungen'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Arbeits- und Sozialrecht'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '- Arbeitsrecht = Regelung der Rechtsbindungen zwischen Arbeitnehmern und Arbeitgebern, Regelung der Rechtsbeziehungen der Koalitionen'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '- Sozialrecht = Regelung des SGB, Sicherung des Sozialstaatspostulats'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: Familienrecht
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '- Teilgebiet des Zivilrechts'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '- Regelung der Rechtsverhältnisse, die durch Ehe, Familie, Verwandtschaft und Lebenspartnerschaft entstanden sind'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '- Regelung gesetzlicher Vertretungsfunktionen (z. B. Vormundschaft, Pflegeschaft, Betreuung)'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: Erbrecht
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '- Regelung der Verfügungen von Todes Weges'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: Steuerrecht
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '- Teil des Abgabenrechts'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '- alle Steuergesetze, d.h. auch Gesetze der Steuerverwaltung und der Finanzgerichtsbarkeit'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: Umweltrecht
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '- Normen, die dem Umweltschutz dienen'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '- Kernbereich sind Schutzgesetze'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: Medienrecht
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '- Regelung des Umgangs mit Veröffentlichungen'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '- Grundlage ist das GG, insbesondere das Recht der freien Meinungsäußerung'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: Medizinrecht
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '- rechtliche Aspekte im Gesundheitswesen (Gesundheitsrecht)'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '- Medizinrecht i.e.S. = Regelung der Rechtsbeziehungen zwischen Arzt und Patient und zwischen Ärzten untereinander'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: IT-Recht
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "-\_\_\_\_\_\_ Auch Rechtsinformatik genannt, rechtliche Betrachtungen in der Informationstechnologie"
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "-\_\_\_\_\_\_ Die Meinungsstreiten etablieren sich im Datenschutzrecht, Softwarerecht oder im IT-Strafrecht"
+                    type: text
+                    text: 'Die einzelnen Fächer sind mit einer Klausur oder Hausarbeit abzuschließen. Diese bestehen aus Sachverhalten und Fragestellungen, deren Lösungswege im juristischen Gutachtenstil erarbeitet werden müssen. 30% der Abschlussnote bilden sich aus den Noten der Pflichtfachprüfungen und Jurahausarbeiten, 70% aus der Note der Staatsexamen. Deren Bestehen stellt allerdings für sehr viele Studenten große Schwierigkeiten dar, da lediglich ein Wiederholungsversuch gestattet wird. Das zweite Durchfallen führt dabei zum Ende der juristischen Karriere bzw. zur Exmatrikulation. Ein großer Zeitdruck lastet auf den Studenten, die sich nicht selten mithilfe von einem Jura Ghostwriter oder Freelancer Entlastung schaffen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1684,6 +1552,223 @@ replicator:
     is-full: true
     bg-toggle: false
     bg-color: '#D6D6D6'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wie Sie die perfekte Jura Hausarbeit schreiben'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Das erfolgreiche Absolvieren des Jurastudiums\_setzt auch das Anfertigen von Haus- und Seminararbeiten voraus. Viele Studierende fühlen sich angesichts dieser Aufgabenstellung schnell überfordert, da das eigentliche wissenschaftliche Erarbeiten bestimmter Fragestellungen im Rahmen der jeweiligen Veranstaltungen des (Haupt-)Studiums regelmäßig nur eine untergeordnete Rolle spielt. Dabei sind beide Aufgaben – sowohl das Anfertigen einer\_Jura Hausarbeit als auch dasjenige einer Jura Seminararbeit – unter Berücksichtigung einiger Hilfestellungen für alle Studierende machbar. Und in besonders schweren Fällen können auch akademische Ghostwriter Jura Studenten professionell unterstützen."
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: "Hausarbeit Jura –\_Sachverhaltslektüre und Stoffsammlung"
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Gegenstand der\_Jura Hausarbeit ist regelmäßig die Falllösung, sodass es zuerst darum gehen muss den Sachverhalt zu lesen und zu verstehen. Wie im Rahmen einer Klausurbearbeitung kommt es auch für das erfolgreiche Gestalten einer Ausarbeitung einer Hausarbeit darauf an, dass Sie sich ausreichend Zeit zur Lektüre nehmen und davor schützen, durch Assoziationen zu Ihnen bekannten Fällen voreilig Schlüsse zu ziehen. Es bietet sich daher an den Sachverhalt einer Hausarbeit in mehreren Schritten zu erfassen. "
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zunächst sollte das bloße Lesen im Vordergrund stehen und etwaige Anmerkungen – auch wenn es schwerfällt – auf den zweiten Lesedurchgang verschoben werden. In diesem Durchgang können bereits Notizen parallel zum Lesen angefertigt werden und insbesondere sollten die wesentlichen Sachverhaltsangaben wie Daten, Personen und deren Beziehungen zueinander unterstrichen bzw. anderweitig hervorgehoben werden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Eine chronologische Tafel, eine Personenskizze oder eine Stoffsammlung können in dieser Phase der Erstellung einer Hausarbeit sehr wertvoll sein. Hierdurch ergibt sich eine Art „bereinigter Sachverhalt“, den Sie mit dem eigentlichen Sachverhalt wiederum abgleichen sollten, um anschließend eine Differenzierung innerhalb des bereinigten Sachverhaltes nach unstreitigen und streitigen und juristischen und tatsächlichen Angaben vornehmen zu können. Sind Sie an diesem Punkt angelangt, haben Sie bereits wichtige Schritte zur erfolgreichen Bearbeitung der Hausarbeit hinter sich gebracht. Als nächstes sollten ihre Feststellungen vor der Fallfrage respektive den Fallfragen gespiegelt werden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Innerhalb einer Jura Hausarbeit (ebenso wie innerhalb einer Jura Seminararbeit) gilt stets das Prinzip, dass falsch ist, was überflüssig ist. Deshalb müssen Sie genau eruieren, auf welche der von Ihnen herausgearbeiteten Punkte es angesichts der Fallfrage tatsächlich ankommt.'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/fachrichtungen/jura1.jpg
+                    img_size: w-full
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#868686'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Recherche und Lösungsskizze'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wesentlicher Teil der Bearbeitung sowohl einer Hausarbeit, als auch einer Seminararbeit, ist stets die Recherche der jeweiligen Probleme des Falls. Hier hilft es, dass viele Angebote in Bezug auf Jura online verfügbar sind. Sowohl über die Datenbanken '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: juris
+                  -
+                    type: text
+                    text: ' oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: beck-online
+                  -
+                    type: text
+                    text: ', als auch in den vielfach online einsehbaren Skripten der Vorlesungen lassen sich schnelle erste Vorstellungen der Fallbearbeitung fassen. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Entscheidend ist insoweit, dass Sie sich in den Kommentarstellen bzw. den entsprechen Beiträgen in der juristischen Literatur einen umfassenden Eindruck zu den im Fall aufgeworfenen Rechtssachverhalte verschaffen, damit Sie abschätzen können ob und in welchem Umfang die Bearbeitung der\_Jura Hausarbeit auf bestimmte Probleme wird eingehen müssen."
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - jura-ghostwriter.png
+                    img_size: w-3/4
+                    float: mx-auto
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Sie können sich bei GWriters nicht nur Mustervorlagen für Ihre Jura Hausarbeit schreiben lassen, sondern\_sich auch lediglich "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'bestimmte Sachverhaltsabschnitte von einem Jura Ghostwriter genau erklären'
+                  -
+                    type: text
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: lassen
+                  -
+                    type: text
+                    text: ' oder eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Lösungsskizze erarbeiten lassen'
+                  -
+                    type: text
+                    text: ". Es empfiehlt sich, erst in diesem Stadium der Bearbeitung der Hausarbeit mit der Erstellung der Lösungsskizze zu beginnen. Auch für die aufwändige juristische Literaturrecherche und bei der Erstellung von Gliederung können Ghostwriter unterstützend werden. \_"
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ausgehend von der jeweiligen Fallfragestellung der Arbeit müssen Sie die insoweit zutreffende Rechtsfolge aus den Ihnen bekannten Normen herausarbeiten und finden so die zu prüfenden Vorschriften. Diese Vorschriften sollen dann im Rahmen der Lösungsskizze zueinander ins Verhältnis gesetzt werden. Auch bei der Frage, wie die Lösungsskizze zu erstellen ist, kann auf online verfügbare Quellen zurückgegriffen werden. Insbesondere hinsichtlich des Aufbaus der Hausarbeit empfiehlt es sich, die insoweit vielfach gegebenen Anleitungen der Lehrbücher zu befolgen.'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
