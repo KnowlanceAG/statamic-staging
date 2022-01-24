@@ -54,11 +54,11 @@ teaser:
   -
     type: paragraph
 teaser_bg: seiten/header-so-funktionierts.jpeg
-page_title: 'GWriters • Informatik - Ghostwriter, Lektoren & Coaches'
+page_title: 'Informatik - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1642769094
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1643037627
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -85,8 +85,7 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Informatik. Bei uns finden Sie exakt den 
-                      <b>akademischen Ghostwriter für Ihre Informatik Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Informatik in sichere Hände geben und bei einem Informatik-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Informatikern, Doktoren und Professoren arbeitet.
+                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Informatik. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Informatik Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Informatik in sichere Hände geben und bei einem Informatik-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Informatikern, Doktoren und Professoren arbeitet.
                       </p>
               -
                 type: paragraph
@@ -97,186 +96,6 @@ replicator:
     is-full: false
     bg-toggle: false
     bg-color: '#F9F9F9'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Unsere Leistungen im Fachbereich BWL'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: leistungen_uebersicht_4-spaltig
-                    grid:
-                      -
-                        image:
-                          - leistung/icon-ghostwriting.svg
-                        headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre Informatik Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-                        link:
-                          - 0328a685-5f37-4f91-bd4b-79c53adaea8d
-                      -
-                        image:
-                          - leistung/icon-lektorat.svg
-                        headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (Informatik) Korrektheit prüfen.'
-                        link:
-                          - 659e7e81-6d07-4eea-9ef2-325e72618036
-                      -
-                        image:
-                          - logo-startseite/icon-plagiat.svg
-                        headline: PLAGIATSPRÜFUNG
-                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich Informatik.'
-                        link:
-                          - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
-                      -
-                        image:
-                          - logo-startseite/icon-uebersetzung.svg
-                        headline: ÜBERSETZUNG
-                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (Informatik) Übersetzungen von akademischen Texten, Arbeiten, usw.'
-                        link:
-                          - 7cad538c-ad74-4617-825e-bbac46ebf310
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH BWL'
-                    color: '#FF6606'
-                    spacing_top: false
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: Informatik
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Die Informatik ist die Lehre von der Informationsverarbeitung'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: ' mit Hilfe von digitalen Verarbeitungseinheiten. Sie hat sich aus der Mathematik entwickelt und erfordert ein hohes Maß an logischem Denkvermögen. Zudem sind auch Elemente der Physik und Elektrotechnik essentiell in der Informatik. Besonders in der modernen und automatisierten Welt sind Informatiker gesuchte Fachkräfte. Das Studium erweist sich jedoch als sehr anspruchsvoll, da es den studentischen Alltag mit hohen Durchfallquoten prägt. Neben zahlreichen Hausarbeiten und Abgaben, ist im Bachelorstudium vorgesehen, dass Hochschulen von Studierenden der Informatik eine Bachelorarbeit schreiben lassen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: "Aufgrund der zahlreichen Abgaben und anspruchsvollen Anforderungen im Studium greifen einige Studenten der Informatik auf\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: null
-                          rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: "\_und akademische Freelancer zurück. Diese weisen Kompetenz und hinreichende Erfahrungen bei der Erstellung von wissenschaftlichen Arbeiten der Informatik auf."
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
@@ -392,6 +211,184 @@ replicator:
                       -
                         type: textAlign
                         attrs:
+                          align: left
+                    text: Informatik
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Die Informatik ist die Lehre von der Informationsverarbeitung'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'mit Hilfe von digitalen Verarbeitungseinheiten. Sie hat sich aus der Mathematik entwickelt und erfordert ein hohes Maß an logischem Denkvermögen. Zudem sind auch Elemente der Physik und Elektrotechnik essentiell in der Informatik. Besonders in der modernen und automatisierten Welt sind Informatiker gesuchte Fachkräfte. Das Studium erweist sich jedoch als sehr anspruchsvoll, da es den studentischen Alltag mit hohen Durchfallquoten prägt. Neben zahlreichen Hausarbeiten und Abgaben, ist im Bachelorstudium vorgesehen, dass Hochschulen von Studierenden der Informatik eine Bachelorarbeit schreiben lassen. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Aufgrund der zahlreichen Abgaben und anspruchsvollen Anforderungen im Studium greifen einige Studenten der Informatik auf\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_und akademische Freelancer zurück. Diese weisen Kompetenz und hinreichende Erfahrungen bei der Erstellung von wissenschaftlichen Arbeiten der Informatik auf."
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Unsere Leistungen im Fachbereich BWL'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: leistungen_uebersicht_4-spaltig
+                    grid:
+                      -
+                        image:
+                          - leistung/icon-ghostwriting.svg
+                        headline: GHOSTWRITING
+                        hover_content: 'Lassen Sie Ihre Informatik Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        link:
+                          - 0328a685-5f37-4f91-bd4b-79c53adaea8d
+                      -
+                        image:
+                          - leistung/icon-lektorat.svg
+                        headline: LEKTORAT
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (Informatik) Korrektheit prüfen.'
+                        link:
+                          - 659e7e81-6d07-4eea-9ef2-325e72618036
+                      -
+                        image:
+                          - logo-startseite/icon-plagiat.svg
+                        headline: PLAGIATSPRÜFUNG
+                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich Informatik.'
+                        link:
+                          - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
+                      -
+                        image:
+                          - logo-startseite/icon-uebersetzung.svg
+                        headline: ÜBERSETZUNG
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (Informatik) Übersetzungen von akademischen Texten, Arbeiten, usw.'
+                        link:
+                          - 7cad538c-ad74-4617-825e-bbac46ebf310
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH BWL'
+                    color: '#FF6606'
+                    spacing_top: false
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: true
+    bg-toggle: false
+    bg-color: '#F9F9F9'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
                           align: start
                       -
                         type: textColor
@@ -460,12 +457,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -560,35 +551,15 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
                     type: video
                     video: 'https://www.youtube.com/watch?v=X6VXkzsv6dA'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single-col: false
         grid:
           -
             bard:
@@ -599,20 +570,13 @@ replicator:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
                     button_align: justify-center
                     spacing_top: false
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
@@ -681,37 +645,6 @@ replicator:
                       - preise/euro.svg
                     text: 'Zudem hat ein gut ausgebildeter Informatiker oder Informatikerinnen ein Jahresbruttogehalt zwischen **50.000 Euro und 120.000 Euro** zu erwarten. Ein Informatikstudium bereitet die Studierenden auf die zukunftsorientierten Berufe vor. Sowohl im Studium- als auch im Berufsleben sind Informatik Ghostwriter für Studenten und Absolventen eine große Unterstützung. Zum einen besitzen sie eine akademische Ausbildung und zum anderen haben sie praktische Erfahrungen aus dem Berufsleben. Besonders hilfreich sind sie für Studienanfänger und Berufseinsteiger.'
               -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 3
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
                 type: set
                 attrs:
                   values:
@@ -720,26 +653,27 @@ replicator:
                       -
                         text: Arbeiten
                         eintraege:
+                          - 68b88fd1-ec03-4ea8-9292-431555e47744
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
+                          - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
                           - 5659593d-2756-4e9f-a5b3-b391103d9886
                           - 425234fd-eb40-4dab-bb3d-95bbac5948eb
                           - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
+                          - 2b55bfe7-06df-4e71-86da-152e256904ec
                           - cb0a74d3-ed84-4dad-b3a7-c368aec13800
                           - 134ba799-3362-4166-86f7-bba4e992d7d7
                           - 5c6db140-ee4a-4a88-bf56-4153664421d4
-                          - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
-                          - b6ee03ca-ecab-4749-ade4-45ff821b748d
-                          - 68b88fd1-ec03-4ea8-9292-431555e47744
                           - 52f5092f-800b-4742-8636-a840b9ab1ddb
-                          - 2b55bfe7-06df-4e71-86da-152e256904ec
+                          - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
-                          - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
+                          - b6ee03ca-ecab-4749-ade4-45ff821b748d
                       -
                         text: Fachrichtungen
                         eintraege:
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
                           - 9944d809-005e-4651-bf9b-5555f0229245
                           - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
+                          - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
                           - a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
                           - 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
                           - 4476be29-c55a-45b7-ac4a-0e300dfdb8b6
@@ -748,8 +682,7 @@ replicator:
                           - 34f7528d-839e-4ef6-b735-627084dba887
                           - 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
                           - d72509d7-bb3a-40dd-a757-3317732e2a57
-                          - ba720f59-eeef-4287-b441-251391efa6bc
-                          - a9cc9473-308b-4615-8f30-d545f7f63faf
+                          - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
                           - dc0c7edd-0724-4454-9525-49b8f9065f16
                           - 1363a62f-c0e9-4dba-aa09-d331c4fa8260
                           - a9561621-8360-4ecf-855c-753f4a217c5a
@@ -765,34 +698,10 @@ replicator:
                           - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
                           - f07c0010-40dd-407e-bf32-a1a260b5016b
                           - b8930678-fff6-4d7a-8ae8-056605f303f2
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-    bg-color: '#FFB68A'
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '1'
-        single-col: true
-        grid:
-          -
-            bard:
+                          - 06fbb3f4-51c2-4f11-832e-9b72a495857d
+                          - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
+                          - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
+                          - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
               -
                 type: heading
                 attrs:
@@ -812,8 +721,7 @@ replicator:
                     bild:
                       - seiten/fachrichtungen/grundstudium-informatik-1642673507.png
                     text: 'Im **Grundstudium** werden komplexe und schwierige Themenfelder und Fragestellungen betrachtet. Das Programmieren von Informationen in objektorientierte Programmiersprache (Programmcode) wird eher am Ende des Studiums behandelt. Die Studieninhalte in Informatik können in verschiedene Spezialisierungsrichtungen unterschieden werden. Zu den schwerpunktorientierten Grundlagenfächer gehören Mathematik, Algorithmen, Datenbankprogrammierung und Softwareentwicklung.'
-              -
-                type: paragraph
+                    ausrichtung: text-bild
               -
                 type: paragraph
                 content:
@@ -826,7 +734,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: blue
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -863,10 +771,18 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: accordion-wrapper
+                    type: accordion-custom-wrapper
                     items:
                       -
-                        headline: 'Enge Verbindungen zu anderen Fachrichtungen:'
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Enge Verbindungen zu anderen Fachrichtungen:'
                         accordion_content:
                           -
                             type: bullet_list
@@ -996,14 +912,12 @@ replicator:
                                               target: null
                                               rel: null
                                         text: Wirtschaftsinformatik
-                        active: true
-              -
-                type: paragraph
+                        active: false
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
-    is-full: true
+    remove_spacing: true
+    is-full: false
     bg-toggle: false
     bg-image-fixed: false
     border: false
@@ -1091,8 +1005,6 @@ replicator:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo.-Fr. 9:00-18:00'
-              -
-                type: paragraph
             show_as_card: true
           -
             bard:
@@ -1129,8 +1041,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '2'
-              -
-                type: paragraph
             show_as_card: true
         type: row
         enabled: true
@@ -1147,8 +1057,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '30'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1169,14 +1077,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1242,10 +1142,6 @@ replicator:
                                 text: ' entspricht. Im fünften Semester steht ein Praxissemester an. In dieser Phase werden praktische Kenntnisse gesichert und Kontakte zu potenziellen späteren Arbeitgebern aufgebaut. Die praktischen Erfahrungen werden mit einer Projektarbeit abgerundet.'
                         active: true
               -
-                type: paragraph
-              -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
@@ -1261,8 +1157,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '16'
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
@@ -1312,25 +1206,11 @@ replicator:
                                 type: text
                                 text: "\_unproblematisch."
                         active: true
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: true
+    remove_spacing: false
+    is-full: false
     bg-toggle: false
     bg-image-fixed: false
     border: false
