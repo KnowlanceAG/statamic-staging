@@ -58,7 +58,7 @@ page_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643032849
+updated_at: 1643034129
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -207,39 +207,31 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Jura - Rechtswissenschaften'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Unsere Jura Ghostwriter'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Rechtswissenschaften – auch als Jurisprudenz von lateinisch '
+                    text: 'Unser Team von erfahrenen Akademikern aus dem Fach Jura unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen sowie bei der Entstehung der Arbeiten. Unsere Akademiker sind Professoren im Rechtsbereich. Für jede rechtliche Problemstellung findet unsere professionelle Ghostwriting-Dienstleistung Ihnen den passenden Ghostwriter aus dem jeweiligen Rechtsgebiet, um Ihren Fall zu bearbeiten und zu lösen. Sie kennen alle Gesetzbücher: '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: '„iuris prudenita“ = „Kenntnis des Rechts“ '
+                    text: 'Das Sozialgesetzbuch (SGB), das Handelsgesetzbuch (HGB), das Bürgerliche Gesetzbuch (BGB) und das Strafgesetzbuch (StGB)'
                   -
                     type: text
-                    text: 'abgeleitet und bezeichnet – haben schon eine lange Tradition und Historie; die Grundzüge finden sich bereits in der Antike, wobei erst in römischer Zeit von einer „echten“ Rechtswissenschaft gesprochen werden kennen, die Fragestellungen systematisch reflektierte. Es geht bei den Rechtswissenschaften im modernen Verständnis darum, juristische Fälle zu durchdringen und Falllösungen zu erarbeiten, die mit dem herrschenden Recht in Einklang stehen. So erfahren die Fälle sowohl eine rechtswissenschaftliche, als auch eine geisteswissenschaftliche Würdigung.'
+                    text: .
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Als „Begründer“ der Rechtswissenschaft gilt der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Römer Ulpian'
-                  -
-                    type: text
-                    text: ', der die Rechtswissenschaft als Kenntnis der menschlichen und göttlichen Entwicklung sowie als Wissenschaft vom Gerechten und Ungerechten interpretierte. Rechtswissenschaften können so als hermeneutische Disziplin (Textwissenschaft) verstanden werden und gehören zu den Geisteswissenschaften.'
-              -
-                type: paragraph
+                    text: 'Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Erstellung handelt: wir bieten Ihnen umfassenden individuellen Beistand.'
             show_as_card: false
         type: row
         enabled: true
@@ -316,11 +308,11 @@ replicator:
                 attrs:
                   values:
                     type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH BWL'
+                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH JURA'
                     color: '#FF6606'
                     spacing_top: false
-              -
-                type: paragraph
+                    button_link: 'entry::849140c8-c582-4340-a2bc-446126149c9f'
+                    button_align: justify-center
             show_as_card: false
         type: row
         enabled: true
@@ -348,58 +340,37 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Unsere Jura Ghostwriter'
+                    text: 'Jura - Rechtswissenschaften'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unser Team von erfahrenen Akademikern aus dem Fach Jura unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen sowie bei der Entstehung der Arbeiten. Unsere Akademiker sind Professoren im Rechtsbereich. Für jede rechtliche Problemstellung findet unsere professionelle Ghostwriting-Dienstleistung Ihnen den passenden Ghostwriter aus dem jeweiligen Rechtsgebiet, um Ihren Fall zu bearbeiten und zu lösen. Sie kennen alle Gesetzbücher: '
+                    text: 'Rechtswissenschaften – auch als Jurisprudenz von lateinisch '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Das Sozialgesetzbuch (SGB), das Handelsgesetzbuch (HGB), das Bürgerliche Gesetzbuch (BGB) und das Strafgesetzbuch (StGB)'
+                    text: '„iuris prudenita“ = „Kenntnis des Rechts“ '
                   -
                     type: text
-                    text: .
+                    text: 'abgeleitet und bezeichnet – haben schon eine lange Tradition und Historie; die Grundzüge finden sich bereits in der Antike, wobei erst in römischer Zeit von einer „echten“ Rechtswissenschaft gesprochen werden kennen, die Fragestellungen systematisch reflektierte. Es geht bei den Rechtswissenschaften im modernen Verständnis darum, juristische Fälle zu durchdringen und Falllösungen zu erarbeiten, die mit dem herrschenden Recht in Einklang stehen. So erfahren die Fälle sowohl eine rechtswissenschaftliche, als auch eine geisteswissenschaftliche Würdigung.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Erstellung handelt: wir bieten Ihnen umfassenden individuellen Beistand.'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
+                    text: 'Als „Begründer“ der Rechtswissenschaft gilt der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Römer Ulpian'
+                  -
+                    type: text
+                    text: ', der die Rechtswissenschaft als Kenntnis der menschlichen und göttlichen Entwicklung sowie als Wissenschaft vom Gerechten und Ungerechten interpretierte. Rechtswissenschaften können so als hermeneutische Disziplin (Textwissenschaft) verstanden werden und gehören zu den Geisteswissenschaften.'
               -
                 type: heading
                 attrs:
@@ -477,7 +448,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -493,12 +464,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -559,35 +524,15 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
                     type: video
                     video: 'https://youtu.be/dK1_IH8Jjak'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single-col: false
         grid:
           -
             bard:
@@ -601,17 +546,11 @@ replicator:
                     button_align: justify-center
                     spacing_top: false
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
                 type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
@@ -628,14 +567,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -668,7 +599,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: blue
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -686,7 +617,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: blue
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -713,33 +644,6 @@ replicator:
                   -
                     type: text
                     text: 'Im Ergebnis erhalten Sie eine Musterarbeit, die als Inspiration dienen kann und sich dabei exakt an die spezifischen juristischen Formatvorgaben hält. Da die Arbeiten ähnliche Anforderungen stellen, wie dies bei einer Klausur der Fall ist, bringen unsere Ghostwriter eine hohe Expertise in der vollständigen Erfassung des Sachverhaltes und im Verständnis für die zu behandelnden juristischen (Schwerpunkt-)Probleme mit.'
-              -
-                type: paragraph
-              -
-                type: paragraph
-              -
-                type: heading
-                attrs:
-                  level: 3
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
               -
                 type: set
                 attrs:
@@ -794,108 +698,6 @@ replicator:
                           - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
                           - f07c0010-40dd-407e-bf32-a1a260b5016b
                           - b8930678-fff6-4d7a-8ae8-056605f303f2
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-    bg-color: '#FFB68A'
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Weitere interessante Studiengänge im Bereich Rechtswissenschaften:'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: Wirtschaftsrecht
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: Unternehmensrecht
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: Steuerrecht
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Wirtschaftsrecht für Technologieunternehmen'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Recht & Management'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: Kriminologie
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: Rechtspsychologie
             show_as_card: false
         type: row
         enabled: true
@@ -915,14 +717,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1049,7 +843,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '54'
+                    padding-y: '30'
               -
                 type: paragraph
               -
@@ -1063,7 +857,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
@@ -1509,6 +1303,80 @@ replicator:
                   -
                     type: text
                     text: 'Die einzelnen Fächer sind mit einer Klausur oder Hausarbeit abzuschließen. Diese bestehen aus Sachverhalten und Fragestellungen, deren Lösungswege im juristischen Gutachtenstil erarbeitet werden müssen. 30% der Abschlussnote bilden sich aus den Noten der Pflichtfachprüfungen und Jurahausarbeiten, 70% aus der Note der Staatsexamen. Deren Bestehen stellt allerdings für sehr viele Studenten große Schwierigkeiten dar, da lediglich ein Wiederholungsversuch gestattet wird. Das zweite Durchfallen führt dabei zum Ende der juristischen Karriere bzw. zur Exmatrikulation. Ein großer Zeitdruck lastet auf den Studenten, die sich nicht selten mithilfe von einem Jura Ghostwriter oder Freelancer Entlastung schaffen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Weitere interessante Studiengänge im Bereich Rechtswissenschaften:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Wirtschaftsrecht
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Unternehmensrecht
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Steuerrecht
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Wirtschaftsrecht für Technologieunternehmen'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Recht & Management'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Kriminologie
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Rechtspsychologie
             show_as_card: false
         type: row
         enabled: true
@@ -1757,55 +1625,6 @@ replicator:
                   -
                     type: text
                     text: 'Innerhalb einer Jura Hausarbeit (ebenso wie innerhalb einer Jura Seminararbeit) gilt stets das Prinzip, dass falsch ist, was überflüssig ist. Deshalb müssen Sie genau eruieren, auf welche der von Ihnen herausgearbeiteten Punkte es angesichts der Fallfrage tatsächlich ankommt.'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating-img
-                    dateien:
-                      - seiten/fachrichtungen/jura1.jpg
-                    img_size: w-full
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#868686'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -1862,8 +1681,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '15'
-              -
-                type: paragraph
               -
                 type: paragraph
                 content:
@@ -1938,8 +1755,6 @@ replicator:
                     ex_button_text: Weiterlesen
                     ex_button_align: justify-start
                     ex_spacing_top: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1995,10 +1810,6 @@ replicator:
                   -
                     type: text
                     text: "\_zu beachten und zu nutzen. Achten Sie diesbezüglich darauf, dass zum einen nahe am Sachverhalt der Jurahausarbeit formuliert wird, zum anderen aber auch „sauber“ der Sachverhalt unter die jeweiligen Tatbestandsvoraussetzungen subsumiert wird. Schließlich ist im Rahmen der Ausformulierung der Hausarbeit auch maßgeblich, dass die Arbeit „rund“ ist: Dies bedeutet, dass sämtliche, durch die Fallfrage aufgeworfenen Probleme gelöst werden müssen und zudem die Arbeit durch ein Ergebnis geschlossen wird."
-              -
-                type: paragraph
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -2046,9 +1857,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '56'
-              -
-                type: paragraph
+                    padding-y: '50'
             show_as_card: true
           -
             bard:
@@ -2084,7 +1893,7 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-image-fixed: false
@@ -2124,7 +1933,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -2327,7 +2136,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '43'
+                    padding-y: '40'
               -
                 type: paragraph
             show_as_card: false
