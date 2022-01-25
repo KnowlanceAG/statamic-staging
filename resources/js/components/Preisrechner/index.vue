@@ -10,7 +10,7 @@
             <select v-model="service" id="service" class="w-full">
                 <option value="">Leistung wählen..</option>
                 <option
-                    v-for="service in Object.keys(options.service)"
+                    v-for="service in services"
                     :key="service"
                     :value="service"
                 >
@@ -165,6 +165,9 @@ export default {
     }
   },
   computed: {
+    services() {
+      return Object.keys(this.options.service[this.topLevelDomain])
+    },
     timeTypeOptions() {
       return this.mapArrays(this.options.timeType)
     },
@@ -196,26 +199,43 @@ export default {
     complete() {
       return (
         this.pages &&
-        this.service && options.service[this.service] &&
+        this.service && options.service[this.topLevelDomain][this.service] &&
         this.specialField && options.specialField[this.specialField] &&
         this.qualityLevel && options.qualityLevel[this.qualityLevel] &&
         this.pagesPerDayIndex &&
         this.pageFactorIndex
       )
     },
+    topLevelDomain() {
+      const tld = window.location.origin.split('.').pop()
+      return ['me', 'net'].includes(tld) ? 'de' : tld
+    },
     result() {
       if (!this.complete) return false
+
+      const tld = this.topLevelDomain
+      const localeString = tld === 'de' ? 'de-DE' : 'de-CH'
+      const currency = tld === 'de' ? 'EUR' : 'CHF'
+
+      if (options.service[tld][this.service].fixed) {
+        const result = options.service[tld][this.service].price
+        return result.toLocaleString(localeString, {
+        style: 'currency',
+        currency
+        })
+      }
+
       const result =
         Number.parseInt(this.pages) *
-        options.service[this.service] *
+        options.service[tld][this.service].price *
         options.specialField[this.specialField] *
         options.qualityLevel[this.qualityLevel] *
         Number.parseFloat(this.pagesPerDayIndex) *
         Number.parseFloat(this.pageFactorIndex)
 
-      return result.toLocaleString('de-DE', {
+      return result.toLocaleString(localeString, {
         style: 'currency',
-        currency: 'EUR'
+        currency
       })
     }
   },

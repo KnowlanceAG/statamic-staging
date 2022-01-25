@@ -1,10 +1,20 @@
 export const service = {
-  Ghostwriting: 90,
-  Textredaktion: 30,
-  Lektorat: 18,
-  Korrektorat: 5,
-  Übersetzung: 60,
-  Plagiatsprüfung: 2
+  de: {
+    Ghostwriting: { price: 90 },
+    Textredaktion: { price: 50 },
+    Lektorat: { price: 18 },
+    Korrektorat: { price: 5 },
+    Übersetzung: { price: 60 },
+    Plagiatsprüfung: { price: 100, fixed: true }
+  },
+  ch: {
+    Ghostwriting: { price: 100 },
+    Textredaktion: { price: 56 },
+    Lektorat: { price: 20 },
+    Korrektorat: { price: 5.6 },
+    Übersetzung: { price: 67 },
+    Plagiatsprüfung: { price: 110, fixed: true }
+  }
 }
 
 export const specialField = {
