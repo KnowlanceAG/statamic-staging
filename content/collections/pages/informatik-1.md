@@ -58,7 +58,7 @@ page_title: 'Informatik - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643110082
+updated_at: 1643110178
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -718,7 +718,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Die Einführung eines Studienganges für Informatik startete in der DDR und in der Bundesrepublik etwa zeitgleich. Die TU Dresden war im Osten Vorreiter, im Westen bot die Universität Karlsruhe als erstes einen Diplomstudiengang für Informatik an. Dabei haben die Universitäten von ihren Studierenden der Informatik eine Diplomarbeit schreiben lassen. Mittlerweile hat sich die Informatik in viele fachunter- und fachübergreifende Teilgebiete aufgeteilt, so gibt es neben vielen anderen Spezialdisziplinen die Ingenieurinformatik, die\_"
+                    text: 'Die Einführung eines Studienganges für Informatik startete in der DDR und in der Bundesrepublik etwa zeitgleich. Die TU Dresden war im Osten Vorreiter, im Westen bot die Universität Karlsruhe als erstes einen Diplomstudiengang für Informatik an. Dabei haben die Universitäten von ihren Studierenden der Informatik eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/diplomarbeit
+                          target: null
+                          rel: null
+                    text: 'Diplomarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: ". Mittlerweile hat sich die Informatik in viele fachunter- und fachübergreifende Teilgebiete aufgeteilt, so gibt es neben vielen anderen Spezialdisziplinen die Ingenieurinformatik, die\_"
                   -
                     type: text
                     marks:
@@ -1174,7 +1187,20 @@ replicator:
                     text: 'Hausarbeit schreiben lassen'
                   -
                     type: text
-                    text: '. Abgeschlossen wird das Studium durch das Schreiben einer Examensarbeit. Um den Bachelor zu erreichen wird dabei das Schreiben einer Bachelorarbeit vorgesehen, beim Masterstudiengang ist es die Masterarbeit. Nach dem Master kann eine Promotion gemacht werden, um einen Doktortitel durch eine Doktorarbeit zu erlangen. Daher werden häufig akademische Ghostwriter aufgesucht, die bei der wissenschaftlichen Arbeit helfen oder sogar eine gesamte Musterarbeit erstellen.'
+                    text: '. Abgeschlossen wird das Studium durch das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/examensarbeit
+                          target: null
+                          rel: null
+                    text: 'Schreiben einer Examensarbeit'
+                  -
+                    type: text
+                    text: '. Um den Bachelor zu erreichen wird dabei das Schreiben einer Bachelorarbeit vorgesehen, beim Masterstudiengang ist es die Masterarbeit. Nach dem Master kann eine Promotion gemacht werden, um einen Doktortitel durch eine Doktorarbeit zu erlangen. Daher werden häufig akademische Ghostwriter aufgesucht, die bei der wissenschaftlichen Arbeit helfen oder sogar eine gesamte Musterarbeit erstellen.'
               -
                 type: paragraph
                 content:
