@@ -1,8 +1,7 @@
 ---
 id: fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
-published: false
 blueprint: pages
-title: 'Jura (Dupliziert)'
+title: Jura
 teaser:
   -
     type: heading
@@ -58,7 +57,7 @@ page_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643034136
+updated_at: 1643110553
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -681,8 +680,6 @@ replicator:
                           - 34f7528d-839e-4ef6-b735-627084dba887
                           - 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
                           - d72509d7-bb3a-40dd-a757-3317732e2a57
-                          - ba720f59-eeef-4287-b441-251391efa6bc
-                          - a9cc9473-308b-4615-8f30-d545f7f63faf
                           - dc0c7edd-0724-4454-9525-49b8f9065f16
                           - 1363a62f-c0e9-4dba-aa09-d331c4fa8260
                           - a9561621-8360-4ecf-855c-753f4a217c5a
@@ -698,6 +695,7 @@ replicator:
                           - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
                           - f07c0010-40dd-407e-bf32-a1a260b5016b
                           - b8930678-fff6-4d7a-8ae8-056605f303f2
+                          - 1de3d76b-f23a-41a8-a629-15b48a07223e
             show_as_card: false
         type: row
         enabled: true
@@ -2149,9 +2147,9 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'GWriters • Jura - Ghostwriter, Lektoren & Coaches'
+meta_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
 meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Jura – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-og_title: 'GWriters • Jura - Ghostwriter, Lektoren & Coaches'
+og_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der Jura – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_geisteswissenschaften
