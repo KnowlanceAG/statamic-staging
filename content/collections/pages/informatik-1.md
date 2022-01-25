@@ -58,7 +58,7 @@ page_title: 'Informatik - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643109226
+updated_at: 1643109471
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -768,151 +768,141 @@ replicator:
                     type: text
                     text: '. Denn eine gleichzeitige intensive Beschäftigung mit anderen Fächern ist nicht einfach. Externe Hilfe finden viele Studenten bei seriösen Ghostwriting Agenturen. Sowohl für Haus- als auch für Bachelor- und Masterarbeiten können Sie von einem Ghostwriter mit hervorragendem Fachwissen eine Musterarbeit für Ihre Arbeit schreiben lassen. Anhand dieser Mustervorlage können Sie anschließend mit Leichtigkeit Ihre eigene Informatikarbeit erstellen.'
               -
-                type: set
+                type: heading
                 attrs:
-                  values:
-                    type: accordion-custom-wrapper
-                    items:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Enge Verbindungen zu anderen Fachrichtungen:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
                       -
-                        headline:
+                        type: paragraph
+                        content:
                           -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
+                            type: text
+                            marks:
                               -
-                                type: text
-                                text: 'Enge Verbindungen zu anderen Fachrichtungen:'
-                        accordion_content:
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/bwl
+                                  target: null
+                                  rel: null
+                            text: BWL
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
                           -
-                            type: bullet_list
-                            content:
+                            type: text
+                            marks:
                               -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /fachrichtungen/bwl
-                                              target: null
-                                              rel: null
-                                        text: BWL
+                                type: textAlign
+                                attrs:
+                                  align: start
                               -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /fachrichtungen/chemie
-                                              target: null
-                                              rel: null
-                                        text: Chemie
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
                               -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /fachrichtungen/mathematik
-                                              target: null
-                                              rel: null
-                                        text: Mathematik
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/chemie
+                                  target: null
+                                  rel: null
+                            text: Chemie
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
                               -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /fachrichtungen/medizin
-                                              target: null
-                                              rel: null
-                                        text: Medizin
+                                type: textAlign
+                                attrs:
+                                  align: start
                               -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        marks:
-                                          -
-                                            type: textAlign
-                                            attrs:
-                                              align: start
-                                          -
-                                            type: textColor
-                                            attrs:
-                                              color: '#000!important'
-                                              hex: '#000'
-                                          -
-                                            type: link
-                                            attrs:
-                                              href: /fachrichtungen/wirtschaftsinformatik
-                                              target: null
-                                              rel: null
-                                        text: Wirtschaftsinformatik
-                        active: false
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/mathematik
+                                  target: null
+                                  rel: null
+                            text: Mathematik
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/medizin
+                                  target: null
+                                  rel: null
+                            text: Medizin
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /fachrichtungen/wirtschaftsinformatik
+                                  target: null
+                                  rel: null
+                            text: Wirtschaftsinformatik
             show_as_card: false
         type: row
         enabled: true
@@ -1642,7 +1632,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: 2
+                    padding-y: '10'
               -
                 type: paragraph
             show_as_card: true
