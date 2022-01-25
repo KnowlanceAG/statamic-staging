@@ -549,10 +549,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.karriere.de/karrierebeschleuniger-doktortitel-zwei-buchstaben-punkt-/23037918.html'
+                          href: 'https://www.karriere.de/mein-geld/promotion-und-gehalt-in-welchen-jobs-sich-der-doktortitel-auszahlt/'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
-                    text: 'Karrierebeschleuniger Doktortitel - Karriere.de'
+                    text: 'Promotion und Gehalt - Karriere.de'
               -
                 type: paragraph
                 content:
@@ -566,19 +566,6 @@ replicator:
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'Doktor-Titel - Focus Online'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.karriere.de/gehaltsreport-finanzspritze-doktortitel/23048498.html'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Finanzspritze Doktortitel - Karriere.de'
               -
                 type: paragraph
                 content:
@@ -607,7 +594,7 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634032892
+updated_at: 1642002543
 meta_title: 'Unsere seriöse Promotionsberatung • GWriters'
 meta_description: 'Bei GWriters erhalten Sie eine seriöse Promotionsberatung von unseren erfahrenen akademischen Ghostwritern, Lektoren und Coaches. Auf Sie zugeschnitten!'
 use_meta_keywords: false

@@ -166,12 +166,13 @@ replicator:
         enabled: true
     remove_spacing: false
     is-full: true
-    bg-toggle: false
+    bg-toggle: true
     bg-color: '#F9F9F9'
     bg-image-fixed: false
     border: false
     type: add_section
     enabled: true
+    bg-image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
   -
     columns-replicator:
       -
@@ -333,8 +334,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '10'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -410,8 +409,6 @@ replicator:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo.-Fr. 9:00-18:00'
-              -
-                type: paragraph
             show_as_card: true
           -
             bard:
@@ -449,6 +446,22 @@ replicator:
                     type: spacer
                     padding-y: '10'
             show_as_card: true
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+            show_as_card: false
         type: row
         enabled: true
     remove_spacing: true
@@ -584,7 +597,13 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Wir lösen Schreibblockaden bei fehlender Unterstützung durch Betreuer & Professoren'
+                            marks:
+                              -
+                                type: bold
+                            text: 'Wir lösen Schreibblockaden'
+                          -
+                            type: text
+                            text: ' bei fehlender Unterstützung durch Betreuer & Professoren'
                   -
                     type: list_item
                     content:
@@ -593,7 +612,16 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Wir lösen Ihre Zeitprobleme mit Ihrer Hausarbeit während der Klausurphase und bei mehreren Abgaben'
+                            text: 'Wir lösen Ihre Zeitprobleme mit Ihrer '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Hausarbeit
+                          -
+                            type: text
+                            text: ' während der Klausurphase und bei mehreren Abgaben'
                   -
                     type: list_item
                     content:
@@ -602,7 +630,13 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Mit den relevanten Datenbanken, Quellen und wissenschaftlichen Arbeitsmethoden helfen wir auch  Studienanfängern effektiv'
+                            text: 'Mit den relevanten Datenbanken, Quellen und wissenschaftlichen Arbeitsmethoden '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'helfen wir auch Studienanfängern effektiv'
                   -
                     type: list_item
                     content:
@@ -611,7 +645,13 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Akademische Ghostwriter helfen nicht nur  im Schreibprozess, sondern auch bei der Literaturrecherche oder der Forschungsfrage'
+                            marks:
+                              -
+                                type: bold
+                            text: 'Akademische Ghostwriter'
+                          -
+                            type: text
+                            text: ' helfen nicht nur im Schreibprozess, sondern auch bei der Literaturrecherche oder der Forschungsfrage'
                           -
                             type: hard_break
             show_as_card: false
@@ -623,12 +663,10 @@ replicator:
                   values:
                     type: video
                     video: 'https://youtu.be/BFHgSZP9rCE'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F2F2F2'
@@ -651,8 +689,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '30'
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -720,10 +756,50 @@ replicator:
                       Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Falls Sie hierzu Änderungswünsche haben, setzen wir diese selbstverständlich kostenfrei um.
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Hilfe oder wissenschaftliche Texterstellung benötigen, wenden Sie sich gerne an uns. Über '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unser Kontaktformular'
+                  -
+                    type: text
+                    text: ' erhalten Sie jederzeit eine kostenlose Beratung. Möchten Sie ein Coaching oder eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Mustervorlage für Ihre Seminararbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '? Unsere Kundenberater beraten Sie dazu gerne! '
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOSE ANFRAGE SCHICKEN!'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -775,7 +851,6 @@ replicator:
                           - 34f7528d-839e-4ef6-b735-627084dba887
                           - 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
                           - d72509d7-bb3a-40dd-a757-3317732e2a57
-                          - a9cc9473-308b-4615-8f30-d545f7f63faf
                           - dc0c7edd-0724-4454-9525-49b8f9065f16
                           - 1363a62f-c0e9-4dba-aa09-d331c4fa8260
                           - a9561621-8360-4ecf-855c-753f4a217c5a
@@ -793,22 +868,24 @@ replicator:
                           - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
                           - 06fbb3f4-51c2-4f11-832e-9b72a495857d
                           - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
+                          - 1de3d76b-f23a-41a8-a629-15b48a07223e
+                          - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
                       -
                         text: Arbeiten
                         eintraege:
-                          - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
-                          - 89093abd-fdd4-4830-a368-7ede1b75ca1a
                           - 5659593d-2756-4e9f-a5b3-b391103d9886
                           - 425234fd-eb40-4dab-bb3d-95bbac5948eb
                           - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
-                          - 62115090-7bb2-448f-bb32-a32bb5977382
                           - 134ba799-3362-4166-86f7-bba4e992d7d7
                           - 5c6db140-ee4a-4a88-bf56-4153664421d4
-                          - aa35a1ca-0812-4402-a4d5-4a6d4aa8c1c0
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
-                          - 686e5203-e17a-4101-809a-07c9f799ccfa
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
+                          - 68b88fd1-ec03-4ea8-9292-431555e47744
+                          - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
+                          - 2931f444-5e22-4860-8f40-a41821377b93
+                          - 2b55bfe7-06df-4e71-86da-152e256904ec
+                          - 52f5092f-800b-4742-8636-a840b9ab1ddb
               -
                 type: set
                 attrs:
@@ -1666,7 +1743,55 @@ replicator:
     type: add_section
     enabled: true
   -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: blockquote
+                content:
+                  -
+                    type: heading
+                    attrs:
+                      level: 3
+                    content:
+                      -
+                        type: text
+                        text: Disclaimer
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
     bard:
+      -
+        type: set
+        attrs:
+          values:
+            type: spacer
+            padding-y: '30'
       -
         type: heading
         attrs:
@@ -1818,7 +1943,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1638796536
+updated_at: 1643111095
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -1828,9 +1953,9 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-meta_title: 'Ghostwriter - Hausarbeit schreiben lassen • Mustervorlage von GWriters'
+meta_title: 'Hausarbeit schreiben lassen • Ghostwriter-Mustervorlage von GWriters'
 meta_description: 'Mustervorlage für Hausarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
-og_title: 'Hausarbeit schreiben lassen • Mustervorlage von GWriters'
+og_title: 'Hausarbeit schreiben lassen • Ghostwriter-Mustervorlage von GWriters'
 og_description: 'Mustervorlage für Hausarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_studienarbeiten

@@ -238,7 +238,35 @@ replicator:
                         attrs:
                           color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
                           hex: '#000'
-                    text: ' oder Korrektor. Der „Geist“ kontrolliert oder überarbeitet in der Regel keine Arbeiten, sondern verfasst selbstständig ein Werk nach den individuellen Vorgaben einer anderen Person - dessen Rechte er an den Käufer abtritt. Mit der Abgabe aller Nutzungsrechte taucht der Ghostwriter dann nicht mehr als Autor auf und ist für den Leser somit als Verfasser unsichtbar. Er ist ein Geist – ein Ghostwriter.'
+                    text: ' oder Korrektor. Der „Geist“ kontrolliert oder überarbeitet in der Regel keine Arbeiten, sondern '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
+                          hex: '#000'
+                    text: 'verfasst selbstständig ein Werk nach den individuellen Vorgaben einer anderen Person'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
+                          hex: '#000'
+                    text: ' - dessen Rechte er an den Käufer abtritt. Mit der Abgabe aller Nutzungsrechte taucht der Ghostwriter dann nicht mehr als Autor auf und ist für den Leser somit als Verfasser unsichtbar. Er ist ein Geist – ein Ghostwriter.'
             show_as_card: false
         type: row
         enabled: true
@@ -389,7 +417,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere unsichtbaren Textverfasser sind im Alltag häufig Doktoren und Professoren. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten. Aufgrund ihrer praktischen Erfahrung und fachlichen Kenntnisse in ihrem jeweiligen Fachbereich können diese Sie zu jedem Zeitpunkt der Texterstellung unterstützen. Unsere '
+                    text: 'Unsere unsichtbaren Textverfasser sind im Alltag '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'häufig Doktoren und Professoren'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten. Aufgrund ihrer praktischen Erfahrung und fachlichen Kenntnisse in ihrem jeweiligen Fachbereich können diese Sie zu jedem Zeitpunkt der Texterstellung unterstützen. Unsere '
                   -
                     type: text
                     marks:
@@ -413,7 +461,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' arbeitet ausschließlich mit hochqualifizierten Akademikern zusammen, die versiert und zuverlässig Mustervorlagen für unterschiedliche wissenschaftliche Aufgaben (Hochschularbeiten, Abschlussarbeiten, Businesspläne, '
+                    text: ' arbeitet ausschließlich mit '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'hochqualifizierten Akademikern'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' zusammen, die versiert und zuverlässig Mustervorlagen für unterschiedliche wissenschaftliche Aufgaben (Hochschularbeiten, Abschlussarbeiten, Businesspläne, '
                   -
                     type: text
                     marks:
@@ -449,7 +517,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere anonymen Autoren bieten zu vielen wissenschaftlichen Themenbereichen professionelle Unterstützung an: bei der Textüberarbeitung, Formulierung von Texten, Literaturrecherche, Themenfindung, Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederung sein. Diese Unterstützung kann neben der Erstellung von Mustervorlagen auch durch Coaching sowie Beratung erfolgen.'
+                    text: 'Unsere anonymen Autoren bieten zu vielen wissenschaftlichen Themenbereichen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'professionelle Unterstützung'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' an: bei der Textüberarbeitung, Formulierung von Texten, Literaturrecherche, Themenfindung, Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederung sein. Diese Unterstützung kann neben der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Erstellung von Mustervorlagen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' auch durch Coaching sowie Beratung erfolgen.'
               -
                 type: paragraph
                 content:
@@ -461,10 +569,23 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Wir finden für Sie rund um das Thema „wissenschaftliches Arbeiten“ für jede Aufgabenstellung passende Fachautoren als Hilfestellung, wenn Sie eine Mustervorlage für Ihre Hausarbeit, '
+                    text: 'Wir finden für Sie rund um das Thema „wissenschaftliches Arbeiten“ für jede Aufgabenstellung passende Fachautoren als Hilfestellung, wenn Sie eine '
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Mustervorlage für Ihre Hausarbeit, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
                       -
                         type: textColor
                         attrs:
@@ -481,6 +602,8 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
@@ -489,6 +612,8 @@ replicator:
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
                       -
                         type: textColor
                         attrs:
@@ -505,11 +630,22 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' möchten.'
+                    text: ' möchten'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: .
               -
                 type: set
                 attrs:
@@ -680,7 +816,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Beim akademischen Ghostwriting handelt es sich um das Verfassen von Mustervorlagen für wissenschaftliche Texte nach individuellen Vorgaben der Kunden. Dabei kann es sich um die Vorlage für eine Hausarbeit, Seminararbeit, Masterarbeit oder Dissertation handeln. Auch kommt es häufig dazu, dass sich Studenten Mustervorlagen für die eigene '
+                    text: 'Beim akademischen Ghostwriting handelt es sich um das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Verfassen von Mustervorlagen für wissenschaftliche Texte'
+                  -
+                    type: text
+                    text: ' nach individuellen Vorgaben der Kunden. Dabei kann es sich um die Vorlage für eine Hausarbeit, Seminararbeit, Masterarbeit oder Dissertation handeln. Auch kommt es häufig dazu, dass sich Studenten Mustervorlagen für die eigene '
                   -
                     type: text
                     marks:
@@ -693,19 +838,57 @@ replicator:
                     text: 'Bachelorarbeit schreiben lassen'
                   -
                     type: text
-                    text: '. Allerdings beschränkt sich akademisches Ghostwriting nicht auf das eben beschriebene Gebiet. '
+                    text: '. Allerdings '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'beschränkt sich akademisches Ghostwriting nicht nur auf Texterstellungen'
+                  -
+                    type: text
+                    text: '. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unter akademischem Ghostwriting versteht man weiterhin die Erstellung von wissenschaftlichen Grundlagentexten für ein fokussiertes Forschungsgebiet, Übernahme und Dokumentation der Literaturrecherche zu einem bestimmten Thema oder auch dem Verfassen von Fachartikeln.'
+                    text: 'Unter akademischem Ghostwriting versteht man weiterhin die Erstellung von wissenschaftlichen Grundlagentexten für ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'fokussiertes Forschungsgebiet'
+                  -
+                    type: text
+                    text: ', Übernahme und Dokumentation der Literaturrecherche zu einem bestimmten Thema oder auch dem Verfassen von Fachartikeln.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Weiterhin beauftragen teilweise auch etablierte Unternehmen akademische Ghostwriter mit der Erstellung von wissenschaftlich fundierten Texten für geschäftliche Zwecke.'
+                    text: 'Weiterhin '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: beauftragen
+                  -
+                    type: text
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'etablierte Unternehmen akademische Ghostwriter'
+                  -
+                    type: text
+                    text: ' mit der Erstellung von wissenschaftlich fundierten Texten für geschäftliche Zwecke.'
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -786,7 +969,27 @@ replicator:
                             attrs:
                               color: '#000!important'
                               hex: '#000'
-                        text: 'Das professionelle Leistungspaket von Ghostwritern, die nach Kundenanforderungen Mustervorlagen für geschäftliche und akademischen Zwecken verfassen, beinhaltet weitere Leistungsbereiche, wie das Korrektorat, Lektorat und Plagiatsprüfung. '
+                        text: 'Das professionelle Leistungspaket von Ghostwritern, die '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: 'nach Kundenanforderungen Mustervorlagen für geschäftliche und akademischen Zwecken verfassen'
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: textColor
+                            attrs:
+                              color: '#000!important'
+                              hex: '#000'
+                        text: ', beinhaltet weitere Leistungsbereiche, wie das Korrektorat, Lektorat und Plagiatsprüfung. '
               -
                 type: paragraph
                 content:
@@ -798,7 +1001,47 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Die Korrekturen in der Arbeit dienen dazu, um grammatikalische und syntaktische Fehler zu vermeiden sowie korrekte und wissenschaftliche Sätze zu formulieren. Schließlich wird die Musterarbeit von einem Fachautoren im Leistungsbereich Lektorat und Korrektorat überprüft.'
+                    text: 'Die Korrekturen in der Arbeit dienen dazu, um grammatikalische und syntaktische Fehler zu vermeiden sowie korrekte und wissenschaftliche Sätze zu formulieren. Schließlich wird die Musterarbeit von einem Fachautoren im '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Leistungsbereich des Lektorats und Korrektorats'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' überprüft. Nach den Korrekturen kann eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'umfassende Plagiatsprüfung erfolgen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: .
               -
                 type: paragraph
                 content:
@@ -810,10 +1053,18 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Nach den Korrekturen kann eine umfassende Plagiatsprüfung erfolgen. Besonders Studenten entscheiden sich für diese kompakten Leistungen, um eine Musterarbeit vollständig für ihre Hausarbeit, Seminararbeit, Bachelorarbeit oder Masterarbeit schreiben lassen zu können.'
-              -
-                type: paragraph
-                content:
+                    text: 'Akademische Ghostwriter oder Ghostwriterinnen schreiben nicht nur wissenschaftliche Musterarbeiten, einen Ghostwriter kann man auch für das Zeichnen beauftragen, genauer gesagt für das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Erstellen technischer Zeichnungen'
                   -
                     type: text
                     marks:
@@ -822,7 +1073,17 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Akademische Ghostwriter oder Ghostwriterinnen schreiben nicht nur wissenschaftliche Musterarbeiten, einen Ghostwriter kann man auch für das Zeichnen beauftragen, genauer gesagt für das Erstellen technischer Zeichnungen. Besonders im Architekturstudium oder Ingenieursstudium möchten Studierende Musterzeichnungen für ihre Abgaben erstellen lassen.'
+                    text: '. Besonders im Architekturstudium oder Ingenieursstudium möchten viele Studierende Musterzeichnungen für ihre Abgaben erstellen lassen.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOSE ANFRAGE STELLEN!'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
             show_as_card: false
         type: row
         enabled: true
@@ -862,7 +1123,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Ein häufiges Problem im heutigen Ghostwriting Markt ist es, einen professionellen und seriösen Ghostwriter finden zu können, ohne dabei an einen sogenannten Hobbyschreiber oder gar eine zwielichtige Agentur zu geraten. Denn im schlimmsten Fall erhält man dabei ein Plagiat oder eine aus einer anderen Sprache übersetzte Arbeit.'
+                    text: 'Ein häufiges Problem im heutigen Ghostwriting Markt ist es, einen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'professionellen und seriösen Ghostwriter finden'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' zu können, ohne dabei an einen sogenannten Hobbyschreiber oder gar eine zwielichtige Agentur zu geraten. Denn im schlimmsten Fall erhält man dabei ein Plagiat oder eine aus einer anderen Sprache übersetzte Arbeit.'
               -
                 type: paragraph
                 content:
@@ -874,7 +1155,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Eine seriöse Ghostwriting Agentur arbeitet mit zertifizierten Ghostwritern aus jedem Fachbereich. Wenn Sie zum Beispiel Physik studieren, beauftragt unser professioneller Schreibservice ausschließliche ausgebildete Physiker für Ihre Projekte, keinesfalls Hobbyschreiber.'
+                    text: 'Eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'seriöse Ghostwriting Agentur arbeitet mit zertifizierten Ghostwritern'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' aus jedem Fachbereich. Wenn Sie zum Beispiel Physik studieren, beauftragt unser professioneller Schreibservice ausschließliche ausgebildete Physiker für Ihre Projekte, keinesfalls Hobbyschreiber.'
               -
                 type: paragraph
             show_as_card: false
@@ -927,7 +1228,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Zudem spielt eine seriöse Schreibagentur eine wichtige Rolle beim Finden eines geeigneten akademischen Ghostwriters. Eine Agentur für Ghostwriter verfügt, wenn sie als seriös einzustufen ist, über einen weitreichenden Pool von Ghostwritern. Aus diesem können genau die Schreiber ausgewählt werden, die die erforderlichen Qualifikationen für die jeweilige Aufgabe mitbringen, sei es die erforderliche fachliche Kompetenz oder auch das Wissen, wie die vorliegenden Daten statistisch ausgewertet oder welche akademischen Formalia eingehalten werden müssen. '
+                    text: 'Zudem spielt eine seriöse Schreibagentur eine wichtige Rolle beim Finden eines geeigneten akademischen Ghostwriters. Eine Agentur für Ghostwriter verfügt, wenn sie als seriös einzustufen ist, über einen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'weitreichenden Pool von Ghostwritern'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Aus diesem können genau die Schreiber ausgewählt werden, die die erforderlichen Qualifikationen für die jeweilige Aufgabe mitbringen. Sei es die erforderliche fachliche Kompetenz oder auch das Wissen, wie die vorliegenden Daten statistisch ausgewertet oder welche akademischen Formalia eingehalten werden müssen. '
               -
                 type: paragraph
                 content:
@@ -939,7 +1260,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Darüber hinaus stellt eine Schreibagentur viele professionelle Programmen kostenlos an einem Ghostwriter zur Verfügung, wie Plagiatssoftware, Zugriff auf relevanten Datenbanken/ Fachzeitschriften, automatisierten Zitiersystemen sowie Programme für quantitative Auswertungen oder qualitative Inhaltsanalysen wie SPSS und '
+                    text: 'Darüber hinaus stellt eine Schreibagentur ihren Ghostwritern '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'professionelle Programme kostenlos zur Verfügung'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Dazu zählen Plagiatssoftware, Zugriff auf relevanten Datenbanken/ Fachzeitschriften, automatisierten Zitiersystemen sowie Programme für quantitative Auswertungen oder qualitative Inhaltsanalysen wie SPSS und '
                   -
                     type: text
                     marks:
@@ -963,7 +1304,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: '. Für inhaltliche Korrekturen einer Musterarbeit, beauftragt eine akademische Dienstleistung einen unabhängigen professionellen Lektor.'
+                    text: '. Für inhaltliche Korrekturen einer Musterarbeit beauftragt ein akademischer Dienstleister in der Regel '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'unabhängige professionelle Lektoren'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: .
             show_as_card: false
         type: row
         enabled: true
@@ -1071,7 +1432,25 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Oft lassen sich solche Portale daran erkennen, dass nur eine einzige Ghostwriter Agentur bzw. die verschiedenen Portale einer Agentur empfohlen werden. Besonders auffällig ist dies bspw. auf ghostwritingerfahrungen.com, wo die drei Portale einer osteuropäischen Agentur bereits auf der Startseite verlinkt werden. Oft können Sie Ghostwriter Vergleiche auch auf einfache Weise selbst testen: Können Sie selbst Ghostwriter Bewertungen hinzufügen? Falls dies nicht funktionieren sollte, können Sie davon ausgehen, dass auch die anderen Ghostwriter Bewertungen nur vom Seitenbetreiber selbst hinzugefügt worden sind. Von solchen gefälschten Vergleichsportalen und den dort beworbenen Ghostwriter Agenturen sollten Sie sich unbedingt fern halten.'
+                    text: 'Oft lassen sich solche Portale daran erkennen, dass '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'nur eine einzige Ghostwriter Agentur'
+                  -
+                    type: text
+                    text: ' bzw. die verschiedenen Portale einer Agentur empfohlen werden. Besonders auffällig ist dies bspw. auf ghostwritingerfahrungen.com, wo die drei Portale einer osteuropäischen Agentur bereits auf der Startseite verlinkt werden. Oft können Sie Ghostwriter Vergleiche auch auf einfache Weise selbst testen: '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Können Sie selbst Ghostwriter Bewertungen hinzufügen?'
+                  -
+                    type: text
+                    text: ' Falls dies nicht funktionieren sollte, können Sie davon ausgehen, dass auch die anderen Ghostwriter Bewertungen nur vom Seitenbetreiber selbst hinzugefügt worden sind. Von solchen gefälschten Vergleichsportalen und den dort beworbenen Ghostwriter Agenturen sollten Sie sich unbedingt fern halten.'
               -
                 type: set
                 attrs:
@@ -1117,7 +1496,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Auch die Webseite eines Ghostwriters oder einer Ghostwriting Agentur stellt ein wichtiges Kriterium für dessen Seriosität dar. Erhalten Sie genügend Hintergrundinformationen über den Ghostwriter oder die Ghostwriter Agentur? Enthält die Webseite ein ordentliches '
+                    text: 'Die Webseite eines Ghostwriters oder einer Ghostwriting Agentur stellt ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'wichtiges Kriterium für die Seriosität dar'
+                  -
+                    type: text
+                    text: '. Erhalten Sie genügend Hintergrundinformationen über den Ghostwriter oder die Ghostwriter Agentur? Enthält die Webseite ein ordentliches '
                   -
                     type: text
                     marks:
@@ -1130,7 +1518,16 @@ replicator:
                     text: Impressum
                   -
                     type: text
-                    text: ' und eine DSGVO-konforme '
+                    text: ' und eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: DSGVO-konforme
+                  -
+                    type: text
+                    text: ' '
                   -
                     type: text
                     marks:
@@ -1157,7 +1554,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Nicht zuletzt gibt natürlich auch das Verhalten einer Agentur oder eines Ghostwriters im direkten Kontakt einen wichtigen Anhaltspunkt bzgl. der Seriosität. Beispielsweise ist es essentiell, dass man Sie von Beginn an beteiligt, wenn von der Agentur für Ihr Projekt ein Ghostwriter gesucht wird. Des Weiteren gehört zu einem seriösen Ghostwriting Service auch immer eine'
+                    text: 'Nicht zuletzt gibt natürlich auch das Verhalten einer Agentur oder eines Ghostwriters im direkten Kontakt einen wichtigen Anhaltspunkt bzgl. der Seriosität. Beispielsweise ist es essentiell, dass man Sie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'von Beginn an beteiligt, wenn von der Agentur für Ihr Projekt ein Ghostwriter gesucht wird'
+                  -
+                    type: text
+                    text: '. Des Weiteren gehört zu einem seriösen Ghostwriting Service auch immer eine'
                   -
                     type: text
                     marks:
@@ -1167,6 +1573,22 @@ replicator:
                   -
                     type: text
                     text: ', bei der ein Vertrauensverhältnis zwischen Kunde und Ghostwriter geschaffen wird und ein gemeinsamer Fahrplan für das Projekt abgestimmt und festgelegt wird.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOSE ANFRAGE STELLEN!'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -1192,7 +1614,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Seriöse Ghostwriter und Agenturen verkaufen keine fertigen Arbeiten "aus der Schublade". Kunden, die eine fertige '
+                    text: 'Seriöse Ghostwriter und Agenturen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'verkaufen keine fertigen Arbeiten'
+                  -
+                    type: text
+                    text: ' "aus der Schublade". Kunden, die eine fertige '
                   -
                     type: text
                     marks:
@@ -1245,7 +1676,13 @@ replicator:
                     text: 'Ghostwriting legal'
                   -
                     type: text
-                    text: '? Ja! Anders steht es aber um das Schreiben von Klausuren für Kunden und den Handel mit Titeln von dubiosen Universitäten. Solche illegalen Dienstleistung würde Ihnen eine seriöse Ghostwriting Agentur niemals anbieten. GWriters handelt stets legal, auch zu Ihrem Schutz!'
+                    text: '? Ja! Anders steht es aber um das Schreiben von Klausuren für Kunden und den Handel mit Titeln von dubiosen Universitäten. Illegale Dienstleistung würde Ihnen eine seriöse Ghostwriting Agentur niemals anbieten. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'GWriters handelt stets legal, auch zu Ihrem Schutz!'
               -
                 type: heading
                 attrs:
@@ -1259,7 +1696,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriter schreiben nicht nur hochwissenschaftliche Artikel, welche nur von wenigen Menschen gelesen werden. Vielmehr findet man ihre Ergebnisse in vielen Bereichen, welche uns im täglichen Leben begegnen. So existieren neben Werken á la zu Guttenberg auch von „Geisterhand“ geschriebene Reden, Songtexte, Autobiografien, Bücher und sogar Drehbücher von bekannten Filmen.'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Ghostwriter schreiben nicht nur hochwissenschaftliche Artikel'
+                  -
+                    type: text
+                    text: ', welche nur von wenigen Menschen gelesen werden. Vielmehr findet man ihre Ergebnisse in vielen Bereichen, welche uns im täglichen Leben begegnen. So existieren neben Werken á la zu Guttenberg auch von „Geisterhand“ geschriebene Reden, Songtexte, Autobiografien, Bücher und sogar Drehbücher von bekannten Filmen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1301,25 +1744,24 @@ replicator:
                       -
                         text: Arbeiten
                         eintraege:
-                          - 0ab5b925-9854-4b94-88a5-8bc50f0ecc0b
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
-                          - 89093abd-fdd4-4830-a368-7ede1b75ca1a
                           - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
                           - 425234fd-eb40-4dab-bb3d-95bbac5948eb
                           - 5659593d-2756-4e9f-a5b3-b391103d9886
-                          - 62115090-7bb2-448f-bb32-a32bb5977382
                           - cb0a74d3-ed84-4dad-b3a7-c368aec13800
                           - 134ba799-3362-4166-86f7-bba4e992d7d7
-                          - aa35a1ca-0812-4402-a4d5-4a6d4aa8c1c0
                           - 5c6db140-ee4a-4a88-bf56-4153664421d4
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-                          - 686e5203-e17a-4101-809a-07c9f799ccfa
                           - b42eb586-1305-4faf-8d59-79e53ff91373
+                          - 68b88fd1-ec03-4ea8-9292-431555e47744
+                          - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
+                          - 2b55bfe7-06df-4e71-86da-152e256904ec
+                          - 52f5092f-800b-4742-8636-a840b9ab1ddb
+                          - 2931f444-5e22-4860-8f40-a41821377b93
                       -
                         text: Fachrichtungen
                         eintraege:
-                          - a9cc9473-308b-4615-8f30-d545f7f63faf
                           - 1363a62f-c0e9-4dba-aa09-d331c4fa8260
                           - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
                           - 06fbb3f4-51c2-4f11-832e-9b72a495857d
@@ -1334,7 +1776,6 @@ replicator:
                           - 34f7528d-839e-4ef6-b735-627084dba887
                           - 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
                           - d72509d7-bb3a-40dd-a757-3317732e2a57
-                          - ba720f59-eeef-4287-b441-251391efa6bc
                           - a9561621-8360-4ecf-855c-753f4a217c5a
                           - dc0c7edd-0724-4454-9525-49b8f9065f16
                           - bfd868ec-f81c-4805-8122-2e11008e72f2
@@ -1349,6 +1790,11 @@ replicator:
                           - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
                           - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
                           - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
+                          - 1de3d76b-f23a-41a8-a629-15b48a07223e
+                          - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
+                          - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
+                          - f07c0010-40dd-407e-bf32-a1a260b5016b
+                          - b8930678-fff6-4d7a-8ae8-056605f303f2
               -
                 type: paragraph
             show_as_card: false
@@ -1385,7 +1831,34 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriter haben die verschiedensten Motive. In der Regel sind sie freiberuflich tätig und werden überdurchschnittlich gut für ihre Arbeit entlohnt. Daraus ergibt sich ein Beruf mit genügend finanzieller Freiheit und flexibler Zeiteinteilung. Des Weiteren werden viele Ghostwriter von der Leidenschaft zum Schreiben angetrieben.'
+                    text: 'Ghostwriter haben die verschiedensten Motive. In der Regel sind sie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'freiberuflich tätig'
+                  -
+                    type: text
+                    text: ' und werden überdurchschnittlich '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'gut für ihre Arbeit entlohnt'
+                  -
+                    type: text
+                    text: '. Daraus ergibt sich ein Beruf mit genügend finanzieller Freiheit und flexibler Zeiteinteilung. Des Weiteren werden viele Ghostwriter von der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Leidenschaft zum Schreiben'
+                  -
+                    type: text
+                    text: ' angetrieben.'
               -
                 type: paragraph
                 content:
@@ -1397,13 +1870,31 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Mit der wachsenden Bedeutung von Studienabschlüssen und Titeln für die Karrierechancen im Beruf wächst auch der Markt für akademische Ghostwriter stetig weiter. Doch nicht nur die Nachfrage ist hoch: Wissenschaftliche Autoren werden häufig verhältnismäßig schlecht bezahlt. Viele dieser Menschen entschließen sich von daher zu einer zusätzlichen Nebentätigkeit.'
+                    text: 'Mit der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'wachsenden Bedeutung von Studienabschlüssen und Titeln'
+                  -
+                    type: text
+                    text: ' für die Karrierechancen im Beruf wächst auch der Markt für akademische Ghostwriter stetig weiter. Doch nicht nur die Nachfrage ist hoch: Wissenschaftliche Autoren werden häufig verhältnismäßig schlecht bezahlt. Viele dieser Menschen entschließen sich von daher zu einer zusätzlichen Nebentätigkeit.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Das akademische Ghostwriting liegt hier nahe, da sich diese Personen tagtäglich mit der Forschung und dem wissenschaftlichem Arbeiten auseinandersetzen.'
+                    text: 'Das akademische Ghostwriting liegt hier nahe, da sich diese Personen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'tagtäglich mit der Forschung'
+                  -
+                    type: text
+                    text: ' und dem wissenschaftlichem Arbeiten auseinandersetzen.'
               -
                 type: heading
                 attrs:
@@ -1417,7 +1908,41 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Grundsätzlich kommt es in den seltensten Fällen vor, dass Ghostwriter als solche auch in der Öffentlichkeit gezeigt werden. Gerade akademische Ghostwriter verpflichten sich zu Stillschweigen und werden bei der Zusammenarbeit mit einer entsprechenden Agentur niemals (anders als beispielsweise bei Autobiographien) einen persönlichen Kontakt zum Auftraggeber haben. Die Anonymität steht an oberster Stelle um nicht zuletzt gerade den Auftraggeber zu schützen. Dem Kunden wird bei Vorlagen für Masterarbeiten dringend davon abgeraten, den Text zu übernehmen, sondern diesen tatsächlich nur als Vorlage zur Bearbeitung zu sehen.'
+                    text: 'Grundsätzlich kommt es in den seltensten Fällen vor, dass Ghostwriter als solche auch in der Öffentlichkeit gezeigt werden. Gerade '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'akademische Ghostwriter verpflichten sich zu Stillschweigen'
+                  -
+                    type: text
+                    text: '. Diese werden bei der Zusammenarbeit mit einer entsprechenden Agentur niemals (anders als beispielsweise bei Autobiographien) einen persönlichen Kontakt zum Auftraggeber haben.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Anonymität steht an oberster Stelle, nicht zuletzt um den Auftraggeber zu schützen. Dem Kunden wird bei Vorlagen für Masterarbeiten dringend davon abgeraten, den Text zu übernehmen, sondern diesen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'tatsächlich nur als Vorlage zur Bearbeitung'
+                  -
+                    type: text
+                    text: ' zu sehen.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOSE ANFRAGE STELLEN!'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
               -
                 type: set
                 attrs:
@@ -1532,8 +2057,8 @@ replicator:
     type: add_section
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1639498573
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1643111369
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
