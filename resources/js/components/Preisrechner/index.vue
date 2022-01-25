@@ -208,7 +208,7 @@ export default {
     },
     topLevelDomain() {
       const tld = window.location.origin.split('.').pop()
-      return tld === 'me' ? 'de' : tld
+      return ['me', 'net'].includes(tld) ? 'de' : tld
     },
     result() {
       if (!this.complete) return false
