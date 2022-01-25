@@ -53,11 +53,11 @@ teaser:
   -
     type: paragraph
 teaser_bg: seiten/header-so-funktionierts.jpeg
-page_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
+page_title: 'BWL - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641989919
+updated_at: 1643110847
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -362,8 +362,6 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -424,8 +422,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '30'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -473,8 +469,6 @@ replicator:
                           - 34f7528d-839e-4ef6-b735-627084dba887
                           - 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
                           - d72509d7-bb3a-40dd-a757-3317732e2a57
-                          - ba720f59-eeef-4287-b441-251391efa6bc
-                          - a9cc9473-308b-4615-8f30-d545f7f63faf
                           - dc0c7edd-0724-4454-9525-49b8f9065f16
                           - 1363a62f-c0e9-4dba-aa09-d331c4fa8260
                           - a9561621-8360-4ecf-855c-753f4a217c5a
@@ -490,6 +484,12 @@ replicator:
                           - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
                           - f07c0010-40dd-407e-bf32-a1a260b5016b
                           - b8930678-fff6-4d7a-8ae8-056605f303f2
+                          - 1de3d76b-f23a-41a8-a629-15b48a07223e
+                          - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
+                          - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
+                          - 06fbb3f4-51c2-4f11-832e-9b72a495857d
+                          - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
+                          - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
               -
                 type: set
                 attrs:
@@ -517,12 +517,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -559,35 +553,15 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
                     type: video
                     video: 'https://youtu.be/PmgIh10dij0'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single-col: false
         grid:
           -
             bard:
@@ -598,20 +572,13 @@ replicator:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
                     button_align: justify-center
                     spacing_top: false
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
@@ -713,8 +680,6 @@ replicator:
                     type: spacer
                     padding-y: '30'
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
@@ -736,8 +701,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '30'
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -945,14 +908,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -1056,8 +1011,6 @@ replicator:
                     type: spacer
                     padding-y: '30'
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
@@ -1071,8 +1024,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '30'
-              -
-                type: paragraph
               -
                 type: paragraph
                 content:
@@ -1100,18 +1051,10 @@ replicator:
                   -
                     type: text
                     text: '. Ghostwriter sind jedoch in anderen Fällen, wie beispielsweise bei der Erstellung einer Marktanalyse/eines Businessplans für ein Unternehmen oder das Schreiben eines Buches für eine Privatperson, zulässig.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '15'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-image-fixed: false
@@ -1307,9 +1250,9 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
+meta_title: 'BWL - Ghostwriter, Lektoren & Coaches • GWriters'
 meta_description: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-og_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
+og_title: 'BWL - Ghostwriter, Lektoren & Coaches • GWriters'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
