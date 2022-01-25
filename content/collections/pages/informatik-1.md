@@ -58,7 +58,7 @@ page_title: 'Informatik - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643108611
+updated_at: 1643109226
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -916,7 +916,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -1089,58 +1089,60 @@ replicator:
                         type: bold
                     text: 'Aufbau des Informatikstudiums'
               -
-                type: set
+                type: heading
                 attrs:
-                  values:
-                    type: accordion-wrapper
-                    items:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: Studienform
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Obwohl die Informatik durchweg logisch aufgebaut ist, zählt das Studium doch zu einem der anspruchsvollsten Studiengängen in der deutschen Hochschullandschaft. Der große Mangel an Arbeitskräften im informationsverarbeitenden Bereich spricht dort für sich. Regulär werden die Abschlussbezeichnungen Bachelor of Science und Master of Science vergeben. Die Zeit für ein Studienabschluss liegt zwischen '
+                  -
+                    type: text
+                    marks:
                       -
-                        headline: Studienform
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Obwohl die Informatik durchweg logisch aufgebaut ist, zählt das Studium doch zu einem der anspruchsvollsten Studiengängen in der deutschen Hochschullandschaft. Der große Mangel an Arbeitskräften im informationsverarbeitenden Bereich spricht dort für sich. Regulär werden die Abschlussbezeichnungen Bachelor of Science und Master of Science vergeben. Die Zeit für ein Studienabschluss liegt zwischen '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: '6 und 8 Semester für einen Bachelorabschluss (meist 6) und weitere 2 bis 4 Semester (meist 4) für den anschließenden Abschluss im Bereich Master'
-                              -
-                                type: text
-                                text: .
-                        active: true
+                        type: bold
+                    text: '6 und 8 Semester für einen Bachelorabschluss (meist 6) und weitere 2 bis 4 Semester (meist 4) für den anschließenden Abschluss im Bereich Master'
+                  -
+                    type: text
+                    text: .
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Studiendauer: Informatik'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein konsekutiver Masterstudiengang hat somit insgesamt mit dem zuvor abgeschlossenem Bachelor eine Studienzeit von'
+                  -
+                    type: text
+                    marks:
                       -
-                        headline: 'Studiendauer: Informatik'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Ein konsekutiver Masterstudiengang hat somit insgesamt mit dem zuvor abgeschlossenem Bachelor eine Studienzeit von'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: ' 10 Semestern'
-                              -
-                                type: text
-                                text: ', was '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: '300 ECTS-Punkten'
-                              -
-                                type: text
-                                text: ' entspricht. Im fünften Semester steht ein Praxissemester an. In dieser Phase werden praktische Kenntnisse gesichert und Kontakte zu potenziellen späteren Arbeitgebern aufgebaut. Die praktischen Erfahrungen werden mit einer Projektarbeit abgerundet.'
-                        active: true
+                        type: bold
+                    text: ' 10 Semestern'
+                  -
+                    type: text
+                    text: ', was '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '300 ECTS-Punkten'
+                  -
+                    type: text
+                    text: ' entspricht. Im fünften Semester steht ein Praxissemester an. In dieser Phase werden praktische Kenntnisse gesichert und Kontakte zu potenziellen späteren Arbeitgebern aufgebaut. Die praktischen Erfahrungen werden mit einer Projektarbeit abgerundet.'
               -
                 type: set
                 attrs:
@@ -1156,56 +1158,66 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '16'
+                    padding-y: '20'
               -
-                type: set
+                type: heading
                 attrs:
-                  values:
-                    type: accordion-wrapper
-                    items:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: Prüfungsleistungen
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im Rahmen des fortgeschrittenen Studienprozesses im Bachelor- und Masterstudium sind die Hochschulen angehalten, dass sie von ihren Informatikstudenten pro Semester'
+                  -
+                    type: text
+                    marks:
                       -
-                        headline: Prüfungsleistungen
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Im Rahmen des fortgeschrittenen Studienprozesses im Bachelor- und Masterstudium sind die Hochschulen angehalten, dass sie von ihren Informatikstudenten pro Semester'
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: ' mindestens 5-6 Klausuren und eine Hausarbeit schreiben lassen'
-                              -
-                                type: text
-                                text: '. Abgeschlossen wird das Studium durch das Schreiben einer Examensarbeit. Um den Bachelor zu erreichen wird dabei das Schreiben einer Bachelorarbeit vorgesehen, beim Masterstudiengang ist es die Masterarbeit. Nach dem Master kann eine Promotion gemacht werden, um einen Doktortitel durch eine Doktorarbeit zu erlangen. Daher werden häufig akademische Ghostwriter aufgesucht, die bei der wissenschaftlichen Arbeit helfen oder sogar eine gesamte Musterarbeit erstellen.'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: "Nicht nur für eine Hausarbeit, Facharbeit, Seminararbeit oder andere Abgaben während des Studiums bieten sich akademische Freelancer an. Sie können dem Studenten der Informatik auch bei einer Examensausarbeitung, wie der Bachelorarbeit, der Masterarbeit oder sogar der Dissertation unterstützend zur Seite stehen, indem hochqualitative Mustervorlagen verfasst werden. Besonders beliebt sind in der Informatik Ghostwriter, die einem Unternehmen bei ihrer internen IT-Struktur helfen oder ihnen Konzepte visualisieren. In solchen Fällen ist\_"
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /ghostwriting
-                                      target: null
-                                      rel: null
-                                text: Ghostwriting
-                              -
-                                type: text
-                                text: "\_unproblematisch."
-                        active: true
+                        type: bold
+                    text: ' mindestens 5-6 Klausuren und eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Hausarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '. Abgeschlossen wird das Studium durch das Schreiben einer Examensarbeit. Um den Bachelor zu erreichen wird dabei das Schreiben einer Bachelorarbeit vorgesehen, beim Masterstudiengang ist es die Masterarbeit. Nach dem Master kann eine Promotion gemacht werden, um einen Doktortitel durch eine Doktorarbeit zu erlangen. Daher werden häufig akademische Ghostwriter aufgesucht, die bei der wissenschaftlichen Arbeit helfen oder sogar eine gesamte Musterarbeit erstellen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Nicht nur für eine Hausarbeit, Facharbeit, Seminararbeit oder andere Abgaben während des Studiums bieten sich akademische Freelancer an. Sie können dem Studenten der Informatik auch bei einer Examensausarbeitung, wie der Bachelorarbeit, der Masterarbeit oder sogar der Dissertation unterstützend zur Seite stehen, indem hochqualitative Mustervorlagen verfasst werden. Besonders beliebt sind in der Informatik Ghostwriter, die einem Unternehmen bei ihrer internen IT-Struktur helfen oder ihnen Konzepte visualisieren. In solchen Fällen ist\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: "\_unproblematisch."
             show_as_card: false
         type: row
         enabled: true
@@ -1241,8 +1253,6 @@ replicator:
                     ex_button_text: Weiterlesen
                     ex_button_align: justify-start
                     ex_spacing_top: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1298,254 +1308,213 @@ replicator:
                     type: text
                     text: 'Hinzu kommt eine Informatik, die sich politischen Regeln unterwirft. Unter dem Motto „Netzpolitik ist Wirtschaftspolitik“ hat sich beispielsweise in Deutschland ein Kompetenzzentrum in Zusammenarbeit von Bundesministerien und den entsprechenden Fachgesellschaften der Informatik entstanden.'
               -
-                type: set
+                type: heading
                 attrs:
-                  values:
-                    type: accordion-custom-wrapper
-                    items:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Disziplinen der Informatik'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Informatik beherbergt in hierarchischer Ordnung eine Reihe von Disziplinen. Über allem steht dabei die Disziplin der Angewandten Informatik und Realisierung. Aus dieser gehen die Technische Informatik und die Praktische Informatik hervor. Beide wiederum bedingen die Theoretische Informatik.'
+              -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    text: Subdisziplinen
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '• die Geoinformatik,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• die Medizininformatik,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: "• die\_"
+                  -
+                    type: text
+                    marks:
                       -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 2
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Disziplinen der Informatik:'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Die Informatik beherbergt in hierarchischer Ordnung eine Reihe von Disziplinen. Über allem steht dabei die Disziplin der Angewandten Informatik und Realisierung. Aus dieser gehen die Technische Informatik und die Praktische Informatik hervor. Beide wiederum bedingen die Theoretische Informatik.'
-                        active: false
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                       -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 3
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Subdisziplinen: '
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '• die Geoinformatik,'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• die Medizininformatik,'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: "• die\_"
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: '#000!important'
-                                      hex: '#000'
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /fachrichtungen/wirtschaftsinformatik
-                                      target: null
-                                      rel: null
-                                text: "Wirtschaftsinformatik\_"
-                              -
-                                type: text
-                                text: oder
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• die angewandte Informatik.'
-                        active: false
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/wirtschaftsinformatik
+                          target: null
+                          rel: null
+                    text: "Wirtschaftsinformatik\_"
+                  -
+                    type: text
+                    text: oder
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• die angewandte Informatik.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Der Theoretischen Informatik unterliegen die Teilbereiche:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '• Theorie formaler Sprachen'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Berechenbarkeitstheorie'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Formale Semantik'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Kryptologie'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Logik'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Automatentheorie'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Komplexitäts-Theorie'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Graphentheorie.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Damit bestehen die Aufgaben der Theoretischen Informatik u.a. in der Entwicklung künstlicher Sprachen zu eindeutigen Algorithmen und der Ableitung von Grundlagen für den Ablauf und das Verhalten informationsverarbeitender Maschinen. Darüberhinaus schafft sie Beschreibungsmittel für die Semantik und Syntax der Programmiersprachen und der komplexen Schaltkreise und klassifiziert berechenbare als auch nichtberechenbare Algorithmusfunktionen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Daneben befasst sich die Praktische Informatik u.a mit:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '• Programmiersprachen'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Algorithmen'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Datenstrukturen'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• dem Compilierbau'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Praktische Informatik schafft damit die Grundlage für die Arbeit an künstlicher Intelligenz, Informations- und Kommunikationssystemen, grafischer Datenverarbeitung und entwickelt neben Datenstrukturen und Datenorganisationen u.a. auch kognitive Verfahren und Systeme.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Zur Technischen Informatik gehören:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '• Rechnerarchitekturen,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Rechnerorganisation,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Mikroprozessortechniken,'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Schaltungstechnik'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Rechnerkommunikationen und'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: "• die\_"
+                  -
+                    type: text
+                    marks:
                       -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 2
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Der Theoretischen Informatik unterliegen die Teilbereiche:'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '• Theorie formaler Sprachen'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Berechenbarkeitstheorie'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Formale Semantik'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Kryptologie'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Logik'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Automatentheorie'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Komplexitäts-Theorie'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Graphentheorie.'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Damit bestehen die Aufgaben der Theoretischen Informatik u.a. in der Entwicklung künstlicher Sprachen zu eindeutigen Algorithmen und der Ableitung von Grundlagen für den Ablauf und das Verhalten informationsverarbeitender Maschinen. Darüberhinaus schafft sie Beschreibungsmittel für die Semantik und Syntax der Programmiersprachen und der komplexen Schaltkreise und klassifiziert berechenbare als auch nichtberechenbare Algorithmusfunktionen.'
-                        active: false
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                       -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 2
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Daneben befasst sich die Praktische Informatik u.a mit:'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '• Programmiersprachen'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Algorithmen'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Datenstrukturen'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• dem Compilierbau'
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Die Praktische Informatik schafft damit die Grundlage für die Arbeit an künstlicher Intelligenz, Informations- und Kommunikationssystemen, grafischer Datenverarbeitung und entwickelt neben Datenstrukturen und Datenorganisationen u.a. auch kognitive Verfahren und Systeme.'
-                        active: false
-                      -
-                        headline:
-                          -
-                            type: heading
-                            attrs:
-                              level: 2
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Zur Technischen Informatik gehören:'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '• Rechnerarchitekturen,'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Rechnerorganisation,'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Mikroprozessortechniken,'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Schaltungstechnik'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: '• Rechnerkommunikationen und'
-                              -
-                                type: hard_break
-                              -
-                                type: text
-                                text: "• die\_"
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: textColor
-                                    attrs:
-                                      color: blue
-                                      hex: '#000'
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /fachrichtungen/elektrotechnik
-                                      target: null
-                                      rel: null
-                                text: Elektrotechnik
-                              -
-                                type: text
-                                text: .
-                        active: false
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/elektrotechnik
+                          target: null
+                          rel: null
+                    text: Elektrotechnik
+                  -
+                    type: text
+                    text: .
               -
                 type: paragraph
                 content:
@@ -2024,9 +1993,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '43'
-              -
-                type: paragraph
+                    padding-y: '40'
             show_as_card: false
         type: row
         enabled: true
