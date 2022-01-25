@@ -1234,7 +1234,6 @@ replicator:
                       -
                         text: Fachrichtungen
                         eintraege:
-                          - a9cc9473-308b-4615-8f30-d545f7f63faf
                           - 1363a62f-c0e9-4dba-aa09-d331c4fa8260
                           - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
                           - 06fbb3f4-51c2-4f11-832e-9b72a495857d
@@ -1249,7 +1248,6 @@ replicator:
                           - 34f7528d-839e-4ef6-b735-627084dba887
                           - 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
                           - d72509d7-bb3a-40dd-a757-3317732e2a57
-                          - ba720f59-eeef-4287-b441-251391efa6bc
                           - a9561621-8360-4ecf-855c-753f4a217c5a
                           - dc0c7edd-0724-4454-9525-49b8f9065f16
                           - bfd868ec-f81c-4805-8122-2e11008e72f2
@@ -1264,6 +1262,11 @@ replicator:
                           - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
                           - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
                           - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
+                          - 1de3d76b-f23a-41a8-a629-15b48a07223e
+                          - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
+                          - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
+                          - b8930678-fff6-4d7a-8ae8-056605f303f2
+                          - f07c0010-40dd-407e-bf32-a1a260b5016b
               -
                 type: paragraph
             show_as_card: false
@@ -1520,7 +1523,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1641990461
+updated_at: 1643111406
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
