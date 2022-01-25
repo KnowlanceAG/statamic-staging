@@ -58,7 +58,7 @@ page_title: 'Informatik - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643109471
+updated_at: 1643109505
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -221,19 +221,10 @@ replicator:
                     marks:
                       -
                         type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
                     text: 'Die Informatik ist die Lehre von der Informationsverarbeitung'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'mit Hilfe von digitalen Verarbeitungseinheiten. Sie hat sich aus der Mathematik entwickelt und erfordert ein hohes Maß an logischem Denkvermögen. Zudem sind auch Elemente der Physik und Elektrotechnik essentiell in der Informatik. Besonders in der modernen und automatisierten Welt sind Informatiker gesuchte Fachkräfte. Das Studium erweist sich jedoch als sehr anspruchsvoll, da es den studentischen Alltag mit hohen Durchfallquoten prägt. Neben zahlreichen Hausarbeiten und Abgaben, ist im Bachelorstudium vorgesehen, dass Hochschulen von Studierenden der Informatik eine Bachelorarbeit schreiben lassen. '
+                    text: ' mit Hilfe von digitalen Verarbeitungseinheiten. Sie hat sich aus der Mathematik entwickelt und erfordert ein hohes Maß an logischem Denkvermögen. Zudem sind auch Elemente der Physik und Elektrotechnik essentiell in der Informatik. Besonders in der modernen und automatisierten Welt sind Informatiker gesuchte Fachkräfte. Das Studium erweist sich jedoch als sehr anspruchsvoll, da es den studentischen Alltag mit hohen Durchfallquoten prägt. Neben zahlreichen Hausarbeiten und Abgaben, ist im Bachelorstudium vorgesehen, dass Hochschulen von Studierenden der Informatik eine Bachelorarbeit schreiben lassen. '
               -
                 type: paragraph
                 content:
