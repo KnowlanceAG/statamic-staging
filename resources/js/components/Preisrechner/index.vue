@@ -60,10 +60,11 @@
                 inputmode="numeric"
                 pattern="[0-9]+"
                 autocomplete="off"
-                min="1"
+                min="0"
                 max="9999"
                 id="pages"
                 class="w-full"
+                @input="validatePages"
             />
         </div>
         <div class="lg:col-span-2">
@@ -158,7 +159,7 @@ export default {
   watch: {
     pages: function(value) {
       if (value > 9999) this.pages = 9999
-      if (value < 1) this.pages = 1
+      if (value < 0) this.pages = 1
     },
     timeUnit: function(value) {
       if (value > 999999) this.timeUnit = 999999
@@ -240,6 +241,9 @@ export default {
     }
   },
   methods: {
+    validatePages({ target }) {
+      this.pages = Number.parseInt(target.value)
+    },
     mapArrays(array) {
       if (!array) return []
       return array.map(o => {
