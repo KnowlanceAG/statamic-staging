@@ -64,6 +64,7 @@
                 max="9999"
                 id="pages"
                 class="w-full"
+                @input="validatePages"
             />
         </div>
         <div class="lg:col-span-2">
@@ -240,6 +241,9 @@ export default {
     }
   },
   methods: {
+    validatePages({ target }) {
+      this.pages = Number.parseInt(target.value)
+    },
     mapArrays(array) {
       if (!array) return []
       return array.map(o => {
