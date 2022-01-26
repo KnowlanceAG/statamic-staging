@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Gesetze zitieren'
 size: 18356
 last_modified: 1643146918
 width: 667
