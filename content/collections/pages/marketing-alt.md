@@ -2,7 +2,7 @@
 id: 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
 published: false
 blueprint: pages
-title: 'Jura (Dupliziert)'
+title: 'Marketing (Dupliziert)'
 teaser:
   -
     type: heading
@@ -58,7 +58,7 @@ page_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1643385688
+updated_at: 1643385712
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
