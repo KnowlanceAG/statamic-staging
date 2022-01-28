@@ -51,7 +51,7 @@ page_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1643386016
+updated_at: 1643386618
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -78,7 +78,7 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Jura. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Jura Aufgabenstellungen</b>, der perfekt zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Jura in sichere Hände geben und bei einem Jura-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Juristen, Doktoren und Professoren arbeitet.
+                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Marketing. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Marketing Aufgabenstellungen</b>, der perfekt zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Marketing in sichere Hände geben und bei einem Marketing-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Marketingexperten, Doktoren und Professoren arbeitet.
                       </p>
               -
                 type: paragraph
@@ -203,28 +203,134 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Unsere Jura Ghostwriter'
+                    text: 'Unsere Marketing Ghostwriter'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unser Team von erfahrenen Akademikern aus dem Fach Jura unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen sowie bei der Entstehung der Arbeiten. Unsere Akademiker sind Professoren im Rechtsbereich. Für jede rechtliche Problemstellung findet unsere professionelle Ghostwriting-Dienstleistung Ihnen den passenden Ghostwriter aus dem jeweiligen Rechtsgebiet, um Ihren Fall zu bearbeiten und zu lösen. Sie kennen alle Gesetzbücher: '
+                    text: "Unter Marketing versteht man die Idee einer marktorientierten Unternehmensführung, um den Bedürfnissen der Kunden auf bestmögliche Art gerecht zu werden. Aufgrund seiner Funktion als Treiber des unternehmerischen Absatzes, ist Marketing ein Bereich der\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/bwl
+                          target: null
+                          rel: null
+                    text: Betriebswirtschaftslehre
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/wirtschaftswissenschaften
+                          target: null
+                          rel: null
+                    text: Wirtschaftswissenschaften
+                  -
+                    type: text
+                    text: '. In größeren, aber auch in mittelständischen und einigen kleinen Unternehmen, gibt es oftmals eine eigene Marketingabteilung. Diese befasst sich mit der Vermarktung der hergestellten Produkte oder angebotenen Dienstleistungen. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die meisten unserer '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Das Sozialgesetzbuch (SGB), das Handelsgesetzbuch (HGB), das Bürgerliche Gesetzbuch (BGB) und das Strafgesetzbuch (StGB)'
+                      -
+                        type: textColor
+                        attrs:
+                          color: orange-500
+                          hex: '#ff6606'
+                    text: 'Marketing Ghostwriter'
                   -
                     type: text
-                    text: .
-              -
-                type: paragraph
-                content:
+                    text: ' kommen direkt aus diesen Unternehmensabteilungen. Zumindest haben diese aber einen anderen Praxisbezug zu verschiedenen Bereichen der Vermarktung und seiner Marketingstrategien. Daher kann Sie Unser Team bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen unterstützen. Ob es sich bei Ihrem '
                   -
                     type: text
-                    text: 'Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Erstellung handelt: wir bieten Ihnen umfassenden individuellen Beistand.'
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: orange-500
+                          hex: '#ff6606'
+                    text: Projekt
+                  -
+                    type: text
+                    text: ' um eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: orange-500
+                          hex: '#ff6606'
+                    text: Präsentatio
+                  -
+                    type: text
+                    text: 'n, eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: orange-500
+                          hex: '#ff6606'
+                    text: 'Musterarbeit für eine Abschlussarbeit'
+                  -
+                    type: text
+                    text: ', für eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: orange-500
+                          hex: '#ff6606'
+                    text: 'Neuerstellung von unterschiedlichen Aufträgen'
+                  -
+                    type: text
+                    text: ' oder für eine andere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: orange-500
+                          hex: '#ff6606'
+                    text: 'akademische Ausarbeitung'
+                  -
+                    type: text
+                    text: ' handelt, wir bieten Ihnen umfassende individuelle und professionelle Unterstützung durch Fachautoren.'
             show_as_card: false
         type: row
         enabled: true
@@ -327,117 +433,11 @@ replicator:
           -
             bard:
               -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Jura - Rechtswissenschaften'
-              -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Rechtswissenschaften – auch als Jurisprudenz von lateinisch '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: '„iuris prudenita“ = „Kenntnis des Rechts“ '
-                  -
-                    type: text
-                    text: 'abgeleitet und bezeichnet – haben schon eine lange Tradition und Historie; die Grundzüge finden sich bereits in der Antike, wobei erst in römischer Zeit von einer „echten“ Rechtswissenschaft gesprochen werden kennen, die Fragestellungen systematisch reflektierte. Es geht bei den Rechtswissenschaften im modernen Verständnis darum, juristische Fälle zu durchdringen und Falllösungen zu erarbeiten, die mit dem herrschenden Recht in Einklang stehen. So erfahren die Fälle sowohl eine rechtswissenschaftliche, als auch eine geisteswissenschaftliche Würdigung.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Als „Begründer“ der Rechtswissenschaft gilt der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Römer Ulpian'
-                  -
-                    type: text
-                    text: ', der die Rechtswissenschaft als Kenntnis der menschlichen und göttlichen Entwicklung sowie als Wissenschaft vom Gerechten und Ungerechten interpretierte. Rechtswissenschaften können so als hermeneutische Disziplin (Textwissenschaft) verstanden werden und gehören zu den Geisteswissenschaften.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Was lernt man im Jura Studium?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In einem rechtswissenschaftlichen Studium lernen Studenten Sachverhalte in logische Einheiten aufzuteilen und sie mithilfe von passenden Gesetzen zu interpretieren. Logisches Denken und die Fähigkeit, Gegebenheiten in kürzester Zeit zu analysieren gehören zu den Grundkompetenzen eines Jura-Studenten. Ergänzt wird dies mit der Vermittlung einer strukturierten Vorgehensweise, um hier auch komplexe Sachverhalte erfassen und Falllösungen finden zu können. Diese Fähigkeiten zu Erlangen ist ein langwieriger und aufwendiger Prozess, dessen Anforderungen sehr hoch sind. Die Durchfallquoten in Jura sind wesentlich höher, als bei anderen Studienfächern.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Nichts desto trotz rangiert Jura aber bei einem Blick auf die beliebtesten Studiengänge seit Jahren auf Rang 3, was insbesondere auf die exzellenten Karrierechancen mit einem attraktiven Gehalt nach Abschluss des Jurastudiums zurückzuführen ist: nach 10 Berufsjahren hat sich das '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Einstiegsgehalt
-                  -
-                    type: text
-                    text: ' eines ehemaligen Jura Studenten im Schnitt '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: versechsfacht
-                  -
-                    type: text
-                    text: '. Als mögliche Berufe, die nach dem Studium in Frage kommen, kann der Richter, der Staatsanwalt, der Rechtsanwalt oder der Notar erwähnt werden.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Dementsprechend lastet ein immenser Leistungsdruck auf den Studenten. Ein Jura\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://statamic-dynamic.gwriters.de/ghostwriter'
-                          target: _blank
-                          rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    text: "\_oder Freelancer schafft neue Freiräume für den Studenten, um sich für wichtige Rechtfachprüfungen oder ein Praktikum genügend vorzubereiten zu können. Darüber hinaus steht der "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Jura Ghostwriter'
-                  -
-                    type: text
-                    text: ' auch als Coach zur Verfügung, um dem Studenten in seiner persönlichen Entwicklung zu begleiten. Dies mit dem Ziel, dass dieser in die Lage versetzt wird, selbständig Jura-Texte zu bearbeiten. So kann der Ghostwriter helfen, die notwendigen Kenntnisse beim Studenten zu vertiefen.'
+                    text: 'Ein Ghostwriter im Bereich Marketing kann sogar zu einem festen, langfristigen Partner im Marketing Studiengang werden. Beispielsweise zu einer Art Coach oder Begleiter, denn akademisches Ghostwriting muss nicht immer die Erstellung einer vollständigen Musterarbeit bedeuten. Es gibt viele Fälle in denen der Forschungsansatz schon steht, ein Student nur noch eine Handreichung benötigt, um die genaue Richtung festzulegen, die er mit seiner wissenschaftlichen Arbeit einschlagen möchte. Auch bei der Texterstellung zum Beispiel von Werbetexten oder Marketingtexten stehen unsere Fachautoren zur Verfügung. Die Zusammenarbeit mit unseren Textverfassern startet nach Ihrer Zusage, es werden Teillieferungen geplant, damit Sie Textproben bzw. Textabschnitte erhalten. Die Teillieferungen dienen dafür um Ihre Änderungswünsche umsetzen zu können.'
             show_as_card: false
         type: row
         enabled: true
