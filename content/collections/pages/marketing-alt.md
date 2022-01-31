@@ -51,7 +51,7 @@ page_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1643386618
+updated_at: 1643625874
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -433,11 +433,25 @@ replicator:
           -
             bard:
               -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Wo kann noch ein Marketing Ghostwriter behilflich sein?'
+              -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ein Ghostwriter im Bereich Marketing kann sogar zu einem festen, langfristigen Partner im Marketing Studiengang werden. Beispielsweise zu einer Art Coach oder Begleiter, denn akademisches Ghostwriting muss nicht immer die Erstellung einer vollständigen Musterarbeit bedeuten. Es gibt viele Fälle in denen der Forschungsansatz schon steht, ein Student nur noch eine Handreichung benötigt, um die genaue Richtung festzulegen, die er mit seiner wissenschaftlichen Arbeit einschlagen möchte. Auch bei der Texterstellung zum Beispiel von Werbetexten oder Marketingtexten stehen unsere Fachautoren zur Verfügung. Die Zusammenarbeit mit unseren Textverfassern startet nach Ihrer Zusage, es werden Teillieferungen geplant, damit Sie Textproben bzw. Textabschnitte erhalten. Die Teillieferungen dienen dafür um Ihre Änderungswünsche umsetzen zu können.'
+                    text: 'Ein Ghostwriter im Bereich Marketing kann sogar zu einem festen, langfristigen Partner im Marketing Studiengang werden. Beispielsweise zu einer Art Coach oder Begleiter, denn akademisches Ghostwriting muss nicht immer die Erstellung einer vollständigen Musterarbeit bedeuten. Es gibt viele Fälle in denen der Forschungsansatz schon steht, ein Student nur noch eine Handreichung benötigt, um die genaue Richtung festzulegen, die er mit seiner wissenschaftlichen Arbeit einschlagen möchte. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Auch bei der Texterstellung zum Beispiel von Werbetexten oder Marketingtexten stehen unsere Fachautoren zur Verfügung. Die Zusammenarbeit mit unseren Textverfassern startet nach Ihrer Zusage, es werden Teillieferungen geplant, damit Sie Textproben bzw. Textabschnitte erhalten. Die Teillieferungen dienen dafür um Ihre Änderungswünsche umsetzen zu können.'
             show_as_card: false
         type: row
         enabled: true
@@ -467,49 +481,19 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Warum sollten Jurastudenten sich unterstützen lassen?'
+                    text: 'Warum sollten Marketingstudenten sich unterstützen lassen?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Sehen Sie sich jetzt die Vorstellung unserer Jura Ghostwriter in unserem\_"
+                    text: 'Ein Ghostwriter im Bereich Marketing kann sogar zu einem festen, langfristigen Partner im Marketing Studiengang werden. Beispielsweise zu einer Art Coach oder Begleiter, denn akademisches Ghostwriting muss nicht immer die Erstellung einer vollständigen Musterarbeit bedeuten. Es gibt viele Fälle in denen der Forschungsansatz schon steht, ein Student nur noch eine Handreichung benötigt, um die genaue Richtung festzulegen, die er mit seiner wissenschaftlichen Arbeit einschlagen möchte. '
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.youtube.com/watch?v=dK1_IH8Jjak'
-                          target: _blank
-                          rel: null
-                    text: Youtube-Video
-                  -
-                    type: text
-                    text: "\_an! Ein akademischer Ghostwriter in Jura ist meist ein "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Rechtsanwalt oder examinierter Jurist'
-                  -
-                    type: text
-                    text: ', hat sein Jurastudium also schon beendet, und verfügt oft schon über langjährige Berufserfahrung z.B. als '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Rechtsanwalt oder an einem Gericht'
-                  -
-                    type: text
-                    text: '. Somit hat er bereits genaue Kenntnisse der Abläufe einer juristischen Arbeit und kennt alle nötigen Formalien zu Genüge.'
+                    text: 'Auch bei der Texterstellung zum Beispiel von Werbetexten oder Marketingtexten stehen unsere Fachautoren zur Verfügung. Die Zusammenarbeit mit unseren Textverfassern startet nach Ihrer Zusage, es werden Teillieferungen geplant, damit Sie Textproben bzw. Textabschnitte erhalten. Die Teillieferungen dienen dafür um Ihre Änderungswünsche umsetzen zu können.'
             show_as_card: false
           -
             bard:
