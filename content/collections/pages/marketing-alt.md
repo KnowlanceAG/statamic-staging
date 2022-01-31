@@ -51,7 +51,7 @@ page_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1643631832
+updated_at: 1643633590
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -604,13 +604,39 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ein Ghostwriter im Bereich Marketing kann sogar zu einem festen, langfristigen Partner im Marketing Studiengang werden. Beispielsweise zu einer Art Coach oder Begleiter, denn akademisches Ghostwriting muss nicht immer die Erstellung einer vollständigen Musterarbeit bedeuten. Es gibt viele Fälle in denen der Forschungsansatz schon steht, ein Student nur noch eine Handreichung benötigt, um die genaue Richtung festzulegen, die er mit seiner wissenschaftlichen Arbeit einschlagen möchte. '
+                    text: 'Ein Ghostwriter im Bereich Marketing kann sogar zu einem festen, langfristigen Partner im Marketing Studiengang werden. Beispielsweise zu einer Art Coach oder Begleiter, denn '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: 'akademisches Ghostwriting'
+                  -
+                    type: text
+                    text: ' muss nicht immer die Erstellung einer vollständigen Musterarbeit bedeuten. Es gibt viele Fälle in denen der Forschungsansatz schon steht, ein Student nur noch eine Handreichung benötigt, um die genaue Richtung festzulegen, die er mit seiner wissenschaftlichen Arbeit einschlagen möchte. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Auch bei der Texterstellung zum Beispiel von Werbetexten oder Marketingtexten stehen unsere Fachautoren zur Verfügung. Die Zusammenarbeit mit unseren Textverfassern startet nach Ihrer Zusage, es werden Teillieferungen geplant, damit Sie Textproben bzw. Textabschnitte erhalten. Die Teillieferungen dienen dafür um Ihre Änderungswünsche umsetzen zu können.'
+                    text: 'Auch bei der Texterstellung zum Beispiel von Werbetexten oder Marketingtexten stehen unsere Fachautoren zur Verfügung. Die Zusammenarbeit mit unseren Textverfassern startet nach Ihrer Zusage, es werden Teillieferungen geplant, damit Sie Textproben bzw. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: '/blog/texte-ueberarbeiten-lassen#'
+                          target: null
+                          rel: null
+                    text: Textabschnitte
+                  -
+                    type: text
+                    text: ' erhalten. Die Teillieferungen dienen dafür um Ihre Änderungswünsche umsetzen zu können.'
             show_as_card: false
           -
             bard:
@@ -674,7 +700,85 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In der Regel arbeiten unsere Autoren auch aktiv im Marketinggebiet und verfügen über viele Jahre Berufserfahrung. Dank dieser großen Erfahrung in der Marketingpraxis sind unsere Marketing Ghostwriter in ihrem Fachbereich immer am Puls der Zeit. Sie kennen also den aktuellen Forschungsstand uns können sich daher schnell und effektiv in jedes individuelle Thema bzw. jedem Auftrag einarbeiten sowie sich aktiv in die Gestaltung wissenschaftlicher Arbeiten einbringen. Dies ist nicht nur limitiert auf Studenten, die sich eine Musterarbeit für Ihre Textarbeiten wie Seminararbeiten und Hausarbeit schreiben lassen möchten, sondern auch für die kompetente Ghostwriting-Unterstützung bei Abschlussarbeiten wie Bachelorarbeiten, Masterarbeiten oder Doktorarbeiten in Form hochprofessioneller Mustervorlagen.'
+                    text: 'In der Regel arbeiten unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /experten
+                          target: null
+                          rel: null
+                    text: Autoren
+                  -
+                    type: text
+                    text: ' auch aktiv im Marketinggebiet und verfügen über viele Jahre Berufserfahrung. Dank dieser großen Erfahrung in der Marketingpraxis sind unsere Marketing Ghostwriter in ihrem Fachbereich immer am Puls der Zeit. Sie kennen also den aktuellen Forschungsstand uns können sich daher schnell und effektiv in jedes individuelle Thema bzw. jedem Auftrag einarbeiten sowie sich aktiv in die Gestaltung wissenschaftlicher Arbeiten einbringen. Dies ist nicht nur limitiert auf Studenten, die sich eine Musterarbeit für Ihre Textarbeiten wie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Seminararbeiten
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Hausarbeit '
+                  -
+                    type: text
+                    text: 'schreiben lassen möchten, sondern auch für die kompetente Ghostwriting-Unterstützung bei Abschlussarbeiten wie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Bachelorarbeiten
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Masterarbeiten
+                  -
+                    type: text
+                    text: ' oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/doktorarbeit
+                          target: null
+                          rel: null
+                    text: Doktorarbeiten
+                  -
+                    type: text
+                    text: ' in Form hochprofessioneller Mustervorlagen.'
               -
                 type: paragraph
                 content:
@@ -827,108 +931,25 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Das klassische Jurastudium besteht aus mindestens'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' 8, i.d.R. 9, Semestern an einer Universität'
-                  -
-                    type: text
-                    text: ' und wird mit einer staatlichen Prüfung, dem'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' 1. Staatsexamen'
-                  -
-                    type: text
-                    text: ', abgeschlossen. Nach der Bestehung dieses Examens folgen ein zweijähriges Referendariat und der Abschluss der juristischen Ausbildung durch das 2. Staatsexamen. Wer beide Staatsexamen absolviert hat, ist ein Volljurist und hat eine Anwaltzulassung. Den Titel eines „Volljuristen“ darf man demnach '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'frühestens nach 7 Jahren'
-                  -
-                    type: text
-                    text: ' führen.'
+                    text: 'In der Tat ist ein Marketing-Studium ein sehr interessantes Studium, da es viele Teilbereiche aus anderen Fachrichtungen miteinander verbindet und dabei eine sehr praxisorientierte Ausrichtung einnimmt. Dazu zählen Elemente der Fachbereiche Psychologie, Konsumentenforschung oder auch ganz allgemein aus den Sozialwissenschaften, die im Marketing vereint werden. Marketing wird oft als Teil der BWL betrachtet, geht aber in seinem Umfang deutlich über einen bloßen Teilbereich hinaus, weil im Mittelpunkt eben auch die Frage steht, wie Werbung oder Werbetexte auf Konsumenten wirkt und was Werbung eigentlich genau bedeutet, was natürlich auch mit hohen Anforderungen verbunden ist. Wir bei GWriters können Ihnen mit unseren Marketing Ghostwritern im Rahmen Ihres Studiums wertvolle Unterstützung bieten, sodass Sie diese hohen Anforderungen mit Sicherheit erfüllen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen. Besonders hier ist im Bereich der Jura\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    text: "\_verbreitet, weil Doktoranden sich einen großen Teil ihrer Arbeitslast abnehmen lassen können, indem sie von einem Ghostwriter eine Mustervorlage für eine Dissertation schreiben lassen, die sie als Orientierungshilfe nutzen. Einige Universitäten ermöglichen den Studenten das Diplomierungsverfahren, bei dem durch Erstellen einer\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/diplomarbeit
-                          target: null
-                          rel: null
-                    text: Diplomarbeit
-                  -
-                    type: text
-                    text: "\_der akademische Grad „Diplom-Jurist“ erreicht werden kann."
+                    text: 'Bei einem kurzen Blick auf den Aufbau des Marketing Studiums sieht man, dass die Regelstudienzeit für einen Marketing-Bachelor in der Regel bei sechs bis sieben Semestern liegt, während ein Master in diesem Fachbereich drei bis fünf Semester in Anspruch nimmt. Sowohl im Bachelorstudium, als auch im Master sind Praktika und Auslandssemester in diese Studienzeiten eingeschlossen und werden auch in den meisten Fällen zwingend vorausgesetzt, was zum Ziel hat, den zukünftigen Marketing Schreibexperten die für diesen Bereich so wichtige internationale Ausrichtung zu geben. Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/fachrichtungen/marketing-studium.png
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Zusätzlich zu dem eigentlichen Studium können an manchen Universitäten seit einigen Jahren als Nebenstudium in juristischen Teilbereichen Bachelor-, Master- oder Magisterabschlüsse erreicht werden. Sie werden mit der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Bachelorarbeit
-                  -
-                    type: text
-                    text: ' (Bachelor Thesis), der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: 'Masterarbeit '
-                  -
-                    type: text
-                    text: '(Master Thesis), Dissertation und Magisterarbeit abgeschlossen. Ein Bachelor-Studium dauert i.d.R. 3 Jahre, qualifiziert jedoch nicht für einen Beruf als Anwalt oder Richter.'
             show_as_card: false
         type: row
         enabled: true
@@ -1001,7 +1022,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Das Forschungsgebiet Marketing ist ein Überbegriff für mehrere Unterdisziplinen. Dazu gehören beispielsweise Marketing-Management, Sales-Management, aber auch Social Networks bzw. soziale Plattformen und Marketing Communication in unterschiedlichen Bereichen z.B. für Onlineshops. Aufgrund vieler unterschiedlicher Marketing-Maßnahmen bzw. Leistungen, die in Form von Praktika oder Studienarbeiten, wie einer Hausarbeit,\_"
+                    text: 'Das Forschungsgebiet Marketing ist ein Überbegriff für mehrere Unterdisziplinen. Dazu gehören beispielsweise Marketing-Management, Sales-Management, aber auch Social Networks bzw. soziale Plattformen und Marketing Communication in unterschiedlichen Bereichen z.B. für Onlineshops. Aufgrund vieler unterschiedlicher Marketing-Maßnahmen bzw. Leistungen, die in Form von '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/praktikumsbericht-vorlage
+                          target: null
+                          rel: null
+                    text: Praktika
+                  -
+                    type: text
+                    text: " oder Studienarbeiten, wie einer Hausarbeit,\_"
                   -
                     type: text
                     marks:
@@ -1010,12 +1044,6 @@ replicator:
                         attrs:
                           color: blue
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://statamic-dynamic.gwriters.de/arbeiten/seminararbeit-schreiben-lassen'
-                          target: null
-                          rel: null
                     text: Seminararbeit
                   -
                     type: text
@@ -1046,18 +1074,12 @@ replicator:
                                 type: text
                                 text: "Im Verlauf des Studiums werden dann durch den Studenten selbst Vertiefungen gewählt, beispielsweise in Medienrecht, in Kommunikation und - sehr interessant - natürlich auch das Thema Social Media Werbung. In den letzten Jahre wurde in den\_Bereichen Social Media Plattformen und Social Media Marketing eine Reihe neuer Studienfächer geschaffen, die auch von privaten Universitäten sehr stark beworben und forciert werden. Solche sehr gezielten Studiengänge sind gerade dann interessant, wenn Studenten später eben dann auch in diesen Bereichen als Marketing Manager tätig werden möchten."
                         active: false
-                      -
-                        headline: 'Prüfungsformen 📚'
-                        accordion_content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'Die einzelnen Fächer sind mit einer Klausur oder Hausarbeit abzuschließen. Diese bestehen aus Sachverhalten und Fragestellungen, deren Lösungswege im juristischen Gutachtenstil erarbeitet werden müssen. 30% der Abschlussnote bilden sich aus den Noten der Pflichtfachprüfungen und Jurahausarbeiten, 70% aus der Note der Staatsexamen. Deren Bestehen stellt allerdings für sehr viele Studenten große Schwierigkeiten dar, da lediglich ein Wiederholungsversuch gestattet wird. Das zweite Durchfallen führt dabei zum Ende der juristischen Karriere bzw. zur Exmatrikulation. Ein großer Zeitdruck lastet auf den Studenten, die sich nicht selten mithilfe von einem Jura Ghostwriter oder Freelancer Entlastung schaffen.'
-                        active: false
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Über die internationale Ausrichtung vieler Marketing-Studiengänge und deren Fokus auf aktuelle Entwicklungen und Trends hinaus, bieten viele Universitäten, insbesondere private Universitäten, auch ein duales Studium im Bereich Marketing. Dies bedeutet eine Verknüpfung zwischen beruflicher Tätigkeit und Studium, was natürlich höhere Anforderungen an alle Studenten stellt, insbesondere was die zeitliche Thematik angeht. Und genau in diesem Zusammenhang können die Fachautoren von GWriters-Schreibservice wertvolle Unterstützung leisten, da sie besonders duale Studenten zeitlich einfach entlasten können, sodass diese sich auf ihr Studium, auf zu verfassende Klausuren und anstehende Referaten konzentrieren können. Denn mit der Erstellung von Mustervorlagen für wissenschaftliche Arbeiten können diese dann guten Gewissens unsere hochkompetenten Marketing Ghostwriter bei GWriters beauftragen.'
               -
                 type: heading
                 attrs:
