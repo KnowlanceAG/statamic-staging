@@ -56,8 +56,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643115133
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1643633836
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1959,7 +1959,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Einige unserer Blogartikel zum Studiengang Informatik'
+                    text: 'Einige unserer Blogartikel zum Studiengang Jura'
               -
                 type: set
                 attrs:
