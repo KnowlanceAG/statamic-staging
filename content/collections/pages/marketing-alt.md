@@ -50,8 +50,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1643634183
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1643740704
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -246,6 +246,12 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
                     text: 'Die meisten unserer '
                   -
                     type: text
@@ -255,12 +261,18 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: orange-500
-                          hex: '#ff6606'
+                          color: black
+                          hex: '#000'
                     text: 'Marketing Ghostwriter'
                   -
                     type: text
-                    text: ' kommen direkt aus diesen Unternehmensabteilungen. Zumindest haben diese aber einen anderen Praxisbezug zu verschiedenen Bereichen der Vermarktung und seiner Marketingstrategien. Daher kann Sie Unser Team bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen unterstützen. Ob es sich bei Ihrem '
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ' kommen direkt aus diesen Unternehmensabteilungen. Auch arbeiten diese häufig selbst als '
                   -
                     type: text
                     marks:
@@ -269,11 +281,37 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: orange-500
-                          hex: '#ff6606'
+                          color: black
+                          hex: '#000'
+                    text: 'Doktoren und Professoren'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ' im Fachbereich Marketing. Zumindest haben diese aber einen anderen Praxisbezug zu verschiedenen Bereichen der Vermarktung und seiner Marketingstrategien. Daher kann Sie Unser Team bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen unterstützen. Ob es sich bei Ihrem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
                     text: Projekt
                   -
                     type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
                     text: ' um eine '
                   -
                     type: text
@@ -283,12 +321,18 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: orange-500
-                          hex: '#ff6606'
-                    text: Präsentatio
+                          color: black
+                          hex: '#000'
+                    text: Präsentation
                   -
                     type: text
-                    text: 'n, eine '
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ', eine '
                   -
                     type: text
                     marks:
@@ -297,11 +341,17 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: orange-500
-                          hex: '#ff6606'
+                          color: black
+                          hex: '#000'
                     text: 'Musterarbeit für eine Abschlussarbeit'
                   -
                     type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
                     text: ', für eine '
                   -
                     type: text
@@ -311,11 +361,17 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: orange-500
-                          hex: '#ff6606'
+                          color: black
+                          hex: '#000'
                     text: 'Neuerstellung von unterschiedlichen Aufträgen'
                   -
                     type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
                     text: ' oder für eine andere '
                   -
                     type: text
@@ -325,11 +381,17 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: orange-500
-                          hex: '#ff6606'
+                          color: black
+                          hex: '#000'
                     text: 'akademische Ausarbeitung'
                   -
                     type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
                     text: ' handelt, wir bieten Ihnen umfassende individuelle und professionelle Unterstützung durch Fachautoren.'
             show_as_card: false
         type: row
@@ -448,69 +510,39 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Zwar ist der NC für ein Marketingstudium deutlich niedriger als bei anderen Fächern, er liegt im Durchschnitt zwischen 2,0 und '
+                    text: 'Zwar ist der NC für ein Marketingstudium deutlich niedriger als bei anderen Fächern, er liegt im Durchschnitt zwischen 2,0 und 3,0, aber auch die Anforderungen an eine Marketing Studenten sind hoch. Gute Kenntnisse in der '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                      -
-                        type: textColor
+                        type: link
                         attrs:
-                          color: orange-500
-                          hex: '#ff6606'
-                    text: '3,0,'
+                          href: /fachrichtungen/mathematik
+                          target: null
+                          rel: null
+                    text: Mathematik
                   -
                     type: text
-                    text: ' vielleicht auch '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: orange-500
-                          hex: '#ff6606'
-                    text: '2,7 '
-                  -
-                    type: text
-                    text: 'bei manchen Universitäten, aber auch die Anforderungen an eine Marketing Studenten sind hoch. Gute Kenntnisse in der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: orange-500
-                          hex: '#ff6606'
-                    text: 'Mathematik '
-                  -
-                    type: text
-                    text: 'sind eine sehr wichtige Voraussetzung, auch ein ausgezeichnetes Wissen im Bereich der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: orange-500
-                          hex: '#ff6606'
-                    text: Statistik
-                  -
-                    type: text
-                    text: ' ist notwendig, denn man will natürlich nach einer Marketing Kampagne auch genau untersuchen und auswerten können, was diese bewirkt hat und ob diese erfolgreich war. Dieses zentrale Messen und Steuern des Marketingerfolgs ist der Auftrag von Marketing Marketingexperten im Unternehmen, der sich diese Fähigkeiten im vollen Umfang im Rahmen seines Studiums angeeignet haben muss.'
+                    text: ' sind eine sehr wichtige Voraussetzung, auch ein ausgezeichnetes Wissen im Bereich der Statistik ist notwendig, denn man will natürlich nach einer Marketing Kampagne auch genau untersuchen und auswerten können, was diese bewirkt hat und ob diese erfolgreich war. Dieses zentrale Messen und Steuern des Marketingerfolgs ist der Auftrag von Marketing Marketingexperten im Unternehmen, der sich diese Fähigkeiten im vollen Umfang im Rahmen seines Studiums angeeignet haben muss.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "All dies bedarf im Studium eines vollen Einsatzes, wobei es schnell passieren kann, dass Studenten an ihre fachlichen Grenzen oder auch an ihre zeitlichen Grenzen gelangen. In solchen Situation können unsere Marketing Ghostwriter von GWriters-Agentur Studenten professionell unterstützen, da diese nicht nur ein hervorragendes Wissen im Fach Marketing sowie einen akademischen Abschluss in diesem Fachbereich haben, sondern auch darüber hinaus alle Anforderungen dieses Fachbereichs erfüllen und weitere akademische Abschlüsse in verwandten Fachbereichen wie beispielsweise BWL und\_"
+                    text: 'All dies bedarf im Studium eines vollen Einsatzes, wobei es schnell passieren kann, dass Studenten an ihre fachlichen Grenzen oder auch an ihre zeitlichen Grenzen gelangen. In solchen Situation können unsere Marketing Ghostwriter von GWriters Studenten professionell unterstützen, da diese nicht nur ein hervorragendes Wissen im Fach Marketing sowie einen akademischen Abschluss in diesem Fachbereich haben, sondern auch darüber hinaus alle Anforderungen dieses Fachbereichs erfüllen und weitere akademische Abschlüsse in verwandten Fachbereichen wie beispielsweise '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/bwl
+                          target: null
+                          rel: null
+                    text: BWL
+                  -
+                    type: text
+                    text: " und\_"
                   -
                     type: text
                     marks:
@@ -553,19 +585,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '100'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '100'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '100'
+                    padding-y: '50'
               -
                 type: paragraph
             show_as_card: false
@@ -575,7 +595,7 @@ replicator:
     is-full: true
     bg-toggle: true
     bg-image: seiten/fachrichtungen/marketing-ghostwriter.jpg
-    bg-image-fixed: false
+    bg-image-fixed: true
     border: false
     type: add_section
     enabled: true
@@ -665,8 +685,6 @@ replicator:
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
                     button_align: justify-center
                     spacing_top: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -880,28 +898,54 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '100'
+                    padding-y: '30'
               -
-                type: set
+                type: heading
                 attrs:
-                  values:
-                    type: spacer
-                    padding-y: '100'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '100'
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Jura Ghostwriter suchen, dann können Sie an unsere Ghostwriting-Agentur gerne sofort eine\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage schicken'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
             show_as_card: false
         type: row
         enabled: true
     remove_spacing: true
     is-full: true
-    bg-toggle: true
-    bg-image: seiten/fachrichtungen/marketing-studium-aufbau.jpg
+    bg-toggle: false
+    bg-color: '#D6D6D6'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -911,6 +955,85 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: phone_cta
+                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
+                    open: 'Mo.-Fr. 9:00-18:00'
+            show_as_card: true
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '12'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Unsere Preise für Informatik, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '80,- € pro Normseite.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    button_align: justify-start
+                    spacing_top: true
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: true
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: false
+    bg-color: '#D6D6D6'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '1'
         single-col: true
         grid:
           -
@@ -927,36 +1050,32 @@ replicator:
                         type: bold
                     text: 'Marketing im Studium'
               -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/fachrichtungen/marketing-studium.png
+                    text: 'In der Tat ist ein Marketing-Studium ein sehr interessantes Studium, da es viele Teilbereiche aus anderen Fachrichtungen miteinander verbindet und dabei eine sehr praxisorientierte Ausrichtung einnimmt. Dazu zählen Elemente der Fachbereiche Psychologie, Konsumentenforschung oder auch ganz allgemein aus den Sozialwissenschaften, die im Marketing vereint werden.'
+                    ausrichtung: text-bild
+              -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'In der Tat ist ein Marketing-Studium ein sehr interessantes Studium, da es viele Teilbereiche aus anderen Fachrichtungen miteinander verbindet und dabei eine sehr praxisorientierte Ausrichtung einnimmt. Dazu zählen Elemente der Fachbereiche Psychologie, Konsumentenforschung oder auch ganz allgemein aus den Sozialwissenschaften, die im Marketing vereint werden. Marketing wird oft als Teil der BWL betrachtet, geht aber in seinem Umfang deutlich über einen bloßen Teilbereich hinaus, weil im Mittelpunkt eben auch die Frage steht, wie Werbung oder Werbetexte auf Konsumenten wirkt und was Werbung eigentlich genau bedeutet, was natürlich auch mit hohen Anforderungen verbunden ist. Wir bei GWriters können Ihnen mit unseren Marketing Ghostwritern im Rahmen Ihres Studiums wertvolle Unterstützung bieten, sodass Sie diese hohen Anforderungen mit Sicherheit erfüllen.'
+                    text: 'Marketing wird oft als Teil der BWL betrachtet, geht aber in seinem Umfang deutlich über einen bloßen Teilbereich hinaus, weil im Mittelpunkt eben auch die Frage steht, wie Werbung oder Werbetexte auf Konsumenten wirkt und was Werbung eigentlich genau bedeutet, was natürlich auch mit hohen Anforderungen verbunden ist. Wir bei GWriters können Ihnen mit unseren Marketing Ghostwritern im Rahmen Ihres Studiums wertvolle Unterstützung bieten, sodass Sie diese hohen Anforderungen mit Sicherheit erfüllen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
                     text: 'Bei einem kurzen Blick auf den Aufbau des Marketing Studiums sieht man, dass die Regelstudienzeit für einen Marketing-Bachelor in der Regel bei sechs bis sieben Semestern liegt, während ein Master in diesem Fachbereich drei bis fünf Semester in Anspruch nimmt. Sowohl im Bachelorstudium, als auch im Master sind Praktika und Auslandssemester in diese Studienzeiten eingeschlossen und werden auch in den meisten Fällen zwingend vorausgesetzt, was zum Ziel hat, den zukünftigen Marketing Schreibexperten die für diesen Bereich so wichtige internationale Ausrichtung zu geben. Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating-img
-                    dateien:
-                      - seiten/fachrichtungen/marketing-studium.png
-                    img_size: w-full
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
+    is-full: false
     bg-toggle: false
-    bg-color: '#F9F9F9'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -971,25 +1090,38 @@ replicator:
           -
             bard:
               -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Ausgewählte Experten aus dem Fachbereich Marketing'
+              -
                 type: set
                 attrs:
                   values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/beispielarbeiten-1.JPG
-                    ex_title: 'Weiterentwicklung der Baseler Eigenmittelübereinkunft'
-                    ex_fachbereich:
-                      - 21ef3416-f1fd-43eb-8e38-ec597763c45f
-                    ex_type: Hausarbeit
-                    ex_pages: '10'
-                    ex_zitation: 'Harvard Style'
-                    ex_button_text: Weiterlesen
-                    ex_button_align: justify-start
-                    ex_spacing_top: false
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: experts_list
+                    experts:
+                      - bdab7ac8-0923-4d8c-b848-caa250aa5e62
+                      - ece9c0d8-5e69-4361-a79d-acbdb0675182
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
@@ -1084,180 +1216,6 @@ replicator:
                 type: heading
                 attrs:
                   level: 2
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Jura Ghostwriter suchen, dann können Sie an unsere Ghostwriting-Agentur gerne sofort eine\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /anfrage
-                          target: null
-                          rel: null
-                    text: 'unverbindliche Anfrage schicken'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#D6D6D6'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: phone_cta
-                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
-                    open: 'Mo.-Fr. 9:00-18:00'
-              -
-                type: paragraph
-            show_as_card: true
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '12'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Unsere Preise für Informatik, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: '80,- € pro Normseite.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    button_align: justify-start
-                    spacing_top: true
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '2'
-              -
-                type: paragraph
-            show_as_card: true
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#D6D6D6'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
                 content:
                   -
                     type: text
@@ -1271,27 +1229,6 @@ replicator:
                   -
                     type: text
                     text: 'Zusammengefasst handelt es sich beim Marketing um ein hochinteressantes Studium und gerade wenn man sich die heutige Produkt- und Dienstleistungswelt anschaut, dann werden Produkte immer vergleichbarer und austauschbarer, sodass allein über den Preis der Wettbewerb schon lange nicht mehr zu gewinnen ist. Umso wichtiger wird es in der Zukunft, Marketing Spezialisten zu haben, die genau wissen, worauf die Zielgruppe bzw. Konsumenten wirklich Wert legen und wie Werbekampagnen genau auf diese Kundenbedürfnisse abgestimmt werden können. Nur so ist es möglich, eine wirkungsvolle und erfolgreiche Marketingstrategie zu entwickelt.'
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
               -
                 type: blockquote
                 content:
