@@ -47,11 +47,11 @@ teaser:
   -
     type: paragraph
 teaser_bg: seiten/header-so-funktionierts.jpeg
-page_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
+page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1643625874
+updated_at: 1643634183
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -439,25 +439,142 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wo kann noch ein Marketing Ghostwriter behilflich sein?'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Voraussetzungen: Marketing'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ein Ghostwriter im Bereich Marketing kann sogar zu einem festen, langfristigen Partner im Marketing Studiengang werden. Beispielsweise zu einer Art Coach oder Begleiter, denn akademisches Ghostwriting muss nicht immer die Erstellung einer vollständigen Musterarbeit bedeuten. Es gibt viele Fälle in denen der Forschungsansatz schon steht, ein Student nur noch eine Handreichung benötigt, um die genaue Richtung festzulegen, die er mit seiner wissenschaftlichen Arbeit einschlagen möchte. '
+                    text: 'Zwar ist der NC für ein Marketingstudium deutlich niedriger als bei anderen Fächern, er liegt im Durchschnitt zwischen 2,0 und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: orange-500
+                          hex: '#ff6606'
+                    text: '3,0,'
+                  -
+                    type: text
+                    text: ' vielleicht auch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: orange-500
+                          hex: '#ff6606'
+                    text: '2,7 '
+                  -
+                    type: text
+                    text: 'bei manchen Universitäten, aber auch die Anforderungen an eine Marketing Studenten sind hoch. Gute Kenntnisse in der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: orange-500
+                          hex: '#ff6606'
+                    text: 'Mathematik '
+                  -
+                    type: text
+                    text: 'sind eine sehr wichtige Voraussetzung, auch ein ausgezeichnetes Wissen im Bereich der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: orange-500
+                          hex: '#ff6606'
+                    text: Statistik
+                  -
+                    type: text
+                    text: ' ist notwendig, denn man will natürlich nach einer Marketing Kampagne auch genau untersuchen und auswerten können, was diese bewirkt hat und ob diese erfolgreich war. Dieses zentrale Messen und Steuern des Marketingerfolgs ist der Auftrag von Marketing Marketingexperten im Unternehmen, der sich diese Fähigkeiten im vollen Umfang im Rahmen seines Studiums angeeignet haben muss.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Auch bei der Texterstellung zum Beispiel von Werbetexten oder Marketingtexten stehen unsere Fachautoren zur Verfügung. Die Zusammenarbeit mit unseren Textverfassern startet nach Ihrer Zusage, es werden Teillieferungen geplant, damit Sie Textproben bzw. Textabschnitte erhalten. Die Teillieferungen dienen dafür um Ihre Änderungswünsche umsetzen zu können.'
+                    text: "All dies bedarf im Studium eines vollen Einsatzes, wobei es schnell passieren kann, dass Studenten an ihre fachlichen Grenzen oder auch an ihre zeitlichen Grenzen gelangen. In solchen Situation können unsere Marketing Ghostwriter von GWriters-Agentur Studenten professionell unterstützen, da diese nicht nur ein hervorragendes Wissen im Fach Marketing sowie einen akademischen Abschluss in diesem Fachbereich haben, sondern auch darüber hinaus alle Anforderungen dieses Fachbereichs erfüllen und weitere akademische Abschlüsse in verwandten Fachbereichen wie beispielsweise BWL und\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://statamic-dynamic.gwriters.de/fachrichtungen/vwl'
+                          target: null
+                          rel: null
+                    text: VWL
+                  -
+                    type: text
+                    text: "\_vorweisen können."
             show_as_card: false
         type: row
         enabled: true
     remove_spacing: false
     is-full: false
     bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '100'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '100'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '100'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: true
+    bg-toggle: true
+    bg-image: seiten/fachrichtungen/marketing-ghostwriter.jpg
     bg-image-fixed: false
     border: false
     type: add_section
@@ -487,13 +604,39 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ein Ghostwriter im Bereich Marketing kann sogar zu einem festen, langfristigen Partner im Marketing Studiengang werden. Beispielsweise zu einer Art Coach oder Begleiter, denn akademisches Ghostwriting muss nicht immer die Erstellung einer vollständigen Musterarbeit bedeuten. Es gibt viele Fälle in denen der Forschungsansatz schon steht, ein Student nur noch eine Handreichung benötigt, um die genaue Richtung festzulegen, die er mit seiner wissenschaftlichen Arbeit einschlagen möchte. '
+                    text: 'Ein Ghostwriter im Bereich Marketing kann sogar zu einem festen, langfristigen Partner im Marketing Studiengang werden. Beispielsweise zu einer Art Coach oder Begleiter, denn '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: 'akademisches Ghostwriting'
+                  -
+                    type: text
+                    text: ' muss nicht immer die Erstellung einer vollständigen Musterarbeit bedeuten. Es gibt viele Fälle in denen der Forschungsansatz schon steht, ein Student nur noch eine Handreichung benötigt, um die genaue Richtung festzulegen, die er mit seiner wissenschaftlichen Arbeit einschlagen möchte. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Auch bei der Texterstellung zum Beispiel von Werbetexten oder Marketingtexten stehen unsere Fachautoren zur Verfügung. Die Zusammenarbeit mit unseren Textverfassern startet nach Ihrer Zusage, es werden Teillieferungen geplant, damit Sie Textproben bzw. Textabschnitte erhalten. Die Teillieferungen dienen dafür um Ihre Änderungswünsche umsetzen zu können.'
+                    text: 'Auch bei der Texterstellung zum Beispiel von Werbetexten oder Marketingtexten stehen unsere Fachautoren zur Verfügung. Die Zusammenarbeit mit unseren Textverfassern startet nach Ihrer Zusage, es werden Teillieferungen geplant, damit Sie Textproben bzw. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: '/blog/texte-ueberarbeiten-lassen#'
+                          target: null
+                          rel: null
+                    text: Textabschnitte
+                  -
+                    type: text
+                    text: ' erhalten. Die Teillieferungen dienen dafür um Ihre Änderungswünsche umsetzen zu können.'
             show_as_card: false
           -
             bard:
@@ -502,7 +645,7 @@ replicator:
                 attrs:
                   values:
                     type: video
-                    video: 'https://youtu.be/dK1_IH8Jjak'
+                    video: 'https://youtu.be/bf0mZznnTlk'
             show_as_card: false
         type: row
         enabled: true
@@ -551,25 +694,97 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Jura Repetitorium: Ghostwriter hilft!'
+                    text: 'Ghostwriting im Marketing-Studium'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Er berät und coacht den Jurastudenten bei der Erstellung einer vollständigen '
+                    text: 'In der Regel arbeiten unsere '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'juristischen Arbeit'
+                        type: link
+                        attrs:
+                          href: /experten
+                          target: null
+                          rel: null
+                    text: Autoren
                   -
                     type: text
-                    text: " (z.B. Seminararbeit, Studienabschlussarbeit), kann jedoch auch lediglich mit dem Studenten gemeinsam ein Konzept für die Bearbeitung umsetzen, einfache oder detaillierte Lösungsskizzen erarbeiten, rechtliche (Teil-)Gutachten oder generell eine Teilleistung erbringen, als ein\_"
+                    text: ' auch aktiv im Marketinggebiet und verfügen über viele Jahre Berufserfahrung. Dank dieser großen Erfahrung in der Marketingpraxis sind unsere Marketing Ghostwriter in ihrem Fachbereich immer am Puls der Zeit. Sie kennen also den aktuellen Forschungsstand uns können sich daher schnell und effektiv in jedes individuelle Thema bzw. jedem Auftrag einarbeiten sowie sich aktiv in die Gestaltung wissenschaftlicher Arbeiten einbringen. Dies ist nicht nur limitiert auf Studenten, die sich eine Musterarbeit für Ihre Textarbeiten wie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Seminararbeiten
+                  -
+                    type: text
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Hausarbeit '
+                  -
+                    type: text
+                    text: 'schreiben lassen möchten, sondern auch für die kompetente Ghostwriting-Unterstützung bei Abschlussarbeiten wie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Bachelorarbeiten
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Masterarbeiten
+                  -
+                    type: text
+                    text: ' oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/doktorarbeit
+                          target: null
+                          rel: null
+                    text: Doktorarbeiten
+                  -
+                    type: text
+                    text: ' in Form hochprofessioneller Mustervorlagen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Aufgrund der umfassenden Anforderungen in Kombination mit einem straffen Zeitplan, entwickeln sich für einige Studenten Schwierigkeiten bei dem Erstellen ihrer wissenschaftlichen Arbeit. Je nachdem, nach welchem Modell und welcher Lehre Themenfelder betrachtet werden müssen, kann man unterschiedliche Ergebnisse erhalten und muss diese nach gegebenen Umständen gewichten. Ein Fachautor im Marketingbereich kann helfen, diese Gewichtung vorzunehmen, da er sich in der Materie bestens auskennt und Erfahrungen im Erstellen von wissenschaftlichen Textarbeiten vorweisen kann. Er schafft Abhilfe und kann im Regelfall zeitnah eine passende Lösung bieten, die Studenten entlastet und diesen hilft, sich auf wichtige Prüfungen zu konzentrieren. Auch ist im Forschungsgebiet Marketing\_"
                   -
                     type: text
                     marks:
@@ -581,46 +796,13 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /lektorat/lektor
-                          target: _blank
+                          href: 'https://statamic-dynamic.gwriters.de/ghostwriting'
+                          target: null
                           rel: null
-                    text: Lektor
+                    text: Ghostwriting
                   -
                     type: text
-                    text: "\_oder\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat/korrektor
-                          target: _blank
-                          rel: null
-                    text: Korrektor
-                  -
-                    type: text
-                    text: "\_der Arbeit. Weiterhin bietet unsere Schreib-Agentur "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Jura Repetitorien'
-                  -
-                    type: text
-                    text: ' an, in dem Ghostwriter für Studenten Übungsmaterialien oder Fortgeschrittenenübungen vorbereiten. Die Informationssammlungen werden in Form von Fällen, Lösungsskizzen, Lernskripten übertragen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Ergebnis erhalten Sie eine Musterarbeit, die als Inspiration dienen kann und sich dabei exakt an die spezifischen juristischen Formatvorgaben hält. Da die Arbeiten ähnliche Anforderungen stellen, wie dies bei einer Klausur der Fall ist, bringen unsere Ghostwriter eine hohe Expertise in der vollständigen Erfassung des Sachverhaltes und im Verständnis für die zu behandelnden juristischen (Schwerpunkt-)Probleme mit.'
+                    text: "\_nicht unüblich, da viele Studenten sich wertvolle Arbeitszeit sparen, indem Sie sich von einem Textverfasser eine Musterarbeit verfassen lassen."
               -
                 type: set
                 attrs:
@@ -688,8 +870,48 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: 1
         single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '100'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '100'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '100'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: true
+    bg-toggle: true
+    bg-image: seiten/fachrichtungen/marketing-studium-aufbau.jpg
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: true
         grid:
           -
             bard:
@@ -703,137 +925,71 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Aufbau eines Jura-Studiums'
+                    text: 'Marketing im Studium'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Das klassische Jurastudium besteht aus mindestens'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' 8, i.d.R. 9, Semestern an einer Universität'
-                  -
-                    type: text
-                    text: ' und wird mit einer staatlichen Prüfung, dem'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' 1. Staatsexamen'
-                  -
-                    type: text
-                    text: ', abgeschlossen. Nach der Bestehung dieses Examens folgen ein zweijähriges Referendariat und der Abschluss der juristischen Ausbildung durch das 2. Staatsexamen. Wer beide Staatsexamen absolviert hat, ist ein Volljurist und hat eine Anwaltzulassung. Den Titel eines „Volljuristen“ darf man demnach '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'frühestens nach 7 Jahren'
-                  -
-                    type: text
-                    text: ' führen.'
+                    text: 'In der Tat ist ein Marketing-Studium ein sehr interessantes Studium, da es viele Teilbereiche aus anderen Fachrichtungen miteinander verbindet und dabei eine sehr praxisorientierte Ausrichtung einnimmt. Dazu zählen Elemente der Fachbereiche Psychologie, Konsumentenforschung oder auch ganz allgemein aus den Sozialwissenschaften, die im Marketing vereint werden. Marketing wird oft als Teil der BWL betrachtet, geht aber in seinem Umfang deutlich über einen bloßen Teilbereich hinaus, weil im Mittelpunkt eben auch die Frage steht, wie Werbung oder Werbetexte auf Konsumenten wirkt und was Werbung eigentlich genau bedeutet, was natürlich auch mit hohen Anforderungen verbunden ist. Wir bei GWriters können Ihnen mit unseren Marketing Ghostwritern im Rahmen Ihres Studiums wertvolle Unterstützung bieten, sodass Sie diese hohen Anforderungen mit Sicherheit erfüllen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen. Besonders hier ist im Bereich der Jura\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    text: "\_verbreitet, weil Doktoranden sich einen großen Teil ihrer Arbeitslast abnehmen lassen können, indem sie von einem Ghostwriter eine Mustervorlage für eine Dissertation schreiben lassen, die sie als Orientierungshilfe nutzen. Einige Universitäten ermöglichen den Studenten das Diplomierungsverfahren, bei dem durch Erstellen einer\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/diplomarbeit
-                          target: null
-                          rel: null
-                    text: Diplomarbeit
-                  -
-                    type: text
-                    text: "\_der akademische Grad „Diplom-Jurist“ erreicht werden kann."
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Zusätzlich zu dem eigentlichen Studium können an manchen Universitäten seit einigen Jahren als Nebenstudium in juristischen Teilbereichen Bachelor-, Master- oder Magisterabschlüsse erreicht werden. Sie werden mit der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Bachelorarbeit
-                  -
-                    type: text
-                    text: ' (Bachelor Thesis), der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: 'Masterarbeit '
-                  -
-                    type: text
-                    text: '(Master Thesis), Dissertation und Magisterarbeit abgeschlossen. Ein Bachelor-Studium dauert i.d.R. 3 Jahre, qualifiziert jedoch nicht für einen Beruf als Anwalt oder Richter.'
-            show_as_card: false
-          -
-            bard:
+                    text: 'Bei einem kurzen Blick auf den Aufbau des Marketing Studiums sieht man, dass die Regelstudienzeit für einen Marketing-Bachelor in der Regel bei sechs bis sieben Semestern liegt, während ein Master in diesem Fachbereich drei bis fünf Semester in Anspruch nimmt. Sowohl im Bachelorstudium, als auch im Master sind Praktika und Auslandssemester in diese Studienzeiten eingeschlossen und werden auch in den meisten Fällen zwingend vorausgesetzt, was zum Ziel hat, den zukünftigen Marketing Schreibexperten die für diesen Bereich so wichtige internationale Ausrichtung zu geben. Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen.'
               -
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: video
-                    video: 'https://www.youtube.com/watch?v=hBlLAoJ6m0I'
+                    type: floating-img
+                    dateien:
+                      - seiten/fachrichtungen/marketing-studium.png
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
               -
                 type: paragraph
             show_as_card: false
         type: row
         enabled: true
     remove_spacing: false
+    is-full: true
+    bg-toggle: false
+    bg-color: '#F9F9F9'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/beispielarbeiten-1.JPG
+                    ex_title: 'Weiterentwicklung der Baseler Eigenmittelübereinkunft'
+                    ex_fachbereich:
+                      - 21ef3416-f1fd-43eb-8e38-ec597763c45f
+                    ex_type: Hausarbeit
+                    ex_pages: '10'
+                    ex_zitation: 'Harvard Style'
+                    ex_button_text: Weiterlesen
+                    ex_button_align: justify-start
+                    ex_spacing_top: false
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
     is-full: true
     bg-toggle: false
     bg-color: '#F9F9F9'
@@ -860,52 +1016,38 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Inhalt des Jurastudiums'
+                    text: 'Aufbau und Inhalt des Marketing Studiums'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Zu Beginn des Studiums formen im Grundstudium mit vier Semestern Grundlagenfächer, wie \_"
+                    text: 'Das Forschungsgebiet Marketing ist ein Überbegriff für mehrere Unterdisziplinen. Dazu gehören beispielsweise Marketing-Management, Sales-Management, aber auch Social Networks bzw. soziale Plattformen und Marketing Communication in unterschiedlichen Bereichen z.B. für Onlineshops. Aufgrund vieler unterschiedlicher Marketing-Maßnahmen bzw. Leistungen, die in Form von '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Rechtsgeschichte, Rechtsinformatik'
+                        type: link
+                        attrs:
+                          href: /blog/praktikumsbericht-vorlage
+                          target: null
+                          rel: null
+                    text: Praktika
                   -
                     type: text
-                    text: ' oder '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Rechtsphilosophie
-                  -
-                    type: text
-                    text: ' sowie '
+                    text: " oder Studienarbeiten, wie einer Hausarbeit,\_"
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: Rechtssoziologie
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                    text: Seminararbeit
                   -
                     type: text
-                    text: ', die Basis des juristischen Wissens. Des Weiteren wird Wissen zum öffentlichen Recht, zum Zivilrecht und zum Strafrecht vermittelt.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Diese Basis wird nach einer Zwischenprüfung im Hauptstudium mit fünf Semestern erweitert. Neben Handelsrecht, Europarecht, Arbeits- und Sozialrecht, Familienrecht, Erbrecht sowie Steuerrecht werden im Hauptstudium wichtige Schlüsselqualifikationen, wie Rhetorik und Verhandlungsführung, vermittelt. Darüber hinaus muss der Student einen Schwerpunktbereich wählen, wie z.B. Umwelt-, Medien- oder Medizinrecht. Die Wahlmöglichkeiten bei diesen Schwerpunkten können sich jedoch von Universität zu Universität unterscheiden.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die nachfolgende Tabelle zeigt die zentralen Inhalte der einzelnen Rechtsgebiete im Überblick.'
+                    text: "\_oder Examensarbeit, in einem Kurs geleistet werden müssen, ist der Studiengang Marketing mit viel Studienarbeit und Fleiß verbunden. Viele Konzepte versprechen Lösungsmöglichkeiten für eine Problemstellung, wobei es gilt, die besten zu entwickeln und umzusetzen. Es erfordert nicht nur viel Motivation, Selbstdisziplin und Können, sondern auch einen enormen Zeitaufwand um das Marketingstudium mit den bestmöglichen Leistungen zu absolvieren."
               -
                 type: set
                 attrs:
@@ -913,446 +1055,35 @@ replicator:
                     type: accordion-wrapper
                     items:
                       -
-                        headline: 'Handelsrecht § 🧾'
+                        headline: 'Studiendauer ⏱'
                         accordion_content:
                           -
-                            type: bullet_list
+                            type: paragraph
                             content:
                               -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Teilgebiet des Zivilrechts'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Inhalt ist das "Recht der Kaufleute"'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Richtlinien in Deutschland im HGB und in seinen Nebengesetzen'
+                                type: text
+                                text: 'Bei einem kurzen Blick auf den Aufbau des Marketing Studiums sieht man, dass die Regelstudienzeit im Bachelorstudium in der Regel bei sechs bis sieben Semestern liegt, während ein Master in diesem Fachbereich drei bis fünf Semester in Anspruch nimmt. Wie bereits angemerkt, liegt der NC nicht so hoch wie in anderen Studienfächern, was die Suche nach einem Studienplatz deutlich erleichtert. Studenten erhalten im Grundstudium zu Beginn einen Überblick über alle notwendigen Grundlagen und Fachthemen des Studiums und des Themas Marketing.'
                         active: false
                       -
-                        headline: 'Europarecht 🌎'
+                        headline: 'Vertiefungsfächer 🔀'
                         accordion_content:
                           -
-                            type: bullet_list
+                            type: paragraph
                             content:
                               -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Recht der EU'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Einteilung in Primärrecht (Vertragsrecht) und Sekundärrecht (Gemeinschaftsrecht)'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Primärrecht = völkerrechtliche Verträge'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Sekundärrecht = Richtlinien, Verordnungen'
-                        active: false
-                      -
-                        headline: 'Arbeits- und Sozialrecht ⚖'
-                        accordion_content:
-                          -
-                            type: table
-                            content:
-                              -
-                                type: table_row
-                                content:
-                                  -
-                                    type: table_cell
-                                    attrs:
-                                      colspan: 1
-                                      rowspan: 1
-                                      colwidth: null
-                                      background: null
-                                    content:
-                                      -
-                                        type: bullet_list
-                                        content:
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Arbeitsrecht = Regelung der Rechtsbindungen zwischen Arbeitnehmern und Arbeitgebern, Regelung der Rechtsbeziehungen der Koalitionen'
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Sozialrecht = Regelung des SGB, Sicherung des Sozialstaatspostulats'
-                        active: false
-                      -
-                        headline: 'Familienrecht 👨‍👩‍👧‍👦'
-                        accordion_content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Teilgebiet des Zivilrechts'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: ' Regelung der Rechtsverhältnisse, die durch Ehe, Familie, Verwandtschaft und Lebenspartnerschaft entstanden sind'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Regelung gesetzlicher Vertretungsfunktionen (z. B. Vormundschaft, Pflegeschaft, Betreuung)'
-                        active: false
-                      -
-                        headline: 'Erbrecht ✝'
-                        accordion_content:
-                          -
-                            type: table
-                            content:
-                              -
-                                type: table_row
-                                content:
-                                  -
-                                    type: table_cell
-                                    attrs:
-                                      colspan: 1
-                                      rowspan: 1
-                                      colwidth: null
-                                      background: null
-                                    content:
-                                      -
-                                        type: bullet_list
-                                        content:
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Regelung der Verfügungen von Todes Weges'
-                        active: false
-                      -
-                        headline: 'Umweltrecht 🌳🌲🌴'
-                        accordion_content:
-                          -
-                            type: table
-                            content:
-                              -
-                                type: table_row
-                                content:
-                                  -
-                                    type: table_cell
-                                    attrs:
-                                      colspan: 1
-                                      rowspan: 1
-                                      colwidth: null
-                                      background: null
-                                    content:
-                                      -
-                                        type: bullet_list
-                                        content:
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Normen, die dem Umweltschutz dienen'
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Kernbereich sind Schutzgesetze'
-                        active: false
-                      -
-                        headline: 'Steuerrecht 💰'
-                        accordion_content:
-                          -
-                            type: table
-                            content:
-                              -
-                                type: table_row
-                                content:
-                                  -
-                                    type: table_cell
-                                    attrs:
-                                      colspan: 1
-                                      rowspan: 1
-                                      colwidth: null
-                                      background: null
-                                    content:
-                                      -
-                                        type: bullet_list
-                                        content:
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Teil des Abgabenrechts'
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: ' alle Steuergesetze, d.h. auch Gesetze der Steuerverwaltung und der Finanzgerichtsbarkeit'
-                        active: false
-                      -
-                        headline: 'Medienrecht ⏏'
-                        accordion_content:
-                          -
-                            type: bullet_list
-                            content:
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Regelung des Umgangs mit Veröffentlichungen'
-                              -
-                                type: list_item
-                                content:
-                                  -
-                                    type: paragraph
-                                    content:
-                                      -
-                                        type: text
-                                        text: 'Grundlage ist das GG, insbesondere das Recht der freien Meinungsäußerung'
-                        active: false
-                      -
-                        headline: 'Medizinrecht 💊'
-                        accordion_content:
-                          -
-                            type: table
-                            content:
-                              -
-                                type: table_row
-                                content:
-                                  -
-                                    type: table_cell
-                                    attrs:
-                                      colspan: 1
-                                      rowspan: 1
-                                      colwidth: null
-                                      background: null
-                                    content:
-                                      -
-                                        type: bullet_list
-                                        content:
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'rechtliche Aspekte im Gesundheitswesen (Gesundheitsrecht)'
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Medizinrecht i.e.S. = Regelung der Rechtsbeziehungen zwischen Arzt und Patient und zwischen Ärzten untereinander'
-                        active: false
-                      -
-                        headline: 'IT-Recht 💻'
-                        accordion_content:
-                          -
-                            type: table
-                            content:
-                              -
-                                type: table_row
-                                content:
-                                  -
-                                    type: table_cell
-                                    attrs:
-                                      colspan: 1
-                                      rowspan: 1
-                                      colwidth: null
-                                      background: null
-                                    content:
-                                      -
-                                        type: bullet_list
-                                        content:
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Auch Rechtsinformatik genannt, rechtliche Betrachtungen in der Informationstechnologie'
-                                          -
-                                            type: list_item
-                                            content:
-                                              -
-                                                type: paragraph
-                                                content:
-                                                  -
-                                                    type: text
-                                                    text: 'Die Meinungsstreiten etablieren sich im Datenschutzrecht, Softwarerecht oder im IT-Strafrecht'
+                                type: text
+                                text: "Im Verlauf des Studiums werden dann durch den Studenten selbst Vertiefungen gewählt, beispielsweise in Medienrecht, in Kommunikation und - sehr interessant - natürlich auch das Thema Social Media Werbung. In den letzten Jahre wurde in den\_Bereichen Social Media Plattformen und Social Media Marketing eine Reihe neuer Studienfächer geschaffen, die auch von privaten Universitäten sehr stark beworben und forciert werden. Solche sehr gezielten Studiengänge sind gerade dann interessant, wenn Studenten später eben dann auch in diesen Bereichen als Marketing Manager tätig werden möchten."
                         active: false
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die einzelnen Fächer sind mit einer Klausur oder Hausarbeit abzuschließen. Diese bestehen aus Sachverhalten und Fragestellungen, deren Lösungswege im juristischen Gutachtenstil erarbeitet werden müssen. 30% der Abschlussnote bilden sich aus den Noten der Pflichtfachprüfungen und Jurahausarbeiten, 70% aus der Note der Staatsexamen. Deren Bestehen stellt allerdings für sehr viele Studenten große Schwierigkeiten dar, da lediglich ein Wiederholungsversuch gestattet wird. Das zweite Durchfallen führt dabei zum Ende der juristischen Karriere bzw. zur Exmatrikulation. Ein großer Zeitdruck lastet auf den Studenten, die sich nicht selten mithilfe von einem Jura Ghostwriter oder Freelancer Entlastung schaffen.'
+                    text: 'Über die internationale Ausrichtung vieler Marketing-Studiengänge und deren Fokus auf aktuelle Entwicklungen und Trends hinaus, bieten viele Universitäten, insbesondere private Universitäten, auch ein duales Studium im Bereich Marketing. Dies bedeutet eine Verknüpfung zwischen beruflicher Tätigkeit und Studium, was natürlich höhere Anforderungen an alle Studenten stellt, insbesondere was die zeitliche Thematik angeht. Und genau in diesem Zusammenhang können die Fachautoren von GWriters-Schreibservice wertvolle Unterstützung leisten, da sie besonders duale Studenten zeitlich einfach entlasten können, sodass diese sich auf ihr Studium, auf zu verfassende Klausuren und anstehende Referaten konzentrieren können. Denn mit der Erstellung von Mustervorlagen für wissenschaftliche Arbeiten können diese dann guten Gewissens unsere hochkompetenten Marketing Ghostwriter bei GWriters beauftragen.'
               -
                 type: heading
                 attrs:
                   level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Weitere interessante Studiengänge im Bereich Rechtswissenschaften:'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: Wirtschaftsrecht
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: Unternehmensrecht
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: Steuerrecht
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Wirtschaftsrecht für Technologieunternehmen'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Recht & Management'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: Kriminologie
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: Rechtspsychologie
             show_as_card: false
         type: row
         enabled: true
@@ -1533,169 +1264,15 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wie Sie die perfekte Jura Hausarbeit schreiben'
+                    text: 'Zusammenfassung zu Ghostwritern & Marketing'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Das erfolgreiche Absolvieren des Jurastudiums\_setzt auch das Anfertigen von "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Haus
-                  -
-                    type: text
-                    text: '- und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/seminararbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Seminararbeiten
-                  -
-                    type: text
-                    text: " voraus. Viele Studierende fühlen sich angesichts dieser Aufgabenstellung schnell überfordert, da das eigentliche wissenschaftliche Erarbeiten bestimmter Fragestellungen im Rahmen der jeweiligen Veranstaltungen des (Haupt-)Studiums regelmäßig nur eine untergeordnete Rolle spielt. Dabei sind beide Aufgaben – sowohl das Anfertigen einer\_Jura Hausarbeit als auch dasjenige einer Jura Seminararbeit – unter Berücksichtigung einiger Hilfestellungen für alle Studierende machbar. Und in besonders schweren Fällen können auch akademische Ghostwriter Jura Studenten professionell unterstützen."
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: "Hausarbeit Jura –\_Sachverhaltslektüre und Stoffsammlung"
+                    text: 'Zusammengefasst handelt es sich beim Marketing um ein hochinteressantes Studium und gerade wenn man sich die heutige Produkt- und Dienstleistungswelt anschaut, dann werden Produkte immer vergleichbarer und austauschbarer, sodass allein über den Preis der Wettbewerb schon lange nicht mehr zu gewinnen ist. Umso wichtiger wird es in der Zukunft, Marketing Spezialisten zu haben, die genau wissen, worauf die Zielgruppe bzw. Konsumenten wirklich Wert legen und wie Werbekampagnen genau auf diese Kundenbedürfnisse abgestimmt werden können. Nur so ist es möglich, eine wirkungsvolle und erfolgreiche Marketingstrategie zu entwickelt.'
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Gegenstand der\_Jura Hausarbeit ist regelmäßig die Falllösung, sodass es zuerst darum gehen muss den Sachverhalt zu lesen und zu verstehen. Wie im Rahmen einer Klausurbearbeitung kommt es auch für das erfolgreiche Gestalten einer Ausarbeitung einer Hausarbeit darauf an, dass Sie sich ausreichend Zeit zur Lektüre nehmen und davor schützen, durch Assoziationen zu Ihnen bekannten Fällen voreilig Schlüsse zu ziehen. Es bietet sich daher an den Sachverhalt einer Hausarbeit in mehreren Schritten zu erfassen. "
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Zunächst sollte das bloße Lesen im Vordergrund stehen und etwaige Anmerkungen – auch wenn es schwerfällt – auf den zweiten Lesedurchgang verschoben werden. In diesem Durchgang können bereits Notizen parallel zum Lesen angefertigt werden und insbesondere sollten die wesentlichen Sachverhaltsangaben wie Daten, Personen und deren Beziehungen zueinander unterstrichen bzw. anderweitig hervorgehoben werden.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Eine chronologische Tafel, eine Personenskizze oder eine Stoffsammlung können in dieser Phase der Erstellung einer Hausarbeit sehr wertvoll sein. Hierdurch ergibt sich eine Art „bereinigter Sachverhalt“, den Sie mit dem eigentlichen Sachverhalt wiederum abgleichen sollten, um anschließend eine Differenzierung innerhalb des bereinigten Sachverhaltes nach unstreitigen und streitigen und juristischen und tatsächlichen Angaben vornehmen zu können. Sind Sie an diesem Punkt angelangt, haben Sie bereits wichtige Schritte zur erfolgreichen Bearbeitung der Hausarbeit hinter sich gebracht. Als nächstes sollten ihre Feststellungen vor der Fallfrage respektive den Fallfragen gespiegelt werden.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Innerhalb einer Jura Hausarbeit (ebenso wie innerhalb einer Jura Seminararbeit) gilt stets das Prinzip, dass falsch ist, was überflüssig ist. Deshalb müssen Sie genau eruieren, auf welche der von Ihnen herausgearbeiteten Punkte es angesichts der Fallfrage tatsächlich ankommt.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Recherche und Lösungsskizze'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wesentlicher Teil der Bearbeitung sowohl einer Hausarbeit, als auch einer Seminararbeit, ist stets die Recherche der jeweiligen Probleme des Falls. Hier hilft es, dass viele Angebote in Bezug auf Jura online verfügbar sind. Sowohl über die Datenbanken '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: juris
-                  -
-                    type: text
-                    text: ' oder '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: beck-online
-                  -
-                    type: text
-                    text: ', als auch in den vielfach online einsehbaren Skripten der Vorlesungen lassen sich schnelle erste Vorstellungen der Fallbearbeitung fassen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Entscheidend ist insoweit, dass Sie sich in den Kommentarstellen bzw. den entsprechen Beiträgen in der juristischen Literatur einen umfassenden Eindruck zu den im Fall aufgeworfenen Rechtssachverhalte verschaffen, damit Sie abschätzen können ob und in welchem Umfang die Bearbeitung der\_Jura Hausarbeit auf bestimmte Probleme wird eingehen müssen."
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating-img
-                    dateien:
-                      - jura-ghostwriter.png
-                    img_size: w-3/4
-                    float: mx-auto
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '15'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Sie können sich bei GWriters nicht nur Mustervorlagen für Ihre Jura Hausarbeit schreiben lassen, sondern\_sich auch lediglich "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'bestimmte Sachverhaltsabschnitte von einem Jura Ghostwriter genau erklären'
-                  -
-                    type: text
-                    text: ' '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: lassen
-                  -
-                    type: text
-                    text: ' oder eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Lösungsskizze erarbeiten lassen'
-                  -
-                    type: text
-                    text: ". Es empfiehlt sich, erst in diesem Stadium der Bearbeitung der Hausarbeit mit der Erstellung der Lösungsskizze zu beginnen. Auch für die aufwändige juristische Literaturrecherche und bei der Erstellung von Gliederung können Ghostwriter unterstützend werden. \_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ausgehend von der jeweiligen Fallfragestellung der Arbeit müssen Sie die insoweit zutreffende Rechtsfolge aus den Ihnen bekannten Normen herausarbeiten und finden so die zu prüfenden Vorschriften. Diese Vorschriften sollen dann im Rahmen der Lösungsskizze zueinander ins Verhältnis gesetzt werden. Auch bei der Frage, wie die Lösungsskizze zu erstellen ist, kann auf online verfügbare Quellen zurückgegriffen werden. Insbesondere hinsichtlich des Aufbaus der Hausarbeit empfiehlt es sich, die insoweit vielfach gegebenen Anleitungen der Lehrbücher zu befolgen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1706,177 +1283,6 @@ replicator:
     border: false
     type: add_section
     enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/beispielarbeiten-1.JPG
-                    ex_title: 'Weiterentwicklung der Baseler Eigenmittelübereinkunft'
-                    ex_fachbereich:
-                      - 21ef3416-f1fd-43eb-8e38-ec597763c45f
-                    ex_type: Hausarbeit
-                    ex_pages: '10'
-                    ex_zitation: 'Harvard Style'
-                    ex_button_text: Weiterlesen
-                    ex_button_align: justify-start
-                    ex_spacing_top: false
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Ausformulierung der Jura Hausarbeit'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Schließlich ist\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/gutachten-schreiben
-                          target: _blank
-                          rel: null
-                    text: 'die anzuwendende Gutachtentechnik'
-                  -
-                    type: text
-                    text: "\_zu beachten und zu nutzen. Achten Sie diesbezüglich darauf, dass zum einen nahe am Sachverhalt der Jurahausarbeit formuliert wird, zum anderen aber auch „sauber“ der Sachverhalt unter die jeweiligen Tatbestandsvoraussetzungen subsumiert wird. Schließlich ist im Rahmen der Ausformulierung der Hausarbeit auch maßgeblich, dass die Arbeit „rund“ ist: Dies bedeutet, dass sämtliche, durch die Fallfrage aufgeworfenen Probleme gelöst werden müssen und zudem die Arbeit durch ein Ergebnis geschlossen wird."
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Seminararbeit Jura – Unterschiede und Anforderungen'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die Ausarbeitung der Seminararbeit unterscheidet sich von der Hausarbeit insofern, als hier regelmäßig nicht am Fall gearbeitet, sondern abstrakt die Darstellung und Einordnung eines abstrakten Rechtsproblems gefordert wird. Dies erleichtert in der Vorbereitung der Ausarbeitung der Seminararbeit die Arbeit insofern, als es gerade nicht erforderlich ist, den Sachverhalt korrekt zu bereinigen, erschwert die eigentliche Lösungsskizze allerdings im Hinblick auf den Transferteil der Aufgabenstellung, als insoweit die entsprechende Recherche der Rechtsprobleme zwar als Grundlage der eigenen Ausarbeitung dienen kann, eine vollständig selbständig erdachte Lösung dennoch erforderlich bleibt.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Hier kann die Einbeziehung von Autoren von GWriters hilfreich sein, insbesondere da der Mehrwert der Ausarbeitung einer Seminararbeit im Hinblick auf das Studiumsziel des Examens ausgesprochen überschaubar bleibt und insofern die Studienzeit – etwa zur Klausurenübung – oftmals lerntaktisch sinnvoller genutzt werden kann.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '50'
-            show_as_card: true
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Haus- oder Seminararbeiten in Jura erfolgreich bewältigen'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Die Ausarbeitung einer Jura Hausarbeit oder auch einer\_Jura Seminararbeit setzt vor allem Zeit voraus. Das Gelingen einer solchen Ausarbeitung hängt von der Gründlichkeit der Durchführung der jeweiligen Arbeitsschritte ab. Es bedarf einer sorgfältigen Sachverhaltslektüre, umfangreicher Skizzen und einer in sich stimmigen Lösungsskizze, um eine überzeugende Ausarbeitung einer Haus- bzw. Seminararbeit zu schaffen."
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Auch und gerade deshalb gibt es viele Studenten bzw. Auftraggeber, die sich Mustervorlagen für Ihre Haus- und Seminararbeiten in Jura schreiben lassen. Professionelle Ghostwriting-Agenturen setzen hier dort an, wo es an der Unterstützung durch Lehrende, Doktoranden und Professoren mangelt. Durch Mustervorlagen nach wissenschaftlichen Standards und Experten-Coachings werden die korrekten wissenschaftlichen Arbeitstechniken demonstriert und verständlich erklärt sowie beispielsweise der Unterschied zwischen dem Gutachten- und Urteilsstil verdeutlicht.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Bei GWriters konnten wir durch unsere langjährige Erfahrung und mit Hilfe unserer hochqualifizierten Jura Ghostwriter, Lektoren und Coaches bereits einer Vielzahl von Studenten zum erfolgreichen Abschluss ihres Jurastudiums verhelfen.'
-            show_as_card: true
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-    bg-color: '#F9F9F9'
   -
     columns-replicator:
       -
@@ -1937,16 +1343,16 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Einige unserer Blogartikel zum Studiengang Informatik'
+                    text: 'Einige unserer Blogartikel zum Studiengang Marketing'
               -
                 type: set
                 attrs:
                   values:
                     type: blog_entries
                     entries:
-                      - 70e3de9b-2de4-4dec-8edb-aaac764bb6d7
-                      - eafbdab5-b138-4080-8c67-59f5f2c1a5c1
-                      - 77170534-1ca3-42c2-97b1-d3031ddb9b48
+                      - e803ca67-5711-41ff-8011-9f1fa67dabe7
+                      - fcd65943-75b0-4152-a30a-507b18f8b12b
+                      - fe4f376b-0418-488d-94e9-da8b56ebde32
               -
                 type: set
                 attrs:
@@ -1988,10 +1394,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.gesetze-im-internet.de/bgb/'
+                          href: 'https://de.wikipedia.org/wiki/Guerilla-Marketing'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
-                    text: 'Bürgerliches Gesetzbuch – Bundesministerium der Justiz Deutschland'
+                    text: 'Artikel über Guerilla-Marketing - Wikipedia'
                   -
                     type: hard_break
                     marks:
@@ -2014,10 +1420,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.zeit.de/studium/hochschule/2011-03/juranoten-reform'
+                          href: 'https://de.wikipedia.org/wiki/Marketing'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
-                    text: '“Im Jurastudium werden die Noten plötzlich ganz mau” – Zeit Online'
+                    text: 'Grundinformationen zu Marketing - Wikipedia'
                   -
                     type: hard_break
                     marks:
@@ -2040,10 +1446,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.sueddeutsche.de/karriere/endstation-staatspruefung-ungeloeste-faelle-1.559957'
+                          href: 'https://wirtschaftslexikon.gabler.de/definition/marketing-39435'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
-                    text: 'Endstation Staatsprüfung – Süddeutsche.de'
+                    text: 'Definition Marketing - Wirtschaftslexikon Gabler'
                   -
                     type: hard_break
                     marks:
@@ -2051,41 +1457,6 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://ranking.zeit.de/che/de/fachinfo/5'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Jura studieren – Zeit Online'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                    text: ' '
-              -
-                type: paragraph
-                content:
                   -
                     type: text
                     marks:
@@ -2125,10 +1496,10 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Jura – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-og_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
-og_description: 'Hilfe durch Experten und akademische Ghostwriter der Jura – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+meta_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
+meta_description: 'Hilfe durch Experten und akademische Ghostwriter im Marketings – ✅ schnell, ✅ diskret und ✅ mehrfach geprüft auf Qualität & Plagiate.'
+og_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
+og_description: 'Hilfe durch Experten und akademische Ghostwriter im Marketings – ✅ schnell, ✅ diskret und ✅ mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-fachrichtungsgruppe: g_geisteswissenschaften
+fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 ---
