@@ -5,13 +5,13 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643742892
+updated_at: 1643742964
 replicator:
   -
     columns-replicator:
       -
         columns_per_row: 1
-        single-col: true
+        single-col: false
         grid:
           -
             bard:
@@ -150,7 +150,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single-col: false
         grid:
           -
             bard:
