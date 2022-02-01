@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'ghostwriter beauftragen'
 size: 155926
-last_modified: 1617285946
+last_modified: 1619516965
 width: 750
 height: 421
 mime_type: image/png
