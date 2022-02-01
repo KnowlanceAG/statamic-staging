@@ -5,13 +5,13 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1638881716
+updated_at: 1643742892
 replicator:
   -
     columns-replicator:
       -
         columns_per_row: 1
-        single-col: false
+        single-col: true
         grid:
           -
             bard:
@@ -150,7 +150,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single-col: true
         grid:
           -
             bard:
@@ -812,7 +812,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single-col: true
         grid:
           -
             bard:
@@ -877,7 +877,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single-col: true
         grid:
           -
             bard:
@@ -1774,7 +1774,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single-col: true
         grid:
           -
             bard:
@@ -1833,7 +1833,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single-col: true
         grid:
           -
             bard:
@@ -1848,295 +1848,320 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
-                    text: 'Die wichtigsten Fragen und Antworten zu unseren Ghostwriter Preisen'
+                          align: left
+                    text: 'Häufig gestellte Fragen zu unseren Ghostwriter Preisen'
               -
                 type: set
                 attrs:
                   values:
-                    type: numbers_home
-                    grid:
+                    type: accordion-custom-wrapper
+                    items:
                       -
-                        zahl: '1.'
-                        beschreibung: 'Ich möchte einen Ghostwriter mit Doktortitel beauftragen, muss ich mit höheren Ghostwriter Preise rechnen?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die Preise für einen Ghostwriter oder Schreibcoach im akademischen Bereich variieren stark. Als Kunde sollte man sich allerdings darüber im Klaren sein, dass die Kosten für einen Ghostwriter mit entsprechenden Qualifikationen höher sind als für einen Ghostwriter, welcher nicht einmal einen akademischen Abschluss hat. Gerade bei geringen Preisen von Ghostwriting-Agenturen stellt sich so die Frage, ob man eine Mustervorlage für die eigene von jemandem'
-                  -
-                    type: text
-                    marks:
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Ich möchte einen Ghostwriter mit Doktortitel beauftragen, muss ich mit höheren Ghostwriter Preise rechnen?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die Preise für einen Ghostwriter oder Schreibcoach im akademischen Bereich variieren stark. Als Kunde sollte man sich allerdings darüber im Klaren sein, dass die Kosten für einen Ghostwriter mit entsprechenden Qualifikationen höher sind als für einen Ghostwriter, welcher nicht einmal einen akademischen Abschluss hat. Gerade bei geringen Preisen von Ghostwriting-Agenturen stellt sich so die Frage, ob man eine Mustervorlage für die eigene von jemandem'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/doktorarbeit
+                                      target: null
+                                      rel: null
+                                text: "\_Doktorarbeit schreiben lassen\_"
+                              -
+                                type: text
+                                text: 'möchte, der selbst noch nicht einmal eine Dissertation verfasst hat. '
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "Daher werden bei GWriters für jedes Projekt\_ausschließlich Ghostwriter mit mindestens dem gleichen akademischen Abschluss eingesetzt."
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: 'Wenn es Ihnen besonders wichtig ist, einen Schreibcoach zu engagieren der bereits promoviert hat oder sogar eine Professur innehat, sollte man sich also darauf einstellen, dass für ein solches Ghostwriting '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'ein Aufpreis anfällt'
+                              -
+                                type: text
+                                text: '. Die Kosten sind höher als wenn Sie eine Billig-Agentur engagieren, die solch einen hochklassigen Service nicht garnieren kann.'
+                        active: false
                       -
-                        type: link
-                        attrs:
-                          href: /arbeiten/doktorarbeit
-                          target: null
-                          rel: null
-                    text: "\_Doktorarbeit schreiben lassen\_"
-                  -
-                    type: text
-                    text: 'möchte, der selbst noch nicht einmal eine Dissertation verfasst hat. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Daher werden bei GWriters für jedes Projekt\_ausschließlich Ghostwriter mit mindestens dem gleichen akademischen Abschluss eingesetzt."
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: 'Wenn es Ihnen besonders wichtig ist, einen Schreibcoach zu engagieren der bereits promoviert hat oder sogar eine Professur innehat, sollte man sich also darauf einstellen, dass für ein solches Ghostwriting '
-                  -
-                    type: text
-                    marks:
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Aus welchen Faktoren setzen sich die Preise für Ghostwriting zusammen?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Qualität hat auch bei der Ghostwritingleistung ihren Preis. Die Preise für einen erfolgreichen Ghostwriter setzen sich aus verschiedenen Faktoren zusammen. Zum Ersten gehört dazu die Fachdisziplin und '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'die Komplexität des '
+                              -
+                                type: text
+                                text: 'Themas über welches die Arbeit verfasst werden soll. Hier greifen die typischen Gesetze des Marktes von Angebot und Nachfrage. '
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Starke Spezialisierungen einer Fachdisziplin, wie sie eine Dissertation erfordern, stellen natürlich andere Anforderungen an den Ghostwriter als das Verfassen einer'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/hausarbeit-schreiben-lassen
+                                      target: null
+                                      rel: null
+                                text: "\_Hausarbeit\_"
+                              -
+                                type: text
+                                text: 'im ersten Semester. Daher sind die Preise einer solchen Ghostwritingleistungs natürlich höher. '
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Des weiteren spielt natürlich der Umfang einer solchen Arbeit auch eine entscheidenden Rolle. Hier geht es um den Zeitaufwand den ein Ghostwriter betreiben muss um die Arbeit zu verfassen. Daher ermessen Ghostwriting-Agenturen den Preis häufig pro Seite.'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: "Seriöse Agenturen erkennt man daran, dass diese einen Kostenvoranschlag unterbreiten (übrigens auch für\_"
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /korrektorat
+                                      target: null
+                                      rel: null
+                                text: Korrektorat
+                              -
+                                type: text
+                                text: ', '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /lektorat
+                                      target: null
+                                      rel: null
+                                text: Lektorat
+                              -
+                                type: text
+                                text: ' und Plagiatsprüfung), der als Festpreisangebot deklariert wird, also nicht überschritten wird, ganz egal wie viel Mehrarbeit noch über den geschätzten Aufwand entsteht. Gute Agenturen sind sich der eigenen '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Professionalität '
+                              -
+                                type: text
+                                text: 'nämlich sehr wohl bewusst und können sich auf ihr Team von akademischen Ghostwritern verlassen.'
+                        active: false
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'ein Aufpreis anfällt'
-                  -
-                    type: text
-                    text: '. Die Kosten sind höher als wenn Sie eine Billig-Agentur engagieren, die solch einen hochklassigen Service nicht garnieren kann.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: numbers_home
-                    grid:
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Ist ein hoher Preis eine Garantie für gutes Ghostwriting?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Einen hohen Preis für ein Ghostwriting zu verlangen ist natürlich per se keine Garantie für qualitativ hochwertige Arbeit. Allerdings zeigt sich hier, wie auch in anderen Lebensbereichen, oft: Wer billig kauft, kauft doppelt. Daher sollte ein günstiger Preis nicht das bevorzugte oder gar einzige beachtete Merkmal bei der Auswahl einer Ghostwriting-Agentur sein. '
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Besonders geachtet sollte darauf, dass der Ansprechpartner einen seriösen Eindruck macht. Auch empfiehlt es sich, durch gezieltes Nachfragen die Erfahrung der Agentur beim Erstellen solcher Arbeiten auf die Probe zu stellen. '
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Auch sollten man sicher gehen, dass ein Ghostwriter mit der Aufgabe betraut wurde, der reichlich Erfahrung im gefragten Fachgebiet mitbringt. Daher gilt als Faustregel, nicht nur auf den Preis, sondern auch darauf zu achten, ob die Aufgabe in gute Hände gelegt wird.'
+                        active: false
                       -
-                        zahl: '2.'
-                        beschreibung: 'Aus welchen Faktoren setzen sich die Preise für Ghostwriting zusammen?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Qualität hat auch bei der Ghostwritingleistung ihren Preis. Die Preise für einen erfolgreichen Ghostwriter setzen sich aus verschiedenen Faktoren zusammen. Zum Ersten gehört dazu die Fachdisziplin und '
-                  -
-                    type: text
-                    marks:
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Ich möchte einen Ghostwriter günstig beauftragen, haben Sie einen Billig-Tarif?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Auch wenn wir jederzeit versuchen, Ihnen den Service unserer Ghostwriter günstig – und zwar so günstig wie möglich – zu bieten, bieten wir keinen Billig-Tarif auf Kosten der Qualität unserer Arbeit an. Denn als eine der führenden Ghostwriting Agenturen im deutschsprachigen Raum ist es für uns von höchster Priorität, Ihnen jederzeit höchste Qualität von akademischen Experten liefern zu können.'
+                        active: false
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'die Komplexität des '
-                  -
-                    type: text
-                    text: 'Themas über welches die Arbeit verfasst werden soll. Hier greifen die typischen Gesetze des Marktes von Angebot und Nachfrage. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Starke Spezialisierungen einer Fachdisziplin, wie sie eine Dissertation erfordern, stellen natürlich andere Anforderungen an den Ghostwriter als das Verfassen einer'
-                  -
-                    type: text
-                    marks:
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Ich möchte mir eine Hausarbeit schreiben lassen: Kosten im Durchschnitt?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "Die Preisspanne, wenn Sie sich eine Mustervorlage für Ihre\_"
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /arbeiten/hausarbeit-schreiben-lassen
+                                      target: null
+                                      rel: null
+                                text: 'Hausarbeit schreiben lassen'
+                              -
+                                type: text
+                                text: ', liegt zwischen €800 – €1600. Natürlich variieren die Ghostwriter Preise hier aber auch stark abhängig von der geforderten Anzahl der Textseiten, dem Schwierigkeitsgrad Themas, dem Fachbereich und dem zur Verfügung stehenden Bearbeitungszeitraum. In jedem Fall werden wir jedoch versuchen, eine für Sie möglichst kostengünstige und zugleich hochqualitative Lösung zu finden.'
+                        active: false
                       -
-                        type: link
-                        attrs:
-                          href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: "\_Hausarbeit\_"
-                  -
-                    type: text
-                    text: 'im ersten Semester. Daher sind die Preise einer solchen Ghostwritingleistungs natürlich höher. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Des weiteren spielt natürlich der Umfang einer solchen Arbeit auch eine entscheidenden Rolle. Hier geht es um den Zeitaufwand den ein Ghostwriter betreiben muss um die Arbeit zu verfassen. Daher ermessen Ghostwriting-Agenturen den Preis häufig pro Seite.'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    text: "Seriöse Agenturen erkennt man daran, dass diese einen Kostenvoranschlag unterbreiten (übrigens auch für\_"
-                  -
-                    type: text
-                    marks:
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Ist ein abschließendes Lektorat bereits im Preis inklusive?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Da es immer unser ausgeschriebenes Ziel ist, Ihnen mit jeder Ausarbeitung höchste Qualität zu liefern, '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'sind Zusatzleistungen wie das Lektorat und Korrektorat, '
+                              -
+                                type: text
+                                text: 'der durch uns erstellten Mustervorlage für Ihre Abschlussarbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit o.ä.) immer im Pauschalpreis inklusive. Diese werden von einem übergeordneten Supervisor durchgeführt, der den entsprechenden fachlichen Hintergrund wie Ihr Ghostwriter hat und somit Ihre Arbeit inhaltlich und äußerlich überprüfen und ihr den letzten Schliff geben kann.'
+                        active: false
                       -
-                        type: link
-                        attrs:
-                          href: /korrektorat
-                          target: null
-                          rel: null
-                    text: Korrektorat
-                  -
-                    type: text
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: Lektorat
-                  -
-                    type: text
-                    text: ' und Plagiatsprüfung), der als Festpreisangebot deklariert wird, also nicht überschritten wird, ganz egal wie viel Mehrarbeit noch über den geschätzten Aufwand entsteht. Gute Agenturen sind sich der eigenen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Professionalität '
-                  -
-                    type: text
-                    text: 'nämlich sehr wohl bewusst und können sich auf ihr Team von akademischen Ghostwritern verlassen.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: numbers_home
-                    grid:
-                      -
-                        zahl: '3.'
-                        beschreibung: 'Ist ein hoher Preis eine Garantie für gutes Ghostwriting?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Einen hohen Preis für ein Ghostwriting zu verlangen ist natürlich per se keine Garantie für qualitativ hochwertige Arbeit. Allerdings zeigt sich hier, wie auch in anderen Lebensbereichen, oft: Wer billig kauft, kauft doppelt. Daher sollte ein günstiger Preis nicht das bevorzugte oder gar einzige beachtete Merkmal bei der Auswahl einer Ghostwriting-Agentur sein. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Besonders geachtet sollte darauf, dass der Ansprechpartner einen seriösen Eindruck macht. Auch empfiehlt es sich, durch gezieltes Nachfragen die Erfahrung der Agentur beim Erstellen solcher Arbeiten auf die Probe zu stellen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Auch sollten man sicher gehen, dass ein Ghostwriter mit der Aufgabe betraut wurde, der reichlich Erfahrung im gefragten Fachgebiet mitbringt. Daher gilt als Faustregel, nicht nur auf den Preis, sondern auch darauf zu achten, ob die Aufgabe in gute Hände gelegt wird.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: numbers_home
-                    grid:
-                      -
-                        zahl: '4.'
-                        beschreibung: 'Ich möchte einen Ghostwriter günstig beauftragen, haben Sie einen Billig-Tarif?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Auch wenn wir jederzeit versuchen, Ihnen den Service unserer Ghostwriter günstig – und zwar so günstig wie möglich – zu bieten, bieten wir keinen Billig-Tarif auf Kosten der Qualität unserer Arbeit an. Denn als eine der führenden Ghostwriting Agenturen im deutschsprachigen Raum ist es für uns von höchster Priorität, Ihnen jederzeit höchste Qualität von akademischen Experten liefern zu können.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: numbers_home
-                    grid:
-                      -
-                        zahl: '5.'
-                        beschreibung: 'Ich möchte mir eine Hausarbeit schreiben lassen: Kosten im Durchschnitt?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Die Preisspanne, wenn Sie sich eine Mustervorlage für Ihre\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: 'Hausarbeit schreiben lassen'
-                  -
-                    type: text
-                    text: ', liegt zwischen €800 – €1600. Natürlich variieren die Ghostwriter Preise hier aber auch stark abhängig von der geforderten Anzahl der Textseiten, dem Schwierigkeitsgrad Themas, dem Fachbereich und dem zur Verfügung stehenden Bearbeitungszeitraum. In jedem Fall werden wir jedoch versuchen, eine für Sie möglichst kostengünstige und zugleich hochqualitative Lösung zu finden.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: numbers_home
-                    grid:
-                      -
-                        zahl: '6.'
-                        beschreibung: 'Ist ein abschließendes Lektorat bereits im Preis inklusive?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Da es immer unser ausgeschriebenes Ziel ist, Ihnen mit jeder Ausarbeitung höchste Qualität zu liefern, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'sind Zusatzleistungen wie das Lektorat und Korrektorat, '
-                  -
-                    type: text
-                    text: 'der durch uns erstellten Mustervorlage für Ihre Abschlussarbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit o.ä.) immer im Pauschalpreis inklusive. Diese werden von einem übergeordneten Supervisor durchgeführt, der den entsprechenden fachlichen Hintergrund wie Ihr Ghostwriter hat und somit Ihre Arbeit inhaltlich und äußerlich überprüfen und ihr den letzten Schliff geben kann.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: numbers_home
-                    grid:
-                      -
-                        zahl: '7.'
-                        beschreibung: 'Was kostet es, einen Ghostwriter für die Quellenrecherche oder Themenfindung zu beauftragen?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Selbstverständlich können unsere akademischen Ghostwriter bei jeder Fragestellung zu ihrer Abschlussarbeit behilflich sein. Gewöhnlich beginnen die Preise für solche Leistungen ab 500€. Gerne erstellen wir Ihnen ein individuell auf Ihre Bedürfnisse zugeschnittenes Angebot.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Unsere akademischen Ghostwriter unterstützen Sie zum Beispiel auch bei der Themenfindung, Formatierung, Quellenrecherche, beim Finden einer Forschungsfrage und der Anwendung von Forschungsmethoden. Die Durchführung von Umfragen, Interviewsauswertungen, sowie qualitative ('
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/maxqda-auswertung
-                          target: null
-                          rel: null
-                    text: MAXQDA
-                  -
-                    type: text
-                    text: ') und quantitativen (SPSS, Stata, R) Datenauswertungen oder Inhaltsanalysen übernehmen wir ebenfalls für Sie.'
-                  -
-                    type: hard_break
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Was kostet es, einen Ghostwriter für die Quellenrecherche oder Themenfindung zu beauftragen?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Selbstverständlich können unsere akademischen Ghostwriter bei jeder Fragestellung zu ihrer Abschlussarbeit behilflich sein. Gewöhnlich beginnen die Preise für solche Leistungen ab 500€. Gerne erstellen wir Ihnen ein individuell auf Ihre Bedürfnisse zugeschnittenes Angebot.'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Unsere akademischen Ghostwriter unterstützen Sie zum Beispiel auch bei der Themenfindung, Formatierung, Quellenrecherche, beim Finden einer Forschungsfrage und der Anwendung von Forschungsmethoden. Die Durchführung von Umfragen, Interviewsauswertungen, sowie qualitative ('
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /leistungen/maxqda-auswertung
+                                      target: null
+                                      rel: null
+                                text: MAXQDA
+                              -
+                                type: text
+                                text: ') und quantitativen (SPSS, Stata, R) Datenauswertungen oder Inhaltsanalysen übernehmen wir ebenfalls für Sie.'
+                        active: false
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-image-fixed: false
-    border: true
+    border: false
     type: add_section
     enabled: true
 use_meta_keywords: false
