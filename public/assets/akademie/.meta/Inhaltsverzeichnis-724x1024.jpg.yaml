@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'inhaltsverzeichnis vorlage'
 size: 32296
-last_modified: 1619477777
+last_modified: 1619516965
 width: 724
 height: 1024
 mime_type: image/jpeg
