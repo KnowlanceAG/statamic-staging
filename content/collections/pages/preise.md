@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643742964
+updated_at: 1643743104
 replicator:
   -
     columns-replicator:
@@ -2154,10 +2154,18 @@ replicator:
                                 type: text
                                 text: ') und quantitativen (SPSS, Stata, R) Datenauswertungen oder Inhaltsanalysen übernehmen wir ebenfalls für Sie.'
                         active: false
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
+    remove_spacing: true
     is-full: true
     bg-toggle: false
     bg-image-fixed: false
