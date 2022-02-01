@@ -1,6 +1,7 @@
-data: {  }
+data:
+  alt: 'hintergrundbild akademie'
 size: 17501
-last_modified: 1615372090
+last_modified: 1619516601
 width: 2001
 height: 271
 mime_type: image/jpeg
