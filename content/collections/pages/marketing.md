@@ -1,8 +1,7 @@
 ---
 id: 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
-published: false
 blueprint: pages
-title: 'Marketing (Dupliziert)'
+title: Marketing
 teaser:
   -
     type: heading
@@ -51,7 +50,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643740919
+updated_at: 1643740964
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
