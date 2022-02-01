@@ -1134,7 +1134,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Seminararbeit/Hausarbeit/Masterarbeit/ Bachelorarbeit schreiben lassen'
+                    text: 'Seminararbeit, Hausarbeit, Masterarbeit oder Bachelorarbeit schreiben lassen'
                   -
                     type: text
                     text: '. Das europäische System ist nicht zu vergleichen mit dem in den Vereinigten Staaten von Amerika. Dort ist die Vergabe eines Bachelors auch ohne das Verfassen von wissenschaftlichen Abschlussarbeiten möglich.'
@@ -1386,7 +1386,7 @@ replicator:
                     text: Gliederung
                   -
                     type: text
-                    text: ' einer Masterarbeit'
+                    text: ' einer Bachelorarbeit'
               -
                 type: bullet_list
                 content:
@@ -2469,7 +2469,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643741729
+updated_at: 1643742191
 template: default
 use_meta_keywords: false
 no_index_page: false
