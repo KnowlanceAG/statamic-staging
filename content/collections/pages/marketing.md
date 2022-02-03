@@ -49,8 +49,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643741693
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1643917961
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -439,7 +439,7 @@ replicator:
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre Jura Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        hover_content: 'Lassen Sie Ihre Marketing Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
@@ -453,14 +453,14 @@ replicator:
                         image:
                           - logo-startseite/icon-plagiat.svg
                         headline: PLAGIATSPRÜFUNG
-                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich Jura.'
+                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich Marketing.'
                         link:
                           - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
                       -
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
-                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (Jura) Übersetzungen von akademischen Texten, Arbeiten, usw.'
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (Marketing) Übersetzungen von akademischen Texten, Arbeiten, usw.'
                         link:
                           - 7cad538c-ad74-4617-825e-bbac46ebf310
               -
@@ -468,7 +468,7 @@ replicator:
                 attrs:
                   values:
                     type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH JURA'
+                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH MARKETING'
                     color: '#FF6606'
                     spacing_top: false
                     button_link: 'entry::849140c8-c582-4340-a2bc-446126149c9f'
