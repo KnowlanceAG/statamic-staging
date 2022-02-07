@@ -57,7 +57,7 @@ page_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643741557
+updated_at: 1644249242
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2041,7 +2041,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.zeit.de/studium/hochschule/2011-03/juranoten-reform'
+                          href: 'https://www.zeit.de/zustimmung?url=https%3A%2F%2Fwww.zeit.de%2Fstudium%2Fhochschule%2F2011-03%2Fjuranoten-reform'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: '“Im Jurastudium werden die Noten plötzlich ganz mau” – Zeit Online'
