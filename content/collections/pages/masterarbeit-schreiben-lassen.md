@@ -2166,7 +2166,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://www.zeit.de/campus/2010/03/Studium-Master-Empfehlungsschreiben'
+                  href: 'https://www.zeit.de/zustimmung?url=https%3A%2F%2Fwww.zeit.de%2Fcampus%2F2010%2F03%2FStudium-Master-Empfehlungsschreiben'
                   target: _blank
                   rel: 'noopener noreferrer nofollow'
             text: 'Masterstudium: Nicht zu empfehlen - Zeit Online'
@@ -2221,7 +2221,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1644241930
+updated_at: 1644249090
 template: default
 use_meta_keywords: false
 no_index_page: false
