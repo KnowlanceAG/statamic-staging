@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Empirische Bachelorarbeit'
+  title: 'Empirische Bachelorarbeit'
 size: 143654
 last_modified: 1644284306
 width: 750
