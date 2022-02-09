@@ -302,7 +302,7 @@ replicator:
         content:
           -
             type: text
-            text: '(3) '
+            text: '(3) Geplante Liefertermine für Teillieferungen gelten als variabel und können in Anpassung an den Auftragsverlauf von der initialen Planung abweichen.'
       -
         type: heading
         attrs:
@@ -481,7 +481,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1644414725
+updated_at: 1644414753
 page_title: 'GWriters • Allgemeine Geschäftsbedingungen'
 template: without-teaser-with-sidebar
 meta_title: 'GWriters • Allgemeine Geschäftsbedingungen'
