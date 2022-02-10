@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'studium vs. ausbildung'
 size: 19243
 last_modified: 1644523259
 width: 307
