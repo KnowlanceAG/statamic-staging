@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'ghostwriter skills'
 size: 8050
 last_modified: 1641576328
 width: 217

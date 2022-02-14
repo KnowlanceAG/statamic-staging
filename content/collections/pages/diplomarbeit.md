@@ -1487,7 +1487,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1633442032
+updated_at: 1644242167
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -1497,10 +1497,10 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-meta_title: 'GWriters • Mustervorlage für Diplomarbeit schreiben lassen'
-meta_description: 'Mustervorlage für Diplomarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
-og_title: 'GWriters • Mustervorlage für Diplomarbeit schreiben lassen'
-og_description: 'Mustervorlage für Diplomarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+meta_title: 'Diplomarbeit schreiben lassen • Mustervorlage von GWriters'
+meta_description: 'Diplomarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+og_title: 'Diplomarbeit schreiben lassen • Mustervorlage von GWriters'
+og_description: 'Diplomarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_abschlussarbeiten
 ---

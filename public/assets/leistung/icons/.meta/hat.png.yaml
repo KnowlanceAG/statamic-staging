@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'ghostwriter service'
 size: 2877
 last_modified: 1641910724
 width: 150

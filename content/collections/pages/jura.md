@@ -56,8 +56,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1643633836
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1644249242
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -683,7 +683,6 @@ replicator:
                           - dc0c7edd-0724-4454-9525-49b8f9065f16
                           - 1363a62f-c0e9-4dba-aa09-d331c4fa8260
                           - a9561621-8360-4ecf-855c-753f4a217c5a
-                          - bfd868ec-f81c-4805-8122-2e11008e72f2
                           - 84a37239-87ee-45fb-b2d1-058a86fecfbb
                           - f501c52c-7217-448e-bb53-d6f84c7e51c8
                           - 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
@@ -696,6 +695,12 @@ replicator:
                           - f07c0010-40dd-407e-bf32-a1a260b5016b
                           - b8930678-fff6-4d7a-8ae8-056605f303f2
                           - 1de3d76b-f23a-41a8-a629-15b48a07223e
+                          - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
+                          - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
+                          - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
+                          - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
+                          - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
+                          - 06fbb3f4-51c2-4f11-832e-9b72a495857d
             show_as_card: false
         type: row
         enabled: true
@@ -2036,7 +2041,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.zeit.de/studium/hochschule/2011-03/juranoten-reform'
+                          href: 'https://www.zeit.de/zustimmung?url=https%3A%2F%2Fwww.zeit.de%2Fstudium%2Fhochschule%2F2011-03%2Fjuranoten-reform'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: '“Im Jurastudium werden die Noten plötzlich ganz mau” – Zeit Online'

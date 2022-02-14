@@ -65,7 +65,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Bei GWriters finden Sie exakt den <b>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten eine Ghostwriter Bachelorarbeit als Mustervorlage für Ihre Bachelorarbeit schreiben lassen? Dann wenden Sie sich an einen komptenten Partner und sichern sich so Ihren Erfolg! Unsere seriöse Ghostwriting Agentur arbeitet ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren.
+                      Bei GWriters finden Sie exakt den <b>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten von einem Ghostwriter eine Bachelorarbeit als Mustervorlage für Ihre Bachelorarbeit schreiben lassen? Dann wenden Sie sich an einen kompetenten Partner und sichern sich so Ihren Erfolg! Unsere seriöse Ghostwriting Agentur arbeitet ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren.
                       </p>
               -
                 type: set
@@ -939,7 +939,6 @@ replicator:
                           - dc0c7edd-0724-4454-9525-49b8f9065f16
                           - 1363a62f-c0e9-4dba-aa09-d331c4fa8260
                           - a9561621-8360-4ecf-855c-753f4a217c5a
-                          - bfd868ec-f81c-4805-8122-2e11008e72f2
                           - 84a37239-87ee-45fb-b2d1-058a86fecfbb
                           - f501c52c-7217-448e-bb53-d6f84c7e51c8
                           - 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
@@ -955,6 +954,7 @@ replicator:
                           - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
                           - 1de3d76b-f23a-41a8-a629-15b48a07223e
                           - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
+                          - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
                       -
                         text: Arbeiten
                         eintraege:
@@ -1134,7 +1134,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Seminararbeit/Hausarbeit/Masterarbeit/ Bachelorarbeit schreiben lassen'
+                    text: 'Seminararbeit, Hausarbeit, Masterarbeit oder Bachelorarbeit schreiben lassen'
                   -
                     type: text
                     text: '. Das europäische System ist nicht zu vergleichen mit dem in den Vereinigten Staaten von Amerika. Dort ist die Vergabe eines Bachelors auch ohne das Verfassen von wissenschaftlichen Abschlussarbeiten möglich.'
@@ -1386,7 +1386,7 @@ replicator:
                     text: Gliederung
                   -
                     type: text
-                    text: ' einer Masterarbeit'
+                    text: ' einer Bachelorarbeit'
               -
                 type: bullet_list
                 content:
@@ -2468,8 +2468,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1643287250
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1644244828
 template: default
 use_meta_keywords: false
 no_index_page: false

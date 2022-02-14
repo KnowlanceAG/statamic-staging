@@ -298,6 +298,12 @@ replicator:
             type: text
             text: '(2) Wir haften nicht für Verzögerungen, die durch höhere Gewalt (z.B. Streik, Aussperrung, behördliche Anordnungen, allgemeine Störungen der Telekommunikation usw.) und durch Umstände im Verantwortungsbereich des Kunden (z.B. rechtzeitige Erbringung von Mitwirkungsleistungen; Mängel aufgrund unklarer, unrichtiger oder unvollständiger Aufträge; unvollständige Mitteilung eines Auftrags) verursacht werden und berechtigen uns, die Lieferung der jeweiligen Leistungen um die Dauer der Behinderung zuzüglich einer angemessenen Anlaufzeit hinauszuschieben. Leistungsverzögerungen aufgrund höherer Gewalt sind, soweit möglich, unverzüglich mitzuteilen.'
       -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '(3) Geplante Liefertermine für Teillieferungen gelten als variabel und können in Anpassung an den Auftragsverlauf von der initialen Planung abweichen.'
+      -
         type: heading
         attrs:
           level: 2
@@ -367,6 +373,12 @@ replicator:
           -
             type: text
             text: '(7) Verzögerungen durch Zahlungsverzug oder Rückmeldung gehen zu Lasten des Kunden.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: '(8) Die Gewährleistung der Qualität gilt ausschließlich für die letztendliche Abschlusslieferung, da die Teillieferungen nicht Teil der Auftragserbringung sind, sondern nur zur gegenseitigen Abstimmung des Inhalts dienen.'
       -
         type: heading
         attrs:
@@ -469,7 +481,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1635159112
+updated_at: 1644415486
 page_title: 'GWriters • Allgemeine Geschäftsbedingungen'
 template: without-teaser-with-sidebar
 meta_title: 'GWriters • Allgemeine Geschäftsbedingungen'

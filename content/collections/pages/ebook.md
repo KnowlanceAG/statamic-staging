@@ -1131,9 +1131,9 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1628584437
-meta_title: 'GWriters • Vom Ghostwriter eBook schreiben lassen'
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1644242219
+meta_title: 'Ghostwriter eBook schreiben lassen • GWriters'
 meta_description: 'eBook schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
 no_index_page: false
@@ -1143,7 +1143,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-og_title: 'GWriters • Vom Ghostwriter eBook schreiben lassen'
+og_title: 'Ghostwriter eBook schreiben lassen • GWriters'
 og_description: 'eBook schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_sonstige_arbeiten
