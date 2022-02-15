@@ -4,7 +4,6 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Statamic\Statamic;
-use Uscreen\Cpssg\CpssgGenerator;
 use App\UrlPaginator as UrlPaginator;
 use Statamic\Extensions\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Facades\Log;
