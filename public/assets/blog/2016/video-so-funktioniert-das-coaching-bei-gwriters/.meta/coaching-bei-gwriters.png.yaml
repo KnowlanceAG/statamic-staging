@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Coaching bei GWriters'
+  title: 'Coaching bei GWriters'
 size: 195751
 last_modified: 1644938150
 width: 1070
