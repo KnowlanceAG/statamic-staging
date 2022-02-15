@@ -1,17 +1,16 @@
 <!doctype html>
-<html lang="{{ site:short_locale }}" class="max-w-screen overflow-x-hidden">
+<html lang="{{ site:locale replace="_|-" lower="true" }}" class="max-w-screen overflow-x-hidden">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="content-language" content="de-DE">
-  <link rel="alternate" hreflang="de-DE" href="https://gwriters.de{{ current_uri }}" />
-  <link rel="alternate" hreflang="de-CH" href="https://gwriters.ch{{ current_uri }}" />
+  <meta http-equiv="content-language" content="{{ site:locale replace="_|-" lower="true" }}">
+  <link rel="alternate" hreflang="de-de" href="https://gwriters.de{{ current_uri }}" />
+  <link rel="alternate" hreflang="de-ch" href="https://gwriters.ch{{ current_uri }}" />
   <link rel="alternate" hreflang="x-default" href="https://gwriters.de{{ current_uri }}" />
 
   {{ if meta_title }}
-
   {{ elseif page_title }}
     <title>
       {{ page_title }}
@@ -39,65 +38,74 @@
   <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-152x152.png" sizes="114x114">
 
   {{ if !author_slug && current_template !== 'errors/404' }}
-    {{ aardvark-seo:head }}
+    {{ seo_data }}
+      <title>
+        {{ calculated_title }}
+      </title>
+      {{ if meta_description }}
+        <meta name="description" content="{{ meta_description }}">
+      {{ /if }}
+      {{ if use_meta_keywords }}
+        <meta name="keywords" content="{{ meta_keywords join=', ' }}">
+      {{ /if }}
+
+      <!-- Start: Canonical content -->
+      {{ if canonical_url }}
+        <link rel="canonical" href="{{ canonical_url }}">
+        <meta property="og:url" content="{{ canonical_url }}">
+      {{ elseif current_uri | starts_with:/presse }}
+        <link rel="canonical" href="{{ current_url }}">
+        <meta property="og:url" content="{{ current_url }}">
+      {{ elseif current_uri | starts_with:/blog }}
+        <link rel="canonical" href="{{ current_url }}">
+        <meta property="og:url" content="{{ current_url }}">
+      {{ else }}
+        <!-- purely generated -->
+        <link rel="canonical" href="{{ aardvark-seo:generated_canonical }}">
+        <meta property="og:url" content="{{ aardvark-seo:generated_canonical }}">
+      {{ /if }}
+      <!-- End: Canonical content -->
+
+      <!-- Start OpenGraph content -->
+      <meta property="og:site_name" content="{{ aardvark_general_settings:site_name }}">
+      <meta property="og:title" content="{{ og_title or calculated_title }}">
+      <meta property="og:description" content="{{ og_description or meta_description }}">
+      <meta property="og:type" content="website">
+      <meta property="og:locale" content="{{ site:locale | lower }}">
+      {{ if calculated_og_image }}
+        {{ calculated_og_image }}
+          <meta property="og:image" content="{{ permalink }}">
+          <meta property="og:image:width" content="{{ width }}">
+          <meta property="og:image:height" content="{{ height }}">
+          <meta property="og:image:alt" content="{{ alt }}">
+        {{ /calculated_og_image }}
+      {{ /if }}
+      <!-- End OpenGraph content -->
+
+      {{ aardvark-seo:graph }}
+    {{ /seo_data }}
   {{ /if }}
 
-  <script id='change_header'>
-    (() => {
-      const hostnameParts = window.location.hostname.split('.');
-      const tld = hostnameParts[hostnameParts.length - 1];
-      if (tld === 'ch') {
-        document.documentElement.setAttribute("lang", 'de-CH');
 
-        const canonical = document.querySelector('link[rel="canonical"]');
-        const metaOGLocale = document.querySelector('meta[property="og:locale"]');
-        const metaOGUrl = document.querySelector('meta[property="og:url"]');
-        if (canonical) {
-          canonical.href = window.location;
-        }
-        if (metaOGUrl) {
-          metaOGUrl.content = window.location;
-        }
-        if (metaOGLocale) {
-          metaOGLocale.content = 'de-CH';
-        }
-        // return as pagination already handled
-        return;
-      }
+    {{ if config:app:google_tracking }}
+      <link rel='dns-prefetch' href='//www.googletagmanager.com' />
+      <script type="text/plain" data-src='https://www.googletagmanager.com/gtag/js?id=UA-30152060-1'
+        data-cookiecategory="analytics" id='google_gtagjs-js' async></script>
+      <script id='google_gtagjs-js-after'>
+        window.dataLayer = window.dataLayer || [];
 
-      // handle canonical and og:url on paginated pages
-      if (window.location.pathname.match(/^\/(blog|presse)\/page\//)) {
-        const canonical = document.querySelector('link[rel="canonical"]');
-        const metaOGUrl = document.querySelector('meta[property="og:url"]');
-        if (canonical) {
-          canonical.href = window.location;
+        function gtag() {
+          dataLayer.push(arguments);
         }
-        if (metaOGUrl) {
-          metaOGUrl.content = window.location;
-        }
-      }
-    })()
-  </script>
-
-  {{ if config:app:google_tracking }}
-    <link rel='dns-prefetch' href='//www.googletagmanager.com' />
-    <script type="text/plain" data-src='https://www.googletagmanager.com/gtag/js?id=UA-30152060-1'
-      data-cookiecategory="analytics" id='google_gtagjs-js' async></script>
-    <script id='google_gtagjs-js-after'>
-      window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("set", "developer_id.dZTNiMT", true);
-      gtag("config", "UA-30152060-1", {
-        "anonymize_ip": true
-      });
-    </script>
-  {{ else }}
-    <!-- No tracking -->
-  {{ /if }}
+        gtag("js", new Date());
+        gtag("set", "developer_id.dZTNiMT", true);
+        gtag("config", "UA-30152060-1", {
+          "anonymize_ip": true
+        });
+      </script>
+    {{ else }}
+      <!-- No tracking -->
+    {{ /if }}
 
 </head>
 
