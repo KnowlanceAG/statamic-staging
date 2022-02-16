@@ -74,7 +74,6 @@ sections:
         handle: slug
         field:
           type: slug
-          required: true
           localizable: true
           validate:
             - required
@@ -89,6 +88,16 @@ sections:
           icon: text
           listable: hidden
           instructions: 'Wird im Browsertab und in den Favoriten angezeigt.'
+      -
+        handle: sitemap_active
+        field:
+          default: true
+          display: 'Sitemap aktiv'
+          type: toggle
+          icon: toggle
+          instructions: 'Seite in Sitemap aufnehmen'
+          listable: hidden
+          instructions_position: above
       -
         handle: parent
         field:
