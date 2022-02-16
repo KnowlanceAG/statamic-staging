@@ -34,12 +34,14 @@ function megaMenu(){
   megaMenuToggler.forEach(menu => {
     menu.addEventListener('click', e => {
       menu.nextElementSibling.classList.toggle('hidden');
+      document.body.classList.toggle('submenuopen');
     });
   });
   // close menu by close button
   closeSub.addEventListener('click', e => {
     megaMenuWrapper.forEach(wrapper => {
       wrapper.classList.add('hidden');
+      document.body.classList.toggle('submenuopen');
     });
   });
   

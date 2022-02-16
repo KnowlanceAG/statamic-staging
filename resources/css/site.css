@@ -167,6 +167,9 @@ table {
   font-family: Montserrat;
   font-size: 15px;
 }
+.submenuopen {
+  @apply fixed h-screen overflow-hidden z-10;  
+}
 .subitemtoggle {
   &.active {
     @apply text-orange-500;
