@@ -19,6 +19,46 @@ function menuOpener () {
   })
 }
 
+function megaMenu(){
+  // wrapper consts
+  const megaMenuToggler = document.querySelectorAll('.dropdown');
+  const megaMenuWrapper = document.querySelectorAll('.megamenu');
+  const closeSub = document.querySelector('.closesub');
+
+  // submenu content
+  const subitemtoggle = document.querySelectorAll('.subitemtoggle');
+  const subitems = document.querySelectorAll('.subitem');
+  // let toggleTargets = new Array();
+
+  // open or close menu by mainitem
+  megaMenuToggler.forEach(menu => {
+    menu.addEventListener('click', e => {
+      menu.nextElementSibling.classList.toggle('hidden');
+    });
+  });
+  // close menu by close button
+  closeSub.addEventListener('click', e => {
+    megaMenuWrapper.forEach(wrapper => {
+      wrapper.classList.add('hidden');
+    });
+  });
+  
+  // subnav areas toggle
+  subitemtoggle.forEach(element => {    
+    element.addEventListener('mouseover', e => {      
+      subitemtoggle.forEach(el => {
+        el.classList.remove('active');
+      });
+      subitems.forEach(item => {
+        item.classList.remove('active');
+      });
+      e.target.classList.add('active');
+      document.getElementById(e.target.getAttribute('data-target-tab')).classList.add('active');
+    });
+
+  });
+}
+
 function lazzyVideo () {
   const vidDefer = document.querySelectorAll('.lazy')
   for (const vid of vidDefer) {
@@ -199,4 +239,5 @@ ready(() => {
   accordionToogle()
   cookienotice()
   setLocalizedContent()
+  megaMenu()
 })

@@ -1,16 +1,62 @@
 <!-- desktop main nav -->
-    <nav class="menu-desktop hidden lg:flex lg:static lg:h-auto lg:self-center lg:items-center lg:justify-end">
+    <nav class="menu-desktop hidden prelg:flex prelg:static prelg:h-auto prelg:self-center prelg:items-center prelg:justify-end">
         {{ nav handle="mainnav_desktop" }}
-            {{ if last }}
-            <a href="{{ url }}"
-                class="ml-6 bg-gray-700 px-3 py-2 md:px-5 md:py-3 rounded-sm uppercase text-sm font-300 text-white hover:bg-black hover:transition-colors hover:duration-200">
-                {{ title }}
-            </a>
-            {{ else }}
-            <a href="{{ url }}" {{ if is_current || is_parent }} class="my-0 ml-6 current text-sm font-normal text-orange-500" {{ else }}
-                class="my-0 ml-4 xl:ml-6 text-sm font-normal text-gray-600 hover:text-orange-500" {{ /if }}>
-                {{ title }}
-            </a>
+            {{ if depth == 1 }}
+                {{ if last }}
+                    <a href="{{ url }}" class="ml-6 bg-gray-700 px-3 py-2 md:px-5 md:py-3 rounded-sm uppercase text-sm font-300 text-white hover:bg-black hover:transition-colors hover:duration-200">
+                        {{ title }}
+                    </a>
+                {{ else }}
+                    {{ if children }}
+                        <p  {{ if is_current || is_parent }} class="my-0 ml-6 current text-sm font-normal hover:text-orange-500 {{ if children }}dropdown cursor-pointer{{ /if }}" {{ else }} class="my-0 ml-4 xl:ml-6 text-sm font-normal text-gray-600 hover:text-orange-500 {{ if children }}dropdown cursor-pointer{{ /if }}" {{ /if }}>
+                            {{ title }}
+                        </p>
+                        <div class="fixed top-24 left-0 w-screen h-screen bg-white bg-opacity-95 megamenu hidden">
+                            <section class="lg:py-8 px-4 max-w-screen">
+                                <div class="content container mx-auto max-w-screen-xl clear-both">
+                                    <div class="w-full flex justify-end mb-6">
+                                        <button class="closesub border-0 bg-transparent text-black hover:scale-110 transform-gpu transition-all duration-150 ease-in-out">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                                              </svg>
+                                        </button>
+                                    </div>
+                                    <div class="flex flex-wrap gap-4 relative">
+                                        <!-- linke spalte lvl 1 -->
+                                        <div class="w-1/4 flex flex-col">
+                                            {{ children }}
+                                                <p data-target-tab="tab-{{count}}" class="subitemtoggle mb-2 font-black {{ if first }}active{{ /if }} hover:text-orange-500 cursor-pointer w-max">{{ title }}</p>
+                                            {{ /children }}
+                                        </div>
+                                        {{ children }}
+                                            <div id="tab-{{count}}" class="w-3/4 grid grid-cols-3 gap-x-4 gap-y-12 subitem {{ if first }}active {{ else }}{{ /if }} transition-all duration-200">
+                                                {{ *recursive children* }}
+                                            </div>
+                                        {{ /children }}
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    {{ else }}
+                        <a href="{{ url }}" {{ if is_current || is_parent }} class="my-0 ml-6 current text-sm font-normal text-orange-500 {{ if children }}dropdown{{ /if }}" {{ else }} class="my-0 ml-4 xl:ml-6 text-sm font-normal text-gray-600 hover:text-orange-500 {{ if children }}dropdown{{ /if }}" {{ /if }}>
+                            {{ title }}
+                        </a>
+                    {{ /if }}
+                {{ /if }}
+            {{ elseif depth == 2 }}
+                {{ if children }}
+                    <!-- rechte spalte lvl 2 -->
+                    {{ *recursive children* }}
+                {{ /if }}
+            {{ elseif depth == 3 }}
+                <div class="flex flex-col">
+                    <p class="font-black mt-0 mb-2">{{ title }}</p>
+                    {{ if children }}
+                        {{ *recursive children* }}
+                    {{ /if }}
+                </div>
+            {{ elseif depth == 4 }}
+                <a href="{{ url }}" class="hover:text-orange-500 w-max">{{ title }}</a>
             {{ /if }}
         {{ /nav }}
     </nav>
@@ -18,7 +64,7 @@
 
 <!-- mobile main nav -->
     <button type="button"
-        class="menu-opener inline-flex lg:hidden items-center justify-center p-2 text-orange-500 hover:text-orange-700 focus:outline-none"
+        class="menu-opener inline-flex prelg:hidden items-center justify-center p-2 text-orange-500 hover:text-orange-700 focus:outline-none"
         aria-controls="mobile-menu" @click="open = !open" aria-expanded="false" x-bind:aria-expanded="open.toString()">
         <span class="sr-only">Open main menu</span>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-8 w-8 block">

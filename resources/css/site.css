@@ -167,6 +167,17 @@ table {
   font-family: Montserrat;
   font-size: 15px;
 }
+.subitemtoggle {
+  &.active {
+    @apply text-orange-500;
+  }
+}
+.subitem {
+  @apply opacity-0 absolute left-full;
+  &.active {
+    @apply opacity-100 left-1/4;
+  }
+}
 
 .content {
   ul,

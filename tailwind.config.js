@@ -49,6 +49,9 @@ module.exports = {
   important: true,
   theme: {
     extend: {
+      screens: {
+        'prelg': '1142px',
+      },
       colors: {
         transparent: 'transparent',
         black: '#000',
