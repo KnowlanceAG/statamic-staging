@@ -181,6 +181,26 @@ table {
     @apply opacity-100 left-1/4;
   }
 }
+.lvl {
+  @apply h-auto max-h-0 overflow-hidden transition-all duration-200;
+  &.open {
+    max-height: 10000px;
+  }
+}
+
+.nextlvl-toggle {
+  &:hover {
+    cursor: pointer;
+  }
+  &.subopen {
+    svg {
+      transform: rotate(180deg);
+    }
+  }
+  svg {
+    @apply transition-all duration-200 ease-in-out;
+  }
+}
 
 .content {
   ul,
