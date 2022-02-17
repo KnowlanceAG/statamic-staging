@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Abbildungen in wissenschaftlichen Arbeiten'
+  title: 'Abbildungen in wissenschaftlichen Arbeiten'
 size: 1011943
 last_modified: 1645109708
 width: 750
