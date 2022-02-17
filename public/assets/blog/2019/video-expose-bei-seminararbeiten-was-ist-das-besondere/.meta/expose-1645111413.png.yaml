@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Exposé Seminararbeit Besonderheiten'
+  title: 'Exposé Seminararbeit Besonderheiten'
 size: 108959
 last_modified: 1645111413
 width: 750
