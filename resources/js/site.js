@@ -7,16 +7,70 @@ function menuOpener () {
   const overlayer = document.querySelector('.menu-overlayer')
 
   document.querySelector('.menu-opener').addEventListener('click', e => {
-    body.classList.toggle('overflow-hidden')
+    body.classList.toggle('submenuopen')
     menu.classList.toggle('hidden')
     overlayer.classList.toggle('hidden')
   })
 
   document.querySelector('.menu-closer').addEventListener('click', e => {
-    body.classList.toggle('overflow-hidden')
+    body.classList.toggle('submenuopen')
     menu.classList.toggle('hidden')
     overlayer.classList.toggle('hidden')
   })
+}
+
+function megaMenu(){
+  // wrapper consts
+  const megaMenuToggler = document.querySelectorAll('.dropdown');
+  const megaMenuWrapper = document.querySelectorAll('.megamenu');
+  const closeSub = document.querySelector('.closesub');
+
+  // submenu content
+  const subitemtoggle = document.querySelectorAll('.subitemtoggle');
+  const subitems = document.querySelectorAll('.subitem');
+  // let toggleTargets = new Array();
+
+  // open or close menu by mainitem
+  megaMenuToggler.forEach(menu => {
+    menu.addEventListener('click', e => {
+      menu.nextElementSibling.classList.toggle('hidden');
+      document.body.classList.toggle('submenuopen');
+    });
+  });
+  // close menu by close button
+  closeSub.addEventListener('click', e => {
+    megaMenuWrapper.forEach(wrapper => {
+      wrapper.classList.add('hidden');
+      document.body.classList.toggle('submenuopen');
+    });
+  });
+  
+  // subnav areas toggle
+  subitemtoggle.forEach(element => {    
+    element.addEventListener('mouseover', e => {      
+      subitemtoggle.forEach(el => {
+        el.classList.remove('active');
+      });
+      subitems.forEach(item => {
+        item.classList.remove('active');
+      });
+      e.target.classList.add('active');
+      document.getElementById(e.target.getAttribute('data-target-tab')).classList.add('active');
+    });
+
+  });
+}
+
+function megaMenuMobile() {
+  const nextLevelToggle = document.querySelectorAll('.nextlvl-toggle');
+  const nextLevel = document.querySelectorAll('.lvl');
+
+  nextLevelToggle.forEach(p => {
+    p.addEventListener('click', e => {
+      p.classList.toggle('subopen');
+      p.nextSibling.nextSibling.classList.toggle('open');
+    });
+  });
 }
 
 function lazzyVideo () {
@@ -199,4 +253,6 @@ ready(() => {
   accordionToogle()
   cookienotice()
   setLocalizedContent()
+  megaMenu()
+  megaMenuMobile()
 })
