@@ -1,11 +1,12 @@
 ---
 id: 1e772779-291e-43ee-81ae-7726c207cd48
+blueprint: team
 title: 'Anna Milena v. Gersdorff'
 position: Marketingleiterin
 photo:
   - team/anna-milena-von-gersdorff-gwriters.jpg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623153809
+updated_at: 1645122504
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
