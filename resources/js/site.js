@@ -33,15 +33,15 @@ function megaMenu(){
   // open or close menu by mainitem
   megaMenuToggler.forEach(menu => {
     menu.addEventListener('click', e => {
-      menu.nextElementSibling.classList.toggle('hidden');
-      document.body.classList.toggle('submenuopen');
+      menu.nextElementSibling.classList.remove('hidden');
+      document.body.classList.add('submenuopen');
     });
   });
   // close menu by close button
   closeSub.addEventListener('click', e => {
     megaMenuWrapper.forEach(wrapper => {
       wrapper.classList.add('hidden');
-      document.body.classList.toggle('submenuopen');
+      document.body.classList.remove('submenuopen');
     });
   });
   
@@ -63,7 +63,6 @@ function megaMenu(){
 
 function megaMenuMobile() {
   const nextLevelToggle = document.querySelectorAll('.nextlvl-toggle');
-  const nextLevel = document.querySelectorAll('.lvl');
 
   nextLevelToggle.forEach(p => {
     p.addEventListener('click', e => {
