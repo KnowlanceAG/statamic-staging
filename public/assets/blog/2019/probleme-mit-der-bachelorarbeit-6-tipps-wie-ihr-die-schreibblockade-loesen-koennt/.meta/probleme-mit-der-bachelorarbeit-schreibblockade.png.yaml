@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'schreibblockade lösen'
 size: 114023
 last_modified: 1645115605
 width: 750
