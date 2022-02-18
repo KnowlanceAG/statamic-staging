@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Qualitative und quantitative Methoden'
+  title: 'Qualitative und quantitative Methoden'
 size: 99892
 last_modified: 1645186337
 width: 750
