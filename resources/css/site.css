@@ -169,6 +169,9 @@ table {
 }
 .submenuopen {
   @apply fixed h-screen overflow-hidden z-10;  
+  .dropdown {
+    @apply text-orange-500;
+  }
 }
 .subitemtoggle {
   &.active {

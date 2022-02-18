@@ -28,13 +28,12 @@ function megaMenu(){
   // submenu content
   const subitemtoggle = document.querySelectorAll('.subitemtoggle');
   const subitems = document.querySelectorAll('.subitem');
-  // let toggleTargets = new Array();
 
   // open or close menu by mainitem
   megaMenuToggler.forEach(menu => {
     menu.addEventListener('click', e => {
-      menu.nextElementSibling.classList.remove('hidden');
-      document.body.classList.add('submenuopen');
+      menu.nextElementSibling.classList.toggle('hidden');
+      document.body.classList.toggle('submenuopen');
     });
   });
   // close menu by close button
