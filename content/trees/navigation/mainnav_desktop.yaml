@@ -14,6 +14,28 @@ tree:
         title: Arbeiten
         children:
           -
+            id: 0df934ec-a593-4ee4-86a0-23609446fdfd
+            title: Abschlussarbeiten
+            children:
+              -
+                id: 7214de03-dcbe-4320-850a-0050ae570ce9
+                entry: 68b88fd1-ec03-4ea8-9292-431555e47744
+              -
+                id: 2e4355cc-6a42-4b5b-93ee-7bf42042dc0c
+                entry: 52f5092f-800b-4742-8636-a840b9ab1ddb
+              -
+                id: 41b2de47-0dcb-4a16-b967-8898a72a42d4
+                entry: 99cd8e42-b21c-4cea-a162-a9454db2375f
+              -
+                id: 2c350f56-b8c0-4681-87fa-5cb70ec58008
+                entry: d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
+              -
+                id: f9854bb5-5244-4f21-951a-2648ac2016b9
+                entry: 5c6db140-ee4a-4a88-bf56-4153664421d4
+              -
+                id: 8c9d90a0-91a2-4d57-aba0-9e9ab664fb5f
+                entry: 0481728e-d2e2-4b99-9a9e-8e5bca901d14
+          -
             id: 8ccbdb17-efba-4eb2-a224-cc5e027229ed
             title: Studienarbeiten
             children:
@@ -48,28 +70,6 @@ tree:
               -
                 id: 782600c5-fa87-4669-9216-e6d881fb0552
                 entry: b42eb586-1305-4faf-8d59-79e53ff91373
-          -
-            id: 0df934ec-a593-4ee4-86a0-23609446fdfd
-            title: Abschlussarbeiten
-            children:
-              -
-                id: 41b2de47-0dcb-4a16-b967-8898a72a42d4
-                entry: 99cd8e42-b21c-4cea-a162-a9454db2375f
-              -
-                id: 2c350f56-b8c0-4681-87fa-5cb70ec58008
-                entry: d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
-              -
-                id: f9854bb5-5244-4f21-951a-2648ac2016b9
-                entry: 5c6db140-ee4a-4a88-bf56-4153664421d4
-              -
-                id: 7214de03-dcbe-4320-850a-0050ae570ce9
-                entry: 68b88fd1-ec03-4ea8-9292-431555e47744
-              -
-                id: 8c9d90a0-91a2-4d57-aba0-9e9ab664fb5f
-                entry: 0481728e-d2e2-4b99-9a9e-8e5bca901d14
-              -
-                id: 2e4355cc-6a42-4b5b-93ee-7bf42042dc0c
-                entry: 52f5092f-800b-4742-8636-a840b9ab1ddb
       -
         id: 4281b9da-a64c-47a7-881c-3cd725c3abad
         title: Fachrichtungen
