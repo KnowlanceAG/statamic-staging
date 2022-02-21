@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Literaturverzeichnis automatisch erstellen Word Citavi'
+  title: 'Literaturverzeichnis automatisch erstellen Word Citavi'
 size: 97231
 last_modified: 1645444443
 width: 750
