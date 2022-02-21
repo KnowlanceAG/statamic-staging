@@ -281,12 +281,9 @@ const ready = callback => {
 
 ready(() => {
   addMenuHandler()
-  // menuHandler()
   lazzyVideo()
   tabToggle()
   accordionToogle()
   cookienotice()
   setLocalizedContent()
-  // megaMenu()
-  // megaMenuMobile()
 })
