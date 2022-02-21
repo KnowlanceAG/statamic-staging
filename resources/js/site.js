@@ -1,75 +1,111 @@
 import 'alpinejs'
 import './components/cookieconsent/dist/cookieconsent.js'
 
-function menuOpener () {
-  const menu = document.querySelector('.menu-mobile')
-  const body = document.querySelector('.body')
-  const overlayer = document.querySelector('.menu-overlayer')
+//  nav consts
+const body = document.querySelector('.body')
+const overlayer = document.querySelector('.menu-overlayer')
 
-  document.querySelector('.menu-opener').addEventListener('click', e => {
-    body.classList.toggle('submenuopen')
-    menu.classList.toggle('hidden')
-    overlayer.classList.toggle('hidden')
-  })
+const burger = document.querySelector('.menu-opener')
+const mobileMenu = document.querySelector('.menu-mobile')
+const mobileMenuCloseButton = document.querySelector('.menu-closer')
 
-  document.querySelector('.menu-closer').addEventListener('click', e => {
-    body.classList.toggle('submenuopen')
-    menu.classList.toggle('hidden')
-    overlayer.classList.toggle('hidden')
-  })
+const megaMenuToggler = document.querySelector('.dropdown');
+const megaMenuCloseButton = document.querySelector('.closesub');
+
+const megaMenuOpened = () => !megaMenuToggler.nextElementSibling.classList.contains('hidden')
+const mobileMenuOpened = () => !mobileMenu.classList.contains('hidden')
+
+const setScrolling = (active) => {
+  if (!active) {
+    body.classList.remove('submenuopen')
+    body.classList.add('submenuopen')
+    return
+  }
+  body.classList.remove('submenuopen')
 }
 
-function megaMenu(){
-  // wrapper consts
-  const megaMenuToggler = document.querySelectorAll('.dropdown');
-  const megaMenuWrapper = document.querySelectorAll('.megamenu');
-  const closeSub = document.querySelector('.closesub');
+const toggleMegaMenu = () => {
+  megaMenuToggler.nextElementSibling.classList.toggle('hidden')
+  setScrolling(!megaMenuOpened())
+}
 
+const closeMegaMenu = () => {
+  megaMenuToggler.nextElementSibling.classList.remove('hidden')
+  megaMenuToggler.nextElementSibling.classList.add('hidden')
+  setScrolling(true)
+}
+
+const closeMobileMenu = () => {
+  mobileMenu.classList.remove('hidden');
+  mobileMenu.classList.add('hidden');
+  overlayer.classList.remove('hidden')
+  overlayer.classList.add('hidden')
+  setScrolling(true)
+}
+
+const toggleMobileMenu = () => {
+  mobileMenu.classList.toggle('hidden');
+  if (mobileMenu.classList.contains('hidden')) {
+    overlayer.classList.remove('hidden')
+    overlayer.classList.add('hidden')
+  } else {
+    overlayer.classList.remove('hidden')
+  }
+
+  setScrolling(!mobileMenuOpened())
+}
+
+const closeAllMenus = () => {
+  setScrolling(true)
+  closeMegaMenu()
+  closeMobileMenu()
+}
+
+const addMegaMenuHandler = () => {
   // submenu content
   const subitemtoggle = document.querySelectorAll('.subitemtoggle');
   const subitems = document.querySelectorAll('.subitem');
 
-  // open or close menu by mainitem
-  megaMenuToggler.forEach(menu => {
-    menu.addEventListener('click', e => {
-      menu.nextElementSibling.classList.toggle('hidden');
-      document.body.classList.toggle('submenuopen');
-    });
-  });
-  // close menu by close button
-  closeSub.addEventListener('click', e => {
-    megaMenuWrapper.forEach(wrapper => {
-      wrapper.classList.add('hidden');
-      document.body.classList.remove('submenuopen');
-    });
-  });
-  
   // subnav areas toggle
-  subitemtoggle.forEach(element => {    
-    element.addEventListener('mouseover', e => {      
+  subitemtoggle.forEach(element => {
+    element.addEventListener('mouseover', e => {
       subitemtoggle.forEach(el => {
         el.classList.remove('active');
-      });
+      })
       subitems.forEach(item => {
-        item.classList.remove('active');
-      });
-      e.target.classList.add('active');
-      document.getElementById(e.target.getAttribute('data-target-tab')).classList.add('active');
-    });
+        item.classList.remove('active')
+      })
+      e.target.classList.add('active')
+      document.getElementById(e.target.getAttribute('data-target-tab')).classList.add('active')
+    })
 
-  });
+  })
 }
 
-function megaMenuMobile() {
+const addMobileMenuHandler = () => {
   const nextLevelToggle = document.querySelectorAll('.nextlvl-toggle');
 
   nextLevelToggle.forEach(p => {
     p.addEventListener('click', e => {
       p.classList.toggle('subopen');
       p.nextSibling.nextSibling.classList.toggle('open');
-    });
-  });
+    })
+  })
 }
+
+const addMenuHandler = () => {
+  window.addEventListener('resize', closeAllMenus)
+  megaMenuToggler.addEventListener('click', toggleMegaMenu)
+  megaMenuCloseButton.addEventListener('click', closeMegaMenu)
+  burger.addEventListener('click', toggleMobileMenu)
+  mobileMenuCloseButton.addEventListener('click', toggleMobileMenu)
+  overlayer.addEventListener('click', closeMobileMenu)
+
+  addMegaMenuHandler()
+  addMobileMenuHandler()
+}
+
+// END Menu
 
 function lazzyVideo () {
   const vidDefer = document.querySelectorAll('.lazy')
@@ -134,7 +170,6 @@ function accordionToogle () {
     }
   }
 }
-
 function getLocale () {
   const tld = window.location.origin.split('.').pop()
   return tld
@@ -245,12 +280,13 @@ const ready = callback => {
 }
 
 ready(() => {
-  menuOpener()
+  addMenuHandler()
+  // menuHandler()
   lazzyVideo()
   tabToggle()
   accordionToogle()
   cookienotice()
   setLocalizedContent()
-  megaMenu()
-  megaMenuMobile()
+  // megaMenu()
+  // megaMenuMobile()
 })

@@ -168,7 +168,7 @@ table {
   font-size: 15px;
 }
 .submenuopen {
-  @apply fixed h-screen overflow-hidden z-10;  
+  @apply fixed h-screen overflow-hidden z-10;
   .dropdown {
     @apply text-orange-500;
   }
@@ -185,7 +185,7 @@ table {
   }
 }
 .lvl {
-  @apply h-auto max-h-0 overflow-hidden transition-all duration-200;
+  @apply h-auto max-h-0 overflow-hidden transition-all;
   &.open {
     max-height: 10000px;
   }
@@ -201,7 +201,7 @@ table {
     }
   }
   svg {
-    @apply transition-all duration-200 ease-in-out;
+    @apply transition-all ease-in-out;
   }
 }
 
