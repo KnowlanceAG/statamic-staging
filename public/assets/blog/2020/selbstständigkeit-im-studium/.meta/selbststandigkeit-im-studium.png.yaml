@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Selbstständigkeit im Studium'
+  title: 'Selbstständigkeit im Studium'
 size: 103549
 last_modified: 1645450992
 width: 705
