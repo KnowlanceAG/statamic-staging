@@ -22,7 +22,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Mustervorlage für Bachelorarbeit schreiben lassen'
+        text: 'Bachelorarbeit schreiben lassen'
   -
     type: paragraph
     content:
@@ -35,7 +35,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Professionelle Hilfe vom akademischen Ghostwriter bei Ihrer Bachelorarbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Mustervorlagen von akademischen Ghostwritern für Ihre Bachelorarbeit'
   -
     type: set
     attrs:
@@ -2468,8 +2468,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1645439962
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1645447540
 template: default
 use_meta_keywords: false
 no_index_page: false
