@@ -1,22 +1,29 @@
 import 'alpinejs'
 import './components/cookieconsent/dist/cookieconsent.js'
 
-function menuOpener () {
-  const menu = document.querySelector('.menu-mobile')
-  const body = document.querySelector('.body')
-  const overlayer = document.querySelector('.menu-overlayer')
+//  nav consts
+const menu = document.querySelector('.menu-mobile')
+const body = document.querySelector('.body')
+const overlayer = document.querySelector('.menu-overlayer')
 
-  document.querySelector('.menu-opener').addEventListener('click', e => {
-    body.classList.toggle('submenuopen')
-    menu.classList.toggle('hidden')
-    overlayer.classList.toggle('hidden')
-  })
 
-  document.querySelector('.menu-closer').addEventListener('click', e => {
-    body.classList.toggle('submenuopen')
-    menu.classList.toggle('hidden')
-    overlayer.classList.toggle('hidden')
+function menuToggler() {
+  body.classList.toggle('submenuopen')
+  menu.classList.toggle('hidden')
+  overlayer.classList.toggle('hidden')
+}
+function menuCloser() {
+  body.classList.remove('submenuopen')
+  menu.classList.remove('hidden')
+  overlayer.classList.remove('hidden')
+}
+function menuHandler () {
+  [document.querySelector('.menu-opener'), document.querySelector('.menu-closer')].forEach(item => {
+    item.addEventListener('click', event => {
+      menuToggler();
+    })
   })
+  window.addEventListener('resize', menuCloser());
 }
 
 function megaMenu(){
@@ -245,7 +252,7 @@ const ready = callback => {
 }
 
 ready(() => {
-  menuOpener()
+  menuHandler()
   lazzyVideo()
   tabToggle()
   accordionToogle()
