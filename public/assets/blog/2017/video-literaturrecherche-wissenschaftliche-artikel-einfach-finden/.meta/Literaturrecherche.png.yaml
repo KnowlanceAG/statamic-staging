@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: Literaturrecherche
+  title: Literaturrecherche
 size: 96617
 last_modified: 1645442607
 width: 750
