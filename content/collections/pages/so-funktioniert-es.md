@@ -5,7 +5,7 @@ title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1645523275
+updated_at: 1645523281
 teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
   -
@@ -25,7 +25,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'So funktioniert es.'
+        text: 'So funktioniert es'
   -
     type: paragraph
     content:
