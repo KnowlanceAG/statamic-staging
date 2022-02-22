@@ -3,4 +3,7 @@ User-agent: *
 Disallow: */feed
 Disallow: /cdn-cgi/beacon/
 
+Allow: /assets/*
+Allow: /img/*
+
 Sitemap: https://gwriters.ch/sitemap_ch.xml

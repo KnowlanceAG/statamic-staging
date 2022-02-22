@@ -42,13 +42,17 @@ module.exports = {
         'sm:px-32',
         'md:px-40',
         'lg:px-24',
-        '2xl:px-32'
+        '2xl:px-32',
+        'rotate-180'
       ]
     }
   },
   important: true,
   theme: {
     extend: {
+      screens: {
+        'prelg': '1142px',
+      },
       colors: {
         transparent: 'transparent',
         black: '#000',
@@ -104,5 +108,7 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: []
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ]
 }

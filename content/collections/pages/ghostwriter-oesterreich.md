@@ -1,5 +1,6 @@
 ---
 id: 7d29e84a-65c8-4b4e-8453-0258888b2d67
+blueprint: pages
 title: 'Akademisches Ghostwriting & Ghostwriter in Österreich'
 teaser:
   -
@@ -187,8 +188,8 @@ replicator:
     type: editor
     enabled: true
 parent: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623325042
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1645037137
 page_title: 'Akademisches Ghostwriting & Ghostwriter in Österreich • GWriters.de'
 template: without-teaser
 meta_title: 'Akademisches Ghostwriting & Ghostwriter in Österreich • GWriters.de'
@@ -204,4 +205,5 @@ twitter_card_type_page: summary
 og_title: 'Akademisches Ghostwriting & Ghostwriter in Österreich • GWriters.de'
 og_description: 'Aufgrund der Hochschulrechts-Novelle ergeben sich wichtige Änderungen für Interessenten aus Österreich, die nach Ghostwritern suchen.'
 og_image: GWriters-Logo.png
+sitemap_active: false
 ---
