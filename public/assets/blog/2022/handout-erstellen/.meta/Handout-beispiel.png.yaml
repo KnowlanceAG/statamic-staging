@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Handout Beispiel'
 size: 1368
 last_modified: 1642771709
 width: 632
