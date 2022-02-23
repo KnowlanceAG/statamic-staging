@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Vorlage Handout'
 size: 13464
 last_modified: 1642774749
 width: 517
