@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'regelstudienzeit überschreiten bachelor'
 size: 30631
 last_modified: 1645718452
 width: 1386
