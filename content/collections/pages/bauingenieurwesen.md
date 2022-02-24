@@ -56,8 +56,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Bauingenieurwesen Ghostwriter, Lektoren & Coaches • GWriters.de'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1628584543
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1645698779
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1887,10 +1887,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.fh-aachen.de/fachbereiche/bauingenieurwesen'
+                          href: 'https://www.bgu.tum.de/bau/home/'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
-                    text: 'FH Aachen'
+                    text: 'TU München'
                   -
                     type: text
                     marks:
@@ -1898,7 +1898,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_ etc."
+                    text: ' etc.'
               -
                 type: heading
                 attrs:
@@ -2967,4 +2967,5 @@ og_title: 'Bauingenieurwesen Ghostwriter, Lektoren & Coaches • GWriters.de'
 og_description: 'Bauingenieurwesen studieren? Ablauf und Abschluss-Hilfe durch Experten und akademische Ghostwriter im Bauingenieurwesen✅'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_technische_fachrichtungen
+sitemap_active: true
 ---

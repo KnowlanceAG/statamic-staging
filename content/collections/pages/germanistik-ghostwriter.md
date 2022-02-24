@@ -57,7 +57,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1644248817
+updated_at: 1645697216
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1925,7 +1925,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://germanistik.uni-wuppertal.de/de/ueber-uns.html'
+                                  href: 'http://germanistik.uni-wuppertal.de/de/ueber-uns/'
                                   target: _blank
                                   rel: nofollow
                             text: 'Bergische Universität Wuppertal'
@@ -2666,4 +2666,5 @@ og_title: 'Germanistik Ghostwriter • GWriters.de'
 og_description: 'Germanistik studieren? Abschluss und Unterstützung durch Experten und akademische Ghostwriter in Germanistik ✅🎓'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_geisteswissenschaften
+sitemap_active: true
 ---

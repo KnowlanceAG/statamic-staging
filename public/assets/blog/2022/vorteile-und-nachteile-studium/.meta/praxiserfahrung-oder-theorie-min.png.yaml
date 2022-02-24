@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Praxiserfahrung oder Theorie'
 size: 89900
 last_modified: 1644525146
 width: 602
