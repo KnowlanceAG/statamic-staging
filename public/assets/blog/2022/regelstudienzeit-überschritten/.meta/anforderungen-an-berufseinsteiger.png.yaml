@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Anforderungen von Arbeitgebern'
 size: 14079
 last_modified: 1645714470
 width: 477
