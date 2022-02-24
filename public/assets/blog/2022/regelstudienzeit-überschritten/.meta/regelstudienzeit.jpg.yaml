@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'regelstudienzeit verlängern'
 size: 14698
 last_modified: 1645705217
 width: 848
