@@ -992,7 +992,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '1'
-        single-col: true
+        single-col: false
         grid:
           -
             bard:
@@ -1282,7 +1282,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Insgesamt beläuft sich die dafür vorgesehene Bearbeitungszeit auf bis zu 4 Monate. Vorlagen und Beispiele kann ein Student vom Lehrinstitut selbst erlangen. '
+                    text: 'Insgesamt beläuft sich die dafür vorgesehene Bearbeitungszeit auf bis zu 4 Monate. Vorlagen und Beispiele können Sie vom Lehrinstitut selbst erlangen. '
                   -
                     type: text
                     marks:
@@ -1291,7 +1291,7 @@ replicator:
                     text: 'Akademisches Ghostwriting ist eine Alternativ'
                   -
                     type: text
-                    text: 'e, denn man kann von einem Ghostwriter eine Bachelorarbeit schreiben lassen, welche als Orientierungshilfe dient. Außerdem müssen Studenten nach Ansprechpartnern als Betreuer der Bachelorarbeit oder zum '
+                    text: 'e, denn Sie können sich von einem Ghostwriter eine Bachelorarbeit schreiben lassen, welche als Orientierungshilfe dient. Außerdem müssen Sie als Student nach Ansprechpartnern als Betreuer der Bachelorarbeit oder zum '
                   -
                     type: text
                     marks:
@@ -1829,7 +1829,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Das Schreiben der Bachelorarbeit ist die letzte große Hürde im Studium. Um diese Hürde erfolgreich zu meistern, wenden sich einige Studenten an akademische Ghostwriter. '
+                    text: 'Das Schreiben der Bachelorarbeit ist die letzte große Hürde im Studium. Wenden Sie sich an unsere akademischen Ghostwriter, um diese Hürde erfolgreich zu meistern. '
                   -
                     type: text
                     marks:
@@ -1838,7 +1838,7 @@ replicator:
                     text: 'Akademische Ghostwriter erstellen einen hochwertigen wissenschaftlichen Entwurf der Bachelorarbeit'
                   -
                     type: text
-                    text: '. Anhand dieser Vorlage können Studenten ihre eigene Arbeit deutlich effizienter schreiben.'
+                    text: '. Anhand dieser Vorlage können Sie Ihre eigene Arbeit deutlich effizienter schreiben.'
               -
                 type: paragraph
                 content:
@@ -2474,7 +2474,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646068596
+updated_at: 1646071243
 template: default
 use_meta_keywords: false
 no_index_page: false
