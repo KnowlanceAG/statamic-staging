@@ -44,7 +44,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: Montserrat;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
   @apply text-gray-550;
 }
 
@@ -194,7 +194,7 @@ table {
 
 .menu-desktop,
 .menu-mobile {
-  font-family: Montserrat;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
   font-size: 15px;
 }
 .submenuopen {
