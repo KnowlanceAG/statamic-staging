@@ -198,28 +198,28 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wissenschaftliches Schreiben ist eine der ersten großen Herausforderungen'
-                  -
-                    type: text
-                    text: ' im Rahmen des Studiums für einen Studienanfänger. Es ist üblich, dass Universitäten ihre Studierenden mindestens eine Seminararbeit schreiben lassen. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
                     text: 'Akademische Ghostwriter'
                   -
                     type: text
-                    text: ' werden hierbei oft als Hilfe herangezogen. Grund hierfür ist, dass '
+                    text: ' können Sie bei Ihren akademischen Arbeiten professionell unterstützen! '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: Seminararbeiten
+                    text: 'Wissenschaftliches Schreiben ist eine der ersten großen Herausforderungen'
                   -
                     type: text
-                    text: ' durch eine starke Gewichtung in Form von Creditpoints eine wichtige Bedeutung für den Studienabschluss haben.'
+                    text: ' im Rahmen des Studiums für einen Studienanfänger. Es ist üblich, dass Universitäten ihre Studierenden mindestens eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Seminararbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '. Diese Seminararbeiten haben durch eine starke Gewichtung in Form von Creditpoints eine wichtige Bedeutung für den Studienabschluss haben. '
             show_as_card: false
         type: row
         enabled: true
@@ -303,12 +303,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -367,25 +361,9 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück. Falls Sie eine kostenlose telefonische Beratung wünschen, rufen wir Sie auch gerne an.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '1'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#D6D6D6'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
@@ -439,23 +417,7 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#D6D6D6'
@@ -491,7 +453,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Studierende beauftragen häufig für die Unterstützung bei ihrer '
+                    text: 'Sie können als Studierende für eine professionelle Unterstützung bei ihrer '
                   -
                     type: text
                     marks:
@@ -502,7 +464,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Seminararbeit Ghostwriter'
+                    text: 'Seminararbeit Ghostwriter '
                   -
                     type: text
                     marks:
@@ -511,7 +473,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: '. Diese bieten eine Vielzahl von Leistungen und Hilfestellungen an. Sie können daher zu jedem Zeitpunkt des Arbeitsverlaufs beauftragt werden können.'
+                    text: 'beauftragen. Diese bieten eine Vielzahl von Leistungen und Hilfestellungen an. Sie können einen Ghostwriter daher zu jedem Zeitpunkt des Arbeitsverlaufs beauftragen .'
               -
                 type: paragraph
                 content:
@@ -523,7 +485,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Oft geschieht dies direkt am Anfang bei der Themenwahl und der Definition der Leitfrage, bei Problemen bei der Literaturrecherche, dem Aufbau einer Seminararbeit, deren Exposé und der Erstellung von Präsentation. Zudem ist es möglich, einen '
+                    text: 'Auch am Anfang bei der Themenwahl und der Definition der Leitfrage, bei Problemen bei der Literaturrecherche, dem Aufbau einer Seminararbeit, deren Exposé und der Erstellung von Präsentation können Sie sich Hilfe holen. Zudem ist es möglich, einen '
                   -
                     type: text
                     marks:
@@ -543,7 +505,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' im Laufe des Schreibprozesses um Rat zu fragen. Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, die Seminararbeit Korrekturlesen und von einem '
+                    text: ' im Laufe des Schreibprozesses um Rat zu fragen. Selbst wenn Sie sich als Student sich dazu entscheiden, eigenständig zu arbeiten, ist es ratsam, die Seminararbeit korrekturlesen und von einem '
                   -
                     type: text
                     marks:
@@ -599,7 +561,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "\_der Seminararbeit, kann zusätzlich eine umfassende\_"
+                    text: "\_der Seminararbeit, können wir Ihnen zusätzlich eine umfassende\_"
                   -
                     type: text
                     marks:
@@ -643,7 +605,27 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' erfolgen. Auch ein sog. Coaching mit fachlichem Wissen unterstützt den Studenten bei seiner Seminararbeit oder im Studienprozess. Einige Studenten möchten sich auch eine Mustervorlage für ihre '
+                    text: ' mit der Software '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Turnitin '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'anbieten. Auch ein erfahrener Coach mit fachlichem Wissen unterstützt Sie bei Ihrer Seminararbeit oder im Studienprozess. Auch können Sie sich als Student eine Mustervorlage für Ihre '
                   -
                     type: text
                     marks:
@@ -663,7 +645,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ', um diese Arbeit als Vorlage für ihre eigene akademischen Arbeit zu nutzen.'
+                    text: ', um diese Arbeit als Vorlage für Ihre eigene akademischen Arbeit zu nutzen.'
             show_as_card: false
         type: row
         enabled: true
@@ -791,7 +773,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: '. Da diese selbst promoviert oder habilitiert haben, kennen Sie alle Schwierigkeiten des wissenschaftlichen Arbeitens.'
+                    text: '. Da diese selbst promoviert oder habilitiert haben, meistern diese alle Schwierigkeiten des wissenschaftlichen Arbeitens.'
                   -
                     type: hard_break
             show_as_card: false
@@ -803,8 +785,6 @@ replicator:
                   values:
                     type: video
                     video: 'https://youtu.be/OZ8ZEHZkeb0'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -992,7 +972,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Dadurch soll der Student nicht nur den Umgang mit wissenschaftlichen Fragestellungen erlernen, sondern auch seine Leistungen und Ergebnisse angemessen in Schrift umsetzen. Solche Projektarbeiten und Aufgaben dienen zur '
+                    text: 'Dadurch soll der Student nicht nur den Umgang mit wissenschaftlichen Fragestellungen erlernen, sondern auch seine Leistungen und Ergebnisse angemessen in Wort und Schrift umsetzen. Solche Projektarbeiten und Aufgaben dienen zur '
                   -
                     type: text
                     marks:
@@ -1044,7 +1024,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' und deren Aufgaben, in Verbindung mit Leistungs- und Zeitdruck, sind einige Studenten schon den akademischen Texten überfordert. Sie benötigen weitaus mehr Hilfe bei der Seminararbeit, als es einige Hochschulen bieten können.'
+                    text: ' und deren Aufgaben, in Verbindung mit Leistungs- und Zeitdruck, sind einige Studenten mit den akademischen Texten überfordert. Sie benötigen weitaus mehr Hilfe bei der Seminararbeit, als sie einige Hochschulen bieten können.'
               -
                 type: paragraph
                 content:
@@ -1125,7 +1105,9 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/arbeiten/hausarbeit/anfrage.png
-                    text: 'Nach einer [**unverbindlichen Anfrage**](/anfrage) auf der Webseite, erhalten Sie ein **kostenloses Leistungsangebot** und eine individuelle Beratung zur Planung eines Projektes von unseren Kundenberater. Nach einer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre Arbeit. Unsere professionellen Projektmanager aus unserer Schreibservice übernehmen die gesamte Kommunikation, sodass stets Ihre Anonymität und gleichzeitig auch die Unbekanntheit des Autors gesichert ist. Bei größeren Seminararbeiten oder auch bei Ihrer Abschlussarbeit ist auch eine anonyme Telefonkonferenz mit dem jeweiligen Autor möglich.'
+                    text: |-
+                      ### Kostenlose Anfrage
+                      Schicken Sie uns einfach eine [**unverbindlichen Anfrage**](/anfrage) über unsere Webseite.  Sie erhalten dann ein **kostenloses Leistungsangebot** und eine individuelle Beratung zur Planung Ihres Projektes von unserem Kundenberater. Nach Ihrer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre Arbeit. Unsere professionellen Projektmanager übernehmen die gesamte Kommunikation, sodass Ihre Anonymität stets gesichert ist. Bei größeren Seminararbeiten oder Abschlussarbeiten ist auch eine anonyme Telefonkonferenz mit dem Ihrem Autor möglich.
                     ausrichtung: bild-text
               -
                 type: set
@@ -1135,7 +1117,8 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/termineplanen.png
                     text: |+
-                      **Je nach Umfang der Mustervorlage** werden eine oder mehrere Teillieferungen vereinbart. Gerade diese [**Teillieferungstermine**](/blog/ghostwriting-gwriters-teillieferungen) sind wichtig, um einen Abgleich zu erhalten zwischen Ihren Anforderungen aus dem Thema heraus und dem, was Ihr Autor geliefert hat. Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich auch **kostenlos** im Rahmen der weiteren Umsetzungsschritte realisiert.
+                      ### Teillieferungen & Feedbacks
+                      **Je nach Umfang der Mustervorlage** werden eine oder mehrere Teillieferungen vereinbart. Gerade diese [**Teillieferungstermine**](/blog/ghostwriting-gwriters-teillieferungen) sind wichtig, um einen Abgleich zwischen Ihren Anforderungen und dem bisherigen Arbeitsstand zu erhalten. Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich **kostenlos** umgesetzt.
 
                     ausrichtung: text-bild
               -
@@ -1146,7 +1129,9 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
                     ausrichtung: bild-text
-                    text: 'Bei Fragen und Änderungswünschen, die im Rahmen dieses gesamten Projektes auftreten, ist ihr Projektmanager immer Ihr persönlicher Ansprechpartner. Dieser Ansprechpartner bleibt immer gleich während des gesamten Projektes und ist bei Fragen oder Problemen telefonisch oder per E-Mail ständig für Sie erreichbar.'
+                    text: |-
+                      ### Kostenlose Anpassungen
+                      Bei Fragen und Änderungswünschen, die im Rahmen Ihres gesamten Projektes auftreten, ist Ihr Projektmanager immer Ihr persönlicher Ansprechpartner. Dieser Ansprechpartner bleibt immer gleich während des gesamten Projektes und ist bei Fragen oder Problemen telefonisch oder per E-Mail ständig für Sie erreichbar.
               -
                 type: set
                 attrs:
@@ -1156,8 +1141,8 @@ replicator:
                       - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
                     ausrichtung: text-bild
                     text: |-
-
-                      Nachdem dann die Verschriftlichung abgeschlossen ist, wird die Mustervorlage von einem unabhängigen Lektor kontrolliert mit Hilfe einer professionellen Software auf Plagiate geprüft. Anschließend wird die Mustervorlage zu dem vereinbarten Termin ausgeliefert. Unsere Ghostwriter vereinfachen somit das Schreiben einer Seminararbeit. Denn mit Hilfe einer Mustervorlage können Studenten ihre eigene Seminararbeit einfach und effizienter schreiben.
+                      ### Abschlusslieferung & Qualitätsgarantie
+                      Nachdem die Verschriftlichung abgeschlossen ist, wird Ihre Mustervorlage von einem unabhängigen Lektor kontrolliert und mit Hilfe der Software **Turnitin** auf Plagiate geprüft. Anschließend wird Ihre Mustervorlage zum vereinbarten Termin an Sie geliefert. Unsere Ghostwriter vereinfachen somit das Schreiben Ihrer Seminararbeit, da Sie diese aufbauend auf der Mustervorlage schnell & einfach fertigstellen können.
               -
                 type: paragraph
                 content:
@@ -1300,7 +1285,7 @@ replicator:
                     text: Hilfe
                   -
                     type: text
-                    text: " zurückzugreifen. Für den akademischen Freelancer stellt die Unterstützung und das\_Ghostwriting\_bei einer solchen Seminararbeit keine große Herausforderung dar, für ihn ist der Anspruch vergleichsweise gering. "
+                    text: " zurückzugreifen. Für akademische Freelancer stellt die Unterstützung und das\_Ghostwriting\_bei einer solchen Seminararbeit keine große Herausforderung dar, für ihn ist der Anspruch vergleichsweise gering. "
             show_as_card: false
           -
             bard:
@@ -1334,7 +1319,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'So hilft der Bearbeiter dem Studenten gezielt bei seinen Defiziten und unterstützt ihn beispielsweise bei der '
+                    text: 'So hilft der Ghostwriter Ihnen als Student gezielt bei Ihren Defiziten und unterstützt Sie beispielsweise bei der '
                   -
                     type: text
                     marks:
@@ -1343,13 +1328,13 @@ replicator:
                     text: 'Gliederung der Seminararbeit'
                   -
                     type: text
-                    text: '. An der abgeschlossenen Seminararbeit kann er die Methodik sehr gut nachvollziehen und muss sie sich nicht mühsam in Eigenregie anlernen.'
+                    text: '. An Ihrer abgeschlossenen Seminararbeit kann er die Methodik sehr gut nachvollziehen und muss sie sich nicht mühsam in Eigenregie anlernen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Professionell erstellte Mustervorlagen bieten '
+                    text: 'Professionell erstellte Mustervorlagen bieten Ihnen beim Schreiben von Seminararbeiten am Anfang des Studiums '
                   -
                     type: text
                     marks:
@@ -1358,7 +1343,7 @@ replicator:
                     text: 'gute Orientierungsmöglichkeiten'
                   -
                     type: text
-                    text: ' für den Anfang des Studiums beim Schreiben einer Seminararbeit. Ghostwriter betrachten jede akademische Aufgabe aus einer wissenschaftlichen Perspektive. Sie besitzen sowohl das '
+                    text: '. Ghostwriter betrachten jede akademische Aufgabe aus einer wissenschaftlichen Perspektive. Sie besitzen sowohl das '
                   -
                     type: text
                     marks:
@@ -1399,8 +1384,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '22'
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1536,6 +1519,16 @@ replicator:
                         attrs:
                           align: center
                     text: 'Senior Ghostwriter & Supervisor'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard: null
             show_as_card: false
         type: row
         enabled: true
@@ -2857,7 +2850,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643741818
+updated_at: 1646162547
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2909,4 +2902,5 @@ schema_objects: |-
     }]
   }
   </script>
+sitemap_active: true
 ---
