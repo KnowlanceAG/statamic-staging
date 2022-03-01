@@ -1379,12 +1379,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '22'
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -1416,16 +1410,6 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F7F7F7'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
@@ -1447,7 +1431,7 @@ replicator:
                     ex_pages: '12'
                     ex_zitation: 'Harvard Style'
                     ex_button_link: 'entry::96cae355-3c82-4ead-9c6f-b091dcd86f36'
-                    ex_button_text: WEITERLESEN
+                    ex_button_text: 'WEITERLESEN & HERUNTERLADEN'
                     ex_color: '#FF6606'
                     ex_spacing_top: false
               -
@@ -1522,17 +1506,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard: null
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F7F7F7'
@@ -1647,6 +1621,16 @@ replicator:
                         zahl: '4.'
                         beschreibung: 'Diese übersteigt in dem meisten Fällen die erstrebte Anzahl von 5-20 Kursteilnehmern um ein Vielfaches. Kurse mit 80-100 Studierenden sind keine Seltenheit. Solche Umstände führen keineswegs zu einer wirksamen Vermittlung des Lernstoffs und erschweren den Studenten die Beantwortung der Frage „Wie schreibe ich eine Seminararbeit?“. Auch an der Betreuung mangelt es.'
             show_as_card: true
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard: null
+            show_as_card: false
         type: row
         enabled: true
     bg-color: '#D6D6D6'
@@ -2850,7 +2834,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646162547
+updated_at: 1646162849
 template: default
 use_meta_keywords: false
 no_index_page: false
