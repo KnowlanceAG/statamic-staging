@@ -1515,6 +1515,13 @@ replicator:
     type: add_section
     enabled: true
   -
+    remove_spacing: false
+    is-full: true
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
     columns-replicator:
       -
         responsive_columns: 1
@@ -1523,12 +1530,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -1545,23 +1546,6 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#D6D6D6'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
@@ -1629,19 +1613,6 @@ replicator:
         single-col: false
         grid:
           -
-            bard: null
-            show_as_card: false
-        type: row
-        enabled: true
-    bg-color: '#D6D6D6'
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
             bard:
               -
                 type: set
@@ -1656,25 +1627,13 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#D6D6D6'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single-col: false
         grid:
           -
             bard:
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1886,30 +1845,7 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
     bg-color: '#D6D6D6'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
   -
     columns-replicator:
       -
@@ -1937,29 +1873,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Ausgewählte '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: link
-                        attrs:
-                          href: /experten
-                          target: null
-                          rel: null
-                    text: Experten
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: ' aus unserer Agentur'
+                    text: 'Ausgewählte Experten aus unserer Agentur'
             show_as_card: false
         type: row
         enabled: true
@@ -2146,6 +2060,16 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '15'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard: null
             show_as_card: false
         type: row
         enabled: true
@@ -2834,7 +2758,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646162849
+updated_at: 1646163506
 template: default
 use_meta_keywords: false
 no_index_page: false
