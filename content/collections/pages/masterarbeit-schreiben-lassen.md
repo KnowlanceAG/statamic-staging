@@ -132,16 +132,6 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
               -
                 type: set
                 attrs:
@@ -153,8 +143,6 @@ replicator:
                       <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
                       <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
                       <!-- ProvenExpert Bewertungssiegel Ende -->
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -215,7 +203,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' im Bachelor-/Masterstudium und stellt damit den Türöffner in die Berufswelt dar. Studenten streben danach, in Betrieben unterzukommen und müssen versuchen, in der Berufswelt Fuß zu fassen. Die Rückzahlung des BAföG steht an, viele wollen eine Familie gründen und sich endgültig von den Eltern lösen. Das ist ohne Anstellung in einem Beruf nicht zu bewältigen. Das führt dazu, dass man sich selbst unter Druck setzt, Fehler macht, '
+                    text: ' im Masterstudium und stellt damit den Türöffner in die Berufswelt dar. Studenten streben danach, in attraktiven Firmen Arbeit zu finden und müssen versuchen, in der Berufswelt Fuß zu fassen. Die Rückzahlung des BAföG steht an, viele wollen eine Familie gründen und sich endgültig von den Eltern lösen. Das ist ohne Anstellung in einem Beruf nicht zu bewältigen. Das führt dazu, dass man sich selbst unter Druck setzt, Fehler macht, '
                   -
                     type: text
                     marks:
@@ -241,7 +229,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Dabei greifen Studenten oft auf die '
+                    text: 'Dabei können Sie als Student auf die '
                   -
                     type: text
                     marks:
@@ -250,7 +238,13 @@ replicator:
                     text: 'Hilfe von akademischen Freelancern und Ghostwritern'
                   -
                     type: text
-                    text: ' zurück, die tiefgründige Kenntnisse in dem geforderten Fachbereich aufweisen und bereits Erfahrung mit wissenschaftlichen Arbeiten haben. Sie entlasten den Studenten durch Ghostwriting, Coaching bei der Strukturierung und übernehmen die '
+                    text: ' zurückgreifen, die tiefgründige Kenntnisse in dem Ihrem persönlichen Fachbereich aufweisen und umfassende Erfahrung mit wissenschaftlichen Arbeiten haben.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Diese entlasten Sie durch Ghostwriting, Coachings bei der Strukturierung Ihrer und übernehmen Ihre '
                   -
                     type: text
                     marks:
@@ -263,7 +257,7 @@ replicator:
                     text: Textkorrektur
                   -
                     type: text
-                    text: ', das Lektorat sowie '
+                    text: ', das Lektorat sowie die '
                   -
                     type: text
                     marks:
@@ -276,7 +270,7 @@ replicator:
                     text: 'Überprüfung auf Plagiate'
                   -
                     type: text
-                    text: '. Durch diese Dienstleistung kann sich der Student auf die wesentlichen Dinge in seinem Leben konzentrieren, statt lange Zeit vor der Fragestellung zu stehen '
+                    text: '. Durch diese Dienstleistung können Sie sich auf die wesentlichen Dinge in ihrem Leben konzentrieren, statt lange Zeit vor der Fragestellung zu stehen '
                   -
                     type: text
                     marks:
@@ -286,8 +280,6 @@ replicator:
                   -
                     type: text
                     text: '. '
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -371,12 +363,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -411,25 +397,9 @@ replicator:
                       -
                         type: bold
                     text: '. Unsere Schreibagentur melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '1'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#D6D6D6'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
@@ -483,23 +453,7 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#D6D6D6'
@@ -529,13 +483,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In unserer akademischen Agentur arbeiten '
+                    text: 'Unsere akademische Agentur arbeitet ausschließlich mit '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Ghostwriter mit umfassender Erfahrung in der Anwendung wissenschaftlicher methodischer Ansätze'
+                    text: 'Ghostwritern mit umfassender Erfahrung in der Anwendung wissenschaftlicher methodischer Ansätze'
                   -
                     type: text
                     text: '. Sowohl in der Theorie als auch in der Praxis verfügen diese über viele Jahre Erfahrung und wissen bspw. exakt, wie '
@@ -551,7 +505,13 @@ replicator:
                     text: Experten-Befragungen
                   -
                     type: text
-                    text: ' oder Studienumfragen erstellt werden. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn. Denn bei unseren Ghostwritern handelt es sich häufig um '
+                    text: ' oder Studienumfragen erstellt werden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn. Denn bei unseren Ghostwritern handelt es sich häufig um '
                   -
                     type: text
                     marks:
@@ -614,7 +574,7 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: ' wissenschaftliche Texterstellungen problemlos zu jedem Zeitpunkt übernehmen. In solchen Fällen steht dann im Leistungszentrum, dass sich Studenten von Ghostwritern eine Mustervorlage für die eigene '
+                    text: ' wissenschaftliche Texterstellungen problemlos zu jedem Zeitpunkt übernehmen. In solchen Fällen steht dann im Leistungszentrum, dass Sie sich als Student von Ghostwritern eine Mustervorlage für die eigene '
                   -
                     type: text
                     marks:
@@ -629,7 +589,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ebenfalls ist es möglich, Hilfe während des Schreibprozesses in Anspruch zu nehmen oder sich bei Teilbereichen helfen zu lassen. Zudem können Leistungen wie das '
+                    text: 'Sie können ebenfalls Hilfe während des Schreibprozesses in Anspruch nehmen oder sich bei Teilbereichen helfen lassen. Wir bieten Ihnen darüber hinaus auch Leistungen wie das '
                   -
                     type: text
                     marks:
@@ -650,7 +610,7 @@ replicator:
                     text: ' und das Korrektorat der Masterarbeit'
                   -
                     type: text
-                    text: ', die bereits durch den Studenten fertiggestellt wurde, in Anspruch genommen werden.'
+                    text: ', die bereits durch Sie fertiggestellt wurde.'
             show_as_card: false
           -
             bard:
@@ -710,11 +670,10 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/anfrage.png
                     text: |-
-                      <br>
-                      <br>
-                      Ein kostenloses Angebot über Ihre Anforderungen, erhalten Sie nach einer unverbindlichen Anfrage. Die Anfrage können Sie über ein Bestellformular stellen. Die Zusammenarbei mit Ghostwriter beginnt nach Ihrer Bestätigung. 
+                      ### Kostenlose Anfrage
+                      Sei erhalten ein kostenloses Angebot zu Ihren Anforderungen nach einer unverbindlichen Anfrage. Die Anfrage können Sie über ein Bestellformular stellen. Ihr Ghostwriter beginnt nach Ihrer Bestätigung mit der Texterstellung. 
 
-                      Während der [Zusammenarbeit mit Ghostwritern](/so-funktioniert-es) stellen unsere Projektmanager die **Anonymität des Auftraggebers** und gleichzeitig auch die Anonymität des Autors sicher. 
+                      Während der [Zusammenarbeit mit Ihrem Ghostwriter](/so-funktioniert-es) stellen unsere Projektmanager Ihre **Anonymität als Auftraggeber** und gleichzeitig auch die Anonymität des Autors sicher. 
                     ausrichtung: bild-text
               -
                 type: set
@@ -724,11 +683,10 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/termineplanen.png
                     text: |
-                      <br>
-                      <br>
-                      Zu jedem Problemfeld werden einzelne Teillieferungen bzw. Termine vereinbart.  Diese Teillieferungen dienen dazu, den Auftraggeber über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. 
+                      ### Projektmanager & Teillieferungen
+                      Zu jedem Problemfeld werden einzelne Teillieferungen bzw. Termine vereinbart.  Diese Teillieferungen dienen dazu, Sie über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. 
 
-                      So können für den Zeitraum der Auftragsausführung geltende Anforderungen genannt werden bezüglich der Masterarbeit. In dieser Revisionszeit werden je nach Komplexität und Umfang des Themas bzw. der Aufgabenstellung auch **mehrere ausgebildete Fachautoren für die Arbeit eingesetzt**.
+                      So können für den Zeitraum der Auftragsausführung geltende Anforderungen bezüglich der Masterarbeit genannt werden. In dieser Revisionszeit werden je nach Komplexität und Umfang Ihres Themas bzw. Ihrer Aufgabenstellung auch **mehrere ausgebildete Fachautoren für die Arbeit eingesetzt**.
                     ausrichtung: text-bild
               -
                 type: set
@@ -738,7 +696,9 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
                     ausrichtung: bild-text
-                    text: 'Nach der Erstellung der Mustervorlage zu Ihrer Masterarbeit, wird die Arbeit von einem unabhängigen [Lektor](/lektorat) aus Ihrem Fachbereich, korrektur gelesen. Hier werden Verbesserungen an Inhalt und Formulierungen vorgenommen. Anschließend kann der Text **auf Plagiate geprüft** werden, um mögliche Risiken zu umgehen, die aufgrund von Schwierigkeiten oder Flüchtigkeitsfehlern im Umgang mit Literatur entstehen könnten. **Diese Teilleistungen sind im Preis inklusive**. '
+                    text: |-
+                      ### Abschlusslieferung & Qualitätsgarantie
+                      Nach der Erstellung der Mustervorlage zu Ihrer Masterarbeit, wird die Arbeit von einem unabhängigen [Lektor](/lektorat) aus Ihrem Fachbereich korrektur gelesen. Hier werden Verbesserungen an Inhalt und Formulierungen vorgenommen. Anschließend wird Ihr Text **auf Plagiate geprüft** , um mögliche Risiken auszuschließen. **Diese Teilleistungen sind im Preis inklusive**. 
               -
                 type: set
                 attrs:
@@ -748,10 +708,8 @@ replicator:
                       - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
                     ausrichtung: text-bild
                     text: |+
-                      <br>
-                      <br>
-
-                      Bei der Endlieferung erhalten Sie eine hochqualitative und von [Experten](/experten) auf Qualität geprüfte Muster-Masterarbeit als PDF Datei. Falls Sie hierzu Feedbacks haben, setzen wir diese selbstverständlich kostenfrei um.
+                      ### Kostenlose Änderungswünsche
+                      Sie erhalten mit der Endlieferung eine hochqualitative und von [Experten](/experten) auf Qualität geprüfte Muster-Masterarbeit als PDF Datei. Falls Sie hierzu Feedbacks haben, setzen wir diese selbstverständlich kostenfrei um.
 
               -
                 type: paragraph
@@ -1016,7 +974,7 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: '. Dadurch soll geprüft werden, ob der Student in der Lage ist, ordnungsgemäß zu einer speziellen '
+                    text: '. Dadurch soll geprüft werden, ob Sie als Student in der Lage sind, ordnungsgemäß zu einer speziellen '
                   -
                     type: text
                     marks:
@@ -1027,7 +985,7 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Fragestellung zu recherchieren und sie wissenschaftlich zu erarbeiten'
+                    text: 'Fragestellung zu recherchieren und diese wissenschaftlich zu erarbeiten'
                   -
                     type: text
                     marks:
@@ -1201,7 +1159,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Abhilfe schafft hier, neben der Arbeitskorrektur und der Plagiatsprüfung, ein professionelles Coaching für die Masterarbeit. Teilweise werden für Mustervorlagen für eine '
+                    text: 'Abhilfe schafft hier, neben der Arbeitskorrektur und der Plagiatsprüfung, ein professionelles Coaching für die Masterarbeit. Sie können auch für Mustervorlagen für Ihre '
                   -
                     type: text
                     marks:
@@ -1221,7 +1179,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' eingesetzt, wobei diese Ghostwriting-Masterarbeit nur als Orientierungshilfe dienen sollte Denn unsere Ghostwriter sind mehr als akademisch ausgebildete Autoren. Sie sind '
+                    text: ' beauftragen, wobei diese Ghostwriting-Masterarbeit nur als Orientierungshilfe dienen sollte. Unsere Ghostwriter sind mehr als akademisch ausgebildete Autoren. Sie sind '
                   -
                     type: text
                     marks:
@@ -1273,7 +1231,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' kennen den aktuellen Kenntnisstand und alle Methoden zur wissenschaftlichen Forschung. Der Forschungsstand benennt den aktuellen Stand der Forschung im Bezug zum Thema einer wissenschaftlichen Arbeit. Somit kann eine '
+                    text: ' kennen den aktuellen Kenntnisstand und alle Methoden zur wissenschaftlichen Forschung. Der Forschungsstand benennt den aktuellen Stand der Forschung im Bezug zum Thema einer wissenschaftlichen Arbeit. Somit können wir für Sie eine '
                   -
                     type: text
                     marks:
@@ -1284,16 +1242,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Forschungslücke gefunden und eine wissenschaftliche Forschungsfrage erstellt'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' werden.'
+                    text: 'Forschungslücke finden und eine wissenschaftliche Forschungsfrage erstellen.'
               -
                 type: set
                 attrs:
@@ -1338,11 +1287,9 @@ replicator:
                     ex_pages: '10 - 20'
                     ex_zitation: 'Harvard Style, APA Style, Deutsche Zitierweise'
                     ex_button_link: 'entry::b2decf22-7419-401e-9a2d-3713194ce4d0'
-                    ex_button_text: 'WEITERE BEISPIELARBEITEN JETZT RUNTERLADEN'
+                    ex_button_text: 'ÜBERSICHT DER BEISPIELARBEITEN'
                     ex_button_align: justify-start
                     ex_spacing_top: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1486,7 +1433,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Oft wird durch das Lehrinstitut ein Muster der Masterarbeit als Beispiel veröffentlicht, was als Orientierungshilfe genutzt werden kann. Wenn diese Unterstützung nicht vorhanden ist, schaffen sich einige Studenten Abhilfe, indem sie einen Ghostwriter ihre '
+                    text: 'Oft wird durch das Lehrinstitut eine Muster-Masterarbeit als Beispiel veröffentlicht, was als Orientierungshilfe genutzt werden kann. Wenn diese Unterstützung nicht vorhanden ist, können Sie sich Hilfe holen, indem Sie einen Ghostwriter ihre '
                   -
                     type: text
                     marks:
@@ -1506,7 +1453,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: '. In kleinen Arbeitsschritten erstellt unsere Schreibagentur je nach Themenstellung und Bedürfnissen eine Mustervorlage für die Masterarbeit. Die '
+                    text: '. In kleinen Arbeitsschritten erstellt unsere Schreibagentur je nach Themenstellung und Bedürfnissen eine Mustervorlage für Ihre Masterarbeit. Die '
                   -
                     type: text
                     marks:
@@ -1526,7 +1473,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' wird dann als Mustervorlage genutzt.'
+                    text: ' können Sie dann als Mustervorlage nutzen.'
             show_as_card: false
         type: row
         enabled: true
@@ -2221,7 +2168,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1644249090
+updated_at: 1646141729
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2273,4 +2220,5 @@ schema_objects: |-
     }]
   }
   </script>
+sitemap_active: true
 ---
