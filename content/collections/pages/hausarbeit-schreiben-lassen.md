@@ -676,7 +676,7 @@ replicator:
                       - seiten/arbeiten/hausarbeit/anfrage.png
                     text: |-
                       ### Kostenlose Anfrage
-                      Senden Sie uns einfach & schnell über unser Bestellformular eine kostenlose Anfrage. Von unserer Schreibagentur erhalten Sie innerhalb weniger Stunden ein unverbindliches Leistungsangebot und eine individuelle Beratung. Der Auftrag beginnt nach Ihrer Zusage und einer Anzahlung.
+                      Senden Sie uns einfach & schnell über unser Bestellformular eine kostenlose Anfrage. Von unserer Schreibagentur erhalten Sie innerhalb weniger Stunden ein **unverbindliches Leistungsangebot und eine individuelle Beratung**. Wir beginnen sofort nach Ihrer Zusage und einer Anzahlung.
                     ausrichtung: bild-text
               -
                 type: set
@@ -687,7 +687,7 @@ replicator:
                       - seiten/arbeiten/hausarbeit/termineplanen.png
                     text: |-
                       ### Projektmanager & Teillieferungen
-                      Es werden einzelne Teillieferungen bzw. Termine geplant. Diese Teillieferungen dienen dazu, Sie über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. Je nach Komplexität des Themas werden mehrere Fachautoren für die Arbeit eingesetzt.
+                      Für Sie werden einzelne Teillieferungen bzw. Termine geplant. Diese Teillieferungen dienen dazu, Sie über den **aktuellen Stand der Arbeit** zu informieren und Ihre Feedbacks kostenlos umzusetzen. Je nach Komplexität des Themas werden mehrere Fachautoren für die Arbeit eingesetzt.
                     ausrichtung: text-bild
               -
                 type: set
@@ -697,7 +697,9 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
                     ausrichtung: bild-text
-                    text: 'Nach der Fertigstellung erhalten Sie die fertige Mustervorlage zu Ihrer Hausarbeit. Vorab wird diese von einem unabhängigen Lektor aus Ihrem Fachbereich korrektur gelesen. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Diese Kontrolle nach unserem bewährten 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Darüber hinaus wird Ihre Hausarbeit mit professioneller Plagiatserkennungssoftware auf Plagiate geprüft.'
+                    text: |-
+                      ### Abschlusslieferung & Qualitätsgarantie
+                      Sie erhalten die fertige Mustervorlage zu Ihrer Hausarbeit zum vereinbarten Termin. Vorab wird diese von einem **unabhängigen Lektor aus Ihrem Fachbereich korrektur gelesen**. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Unser bewährtes 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Darüber hinaus wird Ihre Hausarbeit mit der Plagiatserkennungssoftware **Turnitin** auf Plagiate geprüft.
               -
                 type: set
                 attrs:
@@ -707,9 +709,8 @@ replicator:
                       - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
                     ausrichtung: text-bild
                     text: |-
-                      <br>
-                      <br>
-                      Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Falls Sie hierzu Änderungswünsche haben, setzen wir diese selbstverständlich kostenfrei um.
+                      ### Kostenlose Änderungswünsche
+                      Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Falls Sie hierzu Änderungswünsche haben, setzen wir diese selbstverständlich **kostenfrei** um.
               -
                 type: paragraph
                 content:
@@ -848,8 +849,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '30'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -878,8 +877,6 @@ replicator:
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
                     color: '#FF6606'
                     spacing_top: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -891,27 +888,14 @@ replicator:
     type: add_section
     enabled: true
   -
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: 1
+        columns_per_row: '1'
         single-col: true
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -977,12 +961,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: true
+        single-col: false
         grid:
           -
             bard:
@@ -1158,25 +1140,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -1318,6 +1282,16 @@ replicator:
                         attrs:
                           align: center
                     text: 'Senior Ghostwriter & Supervisor'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard: null
             show_as_card: false
         type: row
         enabled: true
@@ -1899,7 +1873,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646132783
+updated_at: 1646134828
 template: default
 use_meta_keywords: false
 no_index_page: false
