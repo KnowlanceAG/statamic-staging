@@ -1169,7 +1169,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird diese Hilfe nicht geboten, bietet sich die Option, dass sich Studierende eine Mustervorlage von einem Ghostwriter für ihre Hausarbeit schreiben lassen. Diese Ghostwriting-Hausarbeit kann anschließend als Beispiel unterstützend genutzt werden. Um Ihnen eine bessere Vorstellung davon zu geben, was Sie von unserer Schreibagentur erhalten, stellen wir Ihnen im Folgenden '
+                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird Ihnen diese Hilfe nicht geboten, können Sie sich als Studierende eine Mustervorlage von einem Ghostwriter für ihre Hausarbeit schreiben lassen. Diese Ghostwriting-Hausarbeit können Sie anschließend als Beispiel unterstützend nutzen. Um Ihnen eine bessere Vorstellung davon zu geben, was Sie von unserer Schreibagentur erhalten, stellen wir Ihnen im Folgenden '
                   -
                     type: text
                     marks:
@@ -1179,16 +1179,6 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F7F7F7'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
@@ -1213,8 +1203,6 @@ replicator:
                     ex_button_text: WEITERLESEN
                     ex_color: '#FF6606'
                     ex_spacing_top: false
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -1285,17 +1273,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard: null
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F7F7F7'
@@ -1340,13 +1318,13 @@ replicator:
                     text: 'gute Hausarbeit zu schreiben'
                   -
                     type: text
-                    text: ' setzt eine gründliche und tief gehende Literaturrecherche voraus. Hierbei ist es wichtig, die relevanten Informationen und Literaturquellen aus verschiedenen Datenbanken herauszufiltern. Anschließend gilt es, diese Ergebnisse zusammenzuführen, zu analysieren und zu interpretieren. So soll sich eine gesamthafte Analyse entwickeln.'
+                    text: ' setzt eine gründliche und tief gehende Literaturrecherche voraus. Hierbei ist es wichtig, dass Sie die relevanten Informationen und Literaturquellen aus verschiedenen Datenbanken herausfiltern. Anschließend gilt es, diese Ergebnisse zusammenzuführen, zu analysieren und zu interpretieren. So soll sich eine gesamthafte Analyse entwickeln.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Zudem soll die '
+                    text: 'Zudem müssen Sie die '
                   -
                     type: text
                     marks:
@@ -1355,7 +1333,7 @@ replicator:
                     text: 'zentrale Forschungsfrage mit Würdigung des aktuellen Forschungsstands'
                   -
                     type: text
-                    text: ' auf wenigen Seiten erforscht werden. Unerfahrene Studienanfänger sind oftmals mit dem Komprimieren der Informationsmenge und aufgrund der hohen akademischen Ansprüche überfordert. Dadurch stoßen Studierende auf Schreibblockaden und andere Probleme, besonders wenn diese ihre erste Hausarbeit schreiben.'
+                    text: ' auf wenigen Seiten erforschen. Unerfahrene Studienanfänger sind oftmals mit dem Komprimieren der Informationsmenge und aufgrund der hohen akademischen Ansprüche überfordert. Dadurch stoßen Studierende auf Schreibblockaden und andere Probleme, besonders wenn diese ihre erste Hausarbeit schreiben.'
               -
                 type: paragraph
                 content:
@@ -1367,7 +1345,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'helfen unsere akademischen Ghostwriter von GWriters'
+                    text: 'helfen Ihnen unsere akademischen Ghostwriter von GWriters'
                   -
                     type: text
                     text: '. Diese verfügen über einen ausgedehnten Erfahrungsschutz im Verfassen wissenschaftlicher Arbeiten. Sie besitzen darüber hinaus auch das notwendige methodische und fachliche Wissen für das Verfassen akademischer Texte.'
@@ -1414,8 +1392,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '30'
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1478,7 +1454,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'die fachliche und wissenschaftliche Kompetenz der Agentur'
+                            text: 'die fachliche und wissenschaftliche Kompetenz unserer Agentur'
                   -
                     type: list_item
                     content:
@@ -1873,7 +1849,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646134828
+updated_at: 1646135429
 template: default
 use_meta_keywords: false
 no_index_page: false
