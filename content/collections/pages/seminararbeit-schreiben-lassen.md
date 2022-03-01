@@ -1856,12 +1856,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -1874,18 +1868,15 @@ replicator:
                         attrs:
                           align: center
                     text: 'Ausgewählte Experten aus unserer Agentur'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: '3'
@@ -2063,17 +2054,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard: null
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-image-fixed: false
@@ -2148,7 +2129,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' (der sprichwörtliche "rote Faden"), sowie konsistente Zitation der verwendeten Literatur sei es in der Fußnote als auch im Literaturverzeichnis.'
+                    text: ' (der sprichwörtliche "rote Faden"), sowie konsistente Zitation der verwendeten Literatur sei es in der Fußnote oder im Literaturverzeichnis.'
               -
                 type: paragraph
                 content:
@@ -2160,7 +2141,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'In den Fachbereichen der Mathematik, Physik und Informatik werden oftmals der sichere Umgang mit fachspezifischer Software vorausgesetzt. Oft werden dabei als Unterstützung Muster der Seminararbeit als Beispiele durch den Dozenten veröffentlicht oder durch eine '
+                    text: 'In den Fachbereichen der Mathematik, Physik und Informatik wird oftmals der sichere Umgang mit fachspezifischer Software vorausgesetzt. Oft werden dabei als Unterstützung Muster der Seminararbeit als Beispiele durch den Dozenten veröffentlicht oder durch eine '
                   -
                     type: text
                     marks:
@@ -2545,23 +2526,7 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-image-fixed: false
@@ -2758,7 +2723,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646163506
+updated_at: 1646163807
 template: default
 use_meta_keywords: false
 no_index_page: false
