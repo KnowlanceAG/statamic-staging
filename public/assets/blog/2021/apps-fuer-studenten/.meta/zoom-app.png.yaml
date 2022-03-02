@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Zoom Apps für Studenten'
 size: 95705
 last_modified: 1646242508
 width: 750
