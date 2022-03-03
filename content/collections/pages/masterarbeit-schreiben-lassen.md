@@ -20,7 +20,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Mustervorlage für Masterarbeit schreiben lassen'
+        text: 'Masterarbeit schreiben lassen'
   -
     type: paragraph
     content:
@@ -33,7 +33,12 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: "\_Hilfe vom akademischen Ghostwriter bei Ihrer Masterarbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate."
+          -
+            type: textColor
+            attrs:
+              color: '#000!important'
+              hex: '#000'
+        text: 'Mustervorlagen von akademischen Ghostwritern für Ihre Masterarbeit'
   -
     type: set
     attrs:
@@ -2124,7 +2129,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646141928
+updated_at: 1646317156
 template: default
 use_meta_keywords: false
 no_index_page: false
