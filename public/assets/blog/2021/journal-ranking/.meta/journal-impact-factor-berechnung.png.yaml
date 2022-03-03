@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Journal Impact Factor- Berechnung'
+  title: 'Journal Impact Factor- Berechnung'
 size: 35500
 last_modified: 1646318365
 width: 566
