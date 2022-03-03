@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Forenbeitrag zitieren'
+  caption: 'Forenbeitrag zitieren'
 size: 84171
 last_modified: 1646297387
 width: 630
