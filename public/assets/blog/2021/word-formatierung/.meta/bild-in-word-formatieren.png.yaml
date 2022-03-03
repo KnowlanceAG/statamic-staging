@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Bild in Word formatieren'
+  title: 'Bild in Word formatieren'
 size: 36986
 last_modified: 1646315935
 width: 750
