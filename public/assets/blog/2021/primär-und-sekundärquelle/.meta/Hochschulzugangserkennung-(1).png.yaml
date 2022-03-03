@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Bibliotheken für die Fernleihe'
+  title: 'Bibliotheken für die Fernleihe'
+  caption: 'Bibliotheken für die Fernleihe'
 size: 24172
 last_modified: 1646319458
 width: 605
