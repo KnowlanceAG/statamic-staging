@@ -20,7 +20,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Mustervorlage für Hausarbeit schreiben lassen'
+        text: 'Hausarbeit schreiben lassen'
   -
     type: paragraph
     content:
@@ -33,7 +33,22 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Hilfe vom akademischen Ghostwriter bei Ihrer Hausarbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Mustervorlage '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: '#000!important'
+              hex: '#000'
+        text: 'von akademischen Ghostwritern für Ihre Hausarbeit'
   -
     type: set
     attrs:
@@ -1849,7 +1864,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646135429
+updated_at: 1646317077
 template: default
 use_meta_keywords: false
 no_index_page: false
