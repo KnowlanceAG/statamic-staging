@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Seitenzahl in Word einfügen'
+  title: 'Seitenzahl in Word einfügen'
 size: 34830
 last_modified: 1646315712
 width: 750
