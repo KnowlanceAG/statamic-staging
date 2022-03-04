@@ -88,7 +88,10 @@ strong {
 p {
   @apply mb-2 lg:mb-4 text-sm text-gray-550;
   line-height: 28px;
-
+  &.info-text-headline {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    @apply text-lg font-bold;
+  }
   a {
     @apply text-orange-500;
     word-wrap: break-word;
@@ -553,6 +556,17 @@ body.ch {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.has-teaser-tooltip {
+  &:hover {
+    .teaser-tooltip {
+      @apply md:visible !important;
+    }
+  }
+}
+.teaser-tooltip {
+  @apply absolute opacity-0 top-full left-4 right-0 mb-2 transition-opacity duration-200;
 }
 
 .tooltip {
