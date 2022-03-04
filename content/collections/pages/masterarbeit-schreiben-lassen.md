@@ -1292,7 +1292,7 @@ replicator:
                     ex_pages: '10 - 20'
                     ex_zitation: 'Harvard Style, APA Style, Deutsche Zitierweise'
                     ex_button_link: 'entry::b2decf22-7419-401e-9a2d-3713194ce4d0'
-                    ex_button_text: 'ÜBERSICHT DER BEISPIELARBEITEN'
+                    ex_button_text: 'ÜBERSICHT UNSERER BEISPIELARBEITEN'
                     ex_button_align: justify-start
                     ex_spacing_top: false
             show_as_card: false
@@ -1301,7 +1301,7 @@ replicator:
     remove_spacing: true
     is-full: true
     bg-toggle: false
-    bg-color: '#F9F9F9'
+    bg-color: '#F7F7F7'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -2129,7 +2129,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646317156
+updated_at: 1646402618
 template: default
 use_meta_keywords: false
 no_index_page: false
