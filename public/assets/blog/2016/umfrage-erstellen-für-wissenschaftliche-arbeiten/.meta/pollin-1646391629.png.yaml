@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'pollin umfrage'
+  title: 'pollin umfrage'
 size: 42889
 last_modified: 1646391629
 width: 441
