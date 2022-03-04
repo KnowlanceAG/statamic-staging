@@ -3,7 +3,7 @@ id: 942c2c8b-0964-473f-bd8d-10426b828eb8
 blueprint: pages
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1646408169
+updated_at: 1646408199
 replicator:
   -
     bard:
@@ -79,19 +79,19 @@ teaser:
         columns:
           -
             icon: weisses_svg.svg
-            headline: 'Überschrift Icon Liste 1'
+            headline: 'Überschrift 1'
             tooltip_infotext: 'Kurz Text Tooltip Icon Liste 1'
           -
             icon: weisses_svg.svg
-            headline: 'Überschrift Icon Liste 2'
+            headline: 'Überschrift 2'
             tooltip_infotext: 'Kurz Text Tooltip Icon Liste 2'
           -
             icon: weisses_svg.svg
-            headline: 'Überschrift Icon Liste 3'
+            headline: 'Überschrift 3'
             tooltip_infotext: 'Kurz Text Tooltip Icon Liste 3'
           -
             icon: weisses_svg.svg
-            headline: 'Überschrift Icon Liste 4'
+            headline: 'Überschrift 4'
             tooltip_infotext: 'Kurz Text Tooltip Icon Liste 4'
   -
     type: paragraph
