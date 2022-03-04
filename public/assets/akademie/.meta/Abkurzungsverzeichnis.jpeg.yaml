@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: Abkuerzungsverzeichnis
+  title: Abkuerzungsverzeichnis
 size: 40903
 last_modified: 1646389228
 width: 726
