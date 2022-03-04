@@ -33,9 +33,9 @@ export const specialField = {
 }
 
 export const qualityLevel = {
-  Economy: 0.89,
-  Business: 1,
-  Academic: 1.18
+  Akademiker: 0.89,
+  Doktor: 1,
+  Professor: 1.18
 }
 
 export const timeType = [{ Tage: 1 }, { Wochen: 7 }, { Monate: 30 }]
