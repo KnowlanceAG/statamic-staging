@@ -25,6 +25,11 @@ sections:
               fields:
                 -
                   import: ce_image
+            teaser_icon_columns:
+              display: 'Icon Spalten'
+              fields:
+                -
+                  import: teaser_icon_columns
           buttons:
             - h1
             - h2
@@ -51,6 +56,10 @@ sections:
           type: bard
           icon: bard
           listable: hidden
+          instructions_position: above
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
       -
         handle: teaser_bg
         field:
@@ -109,7 +118,6 @@ sections:
         handle: slug
         field:
           type: slug
-          required: true
           localizable: true
           validate:
             - required
