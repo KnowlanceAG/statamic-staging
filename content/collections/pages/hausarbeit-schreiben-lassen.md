@@ -20,7 +20,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Mustervorlage für Hausarbeit schreiben lassen'
+        text: 'Hausarbeit schreiben lassen'
   -
     type: paragraph
     content:
@@ -33,7 +33,22 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Hilfe vom akademischen Ghostwriter bei Ihrer Hausarbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Mustervorlage '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: '#000!important'
+              hex: '#000'
+        text: 'von akademischen Ghostwritern für Ihre Hausarbeit'
   -
     type: set
     attrs:
@@ -138,16 +153,8 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -159,8 +166,6 @@ replicator:
                       <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
                       <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
                       <!-- ProvenExpert Bewertungssiegel Ende -->
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -195,7 +200,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Aufgrund der häufig überfordernden Studien- und Privatplanung kommt es regelmäßig dazu, dass sich Studenten eine '
+                    text: 'Sind sie mit der Studien- und Privatplanung regelmäßig überfordert? Möchten Sie sich als Student eine '
                   -
                     type: text
                     marks:
@@ -204,7 +209,7 @@ replicator:
                     text: 'Mustervorlage für ihre wissenschaftliche Hausarbeit schreiben lassen'
                   -
                     type: text
-                    text: '. Oft geschieht es direkt zu Beginn einer Texterstellung, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, der Gliederung oder dem Exposé, dass sich Studenten eine '
+                    text: '? Bereits zu Beginn Ihrer wissenschaftlichen Arbeit, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, der Gliederung oder dem Exposé, können Sie sich Hilfe holen indem Sie eine '
                   -
                     type: text
                     marks:
@@ -219,7 +224,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Zudem ist es möglich, den Ghostwriter zur '
+                    text: 'Zudem können Sie einen Ghostwriter zur '
                   -
                     type: text
                     marks:
@@ -228,7 +233,7 @@ replicator:
                     text: 'Betreuung der Hausarbeit einzusetzen'
                   -
                     type: text
-                    text: ' und ihn während des gesamten Prozesses unterstützend agieren zu lassen. Selbst wenn der Student sich dazu entscheidet eigenständig zu arbeiten, ist es ratsam, '
+                    text: ' und ihn während des gesamten Prozesses unterstützend agieren  lassen. Selbst wenn Sie sich dazu entscheiden eigenständig zu arbeiten, ist es ratsam, '
                   -
                     type: text
                     marks:
@@ -246,7 +251,13 @@ replicator:
                     text: 'eine umfassende Plagiatsprüfung '
                   -
                     type: text
-                    text: 'mit Plagiatssoftware erfolgen.'
+                    text: 'mit Plagiatssoftware erfolgen. Wir nutzen hierfür die renommierte Software '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Turnitin.
               -
                 type: paragraph
                 content:
@@ -261,7 +272,7 @@ replicator:
                     text: 'Hausarbeit Ghostwriter'
                   -
                     type: text
-                    text: ' ist zu Studienbeginn besonders ratsam. Zu diesem Zeitpunkt kommt es aufgrund mangelnder Erfahrung zu Flüchtigkeitsfehler beim Schreiben oder im Umgang mit wissenschaftlichen Quellen passieren können. Hier fehlt es oft an '
+                    text: ' empfehlen wir Ihnen besonders zum Studienbeginn oder wenn eine '
                   -
                     type: text
                     marks:
@@ -270,7 +281,7 @@ replicator:
                     text: 'Hilfestellung bei der Hausarbeit'
                   -
                     type: text
-                    text: ' seitens der Betreuer, Professoren und Universitäten.'
+                    text: ' seitens der Betreuer, Professoren und Universitäten fehlt. So können Sie Flüchtigkeitsfehler beim Schreiben oder im Umgang mit wissenschaftlichen Quellen aufgrund mangelnder Erfahrung vermeiden.'
             show_as_card: false
         type: row
         enabled: true
@@ -354,12 +365,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -376,25 +381,9 @@ replicator:
                       -
                         type: bold
                     text: 'Wenn Sie Unterstützung durch einen Hausarbeit Ghostwriter benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine unverbindliche Anfrage schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '1'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#D6D6D6'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
@@ -448,23 +437,7 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#D6D6D6'
@@ -509,7 +482,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Bei den Ghostwritern von GWriters handelt es sich um erfahrene Akademiker, die häufig selbst noch als '
+                    text: 'Bei den Ghostwritern von GWriters handelt es sich um erfahrene Akademiker, die häufig selbst als '
                   -
                     type: text
                     marks:
@@ -717,9 +690,8 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/anfrage.png
                     text: |-
-                      <br>
-                      <br>
-                      Nach einer unverbindlichen Anfrage, die Sie über ein Bestellformular stellen können, erhalten Sie von unserer Schreibagentur ein kostenloses Leistungsangebot und eine individuelle Beratung. Der Auftrag beginnt nach Ihrer Zusage und einer Anzahlung.
+                      ### Kostenlose Anfrage
+                      Senden Sie uns einfach & schnell über unser Bestellformular eine kostenlose Anfrage. Von unserer Schreibagentur erhalten Sie innerhalb weniger Stunden ein **unverbindliches Leistungsangebot und eine individuelle Beratung**. Wir beginnen sofort nach Ihrer Zusage und einer Anzahlung.
                     ausrichtung: bild-text
               -
                 type: set
@@ -729,9 +701,8 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/termineplanen.png
                     text: |-
-                      <br>
-                      <br>
-                      Es werden einzelne Teillieferungen bzw. Termine geplant. Diese Teillieferungen dienen dazu, Sie über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. Je nach Komplexität des Themas werden mehrere Fachautoren für die Arbeit eingesetzt.
+                      ### Projektmanager & Teillieferungen
+                      Für Sie werden einzelne Teillieferungen bzw. Termine geplant. Diese Teillieferungen dienen dazu, Sie über den **aktuellen Stand der Arbeit** zu informieren und Ihre Feedbacks kostenlos umzusetzen. Je nach Komplexität des Themas werden mehrere Fachautoren für die Arbeit eingesetzt.
                     ausrichtung: text-bild
               -
                 type: set
@@ -741,7 +712,9 @@ replicator:
                     bild:
                       - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
                     ausrichtung: bild-text
-                    text: 'Nach der Fertigstellung erhalten Sie die fertige Mustervorlage zu Ihrer Hausarbeit. Vorab wird diese von einem unabhängigen Lektor aus Ihrem Fachbereich korrektur gelesen. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Diese Kontrolle nach unserem bewährten 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Darüber hinaus wird Ihre Hausarbeit mit professioneller Plagiatserkennungssoftware auf Plagiate geprüft.'
+                    text: |-
+                      ### Abschlusslieferung & Qualitätsgarantie
+                      Sie erhalten die fertige Mustervorlage zu Ihrer Hausarbeit zum vereinbarten Termin. Vorab wird diese von einem **unabhängigen Lektor aus Ihrem Fachbereich korrektur gelesen**. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Unser bewährtes 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Darüber hinaus wird Ihre Hausarbeit mit der Plagiatserkennungssoftware **Turnitin** auf Plagiate geprüft.
               -
                 type: set
                 attrs:
@@ -751,9 +724,8 @@ replicator:
                       - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
                     ausrichtung: text-bild
                     text: |-
-                      <br>
-                      <br>
-                      Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Falls Sie hierzu Änderungswünsche haben, setzen wir diese selbstverständlich kostenfrei um.
+                      ### Kostenlose Änderungswünsche
+                      Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Falls Sie hierzu Änderungswünsche haben, setzen wir diese selbstverständlich **kostenfrei** um.
               -
                 type: paragraph
                 content:
@@ -892,8 +864,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '30'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -922,8 +892,6 @@ replicator:
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
                     color: '#FF6606'
                     spacing_top: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -935,27 +903,14 @@ replicator:
     type: add_section
     enabled: true
   -
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
     columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: 1
+        columns_per_row: '1'
         single-col: true
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -1021,12 +976,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: true
+        single-col: false
         grid:
           -
             bard:
@@ -1202,25 +1155,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -1249,7 +1184,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird diese Hilfe nicht geboten, bietet sich die Option, dass sich Studierende eine Mustervorlage von einem Ghostwriter für ihre Hausarbeit schreiben lassen. Diese Ghostwriting-Hausarbeit kann anschließend als Beispiel unterstützend genutzt werden. Um Ihnen eine bessere Vorstellung davon zu geben, was Sie von unserer Schreibagentur erhalten, stellen wir Ihnen im Folgenden '
+                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird Ihnen diese Hilfe nicht geboten, können Sie sich als Studierende eine Mustervorlage von einem Ghostwriter für ihre Hausarbeit schreiben lassen. Diese Ghostwriting-Hausarbeit können Sie anschließend als Beispiel unterstützend nutzen. Um Ihnen eine bessere Vorstellung davon zu geben, was Sie von unserer Schreibagentur erhalten, stellen wir Ihnen im Folgenden '
                   -
                     type: text
                     marks:
@@ -1259,16 +1194,6 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F7F7F7'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
@@ -1293,8 +1218,6 @@ replicator:
                     ex_button_text: WEITERLESEN
                     ex_color: '#FF6606'
                     ex_spacing_top: false
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -1365,7 +1288,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F7F7F7'
@@ -1410,13 +1333,13 @@ replicator:
                     text: 'gute Hausarbeit zu schreiben'
                   -
                     type: text
-                    text: ' setzt eine gründliche und tief gehende Literaturrecherche voraus. Hierbei ist es wichtig, die relevanten Informationen und Literaturquellen aus verschiedenen Datenbanken herauszufiltern. Anschließend gilt es, diese Ergebnisse zusammenzuführen, zu analysieren und zu interpretieren. So soll sich eine gesamthafte Analyse entwickeln.'
+                    text: ' setzt eine gründliche und tief gehende Literaturrecherche voraus. Hierbei ist es wichtig, dass Sie die relevanten Informationen und Literaturquellen aus verschiedenen Datenbanken herausfiltern. Anschließend gilt es, diese Ergebnisse zusammenzuführen, zu analysieren und zu interpretieren. So soll sich eine gesamthafte Analyse entwickeln.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Zudem soll die '
+                    text: 'Zudem müssen Sie die '
                   -
                     type: text
                     marks:
@@ -1425,7 +1348,7 @@ replicator:
                     text: 'zentrale Forschungsfrage mit Würdigung des aktuellen Forschungsstands'
                   -
                     type: text
-                    text: ' auf wenigen Seiten erforscht werden. Unerfahrene Studienanfänger sind oftmals mit dem Komprimieren der Informationsmenge und aufgrund der hohen akademischen Ansprüche überfordert. Dadurch stoßen Studierende auf Schreibblockaden und andere Probleme, besonders wenn diese ihre erste Hausarbeit schreiben.'
+                    text: ' auf wenigen Seiten erforschen. Unerfahrene Studienanfänger sind oftmals mit dem Komprimieren der Informationsmenge und aufgrund der hohen akademischen Ansprüche überfordert. Dadurch stoßen Studierende auf Schreibblockaden und andere Probleme, besonders wenn diese ihre erste Hausarbeit schreiben.'
               -
                 type: paragraph
                 content:
@@ -1437,7 +1360,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'helfen unsere akademischen Ghostwriter von GWriters'
+                    text: 'helfen Ihnen unsere akademischen Ghostwriter von GWriters'
                   -
                     type: text
                     text: '. Diese verfügen über einen ausgedehnten Erfahrungsschutz im Verfassen wissenschaftlicher Arbeiten. Sie besitzen darüber hinaus auch das notwendige methodische und fachliche Wissen für das Verfassen akademischer Texte.'
@@ -1484,8 +1407,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '30'
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1548,7 +1469,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'die fachliche und wissenschaftliche Kompetenz der Agentur'
+                            text: 'die fachliche und wissenschaftliche Kompetenz unserer Agentur'
                   -
                     type: list_item
                     content:
@@ -1943,7 +1864,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643741760
+updated_at: 1646317077
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -1995,4 +1916,5 @@ schema_objects: |-
     }]
   }
   </script>
+sitemap_active: true
 ---

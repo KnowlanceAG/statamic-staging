@@ -20,7 +20,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Mustervorlage für Facharbeit schreiben lassen'
+        text: 'Facharbeit schreiben lassen'
   -
     type: paragraph
     content:
@@ -33,7 +33,22 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Hilfe vom akademischen Ghostwriter bei Ihrer Facharbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate'
+          -
+            type: textColor
+            attrs:
+              color: 'rgb(68, 68, 68)'
+              hex: '#000'
+        text: 'Mustervorlagen von akademischen Ghostwritern für Ihre'
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: ' Facharbeit'
   -
     type: set
     attrs:
@@ -138,16 +153,6 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
               -
                 type: set
                 attrs:
@@ -159,8 +164,6 @@ replicator:
                       <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
                       <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
                       <!-- ProvenExpert Bewertungssiegel Ende -->
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -213,7 +216,7 @@ replicator:
                     text: 'gleichzeitig für andere Klausuren und Abiturprüfungen lernen'
                   -
                     type: text
-                    text: ' - das führt auch zu zeitlichen Problemen. Um bei der Fragestellung ,,Wie schreibe ich eine Facharbeit?“ nicht alleine zu stehen, wenden sich einige Schüler während dem Schreibprozess an einen '
+                    text: ' - das führt auch zu zeitlichen Problemen. Um bei der Fragestellung ,,Wie schreibe ich eine Facharbeit?“ nicht alleine zu stehen, können Sie sich als Schüler während des Schreibprozesses an einen '
                   -
                     type: text
                     marks:
@@ -247,13 +250,13 @@ replicator:
                     text: Lektor
                   -
                     type: text
-                    text: ' oder Korrektor von einem Schreibservice. '
+                    text: ' oder Korrektor von unserem Schreibservice wenden. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Besonders weil die Arbeit auf das Studium vorbereiten soll und als Übungsmöglichkeit steht, ist es wichtig, '
+                    text: 'Besonders weil die Facharbeit auf das Studium vorbereiten soll und als Übungsmöglichkeit steht, ist es wichtig, '
                   -
                     type: text
                     marks:
@@ -400,12 +403,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -440,25 +437,9 @@ replicator:
                       -
                         type: bold
                     text: ' an unseren Schreibservice schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '1'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#D6D6D6'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
@@ -512,23 +493,7 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#D6D6D6'
@@ -584,7 +549,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ', kann ein '
+                    text: ', können Sie ein '
                   -
                     type: text
                     marks:
@@ -608,7 +573,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' durch einen sog. '
+                    text: ' durch einen '
                   -
                     type: text
                     marks:
@@ -628,7 +593,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' erfolgen. Dieser beschäftigt sich hauptberuflich mit wissenschaftlichen Texten und Arbeiten und besitzt zudem zahlreiche Kenntnisse in seinem Fachgebiet. Der Schüler kann ihn aus diesem Grund ohne Schwierigkeiten '
+                    text: ' in Anspruch nehmen. Dieser beschäftigt sich hauptberuflich mit wissenschaftlichen Texten und Arbeiten und besitzt zudem zahlreiche Kenntnisse in seinem Fachgebiet. Sie können diesen daher ohne Schwierigkeiten '
                   -
                     type: text
                     marks:
@@ -654,39 +619,7 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Oft geschieht dies direkt zu Beginn der Texterstellung im Vorbereitungsprozess, bei der Forschung, der Themenfindung, der Literaturrecherche (Fachliteratur), der Strukturierung, der Gliederung und dem Aufbau der fachbezogenen Arbeit (Einleitung, Kernteil, Hauptteil, Fazit, Formalitäten). Ebenfalls besteht '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'bei Zeitnot die Möglichkeit, den Freelancer zum Coaching der Facharbeit einzusetzen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' und ihn während des gesamten Schreibprozesses unterstützend agieren zu lassen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Zum Beispiel können Ghostwriter einen Gliederungsentwurf für Ihre Gliederung schreiben oder bei der Themenwahl, eine Liste für Themen erstellen. Zudem ist das '
+                    text: 'Besonders hilfreich für Sie ist das '
                   -
                     type: text
                     marks:
@@ -707,7 +640,85 @@ replicator:
                     text: Ghostwriting
                   -
                     type: text
-                    text: ' - die Erstellung einer Mustervorlage für die Facharbeit durch einen akademischen Experten - möglich. '
+                    text: ', wobei Sie sich von einem erfahrenen Akademiker eine Mustervorlage für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Facharbeit schreiben lassen'
+                  -
+                    type: text
+                    text: .
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Auch können wir Sie bereits zu '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Beginn der Texterstellung im Vorbereitungsprozess professionell unterstützen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. '
+                  -
+                    type: text
+                    text: 'Ghostwriter können einen Gliederungsentwurf für Ihre Gliederung schreiben oder bei der Themenwahl eine Liste von Themen erstellen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Darüber hinaus können wir auch die Literaturrecherche (Fachliteratur), die Strukturierung, die Gliederung und den Aufbau der fachbezogenen Arbeit (Einleitung, Kernteil, Hauptteil, Fazit, Formalitäten) übernehmen. Ebenfalls können Sie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'bei Zeitnot einen Freelancer zum Coaching bei Ihrer Facharbeit heranziehen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und ihn während des gesamten Schreibprozesses unterstützend agieren lassen.'
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -741,22 +752,31 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Selbst wenn der Schüler eigenständig arbeitet, ist es ratsam, die Facharbeit Korrekturlesen und lektorieren zu lassen. Denn die Verbesserungen zur formalen und inhaltlichen Gestaltung einer wissenschaftlichen Arbeit, die von einer '
+                    text: 'Selbst wenn Sie als Schüler eigenständig arbeiten, ist es ratsam, die Facharbeit von einer '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: Ghostwriting-Agentur
+                    text: seriösen
                   -
                     type: text
-                    text: ' gemacht werden, spielt in fachbezogene Arbeiten eine große Rolle. Daher suchen oft Studenten/Schüler nach '
+                    text: ' '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'speziellen Fachautoren'
+                    text: 'Ghostwriting-Agentur '
+                  -
+                    type: text
+                    text: 'Korrekturlesen und lektorieren zu lassen. Denn die Verbesserungen zur formalen und inhaltlichen Gestaltung einer wissenschaftlichen Arbeit haben einen großen Einfluss auf dessen Erfolg. Daher bieten wir Studenten/Schülern  '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'spezialisierte Fachautoren'
                   -
                     type: text
                     text: ', die '
@@ -768,7 +788,7 @@ replicator:
                     text: 'viele Jahre Erfahrungen'
                   -
                     type: text
-                    text: ' in dem jeweiligen Themenfeld gemacht haben.'
+                    text: ' in Ihrem individuellen Themenfeld  haben.'
               -
                 type: paragraph
                 content:
@@ -783,7 +803,16 @@ replicator:
                     text: 'Dozenten, Doktoren und Professoren'
                   -
                     type: text
-                    text: '. In unserer Schreibagentur finden Sie in nahezu allen Fachrichtungen zu verschiedenen Aufgaben im Bereich des wissenschaftlichen Arbeitens professionelle Fachautoren.'
+                    text: '. In unserer Schreibagentur finden Sie für nahezu alle Fachrichtungen professionelle Fachautoren. Diese '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'unterstützen Sie bei verschiedensten Aufgaben'
+                  -
+                    type: text
+                    text: ' im Bereich des wissenschaftlichen Arbeitens'
                   -
                     type: hard_break
             show_as_card: false
@@ -918,7 +947,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Neben den Leistungen '
+                    text: 'Neben einem '
                   -
                     type: text
                     marks:
@@ -944,7 +973,16 @@ replicator:
                     text: Lektorat
                   -
                     type: text
-                    text: ' der Facharbeit, kann zusätzlich eine umfassende '
+                    text: ' der Facharbeit, bietet Ihnen unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Ghostwriting-Agentur
+                  -
+                    type: text
+                    text: ' auch als zusätzliche Leistung eine umfassende '
                   -
                     type: text
                     marks:
@@ -957,16 +995,7 @@ replicator:
                     text: Plagiatsprüfung
                   -
                     type: text
-                    text: ' von einer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Ghostwriting-Agentur
-                  -
-                    type: text
-                    text: ' erfolgen. Diese ist zu empfehlen, da besonders aus mangelnder Erfahrung mit wissenschaftlichen Texten und dem Umgang mit Fachliteratur, ungewollte Fehler passieren können. Es geschieht nicht selten, dass Schüler eine Mustervorlage für ihre '
+                    text: '. Diese ist zu empfehlen, da besonders aus mangelnder Erfahrung mit wissenschaftlichen Texten und dem Umgang mit Fachliteratur, ungewollte Fehler passieren können. Um von unserer Unterstützung als Schüler optimal zu profitieren, empfehlen wir Ihnen, dass Sie sich eine Mustervorlage für Ihre '
                   -
                     type: text
                     marks:
@@ -975,7 +1004,7 @@ replicator:
                     text: 'Facharbeit schreiben lassen'
                   -
                     type: text
-                    text: ' und diese Ghostwriter-Facharbeit als Vorlage für ihre eigene Arbeit nutzen.'
+                    text: ' und diese Ghostwriter-Facharbeit als Vorlage für Ihre eigene Arbeit nutzen.'
               -
                 type: set
                 attrs:
@@ -991,7 +1020,26 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: '40'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: true
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
               -
                 type: heading
                 attrs:
@@ -1011,7 +1059,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Einen Ghostwriter die Facharbeit schreiben lassen ist auch eine Option. Dabei ist jedoch zu beachten, dass die '
+                    text: 'Einen Ghostwriter die Facharbeit schreiben zu lassen ist vollkommen legal. Dabei ist jedoch zu beachten, dass die '
                   -
                     type: text
                     marks:
@@ -1043,72 +1091,122 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Das ausgewählte Thema für eine fachbezogene Arbeit zeigt, dass der Schüler sich in diesem Themenfeld vertiefen möchten. Daher wählen viele Studenten nach dem Abitur die Fachrichtung aus, mit der sie sich schon einmal auseinandergesetzt haben. Besonders bei den wissenschaftlichen Studienarbeiten (Hausarbeiten, Seminararbeiten) wird ein tiefes Fach-Know-How erwartet.'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
+                    text: 'Das ausgewählte Thema für eine fachbezogene Arbeit zeigt, dass der Schüler sich in diesem Themenfeld vertiefen möchten. Daher wählen viele Studenten nach dem Abitur die Fachrichtung aus, mit der sie sich schon während der Facharbeit auseinandergesetzt haben.'
               -
-                type: heading
-                attrs:
-                  level: 2
+                type: paragraph
                 content:
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
+                        type: textColor
                         attrs:
-                          align: left
-                    text: 'Arten von wissenschaftlichen Arbeiten '
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating-img
-                    dateien:
-                      - seiten/arbeiten/facharbeit-ghostwriter.png
-                    img_size: w-full
-                    float: mx-auto
-              -
-                type: paragraph
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Aktualität des Themas'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' ist wichtig für Ihre wissenschaftliche Arbeit, um eine erfolgreiche Abiturnote zu erzielen. Vor dem Schreiben kann ein akademischer Ghostwriter auch bei der Themensuche eine hervorragende Hilfe sein. Denn Ghostwriter kennen den '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'aktuellen Forschungsstand'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', haben auf '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'alle relevanten Datenbanken Zugriff'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'alle notwendigen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Forschungsmaterialien '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'zur Verfügung.'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F7F7F7'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
@@ -1202,207 +1300,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F7F7F7'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Zur Facharbeit'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Die Facharbeit ist für viele die'
-                  -
-                    type: text
-                    text: ' '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'erste Etappe in Richtung wissenschaftlicher Arbeiten'
-                  -
-                    type: text
-                    text: '. Hier muss ein Schüler erstmals zeigen, dass er, nach vorheriger Anleitung durch den Lehrer, eigenständig eine schriftliche Ausarbeitung zu einem Thema anfertigen kann. Die Themenwahl wird in Zusammenarbeit m'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'it einem Lehrer erarbeitet.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Aktualität eines Themas'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' ist wichtig für eine wissenschaftliche Arbeit, um eine erfolgreiche Abiturnote zu erzielen. Hierbei kann ein akademischer Ghostwriter bei der Themensuche eine gute Hilfe sein. Denn Ghostwriter kennen den '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'aktuellen Forschungsstand'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', haben zu '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'vielen Datenbanken Zugrif'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'f und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Forschungsmaterialien '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'zur Verfügung.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Facharbeiten werden in der reformierten Oberstufe verfasst und sollen ber'
-                  -
-                    type: text
-                    text: 'eits einigen Anforderungen der Universität entsprechen.'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' Unterstützung wird dabei zum einen seitens der Schule geboten, durch den Lehrer bzw. Betreuer, zum anderen durch einen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'akademischen Freelancer, der als Lektor oder Korrektor die Facharbeit optimiert'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: .
-            show_as_card: true
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: true
-    bg-image: seiten/arbeiten/seminararbeit/seminararbeit-plan.jpg
     bg-image-fixed: false
     border: false
     type: add_section
@@ -1443,7 +1344,9 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/arbeiten/hausarbeit/anfrage.png
-                    text: 'Die Mustervorlage für Ihre Arbeit wird von unseren akademischen Ghostwriter nach Ihren Bedürfnissen und Anforderungen gestaltet. Der Auftrag startet, nach dem Sie das Angebot angenommen haben. Je nach Komplexität des Themas, werden mehrere **Teillieferungen** geplant.'
+                    text: |-
+                      ### Kostenlose Anfrage
+                      Senden Sie uns eine kostenlose Anfrage. Wir melden uns innerhalb kürzester Zeit mit einem unverbindlichen Angbeot zurück. Der Auftrag startet, nach dem Sie und Angebot angenommen haben. Je nach Komplexität des Themas, werden mehrere **Teillieferungen** geplant.
                     ausrichtung: bild-text
               -
                 type: set
@@ -1453,7 +1356,8 @@ replicator:
                     bild:
                       - logo-startseite/icon-anonymitat.png
                     text: |+
-                      Während der Durchführung Ihrer Aufgabe, die von einem professionellen Ghostwriter als Mustervorlage erstellt wird, läuft die **gesamte Kommunikation anonym** in schriftlicher oder telefonischer Form ab. Da der Datenschutz für unsere Agentur besonders wichtig ist, wird die Anonymität der Daten vom Auftraggeber geschützt und nach dem Auftrag und der Übermittlung der wissenschaftlichen Ergebnisse gelöscht.
+                      ### Persönlicher Projektmanager
+                      Während der Erstellung Ihrer Mustervorlage durch einen erfahrenen Ghostwriter läuft die **gesamte Kommunikation anonym** in schriftlicher oder telefonischer Form ab. Da der Datenschutz für unsere Agentur besonders wichtig ist, wird Ihre Anonymität strengstens geschützt und nach Auftragsabschluss und der Übermittlung der wissenschaftlichen Ergebnisse gelöscht.
 
                     ausrichtung: text-bild
               -
@@ -1465,8 +1369,8 @@ replicator:
                       - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
                     ausrichtung: bild-text
                     text: |-
-                      Ihre Arbeit wird nach der Fertigstellung von einem unabhängigen Autor **lektoriert** und **korrigiert**. Abschließend wird eine **Plagiatskontrolle** durchgeführt, um die Arbeit plagiatfrei zu halten. Nach dem Plagiatstest erhalten Sie eine Quellenauswertung über Ihren Text, die genau erkennt, ob alle Textteile zitiert worden sind. <br>
-                      Die Plagiat-Software zeigt Ihnen die fehlenden Zitate, damit Verbesserungen vorgenommen werden können. Nach der Auftragsausführung wird Ihnen Ihre **Mustervorlage als PDF-Datei** zugesendet.
+                      ### Kostenlose Änderungen 
+                      Ihre Arbeit wird nach der Fertigstellung von einem unabhängigen Autor **lektoriert** und **korrigiert**. Abschließend wird eine **Plagiatskontrolle** durchgeführt, um die Arbeit plagiatfrei zu halten. Nach dem Plagiatstest erhalten Sie eine Quellenauswertung zu Ihrem Text, die genau zeigt, ob alle Textteile zitiert worden sind.
               -
                 type: set
                 attrs:
@@ -1476,8 +1380,14 @@ replicator:
                       - logo-startseite/icon-skills-ghostwriter-1641576328.png
                     ausrichtung: text-bild
                     text: |-
-
+                      ### Kompetente & erfahrene Ghostwriter
                       Alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen hervorragende **fachliche Kompetenzen** und **methodische Erfahrung** im Hinblick auf wissenschaftliches Arbeiten und Auftragsschreiben nach Kundenvorgaben vor.
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
               -
                 type: set
                 attrs:
@@ -1488,208 +1398,6 @@ replicator:
                     color: '#FF6606'
                     button_align: justify-center
                     spacing_top: false
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '20'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Wie schreibt man eine Facharbeit?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Wie eine Facharbeit angefertigt werden soll, ist in Deutschland nicht einheitlich geregelt. Da Bildungspolitik im Verantwortungsbereich der Länder liegt, gibt es zur Facharbeit unterschiedliche Anforderungen in Bezug auf Niveau, Umfang und Abgabezeitpunkt. Jedoch gibt es kaum gymnasiale Schulen, die von den Schülern nicht eine Facharbeit schreiben lassen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Allgemein lässt sich sagen, dass die Facharbeit in der Oberstufe angefertigt werden sollte, sie kann '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'eine Klausur im jeweiligen Fach ersetzen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', additional sein oder zu besonderen Leistungen in die Abiturnote einfließen. Der Schüler wählt zumeist ein Fach aus, in dem er die Arbeit schreiben möchte, dabei gibt es zur Auswahl verschiedene Ansätze.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Zum Beispiel sucht der Schüler ein Fach aus, in welchem er gewöhnlich besonders schlecht abschneidet um seine Note gezielt zu verbessern, er kann aber auch ein Fachgebiet wählen, welches ihm besonders liegt um seine Kenntnisse in einem'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' speziellen Interessengebiet zu vertiefen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: .
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Bei der letzten Variante wird die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Themenfindung der Facharbeit'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' meist erleichtert, da durch das vorhandene Interesse auch oft schon Quellen zum Thema gekannt wird. Sowohl in der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Fußnote
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' als auch im '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Literaturverzeichnis
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' sollten die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Zitierregeln
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' beachtet werden, um die richtige Zitierweise anzuwenden. Großer Wert wird darauf gelegt, dass die Facharbeit nicht einfach abgeschrieben wurde. Häufig überprüfen die Schulen dies auch mit einer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Plagiatsprüfung
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', die auch an Hochschulen zum Einsatz kommt.'
             show_as_card: false
         type: row
         enabled: true
@@ -1725,15 +1433,6 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: '3'
@@ -1911,6 +1610,22 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
+            show_as_card: false
+        type: row
+        enabled: true
     remove_spacing: true
     is-full: true
     bg-toggle: false
@@ -1928,11 +1643,325 @@ replicator:
           -
             bard:
               -
-                type: set
+                type: heading
                 attrs:
-                  values:
-                    type: spacer
-                    padding-y: '20'
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Zur Facharbeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die Facharbeit ist für viele die'
+                  -
+                    type: text
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'erste Etappe in Richtung wissenschaftlicher Arbeiten'
+                  -
+                    type: text
+                    text: '. Hier müssen Sie als Schüler erstmals zeigen, dass Sie, nach vorheriger Anleitung durch den Lehrer, eigenständig eine schriftliche Ausarbeitung zu einem Thema anfertigen können. Die Themenwahl wird in Zusammenarbeit m'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'it einem Lehrer erarbeitet.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Facharbeiten werden in der reformierten Oberstufe verfasst und sollen ber'
+                  -
+                    type: text
+                    text: 'eits einigen Anforderungen der Universität entsprechen.'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' Unterstützung wird dabei seitens der Schule geboten durch den Lehrer bzw. Betreuer, zum anderen durch einen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'akademischen Freelancer, der als Lektor oder Korrektor die Facharbeit optimiert'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: .
+            show_as_card: true
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: true
+    bg-toggle: true
+    bg-image: seiten/arbeiten/seminararbeit/seminararbeit-plan.jpg
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wie schreibt man eine Facharbeit?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Wie eine Facharbeit angefertigt werden soll, ist in Deutschland nicht einheitlich geregelt. Da Bildungspolitik im Verantwortungsbereich der Länder liegt, gibt es zur Facharbeit unterschiedliche Anforderungen in Bezug auf Niveau, Umfang und Abgabezeitpunkt. Jedoch gibt es kaum gymnasiale Schulen, die von den Schülern keine Facharbeit schreiben lassen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Allgemein lässt sich sagen, dass die Facharbeit in der Oberstufe angefertigt werden sollte, sie kann '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'eine Klausur im jeweiligen Fach ersetzen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', additional sein oder zu besonderen Leistungen in die Abiturnote einfließen. Der Schüler wählt zumeist ein Fach aus, in dem er die Arbeit schreiben möchte, dabei gibt es zur Auswahl verschiedene Ansätze.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Zum Beispiel sucht der Schüler ein Fach aus, in welchem er gewöhnlich besonders schlecht abschneidet um seine Note gezielt zu verbessern, er kann aber auch ein Fachgebiet wählen, welches ihm besonders liegt um seine Kenntnisse in einem'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' speziellen Interessengebiet zu vertiefen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: .
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Bei der letzten Variante wird die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Themenfindung der Facharbeit'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' meist erleichtert, da durch das vorhandene Interesse auch oft schon Quellen zum Thema bekannt sind. Sowohl in den '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Fußnoten
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' als auch im '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Literaturverzeichnis
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' sollten die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Zitierregeln
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' beachtet werden, um die richtige Zitierweise anzuwenden. Großer Wert wird darauf gelegt, dass die Facharbeit nicht einfach abgeschrieben wurde. Häufig überprüfen die Schulen dies auch mit einer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Plagiatsprüfung
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', die auch an Hochschulen zum Einsatz kommt.'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
               -
                 type: heading
                 attrs:
@@ -1976,7 +2005,7 @@ replicator:
                     text: 'Muster einer Facharbeit um ihre Schüler zu unterstützen'
                   -
                     type: text
-                    text: '. Ist diese nicht vorhanden, entscheiden sich einige Schüler dazu einen Ghostwriter in einer Schreibagentur ihre Facharbeit schreiben zu lassen und diese '
+                    text: '. Ist diese nicht vorhanden, können Sie als Schüler einen Ghostwriter von einer seriösen Schreibagentur ihre Facharbeit schreiben lassen und diese '
                   -
                     type: text
                     marks:
@@ -1985,17 +2014,17 @@ replicator:
                     text: Ghostwriting-Facharbeit
                   -
                     type: text
-                    text: ' als Orientierungshilfe zu nutzen.'
+                    text: ' als Orientierungshilfe nutzen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Zwar sind diese von der jeweiligen Schule, oftmals auch vom Lehrer abhängig, es haben sich jedoch einige Formalien als gängig erwiesen:'
+                    text: 'Zwar sind die Formalie von der jeweiligen Schule, oftmals auch vom Lehrer abhängig, es haben sich jedoch einige als gängig erwiesen:'
             show_as_card: true
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-image: seiten/arbeiten/seminararbeit/seminararbeit_schreiben_lassen_professoren_doktoren_.jpg
@@ -2355,23 +2384,7 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-image-fixed: false
@@ -2388,12 +2401,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
               -
                 type: blockquote
                 content:
@@ -2420,7 +2427,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -2436,12 +2443,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -2574,7 +2575,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643741937
+updated_at: 1646400634
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2626,4 +2627,5 @@ schema_objects: |-
     }]
   }
   </script>
+sitemap_active: true
 ---

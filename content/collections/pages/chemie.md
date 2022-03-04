@@ -1,5 +1,6 @@
 ---
 id: a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
+blueprint: pages
 title: Chemie
 teaser:
   -
@@ -55,8 +56,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'GWriters • Chemie - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1628584958
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1646294799
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1079,4 +1080,5 @@ og_title: 'GWriters • Chemie - Ghostwriter, Lektoren & Coaches'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der Chemie – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_naturwissenschaften
+sitemap_active: true
 ---
