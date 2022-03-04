@@ -1640,7 +1640,7 @@ replicator:
     remove_spacing: true
     is-full: true
     bg-toggle: false
-    bg-color: '#F9F9F9'
+    bg-color: '#F7F7F7'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -2603,7 +2603,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646321592
+updated_at: 1646402568
 template: default
 use_meta_keywords: false
 no_index_page: false
