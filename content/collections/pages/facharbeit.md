@@ -851,26 +851,6 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard: null
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
         single-col: false
         grid:
           -
@@ -1398,225 +1378,10 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: true
     bg-image: seiten/arbeiten/seminararbeit/seminararbeit-plan.jpg
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Wie schreibt man eine Facharbeit?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Wie eine Facharbeit angefertigt werden soll, ist in Deutschland nicht einheitlich geregelt. Da Bildungspolitik im Verantwortungsbereich der Länder liegt, gibt es zur Facharbeit unterschiedliche Anforderungen in Bezug auf Niveau, Umfang und Abgabezeitpunkt. Jedoch gibt es kaum gymnasiale Schulen, die von den Schülern nicht eine Facharbeit schreiben lassen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Allgemein lässt sich sagen, dass die Facharbeit in der Oberstufe angefertigt werden sollte, sie kann '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'eine Klausur im jeweiligen Fach ersetzen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', additional sein oder zu besonderen Leistungen in die Abiturnote einfließen. Der Schüler wählt zumeist ein Fach aus, in dem er die Arbeit schreiben möchte, dabei gibt es zur Auswahl verschiedene Ansätze.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Zum Beispiel sucht der Schüler ein Fach aus, in welchem er gewöhnlich besonders schlecht abschneidet um seine Note gezielt zu verbessern, er kann aber auch ein Fachgebiet wählen, welches ihm besonders liegt um seine Kenntnisse in einem'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' speziellen Interessengebiet zu vertiefen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: .
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Bei der letzten Variante wird die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Themenfindung der Facharbeit'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' meist erleichtert, da durch das vorhandene Interesse auch oft schon Quellen zum Thema gekannt wird. Sowohl in der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Fußnote
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' als auch im '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Literaturverzeichnis
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' sollten die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Zitierregeln
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' beachtet werden, um die richtige Zitierweise anzuwenden. Großer Wert wird darauf gelegt, dass die Facharbeit nicht einfach abgeschrieben wurde. Häufig überprüfen die Schulen dies auch mit einer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Plagiatsprüfung
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', die auch an Hochschulen zum Einsatz kommt.'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is-full: false
-    bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
@@ -1823,7 +1588,213 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wie schreibt man eine Facharbeit?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Wie eine Facharbeit angefertigt werden soll, ist in Deutschland nicht einheitlich geregelt. Da Bildungspolitik im Verantwortungsbereich der Länder liegt, gibt es zur Facharbeit unterschiedliche Anforderungen in Bezug auf Niveau, Umfang und Abgabezeitpunkt. Jedoch gibt es kaum gymnasiale Schulen, die von den Schülern nicht eine Facharbeit schreiben lassen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Allgemein lässt sich sagen, dass die Facharbeit in der Oberstufe angefertigt werden sollte, sie kann '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'eine Klausur im jeweiligen Fach ersetzen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', additional sein oder zu besonderen Leistungen in die Abiturnote einfließen. Der Schüler wählt zumeist ein Fach aus, in dem er die Arbeit schreiben möchte, dabei gibt es zur Auswahl verschiedene Ansätze.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Zum Beispiel sucht der Schüler ein Fach aus, in welchem er gewöhnlich besonders schlecht abschneidet um seine Note gezielt zu verbessern, er kann aber auch ein Fachgebiet wählen, welches ihm besonders liegt um seine Kenntnisse in einem'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' speziellen Interessengebiet zu vertiefen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: .
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Bei der letzten Variante wird die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Themenfindung der Facharbeit'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' meist erleichtert, da durch das vorhandene Interesse auch oft schon Quellen zum Thema gekannt wird. Sowohl in der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Fußnote
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' als auch im '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Literaturverzeichnis
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' sollten die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Zitierregeln
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' beachtet werden, um die richtige Zitierweise anzuwenden. Großer Wert wird darauf gelegt, dass die Facharbeit nicht einfach abgeschrieben wurde. Häufig überprüfen die Schulen dies auch mit einer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Plagiatsprüfung
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', die auch an Hochschulen zum Einsatz kommt.'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-image-fixed: false
@@ -1839,12 +1810,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '20'
               -
                 type: heading
                 attrs:
@@ -1907,7 +1872,7 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-image: seiten/arbeiten/seminararbeit/seminararbeit_schreiben_lassen_professoren_doktoren_.jpg
@@ -2267,23 +2232,7 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-image-fixed: false
@@ -2474,7 +2423,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646393900
+updated_at: 1646394142
 template: default
 use_meta_keywords: false
 no_index_page: false
