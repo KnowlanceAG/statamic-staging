@@ -138,16 +138,6 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
               -
                 type: set
                 attrs:
@@ -159,8 +149,6 @@ replicator:
                       <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
                       <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
                       <!-- ProvenExpert Bewertungssiegel Ende -->
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -400,12 +388,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -440,25 +422,9 @@ replicator:
                       -
                         type: bold
                     text: ' an unseren Schreibservice schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '1'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#D6D6D6'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
@@ -512,23 +478,7 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#D6D6D6'
@@ -1047,62 +997,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Arten von wissenschaftlichen Arbeiten '
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating-img
-                    dateien:
-                      - seiten/arbeiten/facharbeit-ghostwriter.png
-                    img_size: w-full
-                    float: mx-auto
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
     remove_spacing: true
     is-full: true
     bg-toggle: false
-    bg-color: '#F7F7F7'
+    bg-color: '#F9F9F9'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -1202,10 +1100,101 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: true
     bg-toggle: false
     bg-color: '#F7F7F7'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: "Mustervorlage für Facharbeit\_schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/arbeiten/hausarbeit/anfrage.png
+                    text: 'Die Mustervorlage für Ihre Arbeit wird von unseren akademischen Ghostwriter nach Ihren Bedürfnissen und Anforderungen gestaltet. Der Auftrag startet, nach dem Sie das Angebot angenommen haben. Je nach Komplexität des Themas, werden mehrere **Teillieferungen** geplant.'
+                    ausrichtung: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - logo-startseite/icon-anonymitat.png
+                    text: |+
+                      Während der Durchführung Ihrer Aufgabe, die von einem professionellen Ghostwriter als Mustervorlage erstellt wird, läuft die **gesamte Kommunikation anonym** in schriftlicher oder telefonischer Form ab. Da der Datenschutz für unsere Agentur besonders wichtig ist, wird die Anonymität der Daten vom Auftraggeber geschützt und nach dem Auftrag und der Übermittlung der wissenschaftlichen Ergebnisse gelöscht.
+
+                    ausrichtung: text-bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
+                    ausrichtung: bild-text
+                    text: |-
+                      Ihre Arbeit wird nach der Fertigstellung von einem unabhängigen Autor **lektoriert** und **korrigiert**. Abschließend wird eine **Plagiatskontrolle** durchgeführt, um die Arbeit plagiatfrei zu halten. Nach dem Plagiatstest erhalten Sie eine Quellenauswertung über Ihren Text, die genau erkennt, ob alle Textteile zitiert worden sind. <br>
+                      Die Plagiat-Software zeigt Ihnen die fehlenden Zitate, damit Verbesserungen vorgenommen werden können. Nach der Auftragsausführung wird Ihnen Ihre **Mustervorlage als PDF-Datei** zugesendet.
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - logo-startseite/icon-skills-ghostwriter-1641576328.png
+                    ausrichtung: text-bild
+                    text: |-
+
+                      Alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen hervorragende **fachliche Kompetenzen** und **methodische Erfahrung** im Hinblick auf wissenschaftliches Arbeiten und Auftragsschreiben nach Kundenvorgaben vor.
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN!'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
@@ -1412,88 +1401,10 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single-col: false
         grid:
           -
             bard:
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                          hex: '#000'
-                    text: "Mustervorlage für Facharbeit\_schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/anfrage.png
-                    text: 'Die Mustervorlage für Ihre Arbeit wird von unseren akademischen Ghostwriter nach Ihren Bedürfnissen und Anforderungen gestaltet. Der Auftrag startet, nach dem Sie das Angebot angenommen haben. Je nach Komplexität des Themas, werden mehrere **Teillieferungen** geplant.'
-                    ausrichtung: bild-text
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - logo-startseite/icon-anonymitat.png
-                    text: |+
-                      Während der Durchführung Ihrer Aufgabe, die von einem professionellen Ghostwriter als Mustervorlage erstellt wird, läuft die **gesamte Kommunikation anonym** in schriftlicher oder telefonischer Form ab. Da der Datenschutz für unsere Agentur besonders wichtig ist, wird die Anonymität der Daten vom Auftraggeber geschützt und nach dem Auftrag und der Übermittlung der wissenschaftlichen Ergebnisse gelöscht.
-
-                    ausrichtung: text-bild
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
-                    ausrichtung: bild-text
-                    text: |-
-                      Ihre Arbeit wird nach der Fertigstellung von einem unabhängigen Autor **lektoriert** und **korrigiert**. Abschließend wird eine **Plagiatskontrolle** durchgeführt, um die Arbeit plagiatfrei zu halten. Nach dem Plagiatstest erhalten Sie eine Quellenauswertung über Ihren Text, die genau erkennt, ob alle Textteile zitiert worden sind. <br>
-                      Die Plagiat-Software zeigt Ihnen die fehlenden Zitate, damit Verbesserungen vorgenommen werden können. Nach der Auftragsausführung wird Ihnen Ihre **Mustervorlage als PDF-Datei** zugesendet.
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - logo-startseite/icon-skills-ghostwriter-1641576328.png
-                    ausrichtung: text-bild
-                    text: |-
-
-                      Alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen hervorragende **fachliche Kompetenzen** und **methodische Erfahrung** im Hinblick auf wissenschaftliches Arbeiten und Auftragsschreiben nach Kundenvorgaben vor.
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN!'
-                    color: '#FF6606'
-                    button_align: justify-center
-                    spacing_top: false
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '20'
               -
                 type: heading
                 attrs:
@@ -1693,38 +1604,6 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Ausgewählte Experten aus unserer Agentur'
-            show_as_card: false
-        type: row
-        enabled: true
     remove_spacing: true
     is-full: false
     bg-toggle: false
@@ -1908,6 +1787,29 @@ replicator:
                   values:
                     type: spacer
                     padding-y: '15'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Ausgewählte Experten aus unserer Agentur'
             show_as_card: false
         type: row
         enabled: true
@@ -2389,12 +2291,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
                 type: blockquote
                 content:
                   -
@@ -2420,7 +2316,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+    remove_spacing: false
     is-full: false
     bg-toggle: false
     bg-image-fixed: false
@@ -2436,12 +2332,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -2574,7 +2464,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643741937
+updated_at: 1646393684
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2626,4 +2516,5 @@ schema_objects: |-
     }]
   }
   </script>
+sitemap_active: true
 ---
