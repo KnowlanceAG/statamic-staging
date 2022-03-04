@@ -38,6 +38,11 @@ fields:
       icon: bard
       listable: hidden
       sets:
+        img-text-ce:
+          display: 'NEU Text Bild'
+          fields:
+            -
+              import: img-text-ce
         bilder:
           display: Bilder
           fields:
@@ -169,6 +174,7 @@ fields:
       enable_input_rules: true
       enable_paste_rules: true
       instructions_position: above
+      antlers: false
   -
     handle: show_as_card
     field:
