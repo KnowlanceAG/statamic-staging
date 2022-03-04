@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Gutachten schreiben'
+  title: 'Gutachten schreiben'
 size: 87904
 last_modified: 1646390946
 width: 750
