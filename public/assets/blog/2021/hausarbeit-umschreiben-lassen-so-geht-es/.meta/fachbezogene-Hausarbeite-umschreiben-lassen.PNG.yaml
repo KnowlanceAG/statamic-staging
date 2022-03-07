@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Text umschreiben lassen programm'
 size: 70321
 last_modified: 1646673269
 width: 750
