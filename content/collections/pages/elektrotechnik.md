@@ -1,5 +1,6 @@
 ---
 id: 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
+blueprint: pages
 title: Elektrotechnik
 teaser:
   -
@@ -55,8 +56,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'GWriters • Elektrotechnik - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1628584595
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1646647945
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -752,7 +753,7 @@ replicator:
                   values:
                     type: bild_und_text
                     bild:
-                      - seiten/fachrichtungen/elektrotechnik-(1).jpg
+                      - seiten/fachrichtungen/elektrotechnik.jpg
                     text: 'Die Elektrotechnik hat sich aus der Physik entwickelt, dies konnte selbstverständlich erst geschehen, nachdem die Elektrizität entdeckt wurde. Bereits 1663 entwickelte Otto von Guericke eine Apparatur, welche mit Hilfe von Reibung Elektrizität erzeugte. In die Geschichte eingegangen ist das Froschschenkel-Experiment von Luigi Galvani, einem italienischen Physiker, welches den Grundstein für die Erfindung der Galvanischen Zelle legte. Vom Prinzip her ist es eine Kombination zweier Elektroden und eines Elektrolyten. Auf Grundlage dieser Forschungen konnte Alessandro Volta wenig später die Voltasche Säule bauen, mit der erstmals eine kontinuierliche Stromquelle realisiert wurde. Die Erfindung von Telefon, Generator, der drahtlosen Funkübertragung und nicht zuletzt dem Fernseher gehören zu weiteren Meilensteinen in der Geschichte der Elektrotechnik. In der modernen vernetzten Welt kann man sich ein Leben ohne Elektrotechnik kaum vorstellen. Elektronische Bauteile werden in allen Bereichen des Lebens eingesetzt und liefern wichtige Dienste für jeden Anwender. Besonders im Bereich der [Medizin](/fachrichtungen/medizin) ist die Elektrotechnik dem Menschen zugute gekommen.'
                     ausrichtung: text-bild
               -
@@ -895,4 +896,5 @@ og_title: 'GWriters • Elektrotechnik - Ghostwriter, Lektoren & Coaches'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der Elektrotechnik – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_technische_fachrichtungen
+sitemap_active: true
 ---
