@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Gruppendiskussion Auswertung'
+  title: 'Gruppendiskussion Auswertung'
 size: 56628
 last_modified: 1646674202
 width: 750
