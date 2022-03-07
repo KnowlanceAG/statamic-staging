@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Martin Kahn GWriters - akademische Ghostwriter'
+  title: 'Martin Kahn GWriters - akademische Ghostwriter'
 size: 28396
 last_modified: 1646661651
 width: 750
