@@ -35,6 +35,11 @@ sections:
               fields:
                 -
                   import: teaser_icon_columns
+            spacer:
+              display: Abstandshalter
+              fields:
+                -
+                  import: spacer
           buttons:
             - h2
             - h3
