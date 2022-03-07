@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Uni Köln'
+  caption: 'Quellen: Facebook: Uni Köln, 2021, URL: https://www.facebook.com/universitaetkoeln/'
 size: 32438
 last_modified: 1646674430
 width: 550
