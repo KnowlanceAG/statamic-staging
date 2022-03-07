@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Facebook Beitrag zitieren'
+  title: 'Facebook Beitrag zitieren'
+  caption: 'Facebook Beitrag zitieren'
 size: 53058
 last_modified: 1646673594
 width: 380
