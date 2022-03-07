@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Elektrotechnik ghostwriter'
+  caption: 'Otto von Guericke werden viele Erkenntnisse auf dem Gebiet der Elektrotechnik zugeschrieben.'
 size: 25411
 last_modified: 1646647914
 width: 588
