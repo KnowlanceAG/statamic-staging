@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Akademische Ghostwriter Fachbereiche: BWL, VWL, Jura, Medizin'
+  title: 'Akademische Ghostwriter Fachbereiche: BWL, VWL, Jura, Medizin'
 size: 95011
 last_modified: 1646648798
 width: 750
