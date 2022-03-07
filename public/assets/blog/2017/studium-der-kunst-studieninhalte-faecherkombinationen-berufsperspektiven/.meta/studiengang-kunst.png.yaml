@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'kunst ghostwriter'
+  title: 'kunst ghostwriter'
 size: 57919
 last_modified: 1646671222
 width: 750
