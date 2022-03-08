@@ -167,3 +167,6 @@ Redirect 301 /blog/hausarbeit-schreiben-lassen-kosten /arbeiten/hausarbeit-schre
 #13294
 Redirect 410 /wiki/diplom-kaufen
 Redirect 410 /blog/hausarbeit-kaufen
+
+#13331
+Redirect 301 /blog/produktivitaet-steigern-studium /blog/apps-fuer-studenten

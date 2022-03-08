@@ -30,6 +30,16 @@ sections:
               fields:
                 -
                   import: textbox-aligned
+            teaser_icon_columns:
+              display: 'Icon Spalten'
+              fields:
+                -
+                  import: teaser_icon_columns
+            spacer:
+              display: Abstandshalter
+              fields:
+                -
+                  import: spacer
           buttons:
             - h2
             - h3
@@ -63,6 +73,10 @@ sections:
           type: bard
           icon: bard
           listable: hidden
+          instructions_position: above
+          enable_input_rules: true
+          enable_paste_rules: true
+          antlers: false
       -
         import: responsive-assets
       -
