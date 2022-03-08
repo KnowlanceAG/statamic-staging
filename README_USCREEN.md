@@ -7,3 +7,5 @@
 ### SSG Static Site Generation
 
 The CPSSG addon is capable of generating files for different vhosts.
+
+v2.33.1
