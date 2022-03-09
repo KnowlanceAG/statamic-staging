@@ -1086,7 +1086,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -1096,58 +1096,89 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
                           color: 'rgba(68,68,68,var(--tw-text-opacity))'
                           hex: '#000'
-                    text: "Mustervorlage für Hausarbeit\_schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
+                    text: "Mustervorlage für Hausarbeit\_schreiben\_lassen\_- Wie funktioniert die Kooperation mit einem Ghostwriter?"
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/anfrage.png
+                      - seiten/arbeiten/anfrage.png
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Kostenlose Anfrage
                       Schicken Sie uns einfach eine [**unverbindlichen Anfrage**](/anfrage) über unsere Webseite.  Sie erhalten dann ein **kostenloses Leistungsangebot** und eine individuelle Beratung zur Planung Ihres Projektes von unserem Kundenberater. Nach Ihrer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre Arbeit. Unsere professionellen Projektmanager übernehmen die gesamte Kommunikation, sodass Ihre Anonymität stets gesichert ist. Bei größeren Seminararbeiten oder Abschlussarbeiten ist auch eine anonyme Telefonkonferenz mit dem Ihrem Autor möglich.
-                    ausrichtung: bild-text
+                    vertical_alignment-text: self-center
+                    reverse-columns: bild-text
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/termineplanen.png
-                    text: |+
+                      - seiten/arbeiten/termineplanen.png
+                    vertical_alignment-img: self-center
+                    text: |-
                       ### Teillieferungen & Feedbacks
                       **Je nach Umfang der Mustervorlage** werden eine oder mehrere Teillieferungen vereinbart. Gerade diese [**Teillieferungstermine**](/blog/ghostwriting-gwriters-teillieferungen) sind wichtig, um einen Abgleich zwischen Ihren Anforderungen und dem bisherigen Arbeitsstand zu erhalten. Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich **kostenlos** umgesetzt.
-
-                    ausrichtung: text-bild
+                    vertical_alignment-text: self-center
+                    reverse-columns: text-bild
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
-                    ausrichtung: bild-text
+                      - seiten/arbeiten/feedbackumsetzen.png
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Kostenlose Anpassungen
                       Bei Fragen und Änderungswünschen, die im Rahmen Ihres gesamten Projektes auftreten, ist Ihr Projektmanager immer Ihr persönlicher Ansprechpartner. Dieser Ansprechpartner bleibt immer gleich während des gesamten Projektes und ist bei Fragen oder Problemen telefonisch oder per E-Mail ständig für Sie erreichbar.
+                    vertical_alignment-text: self-center
+                    reverse-columns: bild-text
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
-                    ausrichtung: text-bild
+                      - seiten/arbeiten/lieferung-der-mustervorlage.png
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Abschlusslieferung & Qualitätsgarantie
                       Nachdem die Verschriftlichung abgeschlossen ist, wird Ihre Mustervorlage von einem unabhängigen Lektor kontrolliert und mit Hilfe der Software **Turnitin** auf Plagiate geprüft. Anschließend wird Ihre Mustervorlage zum vereinbarten Termin an Sie geliefert. Unsere Ghostwriter vereinfachen somit das Schreiben Ihrer Seminararbeit, da Sie diese aufbauend auf der Mustervorlage schnell & einfach fertigstellen können.
+                    vertical_alignment-text: self-center
+                    reverse-columns: text-bild
               -
                 type: paragraph
                 content:
@@ -2728,7 +2759,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646317209
+updated_at: 1646822154
 template: default
 use_meta_keywords: false
 no_index_page: false
