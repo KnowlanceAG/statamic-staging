@@ -53,6 +53,40 @@ teaser:
     type: set
     attrs:
       values:
+        type: spacer
+        padding-y: '10'
+  -
+    type: set
+    attrs:
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz & 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR & garantieren Ihre Anonymität zu 100%.'
+          -
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen & kostenlose Änderung'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+          -
+            icon: logo-startseite/icon-schnelle-lieferung.svg
+            headline: 'Schnelle & pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
+          -
+            icon: logo-startseite/icon-akademische-qualitaet.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '10'
+  -
+    type: set
+    attrs:
+      values:
         type: button
         button_link: /anfrage
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
@@ -2606,7 +2640,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646823190
+updated_at: 1646828673
 template: default
 use_meta_keywords: false
 no_index_page: false
