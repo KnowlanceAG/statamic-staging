@@ -650,7 +650,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -660,13 +660,13 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: "Mustervorlage für Masterarbeit\_schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
+                    text: "Mustervorlage für Masterarbeit\_schreiben\_lassen\_– Wie funktioniert die Kooperation mit einem Ghostwriter?"
               -
                 type: set
                 attrs:
@@ -683,7 +683,7 @@ replicator:
                     vertical_alignment-img: self-center
                     text: |-
                       ### Kostenlose Anfrage
-                      Sei erhalten ein kostenloses Angebot zu Ihren Anforderungen nach einer unverbindlichen Anfrage. Die Anfrage können Sie über ein Bestellformular stellen. Ihr Ghostwriter beginnt nach Ihrer Bestätigung mit der Texterstellung. 
+                      Sei erhalten ein kostenloses Angebot zu Ihren Anforderungen nach einer unverbindlichen Anfrage. Die Anfrage können Sie über ein Bestellformular stellen. Ihr Ghostwriter beginnt nach Ihrer Bestätigung mit der Texterstellung.
 
                       Während der [Zusammenarbeit mit Ihrem Ghostwriter](/so-funktioniert-es) stellen unsere Projektmanager Ihre **Anonymität als Auftraggeber** und gleichzeitig auch die Anonymität des Autors sicher. 
                     vertical_alignment-text: self-center
@@ -2160,7 +2160,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646821616
+updated_at: 1646821772
 template: default
 use_meta_keywords: false
 no_index_page: false
