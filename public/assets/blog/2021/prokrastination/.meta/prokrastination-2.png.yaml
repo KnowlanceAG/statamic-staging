@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Gegen Prokrastination'
+  title: 'Gegen Prokrastination'
 size: 28483
 last_modified: 1646845980
 width: 935
