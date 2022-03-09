@@ -755,11 +755,13 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: img-text-ce
                     bild:
                       - seiten/ghostwriter-gesucht/vergabe-projekt.png
+                    vertical_alignment-img: self-center
                     text: 'Sie beschäftigen sich tagtäglich mit wissenschaftlichen Schreibarbeiten und methodischen Ansätzen in unserem Schreibservice. Darüber hinaus haben diese **umfassende Kenntnisse im Umgang mit Forschungsarbeiten**.'
-                    ausrichtung: bild-text
+                    vertical_alignment-text: self-center
+                    reverse-columns: bild-text
               -
                 type: set
                 attrs:
@@ -2666,7 +2668,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646824799
+updated_at: 1646826364
 template: default
 use_meta_keywords: false
 no_index_page: false
