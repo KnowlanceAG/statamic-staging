@@ -675,57 +675,71 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
                           color: 'rgba(68,68,68,var(--tw-text-opacity))'
                           hex: '#000'
-                    text: "Mustervorlage für Hausarbeit\_schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
+                    text: "Mustervorlage für Hausarbeit\_schreiben\_lassen\_– Wie funktioniert die Kooperation mit einem Ghostwriter?"
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/anfrage.png
+                      - seiten/arbeiten/anfrage.png
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Kostenlose Anfrage
                       Senden Sie uns einfach & schnell über unser Bestellformular eine kostenlose Anfrage. Von unserer Schreibagentur erhalten Sie innerhalb weniger Stunden ein **unverbindliches Leistungsangebot und eine individuelle Beratung**. Wir beginnen sofort nach Ihrer Zusage und einer Anzahlung.
-                    ausrichtung: bild-text
+                    vertical_alignment-text: self-center
+                    reverse-columns: bild-text
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/termineplanen.png
+                      - seiten/arbeiten/termineplanen.png
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Projektmanager & Teillieferungen
                       Für Sie werden einzelne Teillieferungen bzw. Termine geplant. Diese Teillieferungen dienen dazu, Sie über den **aktuellen Stand der Arbeit** zu informieren und Ihre Feedbacks kostenlos umzusetzen. Je nach Komplexität des Themas werden mehrere Fachautoren für die Arbeit eingesetzt.
-                    ausrichtung: text-bild
+                    vertical_alignment-text: self-center
+                    reverse-columns: text-bild
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
-                    ausrichtung: bild-text
+                      - seiten/arbeiten/lieferung-der-mustervorlage.png
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Abschlusslieferung & Qualitätsgarantie
                       Sie erhalten die fertige Mustervorlage zu Ihrer Hausarbeit zum vereinbarten Termin. Vorab wird diese von einem **unabhängigen Lektor aus Ihrem Fachbereich korrektur gelesen**. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Unser bewährtes 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Darüber hinaus wird Ihre Hausarbeit mit der Plagiatserkennungssoftware **Turnitin** auf Plagiate geprüft.
+                    vertical_alignment-text: self-center
+                    reverse-columns: bild-text
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
-                    ausrichtung: text-bild
+                      - seiten/arbeiten/feedbackumsetzen.png
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Kostenlose Änderungswünsche
                       Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Falls Sie hierzu Änderungswünsche haben, setzen wir diese selbstverständlich **kostenfrei** um.
+                    vertical_alignment-text: self-center
+                    reverse-columns: text-bild
               -
                 type: paragraph
                 content:
@@ -1864,7 +1878,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646317077
+updated_at: 1646820956
 template: default
 use_meta_keywords: false
 no_index_page: false
