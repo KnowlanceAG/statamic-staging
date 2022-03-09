@@ -22,13 +22,13 @@ teaser:
               hex: '#ff6606'
         text: 'Facharbeit schreiben lassen'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
         marks:
-          -
-            type: bold
           -
             type: textAlign
             attrs:
@@ -42,8 +42,6 @@ teaser:
       -
         type: text
         marks:
-          -
-            type: bold
           -
             type: textAlign
             attrs:
@@ -82,7 +80,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: '15'
   -
     type: set
     attrs:
@@ -2640,7 +2638,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646828673
+updated_at: 1646828934
 template: default
 use_meta_keywords: false
 no_index_page: false
