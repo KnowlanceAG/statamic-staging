@@ -1320,7 +1320,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -1330,58 +1330,89 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
                           color: 'rgba(68,68,68,var(--tw-text-opacity))'
                           hex: '#000'
-                    text: "Mustervorlage für Facharbeit\_schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
+                    text: "Mustervorlage für Facharbeit\_schreiben\_lassen\_– Wie funktioniert die Kooperation mit einem Ghostwriter?"
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/anfrage.png
+                      - seiten/arbeiten/anfrage.png
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Kostenlose Anfrage
                       Senden Sie uns eine kostenlose Anfrage. Wir melden uns innerhalb kürzester Zeit mit einem unverbindlichen Angbeot zurück. Der Auftrag startet, nach dem Sie und Angebot angenommen haben. Je nach Komplexität des Themas, werden mehrere **Teillieferungen** geplant.
-                    ausrichtung: bild-text
+                    vertical_alignment-text: self-center
+                    reverse-columns: bild-text
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
                       - logo-startseite/icon-anonymitat.png
-                    text: |+
+                    vertical_alignment-img: self-center
+                    text: |-
                       ### Persönlicher Projektmanager
                       Während der Erstellung Ihrer Mustervorlage durch einen erfahrenen Ghostwriter läuft die **gesamte Kommunikation anonym** in schriftlicher oder telefonischer Form ab. Da der Datenschutz für unsere Agentur besonders wichtig ist, wird Ihre Anonymität strengstens geschützt und nach Auftragsabschluss und der Übermittlung der wissenschaftlichen Ergebnisse gelöscht.
-
-                    ausrichtung: text-bild
+                    vertical_alignment-text: self-center
+                    reverse-columns: text-bild
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
-                    ausrichtung: bild-text
+                      - seiten/arbeiten/feedbackumsetzen.png
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Kostenlose Änderungen 
                       Ihre Arbeit wird nach der Fertigstellung von einem unabhängigen Autor **lektoriert** und **korrigiert**. Abschließend wird eine **Plagiatskontrolle** durchgeführt, um die Arbeit plagiatfrei zu halten. Nach dem Plagiatstest erhalten Sie eine Quellenauswertung zu Ihrem Text, die genau zeigt, ob alle Textteile zitiert worden sind.
+                    vertical_alignment-text: self-center
+                    reverse-columns: bild-text
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
                       - logo-startseite/icon-skills-ghostwriter-1641576328.png
-                    ausrichtung: text-bild
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Kompetente & erfahrene Ghostwriter
                       Alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen hervorragende **fachliche Kompetenzen** und **methodische Erfahrung** im Hinblick auf wissenschaftliches Arbeiten und Auftragsschreiben nach Kundenvorgaben vor.
+                    vertical_alignment-text: self-center
+                    reverse-columns: text-bild
               -
                 type: set
                 attrs:
@@ -2575,7 +2606,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646400634
+updated_at: 1646823190
 template: default
 use_meta_keywords: false
 no_index_page: false
