@@ -671,51 +671,82 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/anfrage.png
+                      - seiten/arbeiten/anfrage.png
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Kostenlose Anfrage
                       Sei erhalten ein kostenloses Angebot zu Ihren Anforderungen nach einer unverbindlichen Anfrage. Die Anfrage können Sie über ein Bestellformular stellen. Ihr Ghostwriter beginnt nach Ihrer Bestätigung mit der Texterstellung. 
 
                       Während der [Zusammenarbeit mit Ihrem Ghostwriter](/so-funktioniert-es) stellen unsere Projektmanager Ihre **Anonymität als Auftraggeber** und gleichzeitig auch die Anonymität des Autors sicher. 
-                    ausrichtung: bild-text
+                    vertical_alignment-text: self-center
+                    reverse-columns: bild-text
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/termineplanen.png
+                      - seiten/arbeiten/termineplanen.png
+                    vertical_alignment-img: self-center
                     text: |
                       ### Projektmanager & Teillieferungen
                       Zu jedem Problemfeld werden einzelne Teillieferungen bzw. Termine vereinbart.  Diese Teillieferungen dienen dazu, Sie über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. 
 
                       So können für den Zeitraum der Auftragsausführung geltende Anforderungen bezüglich der Masterarbeit genannt werden. In dieser Revisionszeit werden je nach Komplexität und Umfang Ihres Themas bzw. Ihrer Aufgabenstellung auch **mehrere ausgebildete Fachautoren für die Arbeit eingesetzt**.
-                    ausrichtung: text-bild
+                    vertical_alignment-text: self-center
+                    reverse-columns: text-bild
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
-                    ausrichtung: bild-text
+                      - seiten/arbeiten/feedbackumsetzen.png
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Abschlusslieferung & Qualitätsgarantie
                       Nach der Erstellung der Mustervorlage zu Ihrer Masterarbeit, wird die Arbeit von einem unabhängigen [Lektor](/lektorat) aus Ihrem Fachbereich korrektur gelesen. Hier werden Verbesserungen an Inhalt und Formulierungen vorgenommen. Anschließend wird Ihr Text **auf Plagiate geprüft** , um mögliche Risiken auszuschließen. **Diese Teilleistungen sind im Preis inklusive**. 
+                    vertical_alignment-text: self-center
+                    reverse-columns: bild-text
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
-                    ausrichtung: text-bild
-                    text: |+
+                      - seiten/arbeiten/lieferung-der-mustervorlage.png
+                    vertical_alignment-img: self-center
+                    text: |
                       ### Kostenlose Änderungswünsche
                       Sie erhalten mit der Endlieferung eine hochqualitative und von [Experten](/experten) auf Qualität geprüfte Muster-Masterarbeit als PDF Datei. Falls Sie hierzu Feedbacks haben, setzen wir diese selbstverständlich kostenfrei um.
-
+                    vertical_alignment-text: self-center
+                    reverse-columns: text-bild
               -
                 type: paragraph
                 content:
@@ -2129,7 +2160,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646402618
+updated_at: 1646821616
 template: default
 use_meta_keywords: false
 no_index_page: false
