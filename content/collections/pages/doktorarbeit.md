@@ -1236,7 +1236,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -1246,91 +1246,154 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: "Mustervorlage für Doktorarbeit\_schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
+                    text: "Mustervorlage für Doktorarbeit\_schreiben\_lassen\_– Wie funktioniert die Kooperation mit einem Ghostwriter?"
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/anfrage.png
+                      - seiten/arbeiten/anfrage.png
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Kostenlose unverbindliche Anfrage
                       Senden Sie uns eine kostenlose Anfrage. Mit Ihren Daten gehen wir selbstverstöndlich verantwortungsvoll um. Und selbst, wenn Sie nicht anonym bei uns anfragen, werden **Ihre Daten diskret behandelt und nicht an Dritte weitergegeben**.
 
                       Nach Ihrer Anfrage erfolgt eine **Zusammenfassung aller relevanten Daten des Projektes** mit Ihnen zusammen. In der Planungsphase treffen wir anschließend eine Vorauswahl passender Autoren bzw. Ghostwriter und Lektoren für die anschließende Zweitkorrektur. 
-                    ausrichtung: bild-text
+                    vertical_alignment-text: self-center
+                    reverse-columns: bild-text
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
+                      - seiten/arbeiten/lieferung-der-mustervorlage.png
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Individuelles Angebot
                       Auf Basis Ihrer Anfrage erstellen wir Ihnen ein **konkretes Leistungsangebot ohne versteckte Kosten**. Der Aufwand und demzufolge die Preise für Aufträge zur Texterstellung sind unterschiedlich. Denn je nach Aufgabenstellung, Fachrichtung, Umfang (Seitenanzahl), Zeitangabe, Qualitätslevel und Komplexität des Themas werden unterschiedliche Preise festgelegt. 
+                    vertical_alignment-text: self-center
+                    reverse-columns: text-bild
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
                       - seiten/ghostwriter-gesucht/ghostwriter-Datenbanken-1.png
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Erfahrenes Expertenteam
                       Für Ihr Projekt werden ausschließlich hervorragend qualifizierte Autoren aus Ihrem eigenen Fachbereich ausgewählt. So können wir die benötigte Zeit für die Einarbeitung minimieren und Ihnen eine bestmögliche Betreuung bieten.
-                    ausrichtung: bild-text
+                    vertical_alignment-text: self-center
+                    reverse-columns: bild-text
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
+                      - seiten/arbeiten/feedbackumsetzen.png
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Doktorarbeit schreiben lassen
                       Während der Anfertigung Ihrer Mustervorlage durch einen **professionellen Ghostwriter** läuft die gesamte Kommunikation anonym in schriftlicher oder telefonischer Form ab. Selbstverständlich können Sie auch andere Kommunikationskanäle nutzen. Ihr individueller Betreuer übernimmt für Sie die gesamte Kommunikation mit Ihrem Ghostwriter.
-                    ausrichtung: text-bild
+                    vertical_alignment-text: self-center
+                    reverse-columns: text-bild
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
-                      - seiten/arbeiten/hausarbeit/termineplanen.png
+                      - seiten/arbeiten/termineplanen.png
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Regelmäßige Teillieferungen
                       Sie erhalten einen individuellen Projektbetreuer, der Ihnen kontinuierlich zur Seite steht. Weiterhin erhalten Sie regelmäßig Teillieferungen, um auch **stetig Einblick in die aktuellen Schreibarbeiten** zu erhalten. So können Sie auch inhaltlich Einfluss nehmen und haben die Sicherheit, ein **qualitativ hochwertiges Werk** zu erhalten.
-                    ausrichtung: bild-text
+                    vertical_alignment-text: self-center
+                    reverse-columns: bild-text
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
                       - seiten/arbeiten/bachelorarbeit-schreiben.jpg
-                    ausrichtung: text-bild
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Qualitativer Feinschliff & Vier-Augen-Prinzip
                       Nachdem die Schreibphase mit allen Teillieferungen abgeschlossen ist, erfolgt der Feinschliff. Ihr Feedback wird dabei **von Ihrem Ghostwriter in kostenlosen Korrekturschleifen eingearbeitet**. Es erfolgt zudem eine Plagiatsprüfung der Mustervorlage, welche Sie für Ihre Doktorarbeit schreiben lassen. Gefolgt wird diese von einem zweiten **Lektorat im Vier-Augen-Prinzip**.
+                    vertical_alignment-text: self-center
+                    reverse-columns: text-bild
               -
                 type: set
                 attrs:
                   values:
-                    type: bild_und_text
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
                     bild:
                       - seiten/arbeiten/fertigearbeit.png
-                    ausrichtung: bild-text
+                    vertical_alignment-img: self-center
                     text: |-
                       ### Finale Lieferung der Mustervorlage
                       Mit der finalen Lieferung erhalten Sie Ihre individuelle Mustervorlage für Ihre Dissertation. Da der Datenschutz für unsere Agentur besonders wichtig ist, werden auch **alle Daten vom Auftraggeber bzw. Kunden im Anschluss an den Auftrag gelöscht**. Sie erhalten somit ein hochqualitatives wissenschaftliches Ergebnis bei voller Diskretion.
+                    vertical_alignment-text: self-center
+                    reverse-columns: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
               -
                 type: set
                 attrs:
@@ -2603,7 +2666,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646402568
+updated_at: 1646824799
 template: default
 use_meta_keywords: false
 no_index_page: false
