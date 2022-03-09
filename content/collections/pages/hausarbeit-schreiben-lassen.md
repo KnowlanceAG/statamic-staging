@@ -657,12 +657,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
                 type: heading
                 attrs:
                   level: 3
@@ -705,6 +699,12 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
                     type: img-text-ce
                     bild:
                       - seiten/arbeiten/termineplanen.png
@@ -718,6 +718,12 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
                     type: img-text-ce
                     bild:
                       - seiten/arbeiten/lieferung-der-mustervorlage.png
@@ -727,6 +733,12 @@ replicator:
                       Sie erhalten die fertige Mustervorlage zu Ihrer Hausarbeit zum vereinbarten Termin. Vorab wird diese von einem **unabhängigen Lektor aus Ihrem Fachbereich korrektur gelesen**. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Unser bewährtes 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Darüber hinaus wird Ihre Hausarbeit mit der Plagiatserkennungssoftware **Turnitin** auf Plagiate geprüft.
                     vertical_alignment-text: self-center
                     reverse-columns: bild-text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '1'
               -
                 type: set
                 attrs:
@@ -1878,7 +1890,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646820956
+updated_at: 1646821381
 template: default
 use_meta_keywords: false
 no_index_page: false
