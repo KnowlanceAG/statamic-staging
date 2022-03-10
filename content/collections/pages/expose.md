@@ -20,7 +20,7 @@ teaser:
             attrs:
               color: '#ff6602'
               hex: '#000'
-        text: 'Mustervorlage für Exposé schreiben lassen'
+        text: 'Exposé schreiben lassen'
   -
     type: paragraph
     content:
@@ -33,7 +33,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Hilfe vom akademischen Ghostwriter bei Ihrem Exposé – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate'
+        text: 'Mustervorlage für Ihre Exposé von akademischen Ghostwritern'
   -
     type: set
     attrs:
@@ -79,7 +79,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646932146
+updated_at: 1646932199
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
