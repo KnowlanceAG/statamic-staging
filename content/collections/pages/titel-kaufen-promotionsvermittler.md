@@ -53,7 +53,9 @@ teaser:
               hex: '#ff6606'
         text: 'Titelkauf & Promotionsvermittler'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -69,36 +71,41 @@ teaser:
             attrs:
               color: 'rgb(0, 0, 0)'
               hex: '#000'
-        text: 'Vermeiden Sie das Risiko dubioser Alternativen zur regulären Promotion'
-      -
-        type: hard_break
-        marks:
+        text: 'Vermeiden Sie das Risiko dubioser Alternativen zur regulären Promotion mit unserer seriösen Promotionsberatung.'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '10'
+  -
+    type: set
+    attrs:
+      values:
+        type: teaser_icon_columns
+        columns:
           -
-            type: bold
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
-            type: textAlign
-            attrs:
-              align: center
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
-            type: textColor
-            attrs:
-              color: 'rgb(0, 0, 0)'
-              hex: '#000'
-      -
-        type: text
-        marks:
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
-            attrs:
-              color: 'rgb(0, 0, 0)'
-              hex: '#000'
-        text: 'mit unserer seriösen Promotionsberatung.'
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '15'
   -
     type: set
     attrs:
@@ -462,8 +469,8 @@ replicator:
 page_title: 'Titel kaufen & Promotionsvermittler: "Alternativen" zur Promotion?'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1624971479
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1646934773
 meta_title: 'Titel kaufen & Promotionsvermittler: "Alternativen" zur Promotion?'
 meta_description: 'Kann man Titel kaufen? Sind sogenannte Promotionsvermittler legal? Welche Möglichkeiten gibt es sonst? Was steckt hinter diesen "Alternativen" zur Promotion? Sie bekommen alle wichtigen Informationen über diese Themenfelder bei GWriters.de!'
 use_meta_keywords: false
@@ -477,4 +484,5 @@ twitter_card_type_page: summary
 og_title: 'Titel kaufen & Promotionsvermittler: "Alternativen" zur Promotion?'
 og_description: 'Kann man Titel kaufen? Sind sogenannte Promotionsvermittler legal? Was steckt hinter diesen "Alternativen" zur Promotion? Alle wichtigen Informationen bei GWriters.de!'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
