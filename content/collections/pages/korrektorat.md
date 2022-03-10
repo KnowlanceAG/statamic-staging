@@ -1,5 +1,6 @@
 ---
 id: e36a16aa-f4fc-4352-8466-36266c196de4
+blueprint: pages
 title: Korrektorat
 teaser:
   -
@@ -21,7 +22,9 @@ teaser:
               hex: '#ff6606'
         text: Korrektorat
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -32,7 +35,41 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: "Erfahrene akademische Experten\_korrigieren\_Ihre wissenschaftliche Arbeit – schnell, diskret und mehrfach geprüft auf Qualität."
+        text: "Erfahrene akademische Experten überprüfen &\_korrigieren\_Ihre wissenschaftliche Arbeit nach wissenschaftlichen Standards"
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '10'
+  -
+    type: set
+    attrs:
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+          -
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
+          -
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '15'
   -
     type: set
     attrs:
@@ -849,8 +886,8 @@ replicator:
     enabled: true
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623343819
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1646934800
 template: with-side-bar
 meta_title: 'Korrektorat von GWriters - Professionell, diskret und akademisch'
 meta_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden & Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'
@@ -866,4 +903,5 @@ page_title: 'Korrektorat von GWriters - Professionell, diskret und akademisch'
 og_title: 'Korrektorat von GWriters - Professionell, diskret und akademisch'
 og_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden & Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
