@@ -53,7 +53,9 @@ teaser:
               hex: '#ff6606'
         text: 'Doctor of Business Administration'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -69,36 +71,41 @@ teaser:
             attrs:
               color: 'rgb(68, 68, 68)'
               hex: '#000'
-        text: 'Lassen Sie sich jetzt durch unsere seriöse Promotionsberatung'
-      -
-        type: hard_break
-        marks:
+        text: 'Lassen Sie sich jetzt durch unsere seriöse Promotionsberatung bei Ihrem nächsten Karriereschritt zum DBA unterstützen!'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '10'
+  -
+    type: set
+    attrs:
+      values:
+        type: teaser_icon_columns
+        columns:
           -
-            type: bold
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
-            type: textAlign
-            attrs:
-              align: center
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
-            type: textColor
-            attrs:
-              color: 'rgb(68, 68, 68)'
-              hex: '#000'
-      -
-        type: text
-        marks:
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
-            attrs:
-              color: 'rgb(68, 68, 68)'
-              hex: '#000'
-        text: 'bei Ihrem nächsten Karriereschritt zum DBA unterstützen!'
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '15'
   -
     type: set
     attrs:
@@ -569,7 +576,7 @@ page_title: 'Promotionsberatung zum berufsbegleitenden DBA • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634033172
+updated_at: 1646934780
 meta_title: 'Promotionsberatung zum berufsbegleitenden DBA • GWriters'
 meta_description: 'Bei GWriters.de erhalten Sie eine seriöse Promotionsberatung für Ihren berufsbegleitenden DBA - Profitieren Sie jetzt von unserem Expertenwissen!'
 use_meta_keywords: false
@@ -583,4 +590,5 @@ twitter_card_type_page: summary
 og_title: 'Promotionsberatung zum berufsbegleitenden DBA • GWriters'
 og_description: 'Bei GWriters.de erhalten Sie eine seriöse Promotionsberatung für Ihren berufsbegleitenden DBA - Profitieren Sie jetzt von unserem Expertenwissen!'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
