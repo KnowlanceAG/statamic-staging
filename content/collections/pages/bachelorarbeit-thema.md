@@ -1,5 +1,6 @@
 ---
 id: c7bc4fcc-032f-46aa-bab7-2a78b0e21aaf
+blueprint: pages
 title: 'Bachelorarbeit-Thema BWL: 75 Vorschläge'
 teaser:
   -
@@ -33,6 +34,40 @@ teaser:
             attrs:
               align: center
         text: 'Unsere akademischen Ghostwriter unterstützen Sie mit 75 Themenvorschlägen aus 6 BWL Foschungsgebieten, persönlichen Coachings oder unserem professionellen Ghostwriting-Service bei Ihrer Bachelorarbeit!'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '10'
+  -
+    type: set
+    attrs:
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+          -
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
+          -
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '15'
   -
     type: set
     attrs:
@@ -3703,8 +3738,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623334051
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1646934768
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -3720,4 +3755,5 @@ meta_description: 'Sie haben noch keine Idee für Ihr Bachleorarbeit-Thema im Fa
 og_title: '75 Kostenlose Themenvorschläge für Ihre Bachelorarbeit von GWriters'
 og_description: 'Sie haben noch keine Idee für Ihr Bachleorarbeit-Thema im Fachbereich BWL? Wir haben für Sie die aktuellen und wissenschaftlichen BWL-Themen ausgesucht!'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
