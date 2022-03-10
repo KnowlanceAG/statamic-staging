@@ -68,7 +68,7 @@ teaser:
             headline: 'Teillieferungen & kostenlose Änderung'
             tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
-            icon: logo-startseite/icon-schnelle-lieferung.svg
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle & pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
           -
@@ -2638,7 +2638,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646918819
+updated_at: 1646929861
 template: default
 use_meta_keywords: false
 no_index_page: false
