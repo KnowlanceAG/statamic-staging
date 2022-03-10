@@ -1,5 +1,6 @@
 ---
 id: 13d63c7c-a4ae-4e9f-bc8d-2ae445c8c6db
+blueprint: pages
 title: 'Den geeigneten Doktorvater finden – Berufsbegleitende Promotion'
 teaser:
   -
@@ -52,7 +53,9 @@ teaser:
               hex: '#ff6606'
         text: 'Berufsbegleitende Promotion'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -68,36 +71,41 @@ teaser:
             attrs:
               color: 'rgb(0, 0, 0)'
               hex: '#000'
-        text: 'Gerne unterstützen wir Sie bei der Suche nach einem Doktorvater im Rahmen'
-      -
-        type: hard_break
-        marks:
+        text: 'Gerne unterstützen wir Sie bei der Suche nach einem Doktorvater im Rahmen unserer professionellen & seriösen Promotionsberatung.'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '10'
+  -
+    type: set
+    attrs:
+      values:
+        type: teaser_icon_columns
+        columns:
           -
-            type: bold
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
-            type: textAlign
-            attrs:
-              align: center
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
-            type: textColor
-            attrs:
-              color: 'rgb(0, 0, 0)'
-              hex: '#000'
-      -
-        type: text
-        marks:
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
-            attrs:
-              color: 'rgb(0, 0, 0)'
-              hex: '#000'
-        text: 'unserer professionellen & seriösen Promotionsberatung.'
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '15'
   -
     type: set
     attrs:
@@ -852,8 +860,8 @@ replicator:
 page_title: 'Externe Promotion: den geeigneten Doktorvater finden • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623341822
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1646934775
 meta_title: 'Externe Promotion: den geeigneten Doktorvater finden • GWriters'
 meta_description: 'Wir erklären, wie Sie den geeigneten Doktorvater für Ihre externe, nebenberufliche Promotion finden. Profitieren Sie von der unserer Promotionsberatung!'
 use_meta_keywords: false
@@ -867,4 +875,5 @@ twitter_card_type_page: summary
 og_title: 'Externe Promotion: den geeigneten Doktorvater finden • GWriters'
 og_description: 'Wir erklären, wie Sie den geeigneten Doktorvater für Ihre externe, nebenberufliche Promotion finden. Profitieren Sie von der unserer Promotionsberatung!'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
