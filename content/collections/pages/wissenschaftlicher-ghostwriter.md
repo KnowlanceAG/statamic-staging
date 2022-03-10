@@ -1,5 +1,6 @@
 ---
 id: b8d96fdc-74ed-4bc4-9ac4-4c424bb8bb07
+blueprint: pages
 title: 'Wissenschaftlicher Ghostwriter'
 teaser:
   -
@@ -21,7 +22,9 @@ teaser:
               hex: '#ff6606'
         text: 'Wissenschaftlicher Ghostwriter'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -32,7 +35,41 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: "Bei uns finden Sie wissenschaftliche\_Ghostwriter & Experten – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate."
+        text: "Bei uns finden Sie wissenschaftliche\_Ghostwriter & Experten für Ihre wissenschaftliche Arbeit"
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '10'
+  -
+    type: set
+    attrs:
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+          -
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
+          -
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '15'
   -
     type: set
     attrs:
@@ -282,8 +319,8 @@ replicator:
     type: editor
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623343142
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1646934789
 page_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'
 template: with-side-bar
 meta_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'
@@ -299,4 +336,5 @@ twitter_card_type_page: summary
 og_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'
 og_description: 'Sie möchten eine Mustervorlage für Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen? Finden Sie hier Ihren Ghostwriter!'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
