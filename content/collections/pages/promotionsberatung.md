@@ -22,7 +22,9 @@ teaser:
               hex: '#ff6606'
         text: Promotionsberatung
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -34,6 +36,40 @@ teaser:
             attrs:
               align: center
         text: 'Bei uns erhalten Sie eine seriöse Promotionsberatung durch erfahrene akademische Experten!'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '10'
+  -
+    type: set
+    attrs:
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+          -
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
+          -
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '15'
   -
     type: set
     attrs:
@@ -594,7 +630,7 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1642002543
+updated_at: 1646934769
 meta_title: 'Unsere seriöse Promotionsberatung • GWriters'
 meta_description: 'Bei GWriters erhalten Sie eine seriöse Promotionsberatung von unseren erfahrenen akademischen Ghostwritern, Lektoren und Coaches. Auf Sie zugeschnitten!'
 use_meta_keywords: false
@@ -610,4 +646,5 @@ template: with-side-bar
 og_title: 'Unsere seriöse Promotionsberatung • GWriters'
 og_description: 'Bei GWriters erhalten Sie eine seriöse Promotionsberatung von unseren erfahrenen akademischen Ghostwritern, Lektoren und Coaches. Auf Sie zugeschnitten!'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
