@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Kodierparadigma Beispiel'
+  title: 'Kodierparadigma Beispiel'
 size: 22172
 last_modified: 1646921327
 width: 750
