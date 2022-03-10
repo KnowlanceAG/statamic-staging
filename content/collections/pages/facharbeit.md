@@ -65,7 +65,7 @@ teaser:
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR & garantieren Ihre Anonymität zu 100%.'
           -
             icon: logo-startseite/icon-teillieferung.svg
-            headline: 'Teillieferungen & kostenlose Änderung'
+            headline: 'Teillieferungen & kostenlose Änderungen'
             tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
             icon: logo-startseite/icon-schnelle-lieferung2.svg
@@ -2638,7 +2638,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646930426
+updated_at: 1646930794
 template: default
 use_meta_keywords: false
 no_index_page: false
