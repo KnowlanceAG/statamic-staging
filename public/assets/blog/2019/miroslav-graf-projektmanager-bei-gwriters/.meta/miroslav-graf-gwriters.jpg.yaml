@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'miroslav graf gwriters'
+  title: 'miroslav graf gwriters'
 size: 25613
 last_modified: 1646942067
 width: 750
