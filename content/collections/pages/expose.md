@@ -35,10 +35,6 @@ teaser:
               align: center
         text: 'Hilfe vom akademischen Ghostwriter bei Ihrem Exposé – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate'
   -
-    type: heading
-    attrs:
-      level: 2
-  -
     type: set
     attrs:
       values:
@@ -83,7 +79,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646932138
+updated_at: 1646932146
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
