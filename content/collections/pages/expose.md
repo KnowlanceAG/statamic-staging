@@ -1,5 +1,6 @@
 ---
 id: b42eb586-1305-4faf-8d59-79e53ff91373
+blueprint: pages
 title: Exposé
 teaser:
   -
@@ -34,6 +35,44 @@ teaser:
               align: center
         text: 'Hilfe vom akademischen Ghostwriter bei Ihrem Exposé – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate'
   -
+    type: heading
+    attrs:
+      level: 2
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '10'
+  -
+    type: set
+    attrs:
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+          -
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
+          -
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '15'
+  -
     type: set
     attrs:
       values:
@@ -43,8 +82,8 @@ teaser:
         button_link: /anfrage
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1624298552
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1646932138
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1561,4 +1600,5 @@ page_title: 'GWriters • Mustervorlage für Exposé schreiben lassen'
 og_title: 'GWriters • Mustervorlage für Exposé schreiben lassen'
 og_description: 'Mustervorlage für Exposé schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
