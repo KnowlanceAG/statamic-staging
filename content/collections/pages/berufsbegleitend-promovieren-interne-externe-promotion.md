@@ -1,5 +1,6 @@
 ---
 id: dfa1e910-c627-45d2-a7b5-1be64f5ce1ff
+blueprint: pages
 title: 'Berufsbegleitende Promotion im Überblick: interne versus externe Promotion'
 teaser:
   -
@@ -46,7 +47,9 @@ teaser:
               hex: '#ff6606'
         text: 'interne versus externe Promotion'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -62,36 +65,41 @@ teaser:
             attrs:
               color: 'rgb(0, 0, 0)'
               hex: '#000'
-        text: 'Sie benötigen für Ihre berufsbegleitende Promotion eine Promotionsberatung?'
-      -
-        type: hard_break
-        marks:
+        text: 'Sie benötigen für Ihre berufsbegleitende Promotion eine Promotionsberatung? Wir beraten Sie gerne!'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '10'
+  -
+    type: set
+    attrs:
+      values:
+        type: teaser_icon_columns
+        columns:
           -
-            type: bold
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
-            type: textAlign
-            attrs:
-              align: center
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
-            type: textColor
-            attrs:
-              color: 'rgb(0, 0, 0)'
-              hex: '#000'
-      -
-        type: text
-        marks:
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
-            attrs:
-              color: 'rgb(0, 0, 0)'
-              hex: '#000'
-        text: 'Wir beraten Sie gerne!'
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '15'
   -
     type: set
     attrs:
@@ -1123,8 +1131,8 @@ replicator:
 page_title: 'Berufsbegleitende Promotion im Überblick • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623341687
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1646934771
 meta_title: 'Berufsbegleitende Promotion im Überblick • GWriters'
 meta_description: 'Finden Sie bei uns alle Informationen über die berufsbegleitende Promotion - Alle Vor- und Nachteile von internen und externen Promotionsprogrammen!'
 use_meta_keywords: false
@@ -1138,4 +1146,5 @@ twitter_card_type_page: summary
 og_title: 'Berufsbegleitende Promotion im Überblick • GWriters'
 og_description: 'Finden Sie bei uns alle Informationen über die berufsbegleitende Promotion - Alle Vor- und Nachteile von internen und externen Promotionsprogrammen!'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
