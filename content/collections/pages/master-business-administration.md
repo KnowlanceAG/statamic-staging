@@ -24,7 +24,9 @@ teaser:
               hex: '#ff6606'
         text: 'Berufsbegleitender Master of Business Administration (MBA)'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -40,36 +42,41 @@ teaser:
             attrs:
               color: 'rgb(68, 68, 68)'
               hex: '#000'
-        text: 'Unsere Promotionsberatung beschränkt sich nicht auf Promotionsstudiengänge –'
-      -
-        type: hard_break
-        marks:
+        text: 'Unsere Promotionsberatung beschränkt sich nicht auf Promotionsstudiengänge – gerne beraten und unterstützen wir Sie auch bei Ihrem Master of Business Administration!'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '10'
+  -
+    type: set
+    attrs:
+      values:
+        type: teaser_icon_columns
+        columns:
           -
-            type: bold
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
-            type: textAlign
-            attrs:
-              align: center
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
-            type: textColor
-            attrs:
-              color: 'rgb(68, 68, 68)'
-              hex: '#000'
-      -
-        type: text
-        marks:
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
-            type: bold
-          -
-            type: textAlign
-            attrs:
-              align: center
-          -
-            type: textColor
-            attrs:
-              color: 'rgb(68, 68, 68)'
-              hex: '#000'
-        text: 'gerne beraten und unterstützen wir Sie auch bei Ihrem Master of Business Administration!'
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '15'
   -
     type: set
     attrs:
@@ -657,7 +664,7 @@ page_title: 'Berufsbegleitender Master of Business Administration • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634033151
+updated_at: 1646934781
 meta_title: 'Berufsbegleitender Master of Business Administration • GWriters'
 meta_description: 'Finden Sie hier alle Informationen über das berufsbegleitende Studium zum MBA und finden Sie akademische Ghostwriter, Coaches und mehr bei GWriters.de!'
 use_meta_keywords: false
@@ -671,4 +678,5 @@ twitter_card_type_page: summary
 og_title: 'Berufsbegleitender Master of Business Administration • GWriters'
 og_description: 'Finden Sie hier alle Informationen über das berufsbegleitende Studium zum MBA und finden Sie akademische Ghostwriter, Coaches und mehr bei GWriters.de!'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
