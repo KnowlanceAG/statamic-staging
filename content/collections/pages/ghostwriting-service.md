@@ -1,5 +1,6 @@
 ---
 id: 8983d983-09c2-443b-8b95-03d65bf3c73a
+blueprint: pages
 title: 'Ghostwriting Service'
 teaser:
   -
@@ -21,7 +22,9 @@ teaser:
               hex: '#ff6606'
         text: 'Ghostwriting Service'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
@@ -32,7 +35,41 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Bei uns finden Sie akademische Ghostwriter & Experten und Informationen zu Ghostwriting Services.'
+        text: 'Bei uns finden Sie akademische Ghostwriter & Experten und Informationen zu Ghostwriting Services'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '10'
+  -
+    type: set
+    attrs:
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+          -
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
+          -
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '15'
   -
     type: set
     attrs:
@@ -294,8 +331,8 @@ replicator:
     type: editor
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1624309033
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1646934786
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -311,4 +348,5 @@ meta_description: 'Sie möchten eine Mustervorlage für Ihre Bachelorarbeit oder
 og_title: 'Seriöser und diskreter Ghostwriting Service • GWriters'
 og_description: 'Sie möchten eine Mustervorlage für Ihre Bachelorarbeit oder Masterarbeit schreiben lassen? Wir bieten Sicherheit, Qualität und Diskretion.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
