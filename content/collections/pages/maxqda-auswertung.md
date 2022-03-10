@@ -38,6 +38,40 @@ teaser:
     type: set
     attrs:
       values:
+        type: spacer
+        padding-y: '10'
+  -
+    type: set
+    attrs:
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz & 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR & garantieren Ihre Anonymität zu 100%.'
+          -
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen & kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+          -
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle & pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
+          -
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '15'
+  -
+    type: set
+    attrs:
+      values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
@@ -1282,7 +1316,7 @@ replicator:
     border: false
 parent: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1638883826
+updated_at: 1646931446
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -1298,4 +1332,5 @@ page_title: 'GWriters • Die perfekte MAXQDA Auswertung für Ihre Abschlussarbe
 og_title: 'GWriters • Die perfekte MAXQDA Auswertung für Ihre Abschlussarbeit'
 og_description: 'MAXQDA Auswertung von akademischen Ghostwritern. Die besten Experten finden & alles zur Auswertung mit MAXQDA: Leistungen, Kosten, Preise & Ablauf.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
