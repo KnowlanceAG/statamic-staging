@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'akademischer Fahrplan'
+  title: 'akademischer Fahrplan'
 size: 75684
 last_modified: 1646938551
 width: 613
