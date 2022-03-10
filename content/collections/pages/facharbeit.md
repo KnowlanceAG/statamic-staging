@@ -72,7 +72,7 @@ teaser:
             headline: 'Schnelle & pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
           -
-            icon: icon-akademische-qualitaet2.svg
+            icon: logo-startseite/icon-akademische-qualitaet3.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
@@ -2638,7 +2638,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646929940
+updated_at: 1646930257
 template: default
 use_meta_keywords: false
 no_index_page: false
