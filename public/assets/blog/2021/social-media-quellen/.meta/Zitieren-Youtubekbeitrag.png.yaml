@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Youtube als Quelle zitieren'
+  title: 'Youtube als Quelle zitieren'
+  caption: 'Youtube als Quelle zitieren'
 size: 67798
 last_modified: 1646990056
 width: 601
