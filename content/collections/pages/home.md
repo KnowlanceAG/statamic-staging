@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1643743203
+updated_at: 1647279404
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -381,6 +381,103 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
+        columns_per_row: '3'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - logo-startseite/bachelorarbeit-schreiben-lassen.svg
+                    link: 'entry::68b88fd1-ec03-4ea8-9292-431555e47744'
+                    img-alignment: justify-center
+                    has_border: false
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Bachelorarbeit
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - logo-startseite/masterarbeit-schreiben-lassen.svg
+                    link: 'entry::52f5092f-800b-4742-8636-a840b9ab1ddb'
+                    img-alignment: justify-center
+                    has_border: false
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Masterarbeit
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bilder
+                    assets:
+                      - logo-startseite/doktorarbeit-schreiben-lassen.svg
+                    link: 'entry::0481728e-d2e2-4b99-9a9e-8e5bca901d14'
+                    img-alignment: justify-center
+                    has_border: false
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/doktorarbeit
+                          target: null
+                          rel: null
+                    text: Doktorarbeit
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
         columns_per_row: 1
         single-col: false
         grid:
@@ -457,229 +554,6 @@ replicator:
     bg-image-fixed: false
     type: add_section
     enabled: true
-    border: false
-  -
-    columns-replicator:
-      -
-        columns_per_row: '4'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Bachelorarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/essay
-                          target: null
-                          rel: null
-                    text: Essay
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Hausarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/praesentationen
-                          target: null
-                          rel: null
-                    text: Präsentationen
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/diplomarbeit
-                          target: null
-                          rel: null
-                    text: Diplomarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/examensarbeit
-                          target: null
-                          rel: null
-                    text: Examensarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/lernskript
-                          target: null
-                          rel: null
-                    text: Lernskript
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/seminararbeit-schreiben-lassen-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Seminararbeit
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/doktorarbeit
-                          target: null
-                          rel: null
-                    text: Doktorarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /expose
-                          target: null
-                          rel: null
-                    text: Exposé
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/magisterarbeit
-                          target: null
-                          rel: null
-                    text: Magisterarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/statistische-analysen
-                          target: null
-                          rel: null
-                    text: 'Statistische Analysen'
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/ebook
-                          target: null
-                          rel: null
-                    text: eBook
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/facharbeit
-                          target: null
-                          rel: null
-                    text: Facharbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Masterarbeit
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    type: add_section
-    enabled: false
     border: false
   -
     columns-replicator:
@@ -968,4 +842,5 @@ teaser_bg_xs: seiten/home/gwrites-headervisual-mobile.jpg
 og_title: 'GWriters • Akademische Ghostwriter Agentur'
 og_description: 'Als seriöse Ghostwriter Agentur steht Ihnen GWriters als professioneller Partner bei Ihrer wissenschaftlichen Arbeit zur Seite. Unsere akademischen Ghostwriter unterstützen Sie zuverlässig & diskret!'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
