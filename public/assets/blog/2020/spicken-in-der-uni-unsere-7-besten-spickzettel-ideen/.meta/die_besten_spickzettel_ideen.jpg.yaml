@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Die Besten Spickzettel Ideen'
+  title: 'Die Besten Spickzettel Ideen'
+  caption: 'Unsere besten Tipps für das Spicken in der Uni'
 size: 19143
 last_modified: 1647283006
 width: 750
