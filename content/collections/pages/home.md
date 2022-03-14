@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1647279404
+updated_at: 1647279637
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -382,68 +382,8 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '3'
-        single-col: false
+        single-col: true
         grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - logo-startseite/bachelorarbeit-schreiben-lassen.svg
-                    link: 'entry::68b88fd1-ec03-4ea8-9292-431555e47744'
-                    img-alignment: justify-center
-                    has_border: false
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Bachelorarbeit
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - logo-startseite/masterarbeit-schreiben-lassen.svg
-                    link: 'entry::52f5092f-800b-4742-8636-a840b9ab1ddb'
-                    img-alignment: justify-center
-                    has_border: false
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Masterarbeit
-            show_as_card: false
           -
             bard:
               -
@@ -473,6 +413,12 @@ replicator:
                           target: null
                           rel: null
                     text: Doktorarbeit
+            show_as_card: false
+          -
+            bard: null
+            show_as_card: false
+          -
+            bard: null
             show_as_card: false
         type: row
         enabled: true
