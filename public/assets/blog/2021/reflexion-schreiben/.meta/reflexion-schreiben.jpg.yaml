@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Eine Reflexion schreiben'
+  title: 'Eine Reflexion schreiben'
 size: 23562
 last_modified: 1647283362
 width: 750
