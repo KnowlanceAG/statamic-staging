@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'akademische Ghostwriter'
+  title: 'akademische Ghostwriter'
 size: 23176
 last_modified: 1647280639
 width: 750
