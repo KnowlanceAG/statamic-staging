@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Plagscan Beispiel- Plagiatsvorwurf'
+  title: 'Plagscan Beispiel- Plagiatsvorwurf'
 size: 57251
 last_modified: 1647356820
 width: 750
