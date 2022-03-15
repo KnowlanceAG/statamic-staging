@@ -1,10 +1,9 @@
 ---
 id: 942c2c8b-0964-473f-bd8d-10426b828eb8
-published: false
 blueprint: pages
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1646899484
+updated_at: 1647354761
 replicator:
   -
     bard:
@@ -38,6 +37,58 @@ replicator:
         type: paragraph
     show_as_card: false
     type: editor
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '3'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/hausarbeit-schreiben-lassen.svg
+                    custom-svg-width: '65'
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/bachelorarbeit-schreiben-lassen.svg
+                    custom-svg-width: '65'
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/doktorarbeit-schreiben-lassen.svg
+                    custom-svg-width: '65'
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
     enabled: true
   -
     bard:
