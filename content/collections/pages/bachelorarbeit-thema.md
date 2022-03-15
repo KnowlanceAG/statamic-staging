@@ -3401,7 +3401,7 @@ replicator:
           values:
             type: bilder
             assets:
-              - seiten/bachelorarbeit-thema-bwl/2018-09-03-GW-85_Themen_fuer_BWL_Bachelorarbeiten-Wittkamp-TIPPS-fuer-die-Erstellung-der-Thesis-Grafik-NEU-1024x536.png
+              - seiten/bachelorarbeit-thema-bwl/themen-fur-bachelorarbeit-bwl.png
             img-alignment: justify-center
             has_border: false
       -
@@ -3738,8 +3738,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934768
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1647354083
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
