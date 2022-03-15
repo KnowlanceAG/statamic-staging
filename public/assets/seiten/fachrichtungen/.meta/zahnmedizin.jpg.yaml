@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: Zahnmedizin
+  caption: 'Zahnmedizin im Mittelalter'
 size: 27562
 last_modified: 1647355980
 width: 506
