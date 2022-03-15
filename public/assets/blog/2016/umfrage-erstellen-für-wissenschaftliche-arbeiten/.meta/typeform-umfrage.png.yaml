@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'typeform umfrage'
+  title: 'typeform umfrage'
 size: 48046
 last_modified: 1647358406
 width: 600
