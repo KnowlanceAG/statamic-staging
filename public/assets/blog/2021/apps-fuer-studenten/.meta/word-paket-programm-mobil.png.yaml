@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'wordoffice App- Apps für Studenten'
+  title: 'wordoffice App- Apps für Studenten'
+  caption: 'Word App'
 size: 65393
 last_modified: 1647361617
 width: 899
