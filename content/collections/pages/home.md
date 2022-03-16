@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1647444673
+updated_at: 1647444906
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -914,6 +914,22 @@ replicator:
                           target: null
                           rel: null
                     text: Zahnmedizin
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
             show_as_card: false
         type: row
         enabled: true
