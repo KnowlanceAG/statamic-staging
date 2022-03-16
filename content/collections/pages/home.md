@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1647444984
+updated_at: 1647445889
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -420,9 +420,9 @@ replicator:
                 attrs:
                   values:
                     type: custom-svg-width
-                    svg_file: logo-startseite/ghostwriter-jura.svg
+                    svg_file: logo-startseite/facharbeit-schreiben-lassen.svg
                     custom-svg-width: '65'
-                    link_field: 'entry::fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c'
+                    link_field: 'entry::2b55bfe7-06df-4e71-86da-152e256904ec'
               -
                 type: set
                 attrs:
@@ -441,13 +441,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/jura
-                          target: null
-                          rel: null
-                    text: Jura
+                    text: Facharbeit
               -
                 type: set
                 attrs:
@@ -459,9 +453,9 @@ replicator:
                 attrs:
                   values:
                     type: custom-svg-width
-                    svg_file: logo-startseite/ghostwriter-sozialwissenschaften.svg
+                    svg_file: logo-startseite/bachelorarbeit-schreiben-lassen.svg
                     custom-svg-width: '65'
-                    link_field: 'entry::6edcba2a-9fcc-4d8d-80ea-dbc325dc8332'
+                    link_field: 'entry::68b88fd1-ec03-4ea8-9292-431555e47744'
               -
                 type: set
                 attrs:
@@ -480,13 +474,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/sozialwissenschaften
-                          target: null
-                          rel: null
-                    text: Sozialwissenschaften
+                    text: Bachelorarbeit
             show_as_card: false
           -
             bard:
@@ -495,9 +483,9 @@ replicator:
                 attrs:
                   values:
                     type: custom-svg-width
-                    svg_file: logo-startseite/ghostwriter-jura.svg
+                    svg_file: logo-startseite/hausarbeit-schreiben-lassen.svg
                     custom-svg-width: '65'
-                    link_field: 'entry::fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c'
+                    link_field: 'entry::cb0a74d3-ed84-4dad-b3a7-c368aec13800'
               -
                 type: set
                 attrs:
@@ -516,13 +504,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/jura
-                          target: null
-                          rel: null
-                    text: Jura
+                    text: Hausarbeit
               -
                 type: set
                 attrs:
@@ -534,9 +516,9 @@ replicator:
                 attrs:
                   values:
                     type: custom-svg-width
-                    svg_file: logo-startseite/ghostwriter-sozialwissenschaften.svg
+                    svg_file: logo-startseite/masterarbeit-schreiben-lassen.svg
                     custom-svg-width: '65'
-                    link_field: 'entry::6edcba2a-9fcc-4d8d-80ea-dbc325dc8332'
+                    link_field: 'entry::52f5092f-800b-4742-8636-a840b9ab1ddb'
               -
                 type: set
                 attrs:
@@ -555,13 +537,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/sozialwissenschaften
-                          target: null
-                          rel: null
-                    text: Sozialwissenschaften
+                    text: Masterarbeit
             show_as_card: false
           -
             bard:
@@ -570,9 +546,9 @@ replicator:
                 attrs:
                   values:
                     type: custom-svg-width
-                    svg_file: logo-startseite/ghostwriter-jura.svg
+                    svg_file: logo-startseite/seminararbeit-schreiben-lassen.svg
                     custom-svg-width: '65'
-                    link_field: 'entry::fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c'
+                    link_field: 'entry::2931f444-5e22-4860-8f40-a41821377b93'
               -
                 type: set
                 attrs:
@@ -591,13 +567,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/jura
-                          target: null
-                          rel: null
-                    text: Jura
+                    text: Seminararbeit
               -
                 type: set
                 attrs:
@@ -609,9 +579,9 @@ replicator:
                 attrs:
                   values:
                     type: custom-svg-width
-                    svg_file: logo-startseite/ghostwriter-sozialwissenschaften.svg
+                    svg_file: logo-startseite/doktorarbeit-schreiben-lassen.svg
                     custom-svg-width: '65'
-                    link_field: 'entry::6edcba2a-9fcc-4d8d-80ea-dbc325dc8332'
+                    link_field: 'entry::0481728e-d2e2-4b99-9a9e-8e5bca901d14'
               -
                 type: set
                 attrs:
@@ -630,13 +600,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/sozialwissenschaften
-                          target: null
-                          rel: null
-                    text: Sozialwissenschaften
+                    text: Doktorarbeit
             show_as_card: false
         type: row
         enabled: true
@@ -675,7 +639,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Wichtige Fachbereiche'
+                    text: 'Wichtige akademische Fachbereiche'
               -
                 type: set
                 attrs:
