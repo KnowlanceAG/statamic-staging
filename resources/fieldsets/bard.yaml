@@ -170,6 +170,11 @@ fields:
           fields:
             -
               import: logo_list
+        custom-svg-width:
+          display: 'SVG mit Breite'
+          fields:
+            -
+              import: custom-svg
       container: assets
       enable_input_rules: true
       enable_paste_rules: true
