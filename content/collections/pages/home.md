@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1647437895
+updated_at: 1647437998
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -392,7 +392,7 @@ replicator:
                   values:
                     type: custom-svg-width
                     svg_file: logo-startseite/ghostwriter-jura.svg
-                    custom-svg-width: '65'
+                    custom-svg-width: '35'
                     link_field: 'entry::fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c'
               -
                 type: paragraph
@@ -414,7 +414,7 @@ replicator:
                   values:
                     type: custom-svg-width
                     svg_file: logo-startseite/ghostwriter-bwl.svg
-                    custom-svg-width: '65'
+                    custom-svg-width: '35'
                     link_field: 'entry::89bfdf0d-d156-4ee5-9575-09e85f7e3655'
               -
                 type: paragraph
@@ -436,7 +436,7 @@ replicator:
                   values:
                     type: custom-svg-width
                     svg_file: logo-startseite/ghostwriter-medizin.svg
-                    custom-svg-width: '65'
+                    custom-svg-width: '35'
                     link_field: 'entry::b850974c-8d2d-4448-b168-3dccef384025'
               -
                 type: paragraph
