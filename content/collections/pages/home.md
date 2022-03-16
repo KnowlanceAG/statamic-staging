@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1647445889
+updated_at: 1647446362
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -441,6 +441,17 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/facharbeit
+                          target: null
+                          rel: null
                     text: Facharbeit
               -
                 type: set
@@ -474,6 +485,17 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
                     text: Bachelorarbeit
             show_as_card: false
           -
@@ -504,6 +526,17 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
                     text: Hausarbeit
               -
                 type: set
@@ -537,6 +570,17 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
                     text: Masterarbeit
             show_as_card: false
           -
@@ -567,6 +611,17 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
                     text: Seminararbeit
               -
                 type: set
@@ -600,6 +655,17 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/doktorarbeit
+                          target: null
+                          rel: null
                     text: Doktorarbeit
             show_as_card: false
         type: row
@@ -683,6 +749,11 @@ replicator:
                         attrs:
                           align: center
                       -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
                           href: /fachrichtungen/jura
@@ -722,6 +793,11 @@ replicator:
                         attrs:
                           align: center
                       -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
                           href: /fachrichtungen/sozialwissenschaften
@@ -757,6 +833,11 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -797,6 +878,11 @@ replicator:
                         attrs:
                           align: center
                       -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
                           href: /fachrichtungen/psychologie
@@ -832,6 +918,11 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -871,6 +962,11 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
                       -
                         type: link
                         attrs:
