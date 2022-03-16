@@ -3,7 +3,7 @@ id: 942c2c8b-0964-473f-bd8d-10426b828eb8
 blueprint: pages
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1647440217
+updated_at: 1647440236
 replicator:
   -
     bard:
@@ -54,6 +54,7 @@ replicator:
                     type: custom-svg-width
                     svg_file: logo-startseite/hausarbeit-schreiben-lassen.svg
                     custom-svg-width: '65'
+                    link_field: 'entry::dabfe654-ec77-4680-89a4-94467547a605'
               -
                 type: paragraph
             show_as_card: false
