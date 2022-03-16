@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1647438220
+updated_at: 1647443888
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -381,6 +381,62 @@ replicator:
     columns-replicator:
       -
         responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Wichtige wissenschaftliche Arbeiten'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard: null
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Wichtige Fachbereiche'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
         columns_per_row: '3'
         single-col: true
         grid:
@@ -392,7 +448,7 @@ replicator:
                   values:
                     type: custom-svg-width
                     svg_file: logo-startseite/ghostwriter-jura.svg
-                    custom-svg-width: '35'
+                    custom-svg-width: '65'
                     link_field: 'entry::fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c'
               -
                 type: paragraph
@@ -401,10 +457,45 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textAlign
                         attrs:
                           align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/jura
+                          target: null
+                          rel: null
                     text: Jura
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/ghostwriter-sozialwissenschaften.svg
+                    custom-svg-width: '65'
+                    link_field: 'entry::6edcba2a-9fcc-4d8d-80ea-dbc325dc8332'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/sozialwissenschaften
+                          target: null
+                          rel: null
+                    text: Sozialwissenschaften
             show_as_card: false
           -
             bard:
@@ -423,10 +514,45 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textAlign
                         attrs:
                           align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/bwl
+                          target: null
+                          rel: null
                     text: BWL
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/ghostwriter-psychologie.svg
+                    custom-svg-width: '65'
+                    link_field: 'entry::839e6791-eebd-4bc8-8975-a278836a9c05'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/psychologie
+                          target: null
+                          rel: null
+                    text: Psychologie
             show_as_card: false
           -
             bard:
@@ -436,7 +562,7 @@ replicator:
                   values:
                     type: custom-svg-width
                     svg_file: logo-startseite/ghostwriter-medizin.svg
-                    custom-svg-width: '90'
+                    custom-svg-width: '65'
                     link_field: 'entry::b850974c-8d2d-4448-b168-3dccef384025'
               -
                 type: paragraph
@@ -445,10 +571,68 @@ replicator:
                     type: text
                     marks:
                       -
+                        type: bold
+                      -
                         type: textAlign
                         attrs:
                           align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/medizin
+                          target: null
+                          rel: null
                     text: Medizin
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/ghostwriter-zahnmedizin.svg
+                    custom-svg-width: '65'
+                    link_field: 'entry::780fbc21-db68-45f0-a0c9-bb6dbb99cb8f'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/zahnmedizin
+                          target: null
+                          rel: null
+                    text: Zahnmedizin
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Weitere wichtigen Arbeiten & Fachbereiche'
             show_as_card: false
         type: row
         enabled: true
@@ -477,12 +661,6 @@ replicator:
                           - 5c6db140-ee4a-4a88-bf56-4153664421d4
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
                           - 5659593d-2756-4e9f-a5b3-b391103d9886
-                          - cb0a74d3-ed84-4dad-b3a7-c368aec13800
-                          - 68b88fd1-ec03-4ea8-9292-431555e47744
-                          - 2931f444-5e22-4860-8f40-a41821377b93
-                          - 2b55bfe7-06df-4e71-86da-152e256904ec
-                          - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
-                          - 52f5092f-800b-4742-8636-a840b9ab1ddb
                       -
                         text: Fachrichtungen
                         eintraege:
@@ -502,22 +680,16 @@ replicator:
                           - 84a37239-87ee-45fb-b2d1-058a86fecfbb
                           - f501c52c-7217-448e-bb53-d6f84c7e51c8
                           - 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
-                          - b850974c-8d2d-4448-b168-3dccef384025
                           - 051a1060-2c31-4edd-af39-c44fe3842526
                           - 21aff10c-582a-440f-9f50-1af525566292
-                          - 839e6791-eebd-4bc8-8975-a278836a9c05
                           - 925eedca-5fbe-4da9-a307-807426feaeeb
                           - f07c0010-40dd-407e-bf32-a1a260b5016b
                           - b8930678-fff6-4d7a-8ae8-056605f303f2
                           - 06fbb3f4-51c2-4f11-832e-9b72a495857d
                           - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
                           - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
-                          - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
-                          - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
                           - 34f7528d-839e-4ef6-b735-627084dba887
                           - 1de3d76b-f23a-41a8-a629-15b48a07223e
-                          - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
-                          - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
                           - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
               -
                 type: paragraph
