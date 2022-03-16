@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1647444427
+updated_at: 1647444673
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -399,6 +399,244 @@ replicator:
                         attrs:
                           align: center
                     text: 'Wichtige wissenschaftliche Arbeiten'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '3'
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/ghostwriter-jura.svg
+                    custom-svg-width: '65'
+                    link_field: 'entry::fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/jura
+                          target: null
+                          rel: null
+                    text: Jura
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/ghostwriter-sozialwissenschaften.svg
+                    custom-svg-width: '65'
+                    link_field: 'entry::6edcba2a-9fcc-4d8d-80ea-dbc325dc8332'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/sozialwissenschaften
+                          target: null
+                          rel: null
+                    text: Sozialwissenschaften
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/ghostwriter-jura.svg
+                    custom-svg-width: '65'
+                    link_field: 'entry::fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/jura
+                          target: null
+                          rel: null
+                    text: Jura
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/ghostwriter-sozialwissenschaften.svg
+                    custom-svg-width: '65'
+                    link_field: 'entry::6edcba2a-9fcc-4d8d-80ea-dbc325dc8332'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/sozialwissenschaften
+                          target: null
+                          rel: null
+                    text: Sozialwissenschaften
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/ghostwriter-jura.svg
+                    custom-svg-width: '65'
+                    link_field: 'entry::fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/jura
+                          target: null
+                          rel: null
+                    text: Jura
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/ghostwriter-sozialwissenschaften.svg
+                    custom-svg-width: '65'
+                    link_field: 'entry::6edcba2a-9fcc-4d8d-80ea-dbc325dc8332'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/sozialwissenschaften
+                          target: null
+                          rel: null
+                    text: Sozialwissenschaften
             show_as_card: false
         type: row
         enabled: true
@@ -408,7 +646,13 @@ replicator:
         single-col: false
         grid:
           -
-            bard: null
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
             show_as_card: false
         type: row
         enabled: true
