@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1647443888
+updated_at: 1647444251
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -451,6 +451,12 @@ replicator:
                     custom-svg-width: '65'
                     link_field: 'entry::fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c'
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '1'
+              -
                 type: paragraph
                 content:
                   -
@@ -473,10 +479,22 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
                     type: custom-svg-width
                     svg_file: logo-startseite/ghostwriter-sozialwissenschaften.svg
                     custom-svg-width: '65'
                     link_field: 'entry::6edcba2a-9fcc-4d8d-80ea-dbc325dc8332'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '1'
               -
                 type: paragraph
                 content:
@@ -508,6 +526,12 @@ replicator:
                     custom-svg-width: '65'
                     link_field: 'entry::89bfdf0d-d156-4ee5-9575-09e85f7e3655'
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '1'
+              -
                 type: paragraph
                 content:
                   -
@@ -530,18 +554,28 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
                     type: custom-svg-width
                     svg_file: logo-startseite/ghostwriter-psychologie.svg
                     custom-svg-width: '65'
                     link_field: 'entry::839e6791-eebd-4bc8-8975-a278836a9c05'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '1'
               -
                 type: paragraph
                 content:
                   -
                     type: text
                     marks:
-                      -
-                        type: bold
                       -
                         type: textAlign
                         attrs:
@@ -565,6 +599,12 @@ replicator:
                     custom-svg-width: '65'
                     link_field: 'entry::b850974c-8d2d-4448-b168-3dccef384025'
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '1'
+              -
                 type: paragraph
                 content:
                   -
@@ -587,10 +627,22 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '1'
+              -
+                type: set
+                attrs:
+                  values:
                     type: custom-svg-width
                     svg_file: logo-startseite/ghostwriter-zahnmedizin.svg
                     custom-svg-width: '65'
                     link_field: 'entry::780fbc21-db68-45f0-a0c9-bb6dbb99cb8f'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '1'
               -
                 type: paragraph
                 content:
