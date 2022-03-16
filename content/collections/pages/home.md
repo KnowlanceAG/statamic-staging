@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1647444251
+updated_at: 1647444427
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -432,6 +432,12 @@ replicator:
                         attrs:
                           align: center
                     text: 'Wichtige Fachbereiche'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
             show_as_card: false
         type: row
         enabled: true
@@ -455,7 +461,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: '10'
               -
                 type: paragraph
                 content:
@@ -480,7 +486,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: '15'
               -
                 type: set
                 attrs:
@@ -494,7 +500,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: '10'
               -
                 type: paragraph
                 content:
@@ -530,7 +536,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: '10'
               -
                 type: paragraph
                 content:
@@ -555,7 +561,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: '15'
               -
                 type: set
                 attrs:
@@ -569,13 +575,15 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: '10'
               -
                 type: paragraph
                 content:
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
                       -
                         type: textAlign
                         attrs:
@@ -603,7 +611,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: '10'
               -
                 type: paragraph
                 content:
@@ -628,7 +636,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: '15'
               -
                 type: set
                 attrs:
@@ -642,7 +650,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: '10'
               -
                 type: paragraph
                 content:
