@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'ebooks oder echte bücher'
+  caption: 'Eigene Erstellung (Quelle Gesellschaft für Konsumforschung (GfK) 2021, Anzahl der Buchkäufer in Deutschland in den Jahren 2007 bis 2020)'
 size: 16678
 last_modified: 1647513966
 width: 1308
