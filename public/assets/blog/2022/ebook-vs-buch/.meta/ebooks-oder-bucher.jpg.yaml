@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'ebooks oder bücher'
 size: 48800
 last_modified: 1647516317
 width: 1280
