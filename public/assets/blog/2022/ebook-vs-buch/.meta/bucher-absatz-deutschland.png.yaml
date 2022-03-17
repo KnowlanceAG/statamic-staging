@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'bücher oder ebooks'
+  caption: 'Anzahl der Buchkäufer in Deutschland in den Jahren 2007 bis 2020  (Quelle: Eigene darstellung in anlehnung an'
 size: 16631
 last_modified: 1647512149
 width: 1310
