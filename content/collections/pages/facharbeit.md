@@ -2555,7 +2555,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://wiki.zum.de/wiki/Facharbeiten'
+                          href: 'https://unterrichten.zum.de/'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'Facharbeiten - ZUM Wiki'
@@ -2638,7 +2638,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646931435
+updated_at: 1647516081
 template: default
 use_meta_keywords: false
 no_index_page: false
