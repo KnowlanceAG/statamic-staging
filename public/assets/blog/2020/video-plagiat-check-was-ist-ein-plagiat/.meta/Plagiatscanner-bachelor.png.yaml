@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Bachelorarbeit Tool: Plagiatscanner-bachelor'
+  title: 'Bachelorarbeit Tool: Plagiatscanner-bachelor'
+  caption: 'Plagscan Programm'
 size: 68763
 last_modified: 1647871480
 width: 750
