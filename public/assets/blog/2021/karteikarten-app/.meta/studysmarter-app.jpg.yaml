@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: studysmarter-karteikarten-app
+  title: studysmarter-karteikarten-app
 size: 43569
 last_modified: 1647870606
 width: 1572
