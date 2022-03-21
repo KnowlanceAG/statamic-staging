@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Die große Infosammlung zum Ghostwriting'
+  title: 'Die große Infosammlung zum Ghostwriting'
 size: 20234
 last_modified: 1647869506
 width: 848
