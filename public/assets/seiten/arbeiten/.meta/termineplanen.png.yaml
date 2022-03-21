@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'pünktliche termine planen'
 size: 18917
 last_modified: 1646820278
 width: 168
