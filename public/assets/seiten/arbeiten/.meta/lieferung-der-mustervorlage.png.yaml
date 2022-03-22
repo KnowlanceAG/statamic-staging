@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'lieferung mustervorlage'
 size: 20943
 last_modified: 1646820276
 width: 137

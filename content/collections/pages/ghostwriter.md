@@ -2094,7 +2094,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934763
+updated_at: 1647869773
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2106,9 +2106,9 @@ twitter_card_type_page: summary
 template: default
 page_title: 'GWriters • Ghostwriter - Wer und was ist das?'
 meta_title: 'GWriters • Ghostwriter - Wer und was ist das?'
-meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Ghostwriting: Leistungen, Ablauf, Kosten & Preise.'
+meta_description: 'Akademische Ghostwriter & alles zum Thema wissenschaftliches Ghostwriting: Leistungen, Ablauf, Kosten & Preise für garantiert beste Qualität!'
 og_title: 'GWriters • Ghostwriter - Wer und was ist das?'
-og_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Ghostwriting: Leistungen, Ablauf, Kosten & Preise.'
+og_description: 'Akademische Ghostwriter & alles zum Thema wissenschaftliches Ghostwriting: Leistungen, Ablauf, Kosten & Preise für garantiert beste Qualität!'
 og_image: GWriters-Logo.png
 sitemap_active: true
 ---

@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'regelmäßige teillieferung'
 size: 978
 last_modified: 1646828013
 width: 288.0
