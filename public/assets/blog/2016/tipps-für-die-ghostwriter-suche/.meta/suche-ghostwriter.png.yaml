@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'suche ghostwriter'
+  title: 'suche ghostwriter'
 size: 82059
 last_modified: 1648111180
 width: 750
