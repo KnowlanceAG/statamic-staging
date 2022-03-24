@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1648124922
+updated_at: 1648126162
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1420,20 +1420,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Zum erfolgreichen Schreiben einer wissenschaftlichen Arbeit im Studium spielen die Fähigkeiten, Ressourcen und freie Kapazitäten eines Studenten eine maßgebende Rolle. Neben dem reinen fachlichem Know-How und einem hervorragenden Schreibtalent gehören dazu vor allem ein klar definierter Zeitplan, genügend Ressourcen für hochwertige akademische '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/literatur
-                          target: null
-                          rel: null
-                    text: Literatur
-                  -
-                    type: text
-                    text: ' und auch Feingefühl um aus einer großen Informationssammlung relevante Quellen bei der Literaturrecherche selektieren zu können. Wenn diese Fähigkeiten im Studium noch nicht ausgiebig perfektioniert wurden oder einzelne Kapazitäten lediglich in vermindertem Maße vorhanden sind, können akademische '
+                    text: 'Wenn Sie beim Verfassen Ihrer wissenschaftlichen Arbeit Hilfe benötigen, können akademische '
                   -
                     type: text
                     marks:
@@ -1446,13 +1433,47 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: ', Autoren und weitere spezialisierte Freelancer Hilfestellungen leisten.'
+                    text: ' und Autoren Ihnen helfen. Zögern Sie nicht uns mit einer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: _blank
+                          rel: null
+                    text: 'kostenlosen Anfrage'
+                  -
+                    type: text
+                    text: ' zu kontaktieren, als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'seriöse Ghostwriting Agentur unterstützen wir Sie professionell & diskret!'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Gerne unterstützen wir Sie auf dem Weg zur Fertigstellung Ihrer wissenschaftlichen Arbeit bei der Ideensuche, dem Schreibprozess und der Nachkorrektur Ihres Projektes. Wir ermöglichen Ihnen den einfachen, schnellen und sicheren Zugang zu derzeit über 3000 akademischen Freelancern. Dazu gehören bei GWriters sowohl '
+                    text: 'Gerne unterstützen wir Sie auf dem Weg zur Fertigstellung Ihrer wissenschaftlichen Arbeit bei der Ideensuche, beim Schreibprozess oder durch ein Korrekturlesen. Wir ermöglichen Ihnen den einfachen, schnellen und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'sicheren Zugang zu über 3000 akademischen Ghostwritern'
+                  -
+                    type: text
+                    text: .
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei GWriters finden Sie sowohl '
                   -
                     type: text
                     marks:
@@ -1478,7 +1499,16 @@ replicator:
                     text: Korrektoren
                   -
                     type: text
-                    text: ', Übersetzer und Coaches. Diese unterstützen Sie bei der Erstellung, Korrektur und Bearbeitung von akademischen Texten jeder Art, z.B. '
+                    text: ', Übersetzer und Coaches. Diese unterstützen Sie bei der Korrektur und Bearbeitung sowie der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Erstellung von akademischen Texten'
+                  -
+                    type: text
+                    text: ' jeder Art, z.B. '
                   -
                     type: text
                     marks:
@@ -1569,20 +1599,13 @@ replicator:
                     text: Hausarbeiten
                   -
                     type: text
-                    text: '. GWriters legt Wert auf höchste Qualität bei jedem Auftrag und prüft sowohl alle Dienstleister, als auch jeden einzelnen Text durch ein mehrstufiges Qualitätssicherungssystem, selbstverständlich inklusive umfassender '
+                    text: .
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: Plagiatsprüfung
-                  -
-                    type: text
-                    text: '. Jeder Auftrag wird von einem erfahrenen Supervisor überwacht und von einem persönlichen, jederzeit ansprechbaren Projektkoordinator betreut. Insbesondere ist unser Team GWriters spezialisiert auf folgende Leistungen: '
+                    text: 'Insbesondere ist unser Team bei GWriters spezialisiert auf folgende Leistungen: '
                   -
                     type: text
                     marks:
@@ -1647,7 +1670,55 @@ replicator:
                     text: Übersetzung
                   -
                     type: text
-                    text: ' von akademischen Texten. Unsere Ghostwriter sind akademische Experten mit ausgezeichneten Fachkenntnissen, damit wird eine qualitativ hochwertige Dienstleistung gewährleistet.'
+                    text: ' von akademischen Texten. Unsere Ghostwriter sind akademische Experten mit ausgezeichneten Fachkenntnissen, die häufig selbst als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Doktoren & Professoren'
+                  -
+                    type: text
+                    text: ' in der Forschung tätig sind. So garantieren wir Ihnen eine qualitativ hochwertige Dienstleistung.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'GWriters legt Wert auf höchste Qualität bei jedem Auftrag und prüft sowohl die Qualifikationen unserer akademischen Ghostwriter, als auch jeden einzelnen Text durch ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'mehrstufiges Qualitätssicherungssystem'
+                  -
+                    type: text
+                    text: ', dabei ist selbstverständlich eine umfassende '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          target: null
+                          rel: null
+                    text: Plagiatsprüfung
+                  -
+                    type: text
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: inklusive
+                  -
+                    type: text
+                    text: '. Jeder Auftrag wird von einem erfahrenen Supervisor überwacht und von einem persönlichen, jederzeit ansprechbaren Projektkoordinator betreut.'
+              -
+                type: paragraph
               -
                 type: paragraph
                 content:
@@ -1662,7 +1733,22 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Bei der Inanspruchnahme von Ghostwritern im akademischen Umfeld, also beispielsweise bei der Unterstützung von Bachelor- und Masterarbeiten, sowie Dissertationen und Habilitationen muss zwingend der rechtliche Rahmen eingehalten werden. Dies bedeutet, dass weiterhin eine eigenständige Erstellungen der Arbeiten der Studenten, Doktoranden oder Habilitanden stattfinden muss. Weil jeder Student diese Zusicherung gegenüber seiner Universität bindend eingeht, verstehen unsere Texte sich dem Grunde nach nur als Vorlagen und hilfreiche Leitfäden. GWriters hält sich strikt an europäische Gesetzgebungen. Dadurch steht Ihre Zusammenarbeit mit uns von Anfang an auf einem sicheren Fundament, die Legalität ist gewährleistet und Plagiatsvorwürfe können ausgeschlossen werden.'
+                    text: 'Bei der Inanspruchnahme von Ghostwritern im akademischen Umfeld, also beispielsweise bei der Unterstützung von Bachelor- und Masterarbeiten, sowie Dissertationen und Habilitationen muss zwingend der rechtliche Rahmen eingehalten werden. Dies bedeutet, dass weiterhin eine eigenständige Erstellungen der Arbeiten der Studenten, Doktoranden oder Habilitanden stattfinden muss.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Da jeder Student diese Zusicherung gegenüber seiner Universität bindend eingeht, verstehen unsere Texte sich dem Grunde nach nur als Vorlagen und hilfreiche Leitfäden. GWriters hält sich strikt an europäische Gesetzgebungen. Dadurch steht Ihre Zusammenarbeit mit uns von Anfang an auf einem sicheren Fundament, die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Legalität ist gewährleistet'
+                  -
+                    type: text
+                    text: ' und Plagiatsvorwürfe können ausgeschlossen werden.'
             show_as_card: false
         type: row
         enabled: true
