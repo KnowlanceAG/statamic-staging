@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1647446480
+updated_at: 1648124263
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -398,7 +398,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Wichtige wissenschaftliche Arbeiten'
+                    text: 'Mustervorlagen für wissenschaftliche Arbeiten'
               -
                 type: set
                 attrs:
@@ -410,7 +410,7 @@ replicator:
         enabled: true
       -
         responsive_columns: 1
-        columns_per_row: '3'
+        columns_per_row: 1
         single-col: true
         grid:
           -
@@ -441,38 +441,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/facharbeit
-                          target: null
-                          rel: null
-                    text: Facharbeit
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '15'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: custom-svg-width
-                    svg_file: logo-startseite/bachelorarbeit-schreiben-lassen.svg
-                    custom-svg-width: '65'
-                    link_field: 'entry::68b88fd1-ec03-4ea8-9292-431555e47744'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
+                    text: 'Mehr erfahren:'
               -
                 type: paragraph
                 content:
@@ -488,15 +457,21 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          href: /arbeiten/facharbeit
                           target: null
                           rel: null
-                    text: Bachelorarbeit
+                    text: 'Facharbeit schreiben lassen'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
             show_as_card: false
           -
             bard:
@@ -526,38 +501,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Hausarbeit
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '15'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: custom-svg-width
-                    svg_file: logo-startseite/masterarbeit-schreiben-lassen.svg
-                    custom-svg-width: '65'
-                    link_field: 'entry::52f5092f-800b-4742-8636-a840b9ab1ddb'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
+                    text: 'Mehr erfahren:'
               -
                 type: paragraph
                 content:
@@ -573,15 +517,21 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          href: /arbeiten/hausarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: Masterarbeit
+                    text: 'Hausarbeit schreiben lassen'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
             show_as_card: false
           -
             bard:
@@ -611,6 +561,86 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
+                    text: 'Mehr erfahren:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Seminararbeit schreiben lassen'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '3'
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/bachelorarbeit-schreiben-lassen.svg
+                    custom-svg-width: '65'
+                    link_field: 'entry::68b88fd1-ec03-4ea8-9292-431555e47744'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Mehr erfahren:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -619,16 +649,67 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: Seminararbeit
+                    text: 'Bachelorarbeit schreiben lassen'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/masterarbeit-schreiben-lassen.svg
+                    custom-svg-width: '65'
+                    link_field: 'entry::52f5092f-800b-4742-8636-a840b9ab1ddb'
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Mehr erfahren:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Masterarbeit schreiben lassen'
+            show_as_card: false
+          -
+            bard:
               -
                 type: set
                 attrs:
@@ -655,6 +736,19 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
+                    text: 'Mehr erfahren:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -666,7 +760,7 @@ replicator:
                           href: /arbeiten/doktorarbeit
                           target: null
                           rel: null
-                    text: Doktorarbeit
+                    text: 'Doktorarbeit schreiben lassen'
             show_as_card: false
         type: row
         enabled: true
