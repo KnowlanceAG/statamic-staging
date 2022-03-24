@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1648124300
+updated_at: 1648124856
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -442,9 +442,15 @@ replicator:
                         attrs:
                           align: center
                     text: 'Mehr erfahren:'
-              -
-                type: paragraph
-                content:
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                   -
                     type: text
                     marks:
@@ -502,9 +508,15 @@ replicator:
                         attrs:
                           align: center
                     text: 'Mehr erfahren:'
-              -
-                type: paragraph
-                content:
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                   -
                     type: text
                     marks:
@@ -562,9 +574,15 @@ replicator:
                         attrs:
                           align: center
                     text: 'Mehr erfahren:'
-              -
-                type: paragraph
-                content:
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                   -
                     type: text
                     marks:
@@ -629,9 +647,15 @@ replicator:
                         attrs:
                           align: center
                     text: 'Mehr erfahren:'
-              -
-                type: paragraph
-                content:
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                   -
                     type: text
                     marks:
@@ -653,6 +677,12 @@ replicator:
                           target: null
                           rel: null
                     text: 'Bachelorarbeit schreiben lassen'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
             show_as_card: false
           -
             bard:
@@ -683,9 +713,15 @@ replicator:
                         attrs:
                           align: center
                     text: 'Mehr erfahren:'
-              -
-                type: paragraph
-                content:
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                   -
                     type: text
                     marks:
@@ -707,6 +743,12 @@ replicator:
                           target: null
                           rel: null
                     text: 'Masterarbeit schreiben lassen'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
             show_as_card: false
           -
             bard:
@@ -737,9 +779,15 @@ replicator:
                         attrs:
                           align: center
                     text: 'Mehr erfahren:'
-              -
-                type: paragraph
-                content:
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                   -
                     type: text
                     marks:
@@ -761,22 +809,12 @@ replicator:
                           target: null
                           rel: null
                     text: 'Doktorarbeit schreiben lassen'
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: '15'
             show_as_card: false
         type: row
         enabled: true
@@ -845,38 +883,23 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
                       -
-                        type: link
+                        type: bold
+                      -
+                        type: textAlign
                         attrs:
-                          href: /fachrichtungen/jura
-                          target: null
-                          rel: null
-                    text: Jura
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '15'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: custom-svg-width
-                    svg_file: logo-startseite/ghostwriter-sozialwissenschaften.svg
-                    custom-svg-width: '65'
-                    link_field: 'entry::6edcba2a-9fcc-4d8d-80ea-dbc325dc8332'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-                content:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                   -
                     type: text
                     marks:
@@ -889,15 +912,21 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/sozialwissenschaften
+                          href: /fachrichtungen/jura
                           target: null
                           rel: null
-                    text: Sozialwissenschaften
+                    text: 'Jura Ghostwriter'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
             show_as_card: false
           -
             bard:
@@ -930,38 +959,23 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
                       -
-                        type: link
+                        type: bold
+                      -
+                        type: textAlign
                         attrs:
-                          href: /fachrichtungen/bwl
-                          target: null
-                          rel: null
-                    text: BWL
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '15'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: custom-svg-width
-                    svg_file: logo-startseite/ghostwriter-psychologie.svg
-                    custom-svg-width: '65'
-                    link_field: 'entry::839e6791-eebd-4bc8-8975-a278836a9c05'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-                content:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                   -
                     type: text
                     marks:
@@ -974,15 +988,21 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/psychologie
+                          href: /fachrichtungen/bwl
                           target: null
                           rel: null
-                    text: Psychologie
+                    text: 'BWL Ghostwriter'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
             show_as_card: false
           -
             bard:
@@ -1015,7 +1035,36 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1023,13 +1072,175 @@ replicator:
                           href: /fachrichtungen/medizin
                           target: null
                           rel: null
-                    text: Medizin
+                    text: 'Medizin Ghostwriter'
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
                     padding-y: '15'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '3'
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/ghostwriter-sozialwissenschaften.svg
+                    custom-svg-width: '65'
+                    link_field: 'entry::6edcba2a-9fcc-4d8d-80ea-dbc325dc8332'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/sozialwissenschaften
+                          target: null
+                          rel: null
+                    text: 'Sozialwissenschaften Ghostwriter'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/ghostwriter-psychologie.svg
+                    custom-svg-width: '65'
+                    link_field: 'entry::839e6791-eebd-4bc8-8975-a278836a9c05'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/psychologie
+                          target: null
+                          rel: null
+                    text: 'Psychologie Ghostwriter'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
+            show_as_card: false
+          -
+            bard:
               -
                 type: set
                 attrs:
@@ -1061,29 +1272,48 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /fachrichtungen/zahnmedizin
                           target: null
                           rel: null
-                    text: Zahnmedizin
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
+                    text: 'Zahnmedizin Ghostwriter'
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: '15'
             show_as_card: false
         type: row
         enabled: true
@@ -1107,16 +1337,6 @@ replicator:
                         attrs:
                           align: center
                     text: 'Weitere wichtigen Arbeiten & Fachbereiche'
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
               -
                 type: set
                 attrs:
