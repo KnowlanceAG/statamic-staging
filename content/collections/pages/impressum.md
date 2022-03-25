@@ -41,7 +41,7 @@ teaser:
   -
     type: paragraph
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627288020
+updated_at: 1648215835
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -156,23 +156,20 @@ replicator:
             marks:
               -
                 type: bold
-            text: 'Unsere internationale Webseite in den Ländern'
+            text: 'Unsere internationale Webseite:'
       -
         type: paragraph
         content:
-          -
-            type: text
-            text: "Großbritannien & USA -\_"
           -
             type: text
             marks:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.uk'
+                  href: 'https://gwriters.net'
                   target: null
                   rel: null
-            text: GWriters.uk
+            text: GWriters.net
       -
         type: paragraph
         content:
@@ -310,4 +307,5 @@ page_title: 'GWriters • Impressum'
 og_title: 'GWriters • Impressum'
 og_description: 'GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---

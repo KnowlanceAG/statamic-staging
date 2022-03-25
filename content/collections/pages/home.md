@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1647446480
+updated_at: 1648217858
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -398,7 +398,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Wichtige wissenschaftliche Arbeiten'
+                    text: 'Mustervorlagen für wissenschaftliche Arbeiten'
               -
                 type: set
                 attrs:
@@ -441,41 +441,16 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
+                        type: bold
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /arbeiten/facharbeit
-                          target: null
-                          rel: null
-                    text: Facharbeit
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '15'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: custom-svg-width
-                    svg_file: logo-startseite/bachelorarbeit-schreiben-lassen.svg
-                    custom-svg-width: '65'
-                    link_field: 'entry::68b88fd1-ec03-4ea8-9292-431555e47744'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-                content:
+                          align: center
                   -
                     type: text
                     marks:
@@ -488,15 +463,21 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          href: /arbeiten/facharbeit
                           target: null
                           rel: null
-                    text: Bachelorarbeit
+                    text: 'Facharbeit schreiben lassen'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
             show_as_card: false
           -
             bard:
@@ -526,41 +507,16 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
+                        type: bold
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Hausarbeit
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '15'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: custom-svg-width
-                    svg_file: logo-startseite/masterarbeit-schreiben-lassen.svg
-                    custom-svg-width: '65'
-                    link_field: 'entry::52f5092f-800b-4742-8636-a840b9ab1ddb'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-                content:
+                          align: center
                   -
                     type: text
                     marks:
@@ -573,15 +529,21 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          href: /arbeiten/hausarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: Masterarbeit
+                    text: 'Hausarbeit schreiben lassen'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
             show_as_card: false
           -
             bard:
@@ -611,6 +573,98 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Seminararbeit schreiben lassen'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '3'
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/bachelorarbeit-schreiben-lassen.svg
+                    custom-svg-width: '65'
+                    link_field: 'entry::68b88fd1-ec03-4ea8-9292-431555e47744'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -619,16 +673,85 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: Seminararbeit
+                    text: 'Bachelorarbeit schreiben lassen'
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
                     padding-y: '15'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/masterarbeit-schreiben-lassen.svg
+                    custom-svg-width: '65'
+                    link_field: 'entry::52f5092f-800b-4742-8636-a840b9ab1ddb'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Masterarbeit schreiben lassen'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
+            show_as_card: false
+          -
+            bard:
               -
                 type: set
                 attrs:
@@ -655,6 +778,25 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -666,23 +808,13 @@ replicator:
                           href: /arbeiten/doktorarbeit
                           target: null
                           rel: null
-                    text: Doktorarbeit
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
+                    text: 'Doktorarbeit schreiben lassen'
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: '15'
             show_as_card: false
         type: row
         enabled: true
@@ -751,38 +883,23 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
                       -
-                        type: link
+                        type: bold
+                      -
+                        type: textAlign
                         attrs:
-                          href: /fachrichtungen/jura
-                          target: null
-                          rel: null
-                    text: Jura
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '15'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: custom-svg-width
-                    svg_file: logo-startseite/ghostwriter-sozialwissenschaften.svg
-                    custom-svg-width: '65'
-                    link_field: 'entry::6edcba2a-9fcc-4d8d-80ea-dbc325dc8332'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-                content:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                   -
                     type: text
                     marks:
@@ -795,15 +912,21 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/sozialwissenschaften
+                          href: /fachrichtungen/jura
                           target: null
                           rel: null
-                    text: Sozialwissenschaften
+                    text: 'Jura Ghostwriter'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
             show_as_card: false
           -
             bard:
@@ -836,38 +959,23 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
                       -
-                        type: link
+                        type: bold
+                      -
+                        type: textAlign
                         attrs:
-                          href: /fachrichtungen/bwl
-                          target: null
-                          rel: null
-                    text: BWL
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '15'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: custom-svg-width
-                    svg_file: logo-startseite/ghostwriter-psychologie.svg
-                    custom-svg-width: '65'
-                    link_field: 'entry::839e6791-eebd-4bc8-8975-a278836a9c05'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-                content:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                   -
                     type: text
                     marks:
@@ -880,15 +988,21 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/psychologie
+                          href: /fachrichtungen/bwl
                           target: null
                           rel: null
-                    text: Psychologie
+                    text: 'BWL Ghostwriter'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
             show_as_card: false
           -
             bard:
@@ -921,7 +1035,36 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -929,13 +1072,175 @@ replicator:
                           href: /fachrichtungen/medizin
                           target: null
                           rel: null
-                    text: Medizin
+                    text: 'Medizin Ghostwriter'
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
                     padding-y: '15'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '3'
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/ghostwriter-sozialwissenschaften.svg
+                    custom-svg-width: '65'
+                    link_field: 'entry::6edcba2a-9fcc-4d8d-80ea-dbc325dc8332'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/sozialwissenschaften
+                          target: null
+                          rel: null
+                    text: 'Sozialwissenschaften Ghostwriter'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: logo-startseite/ghostwriter-psychologie.svg
+                    custom-svg-width: '65'
+                    link_field: 'entry::839e6791-eebd-4bc8-8975-a278836a9c05'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/psychologie
+                          target: null
+                          rel: null
+                    text: 'Psychologie Ghostwriter'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
+            show_as_card: false
+          -
+            bard:
               -
                 type: set
                 attrs:
@@ -967,29 +1272,48 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
+                    text: 'Mehr erfahren:'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /fachrichtungen/zahnmedizin
                           target: null
                           rel: null
-                    text: Zahnmedizin
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
+                    text: 'Zahnmedizin Ghostwriter'
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: '15'
             show_as_card: false
         type: row
         enabled: true
@@ -1013,16 +1337,6 @@ replicator:
                         attrs:
                           align: center
                     text: 'Weitere wichtigen Arbeiten & Fachbereiche'
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: false
-        grid:
-          -
-            bard:
               -
                 type: set
                 attrs:
@@ -1106,20 +1420,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Zum erfolgreichen Schreiben einer wissenschaftlichen Arbeit im Studium spielen die Fähigkeiten, Ressourcen und freie Kapazitäten eines Studenten eine maßgebende Rolle. Neben dem reinen fachlichem Know-How und einem hervorragenden Schreibtalent gehören dazu vor allem ein klar definierter Zeitplan, genügend Ressourcen für hochwertige akademische '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/literatur
-                          target: null
-                          rel: null
-                    text: Literatur
-                  -
-                    type: text
-                    text: ' und auch Feingefühl um aus einer großen Informationssammlung relevante Quellen bei der Literaturrecherche selektieren zu können. Wenn diese Fähigkeiten im Studium noch nicht ausgiebig perfektioniert wurden oder einzelne Kapazitäten lediglich in vermindertem Maße vorhanden sind, können akademische '
+                    text: 'Wenn Sie beim Verfassen Ihrer wissenschaftlichen Arbeit Hilfe benötigen, können akademische '
                   -
                     type: text
                     marks:
@@ -1132,13 +1433,47 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: ', Autoren und weitere spezialisierte Freelancer Hilfestellungen leisten.'
+                    text: ' und Autoren Ihnen helfen. Zögern Sie nicht uns mit einer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: _blank
+                          rel: null
+                    text: 'kostenlosen Anfrage'
+                  -
+                    type: text
+                    text: ' zu kontaktieren, als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'seriöse Ghostwriting Agentur unterstützen wir Sie professionell & diskret!'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Gerne unterstützen wir Sie auf dem Weg zur Fertigstellung Ihrer wissenschaftlichen Arbeit bei der Ideensuche, dem Schreibprozess und der Nachkorrektur Ihres Projektes. Wir ermöglichen Ihnen den einfachen, schnellen und sicheren Zugang zu derzeit über 3000 akademischen Freelancern. Dazu gehören bei GWriters sowohl '
+                    text: 'Gerne unterstützen wir Sie auf dem Weg zur Fertigstellung Ihrer wissenschaftlichen Arbeit bei der Ideensuche, beim Schreibprozess oder durch ein Korrekturlesen. Wir ermöglichen Ihnen den einfachen, schnellen und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'sicheren Zugang zu über 3000 akademischen Ghostwritern'
+                  -
+                    type: text
+                    text: .
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei GWriters finden Sie sowohl '
                   -
                     type: text
                     marks:
@@ -1164,7 +1499,16 @@ replicator:
                     text: Korrektoren
                   -
                     type: text
-                    text: ', Übersetzer und Coaches. Diese unterstützen Sie bei der Erstellung, Korrektur und Bearbeitung von akademischen Texten jeder Art, z.B. '
+                    text: ', Übersetzer und Coaches. Diese unterstützen Sie bei der Korrektur und Bearbeitung sowie der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Erstellung von akademischen Texten'
+                  -
+                    type: text
+                    text: ' jeder Art, z.B. '
                   -
                     type: text
                     marks:
@@ -1255,20 +1599,13 @@ replicator:
                     text: Hausarbeiten
                   -
                     type: text
-                    text: '. GWriters legt Wert auf höchste Qualität bei jedem Auftrag und prüft sowohl alle Dienstleister, als auch jeden einzelnen Text durch ein mehrstufiges Qualitätssicherungssystem, selbstverständlich inklusive umfassender '
+                    text: .
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: Plagiatsprüfung
-                  -
-                    type: text
-                    text: '. Jeder Auftrag wird von einem erfahrenen Supervisor überwacht und von einem persönlichen, jederzeit ansprechbaren Projektkoordinator betreut. Insbesondere ist unser Team GWriters spezialisiert auf folgende Leistungen: '
+                    text: 'Insbesondere ist unser Team bei GWriters spezialisiert auf folgende Leistungen: '
                   -
                     type: text
                     marks:
@@ -1333,7 +1670,55 @@ replicator:
                     text: Übersetzung
                   -
                     type: text
-                    text: ' von akademischen Texten. Unsere Ghostwriter sind akademische Experten mit ausgezeichneten Fachkenntnissen, damit wird eine qualitativ hochwertige Dienstleistung gewährleistet.'
+                    text: ' von akademischen Texten. Unsere Ghostwriter sind akademische Experten mit ausgezeichneten Fachkenntnissen, die häufig selbst als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Doktoren & Professoren'
+                  -
+                    type: text
+                    text: ' in der Forschung tätig sind. So garantieren wir Ihnen eine qualitativ hochwertige Dienstleistung.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'GWriters legt Wert auf höchste Qualität bei jedem Auftrag und prüft sowohl die Qualifikationen unserer akademischen Ghostwriter, als auch jeden einzelnen Text durch ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'mehrstufiges Qualitätssicherungssystem'
+                  -
+                    type: text
+                    text: ', dabei ist selbstverständlich eine umfassende '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          target: null
+                          rel: null
+                    text: Plagiatsprüfung
+                  -
+                    type: text
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: inklusive
+                  -
+                    type: text
+                    text: '. Jeder Auftrag wird von einem erfahrenen Supervisor überwacht und von einem persönlichen, jederzeit ansprechbaren Projektkoordinator betreut.'
+              -
+                type: paragraph
               -
                 type: paragraph
                 content:
@@ -1348,7 +1733,22 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Bei der Inanspruchnahme von Ghostwritern im akademischen Umfeld, also beispielsweise bei der Unterstützung von Bachelor- und Masterarbeiten, sowie Dissertationen und Habilitationen muss zwingend der rechtliche Rahmen eingehalten werden. Dies bedeutet, dass weiterhin eine eigenständige Erstellungen der Arbeiten der Studenten, Doktoranden oder Habilitanden stattfinden muss. Weil jeder Student diese Zusicherung gegenüber seiner Universität bindend eingeht, verstehen unsere Texte sich dem Grunde nach nur als Vorlagen und hilfreiche Leitfäden. GWriters hält sich strikt an europäische Gesetzgebungen. Dadurch steht Ihre Zusammenarbeit mit uns von Anfang an auf einem sicheren Fundament, die Legalität ist gewährleistet und Plagiatsvorwürfe können ausgeschlossen werden.'
+                    text: 'Bei der Inanspruchnahme von Ghostwritern im akademischen Umfeld, also beispielsweise bei der Unterstützung von Bachelor- und Masterarbeiten, sowie Dissertationen und Habilitationen muss zwingend der rechtliche Rahmen eingehalten werden. Dies bedeutet, dass weiterhin eine eigenständige Erstellungen der Arbeiten der Studenten, Doktoranden oder Habilitanden stattfinden muss.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Da jeder Student diese Zusicherung gegenüber seiner Universität bindend eingeht, verstehen unsere Texte sich dem Grunde nach nur als Vorlagen und hilfreiche Leitfäden. GWriters hält sich strikt an europäische Gesetzgebungen. Dadurch steht Ihre Zusammenarbeit mit uns von Anfang an auf einem sicheren Fundament, die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Legalität ist gewährleistet'
+                  -
+                    type: text
+                    text: ' und Plagiatsvorwürfe können ausgeschlossen werden.'
             show_as_card: false
         type: row
         enabled: true

@@ -4,7 +4,7 @@ published: false
 blueprint: pages
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1647440249
+updated_at: 1647953377
 replicator:
   -
     bard:
@@ -99,7 +99,7 @@ replicator:
         content:
           -
             type: text
-            text: 2.33.1
+            text: 2.34.1
     show_as_card: false
     type: editor
     enabled: true
