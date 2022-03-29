@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Suchmaschine für die Literaturrecherche an der Uni Karlsruhe'
+  title: 'Suchmaschine für die Literaturrecherche an der Uni Karlsruhe'
+  caption: 'Suchmaschine für die Literaturrecherche an der Uni Karlsruhe'
 size: 28420
 last_modified: 1648557117
 width: 600
