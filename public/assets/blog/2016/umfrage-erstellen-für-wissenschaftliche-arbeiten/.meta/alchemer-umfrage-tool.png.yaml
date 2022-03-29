@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Alchemer Umfrage Tool'
+  title: 'Alchemer Umfrage Tool'
 size: 21129
 last_modified: 1648564176
 width: 500
