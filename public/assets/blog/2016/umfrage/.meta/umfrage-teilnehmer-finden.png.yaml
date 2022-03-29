@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'umfrage teilnehmer finden'
+  title: 'umfrage teilnehmer finden'
 size: 87503
 last_modified: 1648563473
 width: 750
