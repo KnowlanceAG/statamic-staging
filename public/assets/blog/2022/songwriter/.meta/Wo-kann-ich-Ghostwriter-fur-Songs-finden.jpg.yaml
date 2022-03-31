@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: Songwriter
+  title: Songwriter
 size: 45120
 last_modified: 1648721195
 width: 886
