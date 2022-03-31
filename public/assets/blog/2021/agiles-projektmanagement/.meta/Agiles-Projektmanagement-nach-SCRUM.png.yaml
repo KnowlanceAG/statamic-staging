@@ -1,4 +1,7 @@
-data: {  }
+data:
+  alt: 'Agiles Projektmanagement mit Scrum bei GWriters'
+  title: 'Agiles Projektmanagement mit Scrum bei GWriters'
+  caption: 'Agiles Projektmanagement mit Scrum bei GWriters'
 size: 44865
 last_modified: 1648741386
 width: 750
