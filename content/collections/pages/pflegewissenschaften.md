@@ -90,8 +90,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'GWriters • Pflegewissenschaft - Ghostwriter & Lektoren'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646932658
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1649098825
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -920,7 +920,7 @@ replicator:
                   values:
                     type: floating-img
                     dateien:
-                      - seiten/fachrichtungen/Pflegewissenschaften.png
+                      - seiten/fachrichtungen/pflegewissenschaften.png
                     img_size: w-1/4
                     float: float-right
               -
