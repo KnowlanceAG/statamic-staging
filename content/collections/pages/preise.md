@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1644242637
+updated_at: 1649072290
 replicator:
   -
     columns-replicator:
@@ -41,11 +41,11 @@ replicator:
                     bild:
                       - preise/ghostwriter-preise-1637178642.png
                     text: |-
-                      Der nachfolgende Preisrechner dient als Orientierungshilfe für die Ghostwriter Preise von GWriters. Die angegebenen Preise für unsere Leistungen richten sich nach unseren Erfahrungswerten mit den akademischen Ghostwritern, Lektoren & Coaches. Grundsätzlich sind die angegebenen Faktoren maßgeblich für die Einschätzung des Aufwandes für den akademischen Experten, unsere Supervisor und Projektbetreuer. 
+                      Unser Preisrechner dient Ihnen als Orientierungshilfe für unsere Ghostwriter Preise. Die Preise für unsere Leistungen richten sich nach unseren Erfahrungswerten mit unseren akademischen Ghostwritern, Lektoren & Coaches. Bei GWriters bleiben Sie **vollkommen anonym**. Wenn Sie eine **diskrete Abrechnung über Freunde oder Vewandte** wünschen, helfen wir Ihnen gerne!
 
                       Je nach Ihren individuellen Anforderungen (z.B. Schwierigkeitsgrad des Themas, Zeitrahmen für die Schreibarbeit) kann der endgültige Preis bis zu 20% unter oder über dem des Preisrechners liegen. Bitte geben Sie außerdem nur die reinen Textseiten (Normseite ca. 1800 Zeichen inkl. Leerzeichen) an. Die Normseite ist ein Richtwert, um den Umfang eines Textes quantifizieren zu können.
 
-                      Bei dem Ghostwriting sind die Plagiatsprüfung, das Korrektorat, das Lektorat durch einen Supervisor, Formatierung, Quellerecherche, alle Verzeichnisse, Deckblatt etc. natürlich im Preis inbegriffen. Wir bieten Qualität – und das zu fairen Preisen.
+                      Bei dem Ghostwriting sind die Plagiatsprüfung, das Korrektorat, das Lektorat durch einen Supervisor, Formatierung, Quellerecherche, alle Verzeichnisse, Deckblatt etc. **natürlich im Preis inbegriffen**. Wir bieten Qualität – und das zu fairen Preisen.
             show_as_card: false
         type: row
         enabled: true
@@ -2186,4 +2186,5 @@ meta_description: 'Berechnen Sie die Ghostwriter Preise mit unserem Preisrechner
 og_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓'
 og_description: 'Berechnen Sie die Ghostwriter Preise mit unserem Preisrechner. Jetzt Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen - zu fairen Preisen!'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
