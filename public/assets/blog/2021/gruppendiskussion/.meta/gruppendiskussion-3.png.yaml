@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Gruppendiskussion methode: Ergebnisse auswerten'
+  title: 'Gruppendiskussion methode: Ergebnisse auswerten'
 size: 69461
 last_modified: 1649099748
 width: 750
