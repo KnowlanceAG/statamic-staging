@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'abbildungsverzeichnis beispiel'
 size: 40648
 last_modified: 1649145338
 width: 531
