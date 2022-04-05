@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'boris jung gwriters'
+  title: 'boris jung gwriters'
 size: 37309
 last_modified: 1649160631
 width: 750
