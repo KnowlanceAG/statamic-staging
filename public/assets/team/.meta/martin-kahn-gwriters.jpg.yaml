@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'martin kahn gwriters ghostwriter'
+  title: 'martin kahn gwriters ghostwriter'
 size: 20804
 last_modified: 1649150706
 width: 750
