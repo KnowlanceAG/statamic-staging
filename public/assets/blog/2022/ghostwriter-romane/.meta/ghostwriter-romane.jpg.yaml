@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'ghostwriter romane'
 size: 19383
 last_modified: 1649250793
 width: 750
