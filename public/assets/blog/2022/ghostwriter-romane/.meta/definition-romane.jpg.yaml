@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'definition roman'
 size: 18582
 last_modified: 1649249568
 width: 848
