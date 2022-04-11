@@ -486,7 +486,7 @@ replicator:
                 attrs:
                   values:
                     type: custom-svg-width
-                    svg_file: stopwatch.svg
+                    svg_file: leistung/icons/stopwatch.svg
                     custom-svg-width: '65'
               -
                 type: set
@@ -2804,7 +2804,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649681495
+updated_at: 1649688608
 template: default
 use_meta_keywords: false
 no_index_page: false
