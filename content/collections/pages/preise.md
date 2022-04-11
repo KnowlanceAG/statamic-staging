@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649681523
+updated_at: 1649688581
 replicator:
   -
     columns-replicator:
@@ -940,7 +940,7 @@ replicator:
                 attrs:
                   values:
                     type: custom-svg-width
-                    svg_file: stopwatch.svg
+                    svg_file: leistung/icons/stopwatch.svg
                     custom-svg-width: '65'
               -
                 type: set
