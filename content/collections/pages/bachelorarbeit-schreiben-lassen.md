@@ -432,6 +432,12 @@ replicator:
                   -
                     type: text
                     text: 'Unsere Garantien für Sie'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
             show_as_card: false
         type: row
         enabled: true
@@ -449,6 +455,12 @@ replicator:
                     type: custom-svg-width
                     svg_file: leistung/icons/security.svg
                     custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
               -
                 type: paragraph
                 content:
@@ -484,6 +496,12 @@ replicator:
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
                     custom-svg-width: '65'
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
                 type: paragraph
                 content:
                   -
@@ -514,6 +532,12 @@ replicator:
                     type: custom-svg-width
                     svg_file: stopwatch.svg
                     custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
               -
                 type: paragraph
                 content:
@@ -558,6 +582,12 @@ replicator:
                     svg_file: leistung/icons/magistrate.svg
                     custom-svg-width: '65'
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
                 type: paragraph
                 content:
                   -
@@ -565,7 +595,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Top-Qualität von akademischen Experten'
+                    text: 'Top-Qualität von Experten'
               -
                 type: paragraph
                 content:
@@ -580,7 +610,7 @@ replicator:
                     text: 'Doktoren & Professoren'
                   -
                     type: text
-                    text: ' beschäftigt sind, erstellen Ihre Mustervorlage. So garantieren wir die Qualität Ihrer Ausarbeitung von Beginn an.'
+                    text: ' beschäftigt sind, erstellen Ihre Mustervorlage. So garantieren wir die Qualität Ihrer Ausarbeitung.'
             show_as_card: false
         type: row
         enabled: true
@@ -2614,7 +2644,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649678141
+updated_at: 1649678305
 template: default
 use_meta_keywords: false
 no_index_page: false
