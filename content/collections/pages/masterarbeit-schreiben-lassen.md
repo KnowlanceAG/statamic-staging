@@ -285,7 +285,28 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Diese entlasten Sie durch Ghostwriting, Coachings bei der Strukturierung Ihrer und übernehmen Ihre '
+                    text: 'Diese entlasten Sie durch'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: ', Coachings bei der Strukturierung Ihrer und übernehmen Ihre '
                   -
                     type: text
                     marks:
@@ -2362,7 +2383,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649688687
+updated_at: 1649693591
 template: default
 use_meta_keywords: false
 no_index_page: false
