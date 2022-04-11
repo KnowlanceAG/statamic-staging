@@ -487,6 +487,12 @@ replicator:
                   -
                     type: text
                     text: 'zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
             show_as_card: false
           -
             bard:
@@ -524,6 +530,12 @@ replicator:
                       -
                         type: bold
                     text: 'Sie zufrieden sind!'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
             show_as_card: false
           -
             bard:
@@ -573,6 +585,12 @@ replicator:
                   -
                     type: text
                     text: ' Ihrer Ausarbeitung! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
             show_as_card: false
           -
             bard:
@@ -613,6 +631,12 @@ replicator:
                   -
                     type: text
                     text: ' arbeiten, erstellen Ihre Mustervorlage. So garantieren wir die Qualität Ihrer Ausarbeitung.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
             show_as_card: false
         type: row
         enabled: true
@@ -2646,7 +2670,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649678618
+updated_at: 1649678744
 template: default
 use_meta_keywords: false
 no_index_page: false
