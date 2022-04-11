@@ -65,7 +65,7 @@ teaser:
     type: paragraph
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1648217858
+updated_at: 1649686811
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -416,6 +416,8 @@ replicator:
           -
             bard:
               -
+                type: paragraph
+              -
                 type: set
                 attrs:
                   values:
@@ -482,6 +484,8 @@ replicator:
           -
             bard:
               -
+                type: paragraph
+              -
                 type: set
                 attrs:
                   values:
@@ -547,6 +551,8 @@ replicator:
             show_as_card: false
           -
             bard:
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -621,6 +627,8 @@ replicator:
           -
             bard:
               -
+                type: paragraph
+              -
                 type: set
                 attrs:
                   values:
@@ -687,6 +695,8 @@ replicator:
           -
             bard:
               -
+                type: paragraph
+              -
                 type: set
                 attrs:
                   values:
@@ -752,6 +762,8 @@ replicator:
             show_as_card: false
           -
             bard:
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -855,6 +867,8 @@ replicator:
           -
             bard:
               -
+                type: paragraph
+              -
                 type: set
                 attrs:
                   values:
@@ -931,6 +945,8 @@ replicator:
           -
             bard:
               -
+                type: paragraph
+              -
                 type: set
                 attrs:
                   values:
@@ -1006,6 +1022,8 @@ replicator:
             show_as_card: false
           -
             bard:
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
@@ -1090,6 +1108,8 @@ replicator:
           -
             bard:
               -
+                type: paragraph
+              -
                 type: set
                 attrs:
                   values:
@@ -1166,6 +1186,8 @@ replicator:
           -
             bard:
               -
+                type: paragraph
+              -
                 type: set
                 attrs:
                   values:
@@ -1241,6 +1263,8 @@ replicator:
             show_as_card: false
           -
             bard:
+              -
+                type: paragraph
               -
                 type: set
                 attrs:
