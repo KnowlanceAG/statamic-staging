@@ -235,16 +235,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Häufig suchen Akademiker jemanden, der sie beim Erstellen wissenschaftlicher Texte unterstützt, ihnen ein Grundkonzept für eine akademische Arbeit erstellt oder Ihnen das Schreiben durch die Erstellung von Mustervorlagen erheblich erleichtert. So wird jemand für das Verfassen eben dieser Vorlage einer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Hausarbeit, Seminararbeit, Bachelorarbeit, Doktorarbeit bzw. Dissertation oder Diplomarbeit'
-                  -
-                    type: text
-                    text: " gesucht oder eine Unterstützung bei dem Geschäftsplan oder dem Geschäftsbericht. Es wird ein\_"
+                    text: 'Selbst von erfahrenen Akademikern wird häufig ein '
                   -
                     type: text
                     marks:
@@ -257,7 +248,22 @@ replicator:
                     text: "Ghostwriter\_gesucht"
                   -
                     type: text
-                    text: .
+                    text: ', der diese beim Erstellen wissenschaftlicher Texte unterstützt, ihnen ein Grundkonzept für eine akademische Arbeit erstellt oder Ihnen das Schreiben durch die Erstellung von Mustervorlagen erheblich erleichtert.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Von unserer Ghostwriting Agentur erhalten Sie hochqualitative Vorlage für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Hausarbeit, Seminararbeit, Bachelorarbeit, Doktorarbeit bzw. Dissertation oder Diplomarbeit'
+                  -
+                    type: text
+                    text: ' oder auch eine Unterstützung bei Ihrem Geschäftsplan oder Geschäftsbericht.'
               -
                 type: set
                 attrs:
@@ -1781,7 +1787,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649685718
+updated_at: 1649685987
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
