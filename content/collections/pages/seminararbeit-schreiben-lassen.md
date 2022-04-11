@@ -680,7 +680,33 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'beauftragen. Diese bieten eine Vielzahl von Leistungen und Hilfestellungen an. Sie können einen Ghostwriter daher zu jedem Zeitpunkt des Arbeitsverlaufs beauftragen .'
+                    text: 'beauftragen. Diese bieten eine Vielzahl von Leistungen und Hilfestellungen an. Sie können sich daher zu jedem Zeitpunkt des Arbeitsverlaufs für ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' entscheiden.'
               -
                 type: paragraph
                 content:
@@ -2961,7 +2987,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649688652
+updated_at: 1649693582
 template: default
 use_meta_keywords: false
 no_index_page: false
