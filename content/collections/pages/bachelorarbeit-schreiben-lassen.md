@@ -252,7 +252,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'seine Erfahrungen und fachlichen Kenntnisse Studenten professionell wie ein Betreuer unterstützen'
+                    text: 'seine Erfahrungen und fachlichen Kenntnisse Studenten professionell wie ein Betreuer von der Universität unterstützen'
                   -
                     type: text
                     text: '. Dies kann direkt zu Beginn der Bearbeitung geschehen. Bei der Themenauswahl, Literaturrecherche, dem Aufbau einer Bachelor Thesis (Einleitung, Hauptteil, Fazit) sowie dessen Gliederung (Kapitel, Unterkapitel) und Exposé liefern Ghostwriter wichtige Hilfestellungen.'
@@ -348,7 +348,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' können diese wissenschaftliche Quellen, Informationen und Daten für Ihre Forschungsfrage finden, zusammenführen und daraus eine Gliederung entwickeln'
+                    text: ' aus der Forschung können diese wissenschaftliche Quellen, Informationen und Daten für Ihre Forschungsfrage finden, korrekt zusammenführen und daraus eine Gliederung entwickeln'
                   -
                     type: text
                     text: '. '
@@ -415,7 +415,7 @@ replicator:
                     text: Plagiatsprüfung
                   -
                     type: text
-                    text: ' erfolgen. Es ist ebenfalls möglich, dass eine '
+                    text: ' erfolgen, deren Ergebnisse Sie für Ihren Feinschliff nutzen können. Es ist ebenfalls möglich, dass eine '
                   -
                     type: text
                     marks:
@@ -433,7 +433,7 @@ replicator:
                     text: ' '
                   -
                     type: text
-                    text: 'Alternativ können Sie während des gesamten Ablaufs Ihrer Bachelor Thesis auch ein professionelles Coaching anfordern.'
+                    text: 'Alternativ können Sie während des gesamten Ablaufs Ihrer Bachelor Thesis auch ein professionelles Coaching oder Unterstützung bei der Recherche anfordern.'
             show_as_card: false
         type: row
         enabled: true
@@ -821,7 +821,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Niemand möchte bei ohnehin schon kurzen Bearbeitungszeiten mit der Frage „Wie schreibe ich eine Bachelorarbeit?” wertvolle Bearbeitungszeit verlieren und Zeitdruck bekommen. Daher wenden sich viele Studenten an akademische Freelancer und Autoren wie '
+                    text: 'Niemand möchte bei ohnehin schon kurzen Bearbeitungszeiten mit der Frage „Wie schreibe ich eine Bachelorarbeit?” wertvolle Bearbeitungszeit verlieren und Zeitdruck bekommen. Daher wenden sich viele Studenten schon vor dem Verfassen der Einleitung an akademische Freelancer und Autoren wie '
                   -
                     type: text
                     marks:
@@ -830,7 +830,7 @@ replicator:
                     text: 'professionelle wissenschaftliche Ghostwriter'
                   -
                     type: text
-                    text: '. '
+                    text: ', um sich einen Vorteil zu sichern. '
               -
                 type: paragraph
                 content:
@@ -869,7 +869,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'garantiert den richtigen Experten für Ihr Projekt'
+                    text: 'garantiert den richtigen und besten Experten für Ihr Projekt'
                   -
                     type: text
                     text: ' - alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen '
@@ -896,7 +896,7 @@ replicator:
                     text: 'Unser Schreibservice kooperiert zu Ihrem Vorteil mit erfahrenen Professoren und Doktoren'
                   -
                     type: text
-                    text: ". Diese unterstützen Sie bei der Anwendung Ihrer Forschungsmethode, ob es um eine\_Fallanalyse, ein\_Experteninterview\_oder eine\_Methodenanwendung\_handelt. Rund um alle Bachelorthemen bietet unsere Ghostwriting-Agentur professionelle Unterstützung an."
+                    text: ". Diese sind oft noch selbst in der Forschung aktiv und unterstützen Sie bei der Anwendung Ihrer Forschungsmethode, ob es um eine\_Fallanalyse, ein\_Experteninterview\_oder eine\_Methodenanwendung\_handelt. Rund um alle Bachelorthemen bietet unsere Ghostwriting-Agentur professionelle Unterstützung und individuelle Vorteile für Sie an."
             show_as_card: false
         type: row
         enabled: true
@@ -954,7 +954,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Das Coaching kann sowohl in Form von Textteilen Ergänzung/Überarbeitung als auch der '
+                    text: 'Das Coaching kann sowohl in Form von Textteilen wie der Einleitungen, Ergänzung und Überarbeitung als auch der '
                   -
                     type: text
                     marks:
@@ -1045,7 +1045,7 @@ replicator:
                     ausrichtung: bild-text
                     text: |-
                       ### Abschlusslieferung & Qualitätsgarantie
-                      Sie erhalten die fertige Mustervorlage zu Ihrer Bachelorarbeit nach der Fertigstellung. Vor der Lieferung überprüft ein unabhängiger Fachlektor den gesamten Text im Rahmen unserer Qualitätssicherung. Dieser stammt aus dem jeweiligen Fachbereich und kontrolliert Sprachstil, Satzbau und Inhalt. Unser bewährtes 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Zudem nutzen wir die professionelle Software **Turnitin** für eine tiefgehende Plagiatsprüfung.
+                      Sie erhalten die fertige Mustervorlage zu Ihrer Bachelorarbeit nach der Fertigstellung. Vor der Lieferung überprüft ein unabhängiger Fachlektor den gesamten Text im Rahmen unserer Qualitätssicherung. Dieser stammt aus dem jeweiligen Fachbereich und kontrolliert Sprachstil, Satzbau und Inhalt. Unser bewährtes 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Zudem nutzen wir die professionelle Software **Turnitin** für eine tiefgehende Plagiatsprüfung und senden Ihnen die Ergebnisse der Prüfung.
               -
                 type: set
                 attrs:
@@ -1258,7 +1258,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Der Bachelorabschluss ist der erste akademische Grad, welcher innerhalb der EU und einigen englischsprachigen Ländern erreicht werden kann. Er wird mit der '
+                    text: 'Der Bachelorabschluss ist der erste akademische Grad, welcher innerhalb der EU und einigen englischsprachigen Ländern an Universitäten erreicht werden kann. Er wird mit der '
                   -
                     type: text
                     marks:
@@ -1291,7 +1291,7 @@ replicator:
                     text: 'Abschlussnote bis zu 20%'
                   -
                     type: text
-                    text: '. Ein erfolgreich abgeschlossenes Bachelorstudium bildet das Grundlagenstudium und ist die Voraussetzung für den Beginn eines Masterstudiums. Der sichere Einsatz von wissenschaftlichen Methoden ist dabei '
+                    text: '. Ein erfolgreich abgeschlossenes Bachelorstudium bildet das Grundlagenstudium und ist die Voraussetzung für den Beginn eines Masterstudiums. Der sichere Einsatz von wissenschaftlichen Methoden und eine tiefgehende Recherche nach Literatur sind dabei '
                   -
                     type: text
                     marks:
@@ -1330,7 +1330,7 @@ replicator:
                     text: Ghostwriting-Bachelorarbeit
                   -
                     type: text
-                    text: ' sollte jedoch nur unterstützend sein. Das Werk eines Ghostwriters dürfen Sie nicht als eigenes ausgeben, sondern lediglich als Orientierungshilfe nutzen.'
+                    text: ' sollte jedoch nur unterstützend sein. Das Werk eines Ghostwriters dürfen Sie bei Ihrer Universität nicht als eigenes ausgeben, sondern lediglich als Orientierungshilfe nutzen.'
             show_as_card: true
         type: row
         enabled: true
@@ -1434,7 +1434,7 @@ replicator:
                     text: 'Anfertigen einer schriftlichen Arbeit'
                   -
                     type: text
-                    text: ' sowie eine mündliche Prüfung sind erforderlich.'
+                    text: ' sowie eine mündliche Prüfung zu wissenschaftlichen Themen sind erforderlich.'
               -
                 type: paragraph
                 content:
@@ -1455,7 +1455,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Nicht immer beendet man sein Bachelorstudium mit dieser Art von Examensarbeit. Die Konferenz der Kultusminister sieht allerdings vor, dass Lehrinstitute von '
+                    text: 'Nicht immer beendet man sein Bachelorstudium mit dieser Art von Examensarbeit. Die Konferenz der Kultusminister sieht allerdings vor, dass Universitäten und Lehrinstitute von '
                   -
                     type: text
                     marks:
@@ -1553,7 +1553,7 @@ replicator:
                     text: Korrekturlesen
                   -
                     type: text
-                    text: ' suchen. Auch hier kann ein akademischer Berater Hilfestellung leisten.'
+                    text: ' suchen. Auch hier kann ein akademischer Berater Hilfestellung leisten und eine Korrektur übernehmen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1913,7 +1913,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Oft haben Studierende Schwierigkeiten beim Zitieren von Quellen, sowohl im Literaturverzeichnis noch in der Fußnote. Wie ein Zitat aufgebaut sein soll und welche Regeln hierbei gehalten werden müssen, erfahren Sie in einzelnen Etappen '
+                    text: 'Oft haben Studierende Schwierigkeiten beim Zitieren von Quellen, sowohl im Literaturverzeichnis als auch in den Fußnoten. Wie ein Zitat korrekt aufgebaut wird und welche Regeln hierbei eingehalten werden müssen, erfahren Sie in einzelnen Etappen '
                   -
                     type: text
                     marks:
@@ -2180,6 +2180,15 @@ replicator:
                           -
                             type: text
                             text: 'weitere individuelle Vorgaben'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Umfang statistischer Ergebnisse'
               -
                 type: set
                 attrs:
@@ -2723,7 +2732,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649699233
+updated_at: 1649701413
 template: default
 use_meta_keywords: false
 no_index_page: false
