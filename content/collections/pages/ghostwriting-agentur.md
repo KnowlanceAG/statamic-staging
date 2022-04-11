@@ -284,12 +284,13 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
+    is-full: true
     bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
     enabled: true
+    bg-color: '#F7F7F7'
   -
     columns-replicator:
       -
@@ -1780,7 +1781,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649681516
+updated_at: 1649685718
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
