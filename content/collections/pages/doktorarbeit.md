@@ -270,7 +270,33 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: '. Aufgrund seiner Erfahrungen und fachlichen Kenntnisse in seinem Fachbereich, ist es möglich, ihn ohne aufwendige Einarbeitungszeit '
+                    text: '. Aufgrund seiner Erfahrungen und fachlichen Kenntnisse in seinem Fachbereich, ist es möglich, ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' ohne aufwendige Einarbeitungszeit '
                   -
                     type: text
                     marks:
@@ -2712,7 +2738,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649688705
+updated_at: 1649693596
 template: default
 use_meta_keywords: false
 no_index_page: false
