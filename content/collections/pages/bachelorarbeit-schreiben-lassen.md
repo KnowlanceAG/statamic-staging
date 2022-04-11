@@ -425,78 +425,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '20'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere Leistungen im Überblick'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: leistungen_uebersicht_4-spaltig
-                    grid:
-                      -
-                        image:
-                          - logo-startseite/icon-ghostwriting.svg
-                        headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre wissenschaftliche Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-                        link:
-                          - 0328a685-5f37-4f91-bd4b-79c53adaea8d
-                      -
-                        image:
-                          - logo-startseite/icon-lektorat.svg
-                        headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
-                        link:
-                          - 659e7e81-6d07-4eea-9ef2-325e72618036
-                      -
-                        image:
-                          - leistung/icons/search-book.png
-                        headline: 'MAXQDA AUSWERTUNG'
-                        hover_content: 'Unsere erfahrenen Experten führen Ihre qualitative Inhaltsanalyse mittels einer professionellen MAXQDA Auswertung durch.'
-                        link:
-                          - dafbcd3b-fd08-4c5b-94be-f2a80c140953
-                      -
-                        image:
-                          - leistung/icons/hat.svg
-                        headline: PROMOTIONSBERATUNG
-                        hover_content: 'Verlassen Sie sich auf unsere umfassende und seriöse Promotionsberatung und führen Sie Ihre Promotion zum Erfolg.'
-                        link: null
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -523,6 +451,28 @@ replicator:
                     custom-svg-width: '65'
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Datenschutz & 100% Anonymität'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'garantieren Ihre Anonymität '
+                  -
+                    type: text
+                    text: 'zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
             show_as_card: false
           -
             bard:
@@ -535,6 +485,25 @@ replicator:
                     custom-svg-width: '65'
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Kostenlose Änderung nach Ihrem Feedback'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir passen Ihre Ausarbeitung gemäß Ihrer Wünsche und Anmerkungen ohne lange Diskussionen an - und zwar unbegrenzt, bis '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Sie zufrieden sind!'
             show_as_card: false
           -
             bard:
@@ -547,6 +516,37 @@ replicator:
                     custom-svg-width: '65'
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Schnelle & pünktliche Lieferung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'garantieren die pünktliche Lieferung'
+                  -
+                    type: text
+                    text: ' Ihrer Ausarbeitung! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
             show_as_card: false
           -
             bard:
@@ -559,6 +559,28 @@ replicator:
                     custom-svg-width: '65'
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Top-Qualität von akademischen Experten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Akademischen Experten die selbst als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Doktoren & Professoren'
+                  -
+                    type: text
+                    text: ' beschäftigt sind, erstellen Ihre Mustervorlage. So garantieren wir die Qualität Ihrer Ausarbeitung von Beginn an.'
             show_as_card: false
         type: row
         enabled: true
@@ -2592,7 +2614,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649676461
+updated_at: 1649678141
 template: default
 use_meta_keywords: false
 no_index_page: false
