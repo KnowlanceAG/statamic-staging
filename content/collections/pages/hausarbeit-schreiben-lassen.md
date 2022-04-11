@@ -245,7 +245,22 @@ replicator:
                     text: 'Mustervorlage für ihre wissenschaftliche Hausarbeit schreiben lassen'
                   -
                     type: text
-                    text: '? Bereits zu Beginn Ihrer wissenschaftlichen Arbeit, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, der Gliederung oder dem Exposé, können Sie sich Hilfe holen indem Sie eine '
+                    text: '? Bereits zu Beginn Ihrer wissenschaftlichen Arbeit, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, der Gliederung oder dem Exposé, können Sie sich durch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: ' Hilfe holen indem Sie eine '
                   -
                     type: text
                     marks:
@@ -582,7 +597,25 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie Unterstützung durch einen Hausarbeit Ghostwriter benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine unverbindliche Anfrage schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+                    text: 'Wenn Sie Unterstützung durch einen Hausarbeit Ghostwriter benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
             show_as_card: false
         type: row
         enabled: true
@@ -2092,7 +2125,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649688634
+updated_at: 1649693576
 template: default
 use_meta_keywords: false
 no_index_page: false
