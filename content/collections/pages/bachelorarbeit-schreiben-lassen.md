@@ -65,7 +65,7 @@ teaser:
           -
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
-            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+            tooltip_infotext: 'Die Mustervorlage für Ihre Arbeit wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
@@ -255,7 +255,7 @@ replicator:
                     text: 'seine Erfahrungen und fachlichen Kenntnisse Studenten professionell unterstützen'
                   -
                     type: text
-                    text: '. Dies kann direkt zu Beginn der Bearbeitung geschehen. Bei der Themenauswahl, Literaturrecherche, dem Aufbau einer Bachelorarbeit (Einleitung, Hauptteil, Fazit) sowie dessen Gliederung (Kapitel, Unterkapitel) und Exposé.'
+                    text: '. Dies kann direkt zu Beginn der Bearbeitung geschehen. Bei der Themenauswahl, Literaturrecherche, dem Aufbau einer Bachelor Thesis (Einleitung, Hauptteil, Fazit) sowie dessen Gliederung (Kapitel, Unterkapitel) und Exposé.'
               -
                 type: paragraph
                 content:
@@ -1355,7 +1355,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Dessen Abschluss wird erreicht, indem Hochschulen von ihren Studenten eine '
+                    text: 'Dessen Abschluss wird erreicht, indem Hochschulen von ihren Studenten eine Arbeit in Form einer '
                   -
                     type: text
                     marks:
@@ -1402,7 +1402,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Anfertigen einer Bachelorarbeit'
+                    text: 'Anfertigen einer schriftlichen Arbeit'
                   -
                     type: text
                     text: ' sowie eine mündliche Prüfung sind erforderlich.'
@@ -2694,7 +2694,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649693587
+updated_at: 1649695285
 template: default
 use_meta_keywords: false
 no_index_page: false
