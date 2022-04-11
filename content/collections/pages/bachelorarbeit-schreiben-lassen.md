@@ -678,7 +678,25 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Unterstützung oder akademisches Ghostwriting benötigen, dann senden Sie uns eine '
+                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Unterstützung oder akademisches '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' benötigen, dann senden Sie uns eine '
                   -
                     type: text
                     marks:
@@ -2676,7 +2694,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649688670
+updated_at: 1649693587
 template: default
 use_meta_keywords: false
 no_index_page: false
