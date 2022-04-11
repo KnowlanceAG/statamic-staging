@@ -531,7 +531,7 @@ replicator:
                 attrs:
                   values:
                     type: custom-svg-width
-                    svg_file: leistung/icons/reload.svg
+                    svg_file: leistung/icons/file_reload.svg
                     custom-svg-width: '65'
               -
                 type: paragraph
@@ -555,7 +555,7 @@ replicator:
                 attrs:
                   values:
                     type: custom-svg-width
-                    svg_file: leistung/icons/hat.svg
+                    svg_file: leistung/icons/magistrate.svg
                     custom-svg-width: '65'
               -
                 type: paragraph
@@ -2592,7 +2592,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649674818
+updated_at: 1649676337
 template: default
 use_meta_keywords: false
 no_index_page: false
