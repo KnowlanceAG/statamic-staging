@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649072290
+updated_at: 1649681523
 replicator:
   -
     columns-replicator:
@@ -809,6 +809,235 @@ replicator:
     enabled: true
   -
     columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Garantien für Sie'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '15'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '4'
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: leistung/icons/security.svg
+                    custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Datenschutz & 100% Anonymität'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'garantieren Ihre Anonymität '
+                  -
+                    type: text
+                    text: 'zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: leistung/icons/icon-kostenloses-feedback.svg
+                    custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Kostenlose Änderung nach Ihrem Feedback'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir passen Ihre Ausarbeitung gemäß Ihrer Wünsche und Anmerkungen ohne lange Diskussionen an - und zwar unbegrenzt, bis '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Sie zufrieden sind!'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: stopwatch.svg
+                    custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Schnelle & pünktliche Lieferung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'garantieren die pünktliche Lieferung'
+                  -
+                    type: text
+                    text: ' Ihrer Ausarbeitung! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: leistung/icons/magistrate.svg
+                    custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Top-Qualität von Experten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Akademischen Experten die sonst als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Doktoren & Professoren'
+                  -
+                    type: text
+                    text: ' arbeiten, erstellen Ihre Mustervorlage. So garantieren wir die Qualität Ihrer Ausarbeitung.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: false
+        type: row
+        enabled: true
       -
         responsive_columns: 1
         columns_per_row: 1
