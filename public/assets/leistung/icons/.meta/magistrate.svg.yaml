@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Doktoren und Professoren'
 size: 6945
 last_modified: 1649676330
 width: 512.0
