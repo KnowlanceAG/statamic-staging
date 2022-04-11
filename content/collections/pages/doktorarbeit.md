@@ -384,26 +384,7 @@ replicator:
         single-col: true
         grid:
           -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Promotionsberatung als Alternative'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: img-text-ce
-                    bild:
-                      - leistung/icons/hat.png
-                    vertical_alignment-img: self-center
-                    text: "Nicht selten werden auch Dienstleistungen wie die sog. [Promotionsberatung](/promotionsberatung) in Anspruch genommen. Zudem verschaffen sich einige Doktoranden umfassende Hilfe, indem sie Mustervorlagen von einen\_[Ghostwriter](/ghostwriter)\_für ihre Doktorarbeit schreiben lassen und diese Ghostwriter-Doktorarbeit als Vorlage für ihre eigene Schreibarbeit nutzen."
-                    vertical_alignment-text: self-start
-                    reverse-columns: text-bild
+            bard: null
             show_as_card: false
         type: row
         enabled: true
@@ -763,7 +744,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -812,6 +793,31 @@ replicator:
                   -
                     type: text
                     text: 'Auch als Betreuer bei der Definition der Problemlage oder wissenschaftlichen Fragestellungen Ihrer Dissertation stehen Ihnen unsere akademischen Ghostwriter zur Verfügung. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Promotionsberatung als Alternative'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
+                    bild:
+                      - leistung/icons/hat.png
+                    vertical_alignment-img: self-center
+                    text: 'Nicht selten werden auch Dienstleistungen wie die sog. [Promotionsberatung](/promotionsberatung) in Anspruch genommen. Zudem verschaffen sich einige Doktoranden umfassende Hilfe, indem sie Mustervorlagen von einen&nbsp;[Ghostwriter](/ghostwriter)&nbsp;für ihre Doktorarbeit schreiben lassen und diese Ghostwriter-Doktorarbeit als Vorlage für ihre eigene Schreibarbeit nutzen.'
+                    vertical_alignment-text: self-start
+                    reverse-columns: text-bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
               -
                 type: paragraph
                 content:
@@ -2706,7 +2712,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649681608
+updated_at: 1649681961
 template: default
 use_meta_keywords: false
 no_index_page: false
