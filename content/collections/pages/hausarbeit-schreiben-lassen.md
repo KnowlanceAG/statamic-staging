@@ -838,7 +838,7 @@ replicator:
                             text: 'Wir lösen Schreibblockaden'
                           -
                             type: text
-                            text: ' bei fehlender Unterstützung durch Betreuer & Professoren sowie knappen Deadlines '
+                            text: ' bei fehlender Unterstützung durch Betreuer & Professoren sowie knappen Deadlines'
                   -
                     type: list_item
                     content:
@@ -856,7 +856,7 @@ replicator:
                             text: Hausarbeit
                           -
                             type: text
-                            text: ' während der Klausurphase und bei mehreren Abgaben'
+                            text: ' während der Klausurphase und bei mehreren Abgaben, so vermeiden wir Stress und Druck bei Ihnen'
                   -
                     type: list_item
                     content:
@@ -886,7 +886,7 @@ replicator:
                             text: 'Akademische Ghostwriter'
                           -
                             type: text
-                            text: ' helfen nicht nur im Schreibprozess, sondern auch bei der Literaturrecherche oder der Forschungsfrage.'
+                            text: ' helfen nicht nur im Schreibprozess, sondern auch bei der Literaturrecherche, der Forschungsfrage oder geben Tipps und Erklärungen zur Prüfung Ihrer Argumentation.'
                           -
                             type: hard_break
             show_as_card: false
@@ -1251,13 +1251,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In einigen Fachbereichen, wie der Medizin, Biologie und Chemie, wird zusätzlich zum schriftlichen Teil oftmals die Durchführung einer Untersuchung oder eines Experiments erwartet. '
+                    text: 'In einigen Fachbereichen, wie der Medizin, Biologie und Chemie, wird zusätzlich zum schriftlichen Teil oftmals die Durchführung einer Untersuchung oder eines Experiments erwartet. Gerne geben wir Ihnen auch hier Tipps zur Gestaltung dieser.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die Zitierweise, Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich '
+                    text: 'Die Zitierweise, Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle oder Professoren vorgegeben, allerdings haben sich '
                   -
                     type: text
                     marks:
@@ -2189,7 +2189,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649770760
+updated_at: 1649771356
 template: default
 use_meta_keywords: false
 no_index_page: false
