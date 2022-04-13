@@ -230,5 +230,6 @@ return [
 
   ],
 
-  'google_tracking' => env('GOOGLE_TRACKING', false)
+  'google_tracking' => env('GOOGLE_TRACKING', false),
+  'facebook_tracking' => env('FACEBOOK_TRACKING', false),
 ];
