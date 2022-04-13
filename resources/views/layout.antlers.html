@@ -20,6 +20,7 @@
     <title>
       {{ page_title }}
     </title>
+
   {{ elseif author_slug }}
     {{ users slug:is="{author_slug}" }}
       <title>
@@ -27,6 +28,7 @@
       </title>
       <meta name="description" content="{{ short_text | strip_tags }}" />
     {{ /users }}
+
   {{ else }}
     <title>GWriters •
       {{ title ?? site:name }}
@@ -58,12 +60,15 @@
       {{ if canonical_url }}
         <link rel="canonical" href="{{ canonical_url }}">
         <meta property="og:url" content="{{ canonical_url }}">
+
       {{ elseif current_uri | starts_with:/presse }}
         <link rel="canonical" href="{{ current_url }}">
         <meta property="og:url" content="{{ current_url }}">
+
       {{ elseif current_uri | starts_with:/blog }}
         <link rel="canonical" href="{{ current_url }}">
         <meta property="og:url" content="{{ current_url }}">
+
       {{ else }}
         <!-- purely generated -->
         <link rel="canonical" href="{{ aardvark-seo:generated_canonical }}">
@@ -115,7 +120,7 @@
 </head>
 
 <body
-  class="{{ if id=="home" }}{{ id }}{{ /if }}{{ segment_1 }} bg-white leading-normal text-black pt-24 body {{ template }} w-screen">
+  class="{{ if id == "home" }}{{ id }}{{ /if }}{{ segment_1 }} bg-white leading-normal text-black pt-24 body {{ template }} w-screen">
   {{ aardvark-seo:body }}
 
   {{ partial src="partials/header" }}
