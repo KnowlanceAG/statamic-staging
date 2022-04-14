@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'bwl logistik'
+  caption: 'Anteil der Studenten, die Logistik studieren (Quelle: Statista, 2021)'
 size: 15934
 last_modified: 1649891359
 width: 854
