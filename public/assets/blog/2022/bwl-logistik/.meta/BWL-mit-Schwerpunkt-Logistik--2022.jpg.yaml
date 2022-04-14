@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Logsitikmanagement bwl'
 size: 42017
 last_modified: 1649894859
 width: 886
