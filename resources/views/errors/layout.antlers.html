@@ -16,7 +16,7 @@
     <title>
       {{ page_title }}
     </title>
-
+  
   {{ elseif author_slug }}
     {{ users slug:is="{author_slug}" }}
       <title>
@@ -24,7 +24,7 @@
       </title>
       <meta name="description" content="{{ short_text | strip_tags }}" />
     {{ /users }}
-
+  
   {{ else }}
     <title>GWriters •
       {{ title ?? site:name }}
