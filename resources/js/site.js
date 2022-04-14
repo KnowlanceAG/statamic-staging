@@ -247,7 +247,8 @@ function cookienotice () {
               toggle: {
                 value: 'analytics',
                 enabled: false,
-                readonly: false
+                readonly: false,
+                reload: 'on_disable'
               },
               cookie_table: [
                 {
@@ -264,6 +265,21 @@ function cookienotice () {
                   col1: '_gid',
                   col2: 'gwriters.de',
                   col3: 'Google Analytics - to store and count pageviews.'
+                },
+                {
+                  col1: '_fbp',
+                  col2: 'gwriters.de',
+                  col3: 'Meta Pixel - to store and count conversions.'
+                },
+                {
+                  col1: 'fbc',
+                  col2: 'gwriters.de',
+                  col3: 'Meta Pixel - to store and count conversions.'
+                },
+                {
+                  col1: 'fr',
+                  col2: 'gwriters.de',
+                  col3: 'Meta Pixel - to store and count conversions.'
                 }
               ]
             }
