@@ -270,7 +270,33 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: '. Aufgrund seiner Erfahrungen und fachlichen Kenntnisse in seinem Fachbereich, ist es möglich, ihn ohne aufwendige Einarbeitungszeit '
+                    text: '. Aufgrund seiner Erfahrungen und fachlichen Kenntnisse in seinem Fachbereich, ist es möglich, ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' ohne aufwendige Einarbeitungszeit '
                   -
                     type: text
                     marks:
@@ -378,265 +404,248 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: '3'
-        single-col: false
+        columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard: null
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: true
         grid:
           -
             bard:
               -
-                type: set
+                type: heading
                 attrs:
-                  values:
-                    type: floating-img
-                    dateien:
-                      - leistung/icons/icon-lektorat_old.png
-                    img_size: w-1/2
-                    float: mx-auto
-                    image_options:
-                      - no_upscale
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Garantien für Sie'
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
                     padding-y: '15'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Mit Leistungen wie dem '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: Lektorat
-                  -
-                    type: text
-                    text: ' und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'dem Korrektorat der Dissertation, die bereits durch den Sie fertiggestellt wurde, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'geben unserer Experten Ihrer Arbeit den letzten Schliff'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: '. Die Korrekturen in der Arbeit dienen dazu, grammatikalische und syntaktische Fehler zu vermeiden sowie korrekte Sätze zu formulieren. Auch sollten Sie als Studierende und Doktoranden den Text von einem '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Fachautoren lektorieren lassen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', um den Textinhalt auf Korrektheit zu überprüfen.'
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating-img
-                    dateien:
-                      - leistung/icons/icon-plagiat.png
-                    img_size: w-1/2
-                    float: mx-auto
-                    image_options:
-                      - no_upscale
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '15'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Abschließend kann eine umfassende '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: Plagiatsprüfung
-                  -
-                    type: text
-                    text: ' erfolgen, um mögliche '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Flüchtigkeitsfehler bei Zitaten zu erkennen und den ordnungsgemäßen Umgang mit Quellen sicherzustellen'
-                  -
-                    type: text
-                    text: '. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Oft geschieht dieser Fehler während der Literaturrecherche, denn viele Studierende möchten sich die Arbeit erleichtern und Zitationen schnell unterbringen.'
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating-img
-                    dateien:
-                      - leistung/icons/hat.png
-                    img_size: w-1/2
-                    float: mx-auto
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Nicht selten werden auch Dienstleistungen wie die sog. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /promotionsberatung
-                          target: null
-                          rel: null
-                    text: Promotionsberatung
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: " in Anspruch genommen. Zudem verschaffen sich einige Doktoranden umfassende Hilfe, indem sie Mustervorlagen von einen\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: null
-                          rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: "\_für ihre "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Doktorarbeit schreiben lassen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' und diese Ghostwriter-Doktorarbeit als Vorlage für ihre eigene Schreibarbeit nutzen.'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is-full: true
+      -
+        responsive_columns: 1
+        columns_per_row: '4'
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: leistung/icons/security.svg
+                    custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Datenschutz & 100% Anonymität'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'garantieren Ihre Anonymität '
+                  -
+                    type: text
+                    text: 'zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: leistung/icons/icon-kostenloses-feedback.svg
+                    custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Kostenlose Änderung nach Ihrem Feedback'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir passen Ihre Ausarbeitung gemäß Ihrer Wünsche und Anmerkungen ohne lange Diskussionen an - und zwar unbegrenzt, bis '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Sie zufrieden sind!'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: leistung/icons/stopwatch.svg
+                    custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Schnelle & pünktliche Lieferung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'garantieren die pünktliche Lieferung'
+                  -
+                    type: text
+                    text: ' Ihrer Ausarbeitung! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: leistung/icons/magistrate.svg
+                    custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Top-Qualität von Experten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Akademischen Experten die sonst als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Doktoren & Professoren'
+                  -
+                    type: text
+                    text: ' arbeiten, erstellen Ihre Mustervorlage. So garantieren wir die Qualität Ihrer Ausarbeitung.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
     bg-toggle: false
-    bg-color: '#F9F9F9'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -761,7 +770,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -810,6 +819,31 @@ replicator:
                   -
                     type: text
                     text: 'Auch als Betreuer bei der Definition der Problemlage oder wissenschaftlichen Fragestellungen Ihrer Dissertation stehen Ihnen unsere akademischen Ghostwriter zur Verfügung. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Promotionsberatung als Alternative'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img-text-ce
+                    bild:
+                      - leistung/icons/hat.png
+                    vertical_alignment-img: self-center
+                    text: 'Nicht selten werden auch Dienstleistungen wie die sog. [Promotionsberatung](/promotionsberatung) in Anspruch genommen. Zudem verschaffen sich einige Doktoranden umfassende Hilfe, indem sie Mustervorlagen von einen&nbsp;[Ghostwriter](/ghostwriter)&nbsp;für ihre Doktorarbeit schreiben lassen und diese Ghostwriter-Doktorarbeit als Vorlage für ihre eigene Schreibarbeit nutzen.'
+                    vertical_alignment-text: self-start
+                    reverse-columns: text-bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '30'
               -
                 type: paragraph
                 content:
@@ -2704,7 +2738,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646933695
+updated_at: 1649693596
 template: default
 use_meta_keywords: false
 no_index_page: false

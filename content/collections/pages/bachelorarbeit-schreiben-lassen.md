@@ -65,7 +65,7 @@ teaser:
           -
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
-            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+            tooltip_infotext: 'Die Mustervorlage für Ihre Arbeit wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
@@ -101,7 +101,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Bei GWriters finden Sie exakt den <b>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten von einem Ghostwriter eine Bachelorarbeit als Mustervorlage für Ihre Bachelorarbeit schreiben lassen? Dann wenden Sie sich an einen kompetenten Partner und sichern sich so Ihren Erfolg! Unsere seriöse Ghostwriting Agentur arbeitet ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren.
+                      Bei GWriters finden Sie exakt den <b>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten von einem Ghostwriter eine Arbeit als Mustervorlage für Ihre Bachelorarbeit schreiben lassen? Dann wenden Sie sich an einen kompetenten Partner und sichern sich so Ihren Erfolg! Unsere seriöse Ghostwriting Agentur arbeitet ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren als Autoren.
                       </p>
               -
                 type: set
@@ -252,10 +252,10 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'seine Erfahrungen und fachlichen Kenntnisse Studenten professionell unterstützen'
+                    text: 'seine Erfahrungen und fachlichen Kenntnisse Studenten professionell wie ein Betreuer von der Universität unterstützen'
                   -
                     type: text
-                    text: '. Dies kann direkt zu Beginn der Bearbeitung geschehen. Bei der Themenauswahl, Literaturrecherche, dem Aufbau einer Bachelorarbeit (Einleitung, Hauptteil, Fazit) sowie dessen Gliederung (Kapitel, Unterkapitel) und Exposé.'
+                    text: '. Dies kann direkt zu Beginn der Bearbeitung geschehen. Bei der Themenauswahl, Literaturrecherche, dem Aufbau einer Bachelor Thesis (Einleitung, Hauptteil, Fazit) sowie dessen Gliederung (Kapitel, Unterkapitel) und Exposé liefern Ghostwriter wichtige Hilfestellungen.'
               -
                 type: paragraph
                 content:
@@ -287,7 +287,16 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: '. Diese Ghostwriter-Bachelorarbeit können Sie dann als Vorlage für die eigene akademische Arbeit nutzen.'
+                    text: '. Diese Ghostwriter-Bachelorarbeit können Sie dann als Vorlagenutzen, wenn Sie Ihre eigene akademische Arbeit verfassen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wir wissen um Ihre hohen Anforderungen und Erwartungen, daher arbeiten wir garantiert nur mit den besten wissenschaftlichen Autoren!'
               -
                 type: paragraph
                 content:
@@ -319,7 +328,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' den aktuellen Forschungsstand zu vielen Themenstellungen und haben auf alle relevanten Datenbanken Zugriff. Durch Ihre Erfahrung als '
+                    text: ' den aktuellen Forschungsstand zu vielen Themenstellungen und haben als Autoren auf alle relevanten Datenbanken Zugriff. Durch Ihre Erfahrung als '
                   -
                     type: text
                     marks:
@@ -339,7 +348,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' können diese wissenschaftliche Quellen und Daten für Ihre Forschungsfrage finden und zusammenführen'
+                    text: ' aus der Forschung können diese wissenschaftliche Quellen, Informationen und Daten für Ihre Forschungsfrage finden, korrekt zusammenführen und daraus eine Gliederung entwickeln'
                   -
                     type: text
                     text: '. '
@@ -348,7 +357,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Eine weitere Option bietet das'
+                    text: 'Einen weiteren Vorteil bietet Ihnen das'
                   -
                     type: text
                     marks:
@@ -358,6 +367,8 @@ replicator:
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
                       -
                         type: link
                         attrs:
@@ -379,7 +390,16 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: ' Korrektorat'
+                    text: ' Korrektorat '
+                  -
+                    type: text
+                    text: 'sowie die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Formatierung
                   -
                     type: text
                     text: ' der Bachelorarbeit, die bereits von Ihnen fertiggestellt wurde. Anschließend kann eine umfassende '
@@ -395,7 +415,7 @@ replicator:
                     text: Plagiatsprüfung
                   -
                     type: text
-                    text: ' erfolgen. Es ist ebenfalls möglich, dass eine '
+                    text: ' erfolgen, deren Ergebnisse Sie für Ihren Feinschliff nutzen können. Es ist ebenfalls möglich, dass eine '
                   -
                     type: text
                     marks:
@@ -413,7 +433,7 @@ replicator:
                     text: ' '
                   -
                     type: text
-                    text: 'Alternativ können Sie während des gesamten Ablaufs Ihrer Bachelorarbeit auch ein professionelles Coaching anfordern.'
+                    text: 'Alternativ können Sie während des gesamten Ablaufs Ihrer Bachelor Thesis auch ein professionelles Coaching oder Unterstützung bei der Recherche anfordern.'
             show_as_card: false
         type: row
         enabled: true
@@ -425,52 +445,218 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '20'
-              -
                 type: heading
                 attrs:
                   level: 2
                 content:
                   -
                     type: text
-                    text: 'Unsere Leistungen im Überblick'
+                    text: 'Unsere Garantien für Sie'
               -
                 type: set
                 attrs:
                   values:
-                    type: leistungen_uebersicht_4-spaltig
-                    grid:
+                    type: spacer
+                    padding-y: '15'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '4'
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: leistung/icons/security.svg
+                    custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
                       -
-                        image:
-                          - logo-startseite/icon-ghostwriting.svg
-                        headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre wissenschaftliche Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-                        link:
-                          - 0328a685-5f37-4f91-bd4b-79c53adaea8d
+                        type: bold
+                    text: 'Datenschutz & 100% Anonymität'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir '
+                  -
+                    type: text
+                    marks:
                       -
-                        image:
-                          - logo-startseite/icon-lektorat.svg
-                        headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
-                        link:
-                          - 659e7e81-6d07-4eea-9ef2-325e72618036
+                        type: bold
+                    text: 'garantieren Ihre Anonymität '
+                  -
+                    type: text
+                    text: 'zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: leistung/icons/icon-kostenloses-feedback.svg
+                    custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
                       -
-                        image:
-                          - leistung/icons/search-book.png
-                        headline: 'MAXQDA AUSWERTUNG'
-                        hover_content: 'Unsere erfahrenen Experten führen Ihre qualitative Inhaltsanalyse mittels einer professionellen MAXQDA Auswertung durch.'
-                        link:
-                          - dafbcd3b-fd08-4c5b-94be-f2a80c140953
+                        type: bold
+                    text: 'Kostenlose Änderung nach Ihrem Feedback'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir passen Ihre Ausarbeitung gemäß Ihrer Wünsche und Anmerkungen ohne lange Diskussionen an - und zwar unbegrenzt, bis '
+                  -
+                    type: text
+                    marks:
                       -
-                        image:
-                          - leistung/icons/hat.svg
-                        headline: PROMOTIONSBERATUNG
-                        hover_content: 'Verlassen Sie sich auf unsere umfassende und seriöse Promotionsberatung und führen Sie Ihre Promotion zum Erfolg.'
-                        link: null
+                        type: bold
+                    text: 'Sie zufrieden sind!'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: leistung/icons/stopwatch.svg
+                    custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Schnelle & pünktliche Lieferung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'garantieren die pünktliche Lieferung'
+                  -
+                    type: text
+                    text: ' Ihrer Ausarbeitung! Wir liefern Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: leistung/icons/magistrate.svg
+                    custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Top-Qualität von Experten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Akademischen Experten die sonst als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Doktoren & Professoren'
+                  -
+                    type: text
+                    text: ' arbeiten, verfassen Ihre Mustervorlage. So garantieren wir die richtige Qualität Ihrer Ausarbeitung.'
               -
                 type: set
                 attrs:
@@ -512,7 +698,25 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Unterstützung oder akademisches Ghostwriting benötigen, dann senden Sie uns eine '
+                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Unterstützung oder akademisches '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' benötigen, dann senden Sie uns eine '
                   -
                     type: text
                     marks:
@@ -530,7 +734,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot bei Ihnen zurück. Auch rufen wir Sie gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot und allen wichtigen Informationen bei Ihnen zurück. Auch rufen wir Sie gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
             show_as_card: false
         type: row
         enabled: true
@@ -617,7 +821,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Niemand möchte bei ohnehin schon kurzen Bearbeitungszeiten mit der Frage „Wie schreibe ich eine Bachelorarbeit?” wertvolle Bearbeitungszeit verlieren und Zeitdruck bekommen. Daher wenden sich einige Studenten an akademische Freelancer und '
+                    text: 'Niemand möchte bei ohnehin schon kurzen Bearbeitungszeiten mit der Frage „Wie schreibe ich eine Bachelorarbeit?” wertvolle Bearbeitungszeit verlieren und Zeitdruck bekommen. Daher wenden sich viele Studenten schon vor dem Verfassen der Einleitung an akademische Freelancer und Autoren wie '
                   -
                     type: text
                     marks:
@@ -626,13 +830,13 @@ replicator:
                     text: 'professionelle wissenschaftliche Ghostwriter'
                   -
                     type: text
-                    text: '. '
+                    text: ', um sich einen Vorteil zu sichern. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Sie können sich helfen lassen, indem Sie Ihre Arbeit von einem akademischen Lektor bzw. Wissenschaftslektor kontrollieren lassen. Anschließend helfen diese Ihnen auch mit einem Plagiatscheck, um Ihren Text plagiatsfrei fertigzustellen. Auch können diese vorab eine '
+                    text: 'Sie können sich helfen lassen, indem Sie Ihre Arbeit von einem akademischen Lektor bzw. Wissenschaftslektor kontrollieren lassen. Anschließend helfen diese Ihnen auch mit einem Plagiatscheck, um Ihren Text plagiatsfrei liefern zu können. Ein Vorteil ist auch, dass diese vorab eine '
                   -
                     type: text
                     marks:
@@ -650,7 +854,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: '-Bachelorarbeit als Mustervorlage anfertigen'
+                    text: '-Bachelorarbeit als Mustervorlage verfassen'
                   -
                     type: text
                     text: .
@@ -659,31 +863,40 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen '
+                    text: 'Bei uns finden Sie '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'hervorragende fachliche Kompetenzen und methodische Erfahrung'
+                    text: 'garantiert den richtigen und besten Experten für Ihr Projekt'
                   -
                     type: text
-                    text: ' im Hinblick auf wissenschaftliches Arbeiten vor. Daher können diese Ihnen bei Ihrer Bachelorarbeit Hilfe in verschiedenen Formen, individuell abgestimmt auf Ihre Bedürfnisse bieten.'
+                    text: ' - alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'hervorragende fachliche Kompetenzen als Autoren und methodische Erfahrung'
+                  -
+                    type: text
+                    text: ' im Hinblick auf wissenschaftliches Arbeiten und Literatur vor. Daher können diese Ihnen bei Ihrer Bachelor Thesis Hilfe in verschiedenen Formen, individuell abgestimmt auf Ihre Bedürfnisse bieten.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Zu jeder Fragestellung während des Schreibprozesses einer Bachelor Thesis stehen Ihnen unsere akademischen Autoren zur Verfügung. '
+                    text: 'Zu jeder Fragestellung während des Schreibprozesses stehen Ihnen unsere akademischen Autoren zur Verfügung. '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Unser Schreibservice kooperiert mit erfahrenen Professoren und Doktoren'
+                    text: 'Unser Schreibservice kooperiert zu Ihrem Vorteil mit erfahrenen Professoren und Doktoren'
                   -
                     type: text
-                    text: ". Diese unterstützen Sie bei der Anwendung Ihrer Forschungsmethode, ob es um eine\_Fallanalyse, ein\_Experteninterview\_oder eine\_Methodenanwendung\_handelt. Rund um alle Bachelorthemen bietet unsere Ghostwriting-Agentur professionelle Unterstützung an."
+                    text: ". Diese sind oft noch selbst in der Forschung aktiv und unterstützen Sie bei der Anwendung Ihrer Forschungsmethode, ob es um eine\_Fallanalyse, ein\_Experteninterview\_oder eine\_Methodenanwendung\_handelt. Rund um alle Bachelorthemen bietet unsere Ghostwriting-Agentur professionelle Unterstützung und individuelle Vorteile für Sie an."
             show_as_card: false
         type: row
         enabled: true
@@ -741,7 +954,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Das Coaching kann sowohl in Form von Textteilen Ergänzung/Überarbeitung als auch der '
+                    text: 'Das Coaching kann sowohl in Form von Textteilen wie der Einleitungen, Ergänzung und Überarbeitung als auch der '
                   -
                     type: text
                     marks:
@@ -750,7 +963,7 @@ replicator:
                     text: 'Beantwortung der wissenschaftlichen Fragestellungen'
                   -
                     type: text
-                    text: ' während des Schreibprozesses erfolgen.'
+                    text: ' während des Schreibprozesses erfolgen. Wir übernehmen auch gerne die Formatierung, die Korrektur oder das Lektorat für Sie.'
             show_as_card: false
           -
             bard:
@@ -832,7 +1045,7 @@ replicator:
                     ausrichtung: bild-text
                     text: |-
                       ### Abschlusslieferung & Qualitätsgarantie
-                      Sie erhalten die fertige Mustervorlage zu Ihrer Bachelorarbeit nach der Fertigstellung. Vor der Lieferung überprüft ein unabhängiger Fachlektor den gesamten Text im Rahmen unserer Qualitätssicherung. Dieser stammt aus dem jeweiligen Fachbereich und kontrolliert Sprachstil, Satzbau und Inhalt. Unser bewährtes 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Zudem nutzen wir die professionelle Software **Turnitin** für eine tiefgehende Plagiatsprüfung.
+                      Sie erhalten die fertige Mustervorlage zu Ihrer Bachelorarbeit nach der Fertigstellung. Vor der Lieferung überprüft ein unabhängiger Fachlektor den gesamten Text im Rahmen unserer Qualitätssicherung. Dieser stammt aus dem jeweiligen Fachbereich und kontrolliert Sprachstil, Satzbau und Inhalt. Unser bewährtes 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Zudem nutzen wir die professionelle Software **Turnitin** für eine tiefgehende Plagiatsprüfung und senden Ihnen die Ergebnisse der Prüfung.
               -
                 type: set
                 attrs:
@@ -843,7 +1056,7 @@ replicator:
                     ausrichtung: text-bild
                     text: |-
                       ### Kostenlose Änderungswünsche
-                      Sie erhalten von uns als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Bachelorarbeit. Diese ist garantiert frei von Plagiaten und von Experten auf Qualität geprüft. Falls Sie hierzu Änderungswünsche haben, setzen wir diese selbstverständlich kostenfrei um.
+                      Sie erhalten von uns als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Arbeit. Diese liefern wir garantiert frei von Plagiaten und von Experten auf Qualität geprüft. Falls Sie hierzu Änderungswünsche haben, setzt ihr Autor diese selbstverständlich kostenfrei um.
               -
                 type: paragraph
                 content:
@@ -1045,7 +1258,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Der Bachelorabschluss ist der erste akademische Grad, welcher innerhalb der EU und einigen englischsprachigen Ländern erreicht werden kann. Er wird mit der '
+                    text: 'Der Bachelorabschluss ist der erste akademische Grad, welcher innerhalb der EU und einigen englischsprachigen Ländern an Universitäten erreicht werden kann. Er wird mit der '
                   -
                     type: text
                     marks:
@@ -1063,13 +1276,13 @@ replicator:
                     text: 'Bachelor Thesis'
                   -
                     type: text
-                    text: ' genannt, abgeschlossen. Dabei handelt es sich um eine wissenschaftliche Arbeit, bei der der Student seine fachlichen Kompetenzen unter Beweis stellt.'
+                    text: ' genannt, abgeschlossen. Dabei handelt es sich um eine wissenschaftliche Arbeit, bei der der Student seine fachlichen Kompetenzen als wissenschaftlicher Autor unter Beweis stellt.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die Note der Bachelorarbeit beeinflusst die '
+                    text: 'Die Note beeinflusst die '
                   -
                     type: text
                     marks:
@@ -1078,7 +1291,7 @@ replicator:
                     text: 'Abschlussnote bis zu 20%'
                   -
                     type: text
-                    text: '. Ein erfolgreich abgeschlossenes Bachelorstudium bildet das Grundlagenstudium und ist die Voraussetzung für den Beginn eines Masterstudiums. Der sichere Einsatz von wissenschaftlichen Methoden ist dabei '
+                    text: '. Ein erfolgreich abgeschlossenes Bachelorstudium bildet das Grundlagenstudium und ist die Voraussetzung für den Beginn eines Masterstudiums. Der sichere Einsatz von wissenschaftlichen Methoden und eine tiefgehende Recherche nach Literatur sind dabei '
                   -
                     type: text
                     marks:
@@ -1093,7 +1306,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Als Unterstützung können sich Studierende eine Mustervorlage von einem Ghostwriter für ihre '
+                    text: 'Als Unterstützung können sich Studierende nicht nur an ihren Betreuer werden, sondern auch eine Mustervorlage von einem Ghostwriter für ihre '
                   -
                     type: text
                     marks:
@@ -1117,7 +1330,7 @@ replicator:
                     text: Ghostwriting-Bachelorarbeit
                   -
                     type: text
-                    text: ' sollte jedoch nur unterstützend sein. Das Werk eines Ghostwriters dürfen Sie nicht als eigenes ausgeben, sondern lediglich als Orientierungshilfe nutzen.'
+                    text: ' sollte jedoch nur unterstützend sein. Das Werk eines Ghostwriters dürfen Sie bei Ihrer Universität nicht als eigenes ausgeben, sondern lediglich als Orientierungshilfe nutzen.'
             show_as_card: true
         type: row
         enabled: true
@@ -1171,7 +1384,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Dessen Abschluss wird erreicht, indem Hochschulen von ihren Studenten eine '
+                    text: 'Dessen Abschluss wird erreicht, indem Hochschulen von ihren Studenten eine Arbeit in Form einer '
                   -
                     type: text
                     marks:
@@ -1218,10 +1431,10 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Anfertigen einer Bachelorarbeit'
+                    text: 'Anfertigen einer schriftlichen Arbeit'
                   -
                     type: text
-                    text: ' sowie eine mündliche Prüfung sind erforderlich.'
+                    text: ' sowie eine mündliche Prüfung zu wissenschaftlichen Themen sind erforderlich.'
               -
                 type: paragraph
                 content:
@@ -1242,7 +1455,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Nicht immer beendet man sein Bachelorstudium mit dieser Art von Examensarbeit. Die Konferenz der Kultusminister sieht allerdings vor, dass Lehrinstitute von '
+                    text: 'Nicht immer beendet man sein Bachelorstudium mit dieser Art von Examensarbeit. Die Konferenz der Kultusminister sieht allerdings vor, dass Universitäten und Lehrinstitute von '
                   -
                     type: text
                     marks:
@@ -1311,7 +1524,7 @@ replicator:
                       - seiten/arbeiten/bachelorarbeit-schreiben.jpg
                     ausrichtung: text-bild
                     text: |+
-                      Je nach Fachrichtung und Institution umfasst sie inklusive Inhaltsverzeichnis und Exposé 20-60 Seiten. Oft bestimmen Hochschule oder Dozenten die Anzahl der Wörter und den Aufbau der Bachelorarbeit. Neben Themenwahl und Literaturrecherche stehe auf der To Do Liste auch die Anwendung formaler Richtlinien.
+                      Je nach Fachrichtung und Institution umfasst sie inklusive Inhaltsverzeichnis und Exposé 20-60 Seiten. Oft bestimmen Hochschule oder Dozenten die Anzahl der Wörter und den Aufbau der Arbeit. Neben Themenwahl und Literaturrecherche stehe auf der To Do Liste auch die Anwendung formaler Richtlinien.
 
               -
                 type: paragraph
@@ -1327,7 +1540,7 @@ replicator:
                     text: 'Akademisches Ghostwriting ist eine Alternativ'
                   -
                     type: text
-                    text: 'e, denn Sie können sich von einem Ghostwriter eine Bachelorarbeit schreiben lassen, welche als Orientierungshilfe dient. Außerdem müssen Sie als Student nach Ansprechpartnern als Betreuer der Bachelorarbeit oder zum '
+                    text: 'e, denn Sie können sich von einem Ghostwriter eine Bachelor Thesis schreiben lassen, welche als Orientierungshilfe dient. Außerdem müssen Sie als Student nach Ansprechpartnern als Betreuer der Bachelorarbeit oder zum '
                   -
                     type: text
                     marks:
@@ -1340,7 +1553,7 @@ replicator:
                     text: Korrekturlesen
                   -
                     type: text
-                    text: ' suchen. Auch hier kann ein akademischer Ghostwriter als Berater Hilfestellung leisten.'
+                    text: ' suchen. Auch hier kann ein akademischer Berater Hilfestellung leisten und eine Korrektur übernehmen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1390,7 +1603,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'einige Hochschulgesetze als gängig erwiesen'
+                    text: 'einige Hochschulgesetze als gängig für die Formatierung erwiesen'
                   -
                     type: text
                     marks:
@@ -1399,7 +1612,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: '. Laut Prüfungsordnung:'
+                    text: '. Laut Prüfungsordnung wird Folgendes von den Betreuern vorausgesetzt:'
             show_as_card: false
         type: row
         enabled: true
@@ -1700,7 +1913,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Oft haben Studierende Schwierigkeiten beim Zitieren von Quellen, sowohl im Literaturverzeichnis noch in der Fußnote. Wie ein Zitat aufgebaut sein soll und welche Regeln hierbei gehalten werden müssen, erfahren Sie in einzelnen Etappen '
+                    text: 'Oft haben Studierende Schwierigkeiten beim Zitieren von Quellen, sowohl im Literaturverzeichnis als auch in den Fußnoten. Wie ein Zitat korrekt aufgebaut wird und welche Regeln hierbei eingehalten werden müssen, erfahren Sie in einzelnen Etappen '
                   -
                     type: text
                     marks:
@@ -1880,7 +2093,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die Kosten für das Schreiben lassen einer Bachelorarbeit werden bei unseren Ghostwritern von einigen Faktoren beeinflusst. Einen groben Überblick über unsere Kosten bietet Ihnen '
+                    text: 'Die Kosten für das Schreiben lassen einer Bachelorarbeit werden bei unseren Autoren von einigen Faktoren beeinflusst. Einen groben Überblick über unsere Kosten bietet Ihnen '
                   -
                     type: text
                     marks:
@@ -1967,6 +2180,15 @@ replicator:
                           -
                             type: text
                             text: 'weitere individuelle Vorgaben'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Umfang statistischer Ergebnisse'
               -
                 type: set
                 attrs:
@@ -2510,7 +2732,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646933692
+updated_at: 1649701523
 template: default
 use_meta_keywords: false
 no_index_page: false

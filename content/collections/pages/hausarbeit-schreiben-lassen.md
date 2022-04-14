@@ -236,7 +236,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Sind sie mit der Studien- und Privatplanung regelmäßig überfordert? Möchten Sie sich als Student eine '
+                    text: 'Sind sie mit der Studien- und Privatplanung regelmäßig überfordert? Möchten Sie sich als Student eon einem erfahrenen Autor eine '
                   -
                     type: text
                     marks:
@@ -245,7 +245,22 @@ replicator:
                     text: 'Mustervorlage für ihre wissenschaftliche Hausarbeit schreiben lassen'
                   -
                     type: text
-                    text: '? Bereits zu Beginn Ihrer wissenschaftlichen Arbeit, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, der Gliederung oder dem Exposé, können Sie sich Hilfe holen indem Sie eine '
+                    text: '? Bereits zu Beginn Ihrer wissenschaftlichen Arbeit, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, der Gliederung oder dem Exposé, können Sie sich durch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: ' Hilfe holen indem Sie eine '
                   -
                     type: text
                     marks:
@@ -260,7 +275,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Zudem können Sie einen Ghostwriter zur '
+                    text: 'Zudem können Sie einen Ghostwriter (dt.: Geisterschreiber) zur '
                   -
                     type: text
                     marks:
@@ -269,7 +284,7 @@ replicator:
                     text: 'Betreuung der Hausarbeit einzusetzen'
                   -
                     type: text
-                    text: ' und ihn während des gesamten Prozesses unterstützend agieren  lassen. Selbst wenn Sie sich dazu entscheiden eigenständig zu arbeiten, ist es ratsam, '
+                    text: ' und ihn während des gesamten Prozesses bei Ihren Aufgaben unterstützend agieren lassen. Selbst wenn Sie sich dazu entscheiden eigenständig zu arbeiten, ist es ratsam, '
                   -
                     type: text
                     marks:
@@ -278,28 +293,43 @@ replicator:
                     text: 'die Hausarbeit Korrekturlesen zu lassen'
                   -
                     type: text
-                    text: '. Neben dem Korrektorat und Lektorat der wissenschaftlichen Arbeit, kann zusätzlich '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'eine umfassende Plagiatsprüfung '
-                  -
-                    type: text
-                    text: 'mit Plagiatssoftware erfolgen. Wir nutzen hierfür die renommierte Software '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Turnitin.
+                    text: .
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ein professionelle Unterstützung durch einen '
+                    text: 'Neben dem Korrektorat und Lektorat der wissenschaftlichen Arbeit, können Sie auch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'eine umfassende Plagiatsprüfung von Ihrem Text und Literaturverzeichnis '
+                  -
+                    type: text
+                    text: 'mit Plagiatssoftware in Auftrag geben. Wir nutzen hierfür die renommierte Software '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Turnitin '
+                  -
+                    type: text
+                    text: 'und überprüfen damit die Einhaltung aller Vorgaben an Quellen und die Zitation'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: .
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Eine professionelle Unterstützung durch einen '
                   -
                     type: text
                     marks:
@@ -308,7 +338,7 @@ replicator:
                     text: 'Hausarbeit Ghostwriter'
                   -
                     type: text
-                    text: ' empfehlen wir Ihnen besonders zum Studienbeginn oder wenn eine '
+                    text: ' empfehlen wir Ihnen besonders zum Studienbeginn. Auch wenn eine '
                   -
                     type: text
                     marks:
@@ -317,7 +347,13 @@ replicator:
                     text: 'Hilfestellung bei der Hausarbeit'
                   -
                     type: text
-                    text: ' seitens der Betreuer, Professoren und Universitäten fehlt. So können Sie Flüchtigkeitsfehler beim Schreiben oder im Umgang mit wissenschaftlichen Quellen aufgrund mangelnder Erfahrung vermeiden.'
+                    text: ' seitens der Betreuer, Professoren und Universitäten fehlt und der Abgabetermin näher rückt, macht die Unterstützung durch ein Schreibbüro Sinn.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Mit unseren Dienstleistungen können Sie Flüchtigkeitsfehler beim Schreiben Ihres Textes oder im Umgang mit wissenschaftlichen Quellen aufgrund mangelnder Erfahrung vermeiden.'
             show_as_card: false
         type: row
         enabled: true
@@ -329,52 +365,218 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '20'
-              -
                 type: heading
                 attrs:
                   level: 2
                 content:
                   -
                     type: text
-                    text: 'Unsere Leistungen im Überblick'
+                    text: 'Unsere Garantien für Sie'
               -
                 type: set
                 attrs:
                   values:
-                    type: leistungen_uebersicht_4-spaltig
-                    grid:
+                    type: spacer
+                    padding-y: '15'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: '4'
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: leistung/icons/security.svg
+                    custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
                       -
-                        image:
-                          - logo-startseite/icon-ghostwriting.svg
-                        headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre wissenschaftliche Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-                        link:
-                          - 0328a685-5f37-4f91-bd4b-79c53adaea8d
+                        type: bold
+                    text: 'Datenschutz & 100% Anonymität'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir '
+                  -
+                    type: text
+                    marks:
                       -
-                        image:
-                          - logo-startseite/icon-lektorat.svg
-                        headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
-                        link:
-                          - 659e7e81-6d07-4eea-9ef2-325e72618036
+                        type: bold
+                    text: 'garantieren Ihre Anonymität '
+                  -
+                    type: text
+                    text: 'zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: leistung/icons/icon-kostenloses-feedback.svg
+                    custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
                       -
-                        image:
-                          - leistung/icons/search-book.png
-                        headline: 'MAXQDA AUSWERTUNG'
-                        hover_content: 'Unsere erfahrenen Experten führen Ihre qualitative Inhaltsanalyse mittels einer professionellen MAXQDA Auswertung durch.'
-                        link:
-                          - dafbcd3b-fd08-4c5b-94be-f2a80c140953
+                        type: bold
+                    text: 'Kostenlose Änderung nach Ihrem Feedback'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir passen Ihre Ausarbeitung gemäß Ihrer Wünsche und Anmerkungen ohne lange Diskussionen an - und zwar unbegrenzt, bis '
+                  -
+                    type: text
+                    marks:
                       -
-                        image:
-                          - leistung/icons/hat.svg
-                        headline: PROMOTIONSBERATUNG
-                        hover_content: 'Verlassen Sie sich auf unsere umfassende und seriöse Promotionsberatung und führen Sie Ihre Promotion zum Erfolg.'
-                        link: null
+                        type: bold
+                    text: 'Sie zufrieden sind!'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: leistung/icons/stopwatch.svg
+                    custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Schnelle & pünktliche Lieferung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'garantieren die pünktliche Lieferung'
+                  -
+                    type: text
+                    text: ' Ihrer Ausarbeitung! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom-svg-width
+                    svg_file: leistung/icons/magistrate.svg
+                    custom-svg-width: '65'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Top-Qualität von Experten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Akademischen Experten die sonst als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Doktoren & Professoren'
+                  -
+                    type: text
+                    text: ' arbeiten, erstellen Ihre Mustervorlage. So garantieren wir die Qualität Ihrer Ausarbeitung.'
               -
                 type: set
                 attrs:
@@ -416,7 +618,25 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie Unterstützung durch einen Hausarbeit Ghostwriter benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine unverbindliche Anfrage schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+                    text: 'Wenn Sie Unterstützung durch einen Hausarbeit Ghostwriter benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung zu Ihren Vorteilen bei GWriters wünschen.'
             show_as_card: false
         type: row
         enabled: true
@@ -503,7 +723,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'GWriters bietet Ihnen einen professionellen Schreibservice durch erfahrene akademische Ghostwriter. Dank ihrer weitreichenden Erfahrung können unsere Experten Sie in jeder Projektphase effektiv beim '
+                    text: 'GWriters bietet Ihnen einen professionellen Schreibservice durch erfahrene akademische Ghostwriter. Dank ihrer weitreichenden Erfahrung und Kompetenz können unsere Experten Sie in jeder Projektphase effektiv beim '
                   -
                     type: text
                     marks:
@@ -527,7 +747,13 @@ replicator:
                     text: 'Forscher, Doktoren und Professoren aktiv'
                   -
                     type: text
-                    text: ' sind. Sie profitieren daher von deren Fachwissen auf dem neuesten Stand der Forschung. Von diesen können Sie sich nicht nur eine Mustervorlage für Ihre Hausarbeit schreiben lassen, sondern sich auch bei der Themenfindung oder der Entwicklung der Forschungsfrage beraten lassen.'
+                    text: ' sind. Sie profitieren daher von deren Fachwissen auf dem neuesten Stand der Forschung.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Von diesen können Sie sich nicht nur eine Mustervorlage für Ihre Hausarbeit schreiben lassen, sondern sich auch bei der Themenfindung oder der Entwicklung der Forschungsfrage beraten lassen oder Ihr Literaturverzeichnis überprüfen lassen. Im Fachbereich Jura übernehmen wir bspw. auch die Korrektur von Inhalt und Argumentationsstruktur.'
               -
                 type: paragraph
                 content:
@@ -542,19 +768,19 @@ replicator:
                     text: 'anonymen Kontakt zu Ihrem Ghostwriter'
                   -
                     type: text
-                    text: ' und behalten die volle Kontrolle.'
+                    text: ' und behalten die volle Kontrolle über Ihren Auftrag.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Jede Leistung die Sie von unseren Ghostwritern erhalten, unterliegt der GWriters Qualitätsgarantie. Ob Sie sich durch ein Lektorat, ein Korrektorat oder eine Plagiatsprüfung unterstützen lassen wollen oder eine Mustervorlage für Ihre Hausarbeit kaufen möchten - jede Lieferung wird durch einen '
+                    text: 'Weil wir um Ihre hohen Anforderungen wissen, unterliegt jede Leistung die Sie von unseren Ghostwritern erhalten der GWriters Qualitätsgarantie. Ob Sie sich durch ein Lektorat, ein Korrektorat oder eine Plagiatsprüfung unterstützen lassen wollen oder eine Mustervorlage für Ihre Hausarbeit kaufen möchten - jede Lieferung wird unabhängig vom Umfang von Anfang bis Ende durch einen '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'unabhängigen Supervisor auf Qualität geprüft'
+                    text: 'erfahrenen Supervisor auf Qualität geprüft'
                   -
                     type: text
                     text: .
@@ -612,7 +838,7 @@ replicator:
                             text: 'Wir lösen Schreibblockaden'
                           -
                             type: text
-                            text: ' bei fehlender Unterstützung durch Betreuer & Professoren'
+                            text: ' bei fehlender Unterstützung durch Betreuer & Professoren sowie knappen Deadlines'
                   -
                     type: list_item
                     content:
@@ -630,7 +856,7 @@ replicator:
                             text: Hausarbeit
                           -
                             type: text
-                            text: ' während der Klausurphase und bei mehreren Abgaben'
+                            text: ' während der Klausurphase und bei mehreren Abgaben, so vermeiden wir Stress und Druck bei Ihnen'
                   -
                     type: list_item
                     content:
@@ -645,7 +871,7 @@ replicator:
                             marks:
                               -
                                 type: bold
-                            text: 'helfen wir auch Studienanfängern effektiv'
+                            text: 'helfen wir auch Studienanfängern effektiv und vermeiden Fehler'
                   -
                     type: list_item
                     content:
@@ -660,7 +886,7 @@ replicator:
                             text: 'Akademische Ghostwriter'
                           -
                             type: text
-                            text: ' helfen nicht nur im Schreibprozess, sondern auch bei der Literaturrecherche oder der Forschungsfrage'
+                            text: ' helfen nicht nur im Schreibprozess, sondern auch bei der Literaturrecherche, der Forschungsfrage oder geben Tipps und Erklärungen zur Prüfung Ihrer Argumentation.'
                           -
                             type: hard_break
             show_as_card: false
@@ -728,7 +954,7 @@ replicator:
                     vertical_alignment-img: self-center
                     text: |-
                       ### Kostenlose Anfrage
-                      Senden Sie uns einfach & schnell über unser Bestellformular eine kostenlose Anfrage. Von unserer Schreibagentur erhalten Sie innerhalb weniger Stunden ein **unverbindliches Leistungsangebot und eine individuelle Beratung**. Wir beginnen sofort nach Ihrer Zusage und einer Anzahlung.
+                      Senden Sie uns einfach & schnell über unser Bestellformular eine kostenlose Anfrage. Von unserer Schreibagentur erhalten Sie innerhalb weniger Stunden ein **unverbindliches Leistungsangebot und eine individuelle Beratung** zu Ihrem Auftrag. Wir beginnen sofort nach Ihrer Zusage und einer Anzahlung.
                     vertical_alignment-text: self-center
                     reverse-columns: bild-text
               -
@@ -785,7 +1011,7 @@ replicator:
                     vertical_alignment-img: self-center
                     text: |-
                       ### Kostenlose Änderungswünsche
-                      Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Falls Sie hierzu Änderungswünsche haben, setzen wir diese selbstverständlich **kostenfrei** um.
+                      Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Falls Sie hierzu Änderungswünsche haben, setzen wir diese auch nach dem Abgabetermin selbstverständlich **kostenfrei** um.
                     vertical_alignment-text: self-center
                     reverse-columns: text-bild
               -
@@ -793,7 +1019,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Hilfe oder wissenschaftliche Texterstellung benötigen, wenden Sie sich gerne an uns. Über '
+                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Hilfe oder wissenschaftliche Texterstellung benötigen, wenden Sie sich gerne an unser Schreibbüro. Über '
                   -
                     type: text
                     marks:
@@ -808,7 +1034,7 @@ replicator:
                     text: 'unser Kontaktformular'
                   -
                     type: text
-                    text: ' erhalten Sie jederzeit eine kostenlose Beratung. Möchten Sie ein Coaching oder eine '
+                    text: ' erhalten Sie jederzeit eine kostenlose Beratung. Möchten Sie ein Coaching bestellen oder eine '
                   -
                     type: text
                     marks:
@@ -817,7 +1043,7 @@ replicator:
                     text: 'Mustervorlage für Ihre Seminararbeit schreiben lassen'
                   -
                     type: text
-                    text: '? Unsere Kundenberater beraten Sie dazu gerne! '
+                    text: '? Unsere Kundenberater beraten Sie gerne zur Ihren Vorteilen bei uns! '
               -
                 type: set
                 attrs:
@@ -1019,13 +1245,19 @@ replicator:
                     text: 'tief gehende Literaturrecherche'
                   -
                     type: text
-                    text: ' durchgeführt werden. Diese Forschungsfrage muss anhand der recherchierten Informationen entsprechend der zuvor erstellten Gliederung beantwortet werden. In einigen Fachbereichen, wie der Medizin, Biologie und Chemie, wird zusätzlich zum schriftlichen Teil oftmals die Durchführung einer Untersuchung oder eines Experiments erwartet. '
+                    text: ' mit richtiger Zitierweise durchgeführt werden. Diese Forschungsfrage muss innerhalb der gegebenen Vorgaben anhand der für den Hauptteil recherchierten Informationen entsprechend der zuvor erstellten Gliederung im Fazit beantwortet werden. Ein schlüssige Argumentation mit rotem Faden ist hierbei essentiell.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle vorgegeben, allerdings haben sich '
+                    text: 'In einigen Fachbereichen, wie der Medizin, Biologie und Chemie, wird zusätzlich zum schriftlichen Teil oftmals die Durchführung einer Untersuchung oder eines Experiments erwartet. Gerne geben wir Ihnen auch hier Tipps zur Gestaltung dieser.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Zitierweise, Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle oder Professoren vorgegeben, allerdings haben sich '
                   -
                     type: text
                     marks:
@@ -1064,7 +1296,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Titelblatt
+                            text: 'Titelblatt / Deckblatt'
                   -
                     type: list_item
                     content:
@@ -1100,7 +1332,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Schluss
+                            text: 'Schluss / Fazit'
                   -
                     type: list_item
                     content:
@@ -1151,6 +1383,15 @@ replicator:
               -
                 type: bullet_list
                 content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Umfang: 10 - 20 Seiten exkl. Deckblatt und Verzeichnisse'
                   -
                     type: list_item
                     content:
@@ -1246,7 +1487,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird Ihnen diese Hilfe nicht geboten, können Sie sich als Studierende eine Mustervorlage von einem Ghostwriter für ihre Hausarbeit schreiben lassen. Diese Ghostwriting-Hausarbeit können Sie anschließend als Beispiel unterstützend nutzen. Um Ihnen eine bessere Vorstellung davon zu geben, was Sie von unserer Schreibagentur erhalten, stellen wir Ihnen im Folgenden '
+                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird Ihnen diese Hilfe im Studium nicht geboten, können Sie sich als Studierende eine Mustervorlage von einem Ghostwriter für ihre Hausarbeit schreiben lassen. Diese Ghostwriting-Hausarbeit können Sie anschließend als Beispiel unterstützend nutzen. Um Ihnen eine bessere Vorstellung davon zu geben, was Sie von unserer Schreibagentur erhalten, stellen wir Ihnen im Folgenden '
                   -
                     type: text
                     marks:
@@ -1386,7 +1627,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die Ansprüche an eine wissenschaftliche Arbeit sind hoch. Eine '
+                    text: 'Die Ansprüche an eine wissenschaftliche Arbeit sind hoch und Abgabetermine sind oft knapp. Eine '
                   -
                     type: text
                     marks:
@@ -1410,7 +1651,7 @@ replicator:
                     text: 'zentrale Forschungsfrage mit Würdigung des aktuellen Forschungsstands'
                   -
                     type: text
-                    text: ' auf wenigen Seiten erforschen. Unerfahrene Studienanfänger sind oftmals mit dem Komprimieren der Informationsmenge und aufgrund der hohen akademischen Ansprüche überfordert. Dadurch stoßen Studierende auf Schreibblockaden und andere Probleme, besonders wenn diese ihre erste Hausarbeit schreiben.'
+                    text: ' auf wenigen Seiten erforschen. Unerfahrene Studienanfänger sind oftmals mit dem Komprimieren der Informationsmenge und aufgrund der hohen akademischen Ansprüche überfordert. Auch die korrekte Zitierweise kann Schwierigkeiten verursachen. Dadurch stoßen Studierende auf Schreibblockaden und andere Probleme, besonders wenn diese ihre erste Hausarbeit schreiben.'
               -
                 type: paragraph
                 content:
@@ -1425,7 +1666,7 @@ replicator:
                     text: 'helfen Ihnen unsere akademischen Ghostwriter von GWriters'
                   -
                     type: text
-                    text: '. Diese verfügen über einen ausgedehnten Erfahrungsschutz im Verfassen wissenschaftlicher Arbeiten. Sie besitzen darüber hinaus auch das notwendige methodische und fachliche Wissen für das Verfassen akademischer Texte.'
+                    text: '. Alle Autoren unserer Schreibagentur verfügen über einen ausgedehnten Erfahrungsschutz im Verfassen wissenschaftlicher Arbeiten. Sie besitzen darüber hinaus auch das notwendige methodische und fachliche Wissen für das Verfassen akademischer Texte.'
               -
                 type: paragraph
                 content:
@@ -1437,7 +1678,20 @@ replicator:
                     text: 'Unsere Experten kennen in ihrem Fachbereich immer den aktuellen Forschungsstand'
                   -
                     type: text
-                    text: ' und haben Zugriff auf die notwendigen Literatur-Datenbanken. Wir arbeiten zudem mit modernster Analyse Software wie SPSS, Stata oder R für statistische Analysen sowie MAXQDA für qualitative Analysen. Dies zeichnet eine '
+                    text: ' und haben Zugriff auf die notwendigen Literatur-Datenbanken. Wir arbeiten zudem mit modernster Analyse Software wie SPSS, Stata oder R für statistische Analysen sowie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/maxqda-auswertung
+                          target: _blank
+                          rel: null
+                    text: 'MAXQDA für qualitative Analysen'
+                  -
+                    type: text
+                    text: '. Dies zeichnet eine '
                   -
                     type: text
                     marks:
@@ -1550,6 +1804,15 @@ replicator:
                           -
                             type: text
                             text: 'die Bearbeitung durch erfahrene akademische Ghostwriter'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Literaturverzeichnis und andere Verzeichnisse'
                   -
                     type: list_item
                     content:
@@ -1926,7 +2189,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646933691
+updated_at: 1649771462
 template: default
 use_meta_keywords: false
 no_index_page: false

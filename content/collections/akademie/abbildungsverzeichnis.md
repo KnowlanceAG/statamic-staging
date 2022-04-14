@@ -1,5 +1,6 @@
 ---
 id: b609ef85-dc84-4405-93d0-1b92d92ca1a4
+blueprint: akademie
 title: Abbildungsverzeichnis
 teaser:
   -
@@ -67,7 +68,7 @@ replicator:
           values:
             type: bilder
             assets:
-              - seiten/gwriters-akademie/2019-09-18-Abbildungsverzeichnis.jpg
+              - seiten/gwriters-akademie/abbildungsverzeichnis.jpg
             has_border: true
       -
         type: paragraph
@@ -178,7 +179,7 @@ downloads:
 page_title: 'Kostenloses Abbildungsverzeichnis für Ihre Hausarbeit herunterladen'
 template: academy-item
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1624299204
+updated_at: 1649145397
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
