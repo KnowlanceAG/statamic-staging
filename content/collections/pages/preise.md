@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650298332
+updated_at: 1650298486
 replicator:
   -
     columns-replicator:
@@ -23,6 +23,12 @@ replicator:
                   -
                     type: text
                     text: 'Unsere Ghostwriter Preise'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '10'
               -
                 type: paragraph
                 content:
@@ -77,6 +83,12 @@ replicator:
             show_as_card: false
           -
             bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
               -
                 type: set
                 attrs:
