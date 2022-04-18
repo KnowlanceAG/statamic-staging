@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650299775
+updated_at: 1650299867
 replicator:
   -
     columns-replicator:
@@ -49,7 +49,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Je nach Ihren individuellen Anforderungen (z.B. Schwierigkeitsgrad des Themas, Zeitrahmen für die Schreibarbeit) kann der endgültige Preis bis zu 20% unter oder über dem des Preisrechners liegen. Bitte geben Sie außerdem nur die reinen Textseiten (Normseite ca. 1800 Zeichen inkl. Leerzeichen) an.'
+                    text: 'Je nach Ihren individuellen Anforderungen (z.B. Schwierigkeitsgrad des Themas, Zeitrahmen für die Schreibarbeit) kann der endgültige Preis bis zu 20% unter oder über dem des Preisrechners liegen. Bitte geben Sie außerdem nur die reinen Textseiten ('
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Normseite ca. 1800 Zeichen'
+                  -
+                    type: text
+                    text: ' inkl. Leerzeichen) an.'
               -
                 type: paragraph
                 content:
