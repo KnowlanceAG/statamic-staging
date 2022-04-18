@@ -5,12 +5,12 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650297882
+updated_at: 1650298332
 replicator:
   -
     columns-replicator:
       -
-        columns_per_row: 1
+        columns_per_row: '2'
         single-col: false
         grid:
           -
@@ -22,35 +22,72 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Unsere Ghostwriter Preise'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Unser Preisrechner dient Ihnen als Orientierungshilfe für unsere Ghostwriter Preise. Die Preise für\_unsere Leistungen\_richten sich nach unseren Erfahrungswerten mit unseren akademischen Ghostwritern, Lektoren & Coaches. Bei GWriters bleiben Sie vollkommen anonym. Wenn Sie eine "
+                  -
+                    type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
+                        type: bold
+                    text: 'diskrete Abrechnung über Freunde oder Vewandte'
+                  -
+                    type: text
+                    text: ' wünschen, helfen wir Ihnen gerne!'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Je nach Ihren individuellen Anforderungen (z.B. Schwierigkeitsgrad des Themas, Zeitrahmen für die Schreibarbeit) kann der endgültige Preis bis zu 20% unter oder über dem des Preisrechners liegen. Bitte geben Sie außerdem nur die reinen Textseiten (Normseite ca. 1800 Zeichen inkl. Leerzeichen) an.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Beim Ghostwriting sind die Plagiatsprüfung, das Korrektorat, das Lektorat durch einen Supervisor, Formatierung, Quellerecherche, alle Verzeichnisse, Deckblatt etc. '
+                  -
+                    type: text
+                    marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(34, 34, 34)'
-                          hex: '#000'
-                    text: 'Unsere Ghostwriter Preise'
+                        type: bold
+                    text: 'natürlich im Preis inbegriffen'
+                  -
+                    type: text
+                    text: '. Wir bieten Qualität – und das zu fairen Preisen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Neben der traditionellen Banküberweisung können Sie bei uns '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'sicher und diskret'
+                  -
+                    type: text
+                    text: ' mit Google Pay, Apple Pay, Visa, Mastercard, American Express und Sofortüberweisung via Klarna zahlen.'
+            show_as_card: false
+          -
+            bard:
               -
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
-                    bild:
+                    type: floating-img
+                    dateien:
                       - preise/zahlungsanbieter.png
-                    vertical_alignment-img: self-center
-                    text: |-
-                      Unser Preisrechner dient Ihnen als Orientierungshilfe für unsere Ghostwriter Preise. Die Preise für unsere Leistungen richten sich nach unseren Erfahrungswerten mit unseren akademischen Ghostwritern, Lektoren & Coaches. Bei GWriters bleiben Sie **vollkommen anonym**. Wenn Sie eine **diskrete Abrechnung über Freunde oder Vewandte** wünschen, helfen wir Ihnen gerne!
-
-                      Je nach Ihren individuellen Anforderungen (z.B. Schwierigkeitsgrad des Themas, Zeitrahmen für die Schreibarbeit) kann der endgültige Preis bis zu 20% unter oder über dem des Preisrechners liegen. Bitte geben Sie außerdem nur die reinen Textseiten (Normseite ca. 1800 Zeichen inkl. Leerzeichen) an.
-
-                      Beim Ghostwriting sind die Plagiatsprüfung, das Korrektorat, das Lektorat durch einen Supervisor, Formatierung, Quellerecherche, alle Verzeichnisse, Deckblatt etc. **natürlich im Preis inbegriffen**. Wir bieten Qualität – und das zu fairen Preisen.
-
-                      Neben der traditionellen Banküberweisung können Sie bei uns **sicher und diskret** mit Google Pay, Apple Pay, Visa, Mastercard, American Express und Sofortüberweisung via Klarna zahlen.
-                    vertical_alignment-text: self-center
-                    reverse-columns: text-bild
+                    img_size: w-3/4
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
             show_as_card: false
         type: row
         enabled: true
