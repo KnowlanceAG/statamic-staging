@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Forschungsstand schreiben Beispiel'
 size: 18433
 last_modified: 1650400911
 width: 893
