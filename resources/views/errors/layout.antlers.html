@@ -16,7 +16,7 @@
     <title>
       {{ page_title }}
     </title>
-  
+
   {{ elseif author_slug }}
     {{ users slug:is="{author_slug}" }}
       <title>
@@ -24,7 +24,7 @@
       </title>
       <meta name="description" content="{{ short_text | strip_tags }}" />
     {{ /users }}
-  
+
   {{ else }}
     <title>GWriters •
       {{ title ?? site:name }}
@@ -49,7 +49,8 @@
   {{ /if }}
 
   {{ if config:app:facebook_tracking }}
-    <meta name="facebook-domain-verification" content="s212lf3ahv0grtdpw68ue9zp1txu8q" />
+    <meta name="facebook-domain-verification"
+      content="{{ site:locale == 'de_DE' ? 's212lf3ahv0grtdpw68ue9zp1txu8q' : 'knvzhy3is49lmb27srltvulpolrwh8' }}" />
     <!-- Meta Pixel Code -->
     <script type="text/plain" data-cookiecategory="analytics" id="facebook_pixeljs">
       ! function(f, b, e, v, n, t, s) {
