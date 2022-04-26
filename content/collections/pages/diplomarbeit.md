@@ -18,8 +18,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6602'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
         text: 'Diplomarbeit schreiben lassen'
   -
     type: heading
@@ -1566,7 +1566,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650982192
+updated_at: 1650982261
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
