@@ -4,7 +4,7 @@ blueprint: pages
 title: Anfrage
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650972189
+updated_at: 1650983522
 replicator:
   -
     bard:
@@ -68,6 +68,27 @@ replicator:
                   target: null
                   rel: null
             text: Datenschutzerklärung
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Unsicher? Rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos: '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: link
+                attrs:
+                  href: '+49 (0) 30 809 332 339'
+                  target: null
+                  rel: null
+            text: '+49 (0) 30 809 332 339'
       -
         type: paragraph
       -
