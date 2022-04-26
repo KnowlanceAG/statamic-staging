@@ -62,6 +62,12 @@ teaser:
         color: '#FF6606'
         spacing_top: false
   -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '10'
+  -
     type: paragraph
     content:
       -
@@ -100,7 +106,7 @@ teaser:
         text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650981060
+updated_at: 1650981099
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
