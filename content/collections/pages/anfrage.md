@@ -4,7 +4,7 @@ blueprint: pages
 title: Anfrage
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650983522
+updated_at: 1650983566
 replicator:
   -
     bard:
@@ -85,7 +85,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '+49 (0) 30 809 332 339'
+                  href: 'tel:+49 (0) 30 809 332 339'
                   target: null
                   rel: null
             text: '+49 (0) 30 809 332 339'
