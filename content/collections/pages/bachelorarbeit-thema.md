@@ -1176,7 +1176,39 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: "Die Bachelorarbeit beginnt für viele unter Ihnen mit der Suche nach dem richtigen Bachelorarbeit-Thema, die sich leider etwas schwierig gestalten kann. Um Ihnen diese Wahl einfacher zu gestalten, haben sich einige unserer Lektoren und Ghostwriter Bachelorarbeit-Themen aus der BWL überlegt. Diese Themen sind so gewählt, dass Ihnen die Suche nach passender\_"
+            text: 'Die Bachelorarbeit beginnt für viele unter Ihnen mit der Suche nach dem richtigen Bachelorarbeit-Thema, die sich leider etwas schwierig gestalten kann. Um Ihnen diese Wahl einfacher zu gestalten, haben sich einige unserer Lektoren und '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: justify
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  target: null
+                  rel: null
+            text: Ghostwriter
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: justify
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: " Bachelorarbeit-Themen aus der BWL überlegt. Diese Themen sind so gewählt, dass Ihnen die Suche nach passender\_"
           -
             type: text
             marks:
@@ -3728,7 +3760,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1651009467
+updated_at: 1651013774
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
