@@ -1,9 +1,10 @@
 ---
 id: fc359a9c-afc1-43b6-a4bb-302ff072cdcf
+blueprint: pages
 title: Anfrage
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623324565
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1650972058
 replicator:
   -
     bard:
@@ -25,7 +26,8 @@ replicator:
                 type: textColor
                 attrs:
                   color: 'rgb(68, 68, 68)!important'
-            text: Anfrage
+                  hex: '#000'
+            text: 'Kostenloses Angebot erhalten'
       -
         type: paragraph
         content:
@@ -40,6 +42,7 @@ replicator:
                 type: textColor
                 attrs:
                   color: 'rgb(68, 68, 68)!important'
+                  hex: '#000'
             text: 'Ihre Anfrage ist unverbindlich und Ihre persönlichen Daten werden streng vertraulich behandelt.'
       -
         type: paragraph
@@ -55,6 +58,7 @@ replicator:
                 type: textColor
                 attrs:
                   color: 'rgb(68, 68, 68)!important'
+                  hex: '#000'
             text: "Wir schützen Ihre Privatsphäre:\_"
           -
             type: text
@@ -67,6 +71,7 @@ replicator:
                 type: textColor
                 attrs:
                   color: 'rgb(255, 102, 2)!important'
+                  hex: '#000'
               -
                 type: link
                 attrs:
@@ -99,4 +104,5 @@ meta_description: 'Schicken Sie und eine kostenlose Anfrage und erhalten Sie inn
 og_title: 'Kostenlose Anfrage • GWriters.de'
 og_description: 'Schicken Sie und eine kostenlose Anfrage und erhalten Sie innerhalb kürzester Zeit ein individuelles Angebot und unverbindliche Beratung durch einen unserer Experten!'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
