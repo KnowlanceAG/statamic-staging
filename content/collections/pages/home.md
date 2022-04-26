@@ -105,8 +105,8 @@ teaser:
               rel: null
         text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650982268
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1651009038
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
