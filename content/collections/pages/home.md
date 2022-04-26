@@ -106,7 +106,7 @@ teaser:
         text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650981119
+updated_at: 1650981246
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -146,33 +146,6 @@ replicator:
         responsive_columns: 1
     is-full: false
     bg-toggle: false
-    bg-image-fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: false
-    border: false
-  -
-    columns-replicator:
-      -
-        columns_per_row: '1'
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: phone_cta
-                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
-                    open: 'Mo.-Fr. 9:00-18:00'
-            show_as_card: false
-        type: row
-        enabled: true
-        single-col: false
-        responsive_columns: 1
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F2F2F2'
     bg-image-fixed: false
     type: add_section
     enabled: true
