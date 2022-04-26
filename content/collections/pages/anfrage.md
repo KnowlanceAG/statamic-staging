@@ -4,7 +4,7 @@ blueprint: pages
 title: Anfrage
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650972058
+updated_at: 1650972189
 replicator:
   -
     bard:
@@ -33,45 +33,34 @@ replicator:
         content:
           -
             type: text
+            text: 'Ihre Anfrage ist '
+          -
+            type: text
             marks:
               -
-                type: textAlign
-                attrs:
-                  align: start
+                type: bold
+            text: unverbindlich
+          -
+            type: text
+            text: ' und Ihre persönlichen Daten werden '
+          -
+            type: text
+            marks:
               -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)!important'
-                  hex: '#000'
-            text: 'Ihre Anfrage ist unverbindlich und Ihre persönlichen Daten werden streng vertraulich behandelt.'
+                type: bold
+            text: 'streng vertraulich'
+          -
+            type: text
+            text: ' behandelt. Wenn Sie unser Angebot nicht annehmen, werden Ihre Daten innerhalb weniger Tage gelöscht!'
       -
         type: paragraph
         content:
           -
             type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)!important'
-                  hex: '#000'
             text: "Wir schützen Ihre Privatsphäre:\_"
           -
             type: text
             marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 102, 2)!important'
-                  hex: '#000'
               -
                 type: link
                 attrs:
