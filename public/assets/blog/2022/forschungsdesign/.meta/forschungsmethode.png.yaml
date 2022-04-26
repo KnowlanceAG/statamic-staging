@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Auswahl der forschungsmethode'
 size: 6247
 last_modified: 1650938351
 width: 228
