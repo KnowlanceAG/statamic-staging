@@ -916,21 +916,15 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: "\_nicht nur individuell und persönlich bei dem Bachelorarbeit-Thema Finden, sondern auch bei jeder Form von akademischen Arbeiten. Wenden Sie Sich schnell und einfach mit einer\_"
+            text: "\_nicht nur individuell und persönlich bei dem Bachelorarbeit-Thema Finden, sondern auch bei jeder Form von akademischen Arbeiten. Wenden "
+          -
+            type: text
+            text: "Sie Sich schnell und einfach mit einer\_"
           -
             type: text
             marks:
               -
                 type: bold
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 102, 2)'
-                  hex: '#000'
               -
                 type: link
                 attrs:
@@ -940,11 +934,6 @@ replicator:
             text: 'kostenlosen Anfrage'
           -
             type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
             text: "\_an uns und Sie erhalten in kürzester Zeit ein unverbindliches Angebot von uns zurück. Oder rufen Sie uns einfach an, wir beraten Sie gerne! Unter anderem können Sie bei GWriters:"
       -
         type: bullet_list
@@ -3739,7 +3728,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1647354829
+updated_at: 1651009467
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
