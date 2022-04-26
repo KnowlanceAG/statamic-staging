@@ -18,8 +18,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6602'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
         text: 'Examensarbeit schreiben lassen'
   -
     type: heading
@@ -1844,7 +1844,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650982174
+updated_at: 1650982253
 meta_title: 'Examensarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Examensarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
