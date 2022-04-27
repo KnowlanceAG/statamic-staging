@@ -258,7 +258,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'GWriters bietet Ihnen Zugang zu derzeit über 3000 Autoren und Bearbeitern aus unterschiedlichen Fachrichtungen. Wir helfen Ihnen, auch für "exotische" Projekte, schnell und diskret den passenden Autor bzw. Texter zu finden. Je nach Bedarf können unsere Freelancer Sie von Beginn des Projektes an unterstützen oder auch bereits zum Teil bestehende Texte überarbeiten und abschließen. Auch Teilunterstützungen bei Ihrem Projekt durch einen unserer '
+                    text: 'GWriters bietet Ihnen Zugang zu derzeit über 3000 Autoren und Bearbeitern aus unterschiedlichen Fachrichtungen. Wir helfen Ihnen, auch für "exotische" Projekte, schnell und diskret den passenden Autor bzw. Texter zu finden. Je nach Bedarf können unsere Freelancer Sie von Beginn des Projektes an unterstützen oder auch bereits zum Teil bestehende '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/texte-ueberarbeiten-lassen
+                          target: null
+                          rel: null
+                    text: 'Texte überarbeiten'
+                  -
+                    type: text
+                    text: ' und abschließen. Auch Teilunterstützungen bei Ihrem Projekt durch einen unserer '
                   -
                     type: text
                     marks:
@@ -277,7 +290,33 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Sie erhalten die gewünschte Mustervorlage pünktlich zu den vorher abgestimmten Terminen und nach Standardrichtlinien wissenschaftlicher Arbeiten formatiert. Falls Sie besondere Formatierungswünsche o.ä. haben, können natürlich auch diese umgesetzt werden. Unsere Preisgestaltung versteht sich als Gesamtpreis (siehe Preisrechner), welcher sämtliche anfallenden Kosten deckt und wird vor Auftragsbeginn in Absprache mit Ihnen festgelegt. Es treten also keine weiteren versteckten Kosten für Sie auf. Wir garantieren Ihnen vollständige Kostentransparenz. Jede von uns erstellte Mustervorlage wird durch einen Supervisor auf Richtigkeit und Qualität überprüft. Im Preis inbegriffen ist selbstverständlich auch eine automatisierte und manuelle '
+                    text: 'Sie erhalten die gewünschte '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/ghostwriter-mustervorlage
+                          target: null
+                          rel: null
+                    text: Mustervorlage
+                  -
+                    type: text
+                    text: ' pünktlich zu den vorher abgestimmten Terminen und nach Standardrichtlinien wissenschaftlicher Arbeiten '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/formatierung
+                          target: null
+                          rel: null
+                    text: formatiert
+                  -
+                    type: text
+                    text: '. Falls Sie besondere Formatierungswünsche o.ä. haben, können natürlich auch diese umgesetzt werden. Unsere Preisgestaltung versteht sich als Gesamtpreis (siehe Preisrechner), welcher sämtliche anfallenden Kosten deckt und wird vor Auftragsbeginn in Absprache mit Ihnen festgelegt. Es treten also keine weiteren versteckten Kosten für Sie auf. Wir garantieren Ihnen vollständige Kostentransparenz. Jede von uns erstellte Mustervorlage wird durch einen Supervisor auf Richtigkeit und Qualität überprüft. Im Preis inbegriffen ist selbstverständlich auch eine automatisierte und manuelle '
                   -
                     type: text
                     marks:
@@ -401,7 +440,20 @@ replicator:
                             text: Lektorat
                           -
                             type: text
-                            text: ', Korrektorat & Plagiatsprüfung)'
+                            text: ', '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /korrektorat
+                                  target: null
+                                  rel: null
+                            text: Korrektorat
+                          -
+                            type: text
+                            text: ' & Plagiatsprüfung)'
                   -
                     type: list_item
                     content:
@@ -1584,8 +1636,8 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934783
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1651103550
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
 meta_description: 'Ghostwriting von GWriters.de. Preissicherheit, Qualität und Diskretion von unserer seriösen Agentur. Mehr dazu hier.'
 use_meta_keywords: false
