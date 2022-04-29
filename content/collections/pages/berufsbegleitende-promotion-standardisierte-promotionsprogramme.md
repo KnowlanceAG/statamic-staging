@@ -467,7 +467,39 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Allerdings gilt das Studienprogramm für die berufsbegleitende Promotion an dieser Hochschule als vergleichsweise kostengünstig. Angeboten wird jedoch kein standardisiertes Doktorandenprogramm (durch welches man auch einfacher einem passenden Betreuer zugeordnet wird), sondern die externe Promotion im Fernstudium.'
+                    text: 'Allerdings gilt das Studienprogramm für die berufsbegleitende Promotion an dieser Hochschule als vergleichsweise kostengünstig. Angeboten wird jedoch kein standardisiertes Doktorandenprogramm (durch welches man auch einfacher einem passenden Betreuer zugeordnet wird), sondern die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /promotionsberatung/doktorvater-finden
+                          target: null
+                          rel: null
+                    text: 'externe Promotion'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: ' im Fernstudium.'
               -
                 type: heading
                 attrs:
@@ -559,6 +591,12 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/dissertation-ausland
+                          target: null
+                          rel: null
                     text: Individualpromotion
                   -
                     type: text
@@ -949,7 +987,29 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_(Dr. rer. pol.) erreichen wollen. Das gebührenpflichtige Programm spricht damit gleichermaßen Doktoranden an, die nach ihrer Promotion (zurück) in die Praxis gehen möchten wie auch solche, die eine akademische Karriere anstreben."
+                    text: "\_(Dr. rer. pol.) erreichen wollen. Das gebührenpflichtige Programm spricht damit gleichermaßen Doktoranden an, die nach ihrer Promotion (zurück) in die Praxis gehen möchten wie auch solche, die eine "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/akademische-laufbahn-5-fragen-fuer-akademiker
+                          target: null
+                          rel: null
+                    text: 'akademische Karriere'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ' anstreben.'
               -
                 type: paragraph
                 content:
@@ -1204,7 +1264,39 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Partner des berufsbegleitenden Promotionsstudiums mit Anwendungsbezug ist das Institut für Hochschulkooperation und internationale Promotionsprogramme (IHP) München. Die Teilnehmenden des Promotionsstudiums werden in Zusammenarbeit mit renommierten britischen Universitäten – z.B. der University of Gloucestershire – auf ihrem Weg zum Doctor of Business Administration (DBA), der höchsten akademischen Stufe der Managementausbildung, oder zum stärker forschungsorientierten Doctor of Philosophy (PhD), zielgerichtet begleitet.'
+                    text: 'Partner des berufsbegleitenden Promotionsstudiums mit Anwendungsbezug ist das Institut für Hochschulkooperation und internationale Promotionsprogramme (IHP) München. Die Teilnehmenden des Promotionsstudiums werden in Zusammenarbeit mit renommierten britischen Universitäten – z.B. der University of Gloucestershire – auf ihrem Weg zum '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /promotionsberatung/berufsbegleitender-doctor-business-administration-phd
+                          target: null
+                          rel: null
+                    text: 'Doctor of Business Administration (DBA)'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: ', der höchsten akademischen Stufe der Managementausbildung, oder zum stärker forschungsorientierten Doctor of Philosophy (PhD), zielgerichtet begleitet.'
               -
                 type: paragraph
                 content:
@@ -1556,8 +1648,8 @@ replicator:
 page_title: 'Standardisierte Promotionsprogramme neben dem Beruf • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934772
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1651198527
 meta_title: 'Standardisierte Promotionsprogramme neben dem Beruf • GWriters'
 meta_description: 'Finden Sie jetzt das passende standardisierte Promotionsprogramm für Ihre nebenberufliche Promotion und profitieren Sie von unserer Promotionsberatung!'
 use_meta_keywords: false
