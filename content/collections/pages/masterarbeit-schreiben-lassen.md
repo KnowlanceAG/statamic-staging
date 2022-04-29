@@ -1531,7 +1531,31 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' kennen den aktuellen Kenntnisstand und alle Methoden zur wissenschaftlichen Forschung. Der Forschungsstand benennt den aktuellen Stand der Forschung im Bezug zum Thema einer wissenschaftlichen Arbeit. Somit können wir für Sie eine '
+                    text: ' kennen den aktuellen Kenntnisstand und alle Methoden zur wissenschaftlichen Forschung. Der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/wie-schreibe-ich-einen-forschungsstand
+                          target: null
+                          rel: null
+                    text: Forschungsstand
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' benennt den aktuellen Stand der Forschung im Bezug zum Thema einer wissenschaftlichen Arbeit. Somit können wir für Sie eine '
                   -
                     type: text
                     marks:
@@ -2423,8 +2447,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650982124
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1651193376
 template: default
 use_meta_keywords: false
 no_index_page: false
