@@ -1,5 +1,6 @@
 ---
 id: 6a4a507c-f04f-4ceb-9942-3c34d896faad
+blueprint: akademie
 title: 'Inhaltsverzeichnis Vorlage'
 teaser:
   -
@@ -67,7 +68,20 @@ replicator:
             text: ' Ghostwritern '
           -
             type: text
-            text: 'erstellte Mustervorlage, die sich Studenten beispielsweise für die '
+            text: 'erstellte '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/ghostwriter-mustervorlage
+                  target: null
+                  rel: null
+            text: Mustervorlage
+          -
+            type: text
+            text: ', die sich Studenten beispielsweise für die '
           -
             type: text
             marks:
@@ -149,7 +163,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623867381
+updated_at: 1651193885
 academy_short_text-headline: 'Inhaltsverzeichnis Vorlage'
 academy_short_text: 'Nutzen Sie unsere Inhaltsverzeichnis Vorlage mit automatischer Formatierung für Ihre Abschlussarbeit.'
 use_meta_keywords: false
