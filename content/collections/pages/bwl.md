@@ -132,7 +132,7 @@ page_title: 'BWL - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650982811
+updated_at: 1651761142
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1284,7 +1284,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://ranking.zeit.de/che/de/fachinfo/24'
+                          href: 'https://studiengaenge.zeit.de/studium/wirtschaft/wirtschaftswissenschaften/betriebswirtschaftslehre'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'BWL studieren – Zeit Online'
