@@ -1,5 +1,6 @@
 ---
 id: 92638305-5538-4e5c-9f2a-eaed57856af6
+blueprint: akademie
 title: 'Tabellenverzeichnis Beispiel'
 teaser:
   -
@@ -80,7 +81,20 @@ replicator:
             text: ' BWL'
           -
             type: text
-            text: ' sind dafür bekannt, regelmäßig mit vielen Tabellen zu arbeiten. Auch wenn sich Studenten eine Mustervorlage beispielsweise für die eigene '
+            text: ' sind dafür bekannt, regelmäßig mit vielen Tabellen zu arbeiten. Auch wenn sich Studenten eine '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/ghostwriter-mustervorlage
+                  target: null
+                  rel: null
+            text: Mustervorlage
+          -
+            type: text
+            text: ' beispielsweise für die eigene '
           -
             type: text
             marks:
@@ -132,7 +146,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Dementsprechend gehört eine Tabelle korrekt durchnummeriert und formatiert. Wie sich die Theorie in der Praxis umsetzen lässt, demonstriert unsere hochwertig aufgearbeitete Tabellenverzeichnis Vorlage. Demzufolge wird Ihnen direkt ersichtlich, wie die Anordnung formatiert werden sollte. Es klingt auf den ersten Blick absolut mühelos, ein Tabellenverzeichnis in Word einzufügen. Doch die genaue Betrachtung zeigt, dass die Details ausschlaggebend sind.'
+            text: 'Dementsprechend gehört eine Tabelle korrekt durchnummeriert und '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /leistungen/formatierung
+                  target: null
+                  rel: null
+            text: formatiert
+          -
+            type: text
+            text: '. Wie sich die Theorie in der Praxis umsetzen lässt, demonstriert unsere hochwertig aufgearbeitete Tabellenverzeichnis Vorlage. Demzufolge wird Ihnen direkt ersichtlich, wie die Anordnung formatiert werden sollte. Es klingt auf den ersten Blick absolut mühelos, ein Tabellenverzeichnis in Word einzufügen. Doch die genaue Betrachtung zeigt, dass die Details ausschlaggebend sind.'
       -
         type: paragraph
         content:
@@ -178,20 +205,7 @@ replicator:
             text: 'wissenschaftliche Arbeit in Word'
           -
             type: text
-            text: ' auf formale Fehler hin zu überarbeiten kann schon mal ein paar Stunden in Anspruch nehmen. So ist es auch mit dem Tabellenverzeichnis in Word, das sich komplett automatisch erstellen lässt und selbst beim '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting
-                  target: null
-                  rel: null
-            text: 'Schreiben kurzer wissenschaftlicher Arbeiten'
-          -
-            type: text
-            text: ' viel Zeit erspart. Hier ist die Anleitung!'
+            text: ' auf formale Fehler hin zu überarbeiten kann schon mal ein paar Stunden in Anspruch nehmen. So ist es auch mit dem Tabellenverzeichnis in Word, das sich komplett automatisch erstellen lässt und selbst beim Schreiben kurzer wissenschaftlicher Arbeiten viel Zeit erspart. Hier ist die Anleitung!'
       -
         type: heading
         attrs:
@@ -395,7 +409,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623867617
+updated_at: 1652175909
 academy_short_text-headline: 'Tabellenverzeichnis Beispiel'
 academy_short_text: 'Nutzen Sie unser Tabellenverzeichnis Beispiel für jede wissenschaftliche Arbeit mit einer Vielzahl von Tabellen.'
 use_meta_keywords: false
