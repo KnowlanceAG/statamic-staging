@@ -1,5 +1,6 @@
 ---
 id: ff00b287-f472-4c50-bc71-a4c0a6ef92df
+blueprint: pages
 title: Jobs
 replicator:
   -
@@ -321,7 +322,29 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: 'Aufgrund des starken Wachstums von GWriters und des kontinuierlich steigenden Bedarfs nach akademischen Freelancern suchen wir aktuell akademische Ghostwriter, Lektoren, Korrektoren & Übersetzer.'
+            text: 'Aufgrund des starken Wachstums von GWriters und des kontinuierlich steigenden Bedarfs nach akademischen Freelancern suchen wir aktuell '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: link
+                attrs:
+                  href: /faq/was-ist-ein-akademischer-ghostwriter
+                  target: null
+                  rel: null
+            text: 'akademische Ghostwriter'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: ', Lektoren, Korrektoren & Übersetzer.'
       -
         type: paragraph
         content:
@@ -348,7 +371,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623332721
+updated_at: 1652150545
 page_title: 'Ghostwriter Jobs bei GWriters'
 template: without-teaser-with-sidebar
 meta_title: 'Ghostwriter Jobs bei GWriters'
@@ -364,4 +387,5 @@ twitter_card_type_page: summary
 og_title: 'Ghostwriter Jobs bei GWriters'
 og_description: 'Beste Verdienstmöglichkeiten & volle Freiheit bei Ihrem neuen Job als Ghostwriter, Lektor, Korrektor, Übersetzer oder Bearbeiter von akademischen Arbeiten!'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
