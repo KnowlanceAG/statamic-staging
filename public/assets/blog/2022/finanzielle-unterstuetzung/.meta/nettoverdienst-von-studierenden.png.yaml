@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'verdienst von Studenten'
 size: 13856
 last_modified: 1652301500
 width: 476
