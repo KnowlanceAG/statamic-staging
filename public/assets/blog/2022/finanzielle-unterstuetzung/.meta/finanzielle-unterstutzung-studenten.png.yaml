@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'finanzielle unterstützung studium'
+  caption: 'Nettoverdienst von Studierenden durch Nebenjob (Quelle: Statista, 2011)'
 size: 13615
 last_modified: 1652300011
 width: 473
