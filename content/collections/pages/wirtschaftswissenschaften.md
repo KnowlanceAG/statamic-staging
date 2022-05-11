@@ -131,8 +131,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'GWriters • Wirtschaftswissenschaft - Ghostwriter & mehr'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1651761362
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1652310873
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -328,7 +328,29 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_und Übersetzer beauftragt werden. So wird nicht nur der Student entlastet, sondern auch das qualitative Niveau der Arbeit gehoben und eine bestmögliche Benotung bewirkt."
+                    text: "\_und "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/uebersetzung
+                          target: null
+                          rel: null
+                    text: Übersetzer
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: ' beauftragt werden. So wird nicht nur der Student entlastet, sondern auch das qualitative Niveau der Arbeit gehoben und eine bestmögliche Benotung bewirkt.'
               -
                 type: set
                 attrs:
