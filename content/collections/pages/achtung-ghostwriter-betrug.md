@@ -1022,7 +1022,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://www.handelsregister.de/rp_web/mask.do?Typ=n'
+                  href: 'https://www.handelsregister.de/rp_web/welcome.xhtml'
                   target: _blank
                   rel: nofollow
             text: 'Handelsregister Deutschland'
@@ -2188,8 +2188,8 @@ replicator:
     type: editor
     enabled: true
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1651102534
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1652442138
 page_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_description: 'Hier finden Sie aktuelle Informationen zu bekannten Betrüger-Websites im akademischen Ghostwriting. Verlassen Sie sich nur auf seriöse Ghostwriting Agenturen!'
