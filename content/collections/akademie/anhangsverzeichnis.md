@@ -1,5 +1,6 @@
 ---
 id: 1b8783dd-1179-4eb1-a5a9-27304b468a8e
+blueprint: akademie
 title: Anhangsverzeichnis
 teaser:
   -
@@ -122,7 +123,7 @@ from_the_blog:
   - b42eb586-1305-4faf-8d59-79e53ff91373
   - ca5797f0-28d2-48ca-be1d-5c6ca8c1b01c
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623866917
+updated_at: 1652729392
 meta_title: 'Kostenloses Anhangsverzeichnis für Ihre Hausarbeit herunterladen'
 meta_description: "Verschaffen Sie Ihren Lesern einen\_Überblick über alle Anhänge mit unserem Anhangsverzeichnis Beispiel. Unsere Vorlage - nur einen Klick entfernt."
 use_meta_keywords: false
