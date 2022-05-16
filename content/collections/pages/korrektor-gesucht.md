@@ -98,10 +98,10 @@ replicator:
                   href: /korrektorat/korrektor
                   target: null
                   rel: null
-            text: 'Korrektor '
+            text: Korrektor
           -
             type: text
-            text: 'gesucht, muss meist ein Text auf Rechtschreib- oder grammatikalische Fehler untersucht werden. Hier kann es sich um alle Arten von Texten handeln. So werden Werbebroschüren und -schilder, Zeitungen, Kataloge, aber auch wissenschaftliche Arbeiten von Korrektoren bearbeitet.'
+            text: ' gesucht, muss meist ein Text auf Rechtschreib- oder grammatikalische Fehler untersucht werden. Hier kann es sich um alle Arten von Texten handeln. So werden Werbebroschüren und -schilder, Zeitungen, Kataloge, aber auch wissenschaftliche Arbeiten von Korrektoren bearbeitet.'
       -
         type: heading
         attrs:
@@ -195,7 +195,33 @@ replicator:
         content:
           -
             type: text
-            text: 'Hier liegt der Schwerpunkt auf der Beschreibung des wissenschaftlichen Korrektors, denn in einer globalisierten Welt der Arbeitsteilung sind Spezialsierungen auf einzelne Teilgebiete einer wissenschaftlichen Disziplin üblich geworden und Voraussetzung um auf dem Weltmarkt zu bestehen. Arbeitsgruppen bestehen daher oft aus Experten einzelner Teilgebiete, da ein Einzelner nicht mehr in der Lage sein kann, sich in allen erforderlichen Unterdisziplinen soweit auszukennen, wie es für die erfolgreiche Bearbeitung einer Aufgabe vonnöten ist. Dies führte jedoch dazu, dass die Anforderungen an einen Korrektor stark gestiegen sind. Früher waren Korrektoren zumeist Akademiker der geisteswissenschaftlichen Fachbereiche, die Übung in der Erstellung von Texten hatten und über gute sprachliche Kenntnisse verfügten. Um einen Text aber effektiv bearbeiten zu können muss man nicht nur die Sprache, in welcher der Text verfasst ist, beherrschen, sondern man muss ihn verstehen können. Dieses wird bei heutigem Spezialisierungsgrad, gerade bei akademischen Arbeiten, allerdings immer schwerer. Daher ist es nötig, dass dieser Umstand bei der Suche eines Korrektors berücksichtigt wird. Er sollte nämlich neben perfekten sprachlichen Fähigkeiten auch fachliches Wissen mitbringen um die Aufgabe qualitativ hochwertig zu erfüllen. Der fachlich versierte, wissenschaftliche Korrektor wird daher mehr gesucht denn je.'
+            text: 'Hier liegt der Schwerpunkt auf der Beschreibung des wissenschaftlichen Korrektors, denn in einer globalisierten Welt der Arbeitsteilung sind Spezialsierungen auf einzelne Teilgebiete einer wissenschaftlichen Disziplin üblich geworden und Voraussetzung um auf dem Weltmarkt zu bestehen. Arbeitsgruppen bestehen daher oft aus Experten bzw. '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  target: null
+                  rel: null
+            text: Ghostwriter
+          -
+            type: text
+            text: ' einzelner Teilgebiete, da ein Einzelner nicht mehr in der Lage sein kann, sich in allen erforderlichen Unterdisziplinen soweit auszukennen, wie es für die erfolgreiche Bearbeitung einer Aufgabe vonnöten ist. Dies führte jedoch dazu, dass die Anforderungen an einen '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/korrektorat-lektorat-textredaktion
+                  target: null
+                  rel: null
+            text: Textredakteur
+          -
+            type: text
+            text: ' stark gestiegen sind. Früher waren Korrektoren zumeist Akademiker der geisteswissenschaftlichen Fachbereiche, die Übung in der Erstellung von Texten hatten und über gute sprachliche Kenntnisse verfügten. Um einen Text aber effektiv bearbeiten zu können muss man nicht nur die Sprache, in welcher der Text verfasst ist, beherrschen, sondern man muss ihn verstehen können. Dieses wird bei heutigem Spezialisierungsgrad, gerade bei akademischen Arbeiten, allerdings immer schwerer. Daher ist es nötig, dass dieser Umstand bei der Suche eines Korrektors berücksichtigt wird. Er sollte nämlich neben perfekten sprachlichen Fähigkeiten auch fachliches Wissen mitbringen um die Aufgabe qualitativ hochwertig zu erfüllen. Der fachlich versierte, wissenschaftliche Korrektor wird daher mehr gesucht denn je.'
       -
         type: heading
         attrs:
@@ -260,8 +286,8 @@ replicator:
     type: editor
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934803
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1652724948
 page_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
 meta_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
 meta_description: 'Korrektor gesucht? Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches sowie Informationen zu Ablauf, Kosten & Preisen finden Sie bei GWriters!'
