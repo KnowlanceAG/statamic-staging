@@ -127,7 +127,20 @@ replicator:
             text: 'Ghostwriting Agentur'
           -
             type: text
-            text: ', welche verschiedene Ghostwriter beschäftigt, angeboten wird. Ghostwriting Service ist ein Überbegriff für alle Dienstleistungen die in diesem Zusammenhang angeboten werden. Dazu können bei größeren Ghostwriting Agenturen auch das Korrektorat, also das reine Korrekturlesen eines Textes oder auch das '
+            text: ', welche verschiedene Ghostwriter beschäftigt, angeboten wird. Ghostwriting Service ist ein Überbegriff für alle Dienstleistungen die in diesem Zusammenhang angeboten werden. Dazu können bei größeren Ghostwriting Agenturen auch das Korrektorat, also eine reine '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/korrektorat-lektorat-textredaktion
+                  target: null
+                  rel: null
+            text: Textredaktion
+          -
+            type: text
+            text: ' oder auch das '
           -
             type: text
             marks:
@@ -199,7 +212,98 @@ replicator:
         content:
           -
             type: text
-            text: 'Ein Ghostwriting Service kann dem Auftraggeber eine Hilfestellung rund um die Erstellung von Mustervorlagen für wissenschaftliche Arbeiten bieten. Dies reicht von der Erstellung eines Gesamtkonzepts über die Ausformulierung und Verbesserung einer bereits angefangenen Arbeit bis zur kompletten Erarbeitung einer Mustervorlage, sei es nun für eine Hausarbeit, Bachelorarbeit, Masterarbeit, Diplomarbeit, Dissertation oder sogar Habilitation. Es gibt aber nicht nur die sogenannten „akademischen Ghostwriting Services“ sondern auch Ghostwriting bei der Erstellung von Biografien, Filmdrehbüchern oder Büchern im Allgemeinen.'
+            text: 'Ein Ghostwriting Service kann dem Auftraggeber eine Hilfestellung '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /leistungen
+                  target: null
+                  rel: null
+            text: 'rund um die Erstellung von Mustervorlagen für wissenschaftliche Arbeiten'
+          -
+            type: text
+            text: ' bieten. Dies reicht von der Erstellung eines Gesamtkonzepts über die Ausformulierung und Verbesserung einer bereits angefangenen Arbeit bis zur kompletten Erarbeitung einer Mustervorlage, sei es nun für eine '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/hausarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Hausarbeit
+          -
+            type: text
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Bachelorarbeit
+          -
+            type: text
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/masterarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Masterarbeit
+          -
+            type: text
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/diplomarbeit
+                  target: null
+                  rel: null
+            text: Diplomarbeit
+          -
+            type: text
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/doktorarbeit
+                  target: null
+                  rel: null
+            text: Dissertation
+          -
+            type: text
+            text: ' oder sogar Habilitation. Es gibt aber nicht nur die sogenannten „'
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /faq/was-ist-ein-akademischer-ghostwriter
+                  target: null
+                  rel: null
+            text: 'akademischen Ghostwriting'
+          -
+            type: text
+            text: ' Services“ sondern auch Ghostwriting bei der Erstellung von Biografien, Filmdrehbüchern oder Büchern im Allgemeinen. '
       -
         type: heading
         attrs:
@@ -240,7 +344,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Möchte man einen Ghostwriting Service in Anspruch nehmen, ist geboten, sich genau zu überlegen welcher für den jeweiligen Fall am besten geeignet ist. Man findet im Internet viele unseriöse Ghostwriting Services von Ghostwriting Agenturen. Daher ist immer darauf zu achten mit wem man sich bei solch einem sensiblen Thema wie dem Ghostwriting einlässt. Seriöse Ghostwriting Agenturen bieten Vorabgespräche an und machen keine Versprechungen die nicht zu halten sind. Allerdings zeigt sich hier auch: Qualität hat ihren Preis.'
+            text: 'Möchte man einen Ghostwriting Service in Anspruch nehmen, ist geboten, sich genau zu überlegen welcher für den jeweiligen Fall am besten geeignet ist. Man findet im Internet viele unseriöse Ghostwriting Services von Ghostwriting Agenturen. Daher ist immer darauf zu achten mit wem man sich bei solch einem sensiblen Thema wie dem Ghostwriting einlässt. Seriöse Ghostwriting Agenturen bieten Vorabgespräche an und machen keine Versprechungen die nicht zu halten sind. Allerdings zeigt sich hier auch: Qualität hat ihren Preis. Wie der üblicher Ablauf bei einem redaktionellen Auftrag ist, erfahren Sie '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /faq/ablauf-ghostwriting
+                  target: null
+                  rel: null
+            text: hier
+          -
+            type: text
+            text: .
       -
         type: heading
         attrs:
@@ -331,8 +448,8 @@ replicator:
     type: editor
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934786
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1652726608
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
