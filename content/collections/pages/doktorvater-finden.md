@@ -158,7 +158,39 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: "Klar ist: Wer die außeruniversitäre bzw. berufsbegleitende Promotion beabsichtigt, hat es in der Regel schwieriger als ein Vollzeitpromovend an der Uni. Das gilt auch dann, wenn man sich an den Prof wendet, den man noch aus seinem Studium kennt. Aus diesem Grund empfiehlt sich in jedem Fall eine\_"
+                    text: 'Klar ist: Wer die außeruniversitäre bzw. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /promotionsberatung/berufsbegleitende-promotion-standardisierte-promotionsprogramme
+                          target: null
+                          rel: null
+                    text: 'berufsbegleitende Promotion'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: " beabsichtigt, hat es in der Regel schwieriger als ein Vollzeitpromovend an der Uni. Das gilt auch dann, wenn man sich an den Prof wendet, den man noch aus seinem Studium kennt. Aus diesem Grund empfiehlt sich in jedem Fall eine\_"
                   -
                     type: text
                     marks:
@@ -766,12 +798,6 @@ replicator:
                         attrs:
                           color: 'rgb(255, 102, 2)'
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/kommunikationswissenschaften
-                          target: null
-                          rel: null
                     text: Kommunikation
                   -
                     type: text
@@ -796,7 +822,39 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Ganz wichtig: Das Signal, eigenständig arbeiten zu können. Nur so kann der Prof davon ausgehen, dass sein neuer Promovend ihn nicht regelmäßig mit Anfragen bzw. Problemen bei der Dissertation überhäuft.'
+                    text: 'Ganz wichtig: Das Signal, eigenständig arbeiten zu können. Nur so kann der Prof davon ausgehen, dass sein neuer Promovend ihn nicht regelmäßig mit Anfragen bzw. Problemen bei der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/dissertation-schreiben-motivationstipps
+                          target: null
+                          rel: null
+                    text: Dissertation
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: ' überhäuft.'
               -
                 type: paragraph
                 content:
@@ -846,7 +904,39 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Dieser Aspekt im Anfrageprozess ist der letzte und zugleich mit der Wichtigste. Das Gespräch mit dem zukünftigen Prof sollte persönlich offen gestaltet sein und das Zwischenmenschliche gegenüber dem Fachlichen nicht allzu kurz kommen zu lassen. So muss man sich nicht scheuen, auch die private Situation mit einfließen zu lassen, beispielsweise die Beweggründe für die Doppelbelastung aus Berufstätigkeit und Promotionsprojekt, eine besondere Lebenssituation oder Karriereabsicht etc. Manchmal können auch Kleinigkeiten entscheiden. Zum Beispiel wenn sich beim Blick auf die Unterlagen herausstellt, dass der Prof aus derselben Region oder Stadt kommt oder das gleiche Hobby teilt.'
+                    text: 'Dieser Aspekt im Anfrageprozess ist der letzte und zugleich mit der Wichtigste. Das Gespräch mit dem zukünftigen Prof sollte persönlich offen gestaltet sein und das Zwischenmenschliche gegenüber dem Fachlichen nicht allzu kurz kommen zu lassen. So muss man sich nicht scheuen, auch die private Situation mit einfließen zu lassen, beispielsweise die Beweggründe für die Doppelbelastung aus Berufstätigkeit und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /promotionsberatung/berufsbegleitend-promovieren-interne-externe-promotion
+                          target: null
+                          rel: null
+                    text: Promotionsprojekt
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: ', eine besondere Lebenssituation oder Karriereabsicht etc. Manchmal können auch Kleinigkeiten entscheiden. Zum Beispiel wenn sich beim Blick auf die Unterlagen herausstellt, dass der Prof aus derselben Region oder Stadt kommt oder das gleiche Hobby teilt.'
             show_as_card: false
         type: row
         enabled: true
@@ -860,8 +950,8 @@ replicator:
 page_title: 'Externe Promotion: den geeigneten Doktorvater finden • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934775
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1652710061
 meta_title: 'Externe Promotion: den geeigneten Doktorvater finden • GWriters'
 meta_description: 'Wir erklären, wie Sie den geeigneten Doktorvater für Ihre externe, nebenberufliche Promotion finden. Profitieren Sie von der unserer Promotionsberatung!'
 use_meta_keywords: false
