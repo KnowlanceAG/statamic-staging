@@ -82,7 +82,7 @@ teaser:
 teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1652791369
+updated_at: 1652791457
 replicator:
   -
     bard:
@@ -161,7 +161,71 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: "Kunden kommen immer wieder mit solchen oder ähnlichen Fragen zu uns. Um Ihnen und allen anderen Interessenten einen Eindruck von unserer Ghostwriting Erfahrung und der Qualität unserer Leistungen verschaffen, möchten wir Ihnen auf dieser Seite einige von unseren akademischen Ghostwritern verfasste\_"
+            text: 'Kunden kommen immer wieder mit solchen oder ähnlichen Fragen zu uns. Um Ihnen und allen anderen Interessenten einen Eindruck von unserer '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /ghostwriting
+                  target: null
+                  rel: null
+            text: 'Ghostwriting Erfahrung'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: ' und der Qualität unserer Leistungen verschaffen, möchten wir Ihnen auf dieser Seite einige von unseren '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  target: null
+                  rel: null
+            text: 'akademischen Ghostwritern'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: " verfasste\_"
           -
             type: text
             marks:
