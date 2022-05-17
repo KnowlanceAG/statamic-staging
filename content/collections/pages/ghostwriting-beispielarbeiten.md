@@ -81,8 +81,8 @@ teaser:
     type: paragraph
 teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934765
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1652791354
 replicator:
   -
     bard:
@@ -242,7 +242,29 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: '-Beispiele bieten. Wenn Sie sich eine Mustervorlage für Ihre Fach-, Haus- oder Seminararbeiten schreiben lassen möchten, oder auch für Ihre Abschlussarbeit, dann finden Sie hier mehrere anschauliche Beispiele für die Ergebnisse unseres professionellen Ghostwriting Services.'
+            text: '-Beispiele bieten. Wenn Sie sich eine Mustervorlage für Ihre Fach-, Haus- oder Seminararbeiten schreiben lassen möchten, oder auch für Ihre Abschlussarbeit, dann finden Sie hier mehrere anschauliche Beispiele für die Ergebnisse unseres professionellen '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: link
+                attrs:
+                  href: /ghostwriting/ghostwriting-service
+                  target: null
+                  rel: null
+            text: 'Ghostwriting Services'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: .
       -
         type: paragraph
         content:
@@ -253,7 +275,51 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: "Schauen Sie sich die Beispiele für die von unseren Ghostwritern verfassten wissenschaftlichen Arbeiten an, damit Sie sich selbst von unseren Qualitätsstandard ein Bild machen können. Diese finden Sie in der folgenden Übersicht und können durch einen klick einfach & schnell in einem PDF Reader aufgerufen werden. Auch wenn Sie eine Mustervorlage für Ihre Bachelorarbeit, Masterarbeit oder\_"
+            text: 'Schauen Sie sich die Beispiele für die von unseren Ghostwritern verfassten wissenschaftlichen Arbeiten an, damit Sie sich selbst von unseren Qualitätsstandard ein Bild machen können. Diese finden Sie in der folgenden Übersicht und können durch einen klick einfach & schnell in einem PDF Reader aufgerufen werden. Auch wenn Sie eine Mustervorlage für Ihre '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Bachelorarbeit
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: link
+                attrs:
+                  href: arbeiten/masterarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Masterarbeit
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: " oder\_"
           -
             type: text
             marks:
@@ -280,7 +346,29 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: "\_möchten, sind Sie bei unserer Ghostwriter Agentur richtig – Seriosität, Qualität und Diskretion stehen bei uns an höchster Stelle und wir passen uns genau an die individuellen Anforderungen jedes akademischen Projekts an."
+            text: "\_möchten, sind Sie bei unserer "
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: link
+                attrs:
+                  href: /ghostwriting/ghostwriting-agentur
+                  target: null
+                  rel: null
+            text: 'Ghostwriter Agentur'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: ' richtig – Seriosität, Qualität und Diskretion stehen bei uns an höchster Stelle und wir passen uns genau an die individuellen Anforderungen jedes akademischen Projekts an.'
       -
         type: set
         attrs:
