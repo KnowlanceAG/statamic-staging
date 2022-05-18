@@ -3,7 +3,7 @@ id: 8e94ca0e-e5de-46b9-908e-d086cd76f0c8
 blueprint: pages
 title: Datenschutzerklärung
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1638883712
+updated_at: 1652884270
 page_title: 'GWriters • Datenschutzerklärung'
 meta_title: 'GWriters • Datenschutzerklärung'
 meta_description: 'Unsere Datenschutzerklärung. GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
@@ -193,23 +193,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Wir weisen darauf hin, dass kein Datenschutzbeauftragter benannt werden muss.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: "Der Ansprechpartner zum Thema Datenschutz:\_"
+            text: "Datenschutzbeauftragter im Sinner von GDPR / DS-GVO ist Christopher Waluga. Den Ansprechpartner zum Thema Datenschutz erreichen Sie unter:\_"
           -
             type: text
             marks:
@@ -286,32 +270,7 @@ replicator:
         content:
           -
             type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: '4.1 Personenbezogene'
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: "\_Daten"
+            text: '4.1 Personenbezogene Daten'
       -
         type: paragraph
         content:
@@ -335,32 +294,7 @@ replicator:
         content:
           -
             type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: '4.2 Betroffene'
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: "\_Person"
+            text: "4.2 Betroffene\_Person"
       -
         type: paragraph
         content:
@@ -418,32 +352,7 @@ replicator:
         content:
           -
             type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: '4.4 Einschränkung'
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: "\_der Verarbeitung"
+            text: "4.4 Einschränkung\_der Verarbeitung"
       -
         type: paragraph
         content:
@@ -5366,4 +5275,5 @@ template: without-teaser-with-sidebar
 og_title: 'GWriters • Datenschutzerklärung'
 og_description: 'Unsere Datenschutzerklärung. GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
