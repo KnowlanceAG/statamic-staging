@@ -101,7 +101,20 @@ replicator:
             text: Ghostwriter
           -
             type: text
-            text: ' oder auch akademischer Ghostwriter ist ein Ghostwriter der sich speziell auf das Erstellen von wissenschaftlichen beziehungsweise akademischen Texten spezialisiert hat. Von einem Ghostwriter für wissenschaftliche Texte zu sprechen, ist allerdings auch nicht ganz richtig, da es Niemanden gibt der alle Fachbereiche beherrscht und somit als universell einsetzbarer wissenschaftlicher Ghostwriter zu Verfügung stehen könnte. So gibt es spezielle akademische Ghostwriter für beispielsweise '
+            text: ' oder auch '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /faq/was-ist-ein-akademischer-ghostwriter
+                  target: null
+                  rel: null
+            text: 'akademischer Ghostwriter'
+          -
+            type: text
+            text: ' ist ein Ghostwriter der sich speziell auf das Erstellen von wissenschaftlichen beziehungsweise akademischen Texten spezialisiert hat. Von einem Ghostwriter für wissenschaftliche Texte zu sprechen, ist allerdings auch nicht ganz richtig, da es Niemanden gibt der alle Fachbereiche beherrscht und somit als universell einsetzbarer wissenschaftlicher Ghostwriter zu Verfügung stehen könnte. So gibt es spezielle akademische Ghostwriter für beispielsweise '
           -
             type: text
             marks:
@@ -167,7 +180,25 @@ replicator:
             marks:
               -
                 type: bold
-            text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+            text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: link
+                attrs:
+                  href: /blog/ghostwriter-mustervorlage
+                  target: null
+                  rel: null
+            text: Mustervorlage
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: ' nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
       -
         type: heading
         attrs:
@@ -181,7 +212,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Wirklich gute wissenschaftliche Ghostwriter halten oftmals selbst bereits diverse akademische Grade. Gerade die Erfahrung aus der Erstellung eigener Arbeiten ermöglicht es ihnen erst als wissenschaftlicher Ghostwriter hochwertige Mustervorlagen für akademische Arbeiten anzufertigen. So sollte ein Ghostwriter für eine Dissertation schon einen Doktortitel besitzen, der in befähigt diesem hohen Maß an wissenschaftlicher Forschungsarbeit gerecht zu werden. Genauso verhält es sich bei wissenschaftlichen Ghostwritern für Bachelorarbeiten, Masterarbeiten oder Diplomarbeiten. Wissenschaftliche Ghostwriter haben also Erfahrung in dem Fachgebiet, in dem sie Arbeiten erstellen, lektorieren oder korrigieren. Zusammenfassend gilt, dass sich sowohl Abiturienten, Studenten, Bachelor- und Masterabsolventen, Diplomanden, Magister und Doktoranden als Ghostwriter betätigen.'
+            text: 'Wirklich gute wissenschaftliche Ghostwriter halten oftmals selbst bereits diverse akademische Grade. Gerade die Erfahrung aus der Erstellung eigener Arbeiten ermöglicht es ihnen erst als wissenschaftlicher Ghostwriter hochwertige Mustervorlagen für akademische Arbeiten anzufertigen. So sollte ein Ghostwriter für eine '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/dissertation-schreiben-motivationstipps
+                  target: null
+                  rel: null
+            text: Dissertation
+          -
+            type: text
+            text: ' schon einen Doktortitel besitzen, der in befähigt diesem hohen Maß an wissenschaftlicher Forschungsarbeit gerecht zu werden. Genauso verhält es sich bei wissenschaftlichen Ghostwritern für Bachelorarbeiten, Masterarbeiten oder Diplomarbeiten. Wissenschaftliche Ghostwriter haben also Erfahrung in dem Fachgebiet, in dem sie Arbeiten erstellen, lektorieren oder korrigieren. Zusammenfassend gilt, dass sich sowohl Abiturienten, Studenten, Bachelor- und Masterabsolventen, Diplomanden, Magister und Doktoranden als Ghostwriter betätigen.'
       -
         type: horizontal_rule
       -
@@ -319,8 +363,8 @@ replicator:
     type: editor
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934789
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1651192803
 page_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'
 template: with-side-bar
 meta_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'

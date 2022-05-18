@@ -98,7 +98,39 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: "Das Schreiben der Bachelorarbeit ist der Abschluss eines wichtigen Abschnitts in jeder akademischen Karriere. Mit der Arbeit beweisen Sie, dass Sie innerhalb Ihres Studiums gelernt haben, wissenschaftlich zu arbeiten. Doch bereits die Themenwahl kann eine echte Belastungsprobe werden, sodass sich viele Studenten eine Mustervorlage für die eigene\_"
+            text: 'Das Schreiben der Bachelorarbeit ist der Abschluss eines wichtigen Abschnitts in jeder akademischen Karriere. Mit der Arbeit beweisen Sie, dass Sie innerhalb Ihres Studiums gelernt haben, wissenschaftlich zu arbeiten. Doch bereits die Themenwahl kann eine echte Belastungsprobe werden, sodass sich viele Studenten eine '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/ghostwriter-mustervorlage
+                  target: null
+                  rel: null
+            text: Mustervorlage
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: " für die eigene\_"
           -
             type: text
             marks:
@@ -283,7 +315,39 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Der letzte Punkt meint, dass Sie auf saubere, klare Formulierungen achten müssen, Sie sowohl direkte als auch indirekte Zitate korrekt kennzeichnen, ein Literaturverzeichnis erstellen etc. Hier hat jede Hochschule eindeutige Vorgaben, über die Sie Sich vorab erkundigen sollten. Ihr Betreuer wird Ihnen für gewöhnlich von sich auf zu Beginn der Bearbeitung eine Liste mit allen Formatvorgaben aushändigen.'
+            text: 'Der letzte Punkt meint, dass Sie auf saubere, klare Formulierungen achten müssen, Sie sowohl direkte als auch indirekte Zitate korrekt kennzeichnen, ein '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/literaturverzeichnis-automatisch-erstellen
+                  target: null
+                  rel: null
+            text: Literaturverzeichnis
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: ' erstellen etc. Hier hat jede Hochschule eindeutige Vorgaben, über die Sie Sich vorab erkundigen sollten. Ihr Betreuer wird Ihnen für gewöhnlich von sich auf zu Beginn der Bearbeitung eine Liste mit allen Formatvorgaben aushändigen.'
       -
         type: heading
         attrs:
@@ -791,7 +855,26 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: '• Ein Exposé erstellen'
+            text: '• Ein '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/expose-erstellen
+                  target: null
+                  rel: null
+            text: 'Exposé erstellen'
           -
             type: hard_break
             marks:
@@ -916,21 +999,15 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: "\_nicht nur individuell und persönlich bei dem Bachelorarbeit-Thema Finden, sondern auch bei jeder Form von akademischen Arbeiten. Wenden Sie Sich schnell und einfach mit einer\_"
+            text: "\_nicht nur individuell und persönlich bei dem Bachelorarbeit-Thema Finden, sondern auch bei jeder Form von akademischen Arbeiten. Wenden "
+          -
+            type: text
+            text: "Sie Sich schnell und einfach mit einer\_"
           -
             type: text
             marks:
               -
                 type: bold
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 102, 2)'
-                  hex: '#000'
               -
                 type: link
                 attrs:
@@ -940,11 +1017,6 @@ replicator:
             text: 'kostenlosen Anfrage'
           -
             type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
             text: "\_an uns und Sie erhalten in kürzester Zeit ein unverbindliches Angebot von uns zurück. Oder rufen Sie uns einfach an, wir beraten Sie gerne! Unter anderem können Sie bei GWriters:"
       -
         type: bullet_list
@@ -1018,13 +1090,26 @@ replicator:
                         attrs:
                           color: 'rgb(255, 102, 2)'
                           hex: '#000'
+                    text: 'wissenschaftliches '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /lektorat
                           target: null
                           rel: null
-                    text: 'wissenschaftliches Lektorat'
+                    text: Lektorat
                   -
                     type: text
                     marks:
@@ -1187,7 +1272,71 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: "Die Bachelorarbeit beginnt für viele unter Ihnen mit der Suche nach dem richtigen Bachelorarbeit-Thema, die sich leider etwas schwierig gestalten kann. Um Ihnen diese Wahl einfacher zu gestalten, haben sich einige unserer Lektoren und Ghostwriter Bachelorarbeit-Themen aus der BWL überlegt. Diese Themen sind so gewählt, dass Ihnen die Suche nach passender\_"
+            text: 'Die Bachelorarbeit beginnt für viele unter Ihnen mit der Suche nach dem richtigen Bachelorarbeit-Thema, die sich leider etwas schwierig gestalten kann. Um Ihnen diese Wahl einfacher zu gestalten, haben sich einige unserer '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: justify
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /lektorat/lektor
+                  target: null
+                  rel: null
+            text: Lektoren
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: justify
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: ' und '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: justify
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  target: null
+                  rel: null
+            text: Ghostwriter
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: justify
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: " Bachelorarbeit-Themen aus der BWL überlegt. Diese Themen sind so gewählt, dass Ihnen die Suche nach passender\_"
           -
             type: text
             marks:
@@ -3492,7 +3641,39 @@ replicator:
                 attrs:
                   color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
                   hex: '#000'
-            text: "\_Agentur. Denn unser Ghostwriter Service hilft nicht nur bei der Erstellung von Arbeiten, sondern auch bei der Auswahl von Themen. Scheuen Sie sich also nicht, einen Ghostwriter für Ihre Bachelorarbeit um Unterstützung zu bitten. Dieser unterstützt Sie bei der Themenfindung oder beispielsweise durch ein Coaching bei der Erstellung der Arbeit."
+            text: "\_Agentur. Denn unser "
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: justify
+              -
+                type: textColor
+                attrs:
+                  color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /ghostwriting/ghostwriting-service
+                  target: null
+                  rel: null
+            text: 'Ghostwriter Service'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: justify
+              -
+                type: textColor
+                attrs:
+                  color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
+                  hex: '#000'
+            text: ' hilft nicht nur bei der Erstellung von Arbeiten, sondern auch bei der Auswahl von Themen. Scheuen Sie sich also nicht, einen Ghostwriter für Ihre Bachelorarbeit um Unterstützung zu bitten. Dieser unterstützt Sie bei der Themenfindung oder beispielsweise durch ein Coaching bei der Erstellung der Arbeit.'
       -
         type: paragraph
         content:
@@ -3739,7 +3920,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1647354829
+updated_at: 1651014477
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false

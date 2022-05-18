@@ -95,7 +95,48 @@ teaser:
         color: '#FF6606'
         spacing_top: false
   -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '20'
+  -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+          -
+            type: link
+            attrs:
+              href: 'tel:+49 (0) 30 809 332 339'
+              target: null
+              rel: null
+        text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
@@ -275,7 +316,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Zudem können Sie einen Ghostwriter (dt.: Geisterschreiber) zur '
+                    text: 'Zudem können Sie einen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: ' (dt.: Geisterschreiber) zur '
                   -
                     type: text
                     marks:
@@ -886,7 +940,20 @@ replicator:
                             text: 'Akademische Ghostwriter'
                           -
                             type: text
-                            text: ' helfen nicht nur im Schreibprozess, sondern auch bei der Literaturrecherche, der Forschungsfrage oder geben Tipps und Erklärungen zur Prüfung Ihrer Argumentation.'
+                            text: ' helfen nicht nur im Schreibprozess, sondern auch bei der '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/literaturrecherche-datenbanken-quellen
+                                  target: null
+                                  rel: null
+                            text: Literaturrecherche
+                          -
+                            type: text
+                            text: ', der Forschungsfrage oder geben Tipps und Erklärungen zur Prüfung Ihrer Argumentation.'
                           -
                             type: hard_break
             show_as_card: false
@@ -1648,7 +1715,19 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'zentrale Forschungsfrage mit Würdigung des aktuellen Forschungsstands'
+                    text: 'zentrale Forschungsfrage mit Würdigung des aktuellen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/wie-schreibe-ich-einen-forschungsstand
+                          target: null
+                          rel: null
+                    text: Forschungsstands
                   -
                     type: text
                     text: ' auf wenigen Seiten erforschen. Unerfahrene Studienanfänger sind oftmals mit dem Komprimieren der Informationsmenge und aufgrund der hohen akademischen Ansprüche überfordert. Auch die korrekte Zitierweise kann Schwierigkeiten verursachen. Dadurch stoßen Studierende auf Schreibblockaden und andere Probleme, besonders wenn diese ihre erste Hausarbeit schreiben.'
@@ -1697,7 +1776,19 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'seriöse Ghostwriting Agentur'
+                    text: 'seriöse '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting/ghostwriting-agentur
+                          target: null
+                          rel: null
+                    text: 'Ghostwriting Agentur'
                   -
                     type: text
                     text: ' aus.'
@@ -1736,7 +1827,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wenn Sie über eine seriöse Agentur für Ghostwriting eine Mustervorlage für Ihre Hausarbeit kaufen möchten, dann erwarten Sie '
+                    text: 'Wenn Sie über eine seriöse Agentur für Ghostwriting eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/ghostwriter-mustervorlage
+                          target: null
+                          rel: null
+                    text: Mustervorlage
+                  -
+                    type: text
+                    text: ' für Ihre Hausarbeit kaufen möchten, dann erwarten Sie '
                   -
                     type: text
                     marks:
@@ -2189,7 +2293,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649771462
+updated_at: 1652438510
 template: default
 use_meta_keywords: false
 no_index_page: false

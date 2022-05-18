@@ -88,20 +88,7 @@ replicator:
         content:
           -
             type: text
-            text: 'So wie mit dem Schreiben von wissenschaftlichen Arbeiten, konzentrieren sich viele Autoren von GWriters auch auf das professionelle Verfassen von populärwissenschaftlichen Texten wie beispielsweise eBooks. Auf '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /anfrage
-                  target: null
-                  rel: null
-            text: Anfrage
-          -
-            type: text
-            text: ' erhalten Sie von uns gerne ein Angebot für den letzten Schliff ihres eigenen eBooks oder auch für das Verfassen des gesamten Werks.'
+            text: 'So wie mit dem Schreiben von wissenschaftlichen Arbeiten, konzentrieren sich viele Autoren von GWriters auch auf das professionelle Verfassen von populärwissenschaftlichen Texten wie beispielsweise eBooks. Auf Anfrage erhalten Sie von uns gerne ein Angebot für den letzten Schliff ihres eigenen eBooks oder auch für das Verfassen des gesamten Werks.'
       -
         type: paragraph
         content:
@@ -1127,7 +1114,33 @@ replicator:
         content:
           -
             type: text
-            text: 'Unter einem eBook oder eingedeutscht auch E-Buch oder Digitalbuch versteht man ein Buch in digitaler Form, das die medientypischen Charakteristika des Mediums Buch beibehält. Mit einem eBook können auf dem Bildschirm das Aussehen eines herkömmlichen Buches sowie der Umgang mit diesem, wie z. B. das Umblättern, mit Hilfe des computertypischen Eingabeequipments simuliert werden.'
+            text: 'Unter einem eBook oder eingedeutscht auch E-Buch oder Digitalbuch versteht man ein Buch in digitaler Form, das die medientypischen Charakteristika des Mediums Buch beibehält. Mit einem eBook können auf dem Bildschirm das Aussehen eines herkömmlichen Buches sowie der Umgang mit diesem, wie z. B. das Umblättern, mit Hilfe des computertypischen Eingabeequipments simuliert werden. Ob ein '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/ebooks-vs-gedruckte-buecher
+                  target: null
+                  rel: null
+            text: 'eBook oder ein gedrucktes Buch'
+          -
+            type: text
+            text: ', entscheiden Sie für sich. So finden Sie '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/ghostwriter-ebook-finden
+                  target: null
+                  rel: null
+            text: 'seriöse Ghostwriter für Ihr eBook'
+          -
+            type: text
+            text: .
       -
         type: heading
         attrs:
@@ -1141,7 +1154,7 @@ replicator:
         content:
           -
             type: text
-            text: 'eBooks sind im Handel als digitale und portable Kopie eines Originalbuches bereits seit einigen Jahren erhältlich.'
+            text: 'EBooks sind im Handel als digitale und portable Kopie eines Originalbuches bereits seit einigen Jahren erhältlich.'
           -
             type: hard_break
           -
@@ -1167,8 +1180,8 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646933704
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1652713575
 meta_title: 'Ghostwriter eBook schreiben lassen • GWriters'
 meta_description: 'eBook schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false

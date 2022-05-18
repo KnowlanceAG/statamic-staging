@@ -85,7 +85,48 @@ teaser:
         color: '#FF6606'
         spacing_top: false
   -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '20'
+  -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+          -
+            type: link
+            attrs:
+              href: 'tel:+49 (0) 30 809 332 339'
+              target: null
+              rel: null
+        text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
@@ -1490,7 +1531,31 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' kennen den aktuellen Kenntnisstand und alle Methoden zur wissenschaftlichen Forschung. Der Forschungsstand benennt den aktuellen Stand der Forschung im Bezug zum Thema einer wissenschaftlichen Arbeit. Somit können wir für Sie eine '
+                    text: ' kennen den aktuellen Kenntnisstand und alle Methoden zur wissenschaftlichen Forschung. Der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/wie-schreibe-ich-einen-forschungsstand
+                          target: null
+                          rel: null
+                    text: Forschungsstand
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' benennt den aktuellen Stand der Forschung im Bezug zum Thema einer wissenschaftlichen Arbeit. Somit können wir für Sie eine '
                   -
                     type: text
                     marks:
@@ -2382,8 +2447,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649693591
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1651193376
 template: default
 use_meta_keywords: false
 no_index_page: false

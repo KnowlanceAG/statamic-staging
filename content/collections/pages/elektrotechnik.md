@@ -85,13 +85,54 @@ teaser:
         color: '#FF6606'
         spacing_top: false
   -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '20'
+  -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+          -
+            type: link
+            attrs:
+              href: 'tel:+49 (0) 30 809 332 339'
+              target: null
+              rel: null
+        text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'GWriters • Elektrotechnik - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646932665
+updated_at: 1651761183
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -872,7 +913,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://ranking.zeit.de/che/de/fachinfo/9'
+                          href: 'https://studiengaenge.zeit.de/studium/ingenieurwissenschaften/elektrotechnik/elektrotechnik'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'Elektrotechnik und Informationstechnik studieren - Zeit Online'

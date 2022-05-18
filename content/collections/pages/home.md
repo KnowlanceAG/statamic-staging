@@ -62,10 +62,51 @@ teaser:
         color: '#FF6606'
         spacing_top: false
   -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '20'
+  -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+          -
+            type: link
+            attrs:
+              href: 'tel:+49 (0) 30 809 332 339'
+              target: null
+              rel: null
+        text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649686811
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1651009038
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -113,7 +154,57 @@ replicator:
   -
     columns-replicator:
       -
-        columns_per_row: '1'
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Kundenurteil: "Sehr Gut"'
+              -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
+            show_as_card: false
+        type: row
+        enabled: true
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
         grid:
           -
             bard:
@@ -121,22 +212,24 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: phone_cta
-                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
-                    open: 'Mo.-Fr. 9:00-18:00'
+                    type: insert_html
+                    html: |-
+                      <!-- ProvenExpert Bewertungssiegel -->
+                      <div id="pewl"></div>
+                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
+                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+                      <!-- ProvenExpert Bewertungssiegel Ende -->
             show_as_card: false
         type: row
         enabled: true
-        single-col: false
-        responsive_columns: 1
+    remove_spacing: false
     is-full: true
     bg-toggle: false
-    bg-color: '#F2F2F2'
+    bg-color: '#F9F9F9'
     bg-image-fixed: false
+    border: false
     type: add_section
     enabled: true
-    remove_spacing: false
-    border: false
   -
     columns-replicator:
       -
@@ -223,87 +316,6 @@ replicator:
         responsive_columns: 1
     is-full: false
     bg-toggle: false
-    bg-image-fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: false
-    border: false
-  -
-    columns-replicator:
-      -
-        columns_per_row: 1
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Kundenurteil: "Sehr Gut"'
-              -
-                type: heading
-                attrs:
-                  level: 4
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(153, 153, 153)'
-                          hex: '#000'
-                    text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
-            show_as_card: false
-        type: row
-        enabled: true
-        single-col: false
-        responsive_columns: 1
-      -
-        columns_per_row: 1
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: insert_html
-                    html: |-
-                      <!-- ProvenExpert Bewertungssiegel -->
-                      <div id="pewl"></div>
-                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
-                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
-                      <!-- ProvenExpert Bewertungssiegel Ende -->
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        single-col: false
-        responsive_columns: 1
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
     bg-image-fixed: false
     type: add_section
     enabled: true

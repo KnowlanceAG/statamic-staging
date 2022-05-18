@@ -78,13 +78,54 @@ teaser:
         color: '#FF6606'
         spacing_top: false
   -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '20'
+  -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+          -
+            type: link
+            attrs:
+              href: 'tel:+49 (0) 30 809 332 339'
+              target: null
+              rel: null
+        text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'GWriters • Mathematik - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1649170563
+updated_at: 1652793685
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -119,7 +160,33 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: ', Lektoren und Coaches eingesetzt, die Studenten Unterstützung und Entlastung bieten.'
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: Lektorat
+                  -
+                    type: text
+                    text: ' und Coaches eingesetzt, die Studenten '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen
+                          target: null
+                          rel: null
+                    text: Unterstützung
+                  -
+                    type: text
+                    text: ' und Entlastung bieten.'
               -
                 type: paragraph
                 content:

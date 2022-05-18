@@ -4,8 +4,8 @@ blueprint: pages
 title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646932225
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1652312253
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -149,7 +149,51 @@ replicator:
                         type: textAlign
                         attrs:
                           align: left
-                    text: ' bezahlen, dass Sie dafür auch wirklich eine hochwertige Mustervorlage erhalten. Wir haben das Problem der Risikoverteilung zwischen unserem Unternehmen, dem Kunden und dem Ghostwriter effektiv gelöst, indem wir Teillieferungen anbieten. Das bedeutet, dass Sie als Kunde wirklich erst dann zahlen, wenn Sie eine Lieferung von uns erhalten. Der Ghostwriter kann indes sicher sein, dass er auch für seine Leistungen entlohnt wird. Somit sind beide Parteien abgesichert und das Risiko ist auf allen Seiten minimiert. Wir garantieren sowohl unseren Ghostwritern als auch unseren Kunden vollste Anonymität. Bei der Auftragserteilung wird Ihnen ein Mitarbeiter von uns als persönlicher Projektmanager zugeteilt und dieser übernimmt für Sie die gesamte Kommunikation mit Ihrem '
+                    text: ' bezahlen, dass Sie dafür auch wirklich eine hochwertige '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/ghostwriter-mustervorlage
+                          target: null
+                          rel: null
+                    text: Mustervorlage
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: ' erhalten. Wir haben das Problem der Risikoverteilung zwischen unserem Unternehmen, dem Kunden und dem Ghostwriter effektiv gelöst, indem wir '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/ghostwriting-gwriters-teillieferungen
+                          target: null
+                          rel: null
+                    text: Teillieferungen
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: ' anbieten. Das bedeutet, dass Sie als Kunde wirklich erst dann zahlen, wenn Sie eine Lieferung von uns erhalten. Der Ghostwriter kann indes sicher sein, dass er auch für seine Leistungen entlohnt wird. Somit sind beide Parteien abgesichert und das Risiko ist auf allen Seiten minimiert. Wir garantieren sowohl unseren Ghostwritern als auch unseren Kunden vollste Anonymität. Bei der Auftragserteilung wird Ihnen ein Mitarbeiter von uns als persönlicher Projektmanager zugeteilt und dieser übernimmt für Sie die gesamte Kommunikation mit Ihrem '
                   -
                     type: text
                     marks:

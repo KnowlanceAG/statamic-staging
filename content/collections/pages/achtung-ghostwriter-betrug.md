@@ -742,7 +742,29 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: "\_und die Plagiatsprüfung sollten zudem in dem Ghostwriter Service bereits inkludiert sein, damit keine versteckten Kosten auf Sie zukommen und gewisse qualitative Standards gesetzt werden."
+            text: "\_und die Plagiatsprüfung sollten zudem in dem "
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: link
+                attrs:
+                  href: /ghostwriting/ghostwriting-service
+                  target: null
+                  rel: null
+            text: 'Ghostwriter Service'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: ' bereits inkludiert sein, damit keine versteckten Kosten auf Sie zukommen und gewisse qualitative Standards gesetzt werden.'
       -
         type: heading
         attrs:
@@ -776,7 +798,39 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Achten Sie darauf, dass Sie bei größeren Projekten mit einem Auftragsvolumen über 1000 EUR/CHF die Option haben Ihre Arbeit in Teillieferungen zu erhalten und mit Raten zu bezahlen. So können Sie sich bereits während des Schreibprozesses selbst ein Bild über die Qualität der Arbeit machen und kaufen nicht die “Katze im Sack”.'
+            text: 'Achten Sie darauf, dass Sie bei größeren Projekten mit einem Auftragsvolumen über 1000 EUR/CHF die Option haben Ihre Arbeit in '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/ghostwriting-gwriters-teillieferungen
+                  target: null
+                  rel: null
+            text: Teillieferungen
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: ' zu erhalten und mit Raten zu bezahlen. So können Sie sich bereits während des Schreibprozesses selbst ein Bild über die Qualität der Arbeit machen und kaufen nicht die “Katze im Sack”.'
       -
         type: heading
         attrs:
@@ -810,7 +864,39 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Zahlungen an seriöse Ghostwriter Anbieter erfolgen auf Bankkonten in der Schweiz oder Deutschland. Eine Zahlung an Bankkonten außerhalb der EU und der Schweiz sollten Sie meiden. Besondere Vorsicht ist geboten bei Zahlungen an Länder mit mangelhaftem Rechtssystem und Konten von Privatpersonen.'
+            text: 'Zahlungen an seriöse '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  target: null
+                  rel: null
+            text: Ghostwriter
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: ' Anbieter erfolgen auf Bankkonten in der Schweiz oder Deutschland. Eine Zahlung an Bankkonten außerhalb der EU und der Schweiz sollten Sie meiden. Besondere Vorsicht ist geboten bei Zahlungen an Länder mit mangelhaftem Rechtssystem und Konten von Privatpersonen.'
       -
         type: paragraph
         content:
@@ -936,7 +1022,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://www.handelsregister.de/rp_web/mask.do?Typ=n'
+                  href: 'https://www.handelsregister.de/rp_web/welcome.xhtml'
                   target: _blank
                   rel: nofollow
             text: 'Handelsregister Deutschland'
@@ -1479,7 +1565,71 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: "Ob Sie einen seriösen Ghostwriter finden oder ein Ghostwriter werden möchten, in beiden Fällen ist es interessant zu wissen, warum man diesen Beruf überhaupt wählt. Nun, natürlich gibt es, wie bei jedem anderen Job auch, mehrere Gründe dafür. Das Schreiben wissenschaftlicher Texte verspricht einen guten Verdienst, allerdings nur, wenn der Ghostwriter gewissenhaft arbeitet und über das notwendige Rüstzeug verfügt, um schreiben zu können, was der Kunde verlangt. Wie in anderen Branchen auch, gilt für das Schreiben fremder Texte: Der Kunde ist König. Falls jemand auf schnelles Geld aus ist und lediglich Texten will, weil diese Arbeit von zu Hause aus erledigt werden kann, wird er in diesem Beruf nicht weit kommen. Das Schreiben von Texten jeglicher Art erfordert Können und Geduld und darüber hinaus wird eine unpräzise Arbeitsweise, mangelhafte Recherche oder Plagiate von\_"
+            text: 'Ob Sie einen seriösen '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter-gesucht
+                  target: null
+                  rel: null
+            text: 'Ghostwriter finden'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: ' oder ein '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/ghostwriter-werden-voraussetzungen
+                  target: null
+                  rel: null
+            text: 'Ghostwriter werden'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: " möchten, in beiden Fällen ist es interessant zu wissen, warum man diesen Beruf überhaupt wählt. Nun, natürlich gibt es, wie bei jedem anderen Job auch, mehrere Gründe dafür. Das Schreiben wissenschaftlicher Texte verspricht einen guten Verdienst, allerdings nur, wenn der Ghostwriter gewissenhaft arbeitet und über das notwendige Rüstzeug verfügt, um schreiben zu können, was der Kunde verlangt. Wie in anderen Branchen auch, gilt für das Schreiben fremder Texte: Der Kunde ist König. Falls jemand auf schnelles Geld aus ist und lediglich Texten will, weil diese Arbeit von zu Hause aus erledigt werden kann, wird er in diesem Beruf nicht weit kommen. Das Schreiben von Texten jeglicher Art erfordert Können und Geduld und darüber hinaus wird eine unpräzise Arbeitsweise, mangelhafte Recherche oder Plagiate von\_"
           -
             type: text
             marks:
@@ -1492,12 +1642,6 @@ replicator:
                 attrs:
                   color: 'rgb(255, 102, 2)'
                   hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting/ghostwriting-agentur/
-                  target: null
-                  rel: null
             text: 'seriösen Ghostwriting Agenturen'
           -
             type: text
@@ -1667,7 +1811,39 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Zu den Leistungen eines Ghostwriters bzw. einer Ghostwriter-Agentur zählt in erster Linie das Erstellen von akademischen Texten. Diese werden von erfahrenen Textern in ihren Fachdisziplinen verfasst. Da es viele Anbieter von solchen Leistungen gibt, ist allerdings Vorsicht geboten, denn nicht immer stimmt die Qualität. Zu achten ist darauf, dass der verfasste Text bereits vom Ghostwriter bzw. der Agentur selbst auf Qualität und somit auf Plagiate geprüft wird, dass alle Ghostwriter vor Beginn Ihrer Tätigkeit bei der Ghostwriting Agentur einen tief gehenden Auswahlprozess durchlaufen müssen und, dass auch die Hintergründe der Agentur offen einsehbar sind.'
+            text: 'Zu den Leistungen eines Ghostwriters bzw. einer Ghostwriter-Agentur zählt in erster Linie das Erstellen von akademischen Texten. Diese werden von erfahrenen Textern in ihren Fachdisziplinen verfasst. Da es viele Anbieter von solchen Leistungen gibt, ist allerdings Vorsicht geboten, denn nicht immer stimmt die Qualität. Zu achten ist darauf, dass der verfasste Text bereits vom Ghostwriter bzw. der Agentur selbst auf Qualität und somit auf Plagiate geprüft wird, dass alle Ghostwriter vor Beginn Ihrer Tätigkeit bei der '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /ghostwriting/ghostwriting-agentur
+                  target: null
+                  rel: null
+            text: 'Ghostwriting Agentur'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: ' einen tief gehenden Auswahlprozess durchlaufen müssen und, dass auch die Hintergründe der Agentur offen einsehbar sind.'
       -
         type: paragraph
         content:
@@ -1683,7 +1859,39 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Abgesehen von der Erstellung einer ganzen Bachelorarbeit, kann der Ghostwriter Ihnen auch in Teilbereichen des Schreibprozesses behilflich sein. Zum Beispiel, kann er im Zuge der Erstellung einer z.B. Bachelorarbeit dabei helfen, das Thema zu finden und auszuformulieren oder er kann Tipps zum Inhalt geben. Des Weiteren ist es möglich, dass der Ghostwriter mit Ihnen gemeinsam Forschungsideen entwickelt, was für viele Kunden eine große Hilfe darstellt, da sich der Ghostwriter in seinem Fachgebiet bestens auskennt und somit auch den aktuellen Stand der Forschung beherrscht. Von der Themenfindung zur kompletten Mustervorlage ist somit alles möglich.'
+            text: 'Abgesehen von der Erstellung einer ganzen Bachelorarbeit, kann der Ghostwriter Ihnen auch in Teilbereichen des Schreibprozesses behilflich sein. Zum Beispiel, kann er im Zuge der Erstellung einer z.B. Bachelorarbeit dabei helfen, das Thema zu finden und auszuformulieren oder er kann Tipps zum Inhalt geben. Des Weiteren ist es möglich, dass der Ghostwriter mit Ihnen gemeinsam Forschungsideen entwickelt, was für viele Kunden eine große Hilfe darstellt, da sich der Ghostwriter in seinem Fachgebiet bestens auskennt und somit auch den aktuellen Stand der Forschung beherrscht. Von der Themenfindung zur kompletten '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/ghostwriter-mustervorlage
+                  target: null
+                  rel: null
+            text: Mustervorlage
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: ' ist somit alles möglich.'
       -
         type: heading
         attrs:
@@ -1870,13 +2078,39 @@ replicator:
                 attrs:
                   color: 'rgb(255, 102, 2)'
                   hex: '#000'
+            text: 'können Sie bei einem Ghostwriter eine professionelle '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(255, 102, 2)'
+                  hex: '#000'
               -
                 type: link
                 attrs:
                   href: /leistungen/plagiatspruefung
-                  target: _blank
-                  rel: 'noopener noreferrer'
-            text: 'können Sie bei einem Ghostwriter eine professionelle Plagiatsprüfung erstellen lassen'
+                  target: null
+                  rel: null
+            text: Plagiatsprüfung
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(255, 102, 2)'
+                  hex: '#000'
+            text: ' erstellen lassen'
           -
             type: text
             marks:
@@ -1955,7 +2189,7 @@ replicator:
     enabled: true
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934766
+updated_at: 1652442138
 page_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_description: 'Hier finden Sie aktuelle Informationen zu bekannten Betrüger-Websites im akademischen Ghostwriting. Verlassen Sie sich nur auf seriöse Ghostwriting Agenturen!'

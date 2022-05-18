@@ -18,8 +18,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6602'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
         text: 'Diplomarbeit schreiben lassen'
   -
     type: heading
@@ -79,6 +79,49 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '20'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+          -
+            type: link
+            attrs:
+              href: 'tel:+49 (0) 30 809 332 339'
+              target: null
+              rel: null
+        text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1523,7 +1566,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646933699
+updated_at: 1650982261
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false

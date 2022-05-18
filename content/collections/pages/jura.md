@@ -85,13 +85,56 @@ teaser:
         color: '#FF6606'
         spacing_top: false
   -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '20'
+  -
     type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+          -
+            type: link
+            attrs:
+              href: 'tel:+49 (0) 30 809 332 339'
+              target: null
+              rel: null
+        text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646933075
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1652313611
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -462,7 +505,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://statamic-dynamic.gwriters.de/ghostwriter'
+                          href: /ghostwriter
                           target: _blank
                           rel: null
                     text: Ghostwriter
@@ -821,7 +864,20 @@ replicator:
                     text: Ghostwriting
                   -
                     type: text
-                    text: "\_verbreitet, weil Doktoranden sich einen großen Teil ihrer Arbeitslast abnehmen lassen können, indem sie von einem Ghostwriter eine Mustervorlage für eine Dissertation schreiben lassen, die sie als Orientierungshilfe nutzen. Einige Universitäten ermöglichen den Studenten das Diplomierungsverfahren, bei dem durch Erstellen einer\_"
+                    text: "\_verbreitet, weil Doktoranden sich einen großen Teil ihrer Arbeitslast abnehmen lassen können, indem sie von einem Ghostwriter eine Mustervorlage für eine "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/dissertation-schreiben-motivationstipps
+                          target: null
+                          rel: null
+                    text: 'Dissertation schreiben lassen'
+                  -
+                    type: text
+                    text: ", die sie als Orientierungshilfe nutzen. Einige Universitäten ermöglichen den Studenten das Diplomierungsverfahren, bei dem durch Erstellen einer\_"
                   -
                     type: text
                     marks:
@@ -1626,7 +1682,20 @@ replicator:
                     text: Seminararbeiten
                   -
                     type: text
-                    text: " voraus. Viele Studierende fühlen sich angesichts dieser Aufgabenstellung schnell überfordert, da das eigentliche wissenschaftliche Erarbeiten bestimmter Fragestellungen im Rahmen der jeweiligen Veranstaltungen des (Haupt-)Studiums regelmäßig nur eine untergeordnete Rolle spielt. Dabei sind beide Aufgaben – sowohl das Anfertigen einer\_Jura Hausarbeit als auch dasjenige einer Jura Seminararbeit – unter Berücksichtigung einiger Hilfestellungen für alle Studierende machbar. Und in besonders schweren Fällen können auch akademische Ghostwriter Jura Studenten professionell unterstützen."
+                    text: " voraus. Viele Studierende fühlen sich angesichts dieser Aufgabenstellung schnell überfordert, da das eigentliche wissenschaftliche Erarbeiten bestimmter Fragestellungen im Rahmen der jeweiligen Veranstaltungen des (Haupt-)Studiums regelmäßig nur eine untergeordnete Rolle spielt. Dabei sind beide Aufgaben – sowohl das Anfertigen einer\_Jura Hausarbeit als auch dasjenige einer Jura Seminararbeit – unter Berücksichtigung einiger Hilfestellungen für alle Studierende machbar. Und in besonders schweren Fällen können auch "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /faq/was-ist-ein-akademischer-ghostwriter
+                          target: null
+                          rel: null
+                    text: 'akademische Ghostwriter'
+                  -
+                    type: text
+                    text: ' Jura Studenten professionell unterstützen.'
               -
                 type: heading
                 attrs:
@@ -1882,7 +1951,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die Ausarbeitung der Seminararbeit unterscheidet sich von der Hausarbeit insofern, als hier regelmäßig nicht am Fall gearbeitet, sondern abstrakt die Darstellung und Einordnung eines abstrakten Rechtsproblems gefordert wird. Dies erleichtert in der Vorbereitung der Ausarbeitung der Seminararbeit die Arbeit insofern, als es gerade nicht erforderlich ist, den Sachverhalt korrekt zu bereinigen, erschwert die eigentliche Lösungsskizze allerdings im Hinblick auf den Transferteil der Aufgabenstellung, als insoweit die entsprechende Recherche der Rechtsprobleme zwar als Grundlage der eigenen Ausarbeitung dienen kann, eine vollständig selbständig erdachte Lösung dennoch erforderlich bleibt.'
+                    text: 'Das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/erste-seminararbeit-schreiben
+                          target: null
+                          rel: null
+                    text: 'Schreiben einer Seminararbeit'
+                  -
+                    type: text
+                    text: ' unterscheidet sich von der Hausarbeit insofern, als hier regelmäßig nicht am Fall gearbeitet, sondern abstrakt die Darstellung und Einordnung eines abstrakten Rechtsproblems gefordert wird. Dies erleichtert in der Vorbereitung der Ausarbeitung der Seminararbeit die Arbeit insofern, als es gerade nicht erforderlich ist, den Sachverhalt korrekt zu bereinigen, erschwert die eigentliche Lösungsskizze allerdings im Hinblick auf den Transferteil der Aufgabenstellung, als insoweit die entsprechende Recherche der Rechtsprobleme zwar als Grundlage der eigenen Ausarbeitung dienen kann, eine vollständig selbständig erdachte Lösung dennoch erforderlich bleibt.'
               -
                 type: paragraph
                 content:
@@ -1920,7 +2002,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Auch und gerade deshalb gibt es viele Studenten bzw. Auftraggeber, die sich Mustervorlagen für Ihre Haus- und Seminararbeiten in Jura schreiben lassen. Professionelle Ghostwriting-Agenturen setzen hier dort an, wo es an der Unterstützung durch Lehrende, Doktoranden und Professoren mangelt. Durch Mustervorlagen nach wissenschaftlichen Standards und Experten-Coachings werden die korrekten wissenschaftlichen Arbeitstechniken demonstriert und verständlich erklärt sowie beispielsweise der Unterschied zwischen dem Gutachten- und Urteilsstil verdeutlicht.'
+                    text: 'Auch und gerade deshalb gibt es viele Studenten bzw. Auftraggeber, die sich Mustervorlagen für Ihre Haus- oder Seminararbeiten in Jura schreiben lassen. Professionelle Ghostwriting-Agenturen setzen hier dort an, wo es an der Unterstützung durch Lehrende, Doktoranden und Professoren mangelt. Durch Mustervorlagen nach wissenschaftlichen Standards und Experten-Coachings werden die korrekten wissenschaftlichen Arbeitstechniken demonstriert und verständlich erklärt sowie beispielsweise der Unterschied zwischen dem Gutachten- und Urteilsstil verdeutlicht.'
               -
                 type: paragraph
                 content:
@@ -2127,7 +2209,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://ranking.zeit.de/che/de/fachinfo/5'
+                          href: 'https://studiengaenge.zeit.de/studium/recht/rechtswissenschaften/rechtswissenschaft-jura'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'Jura studieren – Zeit Online'

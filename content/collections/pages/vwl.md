@@ -85,13 +85,54 @@ teaser:
         color: '#FF6606'
         spacing_top: false
   -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '20'
+  -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+          -
+            type: link
+            attrs:
+              href: 'tel:+49 (0) 30 809 332 339'
+              target: null
+              rel: null
+        text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'GWriters • VWL - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646932346
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1652150437
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -150,7 +191,29 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_und Freelancer in Anspruch, die ihnen helfen das enorme Arbeitspensum zu bewältigen. Ein akademischer Freelancer der VWL ist mit dem neusten volkswirtschaftlichen Kenntnisstand vertraut und hat Erfahrungen im Erstellen von Mustervorlagen für wissenschaftliche Arbeiten. Formalien und das notwendige Fachvokabular sind ihm überaus bekannt."
+                    text: "\_und Freelancer in Anspruch, die ihnen helfen das enorme Arbeitspensum zu bewältigen. Ein akademischer Freelancer der VWL ist mit dem neusten volkswirtschaftlichen Kenntnisstand vertraut und hat Erfahrungen im Erstellen von "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/ghostwriter-mustervorlage
+                          target: null
+                          rel: null
+                    text: 'Mustervorlagen für wissenschaftliche Arbeiten'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: '. Formalien und das notwendige Fachvokabular sind ihm überaus bekannt.'
               -
                 type: paragraph
                 content:
@@ -1149,7 +1212,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://ranking.zeit.de/che/de/fachinfo/27'
+                          href: 'https://studiengaenge.zeit.de/studium/wirtschaft/wirtschaftswissenschaften/volkswirtschaftslehre'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'VWL studieren – Zeit Online'

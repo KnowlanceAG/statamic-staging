@@ -85,7 +85,48 @@ teaser:
         color: '#FF6606'
         spacing_top: false
   -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '20'
+  -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+          -
+            type: link
+            attrs:
+              href: 'tel:+49 (0) 30 809 332 339'
+              target: null
+              rel: null
+        text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
@@ -780,7 +821,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere professionelle Ghostwriting-Agentur arbeitet mit akademisch ausgebildeten Autoren. Diese Autoren sind '
+                    text: 'Unsere professionelle '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting/ghostwriting-agentur
+                          target: null
+                          rel: null
+                    text: Ghostwriting-Agentur
+                  -
+                    type: text
+                    text: ' arbeitet mit akademisch ausgebildeten Autoren. Diese Autoren sind '
                   -
                     type: text
                     marks:
@@ -1013,7 +1067,31 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: '. Besonders Berufstätige, die erst Jahre nach ihrem Examen feststellen, dass die Auszeichnung mit einem Doktortitel ihnen einen Karrieresprung verschafft, haben oft Schwierigkeiten sich in ihrem Forschungsbereich neu einzufinden. Daher empfiehlt sich eine professionelle Unterstützung, besonders wenn Sie berufsbegleitend Promovieren.'
+                    text: '. Besonders Berufstätige, die erst Jahre nach ihrem Examen feststellen, dass die Auszeichnung mit einem Doktortitel ihnen einen Karrieresprung verschafft, haben oft Schwierigkeiten sich in ihrem Forschungsbereich neu einzufinden. Daher empfiehlt sich eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen
+                          target: null
+                          rel: null
+                    text: 'professionelle Unterstützung'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', besonders wenn Sie berufsbegleitend Promovieren.'
               -
                 type: set
                 attrs:
@@ -1610,6 +1688,12 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /promotionsberatung/berufsbegleitende-promotion-standardisierte-promotionsprogramme
+                          target: null
+                          rel: null
                     text: Promotionsprogramme
                   -
                     type: text
@@ -2737,8 +2821,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649693596
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1652794165
 template: default
 use_meta_keywords: false
 no_index_page: false

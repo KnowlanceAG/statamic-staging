@@ -255,7 +255,39 @@ replicator:
                                 attrs:
                                   color: 'rgb(68, 68, 68)'
                                   hex: '#000'
-                            text: 'Vereinbarkeit von Beruf und Promotion (Durchführbarkeit als berufsbegleitende Promotion)'
+                            text: 'Vereinbarkeit von Beruf und Promotion (Durchführbarkeit als '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(68, 68, 68)'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /promotionsberatung/berufsbegleitende-promotion-standardisierte-promotionsprogramme
+                                  target: null
+                                  rel: null
+                            text: 'berufsbegleitende Promotion'
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: 'rgb(68, 68, 68)'
+                                  hex: '#000'
+                            text: )
                   -
                     type: list_item
                     content:
@@ -438,7 +470,20 @@ replicator:
                     text: Ph.D.
                   -
                     type: text
-                    text: "\_ist empfehlenswert für diejenigen Hochschulabsolventen, die mit dem Doktortitel die akademische Laufbahn einschlagen wollen. Kernziel der wissenschaftlichen Vertiefung im Rahmen der Ph.D.-Promotionsprogramme ist das theoretische Verständnis von Theorien des unternehmerischen Management. Der Fokus liegt in der theoretischen Ausarbeitung und Validierung von Forschungsmodellen."
+                    text: "\_ist empfehlenswert für diejenigen Hochschulabsolventen, die mit dem Doktortitel die "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/akademische-laufbahn-5-fragen-fuer-akademiker
+                          target: null
+                          rel: null
+                    text: 'akademische Laufbahn'
+                  -
+                    type: text
+                    text: ' einschlagen wollen. Kernziel der wissenschaftlichen Vertiefung im Rahmen der Ph.D.-Promotionsprogramme ist das theoretische Verständnis von Theorien des unternehmerischen Management. Der Fokus liegt in der theoretischen Ausarbeitung und Validierung von Forschungsmodellen.'
               -
                 type: paragraph
                 content:
@@ -639,7 +684,39 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: "Voraussetzung für die Dissertation ist ein erfolgreich absolviertes zweijähriges Studienprogramm, bestehend aus mehreren Präsenzmodulen. Im Anschluss ist ein Exposee für die Dissertation einzureichen, zu dem in der Regel die Hochschule den passenden\_"
+                    text: 'Voraussetzung für die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/dissertation-schreiben-motivationstipps
+                          target: null
+                          rel: null
+                    text: Dissertation
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: " ist ein erfolgreich absolviertes zweijähriges Studienprogramm, bestehend aus mehreren Präsenzmodulen. Im Anschluss ist ein Exposee für die Dissertation einzureichen, zu dem in der Regel die Hochschule den passenden\_"
                   -
                     type: text
                     marks:
@@ -972,8 +1049,8 @@ replicator:
 page_title: 'Berufsbegleitende Promotion: DBA oder Ph.D. • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934776
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1652724206
 meta_title: 'Berufsbegleitende Promotion: DBA oder Ph.D. • GWriters'
 meta_description: 'Passt zu Ihnen ein Ph.D. oder eher eine berufsbegleitende Promotion zum DBA? Erfahren Sie jetzt alle Informationen aus unserer seriösen Promotionsberatung!'
 use_meta_keywords: false

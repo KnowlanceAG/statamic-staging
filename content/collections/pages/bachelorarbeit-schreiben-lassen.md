@@ -82,7 +82,48 @@ teaser:
         color: '#FF6606'
         spacing_top: false
   -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: '20'
+  -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+          -
+            type: link
+            attrs:
+              href: 'tel:+49 (0) 30 809 332 339'
+              target: null
+              rel: null
+        text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
@@ -255,7 +296,20 @@ replicator:
                     text: 'seine Erfahrungen und fachlichen Kenntnisse Studenten professionell wie ein Betreuer von der Universität unterstützen'
                   -
                     type: text
-                    text: '. Dies kann direkt zu Beginn der Bearbeitung geschehen. Bei der Themenauswahl, Literaturrecherche, dem Aufbau einer Bachelor Thesis (Einleitung, Hauptteil, Fazit) sowie dessen Gliederung (Kapitel, Unterkapitel) und Exposé liefern Ghostwriter wichtige Hilfestellungen.'
+                    text: '. Dies kann direkt zu Beginn der Bearbeitung geschehen. Bei der Themenauswahl, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/literaturrecherche-datenbanken-quellen
+                          target: null
+                          rel: null
+                    text: Literaturrecherche
+                  -
+                    type: text
+                    text: ', dem Aufbau einer Bachelor Thesis (Einleitung, Hauptteil, Fazit) sowie dessen Gliederung (Kapitel, Unterkapitel) und Exposé liefern Ghostwriter wichtige Hilfestellungen.'
               -
                 type: paragraph
                 content:
@@ -328,7 +382,31 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' den aktuellen Forschungsstand zu vielen Themenstellungen und haben als Autoren auf alle relevanten Datenbanken Zugriff. Durch Ihre Erfahrung als '
+                    text: ' den aktuellen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/wie-schreibe-ich-einen-forschungsstand
+                          target: null
+                          rel: null
+                    text: Forschungsstand
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' zu vielen Themenstellungen und haben als Autoren auf alle relevanten Datenbanken Zugriff. Durch Ihre Erfahrung als '
                   -
                     type: text
                     marks:
@@ -348,7 +426,55 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' aus der Forschung können diese wissenschaftliche Quellen, Informationen und Daten für Ihre Forschungsfrage finden, korrekt zusammenführen und daraus eine Gliederung entwickeln'
+                    text: ' aus der Forschung können diese '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/wissenschaftliche-quellen-finden-online
+                          target: null
+                          rel: null
+                    text: 'wissenschaftliche Quellen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', Informationen und Daten für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/forschungsluecke-finden
+                          target: null
+                          rel: null
+                    text: 'Forschungsfrage finden'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', korrekt zusammenführen und daraus eine Gliederung entwickeln'
                   -
                     type: text
                     text: '. '
@@ -390,7 +516,25 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: ' Korrektorat '
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat
+                          target: null
+                          rel: null
+                    text: Korrektorat
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' '
                   -
                     type: text
                     text: 'sowie die '
@@ -2731,8 +2875,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1649701523
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1651017626
 template: default
 use_meta_keywords: false
 no_index_page: false
