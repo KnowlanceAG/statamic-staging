@@ -368,7 +368,20 @@ replicator:
                     text: 'Masterarbeit schreiben lassen'
                   -
                     type: text
-                    text: ' wollen, wenden Sie sich gerne jederzeit unverbindlich an unsere Kontaktpersonen bei GWriters. Unsere Autoren und Ghostwriter haben langjährige akademische Erfahrung in nahezu allen akademischen Fachbereichen und sind eng vertraut mit den hohen methodischen Ansprüchen qualitativer Inhaltsanalysen mit MAXQDA. Sobald wir über Ihr Thema informiert sind, suchen wir für Sie einen Autor oder eine Autorin, die Ihre Daten nicht nur optimal bearbeiten kann, sondern auch noch Expertise in ihrem Fachbereich mitbringt.'
+                    text: ' wollen, wenden Sie sich gerne jederzeit unverbindlich an unsere Kontaktpersonen bei GWriters. Unsere Autoren und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: ' haben langjährige akademische Erfahrung in nahezu allen akademischen Fachbereichen und sind eng vertraut mit den hohen methodischen Ansprüchen qualitativer Inhaltsanalysen mit MAXQDA. Sobald wir über Ihr Thema informiert sind, suchen wir für Sie einen Autor oder eine Autorin, die Ihre Daten nicht nur optimal bearbeiten kann, sondern auch noch Expertise in ihrem Fachbereich mitbringt.'
               -
                 type: paragraph
                 content:
@@ -1315,8 +1328,8 @@ replicator:
     enabled: true
     border: false
 parent: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646931446
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1653422408
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
