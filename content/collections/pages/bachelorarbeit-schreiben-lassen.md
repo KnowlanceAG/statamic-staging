@@ -373,6 +373,12 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /faq/was-ist-ein-akademischer-ghostwriter
+                          target: null
+                          rel: null
                     text: 'akademische Ghostwriter'
                   -
                     type: text
@@ -489,25 +495,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: ' '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: Lektorat
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' '
+                    text: ' Lektorat '
                   -
                     type: text
                     text: und
@@ -516,25 +504,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: ' '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat
-                          target: null
-                          rel: null
-                    text: Korrektorat
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' '
+                    text: ' Korrektorat '
                   -
                     type: text
                     text: 'sowie die '
@@ -2876,7 +2846,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1651017626
+updated_at: 1653430116
 template: default
 use_meta_keywords: false
 no_index_page: false
