@@ -253,6 +253,21 @@ replicator:
                   target: null
                   rel: null
             text: 'Erfahrungsbericht zur Arbeit als Ghostwriter bei GWriters'
+          -
+            type: hard_break
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter-gesucht
+                  target: null
+                  rel: null
+            text: 'Akademische Ghostwriter gesucht'
+          -
+            type: text
+            text: ' '
       -
         type: paragraph
         content:
@@ -272,8 +287,8 @@ replicator:
     type: editor
     enabled: true
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934795
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1653418432
 page_title: 'Lektor gesucht? Wir haben den passenden Lektor für Ihre Abschlussarbeit'
 template: with-side-bar
 meta_title: 'Lektor gesucht? Wir haben den passenden Lektor für Sie!'
