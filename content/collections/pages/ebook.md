@@ -1140,7 +1140,7 @@ replicator:
             text: 'seriöse Ghostwriter für Ihr eBook'
           -
             type: text
-            text: .
+            text: '. '
       -
         type: heading
         attrs:
@@ -1181,7 +1181,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1652713575
+updated_at: 1653430924
 meta_title: 'Ghostwriter eBook schreiben lassen • GWriters'
 meta_description: 'eBook schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
