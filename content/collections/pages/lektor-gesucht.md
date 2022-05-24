@@ -106,7 +106,59 @@ replicator:
             text: Seminararbeit
           -
             type: text
-            text: ', Hausarbeit, Examensarbeit oder Bachelor-/Masterarbeit an.'
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/hausarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Hausarbeit
+          -
+            type: text
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /examensarbeit
+                  target: null
+                  rel: null
+            text: Examensarbeit
+          -
+            type: text
+            text: ' oder '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Bachelor
+          -
+            type: text
+            text: '-/'
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/masterarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Masterarbeit
+          -
+            type: text
+            text: ' an.'
       -
         type: heading
         attrs:
@@ -288,7 +340,7 @@ replicator:
     enabled: true
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1653418432
+updated_at: 1653421817
 page_title: 'Lektor gesucht? Wir haben den passenden Lektor für Ihre Abschlussarbeit'
 template: with-side-bar
 meta_title: 'Lektor gesucht? Wir haben den passenden Lektor für Sie!'
