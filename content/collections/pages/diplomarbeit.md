@@ -1242,13 +1242,52 @@ replicator:
             text: Diplomarbeit
           -
             type: text
-            text: ' stellt in Deutschland die Abschlussarbeit eines Diplomstudiengangs an einer Hochschule dar, welche allerdings derzeit im Zuge des Bologna-Prozesses durch die sogenannten Bachelor- und Masterstudiengänge ersetzt wird. Demnach wird von den Hochschulen gegenwärtig nicht mehr erwartet, dass sie von ihren Studenten eine Diplomarbeit schreiben lassen. Vielmehr setzt sich im Zuge dieser Reform durch, dass Lehrinstitute von Studenten eine Masterarbeit oder Bachelorarbeit schreiben lassen. Durch diese Arbeiten soll geprüft werden, ob der Student in der Lage ist, zu einer definierten Fragestellung zu forschen bzw. zu recherchieren und eine ordnungsgemäße wissenschaftliche Arbeit zu schreiben.'
+            text: ' stellt in Deutschland die Abschlussarbeit eines Diplomstudiengangs an einer Hochschule dar, welche allerdings derzeit im Zuge des Bologna-Prozesses durch die sogenannten Bachelor- und Masterstudiengänge ersetzt wird. Demnach wird von den Hochschulen gegenwärtig nicht mehr erwartet, dass sie von ihren Studenten eine Diplomarbeit schreiben lassen. Vielmehr setzt sich im Zuge dieser Reform durch, dass Lehrinstitute von Studenten eine '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/masterarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Masterarbeit
+          -
+            type: text
+            text: ' oder '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: 'Bachelorarbeit schreiben lassen'
+          -
+            type: text
+            text: '. Durch diese Arbeiten soll geprüft werden, ob der Student in der Lage ist, zu einer definierten Fragestellung zu forschen bzw. zu recherchieren und eine ordnungsgemäße wissenschaftliche Arbeit zu schreiben.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Unterstützung verschaffen sich einige Studenten durch universitäre Hilfskurse für wissenschaftliches Arbeiten oder für die Literaturrecherche. Außerdem unterstützen wissenschaftliche Coaches bei der Bearbeitung der Diplomarbeit sowie ein Lektor oder Korrektor, welcher sie gründlich überarbeitet. Einige von diesen Studenten lassen '
+            text: 'Unterstützung verschaffen sich einige Studenten durch universitäre Hilfskurse für wissenschaftliches Arbeiten oder für die '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/literaturrecherche-datenbanken-quellen
+                  target: null
+                  rel: null
+            text: Literaturrecherche
+          -
+            type: text
+            text: '. Außerdem unterstützen wissenschaftliche Coaches bei der Bearbeitung der Diplomarbeit sowie ein Lektor oder Korrektor, welcher sie gründlich überarbeitet. Einige von diesen Studenten lassen '
           -
             type: text
             marks:
@@ -1746,7 +1785,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1653397968
+updated_at: 1653430416
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
