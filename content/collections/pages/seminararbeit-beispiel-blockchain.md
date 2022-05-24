@@ -6,7 +6,7 @@ page_title: 'BWL Seminararbeit Beispiel - Wie schreibt ein akademischer Ghostwri
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1653425669
+updated_at: 1653428390
 meta_title: 'BWL Seminararbeit Beispiel - Wie schreibt ein Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Seminararbeit Musters von unserer Expertise und nutzen Sie diese als Leitfaden. Lesen Sie hier mehr.'
 use_meta_keywords: false
@@ -159,7 +159,39 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Verschiedenen Fragen und Themen zu Seminararbeiten häufen sich immer wieder bei uns und wir möchten allen Interessierten hiermit eine kompetente Hilfestellung bieten. Um folgende Punkte anschaulich zu demonstrieren, haben wir das folgende Seminararbeit Beispiel zum aktuellen und viel untersuchten Thema “Blockchains” verfasst:'
+            text: 'Verschiedenen Fragen und Themen zu Seminararbeiten häufen sich immer wieder bei uns und wir möchten allen Interessierten hiermit eine kompetente Hilfestellung bieten. Um folgende Punkte anschaulich zu demonstrieren, haben wir das folgende '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /ghostwriting-beispielarbeiten/seminararbeit-beispiel
+                  target: null
+                  rel: null
+            text: 'Seminararbeit Beispiel'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: ' zum aktuellen und viel untersuchten Thema “Blockchains” verfasst:'
       -
         type: bullet_list
         content:
