@@ -1,5 +1,6 @@
 ---
 id: 75f1b1f7-4160-4132-b809-cf8ecfb77237
+blueprint: pages
 title: 'Ist Ghostwriting strafbar?'
 replicator:
   -
@@ -226,7 +227,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: "Mehr zum Thema – hier herunterladen:\_"
+            text: 'Mehr zum Thema – '
           -
             type: text
             marks:
@@ -237,7 +238,7 @@ replicator:
               -
                 type: textColor
                 attrs:
-                  color: 'rgb(255, 102, 2)'
+                  color: 'rgb(68, 68, 68)'
                   hex: '#000'
               -
                 type: link
@@ -245,7 +246,20 @@ replicator:
                   href: /assets/downloads/faq/ghostwriting-legal-strafbar.pdf
                   target: null
                   rel: null
-            text: 'Ist Ghostwriting strafbar?'
+            text: 'hier herunterladen'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: .
       -
         type: paragraph
         content:
@@ -276,7 +290,7 @@ replicator:
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623330711
+updated_at: 1653398066
 page_title: 'Ist Ghostwriting strafbar? Alles dazu auf GWriters'
 meta_title: 'Ist Ghostwriting strafbar? Alles dazu auf GWriters'
 meta_description: 'Ist Ghostwriting strafbar? Erfahren Sie alles dazu im Artikel und auf GWriters.de - Ihrer Ghostwriter Agentur.'
@@ -291,4 +305,5 @@ twitter_card_type_page: summary
 og_title: 'Ist Ghostwriting strafbar? Alles dazu auf GWriters'
 og_description: 'Ist Ghostwriting strafbar? Erfahren Sie alles dazu im Artikel und auf GWriters.de - Ihrer Ghostwriter Agentur.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
