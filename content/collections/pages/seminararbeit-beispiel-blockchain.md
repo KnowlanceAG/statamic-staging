@@ -1,11 +1,12 @@
 ---
 id: 1b545c84-3d42-4072-a16a-316bcbae36cd
+blueprint: pages
 title: 'Seminararbeit Beispiel: Blockchain-Technologie'
 page_title: 'BWL Seminararbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623327627
+updated_at: 1653424663
 meta_title: 'BWL Seminararbeit Beispiel - Wie schreibt ein Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Seminararbeit Musters von unserer Expertise und nutzen Sie diese als Leitfaden. Lesen Sie hier mehr.'
 use_meta_keywords: false
@@ -56,7 +57,39 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: "Eine Mustervorlage für eine akademische Arbeit ist für alle unsere Kunden sehr hilfreich und genau aus diesem Grund haben wir als Ghostwriting Agentur für unsere interessierten Nutzer ein\_"
+            text: 'Eine Mustervorlage für eine akademische Arbeit ist für alle unsere Kunden sehr hilfreich und genau aus diesem Grund haben wir als '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /ghostwriting/ghostwriting-agentur
+                  target: null
+                  rel: null
+            text: 'Ghostwriting Agentur'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: " für unsere interessierten Nutzer ein\_"
           -
             type: text
             marks:
@@ -291,4 +324,5 @@ replicator:
 og_title: 'BWL Seminararbeit Beispiel - Wie schreibt ein Ghostwriter?'
 og_description: 'Überzeugen Sie sich anhand dieses Seminararbeit Musters von unserer Expertise und nutzen Sie diese als Leitfaden. Lesen Sie hier mehr.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
