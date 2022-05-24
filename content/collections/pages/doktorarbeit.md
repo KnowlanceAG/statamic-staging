@@ -282,7 +282,35 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' akademischer Ghostwriter '
+                    text: ' akademischer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' '
                   -
                     type: text
                     marks:
@@ -412,6 +440,12 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /
+                          target: null
+                          rel: null
                     text: 'Hilfestellungen während des Studiums'
                   -
                     type: text
@@ -1286,20 +1320,7 @@ replicator:
                     text: 'Wenn Sie in der Schreibphase Unterstützung benötigen, die über'
                   -
                     type: text
-                    text: ' das '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat/korrekturlesen
-                          target: null
-                          rel: null
-                    text: Korrekturlesen
-                  -
-                    type: text
-                    text: ' hinaus geht, können Sie sich auch von einem Ghostwriter eine Mustervorlage für Ihre '
+                    text: ' das Korrekturlesen hinaus geht, können Sie sich auch von einem Ghostwriter eine Mustervorlage für Ihre '
                   -
                     type: text
                     marks:
@@ -2822,7 +2843,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1652794165
+updated_at: 1653430663
 template: default
 use_meta_keywords: false
 no_index_page: false
