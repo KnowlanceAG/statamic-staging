@@ -132,7 +132,7 @@ page_title: 'Psychologie Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1653424210
+updated_at: 1653425789
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1414,7 +1414,39 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Zusätzlich haben unsere Ghostwriter Zugriff zu allen notwendigen und aktuellen psychologischen Publikationen, was bei der Erstellung von wissenschaftlichen Arbeiten im Fach Psychologie essentiell ist, denn ein Ghostwriter im Fach Psychologie muss immer einen Überblick über den aktuellen Forschungsstand in der Thematik haben und muss auch über zukünftige Forschungsaspekte bescheid wissen, um eine wissenschaftliche Arbeit entsprechend des aktuellen State-of-the-Art schreiben zu können, die den hohen wissenschaftlichen Anspruch genügt, die von akademischen Institutionen im Rahmen eines Psychologiestudiums gestellt werden.'
+                    text: 'Zusätzlich haben unsere Ghostwriter Zugriff zu allen notwendigen und aktuellen psychologischen Publikationen, was bei der Erstellung von wissenschaftlichen Arbeiten im Fach Psychologie essentiell ist, denn ein Ghostwriter im Fach Psychologie muss immer einen Überblick über den aktuellen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/wie-schreibe-ich-einen-forschungsstand
+                          target: null
+                          rel: null
+                    text: Forschungsstand
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: ' in der Thematik haben und muss auch über zukünftige Forschungsaspekte bescheid wissen, um eine wissenschaftliche Arbeit entsprechend des aktuellen State-of-the-Art schreiben zu können, die den hohen wissenschaftlichen Anspruch genügt, die von akademischen Institutionen im Rahmen eines Psychologiestudiums gestellt werden.'
               -
                 type: paragraph
                 content:
