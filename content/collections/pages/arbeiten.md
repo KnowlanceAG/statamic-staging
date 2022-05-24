@@ -3,8 +3,8 @@ id: d118c7b2-141d-4bac-972d-c1502381a340
 blueprint: pages
 title: Arbeiten
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627301001
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1653429561
 teaser:
   -
     type: heading
@@ -75,13 +75,39 @@ replicator:
         content:
           -
             type: text
-            text: 'Unterschiedliche Arten akademischer oder wissenschaftlicher Arbeiten erfordern unterschiedliche Qualifikationen. Akademische Ghostwriter von GWriters bieten ihre Leistungen dabei für die verschiedensten Arten von Arbeiten an. Je nach Ausrichtung der Arbeit offerieren wir bei GWriters Ihnen für die Erstellung Ihrer wissenschaftlichen Mustervorlage einen professionellen Ghostwriter aus ihrem persönlichen Fachbereich. Diese passen sich Ihrer individuellen Aufgabenstellung mit mit maßgeschneiderten Leistungen an.'
+            text: 'Unterschiedliche Arten akademischer oder wissenschaftlicher Arbeiten erfordern unterschiedliche Qualifikationen. Akademische '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  target: null
+                  rel: null
+            text: 'Ghostwriter von GWriters'
+          -
+            type: text
+            text: ' bieten ihre Leistungen dabei für die verschiedensten Arten von Arbeiten an. Je nach Ausrichtung der Arbeit offerieren wir bei GWriters Ihnen für die Erstellung Ihrer wissenschaftlichen Mustervorlage einen professionellen Ghostwriter aus ihrem persönlichen Fachbereich. Diese passen sich Ihrer individuellen Aufgabenstellung mit mit maßgeschneiderten Leistungen an.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Von besonderer Bedeutung im Rahmen unseres Ghostwriting-Services sind unsere Dienstleistungen rund um die Erstellung von wissenschaftlichen Mustervorlagen. Genannt werden können hier beispielhaft  Hausarbeiten, Seminararbeiten, Bachelorarbeiten und Masterarbeiten.'
+            text: 'Von besonderer Bedeutung im Rahmen unseres '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriting/ghostwriting-service
+                  target: null
+                  rel: null
+            text: Ghostwriting-Services
+          -
+            type: text
+            text: ' sind unsere Dienstleistungen rund um die Erstellung von wissenschaftlichen Mustervorlagen. Genannt werden können hier beispielhaft  Hausarbeiten, Seminararbeiten, Bachelorarbeiten und Masterarbeiten.'
       -
         type: heading
         attrs:
@@ -483,7 +509,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Eine Bachelorarbeit kann entweder als reine Literaturarbeit, als empirische Arbeit oder als Mischung aus Literaturarbeit und empirischer Arbeit erstellt werden. Bei einer theoretischen Bachelorarbeit – oft als reine Literarturarbeit bezeichnet – ist die Basis eine umfassende Erhebung der Literatur und die Ableitung von Erkenntnissen und ggf. Handlungsempfehlungen aus der Literatur. Oft kommt hier die Methodik der systematischen Literaturanalyse bzw. der systematischen Literaturrecherche zum Einsatz. Besteht eine Bachelorarbeit auch aus einem empirischen Teil – also einer quantitativen oder eine qualitative Forschung – so ist sie häufig stärker praxisorientiert als eine reine Literaturarbeit, da über diese Forschungsmethoden z.B. Handlungsempfehlungen erarbeitet werden können. Als Methoden kommen hier im qualitativen Teil z.B. Interviews, Tests oder Experimente zum Einsatz. Quantitativ forschen können Sie z.B. mit '
+            text: 'Eine Bachelorarbeit kann entweder als reine Literaturarbeit, als empirische Arbeit oder als Mischung aus Literaturarbeit und empirischer Arbeit erstellt werden. Bei einer theoretischen Bachelorarbeit – oft als reine Literarturarbeit bezeichnet – ist die Basis eine umfassende Erhebung der Literatur und die Ableitung von Erkenntnissen und ggf. Handlungsempfehlungen aus der Literatur. Oft kommt hier die Methodik der systematischen Literaturanalyse bzw. der '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/systematische-Literaturrecherche
+                  target: null
+                  rel: null
+            text: 'systematischen Literaturrecherche'
+          -
+            type: text
+            text: ' zum Einsatz. Besteht eine Bachelorarbeit auch aus einem empirischen Teil – also einer quantitativen oder eine qualitative Forschung – so ist sie häufig stärker praxisorientiert als eine reine Literaturarbeit, da über diese Forschungsmethoden z.B. Handlungsempfehlungen erarbeitet werden können. Als Methoden kommen hier im qualitativen Teil z.B. Interviews, Tests oder Experimente zum Einsatz. Quantitativ forschen können Sie z.B. mit '
           -
             type: text
             marks:
@@ -502,7 +541,30 @@ replicator:
         content:
           -
             type: text
-            text: 'Akademische Ghostwriter, die Mustervorlagen für Bachelorarbeiten erstellen, müssen daher tief gehendes Know-how bei der Literaturrecherche und Literaturaufarbeitung mitbringen. Hierzu ist es notwendig, dass diese Einblick in den aktuellen Forschungsstand und einschlägige Datenbanken haben. Darüber hinaus haben unsere Ghostwriter einen breiten unternehmerischen Blick, der diesen hilft, Literaturerkenntnisse zu interpretieren und darauf aufbauend eine empirische Forschung vorzunehmen. Unterstützt wird dies auch durch deren Grundlagenwissen in der Statistik und der Methodik.'
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /faq/was-ist-ein-akademischer-ghostwriter
+                  target: null
+                  rel: null
+            text: 'Akademische Ghostwriter'
+          -
+            type: text
+            text: ', die Mustervorlagen für Bachelorarbeiten erstellen, müssen daher tief gehendes Know-how bei der '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/literaturrecherche-datenbanken-quellen
+                  target: null
+                  rel: null
+            text: Literaturrecherche
+          -
+            type: text
+            text: ' und Literaturaufarbeitung mitbringen. Hierzu ist es notwendig, dass diese Einblick in den aktuellen Forschungsstand und einschlägige Datenbanken haben. Darüber hinaus haben unsere Ghostwriter einen breiten unternehmerischen Blick, der diesen hilft, Literaturerkenntnisse zu interpretieren und darauf aufbauend eine empirische Forschung vorzunehmen. Unterstützt wird dies auch durch deren Grundlagenwissen in der Statistik und der Methodik.'
       -
         type: heading
         attrs:
@@ -519,13 +581,39 @@ replicator:
         content:
           -
             type: text
-            text: 'Bei Haus- und Seminararbeiten steht die Erhebung des aktuellen Forschungsstandes im Vordergrund. Hierbei gilt es zunächst notwendige Rahmenbegriffe zu erheben und zu definieren und dann den aktuellen Forschungsstand zur Thematik zu erhoben. Dabei kann sich der Verfasser an der Methodik der systematischen Literaturanalyse orientieren. Hierbei ist es wichtig, aktuelle Positionen aus der Literatur zu erheben und möglichst objektiv zu vergleichen, um dann Details zum Studiendesign, zur Studiendurchführung oder zur Stichprobenziehung präsentieren zu können.'
+            text: 'Bei Haus- und Seminararbeiten steht die Erhebung des aktuellen '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/wie-schreibe-ich-einen-forschungsstand
+                  target: null
+                  rel: null
+            text: Forschungsstandes
+          -
+            type: text
+            text: ' im Vordergrund. Hierbei gilt es zunächst notwendige Rahmenbegriffe zu erheben und zu definieren und dann den aktuellen Forschungsstand zur Thematik zu erhoben. Dabei kann sich der Verfasser an der Methodik der systematischen Literaturanalyse orientieren. Hierbei ist es wichtig, aktuelle Positionen aus der Literatur zu erheben und möglichst objektiv zu vergleichen, um dann Details zum Studiendesign, zur Studiendurchführung oder zur Stichprobenziehung präsentieren zu können.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Ghostwriter für die Erstellung von Mustervorlagen für Hausarbeiten und Seminararbeiten zeigen dabei vor allen Dingen ihre Stärken in dieser Literaturrecherche. Sie wissen zum einen wie die Recherchemethodik zu verstehen und anzuwenden ist – hier haben sie umfangreiche Erfahrungen – und haben zum anderen Zugriff auf die einschlägigen Datenbanken, um in diesen recherchieren zu können. Gute Englischkenntnisse sind für Hausarbeiten und Seminararbeiten ebenfalls eine wichtige Voraussetzung, da eine Vielzahl der Literatur auf Englisch ist. Zuletzt sind Ghostwriter in der Lage, die Ergebnisse aus der Literatur gegeneinander und untereinander zu spiegeln und z.B. über die Methodik der qualitativen Inhaltsanalyse nach Mayring MAXQDA-Auswertungen vorzunehmen, die letztlich zur Quintessenz der Forschung führen.'
+            text: 'Ghostwriter für die Erstellung von Mustervorlagen für Hausarbeiten und Seminararbeiten zeigen dabei vor allen Dingen ihre Stärken in dieser Literaturrecherche. Sie wissen zum einen wie die Recherchemethodik zu verstehen und anzuwenden ist – hier haben sie umfangreiche Erfahrungen – und haben zum anderen Zugriff auf die einschlägigen Datenbanken, um in diesen recherchieren zu können. Gute Englischkenntnisse sind für Hausarbeiten und Seminararbeiten ebenfalls eine wichtige Voraussetzung, da eine Vielzahl der Literatur auf Englisch ist. Zuletzt sind Ghostwriter in der Lage, die Ergebnisse aus der Literatur gegeneinander und untereinander zu spiegeln und z.B. über die Methodik der qualitativen '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/qualitative-inhaltsanalyse-mayring-beispiele
+                  target: null
+                  rel: null
+            text: 'Inhaltsanalyse nach Mayring'
+          -
+            type: text
+            text: ' MAXQDA-Auswertungen vorzunehmen, die letztlich zur Quintessenz der Forschung führen.'
       -
         type: heading
         attrs:
@@ -587,4 +675,5 @@ page_title: 'Arbeiten • GWriters.de'
 og_title: 'Arbeiten • GWriters.de'
 og_description: 'Akademische Ghostwriter von GWriters bieten ihre Leistungen für die verschiedensten Arten von Arbeiten an. 1. Sie schreiben Mustervorlage für wissenschaftliche Arbeiten: Bachelorarbeit, Masterarbeit, Hausarbeit...2...'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
