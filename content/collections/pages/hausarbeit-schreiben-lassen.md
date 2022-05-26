@@ -1363,7 +1363,19 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Titelblatt / Deckblatt'
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/deckblatt-vorlage
+                                  target: null
+                                  rel: null
+                            text: Deckblatt
                   -
                     type: list_item
                     content:
@@ -1372,7 +1384,19 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Inhaltsverzeichnis Hausarbeit'
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/bachelorarbeit-abstract
+                                  target: null
+                                  rel: null
+                            text: Abstract
                   -
                     type: list_item
                     content:
@@ -1381,6 +1405,120 @@ replicator:
                         content:
                           -
                             type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: Vorwort
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/inhaltsverzeichnis-vorlage
+                                  target: null
+                                  rel: null
+                            text: 'Inhaltsverzeichnis Hausarbeit (Kapitel, Unterkapitel)'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/abbildungsverzeichnis
+                                  target: null
+                                  rel: null
+                            text: Abbildungs
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: '- und '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/tabellenverzeichnis-beispiel
+                                  target: null
+                                  rel: null
+                            text: Tabellenverzeichnis
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/abkuerzungsverzeichnis
+                                  target: null
+                                  rel: null
+                            text: Abkürzungsverzeichnis
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/bachelorarbeit-einleitung
+                                  target: null
+                                  rel: null
                             text: Einleitung
                   -
                     type: list_item
@@ -1390,6 +1528,12 @@ replicator:
                         content:
                           -
                             type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
                             text: Hauptteil
                   -
                     type: list_item
@@ -1399,7 +1543,13 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Schluss / Fazit'
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: Schlussteil/Fazit
                   -
                     type: list_item
                     content:
@@ -1408,7 +1558,19 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Bildverzeichnis
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/literaturverzeichnis-beispiel
+                                  target: null
+                                  rel: null
+                            text: Literaturverzeichnis
                   -
                     type: list_item
                     content:
@@ -1417,15 +1579,18 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Literatur- und Quellenverzeichnis'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/anhangsverzeichnis
+                                  target: null
+                                  rel: null
                             text: Anhang
                   -
                     type: list_item
@@ -1435,7 +1600,19 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Selbstständigkeitserklärung
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/eidesstattliche-erklaerung-muster
+                                  target: null
+                                  rel: null
+                            text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
             show_as_card: false
           -
             bard:
@@ -2292,8 +2469,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1652438510
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1653587820
 template: default
 use_meta_keywords: false
 no_index_page: false
