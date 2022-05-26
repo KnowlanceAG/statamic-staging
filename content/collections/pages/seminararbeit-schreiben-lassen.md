@@ -701,7 +701,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Hausarbeit'
+                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Seminararbeit'
               -
                 type: paragraph
                 content:
@@ -733,7 +733,31 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'beauftragen. Diese bieten eine Vielzahl von Leistungen und Hilfestellungen an. Sie können sich daher zu jedem Zeitpunkt des Arbeitsverlaufs für ein '
+                    text: 'beauftragen. Diese bieten eine Vielzahl von '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen
+                          target: null
+                          rel: null
+                    text: Leistungen
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und Hilfestellungen an. Sie können sich daher zu jedem Zeitpunkt des Arbeitsverlaufs für ein '
                   -
                     type: text
                     marks:
@@ -791,7 +815,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' im Laufe des Schreibprozesses um Rat zu fragen. Selbst wenn Sie sich als Student sich dazu entscheiden, eigenständig zu arbeiten, ist es ratsam, die Seminararbeit korrekturlesen und von einem '
+                    text: ' im Laufe des Schreibprozesses um Rat zu fragen. Selbst wenn Sie sich als Student sich dazu entscheiden, eigenständig zu arbeiten, ist es ratsam, die Seminararbeit Korrekturlesen und von einem '
                   -
                     type: text
                     marks:
@@ -834,6 +858,12 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting/ghostwriting-agentur
+                          target: null
+                          rel: null
                     text: Ghostwriting-Agentur
                   -
                     type: text
@@ -2992,7 +3022,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1653412115
+updated_at: 1653591240
 template: default
 use_meta_keywords: false
 no_index_page: false
