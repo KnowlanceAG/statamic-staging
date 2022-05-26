@@ -101,7 +101,33 @@ replicator:
             text: ' Ghostwriter'
           -
             type: text
-            text: ' können auf einen breiten Erfahrungsschatz beim Erstellen von Präsentationen zurückgreifen. Unsere Ghostwriting-Agentur arbeitet mit qualifizierten Autoren zusammen. Sie erstellen tagtäglich Mustervorlagen für Präsentationen und Präsentationslayouts zu verschiedenen Aufgaben. Ob es um die Präsentation von Geschäftsergebnissen in Vertriebsveranstaltungen, Geschäftsideen, Forschungsergebnissen aus einer wissenschaftlichen Arbeit oder Literatur geht, die Ghostwriter von GWriters stehen Ihnen mit professioneller Unterstützung bei dem Erstellen Ihrer Präsentation zur Seite. '
+            text: ' können auf einen breiten Erfahrungsschatz beim Erstellen von Präsentationen zurückgreifen. Unsere '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriting/ghostwriting-agentur
+                  target: null
+                  rel: null
+            text: Ghostwriting-Agentur
+          -
+            type: text
+            text: ' arbeitet mit qualifizierten Autoren zusammen. Sie erstellen tagtäglich Mustervorlagen für Präsentationen und Präsentationslayouts zu verschiedenen Aufgaben. Ob es um die Präsentation von Geschäftsergebnissen in Vertriebsveranstaltungen, Geschäftsideen, Forschungsergebnissen aus einer wissenschaftlichen Arbeit oder Literatur geht, '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /
+                  target: null
+                  rel: null
+            text: 'die Ghostwriter von GWriters stehen Ihnen mit professioneller Unterstützung'
+          -
+            type: text
+            text: ' bei dem Erstellen Ihrer Präsentation zur Seite. '
       -
         type: paragraph
         content:
@@ -180,7 +206,31 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: " von einem professionellen Präsentationsersteller & Ghostwriter\_für ihre PowerPoint-Präsentation erstellen lassen."
+            text: " von einem professionellen Präsentationsersteller & Ghostwriter\_für ihre "
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/bachelorarbeit-praesentation-powerpoint
+                  target: null
+                  rel: null
+            text: 'PowerPoint-Präsentation erstellen lassen'
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: .
       -
         type: paragraph
         content:
@@ -3058,8 +3108,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646933703
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1653590800
 template: with-side-bar
 meta_title: 'GWriters • professionell Präsentation erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
