@@ -1988,7 +1988,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1654802673
+updated_at: 1654802681
 meta_title: 'Examensarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Examensarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Examensarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
@@ -2001,7 +2001,7 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: with-side-bar
 og_title: 'Examensarbeit schreiben lassen • Mustervorlage von GWriters'
-og_description: 'Examensarbeit schreiben lassen – Akademische Ghostwriter für Ihre Examensarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
+og_description: 'Examensarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Examensarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_abschlussarbeiten
 sitemap_active: true
