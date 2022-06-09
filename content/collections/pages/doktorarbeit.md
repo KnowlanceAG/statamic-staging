@@ -2842,8 +2842,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1653430663
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1654802751
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2854,9 +2854,9 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 meta_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
-meta_description: 'Mustervorlage für Doktorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+meta_description: 'Doktorarbeit schreiben lassen – Mustervorlagen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
-og_description: 'Mustervorlage für Doktorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+og_description: 'Doktorarbeit schreiben lassen – Mustervorlagen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_abschlussarbeiten
 schema_objects: |-
@@ -2896,4 +2896,5 @@ schema_objects: |-
   }
   </script>
 sitemap_active: true
+page_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
 ---
