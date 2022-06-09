@@ -709,9 +709,9 @@ replicator:
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1637142583
+updated_at: 1654802002
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
-meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
+meta_description: 'Ghostwriter gesucht? 🔍 Bei GWriters sind Sie an der richtigen Stelle ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -721,6 +721,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 og_title: 'GWriters • Akademische Ghostwriter gesucht!'
-og_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
+og_description: 'Ghostwriter gesucht? 🔍 Bei GWriters sind Sie an der richtigen Stelle ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
