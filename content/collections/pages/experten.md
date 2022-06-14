@@ -4,8 +4,8 @@ blueprint: pages
 title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646932072
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655221910
 teaser:
   -
     type: heading
