@@ -2,7 +2,7 @@
 id: 99e9f612-67c8-4ec9-be24-baf8402dbc36
 published: false
 blueprint: pages
-title: 'Bachelorarbeit (Dupliziert)'
+title: 'GWriters Erfahrung'
 teaser:
   -
     type: heading
@@ -384,6 +384,111 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
+        single-col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'GWriters - Erfahrung & Kompetenz für Ihre Zufriedenheit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'An den obigen Bewertungen merkt man sofort, dass die Autoren der Bewertung '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'tatsächlich mit GWriters Erfahrungen gemacht'
+                  -
+                    type: text
+                    text: ' haben und nicht einfach Textbausteine zusammengefügt haben, die auf jede Agentur zutreffen könnten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei GWriters wird jeder Kunde individuell von einem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'persönlichen Projektmanager betreut'
+                  -
+                    type: text
+                    text: ' – unabhängig davon, ob es um eine Bachelorarbeit, Masterarbeit oder eine Doktorarbeit geht. Der Projektmanager übernimmt die Abwicklung des gesamten Projektes und steht Ihnen bei jeglichen Fragen und Anliegen zur Verfügung. Wir legen viel Wert auf eine enge Kommunikation und Zusammenarbeit, sodass Sie selbständig entscheiden können, wie stark Sie in den Prozess der Projektabwicklung involviert sein wollen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im Laufe der Projektabwicklung erhalten sie in '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'regelmäßigen Abständen Teillieferungen'
+                  -
+                    type: text
+                    text: ' und stehen mit Ihrem persönlichen Projektmanager stets im Kontakt. Wie in der obigen Bewertung erwähnt wurde, steht Ihnen auch die Möglichkeit eines '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'direkten Austausches mit Ihrem persönlichen Ghostwriter'
+                  -
+                    type: text
+                    text: ' im Rahmen von Telefonkonferenzen zur Verfügung. In dessen Verlauf können Sie die Richtung der Projektabwicklung steuern, Feedback zu den Teillieferungen äußern und sämtliche offenen Fragen abklären.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Um die hohe Qualität unserer Dienstleistungen sicherzustellen, wird die erstellte wissenschaftliche Mustervorlage mehrmals durch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'qualifizierte Lektoren und Supervisor überprüft'
+                  -
+                    type: text
+                    text: '. Zudem haben Sie jederzeit die Möglichkeit, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Änderungswünsche zu äußern, die von Ihrem zuständigen Ghostwriter kostenfrei in Ihrer Arbeit umgesetzt werden'
+                  -
+                    type: text
+                    text: '. Alle diese Voraussetzungen stellen sicher, dass Sie eine optimale Erfahrung mit GWriters machen und hochqualitative Leistungen von erfahrenen Experten aus Ihrem Fachbereich erhalten.'
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
         single-col: false
         grid:
           -
@@ -501,114 +606,6 @@ replicator:
     is-full: true
     bg-toggle: false
     bg-color: '#D6D6D6'
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Bachelorarbeit schreiben lassen - von akademischen Experten'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Niemand möchte bei ohnehin schon kurzen Bearbeitungszeiten mit der Frage „Wie schreibe ich eine Bachelorarbeit?” wertvolle Bearbeitungszeit verlieren und Zeitdruck bekommen. Daher wenden sich viele Studenten schon vor dem Verfassen der Einleitung an akademische Freelancer und Autoren wie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'professionelle wissenschaftliche Ghostwriter'
-                  -
-                    type: text
-                    text: ', um sich einen Vorteil zu sichern. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Sie können sich helfen lassen, indem Sie Ihre Arbeit von einem akademischen Lektor bzw. Wissenschaftslektor kontrollieren lassen. Anschließend helfen diese Ihnen auch mit einem Plagiatscheck, um Ihren Text plagiatsfrei liefern zu können. Ein Vorteil ist auch, dass diese vorab eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: '-Bachelorarbeit als Mustervorlage verfassen'
-                  -
-                    type: text
-                    text: .
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Bei uns finden Sie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'garantiert den richtigen und besten Experten für Ihr Projekt'
-                  -
-                    type: text
-                    text: ' - alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'hervorragende fachliche Kompetenzen als Autoren und methodische Erfahrung'
-                  -
-                    type: text
-                    text: ' im Hinblick auf wissenschaftliches Arbeiten und Literatur vor. Daher können diese Ihnen bei Ihrer Bachelor Thesis Hilfe in verschiedenen Formen, individuell abgestimmt auf Ihre Bedürfnisse bieten.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Zu jeder Fragestellung während des Schreibprozesses stehen Ihnen unsere akademischen Autoren zur Verfügung. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Unser Schreibservice kooperiert zu Ihrem Vorteil mit erfahrenen Professoren und Doktoren'
-                  -
-                    type: text
-                    text: ". Diese sind oft noch selbst in der Forschung aktiv und unterstützen Sie bei der Anwendung Ihrer Forschungsmethode, ob es um eine\_Fallanalyse, ein\_Experteninterview\_oder eine\_Methodenanwendung\_handelt. Rund um alle Bachelorthemen bietet unsere Ghostwriting-Agentur professionelle Unterstützung und individuelle Vorteile für Sie an."
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: false
-    bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
@@ -2361,7 +2358,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1655218742
+updated_at: 1655220121
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2371,7 +2368,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-meta_title: 'Bachelorarbeit schreiben lassen • Mustervorlage von GWriters'
+meta_title: 'GWriters Erfahrung'
 meta_description: 'Mustervorlage für Bachelorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_title: 'Bachelorarbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Mustervorlage für Bachelorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
