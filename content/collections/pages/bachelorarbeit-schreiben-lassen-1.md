@@ -1,5 +1,6 @@
 ---
 id: 99e9f612-67c8-4ec9-be24-baf8402dbc36
+published: false
 blueprint: pages
 title: 'Bachelorarbeit (Dupliziert)'
 teaser:
@@ -22,7 +23,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Bachelorarbeit schreiben lassen'
+        text: 'GWriters Erfahrung'
   -
     type: heading
     attrs:
@@ -37,7 +38,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Mustervorlagen von akademischen Ghostwritern für Ihre Bachelorarbeit'
+        text: 'Vertrauen Sie beim akademischen Ghostwriting auf einen seriösen Partner'
   -
     type: set
     attrs:
@@ -142,7 +143,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center">
-                      Bei GWriters finden Sie exakt den <b>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten von einem Ghostwriter eine Arbeit als Mustervorlage für Ihre Bachelorarbeit schreiben lassen? Dann wenden Sie sich an einen kompetenten Partner und sichern sich so Ihren Erfolg! Unsere seriöse Ghostwriting Agentur arbeitet ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren als Autoren.
+                      Akademisches Ghostwriting ist eine sensible Sphäre und ein undurchsichtiger Markt: sensibel, da Anonymität und Vertrauen in Ghostwriter Erfahrungen essenziell sind, und umkämpft, da es in Deutschland und weltweit unzählige Anbieter gibt, die sich im Markt durchsetzen wollen. Wenn Sie bereits mit GWriters Erfahrung gemacht haben, wissen Sie, dass die Wahl eines zuverlässigen und seriösen Ghostwriting-Anbieters essentiell für Ihren Erfolg ist.
                       </p>
               -
                 type: set
@@ -181,22 +182,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Überzeugen Sie sich von der Qualität unseres Ghostwriter'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Services anhand unserer Kundenstimmen'
+                    text: 'Lesen Sie die Stimmen vieler zufriedener Kunden, die bereits mit GWriters Erfahrung gemacht haben'
               -
                 type: heading
                 attrs:
@@ -268,293 +254,62 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Bachelorarbeit'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wie macht man eine gute Ghostwriter Erfahrung?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ein akademischer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: null
-                          rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    text: ' kann durch '
+                    text: 'Die Garantie für eine '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'seine Erfahrungen und fachlichen Kenntnisse Studenten professionell wie ein Betreuer von der Universität unterstützen'
+                    text: 'positive Erfahrung mit Ghostwritern'
                   -
                     type: text
-                    text: '. Dies kann direkt zu Beginn der Bearbeitung geschehen. Bei der Themenauswahl, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/literaturrecherche-datenbanken-quellen
-                          target: null
-                          rel: null
-                    text: Literaturrecherche
-                  -
-                    type: text
-                    text: ', dem Aufbau einer Bachelor Thesis (Einleitung, Hauptteil, Fazit) sowie dessen Gliederung (Kapitel, Unterkapitel) und Exposé liefern Ghostwriter wichtige Hilfestellungen.'
+                    text: " ist ein kompetentes und erfahrenes Ghostwriting-Unternehmen. Im Internet gibt es eine Vielzahl von Ghostwriting Agenturen mit verschiedensten Dienstleistungen und Angeboten. Aber wie können Sie beurteilen, dass es sich tatsächlich um einen zuverlässigen Anbieter handelt? Auf den ersten Blick ist es einfach: Man muss lediglich Erfahrungsberichte auf Bewertungsportalen lesen. In der Tat reicht dies allerdings leider nicht aus. \_"
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Zudem können Sie sich als Studierende von akademischen Ghostwritern eine Mustervorlage für ihre '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Bachelorarbeit schreiben lassen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: '. Diese Ghostwriter-Bachelorarbeit können Sie dann als Vorlagenutzen, wenn Sie Ihre eigene akademische Arbeit verfassen.'
+                    text: 'Wir bei GWriters wissen, dass die Erfahrungsberichte zu mit Ghostwritern gemachten Erfahrungen nicht immer ein verlässlichen Qualitätszeichen ist, da es unzählige unechte Bewertungen im Internet gibt, die von Ghostwriting-Betrügern gekauft oder sogar selbst geschrieben werden.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Wir wissen um Ihre hohen Anforderungen und Erwartungen, daher arbeiten wir garantiert nur mit den besten wissenschaftlichen Autoren!'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Außerdem kennen '
+                    text: 'Diese Erfahrungsberichte zeichnen sich durch eine Reihe von Merkmalen aus, anhand derer sie sich leicht erkennen lassen. Schauen wir uns am Beispiel der GWriters Erfahrung an, '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /faq/was-ist-ein-akademischer-ghostwriter
-                          target: null
-                          rel: null
-                    text: 'akademische Ghostwriter'
+                    text: 'wie man echte von unechten Bewertungen unterscheidet'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' den aktuellen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/wie-schreibe-ich-einen-forschungsstand
-                          target: null
-                          rel: null
-                    text: Forschungsstand
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' zu vielen Themenstellungen und haben als Autoren auf alle relevanten Datenbanken Zugriff. Durch Ihre Erfahrung als '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Doktoren und Professoren'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' aus der Forschung können diese '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/wissenschaftliche-quellen-finden-online
-                          target: null
-                          rel: null
-                    text: 'wissenschaftliche Quellen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', Informationen und Daten für Ihre '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/forschungsluecke-finden
-                          target: null
-                          rel: null
-                    text: 'Forschungsfrage finden'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', korrekt zusammenführen und daraus eine Gliederung entwickeln'
-                  -
-                    type: text
-                    text: '. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Einen weiteren Vorteil bietet Ihnen das'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' Lektorat '
-                  -
-                    type: text
-                    text: und
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' Korrektorat '
-                  -
-                    type: text
-                    text: 'sowie die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Formatierung
-                  -
-                    type: text
-                    text: ' der Bachelorarbeit, die bereits von Ihnen fertiggestellt wurde. Anschließend kann eine umfassende '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: Plagiatsprüfung
-                  -
-                    type: text
-                    text: ' erfolgen, deren Ergebnisse Sie für Ihren Feinschliff nutzen können. Es ist ebenfalls möglich, dass eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Ghostwriterin Bachelorarbeiten'
-                  -
-                    type: text
-                    text: ', die bereits begonnen wurden, überarbeitet.'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' '
-                  -
-                    type: text
-                    text: 'Alternativ können Sie während des gesamten Ablaufs Ihrer Bachelor Thesis auch ein professionelles Coaching oder Unterstützung bei der Recherche anfordern.'
+                    text: .
             show_as_card: false
         type: row
         enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
       -
         responsive_columns: 1
-        columns_per_row: 1
-        single-col: true
+        columns_per_row: '2'
+        single-col: false
         grid:
           -
             bard:
@@ -565,224 +320,61 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Garantien für Sie'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '15'
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: '4'
-        single-col: true
-        grid:
-          -
-            bard:
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: custom-svg-width
-                    svg_file: leistung/icons/security.svg
-                    custom-svg-width: '65'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
+                    marks:
+                      -
+                        type: bold
+                    text: 'GWriters Erfahrung – wie Sie echte Bewertungen erkennen'
               -
                 type: paragraph
                 content:
                   -
                     type: text
+                    text: 'Als ein hervorragendes Beispiel kann das bekannte Bewertungsportal ProvenExpert herangezogen werden. Dort finden Sie '
+                  -
+                    type: text
                     marks:
                       -
                         type: bold
-                    text: 'Datenschutz & 100% Anonymität'
+                    text: 'Bewertungen zu allen führenden Ghostwriting-Agenturen'
+                  -
+                    type: text
+                    text: .
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Wir '
+                    text: 'An den Kommentaren zu den Bewertung wird ersichtlich, dass es sich tatsächlich um echte Kunden unserer Ghostwriting-Agentur handelt, die eine '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'garantieren Ihre Anonymität '
+                    text: 'positive Erfahrung mit GWriters'
                   -
                     type: text
-                    text: 'zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
+                    text: ' gemacht haben. So werden konkrete Details zum Ablauf, zur Auftragsabwicklung und zu unserem hervorragenden Qualitätssicherungsprozess genannt.'
             show_as_card: false
           -
             bard:
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
-                    svg_file: leistung/icons/icon-kostenloses-feedback.svg
-                    custom-svg-width: '65'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Kostenlose Änderung nach Ihrem Feedback'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wir passen Ihre Ausarbeitung gemäß Ihrer Wünsche und Anmerkungen ohne lange Diskussionen an - und zwar unbegrenzt, bis '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Sie zufrieden sind!'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: custom-svg-width
-                    svg_file: leistung/icons/stopwatch.svg
-                    custom-svg-width: '65'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Schnelle & pünktliche Lieferung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wir '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'garantieren die pünktliche Lieferung'
-                  -
-                    type: text
-                    text: ' Ihrer Ausarbeitung! Wir liefern Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: custom-svg-width
-                    svg_file: leistung/icons/magistrate.svg
-                    custom-svg-width: '65'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Top-Qualität von Experten'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Akademischen Experten die sonst als '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Doktoren & Professoren'
-                  -
-                    type: text
-                    text: ' arbeiten, verfassen Ihre Mustervorlage. So garantieren wir die richtige Qualität Ihrer Ausarbeitung.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
+                    type: floating-img
+                    dateien:
+                      - gwriters-erfahrung.png
+                    img_size: w-full
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
             show_as_card: false
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
+    is-full: true
     bg-toggle: false
+    bg-color: '#F2F2F2'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -1017,83 +609,6 @@ replicator:
     remove_spacing: false
     is-full: false
     bg-toggle: false
-    bg-image-fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns-replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single-col: false
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(0,0,0,var(--tw-text-opacity)) !important'
-                          hex: '#000'
-                    text: 'Warum sollten Sie sich unterstützen lassen?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Video erklären wir Ihnen, wie sich der Coaching Service von unserer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'akademischen Ghostwriting-Agentur für Bachelorarbeiten '
-                  -
-                    type: text
-                    text: 'gestaltet. Dies gilt natürlich auch für alle anderen Arten von wissenschaftlichen Arbeiten.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Das Coaching kann sowohl in Form von Textteilen wie der Einleitungen, Ergänzung und Überarbeitung als auch der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Beantwortung der wissenschaftlichen Fragestellungen'
-                  -
-                    type: text
-                    text: ' während des Schreibprozesses erfolgen. Wir übernehmen auch gerne die Formatierung, die Korrektur oder das Lektorat für Sie.'
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: video
-                    video: 'https://www.youtube.com/embed/EBDyFVLD0V0'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F2F2F2'
     bg-image-fixed: false
     border: false
     type: add_section
@@ -2845,8 +2360,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1653430116
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1655218721
 template: default
 use_meta_keywords: false
 no_index_page: false
