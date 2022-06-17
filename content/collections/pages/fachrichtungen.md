@@ -90,8 +90,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Fachrichtungen • GWriters.de'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646932330
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655475969
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -144,14 +144,27 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die Erfüllung dieser Anforderungen durch die Ghostwriter und eine seriöse Ghostwriting Agentur stellen die Grundlage für den Erfolg in den Fachbereichen dar. Ghostwriter Erfahrungen sind dabei geprägt durch diese Anforderungen: je mehr ein Ghostwriter Erfahrungen aus dem Fachkontext mitbringt, desto eher kann akademisches Ghostwriting erfolgreich sein und ein Ghostwriting Service seinen hohen Qualitätsansprüchen gerecht werden. Bei GWriters erreichen wir durch einen strukturierten und strengen Auswahlprozess unserer Autoren konsistent höchste Qualität mit den Leistungen unserer '
+                    text: 'Die Erfüllung dieser Anforderungen durch die Ghostwriter und eine seriöse '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /blog/ghostwriter-werden-voraussetzungen
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: ' Agentur stellen die Grundlage für den Erfolg in den Fachbereichen dar. Ghostwriter Erfahrungen sind dabei geprägt durch diese Anforderungen: je mehr ein Ghostwriter Erfahrungen aus dem Fachkontext mitbringt, desto eher kann akademisches Ghostwriting erfolgreich sein und ein Ghostwriting Service seinen hohen Qualitätsansprüchen gerecht werden. Bei GWriters erreichen wir durch einen strukturierten und strengen Auswahlprozess unserer Autoren konsistent höchste Qualität mit den Leistungen unserer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
                           target: null
                           rel: null
                     text: 'akademischer Ghostwriter'
@@ -642,7 +655,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Als seriöse Ghostwriting Agentur bietet GWriters Ihnen akademische Leistungen in einer breiten Palette von wissenschaftlichen Fachrichtungen an. Von „A“ wie „Architektur“ über „B“ wie „Bauingenieurwesen“, „C“ wie „Chemie“ und „G“ wie Geschichte bis hin zu „M“ wie „Mathematik“ und „P“ wie Philosophie sowie schließlich „Z“ wie Zahnmedizin werden Leistungen offeriert.'
+                    text: 'Als seriöse '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting/ghostwriting-agentur
+                          target: null
+                          rel: null
+                    text: 'Ghostwriting Agentur'
+                  -
+                    type: text
+                    text: ' bietet GWriters Ihnen akademische Leistungen in einer breiten Palette von wissenschaftlichen Fachrichtungen an. Von „A“ wie „Architektur“ über „B“ wie „Bauingenieurwesen“, „C“ wie „Chemie“ und „G“ wie Geschichte bis hin zu „M“ wie „Mathematik“ und „P“ wie Philosophie sowie schließlich „Z“ wie Zahnmedizin werden Leistungen offeriert.'
               -
                 type: paragraph
                 content:
