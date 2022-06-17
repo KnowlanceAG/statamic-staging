@@ -124,8 +124,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Geowissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650982828
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655477759
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -147,7 +147,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Nur die Wenigsten wissen, dass man mit einem Geowissenschaften-Abschluss vielfältige berufliche Möglichkeiten hat. Voraussetzung für eine Geowissenschaften-Karriere, besonders im akademischen Bereich, ist jedoch ein hervorragender Abschluss. Um diesen zu erreichen, werden von Studenten häufig von Studenten der Geowissenschaften Ghostwriter gesucht. Diese sind Spezialisten im Bereich der Geowissenschaften und haben ausgezeichnete Erfahrungen im akademischen und beruflichen Bereich. Auch wenn Sie als Fachbereiche für Ihre '
+                    text: 'Nur die Wenigsten wissen, dass man mit einem Geowissenschaften-Abschluss vielfältige berufliche Möglichkeiten hat. Voraussetzung für eine Geowissenschaften-Karriere, besonders im akademischen Bereich, ist jedoch ein hervorragender Abschluss. Um diesen zu erreichen, werden von Studenten häufig von Studenten der Geowissenschaften '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: ' gesucht. Diese sind Spezialisten im Bereich der Geowissenschaften und haben ausgezeichnete Erfahrungen im akademischen und beruflichen Bereich. Auch wenn Sie als Fachbereiche für Ihre '
                   -
                     type: text
                     marks:
