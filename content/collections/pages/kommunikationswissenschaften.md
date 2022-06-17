@@ -131,8 +131,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'GWriters • Kommunikationswissenschaften - Ghostwriter, Lektoren & mehr'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650983033
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655480902
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -902,7 +902,71 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Schon in der Antike wurden Teilbereiche der heutigen Kommunikationswissenschaft im Studium gelehrt, in Form von Rhetorik oder persuasiver Kommunikation. Zudem ist das Studium der Kommunikationswissenschaft verknüpft mit der Medienwissenschaften und behandelt peripher außerdem Bereiche der Sprachwissenschaften.'
+                    text: 'Schon in der Antike wurden Teilbereiche der heutigen Kommunikationswissenschaft im Studium gelehrt, in Form von Rhetorik oder persuasiver Kommunikation. Zudem ist das Studium der Kommunikationswissenschaft verknüpft mit der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/medienwissenschaften
+                          target: null
+                          rel: null
+                    text: Medienwissenschaften
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: ' und behandelt peripher außerdem Bereiche der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/sprachwissenschaften
+                          target: null
+                          rel: null
+                    text: Sprachwissenschaften
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: .
               -
                 type: set
                 attrs:
