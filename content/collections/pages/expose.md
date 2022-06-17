@@ -78,8 +78,8 @@ teaser:
         button_link: /anfrage
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646932199
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655475635
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -89,7 +89,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Für Ihre wissenschaftliche Arbeit können Sie bei GWriters schnell und professionell eine individuelle und plagiatsfreie Mustervorlage für Ihr Exposé erstellen lassen. Unser akademischen Ghostwriter sind Experten in der Literaturrecherche, der Formulierung von Problemstellung und Forschungsfragen sowie in der Anwendung verschiedener wissenschaftlicher Methoden wie quantitativen '
+            text: 'Für Ihre wissenschaftliche Arbeit können Sie bei GWriters schnell und professionell eine individuelle und plagiatsfreie Mustervorlage für Ihr Exposé erstellen lassen. Unser akademischen '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  target: null
+                  rel: null
+            text: Ghostwriter
+          -
+            type: text
+            text: ' sind Experten in der Literaturrecherche, der Formulierung von Problemstellung und Forschungsfragen sowie in der Anwendung verschiedener wissenschaftlicher Methoden wie quantitativen '
           -
             type: text
             marks:
@@ -1364,7 +1377,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Anhand Deiner Entscheidung für oder gegen eine Forschungsfrage und damit für oder gegen einen Untersuchungsgegenstand ergibt sich die Antwort darauf, ob Sie ein Kapitel zur Methodik benötigen, ob Sie Hypothesen aufstellen müssen und wie Sie generell vorgehen müssen.'
+            text: 'Anhand Deiner Entscheidung für oder gegen eine Forschungsfrage und damit für oder gegen einen Untersuchungsgegenstand ergibt sich die Antwort darauf, ob Sie ein Kapitel zur Methodik benötigen, ob Sie '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/hypothesen-aufstellen-ohne-angst
+                  target: null
+                  rel: null
+            text: 'Hypothesen aufstellen'
+          -
+            type: text
+            text: ' müssen und wie Sie generell vorgehen müssen.'
       -
         type: heading
         attrs:
