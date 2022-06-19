@@ -1,5 +1,6 @@
 ---
 id: 06b69ae3-1ee1-4b37-b096-f7290c3ee6d3
+blueprint: pages
 title: 'Wie werden wissenschaftliche Arbeiten bei GWriters üblicherweise formatiert?'
 replicator:
   -
@@ -271,7 +272,39 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: '…bei der Formatierung:'
+            text: '…bei der '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /leistungen/formatierung
+                  target: null
+                  rel: null
+            text: Formatierung
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: ':'
           -
             type: hard_break
             marks:
@@ -476,7 +509,7 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623332468
+updated_at: 1655646553
 page_title: 'Wie sind die Formatvorgaben bei GWriters? Alles dazu hier'
 meta_title: 'Wie sind die Formatvorgaben bei GWriters? Alles dazu hier'
 meta_description: 'Erfahren Sie hier, wie wissenschaftliche Arbeiten bei GWriters.de formatiert werden. Kontaktieren Sie uns um Ihren akademischen Text formatieren zu lassen.'
@@ -492,4 +525,5 @@ template: without-teaser-with-sidebar
 og_title: 'Wie sind die Formatvorgaben bei GWriters? Alles dazu hier'
 og_description: 'Erfahren Sie hier, wie wissenschaftliche Arbeiten bei GWriters.de formatiert werden. Kontaktieren Sie uns um Ihren akademischen Text formatieren zu lassen.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
