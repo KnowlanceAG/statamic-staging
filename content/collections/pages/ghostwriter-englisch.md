@@ -1,5 +1,6 @@
 ---
 id: 2a6e04de-0d5a-4712-ba29-fcfe717090dd
+blueprint: pages
 title: 'Können Ihre Freelancer auch Ausarbeitungen auf Englisch schreiben?'
 replicator:
   -
@@ -63,7 +64,39 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: "Viele der von GWriters vermittelten Freelancer, ob Autoren,\_"
+            text: 'Viele der von GWriters vermittelten Freelancer, ob '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /experten
+                  target: null
+                  rel: null
+            text: Autoren
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: ",\_"
           -
             type: text
             marks:
@@ -174,7 +207,7 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623331449
+updated_at: 1655647368
 meta_title: 'Habt Ihr Autoren für Ausarbeitungen auf Englisch? • GWriters'
 meta_description: 'Viele der GWriters.de Freelancer, ob Autoren, Lektoren, Korrektoren, Übersetzer oder Ghostwriter schreiben und publizieren regelmäßig in englischer Sprache.'
 use_meta_keywords: false
@@ -189,4 +222,5 @@ template: without-teaser-with-sidebar
 og_title: 'Habt Ihr Autoren für Ausarbeitungen auf Englisch? • GWriters'
 og_description: 'Viele der GWriters.de Freelancer, ob Autoren, Lektoren, Korrektoren, Übersetzer oder Ghostwriter schreiben und publizieren regelmäßig in englischer Sprache.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
