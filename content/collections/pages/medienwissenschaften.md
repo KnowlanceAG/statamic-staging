@@ -129,8 +129,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'GWriters • Medienwissenschaft - Ghostwriter & Lektoren'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650983268
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655644925
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -892,7 +892,39 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Das Studium im Fachbereich der Medienwissenschaften ist neben Fachhochschulen, oftmals nur an Hochschulen möglich. Da es sich bei dem Studiengang Medienwissenschaften nicht um einen betriebswirtschaftlichen Studiengang handelt, findet man diesen Studiengang häufig an philosophischen oder sozialwissenschaftlichen Hochschulen. In Deutschland dauern ein Bachelorstudiengang in der Regelzeit sechs und ein Masterstudiengang vier Semester.'
+                    text: 'Das Studium im Fachbereich der Medienwissenschaften ist neben Fachhochschulen, oftmals nur an Hochschulen möglich. Da es sich bei dem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/medienwissenschaften-studiengang
+                          target: null
+                          rel: null
+                    text: 'Studiengang Medienwissenschaften'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: ' nicht um einen betriebswirtschaftlichen Studiengang handelt, findet man diesen Studiengang häufig an philosophischen oder sozialwissenschaftlichen Hochschulen. In Deutschland dauern ein Bachelorstudiengang in der Regelzeit sechs und ein Masterstudiengang vier Semester.'
               -
                 type: paragraph
                 content:
@@ -921,12 +953,6 @@ replicator:
                         attrs:
                           color: 'rgb(255, 102, 2)'
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
                     text: Ghostwriting
                   -
                     type: text
