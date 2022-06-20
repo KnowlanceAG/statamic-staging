@@ -4,8 +4,8 @@ blueprint: pages
 title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650299867
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655724350
 replicator:
   -
     columns-replicator:
@@ -34,13 +34,52 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Unser Preisrechner dient Ihnen als Orientierungshilfe für unsere Ghostwriter Preise. Die Preise für\_unsere Leistungen\_richten sich nach unseren Erfahrungswerten mit unseren akademischen Ghostwritern, Lektoren & Coaches. Bei GWriters bleiben Sie vollkommen anonym. Wenn Sie eine "
+                    text: "Unser Preisrechner dient Ihnen als Orientierungshilfe für unsere Ghostwriter Preise. Die Preise für\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /
+                          target: null
+                          rel: null
+                    text: 'unsere Leistungen'
+                  -
+                    type: text
+                    text: "\_richten sich nach unseren Erfahrungswerten mit unseren akademischen "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwritern
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat/lektor
+                          target: null
+                          rel: null
+                    text: Lektoren
+                  -
+                    type: text
+                    text: ' & Coaches. Bei GWriters bleiben Sie vollkommen anonym. Wenn Sie eine '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'diskrete Abrechnung über Freunde oder Vewandte'
+                    text: 'diskrete Abrechnung über Freunde oder Verwandte'
                   -
                     type: text
                     text: ' wünschen, helfen wir Ihnen gerne!'
@@ -64,7 +103,59 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Beim Ghostwriting sind die Plagiatsprüfung, das Korrektorat, das Lektorat durch einen Supervisor, Formatierung, Quellerecherche, alle Verzeichnisse, Deckblatt etc. '
+                    text: 'Beim Ghostwriting sind die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          target: null
+                          rel: null
+                    text: Plagiatsprüfung
+                  -
+                    type: text
+                    text: ', das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat
+                          target: null
+                          rel: null
+                    text: Korrektorat
+                  -
+                    type: text
+                    text: ', das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: Lektorat
+                  -
+                    type: text
+                    text: ' durch einen Supervisor, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /formatierung
+                          target: null
+                          rel: null
+                    text: Formatierung
+                  -
+                    type: text
+                    text: ', Quellerecherche, alle Verzeichnisse, Deckblatt etc. '
                   -
                     type: text
                     marks:
@@ -253,7 +344,20 @@ replicator:
                             text: 'akademischen Ghostwriting'
                           -
                             type: text
-                            text: "\_sammeln. Deshalb sind wir uns bewusst, dass sowohl die Seriosität einer Ghostwriting Agentur als auch durchgängige Transparenz im Hinblick auf den Ghostwriting Service und die Preise für viele Kunden im Mittelpunkt stehen."
+                            text: "\_sammeln. Deshalb sind wir uns bewusst, dass sowohl die Seriosität einer "
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /ghostwriting/ghostwriting-agentur
+                                  target: null
+                                  rel: null
+                            text: 'Ghostwriting Agentur'
+                          -
+                            type: text
+                            text: ' als auch durchgängige Transparenz im Hinblick auf den Ghostwriting Service und die Preise für viele Kunden im Mittelpunkt stehen.'
                           -
                             type: hard_break
                           -
@@ -689,20 +793,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: "Bei GWriters erhalten Sie ausschließlich Unikate. Jede wissenschaftliche Arbeit wird vor der Abschlusslieferung\_auf "
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: /leistungen/plagiatspruefung
-                                  target: null
-                                  rel: null
-                            text: 'Plagiate geprüft'
-                          -
-                            type: text
-                            text: '. Hierfür verwenden wir die gleiche Software, wie sie auch von Universitäten verwendet wird.'
+                            text: "Bei GWriters erhalten Sie ausschließlich Unikate. Jede wissenschaftliche Arbeit wird vor der Abschlusslieferung\_auf Plagiate geprüft. Hierfür verwenden wir die gleiche Software, wie sie auch von Universitäten verwendet wird."
                     text_ausrichtung: text-left
                     column-count: false
             show_as_card: false
@@ -2158,7 +2249,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Die Preise für einen Ghostwriter oder Schreibcoach im akademischen Bereich variieren stark. Als Kunde sollte man sich allerdings darüber im Klaren sein, dass die Kosten für einen Ghostwriter mit entsprechenden Qualifikationen höher sind als für einen Ghostwriter, welcher nicht einmal einen akademischen Abschluss hat. Gerade bei geringen Preisen von Ghostwriting-Agenturen stellt sich so die Frage, ob man eine Mustervorlage für die eigene von jemandem'
+                                text: "Die Preise für einen Ghostwriter oder Schreibcoach im akademischen Bereich variieren stark. Als Kunde sollte man sich allerdings darüber im Klaren sein, dass die Kosten für einen Ghostwriter mit entsprechenden Qualifikationen höher sind als für einen Ghostwriter, welcher nicht einmal einen akademischen Abschluss hat. Gerade bei geringen Preisen von Ghostwriting-Agenturen stellt sich so die Frage, ob man eine Mustervorlage für die eigene von jemandem\_"
                               -
                                 type: text
                                 marks:
@@ -2168,10 +2259,10 @@ replicator:
                                       href: /arbeiten/doktorarbeit
                                       target: null
                                       rel: null
-                                text: "\_Doktorarbeit schreiben lassen\_"
+                                text: 'Doktorarbeit schreiben lassen'
                               -
                                 type: text
-                                text: 'möchte, der selbst noch nicht einmal eine Dissertation verfasst hat. '
+                                text: "\_möchte, der selbst noch nicht einmal eine Dissertation verfasst hat. "
                           -
                             type: paragraph
                             content:
@@ -2254,33 +2345,7 @@ replicator:
                                 type: hard_break
                               -
                                 type: text
-                                text: "Seriöse Agenturen erkennt man daran, dass diese einen Kostenvoranschlag unterbreiten (übrigens auch für\_"
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /korrektorat
-                                      target: null
-                                      rel: null
-                                text: Korrektorat
-                              -
-                                type: text
-                                text: ', '
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /lektorat
-                                      target: null
-                                      rel: null
-                                text: Lektorat
-                              -
-                                type: text
-                                text: ' und Plagiatsprüfung), der als Festpreisangebot deklariert wird, also nicht überschritten wird, ganz egal wie viel Mehrarbeit noch über den geschätzten Aufwand entsteht. Gute Agenturen sind sich der eigenen '
+                                text: "Seriöse Agenturen erkennt man daran, dass diese einen Kostenvoranschlag unterbreiten (übrigens auch für\_Korrektorat, Lektorat und Plagiatsprüfung), der als Festpreisangebot deklariert wird, also nicht überschritten wird, ganz egal wie viel Mehrarbeit noch über den geschätzten Aufwand entsteht. Gute Agenturen sind sich der eigenen "
                               -
                                 type: text
                                 marks:
