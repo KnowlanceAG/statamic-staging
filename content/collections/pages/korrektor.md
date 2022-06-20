@@ -107,7 +107,7 @@ replicator:
             type: hard_break
           -
             type: text
-            text: 'Durch sinkende Druck- und Verlagskosten sowie Digitalisierung ist die Tätigkeit als Korrektor im Pressebereich nur noch selten anzufinden. In Wissenschaft und Forschung wurde die Tätigkeit des Korrektors immer wichtiger. So ist es Gang und Gebe, wissenschaftliche Texte, in Form von Fachpublikationen oder Dissertationen, aber auch Abschlussarbeiten oder Examens-/Hausarbeiten, von einem Korrektor'
+            text: 'Durch sinkende Druck- und Verlagskosten sowie Digitalisierung ist die Tätigkeit als Korrektor im Pressebereich nur noch selten anzufinden. In Wissenschaft und Forschung wurde die Tätigkeit des Korrektors immer wichtiger. So ist es Gang und Gebe, wissenschaftliche Texte, in Form von Fachpublikationen oder Dissertationen, aber auch Abschlussarbeiten oder Examens-/Hausarbeiten, von einem Korrektor '
           -
             type: text
             marks:
@@ -117,7 +117,7 @@ replicator:
                   href: /korrektorat/korrekturlesen/
                   target: null
                   rel: null
-            text: ' Korrekturlesen'
+            text: Korrekturlesen
           -
             type: text
             text: ' zu lassen.'
@@ -262,8 +262,8 @@ replicator:
     type: editor
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934802
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655726977
 page_title: 'Ihr akademischer Korrektor von GWriters - diskret und qualitätsgeprüft'
 meta_title: 'Ihr akademischer Korrektor von GWriters - diskret und qualitätsgeprüft'
 meta_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'
