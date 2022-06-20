@@ -232,13 +232,14 @@ replicator:
               - 61c8847a-99e4-4910-83bf-77128046e025
               - 7d024a47-6d2b-4f8e-b6a8-387124ec41eb
               - 56aa7035-50e2-4e3c-b340-67c136dad294
+              - 93e1a5bd-9b19-4e68-b483-7dbeb26462ea
       -
         type: paragraph
     show_as_card: false
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655728611
+updated_at: 1655728676
 template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
