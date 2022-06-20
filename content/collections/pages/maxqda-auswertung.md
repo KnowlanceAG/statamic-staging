@@ -92,7 +92,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unter den Programmen zur Auswertung von qualitativer und Mixed Methods- Forschung gehört die Software MAXQDA zu den beliebtesten und erfolgreichsten Möglichkeiten, die Forschern, Studierenden und Analysten zur Verfügung stehen. MAXQDA und die Auswertung mit MAXQDA zählen zur sogenannten QDA-Software - “Qualitative Data Analysis”-Software – die somit einen Teil des Namens von MAXQDA bildet. Eingesetzt wird die MAXQDA Analyse sowohl in Wissenschaft als auch in Wirtschaft. Die Auswertung mit MAXQDA wird inzwischen in über 150 Ländern durchgeführt. Die Software existiert seit 1989 und wird ständig weiterentwickelt.'
+                    text: 'Unter den Programmen zur Auswertung von qualitativer und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/mixed-methods-design
+                          target: null
+                          rel: null
+                    text: 'Mixed Methods'
+                  -
+                    type: text
+                    text: '- Forschung gehört die Software MAXQDA zu den beliebtesten und erfolgreichsten Möglichkeiten, die Forschern, Studierenden und Analysten zur Verfügung stehen. MAXQDA und die Auswertung mit MAXQDA zählen zur sogenannten QDA-Software - “Qualitative Data Analysis”-Software – die somit einen Teil des Namens von MAXQDA bildet. Eingesetzt wird die MAXQDA Analyse sowohl in Wissenschaft als auch in Wirtschaft. Die Auswertung mit MAXQDA wird inzwischen in über 150 Ländern durchgeführt. Die Software existiert seit 1989 und wird ständig weiterentwickelt.'
                   -
                     type: hard_break
               -
@@ -1329,7 +1342,7 @@ replicator:
     border: false
 parent: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1653422408
+updated_at: 1655726357
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
