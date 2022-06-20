@@ -239,7 +239,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655728676
+updated_at: 1655728713
 template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
