@@ -636,7 +636,39 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: "Wegen ihrer vielfältigen Umsetzungsoptionen ist diese Promotionsmöglichkeit verstärkt im Kommen. Waren vor ein paar Jahren noch überwiegend BWLer und Juristen an einer externen Promotion interessiert, ist diese Variante mittlerweile auch im ingenieurwissenschaftlichen Bereich, für Jungunternehmer, Freiberufler oder Praktikanten in der freien Wirtschaft attraktiv. Den wissenschaftlichen Kern externer Promotionen bilden strukturierte Promotionsprogramme, die Unis und FH’s überwiegend kostenpflichtig anbieten. Auch einige kostenfreie Angebote gibt es. Darüber hinaus suchen extern promovierende auch häufig nach seriösen\_"
+                    text: 'Wegen ihrer vielfältigen Umsetzungsoptionen ist diese Promotionsmöglichkeit verstärkt im Kommen. Waren vor ein paar Jahren noch überwiegend BWLer und Juristen an einer externen Promotion interessiert, ist diese Variante mittlerweile auch im ingenieurwissenschaftlichen Bereich, für Jungunternehmer, Freiberufler oder Praktikanten in der freien Wirtschaft attraktiv. Den wissenschaftlichen Kern externer Promotionen bilden strukturierte Promotionsprogramme, die Unis und FH’s überwiegend kostenpflichtig anbieten. Auch einige kostenfreie Angebote gibt es. Darüber hinaus suchen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /promotionsberatung/doktorvater-finden
+                          target: null
+                          rel: null
+                    text: 'extern promovierende'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: " auch häufig nach seriösen\_"
                   -
                     type: text
                     marks:
@@ -649,12 +681,6 @@ replicator:
                         attrs:
                           color: 'rgb(255, 102, 2)'
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /promotionsberatung
-                          target: null
-                          rel: null
                     text: Promotionsberatungen
                   -
                     type: text
@@ -1131,8 +1157,8 @@ replicator:
 page_title: 'Berufsbegleitende Promotion im Überblick • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934771
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655717195
 meta_title: 'Berufsbegleitende Promotion im Überblick • GWriters'
 meta_description: 'Finden Sie bei uns alle Informationen über die berufsbegleitende Promotion - Alle Vor- und Nachteile von internen und externen Promotionsprogrammen!'
 use_meta_keywords: false
