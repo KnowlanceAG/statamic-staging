@@ -6,7 +6,7 @@ page_title: 'BWL Seminararbeit Beispiel - Wie schreibt ein akademischer Ghostwri
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1653428390
+updated_at: 1655746322
 meta_title: 'BWL Seminararbeit Beispiel - Wie schreibt ein Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Seminararbeit Musters von unserer Expertise und nutzen Sie diese als Leitfaden. Lesen Sie hier mehr.'
 use_meta_keywords: false
