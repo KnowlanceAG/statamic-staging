@@ -1,5 +1,6 @@
 ---
 id: 4c882044-a7c8-47ab-96ab-9fac3f0b761c
+blueprint: akademie
 title: 'Expertentipps von GWriters'
 teaser:
   -
@@ -58,7 +59,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Unsere GWriters-Expertentipps kommen Ihnen dann gelegen, wenn Sie in unseren anderen Kategorien keine Antworten auf Ihre Fragen finden konnten. Durch ihre langjährige Erfahrung mit in Forschung und Wissenschaft sind unsere akademischen Ghostwriter zu wahren Experten in der Erstellung wissenschaftlicher Arbeiten geworden. Als '
+            text: 'Unsere GWriters-Expertentipps kommen Ihnen dann gelegen, wenn Sie in unseren anderen Kategorien keine Antworten auf Ihre Fragen finden konnten. Durch ihre langjährige Erfahrung mit in Forschung und Wissenschaft sind unsere akademischen '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  target: null
+                  rel: null
+            text: Ghostwriter
+          -
+            type: text
+            text: ' zu wahren Experten in der Erstellung wissenschaftlicher Arbeiten geworden. Als '
           -
             type: text
             marks:
@@ -180,7 +194,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623867070
+updated_at: 1655741858
 template: default
 use_meta_keywords: false
 no_index_page: false
