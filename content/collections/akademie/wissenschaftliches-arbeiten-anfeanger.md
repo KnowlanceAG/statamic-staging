@@ -1,5 +1,6 @@
 ---
 id: b0ab57c8-c632-4082-af70-9b10b915d2b8
+blueprint: akademie
 title: 'Wissenschaftliches Arbeiten für Anfänger'
 teaser:
   -
@@ -117,7 +118,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/masterarbeit-zitieren
+                  href: /leistungen/formatierung
                   target: null
                   rel: null
             text: 'Formatierung der Abschlussarbeit'
@@ -143,7 +144,20 @@ replicator:
         content:
           -
             type: text
-            text: "In dieser Kategorie können Sie sich umfassende Informationen über die Bestandteile einer\_Abschlussarbeit einholen, die Ihnen die notwendigen Grundlagen für das Verfassen Ihrer ersten akademischen Arbeit vermitteln. Alle Teilbereiche sind detailliert aufgelistet, von unseren erfahrenen akademischen Ghostwritern erklärt und für Sie übersichtlich aufgelistet, sodass Sie sich schnell und einfach in genau die Bereiche einarbeiten können, die Ihnen bisher noch Probleme verursacht haben oder gänzlich unbekannt waren."
+            text: "In dieser Kategorie können Sie sich umfassende Informationen über die Bestandteile einer\_Abschlussarbeit einholen, die Ihnen die notwendigen Grundlagen für das Verfassen Ihrer ersten akademischen Arbeit vermitteln. Alle Teilbereiche sind detailliert aufgelistet, von unseren erfahrenen akademischen "
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  target: null
+                  rel: null
+            text: Ghostwritern
+          -
+            type: text
+            text: ' erklärt und für Sie übersichtlich aufgelistet, sodass Sie sich schnell und einfach in genau die Bereiche einarbeiten können, die Ihnen bisher noch Probleme verursacht haben oder gänzlich unbekannt waren.'
       -
         type: paragraph
         content:
@@ -215,13 +229,15 @@ replicator:
               - d46e0ca4-d689-4003-b50c-b692aa251e4c
               - e43c11cc-82e1-4563-a993-8445feb5eefd
               - 84fb02d0-d713-4340-8bb6-b1cb293b3a91
+              - 6a687d35-a211-44a8-a84c-e14fd4c067bb
+              - 1d114e72-d852-438f-ab77-c988ddf00231
       -
         type: paragraph
     show_as_card: false
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623867669
+updated_at: 1655728246
 template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
