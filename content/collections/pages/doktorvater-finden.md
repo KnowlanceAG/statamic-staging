@@ -316,7 +316,39 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Um die Chancen für eine Betreuungszusage zu erhöhen ist es wichtig, sich zunächst die besondere Ausgangssituation als externer Promovend zu verdeutlichen. Ist man für den Professor lediglich eine zusätzliche und unnötige Last, oder kann man damit rechnen, dass das Promotionsprojekt auch dem Betreuer vorteilhafte Aspekte bringt? Die Antwort hierauf muss viele Gesichtspunkte berücksichtigen und hängt tatsächlich vom Einzelfall ab.'
+                    text: 'Um die Chancen für eine Betreuungszusage zu erhöhen ist es wichtig, sich zunächst die besondere Ausgangssituation als externer Promovend zu verdeutlichen. Ist man für den Professor lediglich eine zusätzliche und unnötige Last, oder kann man damit rechnen, dass das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /promotionsberatung/berufsbegleitend-promovieren-interne-externe-promotion
+                          target: null
+                          rel: null
+                    text: Promotionsprojekt
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: ' auch dem Betreuer vorteilhafte Aspekte bringt? Die Antwort hierauf muss viele Gesichtspunkte berücksichtigen und hängt tatsächlich vom Einzelfall ab.'
               -
                 type: paragraph
                 content:
@@ -951,7 +983,7 @@ page_title: 'Externe Promotion: den geeigneten Doktorvater finden • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1652710061
+updated_at: 1655716813
 meta_title: 'Externe Promotion: den geeigneten Doktorvater finden • GWriters'
 meta_description: 'Wir erklären, wie Sie den geeigneten Doktorvater für Ihre externe, nebenberufliche Promotion finden. Profitieren Sie von der unserer Promotionsberatung!'
 use_meta_keywords: false
