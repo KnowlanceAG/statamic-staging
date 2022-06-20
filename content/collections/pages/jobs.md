@@ -344,7 +344,29 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: ', Lektoren, Korrektoren & Übersetzer.'
+            text: ', Lektoren, Korrektoren & '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: link
+                attrs:
+                  href: /leistungen/uebersetzung
+                  target: null
+                  rel: null
+            text: Übersetzer
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: .
       -
         type: paragraph
         content:
@@ -371,7 +393,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1652150545
+updated_at: 1655727590
 page_title: 'Ghostwriter Jobs bei GWriters'
 template: without-teaser-with-sidebar
 meta_title: 'Ghostwriter Jobs bei GWriters'
