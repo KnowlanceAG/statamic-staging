@@ -103,7 +103,20 @@ replicator:
             text: Lektorat
           -
             type: text
-            text: ' Service bietet eine Dienstleistung am geschriebenen Wort an, das sogenannte Lektorat. Beim Lektorat handelt es sich um eine Bearbeitung eines Textes der über ein sogenanntes Korrektorat weit hinausgeht. Bei einem Korrektorat Service überprüft ein Korrektor einen Text auf grammatikalische Fehler, Rechtschreib- und Tippfehler sowie auf korrekte Zeichensetzung.'
+            text: ' Service bietet eine Dienstleistung am geschriebenen Wort an, das sogenannte Lektorat. Beim Lektorat handelt es sich um eine Bearbeitung eines Textes der über ein sogenanntes '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /korrektorat
+                  target: null
+                  rel: null
+            text: Korrektorat
+          -
+            type: text
+            text: ' weit hinausgeht. Bei einem Korrektorat Service überprüft ein Korrektor einen Text auf grammatikalische Fehler, Rechtschreib- und Tippfehler sowie auf korrekte Zeichensetzung.'
           -
             type: hard_break
           -
@@ -123,7 +136,20 @@ replicator:
             text: Lektor
           -
             type: text
-            text: ' untersucht den vorliegenden Text zuerst wie ein Korrektor, dann aber auch auf'
+            text: ' untersucht den vorliegenden Text zuerst wie ein '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /korrektorat/korrektor
+                  target: null
+                  rel: null
+            text: Korrektor
+          -
+            type: text
+            text: ', dann aber auch auf'
       -
         type: bullet_list
         content:
@@ -330,8 +356,8 @@ replicator:
     type: editor
     enabled: true
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934799
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655725929
 page_title: 'Benötigen Sie einen Lektorat Service? GWriters hilft!'
 template: with-side-bar
 meta_title: 'Benötigen Sie einen Lektorat Service? GWriters hilft!'
