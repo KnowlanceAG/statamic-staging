@@ -135,7 +135,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1655817260
+updated_at: 1655817334
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
@@ -617,4 +617,7 @@ replicator:
     border: false
     type: add_section
     enabled: true
+template: default
+meta_title: 'GWriters Erfahrung'
+og_title: 'GWriters Erfahrung'
 ---
