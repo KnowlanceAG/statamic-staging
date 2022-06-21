@@ -135,7 +135,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1655832247
+updated_at: 1655835175
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
@@ -639,19 +639,52 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Doch. Es gibt auch Reviews, die nicht absolut positiv sind. Aber auch anhand dieser Reviews ist es erkennbar, dass es sich um eine echte Bewertung handelt, die auf einer tatsächlichen Erfahrung mit einem Ghostwriter von GWriters basiert.'
+                    text: 'Doch. Es gibt auch Reviews, die nicht absolut positiv sind. Aber auch anhand dieser Reviews ist es erkennbar, dass es sich um eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'echte Bewertung handelt'
+                  -
+                    type: text
+                    text: ', die auf einer tatsächlichen Erfahrung mit einem Ghostwriter von GWriters basiert.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Es kann also nicht behauptet werden, dass mit GWriters schlechte Erfahrungen gemacht wurden. Es gibt aber bestimmte Aspekte, die bei der Vergabe eines Ghostwriting-Auftrags und auch danach für das Verfassen einer fairen Bewertung berücksichtigt werden müssen.'
+                    text: 'Es kann also nicht behauptet werden, dass mit GWriters schlechte Erfahrungen gemacht wurden. Es gibt aber bestimmte Aspekte, die bei der Vergabe eines Ghostwriting-Auftrags und auch danach für das Verfassen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: einer
+                  -
+                    type: text
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'fairen Bewertung berücksichtigt werden müssen'
+                  -
+                    type: text
+                    text: .
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'In unserem Beispiel hier kritisiert der Bewerter, dass kein persönliches Treffen mit unserem Ghostwriter möglich war. Zwar bedauern wir, dass unser Kunde sich hiervon gestört fühlte, allerdings gehört es zu unseren zentralen Geschäftsprinzipien, dass wir nicht nur die Anonymität unserer Kunden, sondern auch die Anonymität unserer Ghostwriter unter allen Umständen schützen. Als Ersatz hierfür arrangieren wir für Sie aber jederzeit gerne anonyme Telefonkonferenzen mit Ihrem persönlichen Ghostwriter!'
+                    text: 'In unserem Beispiel hier kritisiert der Bewerter, dass kein persönliches Treffen mit unserem Ghostwriter möglich war. Zwar bedauern wir, dass unser Kunde sich hiervon gestört fühlte, allerdings gehört es zu unseren zentralen Geschäftsprinzipien, dass wir nicht nur die Anonymität unserer Kunden, sondern auch die Anonymität unserer Ghostwriter unter allen Umständen schützen. Als Ersatz hierfür arrangieren wir für Sie aber jederzeit gerne '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'anonyme Telefonkonferenzen mit Ihrem persönlichen Ghostwriter!'
             show_as_card: false
           -
             bard:
@@ -677,6 +710,147 @@ replicator:
     type: add_section
     enabled: true
   -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: 1
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wo findet man weitere Ghostwriter Erfahrungen und wie zuverlässig sind diese?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Es gibt auch weitere Bewertungsportale, die Sie nutzen können, um über die Erfahrung mit GWriters bzw. Ghostwriter-Erfahrungen im Allgemeinen zu lesen. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Aber Achtung: Nicht alle diese Bewertungsportale sind zuverlässig!'
+                  -
+                    type: text
+                    text: ' Leider nehmen in diesem Bereich die Manipulationen zu, sodass es eine Vielzahl von Fake-Bewertungsseiten gibt, denen man kaum vertrauen kann.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Nehmen wir als Beispiel die Plattform '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ghostwritingerfahrungen.com
+                  -
+                    type: text
+                    text: ' – die erste Bewertungsseite mit Ghostwriter Erfahrungen, auf die Sie bei einer Google-Suche stoßen. Auf anhieb fällt auf, dass das aggregierte Ranking von GWriters auf dieser Seite bei 7 / 10 liegt, sich allerdings nur aus ein paar wenigen, angeblich schlechten Bewertungen mit 0 oder 1 Stern zusammensetzt. Dies alleine ergibt bereits keinen Sinn.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Der Eindruck einer Fake-Bewertungsseite wird allerdings durch andere Aspekte noch weiter verstärkt. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Neue Bewertungen werden nicht veröffentlicht'
+                  -
+                    type: text
+                    text: ' und die bestehenden Bewertungen stammen alle aus dem selben Zeitraum vor zwei Jahren. Diese wurden also offensichtlich vom '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Betreiber der Fake-Seite selbst erstellt'
+                  -
+                    type: text
+                    text: '. Zuletzt sind die Bewertungen auch inhaltlich unstimmig, ein sogenanntes "Leistungspaket" wird von GWriters gar nicht angeboten.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - ghostwriting-bewertung.png
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Der Betreiber der Seite ist ebenfalls offensichtlich, dabei handelt es sich um den Betreiber der Betrüger-Agenturen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Ghostwriterpreise, Essayhilfe und Studhilfe. '
+                  -
+                    type: text
+                    text: 'Diese sind als einzige Agenturen auf dem Fake-Portal gut bewertet und sind zudem auch noch auf jeder Unterseite verlinkt sowie via Sidebar direkt ins Design des Fake-Portals eingebunden.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - ghostwriting-erfahrungen-min.png
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein weiteres Beispiel von Manipulationen der Bewertungen zu Ghostwriting Erfahrungen liefert überraschenderweise die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'bekannte und renommierte Plattform Trustpilot'
+                  -
+                    type: text
+                    text: ', die sich gegen die Publikation von jeglichen Bewertungen der Ghostwriter Erfahrungen entschieden hat. Im Rahmen dieser Entscheidung wurden allerdings lediglich die Profile von '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'großen vertrauenswürdigen Agenturen wie GWriters'
+                  -
+                    type: text
+                    text: ' gesperrt, sodass sich die Nutzer kein objektives Bild von Bewertungen zu GWriters Erfahrungen machen können. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Lediglich unbekannte und häufig unseriöse Ghostwriting Agenturen sind daher noch auf Trustpilot zu finden'
+                  -
+                    type: text
+                    text: '. Leider wird so durch Trustpilot ein auch so bereits unübersichtlichen Markt noch undurchschaubarer gemacht.'
+            show_as_card: false
+        type: row
+        enabled: true
     remove_spacing: false
     is-full: false
     bg-toggle: false
@@ -687,4 +861,5 @@ replicator:
 template: default
 meta_title: 'GWriters Erfahrung'
 og_title: 'GWriters Erfahrung'
+page_title: 'GWriters Erfahrung'
 ---
