@@ -135,7 +135,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1655817334
+updated_at: 1655832247
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
@@ -610,6 +610,73 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
+    remove_spacing: false
+    is-full: false
+    bg-toggle: false
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns-replicator:
+      -
+        responsive_columns: 1
+        columns_per_row: '2'
+        single-col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Hat also niemand mit GWriters schlechte Erfahrungen gemacht?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Doch. Es gibt auch Reviews, die nicht absolut positiv sind. Aber auch anhand dieser Reviews ist es erkennbar, dass es sich um eine echte Bewertung handelt, die auf einer tatsächlichen Erfahrung mit einem Ghostwriter von GWriters basiert.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Es kann also nicht behauptet werden, dass mit GWriters schlechte Erfahrungen gemacht wurden. Es gibt aber bestimmte Aspekte, die bei der Vergabe eines Ghostwriting-Auftrags und auch danach für das Verfassen einer fairen Bewertung berücksichtigt werden müssen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In unserem Beispiel hier kritisiert der Bewerter, dass kein persönliches Treffen mit unserem Ghostwriter möglich war. Zwar bedauern wir, dass unser Kunde sich hiervon gestört fühlte, allerdings gehört es zu unseren zentralen Geschäftsprinzipien, dass wir nicht nur die Anonymität unserer Kunden, sondern auch die Anonymität unserer Ghostwriter unter allen Umständen schützen. Als Ersatz hierfür arrangieren wir für Sie aber jederzeit gerne anonyme Telefonkonferenzen mit Ihrem persönlichen Ghostwriter!'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - gwriters-schlechte-erfahrung-min.png
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+            show_as_card: false
+        type: row
+        enabled: true
+    remove_spacing: false
+    is-full: true
+    bg-toggle: false
+    bg-color: '#F2F2F2'
+    bg-image-fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
     remove_spacing: false
     is-full: false
     bg-toggle: false
