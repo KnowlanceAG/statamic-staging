@@ -135,7 +135,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1655835279
+updated_at: 1655893451
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
@@ -848,6 +848,42 @@ replicator:
                   -
                     type: text
                     text: '. Leider wird so durch Trustpilot ein auch so bereits unübersichtlichen Markt noch undurchschaubarer gemacht.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wie kann man Rezensionen zu Ghostwriter-Erfahrungen überhaupt vertrauen?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Es ist einfach und schwierig zugleich: Man muss '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'nur die vertrauenswürdigen Bewertungsportale (wie z. B. ProvenExpert und Google Bewertungen)'
+                  -
+                    type: text
+                    text: ' wählen und sämtliche Bewertungen kritisch betrachten können. Am besten ist es allerdings, seine eigene GWriters Erfahrung zu machen, da nicht alle Kunden, die mit GWriters Erfahrungen gemacht haben, eine Bewertung schreiben, unter anderem auch aus Gründen der Anonymität. Senden Sie uns einfach eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'kostenlose Anfrage'
+                  -
+                    type: text
+                    text: ', um innerhalb kurzer Zeit ein unverbindliches Angebot zu erhalten – so können Sie sich selbständig von der Qualität unserer Leistungen überzeugen.'
             show_as_card: false
         type: row
         enabled: true
