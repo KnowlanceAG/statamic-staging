@@ -135,7 +135,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1655899909
+updated_at: 1655900407
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
@@ -337,7 +337,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Als ein hervorragendes Beispiel kann das bekannte Bewertungsportal ProvenExpert herangezogen werden. Dort finden Sie '
+                    text: 'Als ein hervorragendes Beispiel kann das bekannte '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.provenexpert.com/gwriters/'
+                          target: null
+                          rel: null
+                    text: 'Bewertungsportal ProvenExpert'
+                  -
+                    type: text
+                    text: ' herangezogen werden. Dort finden Sie '
                   -
                     type: text
                     marks:
@@ -346,7 +359,20 @@ replicator:
                     text: 'Bewertungen zu allen führenden Ghostwriting-Agenturen'
                   -
                     type: text
-                    text: '. Auch Google Bewertungen sind eine verlässliche Quelle für Ghostwriter Bewertungen, da die häufig mit echtem Namen abgegeben werden müssen.'
+                    text: '. Auch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.google.com/maps/place/GWriters+Germany/@51.1758057,10.4541194,6z/data=!3m1!4b1!4m5!3m4!1s0x47a84f44a1b3b2bb:0x951d66ffbc9ceb2a!8m2!3d51.1758057!4d10.4541194'
+                          target: null
+                          rel: null
+                    text: 'Google Bewertungen'
+                  -
+                    type: text
+                    text: ' sind eine verlässliche Quelle für Ghostwriter Bewertungen, da die häufig mit echtem Namen abgegeben werden müssen.'
               -
                 type: paragraph
                 content:
