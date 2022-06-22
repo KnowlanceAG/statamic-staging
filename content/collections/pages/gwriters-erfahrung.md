@@ -135,7 +135,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1655893511
+updated_at: 1655893768
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
@@ -895,7 +895,9 @@ replicator:
     type: add_section
     enabled: true
 template: default
-meta_title: 'GWriters Erfahrung'
-og_title: 'GWriters Erfahrung'
-page_title: 'GWriters Erfahrung - erfahrene Ghostwriter für Ihren Erfolg'
+meta_title: 'GWriters Erfahrung - erfahrene Ghostwriter für Ihren Erfolg!'
+og_title: 'GWriters Erfahrung - erfahrene Ghostwriter für Ihren Erfolg!'
+page_title: 'GWriters Erfahrung - erfahrene Ghostwriter für Ihren Erfolg!'
+meta_description: 'Die GWriters Erfahrung überzeugt selbst unsere anspruchsvollsten Kunden  - erfahrene Ghostwriter unterstützen Sie diskret & seriös bei Ihrem  Projekt!'
+og_description: 'Die GWriters Erfahrung überzeugt selbst unsere anspruchsvollsten Kunden  - erfahrene Ghostwriter unterstützen Sie diskret & seriös bei Ihrem  Projekt!'
 ---
