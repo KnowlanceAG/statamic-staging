@@ -317,7 +317,39 @@ replicator:
                         attrs:
                           color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
                           hex: '#000'
-                    text: ' oder Korrektor. Der „Geist“ kontrolliert oder überarbeitet in der Regel keine Arbeiten, sondern '
+                    text: ' oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat/korrektor
+                          target: null
+                          rel: null
+                    text: Korrektor
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(27.744,46.0224,53.856,var(--text-opacity))'
+                          hex: '#000'
+                    text: '. Der „Geist“ kontrolliert oder überarbeitet in der Regel keine Arbeiten, sondern '
                   -
                     type: text
                     marks:
@@ -653,7 +685,35 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Mustervorlage für Ihre Hausarbeit, '
+                    text: 'Mustervorlage für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Hausarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', '
                   -
                     type: text
                     marks:
@@ -1244,7 +1304,7 @@ replicator:
                         headline: KORREKTORAT
                         hover_content: 'Vier Augen sehen mehr als zwei. Ein professionelles Korrektorat überarbeitet sprachliche Fehler Ihrer wissenschaftlichen Arbeit'
                         link:
-                          - 6dd15231-c8e7-43fe-949e-af68de19ab1b
+                          - e36a16aa-f4fc-4352-8466-36266c196de4
               -
                 type: set
                 attrs:
@@ -3301,8 +3361,8 @@ replicator:
     type: add_section
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1654802153
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655895808
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
