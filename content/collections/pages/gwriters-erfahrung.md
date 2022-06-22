@@ -135,7 +135,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1655893768
+updated_at: 1655899800
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
@@ -376,7 +376,7 @@ replicator:
                     float: mx-auto
                     image_options:
                       - no_upscale
-            show_as_card: false
+            show_as_card: true
         type: row
         enabled: true
     remove_spacing: false
@@ -559,7 +559,7 @@ replicator:
         enabled: true
       -
         responsive_columns: 1
-        columns_per_row: 1
+        columns_per_row: '2'
         single-col: false
         grid:
           -
@@ -611,12 +611,13 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
+    is-full: true
     bg-toggle: false
     bg-image-fixed: false
     border: false
     type: add_section
     enabled: true
+    bg-color: '#D6D6D6'
   -
     columns-replicator:
       -
@@ -698,7 +699,7 @@ replicator:
                     img_size: w-full
                     image_options:
                       - no_upscale
-            show_as_card: false
+            show_as_card: true
         type: row
         enabled: true
     remove_spacing: false
@@ -784,12 +785,24 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: set
+                attrs:
+                  values:
                     type: floating-img
                     dateien:
                       - ghostwriting-bewertung.png
                     img_size: w-full
                     image_options:
                       - no_upscale
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
               -
                 type: paragraph
                 content:
@@ -809,12 +822,24 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: set
+                attrs:
+                  values:
                     type: floating-img
                     dateien:
                       - ghostwriting-erfahrungen-min.png
                     img_size: w-full
                     image_options:
                       - no_upscale
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
               -
                 type: paragraph
                 content:
