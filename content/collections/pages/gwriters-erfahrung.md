@@ -135,7 +135,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1655899800
+updated_at: 1655899909
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
@@ -153,9 +153,9 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      &lt;p style="font-size:18px" align="center"&gt;
+                      <p style="font-size:18px" align="center">
                       Akademisches Ghostwriting ist eine sensible Sphäre und ein undurchsichtiger Markt: sensibel, da Anonymität und Vertrauen in Ghostwriter Erfahrungen essenziell sind, und umkämpft, da es in Deutschland und weltweit unzählige Anbieter gibt, die sich im Markt durchsetzen wollen. Wenn Sie bereits mit GWriters Erfahrung gemacht haben, wissen Sie, dass die Wahl eines zuverlässigen und seriösen Ghostwriting-Anbieters essentiell für Ihren Erfolg ist.
-                      &lt;/p&gt;
+                      </p>
               -
                 type: set
                 attrs:
