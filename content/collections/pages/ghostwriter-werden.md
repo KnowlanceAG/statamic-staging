@@ -1,5 +1,6 @@
 ---
 id: 1d114e72-d852-438f-ab77-c988ddf00231
+blueprint: pages
 title: 'Ghostwriter werden'
 replicator:
   -
@@ -106,7 +107,39 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Möchten Sie ein Ghostwriter in unserem GWriters Team werden, sollten Sie folgende Kriterien erfüllen:'
+            text: 'Möchten Sie ein Ghostwriter in unserem GWriters Team werden, sollten Sie '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/ghostwriter-werden-voraussetzungen
+                  target: null
+                  rel: null
+            text: 'folgende Kriterien'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: ' erfüllen:'
       -
         type: bullet_list
         content:
@@ -338,7 +371,7 @@ replicator:
     enabled: true
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623333056
+updated_at: 1655894542
 meta_title: 'GWriters • Ghostwriter werden!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Werden Sie Ghostwriter!'
 use_meta_keywords: false
@@ -352,4 +385,5 @@ twitter_card_type_page: summary
 og_title: 'GWriters • Ghostwriter werden!'
 og_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Werden Sie Ghostwriter!'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
