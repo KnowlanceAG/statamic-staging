@@ -252,7 +252,29 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: "\_und Bachelorarbeiten (auch Bachelorthesis genannt), bis hin zu Mustervorlagen für Masterarbeiten & Dissertationen. Bei uns haben Sie absolut flexible Arbeitszeiten – Sie nehmen nur die Aufträge an, die für Sie von Interesse sind. GWriters steht für absolute Qualität, Transparenz und Zuverlässigkeit."
+            text: "\_und "
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Bachelorarbeiten
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: ' (auch Bachelorthesis genannt), bis hin zu Mustervorlagen für Masterarbeiten & Dissertationen. Bei uns haben Sie absolut flexible Arbeitszeiten – Sie nehmen nur die Aufträge an, die für Sie von Interesse sind. GWriters steht für absolute Qualität, Transparenz und Zuverlässigkeit.'
       -
         type: paragraph
         content:
@@ -295,7 +317,20 @@ replicator:
             text: Jura
           -
             type: text
-            text: ', haben wir monatlich mehrere hundert Ghostwriting Jobs zu vergeben. Einzige Beschränkung ist lediglich ein möglicherweise einzuhaltender Abgabetermin, der in den meisten Fällen vorher feststeht und Ihnen somit Planungssicherheit gewährleistet.'
+            text: ', haben wir monatlich mehrere hundert '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriting
+                  target: null
+                  rel: null
+            text: Ghostwriting
+          -
+            type: text
+            text: ' Jobs zu vergeben. Einzige Beschränkung ist lediglich ein möglicherweise einzuhaltender Abgabetermin, der in den meisten Fällen vorher feststeht und Ihnen somit Planungssicherheit gewährleistet.'
       -
         type: heading
         attrs:
@@ -489,8 +524,8 @@ replicator:
     type: editor
     enabled: true
 template: without-teaser-with-sidebar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1625680026
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655894837
 page_title: 'GWriters • Ghostwriter Job'
 meta_title: 'GWriters • Ghostwriter Job'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie bester Verdienst & volle Freiheit - Ghostwriter Job bei GWriters!'
@@ -505,4 +540,5 @@ twitter_card_type_page: summary
 og_title: 'GWriters • Ghostwriter Job'
 og_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie bester Verdienst & volle Freiheit - Ghostwriter Job bei GWriters!'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---

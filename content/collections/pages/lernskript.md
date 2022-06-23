@@ -176,7 +176,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Jeder Studierende greift heute für die optimale Prüfungsvorbereitung auf Lernskripte zurück. Dabei zeigt sich die Auswahl des optimalen Skripts als Lernvorbereitung angesichts der Vielzahl der zur Verfügung stehenden Lernskripte als durchaus schwierig. Viele Studierende nutzen in dieser Situation das Angebot akademischer Ghostwriter, die für Qualität bürgen.'
+            text: 'Jeder Studierende greift heute für die optimale Prüfungsvorbereitung auf Lernskripte zurück. Dabei zeigt sich die Auswahl des optimalen Skripts als Lernvorbereitung angesichts der Vielzahl der zur Verfügung stehenden Lernskripte als durchaus schwierig. Viele Studierende nutzen in dieser Situation das Angebot '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /faq/was-ist-ein-akademischer-ghostwriter
+                  target: null
+                  rel: null
+            text: 'akademischer Ghostwriter'
+          -
+            type: text
+            text: ', die für Qualität bürgen.'
       -
         type: paragraph
         content:
@@ -1143,8 +1156,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646933701
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1653588865
 template: with-side-bar
 meta_title: 'Lernskript schreiben lassen • GWriters'
 meta_description: 'Lernskript schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'

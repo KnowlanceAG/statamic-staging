@@ -1,11 +1,12 @@
 ---
 id: 21ef3416-f1fd-43eb-8e38-ec597763c45f
+blueprint: pages
 title: 'Hausarbeit Beispiel: Weiterentwicklung der Baseler Eigenmittelübereinkunft'
 page_title: 'VWL Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623327245
+updated_at: 1655746649
 meta_title: 'VWL Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Hausarbeit Musters von unseren Qualitätsstandards und nutzen Sie diese als Orientierung. Erfahren Sie hier mehr.'
 use_meta_keywords: false
@@ -251,7 +252,43 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: "Selbstverständlich unterstützen wir Sie mit unseren akademischen Ghostwriting Services auch über die Bereitstellung von Beispielarbeiten hinaus. Wenn Sie Ihre Hausarbeit schreiben lassen möchten, dann stellen Sie jetzt Ihre Anfrage und wir helfen Ihnen weiter mit einer\_"
+            text: 'Selbstverständlich unterstützen wir Sie mit unseren akademischen '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /
+                  target: null
+                  rel: null
+            text: 'Ghostwriting Services'
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: " auch über die Bereitstellung von Beispielarbeiten hinaus. Wenn Sie Ihre Hausarbeit schreiben lassen möchten, dann stellen Sie jetzt Ihre Anfrage und wir helfen Ihnen weiter mit einer\_"
           -
             type: text
             marks:
@@ -289,4 +326,5 @@ replicator:
 og_title: 'VWL Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 og_description: 'Überzeugen Sie sich anhand dieses Hausarbeit Musters von unseren Qualitätsstandards und nutzen Sie diese als Orientierung. Erfahren Sie hier mehr.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---

@@ -280,7 +280,19 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Akademische Ghostwriter'
+                    text: 'Akademische '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
                   -
                     type: text
                     text: ' können Sie bei Ihren akademischen Arbeiten professionell unterstützen! '
@@ -689,7 +701,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Hausarbeit'
+                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Seminararbeit'
               -
                 type: paragraph
                 content:
@@ -721,7 +733,31 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'beauftragen. Diese bieten eine Vielzahl von Leistungen und Hilfestellungen an. Sie können sich daher zu jedem Zeitpunkt des Arbeitsverlaufs für ein '
+                    text: 'beauftragen. Diese bieten eine Vielzahl von '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen
+                          target: null
+                          rel: null
+                    text: Leistungen
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und Hilfestellungen an. Sie können sich daher zu jedem Zeitpunkt des Arbeitsverlaufs für ein '
                   -
                     type: text
                     marks:
@@ -779,7 +815,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' im Laufe des Schreibprozesses um Rat zu fragen. Selbst wenn Sie sich als Student sich dazu entscheiden, eigenständig zu arbeiten, ist es ratsam, die Seminararbeit korrekturlesen und von einem '
+                    text: ' im Laufe des Schreibprozesses um Rat zu fragen. Selbst wenn Sie sich als Student sich dazu entscheiden, eigenständig zu arbeiten, ist es ratsam, die Seminararbeit Korrekturlesen und von einem '
                   -
                     type: text
                     marks:
@@ -811,55 +847,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Neben der Korrektur und dem\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: _blank
-                          rel: null
-                    text: Lektorat
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: "\_der Seminararbeit, können wir Ihnen zusätzlich eine umfassende\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: _blank
-                          rel: null
-                    text: Plagiatsprüfung
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: "\_durch unsere "
+                    text: "Neben der Korrektur und dem\_Lektorat\_der Seminararbeit, können wir Ihnen zusätzlich eine umfassende\_Plagiatsprüfung\_durch unsere "
                   -
                     type: text
                     marks:
@@ -870,6 +858,12 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting/ghostwriting-agentur
+                          target: null
+                          rel: null
                     text: Ghostwriting-Agentur
                   -
                     type: text
@@ -3027,8 +3021,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650981991
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1653591240
 template: default
 use_meta_keywords: false
 no_index_page: false

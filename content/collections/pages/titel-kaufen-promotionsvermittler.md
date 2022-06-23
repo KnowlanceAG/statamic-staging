@@ -259,7 +259,39 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Weitere Fallen lauern in den Angeboten von sogenannten Promotionsberatern und Doktortitel-Vermittlern, die Ehrendoktortitel für ‚geringes Geld‘ und ohne wissenschaftliche Eigenleistung versprechen. Zu den pseudoseriösen Angeboten gehören beispielsweise auch Doktortitel ‚Made in Costa Rica‘, das heißt angeblich in diesem Land erworbene Titel für mehrere Tausend Euro, die nicht auf akademischen Leistungen beruhen. Solche Titelmühlen geben vor, Leistungen und Prüfungen abzunehmen, halten aber kein Promotionsstudium oder vergleichbare Leistungen vor. Zudem steht die wissenschaftliche Eigenleistung dabei in keinem Verhältnis zu den Anforderungen des erstrebten akademischen Grades. Das Hände-weg-Gebot ergibt sich auch hier von selbst.'
+                    text: 'Weitere Fallen lauern in den Angeboten von sogenannten '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /promotionsberatung
+                          target: null
+                          rel: null
+                    text: Promotionsberatern
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: ' und Doktortitel-Vermittlern, die Ehrendoktortitel für ‚geringes Geld‘ und ohne wissenschaftliche Eigenleistung versprechen. Zu den pseudoseriösen Angeboten gehören beispielsweise auch Doktortitel ‚Made in Costa Rica‘, das heißt angeblich in diesem Land erworbene Titel für mehrere Tausend Euro, die nicht auf akademischen Leistungen beruhen. Solche Titelmühlen geben vor, Leistungen und Prüfungen abzunehmen, halten aber kein Promotionsstudium oder vergleichbare Leistungen vor. Zudem steht die wissenschaftliche Eigenleistung dabei in keinem Verhältnis zu den Anforderungen des erstrebten akademischen Grades. Das Hände-weg-Gebot ergibt sich auch hier von selbst.'
               -
                 type: paragraph
                 content:
@@ -469,8 +501,8 @@ replicator:
 page_title: 'Titel kaufen & Promotionsvermittler: "Alternativen" zur Promotion?'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934773
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1653412445
 meta_title: 'Titel kaufen & Promotionsvermittler: "Alternativen" zur Promotion?'
 meta_description: 'Kann man Titel kaufen? Sind sogenannte Promotionsvermittler legal? Welche Möglichkeiten gibt es sonst? Was steckt hinter diesen "Alternativen" zur Promotion? Sie bekommen alle wichtigen Informationen über diese Themenfelder bei GWriters.de!'
 use_meta_keywords: false

@@ -362,7 +362,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ein akademischer Ghostwriter ist jemand, der Akademikern beim Verfassen so einer wissenschaftlichen Arbeit hilft, ihre Forschungsergebnisse textlich auswertet oder eine ganze '
+                    text: 'Ein akademischer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: ' ist jemand, der Akademikern beim Verfassen so einer wissenschaftlichen Arbeit hilft, ihre Forschungsergebnisse textlich auswertet oder eine ganze '
                   -
                     type: text
                     marks:
@@ -658,7 +671,13 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: Lektoratsservice
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat/lektorat-service
+                          target: null
+                          rel: null
+                    text: 'Lektorat Service'
                   -
                     type: text
                     marks:
@@ -2777,8 +2796,8 @@ replicator:
     type: add_section
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650983447
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655893697
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2790,9 +2809,9 @@ twitter_card_type_page: summary
 template: default
 page_title: 'Alle Vorteile einer seriösen Ghostwriting Agentur • GWriters'
 meta_title: 'Alle Vorteile einer seriösen Ghostwriting Agentur • GWriters'
-meta_description: 'Sie möchten Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen? Unsere Ghostwriting Agentur bietet Ihnen Preissicherheit und Diskretion.'
+meta_description: 'Ihre führende Ghostwriting Agentur für akademische Ghostwriter ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 og_title: 'Alle Vorteile einer seriösen Ghostwriting Agentur • GWriters'
-og_description: 'Sie möchten Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen? Unsere Ghostwriting Agentur bietet Ihnen Preissicherheit und Diskretion.'
+og_description: 'Ihre führende Ghostwriting Agentur für akademische Ghostwriter ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 og_image: GWriters-Logo.png
 sitemap_active: true
 ---

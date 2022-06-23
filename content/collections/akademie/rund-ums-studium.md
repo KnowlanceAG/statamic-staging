@@ -1,5 +1,6 @@
 ---
 id: b73c1df6-623f-49fd-a8ea-3d9e6cf334ab
+blueprint: akademie
 title: 'Rund ums Studium'
 teaser:
   -
@@ -58,7 +59,33 @@ replicator:
         content:
           -
             type: text
-            text: 'Jedes Studium stellt ganz eigene Anforderungen an den Studenten und daher hat jeder Fachbereich unterschiedliche Besonderheiten hinsichtlich des Studiums, der Lehre und der Forschung. Und genau so hat auch jede Hauarbeit, Seminararbeit oder Abschlussarbeit ihr ganz individuellen Anforderungen. Wir erklären Ihnen zum Beispiel, wie Sie sich optimal '
+            text: 'Jedes Studium stellt ganz eigene Anforderungen an den Studenten und daher hat jeder Fachbereich unterschiedliche Besonderheiten hinsichtlich des Studiums, der Lehre und der Forschung. Und genau so hat auch jede '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/hausarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Hausarbeit
+          -
+            type: text
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/seminararbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Seminararbeit
+          -
+            type: text
+            text: ' oder Abschlussarbeit ihr ganz individuellen Anforderungen. Wir erklären Ihnen zum Beispiel, wie Sie sich optimal '
           -
             type: text
             marks:
@@ -201,13 +228,18 @@ replicator:
               - 77170534-1ca3-42c2-97b1-d3031ddb9b48
               - 7311f5d2-ac4e-4e73-9d84-bc59a9883a9f
               - 32dc2d34-3dda-4372-bd24-44526365747b
+              - dabfe654-ec77-4680-89a4-94467547a605
+              - 61c8847a-99e4-4910-83bf-77128046e025
+              - 7d024a47-6d2b-4f8e-b6a8-387124ec41eb
+              - 56aa7035-50e2-4e3c-b340-67c136dad294
+              - 93e1a5bd-9b19-4e68-b483-7dbeb26462ea
       -
         type: paragraph
     show_as_card: false
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623867561
+updated_at: 1655728713
 template: academy-item-long
 use_meta_keywords: false
 no_index_page: false

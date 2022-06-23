@@ -59,7 +59,33 @@ replicator:
         content:
           -
             type: text
-            text: 'Mit den Videos und Beiträgen in dieser Kategorie möchten wir uns an alle richten, die derzeit auf der Suche nach einem Ghostwriter sind. Auf dem Ghostwriting Markt gibt es eine Vielzahl von Ghostwriting Agenturen, die sich hinsichtlich der Service- und Leistungsqualität stark unterscheiden. Das Spektrum reicht hier von '
+            text: 'Mit den Videos und Beiträgen in dieser Kategorie möchten wir uns an alle richten, die derzeit auf der Suche nach einem '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  target: null
+                  rel: null
+            text: Ghostwriter
+          -
+            type: text
+            text: ' sind. Auf dem '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriting
+                  target: null
+                  rel: null
+            text: Ghostwriting
+          -
+            type: text
+            text: ' Markt gibt es eine Vielzahl von Ghostwriting Agenturen, die sich hinsichtlich der Service- und Leistungsqualität stark unterscheiden. Das Spektrum reicht hier von '
           -
             type: text
             marks:
@@ -111,7 +137,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Ein schnelles Abhandeln Ihres Auftrages ist gänzlich nicht Sinn der Qualität. Wenn Sie beispielsweise eine Mustervorlage für eine Masterarbeit schreiben lassen möchten, dann erfordert dies definitiv einen entsprechenden Zeitrahmen, um die wissenschaftliche Qualität und die Plagiatsfreiheit sicherzustellen. Eine kompetente Ghostwriter Agentur sollte Sie zudem in Ihrem eigenen Vorhaben strukturiert, fachlich fundiert und mit Engagement unterstützen und Hand in Hand mit '
+            text: 'Ein schnelles Abhandeln Ihres Auftrages ist gänzlich nicht Sinn der Qualität. Wenn Sie beispielsweise eine Mustervorlage für eine '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/masterarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: 'Masterarbeit schreiben lassen'
+          -
+            type: text
+            text: ' möchten, dann erfordert dies definitiv einen entsprechenden Zeitrahmen, um die wissenschaftliche Qualität und die Plagiatsfreiheit sicherzustellen. Eine kompetente Ghostwriter Agentur sollte Sie zudem in Ihrem eigenen Vorhaben strukturiert, fachlich fundiert und mit Engagement unterstützen und Hand in Hand mit '
           -
             type: text
             marks:
@@ -170,7 +209,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1625762082
+updated_at: 1655741715
 template: default
 use_meta_keywords: false
 no_index_page: false

@@ -80,7 +80,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "\_bieten wir aktuell Autoren- bzw.\_"
+                    text: "\_bieten wir aktuell Autoren- bzw.\_Ghostwriter-Jobs in vielen Fachbereiche. Besonders gesucht werden akademische "
                   -
                     type: text
                     marks:
@@ -104,7 +104,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: '-Jobs in vielen Fachbereiche. Besonders gesucht werden akademische Ghostwriter, die ihr Schreibtalent bereits mehrfach in der wissenschaftlichen Praxis unter Beweis gestellt haben.'
+                    text: ', die ihr Schreibtalent bereits mehrfach in der wissenschaftlichen Praxis unter Beweis gestellt haben.'
               -
                 type: paragraph
                 content:
@@ -116,7 +116,127 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Auch für Studierende bietet sich nach dem Studium eine Tätigkeit als wissenschaftlicher Freelancer an. Aufgrund der Erfahrungen im Studium können Absolventen mit ihrem aktuellen Forschungswissen schnell und qualitätsvoll Manuskripte für wissenschaftliche Arbeiten schreiben. Dabei hilft ihnen die praktische Übung durch Ihre eigenen Prüfungsleistungen wie Hausarbeiten, Seminararbeiten sowie Abschlussarbeiten (Bachelorarbeit, Masterarbeit, Doktorarbeit, Dissertation).'
+                    text: 'Auch für Studierende bietet sich nach dem Studium eine Tätigkeit als wissenschaftlicher Freelancer an. Aufgrund der Erfahrungen im Studium können Absolventen mit ihrem aktuellen Forschungswissen schnell und qualitätsvoll Manuskripte für wissenschaftliche Arbeiten schreiben. Dabei hilft ihnen die praktische Übung durch Ihre eigenen Prüfungsleistungen wie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Hausarbeiten
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Seminararbeiten
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' sowie Abschlussarbeiten ('
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Bachelorarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Masterarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/doktorarbeit
+                          target: null
+                          rel: null
+                    text: Doktorarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', Dissertation).'
               -
                 type: paragraph
             show_as_card: false
@@ -145,7 +265,55 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Auch\_Lektoren und Korrektoren finden bei uns Einsatz. Wir bieten Ihnen eine attraktive Nebenverdienstmöglichkeit bei absoluter Flexibilität. Ghostwriter sowie Texter & Texterinnen aller Art, Lektoren und Korrektoren werden bei uns jederzeit gesucht!"
+                    text: "Auch\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat/lektor
+                          target: null
+                          rel: null
+                    text: Lektoren
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat/korrektor
+                          target: null
+                          rel: null
+                    text: Korrektoren
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' finden bei uns Einsatz. Wir bieten Ihnen eine attraktive Nebenverdienstmöglichkeit bei absoluter Flexibilität. Ghostwriter sowie Texter & Texterinnen aller Art, Lektoren und Korrektoren werden bei uns jederzeit gesucht!'
             show_as_card: false
         type: row
         enabled: true
@@ -417,7 +585,31 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: 'Wir erwarten von Ihnen Erfahrung im wissenschaftlichen Arbeiten und bei der Erstellung von Mustervorlagen für akademische Arbeiten, wie beispielsweise für eine Seminararbeit, Bachelorarbeit oder Masterarbeit. Viele Studierende oder Kunden möchten ihre Arbeit korrekturlesen lassen. Auch hier werden akademischen Mitarbeiter s wie Ghostwriter gesucht.'
+            text: 'Wir erwarten von Ihnen Erfahrung im wissenschaftlichen Arbeiten und bei der Erstellung von Mustervorlagen für akademische Arbeiten, wie beispielsweise für eine Seminararbeit, Bachelorarbeit oder Masterarbeit. Viele Studierende oder Kunden möchten ihre Arbeit '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /korrektorat/korrekturlesen
+                  target: null
+                  rel: null
+            text: 'korrekturlesen lassen'
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: black
+                  hex: '#000'
+            text: '. Auch hier werden akademischen Mitarbeiter s wie Ghostwriter gesucht.'
       -
         type: paragraph
         content:
@@ -708,10 +900,10 @@ replicator:
     enabled: true
 page_title: 'GWriters • Akademische Ghostwriter gesucht!'
 template: without-teaser-with-sidebar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1637142583
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655895304
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
-meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
+meta_description: 'Ghostwriter gesucht? 🔍 Bei GWriters sind Sie an der richtigen Stelle ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -721,6 +913,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 og_title: 'GWriters • Akademische Ghostwriter gesucht!'
-og_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Ghostwriter gesucht!'
+og_description: 'Ghostwriter gesucht? 🔍 Bei GWriters sind Sie an der richtigen Stelle ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---

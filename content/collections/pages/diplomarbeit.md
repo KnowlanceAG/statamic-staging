@@ -190,39 +190,26 @@ replicator:
         content:
           -
             type: text
-            text: 'Ein akademischer Ghostwriter besitzt nicht nur umfassende wissenschaftliche Kenntnisse in seinem Fachbereich, sondern auch Erfahrungen im Umgang mit wissenschaftlichen Arbeiten. Aus diesem Grund kann er ohne langwidrige Einarbeitungsphasen zu jedem Zeitpunkt der Bearbeitung unterstützend eingreifen. Oft geschieht dies direkt zu Beginn, bei der eigentlichen Themenfindung, dem Aufbau einer Diplomarbeit, deren Gliederung und Formatierung. Dies umfasst das typische Coaching einer Diplomarbeit, sowie deren Betreuung.'
+            text: 'Ein '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /faq/was-ist-ein-akademischer-ghostwriter
+                  target: null
+                  rel: null
+            text: 'akademischer Ghostwriter'
+          -
+            type: text
+            text: ' besitzt nicht nur umfassende wissenschaftliche Kenntnisse in seinem Fachbereich, sondern auch Erfahrungen im Umgang mit wissenschaftlichen Arbeiten. Aus diesem Grund kann er ohne langwidrige Einarbeitungsphasen zu jedem Zeitpunkt der Bearbeitung unterstützend eingreifen. Oft geschieht dies direkt zu Beginn, bei der eigentlichen Themenfindung, dem Aufbau einer Diplomarbeit, deren Gliederung und Formatierung. Dies umfasst das typische Coaching einer Diplomarbeit, sowie deren Betreuung.'
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Es ist ebenso möglich, dass der Ghostwriter bei einer bereits begonnenen Arbeit Hilfe zur Diplomarbeit leistet. Zudem bietet er oftmals das '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /lektorat
-                  target: null
-                  rel: null
-            text: Lektorat
-          -
-            type: text
-            text: ' und die Korrektur der Diplomarbeit, die bereits durch den Studenten fertiggestellt wurde, an. Nachfolgend kann eine umfassende '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /leistungen/plagiatspruefung
-                  target: null
-                  rel: null
-            text: Plagiatsprüfung
-          -
-            type: text
-            text: ' erfolgen, um vergessene Fußnoten oder andere Unstimmigkeiten zu vermeiden. Zudem ist es möglich, dass Studenten von akademischen Ghostwritern eine Mustervorlage für ihre Diplomarbeit schreiben lassen und diese '
+            text: 'Es ist ebenso möglich, dass der '
           -
             type: text
             marks:
@@ -235,7 +222,7 @@ replicator:
             text: Ghostwriter
           -
             type: text
-            text: '-Diplomarbeit als Vorlage für ihre eigene Arbeit nutzen.'
+            text: ' bei einer bereits begonnenen Arbeit Hilfe zur Diplomarbeit leistet. Zudem bietet er oftmals das Lektorat und die Korrektur der Diplomarbeit, die bereits durch den Studenten fertiggestellt wurde, an. Nachfolgend kann eine umfassende Plagiatsprüfung erfolgen, um vergessene Fußnoten oder andere Unstimmigkeiten zu vermeiden. Zudem ist es möglich, dass Studenten von akademischen Ghostwritern eine Mustervorlage für ihre Diplomarbeit schreiben lassen und diese Ghostwriter-Diplomarbeit als Vorlage für ihre eigene Arbeit nutzen.'
       -
         type: paragraph
         content:
@@ -1255,26 +1242,52 @@ replicator:
             text: Diplomarbeit
           -
             type: text
-            text: ' stellt in Deutschland die Abschlussarbeit eines Diplomstudiengangs an einer Hochschule dar, welche allerdings derzeit im Zuge des Bologna-Prozesses durch die sogenannten Bachelor- und Masterstudiengänge ersetzt wird. Demnach wird von den Hochschulen gegenwärtig nicht mehr erwartet, dass sie von ihren Studenten eine Diplomarbeit schreiben lassen. Vielmehr setzt sich im Zuge dieser Reform durch, dass Lehrinstitute von Studenten eine Masterarbeit oder Bachelorarbeit schreiben lassen. Durch diese Arbeiten soll geprüft werden, ob der Student in der Lage ist, zu einer definierten Fragestellung zu forschen bzw. zu recherchieren und eine ordnungsgemäße wissenschaftliche Arbeit zu schreiben.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Unterstützung verschaffen sich einige Studenten durch universitäre Hilfskurse für wissenschaftliches Arbeiten oder für die Literaturrecherche. Außerdem unterstützen wissenschaftliche Coaches bei der Bearbeitung der Diplomarbeit sowie ein '
+            text: ' stellt in Deutschland die Abschlussarbeit eines Diplomstudiengangs an einer Hochschule dar, welche allerdings derzeit im Zuge des Bologna-Prozesses durch die sogenannten Bachelor- und Masterstudiengänge ersetzt wird. Demnach wird von den Hochschulen gegenwärtig nicht mehr erwartet, dass sie von ihren Studenten eine Diplomarbeit schreiben lassen. Vielmehr setzt sich im Zuge dieser Reform durch, dass Lehrinstitute von Studenten eine '
           -
             type: text
             marks:
               -
                 type: link
                 attrs:
-                  href: /lektorat/lektor
+                  href: /arbeiten/masterarbeit-schreiben-lassen
                   target: null
                   rel: null
-            text: Lektor
+            text: Masterarbeit
           -
             type: text
-            text: ' oder Korrektor, welcher sie gründlich überarbeitet. Einige von diesen Studenten lassen '
+            text: ' oder '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/bachelorarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: 'Bachelorarbeit schreiben lassen'
+          -
+            type: text
+            text: '. Durch diese Arbeiten soll geprüft werden, ob der Student in der Lage ist, zu einer definierten Fragestellung zu forschen bzw. zu recherchieren und eine ordnungsgemäße wissenschaftliche Arbeit zu schreiben.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Unterstützung verschaffen sich einige Studenten durch universitäre Hilfskurse für wissenschaftliches Arbeiten oder für die '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/literaturrecherche-datenbanken-quellen
+                  target: null
+                  rel: null
+            text: Literaturrecherche
+          -
+            type: text
+            text: '. Außerdem unterstützen wissenschaftliche Coaches bei der Bearbeitung der Diplomarbeit sowie ein Lektor oder Korrektor, welcher sie gründlich überarbeitet. Einige von diesen Studenten lassen '
           -
             type: text
             marks:
@@ -1332,61 +1345,267 @@ replicator:
               -
                 type: bold
             text: 'Gliederung der Diplomarbeit:'
+      -
+        type: bullet_list
+        content:
           -
-            type: hard_break
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/deckblatt-vorlage
+                          target: null
+                          rel: null
+                    text: Deckblatt
           -
-            type: text
-            text: '• Deckblatt'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/bachelorarbeit-abstract
+                          target: null
+                          rel: null
+                    text: Abstract
           -
-            type: hard_break
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Vorwort
           -
-            type: text
-            text: '• Titelblatt'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/inhaltsverzeichnis-vorlage
+                          target: null
+                          rel: null
+                    text: 'Inhaltsverzeichnis Doktorarbeit (Kapitel, Unterkapitel)'
           -
-            type: hard_break
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/abbildungsverzeichnis
+                          target: null
+                          rel: null
+                    text: Abbildungs
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '- und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/tabellenverzeichnis-beispiel
+                          target: null
+                          rel: null
+                    text: Tabellenverzeichnis
           -
-            type: text
-            text: '• Inhaltsverzeichnis Diplomarbeit'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/abkuerzungsverzeichnis
+                          target: null
+                          rel: null
+                    text: Abkürzungsverzeichnis
           -
-            type: hard_break
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/bachelorarbeit-einleitung
+                          target: null
+                          rel: null
+                    text: Einleitung
           -
-            type: text
-            text: '• Textteil (Einleitung, Hauptteil, Schluss)'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Hauptteil
           -
-            type: hard_break
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Schlussteil/Fazit
           -
-            type: text
-            text: '• Literatur- und Quellenverzeichnis'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/literaturverzeichnis-beispiel
+                          target: null
+                          rel: null
+                    text: Literaturverzeichnis
           -
-            type: hard_break
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/anhangsverzeichnis
+                          target: null
+                          rel: null
+                    text: Anhang
           -
-            type: text
-            text: '– ggf. Abkürzungsverzeichnis'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '– ggf. Abbildungsverzeichnis'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '– ggf. Anhangsverzeichnis'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '– ggf. Anhang'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '– ggf. Glossar'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Ehrenwörtliche Erklärung'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/eidesstattliche-erklaerung-muster
+                          target: null
+                          rel: null
+                    text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
       -
         type: paragraph
         content:
@@ -1565,8 +1784,8 @@ replicator:
     type: editor
     enabled: true
     show_as_card: false
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650982261
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1653430416
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false

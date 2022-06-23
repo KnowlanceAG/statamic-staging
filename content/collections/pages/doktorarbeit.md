@@ -282,7 +282,35 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' akademischer Ghostwriter '
+                    text: ' akademischer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' '
                   -
                     type: text
                     marks:
@@ -412,6 +440,12 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /
+                          target: null
+                          rel: null
                     text: 'Hilfestellungen während des Studiums'
                   -
                     type: text
@@ -1286,20 +1320,7 @@ replicator:
                     text: 'Wenn Sie in der Schreibphase Unterstützung benötigen, die über'
                   -
                     type: text
-                    text: ' das '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat/korrekturlesen
-                          target: null
-                          rel: null
-                    text: Korrekturlesen
-                  -
-                    type: text
-                    text: ' hinaus geht, können Sie sich auch von einem Ghostwriter eine Mustervorlage für Ihre '
+                    text: ' das Korrekturlesen hinaus geht, können Sie sich auch von einem Ghostwriter eine Mustervorlage für Ihre '
                   -
                     type: text
                     marks:
@@ -2821,8 +2842,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1652794165
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1654802751
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2833,9 +2854,9 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 meta_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
-meta_description: 'Mustervorlage für Doktorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+meta_description: 'Doktorarbeit schreiben lassen – Mustervorlagen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
-og_description: 'Mustervorlage für Doktorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+og_description: 'Doktorarbeit schreiben lassen – Mustervorlagen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_abschlussarbeiten
 schema_objects: |-
@@ -2875,4 +2896,5 @@ schema_objects: |-
   }
   </script>
 sitemap_active: true
+page_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
 ---

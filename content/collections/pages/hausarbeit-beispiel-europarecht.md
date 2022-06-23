@@ -1,11 +1,12 @@
 ---
 id: ebc88d3b-5c58-41f8-9c28-2c4dd62dea5e
+blueprint: pages
 title: 'Hausarbeit Beispiel: Legal and Human Rights Protection in the EU'
 page_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1623095616
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655746595
 meta_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Jura-Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
 use_meta_keywords: false
@@ -88,7 +89,71 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: ' möchten, benötigen diese Unterstützung, da diese sich überfordert fühlen. Schließlich stell die erste wissenschaftliche Arbeit im Studium eine große Herausforderung da. Die folgende englische Hausarbeit wurde als Beispiel und Handreichung für Sie von einem unserer erfahrenen Jura Ghostwriter geschrieben. Anhand dieser Muster Hausarbeit möchten wir nicht nur unsere hervorragenden Kompetenzen im juristischen Fachbereich demonstrieren, sondern auch Ihnen als Studenten eine praktische Hilfestellung bieten, an der Sie sich beim Verfassen Ihrer eigenen Hausarbeit orientieren können. Unter anderem möchten wir damit folgende häufig gestellte Fragen beantworten:'
+            text: ' möchten, benötigen diese Unterstützung, da diese sich überfordert fühlen. Schließlich stell die erste wissenschaftliche Arbeit im Studium eine große Herausforderung da. Die folgende englische Hausarbeit wurde als Beispiel und Handreichung für Sie von einem unserer erfahrenen Jura '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  target: null
+                  rel: null
+            text: Ghostwriter
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: ' geschrieben. Anhand dieser '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: 'https://gwriters.de/ghostwriting-beispielarbeiten/hausarbeit-beispiel-baseler-eigenmitteluebereinkunft'
+                  target: null
+                  rel: null
+            text: 'Muster Hausarbeit'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: ' möchten wir nicht nur unsere hervorragenden Kompetenzen im juristischen Fachbereich demonstrieren, sondern auch Ihnen als Studenten eine praktische Hilfestellung bieten, an der Sie sich beim Verfassen Ihrer eigenen Hausarbeit orientieren können. Unter anderem möchten wir damit folgende häufig gestellte Fragen beantworten:'
       -
         type: bullet_list
         content:
@@ -320,4 +385,5 @@ replicator:
 og_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
 og_description: 'Überzeugen Sie sich anhand dieses Jura-Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---

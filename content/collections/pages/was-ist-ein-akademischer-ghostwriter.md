@@ -1,5 +1,6 @@
 ---
 id: 0f38ec3c-ac4d-40d9-9d66-a23e1cfc781b
+blueprint: pages
 title: 'Was ist ein "akademischer" Ghostwriter?'
 replicator:
   -
@@ -185,10 +186,10 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623330510
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1654802238
 meta_title: 'Was ist ein akademischer Ghostwriter? • GWriters'
-meta_description: 'Alles zum Thema, was ein akademischer Ghostwriter ist. Erfahren Sie mehr und erhalten Sie professionelle Unterstützung von GWriters.de.'
+meta_description: 'Akademische Ghostwriter schreiben für Sie seit 2012 hochwertige Unikate - Delegieren Sie Ihr Projekt an den Marktführer in Sachen Ghostwriting ✍🏼🎓'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -199,6 +200,7 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'Was ist ein akademischer Ghostwriter? • GWriters'
 og_title: 'Was ist ein akademischer Ghostwriter? • GWriters'
-og_description: 'Alles zum Thema, was ein akademischer Ghostwriter ist. Erfahren Sie mehr und erhalten Sie professionelle Unterstützung von GWriters.de.'
+og_description: 'Akademische Ghostwriter schreiben für Sie seit 2012 hochwertige Unikate - Delegieren Sie Ihr Projekt an den Marktführer in Sachen Ghostwriting ✍🏼🎓'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---

@@ -1,9 +1,10 @@
 ---
 id: 1034dc14-6cc6-48e4-90f6-1f44b65b861a
+blueprint: pages
 title: 'Anfrage abgesendet'
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623334534
+updated_at: 1653428992
 replicator:
   -
     bard:
@@ -20,7 +21,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Vielen Dank, Ihre Anfrage ist soeben in unserem System eingegangen. Wir kontaktieren nun die für Ihr Anliegen am besten passenden Ghostwriter aus unserem Expertenteam und melden uns innerhalb kürzester Zeit mit einem unverbindlichen Angebot bei Ihnen zurück.'
+            text: 'Vielen Dank, Ihre Anfrage ist soeben in unserem System eingegangen. Wir kontaktieren nun die für Ihr Anliegen am besten '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  target: null
+                  rel: null
+            text: 'passenden Ghostwriter'
+          -
+            type: text
+            text: ' aus unserem Expertenteam und melden uns innerhalb kürzester Zeit mit einem unverbindlichen Angebot bei Ihnen zurück.'
       -
         type: paragraph
         content:
@@ -113,4 +127,5 @@ meta_description: 'Vielen Dank für Ihre Anfrage! Unsere Mitarbeiter setzen sich
 og_title: 'GWriters • Anfrage abgesendet'
 og_description: 'Vielen Dank für Ihre Anfrage! Unsere Mitarbeiter setzen sich in kürzester Zeit mit Ihnen Verbindung!'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---

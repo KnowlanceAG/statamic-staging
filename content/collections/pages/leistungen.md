@@ -5,7 +5,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1652312253
+updated_at: 1655726474
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -171,29 +171,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: left
-                    text: ' erhalten. Wir haben das Problem der Risikoverteilung zwischen unserem Unternehmen, dem Kunden und dem Ghostwriter effektiv gelöst, indem wir '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/ghostwriting-gwriters-teillieferungen
-                          target: null
-                          rel: null
-                    text: Teillieferungen
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: ' anbieten. Das bedeutet, dass Sie als Kunde wirklich erst dann zahlen, wenn Sie eine Lieferung von uns erhalten. Der Ghostwriter kann indes sicher sein, dass er auch für seine Leistungen entlohnt wird. Somit sind beide Parteien abgesichert und das Risiko ist auf allen Seiten minimiert. Wir garantieren sowohl unseren Ghostwritern als auch unseren Kunden vollste Anonymität. Bei der Auftragserteilung wird Ihnen ein Mitarbeiter von uns als persönlicher Projektmanager zugeteilt und dieser übernimmt für Sie die gesamte Kommunikation mit Ihrem '
+                    text: ' erhalten. Wir haben das Problem der Risikoverteilung zwischen unserem Unternehmen, dem Kunden und dem '
                   -
                     type: text
                     marks:
@@ -215,7 +193,29 @@ replicator:
                         type: textAlign
                         attrs:
                           align: left
-                    text: '. So ist Ihr persönlicher Projektmanager auch die einzige Person, die Ihren echten Namen und den echten Namen des Ghostwriters kennt. Des Weiteren erhalten alle Parteien ausschließlich anonymisierte Dateien. Das bedeutet, dass jegliche persönlichen Informationen werden entfernt und es keine Namen in den Unterlagen sichtbar sind. Natürlich berücksichtigt Ihr Ghostwriter auch Ihre spezifischen Formatvorgaben, Literaturanforderungen oder vorgeschriebene Inhalte. Bestenfalls senden Sie uns diese gleich am Anfang der Texterstellung zu. Am Ende wird Ihre Arbeit von einem internen Supervisor lektoriert, der auch gern Ihre spezifischen Formatvorgaben noch einmal berücksichtigt.'
+                    text: ' effektiv gelöst, indem wir '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/ghostwriting-gwriters-teillieferungen
+                          target: null
+                          rel: null
+                    text: Teillieferungen
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: ' anbieten. Das bedeutet, dass Sie als Kunde wirklich erst dann zahlen, wenn Sie eine Lieferung von uns erhalten. Der Ghostwriter kann indes sicher sein, dass er auch für seine Leistungen entlohnt wird. Somit sind beide Parteien abgesichert und das Risiko ist auf allen Seiten minimiert. Wir garantieren sowohl unseren Ghostwritern als auch unseren Kunden vollste Anonymität. Bei der Auftragserteilung wird Ihnen ein Mitarbeiter von uns als persönlicher Projektmanager zugeteilt und dieser übernimmt für Sie die gesamte Kommunikation mit Ihrem Ghostwriter. So ist Ihr persönlicher Projektmanager auch die einzige Person, die Ihren echten Namen und den echten Namen des Ghostwriters kennt. Des Weiteren erhalten alle Parteien ausschließlich anonymisierte Dateien. Das bedeutet, dass jegliche persönlichen Informationen werden entfernt und es keine Namen in den Unterlagen sichtbar sind. Natürlich berücksichtigt Ihr Ghostwriter auch Ihre spezifischen Formatvorgaben, Literaturanforderungen oder vorgeschriebene Inhalte. Bestenfalls senden Sie uns diese gleich am Anfang der Texterstellung zu. Am Ende wird Ihre Arbeit von einem internen Supervisor lektoriert, der auch gern Ihre spezifischen Formatvorgaben noch einmal berücksichtigt.'
               -
                 type: paragraph
                 content:

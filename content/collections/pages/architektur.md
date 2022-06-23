@@ -131,8 +131,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'GWriters • Architektur - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650982862
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655476231
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -937,7 +937,39 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: "Architekturstudenten müssen während ihres gesamten Studiums eine umfangreiche Praxiserfahrung sammeln. Aus diesem Grund ist es üblich, dass unterschiedliche Praktika verlangt werden, die innerhalb des Studiums zu absolvieren sind. Zusätzlich wird von den Studenten verlangt, dass sie in Eigenregie Gebäude für einen bestimmten Zweck planen und zeichnen, Modelle bauen oder schriftliche Ausarbeitungen, beispielsweise eine Hausarbeit oder Seminararbeit, zu architektonischen Themen anfertigen. Die dabei einzuhaltenden Zeitpläne sind oft knapp kalkuliert und stellen die Studenten teilweise vor unlösbare Aufgaben. Um ihr Arbeitspensum bewältigen zu können, lassen sich einige Studenten der Architektur Hilfe von professionellen Bearbeitern leisten, in Form eines Korrektorates oder\_"
+                    text: 'Architekturstudenten müssen während ihres gesamten Studiums eine umfangreiche Praxiserfahrung sammeln. Aus diesem Grund ist es üblich, dass unterschiedliche Praktika verlangt werden, die innerhalb des Studiums zu absolvieren sind. Zusätzlich wird von den Studenten verlangt, dass sie in Eigenregie Gebäude für einen bestimmten Zweck planen und zeichnen, Modelle bauen oder schriftliche Ausarbeitungen, beispielsweise eine Hausarbeit oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Seminararbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: ", zu architektonischen Themen anfertigen. Die dabei einzuhaltenden Zeitpläne sind oft knapp kalkuliert und stellen die Studenten teilweise vor unlösbare Aufgaben. Um ihr Arbeitspensum bewältigen zu können, lassen sich einige Studenten der Architektur Hilfe von professionellen Bearbeitern leisten, in Form eines Korrektorates oder\_"
                   -
                     type: text
                     marks:
@@ -950,12 +982,6 @@ replicator:
                         attrs:
                           color: 'rgb(255, 102, 2)'
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
                     text: Lektorates
                   -
                     type: text

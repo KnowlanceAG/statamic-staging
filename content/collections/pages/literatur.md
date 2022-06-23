@@ -131,8 +131,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'GWriters • Literatur - Ghostwriter, Lektoren & Coaches'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650983249
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655482336
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -164,7 +164,39 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Die Literaturwissenschaft besteht unter anderem aus Teilbereichen der Germanistik und Philologie. Sie beschäftigt sich mit den verschiedensten literarischen Formen, Strukturen und Epochen. Sowohl die Intention, als auch die Wirkung der Werke, werden unter Berücksichtigung der Bedingungen in jener Entstehungszeit interpretiert. Im Studienverlauf wird der Student u.a. auch mit verschiedenen Arten von wissenschaftlichen Arbeiten konfrontiert. Diese dienen der Vorbereitung des Studenten auf eine abschließende Examensarbeit. So ist im Masterstudium vorgesehen, dass die Hochschulen von Studenten der Literaturwissenschaften eine Masterarbeit schreiben lassen. Durch die strengen Anforderungen im wissenschaftlichen Umgang mit der Literatur oftmals die Hilfe eines Ghostwriters, Lektoren oder Coaches benötigt.'
+                    text: 'Die Literaturwissenschaft besteht unter anderem aus Teilbereichen der Germanistik und Philologie. Sie beschäftigt sich mit den verschiedensten literarischen Formen, Strukturen und Epochen. Sowohl die Intention, als auch die Wirkung der Werke, werden unter Berücksichtigung der Bedingungen in jener Entstehungszeit interpretiert. Im Studienverlauf wird der Student u.a. auch mit verschiedenen Arten von wissenschaftlichen Arbeiten konfrontiert. Diese dienen der Vorbereitung des Studenten auf eine abschließende Examensarbeit. So ist im Masterstudium vorgesehen, dass die Hochschulen von Studenten der Literaturwissenschaften eine Masterarbeit schreiben lassen. Durch die strengen Anforderungen im wissenschaftlichen Umgang mit der Literatur oftmals die Hilfe eines '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriters
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: ', Lektoren oder Coaches benötigt.'
               -
                 type: paragraph
                 content:

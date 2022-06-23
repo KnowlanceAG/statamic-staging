@@ -131,7 +131,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Ein akademischer Ghostwriter ist eine Person vom Fach, die sich nicht nur durch neuste Kenntnisse in dem jeweiligen Gebiet, sondern auch durch sehr viel Erfahrung im Arbeiten mit wissenschaftlichen Texten und Arbeiten kennzeichnet. Aus diesem Grund stellt es für den '
+            text: 'Ein '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /faq/was-ist-ein-akademischer-ghostwriter
+                  target: null
+                  rel: null
+            text: 'akademischer Ghostwriter'
+          -
+            type: text
+            text: ' ist eine Person vom Fach, die sich nicht nur durch neuste Kenntnisse in dem jeweiligen Gebiet, sondern auch durch sehr viel Erfahrung im Arbeiten mit wissenschaftlichen Texten und Arbeiten kennzeichnet. Aus diesem Grund stellt es für den '
           -
             type: text
             marks:
@@ -144,20 +157,7 @@ replicator:
             text: Ghostwriter
           -
             type: text
-            text: ' keine Schwierigkeiten dar, zu jedem Zeitpunkt des Arbeitsprozesses beauftragt zu werden. Oft geschieht dies direkt zu Beginn, bei Problemen mit der eigentlichen Themenfindung und dem Aufbau einer Magisterarbeit. Es ist ebenfalls möglich, den Ghostwriter im Laufe der Schreibprozesses zu beauftragen. Zudem können Leistungen wie '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /lektorat
-                  target: null
-                  rel: null
-            text: Lektorat
-          -
-            type: text
-            text: ' und Korrektorat der Magisterarbeit, die bereits durch den Studenten fertiggestellt wurde, in Anspruch genommen werden. Nach dem gründlichen '
+            text: ' keine Schwierigkeiten dar, zu jedem Zeitpunkt des Arbeitsprozesses beauftragt zu werden. Oft geschieht dies direkt zu Beginn, bei Problemen mit der eigentlichen Themenfindung und dem Aufbau einer Magisterarbeit. Es ist ebenfalls möglich, den Ghostwriter im Laufe der Schreibprozesses zu beauftragen. Zudem können Leistungen wie Lektorat und Korrektorat der Magisterarbeit, die bereits durch den Studenten fertiggestellt wurde, in Anspruch genommen werden. Nach dem gründlichen '
           -
             type: text
             marks:
@@ -1154,7 +1154,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Die Magisterarbeit ist die wissenschaftliche Abschlussprüfung der Studenten eines Magisterstudiengangs. Es soll geprüft werden, ob der Student in der Lage ist, ordnungsgemäß zu einer speziellen Fragestellung zu recherchieren und sie wissenschaftlich zu erarbeiten. Im Zuge des Bologna-Prozesses weicht der Magisterstudiengang zunehmend den Bachelor- und Masterstudiengängen, bei denen Lehrinstitute von Studenten eine Bachelorarbeit und eine Masterarbeit schreiben lassen. Der Titel des Magisters nach dem erfolgreichen Schreiben der Magisterarbeit entspricht dem Titel des Masters. Die mit dem Schreibprozess verbundene Arbeit ist sehr zeitintensiv und umfangreich.'
+            text: 'Die Magisterarbeit ist die wissenschaftliche Abschlussprüfung der Studenten eines Magisterstudiengangs. Es soll geprüft werden, ob der Student in der Lage ist, ordnungsgemäß zu einer speziellen Fragestellung zu recherchieren und sie wissenschaftlich zu erarbeiten. Im Zuge des Bologna-Prozesses weicht der Magisterstudiengang zunehmend den Bachelor- und Masterstudiengängen, bei denen Lehrinstitute von Studenten eine Bachelorarbeit und eine '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/masterarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: 'Masterarbeit schreiben lassen'
+          -
+            type: text
+            text: '. Der Titel des Magisters nach dem erfolgreichen Schreiben der Magisterarbeit entspricht dem Titel des Masters. Die mit dem Schreibprozess verbundene Arbeit ist sehr zeitintensiv und umfangreich.'
       -
         type: paragraph
         content:
@@ -1209,61 +1222,297 @@ replicator:
               -
                 type: bold
             text: 'Gliederung einer Magisterarbeit'
+      -
+        type: bullet_list
+        content:
           -
-            type: hard_break
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/deckblatt-vorlage
+                          target: null
+                          rel: null
+                    text: Deckblatt
           -
-            type: text
-            text: '• Inhaltsverzeichnis Magisterarbeit'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/bachelorarbeit-abstract
+                          target: null
+                          rel: null
+                    text: Abstract
           -
-            type: hard_break
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Vorwort
           -
-            type: text
-            text: '• Einleitung'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/inhaltsverzeichnis-vorlage
+                          target: null
+                          rel: null
+                    text: 'Inhaltsverzeichnis Magisterarbeit (Kapitel, Unterkapitel)'
           -
-            type: hard_break
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/abbildungsverzeichnis
+                          target: null
+                          rel: null
+                    text: Abbildungs
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '- und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/tabellenverzeichnis-beispiel
+                          target: null
+                          rel: null
+                    text: Tabellenverzeichnis
           -
-            type: text
-            text: '• Theorie'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/abkuerzungsverzeichnis
+                          target: null
+                          rel: null
+                    text: Abkürzungsverzeichnis
           -
-            type: hard_break
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/bachelorarbeit-einleitung
+                          target: null
+                          rel: null
+                    text: Einleitung
           -
-            type: text
-            text: '• Literaturbesprechung'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: Theorie
           -
-            type: hard_break
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: Literaturbesprechung
           -
-            type: text
-            text: '• Problemstellung'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: Problemstellung
           -
-            type: hard_break
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: Methodik
           -
-            type: text
-            text: '• Methodik'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Ergebnisse
           -
-            type: hard_break
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: Diskussion
           -
-            type: text
-            text: '• Ergebnisse'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/literaturverzeichnis-beispiel
+                          target: null
+                          rel: null
+                    text: Literaturverzeichnis
           -
-            type: hard_break
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/anhangsverzeichnis
+                          target: null
+                          rel: null
+                    text: Anhang
           -
-            type: text
-            text: '• Diskussion'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Zusammenfassung und Ausblick'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Literatur-und Quellenverzeichnis'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Anhang'
+            type: list_item
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/eidesstattliche-erklaerung-muster
+                          target: null
+                          rel: null
+                    text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
       -
         type: paragraph
         content:
@@ -1432,8 +1681,8 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1650982247
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1653590225
 meta_title: 'Magisterarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Magisterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Plagiate.'
 use_meta_keywords: false

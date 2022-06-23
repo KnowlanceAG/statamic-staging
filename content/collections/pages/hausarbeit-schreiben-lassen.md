@@ -777,7 +777,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'GWriters bietet Ihnen einen professionellen Schreibservice durch erfahrene akademische Ghostwriter. Dank ihrer weitreichenden Erfahrung und Kompetenz können unsere Experten Sie in jeder Projektphase effektiv beim '
+                    text: 'GWriters bietet Ihnen einen professionellen Schreibservice durch erfahrene '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /faq/was-ist-ein-akademischer-ghostwriter
+                          target: null
+                          rel: null
+                    text: 'akademische Ghostwriter'
+                  -
+                    type: text
+                    text: '. Dank ihrer weitreichenden Erfahrung und Kompetenz können unsere Experten Sie in jeder Projektphase effektiv beim '
                   -
                     type: text
                     marks:
@@ -1363,7 +1376,19 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Titelblatt / Deckblatt'
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/deckblatt-vorlage
+                                  target: null
+                                  rel: null
+                            text: Deckblatt
                   -
                     type: list_item
                     content:
@@ -1372,7 +1397,19 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Inhaltsverzeichnis Hausarbeit'
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/bachelorarbeit-abstract
+                                  target: null
+                                  rel: null
+                            text: Abstract
                   -
                     type: list_item
                     content:
@@ -1381,6 +1418,120 @@ replicator:
                         content:
                           -
                             type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: Vorwort
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/inhaltsverzeichnis-vorlage
+                                  target: null
+                                  rel: null
+                            text: 'Inhaltsverzeichnis Hausarbeit (Kapitel, Unterkapitel)'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/abbildungsverzeichnis
+                                  target: null
+                                  rel: null
+                            text: Abbildungs
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: '- und '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/tabellenverzeichnis-beispiel
+                                  target: null
+                                  rel: null
+                            text: Tabellenverzeichnis
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/abkuerzungsverzeichnis
+                                  target: null
+                                  rel: null
+                            text: Abkürzungsverzeichnis
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/bachelorarbeit-einleitung
+                                  target: null
+                                  rel: null
                             text: Einleitung
                   -
                     type: list_item
@@ -1390,6 +1541,12 @@ replicator:
                         content:
                           -
                             type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
                             text: Hauptteil
                   -
                     type: list_item
@@ -1399,7 +1556,13 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Schluss / Fazit'
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: Schlussteil/Fazit
                   -
                     type: list_item
                     content:
@@ -1408,7 +1571,19 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Bildverzeichnis
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/literaturverzeichnis-beispiel
+                                  target: null
+                                  rel: null
+                            text: Literaturverzeichnis
                   -
                     type: list_item
                     content:
@@ -1417,15 +1592,18 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'Literatur- und Quellenverzeichnis'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/anhangsverzeichnis
+                                  target: null
+                                  rel: null
                             text: Anhang
                   -
                     type: list_item
@@ -1435,7 +1613,19 @@ replicator:
                         content:
                           -
                             type: text
-                            text: Selbstständigkeitserklärung
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/eidesstattliche-erklaerung-muster
+                                  target: null
+                                  rel: null
+                            text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
             show_as_card: false
           -
             bard:
@@ -2293,7 +2483,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1652438510
+updated_at: 1654802592
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2303,9 +2493,9 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-meta_title: 'Hausarbeit schreiben lassen • Ghostwriter-Mustervorlage von GWriters'
+meta_title: 'Hausarbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Mustervorlage für Hausarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
-og_title: 'Hausarbeit schreiben lassen • Ghostwriter-Mustervorlage von GWriters'
+og_title: 'Hausarbeit schreiben lassen • Ghostwriter von GWriters'
 og_description: 'Mustervorlage für Hausarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_studienarbeiten
@@ -2346,4 +2536,5 @@ schema_objects: |-
   }
   </script>
 sitemap_active: true
+page_title: 'Hausarbeit schreiben lassen • Ghostwriter von GWriters'
 ---

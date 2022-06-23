@@ -82,7 +82,7 @@ teaser:
 teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1652791457
+updated_at: 1655747062
 replicator:
   -
     bard:
@@ -339,7 +339,29 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: 'Schauen Sie sich die Beispiele für die von unseren Ghostwritern verfassten wissenschaftlichen Arbeiten an, damit Sie sich selbst von unseren Qualitätsstandard ein Bild machen können. Diese finden Sie in der folgenden Übersicht und können durch einen klick einfach & schnell in einem PDF Reader aufgerufen werden. Auch wenn Sie eine Mustervorlage für Ihre '
+            text: 'Schauen Sie sich die Beispiele für die von unseren '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  target: null
+                  rel: null
+            text: Ghostwritern
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: ' verfassten wissenschaftlichen Arbeiten an, damit Sie sich selbst von unseren Qualitätsstandard ein Bild machen können. Diese finden Sie in der folgenden Übersicht und können durch einen klick einfach & schnell in einem PDF Reader aufgerufen werden. Auch wenn Sie eine Mustervorlage für Ihre '
           -
             type: text
             marks:
@@ -539,7 +561,7 @@ replicator:
             ex_button_align: justify-start
             ex_spacing_top: false
             ex_fachbereich:
-              - a9cc9473-308b-4615-8f30-d545f7f63faf
+              - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
       -
         type: paragraph
     show_as_card: false

@@ -154,7 +154,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Die Überarbeitung des Textes erfolgt in der Form, dass Ihr eigener Schreibstil nicht verfälscht wird und sich ein stimmiger Gesamteindruck entwickelt. Weiterhin wird Ihre Arbeit auch im sprachlichen Ausdruck verbessert. So werden beispielsweise zu lange „Bandwurmsätze“ auf die wichtigsten Inhalte zusammengefasst, Wortwiederholungen umgangen oder der Satzbau verbessert. Die Leistungen eines Korrektorats, welche wir auch separat anbieten, sind im Lektorat selbstverständlich inbegriffen.'
+                    text: 'Die Überarbeitung des Textes erfolgt in der Form, dass Ihr eigener Schreibstil nicht verfälscht wird und sich ein stimmiger Gesamteindruck entwickelt. Weiterhin wird Ihre Arbeit auch im sprachlichen Ausdruck verbessert. So werden beispielsweise zu lange „Bandwurmsätze“ auf die wichtigsten Inhalte zusammengefasst, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/wortwiederholungen-vermeiden
+                          target: null
+                          rel: null
+                    text: Wortwiederholungen
+                  -
+                    type: text
+                    text: ' umgangen oder der Satzbau verbessert. Die Leistungen eines Korrektorats, welche wir auch separat anbieten, sind im Lektorat selbstverständlich inbegriffen.'
               -
                 type: paragraph
                 content:
@@ -219,7 +232,20 @@ replicator:
                     text: Jura
                   -
                     type: text
-                    text: ' Lektorat, jeder Fachbereich stellt individuelle Ansprüche an den Ghostwriter bei einem wissenschaftlichen Lektorat. Diese hängen nicht nur mit den Bedingungen des wissenschaftlichen Schreibens zusammen. Eine wissenschaftliche Arbeit kann nur dann fachgerecht lektoriert werden, wenn der Ghostwriter den Sachverhalt sowohl inhaltlich versteht. Zudem muss er für das Wissenschaftslektorat auch die für den Fachbereich üblichen wissenschaftlichen Methoden beherrschen.'
+                    text: ' Lektorat, jeder Fachbereich stellt individuelle Ansprüche an den '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: ' bei einem wissenschaftlichen Lektorat. Diese hängen nicht nur mit den Bedingungen des wissenschaftlichen Schreibens zusammen. Eine wissenschaftliche Arbeit kann nur dann fachgerecht lektoriert werden, wenn der Ghostwriter den Sachverhalt sowohl inhaltlich versteht. Zudem muss er für das Wissenschaftslektorat auch die für den Fachbereich üblichen wissenschaftlichen Methoden beherrschen.'
               -
                 type: heading
                 attrs:
@@ -301,7 +327,20 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ja, jeder Ghostwriting-Auftrag bei GWriters wird einem wissenschaftlichen Lektorat unterzogen. So kann die hohe Qualität der Texte gewährleistet werden.'
+                    text: 'Ja, jeder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: '-Auftrag bei GWriters wird einem wissenschaftlichen Lektorat unterzogen. So kann die hohe Qualität der Texte gewährleistet werden.'
               -
                 type: heading
                 attrs:
@@ -1047,8 +1086,8 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934792
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655726167
 meta_title: 'Lektorat von GWriters - Professionell, diskret und akademisch'
 meta_description: 'Akademische Lektoren, Korrektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Lektorat: Leistungen, Ablauf, Kosten & Preise.'
 use_meta_keywords: false

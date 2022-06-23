@@ -2,8 +2,8 @@
 id: a429a015-f680-4717-8b76-bf0d66ce02d4
 blueprint: pages
 title: 'Über Gwriters'
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646932005
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655716151
 teaser:
   -
     type: heading
@@ -122,7 +122,46 @@ replicator:
         content:
           -
             type: text
-            text: 'GWriters ermöglicht den schnellen und diskreten Zugang zu derzeit über 3000 ausgewählten Autoren, Lektoren, Korrektoren, Ghostwritern und Übersetzern. Diese unterstützen Sie bei der Erstellung, Korrektur, '
+            text: 'GWriters ermöglicht den schnellen und diskreten Zugang zu derzeit über 3000 ausgewählten Autoren, '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /lektorat/lektor
+                  target: null
+                  rel: null
+            text: Lektoren
+          -
+            type: text
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /korrektorat/korrektor
+                  target: null
+                  rel: null
+            text: Korrektoren
+          -
+            type: text
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  target: null
+                  rel: null
+            text: Ghostwritern
+          -
+            type: text
+            text: ' und Übersetzern. Diese unterstützen Sie bei der Erstellung, Korrektur, '
           -
             type: text
             marks:

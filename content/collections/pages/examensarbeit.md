@@ -154,7 +154,7 @@ replicator:
                   href: /blog/literaturrecherche-datenbanken-quellen
                   target: null
                   rel: null
-            text: 'Literaturrecherche in Datenbanken'
+            text: Literaturrecherche
           -
             type: text
             text: ' und dem Aufbau einer Examensarbeit (Einleitung, Hauptteil, Fazit). Ein Coaching bei der Examensarbeit kann auch bei der erfolgreichen Fertigstellung einer bereits begonnenen Arbeit unterstützend wirken, sie zu einem bestimmten Punkt vorantreiben oder ein Konzept mit Lösungsansätzen für die Erfüllung der gestellten Aufgabe entwerfen. Hierbei kann zum Beispiel einen Gliederungsentwurf oder auch eine Vorlage für Textergänzungen erstellt werden.'
@@ -163,33 +163,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Zudem können Leistungen wie '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /lektorat
-                  target: null
-                  rel: null
-            text: Lektorat
-          -
-            type: text
-            text: ' oder '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /korrektorat
-                  target: null
-                  rel: null
-            text: Korrektorat
-          -
-            type: text
-            text: ' der Examensarbeit, die bereits durch den Studierenden fertiggestellt wurde, in Anspruch genommen werden. Anschließend kann eine umfassende '
+            text: 'Zudem können Leistungen wie Lektorat oder Korrektorat der Examensarbeit, die bereits durch den Studierenden fertiggestellt wurde, in Anspruch genommen werden. Anschließend kann eine umfassende '
           -
             type: text
             marks:
@@ -2013,10 +1987,10 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1652717867
-meta_title: 'Examensarbeit schreiben lassen • Mustervorlage von GWriters'
-meta_description: 'Examensarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1654802695
+meta_title: 'Examensarbeit schreiben lassen • Ghostwriter von GWriters'
+meta_description: 'Examensarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Examensarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2026,9 +2000,10 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: with-side-bar
-og_title: 'Examensarbeit schreiben lassen • Mustervorlage von GWriters'
-og_description: 'Examensarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+og_title: 'Examensarbeit schreiben lassen • Ghostwriter von GWriters'
+og_description: 'Examensarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Examensarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_abschlussarbeiten
 sitemap_active: true
+page_title: 'Examensarbeit schreiben lassen • Ghostwriter von GWriters'
 ---

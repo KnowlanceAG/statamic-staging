@@ -88,7 +88,33 @@ replicator:
         content:
           -
             type: text
-            text: 'In Zeiten der Globalisierung wird es immer wichtiger akademische Texte auf hohem Niveau zu verfassen, da der Zugriff durch das Internet von überall erfolgen kann. Solche Texte werden verfasst als Diplomarbeiten (Masterarbeiten, Bachelorarbeiten), Dissertationen oder auch als gewöhnliche Hausarbeiten oder Seminararbeiten. Durch steigende Anforderungen der Hochschulen im Zuge der Bachelor-/Master-Studiengänge wird häufig verlangt, mehrere Texte in einem kleinen Zeitfenster bereitzustellen, was häufig zu zeitlichen Problemen führt. Aus diesem Grund wird von Akademikern häufig ein Ghostwriter gesucht, der bei der Erstellung eines wissenschaftlichen Textes hilft. Eine Tätigkeit als '
+            text: 'In Zeiten der Globalisierung wird es immer wichtiger akademische Texte auf hohem Niveau zu verfassen, da der Zugriff durch das Internet von überall erfolgen kann. Solche Texte werden verfasst als Diplomarbeiten (Masterarbeiten, Bachelorarbeiten), Dissertationen oder auch als gewöhnliche '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/hausarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Hausarbeiten
+          -
+            type: text
+            text: ' oder '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/seminararbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Seminararbeiten
+          -
+            type: text
+            text: '. Durch steigende Anforderungen der Hochschulen im Zuge der Bachelor-/Master-Studiengänge wird häufig verlangt, mehrere Texte in einem kleinen Zeitfenster bereitzustellen, was häufig zu zeitlichen Problemen führt. Aus diesem Grund wird von Akademikern häufig ein Ghostwriter gesucht, der bei der Erstellung eines wissenschaftlichen Textes hilft. Eine Tätigkeit als '
           -
             type: text
             marks:
@@ -371,8 +397,8 @@ replicator:
     type: editor
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934784
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655801935
 meta_title: 'GWriters • professioneller akademischer Ghostwriter gesucht?'
 meta_description: 'Sie benötigen einen Ghostwriter? Wenn Ghostwriter gesucht werden, ist unsere Ghostwriting Agentur der beste Partner für seriösen Service!'
 use_meta_keywords: false

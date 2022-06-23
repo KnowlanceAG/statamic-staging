@@ -1,5 +1,6 @@
 ---
 id: 574c5411-bb80-4e7a-aebe-43560437d8e9
+blueprint: pages
 title: 'Bietet GWriters Korrektur- oder Lektoratsdienste bzw. Überarbeitungen meiner wissenschaftlichen Arbeiten an?'
 replicator:
   -
@@ -126,7 +127,51 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: "\_Ihrer Hausarbeit, Seminararbeit,\_"
+            text: "\_Ihrer "
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/hausarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Hausarbeit
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/seminararbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Seminararbeit
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: ",\_"
           -
             type: text
             marks:
@@ -153,7 +198,51 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: ', Master-Thesis, Diplomarbeit usw. anbieten.'
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/masterarbeit-schreiben-lassen
+                  target: null
+                  rel: null
+            text: Master-Thesis
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: ', '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: link
+                attrs:
+                  href: /arbeiten/doktorarbeit
+                  target: null
+                  rel: null
+            text: Diplomarbeit
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: ' usw. anbieten.'
           -
             type: hard_break
             marks:
@@ -199,7 +288,7 @@ replicator:
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623331655
+updated_at: 1655647768
 page_title: 'Bietet GWriters Korrektur-Dienstleistungen an? • GWriters'
 meta_title: 'Bietet GWriters Korrektur-Dienstleistungen an? • GWriters'
 meta_description: 'Übersetzung, Korrektorat und Lektorat Ihrer Hausarbeit, Bachelorarbeit, Masterarbeit oder Doktorarbeit erhalten Sie diskret & qualitativ von GWriters.de.'
@@ -214,4 +303,5 @@ twitter_card_type_page: summary
 og_title: 'Bietet GWriters Korrektur-Dienstleistungen an? • GWriters'
 og_description: 'Übersetzung, Korrektorat und Lektorat Ihrer Hausarbeit, Bachelorarbeit, Masterarbeit oder Doktorarbeit erhalten Sie diskret & qualitativ von GWriters.de.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---

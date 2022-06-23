@@ -131,8 +131,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Geologie Ghostwriter - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1651760894
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655477425
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -198,7 +198,39 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: "Besonders das Studium der Geologie ist dafür konzipiert, Studenten die Fähigkeiten anzueignen, auf Basis des aktuellen Wissenstands eigene Erkenntnisse und geologische Vorhersagen zu treffen. Aus diesem Grund ist jede Universität und Hochschule darauf bedacht, das Studium durch Hausarbeiten und weitere Ausarbeitungen zu gestalten. Oft zeigen sich bereits bei der Literaturrecherche große Barrieren auf, da es im geologischen Bereich wenig deutschsprachige Fachliteratur gibt und Studenten auf englische, russische oder spanische Quellen zurückgreifen müssen. Der dafür beanspruchte Aufwand erweist sich als äußerst beschwerlich und zeitraubend. Vor allem für Studenten, welche durch Nebenarbeit ihr Studium finanzieren, stellt diese Art der Leistung ein erhebliches Problem dar. Oft leisten in solchen Fällen auf den Fachbereich der Geologie spezialisierte Ghostwriter Hilfe. Das\_"
+                    text: 'Besonders das Studium der Geologie ist dafür konzipiert, Studenten die Fähigkeiten anzueignen, auf Basis des aktuellen Wissenstands eigene Erkenntnisse und geologische Vorhersagen zu treffen. Aus diesem Grund ist jede Universität und Hochschule darauf bedacht, das Studium durch Hausarbeiten und weitere Ausarbeitungen zu gestalten. Oft zeigen sich bereits bei der Literaturrecherche große Barrieren auf, da es im geologischen Bereich wenig deutschsprachige Fachliteratur gibt und Studenten auf englische, russische oder spanische Quellen zurückgreifen müssen. Der dafür beanspruchte Aufwand erweist sich als äußerst beschwerlich und zeitraubend. Vor allem für Studenten, welche durch Nebenarbeit ihr Studium finanzieren, stellt diese Art der Leistung ein erhebliches Problem dar. Oft leisten in solchen Fällen auf den Fachbereich der Geologie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: 'spezialisierte Ghostwriter'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: " Hilfe. Das\_"
                   -
                     type: text
                     marks:

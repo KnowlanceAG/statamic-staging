@@ -575,8 +575,8 @@ replicator:
 page_title: 'Promotionsberatung zum berufsbegleitenden DBA • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934780
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1655716893
 meta_title: 'Promotionsberatung zum berufsbegleitenden DBA • GWriters'
 meta_description: 'Bei GWriters.de erhalten Sie eine seriöse Promotionsberatung für Ihren berufsbegleitenden DBA - Profitieren Sie jetzt von unserem Expertenwissen!'
 use_meta_keywords: false

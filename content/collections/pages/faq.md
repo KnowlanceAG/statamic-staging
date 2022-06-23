@@ -1,5 +1,6 @@
 ---
 id: cba20f34-32b1-472a-b3d9-03aca1df4a07
+blueprint: pages
 title: 'Hilfe & FAQ zum Ghostwriting und Ghostwritern'
 replicator:
   -
@@ -45,16 +46,6 @@ replicator:
           -
             type: text
             text: 'Ein Ghostwriter fertigt individuelle Texte im Auftrag eines Kunden nach dessen Vorgaben und Anforderungen an. '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /faq/was-ist-ein-ghostwriter
-                  target: null
-                  rel: null
-            text: 'Mehr lesen...'
       -
         type: heading
         attrs:
@@ -354,7 +345,29 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: "Seriöse und für Ihre spezielle Aufgabenstellung passende akademische Freelancer (z.B. wissenschaftliche Berater, Ghostwriter, Lektoren,\_"
+            text: 'Seriöse und für Ihre spezielle Aufgabenstellung passende akademische Freelancer (z.B. wissenschaftliche Berater, Ghostwriter, '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: link
+                attrs:
+                  href: /lektorat/lektor
+                  target: null
+                  rel: null
+            text: Lektoren
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: ",\_"
           -
             type: text
             marks:
@@ -959,7 +972,29 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: "Nach Auftragserteilung Ihrerseits vereinbaren wir Teillieferungs- und Abschlusslieferungstermin(e), sodass Sie stets auf dem aktuellen Stand Ihrer Arbeit sind.\_"
+            text: 'Nach Auftragserteilung Ihrerseits vereinbaren wir '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: link
+                attrs:
+                  href: /blog/ghostwriting-gwriters-teillieferungen
+                  target: null
+                  rel: null
+            text: Teillieferungs
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: "- und Abschlusslieferungstermin(e), sodass Sie stets auf dem aktuellen Stand Ihrer Arbeit sind.\_"
           -
             type: text
             marks:
@@ -1121,7 +1156,29 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: "Falls vom Auftraggeber nicht ausdrücklich anders gewünscht, gelten bei GWriters die folgenden Standard-Formate, welche in der Mehrzahl aller wissenschaftlichen Arbeiten Anwendung finden.\_"
+            text: 'Falls vom Auftraggeber nicht ausdrücklich anders gewünscht, gelten bei GWriters die folgenden '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: link
+                attrs:
+                  href: /leistungen/formatierung
+                  target: null
+                  rel: null
+            text: Standard-Formate
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: ", welche in der Mehrzahl aller wissenschaftlichen Arbeiten Anwendung finden.\_"
           -
             type: text
             marks:
@@ -1145,7 +1202,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623329852
+updated_at: 1655645798
 template: without-teaser-with-sidebar
 use_meta_keywords: false
 no_index_page: false
@@ -1161,4 +1218,5 @@ meta_description: 'Alle Antworten zu Fragen über Ghostwriting oder wie Sie eine
 og_title: 'FAQ • Fragen und Antworten zu unserem Ghostwriting Service'
 og_description: 'Alle Antworten zu Fragen über Ghostwriting oder wie Sie eine Mustervorlage für Ihre Bachelorarbeit oder Masterarbeit schreiben lassen können.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---

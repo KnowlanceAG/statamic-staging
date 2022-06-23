@@ -1,5 +1,6 @@
 ---
 id: 919279ae-733d-4bd9-a759-afaa758e18fc
+blueprint: akademie
 title: 'Wissenschaftliches Arbeiten für Fortgeschrittene'
 teaser:
   -
@@ -202,13 +203,22 @@ replicator:
               - 015f5635-7e60-442a-bafd-504b0bca87c4
               - 90c98a48-07aa-44a7-bfa5-187a2717a778
               - 8f956f01-0057-4727-86bd-227150d4d7c9
+              - 02161546-8b85-4c4e-8a83-9665f754b478
+              - dcc18410-b67c-457c-a016-28c0b0f4283e
+              - 36c61d9f-082f-4d72-b53b-6b3e69450409
+              - 859113ad-ca6c-4fb3-94c8-0c199d20d21a
+              - 2222cd69-cd8f-413c-9a0d-5f1ceb743bd6
+              - 6e09bb67-222b-4d7c-adef-74cdf9e1621e
+              - b4766d79-74a5-49f3-8705-1f3611f86b95
+              - dd125003-8750-440f-893a-a2a8a4c025eb
+              - 114835fc-3795-4596-8cb8-135e84d03d2d
       -
         type: paragraph
     show_as_card: false
     type: editor
     enabled: true
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623867716
+updated_at: 1655727929
 template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
