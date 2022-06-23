@@ -4,8 +4,8 @@ blueprint: pages
 title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655724350
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1655984553
 replicator:
   -
     columns-replicator:
@@ -149,7 +149,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /formatierung
+                          href: /leistungen/formatierung
                           target: null
                           rel: null
                     text: Formatierung
