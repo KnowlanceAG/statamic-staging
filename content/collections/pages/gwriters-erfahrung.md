@@ -52,15 +52,15 @@ teaser:
         columns:
           -
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
-            headline: 'Datenschutz &amp;amp; 100% Anonymität'
+            headline: 'Datenschutz & 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp;amp; garantieren Ihre Anonymität zu 100%.'
           -
             icon: logo-startseite/icon-teillieferung.svg
-            headline: 'Teillieferungen &amp;amp; kostenlose Änderungen'
+            headline: 'Teillieferungen & kostenlose Änderungen'
             tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
             icon: logo-startseite/icon-schnelle-lieferung2.svg
-            headline: 'Schnelle &amp;amp; pünktliche Lieferung'
+            headline: 'Schnelle & pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp;amp; finaler Form.'
           -
             icon: logo-startseite/icon-akademische-qualitaet4.svg
@@ -134,7 +134,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1655900419
+updated_at: 1655981990
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
