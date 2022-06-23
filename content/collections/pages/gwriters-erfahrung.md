@@ -134,7 +134,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1655982021
+updated_at: 1655982344
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
