@@ -143,6 +143,7 @@ Redirect 301 /arbeiten/expose /expose
 Redirect 301 /wiki/arbeiten/diplomarbeit/ /arbeiten/diplomarbeit
 Redirect 301 /arbeiten/dissertation /arbeiten/doktorarbeit
 Redirect 301 /blog/hausarbeit-schreiben-lassen-kosten /arbeiten/hausarbeit-schreiben-lassen
+Redirect 301 /blog/gwriters-erfahrung /gwriters-erfahrung
 
 #13294
 Redirect 410 /wiki/diplom-kaufen
