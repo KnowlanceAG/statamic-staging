@@ -53,7 +53,7 @@ teaser:
           -
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen & kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle & pünktliche Lieferung'
@@ -1342,7 +1342,7 @@ replicator:
     border: false
 parent: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656329832
+updated_at: 1656329859
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
