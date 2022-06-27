@@ -3,7 +3,7 @@ id: b1510f04-f5f7-4d15-9be4-fc69c7add6e0
 blueprint: pages
 title: 'Das Unternehmen'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646932013
+updated_at: 1656330346
 teaser:
   -
     type: heading
@@ -145,7 +145,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /ghostwriting/ghostwriting-agentur/
+                  href: /ghostwriting/ghostwriting-agentur
                   target: null
                   rel: null
             text: 'Ghostwriter Agentur GWriters'
