@@ -520,7 +520,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriting/ghostwriting-agentur/
+                          href: /ghostwriting/ghostwriting-agentur
                           target: null
                           rel: null
                     text: 'Ghostwriting Agentur'
@@ -1637,7 +1637,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1654802024
+updated_at: 1656330258
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
 meta_description: 'Ghostwriting von Akademikern für Akademiker - professionelle Hilfe ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
