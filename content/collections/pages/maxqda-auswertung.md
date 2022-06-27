@@ -116,7 +116,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: "Unsere Experten und Ghostwriter bei GWriters haben einen\_ mit MAXQDA. Ob Sie für Ihre Firma oder im Rahmen Ihres Studiums von einem "
+                    text: 'Unsere Experten und Ghostwriter bei GWriters verfügen über einen ausgezeichneten Erfahrungsschatz mit MAXQDA. Ob Sie für Ihre Firma oder im Rahmen Ihres Studiums von einem '
                   -
                     type: text
                     marks:
@@ -1341,8 +1341,8 @@ replicator:
     enabled: true
     border: false
 parent: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655726357
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656329832
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
