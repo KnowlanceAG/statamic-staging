@@ -111,7 +111,7 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656432808
+updated_at: 1656433706
 page_title: 'Was ist ein Ghostwriter? • GWriters beantwortet Ihre Fragen'
 template: without-teaser-with-sidebar
 meta_title: 'Was ist ein Ghostwriter? • GWriters beantwortet Ihre Fragen'
