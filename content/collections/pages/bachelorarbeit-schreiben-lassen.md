@@ -1,7 +1,7 @@
 ---
 id: 68b88fd1-ec03-4ea8-9292-431555e47744
 blueprint: pages
-title: 'Bachelorarbeit schreiben lassen'
+title: Bachelorarbeit
 teaser:
   -
     type: heading
@@ -2846,7 +2846,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656435243
+updated_at: 1656435477
 template: default
 use_meta_keywords: false
 no_index_page: false
