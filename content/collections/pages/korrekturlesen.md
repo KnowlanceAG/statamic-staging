@@ -1,5 +1,6 @@
 ---
 id: c76df250-b4e5-42af-a885-950acb54c389
+published: false
 blueprint: pages
 title: Korrekturlesen
 teaser:
@@ -364,7 +365,7 @@ replicator:
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934806
+updated_at: 1656431755
 page_title: 'Korrekturlesen von wissenschaftlichen Texten • GWriters'
 meta_title: 'Korrekturlesen von wissenschaftlichen Texten • GWriters'
 meta_description: 'Benötigen Sie einen Textkorrektor für Ihre Abschlussarbeit? GWriters.de bietet Ihnen qualitätsgeprüfte Korrektoren zu fairen Preisen.'
