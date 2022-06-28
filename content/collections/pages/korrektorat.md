@@ -228,6 +228,12 @@ replicator:
           -
             bard:
               -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das Korrekturlesen ist ein wichtiger Bestandteil bei der Entstehung und Veröffentlichung eines Textes jeglicher Form. Ihm sollte ein hoher Stellenwert zugeschrieben werden, denn jeder der einen Text verfasst macht dabei Fehler und seien sie noch so klein. Korrekturlesen befasst sich dabei nicht mit einer speziellen Textart, jeder geschriebene Text, der in irgendeiner Art und Weise veröffentlicht wird, sollte sich so einer Prüfung unterziehen.'
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -338,6 +344,38 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Besser professionell und richtig'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'So empfiehlt es sich, den eigenen Text von einem professionellen Korrektor Korrekturlesen zu lassen. Dieser überprüft beispielsweise den Text auf Rechtschreibfehler, Grammatikfehler, Orthografie und Zeichensetzungsfehler sowie sonstige Flüchtigkeitsfehler. Eventuelle Stilbrüche lassen sich von Autor aufgrund mangelnder Distanz zum Text auch schwerlich aufdecken. Der Korrektor erkennt solche Stilbrüche deutlich besser, da er den Text vorher nicht gesehen hat und daher mit dem gebotenen Abstand zu Werke gehen kann.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Der Korrektor kann aufgrund seiner Erfahrungen deutlich schneller und genauer inhaltliche, strukturelle sowie sprachliche Fehler aufdecken. Diese Erfahrung fehlt oft auch dem ersten Ansprechpartner den man nutzt, wenn es um das Korrekturlesen eines Textes geht; Freunde, Familie und Bekannte. Auch diesen fehlt meist die Distanz zum Schreiber und auch sie sind häufig ungeübt wenn es um das Korrekturlesen eines Textes geht.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Stilbrüche sind Fehler, die erst bei genauer Kenntnis der deutschen Sprache auffallen, aber selbst hier sollte man sich nicht auf einen unerfahrenen Korrektor verlassen. Erfahrene Korrektoren einzusetzen ist, in der Regel, der sicherste Weg seinen Text, sei er nun akademischer Natur oder nicht, auf Rechtschreibung, Grammatik und Zeichensetzung überprüfen zu lassen und so schnell und effektiv eine gute Note zu erzielen. Denn nicht nur der Inhalt des Textes wird benotet, auch das äußere Erscheinungsbild und dazu gehören eben auch eine korrekte Rechtschreibung und Grammatik. Grobe Schnitzer in diesem Bereich haben schon des Öfteren zum Nichtbestehen der akademischen Arbeit geführt, selbst wenn sie inhaltlich keine schweren Fehler aufwies. So ein Nichtbestehen wäre durch einfaches externes Korrekturlesen lassen zu verhindern gewesen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das Korrekturlesen ist in der Praxis abzugrenzen vom Lektorieren. Hier wird der Text zusätzlich zum Korrekturlesen auch noch auf wissenschaftlichen Stil und inhaltliche Stimmigkeit geprüft.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
                     text: 'Wie können Sie selbst Korrektur lesen?'
               -
                 type: paragraph
@@ -364,6 +402,26 @@ replicator:
                   -
                     type: text
                     text: '? Sind die Umbrüche richtig gesetzt? Habe ich die Formatvorgaben richtig angewendet? Im letzten Schritt gleichen Sie dann das Literaturverzeichnis ab, wenn Sie es nicht automatisch erstellt haben. Steht die gesamte verwendete Literatur im Literaturverzeichnis? Steht nicht zu viel Literatur im Literaturverzeichnis, die ich gar nicht verwendet habe? Wurden die Vorgaben für das Literaturverzeichnis eingehalten?'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Nehmen Sie sich zeitlichen Abstand von der Arbeit!'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Lassen Sie die Arbeit nach Fertigstellung ruhig zwei bis drei Tage liegen. Dann haben Sie inhaltlich einen Abstand, sodass Sie das mit wachem Auge wieder neu von vorne lesen können. Dann gehen Sie alle oben genannten Schritte zwei Mal durch. Insbesondere auch Sinn und Rechtschreibung sollten Sie mehrfach prüfen, denn entdeckt man immer wieder neue Verbesserungsmöglichkeiten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Und ganz zum Schluss sollten Sie auch wirklich noch mal die Arbeit in Gänze lesen und den Lesefluss auf sich wirken lassen. Wichtig ist auch, dass Sie Kapitel immer einzeln lesen, wenn Sie das Korrektorat selbst machen.'
               -
                 type: heading
                 attrs:
@@ -397,6 +455,51 @@ replicator:
                   -
                     type: text
                     text: 'Zudem gibt es noch eine Vielzahl externer Fehlerquellen: Der PC stürzt ab, der Copyshop macht irgendeinen Fehler ... Setzen Sie sich am Ende nicht unter Druck. Am wichtigsten ist also, beim Korrekturlesen, Schritt für Schritt durchgehen, sich immer nur auf die einzelnen Aspekte zu konzentrieren, nie alles zusammen machen und genügend Zeit einzuplanen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Blogartikel zum Thema Korrekturlesen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/korrektorat-lektorat-textredaktion
+                          target: null
+                          rel: null
+                    text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/thesis-vermeidbare-fehler
+                          target: null
+                          rel: null
+                    text: '7 vermeidbare Fehler, die Dich den Erfolg bei Deiner Thesis kosten'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/textredation-ghostwriter
+                          target: null
+                          rel: null
+                    text: 'Textredaktion als Alternative zum akademischen Ghostwriting'
             show_as_card: false
         type: row
         enabled: true
@@ -409,7 +512,7 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656431664
+updated_at: 1656431901
 template: with-side-bar
 meta_title: 'Korrektorat von GWriters - Professionell, diskret und akademisch'
 meta_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden & Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'
