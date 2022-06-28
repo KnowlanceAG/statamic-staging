@@ -132,7 +132,7 @@ page_title: 'GWriters • Soziale Arbeit - Ghostwriter, Lektoren & mehr'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1651760985
+updated_at: 1656439936
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -568,227 +568,30 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Akademische Arbeiten:'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-        single-col: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns-replicator:
-      -
-        columns_per_row: '3'
-        grid:
-          -
-            bard:
+                    text: 'Wichtige Akademische Arbeiten'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
+                type: set
+                attrs:
+                  values:
+                    type: link_liste
+                    raster:
                       -
-                        type: link
-                        attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Bachelorarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/diplomarbeit
-                          target: null
-                          rel: null
-                    text: Diplomarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/doktorarbeit
-                          target: null
-                          rel: null
-                    text: Doktorarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/ebook
-                          target: null
-                          rel: null
-                    text: eBook
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/essay
-                          target: null
-                          rel: null
-                    text: Essay
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/examensarbeit
-                          target: null
-                          rel: null
-                    text: Examensarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /expose
-                          target: null
-                          rel: null
-                    text: Exposé
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/facharbeit
-                          target: null
-                          rel: null
-                    text: Facharbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Hausarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/lernskript
-                          target: null
-                          rel: null
-                    text: Lernskript
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/magisterarbeit
-                          target: null
-                          rel: null
-                    text: Magisterarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Masterarbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/praesentationen
-                          target: null
-                          rel: null
-                    text: Präsentationen
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/seminararbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Seminararbeit
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/statistische-analysen
-                          target: null
-                          rel: null
-                    text: 'Statische Analysen'
+                        text: Arbeiten
+                        eintraege:
+                          - 68b88fd1-ec03-4ea8-9292-431555e47744
+                          - 99cd8e42-b21c-4cea-a162-a9454db2375f
+                          - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
+                          - 5659593d-2756-4e9f-a5b3-b391103d9886
+                          - 425234fd-eb40-4dab-bb3d-95bbac5948eb
+                          - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
+                          - 2b55bfe7-06df-4e71-86da-152e256904ec
+                          - cb0a74d3-ed84-4dad-b3a7-c368aec13800
+                          - 134ba799-3362-4166-86f7-bba4e992d7d7
+                          - 5c6db140-ee4a-4a88-bf56-4153664421d4
+                          - 52f5092f-800b-4742-8636-a840b9ab1ddb
+                          - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
+                          - 2931f444-5e22-4860-8f40-a41821377b93
+                          - b6ee03ca-ecab-4749-ade4-45ff821b748d
             show_as_card: false
         type: row
         enabled: true
