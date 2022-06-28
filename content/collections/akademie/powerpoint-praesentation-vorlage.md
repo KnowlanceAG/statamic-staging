@@ -151,7 +151,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656436572
+updated_at: 1656436678
 downloads:
   - akademie/Praesentation.pptx
 from_the_blog:
@@ -161,7 +161,7 @@ from_the_blog:
   - 34ba02d4-92c7-4f2b-aeb3-56dd3644cb1e
   - a11daeb3-1d73-4d6f-9c46-9d0e0c86c4e1
 page_title: 'Kostenlose Kolloquium-Präsentation Vorlage'
-academy_short_text-headline: 'Powerpoint Präsentation'
+academy_short_text-headline: 'Kolloquium Präsentation'
 academy_short_text: 'Intensive Vorbereitung und unsere Präsentationsvorlage. Von GWriters alles für die perfekte Kolloquium Präsentation.'
 meta_title: 'Kostenlose Kolloquium-Präsentation Vorlage'
 meta_description: 'Kolloquium-Präsentation - laden Sie jetzt unsere kostenlose Vorlage herunter & erstellen Sie eine gelungene Powerpoint Präsentation für die Verteidigung Ihrer wissenschaftlichen Arbeit!'
