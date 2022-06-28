@@ -3,7 +3,7 @@ id: a016335c-333e-432d-838d-460350d21052
 blueprint: pages
 title: 'Das GWriters Stipendium'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1634032325
+updated_at: 1656330200
 teaser:
   -
     type: heading
@@ -46,7 +46,7 @@ teaser:
                   -
                     type: link
                     attrs:
-                      href: /ghostwriting/ghostwriting-agentur/
+                      href: /ghostwriting/ghostwriting-agentur
                       target: null
                       rel: null
                 text: 'Ghostwriter Agentur'
@@ -401,4 +401,5 @@ twitter_card_type_page: summary
 og_title: 'Das GWriters Stipendium • GWriters.de'
 og_description: 'Ihr Talent verdient Förderung! Unsere Ghostwriting Agentur unterstützt begabte und innovativ denkende Studierende mit unserem neuen GWriters Stipendium.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---

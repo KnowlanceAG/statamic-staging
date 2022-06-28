@@ -121,7 +121,27 @@ replicator:
                   href: /blog/bachelorarbeit-betreuer/
                   target: null
                   rel: null
-            text: 'Probleme mit Ihrem Bachelorarbeit Betreuer'
+            text: 'Probleme mit Ihrem '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/bachelorarbeit-betreuer
+                  target: null
+                  rel: null
+            text: Bachelorarbeit
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/bachelorarbeit-betreuer/
+                  target: null
+                  rel: null
+            text: ' Betreuer'
           -
             type: text
             text: ' haben.'
@@ -177,7 +197,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/dissertation-veroeffentlichen/
+                  href: /blog/dissertation-veroeffentlichen
                   target: null
                   rel: null
             text: 'Veröffentlichung Ihrer Dissertation'
@@ -238,8 +258,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655728713
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656333452
 template: academy-item-long
 use_meta_keywords: false
 no_index_page: false

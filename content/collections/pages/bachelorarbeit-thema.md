@@ -988,7 +988,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /ghostwriting/ghostwriting-agentur/
+                  href: /ghostwriting/ghostwriting-agentur
                   target: null
                   rel: null
             text: 'Ghostwriting Agentur'
@@ -3919,8 +3919,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1651014477
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656330433
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
