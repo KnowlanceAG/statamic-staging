@@ -1,7 +1,7 @@
 ---
 id: 8778439c-ea07-4542-9287-cb87e6074f6a
 blueprint: akademie
-title: 'Powerpoint Präsentation Vorlage'
+title: 'Kolloquium Präsentation Vorlage'
 teaser:
   -
     type: heading
@@ -151,7 +151,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656436105
+updated_at: 1656436572
 downloads:
   - akademie/Praesentation.pptx
 from_the_blog:
