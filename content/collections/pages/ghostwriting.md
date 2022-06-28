@@ -741,6 +741,12 @@ replicator:
                           - 5c6db140-ee4a-4a88-bf56-4153664421d4
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
                           - 5659593d-2756-4e9f-a5b3-b391103d9886
+                          - cb0a74d3-ed84-4dad-b3a7-c368aec13800
+                          - 2b55bfe7-06df-4e71-86da-152e256904ec
+                          - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
+                          - 68b88fd1-ec03-4ea8-9292-431555e47744
+                          - 52f5092f-800b-4742-8636-a840b9ab1ddb
+                          - 2931f444-5e22-4860-8f40-a41821377b93
                       -
                         text: Fachrichtungen
                         eintraege:
@@ -771,6 +777,12 @@ replicator:
                           - 34f7528d-839e-4ef6-b735-627084dba887
                           - 1de3d76b-f23a-41a8-a629-15b48a07223e
                           - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
+                          - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
+                          - 839e6791-eebd-4bc8-8975-a278836a9c05
+                          - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
+                          - b850974c-8d2d-4448-b168-3dccef384025
+                          - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
+                          - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
               -
                 type: paragraph
             show_as_card: false
@@ -885,7 +897,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656434825
+updated_at: 1656434923
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
 meta_description: 'Ghostwriting von Akademikern für Akademiker - professionelle Hilfe ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
