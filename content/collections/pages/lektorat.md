@@ -121,7 +121,7 @@ replicator:
                     text: Korrektorat
                   -
                     type: text
-                    text: '), sondern redigieren auch stilistische und strukturelle Ungenauigkeiten und geben Ihnen Anmerkungen mit gezielten Korrekturvorschlägen zu inhaltlichen Unstimmigkeiten.'
+                    text: '). Beim Lektorat Service redigieren wir auch stilistische und strukturelle Ungenauigkeiten und geben Ihnen Anmerkungen mit gezielten Korrekturvorschlägen zu inhaltlichen Unstimmigkeiten.'
               -
                 type: paragraph
                 content:
@@ -140,7 +140,108 @@ replicator:
                     text: Lektor
                   -
                     type: text
-                    text: ' unseres Teams, der mit der jeweiligen Fachrichtung und den dort gängigen Formalia bestens vertraut ist.'
+                    text: ' unseres Teams, der mit der jeweiligen Fachrichtung und den dort gängigen Formalia bestens vertraut ist. Beim Lektorat Service untersucht der ausführende '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat/lektor
+                          target: null
+                          rel: null
+                    text: Lektor
+                  -
+                    type: text
+                    text: ' den vorliegenden Text zuerst wie ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat/korrektor
+                          target: null
+                          rel: null
+                    text: Korrektor
+                  -
+                    type: text
+                    text: ', dann aber auch auf'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'inhaltliche Schwächen'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Zusammenhang der Arbeit'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Fehler bei der wissenschaftlichen Methodik'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'den Übergang von Kapiteln'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'den sprachlichen Stil'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'adäquate Formulierungen'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'den Aufbau'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'richtige Zitiertechnik'
               -
                 type: heading
                 attrs:
@@ -372,41 +473,141 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wichtige Fachbereiche:'
+                    text: 'Wichtige Fachbereiche'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: link_liste
+                    raster:
+                      -
+                        text: Fachrichtungen
+                        eintraege:
+                          - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
+                          - 9944d809-005e-4651-bf9b-5555f0229245
+                          - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
+                          - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
+                          - a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
+                          - 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
+                          - 4476be29-c55a-45b7-ac4a-0e300dfdb8b6
+                          - 522e26b9-451d-43a8-a204-2e0f75b87f4b
+                          - 45680fad-6f7a-437f-88c2-23e0bc080818
+                          - 34f7528d-839e-4ef6-b735-627084dba887
+                          - 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
+                          - d72509d7-bb3a-40dd-a757-3317732e2a57
+                          - 1de3d76b-f23a-41a8-a629-15b48a07223e
+                          - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
+                          - dc0c7edd-0724-4454-9525-49b8f9065f16
+                          - 1363a62f-c0e9-4dba-aa09-d331c4fa8260
+                          - a9561621-8360-4ecf-855c-753f4a217c5a
+                          - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
+                          - 84a37239-87ee-45fb-b2d1-058a86fecfbb
+                          - f501c52c-7217-448e-bb53-d6f84c7e51c8
+                          - 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
+                          - b850974c-8d2d-4448-b168-3dccef384025
+                          - 051a1060-2c31-4edd-af39-c44fe3842526
+                          - 21aff10c-582a-440f-9f50-1af525566292
+                          - 839e6791-eebd-4bc8-8975-a278836a9c05
+                          - 925eedca-5fbe-4da9-a307-807426feaeeb
+                          - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
+                          - f07c0010-40dd-407e-bf32-a1a260b5016b
+                          - b8930678-fff6-4d7a-8ae8-056605f303f2
+                          - 06fbb3f4-51c2-4f11-832e-9b72a495857d
+                          - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
+                          - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
+                          - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
       -
-        columns_per_row: '3'
+        responsive_columns: 1
+        columns_per_row: 1
         single-col: false
         grid:
           -
             bard:
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '20'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Anforderungen an den Lektorat Service'
+              -
                 type: paragraph
                 content:
                   -
                     type: text
+                    text: 'Die Anforderungen an einen Lektorat Service sind um einiges höher als die an einen Korrektor. Korrektoren sind oft in einem anderen Gebiet zu Hause als der Verfasser eines Textes, sie sind meist Geisteswissenschaftler und bringen viel Erfahrung im Erstellen von Texten mit, da dies in ihrem Studium häufig gefordert wird, dadurch haben sie sehr gute Kenntnisse der Sprache und deren Formalismen. Einen allgemeinen Lektorat Service können sie jedoch kaum bieten, dieser soll nämlich auch inhaltliche und wissenschaftliche Fehler aufdecken. Gerade in der heutigen Zeit spezialisieren sich Studenten und Akademiker aller Fachrichtungen auf ein kleines Teilgebiet ihrer wissenschaftlichen Disziplin. Über die notwendige Fachterminologie und -kenntnis verfügen nur noch Akademiker des gleichen Berufszweiges.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wo findet man einen Lektorat Service für ein wissenschaftliches Teilgebiet?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Einen Lektorat Service für ein wissenschaftliches Teilgebiet zu finden ist grundsätzlich nicht einfach. Es empfiehlt sich Agenturen zu suchen, die solch einen Lektorat Service anbieten. Dies macht man am Besten im Internet über eine Suchmaschine aber auch die Gelben Seiten können eine Hilfe sein. Doch wie findet man ein passendes Angebot? Nicht abschrecken lassen darf man sich, tauchen die Begriffe „'
+                  -
+                    type: text
                     marks:
-                      -
-                        type: underline
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/architektur
+                          href: /ghostwriter
                           target: null
                           rel: null
-                    text: Architektur
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: '“ oder „'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting/ghostwriting-agentur
+                          target: null
+                          rel: null
+                    text: 'Ghostwriting Agentur'
+                  -
+                    type: text
+                    text: '“ auf. Gerade solche Angebote verfügen meist über einen herausragenden Pool an akademischen Schreibern, die in der Lage sind ganze Texte Selbstständig zu verfassen. Diese '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: ' Agenturen haben in ihrem Angebot zumeist einen Korrektorat und Lektorat Service. Dies bietet sich für sie an, da sie ja bereits ein Team an fähigen Schreibern beschäftigen die auch einen Lektorat Service gut übernehmen können. Bei seriösen Anbietern kann man sich sicher sein, einen Lektor der eigenen Fachrichtung zu bekommen, denn wer ein erfolgreiches Ghostwriting leisten kann, muss der spezifischen Fachrichtung angehören. Als kleiner Tipp gilt hierbei: Ruhig erst nach einem Ghostwriting in seinem Fach fragen. Kann dieses angeboten werden, ist man mit Sicherheit hier, sucht man eine Korrektorat oder Lektorat Service, gut aufgehoben. Agenturen können leisten, was Einzelpersonen nicht können, den ganzen Service aus einer Hand. Benötigt man im Laufe seines Studiums einen Lektorat Service in verschiedenen Fächern so findet man in Agenturen den richtigen Ansprechpartner und es muss nicht mühsam ein neuer Lektorat Service für das neue Fach gesucht werden.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Blogartikel zum Lektorat Service'
               -
                 type: paragraph
                 content:
@@ -414,669 +615,39 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
-                          href: /fachrichtungen/bwl
+                          href: /blog/korrektorat-lektorat-textredaktion
                           target: null
                           rel: null
-                    text: BWL
-              -
-                type: paragraph
-                content:
+                    text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
+                  -
+                    type: hard_break
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
-                          href: /fachrichtungen/erziehungswissenschaften-ghostwriter
+                          href: /lektorat
                           target: null
                           rel: null
-                    text: Erziehungswissenschaften
-              -
-                type: paragraph
-                content:
+                    text: 'Die große Infosammlung zum Lektorat'
+                  -
+                    type: hard_break
                   -
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
                         type: link
                         attrs:
-                          href: /fachrichtungen/germanistik-ghostwriter
+                          href: /blog/ghostwriting-lektorat-korrektorat
                           target: null
                           rel: null
-                    text: Germanistik
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/jura
-                          target: null
-                          rel: null
-                    text: Jura
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/literatur
-                          target: null
-                          rel: null
-                    text: Literatur
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/mathematik
-                          target: null
-                          rel: null
-                    text: Mathematik
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/pflegewissenschaften
-                          target: null
-                          rel: null
-                    text: Pflegewissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/soziale-arbeit
-                          target: null
-                          rel: null
-                    text: 'Soziale Arbeit'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/vwl
-                          target: null
-                          rel: null
-                    text: VWL
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/zahnmedizin
-                          target: null
-                          rel: null
-                    text: Zahnmedizin
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/bauingenieurwesen
-                          target: null
-                          rel: null
-                    text: Bauingenieurwesen
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/chemie
-                          target: null
-                          rel: null
-                    text: Chemie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/finanzwissenschaften
-                          target: null
-                          rel: null
-                    text: Finanzwissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/geschichte
-                          target: null
-                          rel: null
-                    text: Geschichte
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/kommunikationswissenschaften
-                          target: null
-                          rel: null
-                    text: Kommunikation
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/marketing
-                          target: null
-                          rel: null
-                    text: Marketing
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/medienwissenschaften
-                          target: null
-                          rel: null
-                    text: Medienwissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/philosophie
-                          target: null
-                          rel: null
-                    text: Philosophie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/soziologie
-                          target: null
-                          rel: null
-                    text: Soziologie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/wirtschaftsinformatik
-                          target: null
-                          rel: null
-                    text: Wirtschaftsinformatik
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/biologie
-                          target: null
-                          rel: null
-                    text: Biologie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/elektrotechnik
-                          target: null
-                          rel: null
-                    text: Elektrotechnik
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/geologie
-                          target: null
-                          rel: null
-                    text: Geologie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/informatik
-                          target: null
-                          rel: null
-                    text: Informatik
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/kunst
-                          target: null
-                          rel: null
-                    text: Kunst
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/maschinenbau
-                          target: null
-                          rel: null
-                    text: Maschinenbau
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/medizin
-                          target: null
-                          rel: null
-                    text: Medizin
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/psychologie
-                          target: null
-                          rel: null
-                    text: Psychologie
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/sprachwissenschaften
-                          target: null
-                          rel: null
-                    text: Sprachwissenschaften
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/wirtschaftswissenschaften
-                          target: null
-                          rel: null
-                    text: Wirtschaftswissenschaften
+                    text: 'Video: Ghostwriting, Lektorat, Korrektorat – Was ist was?'
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
     remove_spacing: true
     is-full: false
     bg-toggle: false
@@ -1086,8 +657,8 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655726167
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656432497
 meta_title: 'Lektorat von GWriters - Professionell, diskret und akademisch'
 meta_description: 'Akademische Lektoren, Korrektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Lektorat: Leistungen, Ablauf, Kosten & Preise.'
 use_meta_keywords: false
