@@ -188,7 +188,7 @@ replicator:
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656432805
+updated_at: 1656433867
 meta_title: 'Was ist ein akademischer Ghostwriter? • GWriters'
 meta_description: 'Akademische Ghostwriter schreiben für Sie seit 2012 hochwertige Unikate - Delegieren Sie Ihr Projekt an den Marktführer in Sachen Ghostwriting ✍🏼🎓'
 use_meta_keywords: false
