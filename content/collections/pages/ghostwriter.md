@@ -1444,7 +1444,7 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
+    is-full: false
     bg-toggle: false
     bg-color: '#F9F9F9'
     bg-image-fixed: false
@@ -3268,6 +3268,104 @@ replicator:
                     type: text
                     text: 'Fälschlicherweise wird Ghostwriter häufig auch Ghostwritter, Ghost writer oder gohstwriter geschrieben.'
               -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'FAQs zum Thema Ghostwriter'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: accordion-custom-wrapper
+                    items:
+                      -
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Was ist ein Ghostwriter?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Ein Ghostwriter (dt. Geisterschreiber) fertigt individuelle Texte im Auftrag eines Kunden nach dessen Vorgaben und Anforderungen an. Der Ghostwriter gibt gegen Zahlung des Honorars die Urheber- und Nutzungsrechte des Textes an den Kunden ab. Der Text wird also speziell für den Kunden erstellt.'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Ghostwriter sind in der modernen Welt in vielen verschiedenen Bereichen tätig. Auch in der Vergangenheit gab es bereits Ghostwriter, welche für bekannte Personen zum Beispiel Reden verfasst haben. Heute ist Ghostwriting nicht nur bei Reden üblich. Auch für viele Songtexte oder Bücher prominenter Personen werden Ghostwriter eingesetzt. Weiterhin oftmals auch für Unternehmensbücher oder überhaupt für Veröffentlichungen welche im Namen bekannter (juristischer wie auch natürlicher) Personen erfolgen. Dabei steht der Ghostwriter selbst meist im Hintergrund und wird für die Rezipienten auch unbekannt bleiben. Meist ist nicht einmal bekannt, dass überhaupt eine solche Person beauftragt wurde. Lediglich im Bereich von literarischen Werken und Autobiografien prominenter Personen kommt es vor, dass ein Ghostwriter genannt wird. Meist wird dieser dann in den Danksagungen erwähnt oder taucht als Co-Autor der prominenten Person auf.'
+                        active: false
+                      -
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Was ist ein "akademischer" Ghostwriter?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Ein sogenannter akademischer Ghostwriter spezialisiert sich dabei auf die Ausfertigung von Mustervorlagen für wissenschaftliche Arbeiten oder akademische Texte und sollte Experte in seiner Fachrichtung sein. Weiterhin sollte er über hinreichende Erfahrung beim Verfassen wissenschaftlicher Arbeiten verfügen.'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "Die Berufsgruppe des akademischen Ghostwriters wird in der Öffentlichkeit wenig wahrgenommen. Das Phänomen ist jedoch keineswegs eine moderne Erscheinung. Akademisches\_Ghostwriting\_ist so alt wie das System der akademischen Lehre & Bildung selbst. Erwähnenswert ist, dass es sich bei akademischen Ghostwritern häufig um wissenschaftliche Autoren handelt, die auf diesem Wege – zum Teil neben Ihrer Haupttätigkeit – akademische Arbeiten verfassen. Akademische Ghostwriter kommen dabei aus den verschiedensten Fachbereichen und (Forschungs-)Gebieten. Insbesondere in den Rechts- und\_Wirtschaftswissenschaften\_ist akademisches Ghostwriting weit verbreitet."
+                        active: false
+                      -
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Hinter welchen Kulissen verbergen sich Ghostwriter?'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'Ghostwriter schreiben nicht nur hochwissenschaftliche Artikel'
+                              -
+                                type: text
+                                text: ', welche nur von wenigen Menschen gelesen werden. Vielmehr findet man ihre Ergebnisse in vielen Bereichen, welche uns im täglichen Leben begegnen. So existieren neben Werken á la zu Guttenberg auch von „Geisterhand“ geschriebene Reden, Songtexte, Autobiografien, Bücher und sogar Drehbücher von bekannten Filmen.'
+                        active: false
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: '40'
+              -
                 type: blockquote
                 content:
                   -
@@ -3361,8 +3459,8 @@ replicator:
     type: add_section
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655895808
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656434007
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -3379,4 +3477,40 @@ og_title: 'Ghostwriter von GWriters • Wir schreiben für Sie 📃✍🏼'
 og_description: 'Ghostwriter für akademische Ansprüche - seit 2012 überzeugen unsere Experten mit diskretem und seriösen Ghostwriting auf akademischem Niveau 🎓'
 og_image: GWriters-Logo.png
 sitemap_active: true
+schema_objects: |-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Was ist ein Ghostwriter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ein Ghostwriter (dt. Geisterschreiber) fertigt individuelle Texte im Auftrag eines Kunden nach dessen Vorgaben und Anforderungen an. Der Ghostwriter gibt gegen Zahlung des Honorars die Urheber- und Nutzungsrechte des Textes an den Kunden ab. Der Text wird also speziell für den Kunden erstellt."
+      }
+    },{
+      "@type": "Question",
+      "name": "Was ist ein "akademischer" Ghostwriter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ein sogenannter akademischer Ghostwriter spezialisiert sich dabei auf die Ausfertigung von Mustervorlagen für wissenschaftliche Arbeiten oder akademische Texte und sollte Experte in seiner Fachrichtung sein. Weiterhin sollte er über hinreichende Erfahrung beim Verfassen wissenschaftlicher Arbeiten verfügen."
+      }
+    },{
+      "@type": "Question",
+      "name": "Wer sind unsere Ghostwriter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Unsere unsichtbaren Textverfasser sind im Alltag häufig Doktoren und Professoren. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten. Aufgrund ihrer praktischen Erfahrung und fachlichen Kenntnisse in ihrem jeweiligen Fachbereich können diese Sie zu jedem Zeitpunkt der Texterstellung unterstützen. Unsere professionelle Ghostwriter-Agentur arbeitet ausschließlich mit hochqualifizierten Akademikern zusammen, die versiert und zuverlässig Mustervorlagen für unterschiedliche wissenschaftliche Aufgaben (Hochschularbeiten, Abschlussarbeiten, Businesspläne, Präsentationen etc.) nach Kundenwünschen erstellen."
+      }
+    },{
+      "@type": "Question",
+      "name": "Hinter welchen Kulissen verbergen sich Ghostwriter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ghostwriter schreiben nicht nur hochwissenschaftliche Artikel, welche nur von wenigen Menschen gelesen werden. Vielmehr findet man ihre Ergebnisse in vielen Bereichen, welche uns im täglichen Leben begegnen. So existieren neben Werken á la zu Guttenberg auch von „Geisterhand“ geschriebene Reden, Songtexte, Autobiografien, Bücher und sogar Drehbücher von bekannten Filmen."
+      }
+    }]
+  }
+  </script>
 ---
