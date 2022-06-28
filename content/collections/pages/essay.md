@@ -1,7 +1,7 @@
 ---
 id: 425234fd-eb40-4dab-bb3d-95bbac5948eb
 blueprint: pages
-title: Essay
+title: 'Essay schreiben lassen'
 teaser:
   -
     type: heading
@@ -1263,8 +1263,8 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1653431077
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656435316
 meta_title: 'Essay schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Essay schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
