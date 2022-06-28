@@ -182,55 +182,7 @@ replicator:
                 attrs:
                   color: black
                   hex: '#000'
-            text: 'Daher verschaffen sich einige Unternehmen oder Studenten eine umfassende Hilfe, indem sie '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /gwriters-akademie/powerpoint-praesentation-vorlage
-                  target: null
-                  rel: null
-            text: Musterpräsentation
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: " von einem professionellen Präsentationsersteller & Ghostwriter\_für ihre "
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /blog/bachelorarbeit-praesentation-powerpoint
-                  target: null
-                  rel: null
-            text: 'PowerPoint-Präsentation erstellen lassen'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: .
+            text: "Daher verschaffen sich einige Unternehmen oder Studenten eine umfassende Hilfe, indem sie Musterpräsentation von einem professionellen Präsentationsersteller & Ghostwriter\_für ihre PowerPoint-Präsentation erstellen lassen."
       -
         type: paragraph
         content:
@@ -544,7 +496,31 @@ replicator:
                 attrs:
                   color: '#000!important'
                   hex: '#000'
-            text: .
+            text: ' und in unserer GWriters Akademie stellen wir Ihnen zusätzlich auch ein '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /gwriters-akademie/powerpoint-praesentation-vorlage
+                  target: null
+                  rel: null
+            text: 'Vorlage für Ihre Kolloquium-Präsentation'
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: ' bereit.'
       -
         type: heading
         attrs:
@@ -3108,8 +3084,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1653590800
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656438288
 template: with-side-bar
 meta_title: 'GWriters • professionell Präsentation erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
