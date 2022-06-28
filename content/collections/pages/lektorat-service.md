@@ -1,5 +1,6 @@
 ---
 id: ded7b769-a44c-4ea2-b75b-f7b0f571ffb8
+published: false
 blueprint: pages
 title: 'Lektorat Service'
 teaser:
@@ -356,8 +357,8 @@ replicator:
     type: editor
     enabled: true
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655725929
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656432511
 page_title: 'Benötigen Sie einen Lektorat Service? GWriters hilft!'
 template: with-side-bar
 meta_title: 'Benötigen Sie einen Lektorat Service? GWriters hilft!'
