@@ -1,5 +1,7 @@
 ---
 id: cfc5dd08-4efa-4445-a255-1936a6b858a9
+published: false
+blueprint: pages
 title: 'Was ist ein Ghostwriter?'
 replicator:
   -
@@ -108,8 +110,8 @@ replicator:
     type: editor
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623330344
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656432808
 page_title: 'Was ist ein Ghostwriter? • GWriters beantwortet Ihre Fragen'
 template: without-teaser-with-sidebar
 meta_title: 'Was ist ein Ghostwriter? • GWriters beantwortet Ihre Fragen'
@@ -125,4 +127,5 @@ twitter_card_type_page: summary
 og_title: 'Was ist ein Ghostwriter? • GWriters beantwortet Ihre Fragen'
 og_description: 'Was ist ein Ghostwriter? Erfahren Sie mehr über Ghostwriter und lassen Sie sich professionell unterstützen.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
