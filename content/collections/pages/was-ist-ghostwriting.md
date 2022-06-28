@@ -1,5 +1,7 @@
 ---
 id: e3e38189-548c-49c0-8891-320ae2182fa1
+published: false
+blueprint: pages
 title: 'Was ist Ghostwriting?'
 replicator:
   -
@@ -194,8 +196,8 @@ replicator:
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623330603
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656434527
 page_title: 'Was ist Ghostwriting? • GWriters'
 meta_title: 'Was ist Ghostwriting? • GWriters'
 meta_description: 'Was ist Ghostwriting? Erfahren Sie mehr über Ghostwriting und lassen Sie sich professionell unterstützen.'
@@ -210,4 +212,5 @@ twitter_card_type_page: summary
 og_title: 'Was ist Ghostwriting? • GWriters'
 og_description: 'Was ist Ghostwriting? Erfahren Sie mehr über Ghostwriting und lassen Sie sich professionell unterstützen.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
