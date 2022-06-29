@@ -101,20 +101,7 @@ replicator:
             text: Ghostwriter
           -
             type: text
-            text: ' oder auch '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /faq/was-ist-ein-akademischer-ghostwriter
-                  target: null
-                  rel: null
-            text: 'akademischer Ghostwriter'
-          -
-            type: text
-            text: ' ist ein Ghostwriter der sich speziell auf das Erstellen von wissenschaftlichen beziehungsweise akademischen Texten spezialisiert hat. Von einem Ghostwriter für wissenschaftliche Texte zu sprechen, ist allerdings auch nicht ganz richtig, da es Niemanden gibt der alle Fachbereiche beherrscht und somit als universell einsetzbarer wissenschaftlicher Ghostwriter zu Verfügung stehen könnte. So gibt es spezielle akademische Ghostwriter für beispielsweise '
+            text: ' oder auch akademischer Ghostwriter ist ein Ghostwriter der sich speziell auf das Erstellen von wissenschaftlichen beziehungsweise akademischen Texten spezialisiert hat. Von einem Ghostwriter für wissenschaftliche Texte zu sprechen, ist allerdings auch nicht ganz richtig, da es Niemanden gibt der alle Fachbereiche beherrscht und somit als universell einsetzbarer wissenschaftlicher Ghostwriter zu Verfügung stehen könnte. So gibt es spezielle akademische Ghostwriter für beispielsweise '
           -
             type: text
             marks:
@@ -363,8 +350,8 @@ replicator:
     type: editor
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1651192803
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656512811
 page_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'
 template: with-side-bar
 meta_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'
