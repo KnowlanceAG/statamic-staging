@@ -1,6 +1,7 @@
 ---
 id: 8778439c-ea07-4542-9287-cb87e6074f6a
-title: 'Powerpoint Präsentation Vorlage'
+blueprint: akademie
+title: 'Kolloquium Präsentation Vorlage'
 teaser:
   -
     type: heading
@@ -19,7 +20,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Powerpoint Präsentation Vorlage'
+        text: 'Kolloquium Präsentation Vorlage '
   -
     type: paragraph
     content:
@@ -32,7 +33,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Unsere akademischen Ghostwriter unterstützen Sie mit individuellen Vorlagen, persönlichen Coachings oder unserem professionellen Ghostwriting-Service bei Ihrer Abschlussarbeit!'
+        text: 'Unsere akademischen Ghostwriter unterstützen Sie mit individuellen Vorlagen für Ihre Kolloquium-Präsentation, persönlichen Coachings oder unserem professionellen Ghostwriting-Service bei Ihrer Abschlussarbeit!'
   -
     type: set
     attrs:
@@ -53,7 +54,16 @@ replicator:
         content:
           -
             type: text
-            text: 'Der erste Schritt zum akademischen Abschluss wäre erreicht und nun rundet die Kolloquium Präsentation Ihre Abschlussarbeit ab. Die Verteidigung der akademischen Abschlussarbeit ist ein wichtiger Teilbereich, um eigene Expertenkenntnisse gegenüber Professoren auf einem hohen Leistungsniveau nachweisen zu können.'
+            text: 'Der erste Schritt zum akademischen Abschluss wäre erreicht und nun rundet die '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: Kolloquium-Präsentation
+          -
+            type: text
+            text: ' Ihre Abschlussarbeit ab. Die Verteidigung der akademischen Abschlussarbeit ist ein wichtiger Teilbereich, um eigene Expertenkenntnisse gegenüber Professoren auf einem hohen Leistungsniveau nachweisen zu können.'
       -
         type: set
         attrs:
@@ -62,6 +72,14 @@ replicator:
             assets:
               - akademie/Praesentation.jpg
             has_border: true
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Kolloquium Präsentation: Vorlage für Ihre Verteidigung'
       -
         type: paragraph
         content:
@@ -96,7 +114,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Die Verteidigung umfasst einen indirekt kreativen Teil, denn eine Powerpoint Präsentation soll wissenschaftlich fundiert und übersichtlich aber auch farblich abgestimmt sein. Wie Sie Ihre Präsentation optimal ausarbeiten und die grafischen Elemente passend einfügen, erklären Ihnen detailliert unsere Vorlagen.'
+            text: 'Die Verteidigung umfasst einen indirekt kreativen Teil, denn die Präsentation im Kolloquium soll wissenschaftlich fundiert und übersichtlich aber auch farblich abgestimmt sein. Wie Sie Ihre Präsentation optimal ausarbeiten und die grafischen Elemente passend einfügen, erklären Ihnen detailliert unsere Vorlagen für Kolloquium-Präsentationen.'
       -
         type: paragraph
         content:
@@ -132,8 +150,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623867455
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656436678
 downloads:
   - akademie/Praesentation.pptx
 from_the_blog:
@@ -142,11 +160,11 @@ from_the_blog:
   - 6bd7bc4f-12a8-43c9-8ba1-5911ca389cb7
   - 34ba02d4-92c7-4f2b-aeb3-56dd3644cb1e
   - a11daeb3-1d73-4d6f-9c46-9d0e0c86c4e1
-page_title: 'Kostenlose Powerpoint Präsentation Vorlage für Ihre Hausarbeit herunterladen'
-academy_short_text-headline: 'Powerpoint Präsentation'
-academy_short_text: 'Intensive Vorbereitung und unsere Präsentationsvorlage. Von GWriters alles für die perfekte Präsentation.'
-meta_title: 'Kostenlose Powerpoint Präsentation Vorlage herunterladen'
-meta_description: 'Mit der kostenlosen Vorlage von GWriters erstellen Sie jetzt eine gelungene Powerpoint Präsentation für die Verteidigung Ihrer wissenschaftlichen Arbeit.'
+page_title: 'Kostenlose Kolloquium-Präsentation Vorlage'
+academy_short_text-headline: 'Kolloquium Präsentation'
+academy_short_text: 'Intensive Vorbereitung und unsere Präsentationsvorlage. Von GWriters alles für die perfekte Kolloquium Präsentation.'
+meta_title: 'Kostenlose Kolloquium-Präsentation Vorlage'
+meta_description: 'Kolloquium-Präsentation - laden Sie jetzt unsere kostenlose Vorlage herunter & erstellen Sie eine gelungene Powerpoint Präsentation für die Verteidigung Ihrer wissenschaftlichen Arbeit!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -166,8 +184,8 @@ more_templates:
   - 47857fec-2594-4e17-9331-52e3a93020d5
   - e777b9fb-7884-4d67-8453-9d6c8cb0aa9f
 template: academy-item
-link_title: 'PowerPoint Präsentation'
-og_title: 'Kostenlose Powerpoint Präsentation Vorlage herunterladen'
-og_description: 'Mit der kostenlosen Vorlage von GWriters erstellen Sie jetzt eine gelungene Powerpoint Präsentation für die Verteidigung Ihrer wissenschaftlichen Arbeit.'
+link_title: 'Kolloquium Präsentation'
+og_title: 'Kostenlose Kolloquium-Präsentation Vorlage'
+og_description: 'Kolloquium-Präsentation - laden Sie jetzt unsere kostenlose Vorlage herunter & erstellen Sie eine gelungene Powerpoint Präsentation für die Verteidigung Ihrer wissenschaftlichen Arbeit!'
 og_image: GWriters-Logo.png
 ---

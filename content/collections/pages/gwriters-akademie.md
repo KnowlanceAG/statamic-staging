@@ -4,7 +4,7 @@ blueprint: pages
 title: 'GWriters Akademie'
 teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1655302454
+updated_at: 1656436724
 page_title: 'Die GWriters Akademie für wissenschaftliches Arbeiten'
 use_meta_keywords: false
 no_index_page: false
