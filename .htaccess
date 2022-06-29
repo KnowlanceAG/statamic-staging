@@ -22,7 +22,7 @@ ErrorDocument 403 /error-404/index.html
 <IfModule mod_headers.c>
   Header set X-Content-Type-Options "nosniff"
   Header set Referrer-Policy "no-referrer, strict-origin-when-cross-origin"
-  Header set Content-Security-Policy-Report-Only "default-src 'self'; script-src 'report-sample' 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com www.googletagmanager.com www.provenexpert.com; style-src 'report-sample' 'self' data: 'unsafe-inline' www.provenexpert.com; object-src 'none'; base-uri 'self'; connect-src 'self' https://statamic-dynamic.gwriters.de stats.g.doubleclick.net www.google-analytics.com; font-src 'self' data: www.google-analytics.com www.provenexpert.com; frame-src 'self' player.vimeo.com www.youtube-nocookie.com; img-src 'self' data: www.google.com www.google.at www.google.de www.google-analytics.com google-analytics.com www.provenexpert.com; manifest-src 'self'; media-src 'self'; frame-ancestors 'self' https://thesisbuddy.ch; report-uri https://gwriters.report-uri.com/r/d/csp/wizard; worker-src 'none';"
+  #Header set Content-Security-Policy-Report-Only "default-src 'self'; script-src 'report-sample' 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com www.googletagmanager.com www.provenexpert.com; style-src 'report-sample' 'self' data: 'unsafe-inline' www.provenexpert.com; object-src 'none'; base-uri 'self'; connect-src 'self' https://statamic-dynamic.gwriters.de stats.g.doubleclick.net www.google-analytics.com; font-src 'self' data: www.google-analytics.com www.provenexpert.com; frame-src 'self' player.vimeo.com www.youtube-nocookie.com; img-src 'self' data: www.google.com www.google.at www.google.de www.google-analytics.com google-analytics.com www.provenexpert.com; manifest-src 'self'; media-src 'self'; frame-ancestors 'self' https://thesisbuddy.ch; report-uri https://gwriters.report-uri.com/r/d/csp/wizard; worker-src 'none';"
 </IfModule>
 
 Redirect 301 /blog/index.html /blog/page/1
@@ -151,3 +151,10 @@ Redirect 410 /blog/hausarbeit-kaufen
 
 #13331
 Redirect 301 /blog/produktivitaet-steigern-studium /blog/apps-fuer-studenten
+
+#13628
+Redirect 301 /korrektorat/korrekturlesen /korrektorat
+Redirect 301 /lektorat/lektorat-service /lektorat
+Redirect 301 /faq/was-ist-ein-akademischer-ghostwriter /ghostwriter
+Redirect 301 /faq/was-ist-ein-ghostwriter /ghostwriter
+Redirect 301 /faq/was-ist-ghostwriting /ghostwriting
