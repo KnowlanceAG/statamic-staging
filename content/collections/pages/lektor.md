@@ -157,17 +157,7 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /korrektorat/korrekturlesen
-                          target: null
-                          rel: null
-                    text: Korrekturlesen
-                  -
-                    type: text
-                    text: ' ('
+                    text: 'Korrekturlesen ('
                   -
                     type: text
                     marks:
@@ -349,7 +339,7 @@ replicator:
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934794
+updated_at: 1656512292
 page_title: 'Finden Sie Ihren akademischen Lektor bei unserer Ghostwriting Agentur'
 meta_title: 'Finden Sie Ihren akademischen Lektor bei unserer Ghostwriting Agentur'
 meta_description: 'Ihr persönlicher akademischer Lektor für Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit. Qualitativ, diskret und zum fairen Preis.'
