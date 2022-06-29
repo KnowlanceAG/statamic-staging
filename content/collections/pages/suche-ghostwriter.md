@@ -140,20 +140,7 @@ replicator:
             text: Korrektorats
           -
             type: text
-            text: ' (nicht Korektorat, Korrektorrat oder gar Korekturrat), also '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /korrektorat/korrekturlesen
-                  target: null
-                  rel: null
-            text: Korrekturlesen
-          -
-            type: text
-            text: ' oder eines sogenannten '
+            text: ' (nicht Korektorat, Korrektorrat oder gar Korekturrat), also Korrekturlesen oder eines sogenannten '
           -
             type: text
             marks:
@@ -397,8 +384,8 @@ replicator:
     type: editor
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655801935
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656513437
 meta_title: 'GWriters • professioneller akademischer Ghostwriter gesucht?'
 meta_description: 'Sie benötigen einen Ghostwriter? Wenn Ghostwriter gesucht werden, ist unsere Ghostwriting Agentur der beste Partner für seriösen Service!'
 use_meta_keywords: false
@@ -409,7 +396,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-page_title: 'GWriters • professioneller akademischer Ghostwriter gesucht?'
+page_title: 'Professioneller akademischer Ghostwriter gesucht? • GWriters'
 template: with-side-bar
 og_title: 'GWriters • professioneller akademischer Ghostwriter gesucht?'
 og_description: 'Sie benötigen einen Ghostwriter? Wenn Ghostwriter gesucht werden, ist unsere Ghostwriting Agentur der beste Partner für seriösen Service!'
