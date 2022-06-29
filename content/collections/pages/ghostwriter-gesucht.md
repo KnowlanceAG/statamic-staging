@@ -898,10 +898,10 @@ replicator:
     border: false
     type: add_section
     enabled: true
-page_title: 'GWriters • Akademische Ghostwriter gesucht!'
+page_title: 'Akademische Ghostwriter gesucht! • GWriters'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656512459
+updated_at: 1656513369
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Ghostwriter gesucht? 🔍 Bei GWriters sind Sie an der richtigen Stelle ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
