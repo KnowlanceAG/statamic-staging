@@ -160,7 +160,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /korrektorat/korrekturlesen
+                  href: /korrektorat
                   target: null
                   rel: null
             text: Korrekturlesen
@@ -290,20 +290,7 @@ replicator:
             text: Dissertation
           -
             type: text
-            text: ' oder sogar Habilitation. Es gibt aber nicht nur die sogenannten „'
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /faq/was-ist-ein-akademischer-ghostwriter
-                  target: null
-                  rel: null
-            text: 'akademischen Ghostwriting'
-          -
-            type: text
-            text: ' Services“ sondern auch Ghostwriting bei der Erstellung von Biografien, Filmdrehbüchern oder Büchern im Allgemeinen. '
+            text: ' oder sogar Habilitation. Es gibt aber nicht nur die sogenannten „akademischen Ghostwriting Services“ sondern auch Ghostwriting bei der Erstellung von Biografien, Filmdrehbüchern oder Büchern im Allgemeinen. '
       -
         type: heading
         attrs:
@@ -449,7 +436,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1654801881
+updated_at: 1656512671
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
