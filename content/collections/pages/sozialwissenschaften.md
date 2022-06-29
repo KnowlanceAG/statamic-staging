@@ -125,7 +125,7 @@ page_title: 'GWriters • Sozialwissenschaften - Ghostwriter, Lektoren & Coaches
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656440131
+updated_at: 1656512043
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -917,17 +917,7 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /faq/was-ist-ein-akademischer-ghostwriter
-                          target: null
-                          rel: null
-                    text: 'Akademische Ghostwriter'
-                  -
-                    type: text
-                    text: ' im Bereich der Sozialwissenschaften bringen ein umfassendes Know-How in vielen verschiedenen Feldern und Disziplinen. Genau das zeichnet Ghostwriter aus und darum können Ghostwriter in den Sozialwissenschaften Sie unterstützen. Das ist gleichzeitig aber auch die große Herausforderung für einen Ghostwriter in den Sozialwissenschaften, denn er muss Sie ständig auf diesen vielen verschiedenen Gebieten mit seinem Wissen Up to Date halten, damit Sie als Student ideal davon profitieren können.'
+                    text: 'Akademische Ghostwriter im Bereich der Sozialwissenschaften bringen ein umfassendes Know-How in vielen verschiedenen Feldern und Disziplinen. Genau das zeichnet Ghostwriter aus und darum können Ghostwriter in den Sozialwissenschaften Sie unterstützen. Das ist gleichzeitig aber auch die große Herausforderung für einen Ghostwriter in den Sozialwissenschaften, denn er muss Sie ständig auf diesen vielen verschiedenen Gebieten mit seinem Wissen Up to Date halten, damit Sie als Student ideal davon profitieren können.'
               -
                 type: horizontal_rule
               -
