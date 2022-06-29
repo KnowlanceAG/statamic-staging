@@ -133,8 +133,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1652313611
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656511333
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1682,20 +1682,7 @@ replicator:
                     text: Seminararbeiten
                   -
                     type: text
-                    text: " voraus. Viele Studierende fühlen sich angesichts dieser Aufgabenstellung schnell überfordert, da das eigentliche wissenschaftliche Erarbeiten bestimmter Fragestellungen im Rahmen der jeweiligen Veranstaltungen des (Haupt-)Studiums regelmäßig nur eine untergeordnete Rolle spielt. Dabei sind beide Aufgaben – sowohl das Anfertigen einer\_Jura Hausarbeit als auch dasjenige einer Jura Seminararbeit – unter Berücksichtigung einiger Hilfestellungen für alle Studierende machbar. Und in besonders schweren Fällen können auch "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /faq/was-ist-ein-akademischer-ghostwriter
-                          target: null
-                          rel: null
-                    text: 'akademische Ghostwriter'
-                  -
-                    type: text
-                    text: ' Jura Studenten professionell unterstützen.'
+                    text: " voraus. Viele Studierende fühlen sich angesichts dieser Aufgabenstellung schnell überfordert, da das eigentliche wissenschaftliche Erarbeiten bestimmter Fragestellungen im Rahmen der jeweiligen Veranstaltungen des (Haupt-)Studiums regelmäßig nur eine untergeordnete Rolle spielt. Dabei sind beide Aufgaben – sowohl das Anfertigen einer\_Jura Hausarbeit als auch dasjenige einer Jura Seminararbeit – unter Berücksichtigung einiger Hilfestellungen für alle Studierende machbar. Und in besonders schweren Fällen können auch akademische Ghostwriter Jura Studenten professionell unterstützen."
               -
                 type: heading
                 attrs:
