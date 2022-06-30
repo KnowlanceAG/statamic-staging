@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'zielgruppenanalyse vorgehensweise'
 size: 85400
 last_modified: 1656577029
 width: 848
