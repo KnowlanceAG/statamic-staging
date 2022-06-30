@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Zielgruppenanalyse Methoden'
 size: 43616
 last_modified: 1656585405
 width: 886
