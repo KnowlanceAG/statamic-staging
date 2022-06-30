@@ -1111,8 +1111,8 @@ replicator:
     type: editor
     enabled: true
     show_as_card: false
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656511534
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1656598420
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -1129,4 +1129,5 @@ og_description: 'Diplomarbeit schreiben lassen & Hilfe vom akademischen Ghostwri
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_abschlussarbeiten
 sitemap_active: true
+alternative-page-title: 'Diplomarbeit schreiben lassen'
 ---
