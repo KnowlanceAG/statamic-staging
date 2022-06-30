@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: '4 Persönlichkeitseigenschaften'
+  caption: 'eigene Erstellung in Anlehnung an Greator (www.greator.com/disg/)'
 size: 34819
 last_modified: 1656580525
 width: 1359
