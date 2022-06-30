@@ -92,7 +92,12 @@
       {{ /if }}
       <!-- End OpenGraph content -->
 
-      {{ aardvark-seo:graph }}
+      {{ if schema_objects | length > 0 }}
+          {{ schema_objects }}
+
+      {{ else }}
+          {{ aardvark-seo:graph }}
+      {{ /if }}
     {{ /seo_data }}
   {{ /if }}
 
