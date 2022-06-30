@@ -777,20 +777,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'GWriters bietet Ihnen einen professionellen Schreibservice durch erfahrene '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /faq/was-ist-ein-akademischer-ghostwriter
-                          target: null
-                          rel: null
-                    text: 'akademische Ghostwriter'
-                  -
-                    type: text
-                    text: '. Dank ihrer weitreichenden Erfahrung und Kompetenz können unsere Experten Sie in jeder Projektphase effektiv beim '
+                    text: 'GWriters bietet Ihnen einen professionellen Schreibservice durch erfahrene akademische Ghostwriter. Dank ihrer weitreichenden Erfahrung und Kompetenz können unsere Experten Sie in jeder Projektphase effektiv beim '
                   -
                     type: text
                     marks:
@@ -2483,7 +2470,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1654802592
+updated_at: 1656512140
 template: default
 use_meta_keywords: false
 no_index_page: false

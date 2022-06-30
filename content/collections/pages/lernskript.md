@@ -183,7 +183,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /faq/was-ist-ein-akademischer-ghostwriter
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: 'akademischer Ghostwriter'
@@ -195,20 +195,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Lernskripte schreiben zu lassen, wirkt der Gefahr entgegen, sich von in Umlauf befindenden fehler- und lückenhaften, schlecht strukturierten Lernskripten in die Irre führen zu lassen und das Prüfungsziel zu gefährden. Speziell ausgebildete akademische '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriter
-                  target: null
-                  rel: null
-            text: Ghostwriter
-          -
-            type: text
-            text: ' sind versierte Autoren von Lernskripten und legen mit ihren Beiträgen den Grundstein für die optimale Prüfungsvorbereitung. Sie sorgen beim Verfassen von Lernskripten zuverlässig für die Vollständigkeit und Korrektheit der Lerninhalte. Lernskripte von akademischen Ghostwritern schreiben zu lassen, hilft den Studierenden, das Wesentliche strukturiert, effizient gebündelt und zeitsparend zu lernen und sich in der sich anschließenden Prüfungssituation auf das Wesentliche zu konzentrieren. Die Wurzel des Prüfungserfolges liegt in der optimalen Vorbereitung.'
+            text: 'Lernskripte schreiben zu lassen, wirkt der Gefahr entgegen, sich von in Umlauf befindenden fehler- und lückenhaften, schlecht strukturierten Lernskripten in die Irre führen zu lassen und das Prüfungsziel zu gefährden. Speziell ausgebildete akademische Ghostwriter sind versierte Autoren von Lernskripten und legen mit ihren Beiträgen den Grundstein für die optimale Prüfungsvorbereitung. Sie sorgen beim Verfassen von Lernskripten zuverlässig für die Vollständigkeit und Korrektheit der Lerninhalte. Lernskripte von akademischen Ghostwritern schreiben zu lassen, hilft den Studierenden, das Wesentliche strukturiert, effizient gebündelt und zeitsparend zu lernen und sich in der sich anschließenden Prüfungssituation auf das Wesentliche zu konzentrieren. Die Wurzel des Prüfungserfolges liegt in der optimalen Vorbereitung.'
     type: editor
     enabled: true
     show_as_card: false
@@ -499,7 +486,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656440714
+updated_at: 1656511567
 template: with-side-bar
 meta_title: 'Lernskript schreiben lassen • GWriters'
 meta_description: 'Lernskript schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'

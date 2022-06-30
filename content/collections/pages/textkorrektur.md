@@ -95,7 +95,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /korrektorat/korrekturlesen
+                  href: /korrektorat
                   target: null
                   rel: null
             text: ' Korrekturlesen'
@@ -247,7 +247,7 @@ replicator:
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656334147
+updated_at: 1656512755
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false

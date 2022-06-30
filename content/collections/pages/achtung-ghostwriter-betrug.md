@@ -1259,7 +1259,20 @@ replicator:
             text: 'Seriöse Ghostwriter-Agenturen haben tatsächlich die besten Ghostwriter, die aus vielen Feldern der '
           -
             type: text
-            text: "Wissenschaft und Wirtschaft stammen und meist exzellente Qualifikationen vorweisen können. Wir haben bei GWriters Erfahrung damit gemacht, dass die besten Ghostwriter natürlich die besten Leistungen bringen – und für diese entsprechend entlohnt werden müssen.\_"
+            text: 'Wissenschaft und Wirtschaft stammen und meist exzellente Qualifikationen vorweisen können. Wir haben bei '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /gwriters-erfahrung
+                  target: null
+                  rel: null
+            text: 'GWriters Erfahrung'
+          -
+            type: text
+            text: " damit gemacht, dass die besten Ghostwriter natürlich die besten Leistungen bringen – und für diese entsprechend entlohnt werden müssen.\_"
           -
             type: text
             marks:
@@ -1697,12 +1710,6 @@ replicator:
                 attrs:
                   color: 'rgb(255, 102, 2)'
                   hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /blog/gwriters-erfahrung
-                  target: null
-                  rel: null
             text: 'Ghostwriter Erfahrungen'
           -
             type: text
@@ -2189,7 +2196,7 @@ replicator:
     enabled: true
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1652442138
+updated_at: 1656515042
 page_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_description: 'Hier finden Sie aktuelle Informationen zu bekannten Betrüger-Websites im akademischen Ghostwriting. Verlassen Sie sich nur auf seriöse Ghostwriting Agenturen!'

@@ -131,20 +131,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Ein '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /faq/was-ist-ein-akademischer-ghostwriter
-                  target: null
-                  rel: null
-            text: 'akademischer Ghostwriter'
-          -
-            type: text
-            text: ' ist eine Person vom Fach, die sich nicht nur durch neuste Kenntnisse in dem jeweiligen Gebiet, sondern auch durch sehr viel Erfahrung im Arbeiten mit wissenschaftlichen Texten und Arbeiten kennzeichnet. Aus diesem Grund stellt es für den '
+            text: 'Ein akademischer Ghostwriter ist eine Person vom Fach, die sich nicht nur durch neuste Kenntnisse in dem jeweiligen Gebiet, sondern auch durch sehr viel Erfahrung im Arbeiten mit wissenschaftlichen Texten und Arbeiten kennzeichnet. Aus diesem Grund stellt es für den '
           -
             type: text
             marks:
@@ -1055,7 +1042,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656440648
+updated_at: 1656512251
 meta_title: 'Magisterarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Magisterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Plagiate.'
 use_meta_keywords: false

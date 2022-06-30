@@ -3,7 +3,7 @@ id: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
 blueprint: pages
 title: Wiki
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627299409
+updated_at: 1656511973
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -835,7 +835,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /korrektorat/korrekturlesen
+                  href: /korrektorat
                   target: null
                   rel: null
             text: Korrekturlesen
@@ -909,7 +909,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /lektorat/lektorat-service
+                  href: /lektorat
                   target: null
                   rel: null
             text: 'Lektorat Service'
@@ -962,4 +962,5 @@ teaser:
 og_title: 'Wiki • GWriters - Informationen zum Thema Ghostwriting'
 og_description: 'Ein Wiki über das Thema Ghostwriting, Ghostwriter Agenturen und der Erstellung von akademischen Texten. Erfahren Sie hier meh'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---

@@ -114,7 +114,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /korrektorat/korrekturlesen
+                  href: /korrektorat
                   target: null
                   rel: null
             text: Korrekturlesen
@@ -263,7 +263,7 @@ replicator:
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656334106
+updated_at: 1656512331
 page_title: 'Ihr akademischer Korrektor von GWriters - diskret und qualitätsgeprüft'
 meta_title: 'Ihr akademischer Korrektor von GWriters - diskret und qualitätsgeprüft'
 meta_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'

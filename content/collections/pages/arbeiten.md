@@ -4,7 +4,7 @@ blueprint: pages
 title: Arbeiten
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1653931436
+updated_at: 1656514321
 teaser:
   -
     type: heading
@@ -541,17 +541,7 @@ replicator:
         content:
           -
             type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /faq/was-ist-ein-akademischer-ghostwriter
-                  target: null
-                  rel: null
-            text: 'Akademische Ghostwriter'
-          -
-            type: text
-            text: ', die Mustervorlagen für Bachelorarbeiten erstellen, müssen daher tief gehendes Know-how bei der '
+            text: 'Akademische Ghostwriter, die Mustervorlagen für Bachelorarbeiten erstellen, müssen daher tief gehendes Know-how bei der '
           -
             type: text
             marks:

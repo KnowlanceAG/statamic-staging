@@ -274,7 +274,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ein akademischer '
+                    text: 'Ein '
                   -
                     type: text
                     marks:
@@ -284,7 +284,7 @@ replicator:
                           href: /ghostwriter
                           target: null
                           rel: null
-                    text: Ghostwriter
+                    text: 'akademischer Ghostwriter'
                   -
                     type: text
                     text: ' kann durch '
@@ -373,12 +373,6 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /faq/was-ist-ein-akademischer-ghostwriter
-                          target: null
-                          rel: null
                     text: 'akademische Ghostwriter'
                   -
                     type: text
@@ -956,19 +950,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: '-Bachelorarbeit als Mustervorlage verfassen'
+                    text: 'Ghostwriting-Bachelorarbeit als Mustervorlage verfassen'
                   -
                     type: text
                     text: .
@@ -1661,7 +1643,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /korrektorat/korrekturlesen
+                          href: /korrektorat
                           target: null
                           rel: null
                     text: Korrekturlesen
@@ -2846,7 +2828,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656435477
+updated_at: 1656511491
 template: default
 use_meta_keywords: false
 no_index_page: false

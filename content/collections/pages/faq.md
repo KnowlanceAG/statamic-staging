@@ -36,7 +36,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /faq/was-ist-ein-ghostwriter
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: 'Was ist ein Ghostwriter?'
@@ -57,7 +57,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /faq/was-ist-ein-akademischer-ghostwriter
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: 'Was ist ein "akademischer" Ghostwriter?'
@@ -92,17 +92,7 @@ replicator:
             text: Hausarbeiten
           -
             type: text
-            text: ', Bachelorarbeiten oder Masterarbeiten schreiben lassen. Er sollte Experte in seinem Fachbereich sein und weiterhin sollte er über ausgezeichnete Erfahrung beim Verfassen wissenschaftlicher Arbeiten verfügen. '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /faq/was-ist-ein-akademischer-ghostwriter
-                  target: null
-                  rel: null
-            text: 'Mehr lesen...'
+            text: ', Bachelorarbeiten oder Masterarbeiten schreiben lassen. Er sollte Experte in seinem Fachbereich sein und weiterhin sollte er über ausgezeichnete Erfahrung beim Verfassen wissenschaftlicher Arbeiten verfügen.'
       -
         type: heading
         attrs:
@@ -164,7 +154,7 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: "\_verstehen das Verfassen von Mustervorlagen für wissenschaftliche Arbeiten als ihre Profession – und verdienen damit Ihren Lebensunterhalt.\_"
+            text: "\_verstehen das Verfassen von Mustervorlagen für wissenschaftliche Arbeiten als ihre Profession – und verdienen damit Ihren Lebensunterhalt. "
           -
             type: text
             marks:
@@ -173,17 +163,12 @@ replicator:
                 attrs:
                   align: start
               -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 102, 2)'
-                  hex: '#000'
-              -
                 type: link
                 attrs:
-                  href: /faq/was-ist-ein-akademischer-ghostwriter
+                  href: /faq/motivation-akademische-ghostwriter
                   target: null
                   rel: null
-            text: 'Mehr lesen…'
+            text: 'Mehr lesen...'
       -
         type: heading
         attrs:
@@ -204,7 +189,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /faq/was-ist-ghostwriting
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: 'Was ist Ghostwriting?'
@@ -253,7 +238,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /faq/was-ist-ghostwriting
+                  href: /ghostwriting
                   target: null
                   rel: null
             text: 'Mehr lesen…'
@@ -1201,8 +1186,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655645798
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656511919
 template: without-teaser-with-sidebar
 use_meta_keywords: false
 no_index_page: false

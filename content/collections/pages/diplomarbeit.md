@@ -197,7 +197,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /faq/was-ist-ein-akademischer-ghostwriter
+                  href: /ghostwriter
                   target: null
                   rel: null
             text: 'akademischer Ghostwriter'
@@ -209,20 +209,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Es ist ebenso möglich, dass der '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriter
-                  target: null
-                  rel: null
-            text: Ghostwriter
-          -
-            type: text
-            text: ' bei einer bereits begonnenen Arbeit Hilfe zur Diplomarbeit leistet. Zudem bietet er oftmals das Lektorat und die Korrektur der Diplomarbeit, die bereits durch den Studenten fertiggestellt wurde, an. Nachfolgend kann eine umfassende Plagiatsprüfung erfolgen, um vergessene Fußnoten oder andere Unstimmigkeiten zu vermeiden. Zudem ist es möglich, dass Studenten von akademischen Ghostwritern eine Mustervorlage für ihre Diplomarbeit schreiben lassen und diese Ghostwriter-Diplomarbeit als Vorlage für ihre eigene Arbeit nutzen.'
+            text: 'Es ist ebenso möglich, dass der Ghostwriter bei einer bereits begonnenen Arbeit Hilfe zur Diplomarbeit leistet. Zudem bietet er oftmals das Lektorat und die Korrektur der Diplomarbeit, die bereits durch den Studenten fertiggestellt wurde, an. Nachfolgend kann eine umfassende Plagiatsprüfung erfolgen, um vergessene Fußnoten oder andere Unstimmigkeiten zu vermeiden. Zudem ist es möglich, dass Studenten von akademischen Ghostwritern eine Mustervorlage für ihre Diplomarbeit schreiben lassen und diese Ghostwriter-Diplomarbeit als Vorlage für ihre eigene Arbeit nutzen.'
       -
         type: paragraph
         content:
@@ -1125,7 +1112,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656440695
+updated_at: 1656511534
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false

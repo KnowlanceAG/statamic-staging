@@ -4,8 +4,8 @@ blueprint: pages
 title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655716507
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656511213
 teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
   -
@@ -604,29 +604,7 @@ replicator:
                                 type: textAlign
                                 attrs:
                                   align: center
-                            text: 'Was passiert nach der Anfrage nach einem akademischen '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                              -
-                                type: link
-                                attrs:
-                                  href: /ghostwriter
-                                  target: null
-                                  rel: null
-                            text: Ghostwriter
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: ' bei GWriters in dem Unternehmen intern? Wie entstehen Angebote für '
+                            text: 'Was passiert nach der Anfrage nach einem akademischen Ghostwriter bei GWriters in dem Unternehmen intern? Wie entstehen Angebote für '
                           -
                             type: text
                             marks:
@@ -751,7 +729,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: /faq/was-ist-ein-akademischer-ghostwriter
+                                  href: /ghostwriter
                                   target: null
                                   rel: null
                             text: 'akademische Ghostwriter'
