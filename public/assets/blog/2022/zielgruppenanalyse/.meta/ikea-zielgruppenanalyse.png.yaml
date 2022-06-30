@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'zielgruppenanalyse beispiel Ikea'
 size: 70832
 last_modified: 1656583726
 width: 847
