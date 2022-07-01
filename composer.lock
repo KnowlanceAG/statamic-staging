@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4b18189e0388569a76a92245f5addac2",
+    "content-hash": "15822c93ff68b75f377c7131ee3e2a89",
     "packages": [
         {
             "name": "ajthinking/archetype",
@@ -4830,16 +4830,16 @@
         },
         {
             "name": "statamic/cms",
-            "version": "v3.3.16",
+            "version": "v3.3.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/cms.git",
-                "reference": "c9ed596c46a96d54ebb5d8b4852c9a182d9b29dc"
+                "reference": "472da3d647dcb7fd2c6308ba45b0b8e07610a68d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/cms/zipball/c9ed596c46a96d54ebb5d8b4852c9a182d9b29dc",
-                "reference": "c9ed596c46a96d54ebb5d8b4852c9a182d9b29dc",
+                "url": "https://api.github.com/repos/statamic/cms/zipball/472da3d647dcb7fd2c6308ba45b0b8e07610a68d",
+                "reference": "472da3d647dcb7fd2c6308ba45b0b8e07610a68d",
                 "shasum": ""
             },
             "require": {
@@ -4917,7 +4917,7 @@
             ],
             "support": {
                 "issues": "https://github.com/statamic/cms/issues",
-                "source": "https://github.com/statamic/cms/tree/v3.3.16"
+                "source": "https://github.com/statamic/cms/tree/v3.3.17"
             },
             "funding": [
                 {
@@ -4925,7 +4925,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-13T21:19:21+00:00"
+            "time": "2022-06-30T17:37:26+00:00"
         },
         {
             "name": "statamic/ssg",
@@ -8473,16 +8473,16 @@
     "packages-dev": [
         {
             "name": "barryvdh/laravel-debugbar",
-            "version": "v3.6.7",
+            "version": "v3.6.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-debugbar.git",
-                "reference": "b96f9820aaf1ff9afe945207883149e1c7afb298"
+                "reference": "814b36a08a60f4159cdcbb1c466a6a0027440b6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/b96f9820aaf1ff9afe945207883149e1c7afb298",
-                "reference": "b96f9820aaf1ff9afe945207883149e1c7afb298",
+                "url": "https://api.github.com/repos/barryvdh/laravel-debugbar/zipball/814b36a08a60f4159cdcbb1c466a6a0027440b6c",
+                "reference": "814b36a08a60f4159cdcbb1c466a6a0027440b6c",
                 "shasum": ""
             },
             "require": {
@@ -8542,7 +8542,7 @@
             ],
             "support": {
                 "issues": "https://github.com/barryvdh/laravel-debugbar/issues",
-                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.6.7"
+                "source": "https://github.com/barryvdh/laravel-debugbar/tree/v3.6.8"
             },
             "funding": [
                 {
@@ -8554,7 +8554,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-02-09T07:52:32+00:00"
+            "time": "2022-06-08T15:03:05+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -8693,16 +8693,16 @@
         },
         {
             "name": "facade/ignition",
-            "version": "2.17.5",
+            "version": "2.17.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/ignition.git",
-                "reference": "1d71996f83c9a5a7807331b8986ac890352b7a0c"
+                "reference": "6acd82e986a2ecee89e2e68adfc30a1936d1ab7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/ignition/zipball/1d71996f83c9a5a7807331b8986ac890352b7a0c",
-                "reference": "1d71996f83c9a5a7807331b8986ac890352b7a0c",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/6acd82e986a2ecee89e2e68adfc30a1936d1ab7c",
+                "reference": "6acd82e986a2ecee89e2e68adfc30a1936d1ab7c",
                 "shasum": ""
             },
             "require": {
@@ -8767,7 +8767,7 @@
                 "issues": "https://github.com/facade/ignition/issues",
                 "source": "https://github.com/facade/ignition"
             },
-            "time": "2022-02-23T18:31:24+00:00"
+            "time": "2022-06-30T18:26:59+00:00"
         },
         {
             "name": "filp/whoops",
