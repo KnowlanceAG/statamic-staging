@@ -465,11 +465,11 @@ replicator:
     enabled: true
     show_as_card: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -488,7 +488,7 @@ replicator:
         enabled: true
       -
         columns_per_row: '3'
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -667,7 +667,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -724,9 +724,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: true

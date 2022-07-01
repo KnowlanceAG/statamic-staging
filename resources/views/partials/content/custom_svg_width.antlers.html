@@ -1,0 +1,12 @@
+<div class="flex justify-center">
+    {{ if link_field }}
+        <a href="{{ link_field }}" class="group">
+            <img src="{{ svg_file }}" alt="{{ svg_file:alt }}"
+                class="w-32 h-auto group-hover:opacity-80 transition-all duration-150 ease-in-out"
+                style="width: {{ custom_svg_width }}px!important" />
+        </a>
+    {{ else }}
+        <img src="{{ svg_file }}" alt="{{ svg_file:alt }}"
+            class="w-32 h-auto" style="width: {{ custom_svg_width }}px!important" />
+    {{ /if }}
+</div>

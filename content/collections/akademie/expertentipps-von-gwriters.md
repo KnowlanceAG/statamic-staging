@@ -205,7 +205,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'GWriters • Expertentipps zum Schreiben Ihrer wissenschaftlichen Arbeit'
-academy_short_text-headline: 'Expertentipps von GWriters'
+academy_short_text_headline: 'Expertentipps von GWriters'
 academy_short_text: 'Unsere Expertentipps kommen Ihnen dann gelegen, wenn Sie in unseren anderen Kategorien keine Antworten auf Ihre Fragen finden konnten. Diese können in jeder Phase Ihrer Abschlussarbeit angewandt werden und bieten Ihnen auch in sehr schwierigen Situation zielgerichtete Lösungsmöglichkeiten an.'
 meta_title: 'GWriters • Expertentipps zum Schreiben Ihrer wissenschaftlichen Arbeit'
 meta_description: 'Die Expertentipps von GWriters.de für das Schreiben Ihrer Bachelorarbeit, Seminararbeit oder Masterarbeit von unseren akademischen Ghostwritern.'

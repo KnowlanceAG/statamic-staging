@@ -157,7 +157,7 @@ sections:
     display: 'Kurz Text'
     fields:
       -
-        handle: academy_short_text-headline
+        handle: academy_short_text_headline
         field:
           input_type: text
           antlers: false

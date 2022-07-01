@@ -130,11 +130,11 @@ teaser:
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -157,18 +157,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -226,7 +226,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -247,20 +247,20 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: true
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: true
+    bg_color: '#F9F9F9'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
-    bg-image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -320,7 +320,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -344,7 +344,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '4'
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -354,9 +354,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/security.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -402,9 +402,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -447,9 +447,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/stopwatch.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -504,9 +504,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/magistrate.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -547,18 +547,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -627,7 +627,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -678,19 +678,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#D6D6D6'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -918,18 +918,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1057,19 +1057,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F2F2F2'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F2F2F2'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -1148,18 +1148,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1329,20 +1329,20 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: true
-    bg-color: '#F9F9F9'
-    bg-image: seiten/arbeiten/seminararbeit/seminararbeit-plan.jpg
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: true
+    bg_color: '#F9F9F9'
+    bg_image: seiten/arbeiten/seminararbeit/seminararbeit-plan.jpg
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -1376,15 +1376,15 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
+                    type: img_text_ce
                     bild:
                       - seiten/arbeiten/anfrage.png
-                    vertical_alignment-img: self-center
+                    vertical_alignment_img: self-center
                     text: |-
                       ### Kostenlose Anfrage
                       Schicken Sie uns einfach eine [**unverbindlichen Anfrage**](/anfrage) über unsere Webseite.  Sie erhalten dann ein **kostenloses Leistungsangebot** und eine individuelle Beratung zur Planung Ihres Projektes von unserem Kundenberater. Nach Ihrer Anzahlung beginnt der Arbeitsprozess an der Mustervorlage für Ihre Arbeit. Unsere professionellen Projektmanager übernehmen die gesamte Kommunikation, sodass Ihre Anonymität stets gesichert ist. Bei größeren Seminararbeiten oder Abschlussarbeiten ist auch eine anonyme Telefonkonferenz mit dem Ihrem Autor möglich.
-                    vertical_alignment-text: self-center
-                    reverse-columns: bild-text
+                    vertical_alignment_text: self-center
+                    reverse_columns: bild_text
               -
                 type: set
                 attrs:
@@ -1395,15 +1395,15 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
+                    type: img_text_ce
                     bild:
                       - seiten/arbeiten/termineplanen.png
-                    vertical_alignment-img: self-center
+                    vertical_alignment_img: self-center
                     text: |-
                       ### Teillieferungen & Feedbacks
                       **Je nach Umfang der Mustervorlage** werden eine oder mehrere Teillieferungen vereinbart. Gerade diese [**Teillieferungstermine**](/blog/ghostwriting-gwriters-teillieferungen) sind wichtig, um einen Abgleich zwischen Ihren Anforderungen und dem bisherigen Arbeitsstand zu erhalten. Die Teillieferungen ermöglichen es Ihnen, regelmäßig den Fortschritt der Arbeit zu prüfen und Feedback zu geben. Diese Feedbacks werden natürlich **kostenlos** umgesetzt.
-                    vertical_alignment-text: self-center
-                    reverse-columns: text-bild
+                    vertical_alignment_text: self-center
+                    reverse_columns: text_bild
               -
                 type: set
                 attrs:
@@ -1414,15 +1414,15 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
+                    type: img_text_ce
                     bild:
                       - seiten/arbeiten/feedbackumsetzen.png
-                    vertical_alignment-img: self-center
+                    vertical_alignment_img: self-center
                     text: |-
                       ### Kostenlose Anpassungen
                       Bei Fragen und Änderungswünschen, die im Rahmen Ihres gesamten Projektes auftreten, ist Ihr Projektmanager immer Ihr persönlicher Ansprechpartner. Dieser Ansprechpartner bleibt immer gleich während des gesamten Projektes und ist bei Fragen oder Problemen telefonisch oder per E-Mail ständig für Sie erreichbar.
-                    vertical_alignment-text: self-center
-                    reverse-columns: bild-text
+                    vertical_alignment_text: self-center
+                    reverse_columns: bild_text
               -
                 type: set
                 attrs:
@@ -1433,15 +1433,15 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
+                    type: img_text_ce
                     bild:
                       - seiten/arbeiten/lieferung-der-mustervorlage.png
-                    vertical_alignment-img: self-center
+                    vertical_alignment_img: self-center
                     text: |-
                       ### Abschlusslieferung & Qualitätsgarantie
                       Nachdem die Verschriftlichung abgeschlossen ist, wird Ihre Mustervorlage von einem unabhängigen Lektor kontrolliert und mit Hilfe der Software **Turnitin** auf Plagiate geprüft. Anschließend wird Ihre Mustervorlage zum vereinbarten Termin an Sie geliefert. Unsere Ghostwriter vereinfachen somit das Schreiben Ihrer Seminararbeit, da Sie diese aufbauend auf der Mustervorlage schnell & einfach fertigstellen können.
-                    vertical_alignment-text: self-center
-                    reverse-columns: text-bild
+                    vertical_alignment_text: self-center
+                    reverse_columns: text_bild
               -
                 type: paragraph
                 content:
@@ -1486,18 +1486,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1601,7 +1601,7 @@ replicator:
                     type: bilder
                     assets:
                       - seiten/arbeiten/seminararbeit/Seminararbeit.jpg
-                    img-alignment: justify-center
+                    img_alignment: justify-center
                     has_border: false
             show_as_card: false
         type: row
@@ -1609,7 +1609,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1662,18 +1662,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_image_fixed: false
     border: true
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1712,7 +1712,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1761,7 +1761,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     dateien:
                       - team/wittkamp_gwriters_ghostwriter_rund.png
                     img_size: w-1/2
@@ -1806,26 +1806,26 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F7F7F7'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F7F7F7'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1848,7 +1848,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1909,7 +1909,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1929,7 +1929,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -2144,13 +2144,13 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
-    bg-color: '#D6D6D6'
+    bg_color: '#D6D6D6'
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -2179,7 +2179,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '3'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -2189,7 +2189,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     dateien:
                       - team/svetlana_patrikeewa_ghostwriter_gwriters.png
                     img_size: w-1/2
@@ -2245,7 +2245,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     dateien:
                       - team/kahl_gwriters_ghostwriter-1.png
                     img_size: w-1/2
@@ -2301,7 +2301,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     dateien:
                       - team/wittkamp_gwriters_ghostwriter_rund.png
                     img_size: w-1/2
@@ -2354,18 +2354,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -2467,19 +2467,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: true
-    bg-image: seiten/arbeiten/seminararbeit/seminararbeit_schreiben_lassen_professoren_doktoren_.jpg
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: true
+    bg_image: seiten/arbeiten/seminararbeit/seminararbeit_schreiben_lassen_professoren_doktoren_.jpg
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -2826,19 +2826,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
-    bg-color: '#F9F9F9'
+    bg_color: '#F9F9F9'
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -2875,18 +2875,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -3014,9 +3014,9 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true

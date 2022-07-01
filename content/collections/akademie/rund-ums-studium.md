@@ -270,7 +270,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'GWriters • Alles rund ums Studium von Ihrem Ghostwriter Service'
-academy_short_text-headline: 'Rund ums Studium von Gwriters'
+academy_short_text_headline: 'Rund ums Studium von Gwriters'
 academy_short_text: 'Jedes Studium stellt ganz eigene Anforderungen an die Studierenden. Auch besitzt jeder Fachbereich eigene Vorgaben und Anforderung, auch hinsichtlich der Abschlussarbeit. Beispielsweise erklären wir Ihnen, wie Sie sich auf die mündliche Prüfung, die Veröffentlichung Ihrer Dissertation oder ein Auslandsstudium vorbereiten.'
 meta_title: 'GWriters • Alles rund ums Studium von Ihrem Ghostwriter Service'
 meta_description: 'Ob Jura, BWL, Medizin oder etwas anderes - Unsere Ghostwriting Agentur steht Ihnen in jedem Fachbereich professionell zur Seite!'

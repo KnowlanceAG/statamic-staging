@@ -19,7 +19,7 @@ fields:
       icon: link
       listable: hidden
   -
-    handle: img-alignment
+    handle: img_alignment
     field:
       options:
         justify-start: links

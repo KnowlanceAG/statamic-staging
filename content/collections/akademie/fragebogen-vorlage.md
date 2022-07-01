@@ -127,7 +127,7 @@ from_the_blog:
   - a26081b8-f79e-4515-8c28-31d320f1e4fd
   - 469c0c55-5de8-4d91-8555-d07ce79c49bd
 page_title: 'Kostenlose Fragebogen Vorlage für Ihre Hausarbeit herunterladen'
-academy_short_text-headline: 'Fragebogen Vorlage'
+academy_short_text_headline: 'Fragebogen Vorlage'
 academy_short_text: 'Nutzen Sie unsere Fragebogen Vorlage für Ihre Datenerhebung. Hier finden Sie alle gängigen Fragetypen.'
 meta_title: 'Kostenlose Fragebogen Vorlage für Ihre Hausarbeit herunterladen'
 meta_description: 'Nutzen Sie unsere Fragebogen Vorlage für Ihre Datenerhebung, erstellt von akademischen Experten. Hier finden Sie alle gängigen Fragetypen.'

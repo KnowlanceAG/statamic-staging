@@ -229,7 +229,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'Expertentipps zum wissenschaftlichen Arbeiten für Fortgeschrittene'
-academy_short_text-headline: 'Wissenschaftliches Arbeiten für Fortgeschrittene'
+academy_short_text_headline: 'Wissenschaftliches Arbeiten für Fortgeschrittene'
 academy_short_text: 'Diese Kategorie richtet sich vorrangig an Studenten und Doktoranden, die zum Beispiel Antworten auf gewisse Detailfragen zum Literaturverzeichnis oder Zitieren suchen oder einfach zur eigenen Wissensbildung beitragen möchten. Nach der Grundlage des wissenschaftlichen Schreibens sind tiefgreifendere Faktoren wichtig. Diese gehen wir im Folgenden intensiv an.'
 meta_title: 'Expertentipps zum wissenschaftlichen Arbeiten für Fortgeschrittene'
 meta_description: 'Profi bei wissenschaftlichen Arbeiten, aber immer noch Detailfragen in manchen Situationen? Hier finden Sie die wichtigste Informationen auf einem Blick.'

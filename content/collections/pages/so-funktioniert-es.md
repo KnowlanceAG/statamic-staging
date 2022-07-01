@@ -93,7 +93,7 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 replicator:
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: 1
         grid:
@@ -126,12 +126,12 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single-col: false
+        single_col: false
         responsive_columns: 1
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard: null
@@ -171,17 +171,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single-col: false
+        single_col: false
         responsive_columns: 1
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
     border: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: 1
         grid:
@@ -209,7 +209,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single-col: false
+        single_col: false
         responsive_columns: 1
       -
         columns_per_row: '4'
@@ -425,18 +425,18 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single-col: false
+        single_col: false
         responsive_columns: 1
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
     border: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: 1
         grid:
@@ -459,7 +459,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: text_box-alignment
+                    type: text_box_alignment
                     bard:
                       -
                         type: paragraph
@@ -574,7 +574,7 @@ replicator:
                                   hex: '#000'
                             text: "\_oder anderen Hilfestellungen sind, GWriters findet in nahezu allen Fällen den passenden akademischen Freelancer für Sie. Fragen Sie einfach ein unverbindliches Angebot an."
                     text_ausrichtung: text-center
-                    column-count: false
+                    column_count: false
               -
                 type: heading
                 attrs:
@@ -592,7 +592,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: text_box-alignment
+                    type: text_box_alignment
                     bard:
                       -
                         type: paragraph
@@ -891,17 +891,17 @@ replicator:
                                   align: center
                             text: 'Anfragen an uns sowie auch unsere Angebot sind vollkommen unverbindlich. Kosten entstehen für Sie erst, sobald Sie einen Auftrag verbindlich per Vertragsschluss bestätigen.'
                     text_ausrichtung: text-center
-                    column-count: false
+                    column_count: false
               -
                 type: paragraph
             show_as_card: false
         type: row
         enabled: true
-        single-col: true
+        single_col: true
         responsive_columns: 1
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false

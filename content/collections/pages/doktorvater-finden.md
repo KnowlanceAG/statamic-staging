@@ -119,11 +119,11 @@ teaser:
     type: paragraph
 replicator:
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -973,9 +973,9 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true

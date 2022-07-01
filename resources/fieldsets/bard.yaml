@@ -38,11 +38,11 @@ fields:
       icon: bard
       listable: hidden
       sets:
-        img-text-ce:
+        img_text_ce:
           display: 'NEU Text Bild'
           fields:
             -
-              import: img-text-ce
+              import: img_text_ce
         bilder:
           display: Bilder
           fields:
@@ -58,7 +58,7 @@ fields:
           fields:
             -
               import: ce_headlines
-        leistungen_uebersicht_4-spaltig:
+        leistungen_uebersicht_4_spaltig:
           display: 'Leistungen Übersicht 4-Spaltig'
           fields:
             -
@@ -89,11 +89,11 @@ fields:
                 type: form
                 icon: form
                 listable: hidden
-        simple-link-list:
+        simple_link_list:
           display: 'Einfache Linkliste'
           fields:
             -
-              import: simple_link-list
+              import: simple_link_list
         academy_entries:
           display: 'Akademie Beiträge'
           fields:
@@ -128,17 +128,17 @@ fields:
           display: 'Bild und Text'
           fields:
             -
-              import: bild-text
-        floating-img:
+              import: bild_text
+        floating_img:
           display: 'Floating Bild'
           fields:
             -
               import: floating_img
-        text_box-alignment:
+        text_box_alignment:
           display: 'Text Box mit Textausrichtung'
           fields:
             -
-              import: textbox-aligned
+              import: textbox_aligned
         table:
           display: Tabelle
           fields:
@@ -149,12 +149,12 @@ fields:
           fields:
             -
               import: phone_cta
-        accordion-wrapper:
+        accordion_wrapper:
           display: Accordion
           fields:
             -
               import: accordion
-        accordion-custom-wrapper:
+        accordion_custom_wrapper:
           display: 'Accordion Custom'
           fields:
             -
@@ -170,11 +170,11 @@ fields:
           fields:
             -
               import: logo_list
-        custom-svg-width:
+        custom_svg_width:
           display: 'SVG mit Breite'
           fields:
             -
-              import: custom-svg
+              import: custom_svg
       container: assets
       enable_input_rules: true
       enable_paste_rules: true

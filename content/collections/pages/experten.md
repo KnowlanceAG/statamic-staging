@@ -93,7 +93,7 @@ teaser:
 teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 replicator:
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: 1
         grid:
@@ -119,7 +119,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single-col: false
+        single_col: false
         responsive_columns: 1
       -
         columns_per_row: 1
@@ -130,7 +130,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: text_box-alignment
+                    type: text_box_alignment
                     bard:
                       -
                         type: paragraph
@@ -178,15 +178,15 @@ replicator:
                             type: text
                             text: "\_und anderen akademischen Disziplinen vor."
                     text_ausrichtung: text-left
-                    column-count: false
+                    column_count: false
             show_as_card: false
         type: row
         enabled: true
-        single-col: false
+        single_col: false
         responsive_columns: 1
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -210,16 +210,16 @@ replicator:
     enabled: true
     show_as_card: false
   -
-    is-full: true
-    bg-toggle: true
-    bg-image: seiten/unsere-experten/Zeichenflaeche-5.png
-    bg-image-fixed: true
+    is_full: true
+    bg_toggle: true
+    bg_image: seiten/unsere-experten/Zeichenflaeche-5.png
+    bg_image_fixed: true
     type: add_section
     enabled: true
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -238,10 +238,10 @@ replicator:
     remove_spacing: false
     border: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -249,7 +249,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: text_box-alignment
+                    type: text_box_alignment
                     bard:
                       -
                         type: paragraph
@@ -310,7 +310,7 @@ replicator:
                             type: text
                             text: "\_sowie Experten für viele weitere Disziplinen finden Sie bei uns. Dabei werden die Kompetenzen unserer Ghostwriter nach strengen Auswahlverfahren geprüft und verifiziert, sodass wir Ihnen zu jeder Zeit den passenden Spezialisten zur Unterstützung bei Ihrer wissenschaftlichen Fragestellung und Ihrer akademischen Arbeit zur Verfügung stellen können."
                     text_ausrichtung: text-left
-                    column-count: false
+                    column_count: false
               -
                 type: set
                 attrs:
@@ -325,7 +325,7 @@ replicator:
         responsive_columns: 1
       -
         columns_per_row: '3'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -336,7 +336,7 @@ replicator:
                     type: bilder
                     assets:
                       - seiten/unsere-experten/ghostwriter_qualifikationen_gwriters-1-74x84.png
-                    img-alignment: justify-center
+                    img_alignment: justify-center
                     has_border: false
               -
                 type: paragraph
@@ -366,7 +366,7 @@ replicator:
                     type: bilder
                     assets:
                       - seiten/unsere-experten/anonymitaet_ghostwriter_gwriters-75x84.png
-                    img-alignment: justify-center
+                    img_alignment: justify-center
                     has_border: false
               -
                 type: paragraph
@@ -396,7 +396,7 @@ replicator:
                     type: bilder
                     assets:
                       - seiten/unsere-experten/ghostwriter_qualitaet_gwriters-64x84.png
-                    img-alignment: justify-center
+                    img_alignment: justify-center
                     has_border: false
               -
                 type: paragraph
@@ -422,7 +422,7 @@ replicator:
         responsive_columns: 1
       -
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -436,7 +436,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: text_box-alignment
+                    type: text_box_alignment
                     bard:
                       -
                         type: paragraph
@@ -494,14 +494,14 @@ replicator:
                                   align: left
                             text: ' bleiben Sie anonym. Ebenso unbesorgt können Sie auch hinsichtlich der Qualität Ihrer Arbeit sein: jede von uns erstellte Arbeit wird von einem Team von erfahrenen und spezialisierten Supervisoren auf Qualität geprüft. So stellen wir sicher, dass Ihre Arbeit allen akademischen Standards entspricht, denn dies ist auch unser Anspruch an uns selbst.'
                     text_ausrichtung: text-left
-                    column-count: false
+                    column_count: false
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 1
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false

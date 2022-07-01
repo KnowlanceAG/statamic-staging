@@ -143,7 +143,7 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 replicator:
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: 1
         grid:
@@ -341,7 +341,7 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 1
-        single-col: false
+        single_col: false
       -
         columns_per_row: '3'
         grid:
@@ -546,16 +546,16 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 1
-        single-col: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+        single_col: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: true
     border: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: 1
         grid:
@@ -596,20 +596,20 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 1
-        single-col: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+        single_col: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: true
     border: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -639,7 +639,7 @@ replicator:
                     bild:
                       - seiten/fachrichtungen/elektrotechnik.jpg
                     text: 'Die Elektrotechnik hat sich aus der Physik entwickelt, dies konnte selbstverständlich erst geschehen, nachdem die Elektrizität entdeckt wurde. Bereits 1663 entwickelte Otto von Guericke eine Apparatur, welche mit Hilfe von Reibung Elektrizität erzeugte. In die Geschichte eingegangen ist das Froschschenkel-Experiment von Luigi Galvani, einem italienischen Physiker, welches den Grundstein für die Erfindung der Galvanischen Zelle legte. Vom Prinzip her ist es eine Kombination zweier Elektroden und eines Elektrolyten. Auf Grundlage dieser Forschungen konnte Alessandro Volta wenig später die Voltasche Säule bauen, mit der erstmals eine kontinuierliche Stromquelle realisiert wurde. Die Erfindung von Telefon, Generator, der drahtlosen Funkübertragung und nicht zuletzt dem Fernseher gehören zu weiteren Meilensteinen in der Geschichte der Elektrotechnik. In der modernen vernetzten Welt kann man sich ein Leben ohne Elektrotechnik kaum vorstellen. Elektronische Bauteile werden in allen Bereichen des Lebens eingesetzt und liefern wichtige Dienste für jeden Anwender. Besonders im Bereich der [Medizin](/fachrichtungen/medizin) ist die Elektrotechnik dem Menschen zugute gekommen.'
-                    ausrichtung: text-bild
+                    ausrichtung: text_bild
               -
                 type: horizontal_rule
               -
@@ -767,9 +767,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: true

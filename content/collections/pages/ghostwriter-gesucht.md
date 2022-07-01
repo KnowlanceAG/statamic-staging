@@ -37,11 +37,11 @@ replicator:
     type: editor
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -320,7 +320,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -336,9 +336,9 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: true
     type: add_section
     enabled: true
@@ -445,7 +445,7 @@ replicator:
               - Publikationen & Forschung
               - Schreibproben
               - Erfahrungen mit Ghostwriting
-            ausrichtung: text-bild
+            ausrichtung: text_bild
       -
         type: set
         attrs:
@@ -465,7 +465,7 @@ replicator:
               - ”Dummy Aufträge”
               - permanente Qualitätsprüfungen bei allen Aufträgen
               - Internes Ranking
-            ausrichtung: text-bild
+            ausrichtung: text_bild
       -
         type: set
         attrs:
@@ -482,15 +482,15 @@ replicator:
             text: |-
               ### Vergabe von Projekten:
               - Auswahl nach Qualifikationen
-              - Individuelle Themenschwerpunkte 
+              - Individuelle Themenschwerpunkte
               - Sprach- & Softwarekenntnisse
               - Interne Bewertung hinsichtlich:
                 		-Zuverlässigkeit
               		-Pünktlichkeit
               		-wissenschaftliche Qualität
               		-Erfahrungen mit dem GWriters-Team
-              	
-            ausrichtung: text-bild
+
+            ausrichtung: text_bild
       -
         type: paragraph
       -
@@ -499,11 +499,11 @@ replicator:
     type: editor
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '1'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -540,9 +540,9 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -654,11 +654,11 @@ replicator:
     type: editor
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -672,7 +672,7 @@ replicator:
                     text: |-
                       > ## 1.
                       <p align="left">Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen. Die Anforderungen an die Arbeit entscheiden, in welchem Themenbereich die Mustervorlage geschrieben werden soll. <p>
-                    ausrichtung: text-bild
+                    ausrichtung: text_bild
               -
                 type: set
                 attrs:
@@ -687,9 +687,9 @@ replicator:
                     bild:
                       - seiten/ghostwriter-gesucht/ghostwriter-gesucht-2.png
                     text: |-
-                      > ## 2. 
+                      > ## 2.
                       <p align="left">Nach Auftragsbeginn wird durch unsere professionellen Projektmanager ein zum Themenfeld passender Ghostwriter gesucht. Die Betreuung des gesamten Projektes übernimmt der Projektmanager. Er steuert den Prozess von der unverbindlichen Anfrage bis zur Lieferung der Mustervorlage. <p>
-                    ausrichtung: bild-text
+                    ausrichtung: bild_text
               -
                 type: set
                 attrs:
@@ -706,9 +706,9 @@ replicator:
                     bild:
                       - seiten/ghostwriter-gesucht/kommunikation-ghostwriter-1.png
                     text: |-
-                      > ## 3. 
+                      > ## 3.
                       <p align="left">Die gesamte Kommunikation zwischen Auftraggeber und Auftragsschreiber läuft anonym in schriftlicher oder telefonischer Form ab. Als Ghostwriter haben Sie regelmäßige Teillieferungen zu erbringen. Diese Teillieferungen dienen dazu, Feedbacks zum bisher Geschriebene vom Kunden zu erhalten. So hat der Auftraggeber die Möglichkeit, regelmäßig inhaltlichen Einfluss auf die aktuelle Schreibarbeit zu nehmen.<p>
-                    ausrichtung: text-bild
+                    ausrichtung: text_bild
               -
                 type: set
                 attrs:
@@ -723,9 +723,9 @@ replicator:
                     bild:
                       - seiten/ghostwriter-gesucht/bezahlung-ghostwriter-1.png
                     text: |-
-                      > ## 4. 
+                      > ## 4.
                       <p align="left">Die Bezahlung der Ghostwriter wird von unseren Projektmanager je nach Komplexität und Umfang des Themas bestimmt. Das vereinbarte Honorar erhalten Sie nach dem erfolgreichen Abschluss eines Projekts.<p>
-                    ausrichtung: bild-text
+                    ausrichtung: bild_text
               -
                 type: set
                 attrs:
@@ -740,9 +740,9 @@ replicator:
                     bild:
                       - seiten/ghostwriter-gesucht/lieferung-der-arbeit-1.png
                     text: |-
-                      > ## 5. 
+                      > ## 5.
                       <p align="left">Nach der Fertigstellung wird die Mustervorlage an einen übergeordneten Supervisor zur Überprüfung gegeben, ähnlich eines Lektoratsservices. Nach einer professionellen Plagiatsprüfung wird der erstellte Text von einem Qualitätsmanager kontrolliert und zeitgerecht an den Kunden geliefert.<p>
-                    ausrichtung: text-bild
+                    ausrichtung: text_bild
               -
                 type: paragraph
               -
@@ -892,9 +892,9 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
