@@ -151,7 +151,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /korrektorat/korrekturlesen
+                  href: /korrektorat
                   target: null
                   rel: null
             text: Korrekturlesen
@@ -1042,7 +1042,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656512251
+updated_at: 1656678046
 meta_title: 'Magisterarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Magisterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Plagiate.'
 use_meta_keywords: false
