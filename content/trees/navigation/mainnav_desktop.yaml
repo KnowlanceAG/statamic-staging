@@ -15,7 +15,7 @@ tree:
         children:
           -
             id: 0df934ec-a593-4ee4-86a0-23609446fdfd
-            title: Abschlussarbeiten
+            title: 'Abschlussarbeiten schreiben lassen'
             children:
               -
                 id: 7214de03-dcbe-4320-850a-0050ae570ce9
@@ -37,7 +37,7 @@ tree:
                 entry: 0481728e-d2e2-4b99-9a9e-8e5bca901d14
           -
             id: 8ccbdb17-efba-4eb2-a224-cc5e027229ed
-            title: Studienarbeiten
+            title: 'Studienarbeiten schreiben lassen'
             children:
               -
                 id: 12767015-2215-4e81-ac13-d1f4ba6fe17d
