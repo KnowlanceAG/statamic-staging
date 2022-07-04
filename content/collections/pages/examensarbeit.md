@@ -1346,5 +1346,5 @@ og_image: GWriters-Logo.png
 arbeitsgruppe: a_abschlussarbeiten
 sitemap_active: true
 page_title: 'Examensarbeit schreiben lassen • Ghostwriter von GWriters'
-alternative-page-title: 'Examensarbeit schreiben lassen'
+alternative_page_title: 'Examensarbeit schreiben lassen'
 ---

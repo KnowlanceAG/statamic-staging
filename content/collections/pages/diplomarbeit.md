@@ -1129,5 +1129,5 @@ og_description: 'Diplomarbeit schreiben lassen & Hilfe vom akademischen Ghostwri
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_abschlussarbeiten
 sitemap_active: true
-alternative-page-title: 'Diplomarbeit schreiben lassen'
+alternative_page_title: 'Diplomarbeit schreiben lassen'
 ---

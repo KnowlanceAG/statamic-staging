@@ -48,7 +48,7 @@ class Categorize extends Tags
     $mapped = array_map(function ($entry) use (&$groups, $icons) {
       $entryData = [
         'title' => $entry['title'],
-        'alt-title' => $entry['alternative-page-title'],
+        'alt-title' => $entry['alternative_page_title'],
         'url' => $entry['uri'],
       ];
 
@@ -97,7 +97,7 @@ class Categorize extends Tags
           array_push($groupData['category']['entries'], [
             'url' => $groupEntry['url'],
             'title' => $groupEntry['title'],
-            'alternative-page-title' => $groupEntry['alt-title']
+            'alternative_page_title' => $groupEntry['alt-title']
           ]);
         }
       }

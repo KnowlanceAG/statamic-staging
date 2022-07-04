@@ -1058,5 +1058,5 @@ og_description: 'Magisterarbeit schreiben lassen & Hilfe vom akademischen Ghostw
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_abschlussarbeiten
 sitemap_active: true
-alternative-page-title: 'Magisterarbeit schreiben lassen'
+alternative_page_title: 'Magisterarbeit schreiben lassen'
 ---

@@ -103,7 +103,7 @@ sections:
           listable: hidden
           instructions: 'Wird im Browsertab und in den Favoriten angezeigt.'
       -
-        handle: alternative-page-title
+        handle: alternative_page_title
         field:
           input_type: text
           antlers: false
