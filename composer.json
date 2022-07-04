@@ -19,7 +19,7 @@
     "optimoapps/statamic-bard-text-align": "1.0.2",
     "samdark/sitemap": "^2.2",
     "spatie/fork": "^1.1",
-    "spatie/statamic-responsive-images": "2.12.3",
+    "spatie/statamic-responsive-images": "2.12.4",
     "statamic/cms": "3.3.17",
     "statamic/ssg": "1.0.1",
     "uscreen/better-statamic-bard-text-color": "*",
