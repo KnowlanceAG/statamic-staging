@@ -3460,7 +3460,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656434024
+updated_at: 1656678002
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -3491,7 +3491,7 @@ schema_objects: |-
       }
     },{
       "@type": "Question",
-      "name": "Was ist ein "akademischer" Ghostwriter?",
+      "name": "Was ist ein \"akademischer\" Ghostwriter?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Ein sogenannter akademischer Ghostwriter spezialisiert sich dabei auf die Ausfertigung von Mustervorlagen für wissenschaftliche Arbeiten oder akademische Texte und sollte Experte in seiner Fachrichtung sein. Weiterhin sollte er über hinreichende Erfahrung beim Verfassen wissenschaftlicher Arbeiten verfügen."
