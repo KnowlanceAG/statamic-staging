@@ -103,6 +103,17 @@ sections:
           listable: hidden
           instructions: 'Wird im Browsertab und in den Favoriten angezeigt.'
       -
+        handle: alternative-page-title
+        field:
+          input_type: text
+          antlers: false
+          display: 'Alternativer Seiten Titel'
+          type: text
+          icon: text
+          instructions: optional
+          listable: hidden
+          instructions_position: above
+      -
         handle: sitemap_active
         field:
           default: true
