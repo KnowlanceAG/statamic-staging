@@ -132,7 +132,7 @@ page_title: 'BWL - Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1651761142
+updated_at: 1656946603
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1332,4 +1332,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der BWL – sc
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
+alternative-page-title: 'BWL Ghostwriter'
 ---
