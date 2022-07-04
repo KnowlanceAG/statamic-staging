@@ -132,7 +132,7 @@ page_title: 'GWriters • Wirtschaftswissenschaft - Ghostwriter & mehr'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656439656
+updated_at: 1656946476
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1403,4 +1403,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Wirtschaft
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
+alternative-page-title: 'Wirtschaftswissenschaften Ghostwriter'
 ---
