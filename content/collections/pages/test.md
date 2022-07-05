@@ -4,7 +4,7 @@ published: false
 blueprint: pages
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1648469834
+updated_at: 1657009166
 replicator:
   -
     bard:
@@ -167,7 +167,7 @@ teaser:
           -
             icon: weisses_svg.svg
             headline: 'Überschrift 4'
-            tooltip_infotext: 'Kurz Text Tooltip Icon Liste 4'
+            tooltip_infotext: 'Kurz Text Tooltip Icon Liste 41'
   -
     type: paragraph
 page_title: 'test mit version nummer'
