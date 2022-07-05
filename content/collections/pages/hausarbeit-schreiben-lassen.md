@@ -2470,7 +2470,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656512140
+updated_at: 1656945899
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2524,4 +2524,5 @@ schema_objects: |-
   </script>
 sitemap_active: true
 page_title: 'Hausarbeit schreiben lassen • Ghostwriter von GWriters'
+alternative-page-title: 'Hausarbeit schreiben lassen'
 ---

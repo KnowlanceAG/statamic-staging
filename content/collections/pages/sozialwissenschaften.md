@@ -121,11 +121,11 @@ teaser:
               rel: null
         text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/header-so-funktionierts.jpeg
-page_title: 'GWriters • Sozialwissenschaften - Ghostwriter, Lektoren & Coaches'
+page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656512043
+updated_at: 1656946939
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -950,4 +950,5 @@ og_description: 'Sozialwissenschaften studieren? Abschluss und Unterstützung du
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_sozialwissenschaften
 sitemap_active: true
+alternative-page-title: 'Sozialwissenschaften Ghostwriter'
 ---

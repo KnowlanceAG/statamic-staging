@@ -18,8 +18,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6602'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
         text: 'Statistische Analyse durchführen lassen'
   -
     type: heading
@@ -533,7 +533,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656440772
+updated_at: 1656945974
 template: with-side-bar
 meta_title: 'GWriters • Statistische Analyse durchführen lassen'
 meta_description: 'Statistische Analysen durchführen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität.'
@@ -550,4 +550,5 @@ og_description: 'Statistische Analysen durchführen lassen & Hilfe vom akademisc
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_sonstige_arbeiten
 sitemap_active: true
+alternative-page-title: 'Statistische Analyse durchführen lassen'
 ---
