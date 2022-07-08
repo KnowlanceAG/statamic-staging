@@ -1,15 +1,17 @@
 <div class="my-8 grid grid-cols-1 md:grid-cols-2 gap-8">
   {{ if ausrichtung=='bild_text' }}
     <div>
-      {{ bild }}
-        {{ if extension == 'svg' || extension == 'gif' }}
-          <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200"
-            src="{{ url }}" {{ if alt }} alt="
-          {{ bild:alt }}" {{ /if }}>
-        {{ else }}
-          {{ responsive:bild alt="{ alt }" class="h-auto mx-auto" glide:width="width" }}
-        {{ /if }}
-      {{ /bild }}
+      {{ if bild }}
+        {{ bild }}
+          {{ if extension == 'svg' || extension == 'gif' }}
+            <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200"
+              src="{{ url }}" {{ if alt }} alt="
+            {{ bild:alt }}" {{ /if }}>
+          {{ else }}
+            {{ responsive:bild alt="{ alt }" class="h-auto mx-auto" glide:width="width" }}
+          {{ /if }}
+        {{ /bild }}
+      {{ /if }}
     </div>
     <div>
       <p class="text-gray-550">
@@ -23,15 +25,17 @@
         </p>
       </div>
       <div class="order-1 md:order-2">
-        {{ bild }}
-          {{ if extension == 'svg' || extension == 'gif' }}
-            <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200"
-              src="{{ url }}" {{ if alt }} alt="
-            {{ alt }}" {{ /if }}>
-          {{ else }}
-            {{ responsive:bild alt="{ alt }" class="h-auto mx-auto" glide:width="width" }}
-          {{ /if }}
-        {{ /bild }}
+        {{ if bild }}
+          {{ bild }}
+            {{ if extension == 'svg' || extension == 'gif' }}
+              <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200"
+                src="{{ url }}" {{ if alt }} alt="
+              {{ alt }}" {{ /if }}>
+            {{ else }}
+              {{ responsive:bild alt="{ alt }" class="h-auto mx-auto" glide:width="width" }}
+            {{ /if }}
+          {{ /bild }}
+        {{ /if }}
       </div>
   {{ /if }}
 </div>

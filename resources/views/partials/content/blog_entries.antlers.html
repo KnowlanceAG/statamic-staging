@@ -3,9 +3,10 @@
         <div class="bg-gray-300">
             <div class="w-full max-h-56 object-cover overflow-hidden">
                 <a href="{{ url }}">
-                    {{ post_image }}
-                        {{ responsive:post_image alt="{alt}" class=" mb-2" }}
-                    {{ /post_image }}
+                    {{ if post_image }}
+                      {{ post_image }}
+                          {{ responsive:post_image alt="{alt}" class=" mb-2" }}
+                    {{ /if }}
                 </a>
             </div>
             <div class="p-4">

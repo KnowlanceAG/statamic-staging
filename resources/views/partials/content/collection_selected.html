@@ -3,13 +3,15 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {{ entries }}
             <div class="">
-                {{ photo }}
-                    {{ if extension == 'svg' || extension == 'gif' }}
-                        <img class="" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
-                    {{ else }}
-                        {{ responsive:photo alt="{alt}" class="" }}
-                    {{ /if }}
-                {{ /photo }}
+                {{ if photo }}
+                  {{ photo }}
+                      {{ if extension == 'svg' || extension == 'gif' }}
+                          <img class="" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
+                      {{ else }}
+                          {{ responsive:photo alt="{alt}" class="" }}
+                      {{ /if }}
+                  {{ /photo }}
+                {{ /if }}
                 <h3>
                     {{ title }}
                 </h3>
