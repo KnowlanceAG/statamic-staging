@@ -3460,7 +3460,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656678002
+updated_at: 1657532623
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -3472,9 +3472,9 @@ twitter_card_type_page: summary
 template: default
 page_title: 'Ghostwriter von GWriters • Wir schreiben für Sie 📃✍🏼'
 meta_title: 'Ghostwriter von GWriters • Wir schreiben für Sie 📃✍🏼'
-meta_description: 'Ghostwriter für akademische Ansprüche - seit 2012 überzeugen unsere Experten mit diskretem und seriösen Ghostwriting auf akademischem Niveau 🎓'
+meta_description: 'Ghostwriter schreiben Mustervorlagen für Ihre Texte & akademischen Arbeiten -  Seriöses und diskretes Ghostwriting von akademischen Experten 🎓'
 og_title: 'Ghostwriter von GWriters • Wir schreiben für Sie 📃✍🏼'
-og_description: 'Ghostwriter für akademische Ansprüche - seit 2012 überzeugen unsere Experten mit diskretem und seriösen Ghostwriting auf akademischem Niveau 🎓'
+og_description: 'Ghostwriter schreiben Mustervorlagen für Ihre Texte & akademischen Arbeiten -  Seriöses und diskretes Ghostwriting von akademischen Experten 🎓'
 og_image: GWriters-Logo.png
 sitemap_active: true
 schema_objects: |-
