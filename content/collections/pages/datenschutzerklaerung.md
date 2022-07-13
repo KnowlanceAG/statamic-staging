@@ -3,7 +3,7 @@ id: 8e94ca0e-e5de-46b9-908e-d086cd76f0c8
 blueprint: pages
 title: Datenschutzerklärung
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1652884270
+updated_at: 1657698561
 page_title: 'GWriters • Datenschutzerklärung'
 meta_title: 'GWriters • Datenschutzerklärung'
 meta_description: 'Unsere Datenschutzerklärung. GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
@@ -4451,17 +4451,12 @@ replicator:
                 attrs:
                   align: start
               -
-                type: textColor
-                attrs:
-                  color: 'rgb(255, 102, 2)'
-                  hex: '#000'
-              -
                 type: link
                 attrs:
-                  href: 'https://dfactory.eu/about/'
+                  href: 'https://dfactory.co/about/'
                   target: null
                   rel: null
-            text: 'https://dfactory.eu/about/'
+            text: 'https://dfactory.co/about/'
           -
             type: text
             marks:
