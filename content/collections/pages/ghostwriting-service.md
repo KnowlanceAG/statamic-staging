@@ -127,7 +127,7 @@ replicator:
             text: 'Ghostwriting Agentur'
           -
             type: text
-            text: ', welche verschiedene Ghostwriter beschäftigt, angeboten wird. Ghostwriting Service ist ein Überbegriff für alle Dienstleistungen die in diesem Zusammenhang angeboten werden. Dazu können bei größeren Ghostwriting Agenturen auch das Korrektorat, also eine reine '
+            text: ', welche verschiedene Ghostwriter beschäftigt, angeboten wird. Zum Ghostwriting Service gehören bei größeren Ghostwriting Agenturen auch das Korrektorat, also eine reine '
           -
             type: text
             marks:
@@ -153,7 +153,7 @@ replicator:
             text: Lektorat
           -
             type: text
-            text: ' gehören. Das Lektorat bezeichnet ein Angebot, bei dem ein bereits vorliegender Text, zusätzlich zum '
+            text: '. Das Lektorat bezeichnet ein Angebot, bei dem ein bereits vorliegender Text, zusätzlich zum '
           -
             type: text
             marks:
@@ -436,7 +436,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656512671
+updated_at: 1657533758
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -448,9 +448,9 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 teaser_bg: seiten/header-so-funktionierts.jpeg
 meta_title: 'Seriöser und diskreter Ghostwriting Service • GWriters'
-meta_description: 'Ghostwriter Service — seriös und diskret vom Marktführer 🎓 Ghostwriting Service von über 3.000 Autoren 📃✍🏼 seit 2012!'
+meta_description: 'Ghostwriter Service — Professionelle Dienstleistung von seriöser und diskreter Ghostwriting Agentur 🎓 Ghostwriting Service von über 3.000 Autoren 📃✍🏼'
 og_title: 'Seriöser und diskreter Ghostwriting Service • GWriters'
-og_description: 'Ghostwriter Service — seriös und diskret vom Marktführer 🎓 Ghostwriting Service von über 3.000 Autoren 📃✍🏼 seit 2012!'
+og_description: 'Ghostwriter Service — Professionelle Dienstleistung von seriöser und diskreter Ghostwriting Agentur 🎓 Ghostwriting Service von über 3.000 Autoren 📃✍🏼'
 og_image: GWriters-Logo.png
 sitemap_active: true
 ---
