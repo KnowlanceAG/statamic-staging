@@ -46,7 +46,11 @@
                 </div>
                 <div>
                     {{ logo_image }}
-                        <img class="self-center mx-auto p-4" src="{{ url }}" width="{{width}}" height="{{height}}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
+                        {{ if imagelink }}
+                            {{ partial:linkwrap }}
+                                <img class="self-center mx-auto p-4" src="{{ url }}" width="{{width}}" height="{{height}}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
+                            {{ /partial:linkwrap }}
+                        {{ /if }}
                     {{ /logo_image }}
                 </div>
             </div>
