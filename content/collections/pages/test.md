@@ -3,7 +3,7 @@ id: 942c2c8b-0964-473f-bd8d-10426b828eb8
 blueprint: pages
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1658144702
+updated_at: 1658145419
 replicator:
   -
     bard:
@@ -137,6 +137,14 @@ teaser:
             attrs:
               align: center
         text: 'Hier kann ein wunderschöner Einleitungstext stehen. Muss aber nicht.'
+  -
+    type: set
+    attrs:
+      values:
+        type: show_sidebar_mobile
+        custom_sidebar_placement: 'on'
+  -
+    type: paragraph
   -
     type: set
     attrs:
