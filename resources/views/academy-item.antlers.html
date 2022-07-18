@@ -46,7 +46,9 @@
                 {{ /if }}
             </div>
             <aside class="my-8">
+              {{ yield:sidebar }}
                 {{ partial src="partials/sidebar" }}
+              {{ /yield:sidebar }}
             </aside>
         </div>
     </div>
