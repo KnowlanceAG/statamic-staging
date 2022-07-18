@@ -22,7 +22,9 @@
 
             </div>
             <aside class="mb-8">
+              {{ yield:sidebar }}
                 {{ partial src="partials/sidebar" }}
+              {{ /yield:sidebar }}
             </aside>
         </div>
     </div>

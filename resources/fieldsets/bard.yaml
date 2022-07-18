@@ -175,6 +175,11 @@ fields:
           fields:
             -
               import: custom-svg
+        show_sidebar_mobile:
+          display: 'Sidebar hier darstellen'
+          fields:
+            -
+              import: sidebar_element
       container: assets
       enable_input_rules: true
       enable_paste_rules: true
