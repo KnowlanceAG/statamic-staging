@@ -176,7 +176,7 @@ fields:
             -
               import: custom-svg
         show_sidebar_mobile:
-          display: 'Sidebar hier darstellen'
+          display: 'Sidebar mobil hier darstellen'
           fields:
             -
               import: sidebar_element

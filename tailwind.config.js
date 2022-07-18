@@ -43,7 +43,8 @@ module.exports = {
         'md:px-40',
         'lg:px-24',
         '2xl:px-32',
-        'rotate-180'
+        'rotate-180',
+        'lg:block'
       ]
     }
   },
