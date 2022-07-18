@@ -35,6 +35,11 @@ sections:
               fields:
                 -
                   import: spacer
+            show_sidebar_mobile:
+              display: 'Sidebar mobil hier darstellen'
+              fields:
+                -
+                  import: sidebar_element
           buttons:
             - h1
             - h2
