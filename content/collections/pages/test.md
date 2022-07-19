@@ -1,13 +1,20 @@
 ---
 id: 942c2c8b-0964-473f-bd8d-10426b828eb8
-published: false
 blueprint: pages
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1658229879
+updated_at: 1658230111
 replicator:
   -
     bard:
+      -
+        type: set
+        attrs:
+          values:
+            type: show_sidebar_mobile
+            custom_sidebar_placement: 'on'
+      -
+        type: paragraph
       -
         type: set
         attrs:
@@ -141,12 +148,6 @@ teaser:
   -
     type: paragraph
   -
-    type: set
-    attrs:
-      values:
-        type: spacer
-        padding-y: '81'
-  -
     type: paragraph
   -
     type: set
@@ -157,7 +158,8 @@ teaser:
           -
             icon: weisses_svg.svg
             headline: 'Überschrift 1'
-            tooltip_infotext: 'Kurz Text Tooltip Icon Liste 1'
+            tooltip_infotext: |
+              Kurz Text Tooltip Icon Liste 1
           -
             icon: weisses_svg.svg
             headline: 'Überschrift 2'
