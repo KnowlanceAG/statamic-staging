@@ -130,9 +130,9 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Ghostwriter Soziologie, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
-template: with-side-bar
+template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656946487
+updated_at: 1658324831
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -149,24 +149,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Soziologie Ghostwriter'
               -
                 type: paragraph
                 content:
@@ -210,6 +192,12 @@ replicator:
                         attrs:
                           align: start
                     text: "\_und akademische Freelancer, um sich bei der Auswertung von Daten oder den wissenschaftlichen Texten unterstützen zu lassen. Gerade im Bereich Statistik können die Soziologie Ghostwriter von GWriters sehr gut Unterstützung leisten und Ihnen eine hervorragende methodische Hilfestellungen geben. Denn aus der Erfahrung her stellt gerade die statistische Auswertung soziologischer eine große Schwierigkeit dar für jeden Soziologie Studenten."
+              -
+                type: set
+                attrs:
+                  values:
+                    type: show_sidebar_mobile
+                    custom_sidebar_placement: 'on'
               -
                 type: paragraph
                 content:
@@ -265,6 +253,24 @@ replicator:
                   values:
                     type: video
                     video: 'https://youtu.be/ESfhBQQX3qk'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Soziologie Ghostwriter'
               -
                 type: paragraph
                 content:
