@@ -130,9 +130,9 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Kommunikationswissenschaften Ghostwriter, Lektoren & mehr • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
-template: with-side-bar
+template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656946822
+updated_at: 1658324916
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -165,6 +165,12 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Unser Team von erfahrenen Akademikern aus der Kommunikationswissenschaft unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Mustervorlage für eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen umfassenden individuellen Beistand.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: show_sidebar_mobile
+                    custom_sidebar_placement: 'on'
               -
                 type: paragraph
                 content:
