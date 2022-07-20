@@ -130,9 +130,9 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Bauingenieurwesen Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
-template: with-side-bar
+template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1657793671
+updated_at: 1658325001
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -164,7 +164,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Der gesellschaftliche Alltag wird immer nachhaltiger ausgerichtet. Hier spielt der Studiengang Bauingenieurwesen in der heutigen modernen Welt eine wichtige Rolle, denn die deutsche Gesellschaft wird immer digitaler und ist zunehmend mobil. Auch die Industrieanlagen, Wohnungsbauprojekte oder riesigen Windparks, die uns täglich begegnen, haben Bauingenieure geplant, projektiert und realisiert. Des Weiteren beschäftigen sich Bauingenieure mit allen Arten von Bauwerken. Sie liefern Informationen zu Planung, Technik, Statik und Funktionalität dieser Bauten. Diese wenigen Begriffe zeigen auch schon die große Vielfalt in den Tätigkeitsfeldern, mit der sich Bauingenieure beschäftigen. Daher umfasst das Studium Bauingenieurwesen viele zukunftweisende Themen. Auch an der Grafik ist es zu erkennen, dass das Bauingenieurwesen Studium in den Jahren 2019 und 2020 sehr gefragt war. Auch zu erkennen ist, dass der Anteil an Bauingenieurwesen-Studenten von Jahr zu Jahr zunimmt.'
+                    text: 'Der gesellschaftliche Alltag wird immer nachhaltiger ausgerichtet. Hier spielt der Studiengang Bauingenieurwesen in der heutigen modernen Welt eine wichtige Rolle, denn die deutsche Gesellschaft wird immer digitaler und ist zunehmend mobil. Auch die Industrieanlagen, Wohnungsbauprojekte oder riesigen Windparks, die uns täglich begegnen, haben Bauingenieure geplant, projektiert und realisiert. Des Weiteren beschäftigen sich Bauingenieure mit allen Arten von Bauwerken. Sie liefern Informationen zu Planung, Technik, Statik und Funktionalität dieser Bauten.'
               -
                 type: set
                 attrs:
@@ -174,6 +174,28 @@ replicator:
                       - seiten/fachrichtungen/Anzahl-der-Studierenden-2.png
                     img_size: w-3/4
                     float: mx-auto
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: 'Diese wenigen Begriffe zeigen auch schon die große Vielfalt in den Tätigkeitsfeldern, mit der sich Bauingenieure beschäftigen. Daher umfasst das Studium Bauingenieurwesen viele zukunftweisende Themen. Auch an der Grafik ist es zu erkennen, dass das Bauingenieurwesen Studium in den Jahren 2019 und 2020 sehr gefragt war. Auch zu erkennen ist, dass der Anteil an Bauingenieurwesen-Studenten von Jahr zu Jahr zunimmt.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: show_sidebar_mobile
+                    custom_sidebar_placement: 'on'
               -
                 type: heading
                 attrs:
