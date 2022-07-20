@@ -159,6 +159,12 @@ replicator:
             type: text
             text: ' und dem Aufbau einer Examensarbeit (Einleitung, Hauptteil, Fazit). Ein Coaching bei der Examensarbeit kann auch bei der erfolgreichen Fertigstellung einer bereits begonnenen Arbeit unterstützend wirken, sie zu einem bestimmten Punkt vorantreiben oder ein Konzept mit Lösungsansätzen für die Erfüllung der gestellten Aufgabe entwerfen. Hierbei kann zum Beispiel einen Gliederungsentwurf oder auch eine Vorlage für Textergänzungen erstellt werden.'
       -
+        type: set
+        attrs:
+          values:
+            type: show_sidebar_mobile
+            custom_sidebar_placement: 'on'
+      -
         type: paragraph
         content:
           -
@@ -1327,8 +1333,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1656598432
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1658325532
 meta_title: 'Examensarbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Examensarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Examensarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
