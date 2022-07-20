@@ -133,6 +133,12 @@ replicator:
             type: text
             text: 'Das Schreiben, Lektorieren und Korrigieren von Essays und anderen Kurztexten gehört zu den Haupttätigkeiten vieler Autoren von GWriters. Diese können sich durch langjährige Erfahrung schnell in verschiedene Themengebiete einarbeiten und schaffen es so, die wichtigsten Informationen in einem Essay präzise zu bündeln.'
       -
+        type: set
+        attrs:
+          values:
+            type: show_sidebar_mobile
+            custom_sidebar_placement: 'on'
+      -
         type: paragraph
         content:
           -
@@ -604,7 +610,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656945890
+updated_at: 1658325506
 meta_title: 'Essay schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Essay schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
