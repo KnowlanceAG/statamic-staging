@@ -211,6 +211,12 @@ replicator:
             type: text
             text: 'Es ist ebenso möglich, dass der Ghostwriter bei einer bereits begonnenen Arbeit Hilfe zur Diplomarbeit leistet. Zudem bietet er oftmals das Lektorat und die Korrektur der Diplomarbeit, die bereits durch den Studenten fertiggestellt wurde, an. Nachfolgend kann eine umfassende Plagiatsprüfung erfolgen, um vergessene Fußnoten oder andere Unstimmigkeiten zu vermeiden. Zudem ist es möglich, dass Studenten von akademischen Ghostwritern eine Mustervorlage für ihre Diplomarbeit schreiben lassen und diese Ghostwriter-Diplomarbeit als Vorlage für ihre eigene Arbeit nutzen.'
       -
+        type: set
+        attrs:
+          values:
+            type: show_sidebar_mobile
+            custom_sidebar_placement: 'on'
+      -
         type: paragraph
         content:
           -
@@ -1111,9 +1117,9 @@ replicator:
     type: editor
     enabled: true
     show_as_card: false
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1656598420
-template: with-side-bar
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1658325575
+template: default
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
