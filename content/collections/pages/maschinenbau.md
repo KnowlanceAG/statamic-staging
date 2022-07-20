@@ -130,9 +130,9 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Ghostwriter Maschinenbau, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
-template: with-side-bar
+template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656946499
+updated_at: 1658324875
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -297,6 +297,12 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'sowie auch bei klassischen Hausarbeiten und Bachelorarbeit im Maschinenbau und anderen wissenschaftlichen Arbeiten durch die Erstellung von Mustervorlagen, die alle Anforderungen akademischer Arbeiten erfüllen. Dabei begleiten die Ghostwriter von GWriters Sie sowohl im Grundstudium, als auch dann später im Hauptstudium sowie in Vertiefungsrichtungen und im Maschinenbau-Master.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: show_sidebar_mobile
+                    custom_sidebar_placement: 'on'
               -
                 type: paragraph
                 content:
