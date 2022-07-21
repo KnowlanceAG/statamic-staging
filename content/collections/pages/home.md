@@ -106,7 +106,7 @@ teaser:
         text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1651009038
+updated_at: 1658400319
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1544,98 +1544,7 @@ replicator:
                     text: 'Erstellung von akademischen Texten'
                   -
                     type: text
-                    text: ' jeder Art, z.B. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/doktorarbeit
-                          target: null
-                          rel: null
-                    text: Doktorarbeiten
-                  -
-                    type: text
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/magisterarbeit
-                          target: null
-                          rel: null
-                    text: Magisterarbeiten
-                  -
-                    type: text
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Masterarbeiten
-                  -
-                    type: text
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Bachelorarbeiten
-                  -
-                    type: text
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/diplomarbeit
-                          target: null
-                          rel: null
-                    text: Diplomarbeiten
-                  -
-                    type: text
-                    text: ', '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/facharbeit
-                          target: null
-                          rel: null
-                    text: Facharbeiten
-                  -
-                    type: text
-                    text: ' und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/hausarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: Hausarbeiten
-                  -
-                    type: text
-                    text: .
+                    text: ' jeder Art, z.B. Doktorarbeiten, Magisterarbeiten, Masterarbeiten, Bachelorarbeiten, Diplomarbeiten, Facharbeiten und Hausarbeiten.'
               -
                 type: paragraph
                 content:
