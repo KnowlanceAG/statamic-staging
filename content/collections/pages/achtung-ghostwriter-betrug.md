@@ -1548,12 +1548,6 @@ replicator:
                 attrs:
                   color: 'rgb(255, 102, 2)'
                   hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting
-                  target: null
-                  rel: null
             text: Ghostwriting
           -
             type: text
@@ -1626,7 +1620,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/ghostwriter-werden-voraussetzungen
+                  href: /ghostwriter-werden
                   target: null
                   rel: null
             text: 'Ghostwriter werden'
@@ -1885,7 +1879,7 @@ replicator:
                   href: /blog/ghostwriter-mustervorlage
                   target: null
                   rel: null
-            text: Mustervorlage
+            text: 'Mustervorlage von Ghostwriter'
           -
             type: text
             marks:
@@ -2196,7 +2190,7 @@ replicator:
     enabled: true
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1658412875
+updated_at: 1658416088
 page_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_description: 'Hier finden Sie aktuelle Informationen zu bekannten Betrüger-Websites im akademischen Ghostwriting. Verlassen Sie sich nur auf seriöse Ghostwriting Agenturen!'
