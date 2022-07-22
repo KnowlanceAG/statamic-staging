@@ -1167,7 +1167,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /anfrage
+                          href: /kontakt
                           target: null
                           rel: null
                     text: 'unser Kontaktformular'
@@ -2009,7 +2009,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Oft haben Studierende Schwierigkeiten beim Zitieren von Quellen, sowohl im Literaturverzeichnis als auch in den Fußnoten. Wie ein Zitat korrekt aufgebaut wird und welche Regeln hierbei eingehalten werden müssen, erfahren Sie in einzelnen Etappen '
+                    text: 'Oft haben Studierende Schwierigkeiten beim Zitieren von Quellen, sowohl im Literaturverzeichnis als auch in den Fußnoten. Sie wissen oft nicht wie ein '
                   -
                     type: text
                     marks:
@@ -2024,7 +2024,7 @@ replicator:
                           href: /blog/literaturquellen-richtig-zitieren
                           target: null
                           rel: null
-                    text: hier
+                    text: 'Zitat korrekt aufgebaut'
                   -
                     type: text
                     marks:
@@ -2033,7 +2033,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: .
+                    text: ' wird und welche Regeln hierbei eingehalten werden müssen.'
             show_as_card: true
           -
             bard:
@@ -2827,8 +2827,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656945997
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1658494791
 template: default
 use_meta_keywords: false
 no_index_page: false
