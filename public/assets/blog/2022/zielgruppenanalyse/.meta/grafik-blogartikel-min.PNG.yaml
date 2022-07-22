@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'abbildungen blogartikel'
 size: 25422
 last_modified: 1658489950
 width: 657
