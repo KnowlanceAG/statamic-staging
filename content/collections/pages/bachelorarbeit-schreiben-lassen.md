@@ -1838,7 +1838,7 @@ replicator:
                                   href: /gwriters-akademie/abbildungsverzeichnis
                                   target: null
                                   rel: null
-                            text: Abbildungs
+                            text: Abbildungsverzeichnis
                           -
                             type: text
                             marks:
@@ -1847,7 +1847,7 @@ replicator:
                                 attrs:
                                   color: '#000!important'
                                   hex: '#000'
-                            text: '- und '
+                            text: ' und '
                           -
                             type: text
                             marks:
@@ -2828,7 +2828,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1658495380
+updated_at: 1658495723
 template: default
 use_meta_keywords: false
 no_index_page: false
