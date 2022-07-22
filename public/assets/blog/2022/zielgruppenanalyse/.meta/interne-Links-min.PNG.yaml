@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'interne links blog'
 size: 20144
 last_modified: 1658489953
 width: 650
