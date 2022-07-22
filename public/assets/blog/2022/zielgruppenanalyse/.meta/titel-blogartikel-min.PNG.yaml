@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'titel blogartikel'
 size: 74364
 last_modified: 1658490213
 width: 666
