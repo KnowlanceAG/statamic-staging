@@ -2190,7 +2190,7 @@ replicator:
     enabled: true
 template: with-side-bar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1658416088
+updated_at: 1658486434
 page_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_description: 'Hier finden Sie aktuelle Informationen zu bekannten Betrüger-Websites im akademischen Ghostwriting. Verlassen Sie sich nur auf seriöse Ghostwriting Agenturen!'
