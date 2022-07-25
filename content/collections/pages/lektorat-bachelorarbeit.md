@@ -1,7 +1,7 @@
 ---
 id: 3fbdae79-f1df-4c4d-88b4-274db59e6461
 blueprint: pages
-title: 'Bachelorarbeit (Dupliziert)'
+title: 'Lektorat Bachelorarbeit'
 teaser:
   -
     type: heading
@@ -22,7 +22,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Bachelorarbeit schreiben lassen'
+        text: 'Lektorat Bachelorarbeit'
   -
     type: heading
     attrs:
@@ -37,7 +37,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Mustervorlagen von akademischen Ghostwritern für Ihre Bachelorarbeit'
+        text: 'Bachelorarbeit lektorieren lassen - von akademischen Experten'
   -
     type: set
     attrs:
@@ -61,11 +61,11 @@ teaser:
           -
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
-            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre lektorierte Arbeit zum vereinbarten Datum in finaler Form.'
           -
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
-            tooltip_infotext: 'Die Mustervorlage für Ihre Arbeit wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+            tooltip_infotext: 'Ihre Arbeit wird von akademischen Experten auf höchstem Niveau lektoriert, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
@@ -2827,8 +2827,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1658495723
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1658776875
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2838,10 +2838,10 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-meta_title: 'Bachelorarbeit schreiben lassen • Mustervorlage von GWriters'
-meta_description: 'Mustervorlage für Bachelorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
-og_title: 'Bachelorarbeit schreiben lassen • Mustervorlage von GWriters'
-og_description: 'Mustervorlage für Bachelorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+meta_title: 'Lektorat Bachelorarbeit • Experten von GWriters'
+meta_description: 'Lektorat Bachelorarbeit & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+og_title: 'Lektorat Bachelorarbeit • Experten von GWriters'
+og_description: 'Lektorat Bachelorarbeit & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_abschlussarbeiten
 schema_objects: |-
