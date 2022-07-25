@@ -2,8 +2,8 @@
 id: b1510f04-f5f7-4d15-9be4-fc69c7add6e0
 blueprint: pages
 title: 'Das Unternehmen'
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656330346
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1658750380
 teaser:
   -
     type: heading
@@ -88,7 +88,13 @@ replicator:
         content:
           -
             type: text
-            text: 'Im Gegensatz zu nicht spezialisierten Vermittlungsportalen für '
+            text: 'Im Gegensatz zu nicht spezialisierten Vermittlungsportalen für Freelancer aller Art, wie z.B. Upwork.com oder Freelancer.com, unterscheiden sich die Anforderungen an einen Online Service für akademische Freelancer jedoch durch die Notwendigkeiten unbedingter Anonymität aller Beteiligten, juristischer Absicherung und konsequenter Qualitätskontrolle.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Entwickelt und betrieben wird die '
           -
             type: text
             marks:
@@ -98,16 +104,10 @@ replicator:
                   href: /
                   target: null
                   rel: null
-            text: Freelancer
+            text: 'GWriters Web-Plattform'
           -
             type: text
-            text: ' aller Art, wie z.B. Upwork.com oder Freelancer.com, unterscheiden sich die Anforderungen an einen Online Service für akademische Freelancer jedoch durch die Notwendigkeiten unbedingter Anonymität aller Beteiligten, juristischer Absicherung und konsequenter Qualitätskontrolle.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Entwickelt und betrieben wird die GWriters Web-Plattform von der GWriters International Inc., welche unter dem inzwischen international bekannten Brand "GWriters" auch lokale Plattformen für verschiedene weitere europäischen Länder bereitstellt. Das Portal wurde im Jahr 2011 von einer Gruppe junger Akademiker gegründet und bereits innerhalb weniger Monate durch schlagkräftige Webentwickler & Online-Marketer verstärkt. Mithilfe eines Finanzinvestments konnte die Entwicklung einer allen vorgenannten Anforderungen gerecht werdenden Webapplikation sichergestellt werden. Gleichzeitig gelang es kurzfristig eine grosse Zahl von akademischen Freelancern für die Möglichkeiten einer auf ihre Bedürfnisse spezialisierten Internet-Plattform zu begeistern.'
+            text: ' von der GWriters International Inc., welche unter dem inzwischen international bekannten Brand "GWriters" auch lokale Plattformen für verschiedene weitere europäischen Länder bereitstellt. Das Portal wurde im Jahr 2011 von einer Gruppe junger Akademiker gegründet und bereits innerhalb weniger Monate durch schlagkräftige Webentwickler & Online-Marketer verstärkt. Mithilfe eines Finanzinvestments konnte die Entwicklung einer allen vorgenannten Anforderungen gerecht werdenden Webapplikation sichergestellt werden. Gleichzeitig gelang es kurzfristig eine große Zahl von akademischen Freelancern für die Möglichkeiten einer auf ihre Bedürfnisse spezialisierten Internet-Plattform zu begeistern.'
       -
         type: paragraph
         content:
