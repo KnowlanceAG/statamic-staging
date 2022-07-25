@@ -3075,5 +3075,5 @@ schema_objects: |-
   }
   </script>
 sitemap_active: true
-alternative-page-title: 'Seminararbeit schreiben lassen'
+alternative_page_title: 'Seminararbeit schreiben lassen'
 ---

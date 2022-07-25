@@ -2924,5 +2924,5 @@ schema_objects: |-
   }
   </script>
 sitemap_active: true
-alternative-page-title: 'Facharbeit schreiben lassen'
+alternative_page_title: 'Facharbeit schreiben lassen'
 ---

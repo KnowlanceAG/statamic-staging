@@ -922,5 +922,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Sozialen A
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_sozialwissenschaften
 sitemap_active: true
-alternative-page-title: 'Soziale Arbeit Ghostwriter'
+alternative_page_title: 'Soziale Arbeit Ghostwriter'
 ---

@@ -1056,5 +1056,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der VWL – sc
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
-alternative-page-title: 'VWL Ghostwriter'
+alternative_page_title: 'VWL Ghostwriter'
 ---

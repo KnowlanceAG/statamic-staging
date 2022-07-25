@@ -1223,5 +1223,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Zahnmedizi
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_medizinische_fachrichtungen
 sitemap_active: true
-alternative-page-title: 'Zahnmedizin Ghostwriter'
+alternative_page_title: 'Zahnmedizin Ghostwriter'
 ---

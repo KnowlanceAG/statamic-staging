@@ -1536,5 +1536,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter im Marketings 
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
-alternative-page-title: 'Marketing Ghostwriter'
+alternative_page_title: 'Marketing Ghostwriter'
 ---

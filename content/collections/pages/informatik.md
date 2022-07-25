@@ -2092,5 +2092,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Informatik
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_technische_fachrichtungen
 sitemap_active: true
-alternative-page-title: 'Informatik Ghostwriter'
+alternative_page_title: 'Informatik Ghostwriter'
 ---

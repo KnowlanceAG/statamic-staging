@@ -2524,5 +2524,5 @@ schema_objects: |-
   </script>
 sitemap_active: true
 page_title: 'Hausarbeit schreiben lassen • Ghostwriter von GWriters'
-alternative-page-title: 'Hausarbeit schreiben lassen'
+alternative_page_title: 'Hausarbeit schreiben lassen'
 ---

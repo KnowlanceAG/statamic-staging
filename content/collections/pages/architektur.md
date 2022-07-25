@@ -1018,5 +1018,5 @@ og_image: GWriters-Logo.png
 themengruppe: g_technische_fachrichtungen
 fachrichtungsgruppe: g_technische_fachrichtungen
 sitemap_active: true
-alternative-page-title: 'Architektur Ghostwriter'
+alternative_page_title: 'Architektur Ghostwriter'
 ---

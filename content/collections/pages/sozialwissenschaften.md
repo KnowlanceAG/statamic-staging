@@ -956,5 +956,5 @@ og_description: 'Sozialwissenschaften studieren? Abschluss und Unterstützung du
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_sozialwissenschaften
 sitemap_active: true
-alternative-page-title: 'Sozialwissenschaften Ghostwriter'
+alternative_page_title: 'Sozialwissenschaften Ghostwriter'
 ---

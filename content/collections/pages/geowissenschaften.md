@@ -1143,5 +1143,5 @@ og_description: 'Geowissenschaften studieren? Abschluss und Unterstützung durch
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_naturwissenschaften
 sitemap_active: true
-alternative-page-title: 'Geowissenschaften Ghostwriter'
+alternative_page_title: 'Geowissenschaften Ghostwriter'
 ---

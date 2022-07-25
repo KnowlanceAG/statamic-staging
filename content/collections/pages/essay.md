@@ -388,5 +388,5 @@ og_description: 'Essay schreiben lassen & Hilfe vom akademischen Ghostwriter –
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_studienarbeiten
 sitemap_active: true
-alternative-page-title: 'Essay schreiben lassen'
+alternative_page_title: 'Essay schreiben lassen'
 ---

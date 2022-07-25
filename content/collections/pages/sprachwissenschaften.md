@@ -979,5 +979,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Sprachwiss
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_sozialwissenschaften
 sitemap_active: true
-alternative-page-title: 'Sprachwissenschaften Ghostwriter'
+alternative_page_title: 'Sprachwissenschaften Ghostwriter'
 ---

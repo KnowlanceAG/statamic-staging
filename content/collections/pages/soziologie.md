@@ -1440,5 +1440,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Soziologie
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_sozialwissenschaften
 sitemap_active: true
-alternative-page-title: 'Soziologie Ghostwriter'
+alternative_page_title: 'Soziologie Ghostwriter'
 ---

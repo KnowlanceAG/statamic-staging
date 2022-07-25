@@ -1128,5 +1128,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Medizin â€
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_medizinische_fachrichtungen
 sitemap_active: true
-alternative-page-title: 'Ghostwriter Medizin'
+alternative_page_title: 'Ghostwriter Medizin'
 ---

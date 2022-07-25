@@ -718,5 +718,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Philosophi
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_geisteswissenschaften
 sitemap_active: true
-alternative-page-title: 'Philosophie Ghostwriter'
+alternative_page_title: 'Philosophie Ghostwriter'
 ---

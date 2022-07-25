@@ -958,5 +958,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Wirtschaft
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
-alternative-page-title: 'Wirtschaftsinformatik Ghostwriter'
+alternative_page_title: 'Wirtschaftsinformatik Ghostwriter'
 ---

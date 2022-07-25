@@ -2262,5 +2262,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Jura – s
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_geisteswissenschaften
 sitemap_active: true
-alternative-page-title: 'Jura Ghostwriter'
+alternative_page_title: 'Jura Ghostwriter'
 ---

@@ -509,5 +509,5 @@ og_description: 'Lernskript schreiben lassen & Hilfe vom akademischen Ghostwrite
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_sonstige_arbeiten
 sitemap_active: true
-alternative-page-title: 'Lernskript schreiben lassen'
+alternative_page_title: 'Lernskript schreiben lassen'
 ---

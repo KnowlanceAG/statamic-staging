@@ -2185,5 +2185,5 @@ og_description: 'Professionelle Hilfe durch Kunst Ghostwriter und akademische Ex
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_geisteswissenschaften
 sitemap_active: true
-alternative-page-title: 'Kunst Ghostwriter'
+alternative_page_title: 'Kunst Ghostwriter'
 ---

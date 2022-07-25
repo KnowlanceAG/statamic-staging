@@ -2897,5 +2897,5 @@ schema_objects: |-
   </script>
 sitemap_active: true
 page_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
-alternative-page-title: 'Doktorarbeit schreiben lassen'
+alternative_page_title: 'Doktorarbeit schreiben lassen'
 ---

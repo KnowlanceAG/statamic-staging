@@ -787,5 +787,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Elektrotec
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_technische_fachrichtungen
 sitemap_active: true
-alternative-page-title: 'Elektrotechnik Ghostwriter'
+alternative_page_title: 'Elektrotechnik Ghostwriter'
 ---

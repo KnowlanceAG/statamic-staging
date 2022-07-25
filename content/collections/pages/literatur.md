@@ -996,5 +996,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Literatur 
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_geisteswissenschaften
 sitemap_active: true
-alternative-page-title: 'Literatur Ghostwriter'
+alternative_page_title: 'Literatur Ghostwriter'
 ---

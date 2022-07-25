@@ -543,5 +543,5 @@ og_description: 'eBook schreiben lassen & Hilfe vom akademischen Ghostwriter –
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_sonstige_arbeiten
 sitemap_active: true
-alternative-page-title: 'eBook schreiben lassen'
+alternative_page_title: 'eBook schreiben lassen'
 ---

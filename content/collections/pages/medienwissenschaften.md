@@ -975,5 +975,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Medienwiss
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
-alternative-page-title: 'Medienwissenschaften Ghostwriter'
+alternative_page_title: 'Medienwissenschaften Ghostwriter'
 ---

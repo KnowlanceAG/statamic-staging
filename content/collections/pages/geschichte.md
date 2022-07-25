@@ -994,5 +994,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Geschichte
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_geisteswissenschaften
 sitemap_active: true
-alternative-page-title: 'Geschichte Ghostwriter'
+alternative_page_title: 'Geschichte Ghostwriter'
 ---

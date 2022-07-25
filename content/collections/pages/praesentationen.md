@@ -2481,5 +2481,5 @@ og_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghost
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_sonstige_arbeiten
 sitemap_active: true
-alternative-page-title: 'Präsentationen erstellen lassen'
+alternative_page_title: 'Präsentationen erstellen lassen'
 ---

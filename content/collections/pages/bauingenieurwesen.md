@@ -2918,5 +2918,5 @@ og_description: 'Bauingenieurwesen studieren? Ablauf und Abschluss-Hilfe durch E
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_technische_fachrichtungen
 sitemap_active: true
-alternative-page-title: 'Bauingenieurwesen Ghostwriter'
+alternative_page_title: 'Bauingenieurwesen Ghostwriter'
 ---

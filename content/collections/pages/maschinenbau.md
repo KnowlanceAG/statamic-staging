@@ -1277,5 +1277,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter im Maschinenba
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_technische_fachrichtungen
 sitemap_active: true
-alternative-page-title: 'Maschinenbau Ghostwriter'
+alternative_page_title: 'Maschinenbau Ghostwriter'
 ---

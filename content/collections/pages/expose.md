@@ -1623,5 +1623,5 @@ og_title: 'GWriters • Mustervorlage für Exposé schreiben lassen'
 og_description: 'Mustervorlage für Exposé schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-alternative-page-title: 'Exposé schreiben lassen'
+alternative_page_title: 'Exposé schreiben lassen'
 ---

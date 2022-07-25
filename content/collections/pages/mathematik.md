@@ -782,5 +782,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Mathematik
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_naturwissenschaften
 sitemap_active: true
-alternative-page-title: 'Mathematik Ghostwriter'
+alternative_page_title: 'Mathematik Ghostwriter'
 ---

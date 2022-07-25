@@ -1105,5 +1105,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Kommunikat
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_sozialwissenschaften
 sitemap_active: true
-alternative-page-title: 'Kommunikationswissenschaften Ghostwriter'
+alternative_page_title: 'Kommunikationswissenschaften Ghostwriter'
 ---

@@ -3251,5 +3251,5 @@ og_description: 'Erziehungswissenschaften studieren? Abschluss und Hilfe durch E
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_sozialwissenschaften
 sitemap_active: true
-alternative-page-title: 'Erziehungswissenschaften Ghostwriter'
+alternative_page_title: 'Erziehungswissenschaften Ghostwriter'
 ---

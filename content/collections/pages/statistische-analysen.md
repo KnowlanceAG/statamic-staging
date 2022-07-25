@@ -556,5 +556,5 @@ og_description: 'Statistische Analysen durchführen lassen & Hilfe vom akademisc
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_sonstige_arbeiten
 sitemap_active: true
-alternative-page-title: 'Statistische Analyse durchführen lassen'
+alternative_page_title: 'Statistische Analyse durchführen lassen'
 ---

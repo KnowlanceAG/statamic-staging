@@ -1013,5 +1013,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Biologie â
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_naturwissenschaften
 sitemap_active: true
-alternative-page-title: 'Biologie Ghostwriter'
+alternative_page_title: 'Biologie Ghostwriter'
 ---

@@ -2502,5 +2502,5 @@ schema_objects: |-
   </script>
 sitemap_active: true
 page_title: 'Masterarbeit schreiben lassen • Ghostwriting von GWriters'
-alternative-page-title: 'Masterarbeit schreiben lassen'
+alternative_page_title: 'Masterarbeit schreiben lassen'
 ---

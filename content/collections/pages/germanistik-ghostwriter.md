@@ -2591,5 +2591,5 @@ og_description: 'Germanistik studieren? Abschluss und Unterstützung durch Exper
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_geisteswissenschaften
 sitemap_active: true
-alternative-page-title: 'Germanistik Ghostwriter'
+alternative_page_title: 'Germanistik Ghostwriter'
 ---

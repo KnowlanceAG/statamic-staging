@@ -896,5 +896,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Geologie â
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_naturwissenschaften
 sitemap_active: true
-alternative-page-title: 'Geologie Ghostwriter'
+alternative_page_title: 'Geologie Ghostwriter'
 ---

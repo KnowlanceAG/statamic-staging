@@ -1498,5 +1498,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Psychologi
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_medizinische_fachrichtungen
 sitemap_active: true
-alternative-page-title: 'Ghostwriter Psychologie'
+alternative_page_title: 'Ghostwriter Psychologie'
 ---

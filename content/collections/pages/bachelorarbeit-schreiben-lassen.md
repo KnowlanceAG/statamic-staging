@@ -2881,5 +2881,5 @@ schema_objects: |-
   }
   </script>
 sitemap_active: true
-alternative-page-title: 'Bachelorarbeit schreiben lassen'
+alternative_page_title: 'Bachelorarbeit schreiben lassen'
 ---
