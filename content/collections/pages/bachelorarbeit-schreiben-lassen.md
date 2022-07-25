@@ -483,16 +483,26 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Einen weiteren Vorteil bietet Ihnen das'
+                    text: 'Einen weiteren Vorteil bieten Ihnen das'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: ' Lektorat '
+                    text: ' '
                   -
                     type: text
-                    text: und
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat/lektorat-bachelorarbeit
+                          target: null
+                          rel: null
+                    text: 'Lektorat Ihrer Bachelorarbeit'
+                  -
+                    type: text
+                    text: ', das'
                   -
                     type: text
                     marks:
@@ -2827,8 +2837,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1658495723
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1658783824
 template: default
 use_meta_keywords: false
 no_index_page: false
