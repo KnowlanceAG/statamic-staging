@@ -43,26 +43,23 @@ class Categorize extends Tags
     $groups = [];
     $icons = $this->categoryIcons();
 
-    $entryCollection = $this->context->get('eintraege')->value()->toArray();
+    $entryCollection = $this->context->get('eintraege')->value()->get()->toArray();
 
     $mapped = array_map(function ($entry) use (&$groups, $icons) {
-
-      $entryArr = $entry->toAugmentedArray();
-
       $entryData = [
-        'title' => $entryArr['title'],
-        'alternative_page_title' => $entryArr['alternative_page_title'],
-        'url' => $entryArr['uri'],
+        'title' => $entry['title'],
+        'alternative_page_title' => $entry['alternative_page_title'],
+        'url' => $entry['uri'],
       ];
 
-      $fachrichtungsgruppe = $entryArr['fachrichtungsgruppe'];
-      if ($fachrichtungsgruppe->value('label')->label()) {
-        $entryData['group'] = $fachrichtungsgruppe->value('label')->label();
+      $fachrichtungsgruppe = $entry['fachrichtungsgruppe'];
+      if ($fachrichtungsgruppe['label']) {
+        $entryData['group'] = $fachrichtungsgruppe['label'];
       }
 
-      $arbeitsgruppe = $entryArr['arbeitsgruppe'];
-      if ($arbeitsgruppe->value('label')->label()) {
-        $entryData['group'] = $arbeitsgruppe->value('label')->label();
+      $arbeitsgruppe = $entry['arbeitsgruppe'];
+      if ($arbeitsgruppe['label']) {
+        $entryData['group'] = $arbeitsgruppe['label'];
       }
 
       if (array_key_exists('group', $entryData)) {
