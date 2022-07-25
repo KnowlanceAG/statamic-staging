@@ -280,7 +280,20 @@ replicator:
                     text: 'Lektorat Ihrer Bachelorarbeit'
                   -
                     type: text
-                    text: ' beauftragen, sollten Sie den konkreten Ablauf kennen. Das Lektorat ergänzt die Leistungen eines Korrektorats und sorgt für den wissenschaftlichen Stil und roten Faden Ihrer Bachelorarbeit. Das Verfassen einer Bachelorarbeit setzt nicht nur das Schreiben per se, sondern auch:'
+                    text: ' beauftragen, sollten Sie den konkreten Ablauf kennen. Das Lektorat ergänzt die Leistungen eines '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat
+                          target: null
+                          rel: null
+                    text: Korrektorats
+                  -
+                    type: text
+                    text: ' und sorgt für den wissenschaftlichen Stil und roten Faden Ihrer Bachelorarbeit. Das Verfassen einer Bachelorarbeit setzt nicht nur das Schreiben per se, sondern auch:'
               -
                 type: bullet_list
                 content:
@@ -399,16 +412,29 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Nach der Beauftragung eine Lektorats für Ihre Bachelorarbeit wird diese an den '
+                    text: 'Wie wenn Sie sich eine Mustervorlage für Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Bachelorarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: ' wir auch bei der Beauftragung eine Lektorats für Ihre Bachelorarbeit der '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'geeignetsten Lektoren aus Ihrem Fachbereich'
+                    text: 'geeignetste Lektor aus Ihrem Fachbereich'
                   -
                     type: text
-                    text: ' weitergeleitet. Dieser übernimmt das Lektorat der Bachelorarbeit und sorgt dafür, dass der Schreibstil beibehalten wird und die Bachelorarbeit Stimmigkeit sowie einen klaren roten Faden hat. Die Struktur, die Abfolge der theoretischen und praktischen Teile, die Tiefe der Literaturarbeit sowie die Leistung eines Eigenbeitrags werden beim Lektorat geprüft. Die Rechtschreibung und der sprachliche Ausdruck der Bachelorarbeit werden ebenfalls verbessert, wobei auf den Lesefluss und den wissenschaftlichen Stil besonders geachtet wird. Es können punktuelle Verbesserungen an der Rechtschreibung und Interpunktion, am Satzbau, an der Wortauswahl und Zeichensetzung, am stilistischen Ausdruck und an der Formatierung vorgenommen werden.'
+                    text: ' für Sie ausgewählt. Dieser übernimmt das Lektorat der Bachelorarbeit und sorgt dafür, dass der Schreibstil beibehalten wird und die Bachelorarbeit Stimmigkeit sowie einen klaren roten Faden hat. Die Struktur, die Abfolge der theoretischen und praktischen Teile, die Tiefe der Literaturarbeit sowie die Leistung eines Eigenbeitrags werden beim Lektorat geprüft. Die Rechtschreibung und der sprachliche Ausdruck der Bachelorarbeit werden ebenfalls verbessert, wobei auf den Lesefluss und den wissenschaftlichen Stil besonders geachtet wird. Es können punktuelle Verbesserungen an der Rechtschreibung und Interpunktion, am Satzbau, an der Wortauswahl und Zeichensetzung, am stilistischen Ausdruck und an der Formatierung vorgenommen werden.'
               -
                 type: paragraph
                 content:
@@ -1465,7 +1491,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658783419
+updated_at: 1658783651
 template: default
 use_meta_keywords: false
 no_index_page: false
