@@ -11,8 +11,7 @@
   </div>
 
   {{ raster }}
-    <div
-      class="link-list-body {{ if first }}active{{ /if }}link-wrapper-{{ index }}">
+    <div class="link-list-body {{ if first }}active{{ /if }} link-wrapper-{{ index }}">
       {{ if text !== "Fachrichtungen" && text !== "Arbeiten" }}
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
           {{ eintraege }}

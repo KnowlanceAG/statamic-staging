@@ -43,23 +43,26 @@ class Categorize extends Tags
     $groups = [];
     $icons = $this->categoryIcons();
 
-    $entryCollection = $this->context->get('eintraege')->value()->get()->toArray();
+    $entryCollection = $this->context->get('eintraege')->value()->toArray();
 
     $mapped = array_map(function ($entry) use (&$groups, $icons) {
+
+      $entryArr = $entry->toAugmentedArray();
+
       $entryData = [
-        'title' => $entry['title'],
-        'alt-title' => $entry['alternative_page_title'],
-        'url' => $entry['uri'],
+        'title' => $entryArr['title'],
+        'alternative_page_title' => $entryArr['alternative_page_title'],
+        'url' => $entryArr['uri'],
       ];
 
-      $fachrichtungsgruppe = $entry['fachrichtungsgruppe'];
-      if ($fachrichtungsgruppe['label']) {
-        $entryData['group'] = $fachrichtungsgruppe['label'];
+      $fachrichtungsgruppe = $entryArr['fachrichtungsgruppe'];
+      if ($fachrichtungsgruppe->value('label')->label()) {
+        $entryData['group'] = $fachrichtungsgruppe->value('label')->label();
       }
 
-      $arbeitsgruppe = $entry['arbeitsgruppe'];
-      if ($arbeitsgruppe['label']) {
-        $entryData['group'] = $arbeitsgruppe['label'];
+      $arbeitsgruppe = $entryArr['arbeitsgruppe'];
+      if ($arbeitsgruppe->value('label')->label()) {
+        $entryData['group'] = $arbeitsgruppe->value('label')->label();
       }
 
       if (array_key_exists('group', $entryData)) {
@@ -97,7 +100,7 @@ class Categorize extends Tags
           array_push($groupData['category']['entries'], [
             'url' => $groupEntry['url'],
             'title' => $groupEntry['title'],
-            'alternative_page_title' => $groupEntry['alt-title']
+            'alternative_page_title' => $groupEntry['alternative_page_title']
           ]);
         }
       }
@@ -110,7 +113,7 @@ class Categorize extends Tags
         array_push($item['category']['entries'], [
           'url' => '/expose',
           'title' => 'Exposé',
-          'alternative-page-title' => 'Exposé schreiben lassen'
+          'alternative_page_title' => 'Exposé schreiben lassen'
         ]);
       }
     });
