@@ -140,10 +140,7 @@ replicator:
                 attrs:
                   values:
                     type: insert_html
-                    html: |-
-                      <p style="font-size:18px" align="center">
-                      Bei GWriters finden Sie exakt den <b>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten von einem Ghostwriter eine Arbeit als Mustervorlage für Ihre Bachelorarbeit schreiben lassen? Dann wenden Sie sich an einen kompetenten Partner und sichern sich so Ihren Erfolg! Unsere seriöse Ghostwriting Agentur arbeitet ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren als Autoren.
-                      </p>
+                    html: '<p style="font-size:18px" align="center">Wenn Sie bereits eine Bachelorarbeit verfasst oder bei GWriters beauftragt haben, wissen Sie bereits, was unter einem <b>Lektorat der Bachelorarbeit</b> verstanden wird. Das Lektorat einer Hausarbeit, Bachelorarbeit oder Abschlussarbeit steht für eine Überprüfung der von Studierenden verfassten Arbeit auf Rechtschreibfehler sowie strukturelle, wissenschaftliche und stilistische Fehler und deren Korrektur. So werden beim Lektorat von Bachelorarbeiten mit GWriters auch Ungenauigkeiten redigiert sowie Korrekturvorschläge zu inhaltlichen Ungenauigkeiten bzw. Unstimmigkeiten gegeben.</p>'
               -
                 type: set
                 attrs:
@@ -268,280 +265,189 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Bachelorarbeit'
+                    text: 'Worauf wird Ihre Bachelorarbeit beim Lektorat überprüft?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ein '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: null
-                          rel: null
-                    text: 'akademischer Ghostwriter'
-                  -
-                    type: text
-                    text: ' kann durch '
+                    text: 'Bevor Sie ein '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'seine Erfahrungen und fachlichen Kenntnisse Studenten professionell wie ein Betreuer von der Universität unterstützen'
+                    text: 'Lektorat Ihrer Bachelorarbeit'
                   -
                     type: text
-                    text: '. Dies kann direkt zu Beginn der Bearbeitung geschehen. Bei der Themenauswahl, '
+                    text: ' beauftragen, sollten Sie den konkreten Ablauf kennen. Das Lektorat ergänzt die Leistungen eines Korrektorats und sorgt für den wissenschaftlichen Stil und roten Faden Ihrer Bachelorarbeit. Das Verfassen einer Bachelorarbeit setzt nicht nur das Schreiben per se, sondern auch:'
+              -
+                type: bullet_list
+                content:
                   -
-                    type: text
-                    marks:
+                    type: list_item
+                    content:
                       -
-                        type: link
-                        attrs:
-                          href: /blog/literaturrecherche-datenbanken-quellen
-                          target: null
-                          rel: null
-                    text: Literaturrecherche
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'die Identifikation eines neuen bzw. wenig untersuchten und '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'relevanten Themas'
                   -
-                    type: text
-                    text: ', dem Aufbau einer Bachelor Thesis (Einleitung, Hauptteil, Fazit) sowie dessen Gliederung (Kapitel, Unterkapitel) und Exposé liefern Ghostwriter wichtige Hilfestellungen.'
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'den Nachweis von '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: fundierten
+                          -
+                            type: text
+                            text: ' '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Kenntnissen
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'die genaue Dokumentation des '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Vorgehens
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'die Nutzung der passenden und aktuellen '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Literatur
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'sowie eine erkennbare '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: Eigenleistung
+                          -
+                            type: text
+                            text: ' voraus.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Zudem können Sie sich als Studierende von akademischen Ghostwritern eine Mustervorlage für ihre '
+                    text: 'Auf diese Faktoren legen die GWriters-Lektoren einen großen Wert. Sie verfügen nicht nur über '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Bachelorarbeit schreiben lassen'
+                    text: 'hervorragende Expertise in Ihrem Fachbereich'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: '. Diese Ghostwriter-Bachelorarbeit können Sie dann als Vorlagenutzen, wenn Sie Ihre eigene akademische Arbeit verfassen.'
+                    text: ', sondern sind auch mit den spezifischen Anforderungen Ihres individuellen Themas vertraut und sorgen dafür, dass Sie nach dem Lektorat mit Ihrer Arbeit zufrieden sind und sorgenfrei abgeben können.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wie läuft das Lektorat einer Bachelorarbeit ab?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
+                    text: 'Nach der Beauftragung eine Lektorats für Ihre Bachelorarbeit wird diese an den '
+                  -
+                    type: text
                     marks:
                       -
                         type: bold
-                    text: 'Wir wissen um Ihre hohen Anforderungen und Erwartungen, daher arbeiten wir garantiert nur mit den besten wissenschaftlichen Autoren!'
+                    text: 'geeignetsten Lektoren aus Ihrem Fachbereich'
+                  -
+                    type: text
+                    text: ' weitergeleitet. Dieser übernimmt das Lektorat der Bachelorarbeit und sorgt dafür, dass der Schreibstil beibehalten wird und die Bachelorarbeit Stimmigkeit sowie einen klaren roten Faden hat. Die Struktur, die Abfolge der theoretischen und praktischen Teile, die Tiefe der Literaturarbeit sowie die Leistung eines Eigenbeitrags werden beim Lektorat geprüft. Die Rechtschreibung und der sprachliche Ausdruck der Bachelorarbeit werden ebenfalls verbessert, wobei auf den Lesefluss und den wissenschaftlichen Stil besonders geachtet wird. Es können punktuelle Verbesserungen an der Rechtschreibung und Interpunktion, am Satzbau, an der Wortauswahl und Zeichensetzung, am stilistischen Ausdruck und an der Formatierung vorgenommen werden.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Außerdem kennen '
+                    text: 'Die Leistungen des Korrektorats bzw. Korrekturlesen sind ein wichtiger Bestandteil des Lektorats, aber das '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'akademische Ghostwriter'
+                    text: 'wissenschaftliche Lektorat bzw. Wissenschaftslektorat geht weit über ein einfaches Korrekturlesen hinaus'
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' den aktuellen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/wie-schreibe-ich-einen-forschungsstand
-                          target: null
-                          rel: null
-                    text: Forschungsstand
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' zu vielen Themenstellungen und haben als Autoren auf alle relevanten Datenbanken Zugriff. Durch Ihre Erfahrung als '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Doktoren und Professoren'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' aus der Forschung können diese '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/wissenschaftliche-quellen-finden-online
-                          target: null
-                          rel: null
-                    text: 'wissenschaftliche Quellen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', Informationen und Daten für Ihre '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/forschungsluecke-finden
-                          target: null
-                          rel: null
-                    text: 'Forschungsfrage finden'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', korrekt zusammenführen und daraus eine Gliederung entwickeln'
-                  -
-                    type: text
-                    text: '. '
+                    text: '. Das wissenschaftliche Lektorat fokussiert sich nicht nur auf grammatische, sondern auch auf stilistische und – was besonders wichtig ist – auch auf inhaltliche Fehler. Es geht darum, zu überprüfen, inwieweit die erstellte Arbeit den erläuterten Anforderungen an eine Bachelorarbeit genügt.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Einen weiteren Vorteil bietet Ihnen das'
+                    text: 'Da das Korrekturlesen der Bachelorarbeit immer '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: ' Lektorat '
+                    text: 'von einem Fachexperten in jeweiligem Bereich übernommen'
                   -
                     type: text
-                    text: und
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' Korrektorat '
-                  -
-                    type: text
-                    text: 'sowie die '
+                    text: ' wird, der einen Zugang zu den relevanten Literatur- und Wissensdatenbanken hat, wird die Arbeit auf ihre Korrektheit im Kontext des aktuellen Forschungsstands überprüft. Darüber hinaus wird '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: Formatierung
+                    text: 'vom Lektor auch eine Plagiatsprüfung durchgeführt'
                   -
                     type: text
-                    text: ' der Bachelorarbeit, die bereits von Ihnen fertiggestellt wurde. Anschließend kann eine umfassende '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: Plagiatsprüfung
-                  -
-                    type: text
-                    text: ' erfolgen, deren Ergebnisse Sie für Ihren Feinschliff nutzen können. Es ist ebenfalls möglich, dass eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Ghostwriterin Bachelorarbeiten'
-                  -
-                    type: text
-                    text: ', die bereits begonnen wurden, überarbeitet.'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' '
-                  -
-                    type: text
-                    text: 'Alternativ können Sie während des gesamten Ablaufs Ihrer Bachelor Thesis auch ein professionelles Coaching oder Unterstützung bei der Recherche anfordern.'
+                    text: '. So können Sie sich am Tag der Abgabe sicher sein, dass Ihre Arbeit ein Unikat ist und Sie keine negativen Überraschungen befürchten müssen.'
             show_as_card: false
         type: row
         enabled: true
@@ -653,7 +559,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wir passen Ihre Ausarbeitung gemäß Ihrer Wünsche und Anmerkungen ohne lange Diskussionen an - und zwar unbegrenzt, bis '
+                    text: 'Wir übernehmen Revisionen unserer Leistungen gemäß Ihrer Wünsche und Anmerkungen ohne lange Diskussionen an - und zwar unbegrenzt, bis '
                   -
                     type: text
                     marks:
@@ -716,7 +622,7 @@ replicator:
                     text: 'garantieren die pünktliche Lieferung'
                   -
                     type: text
-                    text: ' Ihrer Ausarbeitung! Wir liefern Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
+                    text: ' Ihrer Ausarbeitung! Wir liefern Ihre lektorierte Arbeit zum vereinbarten Datum in finaler Form.'
               -
                 type: set
                 attrs:
@@ -764,7 +670,7 @@ replicator:
                     text: 'Doktoren & Professoren'
                   -
                     type: text
-                    text: ' arbeiten, verfassen Ihre Mustervorlage. So garantieren wir die richtige Qualität Ihrer Ausarbeitung.'
+                    text: ' arbeiten, lektorieren Ihre Arbeit. So garantieren wir die richtige Qualität Ihrer Ausarbeitung.'
               -
                 type: set
                 attrs:
@@ -806,7 +712,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Unterstützung oder akademisches '
+                    text: 'Wenn Sie bei Ihrer Bachelorarbeit ein Lektorat oder akademisches '
                   -
                     type: text
                     marks:
@@ -874,13 +780,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                    text: "Unsere Preise für medizinische, Jura- oder BWL-Lektorat sowie für andere Fachbereiche beginnen ab\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: '80,- € pro Normseite.'
+                    text: '20,- € pro Normseite.'
               -
                 type: set
                 attrs:
@@ -923,76 +829,126 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Bachelorarbeit schreiben lassen - von akademischen Experten'
+                    text: 'Lektorat Bachelorarbeit - ein Beispiel von GWriters'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Niemand möchte bei ohnehin schon kurzen Bearbeitungszeiten mit der Frage „Wie schreibe ich eine Bachelorarbeit?” wertvolle Bearbeitungszeit verlieren und Zeitdruck bekommen. Daher wenden sich viele Studenten schon vor dem Verfassen der Einleitung an akademische Freelancer und Autoren wie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'professionelle wissenschaftliche Ghostwriter'
-                  -
-                    type: text
-                    text: ', um sich einen Vorteil zu sichern. '
+                    text: 'Anhand des folgenden Beispiels einer lektorierten Arbeit möchten wir Ihnen verdeutlichen, wie das Lektorat Ihrer Bachelorarbeit genau durchgeführt wird und welches Ergebnis Sie von einem Lektorat bei GWriters zu erwarten haben. Im vorliegenden Beispiel handelt es sich um die Einleitung aus der Bachelorarbeit zum Thema „Journalismus in China“, die von einem unserer Experten aus dem Fachbereich Journalismus explizit für diesen Zweck lektoriert wurde.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating-img
+                    dateien:
+                      - seiten/lektorat-bachelorarbeit.png
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Sie können sich helfen lassen, indem Sie Ihre Arbeit von einem akademischen Lektor bzw. Wissenschaftslektor kontrollieren lassen. Anschließend helfen diese Ihnen auch mit einem Plagiatscheck, um Ihren Text plagiatsfrei liefern zu können. Ein Vorteil ist auch, dass diese vorab eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Ghostwriting-Bachelorarbeit als Mustervorlage verfassen'
-                  -
-                    type: text
-                    text: .
+                    text: 'Beim Lektorat der Bachelorarbeit wurde vom Lektor wie üblich auf die grammatikalische und stilistische Korrektheit geprüft. So wurde vom Lektor beispielsweise auf die Wichtigkeit der gendergerechten Sprache hingewiesen, z. B. "Beamtinnen und Beamten" anstatt "Beamten" oder "Journalistinnen und Journalisten" anstatt einfach "Journalisten". Die gendergerechte Sprache ist auch in wissenschaftlichen Arbeiten wichtig, da es in wissenschaftlichen Texten üblich ist, genderneutral zu formulieren und das generische Maskulinum zu vermeiden. Dies ist ein Beitrag zur Chancengleichheit, Geschlechtersensibilität und Transformation der bestehenden Geschlechterverhältnisse.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Bei uns finden Sie '
+                    text: 'Der Lektor schlägt allerdings nicht nur stilistische, sondern auch sinnvolle inhaltliche Änderungen bzw. Ergänzungen vor, wie z. B. im folgenden Satz:'
+              -
+                type: blockquote
+                content:
                   -
-                    type: text
-                    marks:
+                    type: paragraph
+                    content:
                       -
-                        type: bold
-                    text: 'garantiert den richtigen und besten Experten für Ihr Projekt'
-                  -
-                    type: text
-                    text: ' - alle akademischen Ghostwriter unserer Ghostwriting-Agentur weisen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'hervorragende fachliche Kompetenzen als Autoren und methodische Erfahrung'
-                  -
-                    type: text
-                    text: ' im Hinblick auf wissenschaftliches Arbeiten und Literatur vor. Daher können diese Ihnen bei Ihrer Bachelor Thesis Hilfe in verschiedenen Formen, individuell abgestimmt auf Ihre Bedürfnisse bieten.'
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'Aufbauend auf dieser Tatsache befasst sich die vorliegende Arbeit mit dem Beruf des Journalisten in der Volksrepublik China in den 1990er und 2000er Jahren.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Zu jeder Fragestellung während des Schreibprozesses stehen Ihnen unsere akademischen Autoren zur Verfügung. '
+                    text: 'In einer Bachelorarbeit ist es wichtig, sämtliche Aussagen genau zu begründen und immer möglichst präzis zu sein. Füllwörter und Standardformulierungen (z. B. aufbauend auf dieser Tatsache) sind zwar zulässig, allerdings nur wenn es aus dem Geschriebenen klar hervorgeht, welche Tatsache genau gemeint wird, was vom Lektor hervorgehoben wurde. Die Einleitung ist ein wichtiger Bestandteil der Bachelorarbeit, der das Interesse wecken und die Eckdaten der Forschung definieren muss, sodass eine hohe Präzision erforderlich ist (z. B. in Bezug auf den angegebenen Zeitraum – "1990er und 2000er Jahre"). '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Auf die wissenschaftliche Genauigkeit wird vom Lektor besonders geachtet, wie aus dem Beispiel ersichtlich wird:'
+              -
+                type: blockquote
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'Im Anschluss an eine Darstellung dieser Definition folgt ein historischer Überblick über die Medienreform Chinas der späten 1970er und 1980er Jahre, um die Situation einzuordnen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Es ist essenziell, dass jeder Satz logisch eingebaut wird und kausale Zusammenhänge zwischen dem Gesagten und dem, was noch erläutert werden muss, deutlich ersichtlich sind. Allgemeine Aussagen und abstrakte Begriffe (z. B. "die Situation") sollen ohne Begründung bzw. Erläuterung nicht verwendet werden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die in der Bachelorarbeit entdeckten orthografischen, grammatischen und stilistischen Fehler werden vom Lektor korrigiert, sodass für Sie kein Zusatzaufwand dadurch entsteht. Im dargestellten Auszug wurden vom Lektor vor allem zwei wesentliche Verbesserungen gemacht: die Verbesserung des Satzbaus und die Ergänzung der fehlenden Inhalte. So wurden z. B. fehlende Wörter ergänzt, um den roten Faden und den Lesefluss abzusichern sowie eine hohe Genauigkeit zu erlangen. Für eine Bachelorarbeit ist es wichtig, dass der verfasste Text ein Sachtext bleibt. Sehr kurze Sätze sowie unvollständige Sätze sind dabei zu vermeiden. Wichtig ist es außerdem, das Verb nicht auszulassen und das zentrale Wort in den ersten Satzteil zu stellen, wie im folgenden Beispiel:'
+              -
+                type: blockquote
+                content:
+                  -
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                        text: 'Privatpersonen veröffentlichten andere Zeitschriften, welche teilweise unerwünschte Inhalte enthielten, weshalb sie regelmäßig von der Regierung verboten wurden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im dargestellten Beispiel wurden das Subjekt und das Verb ergänzt, sodass der Satz nicht nur grammatisch korrekt, sondern auch inhaltlich klarer ist. Darüber hinaus wurde der Satzbau geändert, wobei der Satz ins Satzgefüge transformiert wurde. Dadurch werden kausale Zusammenhänge viel besser ersichtlich. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Mit Hilfe der in Microsoft Word und anderen Textbearbeitungsprogrammen enthaltenen Anmerkungsfunktion macht der Lektor auch Anmerkungen in Bezug auf den Inhalt der Arbeit bzw. weist auf gewisse Unstimmigkeiten oder Stellen hin, die überprüft werden sollten. So erhalten Sie nicht nur eine korrigierte und lektorierte Arbeit, sondern auch die Zweitmeinung eines Experten, was ein bestmögliches Ergebnis sicherstellt. Dies gehört zu der Qualitätsgarantie, auf die wir bei GWriters einen hohen Wert legen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ob Sie alle diese Anmerkungen umsetzen, obliegt  Ihnen – der Lektor gibt lediglich Hinweise und Empfehlungen, die ihm sinnvoll erscheinen, aber die finale Entscheidung liegt bei Ihnen. Ein solcher persönlicher „Touch“ vom Lektor hilft wesentlich dabei, das bereits Geschriebene zu verbessern, sodass Sie sicher sein können, dass nach dem Lektorat Ihre Bachelorarbeit keine Mängel aufweist – weder rein sprachlich noch inhaltlich. Dies zeigen auch die Bewertung der Kunden, die bereits mit '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Unser Schreibservice kooperiert zu Ihrem Vorteil mit erfahrenen Professoren und Doktoren'
+                        type: link
+                        attrs:
+                          href: /gwriters-erfahrung
+                          target: null
+                          rel: null
+                    text: 'GWriters Erfahrung'
                   -
                     type: text
-                    text: ". Diese sind oft noch selbst in der Forschung aktiv und unterstützen Sie bei der Anwendung Ihrer Forschungsmethode, ob es um eine\_Fallanalyse, ein\_Experteninterview\_oder eine\_Methodenanwendung\_handelt. Rund um alle Bachelorthemen bietet unsere Ghostwriting-Agentur professionelle Unterstützung und individuelle Vorteile für Sie an."
+                    text: ' gemacht haben.'
             show_as_card: false
         type: row
         enabled: true
@@ -1062,13 +1018,7 @@ replicator:
                     text: ' während des Schreibprozesses erfolgen. Wir übernehmen auch gerne die Formatierung, die Korrektur oder das Lektorat für Sie.'
             show_as_card: false
           -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: video
-                    video: 'https://www.youtube.com/embed/EBDyFVLD0V0'
+            bard: null
             show_as_card: false
         type: row
         enabled: true
@@ -2828,7 +2778,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658776875
+updated_at: 1658780398
 template: default
 use_meta_keywords: false
 no_index_page: false
