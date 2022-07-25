@@ -1,0 +1,11 @@
+{{ if custom_sidebar_placement == 'on' }}
+  <div class="lg:hidden">
+    {{ partial src="partials/sidebar" }}
+  </div>
+
+  {{ section:sidebar }}
+    <div class="hidden lg:block">
+      {{ partial src="partials/sidebar" }}
+    </div>
+  {{ /section:sidebar }}
+{{ /if }}

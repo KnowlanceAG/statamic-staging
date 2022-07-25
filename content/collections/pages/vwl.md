@@ -128,11 +128,11 @@ teaser:
               rel: null
         text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/header-so-funktionierts.jpeg
-page_title: 'GWriters • VWL - Ghostwriter, Lektoren & Coaches'
+page_title: 'VWL Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
-template: with-side-bar
+template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656439290
+updated_at: 1658324029
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -214,6 +214,12 @@ replicator:
                         attrs:
                           align: start
                     text: '. Formalien und das notwendige Fachvokabular sind ihm überaus bekannt.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: show_sidebar_mobile
+                    custom_sidebar_placement: 'on'
               -
                 type: paragraph
                 content:
@@ -1050,4 +1056,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der VWL – sc
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
+alternative-page-title: 'VWL Ghostwriter'
 ---

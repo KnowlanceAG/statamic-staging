@@ -18,8 +18,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6602'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
         text: 'Lernskript schreiben lassen'
   -
     type: heading
@@ -129,6 +129,12 @@ replicator:
               -
                 type: bold
             text: '. Wir melden uns schnellstmöglich mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+      -
+        type: set
+        attrs:
+          values:
+            type: show_sidebar_mobile
+            custom_sidebar_placement: 'on'
       -
         type: heading
         attrs:
@@ -486,8 +492,8 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656511567
-template: with-side-bar
+updated_at: 1658325593
+template: default
 meta_title: 'Lernskript schreiben lassen • GWriters'
 meta_description: 'Lernskript schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
@@ -503,4 +509,5 @@ og_description: 'Lernskript schreiben lassen & Hilfe vom akademischen Ghostwrite
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_sonstige_arbeiten
 sitemap_active: true
+alternative-page-title: 'Lernskript schreiben lassen'
 ---

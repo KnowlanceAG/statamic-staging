@@ -128,11 +128,11 @@ teaser:
               rel: null
         text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/header-so-funktionierts.jpeg
-page_title: 'Geologie Ghostwriter - Ghostwriter, Lektoren & Coaches • GWriters'
+page_title: 'Geologie Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
-template: with-side-bar
+template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656440077
+updated_at: 1658325098
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -165,6 +165,12 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Die Geologie ist Bestandteil der Naturwissenschaft und wird auch als Geowissenschaft bezeichnet. Sie umfasst die Wissenschaft von der Entstehung, Entwicklung und physikalischen Veränderung der Erde. Besonders bei der Suche nach verschiedenen Ressourcen und der Energiegewinnung spielen Geowissenschaftler eine tragende Rolle. Während eines Studiums der Geowissenschaften werden neben Laborpraktika und umfangreichen Exkursionen auch Berichte, Protokolle, Präsentationen und Hausarbeiten verlangt, die innerhalb eines kurzen Zeitraums zu leisten sind. Um den hohen Anforderungen gerecht zu werden, beauftragen viele Studenten der Geologie Ghostwriter, die ihre Arbeiten verfassen, lektorieren oder korrigieren.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: show_sidebar_mobile
+                    custom_sidebar_placement: 'on'
               -
                 type: heading
                 attrs:
@@ -890,4 +896,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Geologie �
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_naturwissenschaften
 sitemap_active: true
+alternative-page-title: 'Geologie Ghostwriter'
 ---

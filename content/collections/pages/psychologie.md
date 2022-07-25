@@ -130,9 +130,9 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Psychologie Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
-template: with-side-bar
+template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656439328
+updated_at: 1658324599
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -236,6 +236,12 @@ replicator:
                         attrs:
                           align: start
                     text: "\_oder andere Hilfestellungen leisten, haben selbst schon ein psychologisches Studium abgeschlossen und sind meist hauptberuflich in diesem Bereich tätig. Aufgrund ihrer Erfahrung im Erstellen von wissenschaftlichen Arbeiten und umfangreichen Fachkenntnissen, können unsere Freelancer zu jedem Zeitpunkt der Bearbeitung unterstützend engagiert werden. Dies verschafft den Studenten Sicherheit bei ihrer Arbeitsweise und eine Erleichterung ihres enormen Arbeitsaufwandes."
+              -
+                type: set
+                attrs:
+                  values:
+                    type: show_sidebar_mobile
+                    custom_sidebar_placement: 'on'
               -
                 type: paragraph
                 content:
@@ -1492,4 +1498,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Psychologi
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_medizinische_fachrichtungen
 sitemap_active: true
+alternative-page-title: 'Ghostwriter Psychologie'
 ---

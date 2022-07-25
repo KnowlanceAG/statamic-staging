@@ -128,11 +128,11 @@ teaser:
               rel: null
         text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/header-so-funktionierts.jpeg
-page_title: 'Informatik - Ghostwriter, Lektoren & Coaches • GWriters'
+page_title: 'Informatik Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655480353
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656946960
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2092,4 +2092,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Informatik
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_technische_fachrichtungen
 sitemap_active: true
+alternative-page-title: 'Informatik Ghostwriter'
 ---

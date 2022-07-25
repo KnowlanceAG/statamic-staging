@@ -3,8 +3,8 @@ id: d118c7b2-141d-4bac-972d-c1502381a340
 blueprint: pages
 title: Arbeiten
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656514321
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1658493183
 teaser:
   -
     type: heading
@@ -121,7 +121,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Wir von GWriters bieten darüber hinaus unsere Dienstleistungen in Form zahlreicher Möglichkeiten an. Neben dem klassischen Ghostwriting in Form der '
+            text: 'Wir von GWriters bieten darüber hinaus unsere Dienstleistungen in Form zahlreicher Möglichkeiten an. Neben dem klassischen '
           -
             type: text
             marks:
@@ -131,7 +131,7 @@ replicator:
                   href: /ghostwriting
                   target: null
                   rel: null
-            text: 'Erstellung wissenschaftlicher Mustervorlagen'
+            text: 'Ghostwriting in Form der Erstellung wissenschaftlicher Mustervorlagen'
           -
             type: text
             text: ' sind dies das '
@@ -522,7 +522,7 @@ replicator:
             text: 'systematischen Literaturrecherche'
           -
             type: text
-            text: ' zum Einsatz. Besteht eine Bachelorarbeit auch aus einem empirischen Teil – also einer quantitativen oder eine qualitative Forschung – so ist sie häufig stärker praxisorientiert als eine reine Literaturarbeit, da über diese Forschungsmethoden z.B. Handlungsempfehlungen erarbeitet werden können. Als Methoden kommen hier im qualitativen Teil z.B. Interviews, Tests oder Experimente zum Einsatz. Quantitativ forschen können Sie z.B. mit '
+            text: ' zum Einsatz. Besteht eine Bachelorarbeit auch aus einem empirischen Teil – also einer quantitativen oder eine qualitative Forschung – so ist sie häufig stärker praxisorientiert als eine reine Literaturarbeit, da über diese Forschungsmethoden z.B. Handlungsempfehlungen erarbeitet werden können. Als Methoden kommen hier im qualitativen Teil z.B. Interviews, Tests oder Experimente zum Einsatz. '
           -
             type: text
             marks:
@@ -532,10 +532,10 @@ replicator:
                   href: /blog/qualitative-quantitative-methoden
                   target: null
                   rel: null
-            text: Befragungen
+            text: 'Quantitativ forschen'
           -
             type: text
-            text: .
+            text: ' können Sie z.B. mit Befragungen.'
       -
         type: paragraph
         content:

@@ -109,7 +109,8 @@ class Categorize extends Tags
       if ($item['category']['title'] == 'Sonstige Arbeiten') {
         array_push($item['category']['entries'], [
           'url' => '/expose',
-          'title' => 'Exposé'
+          'title' => 'Exposé',
+          'alternative-page-title' => 'Exposé schreiben lassen'
         ]);
       }
     });

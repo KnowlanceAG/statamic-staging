@@ -151,13 +151,19 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /korrektorat/korrekturlesen
+                  href: /korrektorat
                   target: null
                   rel: null
             text: Korrekturlesen
           -
             type: text
             text: ' lassen der Magisterarbeit folgt eine umfassende Plagiatsprüfung, um mögliche Risiken des mangelnden Literaturverweises zu umgehen. Im Rahmen der Bearbeitung ist es möglich, dass Studenten von Ghostwritern eine Mustervorlage für ihre Magisterarbeit schreiben lassen und diese Ghostwriter-Magisterarbeit als Vorlage für ihre eigene Arbeit nutzen.'
+      -
+        type: set
+        attrs:
+          values:
+            type: show_sidebar_mobile
+            custom_sidebar_placement: 'on'
       -
         type: paragraph
         content:
@@ -1040,9 +1046,9 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-template: with-side-bar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1656598408
+template: default
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1658325561
 meta_title: 'Magisterarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Magisterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Plagiate.'
 use_meta_keywords: false

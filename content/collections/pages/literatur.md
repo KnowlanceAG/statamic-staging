@@ -128,11 +128,11 @@ teaser:
               rel: null
         text: '+49 (0) 30 809 332 339'
 teaser_bg: seiten/header-so-funktionierts.jpeg
-page_title: 'GWriters • Literatur - Ghostwriter, Lektoren & Coaches'
+page_title: 'Literatur Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
-template: with-side-bar
+template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656439433
+updated_at: 1658324635
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -197,6 +197,12 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: ', Lektoren oder Coaches benötigt.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: show_sidebar_mobile
+                    custom_sidebar_placement: 'on'
               -
                 type: paragraph
                 content:
@@ -990,4 +996,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Literatur 
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_geisteswissenschaften
 sitemap_active: true
+alternative-page-title: 'Literatur Ghostwriter'
 ---

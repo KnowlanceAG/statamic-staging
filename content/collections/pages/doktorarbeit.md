@@ -2229,6 +2229,9 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Übliche '
+                  -
+                    type: text
                     marks:
                       -
                         type: link
@@ -2237,9 +2240,6 @@ replicator:
                           target: null
                           rel: null
                     text: Gliederung
-                  -
-                    type: text
-                    text: ' einer Doktorarbeit'
               -
                 type: bullet_list
                 content:
@@ -2513,7 +2513,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Formatierung einer Doktorarbeit'
+                    text: 'Vorgaben zur Formatierung'
               -
                 type: paragraph
                 content:
@@ -2843,7 +2843,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1654802751
+updated_at: 1657532065
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2897,4 +2897,5 @@ schema_objects: |-
   </script>
 sitemap_active: true
 page_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
+alternative-page-title: 'Doktorarbeit schreiben lassen'
 ---

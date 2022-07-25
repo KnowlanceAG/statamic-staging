@@ -49,7 +49,9 @@
 
       </div>
       <aside class="mb-8">
-        {{ partial src="partials/sidebar" }}
+        {{ yield:sidebar }}
+          {{ partial src="partials/sidebar" }}
+        {{ /yield:sidebar }}
       </aside>
     </div>
   </div>

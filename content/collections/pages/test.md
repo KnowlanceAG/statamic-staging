@@ -3,11 +3,31 @@ id: 942c2c8b-0964-473f-bd8d-10426b828eb8
 published: false
 blueprint: pages
 title: test
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1648469834
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1658321398
 replicator:
   -
     bard:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Hier steht die Sidebar im Editor. Hier steht die Sidebar im Editor. Hier steht die Sidebar im Editor. Hier steht die Sidebar im Editor. Hier steht die Sidebar im Editor. '
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Hier steht die Sidebar im Editor. Hier steht die Sidebar im Editor. Hier steht die Sidebar im Editor. Hier steht die Sidebar im Editor. Hier steht die Sidebar im Editor. '
+      -
+        type: set
+        attrs:
+          values:
+            type: show_sidebar_mobile
+            custom_sidebar_placement: 'on'
+      -
+        type: paragraph
       -
         type: set
         attrs:
@@ -139,11 +159,7 @@ teaser:
               align: center
         text: 'Hier kann ein wunderschöner Einleitungstext stehen. Muss aber nicht.'
   -
-    type: set
-    attrs:
-      values:
-        type: spacer
-        padding-y: '81'
+    type: paragraph
   -
     type: paragraph
   -
@@ -155,7 +171,8 @@ teaser:
           -
             icon: weisses_svg.svg
             headline: 'Überschrift 1'
-            tooltip_infotext: 'Kurz Text Tooltip Icon Liste 1'
+            tooltip_infotext: |
+              Kurz Text Tooltip Icon Liste 1
           -
             icon: weisses_svg.svg
             headline: 'Überschrift 2'
@@ -167,10 +184,11 @@ teaser:
           -
             icon: weisses_svg.svg
             headline: 'Überschrift 4'
-            tooltip_infotext: 'Kurz Text Tooltip Icon Liste 4'
+            tooltip_infotext: 'Kurz Text Tooltip Icon Liste 41'
   -
     type: paragraph
 page_title: 'test mit version nummer'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 sitemap_active: true
+template: with-side-bar
 ---

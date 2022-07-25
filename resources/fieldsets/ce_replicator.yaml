@@ -25,8 +25,14 @@ fields:
           fields:
             -
               import: presse_listing
+        show_sidebar_mobile:
+          display: 'Sidebar mobil hier darstellen'
+          fields:
+            -
+              import: sidebar_element
       display: Replicator
       type: replicator
       icon: replicator
       listable: hidden
       instructions: 'Replicator für Content Elemente'
+      instructions_position: above

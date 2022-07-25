@@ -18,8 +18,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6602'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
         text: 'Exposé schreiben lassen'
   -
     type: paragraph
@@ -78,8 +78,8 @@ teaser:
         button_link: /anfrage
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655475635
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656947332
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1618,9 +1618,10 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 template: with-side-bar
-page_title: 'GWriters • Mustervorlage für Exposé schreiben lassen'
+page_title: 'Exposé schreiben lassen • Mustervorlage von GWriters'
 og_title: 'GWriters • Mustervorlage für Exposé schreiben lassen'
 og_description: 'Mustervorlage für Exposé schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+alternative-page-title: 'Exposé schreiben lassen'
 ---

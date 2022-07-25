@@ -908,10 +908,10 @@ replicator:
     bg_image_fixed: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1656669907
-meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
-meta_description: 'Ghostwriting von Akademikern für Akademiker - professionelle Hilfe ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1657531730
+meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret!'
+meta_description: 'Ghostwriting von über akademischen 3.000 Ghostwritern ✔️ professionelle Hilfe ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false

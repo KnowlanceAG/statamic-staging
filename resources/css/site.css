@@ -636,3 +636,7 @@ body.ch {
     column-gap: 2rem;
   }
 }
+
+.max-w-160 {
+  max-width: 160px;
+}

@@ -125,7 +125,7 @@ page_title: 'Geowissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656440150
+updated_at: 1656946596
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1143,4 +1143,5 @@ og_description: 'Geowissenschaften studieren? Abschluss und Unterstützung durch
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_naturwissenschaften
 sitemap_active: true
+alternative-page-title: 'Geowissenschaften Ghostwriter'
 ---

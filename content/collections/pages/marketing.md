@@ -124,8 +124,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655641355
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1656946986
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1536,4 +1536,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter im Marketings 
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
+alternative-page-title: 'Marketing Ghostwriter'
 ---

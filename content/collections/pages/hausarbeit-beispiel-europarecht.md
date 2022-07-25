@@ -5,8 +5,8 @@ title: 'Hausarbeit Beispiel: Legal and Human Rights Protection in the EU'
 page_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655746595
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1657523636
 meta_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Jura-Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
 use_meta_keywords: false
@@ -57,7 +57,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Viele Studenten, die sich bei GWriters eine Mustervorlage für Ihre'
+            text: 'Viele Studenten, die sich bei GWriters eine Mustervorlage für Ihre '
           -
             type: text
             marks:
@@ -76,7 +76,7 @@ replicator:
                   href: /arbeiten/hausarbeit-schreiben-lassen
                   target: null
                   rel: null
-            text: ' Hausarbeit schreiben lassen'
+            text: 'Hausarbeit schreiben lassen'
           -
             type: text
             marks:
@@ -137,7 +137,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'https://gwriters.de/ghostwriting-beispielarbeiten/hausarbeit-beispiel-baseler-eigenmitteluebereinkunft'
+                  href: /ghostwriting-beispielarbeiten/hausarbeit-beispiel-baseler-eigenmitteluebereinkunft
                   target: null
                   rel: null
             text: 'Muster Hausarbeit'
