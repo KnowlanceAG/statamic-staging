@@ -5,7 +5,7 @@ title: 'Akademisches Ghostwriting'
 academy_teaser_headline: 'Akademisches Ghostwriting von GWriters'
 academy_teaser_text: 'Finden Sie in dieser Kategorie alles zum akademischen Ghostwriting, angefangen von unseren internen Prozessen, die Ihnen einen reibungslosen Auftragsablauf und jederzeit höchste Qualität Ihrer wissenschaftlichen Arbeit garantiert, bis hin zu interessanten und wissenswerten Informationen über unsere akademischen Ghostwriter und Ghostwriting Erfahrungen.'
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655745906
+updated_at: 1658842174
 teaser:
   -
     type: heading
@@ -91,7 +91,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /achtung-ghostwriter-betrug
+                  href: /gwriters-erfahrung
                   target: null
                   rel: null
             text: 'Ghostwriting Erfahrung'
@@ -143,7 +143,7 @@ replicator:
             text: 'Video "3 Tage bis zur Abgabe - Ghostwriting im Notfall"'
           -
             type: text
-            text: " zeigt. Auch wenn der Zeitrahmen knapp ist, schaffen wir es bei GWriters Ihnen jederzeit ein qualitatives Werk zu liefern, das allen akademischen Ansprüchen gerecht wird. Sollten Sie nicht erst zum Ende, sondern bereits zu Beginn Ihres Projekts Unterstützung suchen, dann kann Ihnen einer unserer akademischen Ghostwriter bereits ab der\_ Themenfindung als professioneller Coach zur Seite stehen. Mehr zum möglichen Ablauf eines solchen Coachings finden Sie ebenfalls in hier in unseren "
+            text: ' zeigt. Auch wenn der Zeitrahmen knapp ist, schaffen wir es bei GWriters Ihnen jederzeit ein qualitatives Werk zu liefern, das allen akademischen Ansprüchen gerecht wird. Sollten Sie nicht erst zum Ende, sondern bereits zu Beginn Ihres Projekts Unterstützung suchen, dann kann Ihnen einer unserer akademischen Ghostwriter bereits ab der Themenfindung als professioneller Coach zur Seite stehen. Mehr zum möglichen Ablauf eines solchen Coachings finden Sie ebenfalls in hier in unseren '
           -
             type: text
             marks:
@@ -175,7 +175,20 @@ replicator:
             text: Ghostwriting-Agentur
           -
             type: text
-            text: ' zu achten und was sind mögliche Alarmzeichen? Wie wählt meine Agentur meinen akademischen Ghostwriter aus, wie läuft dann der Auftrag ab und überhaupt, was darf mich ein akademisches Ghostwriting kosten? Antworten auf Fragen wie diese und weitere interessante Informationen finden Sie jetzt hier in den Beiträgen aus unserer GWriters Akademie.'
+            text: ' zu achten und was sind mögliche '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /achtung-ghostwriter-betrug
+                  target: null
+                  rel: null
+            text: 'Alarmzeichen bei der Suche nach Ghostwriter'
+          -
+            type: text
+            text: '? Wie wählt meine Agentur meinen akademischen Ghostwriter aus, wie läuft dann der Auftrag ab und überhaupt, was darf mich ein akademisches Ghostwriting kosten? Antworten auf Fragen wie diese und weitere interessante Informationen finden Sie jetzt hier in den Beiträgen aus unserer GWriters Akademie.'
       -
         type: set
         attrs:
