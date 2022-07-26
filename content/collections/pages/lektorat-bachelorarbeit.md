@@ -917,7 +917,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In einer Bachelorarbeit ist es wichtig, sämtliche Aussagen genau zu begründen und immer möglichst präzis zu sein. Füllwörter und Standardformulierungen (z. B. aufbauend auf dieser Tatsache) sind zwar zulässig, allerdings nur wenn es aus dem Geschriebenen klar hervorgeht, welche Tatsache genau gemeint wird, was vom Lektor hervorgehoben wurde. Die Einleitung ist ein wichtiger Bestandteil der Bachelorarbeit, der das Interesse wecken und die Eckdaten der Forschung definieren muss, sodass eine hohe Präzision erforderlich ist (z. B. in Bezug auf den angegebenen Zeitraum – "1990er und 2000er Jahre"). '
+                    text: 'In einer Bachelorarbeit ist es wichtig, sämtliche Aussagen genau zu begründen und immer möglichst präzise zu sein. Füllwörter und Standardformulierungen (z. B. aufbauend auf dieser Tatsache) sind zwar zulässig, allerdings nur wenn es aus dem Geschriebenen klar hervorgeht, welche Tatsache genau gemeint wird, was vom Lektor hervorgehoben wurde. Die Einleitung ist ein wichtiger Bestandteil der Bachelorarbeit, der das Interesse wecken und die Eckdaten der Forschung definieren muss, sodass eine hohe Präzision erforderlich ist (z. B. in Bezug auf den angegebenen Zeitraum – "1990er und 2000er Jahre"). '
               -
                 type: paragraph
                 content:
@@ -1491,7 +1491,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658783695
+updated_at: 1658841041
 template: default
 use_meta_keywords: false
 no_index_page: false
