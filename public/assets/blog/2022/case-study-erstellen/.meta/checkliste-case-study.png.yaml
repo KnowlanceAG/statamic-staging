@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'case study beispiel'
 size: 220861
 last_modified: 1659007120
 width: 1563
