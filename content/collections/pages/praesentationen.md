@@ -1908,7 +1908,31 @@ replicator:
                 attrs:
                   color: '#000!important'
                   hex: '#000'
-            text: "Musterpräsentationen als PowerPoint-Datei (.pptx) sind eine gute Orientierungshilfe, besonders wenn Sie noch nie wichtige Punkte, Informationen und Analysen zusammengefasst haben. Auch bei der Erstellung von Unternehmenspräsentationen, Businesspräsentationen und Kolloquium für Abschlussarbeiten (Bachelorarbeit, Masterarbeit), möchten viele Präsentationsbeauftragte einen perfekten Mustervortrag für Ihre Präsentation erstellen lassen. Die Unterstützung ist eine gute Optimierung für Ihre Präsentation. \_"
+            text: 'Musterpräsentationen als PowerPoint-Datei (.pptx) sind eine gute Orientierungshilfe, besonders wenn Sie noch nie wichtige Punkte, Informationen und Analysen zusammengefasst haben. Auch bei der Erstellung von Unternehmenspräsentationen, Businesspräsentationen und '
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /blog/kolloquium-bachelorarbeit
+                  target: null
+                  rel: null
+            text: 'Kolloquium für Bachelorarbeit'
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: " und Masterarbeit, möchten viele Präsentationsbeauftragte einen perfekten Mustervortrag für Ihre Präsentation erstellen lassen. Die Unterstützung ist eine gute Optimierung für Ihre Präsentation. \_"
       -
         type: heading
         attrs:
@@ -2463,8 +2487,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658325748
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1659086339
 template: default
 meta_title: 'GWriters • professionell Präsentation erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
