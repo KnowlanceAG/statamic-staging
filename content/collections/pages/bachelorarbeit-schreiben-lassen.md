@@ -321,7 +321,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Zudem können Sie sich als Studierende von akademischen Ghostwritern eine Mustervorlage für ihre '
+                    text: 'Zudem können Sie sich als Studierende von akademischen Ghostwritern eine Mustervorlage für Ihre '
                   -
                     type: text
                     marks:
@@ -341,7 +341,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: '. Diese Ghostwriter-Bachelorarbeit können Sie dann als Vorlagenutzen, wenn Sie Ihre eigene akademische Arbeit verfassen.'
+                    text: '. Diese Ghostwriter-Bachelorarbeit können Sie dann als Vorlage nutzen, wenn Sie Ihre eigene akademische Arbeit verfassen.'
               -
                 type: paragraph
                 content:
@@ -350,7 +350,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wir wissen um Ihre hohen Anforderungen und Erwartungen, daher arbeiten wir garantiert nur mit den besten wissenschaftlichen Autoren!'
+                    text: 'Wir wissen um Ihre hohen Anforderungen und Erwartungen, daher arbeiten wir garantiert nur mit den besten wissenschaftlichen Autoren zusammen!'
               -
                 type: paragraph
                 content:
@@ -2838,7 +2838,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658783824
+updated_at: 1659353223
 template: default
 use_meta_keywords: false
 no_index_page: false
