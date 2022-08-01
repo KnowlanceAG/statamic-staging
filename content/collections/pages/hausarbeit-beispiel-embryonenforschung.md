@@ -5,8 +5,8 @@ title: 'Hausarbeit Beispiel: Bewertung von Embryonenforschung'
 page_title: 'Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1659103781
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1659352255
 meta_title: 'Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
 use_meta_keywords: false
