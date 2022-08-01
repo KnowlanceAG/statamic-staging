@@ -6,21 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="content-language" content="{{ site:locale replace="_|-" lower="true" }}">
-
   {{ if current_template == 'errors/404' }}
     <meta name="robots" content="noindex, follow">
   {{ /if }}
-
   <link rel="alternate" hreflang="de-de" href="https://gwriters.de{{ current_uri }}" />
   <link rel="alternate" hreflang="de-ch" href="https://gwriters.ch{{ current_uri }}" />
   <link rel="alternate" hreflang="x-default" href="https://gwriters.de{{ current_uri }}" />
-
   {{ if meta_title }}
   {{ elseif page_title }}
     <title>
       {{ page_title }}
     </title>
-
   {{ elseif author_slug }}
     {{ users slug:is="{author_slug}" }}
       <title>
@@ -28,13 +24,11 @@
       </title>
       <meta name="description" content="{{ short_text | strip_tags }}" />
     {{ /users }}
-
   {{ else }}
     <title>GWriters •
       {{ title ?? site:name }}
     </title>
   {{ /if }}
-
   <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
 
   <link rel="icon" href="/assets/webseite/gwriters-logo-32x32.png" sizes="32x32">
@@ -43,7 +37,6 @@
   <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-76x76.png" sizes="76x76">
   <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-120x120.png" sizes="120x120">
   <link rel="apple-touch-icon" href="/assets/webseite/gwriters-logo-152x152.png" sizes="114x114">
-
   {{ if !author_slug && current_template !== 'errors/404' }}
     {{ seo_data }}
       <title>
@@ -55,20 +48,16 @@
       {{ if use_meta_keywords }}
         <meta name="keywords" content="{{ meta_keywords join=', ' }}">
       {{ /if }}
-
       <!-- Start: Canonical content -->
       {{ if canonical_url }}
         <link rel="canonical" href="{{ canonical_url }}">
         <meta property="og:url" content="{{ canonical_url }}">
-
       {{ elseif current_uri | starts_with:/presse }}
         <link rel="canonical" href="{{ current_url }}">
         <meta property="og:url" content="{{ current_url }}">
-
       {{ elseif current_uri | starts_with:/blog }}
         <link rel="canonical" href="{{ current_url }}">
         <meta property="og:url" content="{{ current_url }}">
-
       {{ else }}
         <!-- purely generated -->
         <link rel="canonical" href="{{ aardvark-seo:generated_canonical }}">
@@ -91,20 +80,54 @@
         {{ /calculated_og_image }}
       {{ /if }}
       <!-- End OpenGraph content -->
-
       {{ if schema_objects | length > 0 }}
-          {{ schema_objects }}
-
+        {{ schema_objects }}
       {{ else }}
-          {{ aardvark-seo:graph }}
+        {{ aardvark-seo:graph }}
       {{ /if }}
     {{ /seo_data }}
   {{ /if }}
-
   {{ if !config:app:google_tracking && !config:app:facebook_tracking }}
     <!-- No tracking -->
   {{ /if }}
-
+  {{ if config:app:google_tracking }}
+    {{ if site:locale == 'de_DE' }}
+      <script>
+        (function(w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+          });
+          var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+          j.async = true;
+          j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+          f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MNG7C8D');
+      </script>
+    {{ /if }}
+    {{ if site:locale == 'de_CH' }}
+      <script>
+        (function(w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+          });
+          var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+          j.async = true;
+          j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+          f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WZJ6VG7');
+      </script>
+    {{ /if }}
+  {{ /if }}
   {{ if config:app:facebook_tracking }}
     <meta name="facebook-domain-verification"
       content="{{ site:locale == 'de_DE' ? 's212lf3ahv0grtdpw68ue9zp1txu8q' : 'knvzhy3is49lmb27srltvulpolrwh8' }}" />
@@ -135,42 +158,28 @@
         src="https://www.facebook.com/tr?id=718610622488872&ev=PageView&noscript=1" /></noscript>
     <!-- End Meta Pixel Code -->
   {{ /if }}
-
-  {{ if config:app:google_tracking }}
-    <link rel='dns-prefetch' href='//www.googletagmanager.com' />
-    <script type="text/plain" data-src='https://www.googletagmanager.com/gtag/js?id=UA-30152060-1'
-      data-cookiecategory="analytics" id='google_gtagjs-js' async></script>
-    <script id='google_gtagjs-js-after'>
-      window.dataLayer = window.dataLayer || [];
-
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("set", "developer_id.dZTNiMT", true);
-      gtag("config", "UA-30152060-1", {
-        "anonymize_ip": true
-      });
-    </script>
-  {{ /if }}
-
 </head>
 
 <body
   class="{{ if id == "home" }}{{ id }}{{ /if }}{{ segment_1 }} bg-white leading-normal text-black pt-24 body {{ template }} w-screen">
+  {{ if config:app:google_tracking }}
+    {{ if site:locale == 'de_DE' }}
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNG7C8D" height="0" width="0"
+          style="display:none;visibility:hidden"></iframe></noscript>
+    {{ /if }}
+    {{ if site:locale == 'de_CH' }}
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZJ6VG7" height="0" width="0"
+          style="display:none;visibility:hidden"></iframe></noscript>
+    {{ /if }}
+  {{ /if }}
   {{ aardvark-seo:body }}
-
   {{ partial src="partials/header" }}
-
   {{ template_content }}
-
   {{ partial src="partials/footer" }}
-
   <script src="{{ mix src='/js/site.js' }}"></script>
   <script src="{{ mix src='/js/app.js' }}"></script>
 
   {{ cookie_notice }}
-
   {{ aardvark-seo:footer }}
 </body>
 
