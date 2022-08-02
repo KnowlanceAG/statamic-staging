@@ -277,13 +277,13 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Sind sie mit der Studien- und Privatplanung regelmäßig überfordert? Möchten Sie sich als Student eon einem erfahrenen Autor eine '
+                    text: 'Sind sie mit der Studien- und Privatplanung regelmäßig überfordert? Möchten Sie sich als Student von einem erfahrenen Autoren eine '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Mustervorlage für ihre wissenschaftliche Hausarbeit schreiben lassen'
+                    text: 'Mustervorlage für Ihre wissenschaftliche Hausarbeit schreiben lassen'
                   -
                     type: text
                     text: '? Bereits zu Beginn Ihrer wissenschaftlichen Arbeit, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, der Gliederung oder dem Exposé, können Sie sich durch '
@@ -301,7 +301,7 @@ replicator:
                     text: Ghostwriting
                   -
                     type: text
-                    text: ' Hilfe holen indem Sie eine '
+                    text: ' Hilfe holen, indem Sie eine '
                   -
                     type: text
                     marks:
@@ -335,16 +335,16 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Betreuung der Hausarbeit einzusetzen'
+                    text: 'Betreuung der Hausarbeit einsetzen'
                   -
                     type: text
-                    text: ' und ihn während des gesamten Prozesses bei Ihren Aufgaben unterstützend agieren lassen. Selbst wenn Sie sich dazu entscheiden eigenständig zu arbeiten, ist es ratsam, '
+                    text: ' und ihn während des gesamten Prozesses bei Ihren Aufgaben unterstützend agieren lassen. Selbst, wenn Sie sich dazu entscheiden, eigenständig zu arbeiten, ist es ratsam, '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'die Hausarbeit Korrekturlesen zu lassen'
+                    text: 'die Hausarbeit korrekturlesen zu lassen'
                   -
                     type: text
                     text: .
@@ -353,7 +353,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Neben dem Korrektorat und Lektorat der wissenschaftlichen Arbeit, können Sie auch '
+                    text: 'Neben dem Korrektorat und Lektorat der wissenschaftlichen Arbeit können Sie auch '
                   -
                     type: text
                     marks:
@@ -362,7 +362,7 @@ replicator:
                     text: 'eine umfassende Plagiatsprüfung von Ihrem Text und Literaturverzeichnis '
                   -
                     type: text
-                    text: 'mit Plagiatssoftware in Auftrag geben. Wir nutzen hierfür die renommierte Software '
+                    text: 'mit einer Plagiatssoftware in Auftrag geben. Wir nutzen hierfür die renommierte Software '
                   -
                     type: text
                     marks:
@@ -371,13 +371,7 @@ replicator:
                     text: 'Turnitin '
                   -
                     type: text
-                    text: 'und überprüfen damit die Einhaltung aller Vorgaben an Quellen und die Zitation'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: .
+                    text: 'und überprüfen damit die Einhaltung aller Vorgaben an Quellen und die Zitationen.'
               -
                 type: paragraph
                 content:
@@ -2470,7 +2464,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656945899
+updated_at: 1659352945
 template: default
 use_meta_keywords: false
 no_index_page: false
