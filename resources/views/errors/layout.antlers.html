@@ -73,7 +73,7 @@
 {{ /if }}
   {{ if config:app:google_tracking }}
      {{ if site:locale == 'de_DE' }}
-      <script data-cookiecategory="analytics">
+      <script type="text/plain" data-cookiecategory="analytics">
         (function(w, d, s, l, i) {
           w[l] = w[l] || [];
           w[l].push({
@@ -92,7 +92,7 @@
       </script>
 {{ /if }}
     {{ if site:locale == 'de_CH' }}
-      <script data-cookiecategory="analytics">
+      <script type="text/plain" data-cookiecategory="analytics">
         (function(w, d, s, l, i) {
           w[l] = w[l] || [];
           w[l].push({
