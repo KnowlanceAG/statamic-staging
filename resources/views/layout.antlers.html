@@ -92,7 +92,7 @@
   {{ /if }}
   {{ if config:app:google_tracking }}
     {{ if site:locale == 'de_DE' }}
-      <script>
+      <script data-cookiecategory="analytics">
         (function(w, d, s, l, i) {
           w[l] = w[l] || [];
           w[l].push({
@@ -103,6 +103,7 @@
             j = d.createElement(s),
             dl = l != 'dataLayer' ? '&l=' + l : '';
           j.async = true;
+          j.dataset.cookiecategory = 'analytics'
           j.src =
             'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
           f.parentNode.insertBefore(j, f);
@@ -110,7 +111,7 @@
       </script>
     {{ /if }}
     {{ if site:locale == 'de_CH' }}
-      <script>
+      <script data-cookiecategory="analytics">
         (function(w, d, s, l, i) {
           w[l] = w[l] || [];
           w[l].push({
@@ -123,6 +124,7 @@
           j.async = true;
           j.src =
             'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+          j.dataset.cookiecategory = 'analytics'
           f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-WZJ6VG7');
       </script>
