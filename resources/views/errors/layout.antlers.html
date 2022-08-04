@@ -90,7 +90,7 @@
           f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-MNG7C8D');
       </script>
-{{ /if }}
+    {{ /if }}
     {{ if site:locale == 'de_CH' }}
       <script type="text/plain" data-cookiecategory="analytics">
         (function(w, d, s, l, i) {
@@ -109,12 +109,26 @@
           f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-WZJ6VG7');
       </script>
-{{ /if }}
+  {{ /if }}
 {{ /if }}
 </head>
 
 <body
   class="{{ if id == "home" }}{{ id }}{{ /if }}{{ segment_1 }} bg-white leading-normal text-black pt-24 body {{ template }} w-screen">
+  {{ if config:app:google_tracking }}
+    {{ if site:locale == 'de_DE' }}
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNG7C8D" height="0" width="0"
+          style="display:none;visibility:hidden"></iframe></noscript>
+    {{ /if }}
+    {{ if site:locale == 'de_CH' }}
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZJ6VG7" height="0" width="0"
+          style="display:none;visibility:hidden"></iframe></noscript>
+    {{ /if }}
+    <script type="text/plain" data-cookiecategory="analytics" defer>
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: 'OptInGoogleAnalytics' });
+    </script>
+{{ /if }}
   {{ aardvark-seo:body }}
   {{ partial src="partials/header" }}
   {{ template_content }}
