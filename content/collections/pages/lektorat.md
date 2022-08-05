@@ -387,17 +387,17 @@ replicator:
                     text: Masterarbeit
                   -
                     type: text
-                    text: ' oder '
+                    text: ' oder das '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /arbeiten/bachelorarbeit-schreiben-lassen
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: Bachelorarbeit
+                          href: /lektorat/lektorat-bachelorarbeit
+                          target: null
+                          rel: null
+                    text: 'Lektorat Ihrer Bachelorarbeit'
                   -
                     type: text
                     text: ' handelt, damit der Lektor sich auf das geforderte Niveau einstellen kann. Auch können weitergehende fachliche Informationen (z.B. Grundlagentexte zur Arbeit) sinnvoll sein, damit der Lektor auf diese bei der fachlichen Prüfung zurückgreifen kann. Bei einem wissenschaftlichen Lektorat empfiehlt sich zudem die Zusendung der verwendeten Literatur.'
@@ -658,7 +658,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1657522962
+updated_at: 1658783746
 meta_title: 'Lektorat von GWriters - Professionell, diskret und akademisch'
 meta_description: 'Akademische Lektoren, Korrektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Lektorat: Leistungen, Ablauf, Kosten & Preise.'
 use_meta_keywords: false

@@ -78,8 +78,8 @@ teaser:
         button_link: /anfrage
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656947332
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1658750620
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -89,7 +89,20 @@ replicator:
         content:
           -
             type: text
-            text: 'Für Ihre wissenschaftliche Arbeit können Sie bei GWriters schnell und professionell eine individuelle und plagiatsfreie Mustervorlage für Ihr Exposé erstellen lassen. Unser akademischen '
+            text: 'Für Ihre wissenschaftliche Arbeit können Sie bei '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /
+                  target: null
+                  rel: null
+            text: GWriters
+          -
+            type: text
+            text: ' schnell und professionell eine individuelle und plagiatsfreie Mustervorlage für Ihr Exposé erstellen lassen. Unser akademischen '
           -
             type: text
             marks:
@@ -1075,20 +1088,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Sie müssen also die Methoden und den Inhalt Ihrer Arbeit im Voraus planen. Dabei ähnelt das Exposé in Grundzügen dem Abstract: Es stellt im Groben eine inhaltliche Zusammenfassung Ihrer Arbeit dar. Aber während das Abstract nach dem '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /
-                  target: null
-                  rel: null
-            text: 'Schreiben Ihrer wissenschaftlichen Arbeit'
-          -
-            type: text
-            text: ' erstellt wird und den Vorteil bietet, dass Sie Sich an ihrem Aufbau orientieren können, gibt das Exposé Ihnen diesen Spielraum nicht, denn das Exposé schreiben geschieht vor dem Schreiben der eigentlichen Arbeit.'
+            text: 'Sie müssen also die Methoden und den Inhalt Ihrer Arbeit im Voraus planen. Dabei ähnelt das Exposé in Grundzügen dem Abstract: Es stellt im Groben eine inhaltliche Zusammenfassung Ihrer Arbeit dar. Aber während das Abstract nach dem Schreiben Ihrer wissenschaftlichen Arbeit erstellt wird und den Vorteil bietet, dass Sie Sich an ihrem Aufbau orientieren können, gibt das Exposé Ihnen diesen Spielraum nicht, denn das Exposé schreiben geschieht vor dem Schreiben der eigentlichen Arbeit.'
       -
         type: set
         attrs:

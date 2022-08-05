@@ -290,6 +290,25 @@ replicator:
               -
                 type: textColor
                 attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /als-autor-bewerben
+                  target: null
+                  rel: null
+            text: Bewerbungs
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
                   color: 'rgb(255, 102, 2)'
                   hex: '#000'
               -
@@ -298,7 +317,7 @@ replicator:
                   href: /als-autor-bewerben
                   target: null
                   rel: null
-            text: Formular
+            text: formular
           -
             type: text
             marks:
@@ -371,7 +390,7 @@ replicator:
     enabled: true
 template: without-teaser-with-sidebar
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655894542
+updated_at: 1658914646
 meta_title: 'GWriters • Ghostwriter werden!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Werden Sie Ghostwriter!'
 use_meta_keywords: false

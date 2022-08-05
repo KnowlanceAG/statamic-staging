@@ -4,8 +4,8 @@ blueprint: pages
 title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1655984553
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1659103195
 replicator:
   -
     columns_replicator:
@@ -41,7 +41,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /
+                          href: /leistungen
                           target: null
                           rel: null
                     text: 'unsere Leistungen'
@@ -362,7 +362,20 @@ replicator:
                             type: hard_break
                           -
                             type: text
-                            text: "Wenn Sie sich bei GWriters eine Mustervorlage für Ihre Hausarbeit, Seminararbeit, Bachelorarbeit oder\_"
+                            text: 'Wenn Sie sich bei '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /
+                                  target: null
+                                  rel: null
+                            text: GWriters
+                          -
+                            type: text
+                            text: " eine Mustervorlage für Ihre Hausarbeit, Seminararbeit, Bachelorarbeit oder\_"
                           -
                             type: text
                             marks:
@@ -1232,7 +1245,7 @@ replicator:
                                   href: /arbeiten/seminararbeit-schreiben-lassen
                                   target: null
                                   rel: null
-                            text: 'Seminararbeit kaufen'
+                            text: 'Seminararbeit schreiben lassen'
                           -
                             type: text
                             text: '?” haben. Aus diesem Grund haben wir gemeinsam mit unseren akademischen Ghostwritern Preise für einige fiktive Beispielprojekte festgelegt, die Ihnen einen besseren Überblick über unsere Preisstruktur bei der Suche nach dem für Sie besten Angebot geben sollen.'

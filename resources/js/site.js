@@ -280,6 +280,11 @@ function cookienotice () {
                   col1: 'fr',
                   col2: 'gwriters.de',
                   col3: 'Meta Pixel - to store and count conversions.'
+                },
+                {
+                  col1: 'datr',
+                  col2: 'gwriters.de',
+                  col3: 'Meta Pixel - to store and count conversions.'
                 }
               ]
             }
@@ -288,6 +293,10 @@ function cookienotice () {
       }
     }
   })
+  const consentSettingsLinks = document.querySelectorAll('.cookie-consent-settings')
+  for (const link of consentSettingsLinks) {
+    link.addEventListener('click', () => cookieconsent.showSettings())
+  }
 }
 
 const ready = callback => {
