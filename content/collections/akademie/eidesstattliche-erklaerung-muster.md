@@ -187,7 +187,7 @@ twitter_card_type_page: summary
 downloads:
   - akademie/Eidesstatliche_Erklaerung.doc
 page_title: 'Kostenlose Eidesstattliche Erklärung für Ihre Hausarbeit herunterladen'
-academy_short_text-headline: 'Eidesstattliche Erklärung'
+academy_short_text_headline: 'Eidesstattliche Erklärung'
 academy_short_text: 'Finden Sie hier für Ihre eidesstattliche Erklärung Muster und Vorlagen, die in keiner Abschlussarbeit fehlen dürfen.'
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 more_templates:

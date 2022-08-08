@@ -3,15 +3,17 @@
         {{ collection:{{handle}} as="col" limit="10" paginate="true" }}
             {{ col }}
                 <div class="mb-20 border-t border-gray-300 pt-10">
-                    {{ post_image }}
-                        <a href="{{ uri }}">
-                            {{ if extension == 'svg' || extension == 'gif' }}
-                                <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
-                            {{ else }}
-                                {{ responsive:post_image alt="{alt}" class="mb-2" }}
-                            {{ /if }}
-                        </a>
-                    {{ /post_image }}
+                    {{ if post_image }}
+                      {{ post_image }}
+                          <a href="{{ uri }}">
+                              {{ if extension == 'svg' || extension == 'gif' }}
+                                  <img class="opacity-100 hover:opacity-80 hover:transition-opacity duration-200" src="{{ url }}" {{ if alt }} alt="{{ alt }}" {{ /if }}>
+                              {{ else }}
+                                  {{ responsive:post_image alt="{alt}" class="mb-2" }}
+                              {{ /if }}
+                          </a>
+                      {{ /post_image }}
+                    {{ /if }}
                     <h3 class="mb-0">
                         <a href="{{ uri }}" class="text-black hover:text-orange-500 hover:transition-color hover:duration-200">
                             {{ title }}

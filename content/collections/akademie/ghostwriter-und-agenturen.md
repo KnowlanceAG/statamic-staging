@@ -220,7 +220,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'GWriters • Alle wichtigen Informationen zu Ghostwritern und Agenturen'
-academy_short_text-headline: 'Ghostwriter und Agenturen'
+academy_short_text_headline: 'Ghostwriter und Agenturen'
 academy_short_text: 'Wenn Sie derzeit auf der Suche nach einem Ghostwriter sind, dann helfen Ihnen unsere folgenden Informationen sicherlich weiter bei Ihrer Suche. Durch unsere Informationssammlungen bekommen Sie ein gutes Gespür dafür, welche Faktoren für eine seriöse akademische Ghostwriter-Agentur sprechen.'
 meta_title: 'GWriters • Alle wichtigen Informationen zu Ghostwritern und Agenturen'
 meta_description: 'Unterscheiden Sie eine professionelle Ghostwriting Agentur von unseriösen Ghostwritern und Hobbyschreibern. Vertrauen Sie auf Experten!'

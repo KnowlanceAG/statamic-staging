@@ -25,11 +25,11 @@ sections:
               fields:
                 -
                   import: ce_image
-            text_box-alignment:
+            text_box_alignment:
               display: 'Textbox mit Ausrichtung'
               fields:
                 -
-                  import: textbox-aligned
+                  import: textbox_aligned
             teaser_icon_columns:
               display: 'Icon Spalten'
               fields:
@@ -83,7 +83,7 @@ sections:
           enable_paste_rules: true
           antlers: false
       -
-        import: responsive-assets
+        import: responsive_assets
       -
         import: ce_replicator
   sidebar:
@@ -108,7 +108,7 @@ sections:
           listable: hidden
           instructions: 'Wird im Browsertab und in den Favoriten angezeigt.'
       -
-        handle: alternative-page-title
+        handle: alternative_page_title
         field:
           input_type: text
           antlers: false

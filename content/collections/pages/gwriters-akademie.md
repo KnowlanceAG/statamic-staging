@@ -81,7 +81,7 @@ teaser:
     type: paragraph
 replicator:
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: '2'
         grid:
@@ -151,16 +151,16 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 1
-        single-col: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+        single_col: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
     border: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: 1
         grid:
@@ -180,11 +180,11 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 1
-        single-col: false
-    is-full: true
-    bg-toggle: true
-    bg-image: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
-    bg-image-fixed: false
+        single_col: false
+    is_full: true
+    bg_toggle: true
+    bg_image: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false

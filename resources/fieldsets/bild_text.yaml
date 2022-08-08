@@ -1,4 +1,4 @@
-title: Bild-Text
+title: bild_text
 fields:
   -
     handle: bild
@@ -28,8 +28,8 @@ fields:
     handle: ausrichtung
     field:
       options:
-        bild-text: 'Bild links, Text rechts'
-        text-bild: 'Text links, Bild rechts'
+        bild_text: 'Bild links, Text rechts'
+        text_bild: 'Text links, Bild rechts'
       multiple: false
       clearable: false
       searchable: true

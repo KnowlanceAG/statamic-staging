@@ -125,11 +125,11 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -152,18 +152,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -221,7 +221,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -242,20 +242,20 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: true
-    bg-color: '#F9F9F9'
-    bg-image: seiten/ghostwriting-agentur/ghostwriter-titelbild.jpg
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: true
+    bg_color: '#F9F9F9'
+    bg_image: seiten/ghostwriting-agentur/ghostwriter-titelbild.jpg
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -382,18 +382,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -444,7 +444,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     dateien:
                       - team/wittkamp_gwriters_ghostwriter_rund.png
                     img_size: w-1/2
@@ -487,19 +487,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
-    bg-color: '#F7F7F7'
+    bg_color: '#F7F7F7'
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -785,7 +785,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -809,7 +809,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '4'
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -819,9 +819,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/security.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -867,9 +867,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -912,9 +912,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/stopwatch.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -969,9 +969,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/magistrate.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -1012,18 +1012,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1078,19 +1078,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#D6D6D6'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1143,19 +1143,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#D6D6D6'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -1275,7 +1275,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: leistungen_uebersicht_4-spaltig
+                    type: leistungen_uebersicht_4_spaltig
                     grid:
                       -
                         image:
@@ -1444,19 +1444,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1549,19 +1549,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
-    bg-color: '#F2F2F2'
+    bg_color: '#F2F2F2'
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -1685,18 +1685,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -1817,19 +1817,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#D6D6D6'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -2063,18 +2063,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -2103,7 +2103,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '3'
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -2113,9 +2113,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: logo-startseite/facharbeit-schreiben-lassen.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
                     link_field: 'entry::2b55bfe7-06df-4e71-86da-152e256904ec'
               -
                 type: set
@@ -2181,9 +2181,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: logo-startseite/hausarbeit-schreiben-lassen.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
                     link_field: 'entry::cb0a74d3-ed84-4dad-b3a7-c368aec13800'
               -
                 type: set
@@ -2249,9 +2249,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: logo-startseite/seminararbeit-schreiben-lassen.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
                     link_field: 'entry::2931f444-5e22-4860-8f40-a41821377b93'
               -
                 type: set
@@ -2314,7 +2314,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '3'
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -2324,9 +2324,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: logo-startseite/bachelorarbeit-schreiben-lassen.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
                     link_field: 'entry::68b88fd1-ec03-4ea8-9292-431555e47744'
               -
                 type: set
@@ -2392,9 +2392,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: logo-startseite/masterarbeit-schreiben-lassen.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
                     link_field: 'entry::52f5092f-800b-4742-8636-a840b9ab1ddb'
               -
                 type: set
@@ -2460,9 +2460,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: logo-startseite/doktorarbeit-schreiben-lassen.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
                     link_field: 'entry::0481728e-d2e2-4b99-9a9e-8e5bca901d14'
               -
                 type: set
@@ -2525,7 +2525,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -2554,7 +2554,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '3'
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -2564,9 +2564,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: logo-startseite/ghostwriter-jura.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
                     link_field: 'entry::fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c'
               -
                 type: set
@@ -2642,9 +2642,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: logo-startseite/ghostwriter-bwl.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
                     link_field: 'entry::89bfdf0d-d156-4ee5-9575-09e85f7e3655'
               -
                 type: set
@@ -2720,9 +2720,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: logo-startseite/ghostwriter-medizin.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
                     link_field: 'entry::b850974c-8d2d-4448-b168-3dccef384025'
               -
                 type: set
@@ -2795,7 +2795,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '3'
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -2805,9 +2805,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: logo-startseite/ghostwriter-sozialwissenschaften.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
                     link_field: 'entry::6edcba2a-9fcc-4d8d-80ea-dbc325dc8332'
               -
                 type: set
@@ -2883,9 +2883,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: logo-startseite/ghostwriter-psychologie.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
                     link_field: 'entry::839e6791-eebd-4bc8-8975-a278836a9c05'
               -
                 type: set
@@ -2961,9 +2961,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: logo-startseite/ghostwriter-zahnmedizin.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
                     link_field: 'entry::780fbc21-db68-45f0-a0c9-bb6dbb99cb8f'
               -
                 type: set
@@ -3036,7 +3036,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -3105,20 +3105,20 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
-    bg-toggle: true
-    bg-color: '#D6D6D6'
-    bg-image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: true
+    bg_color: '#D6D6D6'
+    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -3279,7 +3279,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: accordion-custom-wrapper
+                    type: accordion_custom_wrapper
                     items:
                       -
                         headline:
@@ -3386,18 +3386,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -3452,9 +3452,9 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true

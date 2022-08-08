@@ -8,10 +8,10 @@ updated_by: 5dafdfdf-476c-4794-be37-54949932513d
 updated_at: 1659103195
 replicator:
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -187,7 +187,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     dateien:
                       - preise/zahlungsmoeglichkeiten.png
                     img_size: w-3/4
@@ -198,18 +198,18 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 1
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
     border: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -225,20 +225,20 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 1
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
     border: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -246,7 +246,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: text_box-alignment
+                    type: text_box_alignment
                     bard:
                       -
                         type: paragraph
@@ -270,7 +270,7 @@ replicator:
                             type: text
                             text: "\_und wir melden uns innerhalb von 24 Stunden zurück. Ihre Daten werden selbstverständlich streng vertraulich behandelt und nicht an Dritte weitergegeben."
                     text_ausrichtung: text-center
-                    column-count: false
+                    column_count: false
               -
                 type: paragraph
               -
@@ -287,18 +287,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_image_fixed: false
     border: true
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -324,7 +324,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: text_box-alignment
+                    type: text_box_alignment
                     bard:
                       -
                         type: paragraph
@@ -390,7 +390,7 @@ replicator:
                             type: text
                             text: ', erwartet Sie jederzeit höchste Qualität auf akademischem Niveau zu fairen Preisen. Dies garantieren wir durch unsere kompromisslose Qualitätssicherung, die selbstverständlich in jedem Preis-Angebot inklusive ist.'
                     text_ausrichtung: text-left
-                    column-count: false
+                    column_count: false
               -
                 type: paragraph
             show_as_card: false
@@ -399,7 +399,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -427,7 +427,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '3'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -435,7 +435,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     img_size: w-1/4
                     float: mx-auto
                     dateien:
@@ -466,7 +466,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: text_box-alignment
+                    type: text_box_alignment
                     bard:
                       -
                         type: paragraph
@@ -485,7 +485,7 @@ replicator:
                                   hex: '#000'
                             text: 'Unerwartete Preiserhöhungen oder versteckte Gebühren gibt es bei uns nicht! Falls Sie nicht ausdrücklich eine Änderung des Auftragsumfangs wünschen sollten, wird sich der Ihnen zugesagte Preis in keinem Fall ändern.'
                     text_ausrichtung: text-left
-                    column-count: false
+                    column_count: false
               -
                 type: paragraph
             show_as_card: false
@@ -495,7 +495,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     dateien:
                       - preise/telefon.svg
                     img_size: w-1/4
@@ -526,7 +526,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: text_box-alignment
+                    type: text_box_alignment
                     bard:
                       -
                         type: paragraph
@@ -548,7 +548,7 @@ replicator:
                             type: text
                             text: ', bei uns beginnt jeder Auftrag mit einer initialen Telefonkonferenz, damit Ihr Auftrag von Beginn an in die richtige Richtung geht.'
                     text_ausrichtung: text-left
-                    column-count: false
+                    column_count: false
               -
                 type: paragraph
             show_as_card: false
@@ -558,7 +558,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     dateien:
                       - preise/projektmanager.svg
                     img_size: w-1/4
@@ -620,7 +620,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     dateien:
                       - preise/feedback.svg
                     img_size: w-1/4
@@ -682,7 +682,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     dateien:
                       - preise/lektorat.svg
                     img_size: w-1/4
@@ -768,7 +768,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     dateien:
                       - preise/plagiatspruefung.svg
                     img_size: w-1/4
@@ -799,7 +799,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: text_box-alignment
+                    type: text_box_alignment
                     bard:
                       -
                         type: paragraph
@@ -808,23 +808,23 @@ replicator:
                             type: text
                             text: "Bei GWriters erhalten Sie ausschließlich Unikate. Jede wissenschaftliche Arbeit wird vor der Abschlusslieferung\_auf Plagiate geprüft. Hierfür verwenden wir die gleiche Software, wie sie auch von Universitäten verwendet wird."
                     text_ausrichtung: text-left
-                    column-count: false
+                    column_count: false
             show_as_card: false
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -832,7 +832,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: text_box-alignment
+                    type: text_box_alignment
                     bard:
                       -
                         type: paragraph
@@ -872,7 +872,7 @@ replicator:
                             type: text
                             text: ', als auch ein Kunde mit einer ingenieurwissenschaftlichen Masterarbeit, ausführlichen Berechnungen und technischen Zeichnungen immer einen fairen Preis erhalten – individuell auf Ihr Projekt zugeschnitten!'
                     text_ausrichtung: text-left
-                    column-count: false
+                    column_count: false
               -
                 type: paragraph
             show_as_card: false
@@ -881,7 +881,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -961,19 +961,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#D6D6D6'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -997,7 +997,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '4'
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -1007,9 +1007,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/security.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -1055,9 +1055,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -1100,9 +1100,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/stopwatch.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -1157,9 +1157,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/magistrate.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -1202,7 +1202,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -1228,7 +1228,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: text_box-alignment
+                    type: text_box_alignment
                     bard:
                       -
                         type: paragraph
@@ -1258,7 +1258,7 @@ replicator:
                                 type: bold
                             text: 'Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
                     text_ausrichtung: text-left
-                    column-count: false
+                    column_count: false
               -
                 type: paragraph
             show_as_card: false
@@ -1267,7 +1267,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -1275,7 +1275,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: accordion-wrapper
+                    type: accordion_wrapper
                     items:
                       -
                         headline: 'Mustervorlage für Seminararbeit'
@@ -2164,7 +2164,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -2212,18 +2212,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -2244,7 +2244,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: accordion-custom-wrapper
+                    type: accordion_custom_wrapper
                     items:
                       -
                         headline:
@@ -2530,9 +2530,9 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true

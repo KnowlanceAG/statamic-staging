@@ -1,7 +1,7 @@
-title: new-columns
+title: new_columns
 fields:
   -
-    handle: columns-replicator
+    handle: columns_replicator
     field:
       collapse: false
       sets:
@@ -23,23 +23,23 @@ fields:
       instructions: 'Entfernt Abstand Oben und Unten.'
       listable: hidden
   -
-    handle: is-full
+    handle: is_full
     field:
       display: 'Volle Breite'
       type: toggle
       icon: toggle
       listable: hidden
   -
-    handle: bg-toggle
+    handle: bg_toggle
     field:
       display: 'Farbe oder Hintergrundbild'
       type: toggle
       icon: toggle
       listable: hidden
       if:
-        is-full: '=== true'
+        is_full: '=== true'
   -
-    handle: bg-color
+    handle: bg_color
     field:
       swatches:
         - '#FF660A'
@@ -55,10 +55,10 @@ fields:
       icon: color
       listable: hidden
       if:
-        bg-toggle: '=== false'
-        is-full: '=== true'
+        bg_toggle: '=== false'
+        is_full: '=== true'
   -
-    handle: bg-image
+    handle: bg_image
     field:
       mode: grid
       container: assets
@@ -71,17 +71,17 @@ fields:
       instructions: 'Bitte ein Bild auswählen ...'
       listable: hidden
       if:
-        is-full: '=== true'
-        bg-toggle: '=== true'
+        is_full: '=== true'
+        bg_toggle: '=== true'
   -
-    handle: bg-image-fixed
+    handle: bg_image_fixed
     field:
       display: 'Hintergrundbild fixiert'
       type: toggle
       icon: toggle
       listable: hidden
       if:
-        bg-toggle: '=== true'
+        bg_toggle: '=== true'
   -
     handle: border
     field:

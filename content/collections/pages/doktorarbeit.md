@@ -130,11 +130,11 @@ teaser:
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -151,18 +151,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -229,20 +229,20 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: true
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: true
+    bg_color: '#F9F9F9'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
-    bg-image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -482,7 +482,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard: null
@@ -492,7 +492,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -516,7 +516,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '4'
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -526,9 +526,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/security.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -574,9 +574,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -619,9 +619,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/stopwatch.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -676,9 +676,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/magistrate.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -719,18 +719,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -775,7 +775,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -826,19 +826,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#D6D6D6'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -888,13 +888,13 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
+                    type: img_text_ce
                     bild:
                       - seiten/ghostwriter-gesucht/vergabe-projekt.png
-                    vertical_alignment-img: self-center
+                    vertical_alignment_img: self-center
                     text: 'Sie beschäftigen sich tagtäglich mit wissenschaftlichen Schreibarbeiten und methodischen Ansätzen in unserem Schreibservice. Darüber hinaus haben diese **umfassende Kenntnisse im Umgang mit Forschungsarbeiten**.'
-                    vertical_alignment-text: self-center
-                    reverse-columns: bild-text
+                    vertical_alignment_text: self-center
+                    reverse_columns: bild_text
               -
                 type: set
                 attrs:
@@ -919,13 +919,13 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
+                    type: img_text_ce
                     bild:
                       - leistung/icons/hat.png
-                    vertical_alignment-img: self-center
+                    vertical_alignment_img: self-center
                     text: 'Nicht selten werden auch Dienstleistungen wie die sog. [Promotionsberatung](/promotionsberatung) in Anspruch genommen. Zudem verschaffen sich einige Doktoranden umfassende Hilfe, indem sie Mustervorlagen von einen&nbsp;[Ghostwriter](/ghostwriter)&nbsp;für ihre Doktorarbeit schreiben lassen und diese Ghostwriter-Doktorarbeit als Vorlage für ihre eigene Schreibarbeit nutzen.'
-                    vertical_alignment-text: self-start
-                    reverse-columns: text-bild
+                    vertical_alignment_text: self-start
+                    reverse_columns: text_bild
               -
                 type: set
                 attrs:
@@ -963,18 +963,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -1140,19 +1140,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
-    bg-color: '#F2F2F2'
+    bg_color: '#F2F2F2'
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -1231,18 +1231,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1388,19 +1388,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F2F2F2'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F2F2F2'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -1434,17 +1434,17 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
+                    type: img_text_ce
                     bild:
                       - seiten/arbeiten/anfrage.png
-                    vertical_alignment-img: self-center
+                    vertical_alignment_img: self-center
                     text: |-
                       ### Kostenlose unverbindliche Anfrage
                       Senden Sie uns eine kostenlose Anfrage. Mit Ihren Daten gehen wir selbstverstöndlich verantwortungsvoll um. Und selbst, wenn Sie nicht anonym bei uns anfragen, werden **Ihre Daten diskret behandelt und nicht an Dritte weitergegeben**.
 
                       Nach Ihrer Anfrage erfolgt eine **Zusammenfassung aller relevanten Daten des Projektes** mit Ihnen zusammen. In der Planungsphase treffen wir anschließend eine Vorauswahl passender Autoren bzw. Ghostwriter und Lektoren für die anschließende Zweitkorrektur. 
-                    vertical_alignment-text: self-center
-                    reverse-columns: bild-text
+                    vertical_alignment_text: self-center
+                    reverse_columns: bild_text
               -
                 type: set
                 attrs:
@@ -1455,15 +1455,15 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
+                    type: img_text_ce
                     bild:
                       - seiten/arbeiten/lieferung-der-mustervorlage.png
-                    vertical_alignment-img: self-center
+                    vertical_alignment_img: self-center
                     text: |-
                       ### Individuelles Angebot
-                      Auf Basis Ihrer Anfrage erstellen wir Ihnen ein **konkretes Leistungsangebot ohne versteckte Kosten**. Der Aufwand und demzufolge die Preise für Aufträge zur Texterstellung sind unterschiedlich. Denn je nach Aufgabenstellung, Fachrichtung, Umfang (Seitenanzahl), Zeitangabe, Qualitätslevel und Komplexität des Themas werden unterschiedliche Preise festgelegt. 
-                    vertical_alignment-text: self-center
-                    reverse-columns: text-bild
+                      Auf Basis Ihrer Anfrage erstellen wir Ihnen ein **konkretes Leistungsangebot ohne versteckte Kosten**. Der Aufwand und demzufolge die Preise für Aufträge zur Texterstellung sind unterschiedlich. Denn je nach Aufgabenstellung, Fachrichtung, Umfang (Seitenanzahl), Zeitangabe, Qualitätslevel und Komplexität des Themas werden unterschiedliche Preise festgelegt.
+                    vertical_alignment_text: self-center
+                    reverse_columns: text_bild
               -
                 type: set
                 attrs:
@@ -1474,15 +1474,15 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
+                    type: img_text_ce
                     bild:
                       - seiten/ghostwriter-gesucht/ghostwriter-Datenbanken-1.png
-                    vertical_alignment-img: self-center
+                    vertical_alignment_img: self-center
                     text: |-
                       ### Erfahrenes Expertenteam
                       Für Ihr Projekt werden ausschließlich hervorragend qualifizierte Autoren aus Ihrem eigenen Fachbereich ausgewählt. So können wir die benötigte Zeit für die Einarbeitung minimieren und Ihnen eine bestmögliche Betreuung bieten.
-                    vertical_alignment-text: self-center
-                    reverse-columns: bild-text
+                    vertical_alignment_text: self-center
+                    reverse_columns: bild_text
               -
                 type: set
                 attrs:
@@ -1493,15 +1493,15 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
+                    type: img_text_ce
                     bild:
                       - seiten/arbeiten/feedbackumsetzen.png
-                    vertical_alignment-img: self-center
+                    vertical_alignment_img: self-center
                     text: |-
                       ### Doktorarbeit schreiben lassen
                       Während der Anfertigung Ihrer Mustervorlage durch einen **professionellen Ghostwriter** läuft die gesamte Kommunikation anonym in schriftlicher oder telefonischer Form ab. Selbstverständlich können Sie auch andere Kommunikationskanäle nutzen. Ihr individueller Betreuer übernimmt für Sie die gesamte Kommunikation mit Ihrem Ghostwriter.
-                    vertical_alignment-text: self-center
-                    reverse-columns: text-bild
+                    vertical_alignment_text: self-center
+                    reverse_columns: text_bild
               -
                 type: set
                 attrs:
@@ -1512,15 +1512,15 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
+                    type: img_text_ce
                     bild:
                       - seiten/arbeiten/termineplanen.png
-                    vertical_alignment-img: self-center
+                    vertical_alignment_img: self-center
                     text: |-
                       ### Regelmäßige Teillieferungen
                       Sie erhalten einen individuellen Projektbetreuer, der Ihnen kontinuierlich zur Seite steht. Weiterhin erhalten Sie regelmäßig Teillieferungen, um auch **stetig Einblick in die aktuellen Schreibarbeiten** zu erhalten. So können Sie auch inhaltlich Einfluss nehmen und haben die Sicherheit, ein **qualitativ hochwertiges Werk** zu erhalten.
-                    vertical_alignment-text: self-center
-                    reverse-columns: bild-text
+                    vertical_alignment_text: self-center
+                    reverse_columns: bild_text
               -
                 type: set
                 attrs:
@@ -1531,15 +1531,15 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
+                    type: img_text_ce
                     bild:
                       - seiten/arbeiten/bachelorarbeit-schreiben.jpg
-                    vertical_alignment-img: self-center
+                    vertical_alignment_img: self-center
                     text: |-
                       ### Qualitativer Feinschliff & Vier-Augen-Prinzip
                       Nachdem die Schreibphase mit allen Teillieferungen abgeschlossen ist, erfolgt der Feinschliff. Ihr Feedback wird dabei **von Ihrem Ghostwriter in kostenlosen Korrekturschleifen eingearbeitet**. Es erfolgt zudem eine Plagiatsprüfung der Mustervorlage, welche Sie für Ihre Doktorarbeit schreiben lassen. Gefolgt wird diese von einem zweiten **Lektorat im Vier-Augen-Prinzip**.
-                    vertical_alignment-text: self-center
-                    reverse-columns: text-bild
+                    vertical_alignment_text: self-center
+                    reverse_columns: text_bild
               -
                 type: set
                 attrs:
@@ -1550,15 +1550,15 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
+                    type: img_text_ce
                     bild:
                       - seiten/arbeiten/fertigearbeit.png
-                    vertical_alignment-img: self-center
+                    vertical_alignment_img: self-center
                     text: |-
                       ### Finale Lieferung der Mustervorlage
                       Mit der finalen Lieferung erhalten Sie Ihre individuelle Mustervorlage für Ihre Dissertation. Da der Datenschutz für unsere Agentur besonders wichtig ist, werden auch **alle Daten vom Auftraggeber bzw. Kunden im Anschluss an den Auftrag gelöscht**. Sie erhalten somit ein hochqualitatives wissenschaftliches Ergebnis bei voller Diskretion.
-                    vertical_alignment-text: self-center
-                    reverse-columns: bild-text
+                    vertical_alignment_text: self-center
+                    reverse_columns: bild_text
               -
                 type: set
                 attrs:
@@ -1585,25 +1585,25 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     remove_spacing: false
-    is-full: true
-    bg-toggle: true
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: true
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1838,13 +1838,13 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
-    bg-image: seiten/arbeiten/masterabschluss.jpg
+    bg_image: seiten/arbeiten/masterabschluss.jpg
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1878,19 +1878,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F7F7F7'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F7F7F7'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -2085,18 +2085,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -2218,7 +2218,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -2604,19 +2604,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -2647,9 +2647,9 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -2897,5 +2897,5 @@ schema_objects: |-
   </script>
 sitemap_active: true
 page_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
-alternative-page-title: 'Doktorarbeit schreiben lassen'
+alternative_page_title: 'Doktorarbeit schreiben lassen'
 ---

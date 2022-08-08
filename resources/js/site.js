@@ -116,7 +116,7 @@ function lazzyVideo () {
   }
 }
 
-function tabToggle () {
+function tabToggle() {
   const gwritersTabs = document.querySelectorAll('div.link-list-header > p')
   function gwritersTabClicks (tabClickEvent) {
     for (const tab of gwritersTabs) {

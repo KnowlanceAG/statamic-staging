@@ -228,10 +228,10 @@ replicator:
     enabled: true
     show_as_card: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -249,7 +249,7 @@ replicator:
         responsive_columns: 1
       -
         columns_per_row: '3'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -427,7 +427,7 @@ replicator:
         responsive_columns: 1
       -
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -485,9 +485,9 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 1
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: true
@@ -1064,5 +1064,5 @@ og_description: 'Magisterarbeit schreiben lassen & Hilfe vom akademischen Ghostw
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_abschlussarbeiten
 sitemap_active: true
-alternative-page-title: 'Magisterarbeit schreiben lassen'
+alternative_page_title: 'Magisterarbeit schreiben lassen'
 ---

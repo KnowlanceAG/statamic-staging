@@ -18,7 +18,7 @@ fields:
         - required
         - 'mimes:svg'
   -
-    handle: custom-svg-width
+    handle: custom_svg_width
     field:
       min: 25
       max: 150

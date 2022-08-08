@@ -27,7 +27,7 @@ teaser:
     type: set
     attrs:
       values:
-        type: text_box-alignment
+        type: text_box_alignment
         bard:
           -
             type: paragraph
@@ -68,7 +68,7 @@ teaser:
                     type: bold
                 text: 'innovativ denkende Studierende mit unserem neuen GWriters Stipendium.'
         text_ausrichtung: text-center
-        column-count: false
+        column_count: false
   -
     type: paragraph
   -

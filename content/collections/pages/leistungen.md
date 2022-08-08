@@ -115,7 +115,7 @@ replicator:
         type: set
         attrs:
           values:
-            type: text_box-alignment
+            type: text_box_alignment
             bard:
               -
                 type: paragraph
@@ -272,15 +272,15 @@ replicator:
                           align: left
                     text: ' bei jedem Auftrag gerecht werden möchten. Dementsprechend sind wir immer daran interessiert Ihnen die bestmögliche Qualität zu liefern. Jede Arbeit, die von unseren akademischen Ghostwritern erstellt wird, wird von einem internen Supervisor lektoriert und einer Plagiatsprüfung unterzogen. So garantieren wir Ihre Zufriedenheit und stellen sicher, dass unsere Kunden hochwertige wissenschaftliche Unikate erhalten.'
             text_ausrichtung: text-left
-            column-count: true
+            column_count: true
     type: editor
     enabled: true
     show_as_card: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: '3'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -291,7 +291,7 @@ replicator:
                     type: bilder
                     assets:
                       - leistung/icons/pencil.svg
-                    img-alignment: justify-center
+                    img_alignment: justify-center
                     link: 'entry::0328a685-5f37-4f91-bd4b-79c53adaea8d'
                     has_border: false
               -
@@ -358,7 +358,7 @@ replicator:
                     assets:
                       - leistung/icons/Glasses-new.svg
                     link: 'entry::659e7e81-6d07-4eea-9ef2-325e72618036'
-                    img-alignment: justify-center
+                    img_alignment: justify-center
                     has_border: false
               -
                 type: heading
@@ -424,7 +424,7 @@ replicator:
                     assets:
                       - leistung/icons/eraser_1.svg
                     link: 'entry::e36a16aa-f4fc-4352-8466-36266c196de4'
-                    img-alignment: justify-center
+                    img_alignment: justify-center
                     has_border: false
               -
                 type: heading
@@ -485,7 +485,7 @@ replicator:
         responsive_columns: 1
       -
         columns_per_row: '3'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -497,7 +497,7 @@ replicator:
                     assets:
                       - leistung/icons/search-book.png
                     link: 'entry::dafbcd3b-fd08-4c5b-94be-f2a80c140953'
-                    img-alignment: justify-center
+                    img_alignment: justify-center
                     has_border: false
               -
                 type: heading
@@ -568,7 +568,7 @@ replicator:
                     assets:
                       - leistung/icons/certificate_1.svg
                     link: 'entry::e12620a8-faf9-4f3e-82af-5586f4a85db2'
-                    img-alignment: justify-center
+                    img_alignment: justify-center
                     has_border: false
               -
                 type: heading
@@ -639,7 +639,7 @@ replicator:
                     assets:
                       - leistung/icons/secure.svg
                     link: 'entry::fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8'
-                    img-alignment: justify-center
+                    img_alignment: justify-center
                     has_border: false
               -
                 type: heading
@@ -693,7 +693,7 @@ replicator:
         responsive_columns: 1
       -
         columns_per_row: '2'
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -705,7 +705,7 @@ replicator:
                     assets:
                       - leistung/icons/reload.svg
                     link: 'entry::7cad538c-ad74-4617-825e-bbac46ebf310'
-                    img-alignment: justify-center
+                    img_alignment: justify-center
                     has_border: false
               -
                 type: heading
@@ -776,7 +776,7 @@ replicator:
                     assets:
                       - leistung/icons/hat.svg
                     link: 'entry::6dd15231-c8e7-43fe-949e-af68de19ab1b'
-                    img-alignment: justify-center
+                    img_alignment: justify-center
                     has_border: false
               -
                 type: heading
@@ -840,18 +840,18 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 1
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: true
     border: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -859,7 +859,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: text_box-alignment
+                    type: text_box_alignment
                     bard:
                       -
                         type: heading
@@ -918,7 +918,7 @@ replicator:
                             type: text
                             text: 'Alle durch uns vermittelten Leistungen unterliegen einer strengen Qualitätskontrolle durch unser Team und unsere Supervisor. Die Betreuung Ihres Auftrages erfolgt durch einen festen, jederzeit erreichbaren Ansprechpartner.'
                     text_ausrichtung: text-center
-                    column-count: false
+                    column_count: false
               -
                 type: heading
                 attrs:
@@ -929,9 +929,9 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 1
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false

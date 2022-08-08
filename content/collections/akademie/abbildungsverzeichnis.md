@@ -188,7 +188,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
-academy_short_text-headline: Abbildungsverzeichnis
+academy_short_text_headline: Abbildungsverzeichnis
 academy_short_text: 'Erstellen Sie mit unserem Abbildungsverzeichnis-Beispiel schnell Ihr individuelles Abbildungsverzeichnis.'
 more_templates:
   - 8778439c-ea07-4542-9287-cb87e6074f6a

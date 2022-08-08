@@ -254,7 +254,7 @@ replicator:
         type: set
         attrs:
           values:
-            type: floating-img
+            type: floating_img
             dateien:
               - seiten/arbeiten/seminararbeit/seminararbeit_schreiben_lassen_professoren_doktoren.png
             img_size: w-full
@@ -369,7 +369,7 @@ replicator:
         type: set
         attrs:
           values:
-            type: floating-img
+            type: floating_img
             dateien:
               - seiten/arbeiten/seminararbeit/Seminararbeit.jpg
             img_size: w-1/2
@@ -440,11 +440,11 @@ replicator:
             text: .
     show_as_card: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -464,7 +464,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '3'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -647,7 +647,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -667,7 +667,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '3'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1367,7 +1367,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1385,7 +1385,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1408,7 +1408,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     dateien:
                       - seiten/arbeiten/seminararbeit/anfrage-angebot.png
                     img_size: w-1/2
@@ -1447,7 +1447,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     dateien:
                       - seiten/arbeiten/seminararbeit/termineplanen.png
                     img_size: w-1/2
@@ -1458,7 +1458,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1493,7 +1493,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     dateien:
                       - seiten/arbeiten/seminararbeit/feedbackumsetzen.png
                     img_size: w-1/2
@@ -1506,7 +1506,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1529,7 +1529,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     dateien:
                       - seiten/arbeiten/seminararbeit/lieferung-der-mustervorlage.png
                     img_size: w-1/2
@@ -1538,9 +1538,9 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
