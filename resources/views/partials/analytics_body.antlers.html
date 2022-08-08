@@ -1,0 +1,14 @@
+{{ if config:app:google_tracking }}
+  {{ if site:locale == 'de_DE' }}
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNG7C8D" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+  {{ /if }}
+  {{ if site:locale == 'de_CH' }}
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WZJ6VG7" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+  {{ /if }}
+  <script type="text/plain" data-cookiecategory="analytics">
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ event: 'OptInGoogleAnalytics' });
+  </script>
+{{ /if }}
