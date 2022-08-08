@@ -287,6 +287,10 @@ function cookienotice () {
                   col3: 'Meta Pixel - to store and count conversions.'
                 }
               ]
+            },
+            {
+              title: "Hinweis",
+              description: "Bitte laden Sie im Anschluss an die Änderung die Seite neu, falls sie eine Berechtigung zurückgezogen haben."
             }
           ]
         }
