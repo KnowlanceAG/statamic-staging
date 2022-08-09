@@ -58,8 +58,7 @@ return [
     '/als-autor-bewerben',
     '/als-autor-bewerben/',
     '/kontakt',
-    '/kontakt/',
-    '/blog/page/*'
+    '/kontakt/'
   ],
 
   /*
@@ -80,7 +79,28 @@ return [
     'class' => null,
 
     'rules' => [
-      //
+      'collections' => [
+        'blog' => [
+          'urls' => [
+            'blog/page/*'
+          ]
+        ],
+        'presse' => [
+          'urls' => [
+            'presse/page/*'
+          ]
+        ],
+        'akademie' => [
+          'urls' => [
+            '/gwriters-akademie'
+          ]
+        ],
+        'team' => [
+          'urls' => [
+            '/team'
+          ]
+        ]
+      ]
     ],
 
   ],
