@@ -52,7 +52,15 @@ return [
     |
     */
 
-  'exclude' => [],
+  'exclude' => [
+    '/anfrage',
+    '/anfrage/',
+    '/als-autor-bewerben',
+    '/als-autor-bewerben/',
+    '/kontakt',
+    '/kontakt/',
+    '/blog/page/*'
+  ],
 
   /*
     |--------------------------------------------------------------------------
