@@ -75,19 +75,16 @@ return [
     */
 
   'invalidation' => [
-
-    'class' => null,
-
     'rules' => [
       'collections' => [
         'blog' => [
           'urls' => [
-            'blog/page/*'
+            '/blog/page/*'
           ]
         ],
         'presse' => [
           'urls' => [
-            'presse/page/*'
+            '/presse/page/*'
           ]
         ],
         'akademie' => [
