@@ -47,7 +47,7 @@ return [
       'class' => Stores\EntriesStore::class,
       'directory' => base_path('content/collections'),
       'indexes' => [
-        'author'
+        'author', 'published_at'
       ]
     ],
 
