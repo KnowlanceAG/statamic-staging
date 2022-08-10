@@ -19,6 +19,8 @@ preferences:
         - title
         - position
         - photo
+    presse:
+      after_save: continue_editing
   assets:
     downloads:
       mode: table
