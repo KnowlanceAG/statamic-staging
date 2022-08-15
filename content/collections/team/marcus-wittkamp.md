@@ -11,7 +11,7 @@ bard:
     type: set
     attrs:
       values:
-        type: text_box-alignment
+        type: text_box_alignment
         bard:
           -
             type: paragraph

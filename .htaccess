@@ -25,6 +25,9 @@ ErrorDocument 403 /error-404/index.html
   #Header set Content-Security-Policy-Report-Only "default-src 'self'; script-src 'report-sample' 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com www.googletagmanager.com www.provenexpert.com; style-src 'report-sample' 'self' data: 'unsafe-inline' www.provenexpert.com; object-src 'none'; base-uri 'self'; connect-src 'self' https://statamic-dynamic.gwriters.de stats.g.doubleclick.net www.google-analytics.com; font-src 'self' data: www.google-analytics.com www.provenexpert.com; frame-src 'self' player.vimeo.com www.youtube-nocookie.com; img-src 'self' data: www.google.com www.google.at www.google.de www.google-analytics.com google-analytics.com www.provenexpert.com; manifest-src 'self'; media-src 'self'; frame-ancestors 'self' https://thesisbuddy.ch; report-uri https://gwriters.report-uri.com/r/d/csp/wizard; worker-src 'none';"
 </IfModule>
 
+# Prohibit access to formular uploads
+RedirectMatch 403 ^/public/img/containers/formular_uploads/.?$
+
 Redirect 301 /blog/index.html /blog/page/1
 Redirect 301 /presse/index.html /presse/page/1
 

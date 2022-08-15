@@ -143,11 +143,11 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 replicator:
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -168,19 +168,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -206,7 +206,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: leistungen_uebersicht_4-spaltig
+                    type: leistungen_uebersicht_4_spaltig
                     grid:
                       -
                         image:
@@ -250,19 +250,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -324,18 +324,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -420,19 +420,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#8A8A8A'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#8A8A8A'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -503,7 +503,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -577,18 +577,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -636,7 +636,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -654,19 +654,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -827,18 +827,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -966,19 +966,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F0F0F0'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F0F0F0'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -1130,18 +1130,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1319,9 +1319,9 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -1332,5 +1332,5 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der BWL – sc
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
-alternative-page-title: 'BWL Ghostwriter'
+alternative_page_title: 'BWL Ghostwriter'
 ---

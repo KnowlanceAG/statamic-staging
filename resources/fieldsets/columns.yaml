@@ -29,7 +29,7 @@ fields:
       if:
         grid.length: '> 1'
   -
-    handle: single-col
+    handle: single_col
     field:
       display: 'Zentriert mit 75% Breite'
       type: toggle

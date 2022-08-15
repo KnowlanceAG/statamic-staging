@@ -6,7 +6,7 @@ preferences:
   collections:
     pages:
       after_save: continue_editing
-      per_page: 100
+      per_page: 500
     blog:
       after_save: continue_editing
       per_page: 100
@@ -19,6 +19,8 @@ preferences:
         - title
         - position
         - photo
+    presse:
+      after_save: continue_editing
   assets:
     downloads:
       mode: table

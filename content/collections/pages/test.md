@@ -32,10 +32,10 @@ replicator:
         type: set
         attrs:
           values:
-            type: img-text-ce
+            type: img_text_ce
             bild:
               - Anzahl-der-selbstaendigen-bildenden-Kuenstler.png
-            vertical_alignment-img: self-start
+            vertical_alignment_img: self-start
             text: |-
               Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte.
 
@@ -52,19 +52,19 @@ replicator:
               Der große Oxmox riet ihr davon ab, da es dort wimmele von bösen Kommata, wilden Fragezeichen und hinterhältigen Semikoli, doch das Blindtextchen ließ sich nicht beirren. Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg.
 
               Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse. Wehmütig lief ihm eine rhetorische Frage über die Wange, dann setzte es seinen Weg fort. Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da, wo sie herkäme wäre sie
-            vertical_alignment-text: self-start
-            reverse-columns: bild-text
+            vertical_alignment_text: self-start
+            reverse_columns: bild_text
       -
         type: paragraph
     show_as_card: false
     type: editor
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '3'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -72,9 +72,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: logo-startseite/hausarbeit-schreiben-lassen.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
                     link_field: 'entry::dabfe654-ec77-4680-89a4-94467547a605'
               -
                 type: paragraph
@@ -85,9 +85,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: logo-startseite/bachelorarbeit-schreiben-lassen.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: paragraph
             show_as_card: false
@@ -97,18 +97,18 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: logo-startseite/doktorarbeit-schreiben-lassen.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: paragraph
             show_as_card: false
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true

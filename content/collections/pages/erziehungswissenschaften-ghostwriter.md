@@ -143,7 +143,7 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 replicator:
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: 1
         grid:
@@ -353,7 +353,7 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 1
-        single-col: false
+        single_col: false
       -
         columns_per_row: '3'
         grid:
@@ -558,16 +558,16 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 1
-        single-col: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+        single_col: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: true
     border: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: 1
         grid:
@@ -608,16 +608,16 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 1
-        single-col: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+        single_col: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: true
     border: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: 1
         grid:
@@ -1294,7 +1294,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     dateien:
                       - seiten/fachrichtungen/Studienplan-von-Erziehungswissenschaften.png
                     img_size: w-full
@@ -3236,10 +3236,10 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 1
-        single-col: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+        single_col: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -3251,5 +3251,5 @@ og_description: 'Erziehungswissenschaften studieren? Abschluss und Hilfe durch E
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_sozialwissenschaften
 sitemap_active: true
-alternative-page-title: 'Erziehungswissenschaften Ghostwriter'
+alternative_page_title: 'Erziehungswissenschaften Ghostwriter'
 ---

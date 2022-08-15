@@ -1,6 +1,8 @@
 <div class="p-12 bg-gray-200 flex sm:flex-row flex-col">
     <div class="p-4 sm:w-1/2 w-full flex justify-center">
-         {{ responsive:ex_image alt="{ex_image:alt}" class="" }}
+      {{ if ex_image }}
+        {{ responsive:ex_image alt="{ex_image:alt}" class="" }}
+      {{ /if }}
     </div>
     <div class="sm:w-1/2 w-full">
         <h2>{{ ex_title }}</h2>

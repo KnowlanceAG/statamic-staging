@@ -161,7 +161,7 @@ replicator:
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
 updated_at: 1623866959
-academy_short_text-headline: 'Deckblatt Vorlage'
+academy_short_text_headline: 'Deckblatt Vorlage'
 academy_short_text: 'Nutzen und individualisieren Sie bequem unsere Deckblatt Vorlage für Ihre eigene Abschlussarbeit anwenden.'
 use_meta_keywords: false
 no_index_page: false

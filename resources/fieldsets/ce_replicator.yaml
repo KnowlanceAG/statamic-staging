@@ -9,7 +9,7 @@ fields:
           display: 'Add section'
           fields:
             -
-              import: new-columns
+              import: new_columns
         editor:
           display: 'Add Editor'
           fields:

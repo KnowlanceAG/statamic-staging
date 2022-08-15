@@ -40,8 +40,8 @@ teaser:
         spacing_top: false
   -
     type: paragraph
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1648215835
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1656669792
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -301,7 +301,6 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
-twitter_card_type_page: summary
 template: with-side-bar
 page_title: 'GWriters • Impressum'
 og_title: 'GWriters • Impressum'

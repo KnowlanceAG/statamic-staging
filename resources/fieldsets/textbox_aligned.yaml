@@ -60,7 +60,7 @@ fields:
       instructions: 'Bitte wählen ...'
       listable: hidden
   -
-    handle: column-count
+    handle: column_count
     field:
       default: false
       display: 'Zwei Spalten'

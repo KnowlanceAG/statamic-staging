@@ -41,7 +41,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -69,7 +69,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -84,10 +84,8 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
-    columns-replicator:
+    columns_replicator:
       -
-        columns_per_row: 1
-        single-col: false
         grid:
           -
             bard:
@@ -709,19 +707,18 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
     type: add_section
     enabled: true
     border: false
+    bg_toggle: false
+    bg_image_fixed: false
   -
-    columns-replicator:
+    columns_replicator:
       -
-        columns_per_row: '1'
-        single-col: false
         grid:
           -
             bard:
@@ -803,10 +800,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: 1
-        single-col: false
         grid:
           -
             bard:
@@ -901,14 +897,15 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
     type: add_section
     enabled: true
     border: false
+    bg_toggle: false
+    bg_image_fixed: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
@@ -922,7 +919,6 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
 og_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
 og_description: 'Ghostwriting von Akademikern für Akademiker - professionelle Hilfe ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'

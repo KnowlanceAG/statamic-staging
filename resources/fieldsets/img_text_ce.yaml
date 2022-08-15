@@ -1,4 +1,4 @@
-title: 'NEU - Bild-Text'
+title: 'NEU - bild_text'
 fields:
   -
     handle: bild
@@ -13,7 +13,7 @@ fields:
       listable: hidden
       width: 75
   -
-    handle: vertical_alignment-img
+    handle: vertical_alignment_img
     field:
       options:
         self-start: Oben
@@ -48,7 +48,7 @@ fields:
       listable: hidden
       width: 75
   -
-    handle: vertical_alignment-text
+    handle: vertical_alignment_text
     field:
       options:
         self-start: Oben
@@ -69,11 +69,11 @@ fields:
       instructions_position: above
       width: 25
   -
-    handle: reverse-columns
+    handle: reverse_columns
     field:
       options:
-        bild-text: 'Bild links, Text rechts'
-        text-bild: 'Text links, Bild rechts'
+        bild_text: 'Bild links, Text rechts'
+        text_bild: 'Text links, Bild rechts'
       multiple: false
       clearable: false
       searchable: true
@@ -86,4 +86,4 @@ fields:
       listable: hidden
       instructions_position: above
       instructions: 'Nur im Desktop'
-      default: bild-text
+      default: bild_text

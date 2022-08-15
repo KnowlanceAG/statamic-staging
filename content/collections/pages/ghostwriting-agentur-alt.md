@@ -316,11 +316,11 @@ replicator:
     type: editor
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -340,7 +340,7 @@ replicator:
                       -MAXQDA Auswertung
                       -Übersetzung
                       -Promotionsberatung
-                    ausrichtung: bild-text
+                    ausrichtung: bild_text
               -
                 type: set
                 attrs:
@@ -361,7 +361,7 @@ replicator:
                       -Doktoren
                       <br>
                       -Professoren
-                    ausrichtung: text-bild
+                    ausrichtung: text_bild
               -
                 type: set
                 attrs:
@@ -381,7 +381,7 @@ replicator:
                       Interdiszipliniertes Wissen
                       <br>
                       in vielen Fachbereichen
-                    ausrichtung: bild-text
+                    ausrichtung: bild_text
               -
                 type: set
                 attrs:
@@ -406,7 +406,7 @@ replicator:
                       -Zitiersystem
                       <br>
                       -Datenbanken
-                    ausrichtung: text-bild
+                    ausrichtung: text_bild
               -
                 type: set
                 attrs:
@@ -423,9 +423,9 @@ replicator:
                     text: |-
                       <br>
                       <br>
-                      Sichert 100% Anonymität 
+                      Sichert 100% Anonymität
                       <br>(Ghostwriter & Auftraggeber)
-                    ausrichtung: bild-text
+                    ausrichtung: bild_text
               -
                 type: set
                 attrs:
@@ -443,7 +443,7 @@ replicator:
                       <br>
                       <br>
                       Kurze Bearbeitungszeit
-                    ausrichtung: text-bild
+                    ausrichtung: text_bild
               -
                 type: set
                 attrs:
@@ -463,16 +463,16 @@ replicator:
                       -Lektorat & Korrektorat
                       -Plagiatsprüfung
                       -Qualitätsprüfung
-                    ausrichtung: bild-text
+                    ausrichtung: bild_text
               -
                 type: paragraph
             show_as_card: false
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true

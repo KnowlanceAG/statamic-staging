@@ -136,7 +136,7 @@ override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'Kostenloses Anhangsverzeichnis für Ihre Hausarbeit herunterladen'
 academy_short_text: 'Verschaffen Sie den Lesern Ihrer Arbeit einen Überblick über alle Anhänge mit unserem Anhangsverzeichnis Beispiel.'
-academy_short_text-headline: Anhangsverzeichnis
+academy_short_text_headline: Anhangsverzeichnis
 more_templates:
   - 8778439c-ea07-4542-9287-cb87e6074f6a
   - b609ef85-dc84-4405-93d0-1b92d92ca1a4

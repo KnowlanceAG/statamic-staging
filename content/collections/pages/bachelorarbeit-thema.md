@@ -2079,7 +2079,7 @@ replicator:
             type: bilder
             assets:
               - seiten/extipps.jpg
-            img-alignment: justify-start
+            img_alignment: justify-start
             has_border: false
       -
         type: paragraph
@@ -2172,7 +2172,7 @@ replicator:
             type: bilder
             assets:
               - seiten/extipps.jpg
-            img-alignment: justify-start
+            img_alignment: justify-start
             has_border: false
       -
         type: paragraph
@@ -2345,7 +2345,7 @@ replicator:
             type: bilder
             assets:
               - seiten/extipps.jpg
-            img-alignment: justify-start
+            img_alignment: justify-start
             has_border: false
       -
         type: paragraph
@@ -2522,7 +2522,7 @@ replicator:
             type: bilder
             assets:
               - seiten/extipps.jpg
-            img-alignment: justify-start
+            img_alignment: justify-start
             has_border: false
       -
         type: paragraph
@@ -2647,7 +2647,7 @@ replicator:
             type: bilder
             assets:
               - seiten/extipps.jpg
-            img-alignment: justify-start
+            img_alignment: justify-start
             has_border: false
       -
         type: paragraph
@@ -2692,7 +2692,7 @@ replicator:
             type: bilder
             assets:
               - seiten/extipps.jpg
-            img-alignment: justify-start
+            img_alignment: justify-start
             has_border: false
       -
         type: paragraph
@@ -2868,7 +2868,7 @@ replicator:
             type: bilder
             assets:
               - seiten/extipps.jpg
-            img-alignment: justify-start
+            img_alignment: justify-start
             has_border: false
       -
         type: paragraph
@@ -3041,7 +3041,7 @@ replicator:
             type: bilder
             assets:
               - seiten/extipps.jpg
-            img-alignment: justify-start
+            img_alignment: justify-start
             has_border: false
       -
         type: paragraph
@@ -3138,7 +3138,7 @@ replicator:
             type: bilder
             assets:
               - seiten/extipps.jpg
-            img-alignment: justify-start
+            img_alignment: justify-start
             has_border: false
       -
         type: paragraph
@@ -3379,7 +3379,7 @@ replicator:
             type: bilder
             assets:
               - seiten/extipps.jpg
-            img-alignment: justify-start
+            img_alignment: justify-start
             has_border: false
       -
         type: paragraph
@@ -3424,7 +3424,7 @@ replicator:
             type: bilder
             assets:
               - seiten/extipps.jpg
-            img-alignment: justify-start
+            img_alignment: justify-start
             has_border: false
       -
         type: paragraph
@@ -3551,7 +3551,7 @@ replicator:
             type: bilder
             assets:
               - seiten/bachelorarbeit-thema-bwl/themen-fur-bachelorarbeit-bwl.png
-            img-alignment: justify-center
+            img_alignment: justify-center
             has_border: false
       -
         type: paragraph
@@ -3592,7 +3592,7 @@ replicator:
             type: bilder
             assets:
               - seiten/bachelorarbeit-thema-bwl/Themen_fuer_BWL_Bachelorarbeiten.png
-            img-alignment: justify-center
+            img_alignment: justify-center
             has_border: false
       -
         type: paragraph

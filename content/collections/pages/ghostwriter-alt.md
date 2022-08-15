@@ -268,7 +268,7 @@ replicator:
         type: set
         attrs:
           values:
-            type: floating-img
+            type: floating_img
             dateien:
               - seiten/arbeiten/hausarbeit/ghostwriter.jpg
             img_size: w-full
@@ -766,7 +766,7 @@ replicator:
         type: set
         attrs:
           values:
-            type: floating-img
+            type: floating_img
             dateien:
               - seiten/ghostwriter.jpg
             img_size: w-1/4

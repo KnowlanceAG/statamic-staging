@@ -173,10 +173,10 @@ replicator:
     enabled: true
     show_as_card: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -194,7 +194,7 @@ replicator:
         responsive_columns: 1
       -
         columns_per_row: '3'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -370,7 +370,7 @@ replicator:
         responsive_columns: 1
       -
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -388,7 +388,7 @@ replicator:
         responsive_columns: 1
       -
         columns_per_row: '3'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1055,9 +1055,9 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 1
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -1623,5 +1623,5 @@ og_title: 'GWriters • Mustervorlage für Exposé schreiben lassen'
 og_description: 'Mustervorlage für Exposé schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-alternative-page-title: 'Exposé schreiben lassen'
+alternative_page_title: 'Exposé schreiben lassen'
 ---

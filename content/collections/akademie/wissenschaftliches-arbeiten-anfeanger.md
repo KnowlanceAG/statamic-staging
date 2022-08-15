@@ -248,7 +248,7 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 page_title: 'Tipps zum wissenschaftlichen Arbeiten für die erste Hausarbeit'
-academy_short_text-headline: 'Wissenschaftliches Arbeiten für Anfänger von Gwriters'
+academy_short_text_headline: 'Wissenschaftliches Arbeiten für Anfänger von Gwriters'
 academy_short_text: 'Mit Hilfe der Materialien, Artikel und Informationen aus unserer GWriters Akademie finden Sie sich schnell in jeden Themenbereich des wissenschaftlichen Schreibens ein. Besonders Anfänger sehen sich bei der ersten Hausarbeit großen Hürden gegenüber. Wir erklären Ihnen alles, was Sie für Ihren Start in ein erfolgreiches akademisches Studium benötigen.'
 meta_title: 'Tipps zum wissenschaftlichen Arbeiten für die erste Hausarbeit'
 meta_description: 'Sind Sie Anfänger beim Erstellen einer wissenschaftlichen Arbeit? Hier finden Sie alle wichtigen Informationen im Überblick rund und das Thema!'

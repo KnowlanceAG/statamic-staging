@@ -130,11 +130,11 @@ teaser:
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -151,18 +151,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -229,20 +229,20 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: true
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: true
+    bg_color: '#F9F9F9'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
-    bg-image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -389,7 +389,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -413,7 +413,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '4'
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -423,9 +423,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/security.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -471,9 +471,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -516,9 +516,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/stopwatch.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -573,9 +573,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/magistrate.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -616,18 +616,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -672,7 +672,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -723,19 +723,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#D6D6D6'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -794,18 +794,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -895,19 +895,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F2F2F2'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F2F2F2'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -941,17 +941,17 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
+                    type: img_text_ce
                     bild:
                       - seiten/arbeiten/anfrage.png
-                    vertical_alignment-img: self-center
+                    vertical_alignment_img: self-center
                     text: |-
                       ### Kostenlose Anfrage
                       Sei erhalten ein kostenloses Angebot zu Ihren Anforderungen nach einer unverbindlichen Anfrage. Die Anfrage können Sie über ein Bestellformular stellen. Ihr Ghostwriter beginnt nach Ihrer Bestätigung mit der Texterstellung.
 
                       Während der [Zusammenarbeit mit Ihrem Ghostwriter](/so-funktioniert-es) stellen unsere Projektmanager Ihre **Anonymität als Auftraggeber** und gleichzeitig auch die Anonymität des Autors sicher. 
-                    vertical_alignment-text: self-center
-                    reverse-columns: bild-text
+                    vertical_alignment_text: self-center
+                    reverse_columns: bild_text
               -
                 type: set
                 attrs:
@@ -962,17 +962,17 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
+                    type: img_text_ce
                     bild:
                       - seiten/arbeiten/termineplanen.png
-                    vertical_alignment-img: self-center
+                    vertical_alignment_img: self-center
                     text: |
                       ### Projektmanager & Teillieferungen
-                      Zu jedem Problemfeld werden einzelne Teillieferungen bzw. Termine vereinbart.  Diese Teillieferungen dienen dazu, Sie über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen. 
+                      Zu jedem Problemfeld werden einzelne Teillieferungen bzw. Termine vereinbart.  Diese Teillieferungen dienen dazu, Sie über den aktuellen Stand der Arbeit zu informieren und Ihre Feedbacks kostenlos umzusetzen.
 
                       So können für den Zeitraum der Auftragsausführung geltende Anforderungen bezüglich der Masterarbeit genannt werden. In dieser Revisionszeit werden je nach Komplexität und Umfang Ihres Themas bzw. Ihrer Aufgabenstellung auch **mehrere ausgebildete Fachautoren für die Arbeit eingesetzt**.
-                    vertical_alignment-text: self-center
-                    reverse-columns: text-bild
+                    vertical_alignment_text: self-center
+                    reverse_columns: text_bild
               -
                 type: set
                 attrs:
@@ -983,15 +983,15 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
+                    type: img_text_ce
                     bild:
                       - seiten/arbeiten/feedbackumsetzen.png
-                    vertical_alignment-img: self-center
+                    vertical_alignment_img: self-center
                     text: |-
                       ### Abschlusslieferung & Qualitätsgarantie
-                      Nach der Erstellung der Mustervorlage zu Ihrer Masterarbeit, wird die Arbeit von einem unabhängigen [Lektor](/lektorat) aus Ihrem Fachbereich korrektur gelesen. Hier werden Verbesserungen an Inhalt und Formulierungen vorgenommen. Anschließend wird Ihr Text **auf Plagiate geprüft** , um mögliche Risiken auszuschließen. **Diese Teilleistungen sind im Preis inklusive**. 
-                    vertical_alignment-text: self-center
-                    reverse-columns: bild-text
+                      Nach der Erstellung der Mustervorlage zu Ihrer Masterarbeit, wird die Arbeit von einem unabhängigen [Lektor](/lektorat) aus Ihrem Fachbereich korrektur gelesen. Hier werden Verbesserungen an Inhalt und Formulierungen vorgenommen. Anschließend wird Ihr Text **auf Plagiate geprüft** , um mögliche Risiken auszuschließen. **Diese Teilleistungen sind im Preis inklusive**.
+                    vertical_alignment_text: self-center
+                    reverse_columns: bild_text
               -
                 type: set
                 attrs:
@@ -1002,15 +1002,15 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: img-text-ce
+                    type: img_text_ce
                     bild:
                       - seiten/arbeiten/lieferung-der-mustervorlage.png
-                    vertical_alignment-img: self-center
+                    vertical_alignment_img: self-center
                     text: |
                       ### Kostenlose Änderungswünsche
                       Sie erhalten mit der Endlieferung eine hochqualitative und von [Experten](/experten) auf Qualität geprüfte Muster-Masterarbeit als PDF Datei. Falls Sie hierzu Feedbacks haben, setzen wir diese selbstverständlich kostenfrei um.
-                    vertical_alignment-text: self-center
-                    reverse-columns: text-bild
+                    vertical_alignment_text: self-center
+                    reverse_columns: text_bild
               -
                 type: paragraph
                 content:
@@ -1055,18 +1055,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -1151,25 +1151,25 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     remove_spacing: false
-    is-full: true
-    bg-toggle: true
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: true
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1353,13 +1353,13 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-    bg-image: seiten/arbeiten/masterabschluss.jpg
+    bg_image: seiten/arbeiten/masterabschluss.jpg
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1580,18 +1580,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1618,19 +1618,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F7F7F7'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F7F7F7'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -1802,18 +1802,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1876,7 +1876,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -2260,19 +2260,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -2303,9 +2303,9 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -2502,5 +2502,5 @@ schema_objects: |-
   </script>
 sitemap_active: true
 page_title: 'Masterarbeit schreiben lassen • Ghostwriting von GWriters'
-alternative-page-title: 'Masterarbeit schreiben lassen'
+alternative_page_title: 'Masterarbeit schreiben lassen'
 ---

@@ -9,8 +9,8 @@
   ],
   "type": "project",
   "require": {
-    "php": "^7.3 || ^8.0",
-    "doublethreedigital/duplicator": "2.1.0",
+    "php": "^8.0",
+    "doublethreedigital/duplicator": "2.3.1",
     "fideloper/proxy": "^4.2",
     "fruitcake/laravel-cors": "^2.0",
     "guzzlehttp/guzzle": "^7.3",
@@ -19,13 +19,13 @@
     "optimoapps/statamic-bard-text-align": "1.0.2",
     "samdark/sitemap": "^2.2",
     "spatie/fork": "^1.1",
-    "spatie/statamic-responsive-images": "2.8.5",
-    "statamic/cms": "3.2.32",
-    "statamic/ssg": "^0.9.0",
+    "spatie/statamic-responsive-images": "2.13.0",
+    "statamic/cms": "3.3.26",
+    "statamic/ssg": "1.1.0",
     "uscreen/better-statamic-bard-text-color": "*",
     "uscreen/cpssg": "*",
     "uscreen/link-extended": "*",
-    "withcandour/aardvark-seo": "2.0.21"
+    "withcandour/aardvark-seo": "2.0.28"
   },
   "require-dev": {
     "barryvdh/laravel-debugbar": "^3.5",
@@ -77,7 +77,8 @@
       "@php artisan key:generate --ansi"
     ]
   },
-  "repositories": [{
+  "repositories": [
+    {
       "type": "path",
       "url": "addons/uscreen/link-extended"
     },
@@ -89,6 +90,5 @@
       "type": "path",
       "url": "addons/uscreen/better-statamic-bard-text-color"
     }
-
   ]
 }

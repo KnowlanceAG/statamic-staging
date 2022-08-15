@@ -1,10 +1,11 @@
 ---
 id: 010a016f-92f5-482d-bcee-60b232e7c328
+blueprint: pages
 title: Team
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623263428
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1656669917
 page_title: 'Unser Team • GWriters.de'
 teaser:
   -
@@ -50,7 +51,6 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     bard:
@@ -59,8 +59,6 @@ replicator:
         attrs:
           values:
             type: bilder
-            assets:
-              - team/gwriters_team_ghostwriter.jpg
             has_border: false
       -
         type: heading
@@ -128,4 +126,5 @@ meta_description: 'Mitarbeiter der akademischen Ghostwriter Agentur GWriters. Me
 og_title: 'Unser Team • GWriters'
 og_description: 'Mitarbeiter der akademischen Ghostwriter Agentur GWriters. Menschen, die sich täglich mit viel Know-How & Feingefühl um Ihre akademischen Projekte kümmern.'
 og_image: GWriters-Logo.png
+sitemap_active: true
 ---
