@@ -707,6 +707,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        single_col: false
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: true
@@ -714,8 +715,6 @@ replicator:
     type: add_section
     enabled: true
     border: false
-    bg_toggle: false
-    bg_image_fixed: false
   -
     columns_replicator:
       -
@@ -800,6 +799,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        single_col: false
         responsive_columns: 0
         columns_per_row: 0
       -
@@ -897,6 +897,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        single_col: false
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: true
@@ -904,24 +905,22 @@ replicator:
     type: add_section
     enabled: true
     border: false
-    bg_toggle: false
-    bg_image_fixed: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1657531730
+updated_at: 1660651593
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret!'
-meta_description: 'Ghostwriting von über akademischen 3.000 Ghostwritern ✔️ professionelle Hilfe ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
+meta_description: 'Ghostwriting - Akademische Ghostwriter schreiben & Sie erhalten alle Nutzungsrechte ✔️ professionelle Hilfe ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
 page_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
 og_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
-og_description: 'Ghostwriting von Akademikern für Akademiker - professionelle Hilfe ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
+og_description: 'Ghostwriting - Akademische Ghostwriter schreiben & Sie erhalten alle Nutzungsrechte ✔️ professionelle Hilfe ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---
