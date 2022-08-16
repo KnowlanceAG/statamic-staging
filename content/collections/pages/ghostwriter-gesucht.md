@@ -30,7 +30,7 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: '22'
+            padding-y: 22
       -
         type: paragraph
     show_as_card: false
@@ -39,9 +39,7 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single_col: false
+        columns_per_row: 2
         grid:
           -
             bard:
@@ -317,9 +315,8 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -335,10 +332,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: true
     type: add_section
     enabled: true
@@ -451,7 +448,7 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: '15'
+            padding-y: 15
       -
         type: set
         attrs:
@@ -471,7 +468,7 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: '15'
+            padding-y: 15
       -
         type: set
         attrs:
@@ -489,7 +486,6 @@ replicator:
               		-Pünktlichkeit
               		-wissenschaftliche Qualität
               		-Erfahrungen mit dem GWriters-Team
-
             ausrichtung: text_bild
       -
         type: paragraph
@@ -501,8 +497,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '1'
         single_col: false
         grid:
           -
@@ -539,10 +533,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -656,8 +650,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -678,7 +670,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: 15
               -
                 type: set
                 attrs:
@@ -695,7 +687,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: 15
               -
                 type: paragraph
               -
@@ -714,7 +706,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: 15
               -
                 type: set
                 attrs:
@@ -731,7 +723,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: 15
               -
                 type: set
                 attrs:
@@ -750,7 +742,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: 15
               -
                 type: paragraph
               -
@@ -794,7 +786,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: 15
               -
                 type: horizontal_rule
               -
@@ -802,7 +794,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: 15
               -
                 type: paragraph
                 content:
@@ -891,29 +883,28 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
 page_title: 'Akademische Ghostwriter gesucht! • GWriters'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1657533023
+updated_at: 1660650987
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
-meta_description: 'Ghostwriter gesucht? 🔍 Wir übernehmen Ihre Ghostwriter Jobs ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
+meta_description: 'Ghostwriter gesucht? 🔍 Die Nachfrage nach Ghostwriter Jobs steigt! Über 3.000 akademische Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012 ✔️'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'GWriters • Akademische Ghostwriter gesucht!'
-og_description: 'Ghostwriter gesucht? 🔍 Wir übernehmen Ihre Ghostwriter Jobs ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
+og_description: 'Ghostwriter gesucht? 🔍 Die Nachfrage nach Ghostwriter Jobs steigt! Über 3.000 akademische Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012 ✔️'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---
