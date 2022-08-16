@@ -41,7 +41,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -69,7 +69,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -436,7 +436,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1657533758
+updated_at: 1660651142
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -444,13 +444,12 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 teaser_bg: seiten/header-so-funktionierts.jpeg
 meta_title: 'Seriöser und diskreter Ghostwriting Service • GWriters'
-meta_description: 'Ghostwriter Service — Professionelle Dienstleistung von seriöser und diskreter Ghostwriting Agentur 🎓 Ghostwriting Service von über 3.000 Autoren 📃✍🏼'
+meta_description: 'Ghostwriting Service — Professioneller Ghostwriter Service von seriöser und diskreter Ghostwriting Agentur mit über 3.000 Autoren 📃✍🏼🎓'
 og_title: 'Seriöser und diskreter Ghostwriting Service • GWriters'
-og_description: 'Ghostwriter Service — Professionelle Dienstleistung von seriöser und diskreter Ghostwriting Agentur 🎓 Ghostwriting Service von über 3.000 Autoren 📃✍🏼'
+og_description: 'Ghostwriting Service — Professioneller Ghostwriter Service von seriöser und diskreter Ghostwriting Agentur mit über 3.000 Autoren 📃✍🏼🎓'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---
