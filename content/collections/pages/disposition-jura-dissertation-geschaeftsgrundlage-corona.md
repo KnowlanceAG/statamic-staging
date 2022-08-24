@@ -1,22 +1,20 @@
 ---
 id: 2500f659-20a1-4c21-a415-8711fd6957f4
 blueprint: pages
-title: 'Hausarbeit Beispiel: Legal and Human Rights Protection in the EU (Dupliziert)'
-page_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
+title: 'Disposition zu einer Jura Dissertation: Wegfall der Geschäftsgrundlage in Zeiten von Corona'
+page_title: 'Disposition Jura Dissertation - Wie schreibt ein Jura Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1657523636
-meta_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
-meta_description: 'Überzeugen Sie sich anhand dieses Jura-Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
+updated_at: 1661375375
+meta_title: 'Disposition Jura Dissertation - Wie schreibt ein Jura Ghostwriter?'
+meta_description: 'Überzeugen Sie sich anhand dieses Disposition für eine Jura Dissertation von der Qualität unserer Ghostwriting Services.'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     bard:
@@ -39,9 +37,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Hausarbeit Beispiel: Legal and Human Rights Protection in the EU'
-      -
-        type: paragraph
+            text: 'Disposition zu einer Jura Dissertation: Wegfall der Geschäftsgrundlage in Zeiten von Corona'
       -
         type: paragraph
         content:
@@ -296,10 +292,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /assets/downloads/ghostwriting-beispielarbeiten/Hausarbeit-Beispiel-Europarecht-Legal-and-Human-Rights-Protection-in-the-EU.pdf
+                  href: /assets/downloads/ghostwriting-beispielarbeiten/disposition_jura_dissertation.pdf
                   target: _blank
                   rel: null
-            text: 'Hier können Sie unsere Beispiel-Hausarbeit kostenlos herunterladen!'
+            text: 'Hier können Sie unsere Disposition zu einer Jura Dissertation kostenlos herunterladen!'
       -
         type: paragraph
         content:
@@ -382,8 +378,9 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-og_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
-og_description: 'Überzeugen Sie sich anhand dieses Jura-Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
+og_title: 'Disposition Jura Dissertation - Wie schreibt ein Jura Ghostwriter?'
+og_description: 'Überzeugen Sie sich anhand dieses Disposition für eine Jura Dissertation von der Qualität unserer Ghostwriting Services.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---
