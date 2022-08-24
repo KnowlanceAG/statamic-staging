@@ -557,13 +557,6 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
       -
         single_col: true
         grid:
@@ -865,7 +858,6 @@ replicator:
     border: false
     type: add_section
     enabled: true
-    bg_toggle: false
   -
     columns_replicator:
       -
@@ -941,9 +933,12 @@ replicator:
         columns_per_row: 0
     remove_spacing: false
     is_full: true
+    bg_toggle: true
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
+    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
   -
     columns_replicator:
       -
@@ -1028,25 +1023,6 @@ replicator:
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - 2b55bfe7-06df-4e71-86da-152e256904ec
                           - 52f5092f-800b-4742-8636-a840b9ab1ddb
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-    bg_toggle: false
-    bg_image_fixed: false
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -1863,7 +1839,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1661343028
+updated_at: 1661343359
 template: default
 use_meta_keywords: false
 no_index_page: false
