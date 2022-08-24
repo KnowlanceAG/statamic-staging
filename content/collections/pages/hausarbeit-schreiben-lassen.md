@@ -56,7 +56,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -84,7 +84,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -99,7 +99,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -142,9 +142,512 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Hausarbeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sie studieren an der Hochschule oder Universität, die nächste Hausarbeit mit einem undankbaren Thema steht an und Sie sind ohnehin schon mächtig im Stress? Der Abgabetermin rückt näher, doch eine Hilfestellung durch Betreuer, Dozenten und Professoren fehlt? Die Akademiker, die für unsere Ghostwriting-Agentur schreiben, unterstützen Sie tatkräftig beim Erstellen einer wissenschaftlichen Hausarbeit. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bereits zu Beginn Ihrer wissenschaftlichen Arbeit hilft Ihnen ein erfahrener Autor mit akademischem Abschluss umfassend bei der Hausarbeit. Unsere Akademiker erstellen ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Muster für Ihre Hausarbeit'
+                  -
+                    type: text
+                    text: '. Sie geben Ihnen die Strukturierung an die Hand und stimmen diese exakt auf Ihr Thema ab. Unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Vorlage für Ihre Hausarbeit'
+                  -
+                    type: text
+                    text: ' besteht aus:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Aufbau
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Gliederung
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: Exposé
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Lektorat, Korrektorat, Plagiatsprüfung von Hausarbeiten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Setzen Sie unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Ghostwriter zur Betreuung Ihrer Hausarbeit'
+                  -
+                    type: text
+                    text: ' ein. Unsere Autoren schreiben bei Bedarf die Einleitung Ihrer Musterhausarbeit, helfen bei der Texterstellung des Hauptteils und des Fazits. Selbst wenn Sie Ihre Hausarbeit selbst schreiben möchten, ist Unterstützung durch Akademiker Ihres Fachs hilfreich. Sie geben Tipps zum Schreibstil, geben Verbesserungsvorschläge zur Ausarbeitung, sorgen für einen roten Faden, werfen ein Argusauge auf die Zitierweise und bewahren Sie vor einem Plagiat. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Dank ihrer weitreichenden Erfahrung und Kompetenz können unsere Experten Sie in jeder Projektphase effektiv beim Schreiben Ihrer Hausarbeit unterstützen. Lassen Sie sich bereits bei der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Themenfindung oder der Entwicklung der Forschungsfrage'
+                  -
+                    type: text
+                    text: ' beraten. Unsere Ghostwriter übernehmen gerne die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Literaturrecherche
+                  -
+                    type: text
+                    text: ' für Ihre Hausarbeit. Im Fachbereich Jura überprüfen wir beispielsweise auch die rechtliche Richtigkeit des Inhalts und gehen auf die Argumentationsstruktur ein.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Egal, ob Sie unsere Ghostwriter die Mustervorlage für Ihre Hausarbeit schreiben lassen oder unsere Autoren lediglich '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'lektorieren und Korrekturlesen'
+                  -
+                    type: text
+                    text: ' sollen – zögern Sie nicht, professionelle Unterstützung durch GWriters unverbindlich anzufragen!'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        single_col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'GWriters: Experten auf Ihrem Fachgebiet'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'GWriters bietet Ihnen einen professionellen Schreibservice durch erfahrene akademische Ghostwriter. Unsere Schreiber sind häufig selbst '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'als Doktoren, Forscher und Professoren aktiv'
+                  -
+                    type: text
+                    text: '. Sie profitieren daher von deren Fachwissen auf dem neuesten Stand der Forschung. Die Ghostwriter von GWriters verfügen über viel praktische Erfahrung in der Erstellung von Hausarbeiten und haben darüber hinaus Zugriff auf relevante Datenbanken. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Weil wir um Ihre hohen Anforderungen beim Hausarbeit schreiben lassen wissen, unterliegt jede Leistung, die Sie von unseren Ghostwritern erhalten, der GWriters Qualitätsgarantie. Je nach Komplexität des Themas werden mehrere Fachautoren auf Ihre Arbeit angesetzt. Ob Sie sich durch ein Lektorat, ein Korrektorat oder eine Plagiatsprüfung unterstützen lassen wollen oder eine Mustervorlage für Ihre Hausarbeit kaufen möchten - jede Lieferung wird unabhängig vom Umfang von Anfang bis Ende durch einen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'erfahrenen Supervisor auf Qualität geprüft'
+                  -
+                    type: text
+                    text: .
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Garantien unserer Ghostwriter für Ihre Hausarbeit'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 15
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        columns_per_row: 4
+        grid:
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom_svg_width
+                    svg_file: leistung/icons/security.svg
+                    custom_svg_width: 65
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Datenschutz & 100% Anonymität'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'garantieren Ihre Anonymität'
+                  -
+                    type: text
+                    text: ' zu 100% und schützen Ihre Daten gemäß DSGVO / GDPR. Anonyme Zahlung über Freunde oder Verwandte ist möglich.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom_svg_width
+                    svg_file: leistung/icons/icon-kostenloses-feedback.svg
+                    custom_svg_width: 65
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Teillieferungen & kostenlose Änderungen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir passen Ihre Ausarbeitung gemäß Ihrer Wünsche und Anmerkungen ohne Diskussionen an. Unbegrenzte Revisionen – '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'bis Sie zufrieden sind'
+                  -
+                    type: text
+                    text: '!'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom_svg_width
+                    svg_file: leistung/icons/stopwatch.svg
+                    custom_svg_width: 65
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Pünktliche & schnelle Lieferung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sie erhalten Ihre bestellte Mustervorlage vom Ghostwriter für Ihre Hausarbeit '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'zum vereinbarten Datum'
+                  -
+                    type: text
+                    text: ' – lektoriert und korrigiert!'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom_svg_width
+                    svg_file: leistung/icons/magistrate.svg
+                    custom_svg_width: 65
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Top-Qualität von Akademikern'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Doktoren & Professoren'
+                  -
+                    type: text
+                    text: ' aus Ihrem Fachgebiet erstellen die Mustervorlage für Ihre Hausarbeit. So garantieren wir höchste Qualität.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns_replicator:
+      -
+        single_col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Mustervorlage für Ihre Hausarbeit '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im Video erklären wir Ihnen, wie die Zusammenarbeit mit GWriters funktioniert. So erstellen unsere Ghostwriter eine Mustervorlage für Ihre Hausarbeit:'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: video
+                    video: 'https://youtu.be/BFHgSZP9rCE'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns_replicator:
+      -
+        single_col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wenn Sie Unterstützung durch einen Hausarbeit Ghostwriter benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung zu Ihren Vorteilen bei GWriters wünschen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        columns_per_row: 2
         grid:
           -
             bard:
@@ -152,32 +655,325 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: insert_html
-                    html: |-
-                      <p style="font-size:18px" align="center">
-                      Bei GWriters erhalten Sie kompetente Unterstützung bei Ihrer wissenschaftlichen Hausarbeit. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Hausarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und eine GHostwriter Hausarbeit als Mustervorlage für Ihre Hausarbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren arbeitet.
-                      </p>
+                    type: phone_cta
+                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
+                    open: 'Mo.-Fr. 9:00-18:00'
+            show_as_card: true
+          -
+            bard:
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
-            show_as_card: false
+                    padding-y: 12
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '80,- € pro Normseite.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    button_align: justify-start
+                    spacing_top: true
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: true
         type: row
         enabled: true
-    remove_spacing: true
-    is_full: false
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: true
     bg_toggle: false
-    bg_image_fixed: false
+    bg_color: '#D6D6D6'
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
+        single_col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'So sieht eine Vorlage für eine Hausarbeit von GWriters aus'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird Ihnen diese Hilfe im Studium nicht geboten, können Sie sich als Studierende eine Mustervorlage von einem Ghostwriter für ihre Hausarbeit schreiben lassen. Diese Ghostwriting-Hausarbeit können Sie anschließend als Beispiel unterstützend nutzen. Um Ihnen eine bessere Vorstellung davon zu geben, was Sie von unserer Schreibagentur erhalten, stellen wir Ihnen im Folgenden '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'ein Ghostwriting Beispiel zum kostenlosen Download bereit:'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        columns_per_row: 2
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/beispielarbeiten-1.JPG
+                    ex_title: 'Weiterentwicklung der Baseler Eigenmittelübereinkunft'
+                    ex_fachbereich:
+                      - 06fbb3f4-51c2-4f11-832e-9b72a495857d
+                    ex_type: Hausarbeit
+                    ex_pages: '10'
+                    ex_zitation: 'Harvard Style'
+                    ex_button_link: 'entry::21ef3416-f1fd-43eb-8e38-ec597763c45f'
+                    ex_button_text: WEITERLESEN
+                    ex_color: '#FF6606'
+                    ex_spacing_top: false
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 20
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Über den Autor'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating_img
+                    dateien:
+                      - team/wittkamp_gwriters_ghostwriter_rund.png
+                    img_size: w-1/2
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Diplom Betriebswirt Marcus Wittkamp'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Senior Ghostwriter & Supervisor'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F7F7F7'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns_replicator:
+      -
+        single_col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'So funktioniert die Kooperation mit einem Ghostwriter für Ihre Hausarbeit'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 10
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img_text_ce
+                    bild:
+                      - seiten/arbeiten/anfrage.png
+                    vertical_alignment_img: self-center
+                    text: |-
+                      ### Kostenlose Anfrage
+                      Senden Sie uns einfach & schnell über unser Bestellformular eine kostenlose Anfrage. Von unserer Schreibagentur erhalten Sie innerhalb weniger Stunden ein **unverbindliches Leistungsangebot und eine individuelle Beratung** zu Ihrem Auftrag. Wir beginnen sofort nach Ihrer Zusage und einer Anzahlung.
+                    vertical_alignment_text: self-center
+                    reverse_columns: bild_text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 1
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img_text_ce
+                    bild:
+                      - seiten/arbeiten/termineplanen.png
+                    vertical_alignment_img: self-center
+                    text: |-
+                      ### Projektmanager & Teillieferungen
+                      Sie stehen jederzeit in **anonymen Kontakt** zu Ihrem Ghostwriter für die Hausarbeit und behalten die volle Kontrolle über Ihren Auftrag. Teillieferungen dienen dazu, Sie über den **aktuellen Stand der Arbeit** zu informieren und Ihr Feedback kostenlos umzusetzen. 
+                    vertical_alignment_text: self-center
+                    reverse_columns: text_bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 1
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img_text_ce
+                    bild:
+                      - seiten/arbeiten/lieferung-der-mustervorlage.png
+                    vertical_alignment_img: self-center
+                    text: |-
+                      ### Abschlusslieferung & Qualitätsgarantie
+                      Sie erhalten die fertige Mustervorlage zu Ihrer Hausarbeit zum vereinbarten Termin. Vorab wird diese von einem **unabhängigen Lektor aus Ihrem Fachbereich Korrektur gelesen**. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Unser bewährtes Vier-Augen-Prinzip ist selbstverständlich im Preis enthalten. Darüber hinaus wird Ihre Hausarbeit mit der Plagiatserkennungssoftware **Turnitin** auf Ungereimtheiten und Gefahren hin überprüft.
+                    vertical_alignment_text: self-center
+                    reverse_columns: bild_text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 1
+              -
+                type: set
+                attrs:
+                  values:
+                    type: img_text_ce
+                    bild:
+                      - seiten/arbeiten/feedbackumsetzen.png
+                    vertical_alignment_img: self-center
+                    text: |-
+                      ### Kostenlose Änderungswünsche
+                      Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF-Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Falls Sie hierzu Änderungswünsche haben, setzen wir diese auch nach dem Abgabetermin selbstverständlich **kostenfrei** um.
+                    vertical_alignment_text: self-center
+                    reverse_columns: text_bild
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Benötigen Sie Unterstützung in Form eines Coachings oder einer Mustervorlage für andere wissenschaftliche Arbeiten, wenden Sie sich gerne an unser Schreibbüro. Über '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unser Kontaktformular'
+                  -
+                    type: text
+                    text: ' erhalten Sie jederzeit eine kostenlose Beratung.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOSE ANFRAGE SCHICKEN!'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns_replicator:
+      -
         single_col: false
         grid:
           -
@@ -246,10 +1042,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: true
-    bg_color: '#F9F9F9'
     bg_image_fixed: false
     border: false
     type: add_section
@@ -258,8 +1055,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -267,879 +1062,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere Ghostwriter unterstützen Sie beim Schreiben Ihrer Hausarbeit'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Sind sie mit der Studien- und Privatplanung regelmäßig überfordert? Möchten Sie sich als Student von einem erfahrenen Autoren eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Mustervorlage für Ihre wissenschaftliche Hausarbeit schreiben lassen'
-                  -
-                    type: text
-                    text: '? Bereits zu Beginn Ihrer wissenschaftlichen Arbeit, bei der Strukturierung, bestehend aus dem Aufbau einer Hausarbeit, der Gliederung oder dem Exposé, können Sie sich durch '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
-                  -
-                    type: text
-                    text: ' Hilfe holen, indem Sie eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Mustervorlage für Ihre Hausarbeit kaufen'
-                  -
-                    type: text
-                    text: .
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Zudem können Sie einen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: null
-                          rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    text: ' (dt.: Geisterschreiber) zur '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Betreuung der Hausarbeit einsetzen'
-                  -
-                    type: text
-                    text: ' und ihn während des gesamten Prozesses bei Ihren Aufgaben unterstützend agieren lassen. Selbst, wenn Sie sich dazu entscheiden, eigenständig zu arbeiten, ist es ratsam, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'die Hausarbeit korrekturlesen zu lassen'
-                  -
-                    type: text
-                    text: .
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Neben dem Korrektorat und Lektorat der wissenschaftlichen Arbeit können Sie auch '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'eine umfassende Plagiatsprüfung von Ihrem Text und Literaturverzeichnis '
-                  -
-                    type: text
-                    text: 'mit einer Plagiatssoftware in Auftrag geben. Wir nutzen hierfür die renommierte Software '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Turnitin '
-                  -
-                    type: text
-                    text: 'und überprüfen damit die Einhaltung aller Vorgaben an Quellen und die Zitationen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Eine professionelle Unterstützung durch einen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Hausarbeit Ghostwriter'
-                  -
-                    type: text
-                    text: ' empfehlen wir Ihnen besonders zum Studienbeginn. Auch wenn eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Hilfestellung bei der Hausarbeit'
-                  -
-                    type: text
-                    text: ' seitens der Betreuer, Professoren und Universitäten fehlt und der Abgabetermin näher rückt, macht die Unterstützung durch ein Schreibbüro Sinn.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Mit unseren Dienstleistungen können Sie Flüchtigkeitsfehler beim Schreiben Ihres Textes oder im Umgang mit wissenschaftlichen Quellen aufgrund mangelnder Erfahrung vermeiden.'
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere Garantien für Sie'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '15'
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: '4'
-        single_col: true
-        grid:
-          -
-            bard:
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: custom_svg_width
-                    svg_file: leistung/icons/security.svg
-                    custom_svg_width: '65'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Datenschutz & 100% Anonymität'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wir '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'garantieren Ihre Anonymität '
-                  -
-                    type: text
-                    text: 'zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: custom_svg_width
-                    svg_file: leistung/icons/icon-kostenloses-feedback.svg
-                    custom_svg_width: '65'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Kostenlose Änderung nach Ihrem Feedback'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wir passen Ihre Ausarbeitung gemäß Ihrer Wünsche und Anmerkungen ohne lange Diskussionen an - und zwar unbegrenzt, bis '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Sie zufrieden sind!'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: custom_svg_width
-                    svg_file: leistung/icons/stopwatch.svg
-                    custom_svg_width: '65'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Schnelle & pünktliche Lieferung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wir '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'garantieren die pünktliche Lieferung'
-                  -
-                    type: text
-                    text: ' Ihrer Ausarbeitung! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-            show_as_card: false
-          -
-            bard:
-              -
-                type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: custom_svg_width
-                    svg_file: leistung/icons/magistrate.svg
-                    custom_svg_width: '65'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Top-Qualität von Experten'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Akademischen Experten die sonst als '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Doktoren & Professoren'
-                  -
-                    type: text
-                    text: ' arbeiten, erstellen Ihre Mustervorlage. So garantieren wir die Qualität Ihrer Ausarbeitung.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: false
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Wenn Sie Unterstützung durch einen Hausarbeit Ghostwriter benötigen, dann können Sie unseren professionellen Schreibservice sofort anfordern und uns eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /anfrage
-                          target: null
-                          rel: null
-                    text: 'unverbindliche Anfrage'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung zu Ihren Vorteilen bei GWriters wünschen.'
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single_col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: phone_cta
-                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
-                    open: 'Mo.-Fr. 9:00-18:00'
-            show_as_card: true
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '12'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: '80,- € pro Normseite.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    button_align: justify-start
-                    spacing_top: true
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-            show_as_card: true
-        type: row
-        enabled: true
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#D6D6D6'
-    bg_image_fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Akademische Experten schreiben Ihre Hausarbeit'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'GWriters bietet Ihnen einen professionellen Schreibservice durch erfahrene akademische Ghostwriter. Dank ihrer weitreichenden Erfahrung und Kompetenz können unsere Experten Sie in jeder Projektphase effektiv beim '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Schreiben Ihrer Hausarbeit unterstützen'
-                  -
-                    type: text
-                    text: .
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Bei den Ghostwritern von GWriters handelt es sich um erfahrene Akademiker, die häufig selbst als '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Forscher, Doktoren und Professoren aktiv'
-                  -
-                    type: text
-                    text: ' sind. Sie profitieren daher von deren Fachwissen auf dem neuesten Stand der Forschung.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Von diesen können Sie sich nicht nur eine Mustervorlage für Ihre Hausarbeit schreiben lassen, sondern sich auch bei der Themenfindung oder der Entwicklung der Forschungsfrage beraten lassen oder Ihr Literaturverzeichnis überprüfen lassen. Im Fachbereich Jura übernehmen wir bspw. auch die Korrektur von Inhalt und Argumentationsstruktur.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Darüber hinaus schützen wir als Ghostwriting Agentur verlässlich Ihre Anonymität während der Erstellung der Mustervorlage für Ihre Hausarbeit. So stehen Sie jederzeit in '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'anonymen Kontakt zu Ihrem Ghostwriter'
-                  -
-                    type: text
-                    text: ' und behalten die volle Kontrolle über Ihren Auftrag.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Weil wir um Ihre hohen Anforderungen wissen, unterliegt jede Leistung die Sie von unseren Ghostwritern erhalten der GWriters Qualitätsgarantie. Ob Sie sich durch ein Lektorat, ein Korrektorat oder eine Plagiatsprüfung unterstützen lassen wollen oder eine Mustervorlage für Ihre Hausarbeit kaufen möchten - jede Lieferung wird unabhängig vom Umfang von Anfang bis Ende durch einen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'erfahrenen Supervisor auf Qualität geprüft'
-                  -
-                    type: text
-                    text: .
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single_col: false
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(0,0,0,var(--tw-text-opacity)) !important'
-                          hex: '#000'
-                    text: 'Warum sollten Sie sich unterstützen lassen?'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Wir lösen Schreibblockaden'
-                          -
-                            type: text
-                            text: ' bei fehlender Unterstützung durch Betreuer & Professoren sowie knappen Deadlines'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Wir lösen Ihre Zeitprobleme mit Ihrer '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: Hausarbeit
-                          -
-                            type: text
-                            text: ' während der Klausurphase und bei mehreren Abgaben, so vermeiden wir Stress und Druck bei Ihnen'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Mit den relevanten Datenbanken, Quellen und wissenschaftlichen Arbeitsmethoden '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'helfen wir auch Studienanfängern effektiv und vermeiden Fehler'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: 'Akademische Ghostwriter'
-                          -
-                            type: text
-                            text: ' helfen nicht nur im Schreibprozess, sondern auch bei der '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: /blog/literaturrecherche-datenbanken-quellen
-                                  target: null
-                                  rel: null
-                            text: Literaturrecherche
-                          -
-                            type: text
-                            text: ', der Forschungsfrage oder geben Tipps und Erklärungen zur Prüfung Ihrer Argumentation.'
-                          -
-                            type: hard_break
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: video
-                    video: 'https://youtu.be/BFHgSZP9rCE'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#F2F2F2'
-    bg_image_fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                          hex: '#000'
-                    text: "Mustervorlage für Hausarbeit\_schreiben\_lassen\_– Wie funktioniert die Kooperation mit einem Ghostwriter?"
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: img_text_ce
-                    bild:
-                      - seiten/arbeiten/anfrage.png
-                    vertical_alignment_img: self-center
-                    text: |-
-                      ### Kostenlose Anfrage
-                      Senden Sie uns einfach & schnell über unser Bestellformular eine kostenlose Anfrage. Von unserer Schreibagentur erhalten Sie innerhalb weniger Stunden ein **unverbindliches Leistungsangebot und eine individuelle Beratung** zu Ihrem Auftrag. Wir beginnen sofort nach Ihrer Zusage und einer Anzahlung.
-                    vertical_alignment_text: self-center
-                    reverse_columns: bild_text
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '1'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: img_text_ce
-                    bild:
-                      - seiten/arbeiten/termineplanen.png
-                    vertical_alignment_img: self-center
-                    text: |-
-                      ### Projektmanager & Teillieferungen
-                      Für Sie werden einzelne Teillieferungen bzw. Termine geplant. Diese Teillieferungen dienen dazu, Sie über den **aktuellen Stand der Arbeit** zu informieren und Ihre Feedbacks kostenlos umzusetzen. Je nach Komplexität des Themas werden mehrere Fachautoren für die Arbeit eingesetzt.
-                    vertical_alignment_text: self-center
-                    reverse_columns: text_bild
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '1'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: img_text_ce
-                    bild:
-                      - seiten/arbeiten/lieferung-der-mustervorlage.png
-                    vertical_alignment_img: self-center
-                    text: |-
-                      ### Abschlusslieferung & Qualitätsgarantie
-                      Sie erhalten die fertige Mustervorlage zu Ihrer Hausarbeit zum vereinbarten Termin. Vorab wird diese von einem **unabhängigen Lektor aus Ihrem Fachbereich korrektur gelesen**. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Unser bewährtes 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Darüber hinaus wird Ihre Hausarbeit mit der Plagiatserkennungssoftware **Turnitin** auf Plagiate geprüft.
-                    vertical_alignment_text: self-center
-                    reverse_columns: bild_text
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '1'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: img_text_ce
-                    bild:
-                      - seiten/arbeiten/feedbackumsetzen.png
-                    vertical_alignment_img: self-center
-                    text: |-
-                      ### Kostenlose Änderungswünsche
-                      Bei der Endlieferung erhalten Sie eine hochqualitative und von Experten auf Qualität geprüfte Musterarbeit als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Hausarbeit. Falls Sie hierzu Änderungswünsche haben, setzen wir diese auch nach dem Abgabetermin selbstverständlich **kostenfrei** um.
-                    vertical_alignment_text: self-center
-                    reverse_columns: text_bild
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Hilfe oder wissenschaftliche Texterstellung benötigen, wenden Sie sich gerne an unser Schreibbüro. Über '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /anfrage
-                          target: null
-                          rel: null
-                    text: 'unser Kontaktformular'
-                  -
-                    type: text
-                    text: ' erhalten Sie jederzeit eine kostenlose Beratung. Möchten Sie ein Coaching bestellen oder eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Mustervorlage für Ihre Seminararbeit schreiben lassen'
-                  -
-                    type: text
-                    text: '? Unsere Kundenberater beraten Sie gerne zur Ihren Vorteilen bei uns! '
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOSE ANFRAGE SCHICKEN!'
-                    color: '#FF6606'
-                    button_align: justify-center
-                    spacing_top: false
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
+                  level: 3
                 content:
                   -
                     type: text
@@ -1148,7 +1071,13 @@ replicator:
                         type: textAlign
                         attrs:
                           align: center
-                    text: 'Wir unterstützen Sie bei nahezu allen akademischen Fachbereichen & Arbeiten!'
+                    text: 'Ghostwriter für verschiedene Fachbereiche'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wir unterstützen Sie in nahezu allen akademischen Fachbereichen und Arbeiten. Das beginnt damit, dass Sie von unseren Experten eine Mustervorlage für Ihre Hausarbeit schreiben lassen können.'
               -
                 type: set
                 attrs:
@@ -1207,784 +1136,23 @@ replicator:
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - 2b55bfe7-06df-4e71-86da-152e256904ec
                           - 52f5092f-800b-4742-8636-a840b9ab1ddb
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    spacing_top: false
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_image_fixed: false
-    border: true
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: '1'
         single_col: true
         grid:
           -
             bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Wie lässt sich eine erfolgreiche Hausarbeit schreiben?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Eine Hausarbeit wird von Studierenden, im Gegensatz zur Klausur, wie jede akademische Arbeit zu Hause selbständig angefertigt. Es muss eine Argumentation entwickelt werden, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'die allen wissenschaftlichen Standards entspricht'
-                  -
-                    type: text
-                    text: '. Dies soll die Fähigkeiten des Studenten oder der Studentin hinsichtlich der Konzeption und Organisation von wissenschaftlichen Arbeitsprozessen fördern.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Es muss eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'wissenschaftliche Forschungsfrage'
-                  -
-                    type: text
-                    text: ' definiert und eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'tief gehende Literaturrecherche'
-                  -
-                    type: text
-                    text: ' mit richtiger Zitierweise durchgeführt werden. Diese Forschungsfrage muss innerhalb der gegebenen Vorgaben anhand der für den Hauptteil recherchierten Informationen entsprechend der zuvor erstellten Gliederung im Fazit beantwortet werden. Ein schlüssige Argumentation mit rotem Faden ist hierbei essentiell.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In einigen Fachbereichen, wie der Medizin, Biologie und Chemie, wird zusätzlich zum schriftlichen Teil oftmals die Durchführung einer Untersuchung oder eines Experiments erwartet. Gerne geben wir Ihnen auch hier Tipps zur Gestaltung dieser.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die Zitierweise, Formatierungsrichtlinien und Kriterien werden durch die jeweiligen Lehrstühle oder Professoren vorgegeben, allerdings haben sich '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'einige Formatvorgaben als gängig erwiesen'
-                  -
-                    type: text
-                    text: '. Laut Prüfungsordnung bzw. Hochschulgesetz:'
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single_col: false
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Gliederung einer Hausarbeit'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /gwriters-akademie/deckblatt-vorlage
-                                  target: null
-                                  rel: null
-                            text: Deckblatt
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /blog/bachelorarbeit-abstract
-                                  target: null
-                                  rel: null
-                            text: Abstract
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: Vorwort
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /gwriters-akademie/inhaltsverzeichnis-vorlage
-                                  target: null
-                                  rel: null
-                            text: 'Inhaltsverzeichnis Hausarbeit (Kapitel, Unterkapitel)'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /gwriters-akademie/abbildungsverzeichnis
-                                  target: null
-                                  rel: null
-                            text: Abbildungs
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: '- und '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /gwriters-akademie/tabellenverzeichnis-beispiel
-                                  target: null
-                                  rel: null
-                            text: Tabellenverzeichnis
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /gwriters-akademie/abkuerzungsverzeichnis
-                                  target: null
-                                  rel: null
-                            text: Abkürzungsverzeichnis
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /blog/bachelorarbeit-einleitung
-                                  target: null
-                                  rel: null
-                            text: Einleitung
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: Hauptteil
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: Schlussteil/Fazit
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /gwriters-akademie/literaturverzeichnis-beispiel
-                                  target: null
-                                  rel: null
-                            text: Literaturverzeichnis
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /gwriters-akademie/anhangsverzeichnis
-                                  target: null
-                                  rel: null
-                            text: Anhang
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /gwriters-akademie/eidesstattliche-erklaerung-muster
-                                  target: null
-                                  rel: null
-                            text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
-            show_as_card: false
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Formatierungsrichtlinien einer Hausarbeit'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Umfang: 10 - 20 Seiten exkl. Deckblatt und Verzeichnisse'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Schriftart: Times New Roman (oder Arial Größe 11)'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Schriftgröße: 12 Punkt'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Zeilenabstand: 1,5'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Ränder: oben und unten jeweils 2,5 cm, links und rechts jeweils 3 cm'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Absatzformat: Blocksatz (auf Trennung achten)'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Fußnoten: Schriftgröße 10'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Nummerierung: alle Seiten nummeriert, außer Titelblatt, Inhaltsverzeichnis einer Hausarbeit, Literaturverzeichnis und Anhang'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: false
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Was erwartet Sie bei einer Ghostwriter Hausarbeit?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Häufig veröffentlichen Lehrstühle Muster einer wissenschaftlichen Arbeit um Studenten Hilfe zu leisten. Wird Ihnen diese Hilfe im Studium nicht geboten, können Sie sich als Studierende eine Mustervorlage von einem Ghostwriter für ihre Hausarbeit schreiben lassen. Diese Ghostwriting-Hausarbeit können Sie anschließend als Beispiel unterstützend nutzen. Um Ihnen eine bessere Vorstellung davon zu geben, was Sie von unserer Schreibagentur erhalten, stellen wir Ihnen im Folgenden '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'ein Ghostwriting Beispiel zum kostenlosen Download bereit:'
-            show_as_card: false
-        type: row
-        enabled: true
-      -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single_col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/beispielarbeiten-1.JPG
-                    ex_title: 'Weiterentwicklung der Baseler Eigenmittelübereinkunft'
-                    ex_fachbereich:
-                      - 06fbb3f4-51c2-4f11-832e-9b72a495857d
-                    ex_type: Hausarbeit
-                    ex_pages: '10'
-                    ex_zitation: 'Harvard Style'
-                    ex_button_link: 'entry::21ef3416-f1fd-43eb-8e38-ec597763c45f'
-                    ex_button_text: WEITERLESEN
-                    ex_color: '#FF6606'
-                    ex_spacing_top: false
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '20'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Über den Autor'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating_img
-                    dateien:
-                      - team/wittkamp_gwriters_ghostwriter_rund.png
-                    img_size: w-1/2
-                    float: mx-auto
-                    image_options:
-                      - no_upscale
-              -
-                type: paragraph
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Diplom Betriebswirt Marcus Wittkamp'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Senior Ghostwriter & Supervisor'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#F7F7F7'
-    bg_image_fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: true
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Wann sollten Sie sich unterstützen lassen?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die Ansprüche an eine wissenschaftliche Arbeit sind hoch und Abgabetermine sind oft knapp. Eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'gute Hausarbeit zu schreiben'
-                  -
-                    type: text
-                    text: ' setzt eine gründliche und tief gehende Literaturrecherche voraus. Hierbei ist es wichtig, dass Sie die relevanten Informationen und Literaturquellen aus verschiedenen Datenbanken herausfiltern. Anschließend gilt es, diese Ergebnisse zusammenzuführen, zu analysieren und zu interpretieren. So soll sich eine gesamthafte Analyse entwickeln.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Zudem müssen Sie die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'zentrale Forschungsfrage mit Würdigung des aktuellen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/wie-schreibe-ich-einen-forschungsstand
-                          target: null
-                          rel: null
-                    text: Forschungsstands
-                  -
-                    type: text
-                    text: ' auf wenigen Seiten erforschen. Unerfahrene Studienanfänger sind oftmals mit dem Komprimieren der Informationsmenge und aufgrund der hohen akademischen Ansprüche überfordert. Auch die korrekte Zitierweise kann Schwierigkeiten verursachen. Dadurch stoßen Studierende auf Schreibblockaden und andere Probleme, besonders wenn diese ihre erste Hausarbeit schreiben.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In solchen Fällen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'helfen Ihnen unsere akademischen Ghostwriter von GWriters'
-                  -
-                    type: text
-                    text: '. Alle Autoren unserer Schreibagentur verfügen über einen ausgedehnten Erfahrungsschutz im Verfassen wissenschaftlicher Arbeiten. Sie besitzen darüber hinaus auch das notwendige methodische und fachliche Wissen für das Verfassen akademischer Texte.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Unsere Experten kennen in ihrem Fachbereich immer den aktuellen Forschungsstand'
-                  -
-                    type: text
-                    text: ' und haben Zugriff auf die notwendigen Literatur-Datenbanken. Wir arbeiten zudem mit modernster Analyse Software wie SPSS, Stata oder R für statistische Analysen sowie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /leistungen/maxqda-auswertung
-                          target: _blank
-                          rel: null
-                    text: 'MAXQDA für qualitative Analysen'
-                  -
-                    type: text
-                    text: '. Dies zeichnet eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'seriöse '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting/ghostwriting-agentur
-                          target: null
-                          rel: null
-                    text: 'Ghostwriting Agentur'
-                  -
-                    type: text
-                    text: ' aus.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '20'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    button_align: justify-center
-                    spacing_top: false
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -2017,7 +1185,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'faire aber auch angemessene Preise'
+                    text: 'faire, aber auch angemessene Preise'
                   -
                     type: text
                     text: '. Seien Sie daher vorsichtig: Wenn Sie Ihre '
@@ -2029,7 +1197,7 @@ replicator:
                     text: 'Hausarbeit günstig'
                   -
                     type: text
-                    text: ' schreiben lassen wollen, erwarten Sie häufig Lockangebote von unseriösen '
+                    text: ' schreiben lassen wollen, landen Sie häufig bei Lockangeboten von unseriösen '
                   -
                     type: text
                     marks:
@@ -2042,7 +1210,7 @@ replicator:
                     text: Ghostwriting-Betrügern
                   -
                     type: text
-                    text: .
+                    text: '. Wenn Sie Ihre Hausarbeit von einem Unbekannten schreiben lassen, beginnen die Kosten je nach Anbieter bei 35 bis 50 Euro pro Seite. Die Wahrscheinlichkeit, dass Sie mit einem Ghostwriter dieser Preisklasse auf die Note 1,0 kommen, ist sehr gering. Das Risiko, aufzufliegen, ist dafür ungleich höher. '
               -
                 type: paragraph
                 content:
@@ -2060,7 +1228,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'die fachliche und wissenschaftliche Kompetenz unserer Agentur'
+                            text: 'die fachliche und wissenschaftliche Kompetenz unserer Agentur,'
                   -
                     type: list_item
                     content:
@@ -2069,7 +1237,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'die professionelle Betreuung durch individuelle Projektmanager'
+                            text: 'die professionelle Betreuung durch individuelle Projektmanager,'
                   -
                     type: list_item
                     content:
@@ -2078,7 +1246,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'die Bearbeitung durch erfahrene akademische Ghostwriter'
+                            text: 'die Bearbeitung durch erfahrene akademische Ghostwriter,'
                   -
                     type: list_item
                     content:
@@ -2117,6 +1285,21 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Die Preise für fachlich und formell korrektes wissenschaftliches Arbeiten der Ghostwriter für Ihre Hausarbeit bei GWriters beginnen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'ab 80 Euro pro Normseite'
+                  -
+                    type: text
+                    text: '. Eine Normseite umfasst zirka 1.800 Zeichen. Es handelt sich um Textseiten – nicht um Deckblatt, Quellenverzeichnis und Co. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
                     text: 'Je nach Anfrage variieren die Kosten für Hausarbeiten in verschiedenen Fachbereichen. Welche Hausarbeit günstig und welche teuer ist, liegt somit auch an den Ansprüchen an die Mustervorlage. Details hierzu können in einem '
                   -
                     type: text
@@ -2140,21 +1323,25 @@ replicator:
                   -
                     type: text
                     text: .
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Stellen Sie uns eine unverbindliche Anfrage. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung zu Ihren Vorteilen bei GWriters wünschen.'
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -2166,7 +1353,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Häufig gestellte Fragen'
+                    text: 'Häufig gestellte Fragen zu Ghostwritern für Hausarbeiten'
               -
                 type: set
                 attrs:
@@ -2256,18 +1443,16 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -2298,10 +1483,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -2312,7 +1497,7 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: '30'
+            padding-y: 30
       -
         type: heading
         attrs:
@@ -2340,7 +1525,7 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: '40'
+            padding-y: 40
       -
         type: heading
         attrs:
@@ -2458,13 +1643,13 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: '40'
+            padding-y: 40
     type: editor
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1659352945
+updated_at: 1661341760
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2472,14 +1657,11 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
-meta_title: 'Hausarbeit schreiben lassen • Ghostwriter von GWriters'
-meta_description: 'Mustervorlage für Hausarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
+meta_title: 'Hausarbeit schreiben lassen | Ghostwriter von GWriters'
+meta_description: 'Du musst eine Hausarbeit schreiben und benötigst ein Muster oder eine Vorlage? → Unsere Ghostwriter erstellen deine Mustervorlage'
 og_title: 'Hausarbeit schreiben lassen • Ghostwriter von GWriters'
 og_description: 'Mustervorlage für Hausarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-arbeitsgruppe: a_studienarbeiten
 schema_objects: |-
   <script type="application/ld+json">
   {
@@ -2519,4 +1701,5 @@ schema_objects: |-
 sitemap_active: true
 page_title: 'Hausarbeit schreiben lassen • Ghostwriter von GWriters'
 alternative_page_title: 'Hausarbeit schreiben lassen'
+published: true
 ---
