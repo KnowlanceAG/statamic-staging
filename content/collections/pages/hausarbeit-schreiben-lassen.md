@@ -1839,7 +1839,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1661372262
+updated_at: 1661372438
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -1869,21 +1869,54 @@ schema_objects: |-
       "name": "Wie wird bei GWriters meine Anonymität sichergestellt?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO/GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts."
+        "text": "Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO / GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts."
       }
     },{
       "@type": "Question",
-      "name": "Was kostet eine Mustervorlage für meine Hausarbeit?",
+      "name": "Wie viel kostet eine Mustervorlage für eine Hausarbeit?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Eine Mustervorlage für eine 10-seitige Hausarbeit erhalten Sie bereits ab 800 €. Die Preise pro Seite können aber noch variieren, abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen."
+        "text": "Eine Mustervorlage für eine 10-seitige Hausarbeit erhalten Sie ab 800 Euro. Die Preise pro Seite variieren abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen."
       }
     },{
       "@type": "Question",
-      "name": "Darf ich die erstellte Mustervorlage als eigene Hausarbeit abgeben?",
+      "name": "Hausarbeit schreiben lassen: Welche Vorteile hat ein Ghostwriter?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Hausarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch."
+        "text": "Erfahrene Akademiker als Ghostwriter zur Erstellung der Mustervorlage für Ihre Hausarbeit bringen viele Vorteile mit sich – gerade für Studienanfänger und gestresste Studierende in der Klausurenphase.
+
+  Mit unseren Dienstleistungen können Sie Flüchtigkeitsfehler beim Schreiben Ihres Textes oder im Umgang mit wissenschaftlichen Quellen aufgrund mangelnder Erfahrung vermeiden. Neben dem Korrektorat und Lektorat der wissenschaftlichen Arbeit können Sie auch eine umfassende Plagiatsprüfung von Ihrem Text und Literaturverzeichnis mit einer Plagiatssoftware in Auftrag geben. Wir nutzen hierfür die renommierte Software Turnitin und überprüfen damit die Einhaltung aller Vorgaben an Quellen und die Zitationen.
+
+  Gwriters hat Zugriff auf Literatur-Datenbanken und unsere fachkundigen Autoren sind stets auf dem neuesten Stand der Forschung. Wir arbeiten zudem mit modernster Analyse-Software wie SPSS, Stata oder R für statistische Analysen sowie MAXQDA für qualitative Analysen."
+      }
+    },{
+      "@type": "Question",
+      "name": "Warum sollten Sie sich bei der wissenschaftlichen Hausarbeit unterstützen lassen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Studienanfänger bekommen durch eine Mustervorlage für eine Hausarbeit eine Vorstellung vom Aufbau und Aufwand einer wissenschaftlichen Arbeit. Dies ist vor allem dann hilfreiche, wenn seitens der Hochschule keine ausreichende Betreuung und Hilfestellung erfolgt. Doch auch Studierende aus höheren Semestern greifen – meist aus Zeitnot – auf die Dienste eines Ghostwriters zurück.
+
+  Wir lösen Schreibblockaden bei fehlender Unterstützung durch Betreuer & Professoren sowie knappen Deadlines.
+
+  Wir lösen Ihre Zeitprobleme mit Ihrer Hausarbeit während der Klausurphase und bei mehreren Abgaben. So vermeiden wir Stress und Druck bei Ihnen.
+
+  Mit den relevanten Datenbanken, Quellen und wissenschaftlichen Arbeitsmethoden helfen wir effektiv und vermeiden Fehler.
+
+  Akademische Ghostwriter helfen nicht nur im Schreibprozess, sondern auch bei der Literaturrecherche, der Forschungsfrage oder geben Tipps und Erklärungen zur Prüfung Ihrer Argumentation."
+      }
+    },{
+      "@type": "Question",
+      "name": "Wo kann ich meine Hausarbeit schreiben lassen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ein Ghostwriter kann Ihnen ein Muster für eine Hausarbeit erstellen. Mit seiner Vorlage, die unter anderem Themenfindung, Argumentationsstruktur und Quellenrecherche enthalten kann, fällt Ihnen das Schreiben der Hausarbeit viel leichter. Die Ghostwriter von GWriters sind Akademiker auf dem neuesten Stand der Forschung in ihrem jeweiligen Fachgebiet und erstellen Ihnen gerne die Mustervorlage für Ihre Hausarbeit."
+      }
+    },{
+      "@type": "Question",
+      "name": "Wie lange braucht ein Ghostwriter für eine Hausarbeit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Je länger der Ghostwriter Zeit hat, um die Mustervorlage für eine Hausarbeit zu erstellen, desto gewissenhafter kann er dabei arbeiten. Prinzipiell ist es möglich, eine Hausarbeit auch bis zum nächsten Tag zu erstellen. Die Dringlichkeit macht das Ghostwriting allerdings sehr teuer. Bereits für eine Frist von zwei bis vier Tagen kalkulieren wir einen Express-Zuschlag für die Mustervorlage ein. Ist die Abgabe der Hausarbeit hingegen erst in fünf oder mehr Tagen, handelt es sich um normale Fristen, die wir umsetzen können."
       }
     }]
   }
