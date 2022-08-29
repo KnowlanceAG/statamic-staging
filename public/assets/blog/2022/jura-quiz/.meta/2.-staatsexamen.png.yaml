@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Notenverteilung beim zweiten juristischen Staatsexamen'
+  caption: 'Notenverteilung beim zweiten juristischen Staatsexamen (Quelle: Karrieremagazin 2019)'
 size: 7825
 last_modified: 1661799192
 width: 471
