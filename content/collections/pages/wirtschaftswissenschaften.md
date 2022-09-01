@@ -132,7 +132,7 @@ page_title: 'Wirtschaftswissenschaft Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662064820
+updated_at: 1662064885
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -704,6 +704,12 @@ replicator:
                     spacing_top: false
               -
                 type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 40
             show_as_card: false
         type: row
         enabled: true
@@ -744,7 +750,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#D6D6D6'
+    bg_color: '#F9F9F9'
     border: false
     type: add_section
     enabled: true
