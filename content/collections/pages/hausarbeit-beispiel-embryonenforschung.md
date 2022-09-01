@@ -6,7 +6,7 @@ page_title: 'Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662063337
+updated_at: 1662063417
 meta_title: 'Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
 use_meta_keywords: false
@@ -171,7 +171,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: "Alle Punkte möchten wir in unserem Hausarbeit Beispiel zu Ihrer Unterstützung verdeutlichen.\_"
+            text: "Alle Punkte möchten wir in unserem Hausarbeit Beispiel zu Ihrer Unterstützung verdeutlichen. Unsere\_"
           -
             type: text
             marks:
@@ -190,7 +190,7 @@ replicator:
                   href: /fachrichtungen/soziologie
                   target: null
                   rel: null
-            text: 'Unsere Ghostwriter für Sozialwissenschaften'
+            text: 'Ghostwriter für Sozialwissenschaften'
           -
             type: text
             marks:
@@ -198,7 +198,7 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: ', die bereits eine Vielzahl von Mustervorlagen für unsere Kunden bei GWriters verfasst hat, stehen Ihnen selbstverständlich auch über das vorliegende Beispiel hinaus zur Verfügung.'
+            text: ', die bereits eine Vielzahl von Mustervorlagen für unsere Kunden bei GWriters verfasst haben, stehen Ihnen selbstverständlich auch über das vorliegende Beispiel hinaus zur Verfügung.'
       -
         type: paragraph
         content:
