@@ -1,12 +1,12 @@
 ---
 id: c62f9e16-5d49-4f22-b1c6-d705b966aa1a
 blueprint: pages
-title: 'Hausarbeit Beispiel: Weiterentwicklung der Baseler Eigenmittelübereinkunft (Dupliziert)'
-page_title: 'VWL Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
+title: 'Englische Masterarbeit Beispiel: Globalization and Poverty'
+page_title: 'Wirtschaftswissenschaften Masterarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1658750935
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1662061544
 meta_title: 'VWL Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Hausarbeit Musters von unseren Qualitätsstandards und nutzen Sie diese als Orientierung. Erfahren Sie hier mehr.'
 use_meta_keywords: false
@@ -15,8 +15,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     bard:
@@ -327,4 +325,5 @@ og_title: 'VWL Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 og_description: 'Überzeugen Sie sich anhand dieses Hausarbeit Musters von unseren Qualitätsstandards und nutzen Sie diese als Orientierung. Erfahren Sie hier mehr.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---
