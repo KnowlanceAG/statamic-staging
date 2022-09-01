@@ -6,7 +6,7 @@ page_title: 'Facharbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662063334
+updated_at: 1662063512
 meta_title: 'Facharbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 meta_description: 'Nutzen Sie dieses Facharbeit Beispiel als Orientierung und überzeugen Sie sich von dem Qualifikationen unserer akademischen Ghostwriter.'
 use_meta_keywords: false
@@ -211,7 +211,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Facharbeit Gliederung: Wie können Sie einen gut strukturierten Hausarbeit Aufbau konzipieren?'
+                    text: 'Facharbeit Gliederung: Wie können Sie einen gut strukturierten Facharbeit Aufbau konzipieren?'
           -
             type: list_item
             content:
@@ -315,7 +315,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: "Möchten Sie sich von unseren akademischen Ghostwritern eine Mustervorlage für Ihre Facharbeit schreiben lassen? Während unsere Experten diese Facharbeit Mustervorlage für Sie anfertigen werden Sie von unserem freundlichen Team betreut und erhalten einen persönlichen Projekt Manager, damit Sie während jeder Phase des Projekts ein gutes Gefühl haben. Lassen\_"
+            text: "Möchten Sie sich von unseren akademischen Ghostwritern eine Mustervorlage für Ihre Facharbeit schreiben lassen? Während unsere Experten diese Facharbeit Mustervorlage für Sie anfertigen werden Sie von unserem freundlichen Team betreut und erhalten einen persönlichen Projektmanager, damit Sie während jeder Phase des Projekts ein gutes Gefühl haben. Lassen\_"
           -
             type: text
             marks:
