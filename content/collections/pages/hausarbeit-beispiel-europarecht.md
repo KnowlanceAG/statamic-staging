@@ -6,7 +6,7 @@ page_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1661375839
+updated_at: 1662063332
 meta_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Jura-Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
 use_meta_keywords: false
@@ -38,8 +38,6 @@ replicator:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
             text: 'Hausarbeit Beispiel: Legal and Human Rights Protection in the EU'
-      -
-        type: paragraph
       -
         type: paragraph
         content:
