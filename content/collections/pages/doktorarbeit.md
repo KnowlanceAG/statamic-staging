@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -132,8 +132,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -150,18 +148,16 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -228,10 +224,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: true
-    bg_color: '#F9F9F9'
     bg_image_fixed: false
     border: false
     type: add_section
@@ -240,8 +237,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -479,19 +474,18 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
-            bard: null
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -509,14 +503,14 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: 15
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: '4'
-        single_col: true
+        columns_per_row: 4
         grid:
           -
             bard:
@@ -528,13 +522,13 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/security.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -564,7 +558,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
           -
             bard:
@@ -576,13 +570,13 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -609,7 +603,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
           -
             bard:
@@ -621,13 +615,13 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/stopwatch.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -666,7 +660,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
           -
             bard:
@@ -678,13 +672,13 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/magistrate.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -714,22 +708,19 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -772,10 +763,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single_col: false
+        columns_per_row: 2
         grid:
           -
             bard:
@@ -794,7 +785,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '12'
+                    padding-y: 12
               -
                 type: paragraph
                 content:
@@ -821,23 +812,21 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: true
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#D6D6D6'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -883,7 +872,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: set
                 attrs:
@@ -900,13 +889,44 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
+                    padding-y: 30
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Auch als Betreuer bei der Definition der Problemlage oder wissenschaftlichen Fragestellungen Ihrer Dissertation stehen Ihnen unsere akademischen Ghostwriter zur Verfügung. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn.'
+                    text: 'Auch als Betreuer bei der Definition der Problemlage oder wissenschaftlichen Fragestellungen Ihrer Dissertation stehen Ihnen unsere akademischen Ghostwriter zur Verfügung. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn. Überzeugen Sie sich von unseren Kompetenzen gerne am folgenden Beispiel für eine Disposition zu einer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/jura
+                          target: null
+                          rel: null
+                    text: Jura
+                  -
+                    type: text
+                    text: ' Dissertation.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/deckblatt-disposition_jura_dissertation.jpg
+                    ex_title: 'Wegfall der Geschäftsgrundlage in Zeiten von Corona'
+                    ex_fachbereich:
+                      - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
+                    ex_type: 'Disposition - Jura Dissertation'
+                    ex_pages: '18'
+                    ex_zitation: 'Fußnoten (Deutscher Stil)'
+                    ex_button_link: 'entry::2500f659-20a1-4c21-a415-8711fd6957f4'
+                    ex_button_text: Weiterlesen
+                    ex_color: '#FF6606'
+                    ex_button_align: justify-start
+                    ex_spacing_top: false
               -
                 type: heading
                 attrs:
@@ -931,7 +951,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
+                    padding-y: 30
               -
                 type: paragraph
                 content:
@@ -962,18 +982,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -1139,10 +1158,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -1150,8 +1170,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -1230,19 +1248,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single_col: false
+        columns_per_row: 2
         grid:
           -
             bard:
@@ -1387,19 +1403,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#F2F2F2'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -1429,7 +1443,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: set
                 attrs:
@@ -1450,7 +1464,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: 1
               -
                 type: set
                 attrs:
@@ -1469,7 +1483,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: 1
               -
                 type: set
                 attrs:
@@ -1488,7 +1502,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: 1
               -
                 type: set
                 attrs:
@@ -1507,7 +1521,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: 1
               -
                 type: set
                 attrs:
@@ -1526,7 +1540,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: 1
               -
                 type: set
                 attrs:
@@ -1545,7 +1559,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: 1
               -
                 type: set
                 attrs:
@@ -1564,7 +1578,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: 20
               -
                 type: set
                 attrs:
@@ -1580,14 +1594,14 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: 20
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -1601,8 +1615,6 @@ replicator:
     enabled: true
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '2'
         single_col: false
         grid:
           -
@@ -1838,58 +1850,12 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     bg_image: seiten/arbeiten/masterabschluss.jpg
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/beispielarbeiten-3.JPG
-                    ex_title: 'Kostenlose wissenschaftliche Musterarbeiten '
-                    ex_fachbereich:
-                      - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
-                      - 06fbb3f4-51c2-4f11-832e-9b72a495857d
-                      - f07c0010-40dd-407e-bf32-a1a260b5016b
-                    ex_type: 'Hausarbeiten, Seminararbeiten'
-                    ex_pages: '10 - 20'
-                    ex_zitation: 'Harvard Style, APA Style, Deutsche Zitierweise'
-                    ex_button_link: 'entry::b2decf22-7419-401e-9a2d-3713194ce4d0'
-                    ex_button_text: 'ÜBERSICHT UNSERER BEISPIELARBEITEN'
-                    ex_button_align: justify-start
-                    ex_spacing_top: false
-                    ex_color: '#FF6606'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is_full: true
-    bg_toggle: false
-    bg_color: '#F7F7F7'
-    bg_image_fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -2084,18 +2050,16 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -2215,10 +2179,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single_col: false
+        columns_per_row: 2
         grid:
           -
             bard:
@@ -2599,23 +2563,21 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: 20
             show_as_card: true
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#F9F9F9'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -2643,207 +2605,208 @@ replicator:
                               color: '#000!important'
                               hex: '#000'
                         text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 40
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Einige unserer Blogartikel zur Dissertation & Mustervorlage für Doktorarbeit schreiben lassen'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: blog_entries
+                    entries:
+                      - 27aa03db-c5fe-4cc4-b6ea-ef050232bc4d
+                      - 062bde11-0285-4b8d-835b-89e19a444f09
+                      - a11daeb3-1d73-4d6f-9c46-9d0e0c86c4e1
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 40
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Weitere Links & Referenzen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.itp1.uni-stuttgart.de/de/publikationen/'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Abschlussarbeiten - Universität Stuttgart'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://studieren.de/promovieren-doktortitel.0.html'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Der Weg zum Doktortitel - studieren.de'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.sueddeutsche.de/thema/Promotion'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Promotion - Süddeutsche Zeitung'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.karriere.de/mein-geld/promotion-und-gehalt-in-welchen-jobs-sich-der-doktortitel-auszahlt/'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Promotion und Gehalt - karriere.de'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.wiwo.de/erfolg/management/gehaltsreport-fuehrungskraefte-doktortitel-bringt-20-000-euro-mehr-gehalt/8920324.html'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Doktortitel bringt 20.000 Euro mehr Gehalt - Wirtschaftswoche'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.doccheck.com/de/detail/articles/11846-renaissance-des-doktortitels-ein-zweischneidiger-diskurs'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Renaissance des Doktortitels- ein zweischneidiger Diskurs - Doccheck'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /wiki
+                          target: null
+                          rel: null
+                    text: '< zurück zur Wiki Übersicht'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 40
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
-  -
-    bard:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Einige unserer Blogartikel zur Dissertation & Mustervorlage für Doktorarbeit schreiben lassen'
-      -
-        type: set
-        attrs:
-          values:
-            type: blog_entries
-            entries:
-              - 27aa03db-c5fe-4cc4-b6ea-ef050232bc4d
-              - 062bde11-0285-4b8d-835b-89e19a444f09
-              - a11daeb3-1d73-4d6f-9c46-9d0e0c86c4e1
-      -
-        type: set
-        attrs:
-          values:
-            type: spacer
-            padding-y: '40'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-            text: 'Weitere Links & Referenzen'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: 'https://www.itp1.uni-stuttgart.de/de/publikationen/'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Abschlussarbeiten - Universität Stuttgart'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: 'https://studieren.de/promovieren-doktortitel.0.html'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Der Weg zum Doktortitel - studieren.de'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: 'https://www.sueddeutsche.de/thema/Promotion'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Promotion - Süddeutsche Zeitung'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: 'https://www.karriere.de/mein-geld/promotion-und-gehalt-in-welchen-jobs-sich-der-doktortitel-auszahlt/'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Promotion und Gehalt - karriere.de'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: 'https://www.wiwo.de/erfolg/management/gehaltsreport-fuehrungskraefte-doktortitel-bringt-20-000-euro-mehr-gehalt/8920324.html'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Doktortitel bringt 20.000 Euro mehr Gehalt - Wirtschaftswoche'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: 'https://www.doccheck.com/de/detail/articles/11846-renaissance-des-doktortitels-ein-zweischneidiger-diskurs'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Renaissance des Doktortitels- ein zweischneidiger Diskurs - Doccheck'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
-      -
-        type: set
-        attrs:
-          values:
-            type: spacer
-            padding-y: '40'
-    type: editor
-    enabled: true
-    show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1657532065
+updated_at: 1662067117
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2851,14 +2814,11 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 meta_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Doktorarbeit schreiben lassen – Mustervorlagen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Doktorarbeit schreiben lassen – Mustervorlagen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-arbeitsgruppe: a_abschlussarbeiten
 schema_objects: |-
   <script type="application/ld+json">
   {
@@ -2898,4 +2858,5 @@ schema_objects: |-
 sitemap_active: true
 page_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
 alternative_page_title: 'Doktorarbeit schreiben lassen'
+published: true
 ---
