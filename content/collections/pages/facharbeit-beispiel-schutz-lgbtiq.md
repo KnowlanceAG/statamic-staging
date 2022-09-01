@@ -5,8 +5,8 @@ title: 'Facharbeit Beispiel: Schutz von LGBTIQ*-Menschen'
 page_title: 'Facharbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655746861
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1662063334
 meta_title: 'Facharbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 meta_description: 'Nutzen Sie dieses Facharbeit Beispiel als Orientierung und überzeugen Sie sich von dem Qualifikationen unserer akademischen Ghostwriter.'
 use_meta_keywords: false
@@ -15,8 +15,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     bard:
@@ -40,8 +38,6 @@ replicator:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
             text: 'Facharbeit Beispiel: Schutz von LGBTIQ*-Menschen'
-      -
-        type: paragraph
       -
         type: paragraph
         content:
@@ -358,4 +354,5 @@ og_title: 'Facharbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 og_description: 'Nutzen Sie dieses Facharbeit Beispiel als Orientierung und überzeugen Sie sich von dem Qualifikationen unserer akademischen Ghostwriter.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---
