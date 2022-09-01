@@ -895,10 +895,18 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Auch als Betreuer bei der Definition der Problemlage oder wissenschaftlichen Fragestellungen Ihrer Dissertation stehen Ihnen unsere akademischen Ghostwriter zur Verfügung. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn. Überzeugen Sie sich von unseren Kompetenzen gerne am folgenden Beispiel für eine Disposition zu einer '
+                    text: 'Auch als Betreuer bei der Definition der Problemlage oder wissenschaftlichen Fragestellungen Ihrer Dissertation stehen Ihnen unsere akademischen Ghostwriter zur Verfügung. Unsere Agentur begleitet Sie in jeder Form während Ihrer akademischen Laufbahn. Überzeugen Sie sich von unseren Kompetenzen gerne am folgenden Beispiel für eine '
                   -
                     type: text
                     marks:
+                      -
+                        type: bold
+                    text: 'Disposition zu einer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
                       -
                         type: link
                         attrs:
@@ -908,7 +916,13 @@ replicator:
                     text: Jura
                   -
                     type: text
-                    text: ' Dissertation.'
+                    marks:
+                      -
+                        type: bold
+                    text: ' Dissertation'
+                  -
+                    type: text
+                    text: .
               -
                 type: set
                 attrs:
@@ -2806,7 +2820,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662067187
+updated_at: 1662067722
 template: default
 use_meta_keywords: false
 no_index_page: false
