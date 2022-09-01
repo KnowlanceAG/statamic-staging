@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -132,8 +132,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -150,18 +148,16 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -228,10 +224,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: true
-    bg_color: '#F9F9F9'
     bg_image_fixed: false
     border: false
     type: add_section
@@ -240,8 +237,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -386,9 +381,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -406,14 +401,14 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: 15
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: '4'
-        single_col: true
+        columns_per_row: 4
         grid:
           -
             bard:
@@ -425,13 +420,13 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/security.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -461,7 +456,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
           -
             bard:
@@ -473,13 +468,13 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -506,7 +501,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
           -
             bard:
@@ -518,13 +513,13 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/stopwatch.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -563,7 +558,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
           -
             bard:
@@ -575,13 +570,13 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/magistrate.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -611,22 +606,19 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -669,10 +661,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single_col: false
+        columns_per_row: 2
         grid:
           -
             bard:
@@ -691,7 +683,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '12'
+                    padding-y: 12
               -
                 type: paragraph
                 content:
@@ -718,23 +710,21 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: true
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#D6D6D6'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -790,22 +780,55 @@ replicator:
                   -
                     type: text
                     text: ', die Sie in jedem Aspekt des wissenschaftlichen Arbeitens unterstützen können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Überzeugen Sie sich gerne am folgenden '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Beispiel für eine englische Masterarbeit'
+                  -
+                    type: text
+                    text: ', verfasst von einem unserer erfahrensten Wirtschaftswissenschaften Ghostwriter, von den Kompetenzen unserer Experten.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/deckblatt-masterarbeit-beispiel-wirtschaftswissenschaften-globalisation-and-poverty.jpg
+                    ex_title: 'Englische Masterarbeit: Globalisation and Poverty'
+                    ex_fachbereich:
+                      - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
+                    ex_type: 'Englische Masterarbeit'
+                    ex_pages: '50'
+                    ex_zitation: 'Harvard Style'
+                    ex_button_link: 'entry::c62f9e16-5d49-4f22-b1c6-d705b966aa1a'
+                    ex_button_text: WEITERLESEN
+                    ex_color: '#FF6606'
+                    ex_button_align: justify-start
+                    ex_spacing_top: false
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single_col: false
+        columns_per_row: 2
         grid:
           -
             bard:
@@ -894,19 +917,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#F2F2F2'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -936,7 +957,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: set
                 attrs:
@@ -957,7 +978,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: 1
               -
                 type: set
                 attrs:
@@ -978,7 +999,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: 1
               -
                 type: set
                 attrs:
@@ -997,7 +1018,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: 1
               -
                 type: set
                 attrs:
@@ -1054,18 +1075,16 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -1146,14 +1165,14 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
+                    padding-y: 30
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -1167,9 +1186,7 @@ replicator:
     enabled: true
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single_col: false
+        columns_per_row: 2
         grid:
           -
             bard:
@@ -1349,17 +1366,15 @@ replicator:
                     text: ' der Arbeit. '
             show_as_card: true
           -
-            bard: null
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
     bg_image: seiten/arbeiten/masterabschluss.jpg
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single_col: false
+        single_col: true
         grid:
           -
             bard:
@@ -1437,9 +1452,6 @@ replicator:
                   -
                     type: text
                     text: ', welche am Ende bewertet wird. Die Kultusministerkonferenz hat sich im Zuge der Qualitätssicherung allerdings dafür ausgesprochen und empfiehlt, dass Lehrinstitute zum Ende des Studiums von Studenten eine Masterarbeit schreiben lassen.'
-            show_as_card: false
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -1576,64 +1588,6 @@ replicator:
                     button_text: 'UNTERSTÜTZUNG BEI IHREM MASTER ANFORDERN'
                     spacing_top: false
                     color: '#FF6606'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/beispielarbeiten-3.JPG
-                    ex_title: 'Kostenlose wissenschaftliche Musterarbeiten '
-                    ex_fachbereich:
-                      - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
-                      - 06fbb3f4-51c2-4f11-832e-9b72a495857d
-                      - f07c0010-40dd-407e-bf32-a1a260b5016b
-                    ex_type: 'Hausarbeiten, Seminararbeiten'
-                    ex_pages: '10 - 20'
-                    ex_zitation: 'Harvard Style, APA Style, Deutsche Zitierweise'
-                    ex_button_link: 'entry::b2decf22-7419-401e-9a2d-3713194ce4d0'
-                    ex_button_text: 'ÜBERSICHT UNSERER BEISPIELARBEITEN'
-                    ex_button_align: justify-start
-                    ex_spacing_top: false
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: true
-    is_full: true
-    bg_toggle: false
-    bg_color: '#F7F7F7'
-    bg_image_fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: true
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -1801,18 +1755,16 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -1873,10 +1825,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: '2'
-        single_col: false
+        columns_per_row: 2
         grid:
           -
             bard:
@@ -2255,23 +2207,21 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: 20
             show_as_card: true
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#F9F9F9'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -2299,156 +2249,157 @@ replicator:
                               color: '#000!important'
                               hex: '#000'
                         text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 40
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Einige unserer Blogartikel zur Masterarbeit & Mustervorlage für Masterarbeit schreiben lassen'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: blog_entries
+                    entries:
+                      - 14a0cd0f-a99b-4b6c-8f33-bda6ea547856
+                      - a26081b8-f79e-4515-8c28-31d320f1e4fd
+                      - 90c98a48-07aa-44a7-bfa5-187a2717a778
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 40
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Weitere Links & Referenzen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://de.wikipedia.org/wiki/Master'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Master - Wikipedia'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.zeit.de/zustimmung?url=https%3A%2F%2Fwww.zeit.de%2Fcampus%2F2010%2F03%2FStudium-Master-Empfehlungsschreiben'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Masterstudium: Nicht zu empfehlen - Zeit Online'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.faz.net/aktuell/politik/inland/hochschulreform-in-der-bologna-falle-11877689.html'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'In der Bologna-Falle - FAZ'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /wiki
+                          target: null
+                          rel: null
+                    text: '< zurück zur Wiki Übersicht'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 40
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
-  -
-    bard:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                  hex: '#000'
-            text: 'Einige unserer Blogartikel zur Masterarbeit & Mustervorlage für Masterarbeit schreiben lassen'
-      -
-        type: set
-        attrs:
-          values:
-            type: blog_entries
-            entries:
-              - 14a0cd0f-a99b-4b6c-8f33-bda6ea547856
-              - a26081b8-f79e-4515-8c28-31d320f1e4fd
-              - 90c98a48-07aa-44a7-bfa5-187a2717a778
-      -
-        type: set
-        attrs:
-          values:
-            type: spacer
-            padding-y: '40'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-            text: 'Weitere Links & Referenzen'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: 'https://de.wikipedia.org/wiki/Master'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Master - Wikipedia'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: 'https://www.zeit.de/zustimmung?url=https%3A%2F%2Fwww.zeit.de%2Fcampus%2F2010%2F03%2FStudium-Master-Empfehlungsschreiben'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Masterstudium: Nicht zu empfehlen - Zeit Online'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: 'https://www.faz.net/aktuell/politik/inland/hochschulreform-in-der-bologna-falle-11877689.html'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'In der Bologna-Falle - FAZ'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
-      -
-        type: set
-        attrs:
-          values:
-            type: spacer
-            padding-y: '40'
-    type: editor
-    enabled: true
-    show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656945923
+updated_at: 1662067649
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2456,14 +2407,11 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 meta_title: 'Masterarbeit schreiben lassen • Ghostwriting von GWriters'
 meta_description: 'Masterarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Masterarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 og_title: 'Masterarbeit schreiben lassen • Ghostwriting von GWriters'
 og_description: 'Masterarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Masterarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 og_image: GWriters-Logo.png
-arbeitsgruppe: a_abschlussarbeiten
 schema_objects: |-
   <script type="application/ld+json">
   {
@@ -2503,4 +2451,5 @@ schema_objects: |-
 sitemap_active: true
 page_title: 'Masterarbeit schreiben lassen • Ghostwriting von GWriters'
 alternative_page_title: 'Masterarbeit schreiben lassen'
+published: true
 ---
