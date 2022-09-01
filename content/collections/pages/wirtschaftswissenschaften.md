@@ -132,7 +132,7 @@ page_title: 'Wirtschaftswissenschaft Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662063759
+updated_at: 1662064181
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -375,7 +375,7 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
-        columns_per_row: 3
+        columns_per_row: 1
         grid:
           -
             bard:
@@ -631,11 +631,12 @@ replicator:
     is_full: false
     type: add_section
     enabled: true
-    remove_spacing: false
+    remove_spacing: true
     border: false
   -
     columns_replicator:
       -
+        single_col: true
         grid:
           -
             bard:
@@ -654,7 +655,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Wirtschaftswissenschaft & Ghostwriting'
               -
@@ -670,7 +671,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Es ist üblich, dass Professoren von Studenten der Wirtschaftswissenschaften eine Seminararbeit oder Hausarbeit schreiben lassen und diese bewerten. Ist dies in mehreren Fächern gleichzeitig der Fall, sind Studenten oftmals nicht in der Lage, diese in der angemessenen Güte zu bearbeiten. Daher setzen immer wieder Studenten der Wirtschaftswissenschaften Ghostwriter und akademische Freelancer ein. Diese sind Experten auf dem jeweiligen wirtschaftswissenschaftlichen Fachgebiet und sind aufgrund ihrer Erfahrung in der Lage, dem Hilfesuchenden zur Seite zu stehen. Ghostwriter der Wirtschaftswissenschaften können nicht nur bei Hausarbeiten oder Seminararbeiten, sondern auch durch die Erstellung von Mustervorlagen eine Hilfe beim Verfassen von Examensarbeiten wie einer Bachelorarbeit oder Masterarbeit sein.'
               -
@@ -686,6 +687,56 @@ replicator:
                     spacing_top: false
               -
                 type: horizontal_rule
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns_replicator:
+      -
+        single_col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/deckblatt-masterarbeit-beispiel-wirtschaftswissenschaften-globalisation-and-poverty.jpg
+                    ex_title: 'Englische Masterarbeit: Globalisation and Poverty'
+                    ex_type: Masterarbeit
+                    ex_pages: '50'
+                    ex_zitation: 'Harvard Style'
+                    ex_button_link: /assets/downloads/ghostwriting-beispielarbeiten/masterarbeit-beispiel-wirtschaftswissenschaften-globalisation-and-poverty.pdf
+                    ex_button_text: Weiterlesen
+                    ex_color: '#FF6606'
+                    ex_spacing_top: false
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns_replicator:
+      -
+        grid:
+          -
+            bard:
               -
                 type: heading
                 attrs:
