@@ -82,7 +82,7 @@ teaser:
 teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1661376027
+updated_at: 1662066528
 replicator:
   -
     bard:
@@ -581,7 +581,23 @@ replicator:
             ex_button_align: justify-start
             ex_spacing_top: false
       -
-        type: paragraph
+        type: set
+        attrs:
+          values:
+            type: example_work
+            ex_img_right: false
+            ex_image: seiten/deckblatt-masterarbeit-beispiel-wirtschaftswissenschaften-globalisation-and-poverty.jpg
+            ex_title: ' Englische Masterarbeit: Globalisation and Poverty'
+            ex_fachbereich:
+              - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
+            ex_type: Masterarbeit
+            ex_pages: '50'
+            ex_zitation: 'Harvard Style'
+            ex_button_link: 'entry::c62f9e16-5d49-4f22-b1c6-d705b966aa1a'
+            ex_button_text: WEITERLESEN
+            ex_color: '#FF6606'
+            ex_button_align: justify-start
+            ex_spacing_top: false
     show_as_card: false
     type: editor
     enabled: true
