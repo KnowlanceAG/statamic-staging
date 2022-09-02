@@ -131,8 +131,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Wirtschaftswissenschaft Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662064926
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1662119976
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -385,6 +385,11 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                     text: 'Unsere Leistungen'
             show_as_card: false
         type: row
@@ -407,7 +412,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -429,7 +434,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -451,7 +456,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -470,7 +475,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -489,7 +494,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -511,7 +516,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -533,7 +538,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -558,7 +563,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -580,7 +585,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: start
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -596,6 +601,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        single_col: true
         responsive_columns: 0
     remove_spacing: true
     is_full: false

@@ -36,8 +36,9 @@ fields:
       icon: toggle
       listable: hidden
       instructions: 'Reduziert eine einzel Splatenbreite von 100% auf max. 75%'
-      if:
-        grid.length: '<= 1'
+      instructions_position: above
+      visibility: visible
+      default: false
   -
     handle: grid
     field:
