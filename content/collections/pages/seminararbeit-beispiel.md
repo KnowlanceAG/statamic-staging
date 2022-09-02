@@ -5,8 +5,8 @@ title: 'Seminararbeit Beispiel: Digitalisierung von Wertschöpfungsketten'
 page_title: 'Seminararbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655746491
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1662063196
 meta_title: 'Seminararbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Seminararbeit Musters von unseren Qualitätsstandards und nutzen Sie diese als Orientierung. Erfahren Sie mehr hier.'
 use_meta_keywords: false
@@ -15,8 +15,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     bard:
@@ -184,39 +182,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Dieses Seminararbeit Muster soll aber nicht als Beispiel für unsere Qualität fungieren, sondern auch allen anderen Nutzern von '
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /
-                  target: null
-                  rel: null
-            text: GWriters
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: ' eine kostenlose Hilfestellungen bieten, indem wir wichtige Punkte und Themen im Zusammenhang mit der Erstellung einer Seminararbeit anschaulich demonstrieren:'
+            text: 'Dieses Seminararbeit Muster soll aber nicht als Beispiel für unsere Qualität fungieren, sondern auch allen anderen Nutzern von GWriters eine kostenlose Hilfestellungen bieten, indem wir wichtige Punkte und Themen im Zusammenhang mit der Erstellung einer Seminararbeit anschaulich demonstrieren:'
       -
         type: paragraph
         content:
@@ -424,4 +390,5 @@ og_title: 'Seminararbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 og_description: 'Überzeugen Sie sich anhand dieses Seminararbeit Musters von unseren Qualitätsstandards und nutzen Sie diese als Orientierung. Erfahren Sie mehr hier.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---

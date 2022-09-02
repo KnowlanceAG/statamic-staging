@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -132,20 +132,17 @@ page_title: 'Wirtschaftswissenschaft Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658324787
+updated_at: 1662064926
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -363,6 +360,24 @@ replicator:
                   values:
                     type: video
                     video: 'https://youtu.be/hINsM8iQTow'
+            show_as_card: false
+        type: row
+        enabled: true
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
+    is_full: false
+    type: add_section
+    enabled: true
+    remove_spacing: false
+    border: false
+  -
+    columns_replicator:
+      -
+        single_col: true
+        grid:
+          -
+            bard:
               -
                 type: heading
                 attrs:
@@ -374,10 +389,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         grid:
           -
             bard:
@@ -396,7 +411,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(193, 76, 0)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -417,7 +433,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -438,7 +455,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -456,13 +474,9 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
+                          hex: '#000'
                     text: "\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: hard_break
             show_as_card: false
           -
             bard:
@@ -479,7 +493,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -500,7 +515,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -521,7 +537,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -529,8 +546,6 @@ replicator:
                           target: null
                           rel: null
                     text: Plagiatsprüfung
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -547,7 +562,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -568,7 +584,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -579,19 +596,15 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+    remove_spacing: true
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
+    border: false
     type: add_section
     enabled: true
-    remove_spacing: true
-    border: false
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -629,19 +642,18 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
-    remove_spacing: true
+    remove_spacing: false
     border: false
   -
     columns_replicator:
       -
-        columns_per_row: 1
+        single_col: true
         grid:
           -
             bard:
@@ -660,7 +672,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Wirtschaftswissenschaft & Ghostwriting'
               -
@@ -676,7 +688,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Es ist üblich, dass Professoren von Studenten der Wirtschaftswissenschaften eine Seminararbeit oder Hausarbeit schreiben lassen und diese bewerten. Ist dies in mehreren Fächern gleichzeitig der Fall, sind Studenten oftmals nicht in der Lage, diese in der angemessenen Güte zu bearbeiten. Daher setzen immer wieder Studenten der Wirtschaftswissenschaften Ghostwriter und akademische Freelancer ein. Diese sind Experten auf dem jeweiligen wirtschaftswissenschaftlichen Fachgebiet und sind aufgrund ihrer Erfahrung in der Lage, dem Hilfesuchenden zur Seite zu stehen. Ghostwriter der Wirtschaftswissenschaften können nicht nur bei Hausarbeiten oder Seminararbeiten, sondern auch durch die Erstellung von Mustervorlagen eine Hilfe beim Verfassen von Examensarbeiten wie einer Bachelorarbeit oder Masterarbeit sein.'
               -
@@ -692,6 +704,62 @@ replicator:
                     spacing_top: false
               -
                 type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 40
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: true
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns_replicator:
+      -
+        single_col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/deckblatt-masterarbeit-beispiel-wirtschaftswissenschaften-globalisation-and-poverty.jpg
+                    ex_title: 'Englische Masterarbeit: Globalisation and Poverty'
+                    ex_type: Masterarbeit
+                    ex_pages: '50'
+                    ex_zitation: 'Harvard Style'
+                    ex_button_link: /assets/downloads/ghostwriting-beispielarbeiten/masterarbeit-beispiel-wirtschaftswissenschaften-globalisation-and-poverty.pdf
+                    ex_button_text: Weiterlesen
+                    ex_color: '#FF6606'
+                    ex_spacing_top: false
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F7F7F7'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns_replicator:
+      -
+        grid:
+          -
+            bard:
               -
                 type: heading
                 attrs:
@@ -1192,8 +1260,10 @@ replicator:
                     type: floating_img
                     dateien:
                       - seiten/fachrichtungen/wirtschaftswissenschaften.jpg
-                    img_size: w-1/4
+                    img_size: w-1/2
                     float: float-left
+                    image_options:
+                      - no_upscale
               -
                 type: paragraph
                 content:
@@ -1210,6 +1280,17 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Als Geburtsstunde der Wirtschaftswissenschaft gilt das Jahr 1758, damals veröffentlichte der französische Gelehrte Francois Quesnay sein Werk „Tableau économique”. Er formulierte in diesem das erste Mal die Abhängigkeit von Finanz- und Güterströmen als einen Kreislauf. Bereits vorher gab es Ansätze, die Wirtschaft zu verstehen und Gesetzmäßigkeiten zu entwickeln. So machten sich bereits die Gelehrten und Philosophen der Antike und des Mittelalters daran, die ökonomischen Zusammenhänge aufzudecken. Die absolutistischen Herrscher versuchten den Wohlstand ihrer Staaten zu steigern, indem sie Exporte förderten und Importe erschwerten. Diese Art des Wirtschaftens begründete der Merkantilismus. Erst Adam Smith aber gilt als Vater der modernen Wirtschaftswissenschaft. In seinem Hauptwerk „An Inquiry into the Nature and Causes of the Wealth of Nations” formulierte er erstmals die Idee der „unsichtbaren Hand”, welche die Geschicke des Marktes steuerte. So wurde erstmals der Zusammenhang zwischen Angebot und Nachfrage deutlich. Die klassische Nationalökonomie gilt mittlerweile als überholt, als prägend für die Folgezeit und bis heute aktuell gilt die neoklassische Theorie. Der bedeutendste Wirtschaftswissenschaftler des 20. Jahrhunderts ist wohl John Maynard Keynes, der Begründer des Keynesianismus. Er bestimmte die wirtschaftliche Diskussion bis in die 70er Jahre desselben Jahrhunderts.'
+            show_as_card: false
+        type: row
+        enabled: true
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        single_col: true
+        grid:
+          -
+            bard:
               -
                 type: heading
                 attrs:
@@ -1225,7 +1306,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: Disclaimer
               -
@@ -1241,7 +1322,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
@@ -1259,7 +1340,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Nützliche Weblinks'
               -
@@ -1275,7 +1356,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1301,7 +1382,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1327,7 +1408,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1353,7 +1434,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1381,7 +1462,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1393,11 +1474,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -1407,7 +1486,7 @@ meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Wirtscha
 og_title: 'GWriters • Wirtschaftswissenschaft - Ghostwriter & mehr'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der Wirtschaftswissenschaften – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'Wirtschaftswissenschaften Ghostwriter'
+published: true
 ---

@@ -1,14 +1,14 @@
 ---
-id: ebc88d3b-5c58-41f8-9c28-2c4dd62dea5e
+id: 2500f659-20a1-4c21-a415-8711fd6957f4
 blueprint: pages
-title: 'Hausarbeit Beispiel: Legal and Human Rights Protection in the EU'
-page_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
+title: 'Disposition zu einer Jura Dissertation: Wegfall der Geschäftsgrundlage in Zeiten von Corona'
+page_title: 'Disposition Jura Dissertation - Wie schreibt ein Jura Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662063332
-meta_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
-meta_description: 'Überzeugen Sie sich anhand dieses Jura-Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
+updated_at: 1661375784
+meta_title: 'Disposition Jura Dissertation - Wie schreibt ein Jura Ghostwriter?'
+meta_description: 'Überzeugen Sie sich anhand dieses Disposition für eine Jura Dissertation von der Qualität unserer Ghostwriting Services.'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -37,7 +37,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Hausarbeit Beispiel: Legal and Human Rights Protection in the EU'
+            text: 'Disposition zu einer Jura Dissertation: Wegfall der Geschäftsgrundlage in Zeiten von Corona'
       -
         type: paragraph
         content:
@@ -53,7 +53,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Viele Studenten, die sich bei GWriters eine Mustervorlage für Ihre '
+            text: 'Doktoranden, die sich von GWriters eine Mustervorlage für Ihre '
           -
             type: text
             marks:
@@ -69,10 +69,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /arbeiten/hausarbeit-schreiben-lassen
+                  href: /arbeiten/doktorarbeit
                   target: null
                   rel: null
-            text: 'Hausarbeit schreiben lassen'
+            text: 'Dissertation schreiben lassen'
           -
             type: text
             marks:
@@ -85,7 +85,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: ' möchten, benötigen diese Unterstützung, da diese sich überfordert fühlen. Schließlich stell die erste wissenschaftliche Arbeit im Studium eine große Herausforderung da. Die folgende englische Hausarbeit wurde als Beispiel und Handreichung für Sie von einem unserer erfahrenen Jura '
+            text: ', sind sich dem hohen Anspruch eines solchen Vorhabens bewusst und möchten daher bei der Wahl des akademischen Dienstleisters kein Risiko eingehen. Schließlich handelt es sich bei der Doktorarbeit oft um die Krönung des Studiums sowie den Einstieg in die eigene wissenschaftliche Karriere. Die folgende Disposition zu einer Jura Dissertation wurde als Beispiel und Handreichung für Sie von einem unserer erfahrenen Jura '
           -
             type: text
             marks:
@@ -117,7 +117,33 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: ' geschrieben. Anhand dieser Muster Hausarbeit möchten wir nicht nur unsere hervorragenden Kompetenzen im juristischen Fachbereich demonstrieren, sondern auch Ihnen als Studenten eine praktische Hilfestellung bieten, an der Sie sich beim Verfassen Ihrer eigenen Hausarbeit orientieren können. Unter anderem möchten wir damit folgende häufig gestellte Fragen beantworten:'
+            text: ' geschrieben. Anhand dieses Beispiels für eine Jura Disposition möchten wir nicht nur unsere hervorragenden Kompetenzen im juristischen Fachbereich demonstrieren, sondern auch Ihnen als Doktoranden eine praktische Hilfestellung bieten, an der Sie sich beim Verfassen Ihrer eigenen '
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Disposition oder Jura Dissertation'
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: ' orientieren können. Unter anderem möchten wir damit folgende häufig gestellte Fragen beantworten:'
       -
         type: bullet_list
         content:
@@ -139,7 +165,33 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Wie erstellt man das Deckblatt für eine juristische Hausarbeit?'
+                    text: 'Wie erstellt man das Deckblatt für eine juristische '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Dissertation
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: '?'
           -
             type: list_item
             content:
@@ -158,7 +210,33 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Wie wird eine juristische Hausarbeit formuliert (Gutachtenstil vs. Urteilsstil)?'
+                    text: 'Wie wird eine juristische '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Dissertation
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: ' formuliert (Gutachtenstil vs. Urteilsstil)?'
           -
             type: list_item
             content:
@@ -177,7 +255,33 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Wie wird eine Jura Hausarbeit aufgebaut? Was ist eine gute Gliederung?'
+                    text: 'Wie wird eine Jura '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Disposition
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: ' aufgebaut? Was ist eine gute Gliederung?'
           -
             type: list_item
             content:
@@ -260,10 +364,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /assets/downloads/ghostwriting-beispielarbeiten/Hausarbeit-Beispiel-Europarecht-Legal-and-Human-Rights-Protection-in-the-EU.pdf
+                  href: /assets/downloads/ghostwriting-beispielarbeiten/disposition_jura_dissertation.pdf
                   target: _blank
                   rel: null
-            text: 'Hier können Sie unsere Beispiel-Hausarbeit kostenlos herunterladen!'
+            text: 'Hier können Sie unsere Disposition zu einer Jura Dissertation kostenlos herunterladen!'
       -
         type: paragraph
         content:
@@ -281,7 +385,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Gerne unterstützen wir auch Sie beim Verfassen ihrer Hausarbeit! Unsere Erfahrung und Kompetenz im Verfassen von Mustervorlagen für wissenschaftliche Arbeiten haben bereits einer Vielzahl von Studenten dabei geholfen, ihre akademischen Ziele zu erreichen. Verlassen Sie uns auf unsere bewährten Qualitätsstandards und senden Sie uns jetzt eine '
+            text: 'Gerne unterstützen wir auch Sie beim Verfassen ihrer Dissertation! Unsere Erfahrung und Kompetenz im Verfassen von Mustervorlagen für wissenschaftliche Arbeiten haben bereits einer Vielzahl von Doktoranden dabei geholfen, ihre akademischen Ziele zu erreichen. Verlassen Sie uns auf unsere bewährten Qualitätsstandards und senden Sie uns jetzt eine '
           -
             type: text
             marks:
@@ -346,8 +450,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-og_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
-og_description: 'Überzeugen Sie sich anhand dieses Jura-Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
+og_title: 'Disposition Jura Dissertation - Wie schreibt ein Jura Ghostwriter?'
+og_description: 'Überzeugen Sie sich anhand dieses Disposition für eine Jura Dissertation von der Qualität unserer Ghostwriting Services.'
 og_image: GWriters-Logo.png
 sitemap_active: true
 published: true

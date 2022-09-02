@@ -39,7 +39,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -67,7 +67,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -81,8 +81,8 @@ teaser:
     type: paragraph
 teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655747062
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1662066641
 replicator:
   -
     bard:
@@ -563,7 +563,41 @@ replicator:
             ex_fachbereich:
               - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
       -
-        type: paragraph
+        type: set
+        attrs:
+          values:
+            type: example_work
+            ex_img_right: true
+            ex_image: seiten/deckblatt-disposition_jura_dissertation.jpg
+            ex_title: 'Wegfall der Geschäftsgrundlage in Zeiten von Corona'
+            ex_fachbereich:
+              - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
+            ex_type: 'Disposition - Jura Dissertation'
+            ex_pages: '18'
+            ex_zitation: 'Fußnoten (Deutscher Stil)'
+            ex_button_link: 'entry::2500f659-20a1-4c21-a415-8711fd6957f4'
+            ex_button_text: Weiterlesen
+            ex_color: '#FF6606'
+            ex_button_align: justify-start
+            ex_spacing_top: false
+      -
+        type: set
+        attrs:
+          values:
+            type: example_work
+            ex_img_right: false
+            ex_image: seiten/deckblatt-masterarbeit-beispiel-wirtschaftswissenschaften-globalisation-and-poverty.jpg
+            ex_title: ' Englische Masterarbeit: Globalisation and Poverty'
+            ex_fachbereich:
+              - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
+            ex_type: Masterarbeit
+            ex_pages: '50'
+            ex_zitation: 'Harvard Style'
+            ex_button_link: 'entry::c62f9e16-5d49-4f22-b1c6-d705b966aa1a'
+            ex_button_text: WEITERLESEN
+            ex_color: '#FF6606'
+            ex_button_align: justify-start
+            ex_spacing_top: false
     show_as_card: false
     type: editor
     enabled: true
@@ -573,8 +607,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 template: with-side-bar
 meta_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
 meta_description: 'Fach-, Haus- und Seminararbeit Beispiel: Was erwartet Sie beim Ghostwriting? Überzeugen Sie sich jetzt anhand unserer kostenlosen Muster!'
@@ -582,4 +614,5 @@ og_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
 og_description: 'Fach-, Haus- und Seminararbeit Beispiel: Was erwartet Sie beim Ghostwriting? Überzeugen Sie sich jetzt anhand unserer kostenlosen Muster!'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---

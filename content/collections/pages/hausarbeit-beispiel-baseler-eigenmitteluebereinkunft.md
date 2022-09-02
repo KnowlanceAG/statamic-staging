@@ -5,8 +5,8 @@ title: 'Hausarbeit Beispiel: Weiterentwicklung der Baseler Eigenmittelübereinku
 page_title: 'VWL Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1658750935
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1662063074
 meta_title: 'VWL Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Hausarbeit Musters von unseren Qualitätsstandards und nutzen Sie diese als Orientierung. Erfahren Sie hier mehr.'
 use_meta_keywords: false
@@ -15,8 +15,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     bard:
@@ -28,8 +26,6 @@ replicator:
           -
             type: text
             text: 'Hausarbeit Beispiel: Weiterentwicklung der Baseler Eigenmittelübereinkunft'
-      -
-        type: paragraph
       -
         type: paragraph
         content:
@@ -45,7 +41,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: "Auch bei einer Hausarbeit sind Sorgfalt und Qualität überaus wichtig. Genau aus diesem Grund haben wir uns bei GWriters dazu entschieden, ein Hausarbeit Beispiel für alle Kunden und Interessierte zu veröffentlichen, indem demonstriert wird, wie eine qualitative Hausarbeit auf akademischem Niveau geschrieben wird. Wir haben diese\_"
+            text: "Auch bei einer Hausarbeit sind Sorgfalt und Qualität überaus wichtig. Genau aus diesem Grund haben wir uns bei GWriters dazu entschieden, ein Hausarbeit Beispiel für alle Kunden und Interessierte zu veröffentlichen, in dem demonstriert wird, wie eine qualitative Hausarbeit auf akademischem Niveau geschrieben wird. Wir haben diese\_"
           -
             type: text
             marks:
@@ -72,7 +68,7 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: ', nicht nur um die Expertise und das Fachwissen unserer Experten zu demonstrieren, sondern auch um anderen Nutzern zu helfen, beispielsweise eine Schreibblockade zu überwinden oder für die eigene Hausarbeit ein Beispiel zur Anregung suchen, wie mit dem Argumentationsgang begonnen werden konnte.'
+            text: ', nicht nur um die Expertise und das Fachwissen unserer Experten zu demonstrieren, sondern auch um anderen Nutzern zu helfen, beispielsweise eine Schreibblockade zu überwinden oder für die eigene Hausarbeit ein Beispiel zur Anregung zu haben, das zeigt, wie mit dem Argumentationsgang begonnen werden könnte.'
       -
         type: paragraph
         content:
@@ -88,7 +84,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Es gibt einige zentrale Punkte auf die bei jeder Hausarbeit unbedingt geachtet werden sollte. Diese fassen wir nicht nur in der folgenden Liste mit kurzer Erklärung zusammen, sondern demonstrieren diese auch anschließend in unserer Muster Hausarbeit.'
+            text: 'Es gibt einige zentrale Punkte, auf die bei jeder Hausarbeit unbedingt geachtet werden sollte. Diese fassen wir nicht nur in der folgenden Liste mit kurzen Erklärungen zusammen, sondern demonstrieren diese auch anschließend in unserer Muster Hausarbeit.'
       -
         type: bullet_list
         content:
@@ -167,7 +163,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Hausarbeit schreiben – aber wie?: Wir empfehlen mit den obengenannten Punkten zu beginnen und sich bereits bei der Recherche nach der Gliederung der Hausarbeit zu richten. So können Sie strukturiert und planvoll Ihr Ziel erreichen.'
+                    text: 'Hausarbeit schreiben – aber wie? Wir empfehlen mit den oben genannten Punkten zu beginnen und sich bereits bei der Recherche nach der Gliederung der Hausarbeit zu richten. So können Sie strukturiert und planvoll Ihr Ziel erreichen.'
       -
         type: paragraph
         content:
@@ -210,7 +206,7 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: "\_die folgende Hausarbeit schreiben lassen. Diese Hausarbeit Beispiel beinhaltet demnach selbstverständlich Deckblatt, Gliederung, Einleitung der Hausarbeit und einen professionell strukturierten, wissenschaftlich fundiertem Text."
+            text: "\_die folgende Hausarbeit schreiben lassen. Diese Hausarbeit Beispiel beinhaltet demnach selbstverständlich Deckblatt, Gliederung, Einleitung der Hausarbeit und einen professionell strukturierten, wissenschaftlich fundierten Text."
       -
         type: paragraph
         content:
@@ -288,7 +284,37 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: " auch über die Bereitstellung von Beispielarbeiten hinaus. Wenn Sie Ihre Hausarbeit schreiben lassen möchten, dann stellen Sie jetzt Ihre Anfrage und wir helfen Ihnen weiter mit einer\_"
+            text: ' auch über die Bereitstellung von Beispielarbeiten hinaus. Wenn Sie eine '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Mustervorlage für '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: textColor
+                attrs:
+                  color: 'rgb(68, 68, 68)'
+                  hex: '#000'
+            text: "Ihre Hausarbeit schreiben lassen möchten, dann stellen Sie jetzt Ihre Anfrage und wir helfen Ihnen weiter mit einer\_"
           -
             type: text
             marks:
@@ -327,4 +353,5 @@ og_title: 'VWL Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 og_description: 'Überzeugen Sie sich anhand dieses Hausarbeit Musters von unseren Qualitätsstandards und nutzen Sie diese als Orientierung. Erfahren Sie hier mehr.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---
