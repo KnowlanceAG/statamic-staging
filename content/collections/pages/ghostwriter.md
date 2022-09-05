@@ -1003,7 +1003,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single_col: false
+        single_col: true
         responsive_columns: 0
     remove_spacing: false
     is_full: false
@@ -3434,7 +3434,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1662370838
+updated_at: 1662370896
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
