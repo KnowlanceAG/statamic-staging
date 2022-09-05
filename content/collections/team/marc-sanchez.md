@@ -5,7 +5,6 @@ title: 'Marc Sanchez'
 position: 'Senior Projektmanager'
 photo:
   - team/marc-sanchez-gwriters-ghostwriter.jpeg
-published: true
 show_as_card: false
 use_meta_keywords: false
 no_index_page: false
@@ -14,5 +13,8 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662324397
+updated_at: 1662388597
+published: true
+phone_number: '+49 30 809332316'
+email_address: sanchez@gwriters.de
 ---
