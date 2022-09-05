@@ -5,17 +5,17 @@ title: 'Martin Kahn'
 position: Projektmanager
 photo:
   - team/martin-kahn-gwriters.jpg
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1649150731
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1662388426
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 link: 'entry::f1c85404-3d3f-4738-bd58-45185a7bec94'
 show_as_card: false
 og_image: team/martin-kahn-gwriters.jpg
+published: true
+email_address: kahn@gwriters.de
 ---
