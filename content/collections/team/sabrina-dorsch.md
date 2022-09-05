@@ -5,17 +5,17 @@ title: 'Sabrina Dorsch'
 position: 'Marketing Assistentin'
 photo:
   - team/sabrina-dorsch-gwriters.jpg
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1649154965
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1662388452
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 link: 'entry::65f42bc9-e973-4db6-889b-ab4680a8930f'
 show_as_card: false
 og_image: team/sabrina-dorsch-gwriters.jpg
+published: true
+email_address: dorsch@gwriters.de
 ---
