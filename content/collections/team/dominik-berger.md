@@ -2,11 +2,11 @@
 id: c76d960c-26be-47ac-a08b-ca4dbba5e041
 blueprint: team
 title: 'Dominik Berger'
-position: Projektmanager
+position: 'Senior Projektmanager'
 photo:
   - team/dominik-berger-gwriters.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662388302
+updated_at: 1662388842
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
