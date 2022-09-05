@@ -556,6 +556,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        single_col: true
         responsive_columns: 0
       -
         single_col: true
@@ -716,6 +717,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        single_col: false
         responsive_columns: 0
     remove_spacing: false
     is_full: true
@@ -1307,6 +1309,7 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
+        single_col: false
         responsive_columns: 0
     remove_spacing: false
     is_full: true
@@ -1838,8 +1841,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1661372449
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1662371239
 template: default
 use_meta_keywords: false
 no_index_page: false
