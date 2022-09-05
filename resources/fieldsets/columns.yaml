@@ -35,7 +35,7 @@ fields:
       type: toggle
       icon: toggle
       listable: hidden
-      instructions: 'Reduziert eine einzel Splatenbreite von 100% auf max. 75%'
+      instructions: "Reduziert die Spaltenbreite von 100% auf max. 75%"
       instructions_position: above
       visibility: visible
       default: false
