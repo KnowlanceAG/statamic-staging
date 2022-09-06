@@ -6,4 +6,4 @@ Disallow: /cdn-cgi/beacon/
 Allow: /assets/*
 Allow: /img/*
 
-Sitemap: https://gwriters.de/sitemap_de.xml
+Sitemap: https://gwriters.de/sitemap.xml
