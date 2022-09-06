@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'case studies lösen'
 size: 80967
 last_modified: 1662371116
 width: 750

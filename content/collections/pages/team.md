@@ -5,7 +5,7 @@ title: Team
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662325013
+updated_at: 1662388820
 page_title: 'Unser Team • GWriters.de'
 teaser:
   -
@@ -107,20 +107,20 @@ replicator:
               - a0275a30-5d74-46a4-84d6-acc7e827e95e
               - 0443cc18-5f72-486a-91de-9648a8fc0b2f
               - 18e28099-a7de-4213-a85e-299c6b9b9a5f
+              - c76d960c-26be-47ac-a08b-ca4dbba5e041
               - d8d9c64e-1304-48b0-bdb1-493f652499ee
-              - 1e772779-291e-43ee-81ae-7726c207cd48
-              - bcd13603-cc4f-4f49-8fd7-9e7ca975e616
               - 24e70a94-8ad0-4509-bf64-2b04e5b28ff9
               - 3f721197-9f3d-4908-bd04-486dbc3f53ad
               - 526ab179-b861-44e4-8895-891cb640b3ef
               - 5e6ef2df-1a94-4c96-b8d9-10fef5638544
-              - c76d960c-26be-47ac-a08b-ca4dbba5e041
               - aac6ed79-e55b-4b55-8691-262232a691d3
               - 08487631-bdf6-4971-8cf0-3e7e3cb53e44
               - 3307b3db-048f-4a08-ad53-258b009794ec
+              - bcd13603-cc4f-4f49-8fd7-9e7ca975e616
+              - 1e772779-291e-43ee-81ae-7726c207cd48
               - 59da4718-41c8-4485-9adc-f6e28f7c7844
-              - c167d814-0006-480c-99b5-7dd093d04f69
               - 8ede280d-eba3-4ad9-9d78-2eaec92444ac
+              - c167d814-0006-480c-99b5-7dd093d04f69
       -
         type: paragraph
     type: editor
