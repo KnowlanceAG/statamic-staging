@@ -6,9 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="content-language" content="{{ site:locale replace="_|-" lower="true" }}">
-  {{ if current_template == 'errors/404' }}
+  {{ if current_template == 'errors/404' || current_uri | contains:blog/page || current_uri | ends_with:/blog }}
     <meta name="robots" content="noindex, follow">
   {{ /if }}
+
   <link rel="alternate" hreflang="de-de" href="https://gwriters.de{{ current_uri }}" />
   <link rel="alternate" hreflang="de-ch" href="https://gwriters.ch{{ current_uri }}" />
   <link rel="alternate" hreflang="x-default" href="https://gwriters.de{{ current_uri }}" />
