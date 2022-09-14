@@ -6,7 +6,7 @@ photo:
   - team/dr_eule_gwriters_ghostwriter-1.jpeg
 detail_position: 'Supervisorin & Ghostwriterin'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627300653
+updated_at: 1663197653
 bard:
   -
     type: set
@@ -24,7 +24,7 @@ bard:
                     type: textAlign
                     attrs:
                       align: left
-                text: "Cordelia Eule überzeugt unsere Kunden nicht nur durch ihre Akkuratesse. Ihre Bereitschaft, sich auf jedes Thema in der Tiefe einzulassen und aus jedem Text das Beste herauszuholen sowie ihre Zuverlässigkeit und Einsatzbereitschaft zeigen zudem ihre Begeisterung für ihre Arbeit. Als verlässliche Supervisorin in unserer Qualitätssicherung und als promovierte Experten für die Fachbereiche Archäologie,\_"
+                text: "Cordelia Eule überzeugt unsere Kunden nicht nur durch ihre Akkuratesse. Ihre Bereitschaft, sich auf jedes Thema in der Tiefe einzulassen und aus jedem Text das Beste herauszuholen sowie ihre Zuverlässigkeit und Einsatzbereitschaft zeigen zudem ihre Begeisterung für ihre Arbeit. Als verlässliche Supervisorin in unserer Qualitätssicherung und als promovierte Expertin für die Fachbereiche Archäologie,\_"
               -
                 type: text
                 marks:
@@ -68,8 +68,9 @@ bard:
                     type: textAlign
                     attrs:
                       align: left
-                text: " hat sie sich als eine wertvolle Mitarbeiterin etabliert, der wir dank ihrer Stärken im analytischen Strukturieren und Schreiben gerne auch die schwierigsten Aufträge übergeben. Darüber hinaus hat Dr. Cordelia Eule auch mehrere Jahre im Bereich der Finanzberatung und hat eine Weiterbildung zur Versicherungs- und Finanzanlagenfachfrau absolviert, was ihr als\_ Grundlage für alle wirtschaftswissenschaftlichen Themen dient."
+                text: " hat sie sich als eine wertvolle Mitarbeiterin etabliert, der wir dank ihrer Stärken im analytischen Strukturieren und Schreiben gerne auch die schwierigsten Aufträge übergeben. Darüber hinaus hat Dr. Cordelia Eule auch mehrere Jahre Erfahrung im Bereich der Finanzberatung und hat eine Weiterbildung zur Versicherungs- und Finanzanlagenfachfrau absolviert, was ihr als\_Grundlage für alle wirtschaftswissenschaftlichen Themen dient."
         text_ausrichtung: text-left
+        column_count: false
   -
     type: paragraph
 use_meta_keywords: false
@@ -78,7 +79,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 show_as_card: false
+published: true
 ---
