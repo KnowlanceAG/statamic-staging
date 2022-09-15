@@ -13,7 +13,63 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
       <input class="form-input w-full" id="fax" type="fax" name="fax" tabindex="-1" autocomplete="off" />
     </div>
 
-    {{ fields }}
+    {{ fields where="handle:gw_source" }}
+      <div class="hidden">
+        {{ field }}
+      </div>
+    {{ /fields }}
+
+    {{ if form.handle == 'anfrage'}}
+      <!-- Topic data -->
+      <div class="flex flex-col md:col-span-12">
+        <h3 class="mt-0">IHR PROJEKT</h3>
+      </div>
+      {{ fields where="handle:fachrichtung" }}
+        {{ partial:content/form_element marginTopNone="true" }}
+      {{ /fields }}
+      {{ fields where="handle:arbeitsthema_spezifikationen_usw" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+      {{ fields where="handle:seitenzahl" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+      {{ fields where="handle:lieferdatum" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+      {{ fields where="handle:file" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+
+      <!-- Personal data -->
+      <div class="flex flex-col md:col-span-12"">
+      <h3 class="mt-0">PERSÖNLICHE DATEN</h3>
+        <p>Wir benötigen nur Ihre E-Mail Adresse, alle anderen Angaben sind freiwillig. Allerdings ist eine Telefonnummer für eine individuelle Abstimmung sehr vorteilhaft. Ihre persönlichen Daten werden <span class="font-bold">streng vertraulich</span> behandelt. Wenn Sie unser Angebot nicht annehmen, werden Ihre Daten <span class="font-bold">innerhalb weniger Tage gelöscht!</span></p>
+      </div>
+      {{ fields where="handle:name" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+      {{ fields where="handle:nachname" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+      {{ fields where="handle:e_mail_adresse" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+      {{ fields where="handle:telefon" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+
+      <!-- Promocode -->
+      {{ fields where="handle:promocode" }}
+        {{ partial:content/form_element }}
+      {{ /fields }}
+
+      {{ else }}
+        {{ fields }}
+          {{ partial:content/form_element }}
+      {{ /fields }}
+    {{ /if }}
+
+    <!-- {{ fields }}
       {{ if handle=='req_ip' }}
       {{ elseif handle=='gw_source' }}
         <div class="hidden">
@@ -65,7 +121,7 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
           </template>
         </div>
       {{ /if }}
-    {{ /fields }}
+    {{ /fields }} -->
 
     <div class="my-4 md:col-span-12">
       {{ form_info_text }}

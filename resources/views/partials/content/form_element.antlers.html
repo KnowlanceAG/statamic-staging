@@ -1,0 +1,44 @@
+<div class="flex flex-col space-y-4
+  {{ width == '25' ?= 'md:col-span-3' }}
+  {{ width == '33' ?= 'md:col-span-4' }}
+  {{ width == '50' ?= 'md:col-span-6' }}
+  {{ width == '66' ?= 'md:col-span-8' }}
+  {{ width == '75' ?= 'md:col-span-9' }}
+  {{ width == '100' ?= 'md:col-span-12' }}">
+  <label class="block uppercase tracking-wide text-black text-xs {{ marginTopNone ? 'mt-0' : 'mt-4' }} mb-1"
+    for="{{ handle }}">
+    {{ trans key="{display}" }}
+    {{ if validate | contains:required }}
+      <sup class="text-red-500">*</sup>
+    {{ /if }}
+  </label>
+
+  <div x-bind:class="{
+        'border border-red-500' : errors.{{ handle }}
+    }">
+    {{ if tooltip }}
+      <div class="has-tooltip relative">
+        <span
+          class='tooltip rounded shadow-xl px-2 py-1 ml-14 border border-gray-300 text-xs leading-5 max-w-full w-auto bg-white text-black'>
+          {{ tooltip }}
+        </span>
+        {{ field }}
+      </div>
+    {{ else }}
+      {{ field }}
+    {{ /if }}
+
+    {{ if instructions }}
+      <p class="text-sm text-gray-700">
+        {{ instructions | markdown }}
+      </p>
+    {{ /if }}
+  </div>
+  {{# Load notification when there is a validation error with the name field.
+#}}
+  <template x-if="errors.{{ handle }}">
+    {{ partial src="components/notification" type="error"
+  attribute="x-text='clientTranslation(\"{handle}\", errors.{ handle })'"
+  handle="{handle}" }}
+  </template>
+</div>
