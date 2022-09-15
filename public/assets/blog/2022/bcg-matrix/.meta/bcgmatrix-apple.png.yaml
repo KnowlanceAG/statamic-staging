@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'bcg matrix beispiel'
+  caption: 'Apple BCG Matrix (Quelle: Eigene Darstellung)'
 size: 8142
 last_modified: 1663276572
 width: 610
