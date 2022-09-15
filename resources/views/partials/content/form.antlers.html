@@ -65,7 +65,9 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
 
       {{ else }}
         {{ fields }}
-          {{ partial:content/form_element }}
+          {{ if handle !== 'req_ip' && handle !== 'gw_source' }}
+            {{ partial:content/form_element }}
+          {{ /if }}
       {{ /fields }}
     {{ /if }}
 
