@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -132,8 +132,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -152,22 +150,20 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
+                    padding-y: 30
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -223,9 +219,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -246,10 +242,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: true
-    bg_color: '#F9F9F9'
     bg_image_fixed: false
     border: false
     type: add_section
@@ -258,8 +255,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -313,13 +308,13 @@ replicator:
                     text: 'Seminararbeit schreiben lassen'
                   -
                     type: text
-                    text: '. Diese Seminararbeiten haben durch eine starke Gewichtung in Form von Creditpoints eine wichtige Bedeutung für den Studienabschluss haben. '
+                    text: '. Diese Seminararbeiten haben durch eine starke Gewichtung in Form von Creditpoints eine wichtige Bedeutung für den Studienabschluss. '
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -337,13 +332,14 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: 15
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: '4'
+        columns_per_row: 4
         single_col: true
         grid:
           -
@@ -356,13 +352,13 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/security.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -392,7 +388,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
           -
             bard:
@@ -404,13 +400,13 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -437,7 +433,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
           -
             bard:
@@ -449,13 +445,13 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/stopwatch.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -494,7 +490,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
           -
             bard:
@@ -506,13 +502,13 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/magistrate.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -542,22 +538,19 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -624,9 +617,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -646,7 +640,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '12'
+                    padding-y: 12
               -
                 type: paragraph
                 content:
@@ -673,23 +667,21 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: true
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#D6D6D6'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -917,18 +909,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -1056,19 +1047,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#F2F2F2'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -1147,18 +1136,16 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '2'
         single_col: false
         grid:
           -
@@ -1328,10 +1315,11 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: true
-    bg_color: '#F9F9F9'
     bg_image: seiten/arbeiten/seminararbeit/seminararbeit-plan.jpg
     bg_image_fixed: false
     border: false
@@ -1340,8 +1328,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -1371,7 +1357,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: set
                 attrs:
@@ -1390,7 +1376,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: 1
               -
                 type: set
                 attrs:
@@ -1409,7 +1395,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: 1
               -
                 type: set
                 attrs:
@@ -1428,7 +1414,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '1'
+                    padding-y: 1
               -
                 type: set
                 attrs:
@@ -1485,18 +1471,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -1593,7 +1578,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '25'
+                    padding-y: 25
               -
                 type: set
                 attrs:
@@ -1606,9 +1591,8 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -1661,18 +1645,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_image_fixed: false
     border: true
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -1709,9 +1692,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -1743,7 +1727,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: 20
               -
                 type: heading
                 attrs:
@@ -1805,11 +1789,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#F7F7F7'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -1817,14 +1801,11 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -1845,9 +1826,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -1866,7 +1848,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: 15
               -
                 type: set
                 attrs:
@@ -1893,7 +1875,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: 15
               -
                 type: set
                 attrs:
@@ -1906,9 +1888,8 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
+        responsive_columns: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -1926,9 +1907,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -2144,12 +2125,12 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     bg_color: '#D6D6D6'
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -2172,13 +2153,14 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: 20
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: '3'
+        columns_per_row: 3
         single_col: false
         grid:
           -
@@ -2237,7 +2219,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: 15
             show_as_card: false
           -
             bard:
@@ -2293,7 +2275,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: 15
             show_as_card: false
           -
             bard:
@@ -2349,22 +2331,20 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: 15
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -2466,6 +2446,8 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: true
@@ -2477,8 +2459,7 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: 2
         single_col: true
         grid:
           -
@@ -2724,7 +2705,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '34'
+                    padding-y: 34
               -
                 type: paragraph
             show_as_card: true
@@ -2825,10 +2806,10 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -2836,8 +2817,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -2847,7 +2826,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
+                    padding-y: 30
               -
                 type: blockquote
                 content:
@@ -2874,18 +2853,16 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -2914,7 +2891,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '40'
+                    padding-y: 40
               -
                 type: paragraph
               -
@@ -3013,16 +2990,16 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656945908
+updated_at: 1663411356
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3030,14 +3007,11 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 meta_title: 'Seminararbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Mustervorlage für Ihre Seminararbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – diskret und geprüft auf Qualität & Plagiate.'
 og_title: 'Seminararbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Mustervorlage für Ihre Seminararbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-arbeitsgruppe: a_studienarbeiten
 schema_objects: |-
   <script type="application/ld+json">
   {
@@ -3076,4 +3050,5 @@ schema_objects: |-
   </script>
 sitemap_active: true
 alternative_page_title: 'Seminararbeit schreiben lassen'
+published: true
 ---
