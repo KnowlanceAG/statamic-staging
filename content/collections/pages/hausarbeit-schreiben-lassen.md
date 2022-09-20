@@ -1841,8 +1841,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1662371239
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1663672956
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -1851,7 +1851,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 meta_title: 'Hausarbeit schreiben lassen | Ghostwriter von GWriters'
-meta_description: 'Du musst eine Hausarbeit schreiben und benötigst ein Muster oder eine Vorlage? → Unsere Ghostwriter erstellen deine Mustervorlage'
+meta_description: 'Hausarbeit schreiben lassen – Hilfe und Mustervorlagen vom akademischen Ghostwriter ✔️ schnell, diskret und geprüft auf Qualität & Plagiate'
 og_title: 'Hausarbeit schreiben lassen • Ghostwriter von GWriters'
 og_description: 'Mustervorlage für Hausarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
