@@ -1,14 +1,14 @@
 ---
 id: 187a34b8-50c6-461c-9541-50110d1d7c7b
 blueprint: pages
-title: 'Facharbeit Beispiel: Schutz von LGBTIQ*-Menschen (Dupliziert)'
-page_title: 'Facharbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
+title: 'Bachelorarbeit Beispiel: Biografiearbeit und pädagogische Professionalität'
+page_title: 'Bachelorarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662063512
-meta_title: 'Facharbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
-meta_description: 'Nutzen Sie dieses Facharbeit Beispiel als Orientierung und überzeugen Sie sich von dem Qualifikationen unserer akademischen Ghostwriter.'
+updated_at: 1663770017
+meta_title: 'Bachelorarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
+meta_description: 'Nutzen Sie dieses Bachelorarbeit Beispiel als Orientierung und überzeugen Sie sich von den Qualifikationen unserer akademischen Ghostwriter.'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -25,19 +25,7 @@ replicator:
         content:
           -
             type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: 'Facharbeit Beispiel: Schutz von LGBTIQ*-Menschen'
+            text: 'Bachelorarbeit Beispiel: Biografiearbeit und pädagogische Professionalität'
       -
         type: paragraph
         content:
@@ -350,8 +338,9 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-og_title: 'Facharbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
-og_description: 'Nutzen Sie dieses Facharbeit Beispiel als Orientierung und überzeugen Sie sich von dem Qualifikationen unserer akademischen Ghostwriter.'
+og_title: 'Bachelorarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
+og_description: 'Nutzen Sie dieses Bachelorarbeit Beispiel als Orientierung und überzeugen Sie sich von den Qualifikationen unserer akademischen Ghostwriter.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---
