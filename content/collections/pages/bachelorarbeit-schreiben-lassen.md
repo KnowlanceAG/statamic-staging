@@ -602,6 +602,8 @@ replicator:
                     ex_button_text: 'KOSTENLOS HERUNTERLADEN'
                     ex_color: '#FF6606'
                     ex_spacing_top: false
+                    ex_fachbereich:
+                      - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
             show_as_card: false
         type: row
         enabled: true
@@ -2878,7 +2880,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1663772758
+updated_at: 1663772854
 template: default
 use_meta_keywords: false
 no_index_page: false
