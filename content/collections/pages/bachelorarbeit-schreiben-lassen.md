@@ -552,6 +552,70 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns_replicator:
+      -
+        single_col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Beispiel Bachelorarbeit von unseren Ghostwritern'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Laden Sie sich unser Beispiel für eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Ghostwriter-Bachelorarbeit jetzt kostenlos herunter'
+                  -
+                    type: text
+                    text: '. Diese Mustervorlage wurde von einem unserer kompetentesten Ghostwriter verfasst, sodass Sie sich einen Eindruck von unseren Qualifikationen und Qualitätsstandards machen können. So wissen Sie von Anfang an, was Sie erwartet, wenn Sie sich für den ausgezeichneten Service von GWriters entscheiden.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/deckblatt-bachelorarbeit-biografiearbeit.jpg
+                    ex_title: 'Biografiearbeit und pädagogische Professionalität'
+                    ex_type: Bachelorarbeit
+                    ex_pages: '31'
+                    ex_zitation: APA-Style
+                    ex_button_link: /assets/downloads/ghostwriting-beispielarbeiten/bachelorarbeit-beispiel-biografiearbeit.pdf
+                    ex_button_text: 'KOSTENLOS HERUNTERLADEN'
+                    ex_color: '#FF6606'
+                    ex_spacing_top: false
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns_replicator:
       -
         single_col: true
         grid:
@@ -2814,7 +2878,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662476752
+updated_at: 1663772758
 template: default
 use_meta_keywords: false
 no_index_page: false
