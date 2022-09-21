@@ -82,7 +82,7 @@ teaser:
 teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1663772144
+updated_at: 1663772869
 replicator:
   -
     bard:
@@ -606,6 +606,8 @@ replicator:
             ex_img_right: true
             ex_image: seiten/deckblatt-bachelorarbeit-biografiearbeit.jpg
             ex_title: 'Biografiearbeit und pädagogische Professionalität'
+            ex_fachbereich:
+              - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
             ex_type: Bachelorarbeit
             ex_pages: '31'
             ex_zitation: APA-Style
