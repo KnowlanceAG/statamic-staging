@@ -110,6 +110,8 @@ sections:
           type: text
           icon: text
           listable: hidden
+          instructions_position: above
+          visibility: hidden
       -
         handle: req_ip
         field:
@@ -120,3 +122,5 @@ sections:
           icon: text
           instructions: 'Request IP'
           listable: hidden
+          instructions_position: above
+          visibility: hidden
