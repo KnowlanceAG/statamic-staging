@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
   -
@@ -134,21 +134,17 @@ page_title: 'Jura Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656946973
+updated_at: 1663673087
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -168,19 +164,16 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_color: '#F9F9F9'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -236,9 +229,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -259,6 +252,8 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: true
@@ -270,8 +265,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -311,18 +304,16 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -392,19 +383,18 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#F9F9F9'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -524,18 +514,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -605,9 +594,8 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -626,19 +614,18 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#F9F9F9'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -781,18 +768,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -936,7 +922,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
+                    padding-y: 30
               -
                 type: paragraph
               -
@@ -950,19 +936,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#F9F9F9'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -1473,18 +1457,16 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -1494,7 +1476,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
+                    padding-y: 30
               -
                 type: heading
                 attrs:
@@ -1538,19 +1520,19 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
     is_full: true
     bg_toggle: false
     bg_color: '#D6D6D6'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -1572,7 +1554,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '12'
+                    padding-y: 12
               -
                 type: paragraph
                 content:
@@ -1599,15 +1581,14 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '2'
+                    padding-y: 2
               -
                 type: paragraph
             show_as_card: true
         type: row
         enabled: true
+        responsive_columns: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -1617,25 +1598,24 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
+                    padding-y: 30
               -
                 type: paragraph
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
     is_full: true
     bg_toggle: false
     bg_color: '#D6D6D6'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -1773,7 +1753,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: 15
               -
                 type: paragraph
                 content:
@@ -1816,18 +1796,16 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -1851,19 +1829,18 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
     is_full: true
     bg_toggle: false
     bg_color: '#F9F9F9'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -1906,18 +1883,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -1963,7 +1939,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '50'
+                    padding-y: 50
             show_as_card: true
           -
             bard:
@@ -1999,10 +1975,10 @@ replicator:
             show_as_card: true
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -2010,8 +1986,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -2039,18 +2013,16 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -2082,7 +2054,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '40'
+                    padding-y: 40
               -
                 type: paragraph
               -
@@ -2242,25 +2214,25 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '40'
+                    padding-y: 40
               -
                 type: paragraph
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
 meta_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Jura – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+meta_description: 'Jura Ghostwriter – Hilfe durch akademische Experten aus dem Fachbereich Jura ✔️ schnell, diskret und mehrfach geprüft auf Qualität & Plagiate!'
 og_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der Jura – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-fachrichtungsgruppe: g_geisteswissenschaften
 sitemap_active: true
 alternative_page_title: 'Jura Ghostwriter'
+published: true
 ---

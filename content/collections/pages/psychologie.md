@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -132,20 +132,17 @@ page_title: 'Psychologie Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658324599
+updated_at: 1663673273
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -444,10 +441,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
         single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         grid:
           -
             bard:
@@ -649,11 +647,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
         single_col: false
+        responsive_columns: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: true
@@ -661,7 +657,6 @@ replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -699,11 +694,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
         single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: true
@@ -711,7 +705,6 @@ replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -1482,21 +1475,20 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
         single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
     border: false
 meta_title: 'Psychologie Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Psychologie – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+meta_description: 'Psychologie Ghostwriter – Hilfe durch akademische Experten aus der Psychologie ✔️ schnell, diskret und mehrfach geprüft auf Qualität & Plagiate!'
 og_title: 'Psychologie Ghostwriter, Lektoren & Coaches • GWriters'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der Psychologie – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-fachrichtungsgruppe: g_medizinische_fachrichtungen
 sitemap_active: true
 alternative_page_title: 'Ghostwriter Psychologie'
+published: true
 ---

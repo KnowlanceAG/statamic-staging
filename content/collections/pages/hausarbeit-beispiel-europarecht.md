@@ -6,7 +6,7 @@ page_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662063332
+updated_at: 1663771506
 meta_title: 'Beispiel-Hausarbeit - Wie schreibt ein Jura Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Jura-Hausarbeit Musters von der Qualität unserer Ghostwriting Services.'
 use_meta_keywords: false
@@ -85,7 +85,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: ' möchten, benötigen diese Unterstützung, da diese sich überfordert fühlen. Schließlich stell die erste wissenschaftliche Arbeit im Studium eine große Herausforderung da. Die folgende englische Hausarbeit wurde als Beispiel und Handreichung für Sie von einem unserer erfahrenen Jura '
+            text: ' möchten, fühlen sich überfordert und benötigen daher Unterstützung. Schließlich stellt die erste wissenschaftliche Arbeit im Studium eine große Herausforderung dar. Die folgende englische Hausarbeit wurde als Beispiel und Handreichung für Sie von einem unserer erfahrenen Jura '
           -
             type: text
             marks:

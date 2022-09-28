@@ -135,16 +135,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriting zeichnet sich weiterhin durch die '
+                    text: 'Der rechtliche Hintergrund des Ghostwritings ist auch klar geregelt, oft durch einen individualisierten Werkvertrag. Darin festgehalten ist die '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Abgabe aller Urheber- und Nutzungsrechte des ursprünglichen Autors an den Kunden'
+                    text: 'Abgabe aller Urheber- und Nutzungsrechte. '
                   -
                     type: text
-                    text: " aus. Der Text wird also im engen Dialog mit dem Kunden erstellt. Der Text wird dabei zum Eigentum des Kunden, obwohl dieser nicht selbst tätig war. Der ursprüngliche Autor bleibt unbekannt. Der Text entstand also wie von Geisterhand – von einem\_Ghostwriter. Die\_Geschichte\_des Ghostwriting reicht vermutlich so lang zurück, wie es Reden, Schriften oder Gesänge gibt, ein genaues Datum an dem der erste Ghostwriter entdeckt wurde, ist jedoch nicht bekannt. Heute ist das Phänomen Ghostwriting zwar in vielen verschiedenen Lebensbereichen zu Hause, bleibt für die breite Gesellschaft allerdings eher eine Randerscheinung. Diese Tatsache ergibt sich aus der Natur des Ghostwriting selbst, da meist nicht bekannt ist welcher Ghostwriter ein Dokument verfasst hat, bzw. dass überhaupt ein Ghostwriter am Werk war."
+                    text: "Diese werden von dem ursprünglichen Autoren an den Kunden übertragen. Der Text wird also im engen Dialog mit dem Kunden erstellt. Der Text wird dabei zum Eigentum des Kunden, obwohl dieser nicht selbst tätig war. Der ursprüngliche Autor bleibt unbekannt. Der Text entstand also wie von Geisterhand – von einem\_Ghostwriter. Die\_Geschichte\_des Ghostwriting reicht vermutlich so lang zurück, wie es Reden, Schriften oder Gesänge gibt, ein genaues Datum an dem der erste Ghostwriter entdeckt wurde, ist jedoch nicht bekannt. Heute ist das Phänomen Ghostwriting zwar in vielen verschiedenen Lebensbereichen zu Hause, bleibt für die breite Gesellschaft allerdings eher eine Randerscheinung. Diese Tatsache ergibt sich aus der Natur des Ghostwriting selbst, da meist nicht bekannt ist welcher Ghostwriter ein Dokument verfasst hat, bzw. dass überhaupt ein Ghostwriter am Werk war."
               -
                 type: heading
                 attrs:
@@ -908,7 +908,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1660651593
+updated_at: 1663680865
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret!'
 meta_description: 'Ghostwriting - Akademische Ghostwriter schreiben & Sie erhalten alle Nutzungsrechte ✔️ professionelle Hilfe ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false

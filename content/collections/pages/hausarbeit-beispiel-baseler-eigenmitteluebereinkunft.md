@@ -6,7 +6,7 @@ page_title: 'VWL Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662063074
+updated_at: 1663771330
 meta_title: 'VWL Hausarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Hausarbeit Musters von unseren Qualitätsstandards und nutzen Sie diese als Orientierung. Erfahren Sie hier mehr.'
 use_meta_keywords: false
@@ -68,7 +68,7 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: ', nicht nur um die Expertise und das Fachwissen unserer Experten zu demonstrieren, sondern auch um anderen Nutzern zu helfen, beispielsweise eine Schreibblockade zu überwinden oder für die eigene Hausarbeit ein Beispiel zur Anregung zu haben, das zeigt, wie mit dem Argumentationsgang begonnen werden könnte.'
+            text: ', nicht nur um die Expertise und das Fachwissen unserer Experten zu demonstrieren, sondern auch, um anderen Nutzern zu helfen, beispielsweise eine Schreibblockade zu überwinden oder für die eigene Hausarbeit ein Beispiel zur Anregung zu haben, das zeigt, wie mit dem Argumentationsgang begonnen werden könnte.'
       -
         type: paragraph
         content:

@@ -88,7 +88,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Als "'
+            text: 'Unser '
           -
             type: text
             marks:
@@ -101,20 +101,7 @@ replicator:
             text: Ghostwriting
           -
             type: text
-            text: ' Service" (auch "'
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriter
-                  target: null
-                  rel: null
-            text: Ghostwriter
-          -
-            type: text
-            text: ' Service") bezeichnet man die Dienstleistung, die von einer Einzelperson, einem sogenannten Ghostwriter oder einer '
+            text: ' Service bietet Ihnen eine Vielzahl von attraktiven Vorteilen. Als '
           -
             type: text
             marks:
@@ -127,7 +114,20 @@ replicator:
             text: 'Ghostwriting Agentur'
           -
             type: text
-            text: ', welche verschiedene Ghostwriter beschäftigt, angeboten wird. Zum Ghostwriting Service gehören bei größeren Ghostwriting Agenturen auch das Korrektorat, also eine reine '
+            text: ' arbeiten wir mit Ghostwritern aus allen akademischen Fachbereichen, um einen hochqualitativen und vollumfänglichen '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  target: null
+                  rel: null
+            text: Ghostwriter
+          -
+            type: text
+            text: ' Service zu jeder erdenklichen Themenstellung bieten zu können. Zum Ghostwriting Service gehören bei uns sowie anderen seriösen Ghostwriting Agenturen auch das Korrektorat, also eine reine '
           -
             type: text
             marks:
@@ -436,7 +436,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1660651322
+updated_at: 1663681640
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false

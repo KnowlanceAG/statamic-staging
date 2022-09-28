@@ -6,9 +6,9 @@ page_title: 'Wirtschaftswissenschaften Masterarbeit Beispiel - Wie schreibt ein 
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662062778
+updated_at: 1663771609
 meta_title: 'Masterarbeit Beispiel - Wie schreibt ein akademischer Ghostwriter?'
-meta_description: 'Überzeugen Sie sich anhand dieses Masterarbeit Musters von unseren Qualitätsstandards und nutzen Sie diese als Orientierung. Erfahren Sie hier mehr.'
+meta_description: 'Überzeugen Sie sich anhand dieses Masterarbeit Musters von unseren Qualitätsstandards und nutzen Sie dieses als Orientierung. Erfahren Sie hier mehr.'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false

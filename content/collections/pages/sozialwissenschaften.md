@@ -39,7 +39,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -67,7 +67,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -82,7 +82,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -125,20 +125,17 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658325153
+updated_at: 1663774966
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -354,10 +351,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         grid:
           -
             bard:
@@ -559,19 +557,89 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+      -
+        single_col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Welche Aufgaben haben Sozialwissenschaften Ghostwriter?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Aufgaben eines Ghostwriters in den Sozialwissenschaften sind, Sie in Ihrem Studium zu begleiten oder auch ein Coaching zu zentralen Inhalten im Studium zu geben. Auch Lektorate oder Korrektorate kann ein Ghostwriter in den Sozialwissenschaften ausführen, aber auch die Erstellung von Mustervorlagen für Hausarbeiten, Bachelorarbeiten oder Masterarbeiten sind Themenstellungen, die einen Ghostwriter in den Sozialwissenschaften betreffen. Hierzu ist ein fachliches Know-How notwendig, aber auch entsprechende Kenntnisse in der englischen Sprache. Denn eine Vielzahl der Literatur aus dem angloamerikanischen Raum wird in den Sozialwissenschaften verwendet, da viele Studien englischsprachig geprägt sind. Gemeinsam mit dem vorhandenen Fach-Know-how bindet das das runde Paket des Wissens, das ein Ghostwriter in den Sozialwissenschaften mitbringen muss. Allerdings stellt der Fachbereich der Sozialwissenschaften Ghostwriter auch immer vor die Herausforderung, ihr Wissen permanent Up to Date zu halten und immer neue Forschungserkenntnisse aufzunehmen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
-    remove_spacing: true
+    remove_spacing: false
     border: false
   -
     columns_replicator:
       -
-        columns_per_row: 1
+        single_col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Beispiel Bachelorarbeit in Sozialwissenschaften'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die folgende Mustervorlage für eine Bachelorarbeit im Fachbereich der Sozialwissenschaften zum Thema "Biografiearbeit und pädagogische Professionalität" haben wir speziell für Sie erstellt. Überzeugen Sie sich daran von den Kompetenzen unserer Ghostwriter im Bereich Sozialwissenschaften und entscheiden Sie sich für unseren professionellen Service.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/deckblatt-bachelorarbeit-biografiearbeit.jpg
+                    ex_title: 'Biografiearbeit und pädagogische Professionalität'
+                    ex_type: Bachelorarbeit
+                    ex_pages: '31'
+                    ex_zitation: APA-Style
+                    ex_button_link: /assets/downloads/ghostwriting-beispielarbeiten/bachelorarbeit-beispiel-biografiearbeit.pdf
+                    ex_button_text: 'KOSTENLOS HERUNTERLADEN'
+                    ex_color: '#FF6606'
+                    ex_button_align: justify-start
+                    ex_spacing_top: false
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    columns_replicator:
+      -
         grid:
           -
             bard:
@@ -609,19 +677,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
-    remove_spacing: true
+    remove_spacing: false
     border: false
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -829,20 +895,6 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Welche Aufgaben haben Sozialwissenschaften Ghostwriter?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die Aufgaben eines Ghostwriters in den Sozialwissenschaften sind, Sie in Ihrem Studium zu begleiten oder auch ein Coaching zu zentralen Inhalten im Studium zu geben. Auch Lektorate oder Korrektorate kann ein Ghostwriter in den Sozialwissenschaften ausführen, aber auch die Erstellung von Mustervorlagen für Hausarbeiten, Bachelorarbeiten oder Masterarbeiten sind Themenstellungen, die einen Ghostwriter in den Sozialwissenschaften betreffen. Hierzu ist ein fachliches Know-How notwendig, aber auch entsprechende Kenntnisse in der englischen Sprache. Denn eine Vielzahl der Literatur aus dem angloamerikanischen Raum wird in den Sozialwissenschaften verwendet, da viele Studien englischsprachig geprägt sind. Gemeinsam mit dem vorhandenen Fach-Know-how bindet das das runde Paket des Wissens, das ein Ghostwriter in den Sozialwissenschaften mitbringen muss. Allerdings stellt der Fachbereich der Sozialwissenschaften Ghostwriter auch immer vor die Herausforderung, ihr Wissen permanent Up to Date zu halten und immer neue Forschungserkenntnisse aufzunehmen.'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
                     text: 'Studien-Aufbau Sozialwissenschaften'
               -
                 type: paragraph
@@ -924,27 +976,13 @@ replicator:
                   -
                     type: text
                     text: 'Akademische Ghostwriter im Bereich der Sozialwissenschaften bringen ein umfassendes Know-How in vielen verschiedenen Feldern und Disziplinen. Genau das zeichnet Ghostwriter aus und darum können Ghostwriter in den Sozialwissenschaften Sie unterstützen. Das ist gleichzeitig aber auch die große Herausforderung für einen Ghostwriter in den Sozialwissenschaften, denn er muss Sie ständig auf diesen vielen verschiedenen Gebieten mit seinem Wissen Up to Date halten, damit Sie als Student ideal davon profitieren können.'
-              -
-                type: horizontal_rule
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    spacing_top: false
-              -
-                type: horizontal_rule
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -954,7 +992,7 @@ meta_description: 'Sozialwissenschaften studieren? Abschluss und Unterstützung 
 og_title: 'GWriters • Sozialwissenschaften - Ghostwriter, Lektoren & Coaches'
 og_description: 'Sozialwissenschaften studieren? Abschluss und Unterstützung durch Experten und akademische Ghostwriter in Sozialwissenschaften✅🎓'
 og_image: GWriters-Logo.png
-fachrichtungsgruppe: g_sozialwissenschaften
 sitemap_active: true
 alternative_page_title: 'Sozialwissenschaften Ghostwriter'
+published: true
 ---

@@ -6,9 +6,9 @@ page_title: 'Disposition Jura Dissertation - Wie schreibt ein Jura Ghostwriter?'
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1661375784
+updated_at: 1663771583
 meta_title: 'Disposition Jura Dissertation - Wie schreibt ein Jura Ghostwriter?'
-meta_description: 'Überzeugen Sie sich anhand dieses Disposition für eine Jura Dissertation von der Qualität unserer Ghostwriting Services.'
+meta_description: 'Überzeugen Sie sich anhand dieser Disposition für eine Jura Dissertation von der Qualität unserer Ghostwriting Services.'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
