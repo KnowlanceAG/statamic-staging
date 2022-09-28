@@ -8,6 +8,14 @@
   <meta http-equiv="content-language" content="{{ site:locale replace="_|-" lower="true" }}">
   {{ if current_template == 'errors/404' || current_uri | contains:blog/page || current_uri | ends_with:/blog }}
     <meta name="robots" content="noindex, follow">
+    {{ else }}
+      {{ if no_index_page }}
+        {{ if no_follow_links }}
+          <meta name="robots" content="noindex, nofollow">
+          {{ else }}
+          <meta name="robots" content="noindex, follow">
+        {{ /if }}
+      {{ /if }}
   {{ /if }}
 
   <link rel="alternate" hreflang="de-de" href="https://gwriters.de{{ current_uri }}" />

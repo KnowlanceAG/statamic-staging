@@ -19,7 +19,7 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
       </div>
     {{ /fields }}
 
-    {{ if form.handle == 'anfrage'}}
+    {{ if form.handle == 'anfrage' && slug !== 'anfrage-1' }}
       <!-- Topic data -->
       <div class="flex flex-col md:col-span-12">
         <h3 class="mt-0">IHR PROJEKT</h3>
@@ -60,7 +60,17 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
 
       <!-- Promocode -->
       {{ fields where="handle:promocode" }}
-        {{ partial:content/form_element }}
+        <div class="flex space-y-4 md:col-span-12">
+          <div class="flex items-center">
+            <button type="button" id="promobutton" class="bg-gray-300 relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2" role="switch" aria-checked="false" aria-labelledby="annual-billing-label">
+              <span aria-hidden="true" class="translate-x-0 pointer-events-none inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out"></span>
+            </button>
+            <span class="ml-3 text-sm text-gray-600">
+              Ich habe einen Promocode
+            </span>
+          </div>
+        </div>
+        {{ partial:content/form_element cls="hidden"}}
       {{ /fields }}
 
       {{ else }}
@@ -156,6 +166,26 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
   </div>
 {{ /form:create }}
 <script>
+  const promobutton = document.querySelector('#promobutton')
+
+  const enablePromocode = () => {
+    const promocode = document.querySelector('#promocode')
+    if (promocode) {
+      promocode.classList.toggle('hidden')
+    }
+    promobutton.classList.toggle('bg-gray-200')
+    promobutton.classList.toggle('bg-orange-500')
+    const knob = promobutton.querySelector('span')
+    if (knob) {
+      knob.classList.toggle('translate-x-0')
+      knob.classList.toggle('translate-x-5')
+    }
+  }
+
+  if (promobutton) {
+    promobutton.addEventListener('click', enablePromocode)
+  }
+
   const actionUrl =
     "{{ config:cpssg:dynamic_site_url }}/!/forms/{{ form:handle }}"
   const tokenRoute = '/!/DynamicToken/refresh'
