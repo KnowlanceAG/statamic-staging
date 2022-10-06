@@ -456,6 +456,12 @@ replicator:
                           - 9944d809-005e-4651-bf9b-5555f0229245
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
                 type: horizontal_rule
               -
                 type: set
@@ -481,7 +487,7 @@ replicator:
   -
     columns_replicator:
       -
-        single_col: false
+        single_col: true
         grid:
           -
             bard:
@@ -1057,7 +1063,7 @@ replicator:
     type: add_section
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665060449
+updated_at: 1665060531
 template: default
 use_meta_keywords: false
 no_index_page: false
