@@ -209,23 +209,6 @@ replicator:
                   -
                     type: text
                     text: 'Allgemeine Kenntnisse, die für die Erstellung einer Diplomarbeit notwendig sind, werden von Fachhochschulen und Universitäten nicht ausreichend vermittelt. Die Beantwortung der Frage "Wie schreibe ich eine Diplomarbeit?" stellt sich als problematischer Prozess dar, zumal der Student einzuhaltende Formalismen der Diplomarbeit und Beispiele auf den meist schlecht gebauten Internetpräsenzen der Hochschule langwierig suchen muss. Es ist also oftmals mehr Hilfe notwendig als eine reine Textkorrektur.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -234,8 +217,6 @@ replicator:
                   -
                     type: text
                     text: 'Unsere Leistungen:'
-                  -
-                    type: hard_break
             show_as_card: false
         type: row
         enabled: true
@@ -474,6 +455,19 @@ replicator:
                           - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
                           - 9944d809-005e-4651-bf9b-5555f0229245
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: /anfrage
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    spacing_top: false
+              -
+                type: horizontal_rule
             show_as_card: false
         type: row
         enabled: true
@@ -482,589 +476,588 @@ replicator:
     is_full: false
     type: add_section
     enabled: true
-    remove_spacing: true
+    remove_spacing: false
     border: false
   -
-    bard:
+    columns_replicator:
       -
-        type: horizontal_rule
-      -
-        type: set
-        attrs:
-          values:
-            type: button
-            button_link: /anfrage
-            button_text: 'JETZT KOSTENLOS ANFRAGEN'
-            color: '#FF6606'
-            spacing_top: false
-      -
-        type: horizontal_rule
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
+        single_col: false
+        grid:
           -
-            type: text
-            text: 'Zur Diplomarbeit'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Die '
-          -
-            type: text
-            marks:
+            bard:
               -
-                type: bold
-            text: Diplomarbeit
-          -
-            type: text
-            text: ' stellt in Deutschland die Abschlussarbeit eines Diplomstudiengangs an einer Hochschule dar, welche allerdings derzeit im Zuge des Bologna-Prozesses durch die sogenannten Bachelor- und Masterstudiengänge ersetzt wird. Demnach wird von den Hochschulen gegenwärtig nicht mehr erwartet, dass sie von ihren Studenten eine Diplomarbeit schreiben lassen. Vielmehr setzt sich im Zuge dieser Reform durch, dass Lehrinstitute von Studenten eine '
-          -
-            type: text
-            marks:
-              -
-                type: link
+                type: heading
                 attrs:
-                  href: /arbeiten/masterarbeit-schreiben-lassen
-                  target: null
-                  rel: null
-            text: Masterarbeit
-          -
-            type: text
-            text: ' oder '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /arbeiten/bachelorarbeit-schreiben-lassen
-                  target: null
-                  rel: null
-            text: 'Bachelorarbeit schreiben lassen'
-          -
-            type: text
-            text: '. Durch diese Arbeiten soll geprüft werden, ob der Student in der Lage ist, zu einer definierten Fragestellung zu forschen bzw. zu recherchieren und eine ordnungsgemäße wissenschaftliche Arbeit zu schreiben.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Unterstützung verschaffen sich einige Studenten durch universitäre Hilfskurse für wissenschaftliches Arbeiten oder für die '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/literaturrecherche-datenbanken-quellen
-                  target: null
-                  rel: null
-            text: Literaturrecherche
-          -
-            type: text
-            text: '. Außerdem unterstützen wissenschaftliche Coaches bei der Bearbeitung der Diplomarbeit sowie ein Lektor oder Korrektor, welcher sie gründlich überarbeitet. Einige von diesen Studenten lassen '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Ghostwriter Diplomarbeiten'
-          -
-            type: text
-            text: ' in Form von Mustervorlagen schreiben. Die '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting
-                  target: null
-                  rel: null
-            text: Ghostwriting
-          -
-            type: text
-            text: '-Diplomarbeit sollte jedoch lediglich als Orientierungs- bzw. Schreibhilfe genutzt werden.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Wie schreibt man eine Diplomarbeit?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Die Themenwahl der Diplomarbeit erfolgt in der Regel durch den Studenten. Es kann aber auch sein, dass ein Thema vom jeweiligen Lehrstuhl vorgegeben wird. Die Ausarbeitung des Themas ist im Allgemeinen auf 6 Monate festgelegt und beträgt mit Exposé der Diplomarbeit 80-120 Seiten. Hat der Diplomand seine Diplomarbeit beim zuständigen Prüfungsamt angemeldet, muss er diese dann in der gegebenen Frist abgeben. Oft leistet ein Hochschullehrer durch Betreuung Hilfe bei der Diplomarbeit, sei es bei der Themenfindung oder Korrekturlesen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Diese Leistungen sind jedoch oft beschränkt, da es einem Dozenten durch die hohe Anzahl an Studenten nicht möglich ist, jeden umfassend zu unterstützen. Für die Bearbeitung gibt es keine generellen Richtlinien, da diese von Bundesland zu Bundesland und selbst von Hochschule zu Hochschule voneinander abweichen. In manchen Fällen wird eine Beispielarbeit von der Hochschule oder Universität veröffentlicht. Wenn diese Unterstützung nicht vorhanden ist, lassen einige Studenten Ghostwriter eine Diplomarbeit schreiben, die sie als Muster und Orientierungshilfe nutzen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Trotz der unterschiedlichen Anforderungen haben sich einige Formalien zur Diplomarbeit als gängig erwiesen:'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Gliederung der Diplomarbeit:'
-      -
-        type: bullet_list
-        content:
-          -
-            type: list_item
-            content:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Zur Diplomarbeit'
               -
                 type: paragraph
                 content:
                   -
                     type: text
+                    text: 'Die '
+                  -
+                    type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                        type: bold
+                    text: Diplomarbeit
+                  -
+                    type: text
+                    text: ' stellt in Deutschland die Abschlussarbeit eines Diplomstudiengangs an einer Hochschule dar, welche allerdings derzeit im Zuge des Bologna-Prozesses durch die sogenannten Bachelor- und Masterstudiengänge ersetzt wird. Demnach wird von den Hochschulen gegenwärtig nicht mehr erwartet, dass sie von ihren Studenten eine Diplomarbeit schreiben lassen. Vielmehr setzt sich im Zuge dieser Reform durch, dass Lehrinstitute von Studenten eine '
+                  -
+                    type: text
+                    marks:
                       -
                         type: link
                         attrs:
-                          href: /gwriters-akademie/deckblatt-vorlage
+                          href: /arbeiten/masterarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: Deckblatt
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
+                    text: Masterarbeit
+                  -
+                    type: text
+                    text: ' oder '
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /blog/bachelorarbeit-abstract
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: Abstract
-          -
-            type: list_item
-            content:
+                    text: 'Bachelorarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '. Durch diese Arbeiten soll geprüft werden, ob der Student in der Lage ist, zu einer definierten Fragestellung zu forschen bzw. zu recherchieren und eine ordnungsgemäße wissenschaftliche Arbeit zu schreiben.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Vorwort
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
+                    text: 'Unterstützung verschaffen sich einige Studenten durch universitäre Hilfskurse für wissenschaftliches Arbeiten oder für die '
                   -
                     type: text
                     marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /gwriters-akademie/inhaltsverzeichnis-vorlage
+                          href: /blog/literaturrecherche-datenbanken-quellen
                           target: null
                           rel: null
-                    text: 'Inhaltsverzeichnis Doktorarbeit (Kapitel, Unterkapitel)'
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
+                    text: Literaturrecherche
+                  -
+                    type: text
+                    text: '. Außerdem unterstützen wissenschaftliche Coaches bei der Bearbeitung der Diplomarbeit sowie ein Lektor oder Korrektor, welcher sie gründlich überarbeitet. Einige von diesen Studenten lassen '
                   -
                     type: text
                     marks:
                       -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                        type: bold
+                    text: 'Ghostwriter Diplomarbeiten'
+                  -
+                    type: text
+                    text: ' in Form von Mustervorlagen schreiben. Die '
+                  -
+                    type: text
+                    marks:
                       -
                         type: link
                         attrs:
-                          href: /gwriters-akademie/abbildungsverzeichnis
+                          href: /ghostwriting
                           target: null
                           rel: null
-                    text: Abbildungs
+                    text: Ghostwriting
                   -
                     type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: '- und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /gwriters-akademie/tabellenverzeichnis-beispiel
-                          target: null
-                          rel: null
-                    text: Tabellenverzeichnis
-          -
-            type: list_item
-            content:
+                    text: '-Diplomarbeit sollte jedoch lediglich als Orientierungs- bzw. Schreibhilfe genutzt werden.'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /gwriters-akademie/abkuerzungsverzeichnis
-                          target: null
-                          rel: null
-                    text: Abkürzungsverzeichnis
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/bachelorarbeit-einleitung
-                          target: null
-                          rel: null
-                    text: Einleitung
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Hauptteil
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Schlussteil/Fazit
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /gwriters-akademie/literaturverzeichnis-beispiel
-                          target: null
-                          rel: null
-                    text: Literaturverzeichnis
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /gwriters-akademie/anhangsverzeichnis
-                          target: null
-                          rel: null
-                    text: Anhang
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /gwriters-akademie/eidesstattliche-erklaerung-muster
-                          target: null
-                          rel: null
-                    text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Formatierung der Diplomarbeit'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Seitenrand: oben 2,5cm, unten 2cm, links 3cm, rechts 2cm'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Seitenzahlen: unten zentriert/ oben rechts, auf Deckblatt/Inhaltsverzeichnis keine Seitenzahl'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Schriftgröße und –Art im Fließtext: 12 Pt Arial oder Times New Roman, Blocksatz'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Zeilenabstand: 1,5-zeilig'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand'
-          -
-            type: hard_break
-          -
-            type: text
-            text: '• Fußnotentext: 10 Pt Blocksatz, 1,0-zeilig, Fußnoten werden hoch gestellt'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: Disclaimer
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Einige unserer Blogartikel zum Thema Diplomarbeit & Mustervorlage für Diplomarbeit schreiben lassen'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
+                type: heading
                 attrs:
-                  href: /blog/aufbau-wissenschaftliche-arbeit
-                  target: _blank
-                  rel: 'noopener noreferrer'
-            text: 'Video: Gliederung einer wissenschaftlichen Arbeit – Wie man sie schreibt & was es zu beachten gilt'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wie schreibt man eine Diplomarbeit?'
               -
-                type: link
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Themenwahl der Diplomarbeit erfolgt in der Regel durch den Studenten. Es kann aber auch sein, dass ein Thema vom jeweiligen Lehrstuhl vorgegeben wird. Die Ausarbeitung des Themas ist im Allgemeinen auf 6 Monate festgelegt und beträgt mit Exposé der Diplomarbeit 80-120 Seiten. Hat der Diplomand seine Diplomarbeit beim zuständigen Prüfungsamt angemeldet, muss er diese dann in der gegebenen Frist abgeben. Oft leistet ein Hochschullehrer durch Betreuung Hilfe bei der Diplomarbeit, sei es bei der Themenfindung oder Korrekturlesen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Diese Leistungen sind jedoch oft beschränkt, da es einem Dozenten durch die hohe Anzahl an Studenten nicht möglich ist, jeden umfassend zu unterstützen. Für die Bearbeitung gibt es keine generellen Richtlinien, da diese von Bundesland zu Bundesland und selbst von Hochschule zu Hochschule voneinander abweichen. In manchen Fällen wird eine Beispielarbeit von der Hochschule oder Universität veröffentlicht. Wenn diese Unterstützung nicht vorhanden ist, lassen einige Studenten Ghostwriter eine Diplomarbeit schreiben, die sie als Muster und Orientierungshilfe nutzen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Trotz der unterschiedlichen Anforderungen haben sich einige Formalien zur Diplomarbeit als gängig erwiesen:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Gliederung der Diplomarbeit:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/deckblatt-vorlage
+                                  target: null
+                                  rel: null
+                            text: Deckblatt
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/bachelorarbeit-abstract
+                                  target: null
+                                  rel: null
+                            text: Abstract
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: Vorwort
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/inhaltsverzeichnis-vorlage
+                                  target: null
+                                  rel: null
+                            text: 'Inhaltsverzeichnis Doktorarbeit (Kapitel, Unterkapitel)'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/abbildungsverzeichnis
+                                  target: null
+                                  rel: null
+                            text: Abbildungs
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: '- und '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/tabellenverzeichnis-beispiel
+                                  target: null
+                                  rel: null
+                            text: Tabellenverzeichnis
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/abkuerzungsverzeichnis
+                                  target: null
+                                  rel: null
+                            text: Abkürzungsverzeichnis
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/bachelorarbeit-einleitung
+                                  target: null
+                                  rel: null
+                            text: Einleitung
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: Hauptteil
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: Schlussteil/Fazit
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/literaturverzeichnis-beispiel
+                                  target: null
+                                  rel: null
+                            text: Literaturverzeichnis
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/anhangsverzeichnis
+                                  target: null
+                                  rel: null
+                            text: Anhang
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/eidesstattliche-erklaerung-muster
+                                  target: null
+                                  rel: null
+                            text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Formatierung der Diplomarbeit'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Seitenrand: oben 2,5cm, unten 2cm, links 3cm, rechts 2cm'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Seitenzahlen: unten zentriert/ oben rechts, auf Deckblatt/Inhaltsverzeichnis keine Seitenzahl'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Schriftgröße und –Art im Fließtext: 12 Pt Arial oder Times New Roman, Blocksatz'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Zeilenabstand: 1,5-zeilig'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Fußnotentext: 10 Pt Blocksatz, 1,0-zeilig, Fußnoten werden hoch gestellt'
+              -
+                type: heading
                 attrs:
-                  href: /blog/ghostwriter-auftrag-tipps
-                  target: _blank
-                  rel: 'noopener noreferrer'
-            text: 'Video: Tipps für einen erfolgreichen Ghostwriter-Auftrag'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: Disclaimer
               -
-                type: link
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+              -
+                type: heading
                 attrs:
-                  href: /blog/ghostwriter-probleme
-                  target: _blank
-                  rel: 'noopener noreferrer'
-            text: 'Typische Probleme mit akademischen Ghostwritern & wie Du sie vermeiden kannst'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Einige unserer Blogartikel zum Thema Diplomarbeit & Mustervorlage für Diplomarbeit schreiben lassen'
               -
-                type: link
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/aufbau-wissenschaftliche-arbeit
+                          target: _blank
+                          rel: 'noopener noreferrer'
+                    text: 'Video: Gliederung einer wissenschaftlichen Arbeit – Wie man sie schreibt & was es zu beachten gilt'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/ghostwriter-auftrag-tipps
+                          target: _blank
+                          rel: 'noopener noreferrer'
+                    text: 'Video: Tipps für einen erfolgreichen Ghostwriter-Auftrag'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/ghostwriter-probleme
+                          target: _blank
+                          rel: 'noopener noreferrer'
+                    text: 'Typische Probleme mit akademischen Ghostwritern & wie Du sie vermeiden kannst'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/literaturrecherche-wissenschaftliche-quellen
+                          target: _blank
+                          rel: 'noopener noreferrer'
+                    text: 'Video: Literaturrecherche – wissenschaftliche Artikel einfach finden'
+              -
+                type: heading
                 attrs:
-                  href: /blog/literaturrecherche-wissenschaftliche-quellen
-                  target: _blank
-                  rel: 'noopener noreferrer'
-            text: 'Video: Literaturrecherche – wissenschaftliche Artikel einfach finden'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Weitere nützliche Links & Referenzen'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Weitere nützliche Links & Referenzen'
               -
-                type: link
-                attrs:
-                  href: 'http://www.cse.unsw.edu.au/~gernot/style-guide.html'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Tips and Guidance for Students Writing Papers and Reports - Gernot Heiser'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://www.cse.unsw.edu.au/~gernot/style-guide.html'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Tips and Guidance for Students Writing Papers and Reports - Gernot Heiser'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://tu-dresden.de/gsw/phil/iso/mes/ressourcen/dateien/prof/lehre/hauptseminar/Aufbau-von-Diplomarbeiten.pdf?lang=de'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Aufbau von / häufige Fehler bei Diplom- & Magisterarbeiten - TU Dresden'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://www.ruhr-uni-bochum.de/imperia/md/content/asib/ws08_09/formatierungsvorgaben.pdf'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Hilfestellungen zur Formatierung der Diplomarbeit/Masterarbeit - Ruhr Universität Bochum'
               -
-                type: link
-                attrs:
-                  href: 'https://tu-dresden.de/gsw/phil/iso/mes/ressourcen/dateien/prof/lehre/hauptseminar/Aufbau-von-Diplomarbeiten.pdf?lang=de'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Aufbau von / häufige Fehler bei Diplom- & Magisterarbeiten - TU Dresden'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: 'http://www.ruhr-uni-bochum.de/imperia/md/content/asib/ws08_09/formatierungsvorgaben.pdf'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Hilfestellungen zur Formatierung der Diplomarbeit/Masterarbeit - Ruhr Universität Bochum'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
-    type: editor
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /wiki
+                          target: null
+                          rel: null
+                    text: '< zurück zur Wiki Übersicht'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
     enabled: true
-    show_as_card: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665060301
+updated_at: 1665060449
 template: default
 use_meta_keywords: false
 no_index_page: false
