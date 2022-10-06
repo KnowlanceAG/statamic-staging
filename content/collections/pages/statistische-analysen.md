@@ -41,7 +41,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -69,7 +69,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -84,137 +84,131 @@ teaser:
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
-    bard:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Statistische Analysen gehören zu den Spezialgebieten der Autoren von GWriters. Durch fundierte statistische und mathematische Kenntnisse können Ihnen unsere '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriter
-                  target: null
-                  rel: null
-            text: Ghostwriter
-          -
-            type: text
-            text: ' ein genaueste Auswertung von Zahlen- und Datenmaterial liefern.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Wenn Sie bei Ihrer statistischen Analyse Unterstützung benötigen, dann können Sie uns gerne sofort eine '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /anfrage
-                  target: null
-                  rel: null
-            text: 'unverbindliche Anfrage schicken'
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
-      -
-        type: set
-        attrs:
-          values:
-            type: show_sidebar_mobile
-            custom_sidebar_placement: 'on'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: 'Zweck von statistischen Analysen'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Statistische Analysen dienen dazu, quantitative Informationen und empirische Daten nach den Methoden der deskriptiven und induktiven Statistik auszuwerten, zu reduzieren und zu komprimieren. Bei der Analyse werden Gesetzmäßigkeiten in empirischen Daten sichtbar, die zu neuen Erkenntnissen und Schlussfolgerungen führen und prognostische Voraussagen für die Zukunft erlauben.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Bei der deskriptiven Statistik werden empirische Phänomene untersucht, in Daten zusammengefasst und sortiert und als Grafik präsentiert. Die induktive Statistik ist auf Schlussfolgerungen und Prognosen auf der Basis von Wahrscheinlichkeiten angelegt und kann die Ergebnisse der deduktiven Statistik zu ihrem Ausgangspunkt machen.'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: 'Konkurrenzfähigkeit durch statistische Analysen'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Im Zuge von Globalisierung und steigenden Konkurrenzdruck in Beruf- und Wirtschaftswelt wächst auch der Analysebedarf. Regelmäßige statistische Analysen helfen dem Einzelnen sowie den Unternehmen, mit ihrer jeweiligen Ware mittel- und langfristig attraktiv und konkurrenzfähig zu bleiben. Indem sie Auswertungen empirischer Daten nach den Methoden der Statistik vornehmen, können sie sich und ihre Waren aktuell, modern, innovativ und flexibel präsentieren.'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: 'Ghostwriting von statistischen Analysen'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Ohne statistische Analysen wächst auf dem Arbeitsmarkt das Risiko, mit seinem jeweiligen Produkt und Angebot nicht mehr konkurrenzfähig zu sein. Aber nicht immer haben Mitarbeiter in Führungspositionen neben den beruflichen Alltagsanforderungen noch Zeit, statistische Analysen selbst durchzuführen. Die Tendenz, statistisch Analysen von akademischen Ghostwritern erstellen und schreiben zu lassen, steigt deshalb.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Immer mehr Unternehmer erkennen die enorme Arbeitserleichterung, die das '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting
-                  target: null
-                  rel: null
-            text: Ghostwriting
-          -
-            type: text
-            text: ' mit sich bringt. Geschulte Ghostwriter analysieren professionell und anwendungsorientiert empirische Daten auch in großen Mengen und werten diese mit den gängigen Statistikprogrammen und der aktuellen Spezialsoftware schnell und zuverlässig aus. Bei Bedarf werden die Ergebnisse in der entsprechenden Wissenschaftssprache ausformuliert.'
-    type: editor
-    enabled: true
-    show_as_card: false
-  -
     columns_replicator:
       -
-        columns_per_row: 1
-        single_col: false
+        single_col: true
         grid:
           -
             bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Statistische Analysen gehören zu den Spezialgebieten der Autoren von GWriters. Durch fundierte statistische und mathematische Kenntnisse können Ihnen unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: ' ein genaueste Auswertung von Zahlen- und Datenmaterial liefern.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wenn Sie bei Ihrer statistischen Analyse Unterstützung benötigen, dann können Sie uns gerne sofort eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage schicken'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: show_sidebar_mobile
+                    custom_sidebar_placement: 'on'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Zweck von statistischen Analysen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Statistische Analysen dienen dazu, quantitative Informationen und empirische Daten nach den Methoden der deskriptiven und induktiven Statistik auszuwerten, zu reduzieren und zu komprimieren. Bei der Analyse werden Gesetzmäßigkeiten in empirischen Daten sichtbar, die zu neuen Erkenntnissen und Schlussfolgerungen führen und prognostische Voraussagen für die Zukunft erlauben.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei der deskriptiven Statistik werden empirische Phänomene untersucht, in Daten zusammengefasst und sortiert und als Grafik präsentiert. Die induktive Statistik ist auf Schlussfolgerungen und Prognosen auf der Basis von Wahrscheinlichkeiten angelegt und kann die Ergebnisse der deduktiven Statistik zu ihrem Ausgangspunkt machen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Konkurrenzfähigkeit durch statistische Analysen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im Zuge von Globalisierung und steigenden Konkurrenzdruck in Beruf- und Wirtschaftswelt wächst auch der Analysebedarf. Regelmäßige statistische Analysen helfen dem Einzelnen sowie den Unternehmen, mit ihrer jeweiligen Ware mittel- und langfristig attraktiv und konkurrenzfähig zu bleiben. Indem sie Auswertungen empirischer Daten nach den Methoden der Statistik vornehmen, können sie sich und ihre Waren aktuell, modern, innovativ und flexibel präsentieren.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriting von statistischen Analysen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ohne statistische Analysen wächst auf dem Arbeitsmarkt das Risiko, mit seinem jeweiligen Produkt und Angebot nicht mehr konkurrenzfähig zu sein. Aber nicht immer haben Mitarbeiter in Führungspositionen neben den beruflichen Alltagsanforderungen noch Zeit, statistische Analysen selbst durchzuführen. Die Tendenz, statistisch Analysen von akademischen Ghostwritern erstellen und schreiben zu lassen, steigt deshalb.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Immer mehr Unternehmer erkennen die enorme Arbeitserleichterung, die das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: ' mit sich bringt. Geschulte Ghostwriter analysieren professionell und anwendungsorientiert empirische Daten auch in großen Mengen und werten diese mit den gängigen Statistikprogrammen und der aktuellen Spezialsoftware schnell und zuverlässig aus. Bei Bedarf werden die Ergebnisse in der entsprechenden Wissenschaftssprache ausformuliert.'
               -
                 type: heading
                 attrs:
@@ -226,10 +220,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
-        single_col: false
+        columns_per_row: 3
+        single_col: true
         grid:
           -
             bard:
@@ -404,11 +399,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: false
+        single_col: true
         grid:
           -
             bard:
@@ -462,84 +455,105 @@ replicator:
                           - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
                           - 9944d809-005e-4651-bf9b-5555f0229245
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Einige unserer Blogartikel zu statistischen Analysen & Ghostwritinga'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/empirische-theoretische-bachelorarbeit
+                          target: null
+                          rel: null
+                    text: 'Wie wird eine empirische Analyse durchgeführt?'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/qualitative-quantitative-methoden
+                          target: null
+                          rel: null
+                    text: 'Video: Qualitative & quantitative Methoden beim Schreiben wissenschaftlicher Arbeiten'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/ghostwriter-auftrag-tipps
+                          target: null
+                          rel: null
+                    text: 'Video: Tipps für einen erfolgreichen Ghostwriter-Auftrag'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /wiki
+                          target: null
+                          rel: null
+                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
-    remove_spacing: true
+    remove_spacing: false
     border: false
-  -
-    bard:
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Einige unserer Blogartikel zu statistischen Analysen & Ghostwriting'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/empirische-theoretische-bachelorarbeit
-                  target: null
-                  rel: null
-            text: 'Wie wird eine empirische Analyse durchgeführt?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/qualitative-quantitative-methoden
-                  target: null
-                  rel: null
-            text: 'Video: Qualitative & quantitative Methoden beim Schreiben wissenschaftlicher Arbeiten'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/ghostwriter-auftrag-tipps
-                  target: null
-                  rel: null
-            text: 'Video: Tipps für einen erfolgreichen Ghostwriter-Auftrag'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
-    type: editor
-    enabled: true
-    show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658325777
+updated_at: 1665065040
 template: default
 meta_title: 'GWriters • Statistische Analyse durchführen lassen'
 meta_description: 'Statistische Analysen durchführen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität.'
@@ -549,12 +563,10 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'GWriters • Statistische Analyse durchführen lassen'
 og_description: 'Statistische Analysen durchführen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität.'
 og_image: GWriters-Logo.png
-arbeitsgruppe: a_sonstige_arbeiten
 sitemap_active: true
 alternative_page_title: 'Statistische Analyse durchführen lassen'
+published: true
 ---
