@@ -472,25 +472,15 @@ replicator:
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
                     color: '#FF6606'
                     spacing_top: false
+                    button_align: justify-center
               -
                 type: horizontal_rule
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    is_full: false
-    type: add_section
-    enabled: true
-    remove_spacing: false
-    border: false
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
               -
                 type: heading
                 attrs:
@@ -1057,13 +1047,13 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: false
     is_full: false
-    border: false
     type: add_section
     enabled: true
+    remove_spacing: false
+    border: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665060531
+updated_at: 1665060621
 template: default
 use_meta_keywords: false
 no_index_page: false
