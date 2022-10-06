@@ -41,7 +41,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -69,7 +69,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -84,7 +84,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -125,158 +125,104 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
-    grid:
+    columns_replicator:
       -
-        bard:
+        single_col: true
+        grid:
           -
-            type: paragraph
-            content:
+            bard:
               -
-                type: text
-                text: 'Ein akademischer Ghostwriter besitzt nicht nur umfassende wissenschaftliche Kenntnisse in seinem Fachbereich, sondern auch Erfahrungen im Umgang mit wissenschaftlichen Arbeiten. Aus diesem Grund kann er ohne langwidrige Einarbeitungsphasen zu jedem Zeitpunkt der Bearbeitung unterstützend eingreifen. Oft geschieht dies direkt zu Beginn, bei der eigentlichen Themenfindung, dem Aufbau einer Diplomarbeit, deren'
-              -
-                type: text
-                marks:
+                type: paragraph
+                content:
                   -
-                    type: link
-                    attrs:
-                      href: 'https://test.test'
-                      target: _blank
-                      rel: nofollow
-                text: Gliederung
+                    type: text
+                    text: 'Ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: 'akademischer Ghostwriter'
+                  -
+                    type: text
+                    text: ' besitzt nicht nur umfassende wissenschaftliche Kenntnisse in seinem Fachbereich, sondern auch Erfahrungen im Umgang mit wissenschaftlichen Arbeiten. Aus diesem Grund kann er ohne langwidrige Einarbeitungsphasen zu jedem Zeitpunkt der Bearbeitung unterstützend eingreifen. Oft geschieht dies direkt zu Beginn, bei der eigentlichen Themenfindung, dem Aufbau einer Diplomarbeit, deren Gliederung und Formatierung. Dies umfasst das typische Coaching einer Diplomarbeit, sowie deren Betreuung.'
               -
-                type: text
-                text: 'und Formatierung. Dies umfasst das typische Coaching einer Diplomarbeit, sowie deren Betreuung.'
-          -
-            type: paragraph
-            content:
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Es ist ebenso möglich, dass der Ghostwriter bei einer bereits begonnenen Arbeit Hilfe zur Diplomarbeit leistet. Zudem bietet er oftmals das Lektorat und die Korrektur der Diplomarbeit, die bereits durch den Studenten fertiggestellt wurde, an. Nachfolgend kann eine umfassende Plagiatsprüfung erfolgen, um vergessene Fußnoten oder andere Unstimmigkeiten zu vermeiden. Zudem ist es möglich, dass Studenten von akademischen Ghostwritern eine Mustervorlage für ihre Diplomarbeit schreiben lassen und diese Ghostwriter-Diplomarbeit als Vorlage für ihre eigene Arbeit nutzen.'
               -
-                type: text
-                text: "Es ist ebenso möglich, dass der Ghostwriter bei einer bereits begonnenen Arbeit Hilfe zur Diplomarbeit leistet. Zudem bietet er oftmals das\_Lektorat\_und die Korrektur der Diplomarbeit, die bereits durch den Studenten fertiggestellt wurde, an. Nachfolgend kann eine umfassende\_Plagiatsprüfung\_erfolgen, um vergessene Fußnoten oder andere Unstimmigkeiten zu vermeiden. Zudem ist es möglich, dass Studenten von akademischen Ghostwritern eine Mustervorlage für ihre Diplomarbeit schreiben lassen und diese\_Ghostwriter-Diplomarbeit als Vorlage für ihre eigene Arbeit nutzen."
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: "Wenn Sie bei Ihrer Diplomarbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine\_unverbindliche Anfrage schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt."
-              -
-                type: hard_break
-          -
-            type: heading
-            attrs:
-              level: 2
-            content:
-              -
-                type: text
-                text: 'Warum sollte man sich bei der Diplomarbeit helfen lassen?'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Die Bearbeitung der Diplomarbeit stellt einen wichtigen Schritt für den beruflichen Werdegang dar, da sie zumeist die letzte und finale Prüfung vor dem beruflichen Einstieg ist. Eine Diplomarbeit sollte daher höchsten Ansprüchen genügen und nicht nur einer Plagiatsprüfung standhalten. Die Bearbeitung ist allerdings sehr zeitintensiv und so fällt es einigen Studenten schwer, die Abgabefristen einzuhalten. Daher nehmen einige Diplomanden Hilfe zur Diplomarbeit in Anspruch. Die Bearbeitung einer wissenschaftlichen Arbeit dieses beachtlichen Umfangs wird im Studium oft nicht ausreichend geübt.'
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Allgemeine Kenntnisse, die für die Erstellung einer Diplomarbeit notwendig sind, werden von Fachhochschulen und Universitäten nicht ausreichend vermittelt. Die Beantwortung der Frage “Wie schreibe ich eine Diplomarbeit?” stellt sich als problematischer Prozess dar, zumal der Student einzuhaltende Formalismen der Diplomarbeit und Beispiele auf den meist schlecht gebauten Internetpräsenzen der Hochschule langwierig suchen muss. Es ist also oftmals mehr Hilfe notwendig als eine reine Textkorrektur.'
-    type: row
-    enabled: true
-  -
-    bard:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Ein '
-          -
-            type: text
-            marks:
-              -
-                type: link
+                type: set
                 attrs:
-                  href: /ghostwriter
-                  target: null
-                  rel: null
-            text: 'akademischer Ghostwriter'
-          -
-            type: text
-            text: ' besitzt nicht nur umfassende wissenschaftliche Kenntnisse in seinem Fachbereich, sondern auch Erfahrungen im Umgang mit wissenschaftlichen Arbeiten. Aus diesem Grund kann er ohne langwidrige Einarbeitungsphasen zu jedem Zeitpunkt der Bearbeitung unterstützend eingreifen. Oft geschieht dies direkt zu Beginn, bei der eigentlichen Themenfindung, dem Aufbau einer Diplomarbeit, deren Gliederung und Formatierung. Dies umfasst das typische Coaching einer Diplomarbeit, sowie deren Betreuung.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Es ist ebenso möglich, dass der Ghostwriter bei einer bereits begonnenen Arbeit Hilfe zur Diplomarbeit leistet. Zudem bietet er oftmals das Lektorat und die Korrektur der Diplomarbeit, die bereits durch den Studenten fertiggestellt wurde, an. Nachfolgend kann eine umfassende Plagiatsprüfung erfolgen, um vergessene Fußnoten oder andere Unstimmigkeiten zu vermeiden. Zudem ist es möglich, dass Studenten von akademischen Ghostwritern eine Mustervorlage für ihre Diplomarbeit schreiben lassen und diese Ghostwriter-Diplomarbeit als Vorlage für ihre eigene Arbeit nutzen.'
-      -
-        type: set
-        attrs:
-          values:
-            type: show_sidebar_mobile
-            custom_sidebar_placement: 'on'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
+                  values:
+                    type: show_sidebar_mobile
+                    custom_sidebar_placement: 'on'
               -
-                type: bold
-            text: 'Wenn Sie bei Ihrer Diplomarbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine '
-          -
-            type: text
-            marks:
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wenn Sie bei Ihrer Diplomarbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage schicken'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
               -
-                type: bold
-              -
-                type: link
+                type: heading
                 attrs:
-                  href: /anfrage
-                  target: null
-                  rel: null
-            text: 'unverbindliche Anfrage schicken'
-          -
-            type: text
-            marks:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Warum sollte man sich bei der Diplomarbeit helfen lassen?'
               -
-                type: bold
-            text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-          -
-            type: hard_break
-            marks:
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Bearbeitung der Diplomarbeit stellt einen wichtigen Schritt für den beruflichen Werdegang dar, da sie zumeist die letzte und finale Prüfung vor dem beruflichen Einstieg ist. Eine Diplomarbeit sollte daher höchsten Ansprüchen genügen und nicht nur einer Plagiatsprüfung standhalten. Die Bearbeitung ist allerdings sehr zeitintensiv und so fällt es einigen Studenten schwer, die Abgabefristen einzuhalten. Daher nehmen einige Diplomanden Hilfe zur Diplomarbeit in Anspruch. Die Bearbeitung einer wissenschaftlichen Arbeit dieses beachtlichen Umfangs wird im Studium oft nicht ausreichend geübt.'
               -
-                type: bold
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Warum sollte man sich bei der Diplomarbeit helfen lassen?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Die Bearbeitung der Diplomarbeit stellt einen wichtigen Schritt für den beruflichen Werdegang dar, da sie zumeist die letzte und finale Prüfung vor dem beruflichen Einstieg ist. Eine Diplomarbeit sollte daher höchsten Ansprüchen genügen und nicht nur einer Plagiatsprüfung standhalten. Die Bearbeitung ist allerdings sehr zeitintensiv und so fällt es einigen Studenten schwer, die Abgabefristen einzuhalten. Daher nehmen einige Diplomanden Hilfe zur Diplomarbeit in Anspruch. Die Bearbeitung einer wissenschaftlichen Arbeit dieses beachtlichen Umfangs wird im Studium oft nicht ausreichend geübt.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Allgemeine Kenntnisse, die für die Erstellung einer Diplomarbeit notwendig sind, werden von Fachhochschulen und Universitäten nicht ausreichend vermittelt. Die Beantwortung der Frage "Wie schreibe ich eine Diplomarbeit?" stellt sich als problematischer Prozess dar, zumal der Student einzuhaltende Formalismen der Diplomarbeit und Beispiele auf den meist schlecht gebauten Internetpräsenzen der Hochschule langwierig suchen muss. Es ist also oftmals mehr Hilfe notwendig als eine reine Textkorrektur.'
-    type: editor
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Allgemeine Kenntnisse, die für die Erstellung einer Diplomarbeit notwendig sind, werden von Fachhochschulen und Universitäten nicht ausreichend vermittelt. Die Beantwortung der Frage "Wie schreibe ich eine Diplomarbeit?" stellt sich als problematischer Prozess dar, zumal der Student einzuhaltende Formalismen der Diplomarbeit und Beispiele auf den meist schlecht gebauten Internetpräsenzen der Hochschule langwierig suchen muss. Es ist also oftmals mehr Hilfe notwendig als eine reine Textkorrektur.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
     enabled: true
-    show_as_card: false
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: false
+        single_col: true
         grid:
           -
             bard:
@@ -293,8 +239,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         single_col: true
         grid:
           -
@@ -470,11 +418,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: false
+        single_col: true
         grid:
           -
             bard:
@@ -531,9 +477,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: true
@@ -1118,7 +1064,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658325575
+updated_at: 1665060301
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -1126,14 +1072,12 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 meta_title: 'Diplomarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Diplomarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_title: 'Diplomarbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Diplomarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-arbeitsgruppe: a_abschlussarbeiten
 sitemap_active: true
 alternative_page_title: 'Diplomarbeit schreiben lassen'
+published: true
 ---
