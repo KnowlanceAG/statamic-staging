@@ -132,7 +132,7 @@ page_title: 'Wirtschaftswissenschaft Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665067554
+updated_at: 1665068640
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -355,12 +355,6 @@ replicator:
                         attrs:
                           align: start
                     text: ' beauftragt werden. So wird nicht nur der Student entlastet, sondern auch das qualitative Niveau der Arbeit gehoben und eine bestmögliche Benotung bewirkt.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: video
-                    video: 'https://youtu.be/hINsM8iQTow'
               -
                 type: heading
                 attrs:
@@ -620,19 +614,6 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-              -
-                type: set
-                attrs:
-                  values:
-                    type: link_liste
-                    raster:
-                      -
-                        text: Arbeiten
-                        eintraege:
-                          - 99cd8e42-b21c-4cea-a162-a9454db2375f
-                          - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
