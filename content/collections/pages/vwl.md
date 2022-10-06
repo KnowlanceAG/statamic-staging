@@ -132,7 +132,7 @@ page_title: 'VWL Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665069353
+updated_at: 1665069518
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -550,6 +550,32 @@ replicator:
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -656,6 +682,15 @@ replicator:
                           hex: '#000'
                     text: 'Geschichte der VWL'
               -
+                type: set
+                attrs:
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/vwl.jpeg
+                    img_size: w-1/4
+                    float: float-left
+              -
                 type: paragraph
                 content:
                   -
@@ -671,15 +706,6 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Die VWL sieht ihre Geschichte begründet im Merkantilismus, einer Sammlung von verschiedenen wirtschaftspolitischen Ideen und Konzepten aus dem 16. bis 18. Jahrhundert.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: floating_img
-                    dateien:
-                      - seiten/fachrichtungen/vwl.jpeg
-                    img_size: w-1/4
-                    float: float-left
               -
                 type: paragraph
                 content:
@@ -757,19 +783,6 @@ replicator:
                         attrs:
                           align: start
                     text: "\_beliebt. Nicht selten lassen Doktoranden einen VWL-Ghostwriter als Orientierungshilfe eine Mustervorlage erstellen. Diese nutzen sie dann, wenn sie ihre eigene Dissertation schreiben, um im Arbeitsprozess nicht hilflos zu sein."
-              -
-                type: horizontal_rule
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    spacing_top: false
-              -
-                type: horizontal_rule
               -
                 type: heading
                 attrs:
