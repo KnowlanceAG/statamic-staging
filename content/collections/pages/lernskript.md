@@ -454,6 +454,12 @@ replicator:
                           - 9944d809-005e-4651-bf9b-5555f0229245
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
                 type: paragraph
                 content:
                   -
@@ -476,11 +482,11 @@ replicator:
     is_full: false
     type: add_section
     enabled: true
-    remove_spacing: true
+    remove_spacing: false
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665064763
+updated_at: 1665064816
 template: default
 meta_title: 'Lernskript schreiben lassen • GWriters'
 meta_description: 'Lernskript schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
