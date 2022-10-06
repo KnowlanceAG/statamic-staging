@@ -41,7 +41,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -69,7 +69,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -82,137 +82,131 @@ teaser:
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
-    bard:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Neben vielen anderen Ausarbeitungen bieten Ihnen die Autoren von GWriters die Möglichkeit zu Ihrer individuellen Thematik ein Lernskript zu verfassen. Jede unverbindliche '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /anfrage
-                  target: null
-                  rel: null
-            text: Anfrage
-          -
-            type: text
-            text: ' wird innerhalb von 24 Stunden bearbeitet und Sie erhalten schnell ein individuelles Angebot, sodass einer gezielten Prüfungsvorbereitung mit Hilfe eines Lernskripts von GWriters nichts mehr im Weg steht.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Wenn Sie in Form eines Lernskripts Unterstützung benötigen, dann können Sie uns gerne sofort eine '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /anfrage
-                  target: null
-                  rel: null
-            text: 'unverbindliche Anfrage schicken'
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: '. Wir melden uns schnellstmöglich mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
-      -
-        type: set
-        attrs:
-          values:
-            type: show_sidebar_mobile
-            custom_sidebar_placement: 'on'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Was ist ein Lernskript?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Ein Lernskript subsummiert die wesentlichen Ergebnisse einer Vorlesung oder einer Recherche und dient dem konzentrierten Lernen von Studieninhalten für Prüfungen. Ideale Lernskripte weisen eine optimale Gliederung und Strukturierung auf, durch die der wesentliche Lernstoff möglichst schnell und umfassend erfasst und gelernt werden kann. Eingebrachte Fachtermini, Zitate, Quellen, Tabellen und Grafiken verstärken die Lerneffizienz.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Risiken und Nutzen von Lernskripten'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Besonders im universitären Bereich gehört der Umgang mit Lernskripten zum täglich Brot der prüfungsorientierten Studierenden. Wahlweise werden Lernskripte nur für den persönlichen Freundeskreis zugänglich gemacht, bisweilen auch über Downloads einer Vielzahl von Studierenden zur Verfügung gestellt. Im Bereich des Fernstudiums helfen Lernskripte, den versäumten oder rudimentär gelernten Lernstoff eigenständig und systematisch-strukturiert nach- bzw. aufzuarbeiten.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Im Zuge der Digitalisierung von Lernskripten und deren schnellen Verbreitung sind Studierende zunehmend der Gefahr ausgesetzt, sich fehler- und lückenhafter Skripte als Prüfungsvorlagen zu bedienen und sich damit ineffizient und inhaltlich mangelhaft auf Prüfungen vorzubereiten. Die Qualität von Lernskripten richtig einzuschätzen, bedarf der Zeit und wissenschaftlicher Erkenntnisse.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Individuelle Lernskripte durch Ghostwriting'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Jeder Studierende greift heute für die optimale Prüfungsvorbereitung auf Lernskripte zurück. Dabei zeigt sich die Auswahl des optimalen Skripts als Lernvorbereitung angesichts der Vielzahl der zur Verfügung stehenden Lernskripte als durchaus schwierig. Viele Studierende nutzen in dieser Situation das Angebot '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriter
-                  target: null
-                  rel: null
-            text: 'akademischer Ghostwriter'
-          -
-            type: text
-            text: ', die für Qualität bürgen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Lernskripte schreiben zu lassen, wirkt der Gefahr entgegen, sich von in Umlauf befindenden fehler- und lückenhaften, schlecht strukturierten Lernskripten in die Irre führen zu lassen und das Prüfungsziel zu gefährden. Speziell ausgebildete akademische Ghostwriter sind versierte Autoren von Lernskripten und legen mit ihren Beiträgen den Grundstein für die optimale Prüfungsvorbereitung. Sie sorgen beim Verfassen von Lernskripten zuverlässig für die Vollständigkeit und Korrektheit der Lerninhalte. Lernskripte von akademischen Ghostwritern schreiben zu lassen, hilft den Studierenden, das Wesentliche strukturiert, effizient gebündelt und zeitsparend zu lernen und sich in der sich anschließenden Prüfungssituation auf das Wesentliche zu konzentrieren. Die Wurzel des Prüfungserfolges liegt in der optimalen Vorbereitung.'
-    type: editor
-    enabled: true
-    show_as_card: false
-  -
     columns_replicator:
       -
-        columns_per_row: 1
-        single_col: false
+        single_col: true
         grid:
           -
             bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Neben vielen anderen Ausarbeitungen bieten Ihnen die Autoren von GWriters die Möglichkeit zu Ihrer individuellen Thematik ein Lernskript zu verfassen. Jede unverbindliche '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: Anfrage
+                  -
+                    type: text
+                    text: ' wird innerhalb von 24 Stunden bearbeitet und Sie erhalten schnell ein individuelles Angebot, sodass einer gezielten Prüfungsvorbereitung mit Hilfe eines Lernskripts von GWriters nichts mehr im Weg steht.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wenn Sie in Form eines Lernskripts Unterstützung benötigen, dann können Sie uns gerne sofort eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage schicken'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '. Wir melden uns schnellstmöglich mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: show_sidebar_mobile
+                    custom_sidebar_placement: 'on'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Was ist ein Lernskript?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein Lernskript subsummiert die wesentlichen Ergebnisse einer Vorlesung oder einer Recherche und dient dem konzentrierten Lernen von Studieninhalten für Prüfungen. Ideale Lernskripte weisen eine optimale Gliederung und Strukturierung auf, durch die der wesentliche Lernstoff möglichst schnell und umfassend erfasst und gelernt werden kann. Eingebrachte Fachtermini, Zitate, Quellen, Tabellen und Grafiken verstärken die Lerneffizienz.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Risiken und Nutzen von Lernskripten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Besonders im universitären Bereich gehört der Umgang mit Lernskripten zum täglich Brot der prüfungsorientierten Studierenden. Wahlweise werden Lernskripte nur für den persönlichen Freundeskreis zugänglich gemacht, bisweilen auch über Downloads einer Vielzahl von Studierenden zur Verfügung gestellt. Im Bereich des Fernstudiums helfen Lernskripte, den versäumten oder rudimentär gelernten Lernstoff eigenständig und systematisch-strukturiert nach- bzw. aufzuarbeiten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im Zuge der Digitalisierung von Lernskripten und deren schnellen Verbreitung sind Studierende zunehmend der Gefahr ausgesetzt, sich fehler- und lückenhafter Skripte als Prüfungsvorlagen zu bedienen und sich damit ineffizient und inhaltlich mangelhaft auf Prüfungen vorzubereiten. Die Qualität von Lernskripten richtig einzuschätzen, bedarf der Zeit und wissenschaftlicher Erkenntnisse.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Individuelle Lernskripte durch Ghostwriting'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Jeder Studierende greift heute für die optimale Prüfungsvorbereitung auf Lernskripte zurück. Dabei zeigt sich die Auswahl des optimalen Skripts als Lernvorbereitung angesichts der Vielzahl der zur Verfügung stehenden Lernskripte als durchaus schwierig. Viele Studierende nutzen in dieser Situation das Angebot '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: 'akademischer Ghostwriter'
+                  -
+                    type: text
+                    text: ', die für Qualität bürgen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Lernskripte schreiben zu lassen, wirkt der Gefahr entgegen, sich von in Umlauf befindenden fehler- und lückenhaften, schlecht strukturierten Lernskripten in die Irre führen zu lassen und das Prüfungsziel zu gefährden. Speziell ausgebildete akademische Ghostwriter sind versierte Autoren von Lernskripten und legen mit ihren Beiträgen den Grundstein für die optimale Prüfungsvorbereitung. Sie sorgen beim Verfassen von Lernskripten zuverlässig für die Vollständigkeit und Korrektheit der Lerninhalte. Lernskripte von akademischen Ghostwritern schreiben zu lassen, hilft den Studierenden, das Wesentliche strukturiert, effizient gebündelt und zeitsparend zu lernen und sich in der sich anschließenden Prüfungssituation auf das Wesentliche zu konzentrieren. Die Wurzel des Prüfungserfolges liegt in der optimalen Vorbereitung.'
               -
                 type: heading
                 attrs:
@@ -224,10 +218,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
-        single_col: false
+        columns_per_row: 3
+        single_col: true
         grid:
           -
             bard:
@@ -402,11 +397,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: false
+        single_col: true
         grid:
           -
             bard:
@@ -463,9 +456,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: true
@@ -492,7 +485,7 @@ replicator:
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658325593
+updated_at: 1665064744
 template: default
 meta_title: 'Lernskript schreiben lassen • GWriters'
 meta_description: 'Lernskript schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
@@ -502,12 +495,10 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'Lernskript schreiben lassen • GWriters'
 og_description: 'Lernskript schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-arbeitsgruppe: a_sonstige_arbeiten
 sitemap_active: true
 alternative_page_title: 'Lernskript schreiben lassen'
+published: true
 ---
