@@ -132,7 +132,7 @@ page_title: 'Wirtschaftswissenschaft Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665066683
+updated_at: 1665066832
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -606,20 +606,9 @@ replicator:
                       -
                         text: Arbeiten
                         eintraege:
-                          - 68b88fd1-ec03-4ea8-9292-431555e47744
-                          - 99cd8e42-b21c-4cea-a162-a9454db2375f
-                          - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
-                          - 5659593d-2756-4e9f-a5b3-b391103d9886
-                          - 425234fd-eb40-4dab-bb3d-95bbac5948eb
-                          - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
                           - 2b55bfe7-06df-4e71-86da-152e256904ec
-                          - cb0a74d3-ed84-4dad-b3a7-c368aec13800
-                          - 134ba799-3362-4166-86f7-bba4e992d7d7
-                          - 5c6db140-ee4a-4a88-bf56-4153664421d4
-                          - 52f5092f-800b-4742-8636-a840b9ab1ddb
-                          - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
-                          - 2931f444-5e22-4860-8f40-a41821377b93
-                          - b6ee03ca-ecab-4749-ade4-45ff821b748d
+              -
+                type: paragraph
               -
                 type: heading
                 attrs:
