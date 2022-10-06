@@ -79,7 +79,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665065992
+updated_at: 1665066031
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1000,7 +1000,7 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-template: without-teaser
+template: default
 page_title: 'Exposé schreiben lassen • Mustervorlage von GWriters'
 og_title: 'GWriters • Mustervorlage für Exposé schreiben lassen'
 og_description: 'Mustervorlage für Exposé schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
