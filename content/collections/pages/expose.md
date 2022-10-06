@@ -79,7 +79,7 @@ teaser:
         spacing_top: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665065923
+updated_at: 1665065953
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -370,7 +370,7 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
-        single_col: false
+        single_col: true
         grid:
           -
             bard:
