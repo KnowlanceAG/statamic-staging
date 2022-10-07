@@ -132,7 +132,7 @@ page_title: 'Wirtschaftswissenschaft Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1662120553
+updated_at: 1665144979
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1493,4 +1493,5 @@ og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Wirtschaftswissenschaften Ghostwriter'
 published: true
+fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 ---

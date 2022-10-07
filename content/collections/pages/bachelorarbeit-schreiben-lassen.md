@@ -2879,8 +2879,8 @@ replicator:
     enabled: true
     show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1663772854
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1665144670
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2932,4 +2932,5 @@ schema_objects: |-
 sitemap_active: true
 alternative_page_title: 'Bachelorarbeit schreiben lassen'
 published: true
+arbeitsgruppe: a_abschlussarbeiten
 ---
