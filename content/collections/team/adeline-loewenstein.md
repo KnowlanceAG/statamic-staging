@@ -5,16 +5,17 @@ title: 'Adeline Löwenstein'
 position: Praktikantin
 photo:
   - team/adeline-loewenstein-gwriters.jpg
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1649149283
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665141490
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 link: 'entry::950a816a-dc2e-47eb-b612-081c7c76264e'
 show_as_card: false
+published: true
+phone_number: '+49 30 809332372'
+email_address: assistenz@gwriters.de
 ---
