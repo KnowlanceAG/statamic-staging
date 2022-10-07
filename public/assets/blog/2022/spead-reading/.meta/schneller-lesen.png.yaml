@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'schneller lesen'
 size: 41632
 last_modified: 1665143092
 width: 1256
