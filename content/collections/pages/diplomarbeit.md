@@ -1052,8 +1052,8 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665060621
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1665152732
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -1069,4 +1069,5 @@ og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Diplomarbeit schreiben lassen'
 published: true
+arbeitsgruppe: a_abschlussarbeiten
 ---
