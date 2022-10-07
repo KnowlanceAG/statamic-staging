@@ -614,7 +614,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1665152496
+updated_at: 1665153019
 meta_title: 'Essay schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Essay schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
@@ -629,5 +629,5 @@ og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Essay schreiben lassen'
 published: true
-arbeitsgruppe: a_sonstige_arbeiten
+arbeitsgruppe: a_studienarbeiten
 ---
