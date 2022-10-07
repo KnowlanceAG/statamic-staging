@@ -531,8 +531,8 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665065715
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1665152804
 meta_title: 'Ghostwriter eBook schreiben lassen • GWriters'
 meta_description: 'eBook schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
@@ -547,4 +547,5 @@ og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'eBook schreiben lassen'
 published: true
+arbeitsgruppe: a_sonstige_arbeiten
 ---
