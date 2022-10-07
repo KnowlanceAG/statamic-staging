@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -132,20 +132,18 @@ page_title: 'VWL Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658324029
+updated_at: 1665069518
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
+        single_col: true
         grid:
           -
             bard:
@@ -162,7 +160,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Im Studium der VWL verhält es sich ähnlich wie bei der BWL: Es hat sich etabliert, dass Lehrinstitute von den Studenten zu vielen Kursen die Erstellung einer Seminararbeit oder Hausarbeit verlangen. Um alle Abgaben mit der gebotenen Sorgfalt bearbeiten zu können, nehmen nicht selten Studenten der VWL\_"
                   -
@@ -175,7 +173,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -235,7 +233,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich VWL Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                   -
@@ -250,7 +248,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -290,7 +288,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: VWL-Ghostwriter
               -
@@ -306,7 +304,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Unser Team von erfahrenen Akademikern aus verschiedenen Fachrichtungen unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen im Fachbereich VWL. Ob es sich bei Ihrem Projekt um eine Doktorarbeit, eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen umfassenden individuellen Beistand. Jeder von uns vermittelte Ghostwriter der VWL wird von unseren Mitarbeitern persönlich ausgewählt. Er ist ein Experte auf seinem Gebiet und hat Erfahrungen mit wissenschaftlichen Arbeitsweisen und den Ansprüchen, vor denen ein Student der Volkswirtschaftslehre steht.'
               -
@@ -320,10 +318,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
+        single_col: true
         grid:
           -
             bard:
@@ -342,7 +341,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(193, 76, 0)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -363,7 +363,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -384,7 +385,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -392,23 +394,6 @@ replicator:
                           target: null
                           rel: null
                     text: Übersetzung
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                    text: "\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: hard_break
             show_as_card: false
           -
             bard:
@@ -425,7 +410,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -446,7 +432,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -467,7 +454,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -475,8 +463,6 @@ replicator:
                           target: null
                           rel: null
                     text: Plagiatsprüfung
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -493,7 +479,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -514,7 +501,8 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)!important!important'
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -525,19 +513,8 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
+        responsive_columns: 0
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -572,25 +549,32 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
-      -
-        columns_per_row: 1
-        grid:
-          -
-            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
               -
                 type: heading
                 attrs:
@@ -606,7 +590,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Über VWL'
               -
@@ -622,7 +606,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Die Volkwirtschaftslehre (VWL) ist eine Disziplin der\_"
                   -
@@ -635,7 +619,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -662,7 +646,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -694,25 +678,9 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Geschichte der VWL'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Die VWL sieht ihre Geschichte begründet im Merkantilismus, einer Sammlung von verschiedenen wirtschaftspolitischen Ideen und Konzepten aus dem 16. bis 18. Jahrhundert.'
               -
                 type: set
                 attrs:
@@ -735,7 +703,23 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die VWL sieht ihre Geschichte begründet im Merkantilismus, einer Sammlung von verschiedenen wirtschaftspolitischen Ideen und Konzepten aus dem 16. bis 18. Jahrhundert.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
                           hex: '#000'
                     text: 'In den damals absolutistisch regierten europäischen Staaten sehnte man sich nach einer nachhaltigen Steigerung des Wohlstands, hauptsächlich innerhalb der führenden Oberschicht. Das Maß für den Wohlstand waren dabei die eingelagerten Goldreserven. Zur Steigerung dieser Reserven wurden erste Konzepte entwickelt um die Exporte eines Staates möglichst zu fördern und Importe durch Schutzzölle zu verhindern. Diese Haltung führte in Europa zu vielen kriegerischen Auseinandersetzungen, legte jedoch auch die Grundlage für unser heutiges kapitalistisches System. Exportunterstützungen und Schutzzölle gelten bis heute als ein Mittel, die eigene Wirtschaft zu unterstützten.'
               -
@@ -753,7 +737,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: VWL-Studium
               -
@@ -769,7 +753,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Das Studium der VWL bestand ehemals aus dem Magister- und Diplomstudiengang. Als Examensarbeit galten dabei die Magisterarbeit und die Diplomarbeit. Im Zuge des Bologna-Prozesses wurden die Bachelor- und Masterstudiengänge eingeführt. Den Abschluss des Bachelorstudiengangs bildet das erfolgreiche Erstellen einer Bachelorarbeit. Etwa 70% der Bachelorstudenten der VWL führen ihr Studium mit dem Master fort, welcher nach 4 Semestern und einer Masterarbeit abgeschlossen wird. Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen. Besonders dabei ist in der VWL\_"
                   -
@@ -782,7 +766,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -800,19 +784,6 @@ replicator:
                           align: start
                     text: "\_beliebt. Nicht selten lassen Doktoranden einen VWL-Ghostwriter als Orientierungshilfe eine Mustervorlage erstellen. Diese nutzen sie dann, wenn sie ihre eigene Dissertation schreiben, um im Arbeitsprozess nicht hilflos zu sein."
               -
-                type: horizontal_rule
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    spacing_top: false
-              -
-                type: horizontal_rule
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -827,7 +798,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Inhalte des Studiums'
               -
@@ -843,7 +814,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Ein Volkswirt muss in der Lage sein, wirtschaftliche Entwicklungen zu untersuchen um Auftraggebern anhand von Statistiken und theoretischen Modellen Entscheidungsgrundlagen zu liefern. Aus diesem Grund besteht das Studium der VWL aus großen Bereichen der\_"
                   -
@@ -856,7 +827,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -888,7 +859,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: Disclaimer
               -
@@ -904,7 +875,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
@@ -922,7 +893,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Nützliche Weblinks'
               -
@@ -938,7 +909,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -964,7 +935,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -990,7 +961,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1016,7 +987,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1040,11 +1011,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -1054,7 +1024,7 @@ meta_description: 'Hilfe durch Experten und akademische Ghostwriter der VWL – 
 og_title: 'GWriters • VWL - Ghostwriter, Lektoren & Coaches'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der VWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'VWL Ghostwriter'
+published: true
 ---

@@ -41,7 +41,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -69,7 +69,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -82,2086 +82,746 @@ teaser:
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
-    bard:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Unsere akademischen'
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriter
-                  target: null
-                  rel: null
-            text: ' Ghostwriter'
-          -
-            type: text
-            text: ' können auf einen breiten Erfahrungsschatz beim Erstellen von Präsentationen zurückgreifen. Unsere '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting/ghostwriting-agentur
-                  target: null
-                  rel: null
-            text: Ghostwriting-Agentur
-          -
-            type: text
-            text: ' arbeitet mit qualifizierten Autoren zusammen. Sie erstellen tagtäglich Mustervorlagen für Präsentationen und Präsentationslayouts zu verschiedenen Aufgaben. Ob es um die Präsentation von Geschäftsergebnissen in Vertriebsveranstaltungen, Geschäftsideen, Forschungsergebnissen aus einer wissenschaftlichen Arbeit oder Literatur geht, '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /
-                  target: null
-                  rel: null
-            text: 'die Ghostwriter von GWriters stehen Ihnen mit professioneller Unterstützung'
-          -
-            type: text
-            text: ' bei dem Erstellen Ihrer Präsentation zur Seite. '
-      -
-        type: set
-        attrs:
-          values:
-            type: show_sidebar_mobile
-            custom_sidebar_placement: 'on'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Zudem können auch Präsentationsentwürfe durch '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/gwriters-coaching
-                  target: null
-                  rel: null
-            text: 'eine professionelle Beratung'
-          -
-            type: text
-            text: ' ergänzt oder überarbeitet werden. Die Visualisierung einer wissenschaftlichen Folienpräsentation sollte verständlich sein und mit wichtigen Inhalten sowie passenden Grafikformaten versehen werden.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'In der heutigen Arbeits- und Studienwelt laufen die Kommunikation und wichtige Übertragungen fast nur noch über digitalen Kanäle ab. Die Visualisierung der Zusammenfassungen von Ergebnissen, Planungen oder Analysen werden kaum noch persönlich über Flipcharts oder Pinnwände übertragen, sondern über unterschiedlichen Tools wie PowerPoint, per Zoom oder andere digitale Konferenzplattformen publiziert.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Auch wenn die digitale Darstellung von zusammengefassten Daten sich einfach anhört, leiden viele Präsentationsersteller unter Zeitmangel, weil sie Schwierigkeiten bei der Zusammenführung von Daten haben. Besonders wenn eine Vielzahl wichtiger Informationen kurz und knapp zusammengefasst werden muss.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: "Daher verschaffen sich einige Unternehmen oder Studenten eine umfassende Hilfe, indem sie Musterpräsentation von einem professionellen Präsentationsersteller & Ghostwriter\_für ihre PowerPoint-Präsentation erstellen lassen."
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Wenn Sie bei Ihrer Präsentation Unterstützung benötigen, dann können Sie uns gerne sofort eine '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /anfrage
-                  target: null
-                  rel: null
-            text: 'unverbindliche Anfrage'
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: ' an unsere professionelle Agentur schicken. Unsere Präsentationsersteller melden sich innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Der Einsatz von Ghostwritern beim Erstellen von Präsentationen'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Die wichtigste Voraussetzung für das Gelingen eines Referats ist die gründliche Vorbereitung der PowerPoint-Folien. Ein ausgefeiltes Manuskript legt den Grundstein für den richtigen Transport von wissenschaftlichen Ergebnissen. Ein qualitativ hochwertiges Manuskript zu schreiben, erfordert eine intensive Recherche, die exakte Visualisierung durch den versierten Umgang mit Medien und die Nutzung fachgerechter Sprache. Oft fehlt Referenten die Zeit zu dieser gründlichen Vorbereitung auf ihren Vortrag.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Akademisches '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting
-                  target: null
-                  rel: null
-            text: Ghostwriting
-          -
-            type: text
-            text: ' setzt hier an, plant und verfasst Manuskripte und übernimmt die Entwicklung der Präsentation, den Vorgaben des Referenten entsprechend. Dabei hat der Ghostwriter stets die jeweilige Zielgruppe vor Augen und richtet die Präsentation der Ergebnisse auf diese aus. Damit ergänzt der Ghostwriter sinnvoll die Arbeit des Referenten im Vorfeld des Vortrages und verhilft diesem dadurch zu beruflichem Erfolg.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Diese Zielgruppen können Studenten, Schüler aber auch Mitarbeiter aus einem Unternehmen sein. Besonders Studierende wissen nicht, wie sie ihre '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /arbeiten/hausarbeit-schreiben-lassen
-                  target: null
-                  rel: null
-            text: Hausarbeit
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: ' oder '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /arbeiten/bachelorarbeit-schreiben-lassen
-                  target: null
-                  rel: null
-            text: Bachelorarbeit
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: ' auf wenige Folien komprimieren sollen. Häufig fordern Hochschulen von Studenten nach der Bachelorarbeit oder '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /arbeiten/masterarbeit-schreiben-lassen
-                  target: null
-                  rel: null
-            text: Masterarbeit
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: ', dass diese ein '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /blog/kolloquium-bachelorarbeit
-                  target: null
-                  rel: null
-            text: Kolloquium
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: ' vorbereiten. Dabei gelten unterschiedliche Leitfäden, je nach Hochschulvorgaben ändern sich die Richtlinien einer Präsentation.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Beim Kolloquium müssen Studierende entweder alle wichtigen Informationen der Abschlussarbeit zusammenfassen und in einer PowerPoint-Präsentation vor dem Dozenten wiedergeben oder sie werden mündlich über das Konzept der Bachelorarbeit befragt. Das Kolloquium ist eine gute Möglichkeit um die Note der Abschlussarbeit zu verbessern und die eigenen Argumente zu verteidigen.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Weitere Leistungsbereiche von GWriters'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Außer der Musterpräsentationen gibt es weitere Leistungsbereiche in denen wir unsere professionelle Dienstleistung anbieten, wie das '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /korrektorat
-                  target: null
-                  rel: null
-            text: Korrektorat
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: ', '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /lektorat
-                  target: null
-                  rel: null
-            text: Lektorat
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: ' oder eine professionelle Beratung. Die Korrekturen in der Arbeit dienen dazu, um grammatikalische und syntaktische Fehler zu vermeiden sowie korrekte Sätze zu formulieren. Auch können Studierende den Text von einem Fachautoren lektorieren lassen, was hilft, den Textinhalt zu überprüfen. Die beiden Leistungen werden von Experten in Ihrem Fachbereich betreut, die das methodische Know-How und das Forschungsthema beherrschen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Während des Erstellungsprozesses der PowerPoint-Präsentation kann ein Ghostwriter mit Fachwissen Sie bei jeder Problemstellung begleiten. Diese Probleme können bei der Literaturrecherche, bei statistischen Analysen, mit der Verfügbarkeit kostenpflichtiger Bilder, der Erstellung von Diagrammen, Datenauswertungen, der Zitierung oder der Zusammenfassung von vielen wissenschaftlichen Ergebnissen sein.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Nicht nur inhaltliche Probleme können von einem Ghostwriter gelöst werden. Darüber hinaus kennen sie alle PowerPoint-Funktionen und geben während der Präsentationserstellung immer wieder Tricks und Tipps. Um den Folieninhalt ohne Karteikarten, fließend und ohne Füllwörter übertragen zu können, ist die Notizen-Funktion vom PowerPoint-Tool empfehlenswert.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Neben diesen Problemfeldern erhalten Sie noch weitere Verbesserungstipps von unseren Profis bezüglich der Präsentationshaltung und Aussprache. Unsere qualifizierten Präsentationsersteller geben während und nach dem Erstellungsprozess für jeden Schritt Anweisungen. Eine professionelle Checkliste für ein PowerPoint-Referat erhalten Sie '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /blog/bachelorarbeit-praesentation-powerpoint
-                  target: null
-                  rel: null
-            text: hier
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: ' und in unserer GWriters Akademie stellen wir Ihnen zusätzlich auch ein '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /gwriters-akademie/powerpoint-praesentation-vorlage
-                  target: null
-                  rel: null
-            text: 'Vorlage für Ihre Kolloquium-Präsentation'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: ' bereit.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Genau diese Fehler sollten Sie bei einer Präsentation vermeiden'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Inhalt für PowerPoint-Präsentation:'
-      -
-        type: table
-        content:
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: Fehler
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                        text: 'So sollte es sein…'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Texte eins zu eins übernehmen'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Zusammenfassen und in Stichpunkten wiedergeben'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Wenige/keine Bilder oder Grafiken einfügen'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Grafiken selbst erstellen, Bilder einfügen'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Folien voll beschriften'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Auf andere Folien übertragen, in kurzen und verständlichen Stichpunkten wiedergeben'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Zu buntes PowerPoint Layout erstellen'
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Schlichtes passendes Präsentationsdesign zum ausgesuchten Thema erstellen'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Zu viele Folien verwenden'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Bei 15 Minutigen Vortrag à 25 Folienanzahl ausreichend'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Folien unsystematisch anordnen'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Die Struktur der Folien einhalten, '
-                      -
-                        type: hard_break
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'die Gliederung sinnvoll aufbauen'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Stilmittel: inhaltliche, grammatikalische Fehler'
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Gute, verständliche Formulierungen'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Abgehackten Übergänge'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Fließende und passende Inhalts-Übergänge einpflegen'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Langweilige Folien gestalten, Publikum nicht einbinden'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Aufmerksamkeit des Publikums erregen, kreative und abwechslungsreiche Folien gestalten (Besonders in der Einleitung),'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Zeitmangel:'
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: ' '
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'mehr oder weniger als die vorgegebene Zeit vortragen'
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Vorgegebene Zeit einhalten (nicht mehr oder weniger)'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Haltung für einen Vortrag:'
-      -
-        type: table
-        content:
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: Fehler
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'So sollte es sein…'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Häufige Handbewegungen'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Stift oder Karteikarten in die Hand nehmen'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Blick auf das Visualisierungstool versperren'
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Still bleiben, 1-3 mal Platz wechseln,'
-                      -
-                        type: hard_break
-                      -
-                        type: text
-                        text: 'Folienübergänge mit Fernbedienung umschalten'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Füllwörter wie ehm, also, quasi etc. benutzen'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Ein- und ausatmen, kurz warten und weitersprechen'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Zu schnelles oder zu langsames Sprechen'
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Die Mitte finden, daher vorher oft den Vortrag proben und Feedback von einer dritten Person einholen'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Inhalt stumpf auswendig lernen'
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Inhalt verstehen und verarbeiten,'
-                      -
-                        type: hard_break
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'wenn nötig Karteikarten oder Notizen von PowerPoint benutzen'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Erst am Tag vorher auf die Präsentation vorbereiten'
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Mindestens eine Woche vorher lernen vorzutragen'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Zu lange und komplexe Sätze'
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Kurze und verständliche Sätze bilden'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Zu durcheinander über die Inhalte sprechen'
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Gliederungspunkte folgen,'
-                      -
-                        type: hard_break
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'roten Faden finden'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Umgangssprache verwenden'
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'In wissenschaftlicher Sprache sprechen'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Zu laut oder zu leise sprechen'
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'An passenden Stellen den Stimmenton höher halten (Besonders am Anfang des Vortrags)'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Bilder/Grafiken zu schnell vortragen'
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Bilder/Grafiken mit einem Stab zeigen, '
-                      -
-                        type: hard_break
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'alle Fakten und Zahlen in einer Infografik erklären'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Fazit zu kurz formulieren'
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Gute Schlussfolgerung formulieren'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Überflüssige Inhalte einpflegen'
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "\_"
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Über wichtigen Punkte sprechen,'
-                      -
-                        type: hard_break
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Empfehlung: Handout erstellen'
-          -
-            type: table_row
-            content:
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Inhalte auf den Folien überspringen'
-              -
-                type: table_cell
-                attrs:
-                  colspan: 1
-                  rowspan: 1
-                  colwidth: null
-                  background: null
-                content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Auf alle Folienpunkte eingehen, auch wenn die Zeit nicht ausreicht'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Wann und wie: eine Mustervorlage für Präsentation erstellen lassen'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Aufgrund eines Ghostwriters Erfahrungen und fachlichen Kenntnisse in seinem Fachbereich, ist es möglich, ihn ohne aufwendige Einarbeitungszeit zu jedem Zeitpunkt der Erstellung von Präsentation als Hilfestellung zu beauftragen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Oft entstehen Probleme zu Beginn der Präsentationserstellung bei der Zusammenfassung von Untersuchungsergebnissen, er Grafikerstellung, der Quellenrecherche und beim Designprozess.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Musterpräsentationen als PowerPoint-Datei (.pptx) sind eine gute Orientierungshilfe, besonders wenn Sie noch nie wichtige Punkte, Informationen und Analysen zusammengefasst haben. Auch bei der Erstellung von Unternehmenspräsentationen, Businesspräsentationen und '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /blog/kolloquium-bachelorarbeit
-                  target: null
-                  rel: null
-            text: 'Kolloquium für Bachelorarbeit'
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: " und Masterarbeit, möchten viele Präsentationsbeauftragte einen perfekten Mustervortrag für Ihre Präsentation erstellen lassen. Die Unterstützung ist eine gute Optimierung für Ihre Präsentation. \_"
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Ablauf: Musterpräsentation erstellen lassen'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: '1. Anfrage für unsere Dienstleistung schicken'
-      -
-        type: bullet_list
-        content:
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Anfrageformular: Thema und Anforderungen, Telefonnummer, Emailadresse, Umfang der Texterstellung, Lieferdatum'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: "2.\_"
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Kostenloses Angebot erhalten'
-      -
-        type: bullet_list
-        content:
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Angebot: Passende Autoren, Kosten für die Aufgabenstellung, Planung der Teillieferungen'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: "3.\_"
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Nach der Zusage: Auftragserteilung der Dienstleistung'
-      -
-        type: bullet_list
-        content:
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Bearbeitungsprozess des Auftrags, Zwischenstand der Mustervorlage gemeinsam mit Auftraggeber analysieren um Feedbacks umsetzen zu können'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: "4.\_"
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Feinschliff der Musterpräsentation'
-      -
-        type: bullet_list
-        content:
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Lektorieren und korrigieren der Mustervorlage von einem unabhängigen Bearbeiter, Plagiatsprüfung'
-      -
-        type: heading
-        attrs:
-          level: 3
-        content:
-          -
-            type: text
-            text: "5.\_"
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Lieferung der Musterpräsentation'
-      -
-        type: bullet_list
-        content:
-          -
-            type: list_item
-            content:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Qualitätsprüfung durch einen Supervisor, Lieferung der Musterpräsentation'
-              -
-                type: paragraph
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Die ganze Kommunikation zwischen dem Auftraggeber und dem qualifizierten Bearbeiter bleibt Anonym. Da der '
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /blog/gwriters-diskretion-kunden
-                  target: null
-                  rel: null
-            text: Datenschutz
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: ' besonders wichtig für unsere Agentur ist, werden auch alle Daten vom Auftraggeber im Anschluss an den Auftrag und die Bereitstellung des wissenschaftlichen Ergebnisses gelöscht.'
-    type: editor
-    enabled: true
-    show_as_card: false
-  -
     columns_replicator:
       -
-        columns_per_row: 1
-        single_col: false
+        single_col: true
         grid:
           -
             bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unsere akademischen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: ' Ghostwriter'
+                  -
+                    type: text
+                    text: ' können auf einen breiten Erfahrungsschatz beim Erstellen von Präsentationen zurückgreifen. Unsere '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting/ghostwriting-agentur
+                          target: null
+                          rel: null
+                    text: Ghostwriting-Agentur
+                  -
+                    type: text
+                    text: ' arbeitet mit qualifizierten Autoren zusammen. Sie erstellen tagtäglich Mustervorlagen für Präsentationen und Präsentationslayouts zu verschiedenen Aufgaben. Ob es um die Präsentation von Geschäftsergebnissen in Vertriebsveranstaltungen, Geschäftsideen, Forschungsergebnissen aus einer wissenschaftlichen Arbeit oder Literatur geht, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /
+                          target: null
+                          rel: null
+                    text: 'die Ghostwriter von GWriters stehen Ihnen mit professioneller Unterstützung'
+                  -
+                    type: text
+                    text: ' bei dem Erstellen Ihrer Präsentation zur Seite. '
+              -
+                type: set
+                attrs:
+                  values:
+                    type: show_sidebar_mobile
+                    custom_sidebar_placement: 'on'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zudem können auch Präsentationsentwürfe durch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/gwriters-coaching
+                          target: null
+                          rel: null
+                    text: 'eine professionelle Beratung'
+                  -
+                    type: text
+                    text: ' ergänzt oder überarbeitet werden. Die Visualisierung einer wissenschaftlichen Folienpräsentation sollte verständlich sein und mit wichtigen Inhalten sowie passenden Grafikformaten versehen werden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'In der heutigen Arbeits- und Studienwelt laufen die Kommunikation und wichtige Übertragungen fast nur noch über digitalen Kanäle ab. Die Visualisierung der Zusammenfassungen von Ergebnissen, Planungen oder Analysen werden kaum noch persönlich über Flipcharts oder Pinnwände übertragen, sondern über unterschiedlichen Tools wie PowerPoint, per Zoom oder andere digitale Konferenzplattformen publiziert.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Auch wenn die digitale Darstellung von zusammengefassten Daten sich einfach anhört, leiden viele Präsentationsersteller unter Zeitmangel, weil sie Schwierigkeiten bei der Zusammenführung von Daten haben. Besonders wenn eine Vielzahl wichtiger Informationen kurz und knapp zusammengefasst werden muss.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Daher verschaffen sich einige Unternehmen oder Studenten eine umfassende Hilfe, indem sie Musterpräsentation von einem professionellen Präsentationsersteller & Ghostwriter\_für ihre PowerPoint-Präsentation erstellen lassen."
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wenn Sie bei Ihrer Präsentation Unterstützung benötigen, dann können Sie uns gerne sofort eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' an unsere professionelle Agentur schicken. Unsere Präsentationsersteller melden sich innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Der Einsatz von Ghostwritern beim Erstellen von Präsentationen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die wichtigste Voraussetzung für das Gelingen eines Referats ist die gründliche Vorbereitung der PowerPoint-Folien. Ein ausgefeiltes Manuskript legt den Grundstein für den richtigen Transport von wissenschaftlichen Ergebnissen. Ein qualitativ hochwertiges Manuskript zu schreiben, erfordert eine intensive Recherche, die exakte Visualisierung durch den versierten Umgang mit Medien und die Nutzung fachgerechter Sprache. Oft fehlt Referenten die Zeit zu dieser gründlichen Vorbereitung auf ihren Vortrag.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Akademisches '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: ' setzt hier an, plant und verfasst Manuskripte und übernimmt die Entwicklung der Präsentation, den Vorgaben des Referenten entsprechend. Dabei hat der Ghostwriter stets die jeweilige Zielgruppe vor Augen und richtet die Präsentation der Ergebnisse auf diese aus. Damit ergänzt der Ghostwriter sinnvoll die Arbeit des Referenten im Vorfeld des Vortrages und verhilft diesem dadurch zu beruflichem Erfolg.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Diese Zielgruppen können Studenten, Schüler aber auch Mitarbeiter aus einem Unternehmen sein. Besonders Studierende wissen nicht, wie sie ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Hausarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Bachelorarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' auf wenige Folien komprimieren sollen. Häufig fordern Hochschulen von Studenten nach der Bachelorarbeit oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Masterarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', dass diese ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/kolloquium-bachelorarbeit
+                          target: null
+                          rel: null
+                    text: Kolloquium
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' vorbereiten. Dabei gelten unterschiedliche Leitfäden, je nach Hochschulvorgaben ändern sich die Richtlinien einer Präsentation.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Beim Kolloquium müssen Studierende entweder alle wichtigen Informationen der Abschlussarbeit zusammenfassen und in einer PowerPoint-Präsentation vor dem Dozenten wiedergeben oder sie werden mündlich über das Konzept der Bachelorarbeit befragt. Das Kolloquium ist eine gute Möglichkeit um die Note der Abschlussarbeit zu verbessern und die eigenen Argumente zu verteidigen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Weitere Leistungsbereiche von GWriters'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Außer der Musterpräsentationen gibt es weitere Leistungsbereiche in denen wir unsere professionelle Dienstleistung anbieten, wie das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat
+                          target: null
+                          rel: null
+                    text: Korrektorat
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: Lektorat
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' oder eine professionelle Beratung. Die Korrekturen in der Arbeit dienen dazu, um grammatikalische und syntaktische Fehler zu vermeiden sowie korrekte Sätze zu formulieren. Auch können Studierende den Text von einem Fachautoren lektorieren lassen, was hilft, den Textinhalt zu überprüfen. Die beiden Leistungen werden von Experten in Ihrem Fachbereich betreut, die das methodische Know-How und das Forschungsthema beherrschen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Während des Erstellungsprozesses der PowerPoint-Präsentation kann ein Ghostwriter mit Fachwissen Sie bei jeder Problemstellung begleiten. Diese Probleme können bei der Literaturrecherche, bei statistischen Analysen, mit der Verfügbarkeit kostenpflichtiger Bilder, der Erstellung von Diagrammen, Datenauswertungen, der Zitierung oder der Zusammenfassung von vielen wissenschaftlichen Ergebnissen sein.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Nicht nur inhaltliche Probleme können von einem Ghostwriter gelöst werden. Darüber hinaus kennen sie alle PowerPoint-Funktionen und geben während der Präsentationserstellung immer wieder Tricks und Tipps. Um den Folieninhalt ohne Karteikarten, fließend und ohne Füllwörter übertragen zu können, ist die Notizen-Funktion vom PowerPoint-Tool empfehlenswert.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Neben diesen Problemfeldern erhalten Sie noch weitere Verbesserungstipps von unseren Profis bezüglich der Präsentationshaltung und Aussprache. Unsere qualifizierten Präsentationsersteller geben während und nach dem Erstellungsprozess für jeden Schritt Anweisungen. Eine professionelle Checkliste für ein PowerPoint-Referat erhalten Sie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/bachelorarbeit-praesentation-powerpoint
+                          target: null
+                          rel: null
+                    text: hier
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und in unserer GWriters Akademie stellen wir Ihnen zusätzlich auch ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /gwriters-akademie/powerpoint-praesentation-vorlage
+                          target: null
+                          rel: null
+                    text: 'Vorlage für Ihre Kolloquium-Präsentation'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' bereit.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Wann und wie: eine Mustervorlage für Präsentation erstellen lassen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Aufgrund eines Ghostwriters Erfahrungen und fachlichen Kenntnisse in seinem Fachbereich, ist es möglich, ihn ohne aufwendige Einarbeitungszeit zu jedem Zeitpunkt der Erstellung von Präsentation als Hilfestellung zu beauftragen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Oft entstehen Probleme zu Beginn der Präsentationserstellung bei der Zusammenfassung von Untersuchungsergebnissen, er Grafikerstellung, der Quellenrecherche und beim Designprozess.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Musterpräsentationen als PowerPoint-Datei (.pptx) sind eine gute Orientierungshilfe, besonders wenn Sie noch nie wichtige Punkte, Informationen und Analysen zusammengefasst haben. Auch bei der Erstellung von Unternehmenspräsentationen, Businesspräsentationen und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/kolloquium-bachelorarbeit
+                          target: null
+                          rel: null
+                    text: 'Kolloquium für Bachelorarbeit'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: " und Masterarbeit, möchten viele Präsentationsbeauftragte einen perfekten Mustervortrag für Ihre Präsentation erstellen lassen. Die Unterstützung ist eine gute Optimierung für Ihre Präsentation. \_"
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ablauf: Musterpräsentation erstellen lassen'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '1. Anfrage für unsere Dienstleistung schicken'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Anfrageformular: Thema und Anforderungen, Telefonnummer, Emailadresse, Umfang der Texterstellung, Lieferdatum'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: "2.\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Kostenloses Angebot erhalten'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Angebot: Passende Autoren, Kosten für die Aufgabenstellung, Planung der Teillieferungen'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: "3.\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Nach der Zusage: Auftragserteilung der Dienstleistung'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Bearbeitungsprozess des Auftrags, Zwischenstand der Mustervorlage gemeinsam mit Auftraggeber analysieren um Feedbacks umsetzen zu können'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: "4.\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Feinschliff der Musterpräsentation'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Lektorieren und korrigieren der Mustervorlage von einem unabhängigen Bearbeiter, Plagiatsprüfung'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: "5.\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Lieferung der Musterpräsentation'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
+                            text: 'Qualitätsprüfung durch einen Supervisor, Lieferung der Musterpräsentation'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die ganze Kommunikation zwischen dem Auftraggeber und dem qualifizierten Bearbeiter bleibt Anonym. Da der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/gwriters-diskretion-kunden
+                          target: null
+                          rel: null
+                    text: Datenschutz
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' besonders wichtig für unsere Agentur ist, werden auch alle Daten vom Auftraggeber im Anschluss an den Auftrag und die Bereitstellung des wissenschaftlichen Ergebnisses gelöscht.'
               -
                 type: heading
                 attrs:
@@ -2173,10 +833,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
-        single_col: false
+        columns_per_row: 3
+        single_col: true
         grid:
           -
             bard:
@@ -2351,10 +1012,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
       -
-        columns_per_row: 1
-        single_col: false
+        single_col: true
         grid:
           -
             bard:
@@ -2408,87 +1068,1429 @@ replicator:
                           - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
                           - 9944d809-005e-4651-bf9b-5555f0229245
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Was sind Präsentationen?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Unter einer Präsentation oder Referat versteht man das Vortragen und die Visualisierung von Ergebnissen, die man aus der wissenschaftlichen Beschäftigung mit Dokumenten, Sachen, Themen und Problemfeldern gewonnen hat. Die Art der Präsentation (PowerPoint-Präsentation, Vortrag mit Handout, Folien, usw.) wählt der Präsentator selbst oder je nach Vorgabe in Abstimmung auf die Zielgruppe und Situation. Ein schriftliches Manuskript gibt dem Referenten Sicherheit beim Vortrag, hilft ihm, den Roten Faden in seinem Vortrag zu bewahren und schützt ihn davor, wesentliche Aspekte zu vergessen. Neben dem gut vorbereiteten Inhalt spielen Gestik, Mimik, Stimme und Sprache des Sprechers für das Gelingen der Präsentation eine wichtige Rolle bei den Zuhörern.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Genau diese Fehler sollten Sie bei einer Präsentation vermeiden'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Inhalt für PowerPoint-Präsentation:'
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: Fehler
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'So sollte es sein…'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Texte eins zu eins übernehmen'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Zusammenfassen und in Stichpunkten wiedergeben'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Wenige/keine Bilder oder Grafiken einfügen'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Grafiken selbst erstellen, Bilder einfügen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Folien voll beschriften'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Auf andere Folien übertragen, in kurzen und verständlichen Stichpunkten wiedergeben'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Zu buntes PowerPoint Layout erstellen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Schlichtes passendes Präsentationsdesign zum ausgesuchten Thema erstellen'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Zu viele Folien verwenden'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Bei 15 Minutigen Vortrag à 25 Folienanzahl ausreichend'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Folien unsystematisch anordnen'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Die Struktur der Folien einhalten, '
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'die Gliederung sinnvoll aufbauen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Stilmittel: inhaltliche, grammatikalische Fehler'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Gute, verständliche Formulierungen'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Abgehackten Übergänge'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Fließende und passende Inhalts-Übergänge einpflegen'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Langweilige Folien gestalten, Publikum nicht einbinden'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Aufmerksamkeit des Publikums erregen, kreative und abwechslungsreiche Folien gestalten (Besonders in der Einleitung),'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Zeitmangel:'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: ' '
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'mehr oder weniger als die vorgegebene Zeit vortragen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Vorgegebene Zeit einhalten (nicht mehr oder weniger)'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Körpersprache & Vortragsweise:'
+              -
+                type: table
+                content:
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: Fehler
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: bold
+                                text: 'So sollte es sein…'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Häufige Handbewegungen'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Stift oder Karteikarten in die Hand nehmen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Blick auf das Visualisierungstool versperren'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Still bleiben, 1-3 mal Platz wechseln,'
+                              -
+                                type: hard_break
+                              -
+                                type: text
+                                text: 'Folienübergänge mit Fernbedienung umschalten'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Füllwörter wie ehm, also, quasi etc. benutzen'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Ein- und ausatmen, kurz warten und weitersprechen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Zu schnelles oder zu langsames Sprechen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Die Mitte finden, daher vorher oft den Vortrag proben und Feedback von einer dritten Person einholen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Inhalt stumpf auswendig lernen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Inhalt verstehen und verarbeiten,'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'wenn nötig Karteikarten oder Notizen von PowerPoint benutzen'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Erst am Tag vorher auf die Präsentation vorbereiten'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Mindestens eine Woche vorher lernen vorzutragen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Zu lange und komplexe Sätze'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Kurze und verständliche Sätze bilden'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Zu durcheinander über die Inhalte sprechen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Gliederungspunkte folgen,'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'roten Faden finden'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Umgangssprache verwenden'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'In wissenschaftlicher Sprache sprechen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Zu laut oder zu leise sprechen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'An passenden Stellen den Stimmenton höher halten (Besonders am Anfang des Vortrags)'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Bilder/Grafiken zu schnell vortragen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Bilder/Grafiken mit einem Stab zeigen, '
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'alle Fakten und Zahlen in einer Infografik erklären'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Fazit zu kurz formulieren'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Gute Schlussfolgerung formulieren'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Überflüssige Inhalte einpflegen'
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: "\_"
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Über wichtigen Punkte sprechen,'
+                              -
+                                type: hard_break
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Empfehlung: Handout erstellen'
+                  -
+                    type: table_row
+                    content:
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Inhalte auf den Folien überspringen'
+                      -
+                        type: table_cell
+                        attrs:
+                          colspan: 1
+                          rowspan: 1
+                          colwidth: null
+                          background: null
+                        content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Auf alle Folienpunkte eingehen, auch wenn die Zeit nicht ausreicht'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Nichts ohne Präsentationen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Präsentationen von Inhalten sind in keinem Bereich des gesellschaftlichen Lebens wegzudenken. Ob in Schule, Studium, Beruf oder auch in der Freizeit, Ergebnisse werden in Form von Vorträgen zielgruppenorientiert transportiert. An der Qualität der Präsentation wird die Kompetenz des Referenten gemessen. Wer in Vorträgen authentisch auftritt, sich rhetorisch geschult zeigt und inhaltlich überzeugt, kann beruflichen Erfolg verzeichnen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /wiki
+                          target: null
+                          rel: null
+                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
-    remove_spacing: true
+    remove_spacing: false
     border: false
-  -
-    bard:
-      -
-        type: horizontal_rule
-      -
-        type: set
-        attrs:
-          values:
-            type: button
-            button_link: /anfrage
-            button_text: 'JETZT KOSTENLOS ANFRAGEN'
-            color: '#FF6606'
-            spacing_top: false
-      -
-        type: horizontal_rule
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Was sind Präsentationen?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-            text: 'Unter einer Präsentation oder Referat versteht man das Vortragen und die Visualisierung von Ergebnissen, die man aus der wissenschaftlichen Beschäftigung mit Dokumenten, Sachen, Themen und Problemfeldern gewonnen hat. Die Art der Präsentation (PowerPoint-Präsentation, Vortrag mit Handout, Folien, usw.) wählt der Präsentator selbst oder je nach Vorgabe in Abstimmung auf die Zielgruppe und Situation. Ein schriftliches Manuskript gibt dem Referenten Sicherheit beim Vortrag, hilft ihm, den Roten Faden in seinem Vortrag zu bewahren und schützt ihn davor, wesentliche Aspekte zu vergessen. Neben dem gut vorbereiteten Inhalt spielen Gestik, Mimik, Stimme und Sprache des Sprechers für das Gelingen der Präsentation eine wichtige Rolle bei den Zuhörern.'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Nichts ohne Präsentationen'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Präsentationen von Inhalten sind in keinem Bereich des gesellschaftlichen Lebens wegzudenken. Ob in Schule, Studium, Beruf oder auch in der Freizeit, Ergebnisse werden in Form von Vorträgen zielgruppenorientiert transportiert. An der Qualität der Präsentation wird die Kompetenz des Referenten gemessen. Wer in Vorträgen authentisch auftritt, sich rhetorisch geschult zeigt und inhaltlich überzeugt, kann beruflichen Erfolg verzeichnen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
-    type: editor
-    enabled: true
-    show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1659086339
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665064694
 template: default
 meta_title: 'GWriters • professionell Präsentation erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
@@ -2498,12 +2500,10 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'GWriters • professionell Präsentation erstellen lassen'
 og_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-arbeitsgruppe: a_sonstige_arbeiten
 sitemap_active: true
 alternative_page_title: 'Präsentationen erstellen lassen'
+published: true
 ---

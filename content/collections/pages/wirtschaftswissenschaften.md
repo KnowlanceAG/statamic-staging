@@ -131,8 +131,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Wirtschaftswissenschaft Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1665144979
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665068640
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -143,6 +143,7 @@ replicator:
   -
     columns_replicator:
       -
+        single_col: true
         grid:
           -
             bard:
@@ -159,7 +160,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Das Studium der Wirtschaftswissenschaften ist geprägt von zahlreichen wirtschaftlichen Modellen und Ansätzen, von denen es gilt eine möglichst optimale Lösung für ein Problem zu schaffen. Um sich bei der Bewältigung der zahlreichen Abgaben und Ausarbeitungen mit Mustervorlagen helfen zu lassen, können Studenten der Wirtschaftswissenschaften\_"
                   -
@@ -172,7 +173,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -210,7 +211,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Wirtschaftswissenschaften Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                   -
@@ -225,7 +226,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -259,7 +260,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Unsere Wirtschaftswissenschaften-Ghostwriter'
               -
@@ -275,7 +276,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Unser Team von erfahrenen Akademikern aus den Wirtschaftswissenschaften unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen umfassenden individuellen Beistand. Jeder unserer Freelancer und Wirtschaftswissenschaften-Ghostwriter besitzt tiefgründige Fachkenntnisse in seinem speziellen Bereich und kann umfassende Erfahrungen im Erstellen von Mustervorlagen für wirtschaftswissenschaftliche Arbeiten vorweisen. Neben der Beratung und dem Coaching bei der gesamten Arbeit, kann der Ghostwriter auch lediglich als\_"
                   -
@@ -288,7 +289,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -315,7 +316,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -355,30 +356,6 @@ replicator:
                           align: start
                     text: ' beauftragt werden. So wird nicht nur der Student entlastet, sondern auch das qualitative Niveau der Arbeit gehoben und eine bestmögliche Benotung bewirkt.'
               -
-                type: set
-                attrs:
-                  values:
-                    type: video
-                    video: 'https://youtu.be/hINsM8iQTow'
-            show_as_card: false
-        type: row
-        enabled: true
-        single_col: true
-        responsive_columns: 0
-        columns_per_row: 0
-    is_full: false
-    type: add_section
-    enabled: true
-    remove_spacing: false
-    border: false
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -389,7 +366,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Unsere Leistungen'
             show_as_card: false
         type: row
@@ -410,7 +387,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -432,7 +409,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -454,7 +431,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -473,7 +450,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -492,7 +469,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -514,7 +491,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -536,7 +513,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -561,7 +538,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -583,7 +560,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -601,14 +578,8 @@ replicator:
         enabled: true
         single_col: true
         responsive_columns: 0
-    remove_spacing: true
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
       -
+        single_col: true
         grid:
           -
             bard:
@@ -643,24 +614,6 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-            show_as_card: false
-        type: row
-        enabled: true
-        single_col: true
-        responsive_columns: 0
-        columns_per_row: 0
-    is_full: false
-    type: add_section
-    enabled: true
-    remove_spacing: false
-    border: false
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -719,7 +672,7 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     border: false
     type: add_section
@@ -1284,21 +1237,10 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Als Geburtsstunde der Wirtschaftswissenschaft gilt das Jahr 1758, damals veröffentlichte der französische Gelehrte Francois Quesnay sein Werk „Tableau économique”. Er formulierte in diesem das erste Mal die Abhängigkeit von Finanz- und Güterströmen als einen Kreislauf. Bereits vorher gab es Ansätze, die Wirtschaft zu verstehen und Gesetzmäßigkeiten zu entwickeln. So machten sich bereits die Gelehrten und Philosophen der Antike und des Mittelalters daran, die ökonomischen Zusammenhänge aufzudecken. Die absolutistischen Herrscher versuchten den Wohlstand ihrer Staaten zu steigern, indem sie Exporte förderten und Importe erschwerten. Diese Art des Wirtschaftens begründete der Merkantilismus. Erst Adam Smith aber gilt als Vater der modernen Wirtschaftswissenschaft. In seinem Hauptwerk „An Inquiry into the Nature and Causes of the Wealth of Nations” formulierte er erstmals die Idee der „unsichtbaren Hand”, welche die Geschicke des Marktes steuerte. So wurde erstmals der Zusammenhang zwischen Angebot und Nachfrage deutlich. Die klassische Nationalökonomie gilt mittlerweile als überholt, als prägend für die Folgezeit und bis heute aktuell gilt die neoklassische Theorie. Der bedeutendste Wirtschaftswissenschaftler des 20. Jahrhunderts ist wohl John Maynard Keynes, der Begründer des Keynesianismus. Er bestimmte die wirtschaftliche Diskussion bis in die 70er Jahre desselben Jahrhunderts.'
-            show_as_card: false
-        type: row
-        enabled: true
-        single_col: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        single_col: true
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -1478,6 +1420,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        single_col: true
         responsive_columns: 0
         columns_per_row: 0
     is_full: false

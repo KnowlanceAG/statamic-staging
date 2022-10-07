@@ -41,7 +41,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -69,7 +69,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -82,98 +82,91 @@ teaser:
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
-    bard:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'So wie mit dem Schreiben von wissenschaftlichen Arbeiten, konzentrieren sich viele Autoren von GWriters auch auf das professionelle Verfassen von populärwissenschaftlichen Texten wie beispielsweise eBooks. Auf Anfrage erhalten Sie von uns gerne ein Angebot für den letzten Schliff ihres eigenen eBooks oder auch für das Verfassen des gesamten Werks.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: 'Wenn Sie bei Ihrer akademischen Arbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine '
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /anfrage
-                  target: null
-                  rel: null
-            text: 'unverbindliche Anfrage schicken'
-          -
-            type: text
-            marks:
-              -
-                type: bold
-            text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
-      -
-        type: set
-        attrs:
-          values:
-            type: show_sidebar_mobile
-            custom_sidebar_placement: 'on'
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Ghostwriting von eBooks'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Was für das '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting
-                  target: null
-                  rel: null
-            text: Ghostwriting
-          -
-            type: text
-            text: ' von Fach- und Sachbüchern gilt, ist ebenso auf das Schreiben von eBooks zu beziehen. Akademische '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriter
-                  target: null
-                  rel: null
-            text: Ghostwriter
-          -
-            type: text
-            text: ' von eBooks haben das nötige wissenschaftliche und computertechnische Knowhow, um Akademikern bei der Konzeption und beim Verfassen ihrer eBooks zur Seite zu stehen. Akademische Ghostwriter halten sich bei der Erstellung von Texten an wissenschaftliche Arbeitsmethoden, arbeiten diskret unterstützend im Hintergrund und helfen zuverlässig, etwaige zeitliche Vorgaben oder Absprachen einzuhalten. Ein eBook von einem akademischen Ghostwriter schreiben zu lassen, bedeutet, dem eigenen Werk den letzten Schliff zu geben.'
-    type: editor
-    enabled: true
-    show_as_card: false
-  -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: false
+        single_col: true
         grid:
           -
             bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'So wie mit dem Schreiben von wissenschaftlichen Arbeiten, konzentrieren sich viele Autoren von GWriters auch auf das professionelle Verfassen von populärwissenschaftlichen Texten wie beispielsweise eBooks. Auf Anfrage erhalten Sie von uns gerne ein Angebot für den letzten Schliff ihres eigenen eBooks oder auch für das Verfassen des gesamten Werks.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wenn Sie bei Ihrer akademischen Arbeit Unterstützung benötigen, dann können Sie uns gerne sofort eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage schicken'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: show_sidebar_mobile
+                    custom_sidebar_placement: 'on'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriting von eBooks'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Was für das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
+                  -
+                    type: text
+                    text: ' von Fach- und Sachbüchern gilt, ist ebenso auf das Schreiben von eBooks zu beziehen. Akademische '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: ' von eBooks haben das nötige wissenschaftliche und computertechnische Knowhow, um Akademikern bei der Konzeption und beim Verfassen ihrer eBooks zur Seite zu stehen. Akademische Ghostwriter halten sich bei der Erstellung von Texten an wissenschaftliche Arbeitsmethoden, arbeiten diskret unterstützend im Hintergrund und helfen zuverlässig, etwaige zeitliche Vorgaben oder Absprachen einzuhalten. Ein eBook von einem akademischen Ghostwriter schreiben zu lassen, bedeutet, dem eigenen Werk den letzten Schliff zu geben.'
               -
                 type: heading
                 attrs:
@@ -182,14 +175,14 @@ replicator:
                   -
                     type: text
                     text: 'Unsere Leistungen:'
-                  -
-                    type: hard_break
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
-        single_col: false
+        columns_per_row: 3
+        single_col: true
         grid:
           -
             bard:
@@ -364,11 +357,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: false
+        single_col: true
         grid:
           -
             bard:
@@ -422,112 +413,126 @@ replicator:
                           - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
                           - 9944d809-005e-4651-bf9b-5555f0229245
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Was versteht man unter eBooks?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unter einem eBook oder eingedeutscht auch E-Buch oder Digitalbuch versteht man ein Buch in digitaler Form, das die medientypischen Charakteristika des Mediums Buch beibehält. Mit einem eBook können auf dem Bildschirm das Aussehen eines herkömmlichen Buches sowie der Umgang mit diesem, wie z. B. das Umblättern, mit Hilfe des computertypischen Eingabeequipments simuliert werden. Ob ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/ebooks-vs-gedruckte-buecher
+                          target: null
+                          rel: null
+                    text: 'eBook oder ein gedrucktes Buch'
+                  -
+                    type: text
+                    text: ', entscheiden Sie für sich. So finden Sie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/ghostwriter-ebook-finden
+                          target: null
+                          rel: null
+                    text: 'seriöse Ghostwriter für Ihr eBook'
+                  -
+                    type: text
+                    text: '. '
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Wachsende Bedeutung der eBooks'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'EBooks sind im Handel als digitale und portable Kopie eines Originalbuches bereits seit einigen Jahren erhältlich.'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: 'Daneben wächst das Interesse aufstrebender Akademiker und zukunftsorientierter Unternehmer aller Branchen, sich mit einem eigenen eBook und seiner Vermarktung im Internet einen Namen zu machen bzw. neue Zielgruppen zu erreichen. Ein eBook bietet dem interessierten Leser nicht nur die Lektüre des Buches, sondern ermöglicht ihm durch die Hinzugabe der computereigenen Funktionsangebote darüber hinaus die optimale Weiterarbeit an und mit dessen Inhalt. In dieser Weise verwendet, hat sich das eBook durch seine höhere Funktionalität aufgrund der Computertechnologie zu einem eigenständigen Medium entwickelt, das im Bereich wissenschaftlichen Arbeitens nicht mehr wegzudenken ist.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /wiki
+                          target: null
+                          rel: null
+                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
-    remove_spacing: true
+    remove_spacing: false
     border: false
-  -
-    bard:
-      -
-        type: horizontal_rule
-      -
-        type: set
-        attrs:
-          values:
-            type: button
-            button_link: /anfrage
-            button_text: 'JETZT KOSTENLOS ANFRAGEN'
-            color: '#FF6606'
-            spacing_top: false
-      -
-        type: horizontal_rule
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Was versteht man unter eBooks?'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Unter einem eBook oder eingedeutscht auch E-Buch oder Digitalbuch versteht man ein Buch in digitaler Form, das die medientypischen Charakteristika des Mediums Buch beibehält. Mit einem eBook können auf dem Bildschirm das Aussehen eines herkömmlichen Buches sowie der Umgang mit diesem, wie z. B. das Umblättern, mit Hilfe des computertypischen Eingabeequipments simuliert werden. Ob ein '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/ebooks-vs-gedruckte-buecher
-                  target: null
-                  rel: null
-            text: 'eBook oder ein gedrucktes Buch'
-          -
-            type: text
-            text: ', entscheiden Sie für sich. So finden Sie '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/ghostwriter-ebook-finden
-                  target: null
-                  rel: null
-            text: 'seriöse Ghostwriter für Ihr eBook'
-          -
-            type: text
-            text: '. '
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            text: 'Wachsende Bedeutung der eBooks'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'EBooks sind im Handel als digitale und portable Kopie eines Originalbuches bereits seit einigen Jahren erhältlich.'
-          -
-            type: hard_break
-          -
-            type: text
-            text: 'Daneben wächst das Interesse aufstrebender Akademiker und zukunftsorientierter Unternehmer aller Branchen, sich mit einem eigenen eBook und seiner Vermarktung im Internet einen Namen zu machen bzw. neue Zielgruppen zu erreichen. Ein eBook bietet dem interessierten Leser nicht nur die Lektüre des Buches, sondern ermöglicht ihm durch die Hinzugabe der computereigenen Funktionsangebote darüber hinaus die optimale Weiterarbeit an und mit dessen Inhalt. In dieser Weise verwendet, hat sich das eBook durch seine höhere Funktionalität aufgrund der Computertechnologie zu einem eigenständigen Medium entwickelt, das im Bereich wissenschaftlichen Arbeitens nicht mehr wegzudenken ist.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
-    type: editor
-    enabled: true
-    show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658325763
+updated_at: 1665065715
 meta_title: 'Ghostwriter eBook schreiben lassen • GWriters'
 meta_description: 'eBook schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
@@ -536,12 +541,10 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'Ghostwriter eBook schreiben lassen • GWriters'
 og_description: 'eBook schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-arbeitsgruppe: a_sonstige_arbeiten
 sitemap_active: true
 alternative_page_title: 'eBook schreiben lassen'
+published: true
 ---

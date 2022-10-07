@@ -6,7 +6,7 @@ position: Projektmanager
 photo:
   - team/boris-jung-gwriters.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662388469
+updated_at: 1665141364
 link: 'entry::a08fc47e-e3ef-49e1-8b5a-c4d1504d6907'
 use_meta_keywords: false
 no_index_page: false
@@ -16,6 +16,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 show_as_card: false
 og_image: team/boris-jung-gwriters.jpg
-published: true
 email_address: jung@gwriters.de
+published: true
+phone_number: '+49 30 809332362'
 ---

@@ -6,7 +6,7 @@ position: IT-Leiter
 photo:
   - team/benjamin-vordemberge-gwriters.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662388261
+updated_at: 1665141401
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -15,6 +15,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 show_as_card: false
 og_image: team/benjamin-vordemberge-gwriters.jpg
-published: true
 email_address: vordemberge@gwriters.de
+published: true
+phone_number: '+49 30 809332367'
 ---

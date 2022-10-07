@@ -6,7 +6,7 @@ position: Projektmanagerin
 photo:
   - team/lia-krause-gwriters.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662388387
+updated_at: 1665141285
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -15,6 +15,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 link: 'entry::56830505-0c99-46f3-9a17-85266f04d981'
 show_as_card: false
-published: true
 email_address: krause@gwriters.de
+published: true
+phone_number: '+49 30 809332358'
 ---
