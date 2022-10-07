@@ -13,7 +13,46 @@ bard:
     content:
       -
         type: text
-        text: 'Die Entwicklung kundenorientierter Lösungsansätze gehört ebenso zur Expertise von Eric Schütze wie die Arbeit nach akademischen Standards. Die Grundlage dessen obliegt sowohl der Affinität für die Vereinbarkeit von Business und IT im Unternehmenskontext als auch einem Studium der Wirtschaftsinformatik und praktischen Erfahrungen im IT-Consulting. Insbesondere die disruptive Veränderung der Geschäftswelt infolge der Digitalisierung sowie die damit einhergehenden unternehmerischen Handlungsfelder, die sich bspw. auf das Personalmanagement, die Unternehmenskultur, das Change- und Innovationsmanagement beziehen, stellen einen thematischen Schwerpunkt der Arbeit von Eric Schütze dar.'
+        text: 'Die Entwicklung kundenorientierter Lösungsansätze gehört ebenso zur Expertise von Eric Schütze wie die Arbeit nach akademischen Standards. Die Grundlage dessen obliegt sowohl der Affinität für die Vereinbarkeit von '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: /fachrichtungen/bwl
+              target: null
+              rel: null
+        text: Business
+      -
+        type: text
+        text: ' und '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: /fachrichtungen/informatik
+              target: null
+              rel: null
+        text: IT
+      -
+        type: text
+        text: ' im Unternehmenskontext als auch einem Studium der '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: /fachrichtungen/wirtschaftsinformatik
+              target: null
+              rel: null
+        text: Wirtschaftsinformatik
+      -
+        type: text
+        text: ' und praktischen Erfahrungen im IT-Consulting. Insbesondere die disruptive Veränderung der Geschäftswelt infolge der Digitalisierung sowie die damit einhergehenden unternehmerischen Handlungsfelder, die sich bspw. auf das Personalmanagement, die Unternehmenskultur, das Change- und Innovationsmanagement beziehen, stellen einen thematischen Schwerpunkt der Arbeit von Eric Schütze dar.'
 show_as_card: false
 use_meta_keywords: false
 no_index_page: false
@@ -22,5 +61,5 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665148430
+updated_at: 1665150966
 ---
