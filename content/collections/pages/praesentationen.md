@@ -2489,8 +2489,8 @@ replicator:
     remove_spacing: false
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665064694
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1665152718
 template: default
 meta_title: 'GWriters • professionell Präsentation erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
@@ -2506,4 +2506,5 @@ og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Präsentationen erstellen lassen'
 published: true
+arbeitsgruppe: a_sonstige_arbeiten
 ---
