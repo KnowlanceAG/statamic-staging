@@ -6,7 +6,7 @@ position: 'COO & Gründer'
 photo:
   - team/Marcel_Kopper_GWriters-1.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1627300640
+updated_at: 1665141205
 detail_position: 'Chief Operating Officer'
 bard:
   -
@@ -27,7 +27,8 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 show_as_card: false
+published: true
+phone_number: '+49 30 809332313'
+email_address: info@gwriters.de
 ---
