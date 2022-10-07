@@ -13,7 +13,33 @@ bard:
     content:
       -
         type: text
-        text: 'Illya Goriach ist im Fachbereich Controlling sowohl in der Forschung als auch der Lehre tätig. Im Rahmen seiner akademischen Ausbildung, hat Illya Goriach sich insbesondere auf die Fachbereiche Investition und Finanzierung, Controlling, Marketing, Innovationsmanagement, Technologiemanagement und Social Media fokussiert. Als Ghostwriter bei GWriters ist er in der Lage, seine Erfahrung und Fähigkeiten täglich einzusetzen und Andere beim Erreichen ihrer Ziele zu unterstützen. Als Ghostwriter legt Illya Goriach einen hohen Wert auf einen professionellen Umgang mit Kunden und deren Zufriedenheit. Darüber hinaus spricht  er fünf Sprachen und verfügt über die Fähigkeit, sich schnell und gründlich in neue Themen einzuarbeiten.'
+        text: 'Illya Goriach ist im Fachbereich Controlling sowohl in der Forschung als auch der Lehre tätig. Im Rahmen seiner akademischen Ausbildung, hat Illya Goriach sich insbesondere auf die Fachbereiche Investition und '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: /fachrichtungen/finanzwissenschaften
+              target: null
+              rel: null
+        text: Finanzierung
+      -
+        type: text
+        text: ', Controlling, '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: /fachrichtungen/marketing
+              target: null
+              rel: null
+        text: Marketing
+      -
+        type: text
+        text: ', Innovationsmanagement, Technologiemanagement und Social Media fokussiert. Als Ghostwriter bei GWriters ist er in der Lage, seine Erfahrung und Fähigkeiten täglich einzusetzen und Andere beim Erreichen ihrer Ziele zu unterstützen. Als Ghostwriter legt Illya Goriach einen hohen Wert auf einen professionellen Umgang mit Kunden und deren Zufriedenheit. Darüber hinaus spricht  er fünf Sprachen und verfügt über die Fähigkeit, sich schnell und gründlich in neue Themen einzuarbeiten.'
 show_as_card: false
 use_meta_keywords: false
 no_index_page: false
@@ -22,5 +48,5 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665149687
+updated_at: 1665150892
 ---
