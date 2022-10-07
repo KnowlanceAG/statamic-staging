@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'schneller lesen Buch: Tony Buzan'
+  imagelink: 'https://www.youtube.com/watch?v=QEokHNWf-Qg'
 size: 35152
 last_modified: 1665146560
 width: 341
