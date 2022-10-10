@@ -152,6 +152,13 @@ fields:
           display: "Sidebar mobil hier darstellen"
           fields:
             - import: sidebar_element
+            -
+              import: sidebar_element
+        experten_slider:
+          display: 'Experten Liste Slider'
+          fields:
+            -
+              import: experten_slider
       container: assets
       enable_input_rules: true
       enable_paste_rules: true
