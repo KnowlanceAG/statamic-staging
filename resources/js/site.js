@@ -1,5 +1,6 @@
 import 'alpinejs'
 import './components/cookieconsent/dist/cookieconsent.js'
+import { tns } from "tiny-slider"
 
 //  nav consts
 const body = document.querySelector('.body')
@@ -301,6 +302,24 @@ function cookienotice () {
   for (const link of consentSettingsLinks) {
     link.addEventListener('click', () => cookieconsent.showSettings())
   }
+}
+
+if (document.querySelector('.expert-slider')) {
+  tns({
+    container: '.expert-slider',
+    items: 1,
+    slideBy: 'page',
+    autoplay: false,
+    controlsPosition: 'bottom',
+    mouseDrag: true,
+    controlsContainer: "#customize-controls",
+    responsive: {
+      1024: {
+        items: 2,
+        gutter: 55
+      }
+    }
+  })
 }
 
 const ready = callback => {
