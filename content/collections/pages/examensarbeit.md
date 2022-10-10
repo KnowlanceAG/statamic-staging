@@ -1199,7 +1199,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -1326,8 +1326,8 @@ replicator:
     remove_spacing: false
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1665152745
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665399561
 meta_title: 'Examensarbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Examensarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Examensarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
@@ -1343,6 +1343,6 @@ og_image: GWriters-Logo.png
 sitemap_active: true
 page_title: 'Examensarbeit schreiben lassen • Ghostwriter von GWriters'
 alternative_page_title: 'Examensarbeit schreiben lassen'
-published: true
 arbeitsgruppe: a_abschlussarbeiten
+published: true
 ---
