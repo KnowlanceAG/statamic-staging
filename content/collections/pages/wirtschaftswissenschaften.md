@@ -1436,4 +1436,5 @@ og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Wirtschaftswissenschaften Ghostwriter'
 published: true
+fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 ---

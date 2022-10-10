@@ -2824,7 +2824,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1662368640
+updated_at: 1665146327
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2877,4 +2877,5 @@ sitemap_active: true
 page_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
 alternative_page_title: 'Doktorarbeit schreiben lassen'
 published: true
+arbeitsgruppe: a_abschlussarbeiten
 ---
