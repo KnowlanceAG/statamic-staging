@@ -2669,218 +2669,207 @@ replicator:
                               color: '#000!important'
                               hex: '#000'
                         text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Einige unserer Blogartikel zum Thema Hausarbeit'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: blog_entries
+                    entries:
+                      - 65463e24-c877-41a0-9331-f3112d4ecc02
+                      - 78e588a4-2c02-44b9-b5b1-e7a880e0b64c
+                      - a714a5f1-abe3-4915-ab56-268753205e28
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 40
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Weitere Links & Referenzen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.bmbf.de/de/der-bologna-prozess-die-europaeische-studienreform-1038.html'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Bologna Prozess - Deutsches Bundesministerium für Bildung und Forschung'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www2.daad.de/hochschulen/ausschreibungen/projekte/de/11342-foerderprogramme-finden/?projektid=57317077&s=1'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Bachelor Plus - Deutscher Akademischer Austauschdienst'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=LEGISSUM:c11088'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Bologna Prozess - Europäisches Recht'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://de.wikipedia.org/wiki/Ghostwriter'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Ghostwriter - Wikipedia'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://de.wikipedia.org/wiki/Bachelorarbeit'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Bachelorarbeit - Wikipedia'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.bildungsserver.de/Zur-Einfuehrung-von-Bachelor-und-Master-Studiengaengen-in-Deutschland-2534-de.html'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Zur Einführung von Bachelor- und Masterstudiengängen - Deutscher Bildungsserver'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: link
+                        attrs:
+                          href: /wiki
+                          target: null
+                          rel: null
+                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     border: false
     type: add_section
     enabled: true
-  -
-    bard:
-      -
-        type: set
-        attrs:
-          values:
-            type: spacer
-            padding-y: 30
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-            text: 'Einige unserer Blogartikel zum Thema Hausarbeit'
-      -
-        type: set
-        attrs:
-          values:
-            type: blog_entries
-            entries:
-              - 65463e24-c877-41a0-9331-f3112d4ecc02
-              - 78e588a4-2c02-44b9-b5b1-e7a880e0b64c
-              - a714a5f1-abe3-4915-ab56-268753205e28
-      -
-        type: set
-        attrs:
-          values:
-            type: spacer
-            padding-y: 40
-      -
-        type: heading
-        attrs:
-          level: 2
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-            text: 'Weitere Links & Referenzen'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: 'https://www.bmbf.de/de/der-bologna-prozess-die-europaeische-studienreform-1038.html'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Bologna Prozess - Deutsches Bundesministerium für Bildung und Forschung'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: 'https://www2.daad.de/hochschulen/ausschreibungen/projekte/de/11342-foerderprogramme-finden/?projektid=57317077&s=1'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Bachelor Plus - Deutscher Akademischer Austauschdienst'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: 'http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=LEGISSUM:c11088'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Bologna Prozess - Europäisches Recht'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: 'https://de.wikipedia.org/wiki/Ghostwriter'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Ghostwriter - Wikipedia'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: 'https://de.wikipedia.org/wiki/Bachelorarbeit'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Bachelorarbeit - Wikipedia'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: 'https://www.bildungsserver.de/Zur-Einfuehrung-von-Bachelor-und-Master-Studiengaengen-in-Deutschland-2534-de.html'
-                  target: _blank
-                  rel: 'noopener noreferrer nofollow'
-            text: 'Zur Einführung von Bachelor- und Masterstudiengängen - Deutscher Bildungsserver'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: bold
-              -
-                type: textAlign
-                attrs:
-                  align: center
-              -
-                type: link
-                attrs:
-                  href: /wiki
-                  target: null
-                  rel: null
-            text: '< zurück zur Wiki Übersicht'
-      -
-        type: set
-        attrs:
-          values:
-            type: spacer
-            padding-y: 40
-    type: editor
-    enabled: true
-    show_as_card: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1665152657
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665399442
 template: default
 use_meta_keywords: false
 no_index_page: false
