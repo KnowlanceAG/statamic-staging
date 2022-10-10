@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -132,20 +132,17 @@ page_title: 'Literatur Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658324635
+updated_at: 1665401886
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -259,75 +256,15 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Ghostwriter & Literaturwissenschaft'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: "Unsere\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: null
-                          rel: null
-                    text: Ghostwriter
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: "\_und Freelancer in diesem Bereich beschäftigen oder beschäftigten sich hauptberuflich mit verschiedener Literatur. So sind viele von ihnen Mitarbeiter einer Bibliothek oder eines Verlages. Sie haben genügend Erfahrung mit wissenschaftlichen Arbeitsweisen und können Ihnen bei Ihrer Präsentation, Ihrer Abschlussarbeit oder jeder anderen Form einer akademischen Ausarbeitung umfassenden individuellen Beistand in From von Mustervorlagen bieten."
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
                     text: 'Unsere Leistungen'
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         grid:
           -
             bard:
@@ -529,19 +466,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
+        single_col: true
+        responsive_columns: 0
       -
-        columns_per_row: 1
+        single_col: true
         grid:
           -
             bard:
@@ -576,25 +504,24 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
-      -
-        columns_per_row: 1
-        grid:
-          -
-            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Ghostwriter & Literaturwissenschaft'
               -
                 type: paragraph
                 content:
@@ -608,7 +535,50 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Unsere\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: "\_und Freelancer in diesem Bereich beschäftigen oder beschäftigten sich hauptberuflich mit verschiedener Literatur. So sind viele von ihnen Mitarbeiter einer Bibliothek oder eines Verlages. Sie haben genügend Erfahrung mit wissenschaftlichen Arbeitsweisen und können Ihnen bei Ihrer Präsentation, Ihrer Abschlussarbeit oder jeder anderen Form einer akademischen Ausarbeitung umfassenden individuellen Beistand in From von Mustervorlagen bieten."
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
                           hex: '#000'
                     text: "Der akademische Freelancer arbeitet sowohl als\_"
                   -
@@ -621,7 +591,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -640,7 +610,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: ",\_"
                   -
@@ -653,7 +623,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -672,7 +642,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "\_und Übersetzer, kann außerdem auch beim Verfassen der Ausarbeitung und der Textredaktion unterstützen. Wenn der Student beispielsweise Hilfe bei der Bachelorarbeit benötigt, unterstützt der akademische Freelancer mit einem individuellen Coaching und einer umfassenden Betreuung. Dadurch lernt der Student zum einen die kritischen Erfolgsfaktoren beim Verfassen wissenschaftlicher Arbeit kennen, zum anderen wird die Qualität der Arbeit entsprechend verbessert, wodurch natürlich auch die Bewertung besser ausfällt. Einige Studenten beauftragen einen Literaturwissenschaften-Ghostwriter mit der Erstellung einer gesamten wissenschaftlichen Ausarbeitung. Diese\_"
                   -
@@ -685,7 +655,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -704,7 +674,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: '-Ausarbeitung wird von Studenten als Mustervorlage verwendet, wenn es sich um Prüfungsleistungen handelt.'
               -
@@ -735,7 +705,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Über die Literaturwissenschaft'
               -
@@ -751,7 +721,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Die Wissenschaft der Literatur hat ihren Ursprung im 19. Jahrhundert, jedoch reicht die Entstehung der Literatur an sich noch weiter zurück. Geprägt wurde die Literaturwissenschaft von mehreren Bereichen, angefangen mit der wissenschaftlichen Publikation, über die Rhetorik und der Poesie, welche aus dem universitären Bereich stammen, bis hin zur Theater- und letztlich der Medienwissenschaft. Zu dem Studium gehören Veranstaltungen aus der Philosophie, Sprachwissenschaft, Religionswissenschaft und zahlreiche andere Bereiche. Zudem werden die Werke übergreifend aus verschiedenen Kulturen und Ländern behandelt.'
               -
@@ -769,7 +739,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Studium der Literaturwissenschaft'
               -
@@ -794,7 +764,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Im Bereich des Studiums wird zwischen der allgemeinen Literaturwissenschaft und der vergleichenden Literaturwissenschaft unterschieden. Die Universitäten fordern von den Studenten im Studium der Literaturwissenschaft verschiedene Abgaben in Form einer Hausarbeit, Seminararbeit oder Examensarbeit und andere Formen der Ausarbeitung zur Bewertung. Regulär werden die Abschlussbezeichnungen Bachelor Arts (B.A.) und Master of Arts (M.A.) vergeben.'
               -
@@ -810,7 +780,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Die Studiendauer liegt für den Bachelor bei 6 Semestern und bei weiteren 2 bis 4 Semestern (meist 4) für den anschließenden Master. Ein Masterstudium der Literaturwissenschaften hat folglich eine Studiendauer von 10 Semestern, dies entspricht 300 ECTS-Punkten. Zur Vorbereitung auf die Examensarbeit (Bachelorarbeit oder Masterarbeit) lassen die Hochschulen von ihren Studenten der Literaturwissenschaften pro Semester mindestens eine Seminararbeit schreiben lassen.'
               -
@@ -828,7 +798,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: Disclaimer
               -
@@ -844,7 +814,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
@@ -862,7 +832,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Nützliche Weblinks:'
               -
@@ -878,7 +848,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -904,7 +874,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -930,7 +900,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -956,7 +926,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -980,11 +950,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -997,4 +965,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_geisteswissenschaften
 sitemap_active: true
 alternative_page_title: 'Literatur Ghostwriter'
+published: true
 ---
