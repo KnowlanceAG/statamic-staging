@@ -2822,12 +2822,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
-              -
                 type: blockquote
                 content:
                   -
@@ -2850,25 +2844,6 @@ replicator:
                               color: '#000!important'
                               hex: '#000'
                         text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: true
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: false
-        grid:
-          -
-            bard:
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -2892,8 +2867,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: 40
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -2968,8 +2941,6 @@ replicator:
                     text: 'Formvorgaben für Seminararbeiten - Westfälische Wilhelms-Universität Münster'
               -
                 type: paragraph
-              -
-                type: paragraph
                 content:
                   -
                     type: text
@@ -2998,8 +2969,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1665146218
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665399324
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3050,6 +3021,6 @@ schema_objects: |-
   </script>
 sitemap_active: true
 alternative_page_title: 'Seminararbeit schreiben lassen'
-published: true
 arbeitsgruppe: a_studienarbeiten
+published: true
 ---
