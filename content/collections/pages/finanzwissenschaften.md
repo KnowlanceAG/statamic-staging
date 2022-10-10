@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -132,20 +132,17 @@ page_title: 'Finanzwissenschaften Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658324652
+updated_at: 1665402702
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -373,10 +370,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         grid:
           -
             bard:
@@ -578,19 +576,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
+        single_col: true
+        responsive_columns: 0
       -
-        columns_per_row: 1
+        single_col: true
         grid:
           -
             bard:
@@ -625,25 +614,6 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
-      -
-        columns_per_row: 1
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -659,7 +629,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Über Finanzwissenschaften'
               -
@@ -675,7 +645,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Innerhalb der Geschichte gibt es schon seit der frühen Antike Aufzeichnungen über finanzielle Abgaben in Form von Steuern. Der Begriff der Finanzwissenschaft bezeichnet heute jedoch einen weitaus größeren Bereich als früher. Mittlerweile werden nicht nur private Haushalte sondern auch die gesamte Wirtschaft mit ihren Theorien und ihrer Politik beleuchtet. Gerade deshalb ist es schwierig, die gesamte Wissenschaft der Finanzen zu erfassen. In den vergangenen Jahren hat sich der Begriff der Finanzwissenschaften gewandelt, so werden mittlerweile auch die Verwendung der Ressourcen von Volkswirtschaften, die Wechselwirkungen von Einkommen und Beschäftigung und Probleme der Einkommens- und Vermögensverteilung untersucht.'
               -
@@ -691,7 +661,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'An vielen Universitäten und Hochschulen wird die Finanzwissenschaft als solche angeboten, jedoch ist sie auch ein wesentlicher Bestandteil der Volkswirtschaftslehre und somit auch häufig als Teilbereich in deren Studiengang enthalten. Um die Finanzwissenschaft in ihrer Grundgesamtheit erfassen zu können, werden im Studiengang alle beeinflussenden Aspekte beleuchtet. Dabei erweisen sich die Anforderungen im Studium als äußerst vielseitig, aus welchem Grund Studenten in einigen Fachgebieten der Finanzwissenschaften Hilfe benötigen.'
               -
@@ -707,7 +677,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Studenten wenden sich in solchen Fällen oftmals an Ghostwriter und andere akademische Freelancer. Letztere leisten Unterstützung bei der Suche nach relevanter und hochwertiger Literatur, erstellen einen fachlichen Leitfaden oder lektorieren oder korrigieren die bereits durch den Studenten erstellte Ausarbeitung. Beim\_"
                   -
@@ -720,7 +690,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -765,7 +735,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Finanzwissenschaftliches Studium'
               -
@@ -781,7 +751,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Das Studium der Finanzwissenschaften bestand ehemals aus dem Magister- und Diplomstudiengang. Als Examensarbeit galten dabei die Magisterarbeit und die Diplomarbeit.'
               -
@@ -806,7 +776,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Im Zuge des Bologna-Prozesses wurden die Bachelor- und Masterstudiengänge eingeführt. Für den Abschluss des Bachelorstudiengangs ist es üblich, dass Lehrinstitute von ihren Studenten der Finanzwissenschaften eine Bachelorarbeit schreiben lassen. Etwa 70% der Bachelorstudenten der Finanzwissenschaften führen ihr Studium mit dem Master fort, welcher nach 4 Semestern und einer Masterarbeit abgeschlossen wird. Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen.'
               -
@@ -824,7 +794,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: Disclaimer
               -
@@ -840,7 +810,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
@@ -858,7 +828,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Nützliche Weblinks'
               -
@@ -874,7 +844,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -900,7 +870,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -926,7 +896,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -950,11 +920,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -967,4 +935,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'Finanzwissenschaften Ghostwriter'
+published: true
 ---

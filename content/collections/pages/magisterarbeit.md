@@ -919,17 +919,20 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
                     text: Disclaimer
               -
-                type: paragraph
+                type: blockquote
                 content:
                   -
-                    type: text
-                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+                    type: paragraph
+                    content:
+                      -
+                        type: text
+                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
                 type: heading
                 attrs:
@@ -1047,8 +1050,8 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1665152676
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665399547
 meta_title: 'Magisterarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Magisterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Plagiate.'
 use_meta_keywords: false
@@ -1062,6 +1065,6 @@ og_description: 'Magisterarbeit schreiben lassen & Hilfe vom akademischen Ghostw
 og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Magisterarbeit schreiben lassen'
-published: true
 arbeitsgruppe: a_abschlussarbeiten
+published: true
 ---

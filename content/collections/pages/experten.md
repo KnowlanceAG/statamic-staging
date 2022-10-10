@@ -4,8 +4,8 @@ blueprint: pages
 title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655221910
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665405604
 teaser:
   -
     type: heading
@@ -38,7 +38,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -66,7 +66,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '25'
+        padding-y: 25
   -
     type: paragraph
     content:
@@ -95,7 +95,6 @@ replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -120,9 +119,9 @@ replicator:
         type: row
         enabled: true
         single_col: false
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -183,10 +182,9 @@ replicator:
         type: row
         enabled: true
         single_col: false
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -202,10 +200,15 @@ replicator:
               - 1afd0ee6-02cf-44ee-86a3-9d7b2992ad91
               - bdab7ac8-0923-4d8c-b848-caa250aa5e62
               - ba5d8a21-c7c4-4743-931e-ef2dfef89cc9
-              - 6fd5f928-d931-42b1-b5eb-8f395f5bd71e
               - ece9c0d8-5e69-4361-a79d-acbdb0675182
-      -
-        type: paragraph
+              - 5bbd2a1b-3cbe-423a-8557-bd86be4fabf6
+              - 682e727e-01a6-4404-b346-59a732bc38e7
+              - 83109076-1fe8-49c2-9fd0-195ddadead51
+              - 8237be5e-4438-4b5b-94e6-d80f2f590ad5
+              - 6fd5f928-d931-42b1-b5eb-8f395f5bd71e
+              - ff5a8835-3e93-4d7c-9aa9-5ce0b70c47cc
+              - 75d4fab6-ece8-4981-a963-a48e457b3f56
+              - a66fcf42-7a09-43e7-b46b-535a147a7033
     type: editor
     enabled: true
     show_as_card: false
@@ -218,7 +221,6 @@ replicator:
     enabled: true
     columns_replicator:
       -
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -228,19 +230,19 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '50'
+                    padding-y: 50
               -
                 type: paragraph
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     border: false
   -
     columns_replicator:
       -
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -316,15 +318,16 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
+                    padding-y: 30
               -
                 type: paragraph
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         single_col: false
         grid:
           -
@@ -419,9 +422,8 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
       -
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -431,7 +433,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
+                    padding-y: 30
               -
                 type: set
                 attrs:
@@ -498,10 +500,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -512,8 +513,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'Unsere Experten • GWriters'
 meta_title: 'Unsere Experten • GWriters'
 meta_description: 'Bei GWriters setzen wir auf Diskretion und Transparenz! Erfahren Sie hier mehr über unsere akademischen Ghostwriter und wie diese Sie unterstützen.'
@@ -521,6 +520,7 @@ og_title: 'Unsere Experten • GWriters'
 og_description: 'Bei GWriters setzen wir auf Diskretion und Transparenz! Erfahren Sie hier mehr über unsere akademischen Ghostwriter und wie diese Sie unterstützen.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 content:
   -
     type: heading

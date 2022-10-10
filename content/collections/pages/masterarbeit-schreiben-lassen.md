@@ -2386,12 +2386,6 @@ replicator:
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 40
             show_as_card: false
         type: row
         enabled: true
@@ -2403,8 +2397,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1665146273
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665399478
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2456,6 +2450,6 @@ schema_objects: |-
 sitemap_active: true
 page_title: 'Masterarbeit schreiben lassen • Ghostwriting von GWriters'
 alternative_page_title: 'Masterarbeit schreiben lassen'
-published: true
 arbeitsgruppe: a_abschlussarbeiten
+published: true
 ---
