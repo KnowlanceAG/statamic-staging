@@ -7,14 +7,14 @@
                   <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-auto" />
                   {{ if caption }}
                       <figcaption class="text-center">
-                          <i class="text-sm text-gray-550">{{ caption }}</i>
+                          <i class="text-sm text-gray-550">{{ caption | shortcode }}</i>
                       </figcaption>
                   {{ /if }}
               {{ else }}
                   {{ responsive:assets alt="{assets:alt}" class="" }}
                   {{ if caption }}
                       <figcaption class="text-center">
-                          <i class="text-sm text-gray-550">{{ caption }}</i>
+                          <i class="text-sm text-gray-550">{{ caption | shortcode }}</i>
                       </figcaption>
                   {{ /if }}
               {{ /if }}
@@ -27,14 +27,14 @@
                     <img src="{{ url }}" alt="{{ alt }}" class="w-32 h-auto" />
                     {{ if caption }}
                         <figcaption class="text-center">
-                            <i class="text-sm text-gray-550">{{ caption }}</i>
+                            <i class="text-sm text-gray-550">{{ caption | shortcode }}</i>
                         </figcaption>
                     {{ /if }}
                 {{ else }}
                     {{ responsive:assets alt="{alt}" class="" }}
                     {{ if caption }}
                         <figcaption class="text-center">
-                            <i class="text-sm text-gray-550">{{ caption }}</i>
+                            <i class="text-sm text-gray-550">{{ caption | shortcode }}</i>
                         </figcaption>
                     {{ /if }}
                 {{ /if }}

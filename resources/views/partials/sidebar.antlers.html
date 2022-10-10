@@ -2,7 +2,7 @@
     <div class="card bg-gray-200 flex flex-col">
         <div class="card-header py-3 w-full bg-gray-300 text-center">
             <h5>
-                {{ header_text }}
+                {{ header_text | shortcode }}
             </h5>
         </div>
         <div class="card-body px-8 pt-3 pb-12 text-center flex flex-col">
@@ -20,8 +20,8 @@
                         <path
                             d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                     </svg>
-                    <a href="tel:{{ localized_contact_data:phone-de }}" class="text-black -mt-1 visible-de">{{ localized_contact_data:phone-de }}</a>
-                    <a href="tel:{{ localized_contact_data:phone-ch }}" class="text-black -mt-1 visible-ch">{{ localized_contact_data:phone-ch }}</a>
+                    <a href="tel:{{ localized_contact_data:phone_de_DE }}" class="text-black -mt-1 visible-de">{{ localized_contact_data:phone_de_DE }}</a>
+                    <a href="tel:{{ localized_contact_data:phone_de_CH }}" class="text-black -mt-1 visible-ch">{{ localized_contact_data:phone_de_CH }}</a>
                 </span>
             </p>
             <p class="flex justify-center">
@@ -30,12 +30,12 @@
                         <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                         <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                     </svg>
-                    <a href="mailto:{{ localized_contact_data:mail-address-de }}" class="text-black -mt-1 visible-de">{{ localized_contact_data:mail-address-de }}</a>
-                    <a href="mailto:{{ localized_contact_data:mail-address-ch }}" class="text-black -mt-1 visible-ch">{{ localized_contact_data:mail-address-ch }}</a>
+                    <a href="mailto:{{ localized_contact_data:mail_address_de_DE }}" class="text-black -mt-1 visible-de">{{ localized_contact_data:mail_address_de_DE }}</a>
+                    <a href="mailto:{{ localized_contact_data:mail_address_de_CH }}" class="text-black -mt-1 visible-ch">{{ localized_contact_data:mail_address_de_CH }}</a>
                 </span>
             </p>
             <a href="{{ link:url }}" class="arrow px-10 py-3 mt-4 inline-block bg-orange-500 text-white font-300 uppercase hover:bg-orange-700 transition-colors duration-200">
-                {{ button_text }}
+                {{ button_text | shortcode }}
             </a>
             <p class="px-4 mt-4 text-xs leading-4">
                 {{ description }}

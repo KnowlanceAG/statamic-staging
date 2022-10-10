@@ -1,0 +1,44 @@
+sections:
+  main:
+    display: Hauptteil
+    fields:
+      -
+        handle: phone_de_DE
+        field:
+          type: text
+          display: 'Telefonnummer DE'
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          input_type: text
+          antlers: false
+      -
+        handle: mail_address_de_DE
+        field:
+          type: text
+          display: 'E-Mail-Adresse DE'
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          input_type: text
+          antlers: false
+      -
+        handle: phone_de_CH
+        field:
+          type: text
+          display: 'Telefonnummer CH'
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          input_type: text
+          antlers: false
+      -
+        handle: mail_address_de_CH
+        field:
+          type: text
+          display: 'E-Mail-Adresse CH'
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          input_type: text
+          antlers: false

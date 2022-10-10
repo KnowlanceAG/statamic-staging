@@ -10,7 +10,7 @@
                     <!-- hr -->
                 </div>
 
-                <p class="text-center uppercase mb-0"><strong>{{ headline }}</strong></p>
+                <p class="text-center uppercase mb-0"><strong>{{ headline | shortcode }}</strong></p>
                 <div class="hidden-content opacity-0 p-4 flex flex flex-wrap content-center absolute top-0 left-0 w-full h-full bg-white text-center">
                     {{ hover_content | wrap:p.text-orange-500.text-xs.mb-0 }}
                 </div>
