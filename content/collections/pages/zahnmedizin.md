@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -132,20 +132,17 @@ page_title: 'Zahnmedizin Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658324666
+updated_at: 1665402822
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -298,10 +295,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         grid:
           -
             bard:
@@ -503,19 +501,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
+        single_col: true
+        responsive_columns: 0
       -
-        columns_per_row: 1
+        single_col: true
         grid:
           -
             bard:
@@ -550,29 +539,8 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
-      -
-        columns_per_row: 1
-        grid:
-          -
-            bard:
               -
-                type: heading
-                attrs:
-                  level: 2
+                type: horizontal_rule
               -
                 type: set
                 attrs:
@@ -599,7 +567,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Allgemeines zur Zahnmedizin'
               -
@@ -615,7 +583,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Die Zahnmedizin ist eine Spezialdisziplin der Humanmedizin und befasst sich mit der Vermeidung, Erkennung und Heilung von gesundheitlichen Problemen im Mund- und Kieferbereich. Jedoch wirken sich Erkrankungen im Mundbereich oft auf die angrenzenden funktionellen Gebiete des menschlichen Körpers aus. Auch Krankheiten im Körper haben Einfluss auf die Mundgesundheit, daher muss sich ein Zahnarzt auch in anderen Bereichen des Körpers auskennen. Das Studium der Zahnmedizin hat Überschneidungen mit dem der allgemeinen Humanmedizin und ist sehr umfangreich.'
               -
@@ -880,7 +848,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Geschichte der Zahnmedizin'
               -
@@ -905,7 +873,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Die Dokumentation der Behandlung von Zahnerkrankung reicht zurück bis in die früheste Antike. Es ist davon auszugehen, dass es auch schon vorher zahnmedizinische Behandlungen gab. Im alten Ägypten wurde Zahnmedizin betrieben, dies ist schriftlich belegt und geht aus dem Papyrus Ebers hervor (einem Papyrus, in welchem Diagnosen und medizinische Behandlungen von Gesundheitsproblemen aufgeführt werden).'
               -
@@ -921,7 +889,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Im Mittelalter war die Vorstellung verbreitet, hat man Zahnschmerzen, fresse sich ein Wurm durch den Zahnschmelz. Um diesem beizukommen, behandelte man den Zahn mit einem glühenden Eisenstab und zerstörte so den Karies und die schmerzbereitenden Nerven. Eine andere Methode war die Abtötung der Pulpa (oft gebraucht aber falsch: Zahnnerv) mit Hilfe von Arsenpaste. Zur Zahnhygiene wurde ein Holzstäbchen benutzt, welches an einem Ende auffaserte, als Zahnpasta oft Kräutergemische oder Alaun.'
               -
@@ -937,7 +905,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Mit zunehmendem technischem Fortschritt entwickelten sich auch die Fertigkeiten im Bereich der Zahnmedizin weiter, so wurden beispielsweise Tierzähne als Implantate verwendet. Die Behandlung von Zahnproblemen war eine schmerzhafte Angelegenheit für die Patienten. Ohne Betäubungsmittel mussten sie die Prozedur durchstehen, nicht wenige verloren dabei das Bewusstsein. Die moderne Zahnmedizin ist heute so weit fortgeschritten, dass die Angst vorm Zahnarzt eigentlich der Vergangenheit angehören sollte. Manche Behandlungen sind unangenehm, jedoch sind die meisten so gut wie schmerzfrei durchzustehen, da auf ein reichhaltiges Sortiment an Narkotika und Sedativa zurückgegriffen werden kann.'
               -
@@ -1006,7 +974,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -1038,7 +1006,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1057,7 +1025,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                   -
                     type: text
@@ -1069,7 +1037,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1088,7 +1056,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                   -
                     type: text
@@ -1100,7 +1068,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1119,7 +1087,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                   -
                     type: text
@@ -1131,7 +1099,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1150,7 +1118,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                   -
                     type: text
@@ -1162,7 +1130,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1181,7 +1149,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                   -
                     type: text
@@ -1195,7 +1163,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1207,11 +1175,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -1224,4 +1190,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_medizinische_fachrichtungen
 sitemap_active: true
 alternative_page_title: 'Zahnmedizin Ghostwriter'
+published: true
 ---
