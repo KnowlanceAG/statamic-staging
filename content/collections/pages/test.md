@@ -4,10 +4,25 @@ published: false
 blueprint: pages
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1665412735
+updated_at: 1665419692
 replicator:
   -
     bard:
+      -
+        type: set
+        attrs:
+          values:
+            type: experten_slider
+            experts:
+              - bdab7ac8-0923-4d8c-b848-caa250aa5e62
+              - 682e727e-01a6-4404-b346-59a732bc38e7
+              - ba5d8a21-c7c4-4743-931e-ef2dfef89cc9
+              - a66fcf42-7a09-43e7-b46b-535a147a7033
+              - ff5a8835-3e93-4d7c-9aa9-5ce0b70c47cc
+      -
+        type: paragraph
+      -
+        type: paragraph
       -
         type: paragraph
         content:
