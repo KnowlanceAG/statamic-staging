@@ -132,7 +132,7 @@ page_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665511606
+updated_at: 1665511779
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -476,12 +476,6 @@ replicator:
                   -
                     type: text
                     text: ' oder verschiedene Teilbereiche von Leistungen in Auftrag geben. So ist es auch üblich, dass der Ghostwriter den Studenten bereits bei der Suche nach der passenden Literatur unterstützt, ihm bei der Texterstellung beratend zur Seite steht oder eine bereits durch den Studenten fertig geschriebene Arbeit lektoriert und korrigiert. Auch ein Coaching und Training ist möglich, um den Studenten in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
             show_as_card: false
         type: row
         enabled: true
@@ -550,14 +544,6 @@ replicator:
                           - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
                           - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
                           - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 10
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -734,12 +720,6 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: 30
-              -
-                type: set
-                attrs:
-                  values:
                     type: example_work
                     ex_img_right: false
                     ex_image: seiten/besipielarbeit.JPG
@@ -752,12 +732,6 @@ replicator:
                     ex_spacing_top: false
                     ex_fachbereich:
                       - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
               -
                 type: heading
                 attrs:
@@ -933,12 +907,6 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: 63
-              -
-                type: set
-                attrs:
-                  values:
                     type: bilder
                     assets:
                       - seiten/fachrichtungen/Ghostwriter_BWL_Studium_Aufbau-1.png
@@ -1062,22 +1030,10 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: 30
-              -
-                type: set
-                attrs:
-                  values:
                     type: bilder
                     assets:
                       - seiten/fachrichtungen/BWL-Ghostwriter.png
                     has_border: false
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
               -
                 type: paragraph
                 content:
@@ -1119,7 +1075,7 @@ replicator:
   -
     columns_replicator:
       -
-        single_col: false
+        single_col: true
         grid:
           -
             bard:
@@ -1145,14 +1101,6 @@ replicator:
                       - be1aacde-86af-4b82-9a8b-10b05c6743b5
                       - d61b6932-74b9-4ece-9da6-a54a1265c9a3
                       - 0408641d-3a59-44ce-a059-1b75afd3ecc4
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 40
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1285,12 +1233,6 @@ replicator:
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 20
               -
                 type: paragraph
             show_as_card: false
