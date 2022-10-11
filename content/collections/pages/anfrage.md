@@ -3,8 +3,8 @@ id: fc359a9c-afc1-43b6-a4bb-302ff072cdcf
 blueprint: pages
 title: Anfrage
 template: without-teaser-with-sidebar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1656669824
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665504509
 replicator:
   -
     bard:
@@ -85,10 +85,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'tel:+49 (0) 30 809 332 339'
+                  href: '##phone##'
                   target: null
                   rel: null
-            text: '+49 (0) 30 809 332 339'
+            text: '##phone##'
       -
         type: paragraph
       -
@@ -106,7 +106,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
 page_title: 'Kostenlose Anfrage • GWriters.de'
 meta_title: 'Kostenlose Anfrage • GWriters.de'
 meta_description: 'Schicken Sie und eine kostenlose Anfrage und erhalten Sie innerhalb kürzester Zeit ein individuelles Angebot und unverbindliche Beratung durch einen unserer Experten!'
@@ -114,4 +113,5 @@ og_title: 'Kostenlose Anfrage • GWriters.de'
 og_description: 'Schicken Sie und eine kostenlose Anfrage und erhalten Sie innerhalb kürzester Zeit ein individuelles Angebot und unverbindliche Beratung durch einen unserer Experten!'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---
