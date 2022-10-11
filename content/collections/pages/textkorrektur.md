@@ -41,7 +41,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -69,7 +69,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -79,6 +79,49 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: 20
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: '#000!important'
+              hex: '#000'
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              target: null
+              rel: null
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -247,15 +290,13 @@ replicator:
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656512755
+updated_at: 1665505306
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'Benötigen Sie eine Textkorrektur? Wir helfen weiter • GWriters'
 template: with-side-bar
 meta_title: 'Benötigen Sie eine Textkorrektur? Wir helfen weiter • GWriters'
@@ -264,4 +305,5 @@ og_title: 'Benötigen Sie eine Textkorrektur? Wir helfen weiter • GWriters'
 og_description: 'Benötigen Sie eine Textkorrektur Ihrer wissenschaftlichen Arbeit? GWriters.de bietet Ihnen Korrektoren zu fairen Preisen und hoher Qualität.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---
