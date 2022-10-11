@@ -120,21 +120,21 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#000!important'
+              hex: '#000'
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Jura Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1665146052
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665512651
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -150,8 +150,6 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
@@ -159,8 +157,6 @@ replicator:
                     html: |-
                       <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Jura. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Jura Aufgabenstellungen</b>, der perfekt zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Jura in sichere Hände geben und bei einem Jura-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Juristen, Doktoren und Professoren arbeitet.
                       </p>
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1472,12 +1468,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -1502,7 +1492,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: blue
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1522,15 +1512,6 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
-    is_full: true
-    bg_toggle: false
-    bg_color: '#D6D6D6'
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
       -
         columns_per_row: 2
         single_col: false
@@ -1544,8 +1525,6 @@ replicator:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo.-Fr. 9:00-18:00'
-              -
-                type: paragraph
             show_as_card: true
           -
             bard:
@@ -1581,32 +1560,12 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: 2
-              -
-                type: paragraph
+                    padding-y: 10
             show_as_card: true
         type: row
         enabled: true
         responsive_columns: 0
-      -
-        single_col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#D6D6D6'
@@ -1749,12 +1708,6 @@ replicator:
                     img_size: w-3/4
                     float: mx-auto
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 15
-              -
                 type: paragraph
                 content:
                   -
@@ -1806,7 +1759,7 @@ replicator:
   -
     columns_replicator:
       -
-        single_col: false
+        single_col: true
         grid:
           -
             bard:
@@ -1831,7 +1784,7 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#F9F9F9'
@@ -1991,42 +1944,19 @@ replicator:
           -
             bard:
               -
-                type: blockquote
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
-                    type: heading
-                    attrs:
-                      level: 2
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                        text: Disclaimer
+                    type: text
+                    text: Disclaimer
+              -
+                type: paragraph
+                content:
                   -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: false
-        grid:
-          -
-            bard:
+                    type: text
+                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
                 type: heading
                 attrs:
@@ -2049,14 +1979,6 @@ replicator:
                       - 70e3de9b-2de4-4dec-8edb-aaac764bb6d7
                       - eafbdab5-b138-4080-8c67-59f5f2c1a5c1
                       - 77170534-1ca3-42c2-97b1-d3031ddb9b48
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 40
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -2209,20 +2131,12 @@ replicator:
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 40
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     border: false
     type: add_section
