@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -118,34 +118,31 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#000!important'
+              hex: '#000'
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Sprachwissenschaft Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658324681
+updated_at: 1665508508
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -328,10 +325,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         grid:
           -
             bard:
@@ -351,6 +349,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(193, 76, 0)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -372,6 +371,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -393,6 +393,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -411,12 +412,8 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: "\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: hard_break
             show_as_card: false
           -
             bard:
@@ -434,6 +431,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -455,6 +453,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -476,6 +475,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -483,8 +483,6 @@ replicator:
                           target: null
                           rel: null
                     text: Plagiatsprüfung
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -533,19 +531,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
+        single_col: true
+        responsive_columns: 0
       -
-        columns_per_row: 1
+        single_col: false
         grid:
           -
             bard:
@@ -580,25 +569,6 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
-      -
-        columns_per_row: 1
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -614,7 +584,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Über Sprachwissenschaften'
               -
@@ -630,7 +600,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Die Sprachwissenschaft (auch: Linguistik) umfasst das gesamte Gebiet der menschlichen Sprache, bestehend aus der Anwendung, der Herkunft und der Bedeutung in mündlichen sowie schriftlichen Bereichen. Zudem werden Teilbereiche, wie Artikulation und Wahrnehmung in der Sprachwissenschaft berücksichtigt und behandelt.'
               -
@@ -648,7 +618,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: Geschichte
               -
@@ -662,8 +632,6 @@ replicator:
                     float: float-left
               -
                 type: paragraph
-              -
-                type: paragraph
                 content:
                   -
                     type: text
@@ -675,13 +643,9 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Die Sprachwissenschaft hat ihren Ursprung parallel zu der ersten Verschriftlichung der menschlichen Sprache. Traditionen und schriftliche Fixierungen überliefern die Sprache bis in die heutige Zeit und ihre Entwicklung kann im Studium der Sprachwissenschaften nachvollzogen werden. Die Entwicklung der Menschheit nimmt auch Einfluss auf die Sprachwissenschaften und sorgt für weiterführende Fächer in diesem Studiengang sowie der Computerlinguistik.'
-              -
-                type: paragraph
-              -
-                type: paragraph
               -
                 type: horizontal_rule
               -
@@ -710,7 +674,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Studium der Sprachwissenschaften'
               -
@@ -726,7 +690,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Das Studium der Sprachwissenschaften bestand viele Jahre aus dem Magister- und dem Diplomstudiengang. Als Examensarbeit zählte dabei die Magisterarbeit oder die Diplomarbeit. Im Zuge des Bologna-Prozesses wurde das Bachelor- und Masterstudium eingeführt. Es besteht beim Bachelorstudiengang aus 6 Semestern und wird mit dem Erstellen einer Bachelorarbeit (Bachelor Thesis) abgeschlossen. Dies kann mit dem Masterstudiengang, bestehend aus 4 Semestern, fortgesetzt werden. Abgeschlossen wird dieser mit der erfolgreichen Ausarbeitung einer Masterarbeit (Master Thesis). Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen. Hierbei ist für viele Doktoranden der Sprachwissenschaften\_"
                   -
@@ -739,7 +703,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -771,7 +735,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Inhalte des Studiums'
               -
@@ -787,13 +751,13 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Die ersten 4 Semester des Bachelorstudiengangs umfassen das Grundstudium der Sprachwissenschaften. Dazu gehören alle gängigen Grundlagen der allgemeinen und theoretischen Sprachwissenschaft. Die Kerngebiete, die im Grundstudium behandelt werden, sind die Syntax, Semantik, Phonetik und Phonologie der deutschen und englischen Sprache. Das Grundlagenwissen wird im fortgeschrittenen Studium mit angrenzenden Gebieten, wie der Morphologie, Pragmatik und einigen formalen Methoden ergänzt. Nach erfolgreich abgeschlossenem Studium ist der Absolvent qualifiziert für kommunikationsintensive, interdisziplinär und interkulturell ausgerichtete Arbeitsfelder.'
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -825,7 +789,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -844,7 +808,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                   -
                     type: text
@@ -856,7 +820,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -875,7 +839,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                   -
                     type: text
@@ -887,7 +851,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -906,7 +870,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                   -
                     type: text
@@ -918,7 +882,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -937,7 +901,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                   -
                     type: text
@@ -951,7 +915,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -963,11 +927,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -980,4 +942,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_sozialwissenschaften
 sitemap_active: true
 alternative_page_title: 'Sprachwissenschaften Ghostwriter'
+published: true
 ---
