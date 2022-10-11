@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -118,34 +118,31 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#000!important'
+              hex: '#000'
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Kommunikationswissenschaften Ghostwriter, Lektoren & mehr • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658324916
+updated_at: 1665510245
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -346,10 +343,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         grid:
           -
             bard:
@@ -369,6 +367,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(193, 76, 0)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -390,6 +389,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -411,6 +411,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -429,12 +430,8 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: "\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: hard_break
             show_as_card: false
           -
             bard:
@@ -452,6 +449,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -473,6 +471,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -494,6 +493,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -501,8 +501,6 @@ replicator:
                           target: null
                           rel: null
                     text: Plagiatsprüfung
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -551,19 +549,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
+        single_col: true
+        responsive_columns: 0
       -
-        columns_per_row: 1
+        single_col: true
         grid:
           -
             bard:
@@ -598,25 +587,6 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
-      -
-        columns_per_row: 1
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -632,7 +602,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: Allgemeines
               -
@@ -648,7 +618,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Die Kommunikationswissenschaft zählen zu den Sozial- und Geisteswissenschaften. Sie befasst sich weitläufig mit den Interaktionsvorgängen des Menschen, insbesondere mit der Art der Interaktion und der jeweiligen Wirkung. Die passenden Fähigkeiten erlernt der Student in einem Studium an einer Hochschule oder Universität. Neben einigen Prüfungs- und Klausurleistungen wird der Student der Kommunikationswissenschaften auch häufig mit einer\_"
                   -
@@ -661,7 +631,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -693,7 +663,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Kommunikation & Wissenschaft'
               -
@@ -709,7 +679,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Schon in der Antike wurden Teilbereiche der heutigen Kommunikationswissenschaft im Studium gelehrt, in Form von Rhetorik oder persuasiver Kommunikation. Zudem ist das Studium der Kommunikationswissenschaft verknüpft mit der '
                   -
@@ -722,7 +692,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -741,7 +711,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: ' und behandelt peripher außerdem Bereiche der '
                   -
@@ -754,7 +724,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -773,7 +743,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: .
               -
@@ -798,7 +768,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Des Weiteren spielen mittlerweile auch Journalistik und die Wissenschaft der PR eine Rolle. Heute ist der Studieninhalt in diesem Fachbereich abhängig von der jeweiligen Universität oder Hochschule, so liegt der Schwerpunkt der einen auf der Massenkommunikation, während sich andere mit der Individualkommunikation auseinandersetzen.'
               -
@@ -814,7 +784,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Im Allgemeinen dient das Studium dazu, Probleme im Dreieck der Sprache – Kommunikation – Medien zu identifizieren und durch wissenschaftliche Methoden zu analysieren und zu lösen. Der Studiengang vermittelt das fachliche Wissen sowie die Kompetenz und Methodik, die den Studenten auf eine selbstständige und anspruchsvolle Tätigkeit in unterschiedlichen Berufszweigen vorbereitet. Er besteht aus zahlreichen Prüfungen und wissenschaftlichen Arbeiten, die zu schreiben sind. Daher werden nicht selten von Studenten der Kommunikation Ghostwriter beauftragt. Dabei sollte bei Prüfungsleistungen, beispielsweise wenn Studenten von einem Kommunikation-Ghostwriter Hausarbeiten schreiben lassen, die\_"
                   -
@@ -827,7 +797,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -871,7 +841,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Studium der Kommunikationswissenschaften'
               -
@@ -887,7 +857,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Das Studium der Kommunikationswissenschaft lässt sich an zahlreichen Universitäten im deutschsprachigen Raum (Deutschland, Österreich, Schweiz) absolvieren. Meist wird der Studiengang mit der verwandten Medienwissenschaft kombiniert, außerdem wird er oft auch als Publizistikwissenschaft bezeichnet. Aufgrund der hohen Studiennachfrage des Fachs erfolgt die Studienplatzvergabe anhand des zuständigen Auswahlverfahrens (Numerus clausus). Oftmals werden zudem Auswahlverfahren eingebunden, um die Eignung der Bewerber zu überprüfen. Neben überragenden Schulnoten wird auch auf überdurchschnittliche Sprachkenntnisse Wert gelegt. So muss der Bewerber neben Deutsch und Englisch meist noch eine dritte Sprache auf hohem Niveau beherrschen.'
               -
@@ -903,13 +873,13 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Im Rahmen der Vertiefungsphase im Bachelor- und Masterstudium sind die Universitäten aufgefordert, dass sie von ihren Studenten der Kommunikationswissenschaften pro Semester mindestens eine Hausarbeit schreiben lassen. Nach dem Masterstudium kann die Studienlaufbahn mit einer Promotion fortgesetzt werden, um den Doktorgrad zu erlangen. Eine Dissertation (oder Doktorarbeit) erfordert oftmals eine jahrelange Auseinandersetzung mit einer wissenschaftlichen Forschungslücke. Nicht selten werden in der Kommunikationswissenschaft Ghostwriter und akademische Freelancer kontaktiert, die bei der wissenschaftlichen Arbeit durch die Erstellung einer Mustervorlage unterstützen.'
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -921,7 +891,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: Disclaimer
               -
@@ -937,7 +907,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
@@ -955,7 +925,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Nützliche Weblinks'
               -
@@ -971,7 +941,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -997,7 +967,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1023,7 +993,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1049,7 +1019,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1077,7 +1047,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1089,11 +1059,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -1106,4 +1074,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_sozialwissenschaften
 sitemap_active: true
 alternative_page_title: 'Kommunikationswissenschaften Ghostwriter'
+published: true
 ---
