@@ -113,15 +113,15 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#000!important'
+              hex: '#000'
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -2773,7 +2773,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1663671816
+updated_at: 1665504251
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2781,7 +2781,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 template: default
-page_title: 'Alle Vorteile einer seriösen Ghostwriting Agentur • GWriters'
+page_title: 'Ghostwriting Agentur - Alle Vorteile • GWriters'
 meta_title: 'Alle Vorteile einer seriösen Ghostwriting Agentur • GWriters'
 meta_description: 'Ghostwriting Agentur — Unsere Ghostwriter unterstützen Akademiker beim Verfassen wissenschaftlicher Arbeiten ✔️ 18.000 zufriedene Kunden seit 2012!'
 og_title: 'Alle Vorteile einer seriösen Ghostwriting Agentur • GWriters'
