@@ -125,7 +125,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665513215
+updated_at: 1665513268
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1131,9 +1131,7 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#F9F9F9'
+    is_full: false
     border: false
     type: add_section
     enabled: true
