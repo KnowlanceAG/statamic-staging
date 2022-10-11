@@ -118,21 +118,21 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#000!important'
+              hex: '#000'
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Wirtschaftswissenschaft Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665068640
+updated_at: 1665509626
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1435,6 +1435,6 @@ og_description: 'Hilfe durch Experten und akademische Ghostwriter der Wirtschaft
 og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Wirtschaftswissenschaften Ghostwriter'
-published: true
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
+published: true
 ---
