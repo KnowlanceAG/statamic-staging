@@ -3,7 +3,7 @@ id: 70f117e2-898b-4be6-b5e0-6c0bb721b585
 blueprint: pages
 title: 'Bewerbung abgesendet'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665505462
+updated_at: 1665505498
 replicator:
   -
     bard:
@@ -19,7 +19,7 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: Autorenbewerbung
+            text: 'Autorenbewerbung abgesendet'
       -
         type: paragraph
         content:
