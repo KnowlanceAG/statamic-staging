@@ -39,7 +39,7 @@ teaser:
         color: '#FF6606'
         spacing_top: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665504610
+updated_at: 1665505554
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -182,7 +182,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '##email##'
+                  href: 'mailto:##email##'
                   target: null
                   rel: null
             text: '##email##'
