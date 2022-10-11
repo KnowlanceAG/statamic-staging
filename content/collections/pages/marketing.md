@@ -125,7 +125,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665512763
+updated_at: 1665513153
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -141,8 +141,6 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
@@ -150,8 +148,6 @@ replicator:
                     html: |-
                       <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Marketing. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Marketing Aufgabenstellungen</b>, der perfekt zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Marketing in sichere Hände geben und bei einem Marketing-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Marketingexperten, Doktoren und Professoren arbeitet.
                       </p>
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -655,34 +651,6 @@ replicator:
   -
     columns_replicator:
       -
-        single_col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 50
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: true
-    bg_image: seiten/fachrichtungen/marketing-ghostwriter.jpg
-    bg_image_fixed: true
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
         columns_per_row: 2
         single_col: false
         grid:
@@ -975,12 +943,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -1005,7 +967,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: blue
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1025,15 +987,6 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
-    is_full: true
-    bg_toggle: false
-    bg_color: '#D6D6D6'
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
       -
         columns_per_row: 2
         single_col: false
@@ -1055,7 +1008,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: 12
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -1082,28 +1035,12 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: 10
+                    padding-y: 12
             show_as_card: true
         type: row
         enabled: true
         responsive_columns: 0
-      -
-        single_col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#D6D6D6'
@@ -1183,18 +1120,11 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: 30
-              -
-                type: set
-                attrs:
-                  values:
-                    type: experts_list
+                    type: experten_slider
                     experts:
                       - bdab7ac8-0923-4d8c-b848-caa250aa5e62
                       - ece9c0d8-5e69-4361-a79d-acbdb0675182
-              -
-                type: paragraph
+                      - ff5a8835-3e93-4d7c-9aa9-5ce0b70c47cc
             show_as_card: false
         type: row
         enabled: true
@@ -1306,42 +1236,19 @@ replicator:
                     type: text
                     text: 'Zusammengefasst handelt es sich beim Marketing um ein hochinteressantes Studium und gerade wenn man sich die heutige Produkt- und Dienstleistungswelt anschaut, dann werden Produkte immer vergleichbarer und austauschbarer, sodass allein über den Preis der Wettbewerb schon lange nicht mehr zu gewinnen ist. Umso wichtiger wird es in der Zukunft, Marketing Spezialisten zu haben, die genau wissen, worauf die Zielgruppe bzw. Konsumenten wirklich Wert legen und wie Werbekampagnen genau auf diese Kundenbedürfnisse abgestimmt werden können. Nur so ist es möglich, eine wirkungsvolle und erfolgreiche Marketingstrategie zu entwickelt.'
               -
-                type: blockquote
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
-                    type: heading
-                    attrs:
-                      level: 2
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                        text: Disclaimer
+                    type: text
+                    text: Disclaimer
+              -
+                type: paragraph
+                content:
                   -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: false
-        grid:
-          -
-            bard:
+                    type: text
+                    text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
               -
                 type: heading
                 attrs:
@@ -1364,14 +1271,6 @@ replicator:
                       - e803ca67-5711-41ff-8011-9f1fa67dabe7
                       - fcd65943-75b0-4152-a30a-507b18f8b12b
                       - fe4f376b-0418-488d-94e9-da8b56ebde32
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 40
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1400,7 +1299,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: blue
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1426,7 +1325,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: blue
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1452,7 +1351,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: blue
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1480,7 +1379,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: blue
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1489,20 +1388,12 @@ replicator:
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 40
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     border: false
     type: add_section
