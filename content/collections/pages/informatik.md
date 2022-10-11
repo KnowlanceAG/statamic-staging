@@ -132,7 +132,7 @@ page_title: 'Informatik Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665512238
+updated_at: 1665512330
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -241,8 +241,6 @@ replicator:
                       <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
                       <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
                       <!-- ProvenExpert Bewertungssiegel Ende -->
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1045,7 +1043,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: 6
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -1072,7 +1070,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: 6
+                    padding-y: 11
             show_as_card: true
         type: row
         enabled: true
