@@ -132,7 +132,7 @@ page_title: 'Informatik Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665512330
+updated_at: 1665512386
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1070,7 +1070,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: 11
+                    padding-y: 12
             show_as_card: true
         type: row
         enabled: true
