@@ -132,7 +132,7 @@ page_title: 'Informatik Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665512104
+updated_at: 1665512238
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1045,7 +1045,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: 12
+                    padding-y: 6
               -
                 type: paragraph
                 content:
@@ -1072,7 +1072,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: 2
+                    padding-y: 6
             show_as_card: true
         type: row
         enabled: true
@@ -1581,8 +1581,6 @@ replicator:
                   -
                     type: text
                     text: "\_bildet."
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1697,22 +1695,6 @@ replicator:
     bg_toggle: true
     bg_image: seiten/fachrichtungen/informatik-ghostwriter.jpg
     bg_image_fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
     border: false
     type: add_section
     enabled: true
