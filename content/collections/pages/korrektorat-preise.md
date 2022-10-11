@@ -41,7 +41,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -69,7 +69,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -80,7 +80,48 @@ teaser:
         color: '#FF6606'
         spacing_top: false
   -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: 20
+  -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: '#000!important'
+              hex: '#000'
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              target: null
+              rel: null
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -263,7 +304,7 @@ replicator:
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646934805
+updated_at: 1665505286
 page_title: 'Korrektorat Preise - sicher und fair • GWriters'
 meta_title: 'Korrektorat Preise - sicher und fair • GWriters'
 meta_description: 'Möchten Sie die aktuellen Korrektorat Preise erfahren? Die Ghostwriter Agentur GWriters.de arbeitet diskret, qualitativ und zu fairen Preisen.'
@@ -273,10 +314,9 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'Korrektorat Preise - sicher und fair • GWriters'
 og_description: 'Möchten Sie die aktuellen Korrektorat Preise erfahren? Die Ghostwriter Agentur GWriters.de arbeitet diskret, qualitativ und zu fairen Preisen.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---
