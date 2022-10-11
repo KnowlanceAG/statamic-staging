@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -118,34 +118,31 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#000!important'
+              hex: '#000'
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Bauingenieurwesen Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658325001
+updated_at: 1665510587
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -323,10 +320,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         grid:
           -
             bard:
@@ -346,6 +344,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(193, 76, 0)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -367,6 +366,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -388,6 +388,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -395,23 +396,6 @@ replicator:
                           target: null
                           rel: null
                     text: Übersetzung
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                    text: "\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: hard_break
             show_as_card: false
           -
             bard:
@@ -429,6 +413,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -450,6 +435,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -471,6 +457,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -478,8 +465,6 @@ replicator:
                           target: null
                           rel: null
                     text: Plagiatsprüfung
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -528,19 +513,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
+        single_col: true
+        responsive_columns: 0
       -
-        columns_per_row: 1
+        single_col: true
         grid:
           -
             bard:
@@ -575,25 +551,6 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
-      -
-        columns_per_row: 1
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -609,7 +566,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Warum Bauingenieurwesen studieren?'
               -
@@ -625,7 +582,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Was ist Bauingenieurwesen? Das Bauingenieurwesen ist eine Ingenieurwissenschaft und gehört zu den ältesten Studiengängen in Deutschland. Obwohl der Studiengang Bauingenieurwesen auf eine lange Historie zurückblickt, sind die Inhalte hochaktuell. Daher handelt es sich um ein sehr aktuelles Studium, da gerade Klimaschutzfragestellungen, Fragestellungen der Wasserversorgung und der Energieversorgung sowie demografische und städtebauliche Fragen immer brennender werden und von den Bauingenieuren zu lösen sind. Wie schwer ist Bauingenieurwesen? Auf diese Fragestellungen werden Sie in diesem Beitrag Antwort erhalten.'
               -
@@ -643,7 +600,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Voraussetzungen:'
               -
@@ -659,7 +616,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Sie sehen, dass die verschiedenen Fragestellungen, Themenstellungen und die Zusammenhänge von Bauingenieurwesen komplex sind. Denn gerade in der Anfangszeit scheitern hier viele Studenten, weil die Anforderungen hoch sind. Diese Anforderungen an das Wissen, was mitgebracht werden muss, gerade in der\_"
                   -
@@ -672,7 +629,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -704,7 +661,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Vorpraktikum: Bauingenieurwesen'
               -
@@ -720,7 +677,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Für den Bachelor wird in der Regel ein Vorpraktikum verlangt. Dieses Praktikum im Bereich Bauingenieurwesen dauert um die 6-8 Wochen. Wenn Sie eine Suchmaschine die Suchphrase „Bauingenieurwesen Praktikum Stellenangebote“ eingeben, finden Sie eine Menge von Stellenanzeigen. Einen Praktikumsplatz im Studienfach Bauingenieurwesen finden Sie beispielsweise auf verschiedene Onlineplattformen. Einen Link dazu finden Sie am Ende der Seite unter weiterführende Quellen. Hier können die Bauingenieurwesen Ghostwriter von GWriters Sie unterstützen. In Form von Coachings, während dieses Praktikums, oder aber auch in der\_"
                   -
@@ -733,7 +690,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -765,7 +722,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Zusammenfassung: Voraussetzungen'
               -
@@ -820,7 +777,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(250, 77, 3)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Allgemeine Voraussetzungen:'
                       -
@@ -859,7 +816,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(0, 0, 0)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Wissen:'
                       -
@@ -915,7 +872,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Naturwissenschaften'
                   -
@@ -952,7 +909,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Statistik'
                   -
@@ -989,7 +946,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Fähigkeit zur Raumvorstellung'
                   -
@@ -1018,7 +975,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(0, 0, 0)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Vorbildung:'
                       -
@@ -1074,7 +1031,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-fachgebundene Hochschulreife'
                   -
@@ -1111,7 +1068,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Fachhochschulreife'
                   -
@@ -1204,7 +1161,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(250, 77, 3)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Master Voraussetzungen:'
                       -
@@ -1260,7 +1217,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Je nach Vertiefungsrichtung und Hochschulen unterscheiden sich die Zulassungsvoraussetzungen, z.B. Konstruktiver Ingenieurbau (50 ECTS)'
                   -
@@ -1297,7 +1254,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Gute Englischkenntnisse'
               -
@@ -1315,7 +1272,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Bauingenieurwesen: Studieninhalte'
               -
@@ -1331,7 +1288,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Im Bauingenieurwesen Studium selbst werden nach einem gut strukturierten Studienplan im Grundstudium Informationen zu Mathematik, Physik, technischer Mechanik und Informatik vermittelt. Es gilt dann eine Vielzahl von wissenschaftlichen Hausarbeiten und Seminararbeiten zu erstellen. Genau hier haben viele Studierenden Schwierigkeiten bei der Erstellung von\_"
                   -
@@ -1344,7 +1301,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1374,7 +1331,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Des Weiteren gilt es, entsprechende wissenschaftliche Datenbanken zu durchforsten und zu recherchieren. Ergänzend finden praxisbezogene Vorlesungen statt. Zum Beispiel gibt es Vorlesungen zum Thema Statik, Stahlbau, Wasserwesen, Festigkeitslehre oder zur Baustoffkunde. Neben den Grundlagenfächern in der Physik, Technik, Informatik und Mathematik, gibt es auch Wahlpflichtmodule wie beispielsweise Baurecht oder Umwelttechnik, wo Sie sich entsprechend spezialisieren können. Bauingenieure von GWriters kennen'
                   -
@@ -1387,7 +1344,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1414,7 +1371,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1446,7 +1403,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Bachelorstudienplans:'
               -
@@ -1462,7 +1419,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Alle Studieninhalte von Bauingenieurwesen sind in der Abbildung von der '
                   -
@@ -1475,7 +1432,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1494,7 +1451,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                     text: ' '
                   -
@@ -1529,9 +1486,9 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
-                    text: "Eine erfolgreiche\_"
+                    text: "Eine erfolgreiche\_Bachelorarbeit\_abzugeben, ist nicht ganz einfach. Es müssen sehr viele fachbezogene Begriffe und mathematisches Wissen verwendet werden. Daher wird oft auf Google nach „"
                   -
                     type: text
                     marks:
@@ -1542,33 +1499,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                    text: Bachelorarbeit
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: "\_abzugeben, ist nicht ganz einfach. Es müssen sehr viele fachbezogene Begriffe und mathematisches Wissen verwendet werden. Daher wird oft auf Google nach „"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1587,7 +1518,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: '“ gesucht. Das Masterstudium ist dann von Spezialisierungen geprägt. Klassische Spezialsierungen finden sich hier in den Fachbereichen Konstruktion, Umwelttechnik, Baubetrieb sowie Verkehrs- und Raumplanung. Um im Studium des Bauingenieurwesens erfolgreich zu sein, können in all diesen Fällen akademische Bauingenieurwesen Ghostwriter von GWriters helfen. Denn sie haben dieses Grundlagenwissen und können Sie bei der Erstellung von wissenschaftlichen Mustervorlagen unterstützen. Auch an der Grafik ist der Schwierigkeitsgrad von Bauingenieurwesen Studium besser zu erkennen. Nur 17,3 Prozent der Studierenden im Bauingenieurwesen bestehen ihren Abschluss.'
               -
@@ -1612,7 +1543,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Bauingenieurwesen: Dauer'
               -
@@ -1628,7 +1559,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Ein Bachelorstudium dauert in der Regel rund 6-7 Semester und ein Masterstudium rund 3-4 Semester. Abschlüsse finden sich dann entweder im Bachelor of Science oder ein Bachelor of Engineering beziehungsweise Master of Science oder im Master of Engineering. Akademische Ghostwriter können Sie hier in vielen Fällen unterstützen damit Sie Ihr Bachelorstudium und Masterstudium meistern können.'
               -
@@ -1646,7 +1577,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Wo kann ich Bauingenieurwesen studieren?'
               -
@@ -1662,7 +1593,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Das Bauingenieurwesen gehört zu den drei klassische Ingenieurstudiengängen und kann an Universitäten, Technischen Universitäten und Fachhochschulen studiert werden. Ein Fachhochschulabschluss ist dabei stärker praxisbezogen, während ein Uni-Abschluss einen größeren theoretischen Fokus legt. Daher ist die Wahl Ihrer Universität bzw. der Fachhochschule auch abhängig davon, welche beruflichen Vorstellungen Sie haben. Man kann sagen: Je größer das Interesse an einer späteren praktischen Tätigkeit z.B. in der Bauindustrie oder im Projektmanagement ist, desto eher ist ein Fachhochschulstudium zu empfehlen. Eine noch größere Praxisrelevanz erfahren diejenigen, die für ein duales Studium Bauingenieurwesen auswählen. Diese einige besonders renommierte Hochschulen oder Universitäten, die Bauingenieurwesen als Studiengang anbieten, sind\_"
                   -
@@ -1675,7 +1606,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1702,7 +1633,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1729,7 +1660,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1756,7 +1687,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1783,7 +1714,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1810,7 +1741,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1842,7 +1773,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Bewerbung: Bauingenieurwesen'
               -
@@ -1858,7 +1789,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Je nach Hochschule läuft ein Bewerbungsprozess anders ab. Die Bewerbung an einer Fachhochschule oder Universität läuft häufig über das jeweilige Hochschulportal ab. Dort werden Sie Formulare mit Ihren persönlichen und schulischen Angaben ausfüllen müssen. Infolgedessen werden diese Formulare ausgedruckt und mit einer Abiturzeugniskopie an der jeweiligen Universität abgegeben. Ob Sie eine Zusage oder eine Absage erhalten, erfahren Sie von Ihrer Hochschule per Mail oder per Post. Jedoch bieten viele Universitäten auch eine Mehrfachauswahl für Studiengänge, sodass Sie nicht nur auf eine Zusage warten müssen. Somit ist die Wahrscheinlichkeit größer, sich erfolgreich in einen Studiengang einschreiben zu können. Auf diese Weise können Sie sich an einer Hochschule für einen ausgewählten Studiengang einschreiben. Zum Beispiel an einem Onlineportal von der Hochschule Darmstadt, können Sie die\_"
                   -
@@ -1871,7 +1802,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1903,7 +1834,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Nach dem Bauingenieurwesen Studium: Beruf, Karriere & Gehalt'
               -
@@ -1919,7 +1850,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Die Berufsmöglichkeiten für Bauingenieure sind sehr gut, weil in der Baubranche viele zukunftweisende Themen im Vordergrund sind. Auch die Wohnungsknappheit und der Klimawandel stellen die heutige Gesellschaft vor eine Vielzahl von neuen Herausforderungen.'
               -
@@ -1935,7 +1866,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Welche Berufsmöglichkeiten sich Ihnen mit den Studienfächern im Bauingenieurwesen eröffnen, werden Sie in diesem Abschnitt erfahren. Bevor wir Ihnen eine Übersicht über die zukunftsweisenden Studienfächer im Bauingenieurwesen geben, sollten Sie vorab wissen, dass Sie auf unterschiedliche Art und Weise tätig sein können. Sie können als Selbstständiger in einem Ingenieurbüro arbeiten oder auch als Angestellter in den öffentlichen Diensten wie Straßenbau, Tiefbau, Wasserbau etc. Weitere Tätigkeiten im Bauingenieurwesen finden Sie in der Industrie bei Bauunternehmen. Zudem können Sie auch als akademischer Bauingenieurwesen\_"
                   -
@@ -1948,7 +1879,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1997,7 +1928,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2024,7 +1955,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2051,7 +1982,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2081,7 +2012,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "In der Berufswelt von Bauingenieuren spielen auch die ausgewählten Vertiefungsfächer, die in der Studienzeit gewählt werden können, eine wichtige Rolle. Ihren späteren Tätigkeitsbereich können Sie maßgeblich mit Ihrer Schwerpunktauswahl bestimmen. Je besser Ihre Noten in den einzelnen Schwerpunktfächer sind, desto höher ist Ihre Karrierechance. Daher ist es wichtig sich auf die Vertiefungsfächer zu spezialisieren. Durch Bauingenieurwesen\_"
                   -
@@ -2094,7 +2025,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2121,7 +2052,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2153,7 +2084,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Tätigkeitsfelder im Bauingenieurwesen'
               -
@@ -2218,7 +2149,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(250, 77, 3)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Fachbereich
                       -
@@ -2244,7 +2175,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(250, 77, 3)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Tätigkeitsgebiet
                       -
@@ -2270,7 +2201,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(250, 77, 3)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Tätigkeit
                   -
@@ -2299,7 +2230,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Ingenieurbau (Massiv-/Stahl-/Holzbau)'
                       -
@@ -2323,7 +2254,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Halle, Häuser, Brücken, Tunnel, Talsperren, Türme'
                       -
@@ -2347,7 +2278,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Entwurf und Wahl des Werkstoffs, -konstruktive Durchbildung, -Berechnung und Bemessung von Ingenieurbauwerken'
                   -
@@ -2376,7 +2307,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Wasserwirtschaft/Wasserbau
                       -
@@ -2400,7 +2331,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Staudämmen, Kanalisation, Deichen, Schiffshebewerken'
                       -
@@ -2424,7 +2355,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Planung und der Konstruktion von Anlagen zur Wasserversorgung/-entsorgung, Abwasserableitung und -reinigung'
                   -
@@ -2453,7 +2384,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Raum- und Infrastrukturplanung/Verkehrswesen'
                       -
@@ -2477,7 +2408,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Straßenbau, Schienenwegen-Bau (Eisenbahn), Stadt- und Landesplanung, Siedlungswasserwirtschaft'
                       -
@@ -2501,7 +2432,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Planen, entwerfen, bauen und betreiben Systeme im Verkehrswesen'
                   -
@@ -2530,7 +2461,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Baubetrieb/Baumanagement
                       -
@@ -2554,7 +2485,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Bauindustrie, Baumaschinenindustrie, Ingenieurbüros: Projektentwickler-steurer, Controlling, Behörde/Verbänden'
                       -
@@ -2578,7 +2509,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Bauleiter, -Kalkulator, -Arbeitsvorbereiter, -Projektentwickler-steurer, -Controlling'
                   -
@@ -2607,7 +2538,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Grundbau/Geotechnik
                       -
@@ -2631,7 +2562,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Dammbau, Deponiebau, Tunnelbau z.B. U-Bahn-Bau'
                       -
@@ -2655,7 +2586,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Geotechnische Untersuchung des Baugrundes, -Sie entscheiden wie Bauwerke fundiert werden'
                   -
@@ -2684,7 +2615,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Umwelttechnik
                       -
@@ -2708,7 +2639,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Industriefirmen, Bauaufsicht, Bauverwaltung'
                       -
@@ -2732,7 +2663,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Zuständig für umweltverträgliche Bauwerken für bessere Berücksichtigung der Nachhaltigkeit von Baumaßnahmen'
                   -
@@ -2761,7 +2692,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Bauinformatik
                       -
@@ -2785,7 +2716,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Softwarefirmen, Unternehmen der Bauwirtschaft, Ingenieur- und Planungsbüros'
                       -
@@ -2809,7 +2740,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Entwickeln Methoden für Informationstechnische Aufgabenstellungen und Probleme des Bauingenieurwesen, -Genaue Kontrolle von Planungs-Bauprozesse mit Hilfe von Computern & Softwares'
               -
@@ -2827,7 +2758,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Bauingenieurwesen: Gehalt'
               -
@@ -2843,7 +2774,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Als Berufseinsteiger nach dem Bachelorabschluss können Sie durchschnittlich 2.500 Euro brutto pro Monat verdienen. Nach Ihrem Masterabschluss ist Ihr Gehalt zu Beginn Ihrer Karriere in der Regel höher als bei einem Bachelorabschluss. Jedoch können Sie mit zunehmender Berufserfahrung mit einem durchschnittlichen Bruttogehalt von 3.750 Euro rechnen. Je nach Position und Größe des Unternehmens kann das maximale Jahresgehalt nach einem Bachelorstudium zwischen 40.000 bis 50.000 Euro betragen. Zum Beispiel besonders gut wird in der Fabrik- und Immobilienbranche gezahlt.'
               -
@@ -2861,7 +2792,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Weiterführende Quellen:'
               -
@@ -2877,7 +2808,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Onlineplattform für Praktika im Bereich Bauingenieurwesen:\_"
                   -
@@ -2890,23 +2821,21 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
                         attrs:
                           href: 'https://www.meinpraktikum.de/studienfaecher/bauingenieurwesen'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
+                          target: null
+                          rel: null
                     text: 'https://www.meinpraktikum.de/studienfaecher/bauingenieurwesen'
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -2919,4 +2848,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_technische_fachrichtungen
 sitemap_active: true
 alternative_page_title: 'Bauingenieurwesen Ghostwriter'
+published: true
 ---
