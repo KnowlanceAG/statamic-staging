@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -118,34 +118,31 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#000!important'
+              hex: '#000'
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Ghostwriter Soziologie, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658324831
+updated_at: 1665509742
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -456,10 +453,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         grid:
           -
             bard:
@@ -479,6 +477,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(193, 76, 0)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -500,6 +499,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -521,6 +521,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -539,12 +540,8 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: "\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: hard_break
             show_as_card: false
           -
             bard:
@@ -562,6 +559,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -583,6 +581,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -604,6 +603,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -611,8 +611,6 @@ replicator:
                           target: null
                           rel: null
                     text: Plagiatsprüfung
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -661,19 +659,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
+        single_col: true
+        responsive_columns: 0
       -
-        columns_per_row: 1
+        single_col: true
         grid:
           -
             bard:
@@ -708,25 +697,6 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
-      -
-        columns_per_row: 1
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -742,7 +712,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Allgemeines zur Soziologie'
               -
@@ -758,7 +728,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Die Wissenschaft der Soziologie befasst sich mit der Erforschung des sozialen Verhaltens, also der Interaktion zwischen Menschen. Dies geschieht sowohl auf theoretischer, als auch auf empirischer Basis.'
               -
@@ -783,7 +753,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Die Soziologie erforscht im Gegensatz zu anderen sozialwissenschaftlichen Disziplinen nicht nur bestimmte Bereiche des Sozialen, sondern untersucht alle Aspekte der sozialen Interaktion der Menschen und konzentriert sich hierbei besonders auf den Sinn und die Strukturen der sozialen Interaktion sowie auf die regulierenden Werte und Normen. Die Lehre der Soziologie erklärt somit die Gründe, den Ablauf und die Wirkung von sozialem Handeln. Da jede soziologische Theorie durch empirische Daten bewiesen werden muss oder auf deren Basis entsteht, ist das Studium und die Arbeit auf dem Gebiet der Soziologie sehr zeit- und arbeitsintensiv. Aus diesem Grund beauftragen vergleichsweise häufig Studenten der Soziologie Ghostwriter, die sie bei der Auswertung von Daten oder beim Verfassen von Arbeiten unterstützen.'
               -
@@ -801,7 +771,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Geschichte der Soziologie'
               -
@@ -817,7 +787,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Bis zum Ende des 19.Jahrhunderts war die Soziologie ein Teil der\_"
                   -
@@ -830,7 +800,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -862,7 +832,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Das Soziologie Studium'
               -
@@ -878,7 +848,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Im Mittelpunkt eines Soziologie Studiums steht die Auseinandersetzung mit der Gesellschaft. Es wird untersucht, wie die Gesellschaft funktioniert, wie die Gesellschaft sich entwickelt und wie das Individuum in der Gesellschaft wirkt und sich entwickelt. Hinterfragt wird also die Rolle eines jeden einzelnen innerhalb der Gesellschaft, aber auch das Wirken der Individuen untereinander und der Einfluss auf andere Gesellschaften. Dies ist ein wichtiger Punkt innerhalb der Soziologie, denn damit präsentiert sich die Soziologie quasi als Querschnitteswissenschaft zu einer Vielzahl von anderen Forschungsgebieten. Hier sind beispielsweise die\_"
                   -
@@ -891,7 +861,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -918,7 +888,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -948,7 +918,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Besonders beliebt als Studienorte in der Soziologie sind Nürnberg und Bielefeld. Der Grund hierfür ist, dass diese beiden Studienorte eine lange Historie in der Soziologie haben und sehr bekannt sind für ihre wissenschaftliche Qualität und damit auch für die dort stattfindende Forschung. Je nach Universität kann Soziologie entweder als Ein-Studienfach oder als Zwei-Studienfach belegt werden. Ein-Studienfach bedeutet, dass Sie Ihren Schwerpunkt auf die Soziologie legen und sich gesamthaft im Rahmen der Soziologie entwickeln und forschen. Zwei-Studienfach bedeutet, dass Sie neben der Soziologie ein weiteres Fach studieren. Eine ganz klassische Kombination beispielsweise ist Soziologie und\_"
                   -
@@ -961,7 +931,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -991,7 +961,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Und auch nach dem abgeschlossenen Grundstudium und nach der\_"
                   -
@@ -1004,7 +974,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1031,7 +1001,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1058,7 +1028,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1090,7 +1060,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Anforderungen eines Soziologie Studiums'
               -
@@ -1106,7 +1076,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Ein guter Soziologe braucht ein gutes Gespür für Zusammenhänge, für das Verhalten von Menschen und dafür, wie mit Zahlen und empirischen Daten umgegangen werden muss. Aufgrund dieses starken Fokus auf die Empirie sollten Sie für ein Soziologie Studium also in jedem Fall die Bereitschaft mitbringen, sich mit Daten und statistischen Informationen auseinanderzusetzen. Diese Fähigkeiten sind für die erfolgreiche Bewältigung eines Soziologie Studiums von ganz entscheidender Bedeutung. Auch gute Englischkenntnisse sind für ein Soziologie Studium sehr wichtig, denn viele Studien laufen in Englisch ab und ein großer Teil der relevanten wissenschaftlichen Fachliteratur ist in englischer Sprache.'
               -
@@ -1122,7 +1092,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Der wissenschaftliche Fokus im Rahmen eines Soziologie Studiums liegt vielfach auf der Erstellung von Präsentationen, von Hausarbeiten, von Referaten, der Bewältigung von Fallstudien und am Ende natürlich auf dem Verfassen einer Abschlussarbeit. Aufgrund der Anforderungen aus diesen verschiedenen Sektoren kommen hier für Sie als Student der Soziologie große Anforderungen auf Sie zu. Und hier kommen Studierende der Soziologie auch schnell an ihre Grenzen. Genau dann kann ein Soziologie Ghostwriter von GWriters wertvolle Unterstützung leisten, denn unsere Experten beherrschen alle wissenschaftlichen Arbeitsmethoden, denken vor allen Dingen fachübergreifend und bringen auch ein breites praktisches Wissen in der Soziologie mit. Auch sind diese immer auf dem aktuellen Stand der Forschung und kennen sich mit aktuellen soziologischen Fragestellungen aus. Das zeigt sich auch darin, dass die Soziologie Ghostwriter von GWriters entweder in der Forschung selber arbeiten oder im Management, in der Unternehmensberatung, im\_"
                   -
@@ -1135,7 +1105,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1162,7 +1132,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1189,7 +1159,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1221,7 +1191,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Fazit zum Studium der Soziologie & Ghostwriting'
               -
@@ -1237,7 +1207,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Zusammenfassend ist die Soziologie spannendes, umfassendes und interessantes Forschungsgebiet und auch ein entsprechendes Studium, welches aber gleichzeitig vielfältige Anforderungen an Sie als Studenten stellt und hier können die Soziologie Ghostwriter von GWriters Sie in vielfältiger Art und Weise unterstützen, wenn Sie sich beispielsweise in Mustervorlage für Ihre\_"
                   -
@@ -1250,7 +1220,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1270,7 +1240,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -1282,7 +1252,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: Disclaimer
               -
@@ -1298,7 +1268,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
@@ -1316,7 +1286,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Nützliche Weblinks'
               -
@@ -1332,7 +1302,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1358,7 +1328,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1384,7 +1354,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1412,7 +1382,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1424,11 +1394,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -1441,4 +1409,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_sozialwissenschaften
 sitemap_active: true
 alternative_page_title: 'Soziologie Ghostwriter'
+published: true
 ---
