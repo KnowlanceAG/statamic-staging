@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -118,34 +118,31 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#000!important'
+              hex: '#000'
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Germanistik Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658324950
+updated_at: 1665510366
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -535,10 +532,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         grid:
           -
             bard:
@@ -558,6 +556,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(193, 76, 0)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -579,6 +578,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -600,6 +600,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -607,23 +608,6 @@ replicator:
                           target: null
                           rel: null
                     text: Übersetzung
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                    text: "\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: hard_break
             show_as_card: false
           -
             bard:
@@ -641,6 +625,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -662,6 +647,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -683,6 +669,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -690,8 +677,6 @@ replicator:
                           target: null
                           rel: null
                     text: Plagiatsprüfung
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -740,19 +725,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
+        single_col: true
+        responsive_columns: 0
       -
-        columns_per_row: 1
+        single_col: true
         grid:
           -
             bard:
@@ -787,25 +763,6 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
-      -
-        columns_per_row: 1
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -821,7 +778,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Was ist Germanistik?'
               -
@@ -873,7 +830,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Studium Germanistik: Voraussetzungen'
               -
@@ -889,7 +846,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Eine wichtige Voraussetzung für für das Studium ist ein breites Grundlagenwissen in der deutschen Sprache und ein tiefes Interesse an einer vertieften Auseinandersetzung mit der Sprache mitzubringen. Daneben sollte eine hohe generelle Sprachbegabung, ein kulturelles Interesse sowie Kommunikationsstärke vorhanden sein. Ein NC existiert in der Regel nicht. Je nach Hochschule kann eine Zulassungsbeschränkung zwischen 2,0 und 3,0 liegen.'
               -
@@ -905,7 +862,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Dabei ist an vielen Hochschulen Pflicht, gute Englischkenntnisse aufzuweisen. An manchen Hochschulen werden sogar Lateinkenntnisse verlangt. Zudem sollten Sie großes Interesse am Lesen haben, denn das Lesepensum in einem Germanistik-Studium ist groß. Genau hier können Germanistik Ghostwriter Ihnen helfen und Arbeit abnehmen, sei es bei der Aufbereitung und Bearbeitung von\_"
                   -
@@ -918,7 +875,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -945,7 +902,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -977,7 +934,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Welche Herausforderungen gelten im Germanistik Studium?'
               -
@@ -993,7 +950,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Als Germanist stehen für Sie die\_"
                   -
@@ -1006,7 +963,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1033,7 +990,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1060,7 +1017,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1092,7 +1049,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Studieninhalte in der Germanistik'
               -
@@ -1110,7 +1067,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "\_"
                   -
@@ -1169,7 +1126,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Die Fachgebiete, die im Studium angesprochen werden sind systemorientierte und germanistische Linguistik, Sprachgeschichte, geschriebene und gesprochene Sprache und Literaturwissenschaft. Im Bachelorstudium werden Sie unterschiedliche Fächer belegen müssen. Die Grundlagenfächer für den Bachelor in Germanistik sind zum einen „Systematik der deutschen Sprache und Literatur“ und zum anderen „Geschichte der deutschen Sprache und Literatur“. Daraufhin werden Sie aufbauende Fächer belegen müssen, „Ältere deutsche Sprache und Literatur“, „Neuere deutsche Literatur“ und „Deutsche Sprache“. Außerdem werden Sie drei Vertiefungsfächer in Richtung „Ältere deutsche Sprache und Literatur“, „Neuere deutsche Literatur“ oder „Deutsche Sprache“ auswählen müssen.'
               -
@@ -1196,7 +1153,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Lehrveranstaltungstypen im Germanistikstudium'
               -
@@ -1212,7 +1169,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Besondere Lehrveranstaltungstypen in der Germanistik sind Übungen und Seminare. Besonders hier haben Germanistik Studenten Schwierigkeiten, da eigentlich das Studium inhaltlich rein aus Textbearbeitungen und Literaturrecherchen besteht. Daher werden überwiegend wissenschaftliche Arbeiten geschrieben. Hier können Germanistik Ghostwriter bei der Erstellung einer\_"
                   -
@@ -1225,7 +1182,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1252,7 +1209,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1765,7 +1722,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Wie und wo können Sie Germanistik studieren?'
               -
@@ -1781,7 +1738,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Der Studiengang kann als Kern- und Nebenfach studiert werden. Die Regelstudienzeit liegt für den Bachelor-Studiengang bei 6 Semestern, für den Masterstudiengang kommen 4 Semester auf Sie zu. Der Abschluss im Bachelor-Studiengang findet sich im Titel Bachelor of Arts und im Masterstudiengang wird der Titel Master of Arts oder Master of Education verliehen. Germanistik kann sowohl im Fernstudium als auch an einer Universität oder Fachhochschule studiert werden.'
               -
@@ -1797,7 +1754,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Beliebte Studiengänge für Germanistik finden Sie an den Universitäten Bonn, Leipzig, Wuppertal, Berlin, Stuttgart oder München. Diese Universitäten haben einen exzellenten Ruf im Bereich der Germanistik und können auf eine lange Tradition in dem Fachbereich zurückblicken.'
               -
@@ -1819,7 +1776,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(255, 102, 2)'
+                                  color: '#000!important'
                                   hex: '#000'
                               -
                                 type: link
@@ -1844,7 +1801,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(255, 102, 2)'
+                                  color: '#000!important'
                                   hex: '#000'
                               -
                                 type: link
@@ -1869,7 +1826,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(255, 102, 2)'
+                                  color: '#000!important'
                                   hex: '#000'
                               -
                                 type: link
@@ -1894,7 +1851,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(255, 102, 2)'
+                                  color: '#000!important'
                                   hex: '#000'
                               -
                                 type: link
@@ -1919,7 +1876,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(255, 102, 2)'
+                                  color: '#000!important'
                                   hex: '#000'
                               -
                                 type: link
@@ -1944,7 +1901,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(255, 102, 2)'
+                                  color: '#000!important'
                                   hex: '#000'
                               -
                                 type: link
@@ -1968,7 +1925,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Was sind die Karrierechancen für Germanistiker?'
               -
@@ -1984,7 +1941,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Nach dem Studium bieten sich viele unterschiedliche Germanistik Berufe an. Es ist zunächst möglich Germanistik auf Lehramt zu studieren, um später als Deutschlehrer tätig zu werden. Dafür sollten Sie neben dem Studienfach Germanistik ein zweites Fach zum Beispiel im Bereich der '
                   -
@@ -1997,7 +1954,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2024,7 +1981,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2075,7 +2032,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Was verdiene ich nach dem Studium? Germanistik: Gehalt'
               -
@@ -2091,7 +2048,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Als Lehrer verdienen Sie zwischen 3.500 € und 4.000 € brutto im Monat. Wenn Sie im Bereich Forschung, '
                   -
@@ -2104,7 +2061,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2145,7 +2102,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Stellenangebote: Germanistik'
               -
@@ -2161,7 +2118,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Hier finden Sie einige beispielhafte\_"
                   -
@@ -2174,7 +2131,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2298,7 +2255,7 @@ replicator:
                                           -
                                             type: textColor
                                             attrs:
-                                              color: 'rgb(255, 102, 2)'
+                                              color: '#000!important'
                                               hex: '#000'
                                           -
                                             type: link
@@ -2499,7 +2456,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Weiterführende Quellen:'
               -
@@ -2515,7 +2472,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Spiegel, 2017:\_"
                   -
@@ -2528,14 +2485,14 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
                         attrs:
                           href: 'https://www.spiegel.de/spiegel/germanistik-studium-wo-die-chancen-fuer-germanistik-studenten-liegen-a-1133069.html'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
+                          target: null
+                          rel: null
                     text: 'https://www.spiegel.de/spiegel/germanistik-studium-wo-die-chancen-fuer-germanistik-studenten-liegen-a-1133069.html'
               -
                 type: paragraph
@@ -2550,7 +2507,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "BR-Fernsehen, 2017:\_"
                   -
@@ -2563,23 +2520,21 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
                         attrs:
                           href: 'https://www.br.de/fernsehen/ard-alpha/sendungen/campus/germanistik-mythos-studium-klischees-vorurteile-berufschancen-100.html'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
+                          target: null
+                          rel: null
                     text: 'https://www.br.de/fernsehen/ard-alpha/sendungen/campus/germanistik-mythos-studium-klischees-vorurteile-berufschancen-100.html'
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -2592,4 +2547,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_geisteswissenschaften
 sitemap_active: true
 alternative_page_title: 'Germanistik Ghostwriter'
+published: true
 ---
