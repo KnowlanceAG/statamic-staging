@@ -33,7 +33,7 @@
             {{ /if }}
             <b>Autor: </b>{{ external_author }}
           </p>
-          {{ short_text }}
+          {{ short_text | shortcode  }}
           <a href="{{ url }}"
             class="px-8 py-2 my-3 inline-block border border-orange-500 text-orange-500 text-sm hover:bg-orange-500 hover:text-white hover:transition-color duration-300">ARTIKEL
             LESEN</a>

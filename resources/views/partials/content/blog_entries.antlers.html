@@ -12,7 +12,7 @@
             </div>
             <div class="p-4">
                 <h4>{{ title }}</h4>
-                {{ short_text }}
+                {{ short_text | shortcode  }}
                 <p>
                     <br>
                     <a href="{{ url }}" class="px-4 py-3 text-xs font-300 text-white uppercase rounded-md bg-red-400 hover:transition-colors hover:duration-200 hover:bg-red-500">Weiterlesen</a>

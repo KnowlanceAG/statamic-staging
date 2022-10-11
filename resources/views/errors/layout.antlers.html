@@ -18,9 +18,9 @@
   {{ elseif author_slug }}
     {{ users slug:is="{author_slug}" }}
       <title>
-        {{ short_text | strip_tags | excerpt:. }}.
+        {{ short_text | shortcode | strip_tags | excerpt:. }}.
       </title>
-      <meta name="description" content="{{ short_text | strip_tags }}" />
+      <meta name="description" content="{{ short_text | shortcode | strip_tags }}" />
     {{ /users }}
   {{ else }}
     <title>GWriters •

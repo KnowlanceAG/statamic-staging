@@ -24,14 +24,14 @@
   {{ if meta_title }}
   {{ elseif page_title }}
     <title>
-      {{ page_title }}
+      {{ page_title | shortcode  }}
     </title>
   {{ elseif author_slug }}
     {{ users slug:is="{author_slug}" }}
       <title>
-        {{ short_text | strip_tags | excerpt:. }}.
+        {{ short_text | shortcode | strip_tags | excerpt:. }}.
       </title>
-      <meta name="description" content="{{ short_text | strip_tags }}" />
+      <meta name="description" content="{{ short_text | shortcode | strip_tags }}" />
     {{ /users }}
   {{ else }}
     <title>GWriters •
@@ -76,8 +76,8 @@
 
       <!-- Start OpenGraph content -->
       <meta property="og:site_name" content="{{ aardvark_general_settings:site_name }}">
-      <meta property="og:title" content="{{ og_title or calculated_title }}">
-      <meta property="og:description" content="{{ og_description or meta_description }}">
+      <meta property="og:title" content="{{ og_title or calculated_title | shortcode }}">
+      <meta property="og:description" content="{{ og_description or meta_description | shortcode }}">
       <meta property="og:type" content="website">
       <meta property="og:locale" content="{{ site:locale | lower }}">
       {{ if calculated_og_image }}
