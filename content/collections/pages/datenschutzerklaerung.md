@@ -3,7 +3,7 @@ id: 8e94ca0e-e5de-46b9-908e-d086cd76f0c8
 blueprint: pages
 title: Datenschutzerklärung
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1657698561
+updated_at: 1665504702
 page_title: 'GWriters • Datenschutzerklärung'
 meta_title: 'GWriters • Datenschutzerklärung'
 meta_description: 'Unsere Datenschutzerklärung. GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
@@ -13,8 +13,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     bard:
@@ -209,10 +207,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'mailto:info@gwriters.de'
+                  href: 'mailto:##email##'
                   target: null
                   rel: null
-            text: info@gwriters.de
+            text: '##email##'
       -
         type: heading
         attrs:
@@ -1540,7 +1538,29 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: "\_oder E-Mail) werden personenbezogene Daten erhoben. Welche Daten im Falle eines Kontaktformulars erhoben werden, ist aus dem jeweiligen Kontaktformular ersichtlich. Diese Daten werden ausschließlich zum Zweck der Beantwortung Ihres Anliegens bzw. für die Kontaktaufnahme und die damit verbundene technische Administration gespeichert und verwendet. Rechtsgrundlage für die Verarbeitung der Daten ist unser berechtigtes Interesse an der Beantwortung Ihres Anliegens gemäß Art. 6 Abs. 1 lit. f DS-GVO. Zielt Ihre Kontaktierung auf den Abschluss eines Vertrages ab, so ist zusätzliche Rechtsgrundlage für die Verarbeitung Art. 6 Abs. 1 lit. b DS-GVO. Ihre Daten werden nach abschließender Bearbeitung Ihrer Anfrage gelöscht, dies ist der Fall, wenn sich aus den Umständen entnehmen lässt, dass der betroffene Sachverhalt abschließend geklärt ist und sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen."
+            text: "\_oder "
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+              -
+                type: link
+                attrs:
+                  href: 'mailto:##email##'
+                  target: null
+                  rel: null
+            text: E-Mail
+          -
+            type: text
+            marks:
+              -
+                type: textAlign
+                attrs:
+                  align: start
+            text: ') werden personenbezogene Daten erhoben. Welche Daten im Falle eines Kontaktformulars erhoben werden, ist aus dem jeweiligen Kontaktformular ersichtlich. Diese Daten werden ausschließlich zum Zweck der Beantwortung Ihres Anliegens bzw. für die Kontaktaufnahme und die damit verbundene technische Administration gespeichert und verwendet. Rechtsgrundlage für die Verarbeitung der Daten ist unser berechtigtes Interesse an der Beantwortung Ihres Anliegens gemäß Art. 6 Abs. 1 lit. f DS-GVO. Zielt Ihre Kontaktierung auf den Abschluss eines Vertrages ab, so ist zusätzliche Rechtsgrundlage für die Verarbeitung Art. 6 Abs. 1 lit. b DS-GVO. Ihre Daten werden nach abschließender Bearbeitung Ihrer Anfrage gelöscht, dies ist der Fall, wenn sich aus den Umständen entnehmen lässt, dass der betroffene Sachverhalt abschließend geklärt ist und sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen.'
       -
         type: heading
         attrs:
@@ -5271,4 +5291,5 @@ og_title: 'GWriters • Datenschutzerklärung'
 og_description: 'Unsere Datenschutzerklärung. GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---
