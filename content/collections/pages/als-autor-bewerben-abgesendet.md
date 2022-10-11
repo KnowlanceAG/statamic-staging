@@ -1,8 +1,9 @@
 ---
 id: 70f117e2-898b-4be6-b5e0-6c0bb721b585
+blueprint: pages
 title: 'Bewerbung abgesendet'
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623334928
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665505462
 replicator:
   -
     bard:
@@ -39,55 +40,39 @@ replicator:
         content:
           -
             type: text
-            text: 'Falls Sie uns Korrekturen, Ergänzungen oder Dateianhänge zusenden möchten, senden Sie diese bitte einfach an eine der folgenden E-Mail-Adressen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Deutschland: '
+            text: 'Falls Sie uns Korrekturen, Ergänzungen oder Dateianhänge zusenden möchten, senden Sie diese bitte einfach per E-Mail an '
           -
             type: text
             marks:
               -
                 type: link
                 attrs:
-                  href: 'mailto:info@gwriters.de'
+                  href: 'mailto:##email##'
                   target: null
                   rel: null
-            text: info@gwriters.de
-          -
-            type: hard_break
+            text: '##email##'
           -
             type: text
-            text: 'Schweiz: '
+            text: .
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Bei Fragen oder Unklarheiten können Sie uns auch gern von Montag bis Freitag, 9:00-18:00 Uhr telefonisch unter der Rufnummer '
           -
             type: text
             marks:
               -
                 type: link
                 attrs:
-                  href: 'mailto:info@gwriters.ch'
+                  href: 'tel:##phone##'
                   target: null
                   rel: null
-            text: info@gwriters.ch
-      -
-        type: paragraph
-        content:
+            text: '##phone##'
           -
             type: text
-            text: 'Bei Fragen oder Unklarheiten können Sie uns auch gern von Montag bis Freitag, 9:00-18:00 Uhr unter den folgenden Rufnummern erreichen.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Deutschland: +49 (0) 30 809 332 339'
-          -
-            type: hard_break
-          -
-            type: text
-            text: 'Schweiz: +41 (0) 41 5880717'
+            text: ' erreichen.'
       -
         type: paragraph
         content:
@@ -110,12 +95,12 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'GWriters • Als Autor bewerben'
 meta_title: 'GWriters • Bewerbung abgesendet'
 meta_description: 'Vielen Dank für Ihre Bewerbung! Unser Autorenmanagement wird sich in kürzester Zeit mit Ihnen in Verbindung setzen.'
 og_title: 'GWriters • Bewerbung abgesendet'
 og_description: 'Vielen Dank für Ihre Bewerbung! Unser Autorenmanagement wird sich in kürzester Zeit mit Ihnen in Verbindung setzen.'
 og_image: GWriters-Logo.png
+published: true
+sitemap_active: true
 ---
