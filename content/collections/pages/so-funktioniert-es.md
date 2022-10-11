@@ -5,7 +5,7 @@ title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656511213
+updated_at: 1665503310
 teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
   -
@@ -44,7 +44,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -72,7 +72,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,13 +89,10 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -127,19 +124,19 @@ replicator:
         type: row
         enabled: true
         single_col: false
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
-            bard: null
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '2'
+        columns_per_row: 2
         grid:
           -
             bard:
@@ -172,10 +169,8 @@ replicator:
         type: row
         enabled: true
         single_col: false
-        responsive_columns: 1
+        responsive_columns: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -183,7 +178,6 @@ replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -210,9 +204,10 @@ replicator:
         type: row
         enabled: true
         single_col: false
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '4'
+        columns_per_row: 4
         grid:
           -
             bard:
@@ -426,11 +421,10 @@ replicator:
         type: row
         enabled: true
         single_col: false
-        responsive_columns: 1
+        responsive_columns: 0
     is_full: true
     bg_toggle: false
     bg_color: '#F9F9F9'
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -438,7 +432,6 @@ replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -898,10 +891,9 @@ replicator:
         type: row
         enabled: true
         single_col: true
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -912,4 +904,5 @@ og_title: 'Wissenschaftliches Ghostwriting bei GWriters • So funktioniert es'
 og_description: 'Möchten Sie Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen? So funktioniert es - in 4 einfachen Schritten.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---
