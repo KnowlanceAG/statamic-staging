@@ -4,7 +4,7 @@ blueprint: pages
 title: Anfrage
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665504509
+updated_at: 1665505528
 replicator:
   -
     bard:
@@ -85,7 +85,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: '##phone##'
+                  href: 'tel:##phone##'
                   target: null
                   rel: null
             text: '##phone##'
