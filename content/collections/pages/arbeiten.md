@@ -4,7 +4,7 @@ blueprint: pages
 title: Arbeiten
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665502780
+updated_at: 1665502824
 teaser:
   -
     type: heading
@@ -116,8 +116,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6606!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
