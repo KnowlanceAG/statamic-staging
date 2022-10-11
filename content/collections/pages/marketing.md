@@ -125,7 +125,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665513322
+updated_at: 1665513515
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1120,18 +1120,19 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: experten_slider
+                    type: experts_list
                     experts:
                       - bdab7ac8-0923-4d8c-b848-caa250aa5e62
                       - ece9c0d8-5e69-4361-a79d-acbdb0675182
-                      - ff5a8835-3e93-4d7c-9aa9-5ce0b70c47cc
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: false
-    is_full: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
     border: false
     type: add_section
     enabled: true
