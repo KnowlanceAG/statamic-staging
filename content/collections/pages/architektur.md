@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -118,34 +118,31 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#000!important'
+              hex: '#000'
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Architektur Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658325130
+updated_at: 1665511239
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -352,10 +349,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         grid:
           -
             bard:
@@ -375,6 +373,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(193, 76, 0)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -396,6 +395,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -417,6 +417,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -424,23 +425,6 @@ replicator:
                           target: null
                           rel: null
                     text: Übersetzung
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                    text: "\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: hard_break
             show_as_card: false
           -
             bard:
@@ -458,6 +442,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -479,6 +464,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -500,6 +486,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -507,8 +494,6 @@ replicator:
                           target: null
                           rel: null
                     text: Plagiatsprüfung
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -557,19 +542,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
+        single_col: true
+        responsive_columns: 0
       -
-        columns_per_row: 1
+        single_col: true
         grid:
           -
             bard:
@@ -604,25 +580,6 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
-      -
-        columns_per_row: 1
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -638,7 +595,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Allgemeines zur Architektur'
               -
@@ -663,7 +620,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Der Begriff Architektur stammt aus dem Altgriechischen und bedeutet „oberster Baumeister“. Ein Architekt ist verantwortlich für die optische, technische, wirtschaftliche und funktionale Gestaltung von Bauwerken. Dies kann sich auf alle Arten von Gebilden und Gebäuden beziehen, so entwerfen Architekten zum Beispiel Brücken, Wohnhäuser und auch Kunstwerke. Das Studium der Architektur ist geprägt von vielen Arbeiten, die zu leisten sind. Somit werden häufig von Studenten der Architektur Ghostwriter und andere akademische Freelancer engagiert, um das eingeforderte Abgabenpensum einhalten zu können.'
               -
@@ -681,7 +638,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Aufbau des Studiums'
               -
@@ -697,7 +654,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'In Deutschland dauern ein Bachelorstudiengang theoretisch 6 und ein Masterstudiengang 4 Semester. Sie werden mit der Bachelorarbeit (Bachelor Thesis) und der Masterarbeit (Master Thesis), ehemals mit der Magisterarbeit und Diplomarbeit abgeschlossen. Optional kann darauf die Promotion, das Erlangen des Doktortitels, durch Lehrinstitute mit Promotionsrecht erfolgen. Es ist üblich, dass diese von ihren Studenten eine Dissertation/ Doktorarbeit schreiben lassen. Jedoch ist, trotz erfolgreich absolviertem Architekturstudium, die Verwendung der Berufsbezeichnung „Architekt“ nicht rechtens. Erst nach zweijähriger Berufserfahrung und der darauf folgenden Eintragung der deutschen Architektenkammer, ist diese zulässig. Bis zu der erfolgreichen Eintragung zeichnet sich der Werdegang eines Architekten als sehr anspruchsvoll und strapazierend aus. So ist es nicht unüblich, dass sich Studenten der Architektur von Ghostwritern eine Mustervorlage für eine Examensarbeit oder Hausarbeit schreiben lassen.'
               -
@@ -728,7 +685,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Inhalte eines Architektur-Studiums'
               -
@@ -744,7 +701,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Architekturstudenten müssen während ihres gesamten Studiums eine umfangreiche Praxiserfahrung sammeln. Aus diesem Grund ist es üblich, dass unterschiedliche Praktika verlangt werden, die innerhalb des Studiums zu absolvieren sind. Zusätzlich wird von den Studenten verlangt, dass sie in Eigenregie Gebäude für einen bestimmten Zweck planen und zeichnen, Modelle bauen oder schriftliche Ausarbeitungen, beispielsweise eine Hausarbeit oder '
                   -
@@ -757,7 +714,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -776,22 +733,9 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
-                    text: ", zu architektonischen Themen anfertigen. Die dabei einzuhaltenden Zeitpläne sind oft knapp kalkuliert und stellen die Studenten teilweise vor unlösbare Aufgaben. Um ihr Arbeitspensum bewältigen zu können, lassen sich einige Studenten der Architektur Hilfe von professionellen Bearbeitern leisten, in Form eines Korrektorates oder\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(255, 102, 2)'
-                          hex: '#000'
-                    text: Lektorates
+                    text: ", zu architektonischen Themen anfertigen. Die dabei einzuhaltenden Zeitpläne sind oft knapp kalkuliert und stellen die Studenten teilweise vor unlösbare Aufgaben. Um ihr Arbeitspensum bewältigen zu können, lassen sich einige Studenten der Architektur Hilfe von professionellen Bearbeitern leisten, in Form eines Korrektorates oder\_Lektorates"
                   -
                     type: text
                     marks:
@@ -810,7 +754,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -830,7 +774,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -842,7 +786,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: Disclaimer
               -
@@ -858,7 +802,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
               -
@@ -876,7 +820,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Nützliche Weblinks'
               -
@@ -892,7 +836,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -918,7 +862,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -944,7 +888,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -970,7 +914,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1001,11 +945,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -1019,4 +961,5 @@ themengruppe: g_technische_fachrichtungen
 fachrichtungsgruppe: g_technische_fachrichtungen
 sitemap_active: true
 alternative_page_title: 'Architektur Ghostwriter'
+published: true
 ---
