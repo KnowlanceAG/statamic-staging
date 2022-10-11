@@ -4,7 +4,7 @@ blueprint: pages
 title: Arbeiten
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665502824
+updated_at: 1665502845
 teaser:
   -
     type: heading
