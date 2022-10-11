@@ -132,7 +132,7 @@ page_title: 'Informatik Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665512059
+updated_at: 1665512104
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -148,8 +148,6 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
@@ -157,8 +155,6 @@ replicator:
                     html: |-
                       <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Informatik. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Informatik Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Informatik in sichere Hände geben und bei einem Informatik-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Informatikern, Doktoren und Professoren arbeitet.
                       </p>
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
