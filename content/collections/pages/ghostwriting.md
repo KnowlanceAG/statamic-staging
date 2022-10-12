@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -731,8 +731,6 @@ replicator:
                                 type: text
                                 text: 'im Preis inklusive'
               -
-                type: paragraph
-              -
                 type: horizontal_rule
               -
                 type: set
@@ -835,8 +833,6 @@ replicator:
                           - b850974c-8d2d-4448-b168-3dccef384025
                           - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
                           - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -924,7 +920,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -949,7 +945,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665504101
+updated_at: 1665578950
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret!'
 meta_description: 'Ghostwriting - Akademische Ghostwriter schreiben & Sie erhalten alle Nutzungsrechte ✔️ professionelle Hilfe ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
