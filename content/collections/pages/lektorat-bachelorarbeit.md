@@ -127,11 +127,11 @@ teaser:
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -151,19 +151,18 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
     is_full: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -221,7 +220,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -242,21 +241,21 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: true
-    bg-color: '#F9F9F9'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: true
+    bg_color: '#F9F9F9'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
-    bg-image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
     is_full: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -482,7 +481,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -506,7 +505,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '4'
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -516,9 +515,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/security.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -564,9 +563,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -609,9 +608,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/stopwatch.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -666,9 +665,9 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: custom-svg-width
+                    type: custom_svg_width
                     svg_file: leistung/icons/magistrate.svg
-                    custom-svg-width: '65'
+                    custom_svg_width: '65'
               -
                 type: set
                 attrs:
@@ -709,19 +708,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
     is_full: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -784,7 +783,7 @@ replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -835,20 +834,20 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#D6D6D6'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
     is_full: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -870,7 +869,7 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: floating-img
+                    type: floating_img
                     dateien:
                       - seiten/lektorat-bachelorarbeit.png
                     img_size: w-full
@@ -1015,19 +1014,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
     is_full: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: '2'
-        single-col: false
+        single_col: false
         grid:
           -
             bard:
@@ -1129,20 +1128,20 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: true
-    bg-toggle: false
-    bg-color: '#F7F7F7'
-    bg-image-fixed: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F7F7F7'
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
     is_full: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -1336,19 +1335,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
     is_full: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -1427,19 +1426,19 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
     is_full: false
   -
-    columns-replicator:
+    columns_replicator:
       -
         responsive_columns: 1
         columns_per_row: 1
-        single-col: true
+        single_col: true
         grid:
           -
             bard:
@@ -1491,9 +1490,9 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is-full: false
-    bg-toggle: false
-    bg-image-fixed: false
+    is_full: false
+    bg_toggle: false
+    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -1550,6 +1549,6 @@ schema_objects: |-
   }
   </script>
 sitemap_active: true
-alternative-page-title: 'Bachelorarbeit schreiben lassen'
+alternative_page_title: 'Bachelorarbeit schreiben lassen'
 published: true
 ---
