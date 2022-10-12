@@ -392,7 +392,7 @@ replicator:
                     type: link_liste
                     raster:
                       -
-                        text: Fachbereiche
+                        text: Fachrichtungen
                         eintraege:
                           - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
                           - dc0c7edd-0724-4454-9525-49b8f9065f16
@@ -440,7 +440,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665567445
+updated_at: 1665567476
 meta_title: 'GWriters • Die Anleitung zur richtigen Formatierung Ihrer Hausarbeit'
 meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Formatierung: Leistungen, Kosten, Preise & Ablauf.'
 use_meta_keywords: false
