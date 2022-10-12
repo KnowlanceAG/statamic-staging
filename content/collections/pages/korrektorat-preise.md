@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -247,42 +247,14 @@ replicator:
             type: text
             text: 'Blogartikel zum Thema Korrektorat & Korrektorat Preise'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/korrektorat-lektorat-textredaktion
-                  target: null
-                  rel: null
-            text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting
-                  target: null
-                  rel: null
-            text: 'Video: Akademisches Ghostwriting'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/ghostwriter-preise
-                  target: null
-                  rel: null
-            text: 'Video: Ghostwriter-Preise bei GWriters'
+        type: set
+        attrs:
+          values:
+            type: blog_entries
+            entries:
+              - fc6e7de5-8b4e-42c8-9a10-95208fbce892
+              - bb669ea6-4276-4a3c-88d5-eb6a88bddff3
+              - b0fee135-df37-4492-83ea-6f3799719792
       -
         type: paragraph
         content:
@@ -304,7 +276,7 @@ replicator:
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665505286
+updated_at: 1665583282
 page_title: 'Korrektorat Preise - sicher und fair • GWriters'
 meta_title: 'Korrektorat Preise - sicher und fair • GWriters'
 meta_description: 'Möchten Sie die aktuellen Korrektorat Preise erfahren? Die Ghostwriter Agentur GWriters.de arbeitet diskret, qualitativ und zu fairen Preisen.'
