@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -561,42 +561,14 @@ replicator:
                     type: text
                     text: 'Unsere Blogartikel zum Thema Promotionsberatung & Doktorarbeit'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /promotionsberatung
-                          target: _blank
-                          rel: null
-                    text: 'Promotionsberatung & Ghostwriting – Was sind die Unterschiede?'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/dissertation-ausland
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Dissertation im Ausland schreiben – Was gibt es zu beachten?'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/doktorvater-finden
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Doktorvater finden – Praktische Tipps für Deine Suche'
+                type: set
+                attrs:
+                  values:
+                    type: blog_entries
+                    entries:
+                      - a11daeb3-1d73-4d6f-9c46-9d0e0c86c4e1
+                      - 02161546-8b85-4c4e-8a83-9665f754b478
+                      - 0ad74efd-d968-4546-a1e4-92bde4e9f83e
               -
                 type: heading
                 attrs:
@@ -671,7 +643,7 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665504856
+updated_at: 1665578232
 meta_title: 'Unsere seriöse Promotionsberatung • GWriters'
 meta_description: 'Bei GWriters erhalten Sie eine seriöse Promotionsberatung von unseren erfahrenen akademischen Ghostwritern, Lektoren und Coaches. Auf Sie zugeschnitten!'
 use_meta_keywords: false
