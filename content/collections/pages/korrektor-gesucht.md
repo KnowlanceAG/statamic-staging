@@ -22,13 +22,13 @@ teaser:
               hex: '#ff6606'
         text: 'Korrektor gesucht'
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 2
     content:
       -
         type: text
         marks:
-          -
-            type: bold
           -
             type: textAlign
             attrs:
@@ -111,8 +111,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -272,42 +272,14 @@ replicator:
             type: text
             text: 'Blogartikel zum Thema Korrektor, Korrektor gesucht und Jobs bei GWriters'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/bewerbung-ghostwriter-gwriters
-                  target: null
-                  rel: null
-            text: 'Video: Was Du bei der Bewerbung als Ghostwriter bei GWriters beachten solltest'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/ghostwriting-lektorat-korrektorat
-                  target: null
-                  rel: null
-            text: 'Video: Ghostwriting, Lektorat, Korrektorat – Was ist was?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting
-                  target: null
-                  rel: null
-            text: 'Video: Akademisches Ghostwriting'
+        type: set
+        attrs:
+          values:
+            type: blog_entries
+            entries:
+              - fc6e7de5-8b4e-42c8-9a10-95208fbce892
+              - 27876560-a260-4e18-89b1-417c11b8b31f
+              - b0fee135-df37-4492-83ea-6f3799719792
       -
         type: paragraph
         content:
@@ -328,7 +300,7 @@ replicator:
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665505214
+updated_at: 1665583210
 page_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
 meta_title: 'Korrektor gesucht? • Bei GWriters finden Sie Ihren perfekten Korrektor'
 meta_description: 'Korrektor gesucht? Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches sowie Informationen zu Ablauf, Kosten & Preisen finden Sie bei GWriters!'
