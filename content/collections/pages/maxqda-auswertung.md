@@ -647,8 +647,8 @@ replicator:
                     type: blog_entries
                     entries:
                       - f1e727ca-ef12-42e3-afb9-0ae65c48a2b2
-                      - 9d9ee2a7-df5e-4bdb-8e8d-becf62e2a0d2
                       - 2cfe04c4-41e2-44bf-9697-024ca97ff3b9
+                      - 60b37925-2ced-42eb-ad50-6bd0b34ee4d7
               -
                 type: heading
                 attrs:
@@ -701,7 +701,7 @@ replicator:
     border: false
 parent: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665567802
+updated_at: 1665567820
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
