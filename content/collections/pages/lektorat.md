@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -498,16 +498,6 @@ replicator:
                   -
                     type: text
                     text: 'Jeder, der Texte erstellt, kann einen Lektor beauftragten. Hierzu gibt es keine Begrenzungen. Wir bieten unseren Lektorats-Service sowohl für Studenten und Forscher, als auch für Unternehmen und Hobbyautoren an. Unseren erfahrenen Lektoren passen sich problemlos Ihren individuellen Anforderungen an.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        single_col: false
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -558,22 +548,6 @@ replicator:
                           - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
                           - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
                           - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        single_col: false
-        grid:
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 20
               -
                 type: heading
                 attrs:
@@ -650,48 +624,20 @@ replicator:
                     type: text
                     text: 'Unsere Blogartikel zum Lektorat Service'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/korrektorat-lektorat-textredaktion
-                          target: null
-                          rel: null
-                    text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: 'Die große Infosammlung zum Lektorat'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/ghostwriting-lektorat-korrektorat
-                          target: null
-                          rel: null
-                    text: 'Video: Ghostwriting, Lektorat, Korrektorat – Was ist was?'
+                type: set
+                attrs:
+                  values:
+                    type: blog_entries
+                    entries:
+                      - 27876560-a260-4e18-89b1-417c11b8b31f
+                      - bb669ea6-4276-4a3c-88d5-eb6a88bddff3
+                      - fc6e7de5-8b4e-42c8-9a10-95208fbce892
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     type: add_section
     enabled: true
@@ -699,7 +645,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665505064
+updated_at: 1665582460
 meta_title: 'Lektorat von GWriters - Professionell, diskret und akademisch'
 meta_description: 'Akademische Lektoren, Korrektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Lektorat: Leistungen, Ablauf, Kosten & Preise.'
 use_meta_keywords: false
