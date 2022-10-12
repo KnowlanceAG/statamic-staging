@@ -241,7 +241,6 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is_full: true
     bg_toggle: true
     bg_color: '#F9F9F9'
     bg_image_fixed: false
@@ -708,7 +707,6 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is_full: false
     bg_toggle: false
     bg_image_fixed: false
     border: false
@@ -834,7 +832,6 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is_full: true
     bg_toggle: false
     bg_color: '#D6D6D6'
     bg_image_fixed: false
@@ -1014,7 +1011,6 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is_full: false
     bg_toggle: false
     bg_image_fixed: false
     border: false
@@ -1128,7 +1124,6 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is_full: true
     bg_toggle: false
     bg_color: '#F7F7F7'
     bg_image_fixed: false
@@ -1335,7 +1330,6 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is_full: false
     bg_toggle: false
     bg_image_fixed: false
     border: false
@@ -1426,7 +1420,6 @@ replicator:
         type: row
         enabled: true
     remove_spacing: true
-    is_full: false
     bg_toggle: false
     bg_image_fixed: false
     border: false
@@ -1490,7 +1483,6 @@ replicator:
         type: row
         enabled: true
     remove_spacing: false
-    is_full: false
     bg_toggle: false
     bg_image_fixed: false
     border: false
