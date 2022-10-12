@@ -111,8 +111,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6606!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -122,7 +122,7 @@ teaser:
         text: '##phone##'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665503083
+updated_at: 1665570669
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1004,12 +1004,6 @@ replicator:
                   -
                     type: text
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
               -
                 type: paragraph
                 content:
