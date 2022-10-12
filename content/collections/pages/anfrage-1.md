@@ -3,8 +3,8 @@ id: fb7f2840-5af4-40d9-b494-39fb8921a8d8
 blueprint: pages
 title: 'Anfrage (alt)'
 template: without-teaser-with-sidebar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1664292319
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665504324
 replicator:
   -
     bard:
@@ -85,10 +85,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'tel:+49 (0) 30 809 332 339'
+                  href: 'tel:##phone##'
                   target: null
                   rel: null
-            text: '+49 (0) 30 809 332 339'
+            text: '##phone##'
       -
         type: paragraph
       -

@@ -38,10 +38,8 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
-  -
-    type: paragraph
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1656669792
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665505554
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -146,6 +144,48 @@ replicator:
         type: paragraph
       -
         type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'Telefon: '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: link
+                attrs:
+                  href: 'tel:##phone##'
+                  target: null
+                  rel: null
+            text: '##phone##'
+          -
+            type: hard_break
+            marks:
+              -
+                type: bold
+          -
+            type: text
+            marks:
+              -
+                type: bold
+            text: 'E-Mail: '
+          -
+            type: text
+            marks:
+              -
+                type: bold
+              -
+                type: link
+                attrs:
+                  href: 'mailto:##email##'
+                  target: null
+                  rel: null
+            text: '##email##'
       -
         type: paragraph
       -
@@ -300,11 +340,11 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
 template: with-side-bar
 page_title: 'GWriters • Impressum'
 og_title: 'GWriters • Impressum'
 og_description: 'GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---

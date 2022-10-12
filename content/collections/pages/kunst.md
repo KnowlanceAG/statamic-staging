@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -118,34 +118,31 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#000!important'
+              hex: '#000'
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Kunst Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658324741
+updated_at: 1665509047
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -601,10 +598,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         grid:
           -
             bard:
@@ -624,6 +622,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(193, 76, 0)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -645,6 +644,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -666,6 +666,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -684,12 +685,8 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(68, 68, 68)'
+                          hex: '#000'
                     text: "\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: hard_break
             show_as_card: false
           -
             bard:
@@ -707,6 +704,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -728,6 +726,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -749,6 +748,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -756,8 +756,6 @@ replicator:
                           target: null
                           rel: null
                     text: Plagiatsprüfung
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -806,19 +804,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
+        single_col: true
+        responsive_columns: 0
       -
-        columns_per_row: 1
+        single_col: true
         grid:
           -
             bard:
@@ -853,25 +842,6 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
-      -
-        columns_per_row: 1
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -887,7 +857,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Kunst studieren: Voraussetzungen'
               -
@@ -903,7 +873,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Eine wesentliche Voraussetzung ist eine (Fach-) Hochschulreife und darüber hinaus ist natürlich auch ein gewisses künstlerisches Talent notwendig. Sie müssen in der Regel bei der Bewerbung an der Universität eine Bewerbungsmappe mit'
                   -
@@ -916,7 +886,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -946,7 +916,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Der Studiengang kann gleich danach ausgewählt werden. Auch ein umfassendes künstlerisches Interesse und eine entsprechende Flexibilität auf verschiedene wandelnde Anforderungen sollten Sie haben. Einen NC gibt es allerdings an fast keiner Universität.'
               -
@@ -964,7 +934,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Kunststudium: Voraussetzungen'
               -
@@ -986,7 +956,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: '(Fach-) Hochschulreife'
                   -
@@ -1005,7 +975,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Bewerbungsmappe mit Beispielarbeiten'
                   -
@@ -1024,7 +994,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: Eignungstest
                   -
@@ -1043,7 +1013,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Künstlerische Fähigkeit'
                   -
@@ -1062,7 +1032,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Kein NC'
               -
@@ -1093,7 +1063,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Studieninhalte & Ablauf'
               -
@@ -1109,7 +1079,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Das Kunststudium kann sowohl an staatlichen als auch an privaten Hochschulen absolviert werden. Oftmals werden die Studiengänge an staatlichen Hochschulen, wenn diese nicht auf die Kunst alleine fokussiert sind, unter dem Oberbegriff „Kunst, Gestaltung und Musik“ zusammengefasst. Je nach Hochschule unterscheiden sich die Ausrichtungen der bildenden Kunst.'
               -
@@ -1125,7 +1095,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Bei der angewandten Kunst handelt es sich um die Gestaltung von Bedarfs- oder Gebrauchsgegenständen, hingegen handelt es sich bei der freien Kunst um die Gattung der formenden Künste. Es sind Werke, die äußerlich ästhetisch geformt sind. Auch kann dieser Bereich als Gebrauchskunst bezeichnet werden. Dazu gehören zum Beispiel Gold- und Silberschmieden, Keramik, Textil (Mode) und Bühnenbild. Zur freien Kunst, auch „schöne Künste“ genannt, zählen bspw. Bildhauerei, Malerei, Grafik, Fotografie und Gemälde. Lassen Sie sich vorher über die beliebtesten Studiengängen unter weiterführende Quellen informieren.'
               -
@@ -1141,7 +1111,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Das Kunststudium ist inhaltlich sehr praktisch und gleichzeitig sehr flexibel ausgerichtet. Gerade aufgrund dieser starken Praxisausrichtung und auch der hohen zeitlichen Flexibilität erfahren Kunststudenten zum Teil Probleme. Es ist immer schwierig, sich auf verschiedene Themen zu konzentrieren und oftmals kommen sowohl Praxis- als auch Theorieprojekte gleichzeitig zum Tragen. Hier können ebenso die Kunst Ghostwriter von GWriters helfen. Sie kennen die aktuellen Forschungsthemen und sind vor allen Dingen Experten in Sachen der Kunsttheorie. Ohne professionelle Unterstützung eine wissenschaftliche Begleitung zu finden, ist gewöhnlich sehr schwierig. Hier kann GWriters helfen und Sie bei der Durchführung von Projekten beraten, darüber hinaus können Sie aber auch bei GWriters eine Mustervorlage für bspw. Ihre Hausarbeit schreiben lassen. Mehr Informationen zum Kunststudium erfahren Sie\_"
                   -
@@ -1154,7 +1124,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1186,7 +1156,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Unterschied zwischen angewandter und freier Kunst:'
               -
@@ -1218,7 +1188,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Angewandte Kunst'
                       -
@@ -1244,7 +1214,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Freie Kunst'
                   -
@@ -1271,7 +1241,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Gestaltung von Bedarfs- oder Gebrauchsgegenständen'
                       -
@@ -1295,7 +1265,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Gestaltung von nicht Bedarfs- oder Gebrauchsgegenständen'
                   -
@@ -1322,7 +1292,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Synonym: Gebrauchskunst'
                       -
@@ -1346,7 +1316,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Synonym: schöne Künste'
                   -
@@ -1373,7 +1343,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Gold- und Silberschmieden'
                               -
@@ -1386,7 +1356,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -1398,7 +1368,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Keramik'
                               -
@@ -1411,7 +1381,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -1423,7 +1393,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Textil'
                               -
@@ -1436,7 +1406,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -1448,7 +1418,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Bühnenbild'
                               -
@@ -1461,7 +1431,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                       -
                         type: table_cell
@@ -1484,7 +1454,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Bildhauerei'
                               -
@@ -1497,7 +1467,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -1509,7 +1479,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Malerei'
                               -
@@ -1522,7 +1492,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -1534,7 +1504,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Grafik'
                               -
@@ -1547,7 +1517,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -1559,7 +1529,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Fotografie'
                               -
@@ -1572,7 +1542,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                               -
                                 type: text
@@ -1584,7 +1554,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '-Gemälde'
               -
@@ -1602,7 +1572,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Wo und wie lange wird Kunst studiert?'
               -
@@ -1618,7 +1588,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Eine Kunstuniversität, die aufgrund ihrer Ausrichtung und ihrer hohen Qualität in der Lehre einen sehr guten Ruf in der Kunst hat ist\_"
                   -
@@ -1631,7 +1601,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1677,7 +1647,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Hochschule & Universität'
                       -
@@ -1703,7 +1673,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Wo?'
                   -
@@ -1730,7 +1700,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(255, 102, 2)'
+                                      color: '#000!important'
                                       hex: '#000'
                                   -
                                     type: link
@@ -1774,7 +1744,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Berlin
                   -
@@ -1801,7 +1771,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(255, 102, 2)'
+                                      color: '#000!important'
                                       hex: '#000'
                                   -
                                     type: link
@@ -1831,7 +1801,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: München
                   -
@@ -1858,7 +1828,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(255, 102, 2)'
+                                      color: '#000!important'
                                       hex: '#000'
                                   -
                                     type: link
@@ -1895,7 +1865,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Leipzig
                   -
@@ -1922,7 +1892,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(255, 102, 2)'
+                                      color: '#000!important'
                                       hex: '#000'
                                   -
                                     type: link
@@ -1952,7 +1922,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Stuttgart
               -
@@ -1968,7 +1938,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Auch über\_"
                   -
@@ -1981,7 +1951,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -2011,7 +1981,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Im Regelfall dauert ein Bachelorstudium 6 bis 8 Semester und ein Masterstudium, was darauf aufgesetzt werden kann, 4 Semester. Hier finden sich oft Vertiefungen im Bereich Kunst und Medien. Der Abschluss für ein Bachelor wird als Bachelor of Arts bezeichnet und für Master als Master of Arts.'
               -
@@ -2029,7 +1999,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Wo kann ich später tätig werden bzw. was kann ich mit einem Kunststudium machen?'
               -
@@ -2045,7 +2015,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Knapp ein Drittel der Künstler landen nach dem Studium in der Branche Industrie. An zweiter Stelle werden die Branchen Internet und Dienstleistung bevorzugt. Nach einem Kunststudium gibt es vielfältige Möglichkeiten, beruflich aktiv zu werden. Jedoch gibt es kein einheitliches Berufsbild für Absolventen der bildenden Kunst. Zum einen haben Sie die Möglichkeit als freischaffender Künstler zu arbeiten. Auch an der Grafik erkennt man, dass die Anzahl der selbständigen bildenden Künstler seit 2003 in Deutschland gestiegen ist.'
               -
@@ -2070,7 +2040,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Zum anderen können Sie als Angestellte in Museen, in Galerien oder auch sogar in Unternehmen als Kuratoren arbeiten. Auch im journalistischen Bereich oder in der Lehre finden sich weitere Berufsmöglichkeiten. Darüber hinaus finden sich im Bereich der Kunsthistorik oder der Kunstpädagogik weitere Einsatzgebiete. Hierzu wären die potenzielle Arbeitgeber Schulen oder Krankenhäusern. In der bildende Kunst liegt das Einstiegsgehalt nach dem Bachelor bei rund 35.000 Euro.'
               -
@@ -2097,7 +2067,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Weiterführende Quellen:'
               -
@@ -2113,7 +2083,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Beliebteste Studiengänge, Studycheck, 2021, URL:\_"
                   -
@@ -2126,19 +2096,19 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
                         attrs:
                           href: 'https://www.studycheck.de/studium/bildende-kunst'
                           target: null
-                          rel: 'noopener noreferrer nofollow'
+                          rel: null
                     text: 'https://www.studycheck.de/studium/bildende-kunst'
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -2169,11 +2139,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -2186,4 +2154,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_geisteswissenschaften
 sitemap_active: true
 alternative_page_title: 'Kunst Ghostwriter'
+published: true
 ---

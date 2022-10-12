@@ -39,7 +39,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -67,7 +67,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -77,6 +77,49 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: 20
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: '#000!important'
+              hex: '#000'
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              target: null
+              rel: null
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -197,7 +240,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unser Schwerpunkt liegt in der Übersetzung deutscher Texte in die Zielsprache Englisch, in welcher wissenschaftlichen Texte üblicherweise veröffentlicht werden. Übersetzungen in andere Sprachen erhalten Sie auf '
+                    text: 'Unser Schwerpunkt liegt in der Übersetzung deutscher Texte in die Zielsprache Englisch, in welcher wissenschaftlichen Texte üblicherweise veröffentlicht werden. Übersetzungen in andere Sprachen erhalten Sie auf'
                   -
                     type: text
                     marks:
@@ -930,10 +973,11 @@ replicator:
     type: add_section
     enabled: true
     border: false
+    is_full: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1646931438
+updated_at: 1665503600
 meta_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
 meta_description: 'Akademische Übersetzer, Autoren, Lektoren, Korrektoren, Coaches finden & Informationen zum Thema Übersetzung: Leistungen, Ablauf, Kosten & Preise.'
 use_meta_keywords: false
@@ -942,11 +986,10 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
 og_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
 og_description: 'Akademische Übersetzer, Autoren, Lektoren, Korrektoren, Coaches finden & Informationen zum Thema Übersetzung: Leistungen, Ablauf, Kosten & Preise.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---

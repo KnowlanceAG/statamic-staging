@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -118,34 +118,31 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#000!important'
+              hex: '#000'
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Biologie Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658325024
+updated_at: 1665510703
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -341,10 +338,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         grid:
           -
             bard:
@@ -364,6 +362,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(193, 76, 0)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -385,6 +384,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -406,6 +406,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -413,23 +414,6 @@ replicator:
                           target: null
                           rel: null
                     text: Übersetzung
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                    text: "\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: hard_break
             show_as_card: false
           -
             bard:
@@ -447,6 +431,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -468,6 +453,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -489,6 +475,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -496,8 +483,6 @@ replicator:
                           target: null
                           rel: null
                     text: Plagiatsprüfung
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -546,19 +531,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
+        single_col: true
+        responsive_columns: 0
       -
-        columns_per_row: 1
+        single_col: true
         grid:
           -
             bard:
@@ -593,25 +569,6 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
-      -
-        columns_per_row: 1
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -627,7 +584,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Das Biologie-Studium'
               -
@@ -643,7 +600,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Die Biologie zeugt aufgrund ihrer engen Verbindung zu den angrenzenden naturwissenschaftlichen Fachbereichen von einer hohen Komplexität, die sich auch im Studium der Biologie widerspiegelt. Neben den Vorlesungen und Seminaren wird das Studium von Praktika und Laborarbeiten begleitet, die sich mitunter nur schwer zeitlich planen lassen. Jeder, der schon einmal eine PCR durchgeführt hat, weiß wie zeitaufwendig sich diese gestalten kann. Vor allem, wenn sie wegen üblichen Problemen wie einer Verunreinigung oder eines Nichtfunktionierens des Trägermediums wiederholt werden muss. So kann ein einziges Praktikum den ganzen Studien- und Lernplan eines Tages boykottieren.'
               -
@@ -659,7 +616,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Zudem ist es vielfach Bestandteil des Biologiestudiums, dass die Studenten der Biologie auch Kurse in den angrenzenden Bereichen wie\_"
                   -
@@ -672,7 +629,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -717,7 +674,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Zur Biologie'
               -
@@ -733,7 +690,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Die Biologie ist die Lehre der lebenden Dinge. Sie beschäftigt mit Gesetzmäßigkeiten, welche das Leben ermöglichen. Dazu zählen unter anderem spezielle Eigenschaften von Lebewesen, wie deren inneren und äußeren Aufbau, deren Lebensart und zahlreiche lebensnotwendige Prozesse. Aus den Erkenntnissen der Biologie entstand die Klassifikation der Arten, die auch heute noch Grundlage aller Forschung ist. Galt die Biologie in den Anfängen als ein in sich geschlossenes Fach, was mitunter Bestandteile der Chemie und Physik nutzte, besteht die Biologie heutzutage aus zahlreichen Disziplinen. Jede von ihnen widmet sich einem eigenen Schwerpunkt und gibt der jeweiligen Fachrichtung ihren Namen.'
               -
@@ -749,7 +706,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Darüber hinaus fließt die Biologie in andere Naturwissenschaften ein und ist auch elementarer Bestandteil der Human-, Tier- und Zahnmedizin. Wichtige frühere Vertreter ihres Faches wie Milet, Aristoteles, Mendel und Darwin haben die Biologie maßgeblich beeinflusst. Ihre Erkenntnisse sind auch heute noch Bestandteil biologischer Basisgrundlagen, auf denen die aktuelle Forschung aufbaut.'
               -
@@ -767,7 +724,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Biologie & Ghostwriting'
               -
@@ -783,7 +740,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Die Komplexität und die hohen Anforderungen des Biologiestudiums stellen für den Studenten oft nur schwer zu bezwingende Hürden dar. Vor allem durch die wie oben beschriebenen angrenzenden Fachdisziplinen. Hinzu kommt die Überlappung mit den Bereichen der Biochemie, die den Schwierigkeitsgrad des Studiums der Biologie zusätzlich erhöhen. Erschwerend kommt hinzu, dass viele Lehrkörper nicht ausreichend Zeit zur Verfügung haben, um die Studenten optimal durch das Studium zu begleiten und sie bei der Anfertigung wissenschaftlicher Arbeiten zu unterstützen.'
               -
@@ -799,7 +756,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Aus diesem Grund nutzen Studenten nicht selten Lektoren, Coaches und Ghostwriter der Biologie. Diese helfen durch die Erstellung hochwertiger Mustervorlagen dabei wissenschaftliche Arbeiten in jedem Abschnitt des Studiums und im Rahmen von Dissertationen und Fachpublikationen auch darüber hinaus zu konzipieren, umzusetzen und fertigzustellen. Neben\_"
                   -
@@ -812,7 +769,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -839,7 +796,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -859,7 +816,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -871,7 +828,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: Disclaimer
               -
@@ -887,7 +844,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
@@ -905,7 +862,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Nützliche Weblinks'
               -
@@ -921,7 +878,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -947,7 +904,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -973,7 +930,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -997,11 +954,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -1014,4 +969,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_naturwissenschaften
 sitemap_active: true
 alternative_page_title: 'Biologie Ghostwriter'
+published: true
 ---

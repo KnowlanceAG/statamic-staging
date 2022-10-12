@@ -111,21 +111,21 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#000!important'
+              hex: '#000'
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1665145126
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665511372
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -375,6 +375,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(193, 76, 0)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -396,6 +397,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -417,6 +419,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -424,23 +427,6 @@ replicator:
                           target: null
                           rel: null
                     text: Übersetzung
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                    text: "\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: hard_break
             show_as_card: false
           -
             bard:
@@ -458,6 +444,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -479,6 +466,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -500,6 +488,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -507,8 +496,6 @@ replicator:
                           target: null
                           rel: null
                     text: Plagiatsprüfung
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -633,7 +620,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#F9F9F9'
+    bg_color: '#F7F7F7'
     border: false
     type: add_section
     enabled: true
@@ -674,23 +661,6 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-            show_as_card: false
-        type: row
-        enabled: true
-        single_col: true
-        responsive_columns: 0
-        columns_per_row: 0
-    is_full: false
-    type: add_section
-    enabled: true
-    remove_spacing: false
-    border: false
-  -
-    columns_replicator:
-      -
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -994,6 +964,6 @@ og_description: 'Sozialwissenschaften studieren? Abschluss und Unterstützung du
 og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Sozialwissenschaften Ghostwriter'
-published: true
 fachrichtungsgruppe: g_sozialwissenschaften
+published: true
 ---

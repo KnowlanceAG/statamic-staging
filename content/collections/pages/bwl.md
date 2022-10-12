@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -118,41 +118,35 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#000!important'
+              hex: '#000'
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656946952
+updated_at: 1665511779
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
             bard:
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
@@ -162,24 +156,19 @@ replicator:
                       <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet BWL. Bei uns finden Sie exakt den 
                       <b>akademischen Ghostwriter für Ihre BWL Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich BWL in sichere Hände geben und bei einem BWL-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Betriebswirtschaftlern, Doktoren und Professoren arbeitet.
                       </p>
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_color: '#F9F9F9'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -249,19 +238,18 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#F9F9F9'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -323,18 +311,16 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -419,19 +405,18 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#8A8A8A'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -491,18 +476,12 @@ replicator:
                   -
                     type: text
                     text: ' oder verschiedene Teilbereiche von Leistungen in Auftrag geben. So ist es auch üblich, dass der Ghostwriter den Studenten bereits bei der Suche nach der passenden Literatur unterstützt, ihm bei der Texterstellung beratend zur Seite steht oder eine bereits durch den Studenten fertig geschriebene Arbeit lektoriert und korrigiert. Auch ein Coaching und Training ist möglich, um den Studenten in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -565,29 +544,20 @@ replicator:
                           - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
                           - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
                           - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -633,9 +603,8 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -653,19 +622,18 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#F9F9F9'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -752,12 +720,6 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: set
-                attrs:
-                  values:
                     type: example_work
                     ex_img_right: false
                     ex_image: seiten/besipielarbeit.JPG
@@ -770,12 +732,6 @@ replicator:
                     ex_spacing_top: false
                     ex_fachbereich:
                       - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
               -
                 type: heading
                 attrs:
@@ -826,18 +782,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -952,12 +907,6 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '63'
-              -
-                type: set
-                attrs:
-                  values:
                     type: bilder
                     assets:
                       - seiten/fachrichtungen/Ghostwriter_BWL_Studium_Aufbau-1.png
@@ -965,19 +914,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#F0F0F0'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -1083,22 +1030,10 @@ replicator:
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: set
-                attrs:
-                  values:
                     type: bilder
                     assets:
                       - seiten/fachrichtungen/BWL-Ghostwriter.png
                     has_border: false
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
               -
                 type: paragraph
                 content:
@@ -1129,19 +1064,18 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: false
+        single_col: true
         grid:
           -
             bard:
@@ -1167,14 +1101,6 @@ replicator:
                       - be1aacde-86af-4b82-9a8b-10b05c6743b5
                       - d61b6932-74b9-4ece-9da6-a54a1265c9a3
                       - 0408641d-3a59-44ce-a059-1b75afd3ecc4
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '40'
-              -
-                type: paragraph
               -
                 type: heading
                 attrs:
@@ -1308,20 +1234,14 @@ replicator:
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '20'
-              -
                 type: paragraph
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -1333,4 +1253,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'BWL Ghostwriter'
+published: true
 ---

@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -118,34 +118,31 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#000!important'
+              hex: '#000'
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Pflegewissenschaft Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658324847
+updated_at: 1665509951
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -319,10 +316,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         grid:
           -
             bard:
@@ -524,19 +522,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
+        single_col: true
+        responsive_columns: 0
       -
-        columns_per_row: 1
+        single_col: true
         grid:
           -
             bard:
@@ -571,25 +560,6 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
-      -
-        columns_per_row: 1
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -605,7 +575,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Studium der Pflegewissenschaften & Ghostwriting'
               -
@@ -621,7 +591,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Die Akademisierung der Pflegewissenschaften führt zu einer deutlichen Aufwertung des Berufsbildes der Kranken- und Gesundheitspflegekräfte. Qualifizierte Mitarbeiter sollen im Bereich der Pflege sowohl fachlich als auch im Management die Herausforderungen, die eine stetige Verbesserung der Pflegeforschung aber auch die Überalterung der Bevölkerung mit sich bringen, meistern. Dabei soll das Studium der Pflegewissenschaften die Studierenden auf die komplexen Aufgabenfelder vorbereiten.'
               -
@@ -637,7 +607,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Obwohl das Studium äußerst praxisnah angelegt ist, muss in jedem Modul von den Studenten mindestens eine Klausur, Hausarbeit, oder Seminararbeit geschrieben werden. Als Examensarbeit gilt die Bachelorarbeit und Masterarbeit. Auch der Doktorgrad kann durch Verfassen einer Dissertation oder Doktorarbeit erlangt werden. Insbesondere bei einem berufsbegleitenden Studium der Pflegewissenschaften fehlt oft die Zeit, eine wissenschaftliche Arbeit zu verfassen. Ein Pflegewissenschaften-Ghostwriter bietet hier die Unterstützung, die Sie benötigen.'
               -
@@ -653,7 +623,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Akademische Freelancer sind in der Lage, Studenten bei der Ausarbeitung von wissenschaftlichen Arbeiten fachgerecht und kompetent in Form von Mustervorlagen zu unterstützen. So gibt es nicht nur zahlreiche Pflegewissenschaften-Ghostwriter, sondern auch\_"
                   -
@@ -666,7 +636,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -711,7 +681,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Über Pflegewissenschaften'
               -
@@ -727,7 +697,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Unter der Bezeichnung Pflegewissenschaften werden die Praxisdisziplinen der Gesundheits- und Krankenpflege, der Kinderkrankenpflege sowie der Alten- und Heilerziehungspflege verstanden. Dabei wird der komplexe Bereich der Pflegewissenschaften allgemein den Sozialwissenschaften zugeordnet. Die Aufgaben im Bereich der Pflegewissenschaften gestalten sich äußerst vielfältig, da den Pflegewissenschaften ein ganzheitliches Menschenbild zugrunde liegt.'
               -
@@ -743,7 +713,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'So zählen nicht nur die Interaktion zwischen erkrankten Personen und Pflegenden sowie deren Wirken hinsichtlich der emotionalen und gesundheitlichen Probleme der Kranken, sondern auch die Qualität, das Qualitätsmanagement und die Implementierung von Pflegestandards zu den Aspekten der Pflegewissenschaften.'
               -
@@ -761,7 +731,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: Geschichte
               -
@@ -788,7 +758,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: Disclaimer
               -
@@ -804,7 +774,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
@@ -822,7 +792,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Nützliche Weblinks'
               -
@@ -838,7 +808,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -864,7 +834,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -890,7 +860,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -916,7 +886,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -944,7 +914,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -956,11 +926,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -973,4 +941,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_medizinische_fachrichtungen
 sitemap_active: true
 alternative_page_title: 'Pflegewissenschaften Ghostwriter'
+published: true
 ---

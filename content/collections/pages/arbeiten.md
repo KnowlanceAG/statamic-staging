@@ -3,8 +3,8 @@ id: d118c7b2-141d-4bac-972d-c1502381a340
 blueprint: pages
 title: Arbeiten
 template: with-side-bar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1658493183
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665502845
 teaser:
   -
     type: heading
@@ -27,6 +27,68 @@ teaser:
               hex: '#ff6606'
         text: Arbeiten
   -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Akademische Ghostwriter von GWriters bieten ihre Leistungen für die verschiedensten Arten von Arbeiten an.'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: 10
+  -
+    type: set
+    attrs:
+      values:
+        type: teaser_icon_columns
+        columns:
+          -
+            icon: logo-startseite/icon-datenschutz-anonymitaet.svg
+            headline: 'Datenschutz &amp;amp; 100% Anonymität'
+            tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp;amp; garantieren Ihre Anonymität zu 100%.'
+          -
+            icon: logo-startseite/icon-teillieferung.svg
+            headline: 'Teillieferungen &amp;amp; kostenlose Änderungen'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+          -
+            icon: logo-startseite/icon-schnelle-lieferung2.svg
+            headline: 'Schnelle &amp;amp; pünktliche Lieferung'
+            tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp;amp; finaler Form.'
+          -
+            icon: logo-startseite/icon-akademische-qualitaet4.svg
+            headline: 'Top-Qualität von akademischen Experten'
+            tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: 15
+  -
+    type: set
+    attrs:
+      values:
+        type: button
+        button_link: /anfrage
+        button_text: 'JETZT KOSTENLOS ANFRAGEN'
+        color: '#FF6606'
+        spacing_top: false
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: 20
+  -
     type: paragraph
     content:
       -
@@ -38,26 +100,37 @@ teaser:
             type: textAlign
             attrs:
               align: center
-        text: 'Akademische Ghostwriter von GWriters bieten ihre Leistungen für die verschiedensten Arten von Arbeiten an.'
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
   -
-    type: set
+    type: heading
     attrs:
-      values:
-        type: button
-        button_link: /anfrage
-        button_text: 'JETZT KOSTENLOS ANFRAGEN'
-        color: '#FF6606'
-        spacing_top: false
-  -
-    type: paragraph
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              target: null
+              rel: null
+        text: '##phone##'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -255,6 +328,9 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Mustervorlage für '
+                  -
+                    type: text
                     marks:
                       -
                         type: link
@@ -262,13 +338,16 @@ replicator:
                           href: /arbeiten/bachelorarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: 'Mustervorlage für Bachelorarbeit schreiben lassen'
+                    text: 'Bachelorarbeit schreiben lassen'
           -
             type: list_item
             content:
               -
                 type: paragraph
                 content:
+                  -
+                    type: text
+                    text: 'Mustervorlage für '
                   -
                     type: text
                     marks:
@@ -278,13 +357,16 @@ replicator:
                           href: /arbeiten/diplomarbeit
                           target: null
                           rel: null
-                    text: 'Mustervorlage für Diplomarbeit schreiben lassen'
+                    text: 'Diplomarbeit schreiben lassen'
           -
             type: list_item
             content:
               -
                 type: paragraph
                 content:
+                  -
+                    type: text
+                    text: 'Mustervorlage für '
                   -
                     type: text
                     marks:
@@ -294,7 +376,7 @@ replicator:
                           href: /arbeiten/doktorarbeit
                           target: null
                           rel: null
-                    text: 'Mustervorlage für Doktorarbeit schreiben lassen'
+                    text: 'Doktorarbeit schreiben lassen'
           -
             type: list_item
             content:
@@ -319,6 +401,9 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Mustervorlage für '
+                  -
+                    type: text
                     marks:
                       -
                         type: link
@@ -326,13 +411,16 @@ replicator:
                           href: /arbeiten/essay
                           target: null
                           rel: null
-                    text: 'Mustervorlage für Essay schreiben lassen'
+                    text: 'Essay schreiben lassen'
           -
             type: list_item
             content:
               -
                 type: paragraph
                 content:
+                  -
+                    type: text
+                    text: 'Mustervorlage für '
                   -
                     type: text
                     marks:
@@ -342,7 +430,7 @@ replicator:
                           href: /arbeiten/examensarbeit
                           target: null
                           rel: null
-                    text: 'Mustervorlage für Examensarbeit schreiben lassen'
+                    text: 'Examensarbeit schreiben lassen'
           -
             type: list_item
             content:
@@ -367,6 +455,9 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Mustervorlage für '
+                  -
+                    type: text
                     marks:
                       -
                         type: link
@@ -374,13 +465,16 @@ replicator:
                           href: /arbeiten/facharbeit
                           target: null
                           rel: null
-                    text: 'Mustervorlage für Facharbeit schreiben lassen'
+                    text: 'Facharbeit schreiben lassen'
           -
             type: list_item
             content:
               -
                 type: paragraph
                 content:
+                  -
+                    type: text
+                    text: 'Mustervorlage für '
                   -
                     type: text
                     marks:
@@ -390,7 +484,7 @@ replicator:
                           href: /arbeiten/hausarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: 'Mustervorlage für Hausarbeit schreiben lassen'
+                    text: 'Hausarbeit schreiben lassen'
           -
             type: list_item
             content:
@@ -415,6 +509,9 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Mustervorlage für '
+                  -
+                    type: text
                     marks:
                       -
                         type: link
@@ -422,13 +519,16 @@ replicator:
                           href: /arbeiten/magisterarbeit
                           target: null
                           rel: null
-                    text: 'Mustervorlage für Magisterarbeit schreiben lassen'
+                    text: 'Magisterarbeit schreiben lassen'
           -
             type: list_item
             content:
               -
                 type: paragraph
                 content:
+                  -
+                    type: text
+                    text: 'Mustervorlage für '
                   -
                     type: text
                     marks:
@@ -438,7 +538,7 @@ replicator:
                           href: /arbeiten/masterarbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: 'Mustervorlage für Masterarbeit schreiben lassen'
+                    text: 'Masterarbeit schreiben lassen'
           -
             type: list_item
             content:
@@ -463,6 +563,9 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Mustervorlage für '
+                  -
+                    type: text
                     marks:
                       -
                         type: link
@@ -470,7 +573,7 @@ replicator:
                           href: /arbeiten/seminararbeit-schreiben-lassen
                           target: null
                           rel: null
-                    text: 'Mustervorlage für Seminararbeit schreiben lassen'
+                    text: 'Seminararbeit schreiben lassen'
           -
             type: list_item
             content:
@@ -565,7 +668,7 @@ replicator:
             marks:
               -
                 type: bold
-            text: 'Mustervorlage für Hausarbeit schreiben lassen/Mustervorlage für Seminararbeit schreiben lassen'
+            text: 'Mustervorlage für Hausarbeit schreiben oder Seminararbeit schreiben lassen'
       -
         type: paragraph
         content:
@@ -649,13 +752,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Akademische Ghostwriter verfügen hierzu über ein breites und aktuelles Wissen zum Forschungsthema. Insbesondere sind akademische Ghostwriter für Doktorarbeiten jedoch in der Lage, sich schnell und effizient in Forschungsgebiete einzuarbeiten, offene Fragestellungen zu erkennen und hieraus Forschungsfragen abzuleiten. Des Weiteren bringen unsere Doktorarbeit Ghostwriter ein breites Methoden-Know-how mit und sie wissen, mit welchen Verfahren welche Fragestellungen empirisch erforscht werden können. Schließlich haben sie ein sehr gutes Sprachgefühl und sind es gewohnt akademische Veröffentlichungen zu erstellen, die sich an ein Fachpublikum richten. Eine umfassende Kenntnis der englischen Sprache rundet das Anforderungsprofil eines Doktorarbeit Ghostwriters ab.'
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: "\_"
+            text: "Akademische Ghostwriter verfügen hierzu über ein breites und aktuelles Wissen zum Forschungsthema. Insbesondere sind akademische Ghostwriter für Doktorarbeiten jedoch in der Lage, sich schnell und effizient in Forschungsgebiete einzuarbeiten, offene Fragestellungen zu erkennen und hieraus Forschungsfragen abzuleiten. Des Weiteren bringen unsere Doktorarbeit Ghostwriter ein breites Methoden-Know-how mit und sie wissen, mit welchen Verfahren welche Fragestellungen empirisch erforscht werden können. Schließlich haben sie ein sehr gutes Sprachgefühl und sind es gewohnt akademische Veröffentlichungen zu erstellen, die sich an ein Fachpublikum richten. Eine umfassende Kenntnis der englischen Sprache rundet das Anforderungsprofil eines Doktorarbeit Ghostwriters ab.\_"
     type: editor
     enabled: true
     show_as_card: false
@@ -666,4 +763,5 @@ og_title: 'Arbeiten • GWriters.de'
 og_description: 'Akademische Ghostwriter von GWriters bieten ihre Leistungen für die verschiedensten Arten von Arbeiten an. 1. Sie schreiben Mustervorlage für wissenschaftliche Arbeiten: Bachelorarbeit, Masterarbeit, Hausarbeit...2...'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---

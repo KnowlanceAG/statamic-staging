@@ -5,7 +5,7 @@ title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665405604
+updated_at: 1665503798
 teaser:
   -
     type: heading
@@ -19,6 +19,11 @@ teaser:
             type: textAlign
             attrs:
               align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
         text: 'Unsere Experten'
   -
     type: paragraph
@@ -66,7 +71,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: 25
+        padding-y: 15
   -
     type: paragraph
     content:
@@ -88,8 +93,50 @@ teaser:
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'Jetzt kostenlos Anfrage'
         spacing_top: false
+        color: '#FF6606'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: 20
   -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder kontaktieren Sie uns telefonisch, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: '#000!important'
+              hex: '#000'
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              target: null
+              rel: null
+        text: '##phone##'
 teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 replicator:
   -

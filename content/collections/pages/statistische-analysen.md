@@ -80,7 +80,48 @@ teaser:
         color: '#FF6606'
         spacing_top: false
   -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: 20
+  -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: '#ff6606!important'
+              hex: '#000'
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              target: null
+              rel: null
+        text: '##phone##'
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
@@ -552,8 +593,8 @@ replicator:
     remove_spacing: false
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1665152690
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665503058
 template: default
 meta_title: 'GWriters • Statistische Analyse durchführen lassen'
 meta_description: 'Statistische Analysen durchführen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität.'
@@ -568,6 +609,6 @@ og_description: 'Statistische Analysen durchführen lassen & Hilfe vom akademisc
 og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Statistische Analyse durchführen lassen'
-published: true
 arbeitsgruppe: a_sonstige_arbeiten
+published: true
 ---

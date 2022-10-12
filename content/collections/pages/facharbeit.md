@@ -95,7 +95,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: 2
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -129,10 +129,10 @@ teaser:
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
@@ -983,7 +983,6 @@ replicator:
         columns_per_row: 0
     remove_spacing: false
     is_full: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -2845,7 +2844,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665399071
+updated_at: 1665503007
 template: default
 use_meta_keywords: false
 no_index_page: false

@@ -2,8 +2,8 @@
 id: a429a015-f680-4717-8b76-bf0d66ce02d4
 blueprint: pages
 title: 'Über Gwriters'
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655716151
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665503709
 teaser:
   -
     type: heading
@@ -41,7 +41,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -69,7 +69,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -79,6 +79,49 @@ teaser:
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         color: '#FF6606'
         spacing_top: false
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: 20
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: '#000!important'
+              hex: '#000'
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              target: null
+              rel: null
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -304,8 +347,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 template: with-side-bar
 meta_title: 'Über uns • GWriters - DIe Ghostwriter Agentur'
 meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches und mehr finden Sie bei GWriters.de.'
@@ -314,4 +355,5 @@ og_title: 'Über uns • GWriters - DIe Ghostwriter Agentur'
 og_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches und mehr finden Sie bei GWriters.de.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---

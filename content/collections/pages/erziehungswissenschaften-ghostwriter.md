@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -118,34 +118,31 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#000!important'
+              hex: '#000'
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Erziehungswissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658324773
+updated_at: 1665509584
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -352,10 +349,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         grid:
           -
             bard:
@@ -375,6 +373,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(193, 76, 0)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -396,6 +395,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -417,6 +417,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -424,23 +425,6 @@ replicator:
                           target: null
                           rel: null
                     text: Übersetzung
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                    text: "\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: hard_break
             show_as_card: false
           -
             bard:
@@ -458,6 +442,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -479,6 +464,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -500,6 +486,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -507,8 +494,6 @@ replicator:
                           target: null
                           rel: null
                     text: Plagiatsprüfung
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -557,19 +542,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
+        single_col: true
+        responsive_columns: 0
       -
-        columns_per_row: 1
+        single_col: true
         grid:
           -
             bard:
@@ -604,25 +580,6 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
-      -
-        columns_per_row: 1
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -638,7 +595,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Was sind Erziehungswissenschaften?'
               -
@@ -699,7 +656,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Dabei sollen Studenten der Erziehungswissenschaften lernen, wie ein geeigneter Umgang mit Kindern und Erwachsenen auszusehen hat, um Lern- und Entwicklungsziele zu erreichen. Daher sollten Sie, wenn Sie in diese Richtung lernen möchten, überdurchschnittliche soziale Fähigkeiten verfügen und immer bereit sein anderen zu helfen.'
               -
@@ -717,7 +674,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Voraussetzungen:'
               -
@@ -733,7 +690,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Um diesen Studiengang studieren zu können, ist eine hohe Sozialkompetenz und ein Interesse am Umgang mit Menschen Voraussetzung. Beim Studium von Erziehungswissenschaften auf Lehramt sind auch Sprachkenntnisse notwendig. Dabei sollten Sie beachten, dass ein Studium der Erziehungswissenschaften nicht „automatisch“ zu einer Berufsausübung als Lehrer führt. Hierzu ist die Wahl des Studiums als Lehramtsstudium notwendig. Ein NC ist oftmals gegeben, dieser liegt je nach Hochschule zwischen 1,5 und 3,2.'
               -
@@ -749,7 +706,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Das Studium erfordert sehr gute Deutschkenntnisse. Vor allem ist für das Studium der Erziehungswissenschaften Voraussetzung, in kurzer Zeit und qualitätsvoll eine Hausarbeit schreiben zu können. Es muss viel Literatur gelesen und analysiert werden, denn im Vergleich zum Studiengang Sozialpädagogik hat Erziehungswissenschaften wenig berufspraktischen Bezug. Deswegen brechen viele Studierende frühzeitig das Studium im Bereich Erziehungswissenschaften ab, da sie von der Masse der theoretischen Inhalte sehr überfordert sind.'
               -
@@ -767,7 +724,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Was erwartet mich im Studium?'
               -
@@ -783,7 +740,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Im Studiengang Erziehungswissenschaften ist es üblich, dass Universitäten die Studenten übermäßig viele Hausarbeiten schreiben lassen. Der hohe Aufwand des wissenschaftlichen Arbeitens erhöht den Zeitdruck in diesem Studienfach stark. Hierbei ist es wichtig, dass bei den Studenten eine gewisse Affinität zum wissenschaftlichen Arbeiten vorliegt. Wenn Sie allerdings Schwierigkeiten damit haben, wissenschaftliche Texte zu formulieren, ist externe Hilfe durch einen professionellen Partner sehr empfehlenswert. So können Ihnen Erziehungswissenschaften Ghostwriter bei der Formulierung von wissenschaftlichen Texten helfen. Auch fertige Hausarbeiten können durch erfahrene akademische Ghostwriter im Fachbereich der Erziehungswissenschaften verbessert und ergänzt werden.'
               -
@@ -811,7 +768,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Wie alle\_"
                   -
@@ -824,7 +781,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -843,7 +800,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "\_stellen auch erziehungswissenschaftliche Hausarbeiten hohe\_"
                   -
@@ -856,7 +813,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -875,7 +832,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "\_an die Studenten. Denn Hausarbeiten in den Erziehungswissenschaften benötigen statistische Datenauswertungen und empirische Untersuchungen. Gerade im Bereich Statistik können unsere Erziehungswissenschaften Ghostwriter sehr gut Hilfe leisten und Ihnen eine hervorragende\_"
                   -
@@ -888,7 +845,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -907,7 +864,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "\_bei\_"
                   -
@@ -920,7 +877,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -939,7 +896,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "\_geben."
               -
@@ -970,7 +927,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Hohe Sozialkompetenz'
                   -
@@ -989,7 +946,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Interesse am Umgang mit Menschen'
                   -
@@ -1008,7 +965,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Sehr gute Sprachkenntnisse'
                   -
@@ -1027,7 +984,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'In kurzer Zeit und qualitätsvolle Hausarbeiten'
                   -
@@ -1046,7 +1003,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Umfangreiche Recherchen und Analysen von Informationen'
                   -
@@ -1065,7 +1022,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'NC zwischen 1,5 und 3,2'
                   -
@@ -1084,7 +1041,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Interesse am Lesen'
               -
@@ -2150,7 +2107,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Tätigkeitsbereiche:'
                       -
@@ -2176,7 +2133,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Brutto Monatsgehalt Lohnsteuerklasse 2:'
                   -
@@ -2203,7 +2160,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Leiter
                               -
@@ -2218,7 +2175,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'in Kita (ab 180 Plätze), Leiter'
                               -
@@ -2231,7 +2188,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'in Erziehungsheim'
                       -
@@ -2255,7 +2212,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '4.133,45'
                   -
@@ -2282,7 +2239,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Leiter*in Kita (ab 130 Plätze)'
                       -
@@ -2306,7 +2263,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '3.966,79'
                   -
@@ -2333,7 +2290,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Leiter*in Kita (ab 100 Plätze)'
                       -
@@ -2357,7 +2314,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '3.880,13'
                   -
@@ -2384,7 +2341,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Leiter*in Kita (ab 70 Plätze)'
                       -
@@ -2408,7 +2365,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '3.733,42'
                   -
@@ -2435,7 +2392,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Sozialarbeiter*in mit Garantenstellung'
                       -
@@ -2459,7 +2416,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '3.695,15'
                   -
@@ -2486,7 +2443,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Leiter*in Kita (ab 40 Plätze)'
                       -
@@ -2510,7 +2467,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '3.603,41'
                   -
@@ -2537,7 +2494,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Sozialarbeiter*in mit schwieriger Tätigkeit'
                       -
@@ -2561,7 +2518,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '3.593,37'
                   -
@@ -2588,7 +2545,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Sozialarbeiter*in'
                       -
@@ -2612,7 +2569,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '3.542,98'
                   -
@@ -2639,7 +2596,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Stv. Leitung Behinderteneinrichtung'
                       -
@@ -2663,7 +2620,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '3.475,77'
                   -
@@ -2690,7 +2647,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: Leiter
                               -
@@ -2705,7 +2662,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'in Kita, Koordinierende'
                               -
@@ -2718,7 +2675,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'r Erzieher'
                               -
@@ -2733,7 +2690,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'in, Heilpädgagog'
                               -
@@ -2746,7 +2703,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: in
                       -
@@ -2770,7 +2727,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '3.211,18'
                   -
@@ -2797,7 +2754,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Erzieher*in mit schwieriger Tätigkeit'
                       -
@@ -2821,7 +2778,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '3.211,18'
                   -
@@ -2848,7 +2805,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Erzieher*in'
                       -
@@ -2872,7 +2829,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '3.142,47'
                   -
@@ -2899,7 +2856,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Gruppenleiter*in Werkstatt'
                       -
@@ -2923,7 +2880,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '3.060,84'
                   -
@@ -2950,7 +2907,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Kinderpfleger*in mit schwieriger Tätigkeit'
                       -
@@ -2974,7 +2931,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '2.926,79'
                   -
@@ -3001,7 +2958,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Kinderpfleger*in'
                       -
@@ -3025,7 +2982,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '2.756,99'
                   -
@@ -3052,7 +3009,7 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: 'Beschäftigte als Kinderpfleger*in'
                       -
@@ -3076,13 +3033,13 @@ replicator:
                                   -
                                     type: textColor
                                     attrs:
-                                      color: 'rgb(68, 68, 68)'
+                                      color: '#000!important'
                                       hex: '#000'
                                 text: '2.490,44'
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -3108,7 +3065,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Weiterführende Quellen:'
               -
@@ -3124,7 +3081,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Spiegel, 2005: '
                   -
@@ -3137,7 +3094,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -3156,7 +3113,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                   -
                     type: text
@@ -3168,7 +3125,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Entgelttabellen TVöD'
                   -
@@ -3181,7 +3138,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                   -
                     type: text
@@ -3193,7 +3150,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Kommunaler Sozial und Erziehungsdienst, 2021: '
                   -
@@ -3206,7 +3163,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -3235,11 +3192,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -3252,4 +3207,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_sozialwissenschaften
 sitemap_active: true
 alternative_page_title: 'Erziehungswissenschaften Ghostwriter'
+published: true
 ---

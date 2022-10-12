@@ -46,7 +46,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -74,7 +74,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -89,7 +89,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '20'
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -118,34 +118,31 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#000!important'
+              hex: '#000'
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Ghostwriter Maschinenbau, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1658324875
+updated_at: 1665510047
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -369,10 +366,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        columns_per_row: '3'
+        columns_per_row: 3
         grid:
           -
             bard:
@@ -392,6 +390,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(193, 76, 0)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -413,6 +412,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -434,6 +434,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -441,23 +442,6 @@ replicator:
                           target: null
                           rel: null
                     text: Übersetzung
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                    text: "\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: hard_break
             show_as_card: false
           -
             bard:
@@ -475,6 +459,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -496,6 +481,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -517,6 +503,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(255, 102, 2)!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
@@ -524,8 +511,6 @@ replicator:
                           target: null
                           rel: null
                     text: Plagiatsprüfung
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -574,19 +559,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
+        single_col: true
+        responsive_columns: 0
       -
-        columns_per_row: 1
+        single_col: true
         grid:
           -
             bard:
@@ -621,25 +597,6 @@ replicator:
                           - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 1
-        single_col: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    type: add_section
-    enabled: true
-    remove_spacing: true
-    border: false
-  -
-    columns_replicator:
-      -
-        columns_per_row: 1
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -655,7 +612,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Allgemeines zum Maschinenbau'
               -
@@ -671,7 +628,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Der Maschinenbau hat eine lange Tradition, sowohl in der Forschung aber auch im Berufsalltag. Und von daher auch im Studium. Der Fachbereich gehört wahrscheinlich zu einer der ältesten Fachbereiche und Studienrichtungen überhaupt, sowie wahrscheinlich auch zu einer der ältesten Professionen. Woran liegt das? Maschinenbau hat eine wichtige Bedeutung in Deutschland, denn wenn wir uns unsere heutige industrialisierte Gesellschaft anschauen, ist diese in ihrer Ausprägung und in ihren Formen ohne Maschinenbau nicht vorstellbar. Johann von Zimmermann war derjenige, der die Grundlage hierfür geschaffen hat, indem er die manuelle Förderung und Fertigung in eine Fließbandfertigung und eine Automatisierung revolutionierte. Dies bildete letztlich die Grundlage für den modernen Maschinenbau und damit auch für den industriellen und technologischen Fortschritt, wie wir ihn heute kennen. Die Grundlagen dafür, dass wir heutzutage in der Lage sind, so große Stückzahlen in der Menge zu produzieren, wie wir sie benötigen, stammen letztlich aus diesem Fachbereich.'
               -
@@ -689,7 +646,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Das Maschinenbau Studium und seine Anforderungen'
               -
@@ -705,7 +662,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Ein Maschinenbau Studium dauert vergleichsweise lange. In der Regel sind es zehn Semester, was auch ein Indiz für die Komplexität des Themas ist. Als Student erwartet Sie zuerst ein Bachelor Abschluss, gefolgt von einem Master Abschluss und eventuell sogar zuletzt ein Promotionsstudium. Es bieten sich Ihnen sowohl innerhalb des Bachelor Studiums, als auch im darauf folgenden im Master große Bandbreiten an Möglichkeiten der Vertiefung und Spezialisierung.'
               -
@@ -721,7 +678,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Welche Anforderungen sollten Sie in diesem Fachbereich mit sich bringen? Ein gutes visuelles Gespür, ein hohes mathematisches Verständnis und auch ein ausgeprägtes physikalisches Grundwissen sind essentiell für den Beginn eines Studiums. GWriters verfügt über ein Team von erfahrenen Experten in diesem Fachgebiet und daher können unsere Ghostwriter Maschinenbau Studenten intensiv und umfassend während des gesamten Studiums begleiten. Denn die Maschinenbau Ghostwriter von GWriters sind immer auf dem aktuellen Stand der Forschung und können Sie unterstützen, bei der Aufnahme von aktuellen Inhalten aus diesem Fachbereich durch eine gezielt Vermittlung des Lernstoffes oder das Verfassen von Mustervorlagen unterstützen'
               -
@@ -752,7 +709,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Maschinenbau in Deutschland'
               -
@@ -770,7 +727,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Forschung und Lehre an deutschen Universitäten'
               -
@@ -786,7 +743,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Es gibt in Deutschland eine Reihe beliebter und sehr renommierter Universitäten im Bereich Maschinenbau. Das sind insbesondere'
               -
@@ -808,7 +765,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'das KIT in Karlsruhe'
                   -
@@ -827,7 +784,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'die RWTH in Aachen'
                   -
@@ -846,7 +803,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'die TU München'
                   -
@@ -865,7 +822,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'die TU Darmstadt'
                   -
@@ -884,7 +841,7 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'oder auch die FH in Kiel.'
               -
@@ -900,7 +857,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Letztere hat aufgrund ihrer Spezialisierung auf das Thema Windenergie eine sehr große Bedeutung. Aber auch kleinere Universitäten wie beispielsweise die Universität in Esslingen hat im Fachbereich Maschinenbau einen sehr guten Ruf, was sich durch die Nähe zur Automobilindustrie, zur technischen Forschung und zu den Zulieferbetrieben zur Automobilindustrie erklären lässt. Es wird also deutlich, dass eine enge Verbindungen zwischen Forschung und Industrie in diesem Fachbereich äußerst wichtig und von ganz entscheidender Bedeutung ist. Das zeigt sich auch darin, dass jedes Jahr mehr junge Menschen Maschinenbau studieren möchten. Rund 100.000 Studenten starten jedes Semester neu, bedingt durch die Attraktivität dieses Studienganges und die begehrten Karrieremöglichkeiten.'
               -
@@ -918,7 +875,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Maschinenbau-Sektor in Deutschland'
               -
@@ -934,7 +891,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Aktuell sind im Maschinenbau-Sektor in Deutschland über 6.600 Unternehmen. Überwiegend handelt es sich hierbei um sogenannte KMU, die kleinen und mittelständischen Unternehmen, die das Rückgrat der Wirtschaft in Deutschland darstellen. Über 95 Prozent der Unternehmen gehören zu den sogenannten KMUs. Damit ist der Maschinenbau auch der größte Arbeitgeber in Deutschland. Und auch weltweit spielt der deutsche Maschinenbau\_ eine sehr große Rolle. Entsprechend bedeutsam sind natürlich auch die Studiengänge an den Universitäten sowie entsprechend attraktiv und begehrt sind diese für die Studenten, was spätere Karrieremöglichkeiten angeht."
               -
@@ -950,7 +907,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Mehr als eine Millionen Menschen arbeiten im Maschinenbau in Deutschland und mehr als 33.000 neue Arbeitskräfte werden in diesem Sektor jedes Jahr eingestellt. Die Unternehmen decken ihren Bedarf überwiegend direkt von den Universitäten. Hier gibt es eine Vielzahl von bekannten Unternehmen im Bereich Maschinenbau, deren Namen wahrscheinlich jeder schon einmal gehört hat wie z.B. Bosch, Festo, MAN, Heidelberger Druck und Jungheinrich. Diese sind alle bekannte und sehr traditionsreiche Namen in Deutschland, die die Industrie in Deutschland sowie das internationale Image geprägt haben.'
               -
@@ -968,7 +925,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Inhalte des Maschinenbau Studiums'
               -
@@ -984,7 +941,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Die Studieninhalte und Vertiefungsmöglichkeiten sind im Bereich Maschinenbau sehr vielfältig. Gerade das sieht man schon an der umfassenden Zahl von Studienrichtungen und Studienarten, die es in Deutschland gibt. Nehmen Sie als Beispiel die technische Mechanik, die Automatisierungstechnik, die Werkstoffkunde oder die Werkstofflehre. All diese Punkte werden bereits im Grundstudium vermittelt.'
               -
@@ -1000,7 +957,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Auch im Hauptstudium, in dem Studierende dann Schwerpunkte setzen können, gibt es eine Vielzahl von Studienrichtungen und Vertiefungen. Dort gibt es den klassischen Maschinenbau aber auch im Bereich Wirtschaftsingenieurwesen kann dann beispielsweise eine Vertiefung erfolgen. Im klassischen Maschinenbau mögliche Vertiefungen sind der Bereich Luftfahrt, der Bereich Chemie oder auch die Technikindustrie. Sie sehen also, auch hier gibt es unheimlich breit gefächerte Spezialisierungsmöglichkeiten.'
               -
@@ -1016,7 +973,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "In all diesen Vertiefungsrichtungen können die Maschinenbau Ghostwriter von GWriters Sie unterstützen, denn diese sind spezialisiert auf diese einzelnen Forschungsgebiete. Eine Unterstützung durch einen\_"
                   -
@@ -1029,7 +986,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1059,7 +1016,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Gerade das Praktikum ist für einen Maschinenbau Studenten von ganz großer Bedeutung, da viele Abschlussarbeiten – man kann sogar sagen: die meisten Abschlussarbeiten – in Unternehmen verfasst werden. Das hängt damit zusammen, dass die Universitäten gar nicht die notwendigen an Labor- und Werkstattkapazitäten haben. Und somit werden viele Bachelorarbeiten, Masterarbeiten und Doktorarbeiten gemeinsam in Kooperation oder sogar für ein Unternehmen verfasst. Und das Praktikum ist natürlich eine sehr gute Grundlage dafür, schon Kontakte zu Unternehmen zu bilden, um hier dann die Abschlussarbeit zu verfassen und vielleicht später auch beruflich tätig zu werden. Von daher sollten Sie als Maschinenbau Student gerade auf das Praktikum einen hohen Fokus legen und hier auch mit guten Leistungen glänzen.'
               -
@@ -1075,13 +1032,13 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Ungeachtet davon, für welche Forschungsrichtung oder für welchen Studiengang Sie sich im Maschinenbau entscheiden, an welcher Hochschule Sie Maschinenbau studieren, eins ist klar: Sie werden danach hochqualifiziert sowie gut ausgebildet sein und es gibt viele Karrieremöglichkeiten im Bereich der Industrie, die ihnen nach dem Maschinenbaustudium offen stehen. Damit Sie dieses Ziel erreichen, unterstützen Sie unsere Maschinenbau Ghostwriter immer dann durch die Erstellung von Mustervorlagen, wenn externe Unterstützung im Studium benötigt wird.'
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -1093,7 +1050,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: Disclaimer
               -
@@ -1109,7 +1066,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
@@ -1127,7 +1084,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(68, 68, 68)'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Nützliche Weblinks'
               -
@@ -1143,7 +1100,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1169,7 +1126,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1195,7 +1152,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1221,7 +1178,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1249,7 +1206,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgb(255, 102, 2)'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1261,11 +1218,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
-        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -1278,4 +1233,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_technische_fachrichtungen
 sitemap_active: true
 alternative_page_title: 'Maschinenbau Ghostwriter'
+published: true
 ---

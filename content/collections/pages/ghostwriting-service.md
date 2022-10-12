@@ -78,8 +78,50 @@ teaser:
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
         button_text: 'JETZT KOSTENLOS ANFRAGEN'
         spacing_top: false
+        color: '#FF6606'
+  -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: 20
   -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: '#000!important'
+              hex: '#000'
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              target: null
+              rel: null
+        text: '##phone##'
 replicator:
   -
     bard:
@@ -436,7 +478,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1663681640
+updated_at: 1665504174
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -452,4 +494,5 @@ og_description: 'Ghostwriting Service & Ghostwriter Service als Dienstleistung v
 og_image: GWriters-Logo.png
 sitemap_active: true
 published: true
+page_title: 'Ghostwriting Service'
 ---
