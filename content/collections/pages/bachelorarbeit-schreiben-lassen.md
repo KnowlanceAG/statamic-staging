@@ -2653,6 +2653,11 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: Disclaimer
               -
                 type: paragraph
@@ -2660,6 +2665,10 @@ replicator:
                   -
                     type: text
                     marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -2677,8 +2686,8 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
-                    text: 'Einige unserer Blogartikel zum Thema Hausarbeit'
+                          align: left
+                    text: 'Einige unserer Blogartikel zum Thema Hausarbeit schreiben lassen'
               -
                 type: set
                 attrs:
@@ -2699,7 +2708,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Weitere Links & Referenzen'
               -
                 type: paragraph
@@ -2710,7 +2719,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2724,14 +2733,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2745,14 +2754,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2766,14 +2775,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2787,14 +2796,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2808,14 +2817,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2834,7 +2843,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2854,7 +2863,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665571057
+updated_at: 1665584117
 template: default
 use_meta_keywords: false
 no_index_page: false
