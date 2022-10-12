@@ -2679,12 +2679,22 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: Disclaimer
               -
                 type: paragraph
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.'
               -
                 type: heading
@@ -2693,6 +2703,11 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: 'Einige unserer Blogartikel zur Facharbeit & Mustervorlage für Facharbeit schreiben lassen'
               -
                 type: set
@@ -2714,7 +2729,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Nützliche Weblinks & Referenzen'
               -
                 type: paragraph
@@ -2725,7 +2740,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2739,14 +2754,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2760,14 +2775,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2786,7 +2801,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2806,7 +2821,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665570876
+updated_at: 1665584213
 template: default
 use_meta_keywords: false
 no_index_page: false
