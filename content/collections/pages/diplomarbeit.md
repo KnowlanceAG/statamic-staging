@@ -934,54 +934,14 @@ replicator:
                     type: text
                     text: 'Einige unserer Blogartikel zum Thema Diplomarbeit & Mustervorlage für Diplomarbeit schreiben lassen'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/aufbau-wissenschaftliche-arbeit
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Video: Gliederung einer wissenschaftlichen Arbeit – Wie man sie schreibt & was es zu beachten gilt'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/ghostwriter-auftrag-tipps
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Video: Tipps für einen erfolgreichen Ghostwriter-Auftrag'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/ghostwriter-probleme
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Typische Probleme mit akademischen Ghostwritern & wie Du sie vermeiden kannst'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/literaturrecherche-wissenschaftliche-quellen
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Video: Literaturrecherche – wissenschaftliche Artikel einfach finden'
+                type: set
+                attrs:
+                  values:
+                    type: blog_entries
+                    entries:
+                      - 24ba331e-8f49-4a91-a310-dd85b6281939
+                      - 286294bc-3927-4a37-b1e0-defe39884464
+                      - cf3e2042-acbe-483e-9eb1-3b7b20659a23
               -
                 type: heading
                 attrs:
@@ -1053,7 +1013,7 @@ replicator:
     remove_spacing: false
     border: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665571263
+updated_at: 1665584034
 template: default
 use_meta_keywords: false
 no_index_page: false
