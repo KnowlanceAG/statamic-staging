@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -198,16 +198,6 @@ replicator:
                       -
                         type: bold
                     text: ' geht über die hier angebotenen Leistungen hinaus und wird von uns selbstverständlich auch angeboten.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        single_col: false
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -258,22 +248,29 @@ replicator:
                           - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
                           - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
                           - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        single_col: false
-        grid:
-          -
-            bard:
+                      -
+                        text: Arbeiten
+                        eintraege:
+                          - 68b88fd1-ec03-4ea8-9292-431555e47744
+                          - 99cd8e42-b21c-4cea-a162-a9454db2375f
+                          - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
+                          - 5659593d-2756-4e9f-a5b3-b391103d9886
+                          - 425234fd-eb40-4dab-bb3d-95bbac5948eb
+                          - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
+                          - 2b55bfe7-06df-4e71-86da-152e256904ec
+                          - cb0a74d3-ed84-4dad-b3a7-c368aec13800
+                          - 134ba799-3362-4166-86f7-bba4e992d7d7
+                          - 5c6db140-ee4a-4a88-bf56-4153664421d4
+                          - 52f5092f-800b-4742-8636-a840b9ab1ddb
+                          - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
+                          - 2931f444-5e22-4860-8f40-a41821377b93
+                          - b6ee03ca-ecab-4749-ade4-45ff821b748d
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Das Korrekturlesen ist ein wichtiger Bestandteil bei der Entstehung und Veröffentlichung eines Textes jeglicher Form. Ihm sollte ein hoher Stellenwert zugeschrieben werden, denn jeder der einen Text verfasst macht dabei Fehler und seien sie noch so klein. Korrekturlesen befasst sich dabei nicht mit einer speziellen Textart, jeder geschriebene Text, der in irgendeiner Art und Weise veröffentlicht wird, sollte sich so einer Prüfung unterziehen.'
+                    text: 'Das Korrekturlesen ist ein wichtiger Bestandteil bei der Entstehung und Veröffentlichung von Texten jeglicher Form und aus jeglichen Fachbereichen. Ihm sollte ein hoher Stellenwert zugeschrieben werden, denn jeder der einen Text verfasst macht dabei Fehler und seien sie noch so klein. Korrekturlesen befasst sich dabei nicht mit einer speziellen Textart, jeder geschriebene Text, der in irgendeiner Art und Weise veröffentlicht wird, sollte sich so einer Prüfung unterziehen.'
               -
                 type: heading
                 attrs:
@@ -505,55 +502,27 @@ replicator:
                     type: text
                     text: 'Blogartikel zum Thema Korrekturlesen'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/korrektorat-lektorat-textredaktion
-                          target: null
-                          rel: null
-                    text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/thesis-vermeidbare-fehler
-                          target: null
-                          rel: null
-                    text: '7 vermeidbare Fehler, die Dich den Erfolg bei Deiner Thesis kosten'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/textredation-ghostwriter
-                          target: null
-                          rel: null
-                    text: 'Textredaktion als Alternative zum akademischen Ghostwriting'
+                type: set
+                attrs:
+                  values:
+                    type: blog_entries
+                    entries:
+                      - ca5797f0-28d2-48ca-be1d-5c6ca8c1b01c
+                      - 27876560-a260-4e18-89b1-417c11b8b31f
+                      - b0fee135-df37-4492-83ea-6f3799719792
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     type: add_section
     enabled: true
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665505168
+updated_at: 1665583045
 template: with-side-bar
 meta_title: 'Korrektorat von GWriters - Professionell, diskret und akademisch'
 meta_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden & Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'
