@@ -111,8 +111,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -125,7 +125,7 @@ page_title: 'Philosophie Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665508735
+updated_at: 1665569875
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -587,7 +587,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
