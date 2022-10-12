@@ -30,9 +30,7 @@ replicator:
         attrs:
           values:
             type: spacer
-            padding-y: 22
-      -
-        type: paragraph
+            padding-y: 10
     show_as_card: false
     type: editor
     enabled: true
@@ -235,8 +233,6 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: ', Dissertation).'
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -488,10 +484,6 @@ replicator:
               		-wissenschaftliche Qualität
               		-Erfahrungen mit dem GWriters-Team
             ausrichtung: text_bild
-      -
-        type: paragraph
-      -
-        type: paragraph
     show_as_card: false
     type: editor
     enabled: true
@@ -522,14 +514,6 @@ replicator:
                     button_link: 'entry::e969d0a5-421c-42aa-9b67-0a3859c25797'
                     button_text: 'als autor bewerben'
                     button_align: justify-center
-                    spacing_top: false
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::bfe3b004-159d-4f4d-bd0d-309563de9806'
-                    button_text: 'Ghostwriter Stellenangebote'
                     spacing_top: false
             show_as_card: false
         type: row
@@ -617,16 +601,6 @@ replicator:
                   color: black
                   hex: '#000'
             text: 'Bei der Bearbeitung von Aufträgen stehen Sie durchweg in Kontakt mit einem Mitarbeiter, der eventuelle Fragen gerne beantwortet. Auch Rückfragen bezüglich des Auftrages klärt der Mitarbeiter gerne kurzfristig für Sie. Durch unsere reichhaltige Erfahrung bei der Vermittlung akademischer Dienstleistungen sind wir jederzeit in der Lage, Ihre Fragen gezielt zu beantworten.'
-          -
-            type: hard_break
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: black
-                  hex: '#000'
-      -
-        type: horizontal_rule
       -
         type: heading
         attrs:
@@ -662,9 +636,7 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriter-gesucht/anfrage-1.png
-                    text: |-
-                      > ## 1.
-                      <p align="left">Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen. Die Anforderungen an die Arbeit entscheiden, in welchem Themenbereich die Mustervorlage geschrieben werden soll. <p>
+                    text: '<p align="left">Zunächst informiert uns der Auftraggeber in Form einer schriftlichen oder telefonischen Projektanfrage über seine Bedürfnisse bzw. Anforderungen. Die Anforderungen an die Arbeit entscheiden, in welchem Themenbereich die Mustervorlage geschrieben werden soll. <p>'
                     ausrichtung: text_bild
               -
                 type: set
@@ -679,9 +651,7 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriter-gesucht/ghostwriter-gesucht-2.png
-                    text: |-
-                      > ## 2.
-                      <p align="left">Nach Auftragsbeginn wird durch unsere professionellen Projektmanager ein zum Themenfeld passender Ghostwriter gesucht. Die Betreuung des gesamten Projektes übernimmt der Projektmanager. Er steuert den Prozess von der unverbindlichen Anfrage bis zur Lieferung der Mustervorlage. <p>
+                    text: '<p align="left">Nach Auftragsbeginn wird durch unsere professionellen Projektmanager ein zum Themenfeld passender Ghostwriter gesucht. Die Betreuung des gesamten Projektes übernimmt der Projektmanager. Er steuert den Prozess von der unverbindlichen Anfrage bis zur Lieferung der Mustervorlage. <p>'
                     ausrichtung: bild_text
               -
                 type: set
@@ -690,17 +660,13 @@ replicator:
                     type: spacer
                     padding-y: 15
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriter-gesucht/kommunikation-ghostwriter-1.png
-                    text: |-
-                      > ## 3.
-                      <p align="left">Die gesamte Kommunikation zwischen Auftraggeber und Auftragsschreiber läuft anonym in schriftlicher oder telefonischer Form ab. Als Ghostwriter haben Sie regelmäßige Teillieferungen zu erbringen. Diese Teillieferungen dienen dazu, Feedbacks zum bisher Geschriebene vom Kunden zu erhalten. So hat der Auftraggeber die Möglichkeit, regelmäßig inhaltlichen Einfluss auf die aktuelle Schreibarbeit zu nehmen.<p>
+                    text: '<p align="left">Die gesamte Kommunikation zwischen Auftraggeber und Auftragsschreiber läuft anonym in schriftlicher oder telefonischer Form ab. Als Ghostwriter haben Sie regelmäßige Teillieferungen zu erbringen. Diese Teillieferungen dienen dazu, Feedbacks zum bisher Geschriebene vom Kunden zu erhalten. So hat der Auftraggeber die Möglichkeit, regelmäßig inhaltlichen Einfluss auf die aktuelle Schreibarbeit zu nehmen.<p>'
                     ausrichtung: text_bild
               -
                 type: set
@@ -715,9 +681,7 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriter-gesucht/bezahlung-ghostwriter-1.png
-                    text: |-
-                      > ## 4.
-                      <p align="left">Die Bezahlung der Ghostwriter wird von unseren Projektmanager je nach Komplexität und Umfang des Themas bestimmt. Das vereinbarte Honorar erhalten Sie nach dem erfolgreichen Abschluss eines Projekts.<p>
+                    text: '<p align="left">Die Bezahlung der Ghostwriter wird von unseren Projektmanager je nach Komplexität und Umfang des Themas bestimmt. Das vereinbarte Honorar erhalten Sie nach dem erfolgreichen Abschluss eines Projekts.<p>'
                     ausrichtung: bild_text
               -
                 type: set
@@ -732,20 +696,14 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriter-gesucht/lieferung-der-arbeit-1.png
-                    text: |-
-                      > ## 5.
-                      <p align="left">Nach der Fertigstellung wird die Mustervorlage an einen übergeordneten Supervisor zur Überprüfung gegeben, ähnlich eines Lektoratsservices. Nach einer professionellen Plagiatsprüfung wird der erstellte Text von einem Qualitätsmanager kontrolliert und zeitgerecht an den Kunden geliefert.<p>
+                    text: '<p align="left">Nach der Fertigstellung wird die Mustervorlage an einen übergeordneten Supervisor zur Überprüfung gegeben, ähnlich eines Lektoratsservices. Nach einer professionellen Plagiatsprüfung wird der erstellte Text von einem Qualitätsmanager kontrolliert und zeitgerecht an den Kunden geliefert.<p>'
                     ausrichtung: text_bild
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
                     padding-y: 15
-              -
-                type: paragraph
               -
                 type: paragraph
                 content:
@@ -807,7 +765,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Bei uns sind jederzeit akademische\_Ghostwriter gesucht, wir würden uns freuen, Sie in unserem Team begrüßen zu dürfen. Bewerben Sie sich dafür einfach auf unserer Webpräsenz unter\_"
+                    text: "Bei uns sind jederzeit akademische\_Ghostwriter gesucht, wir würden uns freuen, Sie in unserem Team begrüßen zu dürfen. Bewerben Sie sich dafür einfach über unser "
                   -
                     type: text
                     marks:
@@ -822,7 +780,7 @@ replicator:
                           href: /als-autor-bewerben
                           target: null
                           rel: null
-                    text: www.gwriters.de/als-autor-bewerben
+                    text: Bewerbungsformular
                   -
                     type: text
                     marks:
@@ -843,10 +801,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'mailto:info@gwriters.de'
+                          href: 'mailto:##email##'
                           target: null
                           rel: null
-                    text: info@gwriters.de
+                    text: '##email##'
                   -
                     type: text
                     marks:
@@ -856,14 +814,9 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: ).
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
                     marks:
@@ -894,7 +847,7 @@ replicator:
 page_title: 'Akademische Ghostwriter gesucht! • GWriters'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1663672735
+updated_at: 1665572490
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
 meta_description: 'Ghostwriter gesucht? Die Nachfrage nach Ghostwriter Jobs steigt! Erfahrene Ghostwriter aus allen Fachbereichen ✔️ 18.000 zufriedene Kunden seit 2012 ✔️'
 use_meta_keywords: false
