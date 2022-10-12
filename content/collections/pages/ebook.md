@@ -84,7 +84,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: 19
+        padding-y: 20
   -
     type: paragraph
     content:
@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6606!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -541,27 +541,6 @@ replicator:
                   -
                     type: text
                     text: 'Daneben wächst das Interesse aufstrebender Akademiker und zukunftsorientierter Unternehmer aller Branchen, sich mit einem eigenen eBook und seiner Vermarktung im Internet einen Namen zu machen bzw. neue Zielgruppen zu erreichen. Ein eBook bietet dem interessierten Leser nicht nur die Lektüre des Buches, sondern ermöglicht ihm durch die Hinzugabe der computereigenen Funktionsangebote darüber hinaus die optimale Weiterarbeit an und mit dessen Inhalt. In dieser Weise verwendet, hat sich das eBook durch seine höhere Funktionalität aufgrund der Computertechnologie zu einem eigenständigen Medium entwickelt, das im Bereich wissenschaftlichen Arbeitens nicht mehr wegzudenken ist.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
@@ -575,7 +554,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665503042
+updated_at: 1665571359
 meta_title: 'Ghostwriter eBook schreiben lassen • GWriters'
 meta_description: 'eBook schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
