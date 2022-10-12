@@ -15,6 +15,11 @@ teaser:
             type: textAlign
             attrs:
               align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
         text: Impressum
   -
     type: paragraph
@@ -39,7 +44,7 @@ teaser:
         color: '#FF6606'
         spacing_top: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665505554
+updated_at: 1665571789
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
