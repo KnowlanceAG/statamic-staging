@@ -129,8 +129,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -146,13 +144,13 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '30'
+                    padding-y: 30
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -160,8 +158,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -217,9 +213,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -240,20 +236,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
-    bg_toggle: true
-    bg_color: '#F9F9F9'
     bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
-    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
     is_full: false
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -468,9 +461,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -488,13 +481,14 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '15'
+                    padding-y: 15
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: '4'
+        columns_per_row: 4
         single_col: true
         grid:
           -
@@ -507,13 +501,13 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/security.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -543,7 +537,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
           -
             bard:
@@ -555,13 +549,13 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -588,7 +582,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
           -
             bard:
@@ -600,13 +594,13 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/stopwatch.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -645,7 +639,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
           -
             bard:
@@ -657,13 +651,13 @@ replicator:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/magistrate.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -693,13 +687,12 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -707,8 +700,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -769,9 +760,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -791,7 +783,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '12'
+                    padding-y: 12
               -
                 type: paragraph
                 content:
@@ -818,14 +810,12 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: true
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
-    bg_toggle: false
-    bg_color: '#D6D6D6'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -833,8 +823,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -1001,9 +989,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -1011,8 +999,7 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -1105,10 +1092,8 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
-    bg_toggle: false
-    bg_color: '#F7F7F7'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -1116,8 +1101,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -1311,9 +1294,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -1321,8 +1304,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -1401,9 +1382,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: true
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
@@ -1411,8 +1392,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -1464,16 +1443,16 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
     is_full: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665505146
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1665588067
 template: default
 use_meta_keywords: false
 no_index_page: false
