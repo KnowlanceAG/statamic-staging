@@ -1042,19 +1042,10 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: Lektorat
+                    text: 'Lektorat für Bachelorarbeiten'
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'für Bachelorarbeiten'
-                  -
-                    type: text
-                    text: 'bei unserer akademischen Ghostwriting-Agentur'
-                  -
-                    type: text
-                    text: 'gestaltet. Dies gilt natürlich auch für alle anderen Arten von wissenschaftlichen Arbeiten.'
+                    text: ' bei unserer akademischen Ghostwriting-Agentur gestaltet. Dies gilt natürlich auch für alle anderen Arten von wissenschaftlichen Arbeiten.'
               -
                 type: paragraph
                 content:
