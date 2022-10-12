@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -323,42 +323,14 @@ replicator:
             type: text
             text: 'Blogartikel zum Thema Lektor, Lektorat & Ghostwriter bei GWriters'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/korrektorat-lektorat-textredaktion
-                  target: null
-                  rel: null
-            text: 'Video: Korrektorat, Lektorat & Textredaktion – Was ist eigentlich was?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting
-                  target: null
-                  rel: null
-            text: 'Video: Akademisches Ghostwriting'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriter-job
-                  target: null
-                  rel: null
-            text: '5 unschlagbare Vorteile, die für einen Job als akademischer Ghostwriter sprechen'
+        type: set
+        attrs:
+          values:
+            type: blog_entries
+            entries:
+              - bb669ea6-4276-4a3c-88d5-eb6a88bddff3
+              - fc6e7de5-8b4e-42c8-9a10-95208fbce892
+              - 27876560-a260-4e18-89b1-417c11b8b31f
       -
         type: paragraph
         content:
@@ -380,7 +352,7 @@ replicator:
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665505085
+updated_at: 1665582514
 page_title: 'Finden Sie Ihren akademischen Lektor bei unserer Ghostwriting Agentur'
 meta_title: 'Finden Sie Ihren akademischen Lektor bei unserer Ghostwriting Agentur'
 meta_description: 'Ihr persönlicher akademischer Lektor für Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit. Qualitativ, diskret und zum fairen Preis.'
