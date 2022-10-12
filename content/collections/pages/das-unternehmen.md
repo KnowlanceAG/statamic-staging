@@ -3,7 +3,7 @@ id: b1510f04-f5f7-4d15-9be4-fc69c7add6e0
 blueprint: pages
 title: 'Das Unternehmen'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665503735
+updated_at: 1665568713
 teaser:
   -
     type: heading
@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
