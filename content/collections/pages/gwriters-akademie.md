@@ -4,7 +4,7 @@ blueprint: pages
 title: 'GWriters Akademie'
 teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656436724
+updated_at: 1665571775
 page_title: 'Die GWriters Akademie für wissenschaftliches Arbeiten'
 use_meta_keywords: false
 no_index_page: false
@@ -12,8 +12,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 teaser:
   -
     type: set
@@ -35,6 +33,11 @@ teaser:
             type: textAlign
             attrs:
               align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
         text: 'Willkommen in der GWriters Akademie!'
   -
     type: paragraph
@@ -83,7 +86,7 @@ replicator:
   -
     columns_replicator:
       -
-        columns_per_row: '2'
+        columns_per_row: 2
         grid:
           -
             bard:
@@ -150,11 +153,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
         single_col: false
+        responsive_columns: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -162,7 +163,6 @@ replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         grid:
           -
             bard:
@@ -179,8 +179,9 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
         single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: true
     bg_toggle: true
     bg_image: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
@@ -211,8 +212,6 @@ replicator:
               - 4c882044-a7c8-47ab-96ab-9fac3f0b761c
               - b73c1df6-623f-49fd-a8ea-3d9e6cf334ab
               - 9a41faa4-9f52-4f0e-84b2-9fc989d3e995
-      -
-        type: paragraph
     type: editor
     enabled: true
     show_as_card: false
@@ -222,4 +221,5 @@ og_title: 'Die GWriters Akademie für wissenschaftliches Arbeiten'
 og_description: 'In der GWriters Akademie finden Sie wertvolle Ratgeber zum wissenschaftlichen Arbeiten, kostenlos Vorlagen für alle Arten von Verzeichnissen  und vieles mehr! Profitieren Sie von unserer Erfahrung 🎓'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---
