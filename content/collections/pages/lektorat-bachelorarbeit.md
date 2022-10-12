@@ -271,7 +271,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Bevor Sie ein'
+                    text: 'Bevor Sie ein '
                   -
                     type: text
                     marks:
@@ -280,7 +280,7 @@ replicator:
                     text: 'Lektorat Ihrer Bachelorarbeit'
                   -
                     type: text
-                    text: 'beauftragen, sollten Sie den konkreten Ablauf kennen. Das Lektorat ergänzt die Leistungen eines'
+                    text: ' beauftragen, sollten Sie den konkreten Ablauf kennen. Das Lektorat ergänzt die Leistungen eines '
                   -
                     type: text
                     marks:
@@ -293,7 +293,7 @@ replicator:
                     text: Korrektorats
                   -
                     type: text
-                    text: 'und sorgt für den wissenschaftlichen Stil und roten Faden Ihrer Bachelorarbeit. Das Verfassen einer Bachelorarbeit setzt nicht nur das Schreiben per se, sondern auch:'
+                    text: ' und sorgt für den wissenschaftlichen Stil und roten Faden Ihrer Bachelorarbeit. Das Verfassen einer Bachelorarbeit setzt nicht nur das Schreiben per se, sondern auch:'
               -
                 type: bullet_list
                 content:
@@ -305,7 +305,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'die Identifikation eines neuen bzw. wenig untersuchten und'
+                            text: 'die Identifikation eines neuen bzw. wenig untersuchten und '
                           -
                             type: text
                             marks:
@@ -320,22 +320,13 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'den Nachweis von'
+                            text: 'den Nachweis von '
                           -
                             type: text
                             marks:
                               -
                                 type: bold
-                            text: fundierten
-                          -
-                            type: text
-                            text: null
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                            text: Kenntnissen
+                            text: 'fundierten Kenntnissen'
                   -
                     type: list_item
                     content:
@@ -344,7 +335,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'die genaue Dokumentation des'
+                            text: 'die genaue Dokumentation des '
                           -
                             type: text
                             marks:
@@ -359,7 +350,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'die Nutzung der passenden und aktuellen'
+                            text: 'die Nutzung der passenden und aktuellen '
                           -
                             type: text
                             marks:
@@ -374,7 +365,7 @@ replicator:
                         content:
                           -
                             type: text
-                            text: 'sowie eine erkennbare'
+                            text: 'sowie eine erkennbare '
                           -
                             type: text
                             marks:
@@ -383,13 +374,13 @@ replicator:
                             text: Eigenleistung
                           -
                             type: text
-                            text: voraus.
+                            text: ' voraus.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Auf diese Faktoren legen die GWriters-Lektoren einen großen Wert. Sie verfügen nicht nur über'
+                    text: 'Auf diese Faktoren legen die GWriters-Lektoren einen großen Wert. Sie verfügen nicht nur über '
                   -
                     type: text
                     marks:
@@ -412,7 +403,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wie wenn Sie sich eine Mustervorlage für Ihre'
+                    text: 'Wie wenn Sie sich eine Mustervorlage für Ihre '
                   -
                     type: text
                     marks:
@@ -425,7 +416,7 @@ replicator:
                     text: 'Bachelorarbeit schreiben lassen'
                   -
                     type: text
-                    text: 'wir auch bei der Beauftragung eine Lektorats für Ihre Bachelorarbeit der'
+                    text: ' wir auch bei der Beauftragung eine Lektorats für Ihre Bachelorarbeit der '
                   -
                     type: text
                     marks:
@@ -434,13 +425,13 @@ replicator:
                     text: 'geeignetste Lektor aus Ihrem Fachbereich'
                   -
                     type: text
-                    text: 'für Sie ausgewählt. Dieser übernimmt das Lektorat der Bachelorarbeit und sorgt dafür, dass der Schreibstil beibehalten wird und die Bachelorarbeit Stimmigkeit sowie einen klaren roten Faden hat. Die Struktur, die Abfolge der theoretischen und praktischen Teile, die Tiefe der Literaturarbeit sowie die Leistung eines Eigenbeitrags werden beim Lektorat geprüft. Die Rechtschreibung und der sprachliche Ausdruck der Bachelorarbeit werden ebenfalls verbessert, wobei auf den Lesefluss und den wissenschaftlichen Stil besonders geachtet wird. Es können punktuelle Verbesserungen an der Rechtschreibung und Interpunktion, am Satzbau, an der Wortauswahl und Zeichensetzung, am stilistischen Ausdruck und an der Formatierung vorgenommen werden.'
+                    text: ' für Sie ausgewählt. Dieser übernimmt das Lektorat der Bachelorarbeit und sorgt dafür, dass der Schreibstil beibehalten wird und die Bachelorarbeit Stimmigkeit sowie einen klaren roten Faden hat. Die Struktur, die Abfolge der theoretischen und praktischen Teile, die Tiefe der Literaturarbeit sowie die Leistung eines Eigenbeitrags werden beim Lektorat geprüft. Die Rechtschreibung und der sprachliche Ausdruck der Bachelorarbeit werden ebenfalls verbessert, wobei auf den Lesefluss und den wissenschaftlichen Stil besonders geachtet wird. Es können punktuelle Verbesserungen an der Rechtschreibung und Interpunktion, am Satzbau, an der Wortauswahl und Zeichensetzung, am stilistischen Ausdruck und an der Formatierung vorgenommen werden.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Die Leistungen des Korrektorats bzw. Korrekturlesen sind ein wichtiger Bestandteil des Lektorats, aber das'
+                    text: 'Die Leistungen des Korrektorats bzw. Korrekturlesen sind ein wichtiger Bestandteil des Lektorats, aber das '
                   -
                     type: text
                     marks:
@@ -455,7 +446,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Da das Korrekturlesen der Bachelorarbeit immer'
+                    text: 'Da das Korrekturlesen der Bachelorarbeit immer '
                   -
                     type: text
                     marks:
@@ -464,7 +455,7 @@ replicator:
                     text: 'von einem Fachexperten in jeweiligem Bereich übernommen'
                   -
                     type: text
-                    text: 'wird, der einen Zugang zu den relevanten Literatur- und Wissensdatenbanken hat, wird die Arbeit auf ihre Korrektheit im Kontext des aktuellen Forschungsstands überprüft. Darüber hinaus wird'
+                    text: ' wird, der einen Zugang zu den relevanten Literatur- und Wissensdatenbanken hat, wird die Arbeit auf ihre Korrektheit im Kontext des aktuellen Forschungsstands überprüft. Darüber hinaus wird '
                   -
                     type: text
                     marks:
@@ -537,7 +528,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: Wir
+                    text: 'Wir '
                   -
                     type: text
                     marks:
@@ -546,7 +537,7 @@ replicator:
                     text: 'garantieren Ihre Anonymität'
                   -
                     type: text
-                    text: 'zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
+                    text: ' zu 100% und schützen Ihren Daten gemäß GDPR/DSGVO. Auch eine anonyme Zahlung über Freunde oder Verwandte ist möglich.'
               -
                 type: set
                 attrs:
@@ -585,7 +576,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wir übernehmen Revisionen unserer Leistungen gemäß Ihrer Wünsche und Anmerkungen ohne lange Diskussionen an - und zwar unbegrenzt, bis'
+                    text: 'Wir übernehmen Revisionen unserer Leistungen gemäß Ihrer Wünsche und Anmerkungen ohne lange Diskussionen an - und zwar unbegrenzt, bis '
                   -
                     type: text
                     marks:
@@ -639,7 +630,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: Wir
+                    text: 'Wir '
                   -
                     type: text
                     marks:
@@ -648,7 +639,7 @@ replicator:
                     text: 'garantieren die pünktliche Lieferung'
                   -
                     type: text
-                    text: 'Ihrer Ausarbeitung! Wir liefern Ihre lektorierte Arbeit zum vereinbarten Datum in finaler Form.'
+                    text: ' Ihrer Ausarbeitung! Wir liefern Ihre lektorierte Arbeit zum vereinbarten Datum in finaler Form.'
               -
                 type: set
                 attrs:
@@ -687,7 +678,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Akademischen Experten die sonst als'
+                    text: 'Akademischen Experten die sonst als '
                   -
                     type: text
                     marks:
@@ -696,7 +687,7 @@ replicator:
                     text: 'Doktoren & Professoren'
                   -
                     type: text
-                    text: 'arbeiten, lektorieren Ihre Arbeit. So garantieren wir die richtige Qualität Ihrer Ausarbeitung.'
+                    text: ' arbeiten, lektorieren Ihre Arbeit. So garantieren wir die richtige Qualität Ihrer Ausarbeitung.'
               -
                 type: set
                 attrs:
@@ -738,7 +729,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Wenn Sie bei Ihrer Bachelorarbeit ein Lektorat oder akademisches'
+                    text: 'Wenn Sie bei Ihrer Bachelorarbeit ein Lektorat oder akademisches '
                   -
                     type: text
                     marks:
@@ -756,7 +747,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'benötigen, dann senden Sie uns eine'
+                    text: ' benötigen, dann senden Sie uns eine '
                   -
                     type: text
                     marks:
@@ -993,7 +984,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ob Sie alle diese Anmerkungen umsetzen, obliegt  Ihnen – der Lektor gibt lediglich Hinweise und Empfehlungen, die ihm sinnvoll erscheinen, aber die finale Entscheidung liegt bei Ihnen. Ein solcher persönlicher „Touch“ vom Lektor hilft wesentlich dabei, das bereits Geschriebene zu verbessern, sodass Sie sicher sein können, dass nach dem Lektorat Ihre Bachelorarbeit keine Mängel aufweist – weder rein sprachlich noch inhaltlich. Dies zeigen auch die Bewertung der Kunden, die bereits mit'
+                    text: 'Ob Sie alle diese Anmerkungen umsetzen, obliegt  Ihnen – der Lektor gibt lediglich Hinweise und Empfehlungen, die ihm sinnvoll erscheinen, aber die finale Entscheidung liegt bei Ihnen. Ein solcher persönlicher „Touch“ vom Lektor hilft wesentlich dabei, das bereits Geschriebene zu verbessern, sodass Sie sicher sein können, dass nach dem Lektorat Ihre Bachelorarbeit keine Mängel aufweist – weder rein sprachlich noch inhaltlich. Dies zeigen auch die Bewertung der Kunden, die bereits mit '
                   -
                     type: text
                     marks:
@@ -1006,7 +997,7 @@ replicator:
                     text: 'GWriters Erfahrung'
                   -
                     type: text
-                    text: 'gemacht haben.'
+                    text: ' gemacht haben.'
             show_as_card: false
         type: row
         enabled: true
@@ -1049,7 +1040,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Laden Sie sich unser'
+                    text: 'Laden Sie sich unser '
                   -
                     type: text
                     marks:
@@ -1058,16 +1049,13 @@ replicator:
                     text: 'Lektorat Beispiel kostenlos herunter'
                   -
                     type: text
-                    text: 'und überzeugen Sie sich davon, wie sich das'
+                    text: ' und überzeugen Sie sich davon, wie sich das '
                   -
                     type: text
                     marks:
                       -
                         type: bold
                     text: Lektorat
-                  -
-                    type: text
-                    text: null
                   -
                     type: text
                     marks:
@@ -1079,19 +1067,13 @@ replicator:
                     text: 'bei unserer akademischen Ghostwriting-Agentur'
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                    text: null
-                  -
-                    type: text
                     text: 'gestaltet. Dies gilt natürlich auch für alle anderen Arten von wissenschaftlichen Arbeiten.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Nach der Durchführung des Lektorats durch einen erfahrenen Experten aus Ihrem persönlichen Fachbereich erhalten Sie von uns eine tiefgründig lektorierte Arbeit, die'
+                    text: 'Nach der Durchführung des Lektorats durch einen erfahrenen Experten aus Ihrem persönlichen Fachbereich erhalten Sie von uns eine tiefgründig lektorierte Arbeit, die '
                   -
                     type: text
                     marks:
@@ -1165,7 +1147,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ein weiterer wichtiger Aspekt, der zum Lektorat Ihrer Bachelorarbeit bei GWriters gehört, ist das persönliche Feedback seitens des Lektors. Dabei geht es um ein persönliches Schreiben des Experten, der Ihre Bachelorarbeit oder Abschlussarbeit lektoriert hat, mit der Darlegung seiner'
+                    text: 'Ein weiterer wichtiger Aspekt, der zum Lektorat Ihrer Bachelorarbeit bei GWriters gehört, ist das persönliche Feedback seitens des Lektors. Dabei geht es um ein persönliches Schreiben des Experten, der Ihre Bachelorarbeit oder Abschlussarbeit lektoriert hat, mit der Darlegung seiner '
                   -
                     type: text
                     marks:
@@ -1174,7 +1156,7 @@ replicator:
                     text: 'Expertenmeinung zu Ihrer Arbeit'
                   -
                     type: text
-                    text: '. Das persönliche Feedback ist immer konstruktiv, hebt Stärken Ihrer Arbeit hervor, weist allerdings auch auf deren Schwächen hin. Daneben enthält das'
+                    text: '. Das persönliche Feedback ist immer konstruktiv, hebt Stärken Ihrer Arbeit hervor, weist allerdings auch auf deren Schwächen hin. Daneben enthält das '
                   -
                     type: text
                     marks:
@@ -1183,13 +1165,13 @@ replicator:
                     text: 'persönliche Feedback auch individuelle Empfehlungen des Lektors'
                   -
                     type: text
-                    text: 'in Bezug auf Ihr Schreiben, die Ihnen auch bei weiteren Arbeiten behilflich sein könnten.'
+                    text: ' in Bezug auf Ihr Schreiben, die Ihnen auch bei weiteren Arbeiten behilflich sein könnten.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ein Beispiel eines solchen'
+                    text: 'Ein Beispiel eines solchen '
                   -
                     type: text
                     marks:
@@ -1198,7 +1180,7 @@ replicator:
                     text: 'persönlichen Feedbacks'
                   -
                     type: text
-                    text: 'finden Sie hier:'
+                    text: ' finden Sie hier:'
               -
                 type: blockquote
                 content:
@@ -1270,7 +1252,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Das angeführte persönliche Feedback enthält'
+                    text: 'Das angeführte persönliche Feedback enthält '
                   -
                     type: text
                     marks:
@@ -1285,7 +1267,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Daneben hat der Lektor einige praktische Empfehlungen gegeben: kontinuierliche Orientierung an der Leserschaft, Nutzung der Rechtschreibprüfungsfunktion, Vermeidung von Wortwiederholungen und eine präzisere Argumentation an manchen Stellen der Arbeit. Diese Empfehlungen sind nicht nur für die bereits lektorierte Arbeit nützlich, sondern können auch bei der Erstellung von weiteren wissenschaftlichen Arbeiten genutzt werden. Das Feedback ist zwar persönlich und bezieht sich konkret auf Ihre Arbeit, bleibt allerdings anonym.'
+                    text: 'Daneben hat der Lektor einige praktische Empfehlungen gegeben: kontinuierliche Orientierung an der Leserschaft, Nutzung der Rechtschreibprüfungsfunktion, Vermeidung von Wortwiederholungen und eine präzisere Argumentation an manchen Stellen der Arbeit. Diese Empfehlungen sind nicht nur für die bereits lektorierte Arbeit nützlich, sondern können auch bei der Erstellung von weiteren wissenschaftlichen Arbeiten genutzt werden. Das Feedback ist zwar persönlich und bezieht sich konkret auf Ihre Arbeit, bleibt allerdings anonym. '
                   -
                     type: text
                     marks:
@@ -1294,13 +1276,13 @@ replicator:
                     text: 'Wir achten auf Ihre Privatsphäre'
                   -
                     type: text
-                    text: 'und handeln immer diskret!'
+                    text: ' und handeln immer diskret!'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Hilfe oder ein Lektorat benötigen, wenden Sie sich gerne an uns. Über'
+                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Hilfe oder ein Lektorat benötigen, wenden Sie sich gerne an uns. Über '
                   -
                     type: text
                     marks:
@@ -1315,7 +1297,7 @@ replicator:
                     text: 'unser Kontaktformular'
                   -
                     type: text
-                    text: 'erhalten Sie jederzeit eine kostenlose Beratung. Unsere Kundenberater beraten Sie gerne!'
+                    text: ' erhalten Sie jederzeit eine kostenlose Beratung. Unsere Kundenberater beraten Sie gerne!'
               -
                 type: set
                 attrs:
@@ -1448,7 +1430,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Eine Bachelorarbeit schreiben ist eine herausfordernde Aufgabe: Themenfindung, Identifizierung der Forschungslücke, Materialsammlung und Materialbearbeitung erfordern nicht nur Fachwissen, sondern auch viel Zeit, die für Studenten so wertvoll ist. Wenn Sie Ihre Bachelorarbeit geschrieben haben, ist die Sache allerdings immer noch nicht beendet: Die Arbeit muss'
+                    text: 'Eine Bachelorarbeit schreiben ist eine herausfordernde Aufgabe: Themenfindung, Identifizierung der Forschungslücke, Materialsammlung und Materialbearbeitung erfordern nicht nur Fachwissen, sondern auch viel Zeit, die für Studenten so wertvoll ist. Wenn Sie Ihre Bachelorarbeit geschrieben haben, ist die Sache allerdings immer noch nicht beendet: Die Arbeit muss '
                   -
                     type: text
                     marks:
@@ -1469,7 +1451,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ein Lektorat Ihrer Bachelorarbeit bei GWriters kann Ihnen viel Zeit zu sparen und eine hohe Qualität Ihrer Bachelorarbeit bei der Abgabe sicherstellen. Überzeugen Sie sich selbst von den Vorteilen unseres Lektorats: wir sorgen dafür, dass Sie Ihre'
+                    text: 'Ein Lektorat Ihrer Bachelorarbeit bei GWriters kann Ihnen viel Zeit zu sparen und eine hohe Qualität Ihrer Bachelorarbeit bei der Abgabe sicherstellen. Überzeugen Sie sich selbst von den Vorteilen unseres Lektorats: wir sorgen dafür, dass Sie Ihre '
                   -
                     type: text
                     marks:
