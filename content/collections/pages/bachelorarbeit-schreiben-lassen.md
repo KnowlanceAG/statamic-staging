@@ -115,8 +115,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6606!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -2647,34 +2647,25 @@ replicator:
           -
             bard:
               -
-                type: blockquote
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
-                    type: heading
-                    attrs:
-                      level: 3
-                    content:
-                      -
-                        type: text
-                        text: Disclaimer
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
+                    type: text
+                    text: Disclaimer
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
               -
                 type: heading
                 attrs:
@@ -2697,12 +2688,6 @@ replicator:
                       - 65463e24-c877-41a0-9331-f3112d4ecc02
                       - 78e588a4-2c02-44b9-b5b1-e7a880e0b64c
                       - a714a5f1-abe3-4915-ab56-268753205e28
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 40
               -
                 type: heading
                 attrs:
@@ -2869,7 +2854,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665503106
+updated_at: 1665571057
 template: default
 use_meta_keywords: false
 no_index_page: false
