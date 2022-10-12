@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6606!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -2506,21 +2506,6 @@ replicator:
                   -
                     type: text
                     text: 'Präsentationen von Inhalten sind in keinem Bereich des gesellschaftlichen Lebens wegzudenken. Ob in Schule, Studium, Beruf oder auch in der Freizeit, Ergebnisse werden in Form von Vorträgen zielgruppenorientiert transportiert. An der Qualität der Präsentation wird die Kompetenz des Referenten gemessen. Wer in Vorträgen authentisch auftritt, sich rhetorisch geschult zeigt und inhaltlich überzeugt, kann beruflichen Erfolg verzeichnen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
@@ -2533,7 +2518,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665503025
+updated_at: 1665571335
 template: default
 meta_title: 'GWriters • professionell Präsentation erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
