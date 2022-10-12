@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665568300
+updated_at: 1665568577
 replicator:
   -
     columns_replicator:
@@ -2386,4 +2386,75 @@ og_description: 'Berechnen Sie die Ghostwriter Preise mit unserem Preisrechner. 
 og_image: GWriters-Logo.png
 sitemap_active: true
 published: true
+schema_objects: |-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Ich möchte einen Ghostwriter mit Doktortitel beauftragen, muss ich mit höheren Preisen rechnen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Preise für einen Ghostwriter oder Schreibcoach im akademischen Bereich variieren stark. Als Kunde sollte man sich allerdings darüber im Klaren sein, dass die Kosten für einen Ghostwriter mit entsprechenden Qualifikationen höher sind als für einen Ghostwriter, welcher nicht einmal einen akademischen Abschluss hat. Gerade bei geringen Preisen von Ghostwriting-Agenturen stellt sich so die Frage, ob man eine Mustervorlage für die eigene von jemandem Doktorarbeit schreiben lassen möchte, der selbst noch nicht einmal eine Dissertation verfasst hat.
+
+  Daher werden bei GWriters für jedes Projekt ausschließlich Ghostwriter mit mindestens dem gleichen akademischen Abschluss eingesetzt.
+  Wenn es Ihnen besonders wichtig ist, einen Schreibcoach zu engagieren der bereits promoviert hat oder sogar eine Professur innehat, sollte man sich also darauf einstellen, dass für ein solches Ghostwriting ein Aufpreis anfällt. Die Kosten sind höher als wenn Sie eine Billig-Agentur engagieren, die solch einen hochklassigen Service nicht garnieren kann."
+      }
+    },{
+      "@type": "Question",
+      "name": "Aus welchen Faktoren setzen sich die Preise für Ghostwriting zusammen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Qualität hat auch bei der Ghostwritingleistung ihren Preis. Die Preise für einen erfolgreichen Ghostwriter setzen sich aus verschiedenen Faktoren zusammen. Zum Ersten gehört dazu die Fachdisziplin und die Komplexität des Themas über welches die Arbeit verfasst werden soll. Hier greifen die typischen Gesetze des Marktes von Angebot und Nachfrage.
+
+  Starke Spezialisierungen einer Fachdisziplin, wie sie eine Dissertation erfordern, stellen natürlich andere Anforderungen an den Ghostwriter als das Verfassen einer Hausarbeit im ersten Semester. Daher sind die Preise einer solchen Ghostwritingleistungs natürlich höher.
+
+  Des weiteren spielt natürlich der Umfang einer solchen Arbeit auch eine entscheidenden Rolle. Hier geht es um den Zeitaufwand den ein Ghostwriter betreiben muss um die Arbeit zu verfassen. Daher ermessen Ghostwriting-Agenturen den Preis häufig pro Seite.
+  Seriöse Agenturen erkennt man daran, dass diese einen Kostenvoranschlag unterbreiten (übrigens auch für Korrektorat, Lektorat und Plagiatsprüfung), der als Festpreisangebot deklariert wird, also nicht überschritten wird, ganz egal wie viel Mehrarbeit noch über den geschätzten Aufwand entsteht. Gute Agenturen sind sich der eigenen Professionalität nämlich sehr wohl bewusst und können sich auf ihr Team von akademischen Ghostwritern verlassen."
+      }
+    },{
+      "@type": "Question",
+      "name": "Ist ein hoher Preis eine Garantie für gutes Ghostwriting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Einen hohen Preis für ein Ghostwriting zu verlangen ist natürlich per se keine Garantie für qualitativ hochwertige Arbeit. Allerdings zeigt sich hier, wie auch in anderen Lebensbereichen, oft: Wer billig kauft, kauft doppelt. Daher sollte ein günstiger Preis nicht das bevorzugte oder gar einzige beachtete Merkmal bei der Auswahl einer Ghostwriting-Agentur sein.
+
+  Besonders geachtet sollte darauf, dass der Ansprechpartner einen seriösen Eindruck macht. Auch empfiehlt es sich, durch gezieltes Nachfragen die Erfahrung der Agentur beim Erstellen solcher Arbeiten auf die Probe zu stellen.
+
+  Auch sollten man sicher gehen, dass ein Ghostwriter mit der Aufgabe betraut wurde, der reichlich Erfahrung im gefragten Fachgebiet mitbringt. Daher gilt als Faustregel, nicht nur auf den Preis, sondern auch darauf zu achten, ob die Aufgabe in gute Hände gelegt wird."
+      }
+    },{
+      "@type": "Question",
+      "name": "Ich möchte einen Ghostwriter günstig beauftragen, haben Sie einen Billig-Tarif?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Auch wenn wir jederzeit versuchen, Ihnen den Service unserer Ghostwriter günstig – und zwar so günstig wie möglich – zu bieten, bieten wir keinen Billig-Tarif auf Kosten der Qualität unserer Arbeit an. Denn als eine der führenden Ghostwriting Agenturen im deutschsprachigen Raum ist es für uns von höchster Priorität, Ihnen jederzeit höchste Qualität von akademischen Experten liefern zu können."
+      }
+    },{
+      "@type": "Question",
+      "name": "Ich möchte mir eine Hausarbeit schreiben lassen: Kosten im Durchschnitt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Preisspanne, wenn Sie sich eine Mustervorlage für Ihre Hausarbeit schreiben lassen, liegt zwischen €800 – €1600. Natürlich variieren die Ghostwriter Preise hier aber auch stark abhängig von der geforderten Anzahl der Textseiten, dem Schwierigkeitsgrad Themas, dem Fachbereich und dem zur Verfügung stehenden Bearbeitungszeitraum. In jedem Fall werden wir jedoch versuchen, eine für Sie möglichst kostengünstige und zugleich hochqualitative Lösung zu finden."
+      }
+    },{
+      "@type": "Question",
+      "name": "Ist ein abschließendes Lektorat bereits im Preis inklusive?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Da es immer unser ausgeschriebenes Ziel ist, Ihnen mit jeder Ausarbeitung höchste Qualität zu liefern, sind Zusatzleistungen wie das Lektorat und Korrektorat, der durch uns erstellten Mustervorlage für Ihre Abschlussarbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit o.ä.) immer im Pauschalpreis inklusive. Diese werden von einem übergeordneten Supervisor durchgeführt, der den entsprechenden fachlichen Hintergrund wie Ihr Ghostwriter hat und somit Ihre Arbeit inhaltlich und äußerlich überprüfen und ihr den letzten Schliff geben kann."
+      }
+    },{
+      "@type": "Question",
+      "name": "Was kostet es, einen Ghostwriter für die Quellenrecherche oder Themenfindung zu beauftragen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Selbstverständlich können unsere akademischen Ghostwriter bei jeder Fragestellung zu ihrer Abschlussarbeit behilflich sein. Gewöhnlich beginnen die Preise für solche Leistungen ab 500€. Gerne erstellen wir Ihnen ein individuell auf Ihre Bedürfnisse zugeschnittenes Angebot.
+
+  Unsere akademischen Ghostwriter unterstützen Sie zum Beispiel auch bei der Themenfindung, Formatierung, Quellenrecherche, beim Finden einer Forschungsfrage und der Anwendung von Forschungsmethoden. Die Durchführung von Umfragen, Interviewsauswertungen, sowie qualitative (MAXQDA) und quantitativen (SPSS, Stata, R) Datenauswertungen oder Inhaltsanalysen übernehmen wir ebenfalls für Sie."
+      }
+    }]
+  }
+  </script>
 ---
