@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -140,18 +140,12 @@ replicator:
                       <p style="font-size:18px" align="center">
                       Bei der Ghostwriting Agentur GWriters erhalten Sie kompetente Unterstützung für wissenschaftliche Leistungen in jedem Fachgebiet. Bei unserer <b>Ghostwriting Agentur</b> finden Sie exakt den akademischen Ghostwriter für Ihre Aufgabenstellungen, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt in sichere Hände geben und bei einem Ghostwriter eine Mustervorlage für Ihre <b>wissenschaftliche Arbeit schreiben lassen</b>? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Doktoren und Professoren arbeitet.
                       </p>
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     border: false
     type: add_section
@@ -679,16 +673,6 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: ' überprüfen zu lassen.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        single_col: true
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -697,12 +681,6 @@ replicator:
                   -
                     type: text
                     text: 'Unsere Garantien für Sie'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 15
             show_as_card: false
         type: row
         enabled: true
@@ -926,12 +904,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -971,15 +943,6 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
-    is_full: true
-    bg_toggle: false
-    bg_color: '#D6D6D6'
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
       -
         columns_per_row: 2
         grid:
@@ -992,8 +955,6 @@ replicator:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo.-Fr. 9:00-18:00'
-              -
-                type: paragraph
             show_as_card: true
           -
             bard:
@@ -1030,14 +991,12 @@ replicator:
                   values:
                     type: spacer
                     padding-y: 2
-              -
-                type: paragraph
             show_as_card: true
         type: row
         enabled: true
         single_col: false
         responsive_columns: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#D6D6D6'
@@ -2524,23 +2483,6 @@ replicator:
                           - 34f7528d-839e-4ef6-b735-627084dba887
                           - 1de3d76b-f23a-41a8-a629-15b48a07223e
                           - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: true
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -2678,39 +2620,19 @@ replicator:
                           hex: '#000'
                     text: ' und garantiert die Sicherheit, die Qualität, die Quantität sowie einen pünktlichen Abgabetermin, die so eine wissenschaftliche Abgabe erfordern.'
               -
-                type: blockquote
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
-                    type: heading
-                    attrs:
-                      level: 3
-                    content:
-                      -
-                        type: text
-                        text: Disclaimer
+                    type: text
+                    text: Disclaimer
+              -
+                type: paragraph
+                content:
                   -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: true
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: false
-        grid:
-          -
-            bard:
+                    type: text
+                    text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
               -
                 type: heading
                 attrs:
@@ -2722,7 +2644,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Blogartikel zum Thema Ghostwriting Agentur'
               -
                 type: set
@@ -2731,17 +2653,8 @@ replicator:
                     type: blog_entries
                     entries:
                       - 636b91b0-241e-4fbf-a315-2267fa607bd3
-                      - 31c2d3bf-b5f9-4b8f-8ec8-4c80cc55fc93
                       - de34a06b-d2ba-4dd0-ac3a-8d2761fd005e
-                      - 24ba331e-8f49-4a91-a310-dd85b6281939
                       - ece83e8a-3c91-4e07-8c58-4bcd1c937ec1
-                      - a2cde5ef-6e62-42fc-a5dc-ea0e899eb3da
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
               -
                 type: paragraph
                 content:
@@ -2753,7 +2666,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2766,14 +2679,14 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     border: false
     type: add_section
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665504251
+updated_at: 1665579605
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
