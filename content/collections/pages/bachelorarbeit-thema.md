@@ -111,8 +111,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -3961,7 +3961,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665504772
+updated_at: 1665572129
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
