@@ -550,42 +550,14 @@ replicator:
                     type: text
                     text: 'Interessante Blogartikel zum Thema Essay & Mustervorlage für Essay schreiben lassen'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/essay
-                          target: null
-                          rel: null
-                    text: 'Informationensammlung zum wissenschaftlichen Essay'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/erste-seminararbeit-schreiben
-                          target: null
-                          rel: null
-                    text: 'Erste Seminararbeit schreiben – 5 praktische Tipps vom Profi'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/literaturrecherche-wissenschaftliche-quellen
-                          target: null
-                          rel: null
-                    text: 'Video: Literaturrecherche – wissenschaftliche Artikel einfach finden'
+                type: set
+                attrs:
+                  values:
+                    type: blog_entries
+                    entries:
+                      - bbe248a3-ff7d-407f-847a-009576058efe
+                      - 774827ee-5840-450d-aca6-d60187adc46b
+                      - cf3e2042-acbe-483e-9eb1-3b7b20659a23
               -
                 type: paragraph
                 content:
@@ -614,7 +586,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665570799
+updated_at: 1665583987
 meta_title: 'Essay schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Essay schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
