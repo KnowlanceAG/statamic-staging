@@ -149,8 +149,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -1094,7 +1094,7 @@ page_title: 'Berufsbegleitende Promotion: DBA oder Ph.D. • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665504973
+updated_at: 1665578697
 meta_title: 'Berufsbegleitende Promotion: DBA oder Ph.D. • GWriters'
 meta_description: 'Passt zu Ihnen ein Ph.D. oder eher eine berufsbegleitende Promotion zum DBA? Erfahren Sie jetzt alle Informationen aus unserer seriösen Promotionsberatung!'
 use_meta_keywords: false
