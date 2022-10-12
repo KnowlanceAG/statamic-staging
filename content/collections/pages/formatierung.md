@@ -111,8 +111,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -1098,7 +1098,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665503626
+updated_at: 1665567257
 meta_title: 'GWriters • Die Anleitung zur richtigen Formatierung Ihrer Hausarbeit'
 meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Formatierung: Leistungen, Kosten, Preise & Ablauf.'
 use_meta_keywords: false
