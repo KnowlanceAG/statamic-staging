@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6606!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -925,14 +925,11 @@ replicator:
                     type: text
                     text: Disclaimer
               -
-                type: blockquote
+                type: paragraph
                 content:
                   -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+                    type: text
+                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
                 type: heading
                 attrs:
@@ -1051,7 +1048,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665503150
+updated_at: 1665571196
 meta_title: 'Magisterarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Magisterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Plagiate.'
 use_meta_keywords: false
