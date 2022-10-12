@@ -4,13 +4,13 @@ blueprint: pages
 title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1659103195
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665568300
 replicator:
   -
     columns_replicator:
       -
-        columns_per_row: '2'
+        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -23,12 +23,6 @@ replicator:
                   -
                     type: text
                     text: 'Unsere Ghostwriter Preise'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '10'
               -
                 type: paragraph
                 content:
@@ -197,10 +191,8 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -208,7 +200,6 @@ replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -224,11 +215,11 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 1
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: true
     bg_toggle: false
     bg_color: '#F9F9F9'
-    bg_image_fixed: false
     type: add_section
     enabled: true
     remove_spacing: false
@@ -236,8 +227,6 @@ replicator:
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -272,8 +261,6 @@ replicator:
                     text_ausrichtung: text-center
                     column_count: false
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
@@ -281,23 +268,20 @@ replicator:
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
                     spacing_top: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_image_fixed: false
     border: true
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -391,14 +375,12 @@ replicator:
                             text: ', erwartet Sie jederzeit höchste Qualität auf akademischem Niveau zu fairen Preisen. Dies garantieren wir durch unsere kompromisslose Qualitätssicherung, die selbstverständlich in jedem Preis-Angebot inklusive ist.'
                     text_ausrichtung: text-left
                     column_count: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -424,9 +406,10 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: '3'
+        columns_per_row: 3
         single_col: false
         grid:
           -
@@ -441,11 +424,9 @@ replicator:
                     dateien:
                       - preise/euro.svg
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
-                  level: 4
+                  level: 3
                 content:
                   -
                     type: text
@@ -486,8 +467,6 @@ replicator:
                             text: 'Unerwartete Preiserhöhungen oder versteckte Gebühren gibt es bei uns nicht! Falls Sie nicht ausdrücklich eine Änderung des Auftragsumfangs wünschen sollten, wird sich der Ihnen zugesagte Preis in keinem Fall ändern.'
                     text_ausrichtung: text-left
                     column_count: false
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -501,11 +480,9 @@ replicator:
                     img_size: w-1/4
                     float: mx-auto
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
-                  level: 4
+                  level: 3
                 content:
                   -
                     type: text
@@ -549,8 +526,6 @@ replicator:
                             text: ', bei uns beginnt jeder Auftrag mit einer initialen Telefonkonferenz, damit Ihr Auftrag von Beginn an in die richtige Richtung geht.'
                     text_ausrichtung: text-left
                     column_count: false
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
@@ -564,11 +539,9 @@ replicator:
                     img_size: w-1/4
                     float: mx-auto
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
-                  level: 4
+                  level: 3
                 content:
                   -
                     type: text
@@ -601,18 +574,6 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Ihr persönlicher Projektmanager steht Ihnen während des gesamten Schreibprozesses jederzeit unterstützend zur Verfügung. Wir gehen individuell auf jeden Ihrer Wünsche ein, damit Sie zu jeder Zeit ein gutes Gefühl haben.'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
             show_as_card: false
           -
             bard:
@@ -626,11 +587,9 @@ replicator:
                     img_size: w-1/4
                     float: mx-auto
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
-                  level: 4
+                  level: 3
                 content:
                   -
                     type: text
@@ -663,18 +622,6 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Sie erhalten von uns je nach Auftragsgröße 2-5 Zwischenstände zugeschickt, sodass Sie gerne Feedback geben und die Schreibarbeit so selbst in die von Ihnen gewünschte Richtung steuern können. Auch nach Auftragsabschluss sind wir weiterhin für Sie da.'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
             show_as_card: false
           -
             bard:
@@ -688,11 +635,9 @@ replicator:
                     img_size: w-1/4
                     float: mx-auto
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
-                  level: 4
+                  level: 3
                 content:
                   -
                     type: text
@@ -714,53 +659,7 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Vor der Abschlusslieferung wird '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'die Mustervorlage für Ihre Abschluss'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(0, 0, 0)'
-                          hex: '#000'
-                    text: 'arbeit durch einen übergeordneten Supervisor aus Ihrem Fachgebiet auf Rechtschreibung, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'Grammatik, Hyphenation, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(0, 0, 0)'
-                          hex: '#000'
-                    text: 'inhaltliche Richtigkeit und Wissenschaftlichkeit geprüft, für Ihren Erfolg!'
+                    text: 'Vor der Abschlusslieferung wird die Mustervorlage für Ihre Abschlussarbeit durch einen übergeordneten Supervisor aus Ihrem Fachgebiet auf Rechtschreibung, Grammatik, Hyphenation, inhaltliche Richtigkeit und Wissenschaftlichkeit geprüft, für Ihren Erfolg!'
             show_as_card: false
           -
             bard:
@@ -774,11 +673,9 @@ replicator:
                     img_size: w-1/4
                     float: mx-auto
               -
-                type: paragraph
-              -
                 type: heading
                 attrs:
-                  level: 4
+                  level: 3
                 content:
                   -
                     type: text
@@ -812,18 +709,15 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: false
         grid:
           -
@@ -873,14 +767,13 @@ replicator:
                             text: ', als auch ein Kunde mit einer ingenieurwissenschaftlichen Masterarbeit, ausführlichen Berechnungen und technischen Zeichnungen immer einen fairen Preis erhalten – individuell auf Ihr Projekt zugeschnitten!'
                     text_ausrichtung: text-left
                     column_count: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: '2'
+        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -955,24 +848,20 @@ replicator:
                     button_text: 'JETZT BERATEN LASSEN'
                     spacing_top: true
                     button_align: justify-start
-              -
-                type: paragraph
             show_as_card: true
         type: row
         enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
     bg_color: '#D6D6D6'
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
   -
     columns_replicator:
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -985,37 +874,30 @@ replicator:
                   -
                     type: text
                     text: 'Unsere Garantien für Sie'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '15'
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: '4'
+        columns_per_row: 4
         single_col: true
         grid:
           -
             bard:
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/security.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -1045,25 +927,23 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
           -
             bard:
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -1090,25 +970,23 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
           -
             bard:
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/stopwatch.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -1147,25 +1025,23 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
           -
             bard:
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/magistrate.svg
-                    custom_svg_width: '65'
+                    custom_svg_width: 65
               -
                 type: set
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
               -
                 type: paragraph
                 content:
@@ -1195,13 +1071,12 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '10'
+                    padding-y: 10
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -1259,14 +1134,12 @@ replicator:
                             text: 'Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
                     text_ausrichtung: text-left
                     column_count: false
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -1567,8 +1440,6 @@ replicator:
                                 button_text: 'JETZT KOSTENLOS ANFRAGEN'
                                 button_align: justify-end
                                 spacing_top: true
-                          -
-                            type: paragraph
                         active: true
                       -
                         headline: 'Mustervorlage für Bachelorarbeit'
@@ -1860,9 +1731,7 @@ replicator:
                                 button_text: 'JETZT KOSTENLOS ANFRAGEN'
                                 spacing_top: true
                                 button_align: justify-end
-                          -
-                            type: paragraph
-                        active: false
+                        active: true
                       -
                         headline: 'Mustervorlage für Masterarbeit'
                         accordion_content:
@@ -2153,17 +2022,13 @@ replicator:
                                 button_text: 'JETZT KOSTENLOS ANFRAGEN'
                                 spacing_top: true
                                 button_align: justify-end
-                          -
-                            type: paragraph
-                        active: false
-              -
-                type: paragraph
+                        active: true
             show_as_card: false
         type: row
         enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
       -
-        responsive_columns: 1
-        columns_per_row: 1
         single_col: true
         grid:
           -
@@ -2188,7 +2053,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: 'andere wissenschaftliche Arbeit'
                   -
@@ -2198,8 +2063,6 @@ replicator:
                 type: paragraph
                 content:
                   -
-                    type: hard_break
-                  -
                     type: text
                     text: 'So können wir sicherstellen, dass Sie auch mit Sicherheit die Qualität erhalten, die Sie verdienen. Zudem haben Sie bei uns absolute Preissicherheit. Das heißt, dass die Kosten für ein faires Honorar unserer akademischen Experten mit langjähriger Erfahrung vollständig in unseren Preisen enthalten ist. '
               -
@@ -2208,25 +2071,6 @@ replicator:
                   -
                     type: text
                     text: 'Sollten Sie nicht selbst eine Änderung des Auftragsumfangs wünschen, erwarten Sie keine weiteren Kosten für unseren Ghostwriting-Service. Das versprechen wir Ihnen!'
-            show_as_card: false
-        type: row
-        enabled: true
-    remove_spacing: false
-    is_full: false
-    bg_toggle: false
-    bg_image_fixed: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        responsive_columns: 1
-        columns_per_row: 1
-        single_col: true
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -2518,21 +2362,13 @@ replicator:
                                 type: text
                                 text: ') und quantitativen (SPSS, Stata, R) Datenauswertungen oder Inhaltsanalysen übernehmen wir ebenfalls für Sie.'
                         active: false
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: '30'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
-    remove_spacing: true
-    is_full: true
-    bg_toggle: false
-    bg_image_fixed: false
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
     border: false
     type: add_section
     enabled: true
@@ -2542,8 +2378,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓'
 meta_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓'
 meta_description: 'Berechnen Sie die Ghostwriter Preise mit unserem Preisrechner. Jetzt Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen - zu fairen Preisen!'
@@ -2551,4 +2385,5 @@ og_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓
 og_description: 'Berechnen Sie die Ghostwriter Preise mit unserem Preisrechner. Jetzt Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen - zu fairen Preisen!'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---
