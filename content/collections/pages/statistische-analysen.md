@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6606!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -529,59 +529,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Einige unserer Blogartikel zu statistischen Analysen & Ghostwritinga'
+                    text: 'Einige unserer Blogartikel zu statistischen Analysen & Ghostwriting'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/empirische-theoretische-bachelorarbeit
-                          target: null
-                          rel: null
-                    text: 'Wie wird eine empirische Analyse durchgeführt?'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/qualitative-quantitative-methoden
-                          target: null
-                          rel: null
-                    text: 'Video: Qualitative & quantitative Methoden beim Schreiben wissenschaftlicher Arbeiten'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/ghostwriter-auftrag-tipps
-                          target: null
-                          rel: null
-                    text: 'Video: Tipps für einen erfolgreichen Ghostwriter-Auftrag'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /wiki
-                          target: null
-                          rel: null
-                    text: '< zurück zur Wiki Übersicht'
+                type: set
+                attrs:
+                  values:
+                    type: blog_entries
+                    entries:
+                      - 10dbd7f1-5104-463d-b22e-d22f9ddbd8c2
+                      - db892f41-338a-4618-8718-121991acbf6c
+                      - dcc18410-b67c-457c-a016-28c0b0f4283e
             show_as_card: false
         type: row
         enabled: true
@@ -594,7 +551,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665503058
+updated_at: 1665571497
 template: default
 meta_title: 'GWriters • Statistische Analyse durchführen lassen'
 meta_description: 'Statistische Analysen durchführen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität.'
