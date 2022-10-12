@@ -238,6 +238,10 @@ table {
   }
 }
 
+.max-w-1144 {
+  max-width: 1144px!important;
+}
+
 .content {
   ul,
   ol {
