@@ -118,8 +118,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -132,7 +132,7 @@ page_title: 'Bauingenieurwesen Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665510587
+updated_at: 1665570182
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1470,7 +1470,6 @@ replicator:
                     dateien:
                       - seiten/fachrichtungen/aufbau-des-Bauingenieurwesenstudiums.png
                     img_size: w-full
-                    float: mx-auto
                     image_options:
                       - no_upscale
               -
