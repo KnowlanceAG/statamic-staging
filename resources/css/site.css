@@ -29,6 +29,9 @@ src: local(''),
       url('../fonts/montserrat-v23-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 
+:root {
+  --tiny-slider-cutoff-color: #fff;
+}
 body {
   font-display: swap;
   font-family: -apple-system, BlinkMacSystemFont, segoe ui, Roboto, Helvetica, Arial, sans-serif, apple color emoji, segoe ui emoji, segoe ui symbol;
@@ -236,6 +239,10 @@ table {
   svg {
     @apply transition-all ease-in-out;
   }
+}
+
+.max-w-1144 {
+  max-width: 1144px!important;
 }
 
 .content {
