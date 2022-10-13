@@ -125,7 +125,7 @@ page_title: 'Philosophie Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665569875
+updated_at: 1665655575
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -617,7 +617,7 @@ replicator:
                         attrs:
                           href: 'https://de.wikipedia.org/wiki/Philosophie'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Allgemeine Informationen und Linksammlung zur Philosophie - Wikipedia'
                   -
                     type: hard_break
@@ -629,7 +629,7 @@ replicator:
                         attrs:
                           href: 'https://www.unilu.ch/fileadmin/fakultaeten/ksf/institute/philsem/PDFs/KSF_Lektuereempfehlung_HS14_web.pdf'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Literaturliste zur Einführung in die Philosophie - Uni Luzern'
                   -
                     type: hard_break
@@ -641,7 +641,7 @@ replicator:
                         attrs:
                           href: 'https://de.wikipedia.org/wiki/Liste_der_Philosophiezeitschriften'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Liste von Philosophiezeitschriften - Wikipedia'
                   -
                     type: hard_break
@@ -653,7 +653,7 @@ replicator:
                         attrs:
                           href: 'http://www.ruhr-uni-bochum.de/philosophy/index.html.de'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Philosophie - Ruhr-Universität Bochum'
                   -
                     type: hard_break
