@@ -115,8 +115,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -139,18 +139,12 @@ replicator:
                   values:
                     type: insert_html
                     html: '<p style="font-size:18px" align="center">Wenn Sie bereits eine Bachelorarbeit verfasst oder bei GWriters beauftragt haben, wissen Sie bereits, was unter einem <b>Lektorat der Bachelorarbeit</b> verstanden wird. Das Lektorat einer Hausarbeit, Bachelorarbeit oder Abschlussarbeit steht für eine Überprüfung der von Studierenden verfassten Arbeit auf Rechtschreibfehler sowie strukturelle, wissenschaftliche und stilistische Fehler und deren Korrektur. So werden beim Lektorat von Bachelorarbeiten mit GWriters auch Ungenauigkeiten redigiert sowie Korrekturvorschläge zu inhaltlichen Ungenauigkeiten bzw. Unstimmigkeiten gegeben.</p>'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     border: false
     type: add_section
     enabled: true
@@ -210,16 +204,6 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        single_col: false
-        grid:
-          -
-            bard:
               -
                 type: set
                 attrs:
@@ -231,19 +215,18 @@ replicator:
                       <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
                       <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
                       <!-- ProvenExpert Bewertungssiegel Ende -->
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: false
-    bg_image_fixed: false
     border: false
     type: add_section
     enabled: true
-    is_full: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
   -
     columns_replicator:
       -
@@ -458,16 +441,6 @@ replicator:
                   -
                     type: text
                     text: '. So können Sie sich am Tag der Abgabe sicher sein, dass Ihre Arbeit ein Unikat ist und Sie keine negativen Überraschungen befürchten müssen.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        single_col: true
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -819,7 +792,9 @@ replicator:
     border: false
     type: add_section
     enabled: true
-    is_full: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
   -
     columns_replicator:
       -
@@ -1078,8 +1053,10 @@ replicator:
                     ex_pages: '30'
                     ex_zitation: APA
                     ex_button_link: /ghostwriting-beispielarbeiten/Beispiel_Lektorat_GWriters.docx
-                    ex_button_text: 'Jetzt Herunterladen'
+                    ex_button_text: WEITERLESEN
                     ex_spacing_top: false
+                    ex_color: '#FF6606'
+                    ex_button_align: justify-start
             show_as_card: false
         type: row
         enabled: true
@@ -1088,7 +1065,9 @@ replicator:
     border: false
     type: add_section
     enabled: true
-    is_full: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F7F7F7'
   -
     columns_replicator:
       -
@@ -1276,29 +1255,28 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
                     button_text: 'JETZT KOSTENLOSE ANFRAGE SCHICKEN!'
                     color: '#FF6606'
                     button_align: justify-center
                     spacing_top: false
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    border: false
-    type: add_section
-    enabled: true
-    is_full: false
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
               -
                 type: heading
                 attrs:
@@ -1310,7 +1288,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Wir unterstützen Sie bei nahezu allen akademischen Fachbereichen & Arbeiten!'
               -
                 type: set
@@ -1370,23 +1348,6 @@ replicator:
                           - 52f5092f-800b-4742-8636-a840b9ab1ddb
                           - 2b55bfe7-06df-4e71-86da-152e256904ec
                           - 2931f444-5e22-4860-8f40-a41821377b93
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: true
-    border: false
-    type: add_section
-    enabled: true
-    is_full: false
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -1442,8 +1403,8 @@ replicator:
     enabled: true
     is_full: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1665588067
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665671820
 template: default
 use_meta_keywords: false
 no_index_page: false
