@@ -2898,10 +2898,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.avl.uni-mainz.de/hinweise-zum-erstellen-einer-seminararbeit/'
+                          href: 'https://www.uni-regensburg.de/assets/wirtschaftswissenschaften/vwl-kindermann/resources/hinweise_seminararbeit.pdf'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
-                    text: 'Hinweise zum Erstellen einer Seminararbeit - Johannes Gutenberg Universität Mainz'
+                    text: 'Hinweise zum Erstellen einer Seminararbeit - Universität Regensburg'
                   -
                     type: hard_break
                     marks:
@@ -2975,7 +2975,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665584162
+updated_at: 1665665421
 template: default
 use_meta_keywords: false
 no_index_page: false
