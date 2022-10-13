@@ -251,6 +251,32 @@ replicator:
                     type: text
                     text: 'Lernskripte schreiben zu lassen, wirkt der Gefahr entgegen, sich von in Umlauf befindenden fehler- und lückenhaften, schlecht strukturierten Lernskripten in die Irre führen zu lassen und das Prüfungsziel zu gefährden. Speziell ausgebildete akademische Ghostwriter sind versierte Autoren von Lernskripten und legen mit ihren Beiträgen den Grundstein für die optimale Prüfungsvorbereitung. Sie sorgen beim Verfassen von Lernskripten zuverlässig für die Vollständigkeit und Korrektheit der Lerninhalte. Lernskripte von akademischen Ghostwritern schreiben zu lassen, hilft den Studierenden, das Wesentliche strukturiert, effizient gebündelt und zeitsparend zu lernen und sich in der sich anschließenden Prüfungssituation auf das Wesentliche zu konzentrieren. Die Wurzel des Prüfungserfolges liegt in der optimalen Vorbereitung.'
               -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -496,6 +522,50 @@ replicator:
                           - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
                           - 9944d809-005e-4651-bf9b-5555f0229245
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Einige unserer Blogartikel zum Thema '
+                  -
+                    type: text
+                    text: 'Lernskript erstellen lassen'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: blog_entries
+                    entries:
+                      - 22aac7aa-bf6b-4379-bbe7-a34e4cda84d7
+                      - 1b1de42f-a221-4332-baca-9523a67e48b4
+                      - 93e7d889-f11f-4a0e-8552-74dd5bce63f4
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: link
+                        attrs:
+                          href: /wiki
+                          target: null
+                          rel: null
+                    text: '< zurück zur Wiki Übersicht'
             show_as_card: false
         type: row
         enabled: true
@@ -508,7 +578,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665571310
+updated_at: 1665655333
 template: default
 meta_title: 'Lernskript schreiben lassen • GWriters'
 meta_description: 'Lernskript schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
