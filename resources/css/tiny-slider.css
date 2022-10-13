@@ -6,9 +6,13 @@
         position: relative;
     }
     #tns1-iw:after {
-        @apply bg-gradient-to-l from-white to-transparent;
+        /* @apply bg-gradient-to-l from-white to-transparent; */
+        --tw-gradient-from: var(--tiny-slider-cutoff-color, red);
+        --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to,hsla(0,0%,100%,0));
+        --tw-gradient-to: transparent;
+        background-image: linear-gradient(to left,var(--tw-gradient-stops));
         content: '';
-        width: 145px;
+        width: 200px;
         height: 100%;
         position: absolute;
         top: 0;
