@@ -125,7 +125,7 @@ page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665570639
+updated_at: 1665656485
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1241,12 +1241,22 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: Disclaimer
               -
                 type: paragraph
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
               -
                 type: heading
@@ -1259,7 +1269,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Einige unserer Blogartikel zum Studiengang Marketing'
               -
                 type: set
@@ -1283,7 +1293,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Nützliche Weblinks'
               -
                 type: paragraph
@@ -1294,7 +1304,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -1313,14 +1323,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -1339,14 +1349,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -1359,13 +1369,9 @@ replicator:
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'Definition Marketing - Wirtschaftslexikon Gabler'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
+              -
+                type: paragraph
+                content:
                   -
                     type: text
                     marks:
@@ -1374,7 +1380,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
