@@ -111,8 +111,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -125,7 +125,7 @@ page_title: 'Philosophie Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665508735
+updated_at: 1665665666
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -587,7 +587,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
@@ -617,7 +617,7 @@ replicator:
                         attrs:
                           href: 'https://de.wikipedia.org/wiki/Philosophie'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Allgemeine Informationen und Linksammlung zur Philosophie - Wikipedia'
                   -
                     type: hard_break
@@ -627,10 +627,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.unilu.ch/fileadmin/fakultaeten/ksf/institute/philsem/PDFs/KSF_Lektuereempfehlung_HS14_web.pdf'
+                          href: 'https://www.unilu.ch/studium/studienangebot/master/kultur-und-sozialwissenschaftliche-fakultaet/philosophie/#section=c20752'
                           target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Literaturliste zur Einführung in die Philosophie - Uni Luzern'
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Studium der Philosophie - Uni Luzern'
                   -
                     type: hard_break
                   -
@@ -641,7 +641,7 @@ replicator:
                         attrs:
                           href: 'https://de.wikipedia.org/wiki/Liste_der_Philosophiezeitschriften'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Liste von Philosophiezeitschriften - Wikipedia'
                   -
                     type: hard_break
@@ -653,10 +653,11 @@ replicator:
                         attrs:
                           href: 'http://www.ruhr-uni-bochum.de/philosophy/index.html.de'
                           target: _blank
-                          rel: 'noopener noreferrer'
+                          rel: 'noopener noreferrer nofollow'
                     text: 'Philosophie - Ruhr-Universität Bochum'
-                  -
-                    type: hard_break
+              -
+                type: paragraph
+                content:
                   -
                     type: text
                     marks:
@@ -679,7 +680,7 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-meta_title: 'GWriters • Philosophie - Ghostwriter, Lektoren & Coaches'
+meta_title: 'Philosophie Ghostwriter, Lektoren & Coaches • GWriters'
 meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Philosophie – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_title: 'GWriters • Philosophie - Ghostwriter, Lektoren & Coaches'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der Philosophie – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'

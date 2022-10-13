@@ -2673,45 +2673,29 @@ replicator:
           -
             bard:
               -
-                type: blockquote
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
-                    type: heading
-                    attrs:
-                      level: 3
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        text: Disclaimer
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: Disclaimer
+              -
+                type: paragraph
+                content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.'
               -
                 type: heading
                 attrs:
@@ -2719,6 +2703,11 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: 'Einige unserer Blogartikel zur Facharbeit & Mustervorlage für Facharbeit schreiben lassen'
               -
                 type: set
@@ -2730,12 +2719,6 @@ replicator:
                       - 5187b076-6402-4ce5-a509-9b507d9f773c
                       - 4148325d-d0d4-4055-9104-c4cb39f5a282
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 40
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -2746,7 +2729,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Nützliche Weblinks & Referenzen'
               -
                 type: paragraph
@@ -2757,7 +2740,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2771,14 +2754,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2792,14 +2775,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2818,7 +2801,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2826,25 +2809,19 @@ replicator:
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 40
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     border: false
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665503007
+updated_at: 1665584213
 template: default
 use_meta_keywords: false
 no_index_page: false

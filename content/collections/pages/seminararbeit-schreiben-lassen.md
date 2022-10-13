@@ -118,8 +118,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6606!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -2822,28 +2822,34 @@ replicator:
           -
             bard:
               -
-                type: blockquote
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
-                    type: heading
-                    attrs:
-                      level: 3
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        text: Disclaimer
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: Disclaimer
+              -
+                type: paragraph
+                content:
                   -
-                    type: paragraph
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
               -
                 type: heading
                 attrs:
@@ -2851,6 +2857,11 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: 'Einige unserer Blogartikel zum Thema Seminararbeit & Mustervorlage für Seminararbeit schreiben lassen'
               -
                 type: set
@@ -2862,12 +2873,6 @@ replicator:
                       - 3c662ff8-7e35-4ed6-9cae-348bc90902d1
                       - 5187b076-6402-4ce5-a509-9b507d9f773c
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 40
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -2878,7 +2883,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Nützliche Weblinks & Referenzen'
               -
                 type: paragraph
@@ -2889,28 +2894,28 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
-                          href: 'https://www.avl.uni-mainz.de/hinweise-zum-erstellen-einer-seminararbeit/'
+                          href: 'https://www.uni-regensburg.de/assets/wirtschaftswissenschaften/vwl-kindermann/resources/hinweise_seminararbeit.pdf'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
-                    text: 'Hinweise zum Erstellen einer Seminararbeit - Johannes Gutenberg Universität Mainz'
+                    text: 'Hinweise zum Erstellen einer Seminararbeit - Universität Regensburg'
                   -
                     type: hard_break
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2924,14 +2929,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2950,7 +2955,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2970,7 +2975,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665503093
+updated_at: 1665665421
 template: default
 use_meta_keywords: false
 no_index_page: false

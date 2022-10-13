@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6606!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -2507,6 +2507,31 @@ replicator:
                     type: text
                     text: 'Präsentationen von Inhalten sind in keinem Bereich des gesellschaftlichen Lebens wegzudenken. Ob in Schule, Studium, Beruf oder auch in der Freizeit, Ergebnisse werden in Form von Vorträgen zielgruppenorientiert transportiert. An der Qualität der Präsentation wird die Kompetenz des Referenten gemessen. Wer in Vorträgen authentisch auftritt, sich rhetorisch geschult zeigt und inhaltlich überzeugt, kann beruflichen Erfolg verzeichnen.'
               -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Einige unserer Blogartikel zum Thema '
+                  -
+                    type: text
+                    text: 'Präsentation erstellen lassen'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: blog_entries
+                    entries:
+                      - 8778439c-ea07-4542-9287-cb87e6074f6a
+                      - e67b3f8a-aa07-4834-a747-608fdf37f8be
+                      - 6bd7bc4f-12a8-43c9-8ba1-5911ca389cb7
+              -
                 type: paragraph
                 content:
                   -
@@ -2514,6 +2539,10 @@ replicator:
                     marks:
                       -
                         type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                       -
                         type: link
                         attrs:
@@ -2533,7 +2562,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665503025
+updated_at: 1665655173
 template: default
 meta_title: 'GWriters • professionell Präsentation erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'

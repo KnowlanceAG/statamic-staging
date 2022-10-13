@@ -143,8 +143,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -1197,7 +1197,7 @@ page_title: 'Berufsbegleitende Promotion im Überblick • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665504880
+updated_at: 1665578247
 meta_title: 'Berufsbegleitende Promotion im Überblick • GWriters'
 meta_description: 'Finden Sie bei uns alle Informationen über die berufsbegleitende Promotion - Alle Vor- und Nachteile von internen und externen Promotionsprogrammen!'
 use_meta_keywords: false

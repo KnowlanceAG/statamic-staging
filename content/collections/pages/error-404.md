@@ -1,9 +1,9 @@
 ---
 id: 37e5f95c-1bbb-4a1b-8000-07841c524a71
 blueprint: pages
-title: 'Seite wurde nicht gefunden. • GWriters.de'
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1627478429
+title: 'Seite wurde nicht gefunden'
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665657656
 replicator:
   -
     bard:
@@ -64,13 +64,13 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
-page_title: 'Seite wurde nicht gefunden. • GWriters.de'
+page_title: 'Seite wurde nicht gefunden • GWriters.de'
 template: errors/404
-meta_title: 'Seite wurde nicht gefunden. • GWriters.de'
-meta_description: 'Seite wurde nicht gefunden. • GWriters.de'
+meta_title: 'Seite wurde nicht gefunden • GWriters.de'
+meta_description: 'Seite wurde nicht gefunden • GWriters.de'
 og_title: 'Seite wurde nicht gefunden. • GWriters.de'
 og_description: 'Seite wurde nicht gefunden. • GWriters.de'
 og_image: GWriters-Logo.png
+published: true
+sitemap_active: true
 ---

@@ -3,7 +3,7 @@ id: a429a015-f680-4717-8b76-bf0d66ce02d4
 blueprint: pages
 title: 'Über Gwriters'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665503709
+updated_at: 1665568702
 teaser:
   -
     type: heading
@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:

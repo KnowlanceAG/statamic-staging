@@ -6,7 +6,7 @@ page_title: 'BWL Seminararbeit Beispiel - Wie schreibt ein akademischer Ghostwri
 parent: b2decf22-7419-401e-9a2d-3713194ce4d0
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1662063304
+updated_at: 1665572010
 meta_title: 'BWL Seminararbeit Beispiel - Wie schreibt ein Ghostwriter?'
 meta_description: 'Überzeugen Sie sich anhand dieses Seminararbeit Musters von unserer Expertise und nutzen Sie diese als Leitfaden. Lesen Sie hier mehr.'
 use_meta_keywords: false
@@ -38,8 +38,6 @@ replicator:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
             text: 'Seminararbeit Beispiel: Blockchain-Technologie'
-      -
-        type: paragraph
       -
         type: paragraph
         content:

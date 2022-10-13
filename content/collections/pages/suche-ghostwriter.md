@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -340,7 +340,7 @@ replicator:
       -
         type: heading
         attrs:
-          level: 3
+          level: 2
         content:
           -
             type: text
@@ -360,54 +360,14 @@ replicator:
             type: text
             text: 'Blogartikel zum Thema Ghostwriter gesucht & Ghostwriter bei GWriters'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/bewerbung-ghostwriter-gwriters
-                  target: null
-                  rel: null
-            text: 'Video: Was Du bei der Bewerbung als Ghostwriter bei GWriters beachten solltest'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriter-job
-                  target: null
-                  rel: null
-            text: 'Arbeiten als akademischer Ghostwriter'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/erfahrungsbericht-ghostwriter-gwriters
-                  target: null
-                  rel: null
-            text: 'Erfahrungsbericht zur Arbeit als Ghostwriter bei GWriters'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/suche-ghostwriter
-                  target: null
-                  rel: null
-            text: 'Tipps für die Ghostwriter-Suche'
+        type: set
+        attrs:
+          values:
+            type: blog_entries
+            entries:
+              - 84fb02d0-d713-4340-8bb6-b1cb293b3a91
+              - 31c2d3bf-b5f9-4b8f-8ec8-4c80cc55fc93
+              - 4148325d-d0d4-4055-9104-c4cb39f5a282
       -
         type: paragraph
         content:
@@ -428,7 +388,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665504132
+updated_at: 1665579054
 meta_title: 'GWriters • professioneller akademischer Ghostwriter gesucht?'
 meta_description: 'Sie benötigen einen Ghostwriter? Wenn Ghostwriter gesucht werden, ist unsere Ghostwriting Agentur der beste Partner für seriösen Service!'
 use_meta_keywords: false

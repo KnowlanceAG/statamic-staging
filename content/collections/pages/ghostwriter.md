@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -3341,39 +3341,19 @@ replicator:
                     type: spacer
                     padding-y: 40
               -
-                type: blockquote
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
-                    type: heading
-                    attrs:
-                      level: 2
-                    content:
-                      -
-                        type: text
-                        text: Disclaimer
+                    type: text
+                    text: Disclaimer
+              -
+                type: paragraph
+                content:
                   -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: true
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: false
-        grid:
-          -
-            bard:
+                    type: text
+                    text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
               -
                 type: heading
                 attrs:
@@ -3396,12 +3376,6 @@ replicator:
                       - 4148325d-d0d4-4055-9104-c4cb39f5a282
                       - 286294bc-3927-4a37-b1e0-defe39884464
                       - a2cde5ef-6e62-42fc-a5dc-ea0e899eb3da
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 40
               -
                 type: paragraph
                 content:
@@ -3427,14 +3401,13 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
     remove_spacing: false
-    is_full: true
-    bg_toggle: false
+    is_full: false
     border: false
     type: add_section
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665504078
+updated_at: 1665571920
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false

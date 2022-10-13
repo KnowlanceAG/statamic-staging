@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -390,7 +390,7 @@ replicator:
       -
         type: heading
         attrs:
-          level: 3
+          level: 2
         content:
           -
             type: text
@@ -410,54 +410,14 @@ replicator:
             type: text
             text: 'Blogartikel zum Thema Ghostwriting Service'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/kosten-ghostwriter
-                  target: null
-                  rel: null
-            text: 'Wie berechnen sich akademische Ghostwriter Kosten?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/akademisches-ghostwriting-gwriters
-                  target: null
-                  rel: null
-            text: 'Akademisches Ghostwriting – Wie läuft es bei GWriters ab?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /ghostwriting
-                  target: null
-                  rel: null
-            text: 'Meine ehrlichen Ratschläge an Dich als Ghostwriter-Kunde'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/ghostwriting-informationen
-                  target: null
-                  rel: null
-            text: 'Die große Infosammlung zum Ghostwriting'
+        type: set
+        attrs:
+          values:
+            type: blog_entries
+            entries:
+              - 633553be-fc45-4714-a1cb-5d6b626a6496
+              - 3a9cfcd5-ee1b-419f-b3d0-f156009b70d4
+              - ca28b460-b1e0-4cb5-b565-8667145db010
       -
         type: paragraph
         content:
@@ -478,7 +438,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665504174
+updated_at: 1665579132
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false

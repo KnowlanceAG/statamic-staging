@@ -149,8 +149,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -1022,7 +1022,7 @@ page_title: 'Externe Promotion: den geeigneten Doktorvater finden • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665504945
+updated_at: 1665578290
 meta_title: 'Externe Promotion: den geeigneten Doktorvater finden • GWriters'
 meta_description: 'Wir erklären, wie Sie den geeigneten Doktorvater für Ihre externe, nebenberufliche Promotion finden. Profitieren Sie von der unserer Promotionsberatung!'
 use_meta_keywords: false

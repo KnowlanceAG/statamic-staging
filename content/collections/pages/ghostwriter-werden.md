@@ -24,14 +24,6 @@ replicator:
                   hex: '#ff6606'
             text: 'Ghostwriter werden'
       -
-        type: set
-        attrs:
-          values:
-            type: spacer
-            padding-y: '16'
-      -
-        type: paragraph
-      -
         type: paragraph
         content:
           -
@@ -389,8 +381,8 @@ replicator:
     type: editor
     enabled: true
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1658914646
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665572092
 meta_title: 'GWriters • Ghostwriter werden!'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Werden Sie Ghostwriter!'
 use_meta_keywords: false
@@ -399,10 +391,9 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'GWriters • Ghostwriter werden!'
 og_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie beste Verdienstmöglichkeiten & volle Freiheit - Werden Sie Ghostwriter!'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---

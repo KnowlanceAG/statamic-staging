@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6606!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -925,14 +925,11 @@ replicator:
                     type: text
                     text: Disclaimer
               -
-                type: blockquote
+                type: paragraph
                 content:
                   -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+                    type: text
+                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
               -
                 type: heading
                 attrs:
@@ -942,42 +939,14 @@ replicator:
                     type: text
                     text: 'Einige unserer Artikel zur Magisterarbeit & Mustervorlage für Magisterarbeit schreiben lassen'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/methodisches-vorgehen-masterarbeit
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Methodisches Vorgehen bei einer Masterarbeit – Beispiele & Tipps'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/abschlussarbeit-thema
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: '4 Schritte zum perfekten Thema Deiner Abschlussarbeit'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/ghostwriter-agentur
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Video: Worauf Du bei einer Ghostwriter Agentur achten solltest'
+                type: set
+                attrs:
+                  values:
+                    type: blog_entries
+                    entries:
+                      - 14a0cd0f-a99b-4b6c-8f33-bda6ea547856
+                      - 0408641d-3a59-44ce-a059-1b75afd3ecc4
+                      - 636b91b0-241e-4fbf-a315-2267fa607bd3
               -
                 type: heading
                 attrs:
@@ -1051,7 +1020,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665503150
+updated_at: 1665584019
 meta_title: 'Magisterarbeit schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Magisterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Plagiate.'
 use_meta_keywords: false

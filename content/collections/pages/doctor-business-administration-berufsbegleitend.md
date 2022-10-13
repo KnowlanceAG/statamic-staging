@@ -149,8 +149,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -615,7 +615,7 @@ page_title: 'Promotionsberatung zum berufsbegleitenden DBA • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665505017
+updated_at: 1665578724
 meta_title: 'Promotionsberatung zum berufsbegleitenden DBA • GWriters'
 meta_description: 'Bei GWriters.de erhalten Sie eine seriöse Promotionsberatung für Ihren berufsbegleitenden DBA - Profitieren Sie jetzt von unserem Expertenwissen!'
 use_meta_keywords: false

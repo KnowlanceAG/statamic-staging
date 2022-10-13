@@ -3,7 +3,7 @@ id: a016335c-333e-432d-838d-460350d21052
 blueprint: pages
 title: 'Das GWriters Stipendium'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656330200
+updated_at: 1665571682
 teaser:
   -
     type: heading
@@ -70,8 +70,6 @@ teaser:
         text_ausrichtung: text-center
         column_count: false
   -
-    type: paragraph
-  -
     type: set
     attrs:
       values:
@@ -89,7 +87,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Für das Studienjahr 2022 (Sommersemester 2022 und Wintersemester 2022/2023) vergibt GWriters erneut ein Stipendium für Studierende in Deutschland und in der Schweiz. Dieses private Stipendium hat zum Ziel, besonders begabte und engagierte Studierende bei dem Erreichen ihrer Ziele finanziell zu unterstützen, denn wir vertreten die Philosophie, dass jeder, unabhängig von seinen privaten, finanziellen oder gesellschaftlichen Hintergründen, die Chance auf Bildung verdient.'
+            text: 'Für das Studienjahr 2023 (Sommersemester 2023 und Wintersemester 2023/2024) vergibt GWriters erneut ein Stipendium für Studierende in Deutschland und in der Schweiz. Dieses private Stipendium hat zum Ziel, besonders begabte und engagierte Studierende bei dem Erreichen ihrer Ziele finanziell zu unterstützen, denn wir vertreten die Philosophie, dass jeder, unabhängig von seinen privaten, finanziellen oder gesellschaftlichen Hintergründen, die Chance auf Bildung verdient.'
       -
         type: paragraph
         content:
@@ -323,11 +321,13 @@ replicator:
             marks:
               -
                 type: bold
-            text: 31.12.2021
+            text: 31.12.2022
       -
         type: paragraph
       -
-        type: paragraph
+        type: heading
+        attrs:
+          level: 2
         content:
           -
             type: text
@@ -359,10 +359,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'mailto:info@gwriters.de'
+                  href: 'mailto:##email##'
                   target: null
                   rel: null
-            text: info@gwriters.de
+            text: '##email##'
           -
             type: text
             text: ' '
@@ -381,10 +381,10 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: 'tel:+49%20(0)%2030%20809%20332%20339'
-                  target: _blank
-                  rel: 'nofollow noopener noreferrer'
-            text: '+49 (0) 30 809 332 339'
+                  href: 'tel:##phone##'
+                  target: null
+                  rel: null
+            text: '##phone##'
     type: editor
     enabled: true
     show_as_card: false
@@ -396,10 +396,9 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'Das GWriters Stipendium • GWriters.de'
 og_description: 'Ihr Talent verdient Förderung! Unsere Ghostwriting Agentur unterstützt begabte und innovativ denkende Studierende mit unserem neuen GWriters Stipendium.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---

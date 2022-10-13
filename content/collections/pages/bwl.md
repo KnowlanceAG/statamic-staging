@@ -118,8 +118,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -132,7 +132,7 @@ page_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665511779
+updated_at: 1665656363
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1090,17 +1090,29 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
-                    text: 'Einige unserer Blogartikel zum Thema Hausarbeit'
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Disclaimer
               -
-                type: set
-                attrs:
-                  values:
-                    type: blog_entries
-                    entries:
-                      - be1aacde-86af-4b82-9a8b-10b05c6743b5
-                      - d61b6932-74b9-4ece-9da6-a54a1265c9a3
-                      - 0408641d-3a59-44ce-a059-1b75afd3ecc4
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
               -
                 type: heading
                 attrs:
@@ -1112,7 +1124,29 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
+                    text: 'Einige unserer Blogartikel zum Thema BWL Ghostwriter'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: blog_entries
+                    entries:
+                      - be1aacde-86af-4b82-9a8b-10b05c6743b5
+                      - e74abe89-2a92-4e81-bb8f-e357cc66776a
+                      - e3607494-f5c6-43c1-833e-69ab509b9846
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: 'Nützliche Weblinks & Referenzen'
               -
                 type: paragraph
@@ -1123,7 +1157,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -1142,14 +1176,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -1168,14 +1202,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -1194,14 +1228,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -1225,7 +1259,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -1233,8 +1267,6 @@ replicator:
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true

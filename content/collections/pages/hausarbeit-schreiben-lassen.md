@@ -1651,36 +1651,34 @@ replicator:
           -
             bard:
               -
-                type: blockquote
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
-                    type: heading
-                    attrs:
-                      level: 3
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: text
-                        text: Disclaimer
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: textColor
-                            attrs:
-                              color: '#000!important'
-                              hex: '#000'
-                        text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.'
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: Disclaimer
               -
                 type: paragraph
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.'
               -
                 type: heading
                 attrs:
@@ -1692,8 +1690,8 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
-                    text: 'Einige unserer Blogartikel zum Thema Hausarbeit'
+                          align: left
+                    text: 'Einige unserer Blogartikel zum Thema Hausarbeit schreiben lassen'
               -
                 type: set
                 attrs:
@@ -1704,12 +1702,6 @@ replicator:
                       - d61b6932-74b9-4ece-9da6-a54a1265c9a3
                       - 3f184e1e-936d-431a-811d-566210ffea43
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 40
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -1720,7 +1712,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Weitere Links & Referenzen'
               -
                 type: paragraph
@@ -1731,7 +1723,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -1745,14 +1737,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -1766,14 +1758,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -1787,14 +1779,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -1813,7 +1805,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: link
                         attrs:
@@ -1833,7 +1825,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665502664
+updated_at: 1665584193
 template: default
 use_meta_keywords: false
 no_index_page: false

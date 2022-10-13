@@ -2,27 +2,18 @@
 id: 2aba98e2-789b-4fe4-b9ab-f864ae2ccac2
 blueprint: pages
 title: Wiki
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1656669923
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665571710
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
 page_title: 'Wiki • GWriters - Informationen zum Thema Ghostwriting'
 replicator:
   -
     bard:
-      -
-        type: paragraph
-      -
-        type: set
-        attrs:
-          values:
-            type: spacer
-            padding-y: 6
       -
         type: heading
         attrs:
@@ -43,8 +34,6 @@ replicator:
             text: Wiki
       -
         type: paragraph
-      -
-        type: paragraph
         content:
           -
             type: text
@@ -59,8 +48,6 @@ replicator:
                   color: '#000!important'
                   hex: '#000'
             text: 'GWriters bietet als Plattform für akademische Dienstleistungen auch ein Wiki als Nachschlagewerk zu allen relevanten Begriffen in diesem Bereich. So können Sie wichtige Begriffe bequem direkt auf unserer Seite nachlesen.'
-      -
-        type: paragraph
       -
         type: paragraph
         content:
@@ -962,4 +949,5 @@ og_title: 'Wiki • GWriters - Informationen zum Thema Ghostwriting'
 og_description: 'Ein Wiki über das Thema Ghostwriting, Ghostwriter Agenturen und der Erstellung von akademischen Texten. Erfahren Sie hier meh'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---

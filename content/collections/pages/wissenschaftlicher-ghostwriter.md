@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -318,7 +318,7 @@ replicator:
       -
         type: heading
         attrs:
-          level: 3
+          level: 2
         content:
           -
             type: text
@@ -338,42 +338,14 @@ replicator:
             type: text
             text: 'Blogartikel über wissenschaftliche Ghostwriter'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/erfahrungsbericht-ghostwriter-gwriters
-                  target: null
-                  rel: null
-            text: 'Erfahrungsbericht zur Arbeit als Ghostwriter bei GWriters'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/ghostwriter-auftrag-tipps
-                  target: null
-                  rel: null
-            text: 'Video: Tipps für einen erfolgreichen Ghostwriter-Auftrag'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/ghostwriter-probleme
-                  target: null
-                  rel: null
-            text: 'Typische Probleme mit akademischen Ghostwritern & wie Du sie vermeiden kannst'
+        type: set
+        attrs:
+          values:
+            type: blog_entries
+            entries:
+              - 31c2d3bf-b5f9-4b8f-8ec8-4c80cc55fc93
+              - 286294bc-3927-4a37-b1e0-defe39884464
+              - 24ba331e-8f49-4a91-a310-dd85b6281939
       -
         type: paragraph
         content:
@@ -394,7 +366,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665504202
+updated_at: 1665579332
 page_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'
 template: with-side-bar
 meta_title: 'Was tut ein wissenschaftlicher Ghostwriter bei GWriters'

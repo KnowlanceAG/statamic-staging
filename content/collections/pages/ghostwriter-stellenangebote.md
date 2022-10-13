@@ -1,5 +1,6 @@
 ---
 id: bfe3b004-159d-4f4d-bd0d-309563de9806
+blueprint: pages
 title: 'Ghostwriter Stellenangebote'
 replicator:
   -
@@ -22,14 +23,6 @@ replicator:
                   color: orange-500
                   hex: '#ff6606'
             text: 'Ghostwriter Stellenangebote'
-      -
-        type: set
-        attrs:
-          values:
-            type: spacer
-            padding-y: '16'
-      -
-        type: paragraph
       -
         type: paragraph
         content:
@@ -977,8 +970,8 @@ replicator:
     type: editor
     enabled: true
 template: without-teaser-with-sidebar
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1623333526
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665572115
 page_title: 'GWriters • Ghostwriter Stellenangebote'
 meta_title: 'GWriters • Ghostwriter Stellenangebote'
 meta_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie bester Verdienst & volle Freiheit - Ghostwriter Stellenangebote bei GWriters!'
@@ -988,9 +981,9 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'GWriters • Ghostwriter Stellenangebote'
 og_description: 'Als Ghostwriter, Lektor oder Bearbeiter von akademischen Arbeiten erwarten Sie bester Verdienst & volle Freiheit - Ghostwriter Stellenangebote bei GWriters!'
 og_image: GWriters-Logo.png
+published: true
+sitemap_active: true
 ---

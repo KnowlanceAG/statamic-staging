@@ -118,8 +118,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -132,7 +132,7 @@ page_title: 'Erziehungswissenschaften Ghostwriter, Lektoren & Coaches • GWrite
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665509584
+updated_at: 1665655716
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1255,7 +1255,6 @@ replicator:
                     dateien:
                       - seiten/fachrichtungen/Studienplan-von-Erziehungswissenschaften.png
                     img_size: w-full
-                    float: mx-auto
               -
                 type: paragraph
                 content:
@@ -3067,7 +3066,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Weiterführende Quellen:'
+                    text: 'Weiterführende Quellen'
               -
                 type: paragraph
                 content:
@@ -3172,11 +3171,6 @@ replicator:
                           target: null
                           rel: null
                     text: 'https://www.gew.de/index.php?eID=dumpFile&t=f&f=69256&token=a61fcc04e8c7a56c78393bdfc02ce951cc61559d&sdownload=&n=GEW-Entgelttabelle-TVoeD-Kommunen-SuE-Web.pdf'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: hard_break
                   -
                     type: text
                     marks:

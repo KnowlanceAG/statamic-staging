@@ -100,13 +100,13 @@ teaser:
           -
             type: link
             attrs:
-              href: 'tel:+49 (0) 30 809 332 339'
+              href: 'tel:##phone##'
               target: null
               rel: null
-        text: '+49 (0) 30 809 332 339'
+        text: '##phone##'
 teaser_bg: seiten/home/gwrites-headervisual-1.jpg
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1665153027
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665567150
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false

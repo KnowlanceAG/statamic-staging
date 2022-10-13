@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#ff6606!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -1219,42 +1219,14 @@ replicator:
                     type: text
                     text: 'Einige unserer Blogartikel zur Examensarbeit & Mustervorlage für Examensarbeit schreiben lassen'
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: _blank
-                          rel: null
-                    text: 'Video: 4 Alternativen zum akademischen Ghostwriting'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/qualitative-quantitative-methoden
-                          target: _blank
-                          rel: 'noopener noreferrer'
-                    text: 'Video: Qualitative & quantitative Methoden beim Schreiben wissenschaftlicher Arbeiten • GWriters.de'
-                  -
-                    type: hard_break
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /so-funktioniert-es
-                          target: _blank
-                          rel: null
-                    text: 'Video: Wie entsteht ein Ghostwriter-Angebot bei GWriters?'
+                type: set
+                attrs:
+                  values:
+                    type: blog_entries
+                    entries:
+                      - 24ba331e-8f49-4a91-a310-dd85b6281939
+                      - 61c8847a-99e4-4910-83bf-77128046e025
+                      - 0408641d-3a59-44ce-a059-1b75afd3ecc4
               -
                 type: heading
                 attrs:
@@ -1327,7 +1299,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665503160
+updated_at: 1665584027
 meta_title: 'Examensarbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Examensarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Examensarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false

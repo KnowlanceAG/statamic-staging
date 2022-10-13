@@ -41,7 +41,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: 10
   -
     type: set
     attrs:
@@ -69,7 +69,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: 15
   -
     type: set
     attrs:
@@ -80,7 +80,48 @@ teaser:
         color: '#FF6606'
         spacing_top: false
   -
+    type: set
+    attrs:
+      values:
+        type: spacer
+        padding-y: 20
+  -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: textAlign
+            attrs:
+              align: center
+        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+  -
+    type: heading
+    attrs:
+      level: 2
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: textAlign
+            attrs:
+              align: center
+          -
+            type: textColor
+            attrs:
+              color: orange-500
+              hex: '#ff6606'
+          -
+            type: link
+            attrs:
+              href: 'tel:##phone##'
+              target: null
+              rel: null
+        text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -194,54 +235,14 @@ replicator:
             type: text
             text: 'Interessante Blogartikel zum Guttenberg Fall'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/ghostwriting-plagiate
-                  target: null
-                  rel: null
-            text: 'Video: Ghostwriting & Plagiate – Was ist ihr Unterschied & warum ist er so wichtig?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /leistungen/plagiatspruefung
-                  target: null
-                  rel: null
-            text: 'Woher weiß ich, dass ich bei GWriters kein Plagiat erhalte?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /promotionsberatung
-                  target: null
-                  rel: null
-            text: 'Promotionsberatung & Ghostwriting – Was sind die Unterschiede?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/plagiat
-                  target: null
-                  rel: null
-            text: 'Die große Infosammlung zu Plagiaten'
+        type: set
+        attrs:
+          values:
+            type: blog_entries
+            entries:
+              - 6711bbb6-53ac-47dd-a424-b9b451d428e0
+              - 27aa03db-c5fe-4cc4-b6ea-ef050232bc4d
+              - 30956aca-67ef-4908-83c3-b0ca5e8cea26
       -
         type: paragraph
         content:
@@ -262,7 +263,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656330578
+updated_at: 1665579247
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -270,8 +271,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'Der Guttenberg Ghostwriter - Alles was Sie wissen müssen • GWriters'
 meta_title: 'Der Guttenberg Ghostwriter - Alles was Sie wissen müssen • GWriters'
 meta_description: 'Erfahren Sie alles über den Guttenberg Ghostwriter Fall aus der Perspektive unserer Ghostwriting Agentur.'
@@ -279,4 +278,5 @@ og_title: 'Der Guttenberg Ghostwriter - Alles was Sie wissen müssen • GWriter
 og_description: 'Erfahren Sie alles über den Guttenberg Ghostwriter Fall aus der Perspektive unserer Ghostwriting Agentur.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---

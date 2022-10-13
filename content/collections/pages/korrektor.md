@@ -113,8 +113,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: '#000!important'
-              hex: '#000'
+              color: orange-500
+              hex: '#ff6606'
           -
             type: link
             attrs:
@@ -250,42 +250,14 @@ replicator:
             type: text
             text: 'Blogartikel zum Korrektor und Tipps zur Korrektur wissenschaftlicher Arbeiten'
       -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/ghostwriting-lektorat-korrektorat
-                  target: null
-                  rel: null
-            text: 'Video: Ghostwriting, Lektorat, Korrektorat – Was ist was?'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/ghostwriter-preise
-                  target: null
-                  rel: null
-            text: 'Video: Ghostwriter-Preise bei GWriters'
-          -
-            type: hard_break
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/thesis-vermeidbare-fehler
-                  target: null
-                  rel: null
-            text: '7 vermeidbare Fehler, die Dich den Erfolg bei Deiner Thesis kosten'
+        type: set
+        attrs:
+          values:
+            type: blog_entries
+            entries:
+              - bb669ea6-4276-4a3c-88d5-eb6a88bddff3
+              - fc6e7de5-8b4e-42c8-9a10-95208fbce892
+              - b0fee135-df37-4492-83ea-6f3799719792
       -
         type: paragraph
         content:
@@ -306,7 +278,7 @@ replicator:
     enabled: true
 parent: e36a16aa-f4fc-4352-8466-36266c196de4
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665505194
+updated_at: 1665583151
 page_title: 'Ihr akademischer Korrektor von GWriters - diskret und qualitätsgeprüft'
 meta_title: 'Ihr akademischer Korrektor von GWriters - diskret und qualitätsgeprüft'
 meta_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'
