@@ -132,7 +132,7 @@ page_title: 'Fachrichtungen • GWriters.de'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665569321
+updated_at: 1665655490
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -857,6 +857,40 @@ replicator:
                   -
                     type: text
                     text: 'Unsere Ghostwriter im Bereich Medizin sind selbst meist Ärzte und verfügen über hervorragende Qualifikationen in ihrem Fachbereich. Wir können für Sie Ergebnisse erheben, auswerten, interpretieren und in den aktuellen Forschungskontext stellen. Gerade bei diesem Vierklang findet sich der Mehrwert eines akademischen Ghostwriters im Fachbereich Medizin. Denn nur durch die Verbindung einer umfassenden akademischen Ausbildung mit einer breiten praktischen Erfahrung in der Anwendung der Kenntnisse im Berufsalltag ist es möglich, hervorragende Ergebnisse im Fachbereich der Medizin zu leisten. Hier können Ihnen unsere akademischen Ghostwriter von GWriters wertvolle Unterstützungen leisten. Dies gilt sowohl für die Erstellung von Mustervorlagen als auch für einen Coachingprozess z.B. bei der Literaturrecherche, der Validierung von Forschungsergebnissen oder der Präsentation der Ergebnisse vor einem Promotions-Gremium.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Disclaimer
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
             show_as_card: false
         type: row
         enabled: true
