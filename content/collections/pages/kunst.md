@@ -132,7 +132,7 @@ page_title: 'Kunst Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665569980
+updated_at: 1665655685
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2059,6 +2059,26 @@ replicator:
                 content:
                   -
                     type: text
+                    text: Disclaimer
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
                     marks:
                       -
                         type: textAlign
@@ -2069,7 +2089,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Weiterführende Quellen:'
+                    text: 'Weiterführende Quellen'
               -
                 type: paragraph
                 content:
@@ -2085,7 +2105,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Beliebteste Studiengänge, Studycheck, 2021, URL:\_"
+                    text: 'Beliebteste Studiengänge, Studycheck, 2021, URL: '
                   -
                     type: text
                     marks:
@@ -2106,24 +2126,8 @@ replicator:
                           rel: null
                     text: 'https://www.studycheck.de/studium/bildende-kunst'
               -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: Disclaimer
-              -
                 type: paragraph
                 content:
-                  -
-                    type: text
-                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-              -
-                type: paragraph
-                content:
-                  -
-                    type: hard_break
                   -
                     type: text
                     marks:
