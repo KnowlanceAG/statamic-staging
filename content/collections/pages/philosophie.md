@@ -125,7 +125,7 @@ page_title: 'Philosophie Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665665455
+updated_at: 1665665666
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -627,10 +627,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.unilu.ch/fileadmin/fakultaeten/ksf/institute/philsem/PDFs/KSF_Lektuereempfehlung_HS14_web.pdf'
+                          href: 'https://www.unilu.ch/studium/studienangebot/master/kultur-und-sozialwissenschaftliche-fakultaet/philosophie/#section=c20752'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
-                    text: 'Literaturliste zur Einführung in die Philosophie - Uni Luzern'
+                    text: 'Studium der Philosophie - Uni Luzern'
                   -
                     type: hard_break
                   -
@@ -655,8 +655,9 @@ replicator:
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'Philosophie - Ruhr-Universität Bochum'
-                  -
-                    type: hard_break
+              -
+                type: paragraph
+                content:
                   -
                     type: text
                     marks:
