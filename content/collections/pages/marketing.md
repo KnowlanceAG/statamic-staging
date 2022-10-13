@@ -111,8 +111,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: '#000!important'
+              hex: '#000'
           -
             type: link
             attrs:
@@ -124,8 +124,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665656485
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1665666665
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1119,11 +1119,24 @@ replicator:
               -
                 type: set
                 attrs:
+                  enabled: false
+                  values:
+                    type: experten_slider
+                    experts:
+                      - bdab7ac8-0923-4d8c-b848-caa250aa5e62
+                      - 8237be5e-4438-4b5b-94e6-d80f2f590ad5
+                      - ece9c0d8-5e69-4361-a79d-acbdb0675182
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
                   values:
                     type: experts_list
                     experts:
                       - bdab7ac8-0923-4d8c-b848-caa250aa5e62
                       - ece9c0d8-5e69-4361-a79d-acbdb0675182
+                      - 8237be5e-4438-4b5b-94e6-d80f2f590ad5
             show_as_card: false
         type: row
         enabled: true
@@ -1241,22 +1254,12 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
                     text: Disclaimer
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
                     text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
               -
                 type: heading
@@ -1269,7 +1272,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: left
+                          align: center
                     text: 'Einige unserer Blogartikel zum Studiengang Marketing'
               -
                 type: set
@@ -1293,7 +1296,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: left
+                          align: center
                     text: 'Nützliche Weblinks'
               -
                 type: paragraph
@@ -1304,7 +1307,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: left
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1323,14 +1326,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: left
+                          align: center
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: left
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1349,14 +1352,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: left
+                          align: center
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: left
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -1369,9 +1372,13 @@ replicator:
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'Definition Marketing - Wirtschaftslexikon Gabler'
-              -
-                type: paragraph
-                content:
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                   -
                     type: text
                     marks:
@@ -1380,7 +1387,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: left
+                          align: center
                       -
                         type: textColor
                         attrs:
