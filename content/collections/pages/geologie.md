@@ -132,7 +132,7 @@ page_title: 'Geologie Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665570276
+updated_at: 1665656100
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -713,7 +713,31 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Weblinks:'
+                    text: Disclaimer
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Nützliche Weblinks'
               -
                 type: paragraph
                 content:
@@ -736,13 +760,9 @@ replicator:
                           target: null
                           rel: null
                     text: 'https://www.agw.kit.edu/'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
+              -
+                type: paragraph
+                content:
                   -
                     type: text
                     marks:
@@ -762,24 +782,6 @@ replicator:
                           target: null
                           rel: null
                     text: 'https://www.academia.edu/219426/Geologie_und_Literatur_-_Aufsatz_aus_Recherche'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Referenzen:'
               -
                 type: paragraph
                 content:
@@ -802,13 +804,9 @@ replicator:
                           target: null
                           rel: null
                     text: 'https://geo.uni-greifswald.de/'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
+              -
+                type: paragraph
+                content:
                   -
                     type: text
                     marks:
