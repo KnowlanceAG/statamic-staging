@@ -350,7 +350,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ein akademischer '
+                    text: 'Als seriöse Ghostwriting Agentur vermitteln wir Ihnen hochqualifizierte akademische Ghostwriter. Unsere akademischen '
                   -
                     type: text
                     marks:
@@ -363,22 +363,22 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: ' ist jemand, der Akademikern beim Verfassen so einer wissenschaftlichen Arbeit hilft, ihre Forschungsergebnisse textlich auswertet oder eine ganze '
+                    text: ' unterstützen Akademiker beim Verfassen wissenschaftlicher Arbeiten. Außerdem helfen wir Ihnen, Ihre Forschungsergebnisse textlich auszuwerten oder erstellen eine ganze '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Mustervorlage für einen wissenschaftlichen Text '
+                    text: 'Mustervorlage für Ihren wissenschaftlichen Text'
                   -
                     type: text
-                    text: 'für diese erstellt. Die Gründe hierfür sind mannigfaltig.'
+                    text: .
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ein wichtiger Grund ist der '
+                    text: 'Ein wichtiger Grund für die Beauftragung eines Ghostwriters ist der '
                   -
                     type: text
                     marks:
@@ -2686,7 +2686,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665579713
+updated_at: 1666103846
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
