@@ -3407,7 +3407,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665571920
+updated_at: 1666106053
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -3417,9 +3417,9 @@ override_twitter_settings: false
 template: default
 page_title: 'Ghostwriter von GWriters • Wir verfassen Texte für Sie 📃✍🏼'
 meta_title: 'Ghostwriter von GWriters • Wir verfassen Texte für Sie 📃✍🏼'
-meta_description: 'Ghostwriter (dt. Geisterschreiber) verfassen akademische Arbeiten & Texte nach Ihren individuelle Vorgaben - Seriöses und diskretes Ghostwriting 🎓'
+meta_description: 'Ghostwriter (dt. Geisterschreiber) verfassen akademische Arbeiten & Texte im Auftrag unserer Kunden - Seriöses und diskretes Ghostwriting 🎓'
 og_title: 'Ghostwriter von GWriters • Wir verfassen Texte für Sie 📃✍🏼'
-og_description: 'Ghostwriter verfassen akademische Arbeiten & Texte im Kundenauftrag - Seriöses und diskretes Ghostwriting von akademischen Experten 🎓'
+og_description: 'Ghostwriter (dt. Geisterschreiber) verfassen akademische Arbeiten & Texte im Auftrag unserer Kunden - Seriöses und diskretes Ghostwriting 🎓'
 og_image: GWriters-Logo.png
 sitemap_active: true
 schema_objects: |-
