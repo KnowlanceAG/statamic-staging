@@ -1,11 +1,10 @@
 ---
 id: ff5a8835-3e93-4d7c-9aa9-5ce0b70c47cc
 blueprint: team
-title: 'Illya Goriach'
+title: 'Illya Gorlach'
 position: Ghostwriter
 photo:
   - portrait_gw-2.png
-published: true
 detail_position: Ghostwriter
 bard:
   -
@@ -13,7 +12,7 @@ bard:
     content:
       -
         type: text
-        text: 'Illya Goriach ist im Fachbereich Controlling sowohl in der Forschung als auch der Lehre tätig. Im Rahmen seiner akademischen Ausbildung, hat Illya Goriach sich insbesondere auf die Fachbereiche Investition und '
+        text: 'Illya Gorlach ist im Fachbereich Controlling sowohl in der Forschung als auch der Lehre tätig. Im Rahmen seiner akademischen Ausbildung, hat Illya Gorlach sich insbesondere auf die Fachbereiche Investition und '
       -
         type: text
         marks:
@@ -39,7 +38,7 @@ bard:
         text: Marketing
       -
         type: text
-        text: ', Innovationsmanagement, Technologiemanagement und Social Media fokussiert. Als Ghostwriter bei GWriters ist er in der Lage, seine Erfahrung und Fähigkeiten täglich einzusetzen und Andere beim Erreichen ihrer Ziele zu unterstützen. Als Ghostwriter legt Illya Goriach einen hohen Wert auf einen professionellen Umgang mit Kunden und deren Zufriedenheit. Darüber hinaus spricht  er fünf Sprachen und verfügt über die Fähigkeit, sich schnell und gründlich in neue Themen einzuarbeiten.'
+        text: ', Innovationsmanagement, Technologiemanagement und Social Media fokussiert. Als Ghostwriter bei GWriters ist er in der Lage, seine Erfahrung und Fähigkeiten täglich einzusetzen und Andere beim Erreichen ihrer Ziele zu unterstützen. Als Ghostwriter legt Illya Gorlach einen hohen Wert auf einen professionellen Umgang mit Kunden und deren Zufriedenheit. Darüber hinaus spricht  er fünf Sprachen und verfügt über die Fähigkeit, sich schnell und gründlich in neue Themen einzuarbeiten.'
 show_as_card: false
 use_meta_keywords: false
 no_index_page: false
@@ -48,5 +47,6 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665150892
+updated_at: 1666185494
+published: true
 ---
