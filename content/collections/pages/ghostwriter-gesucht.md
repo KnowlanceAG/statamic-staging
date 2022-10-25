@@ -847,9 +847,9 @@ replicator:
 page_title: 'Akademische Ghostwriter gesucht! • GWriters'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665572490
+updated_at: 1666105832
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
-meta_description: 'Ghostwriter gesucht? Die Nachfrage nach Ghostwriter Jobs steigt! Erfahrene Ghostwriter aus allen Fachbereichen ✔️ 18.000 zufriedene Kunden seit 2012 ✔️'
+meta_description: 'Akademische Ghostwriter gesucht? Die Nachfrage nach Ghostwriter Jobs steigt! Experten in allen Fachbereichen ✔️ 18.000 zufriedene Kunden seit 2012 ✔️'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -857,7 +857,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 og_title: 'GWriters • Akademische Ghostwriter gesucht!'
-og_description: 'Ghostwriter gesucht? 🔍 Die Nachfrage nach Ghostwriter Jobs steigt! Über 3.000 akademische Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012 ✔️'
+og_description: 'Akademische Ghostwriter gesucht? Die Nachfrage nach Ghostwriter Jobs steigt! Experten in allen Fachbereichen ✔️ 18.000 zufriedene Kunden seit 2012 ✔️'
 og_image: GWriters-Logo.png
 sitemap_active: true
 published: true

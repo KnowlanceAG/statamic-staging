@@ -124,8 +124,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1665573102
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1665671009
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1244,12 +1244,22 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: Disclaimer
               -
                 type: paragraph
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
                     text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
               -
                 type: heading
@@ -1262,7 +1272,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Einige unserer Blogartikel zum Studiengang Marketing'
               -
                 type: set
@@ -1286,7 +1296,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Nützliche Weblinks'
               -
                 type: paragraph
@@ -1297,7 +1307,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -1316,14 +1326,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -1342,14 +1352,14 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
@@ -1368,7 +1378,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                   -
                     type: text
                     marks:
@@ -1377,7 +1387,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
