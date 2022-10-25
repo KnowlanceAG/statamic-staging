@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'quereinsteiger: Abteilungswechsel'
 size: 5484
 last_modified: 1666617182
 width: 175
