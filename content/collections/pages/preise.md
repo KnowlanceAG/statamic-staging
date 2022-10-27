@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1666888252
+updated_at: 1666915169
 replicator:
   -
     columns_replicator:
@@ -2217,100 +2217,94 @@ replicator:
                     type: text
                     text: 'Kostet für akademische Ghostwriter'
               -
-                type: heading
-                attrs:
-                  level: 3
+                type: bullet_list
                 content:
                   -
-                    type: text
-                    text: '1) Einarbeitung in individuelles wissenschaftliches Thema'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Der akademische Ghostwriter hat sicherlich Ahnung vom Thema und ist ein Experte auf seinem Gebiet. Nichtsdestotrotz bleibt natürlich nicht aus, dass er sich nochmal neu einarbeiten muss. Jedes Thema hat seinen eigenen individuellen Wert und muss dementsprechend auch individuell noch einmal bearbeitet werden und dementsprechend muss sich auch ein Ghostwriter oder ein Experte auf dem Gebiet neu einarbeiten um zum einen den kompletten aktuellen '
-                  -
-                    type: text
-                    marks:
+                    type: list_item
+                    content:
                       -
-                        type: link
-                        attrs:
-                          href: /blog/wie-schreibe-ich-einen-forschungsstand
-                          target: null
-                          rel: null
-                    text: Forschungsstand
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Einarbeitung in individuelles wissenschaftliches Thema:'
+                          -
+                            type: text
+                            text: ' Ihr akademische Ghostwriter ist sicherlich ein Experte auf seinem Gebiet, jedoch hat jedes Thema seinen eigenen individuellen Wert. Daher ist in jedem Fall eine detaillierte Einarbeitung des Ghostwriter in Ihr persönliches Forschungsprojekt notwendig, auch um den kompletten aktuellen '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/wie-schreibe-ich-einen-forschungsstand
+                                  target: null
+                                  rel: null
+                            text: Forschungsstand
+                          -
+                            type: text
+                            text: ' lückenlos darstellen zu können.'
                   -
-                    type: text
-                    text: ' abzubilden und zum anderen auch wirklich ein Unikat für Euch zu generieren, mit dem Ihr etwas anfangen könnt.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: '2) Literaturrecherche und Forschung durch den akademischen Ghostwriter'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Und nicht nur das, sondern dazu muss er natürlich eine komplette '
-                  -
-                    type: text
-                    marks:
+                    type: list_item
+                    content:
                       -
-                        type: link
-                        attrs:
-                          href: /blog/literaturrecherche-datenbanken-quellen
-                          target: null
-                          rel: null
-                    text: Literaturrecherche
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Literaturrecherche und Forschung durch den akademischen Ghostwriter:'
+                          -
+                            type: text
+                            text: ' Natürlich muss Ihr Ghostwriter auch eine komplette '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/literaturrecherche-datenbanken-quellen
+                                  target: null
+                                  rel: null
+                            text: Literaturrecherche
+                          -
+                            type: text
+                            text: ' durchführen oder bei empirischen Arbeiten, je nach Kundenwunsch, eine Umfragen vorbereiten, selbst vielleicht sogar durchführen, Daten auswerten sowie analysieren und eventuell danach noch in den Text einarbeiten.'
                   -
-                    type: text
-                    text: ' durchführen oder bei empirischen Arbeiten wo es halt auch darum geht Umfragen z.B. heranzuziehen als Datenerhebung..muss der Experte je nach Kundenwunsch die Umfragen vorbereiten, selbst vielleicht sogar durchführen, auswerten und analysieren und dementsprechend noch danach in den Text einarbeiten.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: '3) Erstellung des individuellen Textes'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Dazu kommen wir auch gleich zur Erstellung des Textes. Auch das ist natürlich nicht wie wir es gerade eigentlich schon gesehen haben, allein an dem Punkt Literaturrecherche, ist ja nicht so, dass jemand das ganze einfach so runterschreibt. Sondern das Ganze wird mit System gemacht. Das bedeutet ein Text wird initial erstellt, welcher schon mal die wichtigsten Informationen enthält und schon mal den ersten roten Faden der Arbeit formt. Und in der Regel gehen unsere Experten so vor, dass sie in einem zweiten und dritten Schreibdurchgang das Ganze noch verfeinern - sozusagen "an dieses rohe Skelett Fleisch an den Knochen packen". So hatte das mein Bachelorvater immer gesagt ganz am Anfang im Studium. Und das ist tatsächlich auch ganz richtig so, ich meine: man schreibt das Ghostwriting nicht einfach so runter. Sondern man überarbeitet einen Text immer und immer wieder, verfeinert den Text, merkt, dass man vielleicht nicht auf das gewünschte Ergebnis zu seiner Hypothese kommt, muss sich dann mal neue Gedanken machen, neu ransetzen und das gleiche passiert natürlich auch bei einem Experten, der sich mit Eurem Thema beschäftigt. Also das ist ein nicht unerheblicher Aufwand über den sich manche Kunden gar nicht immer so Gedanken machen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: '4) Einarbeitung des Kundenfeedbacks'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Weiterhin muss natürlich Euer Feedback eingearbeitet werden. Bei größeren Arbeiten, bzw. Arbeiten über 10 Seiten, haben wir die Regel, dass Ihr als Kunde auch '
-                  -
-                    type: text
-                    marks:
+                    type: list_item
+                    content:
                       -
-                        type: link
-                        attrs:
-                          href: /blog/ghostwriting-gwriters-teillieferungen
-                          target: null
-                          rel: null
-                    text: Teillieferungen
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Erstellung des individuellen Textes:'
+                          -
+                            type: text
+                            text: ' Selbst ein erfahrener Ghostwriter kann eine wissenschaftliche Arbeit nicht einfach "runterschreiben". Auch Ghostwriter arbeiten mit System. Demnach wird ein Text wird initial erstellt, welcher die wichtigsten Informationen enthält und den ersten roten Faden der Arbeit formt. Anschließend gehen unsere Experten so vor, dass diese in einem zweiten und dritten Schreibdurchgang das Ganze noch verfeinern - bis das am Ende ein hochqualitatives Werk entsteht, dass allen akademischen Ansprüchen entspricht.'
                   -
-                    type: text
-                    text: ' bekommt. Das bedeutet, Ihr werdet mit zwei, drei, oder vier Teillieferungen eben ausgestattet im Laufe der Zeit und könnt somit immer wieder den aktuellen Stand der Arbeit betrachten und außerdem Euer Feedback dazu geben. Dieses Feedback, kann ich mir vorstellen, das möchtet Ihr ja auch, dass das eingearbeitet wird. Und dementsprechend ist das mehr Aufwand für einen Ghostwriter, was sich auf Ghostwriter-Preise niederschlägt.'
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Einarbeitung des Kundenfeedbacks:'
+                          -
+                            type: text
+                            text: ' Bei GWriters erhalten Sie im Laufe der Bearbeitung regelmäßig Teillieferungen. So können Sie nicht nur einen Einblick in den aktuellen Stand nehmen, sondern auch Feedbacks äußern. Diese Feedbacks werden dann ohne weitere Kosten von uns eingearbeitet, deren Umsetzung ist bereits in unsere Ghostwriter-Preise einkalkuliert.'
               -
                 type: heading
                 attrs:
@@ -2320,73 +2314,79 @@ replicator:
                     type: text
                     text: 'Akademisches Qualitätsmanagement'
               -
-                type: heading
-                attrs:
-                  level: 3
+                type: bullet_list
                 content:
                   -
-                    type: text
-                    text: '1) Permanente Qualitätskontrollen bei Ghostwritern und wissenschaftlichen Texten'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Uns ist es wichtig, dass wir ein bestimmtes Niveau an Qualität halten und dieses auch stetig verbessern um Euch eben genau das zu liefern, was Ihr bei uns auch bestellt. Dementsprechend führen wir permanente Qualitätskontrollen durch. Und das nicht nur bei den Abschlusslieferungen - wo wir gucken, dass alles auch einmal..dass die Orthografie stimmt, dass die Plagiatsprüfung durchgeführt wurde, usw. Wir schauen auch, dass wir Inhouse Aufträge vergeben an Autoren um diese eben noch einmal zwischendurch zu prüfen und immer wieder zu schauen \"Sind die auch 'up to date' und können unsere Autoren mithalten mit dem Rest, dem aktuellen Standard?\" Wenn nicht, dann machen wir diese darauf aufmerksam und arbeiten gemeinsam daran, dass dies besser wird oder trennen uns teilweise auch. Ich meine das gehört dazu wenn man ein akademisches Netzwerk aus Experten betreibt, dass man dieses eben auch entsprechend pflegt und dazu gehören, wie gesagt, permanente Qualitätskontrollen.\_"
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: '2) Zweites Lektorat ergänzend zum Ghostwriting'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein '
-                  -
-                    type: text
-                    marks:
+                    type: list_item
+                    content:
                       -
-                        type: link
-                        attrs:
-                          href: /lektorat
-                          target: null
-                          rel: null
-                    text: 'wissenschaftliches Lektorat'
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Permanente Qualitätskontrollen bei Ghostwritern und wissenschaftlichen Texten:'
+                          -
+                            type: text
+                            text: ' Es ist unser oberstes Ziel, Ihnen jederzeit die bestmögliche Qualität zu liefern. Dementsprechend führen wir permanente Qualitätskontrollen durch. Dazu gehört nicht nur ein Lektorat Ihrer Arbeit durch einen übergeordneten Supervisor aus Ihrem Fachbereich, sondern auch durch eine Plagiatsprüfung mittels modernster Software.'
                   -
-                    type: text
-                    text: ', welches nochmal nach der Abschlussprüfung durchgeführt wird, hatte ich gerade schon angeschnitten. Damit seid Ihr auf der sicheren Seite, dass Ihr auch ein qualitativ- hochwertiges Produkt erhaltet an dem Ihr Euch gut orientieren könnt.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: '3) Plagiatsprüfungen als Qualitätssicherung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Genauso wie die Plagiatsprüfung - Ihr möchtet natürlich ein Unikat erhalten, dementsprechend führen wir auch '
-                  -
-                    type: text
-                    marks:
+                    type: list_item
+                    content:
                       -
-                        type: link
-                        attrs:
-                          href: /leistungen/plagiatspruefung
-                          target: null
-                          rel: null
-                    text: Plagiatsprüfungen
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Zweites Lektorat ergänzend zum Ghostwriting:'
+                          -
+                            type: text
+                            text: ' Ein '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /lektorat
+                                  target: null
+                                  rel: null
+                            text: 'wissenschaftliches Lektorat'
+                          -
+                            type: text
+                            text: ', welches nochmal nach der Abschlussprüfung durchgeführt wird, garantiert Ihnen, dass Sie in jedem Fall ein qualitativ hochwertiges Produkt erhalten.'
                   -
-                    type: text
-                    text: ' durch, welche..oder von welchen Ihr auch die Auswertung bekommen könnt. Fragt da einfach nach, aber all dies sind natürlich Punkte, die sich auch auf den Preis auswirken und auf die wir natürlich nicht verzichten möchten, einfach nur um ein bisschen günstiger zu sein. Sondern es ist halt unser Anspruch Euch ein ordentliches Produkt zu liefern.'
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Plagiatsprüfungen als Qualitätssicherung:'
+                          -
+                            type: text
+                            text: ' Sie möchten natürlich ein Unikat erhalten, dementsprechend führen wir auch '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /leistungen/plagiatspruefung
+                                  target: null
+                                  rel: null
+                            text: Plagiatsprüfungen
+                          -
+                            type: text
+                            text: ' durch, wofür wir modernste Software verwenden, die auch von Universitäten eingesetzt wird.'
               -
                 type: heading
                 attrs:
@@ -2396,47 +2396,53 @@ replicator:
                     type: text
                     text: 'Ihre individuellen Vorgaben'
               -
-                type: heading
-                attrs:
-                  level: 3
+                type: bullet_list
                 content:
                   -
-                    type: text
-                    text: '1) Komplexität des wissenschaftlichen Projektes'
-              -
-                type: paragraph
-                content:
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Komplexität des wissenschaftlichen Projektes:'
+                          -
+                            type: text
+                            text: ' Ein zentraler Faktor für die Ghostwriter-Preise ist die Komplexität Ihres Projektes. Beispielsweise ist eine Arbeit im Bereich der BWL nicht vergleichbar mit einer Arbeit aus dem Bereich der Atomphysik. Dementsprechend gibt es natürlich auch verschiedene Experten, die sich entsprechend honorieren lassen möchten. Bei einem Thema im Bereich BWL, Wirtschaft und Management wird das Honorar sicherlich geringer ausfallen, als bei sehr exotischen Themen.'
                   -
-                    type: text
-                    text: 'Der erste Punkt ist die Komplexität des Projektes. Gerade hatte ich schon ein Beispiel genannt: Eine Arbeit im Bereich Zahnmedizin z.B. ist nicht vergleichbar mit einer Arbeit aus dem Bereich Atomphysik - um es mal überspitzt darzustellen. Ich glaube, das versteht jeder. Dementsprechend gibt es natürlich auch verschiedene Experten, die sich entsprechend honorieren lassen möchten. Ich sage mal bei einem Thema im Bereich BWL, Wirtschaft und Management wird das Honorar sicherlich etwas geringer ausfallen als bei sehr exotischen Themen und denke das ist sicherlich auch jedem bewusst.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Bearbeitungsdauer beim akademischen Ghostwriting:'
+                          -
+                            type: text
+                            text: ' Wenn unser Experte nur zwei Wochen für die Erstellung einer Arbeit Zeit hat, die normalerweise bis zu 10 Wochen in Anspruch nehmen würde, ist selbsterklärend, dass hierfür über das übliche Pensum hinaus gearbeitet werden muss. Dies muss dann anschließend auch entsprechend honoriert werden, was wiederum einen Einfluss auf unsere Ghostwriter-Preise hat.'
                   -
-                    type: text
-                    text: '2) Bearbeitungsdauer beim akademischen Ghostwriting'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Gleiches gilt für die Bearbeitungsdauer: Wenn ein Experte jetzt nur zwei Wochen für eine Arbeit Zeit hat, für die er sich normalerweise 6 bis 7 Wochen einplanen würde, ist sicherlich selbsterklärend, dass er unter diesem Druck gerne auch ein höheres Honorar haben möchte.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: '3) Fachbereich und weitere individuelle Vorgaben'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Das gleiche gilt für den Fachbereich und eben für auch weitere individuelle Vorgaben. Dabei ist mit weiteren individuellen Vorgaben gemeint, dass wir wirklich versuchen alles auch für den Kunden zu erledigen, was sich der Kunde wünscht. Viele Kunden sind schon mal zu uns gekommen und haben gesagt "Ok, ich möchte jetzt die, und die und die Literatur mit eingearbeitet haben." Der Autor findet davon die Hälfte, die Hälfte nicht und muss sich denn Rest dann eben anderweitig organisieren. Ob er sich dann eben zusätzlich Bücher ausleiht, ob er sich zusätzlich Bücher bestellen muss, wird teilweise dann mit dem Kunden nochmal eruiert ob das so wirklich notwendig ist. Wenn der Autor jetzt sagt "Ok, eigentlich haben wir da genügend Futter um ein Thema ordentlich zu bearbeiten und haben auch schon andere Literatur, die genauso passend wäre." Kann es trotzdem sein, dass der Kunde darauf besteht und der Autor sagt "Ok, lieber Kunde. Dann möchte ich das Buch trotzdem bezahlt bekommen." - Was sich dann auch wieder auf den Preis auswirkt.'
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Fachbereich und weitere individuelle Vorgaben:'
+                          -
+                            type: text
+                            text: ' Auch der Fachbereich und weitere individuelle Vorgaben beeinflussen den Aufwand stark. Beispielsweise kann das Voraussetzen bestimmter Literatur viel Aufwand bereiten, da diese nicht immer einfach zugänglich ist und oft auch erst über eine Bibliothek bestellt oder eigens angeschafft werden muss.'
               -
                 type: heading
                 attrs:
