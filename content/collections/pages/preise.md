@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665568577
+updated_at: 1666888159
 replicator:
   -
     columns_replicator:
@@ -2078,6 +2078,372 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Preisfaktoren bei GWriters'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'GWriters als akademische Ghostwriter-Agentur'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Akademisches Netzwerk:'
+                          -
+                            type: text
+                            text: ' Als '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /ghostwriting/ghostwriting-agentur
+                                  target: null
+                                  rel: null
+                            text: 'akademische Ghostwriter-Agentur'
+                          -
+                            type: text
+                            text: ' verwaltet GWriters ein akademisches Netzwerk aus einer Vielzahl an Experten. Jeder dieser Experten muss vor seiner Aufnahme bei GWriters durch unsere Mitarbeiter eingehend auf seine Qualifikationen und Erfahrung geprüft werden.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Wahl des richtigen akademischen Ghostwriters:'
+                          -
+                            type: text
+                            text: ' In der Vorbereitung Ihres Auftrags kontaktieren unsere Mitarbeiter eine Vielzahl in Frage kommender Experten, vergleichen deren Erfahrungen und wählen den besten Kandidaten für Sie aus.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Betreuung durch geschulte wissenschaftliche Projektmanager:'
+                          -
+                            type: text
+                            text: ' Ihr Projektmanager begleitet Sie während des gesamten Auftragsverlaufs, ist immer über den aktuellen Stand Ihres Auftrags informiert und steht Ihnen jederzeit für Fragen & Anmerkungen zur Verfügung. Er kontrolliert und überwacht die Arbeit des Ghostwriter, garantiert die Einhaltung von Lieferterminen und kann dank seiner Erfahrung bei auftretenden Problemen frühzeitig einschreiten.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Anonyme Kommunikation bei GWriters:'
+                          -
+                            type: text
+                            text: ' Wir garantieren Ihnen absolute Anonymität, auch bei der Kommunikation mit Ihrem Ghostwriter. Ihr Projektmanager leitet nach einer Sicherheitsprüfung auf persönliche Daten Ihre E-Mails an Ihren Ghostwriter weiter. Auch anonyme Telefonkonferenzen sind möglich, wobei wir natürlich Ihre Telefonnummer gegenüber dem Ghostwriter verbergen.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Vertragliche Verschwiegenheit der Ghostwriter, Qualitätsmanager und aller Mitarbeiter:'
+                          -
+                            type: text
+                            text: ' Wir setzen viel Wert auf Verschwiegenheit. Alle beteiligten Personen sind dazu vertraglich verpflichtet. Das bedeutet, dass jeder Autor bei uns ein NDA unterschreibt, eine sogenannte Verschwiegenheitserklärung, genauso wie unsere Qualitätsmanager und alle anderen Mitarbeiter wie bspw. der Projektmanager, der Sie durch Ihr Projekt führt.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Kostenfreier Ersatz bei Ausfall eines akademischen Ghostwriters:'
+                          -
+                            type: text
+                            text: ' Im Falle des Ausfalls Ihres Ghostwriter garantieren wir kostenfreien Expertenersatz. Dies ist der große Vorteil, den Sie gegenüber einem Freelance-Ghostwriter bei einer Ghostwriting Agentur haben, da diese das komplette Ausfallrisiko übernimmt, falls einmal ein Ghostwriter erkrankt oder aus sonstigen Gründen Abstand vom Auftrag nimmt.'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                            text: 'Telefonische und schriftliche Verfügbarkeit des GWriters-Teams:'
+                          -
+                            type: text
+                            text: ' Wir garantieren Ihnen eine umfassende telefonische und schriftliche Verfügbarkeit Ihres Projektmanager. In Notfällen oder falls Sie ein dringendes Anliegen haben, können Sie uns jederzeit anrufen und Ihr Projektmanager steht Ihnen auch an Wochenenden und an Feiertagen notfalls zur Seite.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Kostet für akademische Ghostwriter'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '1) Einarbeitung in individuelles wissenschaftliches Thema'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Der akademische Ghostwriter hat sicherlich Ahnung vom Thema und ist ein Experte auf seinem Gebiet. Nichtsdestotrotz bleibt natürlich nicht aus, dass er sich nochmal neu einarbeiten muss. Jedes Thema hat seinen eigenen individuellen Wert und muss dementsprechend auch individuell noch einmal bearbeitet werden und dementsprechend muss sich auch ein Ghostwriter oder ein Experte auf dem Gebiet neu einarbeiten um zum einen den kompletten aktuellen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/wie-schreibe-ich-einen-forschungsstand
+                          target: null
+                          rel: null
+                    text: Forschungsstand
+                  -
+                    type: text
+                    text: ' abzubilden und zum anderen auch wirklich ein Unikat für Euch zu generieren, mit dem Ihr etwas anfangen könnt.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '2) Literaturrecherche und Forschung durch den akademischen Ghostwriter'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Und nicht nur das, sondern dazu muss er natürlich eine komplette '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/literaturrecherche-datenbanken-quellen
+                          target: null
+                          rel: null
+                    text: Literaturrecherche
+                  -
+                    type: text
+                    text: ' durchführen oder bei empirischen Arbeiten wo es halt auch darum geht Umfragen z.B. heranzuziehen als Datenerhebung..muss der Experte je nach Kundenwunsch die Umfragen vorbereiten, selbst vielleicht sogar durchführen, auswerten und analysieren und dementsprechend noch danach in den Text einarbeiten.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '3) Erstellung des individuellen Textes'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Dazu kommen wir auch gleich zur Erstellung des Textes. Auch das ist natürlich nicht wie wir es gerade eigentlich schon gesehen haben, allein an dem Punkt Literaturrecherche, ist ja nicht so, dass jemand das ganze einfach so runterschreibt. Sondern das Ganze wird mit System gemacht. Das bedeutet ein Text wird initial erstellt, welcher schon mal die wichtigsten Informationen enthält und schon mal den ersten roten Faden der Arbeit formt. Und in der Regel gehen unsere Experten so vor, dass sie in einem zweiten und dritten Schreibdurchgang das Ganze noch verfeinern - sozusagen "an dieses rohe Skelett Fleisch an den Knochen packen". So hatte das mein Bachelorvater immer gesagt ganz am Anfang im Studium. Und das ist tatsächlich auch ganz richtig so, ich meine: man schreibt das Ghostwriting nicht einfach so runter. Sondern man überarbeitet einen Text immer und immer wieder, verfeinert den Text, merkt, dass man vielleicht nicht auf das gewünschte Ergebnis zu seiner Hypothese kommt, muss sich dann mal neue Gedanken machen, neu ransetzen und das gleiche passiert natürlich auch bei einem Experten, der sich mit Eurem Thema beschäftigt. Also das ist ein nicht unerheblicher Aufwand über den sich manche Kunden gar nicht immer so Gedanken machen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '4) Einarbeitung des Kundenfeedbacks'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Weiterhin muss natürlich Euer Feedback eingearbeitet werden. Bei größeren Arbeiten, bzw. Arbeiten über 10 Seiten, haben wir die Regel, dass Ihr als Kunde auch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/ghostwriting-gwriters-teillieferungen
+                          target: null
+                          rel: null
+                    text: Teillieferungen
+                  -
+                    type: text
+                    text: ' bekommt. Das bedeutet, Ihr werdet mit zwei, drei, oder vier Teillieferungen eben ausgestattet im Laufe der Zeit und könnt somit immer wieder den aktuellen Stand der Arbeit betrachten und außerdem Euer Feedback dazu geben. Dieses Feedback, kann ich mir vorstellen, das möchtet Ihr ja auch, dass das eingearbeitet wird. Und dementsprechend ist das mehr Aufwand für einen Ghostwriter, was sich auf Ghostwriter-Preise niederschlägt.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Akademisches Qualitätsmanagement'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '1) Permanente Qualitätskontrollen bei Ghostwritern und wissenschaftlichen Texten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Uns ist es wichtig, dass wir ein bestimmtes Niveau an Qualität halten und dieses auch stetig verbessern um Euch eben genau das zu liefern, was Ihr bei uns auch bestellt. Dementsprechend führen wir permanente Qualitätskontrollen durch. Und das nicht nur bei den Abschlusslieferungen - wo wir gucken, dass alles auch einmal..dass die Orthografie stimmt, dass die Plagiatsprüfung durchgeführt wurde, usw. Wir schauen auch, dass wir Inhouse Aufträge vergeben an Autoren um diese eben noch einmal zwischendurch zu prüfen und immer wieder zu schauen \"Sind die auch 'up to date' und können unsere Autoren mithalten mit dem Rest, dem aktuellen Standard?\" Wenn nicht, dann machen wir diese darauf aufmerksam und arbeiten gemeinsam daran, dass dies besser wird oder trennen uns teilweise auch. Ich meine das gehört dazu wenn man ein akademisches Netzwerk aus Experten betreibt, dass man dieses eben auch entsprechend pflegt und dazu gehören, wie gesagt, permanente Qualitätskontrollen.\_"
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '2) Zweites Lektorat ergänzend zum Ghostwriting'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: 'wissenschaftliches Lektorat'
+                  -
+                    type: text
+                    text: ', welches nochmal nach der Abschlussprüfung durchgeführt wird, hatte ich gerade schon angeschnitten. Damit seid Ihr auf der sicheren Seite, dass Ihr auch ein qualitativ- hochwertiges Produkt erhaltet an dem Ihr Euch gut orientieren könnt.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '3) Plagiatsprüfungen als Qualitätssicherung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Genauso wie die Plagiatsprüfung - Ihr möchtet natürlich ein Unikat erhalten, dementsprechend führen wir auch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          target: null
+                          rel: null
+                    text: Plagiatsprüfungen
+                  -
+                    type: text
+                    text: ' durch, welche..oder von welchen Ihr auch die Auswertung bekommen könnt. Fragt da einfach nach, aber all dies sind natürlich Punkte, die sich auch auf den Preis auswirken und auf die wir natürlich nicht verzichten möchten, einfach nur um ein bisschen günstiger zu sein. Sondern es ist halt unser Anspruch Euch ein ordentliches Produkt zu liefern.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Ihre individuellen Vorgaben'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '1) Komplexität des wissenschaftlichen Projektes'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Der erste Punkt ist die Komplexität des Projektes. Gerade hatte ich schon ein Beispiel genannt: Eine Arbeit im Bereich Zahnmedizin z.B. ist nicht vergleichbar mit einer Arbeit aus dem Bereich Atomphysik - um es mal überspitzt darzustellen. Ich glaube, das versteht jeder. Dementsprechend gibt es natürlich auch verschiedene Experten, die sich entsprechend honorieren lassen möchten. Ich sage mal bei einem Thema im Bereich BWL, Wirtschaft und Management wird das Honorar sicherlich etwas geringer ausfallen als bei sehr exotischen Themen und denke das ist sicherlich auch jedem bewusst.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '2) Bearbeitungsdauer beim akademischen Ghostwriting'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Gleiches gilt für die Bearbeitungsdauer: Wenn ein Experte jetzt nur zwei Wochen für eine Arbeit Zeit hat, für die er sich normalerweise 6 bis 7 Wochen einplanen würde, ist sicherlich selbsterklärend, dass er unter diesem Druck gerne auch ein höheres Honorar haben möchte.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '3) Fachbereich und weitere individuelle Vorgaben'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das gleiche gilt für den Fachbereich und eben für auch weitere individuelle Vorgaben. Dabei ist mit weiteren individuellen Vorgaben gemeint, dass wir wirklich versuchen alles auch für den Kunden zu erledigen, was sich der Kunde wünscht. Viele Kunden sind schon mal zu uns gekommen und haben gesagt "Ok, ich möchte jetzt die, und die und die Literatur mit eingearbeitet haben." Der Autor findet davon die Hälfte, die Hälfte nicht und muss sich denn Rest dann eben anderweitig organisieren. Ob er sich dann eben zusätzlich Bücher ausleiht, ob er sich zusätzlich Bücher bestellen muss, wird teilweise dann mit dem Kunden nochmal eruiert ob das so wirklich notwendig ist. Wenn der Autor jetzt sagt "Ok, eigentlich haben wir da genügend Futter um ein Thema ordentlich zu bearbeiten und haben auch schon andere Literatur, die genauso passend wäre." Kann es trotzdem sein, dass der Kunde darauf besteht und der Autor sagt "Ok, lieber Kunde. Dann möchte ich das Buch trotzdem bezahlt bekommen." - Was sich dann auch wieder auf den Preis auswirkt.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
                     marks:
                       -
                         type: textAlign
@@ -2385,7 +2751,6 @@ og_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓
 og_description: 'Berechnen Sie die Ghostwriter Preise mit unserem Preisrechner. Jetzt Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen - zu fairen Preisen!'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 schema_objects: |-
   <script type="application/ld+json">
   {
@@ -2457,4 +2822,5 @@ schema_objects: |-
     }]
   }
   </script>
+published: true
 ---
