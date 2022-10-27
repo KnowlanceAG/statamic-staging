@@ -1052,7 +1052,7 @@ replicator:
                     ex_type: 'Lektorat Bachelorarbeit'
                     ex_pages: '30'
                     ex_zitation: APA
-                    ex_button_link: /ghostwriting-beispielarbeiten/Beispiel_Lektorat_GWriters.docx
+                    ex_button_link: /assets/downloads/ghostwriting-beispielarbeiten/Beispiel_Lektorat_GWriters.docx
                     ex_button_text: WEITERLESEN
                     ex_spacing_top: false
                     ex_color: '#FF6606'
@@ -1404,7 +1404,7 @@ replicator:
     is_full: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665672048
+updated_at: 1666863920
 template: default
 use_meta_keywords: false
 no_index_page: false
