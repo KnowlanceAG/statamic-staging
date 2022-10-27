@@ -5,7 +5,7 @@ title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1666876756
+updated_at: 1666878015
 teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
   -
@@ -163,6 +163,12 @@ replicator:
                   values:
                     type: video
                     video: 'https://youtu.be/s_tKRADuNrk'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 20
             show_as_card: false
         type: row
         enabled: true
@@ -218,7 +224,7 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 4
+                  level: 2
                 content:
                   -
                     type: text
@@ -233,6 +239,7 @@ replicator:
                         type: textColor
                         attrs:
                           color: 'rgb(153, 153, 153)'
+                          hex: '#000'
                     text: 'Der Ablauf ist ganz einfach:'
             show_as_card: false
         type: row
@@ -456,6 +463,62 @@ replicator:
         enabled: true
         single_col: false
         responsive_columns: 0
+      -
+        single_col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Absolute Sicherheit durch Teillieferungen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Als wichtige und kostenfreie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /faq/qualitaet-ghostwriter
+                          target: null
+                          rel: null
+                    text: Qualitätsmaßnahme
+                  -
+                    type: text
+                    text: ' erhalten Sie im Auftragsverlauf regelmäßig Teillieferungen. Teillieferungen stellen  einen Auszug aus dem aktuellen Stand Ihres Projekts dar. Diese sollen Sie über den aktuellen Arbeitsstand in Kenntnis setzen und Ihnen die Möglichkeit geben,  Feedback für die weitere Bearbeitung zu geben. Mit den Teillieferungen sind auch immer die jeweiligen Teilzahlungen verknüpft - Sie kaufen bei uns also tatsächlich nicht die Katze im Sack, sondern wissen genau, was Sie für Ihr Geld erhalten. Außerdem ermöglichen Teillieferungen eine effiziente Einarbeitung von Änderungswünschen, denn würden Sie nur bei der Abschlusslieferung Feedback äußern können, könnten Änderungswünsche zu frühen Kapiteln weitreichende Konsequenzen für die gesamte Arbeit haben.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Unsere geschulten Projektbetreuer achten natürlich darauf, dass Ihr Autor '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: 'akademischer Ghostwriter'
+                  -
+                    type: text
+                    text: ' seine Termine einhält. Nichtsdestotrotz ist es auch wichtig, dass Sie Ihr Feedback zu den Teillieferungen zeitnah übermitteln. So können Sie verhindern, dass der Schreibprozess unnötig unterbrochen wird. Für Feedbacks ist der schriftliche Weg zwar immer vorteilhaft, weil so immer alle Änderungswünsche nachvollziehbar bleiben, nichtsdestotrotz können wir auch anonyme Telefonkonferenzen führen, um kleine Probleme oder Fragen zu Teillieferungen möglichst schnell zu lösen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     is_full: true
     bg_toggle: false
     bg_color: '#F9F9F9'
