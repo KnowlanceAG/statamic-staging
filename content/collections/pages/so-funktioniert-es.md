@@ -5,7 +5,7 @@ title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665567225
+updated_at: 1666876756
 teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
   -
@@ -167,15 +167,6 @@ replicator:
         type: row
         enabled: true
         single_col: false
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        single_col: false
-        grid:
-          -
-            show_as_card: false
-        type: row
-        enabled: true
         responsive_columns: 0
         columns_per_row: 0
       -
@@ -489,128 +480,120 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'So einfach zum Erfolg'
               -
-                type: set
-                attrs:
-                  values:
-                    type: text_box_alignment
-                    bard:
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
                       -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#444444'
-                                  hex: '#000'
-                            text: "GWriters ist eine schnell wachsende deutschsprachige Plattform für die Vermittlung von hochwertigen akademischen Dienstleistungen. Wir bieten Ihnen Zugang zu derzeit bereits über 3000 wissenschaftlichen Autoren, Bearbeitern, Übersetzern & Beratern, die Sie bedarfsgerecht und schnell durch die professionelle Erstellung von Mustervorlagen für akademische Arbeiten unterstützen. Ganz egal ob Sie auf der Suche nach einem\_"
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#FF6602'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /lektorat
-                                  target: null
-                                  rel: null
-                            text: Lektorat
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#444444'
-                                  hex: '#000'
-                            text: "\_oder\_"
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#FF6602'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /korrektorat
-                                  target: null
-                                  rel: null
-                            text: Korrektorat
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#444444'
-                                  hex: '#000'
-                            text: ", Coaching, der Erstellung einer Mustervorlage, einer\_"
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#FF6602'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /leistungen/uebersetzung
-                                  target: null
-                                  rel: null
-                            text: Übersetzung
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#444444'
-                                  hex: '#000'
-                            text: "\_oder anderen Hilfestellungen sind, GWriters findet in nahezu allen Fällen den passenden akademischen Freelancer für Sie. Fragen Sie einfach ein unverbindliches Angebot an."
-                    text_ausrichtung: text-center
-                    column_count: false
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "GWriters ist eine schnell wachsende deutschsprachige Plattform für die Vermittlung von hochwertigen akademischen Dienstleistungen. Wir bieten Ihnen Zugang zu derzeit bereits über 3000 wissenschaftlichen Autoren, Bearbeitern, Übersetzern & Beratern, die Sie bedarfsgerecht und schnell durch die professionelle Erstellung von Mustervorlagen für akademische Arbeiten unterstützen. Ganz egal ob Sie auf der Suche nach einem\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: Lektorat
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "\_oder\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat
+                          target: null
+                          rel: null
+                    text: Korrektorat
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ", Coaching, der Erstellung einer Mustervorlage, einer\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/uebersetzung
+                          target: null
+                          rel: null
+                    text: Übersetzung
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "\_oder anderen Hilfestellungen sind, GWriters findet in nahezu allen Fällen den passenden akademischen Freelancer für Sie. Fragen Sie einfach ein unverbindliches Angebot an."
               -
                 type: heading
                 attrs:
@@ -622,314 +605,304 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'So erstellen wir Ihr Angebot'
               -
-                type: set
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Was passiert nach der Anfrage nach einem akademischen Ghostwriter bei GWriters in dem Unternehmen intern? Wie entstehen Angebote für '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: 'akademisches Ghostwriting'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: '? Was macht diese Angebote bei der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting/ghostwriting-agentur
+                          target: null
+                          rel: null
+                    text: 'Ghostwriting Agentur'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: ' GWriters aus?'
+              -
+                type: heading
                 attrs:
-                  values:
-                    type: text_box_alignment
-                    bard:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
                       -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: 'Was passiert nach der Anfrage nach einem akademischen Ghostwriter bei GWriters in dem Unternehmen intern? Wie entstehen Angebote für '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                              -
-                                type: link
-                                attrs:
-                                  href: /ghostwriting
-                                  target: null
-                                  rel: null
-                            text: 'akademisches Ghostwriting'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: '? Was macht diese Angebote bei der '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                              -
-                                type: link
-                                attrs:
-                                  href: /ghostwriting/ghostwriting-agentur
-                                  target: null
-                                  rel: null
-                            text: 'Ghostwriting Agentur'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: ' GWriters aus?'
-                      -
-                        type: heading
+                        type: textAlign
                         attrs:
-                          level: 3
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: 'Ihre Anfrage bei GWriters'
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: 'Der Prozess beginnt immer mit Ihrer unverbindlichen Anfrage '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                              -
-                                type: link
-                                attrs:
-                                  href: /anfrage
-                                  target: null
-                                  rel: null
-                            text: 'über unser Anfrageformular'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: ' oder auch per Telefon oder E-Mail. Am besten nennen Sie uns hierbei bereits das Thema, Ihre Deadline, den gewünschten Umfang und machen Angaben zum geplanten Inhalt.'
-                      -
-                        type: heading
-                        attrs:
-                          level: 3
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: 'Wahl Ihres akademischen Ghostwriters'
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: 'Es folgt die Wahl des richtigen Ghostwriters für Ihren Auftrag. Dazu schauen wir in unsere akademische Ghostwriter-Datenbank. Welcher Autor passt zu diesem Thema? Welcher '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                              -
-                                type: link
-                                attrs:
-                                  href: /ghostwriter
-                                  target: null
-                                  rel: null
-                            text: 'akademische Ghostwriter'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: ' hat die richtige Qualifikation und genügend Erfahrung?'
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: 'Wir prüfen außerdem unsere internen Ratings und versuchen immer den besten Autor für Ihr Projekt zu finden, um Ihnen einen bestmöglichen Service zu bieten.'
-                      -
-                        type: heading
-                        attrs:
-                          level: 3
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: 'Kontaktaufnahme & Angebotserstellung'
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: 'Anschließend erfolgt die Kontaktaufnahme mit Ihrem potenziellen akademischen Ghostwriter. Gemeinsam mit diesen eruieren wir bei jedem Projekt die '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                              -
-                                type: link
-                                attrs:
-                                  href: /preise
-                                  target: null
-                                  rel: null
-                            text: 'Ghostwriter Preise'
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: '. So garantieren wir Ihnen einen Festpreis, sodass später keine versteckten Kosten mehr auftauchen. Darin inklusive sind natürlich auch das '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                              -
-                                type: link
-                                attrs:
-                                  href: /lektorat
-                                  target: null
-                                  rel: null
-                            text: Lektorat
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: ' und die '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                              -
-                                type: link
-                                attrs:
-                                  href: /leistungen/plagiatspruefung
-                                  target: null
-                                  rel: null
-                            text: Plagiatsprüfung
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: .
-                      -
-                        type: heading
-                        attrs:
-                          level: 3
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: '100% Diskretion beim akademischen Ghostwriting'
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: 'Alle relevanten Daten, die wir für die Angebotserstellung benötigen, werden unter Einhaltung strengster Diskretion weitergegeben. Wir geben allerdings auf keinen Fall personenbezogenen Daten weiter.'
-                      -
-                        type: heading
-                        attrs:
-                          level: 3
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: 'Anfragen bei GWriters sind unverbindlich'
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: center
-                            text: 'Anfragen an uns sowie auch unsere Angebot sind vollkommen unverbindlich. Kosten entstehen für Sie erst, sobald Sie einen Auftrag verbindlich per Vertragsschluss bestätigen.'
-                    text_ausrichtung: text-center
-                    column_count: false
+                          align: left
+                    text: 'Ihre Anfrage bei GWriters'
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Der Prozess beginnt immer mit Ihrer unverbindlichen Anfrage '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'über unser Anfrageformular'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: ' oder auch per Telefon oder E-Mail. Am besten nennen Sie uns hierbei bereits das Thema, Ihre Deadline, den gewünschten Umfang und machen Angaben zum geplanten Inhalt.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Wahl Ihres akademischen Ghostwriters'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Es folgt die Wahl des richtigen Ghostwriters für Ihren Auftrag. Dazu schauen wir in unsere akademische Ghostwriter-Datenbank. Welcher Autor passt zu diesem Thema? Welcher '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: 'akademische Ghostwriter'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: ' hat die richtige Qualifikation und genügend Erfahrung?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Wir prüfen außerdem unsere internen Ratings und versuchen immer den besten Autor für Ihr Projekt zu finden, um Ihnen einen bestmöglichen Service zu bieten.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Kontaktaufnahme & Angebotserstellung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Anschließend erfolgt die Kontaktaufnahme mit Ihrem potenziellen akademischen Ghostwriter. Gemeinsam mit diesen eruieren wir bei jedem Projekt die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: link
+                        attrs:
+                          href: /preise
+                          target: null
+                          rel: null
+                    text: 'Ghostwriter Preise'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: '. So garantieren wir Ihnen einen Festpreis, sodass später keine versteckten Kosten mehr auftauchen. Darin inklusive sind natürlich auch das '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: Lektorat
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: ' und die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          target: null
+                          rel: null
+                    text: Plagiatsprüfung
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: .
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: '100% Diskretion beim akademischen Ghostwriting'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Alle relevanten Daten, die wir für die Angebotserstellung benötigen, werden unter Einhaltung strengster Diskretion weitergegeben. Wir geben allerdings auf keinen Fall personenbezogenen Daten weiter.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Anfragen bei GWriters sind unverbindlich'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Anfragen an uns sowie auch unsere Angebot sind vollkommen unverbindlich. Kosten entstehen für Sie erst, sobald Sie einen Auftrag verbindlich per Vertragsschluss bestätigen.'
             show_as_card: false
         type: row
         enabled: true
