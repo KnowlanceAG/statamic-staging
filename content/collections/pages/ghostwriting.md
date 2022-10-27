@@ -481,255 +481,155 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Über uns & unseren Service'
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(25, 41, 47)'
+                          hex: '#000'
+                    text: 'Akademisches Ghostwriting - Wie läuft es bei GWriters ab?'
+            show_as_card: false
+        type: row
+        enabled: true
+        single_col: false
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            bard:
               -
-                type: table
+                type: heading
+                attrs:
+                  level: 2
                 content:
                   -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Telefonnummer
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '+49 (0) 30 809 332 339'
+                    type: text
+                    text: '1. Unverbindliche Anfrage'
+              -
+                type: paragraph
+                content:
                   -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'E-Mail Adresse'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: info@gwriters.de
+                    type: text
+                    text: 'Im ersten Schritt sendet Ihr uns relevante Informationen zu Eurem Projekt über '
                   -
-                    type: table_row
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: table_cell
+                        type: link
                         attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Webseite
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: gwriters.de
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unser Anfrageformular'
                   -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Leistung
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: Ghostwriting
+                    type: text
+                    text: ', per Telefon oder per Email zu. Anhand dieser Informationen wählen wir den passenden '
                   -
-                    type: table_row
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: table_cell
+                        type: link
                         attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Kosten & Preise'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'ab 80€ pro Seite'
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: 'akademischen Ghostwriter'
                   -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: "100% Anonymität \_\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'vertraglich garantiert'
+                    type: text
+                    text: ', einen möglichen Ersatz-Ghostwriter und einen '
                   -
-                    type: table_row
-                    content:
+                    type: text
+                    marks:
                       -
-                        type: table_cell
+                        type: link
                         attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Supervisor
+                          href: /lektorat/lektor
+                          target: null
+                          rel: null
+                    text: Lektoren
+                  -
+                    type: text
+                    text: ' für Euch aus unserer Datenbank aus. Je spezifischer Ihr bei Eurer Anfrage seid, umso besser können unsere Ghostwriter und wir Eure Anforderungen verstehen und die richtigen akademischen Experten für Euer Projekt finden.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: '2. Kostenloses Angebot'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Anhand Eurer unverbindlichen Anfrage suchen wir die passenden akademischen Experten für Euch aus unserer Datenbank an 2400 akademischen Experten raus, kontaktieren diese und wählen einen Haupt-Ghostwriter, einen Ersatz-Ghostwriter und einen Lektoren aus Eurem Fachbereich. Kriterien bei dieser Wahl sind die akademische Expertise dieser Personen in Eurem Fachbereich, unsere Erfahrung aus der Zusammenarbeit mit diesen akademischen Experten und ihr internes Ranking durch unser Team. Mit diesen Personen besprechen wir Euer Projekt, schätzen den benötigten Aufwand ab und handeln das Honorar für das Ghostwriting und Termine für mögliche Teillieferungen (falls nicht bereits durch Euch vorgegeben) aus. In der Regel dauert dies nicht mehr als 3-6 Stunden. In Ausnahmefällen dauert dies bis zu 48 Stunden. Anschließend erhaltet Ihr ein unverbindliches und individuelles Angebot für das akademische Ghostwriting von uns zugesendet. Das Angebot versteht sich als Festpreis, versteckte Kosten kommen nicht auf Euch zu.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: '3. Auftragserteilung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sobald Ihr Euch dazu entscheidet das Angebot von GWriters anzunehmen, beginnt der akademische Autor mit der Bearbeitung des Auftrages und der initialen '
+                  -
+                    type: text
+                    marks:
                       -
-                        type: table_cell
+                        type: link
                         attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'im Preis inklusive'
+                          href: /blog/literaturrecherche-datenbanken-quellen
+                          target: null
+                          rel: null
+                    text: Literaturrecherche
+                  -
+                    type: text
+                    text: '. Zu diesem Zeitpunkt wird die erste Teilzahlung für den Ghostwriting-Auftrag fällig, die in der Anfragephase mit Euch vereinbart wurde. Im Laufe der Bearbeitung erhaltet Ihr zu vereinbarten Zeitpunkten Teillieferungen zu Eurem Projek. Bitte nutzt diese Teillieferungen um Euer Feedback und Änderungswünsche an den akademischen Ghostwriter zu äußern. Euer Feedback wird kostenfrei eingearbeitet.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: '4. Finale Auslieferung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Da auch unsere Ghostwriter nur Menschen sind und Menschen bekanntlich manchmal Fehler begehen, kann es auch vorkommen, dass sich einige kleine Fehler in die Ausarbeitung einschleichen. Deshalb wird die finale Ausarbeitung nach dem 4-Augen-Prinzip von einem zweiten akademischen Experten lektoriert und korrigiert. Zudem führt unser Team eine Plagiatsprüfung durch - damit Ihr Euch sicher sein könnt, dass es sich bei der Ausarbeitung tatsächlich um ein Unikat handelt. Die finale Auslieferung wird Euch in gewünschter Form, zum gewünschten Zeitpunkt und in gewünschter Qualität durch Euren Projektleiter zugesendet.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        single_col: false
+        grid:
+          -
+            bard:
               -
                 type: horizontal_rule
               -
@@ -743,23 +643,6 @@ replicator:
                     spacing_top: false
               -
                 type: horizontal_rule
-            show_as_card: false
-        type: row
-        enabled: true
-        single_col: false
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: true
-    is_full: false
-    type: add_section
-    enabled: true
-    border: false
-  -
-    columns_replicator:
-      -
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -836,9 +719,15 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single_col: false
         responsive_columns: 0
         columns_per_row: 0
+    remove_spacing: true
+    is_full: false
+    type: add_section
+    enabled: true
+    border: false
+  -
+    columns_replicator:
       -
         grid:
           -
@@ -937,7 +826,7 @@ replicator:
         single_col: false
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     type: add_section
     enabled: true
@@ -945,7 +834,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1666104262
+updated_at: 1666882741
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret!'
 meta_description: 'Was ist Ghostwriting? Akademische Ghostwriter schreiben & Sie erhalten alle Nutzungsrechte ✔️ professionelle Hilfe ✔️ 18.000 zufriedene Kunden seit 2012!'
 use_meta_keywords: false
