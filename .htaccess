@@ -161,3 +161,12 @@ Redirect 301 /lektorat/lektorat-service /lektorat
 Redirect 301 /faq/was-ist-ein-akademischer-ghostwriter /ghostwriter
 Redirect 301 /faq/was-ist-ein-ghostwriter /ghostwriter
 Redirect 301 /faq/was-ist-ghostwriting /ghostwriting
+
+#13888
+Redirect 301 /blog/ghostwriting-gwriters-teillieferungen /so-funktioniert-es
+Redirect 301 /blog/ghostwriter-probleme /ghostwriter
+Redirect 301 /blog/hausarbeit-formatieren /leistungen/formatierung
+Redirect 301 /blog/ghostwriting-plagiate /blog/plagiate-ghostwriting-legal
+Redirect 301 /blog/wissenschaftliche-arbeiten /blog/wissenschaftliches-arbeiten-regeln
+Redirect 301 /blog/akademisches-ghostwriting-gwriters /ghostwriting
+Redirect 301 /blog/ghostwriter-preise /preise
