@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1666915169
+updated_at: 1666952480
 replicator:
   -
     columns_replicator:
@@ -2215,7 +2215,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Kostet für akademische Ghostwriter'
+                    text: 'Kosten für akademische Ghostwriter'
               -
                 type: bullet_list
                 content:
