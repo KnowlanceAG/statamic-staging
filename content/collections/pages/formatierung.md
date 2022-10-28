@@ -427,6 +427,184 @@ replicator:
                           - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
                           - 9944d809-005e-4651-bf9b-5555f0229245
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 20
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        single_col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Hausarbeit formatieren'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Als Handreichung für Sie haben wir im Folgenden ein Tutorial Video erstellt, in dem wir für Sie die wichtigsten Aspekte der Formatierung von wissenschaftlichen Arbeiten erläutern. Wir verwenden hier das Beispiel einer Hausarbeit-Formatierung, diese Ratschläge lassen sich jedoch auf alle anderen Arten von wissenschaftlichen Arbeiten übertragen.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: video
+                    video: 'https://www.youtube.com/watch?v=5znG_lDSWRE'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: Zeilenabstand
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
+                    text: 'Ein simpler Punkt betrifft die Zeilenabstände im Text, diese müssen konsistent sein. Vorbereitung ist hier der Schlüssel zum Erfolg. So sollten Sie eine ordentliche Formatvorlage erstellen, im besten Fall wird diese bereits von Ihrer Hochschule bereitgestellt. Falls nicht, dann sollten Sie die Richtlinien zum Format der Hausarbeiten genau lesen und diese in Ihre eigene Formatvorlage einarbeiten.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: Seitenzahl
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
+                    text: 'Die Seitenzahlen haben je nach Hochschule jeweils eine andere Systematik. Häufig ist die Systematik folgende: Titelblatt ohne Seitenzahl, danach werden die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/verzeichnisse
+                          target: null
+                          rel: null
+                    text: Verzeichnisse
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
+                    text: ' mit römischen Seitenzahlen versehen und anschließend im normalen Textteil mit arabischen Seitenzahlen gearbeitet. Wichtig ist dabei, dass Absätze und Zeilenumbrüche richtig gesetzt werden und dementsprechend auch die Fußzeile anpasst wird.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: Seitenränder
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
+                    text: 'Wenn Sie eine Formatvorlage in ihrem Arbeitsprozess verwenden, dann sollten die Seitenränder kein problem darstellen. Halten Sie sich auch hier exakt an die Vorgaben Ihrer Universität, wenn Sie korrekt Ihre Hausarbeit formatieren möchten.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Word: automatisches Literaturverzeichnis nutzen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
+                    text: 'Wenn Kunden uns mit dem '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat
+                          target: null
+                          rel: null
+                    text: Lektorat
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
+                    text: ' ihrer Arbeit beauftragen, beobachten wir häufig, dass mit manuellen Quellen-Verweisen gearbeitet wird. Das heißt, dass die Quellen einfach in die Fußzeile manuell eingefügt wurden. Dafür gibt es entsprechende Tools in den gängigen Textverarbeitungsprogrammen, beispielsweise für die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/word-formatierung
+                          target: null
+                          rel: null
+                    text: 'Word Formatierung'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: justify
+                    text: '. Diese Tools sind neben dem automatischen Literaturverzeichnis auch automatische Abbildungs- und Inhaltsverzeichnisse. Die Einarbeitung mag zu Beginn etwas Zeit erfordern, lohnt sich aner im Nachhinein. Arbeiten Sie mit sogenannten dynamischen Verweisen oder eben den automatischen Verzeichnissen, denn diese erleichtern euch das wissenschaftliche Arbeiten  ungemein.'
             show_as_card: false
         type: row
         enabled: true
@@ -440,7 +618,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665567476
+updated_at: 1666879554
 meta_title: 'GWriters • Die Anleitung zur richtigen Formatierung Ihrer Hausarbeit'
 meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Formatierung: Leistungen, Kosten, Preise & Ablauf.'
 use_meta_keywords: false

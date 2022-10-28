@@ -323,6 +323,282 @@ replicator:
                 content:
                   -
                     type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                    text: 'Wichtigen Arbeiten & Fachbereiche'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: link_liste
+                    raster:
+                      -
+                        text: Arbeiten
+                        eintraege:
+                          - 425234fd-eb40-4dab-bb3d-95bbac5948eb
+                          - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
+                          - 99cd8e42-b21c-4cea-a162-a9454db2375f
+                          - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
+                          - 134ba799-3362-4166-86f7-bba4e992d7d7
+                          - b42eb586-1305-4faf-8d59-79e53ff91373
+                          - 5c6db140-ee4a-4a88-bf56-4153664421d4
+                          - b6ee03ca-ecab-4749-ade4-45ff821b748d
+                          - 5659593d-2756-4e9f-a5b3-b391103d9886
+                          - cb0a74d3-ed84-4dad-b3a7-c368aec13800
+                          - 2b55bfe7-06df-4e71-86da-152e256904ec
+                          - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
+                          - 68b88fd1-ec03-4ea8-9292-431555e47744
+                          - 52f5092f-800b-4742-8636-a840b9ab1ddb
+                          - 2931f444-5e22-4860-8f40-a41821377b93
+                      -
+                        text: Fachrichtungen
+                        eintraege:
+                          - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
+                          - 9944d809-005e-4651-bf9b-5555f0229245
+                          - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
+                          - a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
+                          - 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
+                          - 4476be29-c55a-45b7-ac4a-0e300dfdb8b6
+                          - 522e26b9-451d-43a8-a204-2e0f75b87f4b
+                          - 45680fad-6f7a-437f-88c2-23e0bc080818
+                          - 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
+                          - d72509d7-bb3a-40dd-a757-3317732e2a57
+                          - dc0c7edd-0724-4454-9525-49b8f9065f16
+                          - 1363a62f-c0e9-4dba-aa09-d331c4fa8260
+                          - a9561621-8360-4ecf-855c-753f4a217c5a
+                          - 84a37239-87ee-45fb-b2d1-058a86fecfbb
+                          - f501c52c-7217-448e-bb53-d6f84c7e51c8
+                          - 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
+                          - 051a1060-2c31-4edd-af39-c44fe3842526
+                          - 21aff10c-582a-440f-9f50-1af525566292
+                          - 925eedca-5fbe-4da9-a307-807426feaeeb
+                          - f07c0010-40dd-407e-bf32-a1a260b5016b
+                          - b8930678-fff6-4d7a-8ae8-056605f303f2
+                          - 06fbb3f4-51c2-4f11-832e-9b72a495857d
+                          - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
+                          - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
+                          - 34f7528d-839e-4ef6-b735-627084dba887
+                          - 1de3d76b-f23a-41a8-a629-15b48a07223e
+                          - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
+                          - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
+                          - 839e6791-eebd-4bc8-8975-a278836a9c05
+                          - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
+                          - b850974c-8d2d-4448-b168-3dccef384025
+                          - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
+                          - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(25, 41, 47)'
+                          hex: '#000'
+                    text: 'Akademisches Ghostwriting - Wie läuft es bei GWriters ab?'
+            show_as_card: false
+        type: row
+        enabled: true
+        single_col: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        columns_per_row: 2
+        single_col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: '1. Unverbindliche Anfrage'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im ersten Schritt sendet Sie alle uns relevanten Informationen zu Ihrem Projekt über '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unser Anfrageformular'
+                  -
+                    type: text
+                    text: ', per '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'tel:##phone##'
+                          target: null
+                          rel: null
+                    text: Telefon
+                  -
+                    type: text
+                    text: ' oder per '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'mailto:##email##'
+                          target: null
+                          rel: null
+                    text: E-Mail
+                  -
+                    type: text
+                    text: ' zu. Anhand dieser Informationen wählen wir den passenden '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: 'akademischen Ghostwriter'
+                  -
+                    type: text
+                    text: ' und einen Supervisor bzw. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /lektorat/lektor
+                          target: null
+                          rel: null
+                    text: Lektoren
+                  -
+                    type: text
+                    text: ' für Ihr Projekt aus unserer Datenbank aus. Kriterien bei dieser Wahl sind die akademische Expertise dieser Personen in Eurem Fachbereich, unsere Erfahrung aus der Zusammenarbeit mit diesem Ghostwriter und dessen internes Ranking durch unser Team. Je spezifischer Sie bei Ihrer Anfrage sind, umso besser können unsere Kundenberater Ihrer Anforderungen definieren und die richtigen akademischen Experten für Ihr Projekt auswählen.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: '2. Kostenloses Angebot'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Nach der Auswahl des besten Ghostwriters für Sie diskutieren wir mit diesem Ihr Projekt im Detail und schätzen so den benötigten Aufwand ein. Zudem erstellen wir bereits einen vorläufigen Ablaufplan für Ihr Projekt und legen mögliche Teillieferungstermine fest. In der Regel dauert dies nicht mehr als 2 Stunden. In Ausnahmefällen dauert dies bis zu 48 Stunden. In solchen Fällen werden wir Sie aber vorab kontaktieren und Sie um etwas Geduld bitten, während wir durch eine genaue Einschätzung sicherstellen, dass es keine nachträglichen Überraschungen gibt. Anschließend erhalten Sie ein unverbindliches und individuelles Angebot für das akademische Ghostwriting von uns. Das Angebot versteht sich als Festpreis, versteckte Kosten gibt es nicht - das garantieren wir!'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: '3. Auftragserteilung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sobald Sie sich dazu entscheiden, unser Angebot anzunehmen, beginnt Ihr akademische Autor mit der Bearbeitung des Auftrages und der initialen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/literaturrecherche-datenbanken-quellen
+                          target: null
+                          rel: null
+                    text: Literaturrecherche
+                  -
+                    type: text
+                    text: '. Wenn Sie damit einverstanden sind, vereinbaren wir zu Auftragsbeginn eine initiale Telefonkonferenz. Zu diesem Zeitpunkt wird außerdem die erste Teilzahlung für den Ghostwriting-Auftrag fällig, die in der Anfragephase mit Ihnen vereinbart wurde. Im Laufe der Bearbeitung erhalten Sie dann zu vereinbarten Zeitpunkten Teillieferungen zu Ihrem Projekt. Bitte nutzen Sie diese Teillieferungen, um Ihr Feedback und Änderungswünsche an den akademischen Ghostwriter zu äußern. Ihr Feedback wird natürlich kostenfrei eingearbeitet.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: '4. Finale Auslieferung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Vor der Abschlusslieferung an Sie wird die finale Ausarbeitung nach dem 4-Augen-Prinzip von einem zweiten akademischen Experten lektoriert und korrigiert, sodass selbst kleinste Fehler oder Ungenauigkeiten ausgeschlossen werden. Zudem führt unser Team eine Plagiatsprüfung durch - damit Sie sich sicher sein können, dass es sich bei der für Sie individuell erstellten Ausarbeitung tatsächlich um ein Unikat handelt. Die finale Auslieferung wird Ihnen in gewünschter Form, zum gewünschten Zeitpunkt und in gewünschter Qualität durch Ihren persönlichen Projektmanager zugesendet.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        single_col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    spacing_top: false
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
                     text: 'Unsere Leistungen auf einen Blick'
               -
                 type: set
@@ -481,449 +757,6 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Über uns & unseren Service'
-              -
-                type: table
-                content:
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Telefonnummer
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: '+49 (0) 30 809 332 339'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'E-Mail Adresse'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: info@gwriters.de
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Webseite
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: gwriters.de
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Leistung
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: Ghostwriting
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: 'Kosten & Preise'
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'ab 80€ pro Seite'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: "100% Anonymität \_\_"
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'vertraglich garantiert'
-                  -
-                    type: table_row
-                    content:
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth: null
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                marks:
-                                  -
-                                    type: bold
-                                text: Supervisor
-                      -
-                        type: table_cell
-                        attrs:
-                          colspan: 1
-                          rowspan: 1
-                          colwidth:
-                            - 331
-                          background: null
-                        content:
-                          -
-                            type: paragraph
-                            content:
-                              -
-                                type: text
-                                text: 'im Preis inklusive'
-              -
-                type: horizontal_rule
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    spacing_top: false
-              -
-                type: horizontal_rule
-            show_as_card: false
-        type: row
-        enabled: true
-        single_col: false
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: true
-    is_full: false
-    type: add_section
-    enabled: true
-    border: false
-  -
-    columns_replicator:
-      -
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: 'Wichtigen Arbeiten & Fachbereiche'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: link_liste
-                    raster:
-                      -
-                        text: Arbeiten
-                        eintraege:
-                          - 425234fd-eb40-4dab-bb3d-95bbac5948eb
-                          - 5c64ba80-4fb2-4d8e-bff7-27f6d912fb22
-                          - 99cd8e42-b21c-4cea-a162-a9454db2375f
-                          - d6ded6ab-aa50-4da5-8d05-d8e5cb8330b6
-                          - 134ba799-3362-4166-86f7-bba4e992d7d7
-                          - b42eb586-1305-4faf-8d59-79e53ff91373
-                          - 5c6db140-ee4a-4a88-bf56-4153664421d4
-                          - b6ee03ca-ecab-4749-ade4-45ff821b748d
-                          - 5659593d-2756-4e9f-a5b3-b391103d9886
-                          - cb0a74d3-ed84-4dad-b3a7-c368aec13800
-                          - 2b55bfe7-06df-4e71-86da-152e256904ec
-                          - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
-                          - 68b88fd1-ec03-4ea8-9292-431555e47744
-                          - 52f5092f-800b-4742-8636-a840b9ab1ddb
-                          - 2931f444-5e22-4860-8f40-a41821377b93
-                      -
-                        text: Fachrichtungen
-                        eintraege:
-                          - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
-                          - 9944d809-005e-4651-bf9b-5555f0229245
-                          - 9232eaf7-a636-467d-9699-5e34e4a7c4a9
-                          - a8ea4ded-d453-4bd5-94e7-2249ccf8f0de
-                          - 1bcd3fce-dda5-4bdb-9752-44e657ae9eb0
-                          - 4476be29-c55a-45b7-ac4a-0e300dfdb8b6
-                          - 522e26b9-451d-43a8-a204-2e0f75b87f4b
-                          - 45680fad-6f7a-437f-88c2-23e0bc080818
-                          - 6289a93f-9eb2-4372-9d3b-b7c28a5cfb5f
-                          - d72509d7-bb3a-40dd-a757-3317732e2a57
-                          - dc0c7edd-0724-4454-9525-49b8f9065f16
-                          - 1363a62f-c0e9-4dba-aa09-d331c4fa8260
-                          - a9561621-8360-4ecf-855c-753f4a217c5a
-                          - 84a37239-87ee-45fb-b2d1-058a86fecfbb
-                          - f501c52c-7217-448e-bb53-d6f84c7e51c8
-                          - 28557c4d-68d4-424e-8bfd-c6f2c3306e8a
-                          - 051a1060-2c31-4edd-af39-c44fe3842526
-                          - 21aff10c-582a-440f-9f50-1af525566292
-                          - 925eedca-5fbe-4da9-a307-807426feaeeb
-                          - f07c0010-40dd-407e-bf32-a1a260b5016b
-                          - b8930678-fff6-4d7a-8ae8-056605f303f2
-                          - 06fbb3f4-51c2-4f11-832e-9b72a495857d
-                          - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
-                          - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
-                          - 34f7528d-839e-4ef6-b735-627084dba887
-                          - 1de3d76b-f23a-41a8-a629-15b48a07223e
-                          - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
-                          - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
-                          - 839e6791-eebd-4bc8-8975-a278836a9c05
-                          - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
-                          - b850974c-8d2d-4448-b168-3dccef384025
-                          - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
-                          - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
-            show_as_card: false
-        type: row
-        enabled: true
-        single_col: false
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Wie wird mein akademischer Ghostwriter bei GWriters ausgewählt?'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: video
-                    video: 'https://youtu.be/24E4sRsn8CA'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Weitere Videos:'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: /blog/akademisches-ghostwriting-gwriters
-                                  target: null
-                                  rel: null
-                            text: 'Akademisches Ghostwriting - Wie läuft es bei GWriters ab?'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: /blog/ghostwriter-auftrag-tipps
-                                  target: null
-                                  rel: null
-                            text: 'Tipps für einen erfolgreichen Ghostwriter Auftrag'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: /so-funktioniert-es
-                                  target: null
-                                  rel: null
-                            text: 'Wie entsteht ein Ghostwriter-Angebot bei GWriters?'
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
                     text: Disclaimer
               -
                 type: paragraph
@@ -931,21 +764,37 @@ replicator:
                   -
                     type: text
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Relevant Blogartikel & Videos zum Thema Ghostwriting'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: blog_entries
+                    entries:
+                      - 24ba331e-8f49-4a91-a310-dd85b6281939
+                      - 6711bbb6-53ac-47dd-a424-b9b451d428e0
+                      - 0b2874ff-e8dc-484e-879e-0a86a1c86747
             show_as_card: false
         type: row
         enabled: true
-        single_col: false
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     type: add_section
     enabled: true
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
-template: with-side-bar
+template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1666104262
+updated_at: 1666885309
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret!'
 meta_description: 'Was ist Ghostwriting? Akademische Ghostwriter schreiben & Sie erhalten alle Nutzungsrechte ✔️ professionelle Hilfe ✔️ 18.000 zufriedene Kunden seit 2012!'
 use_meta_keywords: false

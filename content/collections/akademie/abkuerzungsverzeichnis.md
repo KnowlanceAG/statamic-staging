@@ -97,6 +97,12 @@ replicator:
                   hex: '#000'
             text: 'Damit Ihre wissenschaftliche Abschlussarbeit nicht aufgrund von Abkürzungen missverstanden wird und Ihre Aufarbeitung den vorgegebenen Richtlinien nachkommt, beinhalten Abschlussarbeiten häufig ein Abkürzungsverzeichnis.'
       -
+        type: set
+        attrs:
+          values:
+            type: video
+            video: 'https://youtu.be/yq8cS1V2VAo'
+      -
         type: paragraph
         content:
           -
@@ -186,7 +192,9 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Wussten Sie eigentlich, dass Sie prinzipiell Ihre eigenen Abkürzungen einbringen dürfen? Diese Aussage ist allerdings nur teilweise korrekt. In der Regel sind nur nachweisliche Abkürzungen angebracht, außer die wissenschaftlichen Arbeit legt eine neue Erfindung wissenschaftlich dar. Mehr dazu erfahren alle Interessierten, die sich mit unserer kostenfreien Abkürzungsverzeichnis Vorlage befassen.'
+            text: 'Wussten Sie eigentlich, dass Sie prinzipiell Ihre eigenen Abkürzungen einbringen dürfen? Diese Aussage ist allerdings nur teilweise korrekt. In der Regel sind nur nachweisliche Abkürzungen angebracht, außer die wissenschaftlichen Arbeit legt eine neue Erfindung wissenschaftlich dar. Mehr dazu erfahren alle Interessierten, die sich mit unserer kostenfreien Abkürzungsverzeichnis Vorlage befassen.#'
+      -
+        type: paragraph
       -
         type: heading
         attrs:
@@ -209,7 +217,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1646389289
+updated_at: 1666780267
 academy_short_text_headline: Abkürzungsverzeichnis
 academy_short_text: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel für Ihre Arbeit.'
 use_meta_keywords: false
@@ -218,8 +226,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 more_templates:
   - 8778439c-ea07-4542-9287-cb87e6074f6a
   - b609ef85-dc84-4405-93d0-1b92d92ca1a4
@@ -244,4 +250,5 @@ template: academy-item
 og_title: 'Kostenloses Abkürzungsverzeichnis für Ihre Hausarbeit herunterladen'
 og_description: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel. Unsere professionelle Verzeichnisvorlage, nur einen Klick entfernt! ↘️↘️↘️'
 og_image: GWriters-Logo.png
+published: true
 ---
