@@ -9,4 +9,3 @@ The CPSSG addon is capable of generating files for different vhosts.
 Responsive image file variants are going to be spared from being generated with every ssg run. They will permanently reside outside of the deployment folder and copied into it just in time.
 
 v2.33.1
-test
