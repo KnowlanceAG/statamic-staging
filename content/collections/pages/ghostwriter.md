@@ -2290,7 +2290,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single_col: false
+        single_col: true
         responsive_columns: 0
       -
         columns_per_row: 3
@@ -2501,7 +2501,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single_col: false
+        single_col: true
         responsive_columns: 0
       -
         single_col: true
@@ -2771,7 +2771,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single_col: false
+        single_col: true
         responsive_columns: 0
       -
         columns_per_row: 3
@@ -3012,7 +3012,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single_col: false
+        single_col: true
         responsive_columns: 0
       -
         single_col: true
@@ -3407,7 +3407,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1666106053
+updated_at: 1667221524
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
