@@ -3,7 +3,7 @@ id: 8e94ca0e-e5de-46b9-908e-d086cd76f0c8
 blueprint: pages
 title: Datenschutzerklärung
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665571821
+updated_at: 1667220526
 page_title: 'GWriters • Datenschutzerklärung'
 meta_title: 'GWriters • Datenschutzerklärung'
 meta_description: 'Unsere Datenschutzerklärung. GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
@@ -3402,6 +3402,62 @@ replicator:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
             text: 'Wenn Sie die Cookies auf Ihrem Rechner löschen, müssen Sie den Opt-Out-Cookie erneut setzen.'
+      -
+        type: heading
+        attrs:
+          level: 3
+        content:
+          -
+            type: text
+            text: '11.4 Google Optimize'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Wir verwenden auf unserer Website Google Optimize, in Website-Optimierungstool. Dienstanbieter ist das amerikanische Unternehmen Google Inc. Für den europäischen Raum ist das Unternehmen Google Ireland Limited (Gordon House, Barrow Street Dublin 4, Irland) für ale Google-Dienste verantwortlich. Google verarbeitet Daten von Ihnen .a. auch in den USA. Wir weisen darauf hin, dass nach Meinung des Europäischen Gerichtshofs derzeit kin angemessenes Schutzniveau für den Datentransfer in die USA besteht. Dies kann mit verschiedenen Risiken für die Rechtmäßigkeit und Sicherheit de Datenverarbeitung einhergehen. Als Grundlage der Datenverarbeitung bei Empfängern mit Sit in Drittstaaten (außerhalb der Europäischen Union, Island, Liechtenstein, Norwegen, also insbesondere in den USA) oder einer Datenweitergabe dorthin verwendet Google sogenannte Standardvertragsklauseln (=Art. 46. Abs. 2 und 3 DSGVO). Standardvertragsklauseln (Standard Contractual Clauses SCC) sind von der EU-Kommission bereitgestellte Mustervorlagen und sollen sicherstellen, dass Ire Daten auch dann den europäischen Datenschutzstandards entsprechen, wenn diese in Drittländer (wie beispielsweise in die USA) überliefert und dort gespeichert werden. Durch diese Klauseln verpflichtet sich Google, bei der Verarbeitung Ihrer relevanten Daten, das europäische Datenschutzniveau einzuhalten, selbst wen die Daten in den USA gespeichert, verarbeitet und verwaltet werden. Diese Klauseln basieren auf einem Durchführungsbeschluss der EU-Kommission. Sie finden den Beschluss und die entsprechenden Standardvertragsklauseln u.a hier: '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj?locale=de'
+                  target: _blank
+                  rel: 'noopener noreferrer'
+            text: 'https://eur-lex.europa.eu/eli/dec_impl/2021/914/oj?locale=de'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Die Google Ads Datenverarbeitungsbedingungen (Google Ads Data Processing Terms),welche af die Standardvertragsklauseln verweisen, finden Sie unter '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://business.safety.google/intI/de/adsprocessorterms/'
+                  target: _blank
+                  rel: 'noopener noreferrer'
+            text: 'https://business.safety.google/intI/de/adsprocessorterms/'
+          -
+            type: text
+            text: '. Mehr über die Daten, die durch die Verwendung von Google Optimize verarbeitet werden, erfahren Sie in dr Privacy Policy auf '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://policies.google.com/privacy?hI=de'
+                  target: _blank
+                  rel: 'noopener noreferrer'
+            text: 'https://policies.google.com/privacy?hI=de'
+          -
+            type: text
+            text: .
       -
         type: heading
         attrs:
