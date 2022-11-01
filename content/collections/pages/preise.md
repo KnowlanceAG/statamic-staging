@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1667309099
+updated_at: 1667309742
 replicator:
   -
     columns_replicator:
@@ -2070,6 +2070,88 @@ replicator:
                   -
                     type: text
                     text: 'Sollten Sie nicht selbst eine Änderung des Auftragsumfangs wünschen, erwarten Sie keine weiteren Kosten für unseren Ghostwriting-Service. Das versprechen wir Ihnen!'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Akademische Ghostwriter Kosten und Qualität'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Auf dem deutschsprachigen Anbietermarkt für populärwissenschaftliches und fachwissenschaftliches (akademisches) Ghostwriting hat sich in den zurückliegenden Jahren die Einsicht durchgesetzt, dass Kostentransparenz, Kundenorientierung und hochwertiger Service in der Betreuung die Schlüsselfaktoren für Glaubwürdigkeit sind.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Seriöse Anbieter sind üblicherweise daran zu erkennen, dass sie ein umfangreiches und solides Leistungsspektrum '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: italic
+                    text: 'rund um die Texterstellung anbieten, eine '
+                  -
+                    type: text
+                    text: 'gute Übersicht über ihre Kostenkalkulation '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: italic
+                    text: 'gewähren und die '
+                  -
+                    type: text
+                    text: 'persönliche Auftragsbetreuung über den gesamten Projektzeitraum sicherstellen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Demgegenüber werben zahlreiche Ghostwriting-Einzelanbieter und Agenturen mit „kostengünstigen“ Offerten für das Ghostwriting, bei denen die Preise für die Seitenzahlen teilweise unter 50 Euro liegen. Sowohl Branchenbeobachter als auch die Freelancer-Szene stehen diesen Angeboten ausgesprochen skeptisch gegenüber. Zum einen ist bei diesen sogenannten Billiganbietern davon auszugehen, dass die beauftragten Leistungen (Ghostwriting) nicht individuell durch professionelle und versierte Autoren, sondern über Copy-and-paste-Verfahren bzw. Textbausteine erbracht werden. Hier besteht folglich die Gefahr des vordergründig verdeckten '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/plagiatspruefung
+                          target: null
+                          rel: null
+                    text: Plagiats
+                  -
+                    type: text
+                    text: .
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zum anderen weisen Ausschreibungen, bei denen Autoren mit dem kostengünstigsten Angebot den Zuschlag erhalten, auf Niedriglohnstrategien seitens der beauftragenden Ghostwriting-Agentur. In dieser Kostenkalkulation liegt eine auf Dauer qualitätsbeeinträchtigende Strategie, da davon auszugehen ist, dass die Autoren nicht ausreichend Anreize haben, qualitativ hochwertige Produkte und Leistungen zu erbringen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Auffällig niedrige Kosten für akademisches Ghostwriting sollten Kunden zu Vorsicht gegenüber diesen Angeboten veranlassen! Hier sind in jedem Fall qualitative Abstriche in Hinsicht auf die erstellten Texte sowie die Serviceleistungen zu erwarten, wenn nicht sogar '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /achtung-ghostwriter-betrug
+                          target: null
+                          rel: null
+                    text: Ghostwriter-Betrug
+                  -
+                    type: text
+                    text: .
               -
                 type: heading
                 attrs:
