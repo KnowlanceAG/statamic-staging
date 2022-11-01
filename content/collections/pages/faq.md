@@ -176,6 +176,159 @@ replicator:
         content:
           -
             type: text
+            text: 'Wie wird man akademischer Ghostwriter?'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Die Berufsbezeichnung "'
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  target: _blank
+                  rel: 'noopener noreferrer'
+            text: Ghostwriter
+          -
+            type: text
+            text: '" ist nicht geschützt, theoretisch kann sich daher jeder so nennen. Allerdings gelten für Ghostwriter, die mit unserer Agentur zusammenarbeiten wollen, einige strenge Auswahlkriterien, da wir uns auf die hochwertige Erstellung und Überarbeitung von fachspezifischen und wissenschaftlichen Texten spezialisiert haben.'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Wer kann akademischer Ghostwriter werden? Was muss man mitbringen?'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Formal müssen Bewerber über mindestens zwei Hochschulabschlüsse verfügen, eine hohe fachliche Expertise in ihrem präferierten Forschungsgebiet vorweisen und natürlich auch ohne jegliche Schwierigkeiten hochwertige Texte zu komplexen Fragestellungen erstellen können. Ob jemand allerdings wirklich in der Lage ist den qualitativen Erwartungen unserer Kunden gerecht zu werden, wird im Einzelfall entschieden.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /blog/bewerbung-ghostwriter-gwriters
+                  target: _blank
+                  rel: 'noopener noreferrer'
+            text: 'Im Bewerbungsprozess'
+          -
+            type: text
+            text: ' werden nicht nur die eigereichten Unterlagen, sondern auch bereits durch den Bewerber erstellte wissenschaftliche Texte und Publikationen auf "Herz und Niere" geprüft. Selbst nach Erhalt des Autorenvertrages und der erfolgreichen Kooperation mit uns endet dieser "Bewerbungsprozess" prinzipiell nicht, da jeder erstellte Text vor der Übergabe an unsere Kunden von einem Supervisor aus dem Fachgebiet inhaltlich und stilistisch überprüft, intern bewertet und anhand moderner Plagiatssoftware überprüft wird.'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'In den Jahren seit Guttenberg standen akademische Ghostwriter oft in negativem Licht. Wie gehen Sie damit um?'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Durch '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /ghostwriting/guttenberg-ghostwriter
+                  target: _blank
+                  rel: 'noopener noreferrer'
+            text: Guttenberg
+          -
+            type: text
+            text: ', andere bekannte politische Plagiatsaffären und die anschließenden Debatten wurde die Öffentlichkeit, merkwürdigerweise, erst auf das Phänomen "akademisches Ghostwriting" aufmerksam. Allerdings kann man nicht oft genug sagen, dass es sich bei Guttenberg, Schavan, etc. um die Aufdeckung umfangreicher Plagiieren, also den Raub fremden geistigen Eigentums, handelte und nicht um die Erstellung dieser Doktorarbeiten durch Dritte! Zugegebenermaßen wurde GWriters aber aufgrund glücklichen Timings durch verschiedene '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /presse/page/1
+                  target: null
+                  rel: null
+            text: 'Beiträge in den Medien'
+          -
+            type: text
+            text: ' während dieser Zeit schnell als Anbieter von seriösem Ghostwriting bekannt und hat damit von diesen Fällen profitiert. Von negativen Auswirkungen durch den "Fall Guttenberg" können wir daher nicht berichten.'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Einige Studenten und Doktoranden lassen sich von Ghostwritern bei ihren wissenschaftlichen Arbeiten helfen. Wie gehen Sie mit diesen ethischen und moralischen Fragen um?'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.zeit.de/zustimmung?url=https%3A%2F%2Fwww.zeit.de%2F2012%2F34%2FC-Abschreibestudie-Interview-Sattler'
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
+            text: 'Studien des Bundesbildungsministeriums'
+          -
+            type: text
+            text: ' zeigen, dass 79% aller Studenten im Studium bereits geschummelt haben, jeder fünfte Student hat bereits mindestens ein Plagiat abgegeben. Trotz dieser weit verbreiteten "Schummelkultur" wird gerade das akademische Ghostwriting und seine Inanspruchnahme oftmals als moralisch zweifelhaft dargestellt. Unsere Erfahrung zeigt allerdings, dass die öffentlich vertretene Meinung sich zumeist nicht mit dem tatsächlichen persönlichen Handeln deckt. Weder unsere Kunden, noch die für uns arbeitenden akademischen Ghostwriter, übrigens manchmal selbst Mitarbeiter von Hochschulen, empfinden die von GWriters betreuten Projekte als moralisch verwerflich. Weiterhin muss man feststellen, dass viele „hochrangige” Wissenschaftler und Professoren nicht über die Expertise in der Vermittlung von Wissen verfügen, die sie vorgeben zu haben und ihre eigene Karriere auf den Leistungen Dritter, z.B. ihrer wissenschaftlichen Mitarbeiter oder Doktoranden aufgebaut haben. Warum wir der Meinung sind, dass akademisches Ghostwriting der Wissenschaft nicht schadet, erfahren Sie '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.youtube.com/watch?v=Dt4Lv6zcGpI'
+                  target: _blank
+                  rel: 'noopener noreferrer nofollow'
+            text: 'in diesem Videobeitrag des GWriters-Gründers Marcel Kopper'
+          -
+            type: text
+            text: .
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Abschließend kann man sagen, dass uns die gesellschaftliche Grundhaltung nicht wirklich tangiert, wichtig ist die '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.provenexpert.com/gwriters/'
+                  target: _blank
+                  rel: 'noopener noreferrer'
+            text: 'Zufriedenheit unserer Kunden'
+          -
+            type: text
+            text: ', wer immer diese auch sein mögen.'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
             marks:
               -
                 type: textAlign
@@ -296,6 +449,98 @@ replicator:
                   target: null
                   rel: null
             text: 'Mehr lesen…'
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Ist das Ghostwriting eine Grauzone?'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Die Ghostwriting Tätigkeit als solche existiert seit der Erfindung der Schrift und ist natürlich vollkommen legal. Dies gilt auch '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /leistungen
+                  target: _blank
+                  rel: 'noopener noreferrer'
+            text: 'für unsere anderen Leistungen'
+          -
+            type: text
+            text: ' wie das Coaching, '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /lektorat
+                  target: null
+                  rel: null
+            text: Lektorat
+          -
+            type: text
+            text: ' & '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /korrektorat
+                  target: null
+                  rel: null
+            text: Korrektorat
+          -
+            type: text
+            text: ' und die Erstellung jeglicher Art von Texten. Entgegen aller in der Öffentlichkeit oft kolportierter Meinungen sind sowohl das Angebot, als auch die Inanspruchnahme der akademischen Texterstellung („akademisches Ghostwriting“) strafrechtlich irrelevant.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Entscheidend ist die Frage nach der Einreichung einer prüfungsrelevanten Arbeit. Sollte ein Student tatsächlich einen nicht selbst erstellten Text als seine eigenhändig gefertigte Arbeit einreichen und die von Studierenden oft geforderte eidesstattliche Erklärung darüber unterzeichnen, liegt eine sogenannte „schriftliche Lüge” vor. Auch diese ist an sich nicht strafbar, kann jedoch, nach dem Hochschulgesetz, zu Folgen wie dem disziplinarischen Verfahren oder einem Ausschluss vom Studium führen.'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Daher weisen wir unsere Kunden ausdrücklich darauf hin, sich an die jeweiligen Prüfungsordnungen der Hochschulen und das Hochschulgesetz zu halten und die von uns geschriebenen Texte als Manuskripte bzw. Lösungsvorschläge anzusehen. Die Kontrolle der Einhaltung der vorgenannten Regelungen & Gesetze gehört allerdings nicht zu unseren Aufgaben, sehr wohl jedoch die Lieferung von hochwertigen und plagiatsfreien Arbeiten. Detaillierte Informationen dazu, aktuelle Rechtsurteile und eine ausführliche 10-seitige juristische Bewertung finden Sie '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: /faq/ghostwriting-strafbar
+                  target: _blank
+                  rel: 'noopener noreferrer'
+            text: hier
+          -
+            type: text
+            text: .
+      -
+        type: heading
+        attrs:
+          level: 2
+        content:
+          -
+            type: text
+            text: 'Wer wendet sich durchschnittlich am häufigsten an GWriters?'
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Den überwiegenden Teil unserer Kunden bilden Studenten. Darüber hinaus betreuen wir vom Großkonzern über Verlage, Lehrinstitute oder Betreiber von Webseiten mit wissenschaftlichem Fokus eine bunt gemischte Kundengruppe.'
       -
         type: heading
         attrs:
@@ -1187,7 +1432,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656511919
+updated_at: 1667311816
 template: without-teaser-with-sidebar
 use_meta_keywords: false
 no_index_page: false
@@ -1195,8 +1440,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'FAQ • Fragen und Antworten zu unserem Ghostwriting Service'
 meta_title: 'FAQ • Fragen und Antworten zu unserem Ghostwriting Service'
 meta_description: 'Alle Antworten zu Fragen über Ghostwriting oder wie Sie eine Mustervorlage für Ihre Bachelorarbeit oder Masterarbeit schreiben lassen können.'
@@ -1204,4 +1447,5 @@ og_title: 'FAQ • Fragen und Antworten zu unserem Ghostwriting Service'
 og_description: 'Alle Antworten zu Fragen über Ghostwriting oder wie Sie eine Mustervorlage für Ihre Bachelorarbeit oder Masterarbeit schreiben lassen können.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+published: true
 ---
