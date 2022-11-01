@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Porters Five Forces'
 size: 29927
 last_modified: 1667303927
 width: 1509
