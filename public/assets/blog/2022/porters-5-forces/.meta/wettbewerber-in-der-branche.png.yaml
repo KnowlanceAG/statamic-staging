@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Wettbewerbsintensität in der Branche'
 size: 5376
 last_modified: 1667305494
 width: 193
