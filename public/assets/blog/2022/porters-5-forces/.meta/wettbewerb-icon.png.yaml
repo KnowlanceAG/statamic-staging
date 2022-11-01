@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Bedrohung durch Wettbewerber'
 size: 5824
 last_modified: 1667304977
 width: 257
