@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1666952480
+updated_at: 1667309099
 replicator:
   -
     columns_replicator:
@@ -305,76 +305,75 @@ replicator:
                           hex: '#000'
                     text: 'Ghostwriter Kosten: Faktoren & Zusammensetzung'
               -
-                type: set
-                attrs:
-                  values:
-                    type: text_box_alignment
-                    bard:
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "In den vergangenen Jahren konnten wir reichhaltige Erfahrungen im\_"
+                  -
+                    type: text
+                    marks:
                       -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: "In den vergangenen Jahren konnten wir reichhaltige Erfahrungen im\_"
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: /ghostwriting
-                                  target: null
-                                  rel: null
-                            text: 'akademischen Ghostwriting'
-                          -
-                            type: text
-                            text: "\_sammeln. Deshalb sind wir uns bewusst, dass sowohl die Seriosität einer "
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: /ghostwriting/ghostwriting-agentur
-                                  target: null
-                                  rel: null
-                            text: 'Ghostwriting Agentur'
-                          -
-                            type: text
-                            text: ' als auch durchgängige Transparenz im Hinblick auf den Ghostwriting Service und die Preise für viele Kunden im Mittelpunkt stehen.'
-                          -
-                            type: hard_break
-                          -
-                            type: text
-                            text: 'Wenn Sie sich bei '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: /
-                                  target: null
-                                  rel: null
-                            text: GWriters
-                          -
-                            type: text
-                            text: " eine Mustervorlage für Ihre Hausarbeit, Seminararbeit, Bachelorarbeit oder\_"
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: link
-                                attrs:
-                                  href: /arbeiten/masterarbeit-schreiben-lassen
-                                  target: null
-                                  rel: null
-                            text: 'Masterarbeit schreiben lassen'
-                          -
-                            type: text
-                            text: ', erwartet Sie jederzeit höchste Qualität auf akademischem Niveau zu fairen Preisen. Dies garantieren wir durch unsere kompromisslose Qualitätssicherung, die selbstverständlich in jedem Preis-Angebot inklusive ist.'
-                    text_ausrichtung: text-left
-                    column_count: false
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: 'akademischen Ghostwriting'
+                  -
+                    type: text
+                    text: "\_sammeln. Deshalb sind wir uns bewusst, dass sowohl die Seriosität einer "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting/ghostwriting-agentur
+                          target: null
+                          rel: null
+                    text: 'Ghostwriting Agentur'
+                  -
+                    type: text
+                    text: ' als auch durchgängige Transparenz im Hinblick auf den Ghostwriting Service und die Preise für viele Kunden im Mittelpunkt stehen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie sich bei '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /
+                          target: null
+                          rel: null
+                    text: GWriters
+                  -
+                    type: text
+                    text: " eine Mustervorlage für Ihre Hausarbeit, Seminararbeit, Bachelorarbeit oder\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Masterarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: ', erwartet Sie jederzeit höchste Qualität auf akademischem Niveau zu fairen Preisen. Dies garantieren wir durch unsere kompromisslose Qualitätssicherung, die selbstverständlich in jedem Preis-Angebot inklusive ist.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Angemessene und faire Kostenkalkulationen für alle Arten von Ghostwriting gehören zu den tragenden Elementen unserer Unternehmensphilosophie. Die von seriösen und zuverlässigen Ghostwriter-Agenturen angestrebte Qualität zu fairen Preisen beruht darauf, dass keine Pauschalpreise verwendet werden, sondern die Ghostwriter Kosten für jeden Auftrag individuell kalkuliert werden. Differenzierte Serviceangebote stellen sicher, dass Sie als Kunde nur für das bezahlen, was Sie auch wirklich wünschen.'
             show_as_card: false
         type: row
         enabled: true
@@ -862,7 +861,7 @@ replicator:
   -
     columns_replicator:
       -
-        single_col: true
+        single_col: false
         grid:
           -
             bard:
@@ -881,7 +880,7 @@ replicator:
         columns_per_row: 0
       -
         columns_per_row: 4
-        single_col: true
+        single_col: false
         grid:
           -
             bard:
@@ -1077,7 +1076,7 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
-        single_col: true
+        single_col: false
         grid:
           -
             bard:
@@ -1140,7 +1139,7 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
-        single_col: true
+        single_col: false
         grid:
           -
             bard:
@@ -2029,7 +2028,7 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
-        single_col: true
+        single_col: false
         grid:
           -
             bard:
