@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Branchenstrukturanalyse Beispiel SAP'
 size: 10241
 last_modified: 1667309037
 width: 490
