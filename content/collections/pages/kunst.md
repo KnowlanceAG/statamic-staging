@@ -132,7 +132,7 @@ page_title: 'Kunst Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665655685
+updated_at: 1667312734
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -248,6 +248,25 @@ replicator:
                                 attrs:
                                   color: 'rgb(68, 68, 68)'
                                   hex: '#000'
+                            text: 'Wie kann ein Ghostwriter mich im Studium unterstützen?'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: textAlign
+                                attrs:
+                                  align: start
+                              -
+                                type: textColor
+                                attrs:
+                                  color: '#000!important'
+                                  hex: '#000'
                             text: 'Wann kann ich Kunst studieren?'
                   -
                     type: list_item
@@ -265,28 +284,9 @@ replicator:
                               -
                                 type: textColor
                                 attrs:
-                                  color: 'rgb(68, 68, 68)'
+                                  color: '#000!important'
                                   hex: '#000'
                             text: 'Was lernt man im Kunststudium?'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textAlign
-                                attrs:
-                                  align: start
-                              -
-                                type: textColor
-                                attrs:
-                                  color: 'rgb(68, 68, 68)'
-                                  hex: '#000'
-                            text: 'Wie kann ein Ghostwriter mich im Studium unterstützen?'
                   -
                     type: list_item
                     content:
@@ -865,44 +865,26 @@ replicator:
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Eine wesentliche Voraussetzung ist eine (Fach-) Hochschulreife und darüber hinaus ist natürlich auch ein gewisses künstlerisches Talent notwendig. Sie müssen in der Regel bei der Bewerbung an der Universität eine Bewerbungsmappe mit'
+                    text: 'Da die Anzahl der Studienplätze für das Studium der Kunst in der Regel stark begrenzt ist und nicht jeder für das Kunststudium geeignet ist, führen Hochschulen besondere und auf das jeweilige Hochschulprofil bezogene Eignungstests (Aufnahmeprüfung, Auswahltest) durch. Diese Test sollen die persönliche künstlerische Eignung unter Beweis stellen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Obligatorischer Bestandteil des künstlerischen Auswahltests ist neben einem gewissen künstlerischem Talent auch die persönliche Bewerbungsmappe mit '
                   -
                     type: text
                     marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
                       -
                         type: link
                         attrs:
                           href: /ghostwriting-beispielarbeiten
                           target: null
                           rel: null
-                    text: "\_Beispielarbeiten"
+                    text: Beispielarbeiten
                   -
                     type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: "\_vorlegen. Darüber hinaus wird ein Eignungstest zu Ihrer künstlerischen Fähigkeit überprüft."
+                    text: ', die querschnittartig die eigenen künstlerischen Arbeiten versammelt. Für die Vorbereitung bieten einige Hochschulen gesonderte Veranstaltungen an oder informieren in eigenen Kursen, Leitfäden und Handreichungen Basisinformationen über die an der Hochschule geltenden Erwartungshaltungen für die persönliche Mappe. An die Präsentation der Mappe schließen sich an den meisten Hochschulen in Deutschland, Österreich und der Schweiz ein- bis mehrtätige Prüfungstests (Eignungstests) an. Hier haben die Bewerber neben handwerkliche Fähigkeiten (Zeichnen, Gestalten können) auch ihre Motivation für das Studium der Kunst nachzuweisen.'
               -
                 type: paragraph
                 content:
@@ -1984,6 +1966,187 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Im Regelfall dauert ein Bachelorstudium 6 bis 8 Semester und ein Masterstudium, was darauf aufgesetzt werden kann, 4 Semester. Hier finden sich oft Vertiefungen im Bereich Kunst und Medien. Der Abschluss für ein Bachelor wird als Bachelor of Arts bezeichnet und für Master als Master of Arts.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Empfehlungen: Hochschularten und Studienarten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Für Hochschulzugangsberechtigte empfiehlt sich, im Vorfeld eines geplanten Kunststudiums die verschiedenen Profile, die künstlerische Ausrichtung und die Reputation der Kunsthochschulen und Akademien genauer anzusehen. Jede Akademie oder Hochschule verfolgt eigene Konzepte und setzt auf eine spezifische Profilbildung innerhalb des Studiums. Diese sollte zu den eigenen Bedürfnissen und künstlerischen Fähigkeiten passen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zur individuellen Vorprüfung des geeigneten Hochschulstandorts für das Kunststudium sollte auch gehören, ob der bevorzugte Studienstandort Projektstudium oder Klassenstudium anbietet. Während man im Projektstudium semesterweise ein neues Feld bearbeitet und erschließt, wird im Klassenstudium meist innerhalb einer Kunstform und ohne vorgegebenes Thema gearbeitet.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Studienrichtung im Kunststudium'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das Studium der Kunst wird üblicherweise an Hochschulen aufgenommen, die besondere Spezialisierungen für die Fachrichtung Kunst aufweisen oder teilweise eigenständige Kunsthochschulen wie Akademien für Bildende Künste anbieten. Neben den sogenannten Freien Künsten wie Malerei und Bildhauerei können auch die sogenannten angewandten Künste wie Design oder Produktgestaltung studiert werden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'In Deutschland, Österreich und der Schweiz ist das Studium der Kunst standortbezogen in unterschiedlichen Studiengängen möglich. Es umfasst'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Bachelorstudiengänge (Bachelor in Bildender Kunst), abgeschlossen mit der '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/bachelorarbeit-schreiben-lassen
+                                  target: null
+                                  rel: null
+                            text: Bachelorarbeit
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Diplomstudiengänge (Diplom Bildende Kunst), abgeschlossen mit der '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/diplomarbeit
+                                  target: null
+                                  rel: null
+                            text: Diplomarbeit
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Masterstudiengang (Master Bildende Kunst), abgeschlossen mit der '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /arbeiten/masterarbeit-schreiben-lassen
+                                  target: null
+                                  rel: null
+                            text: Masterarbeit
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'und das Lehramtsstudium (Künstlerisches Lehramt)'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Neben den Freien Künsten als Studienziel steht Hochschulzugangsberechtigten auch das Studium in Kunstgeschichte sowie in Kunsterziehung zur Auswahl.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Studienrichtung Freie Kunst'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das Studium der Freien Kunst befähigt dazu, als freier Künstler Kunstwerke zu schaffen wie beispielsweise Gemälde, Grafiken, Skulpturen oder Videoinstallationen. Im Studium an der Kunsthochschule liegen die Schwerpunkte entsprechend in der künstlerischen Ausbildung von Fertigkeiten und Wissen, gleichwertig jedoch auch in der Freigabe für eigene künstlerische Entwicklung. Neben Bibliotheken stellen Kunsthochschulen und Kunstakademien üblicherweise Atelierräume, Studios, Werkstätten, technische Ausstattungen und Materialien bereit, die der Unterstützung dieser praktischen künstlerischen Tätigkeit dienen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Ausbildung im Studienfach Freie Künste erfolgt in der Regel in einem Klassen-Verband. Durch diese Lernform soll sichergestellt werden, dass sich die künstlerische Entwicklung im engen Austausch mit Kommilitonen und Lehrenden vollzieht.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Neben dem Abschluss mit dem Bachelor of Arts und Master of Arts bieten einige Hochschulen auch den PhD (Doctor of Philosophy) für die Freie Kunst an.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Studienrichtung Angewandte Kunst'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im Studium der Angewandten Kunst gelten vergleichbare Schwerpunkte wie im Bereich der Freien Kunst, durch detailliert vorgeschriebene Lehrveranstaltungen ist das Studium allerdings stärker strukturiert und weniger auf die freie künstlerische Entwicklung ausgerichtet. Das Studium von Produktgestaltung oder Grafik-Design bereitet entsprechend auf bestimmte Berufsfelder wie Produktdesign vor. Hier lernen Studierende beispielsweise, wie Haushaltsgegenstände designt oder Bücher künstlerisch gestaltet werden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wie im Studium der Freien Kunst empfehlen Kunsthochschulen wie Akademien im Studienverlauf entweder einen Auslandsaufenthalt oder den (vorübergehenden) Wechsel der Universität.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Studienrichtung Kunsterziehung (Bildende Kunst)'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im Lehramtsstudiengang für Bildende Kunst lernen die Absolventen, wie Kunst methodisch und praxisbezogen unterrichtet wird. Hierzu wählen sie selbst einen Schwerpunkt aus der eigenen künstlerischen Arbeit aus und stellen einen Zusammenhang zu den einschlägigen Arbeitstechniken und didaktischen Überlegungen her. Sofern keine akademische Karriere als Hochschuldozent für Kunst angestrebt ist, geht es in der Kunsterziehung um die pädagogische und didaktische Vermittlung von Kunst im sozialen Kontext.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das Studium für Kunsterziehung setzt sich aus dem Hauptfach Kunsterziehung und einem Nebenfach zusammen. Der Studienabschluss erfolgt mit einer künstlerischen Prüfung (Erstes Staatsexamen).'
               -
                 type: heading
                 attrs:

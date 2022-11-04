@@ -130,7 +130,7 @@ page_title: 'Medizin Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665570256
+updated_at: 1667226541
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -351,7 +351,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: 'Unsere Freelancer und Ghostwriter der Medizin sind meist selbst Ärzte und kennen sich im jeweiligen Fachgebiet sehr gut aus. Sie werten Ergebnisse aus, beraten und coachen den Kunden bei der Erstellung der Dissertation oder unterstützen den Studenten bei einer Hausarbeit, Seminararbeit und anderen Abgaben.'
+                    text: 'Unsere Freelancer und Ghostwriter der Medizin sind meist selbst Ärzte und sind im jeweiligen Fachgebiet exzellent qualifiziert. Sie werten medizinische Forschungsdaten aus, beraten und coachen den Kunden bei der Erstellung der Dissertation oder unterstützen den Studenten bei einer Hausarbeit, Seminararbeit und anderen Abgaben.'
               -
                 type: heading
                 attrs:
@@ -595,6 +595,219 @@ replicator:
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
               -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Eine erfolgreiche medizinische Doktorarbeit anzufertigen ist eine nicht zu unterschätzende Herausforderung, vor allem, da viele Medizinstudenten ihre Doktorarbeit nebenberuflich verfassen. Ob es sich um die Planung, die Datenanalyse oder die Auswertung von Diagnosen handelt, jeder Teil der medizinischen Doktorarbeit hat wie jede andere wissenschaftliche Arbeit seine Besonderheiten und erfordert die korrekte wissenschaftliche Vorgehensweise. Daher greifen viele Medizinstudenten auf die Unterstützung von akademischen Experten zurück, sodass viele Ghostwriter Medizin als den Fachbereich für Ihre Spezialisierung wählen.'
+              -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    spacing_top: false
+              -
+                type: horizontal_rule
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Experimentelle Doktorarbeit für alle Forschungsbegeisterte'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Eine experimentelle Doktorarbeit bereitet Sie als Mediziner auf Ihre '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/hypothese-forschungsfrage
+                          target: null
+                          rel: null
+                    text: 'zukünftige Forschungsarbeit'
+                  -
+                    type: text
+                    text: ' vor, bei der Sie Daten im Labor anhand von Experimenten erheben und auswerten. Allerdings birgt diese Form der medizinischen Doktorarbeit den Nachteil, dass sie eine intensive Einarbeitung in die verschiedenen Labortechniken erfordert. GWriters unterstützt Sie in diesem Zusammenhang bei der experimentellen Planung sowie der Auswertung und Analyse von medizinischen Experimental-Daten.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Besonderheiten der klinischen Doktorarbeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei der sogenannten klinischen Doktorarbeit bieten sich Ihnen mehrere Möglichkeiten. Sie können mit retrospektiven Studien arbeiten, also mit bereits erhobenen Patientendaten, oder - noch spannender - eine prospektive Studie mit Patienten zusammen betreiben, in der Sie Daten selbst erheben und anschließend analysieren. Dies ist natürlich aufwändiger und mit einem hohen Zeiteinsatz verbunden, allerdings ist es auch eine hervorragende Möglichkeit, um bereits Erfahrung im klinischen Alltag zu sammeln. GWriters unterstützt Sie bei der Forschungsplanung, der Darstellung von Diagnosen oder auch bei der Auswertung von Patientendaten.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Statistik in der medizinischen Doktorarbeit - worauf müssen Sie achten?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn angehende Ärzte im Fachbereich der Medizin Doktorarbeiten schreib, ist zur Auswertung von Daten fast immer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/statistisch-arbeiten
+                          target: null
+                          rel: null
+                    text: Statistik
+                  -
+                    type: text
+                    text: ' involviert. Nicht immer ist eine Datenerhebung   durch den Doktoranden selbst notwendig, oft werden auch bestehende Datensätze konsolidiert und unter neuen Gesichtspunkten ausgewertet. Dies erfordert allerdings fundierte statistische Kenntnisse und auch ausreichend Erfahrung mit zumindest einem der gängigen Statistikprogramme wie SPSS, STATA oder R.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Regelmäßig beraten unsere medizinischen Experten von GWriters unsere Kunden bei der Planung und Umsetzung medizinischer Forschungsvorhaben mit statistischem Fokus. Nicht nur das Coaching ist eine Form, wie wir von GWriters Sie bei Ihrer medizinischen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/dissertation-schreiben-motivationstipps
+                          target: null
+                          rel: null
+                    text: Dissertation
+                  -
+                    type: text
+                    text: ' unterstützen können. Weiterhin können wir natürlich:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'mit Ihnen zusammen ein '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/nadel-im-heuhaufen-bachelorarbeit-thema-finden
+                                  target: null
+                                  rel: null
+                            text: 'Thema finden'
+                          -
+                            type: text
+                            text: ', das optimal zu bearbeiten ist'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Fallzahlen mit Statistikern abklären'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'erhobene Daten analysieren'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'unsere Ghostwriter Medizin-Texte ergänzen lassen oder Mustervorlagen verfassen lassen'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'und ein '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /lektorat
+                                  target: null
+                                  rel: null
+                            text: Lektorat
+                          -
+                            type: text
+                            text: ' oder eine '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /blog/korrektorat-lektorat-textredaktion
+                                  target: null
+                                  rel: null
+                            text: Textredaktion
+                          -
+                            type: text
+                            text: ' anbieten, um Ihren vorhandenen Text zu perfektionieren'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Vor - und Nachteile der theoretischen Doktorarbeit'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Auch rein theoretische Doktorarbeiten kommen häufig vor. Hier bietet sich der Vorteil der hohen zeitlichen Flexibilität. Des Weiteren ist die breite Themenauswahl attraktiv, diese reicht von Ethik in der Medizin über diverse andere Themenbereiche. Jedoch ist der Aufwand für eine theoretische Doktorarbeit sehr hoch, da eine Vielzahl von Literaturquellen aus diversen Bereiche und diverse Untersuchungsmethoden studiert werden müssen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'GWriters unterstützt Sie professionell bei der Themenwahl für Ihre medizinische Dissertation, außerdem auch durch Literaturrecherche oder die Erstellung eines Exposes. Ebenfalls können Sie sich von einem medizinischen Ghostwriter eine Mustervorlage für Ihre Doktorarbeit schreiben lassen oder eine Textredaktion oder ein Lektorat in Anspruch nehmen, um bereits Ihre bereits verfassten Texte zu perfektionieren.'
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -628,19 +841,6 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Die Geschichte der Medizin ist besonders in Europa geprägt von Religion und Irrtum. So wurden Kranke lange Zeit als besessen eingestuft oder bis ins 19. Jahrhundert nach der sogenannten „Viersäftelehre“ behandelt. Demnach vermutete man, dass eine Krankheit lediglich ein Ungleichgewicht der vier Säfte im Körper, gelber Galle, schwarzer Galle, Blut und Schleim, sei. Durch Schröpfen wollte man das Gleichgewicht wieder herstellen. Dies führte jedoch oft dazu, dass Patienten so geschwächt wurden, dass sie starben. Die moderne Medizin beginnt im 20. Jahrhundert und ist gekennzeichnet durch einen immensen Erkenntniszuwachs. Dazu gehört beispielsweise die Entdeckung des Penicillins.'
-              -
-                type: horizontal_rule
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    spacing_top: false
-              -
-                type: horizontal_rule
               -
                 type: paragraph
                 content:

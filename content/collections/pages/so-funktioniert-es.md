@@ -5,7 +5,7 @@ title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1666878044
+updated_at: 1667299704
 teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
   -
@@ -770,7 +770,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: left
-                    text: ' oder auch per Telefon oder E-Mail. Am besten nennen Sie uns hierbei bereits das Thema, Ihre Deadline, den gewünschten Umfang und machen Angaben zum geplanten Inhalt.'
+                    text: ' oder auch per Telefon oder E-Mail. Am besten nennen Sie uns hierbei bereits das Thema, Ihre Deadline, den gewünschten Umfang (Stundenanzahl im Falle eines Coachings) und machen Angaben zum geplanten Inhalt.'
               -
                 type: heading
                 attrs:
@@ -828,6 +828,12 @@ replicator:
                         attrs:
                           align: left
                     text: 'Wir prüfen außerdem unsere internen Ratings und versuchen immer den besten Autor für Ihr Projekt zu finden, um Ihnen einen bestmöglichen Service zu bieten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei Coachings ist zu beachten, dass unsere akademischen Ghostwriter über Deutschland, und die Schweiz verteilt sitzen. Theoretisch ist ein persönliches Coaching zwar möglich, sehr häufig wird aber die Entfernung so groß sein, dass sich eine Anfahrt nicht lohnt. Der Fokus liegt bei uns immer darauf, für Sie den fachlich am besten qualifizierten Ghostwriter auszuwählen, nicht den örtlich am nächsten gelegenen.'
               -
                 type: heading
                 attrs:
@@ -919,6 +925,12 @@ replicator:
                           align: left
                     text: .
               -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Außerdem vereinbaren wir mit Ihrem potentiellen Ghostwriter gerne eine initiale Telefonkonferenz, sodass Sie sich von dessen Qualifikationen überzeugen können. Dies ist komplett unverbindlich - Sie müssen sich nicht festlegen, sondern können erst einmal ein Gefühl dafür bekommen, wie Sie mit dem Ghostwriter harmonieren. Schließlich geht es um eine erfolgreiche Zusammenarbeit, die entstehen soll.'
+              -
                 type: heading
                 attrs:
                   level: 3
@@ -942,6 +954,12 @@ replicator:
                         attrs:
                           align: left
                     text: 'Alle relevanten Daten, die wir für die Angebotserstellung benötigen, werden unter Einhaltung strengster Diskretion weitergegeben. Wir geben allerdings auf keinen Fall personenbezogenen Daten weiter.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Auch Telefonkonferenzen werden von unserem Team eingeleitet. Ihr Name, Ihre Telefonnummer und andere persönlichen Informationen bleiben vollkommen vertraulich.'
               -
                 type: heading
                 attrs:

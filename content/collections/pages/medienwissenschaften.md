@@ -130,7 +130,7 @@ page_title: 'Medienwissenschaft Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665569611
+updated_at: 1667230493
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -596,6 +596,19 @@ replicator:
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
               -
+                type: horizontal_rule
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    spacing_top: false
+              -
+                type: horizontal_rule
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -612,7 +625,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: Entstehung
+                    text: 'Entstehung der Medienwissenschaften'
               -
                 type: set
                 attrs:
@@ -729,19 +742,6 @@ replicator:
                           align: start
                     text: "\_verbreitet. Studenten lassen sich gerne helfen, indem sie eine Mustervorlage für ihre Arbeit von einem Medienwissenschaften-Ghostwriter schreiben lassen und dieses als Orientierungshilfe nutzen."
               -
-                type: horizontal_rule
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    spacing_top: false
-              -
-                type: horizontal_rule
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -774,7 +774,312 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Die Grundlagen des Studiums der Medienwissenschaften ist die Geschichte, Theorie und Ästhetik einzelner Medien. Dazu werden in Praxisübungen Techniken zur Analyse von Medien erlernt. Fächer, die in den ersten Semestern die Basis des Wissens bilden, sind Medienrecht, Medienwirtschaft und einige Kurse zur Anwendung von wissenschaftlichen Methoden. Dazu gehören beispielsweise unterschiedliche Programme zur Verarbeitung von Daten und statistische Analysemethoden. Absolventen sind nach ihrem Studium meist in der Filmproduktion, der Organisation von Ferstivals und in der Kulturarbeit tätig.'
+                    text: 'Die Grundlagen des Studiums der Medienwissenschaften ist die Geschichte, Theorie und Ästhetik einzelner Medien. Dazu werden in Praxisübungen Techniken zur Analyse von Medien erlernt. Fächer, die in den ersten Semestern die Basis des Wissens bilden, sind Medienrecht, Medienwirtschaft und einige Kurse zur Anwendung von wissenschaftlichen Methoden. Dazu gehören beispielsweise unterschiedliche Programme zur Verarbeitung von Daten und statistische Analysemethoden. Absolventen sind nach ihrem Studium meist in der Filmproduktion, der Organisation von Festivals und in der Kulturarbeit tätig.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Im Fach Medienwissenschaft sind die Medienanalyse, Mediengeschichte und Medientheorie die strukturbildenden Bereiche des Studiums im Bachelor- und im Masterstudiengang. Diese Bereiche sind Kernbestandteil der im Studiengang vermittelten Inhalte zu den kulturwissenschaftlichen, sprach- und sozialwissenschaftlichen Perspektiven auf Medienkommunikation. Sie befähigen zu vielfältigen methodischen und medienpraktischen Kompetenzen und eröffnen ein breites Spektrum an beruflichen Tätigkeiten zwischen Medienpraxis, Medientheorie und öffentlichem Kulturbetrieb.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Medienwissenschaft sind traditionell in den Geistes- und Kulturwissenschaftlichen Fakultäten von Hochschulen angesiedelt und können sowohl im Hauptfach als auch im Nebenfach studiert werden. Eine Vielzahl hochschulspezifischer und fachlich spezialisierter Angebote ist charakteristisch für das interdisziplinäre Studienfach Medienwissenschaft und erlaubt vielfältige Vertiefungs- und Kombinationsmöglichkeiten.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Anforderungen im Studium'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'An europäischen Hochschulen (Universitäten, staatliche und privaten Fachhochschulen), lässt sich der Studiengang Medienwissenschaft regulär im Hauptfach Medienwissenschaft studieren. Häufig bieten Hochschulen mit medienwissenschaftlichen Studienangeboten aber auch Kombinationen mit der Kommunikationswissenschaft, der Theaterwissenschaft oder der Literaturwissenschaft im Haupt- oder im Nebenfach an.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das medienwissenschaftliche Studium verlangt medienpraktische Kompetenzen, die Bereitschaft zur Reflexion medientheoretischer Problemstellungen und die Offenheit für die Vielfalt medialer Wandlungsprozesse. Die Analyse der Medienlandschaft ist an deutschen Hochschulen (Universitäten und Fachhochschulen) grundsätzlich auf den internationalen Kontext ausgerichtet. Die im Studiengang obligatorischen Bestandteile der Medienanalyse, der Mediengeschichte und Medientheorie dienen dem Erwerb fundierter wissenschaftlicher und ergänzender praktischer Medienkompetenz.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Gegenstand der Medienwissenschaft'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Vielfalt der an Medien gebundenen Formen von Realitätsdarstellung bildet den zentralen Themenhorizont medienwissenschaftlicher Reflexion. Medienwissenschaft fragen im Rückgriff auf geistesgeschichtliche, literaturwissenschaftlich, sprachwissenschaftliche und spezifisch medienwissenschaftliche Analysemethoden nach den Zusammenhängen von medialer Technik und medialen Bedarfen des Medienpublikums in der Massengesellschaft.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'An der Schnittstelle von Medienpraxis und Medienkultur werden insbesondere auch die Einflüsse der Technik (Medientechnologie) und ihrer Potenziale thematisiert. Das unterscheidet die reinen Medienwissenschaft im Kern von den fachlich verwandten Kommunikationswissenschaften, deren Untersuchungsschwerpunkt die sozial- und geisteswissenschaftlichen Zusammenhänge der Kommunikationsprozesse als solcher bildet.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Bachelor Medienwissenschaft'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Der Bachelor-Studiengang Medienwissenschaft wird von Hochschulen je nach Standort und Profil entweder als Teilgebiet der Kommunikationswissenschaft oder als eigenständiger Studiengang Medienwissenschaft angeboten. Das Absolvieren des grundständigen, in der Regel auf sechs Fachsemester angelegten Bachelor-Studiums Medienwissenschaft sichert in der Kombination von Pflicht- und Wahlpflichtbereichen den Erwerb von Schlüsselkompetenzen, die für medienaffine Berufsfelder vom Printbereich bis hin zu Film und Hörfunk qualifizieren.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Zum Pflichtbereich gehören in der Regel folgende Themenmodule:'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Seminare zum Theorieverständnis von Medien und Gesellschaft einschließlich Methodenentwicklung für alle medienaffinen Analyseverfahren'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Seminare zu Film- und Fernsehwissenschaft'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Seminare zu Medienkultur'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Praktikumsbereich'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Zum Wahlpflichtbereich werden üblicherweise gerechnet:'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Seminare zur Medienpraxis Audio / Radio'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Seminare zur Medienpraxis Multimedia / Online'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Seminare zur Medienpraxis Video'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Einige Hochschulen bietet im Bachelor-Studiengang bereits Vertiefungen zu Bereichen wie Medienrecht, Medienpsychologie und Medienpädagogik an.'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: 'Der Abschluss des Studiengangs erfolgt durch das Anfertigen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Bachelorarbeit
+                  -
+                    type: text
+                    text: ' und führt zum akademischen Grad Bachelor of Arts.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Master Medienwissenschaft'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Auch der Master-Studiengang Medienwissenschaft wird von Hochschulen je nach Standort und Profil entweder als Teilgebiet der Kommunikationswissenschaft oder als eigenständiger Studiengang Medienwissenschaft angeboten. Nach dem erfolgreichen Absolvieren des grundständigen Studiums im Bachelorstudiengang bietet der Master Medienwissenschaft Studierenden hochschulübergreifend ein breites Spektrum an Vertiefungs- und Spezialisierungsoptionen mit vielfältigen beruflichen Perspektiven. Schwerpunktmäßig wird der Studiengang von den Fächern Medienwissenschaft, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/soziologie
+                          target: null
+                          rel: null
+                    text: 'Soziologie '
+                  -
+                    type: text
+                    text: '(Mediensoziologie), je nach Hochschulprofil zusätzlich von den Fächern Anglistik, Kunstgeschichte, Wirtschaftswissenschaft und weiteren medienaffinen Disziplinen getragen. Anschließend wird das Studium mit der Anfertigung der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Masterarbeit
+                  -
+                    type: text
+                    text: ' abgeschlossen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Hochschulübergreifend sind Staffelungen des konsekutiven, in der Regel viersemestrigen Masterstudiengangs in folgende Bereiche gebräuchlich:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '• Einführungsphase (1. Fachsemester Master)'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Vertiefungsphase (2. und 3. Fachsemester Master)'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Abschlussphase (wissenschaftliche Abschlussarbeit, Master of Arts)'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Die Gegenstandsbereiche des Masterstudiums verteilen sich über verschiedene Module in diese Studienphasen auf. Je nach Hochschulprofil und Schwerpunkten werden üblicherweise folgende Bereiche der Medienwissenschaft vermittelt:'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '• Medienkommunikation und ihre Kontexte'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Empirische und angewandte Medienforschung'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• publizistische und historische Medien- und Kommunikationsforschung'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Mediensoziologie und Medienästhetik'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• interdisziplinäre Medienkommunikation'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• medienpraktische Schlüsselqualifikationen (Medienpragmatik)'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Berufsperspektive Medienwissenschaftler'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das interdisziplinär ausgerichtete Studium der Medienwissenschaft erlaubt eine Vielzahl beruflicher Perspektiven im Bereich medien- und kommunikationswissenschaftlich geprägter Berufsfelder. Die von den Hochschulen angebotenen medienwissenschaftlichen Studiengänge ermöglichen Studienabschlüsse mit berufspraktischen Qualifikationen. Sie erlauben ebenso die Orientierung an der wissenschaftlichen Laufbahn im Bereich der Medienforschung sowie in der Medienpädagogik.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Bachelor- und Masterstudiengänge für Medienwissenschaft qualifizieren im Einzelnen für folgende Tätigkeitsfelder:'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Medienwissenschaftler als Redakteur in Zeitungsredaktionen, Fernseh- und Hörfunkabteilungen, Onlineredaktionen'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Medienwissenschaftler in Agenturen, Verlagen'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Medienwissenschaftler in Museen und öffentlichkeitsbezogenen Fachabteilungen'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Medienwissenschaftler im Bereich der Public Relation und der Unternehmenskommunikation'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Medienwissenschaftler im Bereich Medien- und Kulturmanagement von Institutionen und Stiftungen'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Medienwissenschaftler im Bereich Medien- und Kommunikationsforschung an Universitäten, Fachhochschulen, öffentlichen und privaten Forschungseinrichtungen'
+                  -
+                    type: hard_break
+                  -
+                    type: text
+                    text: '• Medienpädagoge im Bereich der Aus- und Weiterbildung'
               -
                 type: heading
                 attrs:

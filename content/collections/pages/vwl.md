@@ -132,7 +132,7 @@ page_title: 'VWL Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665569584
+updated_at: 1667227126
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -307,6 +307,26 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Unser Team von erfahrenen Akademikern aus verschiedenen Fachrichtungen unterstützt Sie bei der zügigen und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen im Fachbereich VWL. Ob es sich bei Ihrem Projekt um eine Doktorarbeit, eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen umfassenden individuellen Beistand. Jeder von uns vermittelte Ghostwriter der VWL wird von unseren Mitarbeitern persönlich ausgewählt. Er ist ein Experte auf seinem Gebiet und hat Erfahrungen mit wissenschaftlichen Arbeitsweisen und den Ansprüchen, vor denen ein Student der Volkswirtschaftslehre steht.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Kompetenzen eines VWL-Ghostwriters'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Was zeichnet einen VWL Ghostwriter aus? Welche Kompetenzen bringt er mit? VWL-Ghostwriter denken und arbeiten stark modellorientiert. Das heißt, dass diese sehr gute Kenntnisse in den volkswirtschaftlichen Grundmodellen mitbringen sowie auch in der Mathematik und in der Statistik.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Es geht für unsere Experten in der VWL weniger darum, praktische Implikationen oder praktische Handlungsempfehlungen zu erarbeiten und abzuleiten. Stattdessen gilt es zu erforschen, wie sich ein Sachverhalt in einem volkswirtschaftlichen Modell bei unterschiedlichen Regeln entwickelt, wenn bspw. unterschiedliche Variablen hinzukommen bzw. entfernt werden und wie sich dann die Auswirkungen im Modell-Kontext gestalten. Gerade hierfür sind umfangreiche statistische Kenntnisse erforderlich.'
               -
                 type: heading
                 attrs:

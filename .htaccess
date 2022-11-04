@@ -51,7 +51,7 @@ Redirect 301 /blog/empirische-analyse /blog/empirische-theoretische-bachelorarbe
 Redirect 301 /blog/erste-juristische-prüfung /blog/erste-juristische-pruefung
 Redirect 301 /blog/exposee-erstellen /arbeiten/expose
 Redirect 301 /blog/exposee-schreiben /arbeiten/expose
-Redirect 301 /blog/fragen-ghostwriter-gwriters /blog/fragen-akademischer-ghostwriter-gwriters
+Redirect 301 /blog/fragen-ghostwriter-gwriters /faq
 Redirect 301 /blog/ghostwriter-erfahrungen /achtung-ghostwriter-betrug
 Redirect 301 /blog/ghostwriter-jobs-als-copywriter-webtexte-und-blogbeitraege-schreiben /blog/ghostwriter-jobs-copywriter-webtexte-blogbeitraege-schreiben
 Redirect 301 /blog/ghostwriter-ratschlaege /blog/ghostwriter-tipps
@@ -170,3 +170,14 @@ Redirect 301 /blog/ghostwriting-plagiate /blog/plagiate-ghostwriting-legal
 Redirect 301 /blog/wissenschaftliche-arbeiten /blog/wissenschaftliches-arbeiten-regeln
 Redirect 301 /blog/akademisches-ghostwriting-gwriters /ghostwriting
 Redirect 301 /blog/ghostwriter-preise /preise
+
+#13898
+Redirect 301 /blog/ghostwriter-medizin-doktorarbeit /fachrichtungen/medizin
+Redirect 301 /blog/ghostwriter-fachbereiche-besonderheiten	/fachrichtungen/vwl
+Redirect 301 /blog/medienwissenschaften-studiengang	/fachrichtungen/medienwissenschaften
+Redirect 301 /blog/wissenschaftliches-bloggen	/blog/blogartikel-schreiben-lassen
+Redirect 301 /blog/gwriters-coaching	/so-funktioniert-es
+Redirect 301 /blog/literaturrecherche-wissenschaftliche-quellen	/blog/literaturrecherche-datenbanken-quellen
+Redirect 301 /blog/kosten-ghostwriter	/preise
+Redirect 301 /blog/fragen-akademischer-ghostwriter-gwriters	/faq
+Redirect 301 /blog/kunst-studiengang	/fachrichtungen/kunst

@@ -2290,7 +2290,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single_col: false
+        single_col: true
         responsive_columns: 0
       -
         columns_per_row: 3
@@ -2501,7 +2501,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single_col: false
+        single_col: true
         responsive_columns: 0
       -
         single_col: true
@@ -2771,7 +2771,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single_col: false
+        single_col: true
         responsive_columns: 0
       -
         columns_per_row: 3
@@ -3012,7 +3012,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single_col: false
+        single_col: true
         responsive_columns: 0
       -
         single_col: true
@@ -3374,8 +3374,8 @@ replicator:
                     type: blog_entries
                     entries:
                       - 4148325d-d0d4-4055-9104-c4cb39f5a282
-                      - 286294bc-3927-4a37-b1e0-defe39884464
                       - a2cde5ef-6e62-42fc-a5dc-ea0e899eb3da
+                      - 0be1ce34-0695-44d3-bbad-81e3f715edd7
               -
                 type: paragraph
                 content:
@@ -3407,7 +3407,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1666106053
+updated_at: 1667221609
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
