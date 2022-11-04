@@ -173,11 +173,11 @@ Redirect 301 /blog/ghostwriter-preise /preise
 
 #13898
 Redirect 301 /blog/ghostwriter-medizin-doktorarbeit /fachrichtungen/medizin
-Redirect 301 /blog/ghostwriter-fachbereiche-besonderheiten	/fachrichtungen/vwl
-Redirect 301 /blog/medienwissenschaften-studiengang	/fachrichtungen/medienwissenschaften
-Redirect 301 /blog/wissenschaftliches-bloggen	/blog/blogartikel-schreiben-lassen
-Redirect 301 /blog/gwriters-coaching	/so-funktioniert-es
-Redirect 301 /blog/literaturrecherche-wissenschaftliche-quellen	/blog/literaturrecherche-datenbanken-quellen
-Redirect 301 /blog/kosten-ghostwriter	/preise
-Redirect 301 /blog/fragen-akademischer-ghostwriter-gwriters	/faq
-Redirect 301 /blog/kunst-studiengang	/fachrichtungen/kunst
+Redirect 301 /blog/ghostwriter-fachbereiche-besonderheiten /fachrichtungen/vwl
+Redirect 301 /blog/medienwissenschaften-studiengang /fachrichtungen/medienwissenschaften
+Redirect 301 /blog/wissenschaftliches-bloggen /blog/blogartikel-schreiben-lassen
+Redirect 301 /blog/gwriters-coaching /so-funktioniert-es
+Redirect 301 /blog/literaturrecherche-wissenschaftliche-quellen /blog/literaturrecherche-datenbanken-quellen
+Redirect 301 /blog/kosten-ghostwriter /preise
+Redirect 301 /blog/fragen-akademischer-ghostwriter-gwriters /faq
+Redirect 301 /blog/kunst-studiengang /fachrichtungen/kunst
