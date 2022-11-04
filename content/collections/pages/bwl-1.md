@@ -13,8 +13,6 @@ teaser:
         type: text
         marks:
           -
-            type: bold
-          -
             type: textAlign
             attrs:
               align: center
@@ -23,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'BWL Ghostwriter'
+        text: 'Ghostwriter Wirtschaftsinformatik'
   -
     type: paragraph
     content:
@@ -39,9 +37,9 @@ teaser:
           -
             type: textColor
             attrs:
-              color: 'rgb(68, 68, 68)'
+              color: '#000!important'
               hex: '#000'
-        text: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Hilfe durch Experten und akademische Ghostwriter der Wirtschaftsinformatik – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -133,7 +131,7 @@ page_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1667554103
+updated_at: 1667554314
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -154,8 +152,8 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet BWL. Bei uns finden Sie exakt den 
-                      <b>akademischen Ghostwriter für Ihre BWL Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich BWL in sichere Hände geben und bei einem BWL-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Betriebswirtschaftlern, Doktoren und Professoren arbeitet.
+                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Wirtschaftsinformatik. Bei uns finden Sie exakt den 
+                      <b>akademischen Ghostwriter für Ihre Wirtschaftsinformatik Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Wirschaftsinformatik in sichere Hände geben und bei einem Wirschaftsinformatik-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Wirtschaftsinformatiker, Doktoren und Professoren arbeitet.
                       </p>
             show_as_card: false
         type: row
