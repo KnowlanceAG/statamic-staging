@@ -1,6 +1,5 @@
 ---
 id: 8a222d0b-d27c-4481-8310-2a4bf1326e76
-published: false
 blueprint: pages
 title: 'Wirtschaftsinformatik (Dupliziert)'
 teaser:
@@ -131,7 +130,7 @@ page_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1667558321
+updated_at: 1667558331
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1284,4 +1283,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'BWL Ghostwriter'
+published: true
 ---
