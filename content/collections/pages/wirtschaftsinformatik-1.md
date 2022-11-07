@@ -130,7 +130,7 @@ page_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1667844957
+updated_at: 1667845281
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -295,7 +295,55 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: "Diese Interdisziplinarität birgt allerdings auch Herausforderungen. So darf ein Wirtschaftsinformatiker keine groben Wissenslücken in der Wirtschaftswissenschaft haben und muss ebenfalls die nötigen Informatikkenntnisse vorweisen können. Dies zu leisten, ist eine Schwierigkeit mit der sich Studierenden zunehmend konfrontiert sehen, zumal in beiden Fächern ein hohes Pensum an schriftlichen Ausarbeitungen und Hausarbeiten oder Seminararbeiten vorausgesetzt wird. So werden besonders in der Wirtschaftsinformatik\_"
+                    text: 'Diese Interdisziplinarität birgt allerdings auch Herausforderungen. So darf ein Wirtschaftsinformatiker keine groben Wissenslücken in der Wirtschaftswissenschaft haben und muss ebenfalls die nötigen Informatikkenntnisse vorweisen können. Dies zu leisten, ist eine Schwierigkeit mit der sich Studierenden zunehmend konfrontiert sehen, zumal in beiden Fächern ein hohes Pensum an schriftlichen Ausarbeitungen und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Hausarbeiten
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ' oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Seminararbeiten
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: " vorausgesetzt wird. So werden besonders in der Wirtschaftsinformatik\_"
                   -
                     type: text
                     marks:
@@ -372,8 +420,8 @@ replicator:
                           -
                             type: textColor
                             attrs:
-                              color: white
-                              hex: '#fff'
+                              color: black
+                              hex: '#000'
                         text: "Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Wirtschaftsinformatik Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                       -
                         type: text
@@ -387,8 +435,8 @@ replicator:
                           -
                             type: textColor
                             attrs:
-                              color: white
-                              hex: '#fff'
+                              color: black
+                              hex: '#000'
                           -
                             type: link
                             attrs:
@@ -408,9 +456,81 @@ replicator:
                           -
                             type: textColor
                             attrs:
-                              color: white
-                              hex: '#fff'
-                        text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten (Bachelorarbeit, Masterarbeit) oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+                              color: black
+                              hex: '#000'
+                        text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten ('
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: textAlign
+                            attrs:
+                              align: center
+                          -
+                            type: textColor
+                            attrs:
+                              color: black
+                              hex: '#000'
+                          -
+                            type: link
+                            attrs:
+                              href: /arbeiten/bachelorarbeit-schreiben-lassen
+                              target: null
+                              rel: null
+                        text: Bachelorarbeit
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: textAlign
+                            attrs:
+                              align: center
+                          -
+                            type: textColor
+                            attrs:
+                              color: black
+                              hex: '#000'
+                        text: ', '
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: textAlign
+                            attrs:
+                              align: center
+                          -
+                            type: textColor
+                            attrs:
+                              color: black
+                              hex: '#000'
+                          -
+                            type: link
+                            attrs:
+                              href: /arbeiten/masterarbeit-schreiben-lassen
+                              target: null
+                              rel: null
+                        text: Masterarbeit
+                      -
+                        type: text
+                        marks:
+                          -
+                            type: bold
+                          -
+                            type: textAlign
+                            attrs:
+                              align: center
+                          -
+                            type: textColor
+                            attrs:
+                              color: black
+                              hex: '#000'
+                        text: ') oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
             show_as_card: false
         type: row
         enabled: true
@@ -708,7 +828,30 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Ohne ausfallfrei funktionierende Datenverarbeitung und konsistent arbeitende Kommunikationssysteme wären heutige Unternehmen nicht wettbewerbsfähig, handelt es sich um kleine Betriebe mit wenigen Mitarbeitern oder um Global Player mit internationaler Struktur. Logisch ist, dass die Systeme für große Firmen komplexer sind und andere Anforderungen an den Informatiker stellen, als dies Anlagen für kleinere Unternehmen tun. Prinzipiell ist aber jedes Unternehmen auf Wirtschaftsinformatiker angewiesen. Das Ziel der Wirtschaftsinformatik ist es, einen möglichst hohen Automatisierungsgrad zu erreichen. Dazu müssen Anwendungen analysiert und optimiert sowie Fehlerquellen bekämpft werden. Eine Vollautomatisierung ist allerdings nicht immer sinnvoll oder realisierbar. Es gibt Anwendungsaufgaben, bei denen nicht auf menschliche Arbeitskraft verzichtet werden kann, dies kommt hauptsächlich vor, wenn die maschinelle Entwicklung noch nicht so weit vorangeschritten ist, die spezifische Aufgabe in gewünschtem Maße zu übernehmen.'
+                    text: 'Ohne ausfallfrei funktionierende Datenverarbeitung und konsistent arbeitende Kommunikationssysteme wären heutige Unternehmen nicht wettbewerbsfähig, handelt es sich um kleine Betriebe mit wenigen Mitarbeitern oder um Global Player mit internationaler Struktur. Logisch ist, dass die Systeme für große Firmen komplexer sind und andere Anforderungen an den Informatiker stellen, als dies Anlagen für kleinere Unternehmen tun. Prinzipiell ist aber jedes Unternehmen auf Wirtschaftsinformatiker angewiesen. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Das Ziel der Wirtschaftsinformatik'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ' ist es, einen möglichst hohen Automatisierungsgrad zu erreichen. Dazu müssen Anwendungen analysiert und optimiert sowie Fehlerquellen bekämpft werden. Eine Vollautomatisierung ist allerdings nicht immer sinnvoll oder realisierbar. Es gibt Anwendungsaufgaben, bei denen nicht auf menschliche Arbeitskraft verzichtet werden kann, dies kommt hauptsächlich vor, wenn die maschinelle Entwicklung noch nicht so weit vorangeschritten ist, die spezifische Aufgabe in gewünschtem Maße zu übernehmen.'
             show_as_card: false
         type: row
         enabled: true
@@ -774,7 +917,74 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Fachkenntnisse des Studienganges kann man durch eine Lehre im kaufmännischen Bereich, ein berufsbegleitendes Studium, ein duales Studium oder durch ein Vollzeitstudium an einer Universität oder Hochschule erlangen. In diesem Studiengang nutzen Studierende IT-Kenntnisse, um wirtschaftliche Prozesse in Unternehmen zu optimieren, analysieren und Probleme zu lösen. Der Studiengang Wirtschaftsinformatik bildet Studierenden zum Vermittler zwischen Informatik und BWL (Betriebswirtschaftslehre) aus. '
+                    text: 'Fachkenntnisse des Studienganges kann man durch eine Lehre im kaufmännischen Bereich, ein berufsbegleitendes Studium, ein duales Studium oder durch ein Vollzeitstudium an einer Universität oder Hochschule erlangen. In diesem Studiengang nutzen Studierende IT-Kenntnisse, um wirtschaftliche Prozesse in Unternehmen zu optimieren, analysieren und Probleme zu lösen. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Der Studiengang Wirtschaftsinformatik bildet Studierenden zum Vermittler zwischen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/informatik
+                          target: null
+                          rel: null
+                    text: Informatik
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ' und '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/bwl
+                          target: null
+                          rel: null
+                    text: BWL
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ' (Betriebswirtschaftslehre) aus. '
               -
                 type: paragraph
                 content:
