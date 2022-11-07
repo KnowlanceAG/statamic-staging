@@ -130,7 +130,7 @@ page_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1667839624
+updated_at: 1667844655
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -437,28 +437,27 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere BWL-Ghostwriter'
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Unsere Wirtschaftsinformatik-Ghostwriter'
               -
                 type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Jeder unserer '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'ausgewählten Ghostwriter der BWL besitzt tiefgründige Fachkenntnisse'
-                  -
-                    type: text
-                    text: ' und Erfahrungen in seinem Einsatzbereich und kann umfassende Schreiberfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen. So ist es uns möglich, unseren Kunden bei den verschiedensten Ausarbeitungen/Texterstellungen umfassenden und individuellen Beistand zu leisten. Dieser variiert nach dem persönlichen Einsatz des Studenten. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Er kann entweder das\_"
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Unser Team von '
                   -
                     type: text
                     marks:
@@ -467,24 +466,102 @@ replicator:
                       -
                         type: textColor
                         attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'erfahrenen Akademikern aus der Wirtschaftsinformatik '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'unterstützt Sie bei der effektiven und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Abschlussarbeit (z.B. Masterarbeit) oder jede andere Form einer akademischen Ausarbeitung (Hausarbeit, Seminararbeit) handelt, wir bieten Ihnen umfassenden individuellen Beistand. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: "Jeder unserer Freelancer und Ghostwriter der Wirtschaftsinformatik besitzt tiefgründige Fachkenntnisse in seinem speziellen Bereich und kann umfassende Erfahrungen im Erstellen von Mustervorlagen für architektonische Arbeiten vorweisen. Neben der Beratung und der Unterstützung bei dem gesamten Arbeitsprozess durch die Erstellung einer Mustervorlage, kann ein Ghostwriter für Wirtschaftsinformatik auch lediglich als\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
                           color: blue
                           hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /ghostwriting
+                          href: /lektorat/lektor
                           target: null
                           rel: null
-                    text: Ghostwriting
+                    text: Lektor
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: "\_einer Musterarbeit für die betriebswirtschaftliche Arbeit"
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ",\_"
                   -
                     type: text
-                    text: ' oder verschiedene Teilbereiche von Leistungen in Auftrag geben. So ist es auch üblich, dass der Ghostwriter den Studenten bereits bei der Suche nach der passenden Literatur unterstützt, ihm bei der Texterstellung beratend zur Seite steht oder eine bereits durch den Studenten fertig geschriebene Arbeit lektoriert und korrigiert. Auch ein Coaching und Training ist möglich, um den Studenten in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten.'
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /korrektorat/korrektor
+                          target: null
+                          rel: null
+                    text: Korrektor
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: "\_und "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/uebersetzung
+                          target: null
+                          rel: null
+                    text: Übersetzer
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ' beauftragt werden. So wird nicht nur der Student entlastet, sondern auch das qualitative Niveau der Arbeit gehoben und eine bestmögliche Benotung bewirkt.'
             show_as_card: false
         type: row
         enabled: true
@@ -572,43 +649,56 @@ replicator:
           -
             bard:
               -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Warum sollte man BWL-Ghostwriter beauftragen?'
-              -
                 type: paragraph
                 content:
-                  -
-                    type: text
-                    text: 'Unsere BWL-Ghostwriter sind Betriebswirtschaftlern, zertifizierten Professoren und wissenschaftliche Mitarbeiter im Fachgebiet BWL und VWL. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten und methodischen Ansätzen in unserer Ghostwriting-Agentur. Des Weiteren haben Ghostwriter umfassenden Kenntnisse im Umgang mit Forschungsarbeiten. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'BWL-Ghostwriter erstellen für verschiedene Aufgabenstellungen im Fachbereich BWL ('
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Abschlussarbeit, Businessplan, Marketingkonzept'
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Zur Wirtschaftsinformatik'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    text: ' etc.) Musterarbeiten. Außerdem kennen akademische Ghostwriter den aktuellen Forschungsstand zu vielen BWL-Themenstellungen und haben auf relevanten Datenbanken Zugriff, wie Fachzeitschriften, Fachartikel etc.'
-            show_as_card: false
-          -
-            bard:
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Die Informatik mit der Kombination Wirtschaft entwickelte sich, um den immer komplexer werdenden Anwendungsgebieten für informationstechnische Aufgaben in Wirtschaftsunternehmen gerecht werden zu können. Eine Spezialisierung auf dieses Kerngebiet stellt die einzig logische Konsequenz dar.'
               -
                 type: set
                 attrs:
                   values:
-                    type: video
-                    video: 'https://youtu.be/PmgIh10dij0'
+                    type: bilder
+                    assets:
+                      - seiten/fachrichtungen/Wirtschaftsinformatik.png
+                    has_border: false
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Ohne ausfallfrei funktionierende Datenverarbeitung und konsistent arbeitende Kommunikationssysteme wären heutige Unternehmen nicht wettbewerbsfähig, handelt es sich um kleine Betriebe mit wenigen Mitarbeitern oder um Global Player mit internationaler Struktur. Logisch ist, dass die Systeme für große Firmen komplexer sind und andere Anforderungen an den Informatiker stellen, als dies Anlagen für kleinere Unternehmen tun. Prinzipiell ist aber jedes Unternehmen auf Wirtschaftsinformatiker angewiesen. Das Ziel der Wirtschaftsinformatik ist es, einen möglichst hohen Automatisierungsgrad zu erreichen. Dazu müssen Anwendungen analysiert und optimiert sowie Fehlerquellen bekämpft werden. Eine Vollautomatisierung ist allerdings nicht immer sinnvoll oder realisierbar. Es gibt Anwendungsaufgaben, bei denen nicht auf menschliche Arbeitskraft verzichtet werden kann, dies kommt hauptsächlich vor, wenn'
             show_as_card: false
         type: row
         enabled: true
