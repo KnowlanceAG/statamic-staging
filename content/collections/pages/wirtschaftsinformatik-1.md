@@ -1,6 +1,5 @@
 ---
 id: 8a222d0b-d27c-4481-8310-2a4bf1326e76
-published: false
 blueprint: pages
 title: 'Wirtschaftsinformatik (Dupliziert)'
 teaser:
@@ -131,7 +130,7 @@ page_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1667577372
+updated_at: 1667839624
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -258,22 +257,45 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'BWL ist unter den Studierenden ein äußerst beliebter Studiengang und ist aus diesem Grund an vielen Hochschulen „überlaufen“. Wer auffallen will, muss immerzu '
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'In der modernen, vernetzten und globalisierten Welt steigt der Bedarf an'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'qualitativ hochwertige Ausarbeitungen'
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ' Informatikern aus dem Fachbereich Wirtschaft'
                   -
                     type: text
-                    text: " liefern und stets einen sehr guten Notendurchschnitt \_erzielen. Dies zu leisten ist nicht leicht. Gerade, wenn Studierenden neben dem Studium zur Finanzierung der Studiengebühren und ihres Lebensunterhalts arbeiten, kommt zu dem Leistungsdruck ein zusätzlicher Zeitdruck hinzu. "
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ' täglich. Das Studium setzt sich meist aus einem wirtschaftlichen (betriebswirtschaftlichen) und einem informationstechnischen Teil zusammen. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Speziell im Bereich der BWL wird aus diesem Grund in diesem Zeitrahmen oftmals die Hilfe unserer\_"
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: "Diese Interdisziplinarität birgt allerdings auch Herausforderungen. So darf ein Wirtschaftsinformatiker keine groben Wissenslücken in der Wirtschaftswissenschaft haben und muss ebenfalls die nötigen Informatikkenntnisse vorweisen können. Dies zu leisten, ist eine Schwierigkeit mit der sich Studierenden zunehmend konfrontiert sehen, zumal in beiden Fächern ein hohes Pensum an schriftlichen Ausarbeitungen und Hausarbeiten oder Seminararbeiten vorausgesetzt wird. So werden besonders in der Wirtschaftsinformatik\_"
                   -
                     type: text
                     marks:
@@ -293,20 +315,26 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: "\_benötigt. Unsere Auftraggeber haben in dieser Studienlaufbahn besonders Schwierigkeiten bei der "
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: "\_"
                   -
                     type: text
                     marks:
                       -
-                        type: link
+                        type: textColor
                         attrs:
-                          href: /bachelorarbeit-thema
-                          target: null
-                          rel: null
-                    text: Themenfindung
-                  -
-                    type: text
-                    text: ', Formulierung von Wirtschaftstexten/Fachtexten, Literaturrecherche, Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederung sein.'
+                          color: black
+                          hex: '#000'
+                    text: 'und akademische Autoren zur Unterstützung in From von Mustervorlagen als Orientierungshilfe beauftragt.'
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -346,7 +374,7 @@ replicator:
                             attrs:
                               color: white
                               hex: '#fff'
-                        text: "Wenn Sie bei Ihrer akademischen Arbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit) im Fachgebiet BWL Schwierigkeiten haben und Unterstützung benötigen, dann können Sie uns an unsere Agentur sofort eine\_"
+                        text: "Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Wirtschaftsinformatik Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                       -
                         type: text
                         marks:
@@ -382,25 +410,7 @@ replicator:
                             attrs:
                               color: white
                               hex: '#fff'
-                        text: '. '
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: center
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                        text: 'Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arbeitsarten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+                        text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten (Bachelorarbeit, Masterarbeit) oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
             show_as_card: false
         type: row
         enabled: true
@@ -1284,4 +1294,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'BWL Ghostwriter'
+published: true
 ---
