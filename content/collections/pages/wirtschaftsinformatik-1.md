@@ -130,7 +130,7 @@ page_title: 'Wirtschaftsinformatik Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1667845329
+updated_at: 1667845378
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -420,8 +420,8 @@ replicator:
                           -
                             type: textColor
                             attrs:
-                              color: black
-                              hex: '#000'
+                              color: white
+                              hex: '#fff'
                         text: "Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Wirtschaftsinformatik Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                       -
                         type: text
@@ -435,8 +435,8 @@ replicator:
                           -
                             type: textColor
                             attrs:
-                              color: black
-                              hex: '#000'
+                              color: white
+                              hex: '#fff'
                           -
                             type: link
                             attrs:
@@ -456,8 +456,8 @@ replicator:
                           -
                             type: textColor
                             attrs:
-                              color: black
-                              hex: '#000'
+                              color: white
+                              hex: '#fff'
                         text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten ('
                       -
                         type: text
@@ -471,8 +471,8 @@ replicator:
                           -
                             type: textColor
                             attrs:
-                              color: black
-                              hex: '#000'
+                              color: white
+                              hex: '#fff'
                           -
                             type: link
                             attrs:
@@ -492,8 +492,8 @@ replicator:
                           -
                             type: textColor
                             attrs:
-                              color: black
-                              hex: '#000'
+                              color: white
+                              hex: '#fff'
                         text: ', '
                       -
                         type: text
@@ -507,8 +507,8 @@ replicator:
                           -
                             type: textColor
                             attrs:
-                              color: black
-                              hex: '#000'
+                              color: white
+                              hex: '#fff'
                           -
                             type: link
                             attrs:
@@ -528,8 +528,8 @@ replicator:
                           -
                             type: textColor
                             attrs:
-                              color: black
-                              hex: '#000'
+                              color: white
+                              hex: '#fff'
                         text: ') oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
             show_as_card: false
         type: row
