@@ -130,7 +130,7 @@ page_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1667844655
+updated_at: 1667844863
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -698,7 +698,7 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Ohne ausfallfrei funktionierende Datenverarbeitung und konsistent arbeitende Kommunikationssysteme wären heutige Unternehmen nicht wettbewerbsfähig, handelt es sich um kleine Betriebe mit wenigen Mitarbeitern oder um Global Player mit internationaler Struktur. Logisch ist, dass die Systeme für große Firmen komplexer sind und andere Anforderungen an den Informatiker stellen, als dies Anlagen für kleinere Unternehmen tun. Prinzipiell ist aber jedes Unternehmen auf Wirtschaftsinformatiker angewiesen. Das Ziel der Wirtschaftsinformatik ist es, einen möglichst hohen Automatisierungsgrad zu erreichen. Dazu müssen Anwendungen analysiert und optimiert sowie Fehlerquellen bekämpft werden. Eine Vollautomatisierung ist allerdings nicht immer sinnvoll oder realisierbar. Es gibt Anwendungsaufgaben, bei denen nicht auf menschliche Arbeitskraft verzichtet werden kann, dies kommt hauptsächlich vor, wenn'
+                    text: 'Ohne ausfallfrei funktionierende Datenverarbeitung und konsistent arbeitende Kommunikationssysteme wären heutige Unternehmen nicht wettbewerbsfähig, handelt es sich um kleine Betriebe mit wenigen Mitarbeitern oder um Global Player mit internationaler Struktur. Logisch ist, dass die Systeme für große Firmen komplexer sind und andere Anforderungen an den Informatiker stellen, als dies Anlagen für kleinere Unternehmen tun. Prinzipiell ist aber jedes Unternehmen auf Wirtschaftsinformatiker angewiesen. Das Ziel der Wirtschaftsinformatik ist es, einen möglichst hohen Automatisierungsgrad zu erreichen. Dazu müssen Anwendungen analysiert und optimiert sowie Fehlerquellen bekämpft werden. Eine Vollautomatisierung ist allerdings nicht immer sinnvoll oder realisierbar. Es gibt Anwendungsaufgaben, bei denen nicht auf menschliche Arbeitskraft verzichtet werden kann, dies kommt hauptsächlich vor, wenn die maschinelle Entwicklung noch nicht so weit vorangeschritten ist, die spezifische Aufgabe in gewünschtem Maße zu übernehmen.'
             show_as_card: false
         type: row
         enabled: true
@@ -744,13 +744,39 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Allgemeines zur BWL'
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Studium der Wirtschaftsinformatik'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: "Die Betriebswirtschaftslehre (BWL), auch Betriebsökonomie genannt, ist ein Teilgebiet der\_"
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Fachkenntnisse des Studienganges kann man durch eine Lehre im kaufmännischen Bereich, ein berufsbegleitendes Studium, ein duales Studium oder durch ein Vollzeitstudium an einer Universität oder Hochschule erlangen. In diesem Studiengang nutzen Studierende IT-Kenntnisse, um wirtschaftliche Prozesse in Unternehmen zu optimieren, analysieren und Probleme zu lösen. Der Studiengang Wirtschaftsinformatik bildet Studierenden zum Vermittler zwischen Informatik und BWL (Betriebswirtschaftslehre) aus. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: "Daher ist es besonders wichtig, in den Fächern Mathematik und Betriebswirtschaft gute Vorkenntnisse zu haben. Das Studium der Wirtschaftsinformatik besteht an einer Hochschule beim Bachelorstudium aus 6 Semestern und kann mit dem Masterstudiengang, bestehend aus 4 Semestern, fortgesetzt werden. Als Examensarbeit zählten ehemals die Magisterarbeit und die\_"
                   -
                     type: text
                     marks:
@@ -762,122 +788,51 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/wirtschaftswissenschaften
+                          href: /arbeiten/diplomarbeit
                           target: null
                           rel: null
-                    text: Wirtschaftswissenschaften
-                  -
-                    type: text
-                    text: "\_(WiWi). Sie ist eng verwandt mit der "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/vwl
-                          target: null
-                          rel: null
-                    text: Volkswirtschaftslehre
-                  -
-                    type: text
-                    text: ' ('
+                    text: Diplomarbeit
                   -
                     type: text
                     marks:
                       -
                         type: textColor
                         attrs:
+                          color: black
+                          hex: '#000'
+                    text: ', nach der Bologna-Reform jedoch die Bachelorarbeit (Bachelor Thesis) und die Masterarbeit (Master Thesis). Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen. '
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: "Besonders hier ist im Studiengang der Wirtschaftsinformatik\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
                           color: blue
                           hex: '#000'
-                    text: VWL
-                  -
-                    type: text
-                    text: ') und beschäftigt sich mit dem Verständnis von Unternehmen und der Umsetzung und Kontrolle von Vorgängen in Unternehmen; einfach formuliert: '
-                  -
-                    type: text
-                    marks:
                       -
-                        type: bold
-                    text: 'die BWL betrachtet Themenstellungen aus der „Maulwurfperspektive“, während die VWL die „Vogelperspektive“ einnimmt.'
-              -
-                type: paragraph
-                content:
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
                   -
                     type: text
-                    text: 'Ein Betriebswirt oder eine Betriebswirtin analysiert das gegebene betriebswirtschaftliche Umfeld und besondere Ausgangssituationen im Unternehmen und trifft '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Entscheidungen zur Förderung des Unternehmenserfolgs'
-                  -
-                    type: text
-                    text: '. Betriebswirtschaftliche Fachgebiete sind unter Studierenden sehr beliebt. '
-              -
-                type: set
-                attrs:
-                  values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/besipielarbeit.JPG
-                    ex_title: 'BWL Seminararbeit Beispiel jetzt KOSTENLOS herunterladen!'
-                    ex_type: Seminararbeit
-                    ex_pages: '12'
-                    ex_zitation: 'Harvard Style'
-                    ex_button_link: 'https://gwriters.de/assets/downloads/ghostwriting-beispielarbeiten/Seminararbeit-Beispiel-BWL-Auswirkungen-der-Digitalisierung-auf-die-Wertschopfungskette.pdf'
-                    ex_button_text: Download
-                    ex_spacing_top: false
-                    ex_fachbereich:
-                      - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Karriereaussichten nach dem BWL-Studium'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Vordergrund eines BWL-Studiengangs steht dabei der Umgang mit Zahlen und die Karriereaussicht, später im '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Management eines Unternehmens'
-                  -
-                    type: text
-                    text: ' arbeiten zu können. Der große Vorteil eines BWL-Studiengangs ist es, dass man sehr generalistisch auf ein breites Aufgabenfeld bzw. Berufsleben in der Wirtschaft vorbereitet wird und damit die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Karrierechancen sehr gut'
-                  -
-                    type: text
-                    text: ' sind.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Um ihre Standardleistungen zu optimieren und sich somit von der Menge hervorzuheben, engagieren einige Studenten der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'BWL Ghostwriter und Freelancer, die ihnen bei ihrer schriftlichen Ausarbeitung durch die Erstellung von Mustervorlagen zur Seite stehen'
-                  -
-                    type: text
-                    text: '. Zudem wird die erstellte Mustervorlage von unabhängigen Lektoren und Korrekturleser aus dem Fachgebiet BWL überprüft, um Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorzunehmen.'
+                    text: "\_verbreitet. Die Erstellung einer Dissertation oder Doktorarbeit stellt für Doktoranden einen immensen Aufwand dar, wodurch sie nicht selten von einem Wirtschaftsinformatik-Ghostwriter eine Mustervorlage für ihre Doktorarbeit schreiben lassen."
             show_as_card: false
         type: row
         enabled: true
@@ -885,289 +840,6 @@ replicator:
         columns_per_row: 0
     remove_spacing: false
     is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        columns_per_row: 2
-        single_col: false
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Aufbau eines BWL-Studiums'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Kenntnisse der Betriebswirtschaft kann man durch eine Lehre im kaufmännischen Bereich, ein berufsbegleitendes Studium, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'ein duales Studium oder durch ein Vollzeitstudium'
-                  -
-                    type: text
-                    text: ' an einer Universität oder Fachhochschule erlangen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'BWL kann deutschlandweit studiert werden, dabei unterscheiden sich die Angebote der Fachhochschulen und Universitäten insbesondere in ihrer inhaltlichen Ausrichtung bei späteren Vertiefungen im Studium. Auch private Hochschulen bieten im BWL-Kontext in den letzten Jahren verstärkt ihre Dienstleistungen an. Hierbei handelt es sich meist um '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'berufsbegleitende Fachbereiche'
-                  -
-                    type: text
-                    text: ', die sich auf ein bestimmtes Themenfeld (z.B. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/marketing
-                          target: null
-                          rel: null
-                    text: Marketing
-                  -
-                    type: text
-                    text: ') konzentrieren.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Der BWL-Studienabschluss besteht beim Bachelorstudiengang aus 6 Semestern und kann mit dem Masterstudiengang, bestehend aus 4 Semestern, fortgesetzt werden. Als Examensarbeit zählten ehemals die Magisterarbeit und die Diplomarbeit, nach der Bologna-Reform jedoch die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Bachelorarbeit (Bachelor Thesis)'
-                  -
-                    type: text
-                    text: ' und die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Masterarbeit (Master Thesis)'
-                  -
-                    type: text
-                    text: '. Optional kann darauf aufbauend die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /promotionsberatung
-                          target: null
-                          rel: null
-                    text: Promotion
-                  -
-                    type: text
-                    text: ' erfolgen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Dabei können nur Lehrinstitute, die über ein Promotionsrecht verfügen, von ihren Studenten der BWL eine Dissertation schreiben lassen und ihnen einen Doktortitel verleihen. Besonders bei diesem akademischen Grad ist in der BWL Ghostwriting verbreitet. Ein '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'BWL-Ghostwriter hilft Doktoranden'
-                  -
-                    type: text
-                    text: ' durch das Erstellen einer Mustervorlage, die als Orientierungshilfe genutzt wird.'
-            show_as_card: false
-          -
-            bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/fachrichtungen/Ghostwriter_BWL_Studium_Aufbau-1.png
-                    has_border: false
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#F0F0F0'
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Inhalte des BWL-Studiums'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In dem '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'betriebswirtschaftlichen Studium'
-                  -
-                    type: text
-                    text: ' lernen Studenten u.a. Projekte zu managen, betriebliche Abläufe zu analysieren und sie zu steuern. Dabei sind '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Praxiseinheiten
-                  -
-                    type: text
-                    text: ' (Praktika) und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Projektarbeiten
-                  -
-                    type: text
-                    text: ' wesentliche Elemente des Studiums, die das erlernte Fachwissen vertiefen und erweitern sollen. Ebenfalls wird der Fremdsprachenkompetenz der Studenten eine hohe Bedeutung zugeschrieben.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Neben der englischen Sprache werden oftmals die spanische, russische, französische oder chinesische Sprache unterrichtet. Die Basis des Fachwissens bilden Grundlagenfächer/Pflichtbereiche wie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: "Finanzierung, Rechnungswesen, Personalwesen, Produktion und\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: Marketing
-                  -
-                    type: text
-                    text: '. Diese Grundlagenfächer werden in höheren Semestern durch Schwerpunkte, die der Student wählt, weiter vertieft.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Detail gehören zu den wesentlichen Elementen eines betriebswirtschaftlichen Studiums die Themen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Planung (Businessplan, Marketingkonzept), Organisation und Analyse'
-                  -
-                    type: text
-                    text: ' sowie Elemente aus der Soziologie, der Arbeits- und Organisationspsychologie, dem Personalwesen sowie der Rechts- und Politikwissenschaft. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Studium gliedert sich die BWL und damit auch die Wissensvermittlung im Regelfall in die „Allgemeine Betriebswirtschaftslehre“ (ABWL) und die „Spezielle Betriebswirtschaftslehre“ (SBWL). Während bei der ABWL die genannten Themen Planung, Organisation und Rechnungswesen im Vordergrund stehen, konzentriert sich die SBWL auf Fragestellungen, die in bestimmten Branchen relevanten werden. Hier können dann die Themenbereiche '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Marketing, Personal, Controlling und Finanzen oder auch Produktion'
-                  -
-                    type: text
-                    text: ' erwähnt werden.'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/fachrichtungen/BWL-Ghostwriter.png
-                    has_border: false
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Jedoch bereiten gerade die Grundlagenfächer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Mathe, Statistik und Recht'
-                  -
-                    type: text
-                    text: ' sehr vielen Studenten erhebliche Probleme. Sie entscheiden sich nicht selten dazu, Ghostwriter und andere akademische Freelancer zu engagieren um sich optimal auf Prüfungen vorbereiten zu können.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Ghostwriting-Arbeiten dürfen nicht als Prüfungsleistungen verwendet werden'
-                  -
-                    type: text
-                    text: '. Ghostwriter sind jedoch in anderen Fällen, wie beispielsweise bei der Erstellung einer Marktanalyse/eines Businessplans für ein Unternehmen oder das Schreiben eines Buches für eine Privatperson, zulässig.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
     border: false
     type: add_section
     enabled: true
@@ -1203,15 +875,17 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
                         type: textColor
                         attrs:
-                          color: '#000!important'
+                          color: black
                           hex: '#000'
-                    text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
+                    text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "\_"
               -
                 type: heading
                 attrs:
@@ -1224,131 +898,19 @@ replicator:
                         type: textAlign
                         attrs:
                           align: left
-                    text: 'Einige unserer Blogartikel zum Thema BWL Ghostwriter'
+                    text: 'Einige unserer Blogartikel zum Thema Wirtschaftsinformatik Ghostwriter'
               -
                 type: set
                 attrs:
                   values:
                     type: blog_entries
                     entries:
-                      - be1aacde-86af-4b82-9a8b-10b05c6743b5
-                      - e74abe89-2a92-4e81-bb8f-e357cc66776a
-                      - e3607494-f5c6-43c1-833e-69ab509b9846
+                      - 7311f5d2-ac4e-4e73-9d84-bc59a9883a9f
+                      - cd5a1617-505a-495b-986b-6f5ceb18b880
               -
                 type: heading
                 attrs:
                   level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: 'Nützliche Weblinks & Referenzen'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://ranking.zeit.de/che/de/'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'CHE Hochschulranking 2020 – Zeit Online'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://de.wikipedia.org/wiki/Betriebswirtschaftslehre'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'Grundinformationen zur BWL – Wikipedia'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://www.handelsblatt.com/'
-                          target: _blank
-                          rel: nofollow
-                    text: 'Wirtschaftsnachrichten – Handelsblatt'
-                  -
-                    type: hard_break
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://studiengaenge.zeit.de/studium/wirtschaft/wirtschaftswissenschaften/betriebswirtschaftslehre'
-                          target: _blank
-                          rel: 'noopener noreferrer nofollow'
-                    text: 'BWL studieren – Zeit Online'
-              -
-                type: paragraph
                 content:
                   -
                     type: text
@@ -1358,11 +920,127 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: left
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: 'Nützliche Weblinks'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /wiki
+                          href: 'https://de.wikipedia.org/wiki/Wirtschaftsinformatik'
+                          target: _blank
+                          rel: nofollow
+                    text: 'Allgemeine Informationen zur Wirtschaftsinformatik mit Linksammlung – Wikipedia'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://informatikbibliothek.uni-koeln.de/'
+                          target: _blank
+                          rel: nofollow
+                    text: 'Bibliothek für Informatik & Wirtschaftsinformatik – Universität zu Köln'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://studiengaenge.zeit.de/studium/mathematik-und-informatik/informatik/wirtschaftsinformatik'
+                          target: _blank
+                          rel: nofollow
+                    text: 'Wirtschaftsinformatik studieren – Zeit Online'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gi.de/'
+                          target: _blank
+                          rel: nofollow
+                    text: 'Gesellschaft für Informatik'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/wiki'
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
