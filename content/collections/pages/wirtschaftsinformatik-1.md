@@ -130,8 +130,8 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 page_title: 'Wirtschaftsinformatik Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1667845409
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1667913213
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -153,7 +153,7 @@ replicator:
                     type: insert_html
                     html: |-
                       <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Wirtschaftsinformatik. Bei uns finden Sie exakt den 
-                      <b>akademischen Ghostwriter für Ihre Wirtschaftsinformatik Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Wirschaftsinformatik in sichere Hände geben und bei einem Wirschaftsinformatik-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Informatiker aus dem Fachbereich Wirtschaftsinformatik, Doktoren und Professoren arbeitet.
+                      <b>akademischen Ghostwriter für Ihre Aufgabenstellungen aus der Wirtschaftsinformatik</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Wirschaftsinformatik in sichere Hände geben und bei einem Wirschaftsinformatik-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann ist GWriters Ihre seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Informatikern, Doktoren und Professoren aus dem Fachbereich der Wirtschaftsinformatik arbeitet.
                       </p>
             show_as_card: false
         type: row
@@ -183,13 +183,13 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere Leistungen im Fachbereich BWL'
+                    text: 'Unsere Leistungen im Fachbereich Wirtschaftsinformatik'
               -
                 type: set
                 attrs:
@@ -207,7 +207,7 @@ replicator:
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (Wirtschaftsinformatik) Korrektheit prüfen.'
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche Korrektheit prüfen.'
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
@@ -229,8 +229,8 @@ replicator:
                 attrs:
                   values:
                     type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH BWL'
-                    color: '#FF6606'
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
                     spacing_top: false
               -
                 type: paragraph
@@ -296,7 +296,7 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Diese Interdisziplinarität birgt allerdings auch Herausforderungen. So darf ein Wirtschaftsinformatiker keine groben Wissenslücken in der Wirtschaftswissenschaft haben und muss ebenfalls die nötigen Informatikkenntnisse vorweisen können. Dies zu leisten, ist eine Schwierigkeit mit der sich Studierenden zunehmend konfrontiert sehen, zumal in beiden Fächern ein hohes Pensum an schriftlichen Ausarbeitungen und '
+                    text: 'Diese Interdisziplinarität birgt allerdings auch Herausforderungen. So darf ein Wirtschaftsinformatiker keine groben Wissenslücken in der Wirtschaftswissenschaft haben und muss ebenfalls die nötigen Informatikkenntnisse vorweisen können. Dies zu leisten, ist eine Schwierigkeit, mit der sich Studierenden zunehmend konfrontiert sehen, zumal in beiden Fächern ein hohes Pensum an schriftlichen Ausarbeitungen und '
                   -
                     type: text
                     marks:
@@ -381,7 +381,7 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'und akademische Autoren zur Unterstützung in From von Mustervorlagen als Orientierungshilfe beauftragt.'
+                    text: 'und akademische Autoren zur Unterstützung in Form von Mustervorlagen als Orientierungshilfe beauftragt.'
               -
                 type: paragraph
             show_as_card: false
@@ -402,8 +402,6 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-              -
                 type: blockquote
                 content:
                   -
@@ -417,7 +415,7 @@ replicator:
                           -
                             type: textAlign
                             attrs:
-                              align: center
+                              align: left
                           -
                             type: textColor
                             attrs:
@@ -432,7 +430,7 @@ replicator:
                           -
                             type: textAlign
                             attrs:
-                              align: center
+                              align: left
                           -
                             type: textColor
                             attrs:
@@ -453,7 +451,7 @@ replicator:
                           -
                             type: textAlign
                             attrs:
-                              align: center
+                              align: left
                           -
                             type: textColor
                             attrs:
@@ -468,7 +466,7 @@ replicator:
                           -
                             type: textAlign
                             attrs:
-                              align: center
+                              align: left
                           -
                             type: textColor
                             attrs:
@@ -489,7 +487,7 @@ replicator:
                           -
                             type: textAlign
                             attrs:
-                              align: center
+                              align: left
                           -
                             type: textColor
                             attrs:
@@ -504,7 +502,7 @@ replicator:
                           -
                             type: textAlign
                             attrs:
-                              align: center
+                              align: left
                           -
                             type: textColor
                             attrs:
@@ -525,7 +523,7 @@ replicator:
                           -
                             type: textAlign
                             attrs:
-                              align: center
+                              align: left
                           -
                             type: textColor
                             attrs:
@@ -540,7 +538,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#8A8A8A'
+    bg_color: '#D6D6D6'
     border: false
     type: add_section
     enabled: true
@@ -589,7 +587,7 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'erfahrenen Akademikern aus der Wirtschaftsinformatik '
+                    text: 'erfahrenen Wirtschaftsinformatik Ghostwriter '
                   -
                     type: text
                     marks:
