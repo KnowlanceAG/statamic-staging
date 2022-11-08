@@ -131,7 +131,7 @@ page_title: 'Wirtschaftsinformatik Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1667913213
+updated_at: 1667919357
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -262,7 +262,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: 'In der modernen, vernetzten und globalisierten Welt steigt der Bedarf an'
                   -
@@ -273,7 +273,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: ' Informatikern aus dem Fachbereich Wirtschaft'
                   -
@@ -282,7 +282,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: ' täglich. Das Studium setzt sich meist aus einem wirtschaftlichen (betriebswirtschaftlichen) und einem informationstechnischen Teil zusammen. '
               -
@@ -294,7 +294,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Diese Interdisziplinarität birgt allerdings auch Herausforderungen. So darf ein Wirtschaftsinformatiker keine groben Wissenslücken in der Wirtschaftswissenschaft haben und muss ebenfalls die nötigen Informatikkenntnisse vorweisen können. Dies zu leisten, ist eine Schwierigkeit, mit der sich Studierenden zunehmend konfrontiert sehen, zumal in beiden Fächern ein hohes Pensum an schriftlichen Ausarbeitungen und '
                   -
@@ -303,7 +303,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -318,7 +318,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: ' oder '
                   -
@@ -327,7 +327,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -342,7 +342,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: " vorausgesetzt wird. So werden besonders in der Wirtschaftsinformatik\_"
                   -
@@ -353,7 +353,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: blue
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -370,7 +370,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: "\_"
                   -
@@ -379,28 +379,9 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: 'und akademische Autoren zur Unterstützung in Form von Mustervorlagen als Orientierungshilfe beauftragt.'
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
               -
                 type: blockquote
                 content:
@@ -419,8 +400,8 @@ replicator:
                           -
                             type: textColor
                             attrs:
-                              color: white
-                              hex: '#fff'
+                              color: '#000!important'
+                              hex: '#000'
                         text: "Wenn Sie für die Erstellung einer Mustervorlage für Ihre akademische Arbeit im Fachbereich Wirtschaftsinformatik Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                       -
                         type: text
@@ -434,8 +415,8 @@ replicator:
                           -
                             type: textColor
                             attrs:
-                              color: white
-                              hex: '#fff'
+                              color: '#000!important'
+                              hex: '#000'
                           -
                             type: link
                             attrs:
@@ -455,8 +436,8 @@ replicator:
                           -
                             type: textColor
                             attrs:
-                              color: white
-                              hex: '#fff'
+                              color: '#000!important'
+                              hex: '#000'
                         text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten ('
                       -
                         type: text
@@ -470,8 +451,8 @@ replicator:
                           -
                             type: textColor
                             attrs:
-                              color: white
-                              hex: '#fff'
+                              color: '#000!important'
+                              hex: '#000'
                           -
                             type: link
                             attrs:
@@ -491,8 +472,8 @@ replicator:
                           -
                             type: textColor
                             attrs:
-                              color: white
-                              hex: '#fff'
+                              color: '#000!important'
+                              hex: '#000'
                         text: ', '
                       -
                         type: text
@@ -506,8 +487,8 @@ replicator:
                           -
                             type: textColor
                             attrs:
-                              color: white
-                              hex: '#fff'
+                              color: '#000!important'
+                              hex: '#000'
                           -
                             type: link
                             attrs:
@@ -527,28 +508,9 @@ replicator:
                           -
                             type: textColor
                             attrs:
-                              color: white
-                              hex: '#fff'
+                              color: '#000!important'
+                              hex: '#000'
                         text: ') oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#D6D6D6'
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -587,7 +549,7 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'erfahrenen Wirtschaftsinformatik Ghostwriter '
+                    text: 'erfahrenen Wirtschaftsinformatik Ghostwritern '
                   -
                     type: text
                     marks:
@@ -680,7 +642,7 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: ' beauftragt werden. So wird nicht nur der Student entlastet, sondern auch das qualitative Niveau der Arbeit gehoben und eine bestmögliche Benotung bewirkt.'
+                    text: ' beauftragt werden. So werden nicht nur Sie als Student entlastet, sondern auch das qualitative Niveau der Arbeit angehoben und eine bestmögliche Benotung bewirkt.'
             show_as_card: false
         type: row
         enabled: true
@@ -762,7 +724,6 @@ replicator:
   -
     columns_replicator:
       -
-        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -780,9 +741,20 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Zur Wirtschaftsinformatik'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            bard:
               -
                 type: paragraph
                 content:
@@ -794,7 +766,7 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Die Informatik mit der Kombination Wirtschaft entwickelte sich, um den immer komplexer werdenden Anwendungsgebieten für informationstechnische Aufgaben in Wirtschaftsunternehmen gerecht werden zu können. Eine Spezialisierung auf dieses Kerngebiet stellt die einzig logische Konsequenz dar.'
+                    text: 'Die Kombination aus Wirtschaft und Informatik entwickelte sich, um den immer komplexer werdenden Anwendungsgebieten für informationstechnische Aufgaben in Wirtschaftsunternehmen gerecht werden zu können. Eine Spezialisierung auf dieses Kerngebiet stellt die einzig logische Konsequenz dar.'
               -
                 type: set
                 attrs:
@@ -803,19 +775,9 @@ replicator:
                     assets:
                       - seiten/fachrichtungen/Wirtschaftsinformatik.png
                     has_border: false
-              -
-                type: paragraph
             show_as_card: false
           -
             bard:
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 10
-              -
-                type: paragraph
               -
                 type: paragraph
                 content:
@@ -850,7 +812,7 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: ' ist es, einen möglichst hohen Automatisierungsgrad zu erreichen. Dazu müssen Anwendungen analysiert und optimiert sowie Fehlerquellen bekämpft werden. Eine Vollautomatisierung ist allerdings nicht immer sinnvoll oder realisierbar. Es gibt Anwendungsaufgaben, bei denen nicht auf menschliche Arbeitskraft verzichtet werden kann, dies kommt hauptsächlich vor, wenn die maschinelle Entwicklung noch nicht so weit vorangeschritten ist, die spezifische Aufgabe in gewünschtem Maße zu übernehmen.'
+                    text: ' ist es, einen möglichst hohen Automatisierungsgrad zu erreichen. Dazu müssen Anwendungen analysiert und optimiert sowie Fehlerquellen bekämpft werden. Eine Vollautomatisierung ist allerdings nicht immer sinnvoll oder realisierbar. Es gibt Anwendungsaufgaben, bei denen nicht auf menschliche Arbeitskraft verzichtet werden kann, dies kommt hauptsächlich vor, wenn die maschinelle Entwicklung noch nicht so weit vorangeschritten ist, um die spezifische Aufgabe in gewünschtem Maße zu übernehmen.'
             show_as_card: false
         type: row
         enabled: true
@@ -866,7 +828,7 @@ replicator:
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    button_text: 'KOSTENLOS UNTERSTÜTZUNG ANFRAGEN'
                     color: '#FF6606'
                     button_align: justify-center
                     spacing_top: false
@@ -1051,24 +1013,20 @@ replicator:
                     text: Ghostwriting
                   -
                     type: text
-                    text: "\_verbreitet. Die Erstellung einer Dissertation oder Doktorarbeit stellt für Doktoranden einen immensen Aufwand dar, wodurch sie nicht selten von einem Wirtschaftsinformatik-Ghostwriter eine Mustervorlage für ihre Doktorarbeit schreiben lassen."
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
+                    text: "\_verbreitet. Die Erstellung einer Dissertation oder Doktorarbeit stellt für Doktoranden einen immensen Aufwand dar, wodurch sie nicht selten von einem Wirtschaftsinformatik-Ghostwriter eine Mustervorlage für ihre "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/doktorarbeit
+                          target: null
+                          rel: null
+                    text: 'Doktorarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: .
               -
                 type: heading
                 attrs:
@@ -1096,12 +1054,9 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
-              -
-                type: paragraph
-                content:
                   -
                     type: text
                     text: "\_"
@@ -1143,7 +1098,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Nützliche Weblinks'
               -
@@ -1159,7 +1114,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1185,7 +1140,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1211,7 +1166,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1237,7 +1192,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1254,7 +1209,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
                       -
                         type: link
@@ -1268,7 +1223,7 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     border: false
     type: add_section
