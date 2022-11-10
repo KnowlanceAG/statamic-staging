@@ -217,7 +217,7 @@ replicator:
     enabled: true
     show_as_card: false
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1666780267
+updated_at: 1668074856
 academy_short_text_headline: Abkürzungsverzeichnis
 academy_short_text: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel für Ihre Arbeit.'
 use_meta_keywords: false
@@ -251,4 +251,17 @@ og_title: 'Kostenloses Abkürzungsverzeichnis für Ihre Hausarbeit herunterladen
 og_description: 'Nutzen Sie unsere Abkürzungsverzeichnis Vorlage als praktisches Beispiel. Unsere professionelle Verzeichnisvorlage, nur einen Klick entfernt! ↘️↘️↘️'
 og_image: GWriters-Logo.png
 published: true
+schema_objects: |-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "Abkürzungen in wissenschaftlichen Arbeiten richtig integrieren - Abkürzungsverzeichnis",
+    "description": "GWriters • https://gwriters.de/gwriters-akademie/abkuerzungsverzeichnis • Der Aufbau und die Formatierung von Abkürzungsverzeichnis in einer wissenschaftlichen Arbeit ist ein zentrales und wichtiges Thema. Viele Studenten, die zum ersten Mal ein Abkürzungsverzeichnis, erstellen müssen, stehen oft vor einer Herausforderung bei der richtigen Formatierung. Ein Abkürzungsverzeichnis zu erstellen ist ein wichtiger formaler Gesichtspunkt. Sie können das Abkürzungsverzeichnis von einem akademischen Ghostwriter erstellen lassen oder von einem Fachexperten (Lektorat, Korrektorat) alle Abkürzungen oder den Inhalt überprüfen lassen. Wenn Sie Hilfe bei der Erstellung eines Abkürzungsverzeichnisses benötigen, dann ist GWriters hier der richtige Ansprechpartner.",
+    "thumbnailUrl": "https://i9.ytimg.com/vi/yq8cS1V2VAo/mqdefault.jpg?v=6358fe0f&sqp=CPC1rpsG&rs=AOn4CLBQne1dzNRxtXG8ehnHN5mxAUM6KQ",
+    "uploadDate": "2022-10-24",
+    "duration": "PT7M50S",
+    "contentUrl": "https://www.youtube.com/watch?v=yq8cS1V2VAo"
+  }
+  </script>
 ---
