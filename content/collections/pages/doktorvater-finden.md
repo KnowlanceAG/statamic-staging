@@ -1101,7 +1101,7 @@ page_title: 'Externe Promotion: den geeigneten Doktorvater finden • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1668115422
+updated_at: 1668115435
 meta_title: 'Externe Promotion: den geeigneten Doktorvater finden • GWriters'
 meta_description: 'Wir erklären, wie Sie den geeigneten Doktorvater für Ihre externe, nebenberufliche Promotion finden. Profitieren Sie von der unserer Promotionsberatung!'
 use_meta_keywords: false
