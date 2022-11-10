@@ -2546,6 +2546,54 @@ replicator:
                           hex: '#000'
                     text: ' und garantiert die Sicherheit, die Qualität, die Quantität sowie einen pünktlichen Abgabetermin, die so eine wissenschaftliche Abgabe erfordern.'
               -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Zuletzt erhalten Sie nach der finalen Auslieferung auch den Plagiatsbericht aus der hervorgehenden Prüfung. Allerdings gibt es viele schwarze Schafe unter den Ghostwriting Agenturen, die damit werben eine Plagiatsprüfung durchzuführen, dies allerdings nicht tun. Daher sollten Sie immer den Bericht anfordern, um sicherzustellen, dass auch wirklich ein hochwertiges Unikat erhalten. Darüber hinaus wird ein ordentliches Ghostwriting-Unternehmen die Mustervorlage nicht einfach von Ihrem Ghostwriter an Sie direkt weiterleiten. Stattdessen wird daher noch einmal eine Qualitätskontrolle gemacht, indem ein zweiter Fachlektor noch einmal die vollständige Mustervorlage überprüft. Ist ein roter Faden erkennbar? Sind noch stilistische oder orthographische Ungereimtheiten enthalten? Genau diese Punkte werden durch einen\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://statamic-dynamic.gwriters.de/lektorat/lektor'
+                          target: null
+                          rel: null
+                    text: Lektor
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "\_korrigiert."
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -2610,7 +2658,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1668109835
+updated_at: 1668113598
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
