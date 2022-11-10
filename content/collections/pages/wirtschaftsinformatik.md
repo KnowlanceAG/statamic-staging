@@ -130,7 +130,7 @@ page_title: 'Wirtschaftsinformatik Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665570228
+updated_at: 1667910309
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -186,7 +186,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_und akademische Freelancer zur Unterstützung in From von Mustervorlagen als Orientierungshilfe beauftragt."
+                    text: "\_und akademische Freelancer zur Unterstützung in Form von Mustervorlagen als Orientierungshilfe beauftragt."
               -
                 type: set
                 attrs:
@@ -275,7 +275,7 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: "Unser Team von erfahrenen Akademikern aus der Wirtschaftsinformatik unterstützt Sie bei der effektiven und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen umfassenden individuellen Beistand. Jeder unserer Freelancer und Ghostwriter der Wirtschaftsinformatik besitzt tiefgründige Fachkenntnisse in seinem speziellen Bereich und kann umfassende Erfahrungen im Erstellen von Mustervorlagen für architektonische Arbeiten vorweisen. Neben der Beratung und der Unterstützung bei dem gesamten Arbeitsprozess durch die Erstellung einer Mustervorlage, kann ein Ghostwriter für Wirtschaftsinformatik auch lediglich als\_"
+                    text: "Unser Team von erfahrenen Akademikern aus der Wirtschaftsinformatik unterstützt Sie bei der effektiven und qualitativ hochwertigen Umsetzung von akademischen Arbeiten, Texten und Veröffentlichungen. Ob es sich bei Ihrem Projekt um eine Präsentation, eine Abschlussarbeit oder jede andere Form einer akademischen Ausarbeitung handelt, wir bieten Ihnen umfassenden individuellen Beistand. Jeder unserer Freelancer und Ghostwriter der Wirtschaftsinformatik besitzt tiefgründige Fachkenntnisse in seinem speziellen Bereich und kann umfassende Erfahrungen im Erstellen von Mustervorlagen für architektonische Arbeiten vorweisen. Neben der Beratung und Unterstützung bei dem gesamten Arbeitsprozess durch die Erstellung einer Mustervorlage, kann ein Ghostwriter für Wirtschaftsinformatik auch lediglich als\_"
                   -
                     type: text
                     marks:
@@ -329,7 +329,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_und Übersetzer beauftragt werden. So wird nicht nur der Student entlastet, sondern auch das qualitative Niveau der Arbeit gehoben und eine bestmögliche Benotung bewirkt."
+                    text: "\_und Übersetzer beauftragt werden. So werden nicht nur Sie als Student entlastet, sondern auch das qualitative Niveau der Arbeit angehoben und eine bestmögliche Benotung erreicht."
               -
                 type: heading
                 attrs:
@@ -643,7 +643,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Ohne ausfallfrei funktionierende Datenverarbeitung und konsistent arbeitende Kommunikationssysteme wären heutige Unternehmen nicht wettbewerbsfähig, handelt es sich um kleine Betriebe mit wenigen Mitarbeitern oder um Global Player mit internationaler Struktur. Logisch ist, dass die Systeme für große Firmen komplexer sind und andere Anforderungen an den Wirtschaftsinformatiker stellen, als dies Anlagen für kleinere Unternehmen tun. Prinzipiell ist aber jedes Unternehmen auf Wirtschaftsinformatiker angewiesen. Das Ziel der Wirtschaftsinformatik ist es, einen möglichst hohen Automatisierungsgrad zu erreichen. Dazu müssen Anwendungen analysiert und optimiert sowie Fehlerquellen bekämpft werden. Eine Vollautomatisierung ist allerdings nicht immer sinnvoll oder realisierbar. Es gibt Anwendungsaufgaben, bei denen nicht auf menschliche Arbeitskraft verzichtet werden kann, dies kommt hauptsächlich vor, wenn die maschinelle Entwicklung noch nicht so weit vorangeschritten ist, die spezifische Aufgabe in gewünschtem Maße zu übernehmen.'
+                    text: 'Ohne ausfallfrei funktionierende Datenverarbeitung und konsistent arbeitende Kommunikationssysteme wären heutige Unternehmen nicht wettbewerbsfähig, handelt es sich um kleine Betriebe mit wenigen Mitarbeitern oder um Global Player mit internationaler Struktur. Logisch ist, dass die Systeme für große Firmen komplexer sind und andere Anforderungen an den Wirtschaftsinformatiker stellen, als dies Anlagen für kleinere Unternehmen tun. Prinzipiell ist aber jedes Unternehmen auf Wirtschaftsinformatiker angewiesen. Das Ziel der Wirtschaftsinformatik ist es, einen möglichst hohen Automatisierungsgrad zu erreichen. Dazu müssen Anwendungen analysiert und optimiert sowie Fehlerquellen bekämpft werden. Eine Vollautomatisierung ist allerdings nicht immer sinnvoll oder realisierbar. Es gibt Anwendungsaufgaben, bei denen nicht auf menschliche Arbeitskraft verzichtet werden kann. Dies kommt hauptsächlich vor, wenn die maschinelle Entwicklung noch nicht so weit vorangeschritten ist, um die spezifische Aufgabe in gewünschtem Maße zu übernehmen.'
               -
                 type: heading
                 attrs:
@@ -731,7 +731,29 @@ replicator:
                         type: textAlign
                         attrs:
                           align: start
-                    text: "\_verbreitet. Die Erstellung einer Dissertation oder Doktorarbeit stellt für Doktoranden einen immensen Aufwand dar, wodurch sie nicht selten von einem Wirtschaftsinformatik-Ghostwriter eine Mustervorlage für ihre Doktorarbeit schreiben lassen."
+                    text: "\_verbreitet. Die Erstellung einer Dissertation oder Doktorarbeit stellt für Doktoranden einen immensen Aufwand dar, wodurch sie nicht selten von einem Wirtschaftsinformatik-Ghostwriter eine Mustervorlage für ihre "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/doktorarbeit
+                          target: null
+                          rel: null
+                    text: 'Doktorarbeit schreiben lassen'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                    text: .
               -
                 type: heading
                 attrs:
