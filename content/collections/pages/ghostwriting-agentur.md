@@ -1166,12 +1166,18 @@ replicator:
                 type: set
                 attrs:
                   values:
+                    type: spacer
+                    padding-y: 20
+              -
+                type: set
+                attrs:
+                  values:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriting-agentur/dienstleistung.png
-                    text: |+
-                      &amp;lt;h2&amp;gt;&amp;lt;center&amp;gt;Diverse professionelle Ghostwriting-Services&amp;lt;/center&amp;gt;&amp;lt;/h2&amp;gt;
-
+                    text: |-
+                      **Diverse professionelle Ghostwriting-Services
+                      **
                     ausrichtung: bild_text
               -
                 type: set
@@ -1186,7 +1192,7 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriting-agentur/ghostwriter-doktoren.png
-                    text: '&amp;lt;h2&amp;gt;&amp;lt;center&amp;gt;Doktoren &amp;amp; Professoren als akademische Ghostwriter&amp;lt;/center&amp;gt;&amp;lt;/h2&amp;gt;'
+                    text: '**Professoren als akademische Ghostwriter**'
                     ausrichtung: text_bild
               -
                 type: set
@@ -1201,7 +1207,7 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriting-agentur/interdiszipliniertes-wissen.png
-                    text: '&amp;lt;h2&amp;gt;&amp;lt;center&amp;gt;Interdisziplinäres Wissen in vielen Fachbereichen&amp;lt;/center&amp;gt;&amp;lt;/h2&amp;gt;'
+                    text: '**Interdisziplinäres Wissen in vielen Fachbereichen**'
                     ausrichtung: bild_text
               -
                 type: set
@@ -1216,7 +1222,7 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriting-agentur/programme-kostenlos.png
-                    text: '&amp;lt;h2&amp;gt;&amp;lt;center&amp;gt;Bereitstellung von MAXQDA, SPSS, Stata, R und weiteren Programmen&amp;lt;/center&amp;gt;&amp;lt;/h2&amp;gt;'
+                    text: '**Bereitstellung von MAXQDA, SPSS, Stata, R und weiteren Programmen**'
                     ausrichtung: text_bild
               -
                 type: set
@@ -1231,7 +1237,7 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriting-agentur/kommunikation-1635771587.png
-                    text: '&amp;lt;h2&amp;gt;&amp;lt;center&amp;gt;100% Anonymität &amp;amp; DSGVO/GDPR-Datenschutz&amp;lt;/center&amp;gt;&amp;lt;/h2&amp;gt;'
+                    text: '**100% Anonymität & DSGVO/GDPR-Datenschutz**'
                     ausrichtung: bild_text
               -
                 type: set
@@ -1246,7 +1252,7 @@ replicator:
                     type: bild_und_text
                     bild:
                       - seiten/ghostwriting-agentur/bearbeitungszeit.png
-                    text: '&amp;lt;h2&amp;gt;&amp;lt;center&amp;gt;Effiziente Bearbeitung und kurfristige Fertigstellung &amp;lt;/center&amp;gt;&amp;lt;/h2&amp;gt;'
+                    text: '**Effiziente Bearbeitung und kurfristige Fertigstellung**'
                     ausrichtung: text_bild
             show_as_card: false
         type: row
@@ -2618,7 +2624,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1668107895
+updated_at: 1668108143
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
