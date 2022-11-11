@@ -217,6 +217,201 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Ghostwriter eBook: Preise'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie einen eBook Ghostwriter engagieren wollen, sollten Sie vorab die Kosten kalkulieren. Der Preis richtet sich nach dem Umfang, den Ihr Werk haben soll. Wie Büchern in Papierform bezahlen Sie auch bei eBooks nach der Zeichenzahl. Eine Normseite hat ca. 1.800 Zeichen inklusive Leerzeichen. Hierfür veranschlagt eine seriöse Agentur zwischen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '75 und 120 Euro'
+                  -
+                    type: text
+                    text: " – je nachdem, ob es sich um eine belletristische\_ oder eine wissenschaftliche Arbeit handelt."
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Für ein eBook mit 80 Seiten Umfang müssen Sie also ca. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '7.000 - 8.000 Euro'
+                  -
+                    type: text
+                    text: ' einplanen. Welche Leistungen in diesem Preis inbegriffen sind, wird in einem Vertrag festgehalten. Bei seriösen Agenturen bekommen Sie Folgendes:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Supervision: inhaltliche Überprüfung des Textes von einem '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /experten
+                                  target: null
+                                  rel: null
+                            text: Experten
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/inhaltsverzeichnis-vorlage
+                                  target: null
+                                  rel: null
+                            text: Inhaltsverzeichnis
+                          -
+                            type: text
+                            text: ', '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/abkuerzungsverzeichnis
+                                  target: null
+                                  rel: null
+                            text: Abkürzungsverzeichnis
+                          -
+                            type: text
+                            text: ', Merkblatt, '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/literaturverzeichnis-beispiel
+                                  target: null
+                                  rel: null
+                            text: Literaturverzeichnis
+                          -
+                            type: text
+                            text: ', '
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /gwriters-akademie/abbildungsverzeichnis
+                                  target: null
+                                  rel: null
+                            text: Abbildungsverzeichnis
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /leistungen/formatierung
+                                  target: null
+                                  rel: null
+                            text: Formatierung
+                          -
+                            type: text
+                            text: ' nach Ihren Vorgaben'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /korrektorat
+                                  target: null
+                                  rel: null
+                            text: Korrektorat
+                          -
+                            type: text
+                            text: /
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /lektorat
+                                  target: null
+                                  rel: null
+                            text: Lektorat
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /leistungen/plagiatspruefung
+                                  target: null
+                                  rel: null
+                            text: Plagiatsprüfung
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: link
+                                attrs:
+                                  href: /leistungen/uebersetzung
+                                  target: null
+                                  rel: null
+                            text: 'eBook übersetzen lassen'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
                     text: 'Unsere Leistungen:'
             show_as_card: false
         type: row
@@ -413,6 +608,46 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Ghostwriter für eBook finden'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Falls Sie professionelle Unterstützung für Ihr eBook benötigen, können Sie einen Ghostwriter engagieren. Um rechtlich auf der sicheren Seite zu sein, sollten Sie sich an eine etablierte Agentur wenden. Hier können Sie sicher sein, dass Ihre Daten wirklich anonym behandelt werden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Agentur sucht einen Experten, der Ihnen bei der Umsetzung Ihrer Idee hilft. Aus der Idee entsteht dann Ihr eBook. Sie schließen einen Werkvertrag ab, dadurch können Sie sichergehen, dass Ihre Idee nicht an Dritte weitergegeben wird.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter verschiedener Fachrichtungen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Eine seriöse Agentur hat die Qualifikationen ihrer Ghostwriter überprüft. Sie gehen also kein Risiko ein. Als Vorteil kommt hinzu, dass für eine größere Agentur viele verschiedene Experten arbeiten. Sie können dadurch für Ihr eBook die Expertise aus mehreren Fachbereichen bündeln.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Praktisch ist die Zusammenarbeit mit verschiedenen Ghostwritern vor allem dann, wenn Sie an den Schnittstellen zwischen verschiedenen Wissenschaftsbereichen arbeiten. Wenn Sie beispielsweise Markttrends untersuchen und beschreiben wollen, welche Konsequenzen sich daraus für das Marketing ergeben, könnten Sie sich je einen Marketing- und einen BWL-Experten an ihre Seite holen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
                     text: 'Wichtige akademische Fachbereiche'
               -
                 type: set
@@ -535,12 +770,403 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'EBooks sind im Handel als digitale und portable Kopie eines Originalbuches bereits seit einigen Jahren erhältlich.'
-                  -
-                    type: hard_break
+                    text: 'eBooks sind im Handel als digitale und portable Kopie eines Originalbuches bereits seit einigen Jahren erhältlich. Daneben wächst das Interesse aufstrebender Akademiker und zukunftsorientierter Unternehmer aller Branchen, sich mit einem eigenen eBook und seiner Vermarktung im Internet einen Namen zu machen bzw. neue Zielgruppen zu erreichen. Ein eBook bietet dem interessierten Leser nicht nur die Lektüre des Buches, sondern ermöglicht ihm durch die Hinzugabe der computereigenen Funktionsangebote darüber hinaus die optimale Weiterarbeit an und mit dessen Inhalt. In dieser Weise verwendet, hat sich das eBook durch seine höhere Funktionalität aufgrund der Computertechnologie zu einem eigenständigen Medium entwickelt, das im Bereich wissenschaftlichen Arbeitens nicht mehr wegzudenken ist.'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
-                    text: 'Daneben wächst das Interesse aufstrebender Akademiker und zukunftsorientierter Unternehmer aller Branchen, sich mit einem eigenen eBook und seiner Vermarktung im Internet einen Namen zu machen bzw. neue Zielgruppen zu erreichen. Ein eBook bietet dem interessierten Leser nicht nur die Lektüre des Buches, sondern ermöglicht ihm durch die Hinzugabe der computereigenen Funktionsangebote darüber hinaus die optimale Weiterarbeit an und mit dessen Inhalt. In dieser Weise verwendet, hat sich das eBook durch seine höhere Funktionalität aufgrund der Computertechnologie zu einem eigenständigen Medium entwickelt, das im Bereich wissenschaftlichen Arbeitens nicht mehr wegzudenken ist.'
+                    text: 'Im Jahr 2020 wurden mit eBooks in Deutschland '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#ff6606!important'
+                          hex: '#000'
+                    text: '35,8 Millionen Euro'
+                  -
+                    type: text
+                    text: ' umgesetzt. Der absolute Umsatzanteil von eBooks betrug im Jahr 2020 zwar nur 5,9% - das spiegelt jedoch nicht die dynamische Entwicklung wieder. Die Anzahl von Personen, die eBooks lesen, steigt seit einigen Jahren stetig. Im ersten Halbjahr 2021 betrug der Marktanteil von eBooks schon 7,9%.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating_img
+                    dateien:
+                      - blog/2022/ghostwriter-fuer-ebooks-finden/umsatzanteil-ebooks.png
+                    img_size: w-full
+              -
+                type: paragraph
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Durch die zunehmende Bedeutung von eBooks wird es umgekehrt auch attraktiver, eigene Erkenntnisse nicht mehr ausschließlich auf Papier herauszubringen. Vor allem bei wissenschaftlichen Erkenntnissen bietet eine Online-Veröffentlichung entscheidende Vorteile, weil Sie neues Wissen sehr schnell bekannt machen können.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bei einer Veröffentlichung als eBook können Sie im Self-Publishing auch verschiedene andere Ideen umsetzen. Vielleicht möchten Sie einen Roman veröffentlichen oder Ihre Lebensgeschichte aufschreiben. Falls Sie bei Ihrer eigenen Publikation Unterstützung benötigen, fragen Sie sich, wie Sie einen Ghostwriter für Ihr eBook finden. Wir zeigen Ihnen die Vorteile der elektronischen und Bücher. Und wir erklären Ihnen, worauf Sie bei einem eBook Ghostwriter achten müssen.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating_img
+                    dateien:
+                      - blog/2022/ghostwriter-fuer-ebooks-finden/ebook-preise.jpg
+                    img_size: w-full
+                    float: mx-auto
+                    image_options:
+                      - no_upscale
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Verschiedene Erscheinungsformen von eBooks'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: accordion_wrapper
+                    items:
+                      -
+                        headline: 'Erscheinungsform 1: eBooks Text und Bild 📰'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Es gibt ganz klassische eBooks mit Text und Bild, die sich an gedruckten Büchern orientieren. Anders als bei Büchern auf Papier sind jedoch häufig Hyperlinks eingebettet. Durch das Anklicken kommen Sie dann z.B. auf Erklärungs- oder weiterführende Seiten. Lesbar sind solche klassischen eBooks auf verschiedenen Geräten: auf dem PC, dem Tablet oder Smartphone oder auf dem eBook-Reader.'
+                        active: true
+                      -
+                        headline: 'Erscheinungsform 2: Enhanced eBook 📃'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Ein Enhanced eBook wird so ähnlich dargestellt wie das klassische eBook. Allerdings sind hier auch Video- oder Audiodateien eingebettet. Solche Extras können mit dem PC, Tablet oder Smartphone genutzt werden. Die klassischen eBook-Reader beschränken sich auf die Wiedergabe von Buchtexten und Bildern.'
+                        active: true
+                      -
+                        headline: 'Erscheinungsform 3: Das eBook mit fixem Layout ▶⏸'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Eine dritte Variante sind eBooks mit fixem Format, meist als PDF oder als EPUB fixed Layout. Diese Darstellung der Buchinhalte ist im Wissenschaftsbereich aktuell der Standard. Hier werden hauptsächlich PDF-Dateien veröffentlicht. Praktisch ist, dass die zitierte Literatur hier meist über einen Hyperlink angewählt werden kann. Belletristik wird eher als EPUB fixed Layout dargestellt.'
+                          -
+                            type: paragraph
+                        active: true
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Typischer Aufbau eines eBooks'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Der Aufbau von eBooks ähnelt dem Aufbau von klassischen Büchern. Sie beginnen mit dem Titel, dann folgt das Inhaltsverzeichnis. Dass der Inhalt gleich am Anfang angegeben wird, ist eine Forderung von Amazon. Wenn Sie Ihr eBook also für eine größere Leserschaft planen, sollten Sie diese Regel unbedingt beachten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Den eigentlichen Text des Buches sollten Sie sinnvoll in Kapitel oder Untereinheiten gliedern. Die Navigation ist bei einem eBook schwieriger als beim gedruckten Pendant. Sie können in einem eBook nicht blättern. Deswegen sollten Sie bei der Kapitelunterteilung an Ihre Leser denken.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Nach dem Buchtext können Sie noch Zusatzlinks einfügen, um den Lesern weiterführende Informationen zu geben. Bei einem wissenschaftlichen Text gehört ans Ende des Buches auch das Literaturverzeichnis. Auch hier können Sie die Quellen, die selbst online vorliegen, direkt aus dem Verzeichnis heraus verlinken.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating_img
+                    dateien:
+                      - blog/2022/ghostwriter-fuer-ebooks-finden/ebook-aufbau.png
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Kostenlose eBooks: Kindle und Co. bieten verschiedenes an'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'EBooks sind auch deswegen so populär, weil die Anbieter immer mal kostenlose Bücher bereitstellen. Die großen Anbieter haben kostenlose Einstiegsangebote. Bei '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.skoobe.de/'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: 'Skoobe '
+                  -
+                    type: text
+                    text: 'oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.amazon.de/kindle-shop-ebooks-zeitungen-zubeh%C3%B6r/b?ie=UTF8&node=530484031'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: Kindle
+                  -
+                    type: text
+                    text: ' können Sie in den ersten 30 Tagen Ihres Abos so viel lesen, wie Sie wollen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zahlreiche öffentliche Leihbibliotheken nehmen an dem Verbund Onleihe statt. Wenn Sie einen Bibliotheksausweis haben, können Sie gratis aus über 15.000 eBooks wählen. Bei den kommerziellen Anbietern können Sie Flatrates abschließen. Sie bezahlen dann nicht jedes Buch einzeln, sondern haben ein Abo und können unbegrenzt Bücher herunterladen.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating_img
+                    dateien:
+                      - blog/2022/ghostwriter-fuer-ebooks-finden/kindle-oder-bucher.jpg
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'EBooks lassen sich sehr leicht veröffentlichen'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Da bei den Lesern immer mehr Interesse an eBooks besteht, stellt sich für Autoren die Frage, ob sie ihre nicht auch eher elektronisch veröffentlichen. Vor allem wenn es schnell gehen muss, bietet die Veröffentlichung als eBook Vorteile. Wenn Sie z.B. wissenschaftliche Erkenntnisse schnell publizieren wollen, müssen Sie bei einem eBook den Druck und die Auslieferung nicht abwarten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie ein eigenes Buch schreiben oder eine Studie veröffentlichen wollen, dann war es lange üblich, dass der Verlag entschieden hat, ob es ein Papierbuch oder ein eBook wird. Im Sachbuch- und im Wissenschaftsbereich ist es allerdings heute schon gang und gäbe, dass parallel veröffentlicht wird. Neben dem klassischen Buch gibt es dann auch eine eBook-Variante.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'EBooks eignen sich für Selfpublishing'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Ein großes Segment auf dem Buchmarkt neben den bekannten Verlagen ist der Bereich des Selfpublishing. Es gibt z.B. Plattformen wie '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.epubli.de/'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: epubli.de
+                  -
+                    type: text
+                    text: ' oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://tredition.com/'
+                          target: _blank
+                          rel: 'noopener noreferrer nofollow'
+                    text: tredition.com
+                  -
+                    type: text
+                    text: ', bei denen Sie Ihr eigenes Werk veröffentlichen können. Anbieter wie Buchkodex werben damit, dass Sie ein eigenes eBook innerhalb von 12 Stunden publizieren können. Das geht natürlich nur, wenn das Buch quasi schon geschrieben ist. Zwischen der Buchidee und dem fertigen Manuskript liegt ein längerer Weg. Falls Sie dabei Hilfe benötigen, müssen Sie einen eBook Ghostwriter oder ein entsprechendes Schreibbüro finden.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Veröffentlichung als eBook: Die Vorteile im Überblick'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '➕ Ein Buch als eBook zu veröffentlichen, beschleunigt die Veröffentlichung ungemein. Sie erreichen Ihr Publikum schneller, die Transportwege fallen weg, das eBook kann jederzeit online gekauft werden. Wenn sich der Stand der Forschung ändert, können Sie das zügig einarbeiten und müssen nicht warten, bis eine neue Auflage gedruckt wird.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '➕ Ghostwriter aus verschiedenen Fachbereichen können für ein eBook zusammenarbeiten. So können sehr umfangreiche wissenschaftliche Quellen für das eBook gesammelt, zusammengeführt und interpretiert werden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '➕ '
+                  -
+                    type: text
+                    text: 'Ghostwriter eBook: Deutsch oder andere Sprachen möglich – Ihr eBook kann prinzipiell in verschiedenen Sprachen geschrieben werden. Eine professionelle Ghostwriting-Agentur bietet immer auch Übersetzungen an. Außerdem können Sie native Speaker anfordern.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ➕
+                  -
+                    type: text
+                    text: ' Ghostwriter eBook: Preise wie im Printbereich - Preislich macht es keinen Unterschied, ob Sie eBook Ghostwriting Services in Anspruch nehmen oder klassisches Ghostwriting nutzen. Abgerechnet wird nach der Wortmenge oder nach der Anzahl von Zeichen. Diese lassen sich auf eine Normseite umrechnen, der Wortpreis ist also in beiden Varianten gleich.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '➕ '
+                  -
+                    type: text
+                    text: 'Günstiger im Preis: Wenn Sie ein eBook in Auftrag geben, zahlen Sie nur den Wortpreis und eventuell noch einen Korrekturdurchgang. Kosten für die Drucklegung entstehen nicht.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'EBook Ghostwriting Services sind umfangreich'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Inhaltlich unterstützt ein Ghostwriter Sie bei Ihrem eBook ähnlich wie bei einem gedruckten Buch. Sie verabreden das Thema, die Vorgehensweise und machen einen ungefähren Zeitplan. Vielleicht wollen Sie auch verschiedene Ghostwriter für Ihr eBook finden. Bei einem interdisziplinären Thema kann die Kombination von verschiedenen Expertisen das ganze Projekt bereichern.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn der grobe Plan steht, macht sich Ihr Ghostwriter (oder das Team) an die Arbeit. Je nachdem, was Sie verabredet haben, liefern Sie z.B. die Empirie für die Studie. Die Auswertung kann dann der Ghostwriter übernehmen. Ghostwriter sind professionell. Sie helfen Ihnen nicht nur bei der Texterstellung Schreiben, sondern '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'lektorieren und korrigieren auch die Teile, die Sie vielleicht selbst verfasst haben.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter eBook gesucht: Darauf sollten Sie achten'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie einen eBook Ghostwriter finden wollen, sollten Sie auf die Erfahrungen achten. Jede seriöse Ghostwriting-Agentur hat einen Autorenpool. Wenn Sie dort Unterstützung für ein Projekt anfragen, wird ein Autor mit einem passenden Profil für Sie gesucht. Sie haben dabei aber ein Mitspracherecht. Seriöse Agenturen bieten Ihnen Leseproben an. So können Sie schauen, ob Ihnen der Schreibstil entspricht.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn alles passt, wird ein Vertrag über die eBook Ghostwriting Services geschlossen. Darin werden alle Schritte bis zur Auftragserfüllung festgehalten. Es ist sinnvoll, '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Teillieferungen zu vereinbaren. Dann können Sie über die Zwischenstände abgleichen, ob das Geschriebene wirklich Ihren Erwartungen entspricht.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: floating_img
+                    dateien:
+                      - blog/2022/ghostwriter-fuer-ebooks-finden/ghostwriter-fur-ebook-finden-2-.png
+                    img_size: w-full
+                    image_options:
+                      - no_upscale
               -
                 type: heading
                 attrs:
@@ -560,9 +1186,7 @@ replicator:
                   values:
                     type: blog_entries
                     entries:
-                      - 4ff88c7a-4403-40a0-8423-dca4eb9ae47d
                       - 56aa7035-50e2-4e3c-b340-67c136dad294
-                      - 41fcc8f0-ff27-4b3b-b8d6-49da94dab23f
               -
                 type: paragraph
                 content:
@@ -595,7 +1219,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665655036
+updated_at: 1668116019
 meta_title: 'Ghostwriter eBook schreiben lassen • GWriters'
 meta_description: 'eBook schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false

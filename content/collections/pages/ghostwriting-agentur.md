@@ -1023,7 +1023,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Eine Agentur für Ghostwriter, eine sogenannte Ghostwriting Agentur, verfügt, wenn sie als seriös einzustufen ist, über einen Pool von Ghostwritern. Aus diesem können die Schreiber ausgewählt werden, die die '
+                    text: 'Eine Agentur für Ghostwriter, eine sogenannte Ghostwriting Agentur, verfügt, wenn sie als seriös einzustufen ist, über einen Pool von Ghostwritern. Aus diesem können die Ghostwriter ausgewählt werden, die die '
                   -
                     type: text
                     marks:
@@ -1041,7 +1041,7 @@ replicator:
                     text: 'erforderliche fachliche Kompetenz'
                   -
                     type: text
-                    text: ' oder auch das Wissen, welche akademischen Formalia eingehalten werden müssen. '
+                    text: ' oder auch das Wissen, welche akademischen Formalia eingehalten werden müssen. Seriöse Agenturen prüfen die Qualifikationen der Ghostwriter im Detail und sichern so die Qualität für Sie. Außerdem sollte Ihnen auch die Möglichkeit gegeben werden, sich in einer initialen Telefonkonferenz selbst von der Expertise Ihres Autors zu überzeugen.'
               -
                 type: paragraph
                 content:
@@ -1072,7 +1072,7 @@ replicator:
                           href: /achtung-ghostwriter-betrug
                           target: null
                           rel: null
-                    text: Abzock-Angebote
+                    text: 'Ghostwriting Betrüger'
                   -
                     type: text
                     text: ', die eine Musterarbeit für eine akademische Arbeit nicht in der notwenigen Güte verfassen können. Vor diesen Kriminellen kann man sich '
@@ -1084,7 +1084,7 @@ replicator:
                     text: 'durch das Beauftragen einer seriösen Agentur für Ghostwriter schützen'
                   -
                     type: text
-                    text: '. '
+                    text: '. Dabei sollten Sie darauf achten, dass Sie vorab ein individuell für Sie erstelltes Angebot erhalten (Vorsicht vor Pauschalpreisen und Direkt-Zahlung!), welches eine Plagiatsprüfung, Feedbackschleifen und ein Lektorat bereits inkludiert. Abzocker-Agenturen berechnen für diese Leistungen gerne extra, obwohl dies nicht zur gängigen Praxis seriöser Agenturen gehört.'
               -
                 type: heading
                 attrs:
@@ -1092,7 +1092,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Weitere professionelle Leistungen- Ghostwriting Agentur'
+                    text: 'Weitere professionelle Leistungen einer Ghostwriting Agentur'
               -
                 type: paragraph
                 content:
@@ -1162,6 +1162,96 @@ replicator:
                   -
                     type: text
                     text: ' stellt sicher, dass Ihr wissenschaftlicher Text von einem unabhängigen Lektor mit Fachwissen korrigiert wird. Dieser benötigt wiederum geringere Qualifikationen als ein Ghostwriter, welcher eine Musterarbeit selbstständig verfasst.'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 20
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/dienstleistung.png
+                    text: '### **Diverse professionelle Ghostwriting-Services**'
+                    ausrichtung: bild_text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 20
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/ghostwriter-doktoren.png
+                    text: '### **Professoren als akademische Ghostwriter**'
+                    ausrichtung: text_bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 20
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/interdiszipliniertes-wissen.png
+                    text: '### **Interdisziplinäres Wissen in vielen Fachbereichen**'
+                    ausrichtung: bild_text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 20
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/programme-kostenlos.png
+                    text: '### **Bereitstellung von MAXQDA, SPSS, Stata, R und weiteren Programmen**'
+                    ausrichtung: text_bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 20
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/kommunikation-1635771587.png
+                    text: '### **100% Anonymität & DSGVO/GDPR-Datenschutz**'
+                    ausrichtung: bild_text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 20
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/ghostwriting-agentur/bearbeitungszeit.png
+                    text: '### **Effiziente Bearbeitung und kurfristige Fertigstellung**'
+                    ausrichtung: text_bild
             show_as_card: false
         type: row
         enabled: true
@@ -1255,212 +1345,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/ghostwriting-agentur/dienstleistung.png
-                    text: |+
-                      <h2><center>Diverse professionelle Ghostwriting-Services</center></h2>
-
-                    ausrichtung: bild_text
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 20
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/ghostwriting-agentur/ghostwriter-doktoren.png
-                    text: '<h2><center>Doktoren & Professoren als akademische Ghostwriter</center></h2>'
-                    ausrichtung: text_bild
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 20
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/ghostwriting-agentur/interdiszipliniertes-wissen.png
-                    text: '<h2><center>Interdisziplinäres Wissen in vielen Fachbereichen</center></h2>'
-                    ausrichtung: bild_text
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 20
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/ghostwriting-agentur/programme-kostenlos.png
-                    text: '<h2><center>Bereitstellung von MAXQDA, SPSS, Stata, R und weiteren Programmen</center></h2>'
-                    ausrichtung: text_bild
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 20
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/ghostwriting-agentur/kommunikation-1635771587.png
-                    text: '<h2><center>100% Anonymität & DSGVO/GDPR-Datenschutz</center></h2>'
-                    ausrichtung: bild_text
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 20
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/ghostwriting-agentur/bearbeitungszeit.png
-                    text: '<h2><center>Effiziente Bearbeitung und kurfristige Fertigstellung </center></h2>'
-                    ausrichtung: text_bild
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Welche Vorteile hat eine Ghostwriter Agentur gegenüber einem einzelnen Ghostwriter?'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Eine Agentur kann ein wichtiger Ansprechpartner beim Universitätsabschluss sein, besonders bei einer wissenschaftlichen Texterstellung. Im Studium schreiben Studenten Prüfungen und Klausuren in mehreren Fachrichtungen. Ein einzelner Ghostwriter kann kaum in der Lage sein, alle diese Fachbereiche sicher zu beherrschen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Bei einer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'seriösen Ghostwriting Agentur'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' haben Sie als Kunde die Möglichkeit, alle Leistungen wie das Ghostwriting, Korrektorat, Lektorat oder Plagiatsprüfungen in allen Fachbereichen wie Sozialwissenschaften, BWL etc. aus einer Hand zu erhalten. Hat man bereits gute Erfahrungen mit einer Agentur gemacht, so muss man sich für eine Mustervorlage für ein anderes Thema nicht mühsam einen neuen Schreiber suchen, das erledigt die vertraute Agentur.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Eine Ghostwriting Agentur vermittelt für jede Fachrichtung und Leistung professionelle Ghostwriter. Sie arbeitet mit vielen Fachautoren zusammen. Wenn zum Beispiel ein Student an einem Hochschulstudium BWL studiert und eine Mustervorlage in diesem Themenfeld brauchen, wird aus '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'vielen zertifizierten Ghostwriter aus dieser Branche der passende Ghostwriter ausgewählt'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' und beauftragt.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: true
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -1471,14 +1355,8 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Mustervorlagen für wissenschaftliche Arbeiten'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 20
             show_as_card: false
         type: row
         enabled: true
@@ -1489,8 +1367,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
@@ -1558,8 +1434,6 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
@@ -1626,8 +1500,6 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
@@ -1693,15 +1565,13 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single_col: false
+        single_col: true
         responsive_columns: 0
       -
         columns_per_row: 3
         grid:
           -
             bard:
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
@@ -1769,8 +1639,6 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
@@ -1837,8 +1705,6 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
@@ -1904,7 +1770,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single_col: false
+        single_col: true
         responsive_columns: 0
       -
         single_col: true
@@ -1922,14 +1788,8 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Wichtige akademische Fachbereiche'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 20
             show_as_card: false
         type: row
         enabled: true
@@ -1940,8 +1800,6 @@ replicator:
         grid:
           -
             bard:
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
@@ -2019,8 +1877,6 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
@@ -2097,8 +1953,6 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
@@ -2174,15 +2028,13 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single_col: false
+        single_col: true
         responsive_columns: 0
       -
         columns_per_row: 3
         grid:
           -
             bard:
-              -
-                type: paragraph
               -
                 type: set
                 attrs:
@@ -2260,8 +2112,6 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
@@ -2338,8 +2188,6 @@ replicator:
           -
             bard:
               -
-                type: paragraph
-              -
                 type: set
                 attrs:
                   values:
@@ -2415,7 +2263,7 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        single_col: false
+        single_col: true
         responsive_columns: 0
       -
         single_col: true
@@ -2433,7 +2281,7 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                     text: 'Wir unterstützen Sie bei nahezu allen akademischen Fachbereichen & Arbeiten!'
               -
                 type: set
@@ -2542,7 +2390,65 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: .
+                    text: '. Darüber hinaus sollten Sie unbedingt auch kommunizieren, welche Literatur zwingend eingearbeitet werden muss und ob eventuell schon eine Gliederung vorliegt, an die der Ghostwriter sich halten muss.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Nachdem Sie alle Ihre Anforderungen kommuniziert haben, erhalten Sie von Ihrem Projektmanager ein schriftliches Briefing vorgelegt, welches erst nach Ihrer Freigabe an Ihren Ghostwriter übersandt wird. In diesem Zuge werden mit Ihnen auch Teillieferungstermine vereinbart, zu denen Sie Einblick in den aktuellen Fortschritt erhalten und Feedback zur weiteren Umsetzung geben können. Generell werden die Zahlungen (mit Ausnahme der Anzahlung) erst in Verbindung mit diesen Teillieferungen fällig, sodass Sie nur für das zahlen, was Sie auch erhalten.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Welche Vorteile hat eine Ghostwriter Agentur gegenüber einem einzelnen Ghostwriter?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Eine Agentur kann ein wichtiger Ansprechpartner beim Universitätsabschluss sein, besonders bei einer wissenschaftlichen Texterstellung. Im Studium schreiben Studenten Prüfungen und Klausuren in mehreren Fachrichtungen. Ein einzelner Ghostwriter kann kaum in der Lage sein, alle diese Fachbereiche sicher zu beherrschen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Eine Ghostwriting Agentur vermittelt für jede Fachrichtung und Leistung professionelle Ghostwriter. Sie arbeitet mit vielen Fachautoren zusammen. Wenn zum Beispiel ein Student an einem Hochschulstudium BWL studiert und eine Mustervorlage in diesem Themenfeld brauchen, wird aus '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'vielen zertifizierten Ghostwriter aus dieser Branche der passende Ghostwriter ausgewählt'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' und beauftragt.'
               -
                 type: paragraph
                 content:
@@ -2555,6 +2461,38 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: 'Außerdem stellt eine Agentur den Auftragsschreibern auch eine Reihe professioneller Programme kostenlos zur Verfügung, bspw. den Zugriff auf relevanten Datenbanken, Plagiatssoftwares, automatische Zitiersysteme sowie quantitative und qualitative Analysesoftwares wie SPSS, Stata, R oder MAXQDA.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Bei einer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'seriösen Ghostwriting Agentur'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' haben Sie als Kunde die Möglichkeit, alle Leistungen wie das Ghostwriting, Korrektorat, Lektorat oder Plagiatsprüfungen in allen Fachbereichen wie Sozialwissenschaften, BWL etc. aus einer Hand zu erhalten. Hat man bereits gute Erfahrungen mit einer Agentur gemacht, so muss man sich für eine Mustervorlage für ein anderes Thema nicht mühsam einen neuen Schreiber suchen, das erledigt die vertraute Agentur.'
               -
                 type: paragraph
                 content:
@@ -2586,19 +2524,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' bereitzustellen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Dies ist natürlich auch möglich, sollte es auf Seiten des Ghostwriters zu Problemen kommen, sodass er die Arbeit nicht fertigstellen kann, beispielsweise ein Krankheitsfall. Die '
+                    text: ' bereitzustellen. Dies ist natürlich auch möglich, sollte es auf Seiten des Ghostwriters zu Problemen kommen, sodass er die Arbeit nicht fertigstellen kann, beispielsweise ein Krankheitsfall. Die '
                   -
                     type: text
                     marks:
@@ -2619,6 +2545,54 @@ replicator:
                           color: '#000!important'
                           hex: '#000'
                     text: ' und garantiert die Sicherheit, die Qualität, die Quantität sowie einen pünktlichen Abgabetermin, die so eine wissenschaftliche Abgabe erfordern.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "Zuletzt erhalten Sie nach der finalen Auslieferung auch den Plagiatsbericht aus der hervorgehenden Prüfung. Allerdings gibt es viele schwarze Schafe unter den Ghostwriting Agenturen, die damit werben eine Plagiatsprüfung durchzuführen, dies allerdings nicht tun. Daher sollten Sie immer den Bericht anfordern, um sicherzustellen, dass auch wirklich ein hochwertiges Unikat erhalten. Darüber hinaus wird ein ordentliches Ghostwriting-Unternehmen die Mustervorlage nicht einfach von Ihrem Ghostwriter an Sie direkt weiterleiten. Stattdessen wird daher noch einmal eine Qualitätskontrolle gemacht, indem ein zweiter Fachlektor noch einmal die vollständige Mustervorlage überprüft. Ist ein roter Faden erkennbar? Sind noch stilistische oder orthographische Ungereimtheiten enthalten? Genau diese Punkte werden durch einen\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(255,102,6,var(--tw-text-opacity))'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://statamic-dynamic.gwriters.de/lektorat/lektor'
+                          target: null
+                          rel: null
+                    text: Lektor
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: "\_korrigiert."
               -
                 type: heading
                 attrs:
@@ -2652,8 +2626,6 @@ replicator:
                   values:
                     type: blog_entries
                     entries:
-                      - 636b91b0-241e-4fbf-a315-2267fa607bd3
-                      - de34a06b-d2ba-4dd0-ac3a-8d2761fd005e
                       - ece83e8a-3c91-4e07-8c58-4bcd1c937ec1
               -
                 type: paragraph
@@ -2686,7 +2658,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1666104067
+updated_at: 1668113786
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false

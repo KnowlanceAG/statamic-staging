@@ -427,7 +427,7 @@ replicator:
                                 attrs:
                                   color: 'rgb(68, 68, 68)'
                                   hex: '#000'
-                            text: 'fehlende persönliche Kenntnis'
+                            text: 'fehlende persönliche Kenntnis:'
                           -
                             type: text
                             marks:
@@ -440,7 +440,7 @@ replicator:
                                 attrs:
                                   color: 'rgb(68, 68, 68)'
                                   hex: '#000'
-                            text: ': Als externer Promovend fehlt in der Regel die Bindung an den universitären Kontext, zum Lehrstuhlinhaber gibt es daher keinen persönlichen Draht, der genutzt werden könnte'
+                            text: ' Als externer Promovend fehlt in der Regel die Bindung an den universitären Kontext, zum Lehrstuhlinhaber gibt es daher keinen persönlichen Draht, der genutzt werden könnte'
                   -
                     type: list_item
                     content:
@@ -461,7 +461,7 @@ replicator:
                                 attrs:
                                   color: 'rgb(68, 68, 68)'
                                   hex: '#000'
-                            text: 'keine zuverlässige fachliche Expertise'
+                            text: 'keine zuverlässige fachliche Expertise:'
                           -
                             type: text
                             marks:
@@ -474,7 +474,7 @@ replicator:
                                 attrs:
                                   color: 'rgb(68, 68, 68)'
                                   hex: '#000'
-                            text: ': Das Promotionsexposee oder die Ausführungen zum Dissertationsthema können zwar auf Anhieb überzeugen. Aufgrund der fehlenden Erfahrung weiß der Prof allerdings nicht, wie verlässlich'
+                            text: ' Das Promotionsexposee oder die Ausführungen zum Dissertationsthema können zwar auf Anhieb überzeugen. Aufgrund der fehlenden Erfahrung weiß der Prof allerdings nicht, wie verlässlich'
                   -
                     type: list_item
                     content:
@@ -495,7 +495,7 @@ replicator:
                                 attrs:
                                   color: 'rgb(68, 68, 68)'
                                   hex: '#000'
-                            text: 'fehlende Dienstleistungsfunktion'
+                            text: 'fehlende Dienstleistungsfunktion:'
                           -
                             type: text
                             marks:
@@ -508,7 +508,7 @@ replicator:
                                 attrs:
                                   color: 'rgb(68, 68, 68)'
                                   hex: '#000'
-                            text: ': Der externe Promovend wird nicht wie der Vollzeit-Doktorand die Aufgaben am Lehrstuhl übernehmen. Durch seine mangelnde Präsenz vor Ort kommt er auch nicht als Kollege in Betracht, mit dem man sich auch mal gerne zeigt oder einen privaten Weg erledigt.'
+                            text: ' Der externe Promovend wird nicht wie der Vollzeit-Doktorand die Aufgaben am Lehrstuhl übernehmen. Durch seine mangelnde Präsenz vor Ort kommt er auch nicht als Kollege in Betracht, mit dem man sich auch mal gerne zeigt oder einen privaten Weg erledigt.'
                   -
                     type: list_item
                     content:
@@ -529,7 +529,7 @@ replicator:
                                 attrs:
                                   color: 'rgb(68, 68, 68)'
                                   hex: '#000'
-                            text: 'Fehlende Langfristigkeit'
+                            text: 'Fehlende Langfristigkeit:'
                           -
                             type: text
                             marks:
@@ -542,7 +542,7 @@ replicator:
                                 attrs:
                                   color: 'rgb(68, 68, 68)'
                                   hex: '#000'
-                            text: ': Der Betreuer lässt sich bei der außeruniversitären Promotion auf ein Projekt auf Zeit ein (Promotionsziel ist nicht der weitere Uni-Kontext, sondern die Führungsposition in der Wirtschaft oder Industrie). Der Promovend steht ihm perspektivisch nicht als persönlich ‚aufgebauter‘ Nachwuchswissenschaftler zur Verfügung.'
+                            text: ' Der Betreuer lässt sich bei der außeruniversitären Promotion auf ein Projekt auf Zeit ein (Promotionsziel ist nicht der weitere Uni-Kontext, sondern die Führungsposition in der Wirtschaft oder Industrie). Der Promovend steht ihm perspektivisch nicht als persönlich ‚aufgebauter‘ Nachwuchswissenschaftler zur Verfügung.'
               -
                 type: paragraph
                 content:
@@ -643,6 +643,81 @@ replicator:
                 content:
                   -
                     type: text
+                    text: 'Doktorvater finden: Habilitation/Professur'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Nicht jeder beliebige Wissenschaftler darf Doktorarbeiten betreuen und ist als Doktorvater zugelassen, sondern im deutschen Sprachraum normalerweise nur habilitierte Personen oder Professoren. Für '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.academics.de/ratgeber/habilitationsverfahren'
+                          target: _blank
+                          rel: 'noreferrer nofollow noopener'
+                    text: 'Habilitation und Professur'
+                  -
+                    type: text
+                    text: ' gelten jedoch in unterschiedlichen Ländern unterschiedliche Voraussetzungen: Für eine Professur muss man in der Regel habilitiert sein (Ausnahme ist die FH), zusätzlich jedoch auf einen Lehrstuhl berufen worden sein, d.h. man hat ein strenges Auswahlverfahren durchlaufen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Für die Habilitation ist in der Regel eine Habilitationsschrift erforderlich, sie kann aber auch durch mehrere qualitativ hochwertige Einzelpublikationen erreicht werden. Die Habilitation ist somit die Vorstufe für die Professur. Sie sollten daher vorab beim Doktorvater finden prüfen, ob Ihr Wunschbetreuer auch die entsprechenden Voraussetzungen erfüllt.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Fachliche Reputation des Doktorvaters'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die fachliche Reputation des Betreuers färbt auch auf die eigene Reputation ab. So sollten Sie einen Doktorvater finden, der innerhalb der Scientific Community ein gewisses Standing hat, oft zitiert wird, etc. Davon profitiert man auch als junger Wissenschaftler. Ist hingegen auch der Doktorvater ein Nobody, ist das dem eigenen Ruf nicht dienlich.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Menschliche Fähigkeiten des gewünschten Doktorvaters'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wichtig sind natürlich auch die menschlichen Fähigkeiten des Doktorvaters. Sie sollten sich daher idealerweise mit ihm „verstehen“, denn Sie müssen damit rechnen, mindestens drei Jahre eng mit ihm zusammen zu arbeiten. Vielleicht haben Sie ja schon Erfahrung mit dem Betreuer aus Studienzeiten als Tutor oder Studienassistent. In diesem Fall sind die zentralen Charakteristiken des potentiellen Doktorvaters in der Regel bekannt. Wenn Sie sich einen Ihnen unbekannten Betreuer aussuchen, besteht die Gefahr, nachher menschlich nicht mit diesem klar zu kommen. Wenn Sie einen interessanten Doktorvater finden, sollten Sie zumindest ein paar Vorgespräche mit ihm führen, sodass Sie diesen näher kennenlernen.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Kapazitäten und Ressourcen des Doktorvaters'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Regelmäßiges Feedback innerhalb des Dissertationsprozesses ist wichtig für den Erkenntnisfortschritt. Wenn der gefundene Doktorvater mit eigener Lehre und Forschung jedoch zu ausgelastet ist, leidet in der Regel seine Feedbackhäufigkeit und auch die Feedbackqualität. Informieren Sie sich daher regelmäßig darüber, wann Ihr Doktorvater Zeit hat, um sich Ihre Arbeit anzusehen. Dafür bieten sich in der Regel die Ferienzeiten im Sommer und in den Semesterferien an. Sollte das Feedback ungenügend sein, sollten Sie das ausreichend und rechtzeitig kommunizieren.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
                     marks:
                       -
                         type: textAlign
@@ -654,21 +729,6 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Schritt für Schritt: So lässt sich der gewünschte Doktorvater finden'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: "\_"
               -
                 type: paragraph
                 content:
@@ -719,6 +779,25 @@ replicator:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
                     text: 'Vor dem eigentlichen Herantreten an einen Doktorvater sollte über das Promotionsthema so weit wie möglich Klarheit herrschen. Nach Möglichkeit auch schon über die favorisierte Untersuchungsmethodik. Ebenso sollten die Vorstellungen über die Zeitplanung und die Finanzierung so weit möglich konkretisiert sein. Auch wenn nicht unbedingt damit zu rechnen ist, dass bereits im ersten Gespräch die Betreuung zu einer Zusage führt: Der Professor wird eine solide Vorbereitung zu schätzen wissen. Das schließt Überraschungen im Gespräch naturgemäß nicht aus. Es bewahrt jedoch mit Sicherheit vor Peinlichkeiten.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Außerdem sollte der Doktorvater natürlich aus Ihrem Fachbereich kommen, d.h. die nötige Expertise besitzen. Das betrifft vor allem einschlägige Publikationen. Der Betreuer sollte sich im Thema auskennen und sich für Ihr Dissertationsthema interessieren. Gleichzeitig ist es aber auch wichtig, dass er nicht zu nah am spezifischen Thema dran ist, d.h. idealerweise auch eine gewisse „Distanz“ zum Thema aufweisen kann. Dazu gehört auch, dass er nicht unbedingt in allen Dingen Ihrer Meinung sein muss. Kritische Reflexionen über Argumentation und Struktur der Arbeit bringen Sie beim '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/dissertation-schreiben-motivationstipps
+                          target: null
+                          rel: null
+                    text: 'Doktorarbeit schreiben'
+                  -
+                    type: text
+                    text: ' in der Regel weiter.'
               -
                 type: heading
                 attrs:
@@ -1022,7 +1101,7 @@ page_title: 'Externe Promotion: den geeigneten Doktorvater finden • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665578290
+updated_at: 1668115435
 meta_title: 'Externe Promotion: den geeigneten Doktorvater finden • GWriters'
 meta_description: 'Wir erklären, wie Sie den geeigneten Doktorvater für Ihre externe, nebenberufliche Promotion finden. Profitieren Sie von der unserer Promotionsberatung!'
 use_meta_keywords: false
