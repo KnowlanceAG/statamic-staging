@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'ucdemy: online seminare'
+  imagelink: 'https://www.udemy.com'
 size: 11334
 last_modified: 1668440026
 width: 1597
