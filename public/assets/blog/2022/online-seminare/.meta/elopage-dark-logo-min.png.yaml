@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'elopage: Online Seminar'
+  imagelink: 'https://elopage.com/s/learn2learn-onlinekongress'
 size: 12929
 last_modified: 1668440031
 width: 1597
