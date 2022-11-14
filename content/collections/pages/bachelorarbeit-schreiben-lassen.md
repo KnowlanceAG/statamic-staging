@@ -41,40 +41,48 @@ teaser:
   -
     type: set
     attrs:
+      id: tpfJPh2j
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: 5Vc2Krp7
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: RZfMv6TO
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: MM82kjU9
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
             tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
+            id: eSedXeTH
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: Z1e9mSqB
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Die Mustervorlage für Ihre Arbeit wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: zTbxv2JM
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: eEX4TMzD
       values:
         type: button
         button_link: /anfrage
@@ -84,6 +92,7 @@ teaser:
   -
     type: set
     attrs:
+      id: 3Zavo93U
       values:
         type: spacer
         padding-y: 20
@@ -127,15 +136,19 @@ teaser:
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
+    id: WsurmJO1
     columns_replicator:
       -
+        id: XLgxlUA0
         single_col: true
         grid:
           -
+            id: nvgbMD6M
             bard:
               -
                 type: set
                 attrs:
+                  id: PgZvOLNd
                   values:
                     type: insert_html
                     html: |-
@@ -145,6 +158,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: kfXhqo4W
                   values:
                     type: spacer
                     padding-y: 30
@@ -159,11 +173,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: gclPkhux
     columns_replicator:
       -
+        id: lMOb2JGM
         single_col: false
         grid:
           -
+            id: U5G6qAhe
             bard:
               -
                 type: heading
@@ -219,13 +236,16 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: hdtfj82f
         single_col: false
         grid:
           -
+            id: 95c4Lo1s
             bard:
               -
                 type: set
                 attrs:
+                  id: b1sMwTpm
                   values:
                     type: insert_html
                     html: |-
@@ -250,11 +270,14 @@ replicator:
     enabled: true
     bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
   -
+    id: 2aaY7Kvx
     columns_replicator:
       -
+        id: 5NYMPno4
         single_col: true
         grid:
           -
+            id: KtLTMSWm
             bard:
               -
                 type: heading
@@ -547,6 +570,17 @@ replicator:
                   -
                     type: text
                     text: 'Alternativ können Sie während des gesamten Ablaufs Ihrer Bachelor Thesis auch ein professionelles Coaching oder Unterstützung bei der Recherche anfordern.'
+              -
+                type: set
+                attrs:
+                  id: lah6872d
+                  values:
+                    type: team_liste
+                    team_mitglieder:
+                      - 982ac98d-c972-46cf-95f4-ae824c87dc40
+                    in_flow: true
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -558,11 +592,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: Ye9o5I5i
     columns_replicator:
       -
+        id: 1UPXbqcT
         single_col: true
         grid:
           -
+            id: sGzxQJeh
             bard:
               -
                 type: heading
@@ -590,6 +627,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 6GIikW4P
                   values:
                     type: example_work
                     ex_img_right: false
@@ -617,11 +655,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: 5ztJNnZq
     columns_replicator:
       -
+        id: a7JSdax7
         single_col: true
         grid:
           -
+            id: hmLec6gw
             bard:
               -
                 type: heading
@@ -634,6 +675,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: RAaYV72N
                   values:
                     type: spacer
                     padding-y: 15
@@ -643,16 +685,19 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: 94kgqFCS
         columns_per_row: 4
         single_col: true
         grid:
           -
+            id: 20isOqML
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: LOkidglu
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/security.svg
@@ -660,6 +705,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: bgzoQTj1
                   values:
                     type: spacer
                     padding-y: 10
@@ -690,17 +736,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 50Znnyj4
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
           -
+            id: rPbwhlu7
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: W3LdpIrg
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
@@ -708,6 +757,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: PhJGsJTP
                   values:
                     type: spacer
                     padding-y: 10
@@ -735,17 +785,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: h3ApcelV
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
           -
+            id: 6RrK1sAk
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: BfINksmZ
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/stopwatch.svg
@@ -753,6 +806,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Q1TW1ddb
                   values:
                     type: spacer
                     padding-y: 10
@@ -792,17 +846,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 7OPwWHFc
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
           -
+            id: 8Oo6FEL4
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: 3KiGRJ0h
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/magistrate.svg
@@ -810,6 +867,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: OHP97f4G
                   values:
                     type: spacer
                     padding-y: 10
@@ -840,6 +898,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 7FYRzrII
                   values:
                     type: spacer
                     padding-y: 10
@@ -853,11 +912,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: idLE6TSL
     columns_replicator:
       -
+        id: 9v6jw9g4
         single_col: false
         grid:
           -
+            id: FgaCBWX3
             bard:
               -
                 type: heading
@@ -918,24 +980,29 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: KalFSKc2
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: ohxFibkW
             bard:
               -
                 type: set
                 attrs:
+                  id: s3mijSJT
                   values:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo.-Fr. 9 -18 Uhr'
             show_as_card: true
           -
+            id: TAwuOzes
             bard:
               -
                 type: set
                 attrs:
+                  id: lfobJzoD
                   values:
                     type: spacer
                     padding-y: 12
@@ -954,6 +1021,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 001o5EOi
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -963,6 +1031,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 262RIhjr
                   values:
                     type: spacer
                     padding-y: 10
@@ -978,11 +1047,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: DczhnUNJ
     columns_replicator:
       -
+        id: WynQVhqk
         single_col: true
         grid:
           -
+            id: wHXudYrc
             bard:
               -
                 type: heading
@@ -1072,12 +1144,15 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: ULefxUy8
     columns_replicator:
       -
+        id: s3g7p5mR
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: 6re6jyPn
             bard:
               -
                 type: heading
@@ -1129,10 +1204,12 @@ replicator:
                     text: ' während des Schreibprozesses erfolgen. Wir übernehmen auch gerne die Formatierung, die Korrektur oder das Lektorat für Sie.'
             show_as_card: false
           -
+            id: cj7e9HHm
             bard:
               -
                 type: set
                 attrs:
+                  id: Oss0Oobj
                   values:
                     type: video
                     video: 'https://www.youtube.com/embed/EBDyFVLD0V0'
@@ -1148,11 +1225,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: ONsxQvtP
     columns_replicator:
       -
+        id: m0MOL4Xm
         single_col: true
         grid:
           -
+            id: Vj9SiXuL
             bard:
               -
                 type: heading
@@ -1177,6 +1257,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: cFOFoquf
                   values:
                     type: bild_und_text
                     bild:
@@ -1188,6 +1269,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: RQo15scg
                   values:
                     type: bild_und_text
                     bild:
@@ -1199,6 +1281,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: QxCvm605
                   values:
                     type: bild_und_text
                     bild:
@@ -1210,6 +1293,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: n0973lAA
                   values:
                     type: bild_und_text
                     bild:
@@ -1251,6 +1335,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: WZSG72Oj
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -1269,11 +1354,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: nIG3dsPa
     columns_replicator:
       -
+        id: 9ZQHqyFB
         single_col: true
         grid:
           -
+            id: 7yl9AAhG
             bard:
               -
                 type: heading
@@ -1291,10 +1379,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: nObqJuCz
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: MIGYCRP8
                         text: Fachrichtungen
                         eintraege:
                           - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
@@ -1331,6 +1421,7 @@ replicator:
                           - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
                           - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
                       -
+                        id: XtucKdFE
                         text: Arbeiten
                         eintraege:
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
@@ -1349,6 +1440,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: s48uKvAX
                   values:
                     type: spacer
                     padding-y: 30
@@ -1365,15 +1457,19 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: IBufKb6M
     columns_replicator:
       -
+        id: 5lXuM9Tt
         single_col: false
         grid:
           -
+            id: wtEl0wKn
             bard:
               -
                 type: set
                 attrs:
+                  id: 7ZNxIaNy
                   enabled: false
                   values:
                     type: button
@@ -1395,11 +1491,14 @@ replicator:
     type: add_section
     enabled: false
   -
+    id: a3Lc8219
     columns_replicator:
       -
+        id: QKMwiu09
         single_col: false
         grid:
           -
+            id: XvBxrtQA
             bard:
               -
                 type: heading
@@ -1493,10 +1592,12 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: ibJLsupE
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: cDqjCJvs
             bard:
               -
                 type: heading
@@ -1568,6 +1669,7 @@ replicator:
                     text: .
             show_as_card: true
           -
+            id: GwRRAfoF
             bard:
               -
                 type: heading
@@ -1625,12 +1727,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: t8ZvWJ8t
                   values:
                     type: spacer
                     padding-y: 20
               -
                 type: set
                 attrs:
+                  id: Vob2zxl5
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -1641,6 +1745,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 472XRHOH
                   values:
                     type: spacer
                     padding-y: 27
@@ -1656,11 +1761,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: vtY2HVDs
     columns_replicator:
       -
+        id: 2u9eWwfJ
         single_col: true
         grid:
           -
+            id: cT7iWMHj
             bard:
               -
                 type: heading
@@ -1673,6 +1781,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: e4l2S7Ws
                   values:
                     type: bild_und_text
                     bild:
@@ -1720,11 +1829,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: MByGzQks
     columns_replicator:
       -
+        id: z8BNjKNP
         single_col: true
         grid:
           -
+            id: mScbs95e
             bard:
               -
                 type: heading
@@ -1772,10 +1884,12 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: whHidY0Y
         columns_per_row: 2
         single_col: true
         grid:
           -
+            id: 2XAQD7mL
             bard:
               -
                 type: heading
@@ -2094,6 +2208,7 @@ replicator:
                     text: ' wird und welche Regeln hierbei eingehalten werden müssen.'
             show_as_card: true
           -
+            id: WdyE7nld
             bard:
               -
                 type: heading
@@ -2190,6 +2305,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: uZn3eEZk
                   values:
                     type: spacer
                     padding-y: 17
@@ -2205,15 +2321,19 @@ replicator:
     enabled: true
     bg_color: '#F9F9F9'
   -
+    id: DUQ9bEsu
     columns_replicator:
       -
+        id: kCvByf5q
         single_col: true
         grid:
           -
+            id: QW5R6fr3
             bard:
               -
                 type: set
                 attrs:
+                  id: WX6BinLi
                   values:
                     type: spacer
                     padding-y: 30
@@ -2344,12 +2464,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 6ThPVXOd
                   values:
                     type: spacer
                     padding-y: 20
               -
                 type: set
                 attrs:
+                  id: BZiBdx6q
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -2368,11 +2490,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: Uxmgx6DX
     columns_replicator:
       -
+        id: tMncfk9I
         single_col: true
         grid:
           -
+            id: U40I22ts
             bard:
               -
                 type: heading
@@ -2385,10 +2510,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: ukJqABI1
                   values:
                     type: accordion_custom_wrapper
                     items:
                       -
+                        id: MCgQqLPU
                         headline:
                           -
                             type: heading
@@ -2474,6 +2601,7 @@ replicator:
                                 text: '. Dies gilt auch für die Auswertung von Datensätzen mit SPSS oder R sowie Experimente in Laboren.'
                         active: false
                       -
+                        id: zGwuWZxA
                         headline:
                           -
                             type: heading
@@ -2538,6 +2666,7 @@ replicator:
                                 text: ' ihrer Leistungen. Auch für Seminararbeiten, Hausarbeiten und Masterarbeiten bietet unser professionelle Schreibservice eine Unterstützung an.'
                         active: false
                       -
+                        id: zcprwDKH
                         headline:
                           -
                             type: heading
@@ -2571,6 +2700,7 @@ replicator:
                                 text: ' für die Kosten beim Bachelorarbeit schreiben lassen.'
                         active: false
                       -
+                        id: 6HXioiZx
                         headline:
                           -
                             type: heading
@@ -2640,11 +2770,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: QvHvCptz
     columns_replicator:
       -
+        id: 6eDBoijk
         single_col: true
         grid:
           -
+            id: jjGygEBt
             bard:
               -
                 type: heading
@@ -2691,6 +2824,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: pzrwIgEp
                   values:
                     type: blog_entries
                     entries:
@@ -2862,8 +2996,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665655365
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1668454202
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2915,5 +3049,4 @@ schema_objects: |-
 sitemap_active: true
 alternative_page_title: 'Bachelorarbeit schreiben lassen'
 arbeitsgruppe: a_abschlussarbeiten
-published: true
 ---
