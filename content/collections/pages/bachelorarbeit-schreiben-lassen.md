@@ -638,7 +638,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Zuerst senden Sie uns eine kostenlose Anfrage. Diese können Sie einfach über unser Anfrageformular stellen. Innerhalb kürzester Zeit kontaktieren Sie anschließend unsere Kundenberater. Diese beraten Sie gerne und erstellen ein unverbindliches Angebot für Sie.'
+                    text: 'Zuerst senden Sie uns eine kostenlose Anfrage über unser Anfrageformular. Anschließend kontaktieren unsere Kundenberater Sie innerhalb kürzester Zeit für ein unverbindliches Erstgespräch.'
             show_as_card: false
           -
             bard:
@@ -667,7 +667,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Sobald Sie das Angebot annehmen beginnen wir mit der Bearbeitung. Ihr persönlicher Projektmanager legt mehrere Teillieferungstermine zur Abstimmung fest. Ihre Feedbacks zu diesen setzen wir selbstverständlich kostenfrei um!'
+                    text: 'Im nächsten Schritt erhalten Sie ein ganz unverbindlich ein Angebot von uns, individuell zugeschnitten auf Ihre Bedürfnisse. Dieses beinhaltet auch bereits eine vorläufige Auftragsplanung.'
             show_as_card: false
           -
             bard:
@@ -696,16 +696,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Sie erhalten die fertige Mustervorlage zu Ihrer Bachelorarbeit nach der Fertigstellung. Vor der Lieferung überprüft ein unabhängiger Fachlektor den gesamten Text im Rahmen unserer Qualitätssicherung. Dieser stammt aus dem jeweiligen Fachbereich und kontrolliert Sprachstil, Satzbau und Inhalt. Unser bewährtes 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Zudem nutzen wir die professionelle Software '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Turnitin
-                  -
-                    type: text
-                    text: ' für eine tiefgehende Plagiatsprüfung und senden Ihnen die Ergebnisse der Prüfung.'
+                    text: 'Sobald wir Sie unser Angebot angenommen haben, erstellen wir die Mustervorlage für Ihre Bachelorarbeit. Sie erhalten von Ihrem persönlichen Projektmanager regelmäßig Zwischenstände und wir setzen Ihre Feedbacks zu diesen kostenfrei um.'
             show_as_card: false
           -
             bard:
@@ -734,7 +725,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Sie erhalten von uns als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Arbeit. Diese liefern wir garantiert frei von Plagiaten und von Experten auf Qualität geprüft. Falls Sie hierzu Änderungswünsche haben, setzt ihr Autor diese selbstverständlich kostenfrei um.'
+                    text: 'Die finale Lieferung erhalten Sie garantiert frei von Plagiaten und nach unserem 4-Augen-Prinzip auf Qualität geprüft. Falls Sie Änderungswünsche haben, setzen wir diese selbstverständlich kostenfrei um.'
             show_as_card: false
         type: row
         enabled: true
@@ -1035,7 +1026,7 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
-        single_col: false
+        single_col: true
         grid:
           -
             bard:
@@ -1163,15 +1154,6 @@ replicator:
                           -
                             type: text
                             text: 'Umfang statistischer Ergebnisse'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    spacing_top: false
             show_as_card: false
         type: row
         enabled: true
@@ -1570,18 +1552,12 @@ replicator:
                     button_text: 'JETZT KOSTENLOS ANFRAGEN'
                     color: '#FF6606'
                     spacing_top: false
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     border: false
     type: add_section
@@ -1901,23 +1877,6 @@ replicator:
                   -
                     type: text
                     text: ' suchen. Auch hier kann ein akademischer Berater Hilfestellung leisten und eine Korrektur übernehmen.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -1970,434 +1929,439 @@ replicator:
           -
             bard:
               -
-                type: heading
+                type: set
                 attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
                       -
-                        type: link
-                        attrs:
-                          href: /blog/aufbau-wissenschaftliche-arbeit
-                          target: null
-                          rel: null
-                    text: Gliederung
-                  -
-                    type: text
-                    text: ' einer Bachelorarbeit'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
+                        headline:
                           -
-                            type: text
-                            marks:
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
+                                type: text
+                                marks:
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /blog/aufbau-wissenschaftliche-arbeit
+                                      target: null
+                                      rel: null
+                                text: Gliederung
                               -
-                                type: link
-                                attrs:
-                                  href: /gwriters-akademie/deckblatt-vorlage
-                                  target: null
-                                  rel: null
-                            text: Deckblatt
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
+                                type: text
+                                text: ' einer Bachelorarbeit'
+                        accordion_content:
                           -
-                            type: text
-                            marks:
+                            type: bullet_list
+                            content:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /gwriters-akademie/deckblatt-vorlage
+                                              target: null
+                                              rel: null
+                                        text: Deckblatt
                               -
-                                type: link
-                                attrs:
-                                  href: /blog/bachelorarbeit-abstract
-                                  target: null
-                                  rel: null
-                            text: Abstract
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /blog/bachelorarbeit-abstract
+                                              target: null
+                                              rel: null
+                                        text: Abstract
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: Vorwort
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /gwriters-akademie/inhaltsverzeichnis-vorlage
+                                              target: null
+                                              rel: null
+                                        text: 'Inhaltsverzeichnis (Kapitel, Unterkapitel)'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /gwriters-akademie/abbildungsverzeichnis
+                                              target: null
+                                              rel: null
+                                        text: Abbildungsverzeichnis
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: ' und '
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /gwriters-akademie/tabellenverzeichnis-beispiel
+                                              target: null
+                                              rel: null
+                                        text: Tabellenverzeichnis
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /gwriters-akademie/abkuerzungsverzeichnis
+                                              target: null
+                                              rel: null
+                                        text: Abkürzungsverzeichnis
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /blog/bachelorarbeit-einleitung
+                                              target: null
+                                              rel: null
+                                        text: Einleitung
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: Hauptteil
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                        text: Schlussteil/Fazit
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /gwriters-akademie/literaturverzeichnis-beispiel
+                                              target: null
+                                              rel: null
+                                        text: Literaturverzeichnis
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /gwriters-akademie/anhangsverzeichnis
+                                              target: null
+                                              rel: null
+                                        text: Anhang
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        marks:
+                                          -
+                                            type: textColor
+                                            attrs:
+                                              color: '#000!important'
+                                              hex: '#000'
+                                          -
+                                            type: link
+                                            attrs:
+                                              href: /gwriters-akademie/eidesstattliche-erklaerung-muster
+                                              target: null
+                                              rel: null
+                                        text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
                           -
-                            type: text
-                            marks:
+                            type: paragraph
+                            content:
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: Vorwort
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: 'Oft haben Studierende Schwierigkeiten beim Zitieren von Quellen, sowohl im Literaturverzeichnis als auch in den Fußnoten. Sie wissen oft nicht wie ein '
                               -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                  -
+                                    type: link
+                                    attrs:
+                                      href: /blog/literaturquellen-richtig-zitieren
+                                      target: null
+                                      rel: null
+                                text: 'Zitat korrekt aufgebaut'
                               -
-                                type: link
-                                attrs:
-                                  href: /gwriters-akademie/inhaltsverzeichnis-vorlage
-                                  target: null
-                                  rel: null
-                            text: 'Inhaltsverzeichnis (Kapitel, Unterkapitel)'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /gwriters-akademie/abbildungsverzeichnis
-                                  target: null
-                                  rel: null
-                            text: Abbildungsverzeichnis
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: ' und '
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /gwriters-akademie/tabellenverzeichnis-beispiel
-                                  target: null
-                                  rel: null
-                            text: Tabellenverzeichnis
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /gwriters-akademie/abkuerzungsverzeichnis
-                                  target: null
-                                  rel: null
-                            text: Abkürzungsverzeichnis
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /blog/bachelorarbeit-einleitung
-                                  target: null
-                                  rel: null
-                            text: Einleitung
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: Hauptteil
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: Schlussteil/Fazit
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /gwriters-akademie/literaturverzeichnis-beispiel
-                                  target: null
-                                  rel: null
-                            text: Literaturverzeichnis
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /gwriters-akademie/anhangsverzeichnis
-                                  target: null
-                                  rel: null
-                            text: Anhang
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: textColor
-                                attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                              -
-                                type: link
-                                attrs:
-                                  href: /gwriters-akademie/eidesstattliche-erklaerung-muster
-                                  target: null
-                                  rel: null
-                            text: 'Eidesstattliche Erklärung/ Eigenständigkeitserklärung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Oft haben Studierende Schwierigkeiten beim Zitieren von Quellen, sowohl im Literaturverzeichnis als auch in den Fußnoten. Sie wissen oft nicht wie ein '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/literaturquellen-richtig-zitieren
-                          target: null
-                          rel: null
-                    text: 'Zitat korrekt aufgebaut'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' wird und welche Regeln hierbei eingehalten werden müssen.'
+                                type: text
+                                marks:
+                                  -
+                                    type: textColor
+                                    attrs:
+                                      color: '#000!important'
+                                      hex: '#000'
+                                text: ' wird und welche Regeln hierbei eingehalten werden müssen.'
+                        active: false
             show_as_card: true
           -
             bard:
               -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Allgemeine Formatierungsrichtlinien einer Bachelorarbeit '
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Schriftart: Times New Roman (oder Arial Größe 11) '
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Schriftgröße: 12 Punkt'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Zeilenabstand: 1,5'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Ränder: oben und unten jeweils 2,5 cm, links und rechts jeweils 3 cm'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Absatzformat: Blocksatz (auf Trennung achten)'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Fußnoten: Schriftgröße 10 '
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Seitenzahlen: alle Seiten nummeriert, außer Titelblatt, Inhaltsverzeichnis einer Bachelorarbeit, Literaturverzeichnis und Anhang'
-              -
                 type: set
                 attrs:
                   values:
-                    type: spacer
-                    padding-y: 17
+                    type: accordion_custom_wrapper
+                    items:
+                      -
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Formatierung einer Bachelorarbeit '
+                        accordion_content:
+                          -
+                            type: bullet_list
+                            content:
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Schriftart: Times New Roman (oder Arial Größe 11) '
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Schriftgröße: 12 Punkt'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Zeilenabstand: 1,5'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Ränder: oben und unten jeweils 2,5 cm, links und rechts jeweils 3 cm'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Absatzformat: Blocksatz (auf Trennung achten)'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Kapitelüberschriften: 14 Pt Fettdruck, danach zwei Zeilen Abstand'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Unterkapitelüberschriften: 12 Pt Fettdruck, danach eine Zeile Abstand'
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Fußnoten: Schriftgröße 10 '
+                              -
+                                type: list_item
+                                content:
+                                  -
+                                    type: paragraph
+                                    content:
+                                      -
+                                        type: text
+                                        text: 'Seitenzahlen: alle Seiten nummeriert, außer Titelblatt, Inhaltsverzeichnis einer Bachelorarbeit, Literaturverzeichnis und Anhang'
+                        active: false
             show_as_card: true
         type: row
         enabled: true
         responsive_columns: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    border: false
-    type: add_section
-    enabled: true
-    bg_color: '#F9F9F9'
-  -
-    columns_replicator:
       -
         single_col: true
         grid:
@@ -2426,7 +2390,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Komplexität & Bachelorarbeit-Kosten'
+                                text: 'Komplexität &amp; Bachelorarbeit-Kosten'
                         accordion_content:
                           -
                             type: paragraph
@@ -2575,7 +2539,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Bearbeitungsdauer & Bachelorarbeit-Preise'
+                                text: 'Bearbeitungsdauer &amp; Bachelorarbeit-Preise'
                         accordion_content:
                           -
                             type: paragraph
@@ -2656,25 +2620,6 @@ replicator:
                                 type: text
                                 text: '. Dies gilt auch, wenn Sie eine für eine Bachelor-Thesis eine Mustervorlage erstellen lassen.'
                         active: false
-              -
-                type: blockquote
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -2880,6 +2825,8 @@ replicator:
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
+              -
+                type: blockquote
             show_as_card: false
         type: row
         enabled: true
@@ -2892,7 +2839,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1668440854
+updated_at: 1668443177
 template: default
 use_meta_keywords: false
 no_index_page: false
