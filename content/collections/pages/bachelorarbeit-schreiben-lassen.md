@@ -567,6 +567,128 @@ replicator:
               -
                 type: heading
                 attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          hex: '#000'
+                    text: "Mustervorlage für Bachelorarbeit schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/arbeiten/hausarbeit/anfrage.png
+                    text: |-
+                      ### Kostenlose Anfrage
+                      Zuerst senden Sie uns eine kostenlose Anfrage. Diese können Sie einfach über unser Anfrageformular stellen. Innerhalb kürzester Zeit kontaktieren Sie anschließend unsere Kundenberater. Diese beraten Sie gerne und erstellen ein unverbindliches Angebot für Sie.
+                    ausrichtung: bild_text
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/arbeiten/hausarbeit/termineplanen.png
+                    text: |-
+                      ### Projektmanager & Teillieferungen
+                      Sobald Sie das Angebot annehmen beginnen wir mit der Bearbeitung. Ihr persönlicher Projektmanager legt mehrere Teillieferungstermine zur Abstimmung fest. Ihre Feedbacks zu diesen setzen wir selbstverständlich kostenfrei um!
+                    ausrichtung: text_bild
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
+                    ausrichtung: bild_text
+                    text: |-
+                      ### Abschlusslieferung & Qualitätsgarantie
+                      Sie erhalten die fertige Mustervorlage zu Ihrer Bachelorarbeit nach der Fertigstellung. Vor der Lieferung überprüft ein unabhängiger Fachlektor den gesamten Text im Rahmen unserer Qualitätssicherung. Dieser stammt aus dem jeweiligen Fachbereich und kontrolliert Sprachstil, Satzbau und Inhalt. Unser bewährtes 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Zudem nutzen wir die professionelle Software **Turnitin** für eine tiefgehende Plagiatsprüfung und senden Ihnen die Ergebnisse der Prüfung.
+              -
+                type: set
+                attrs:
+                  values:
+                    type: bild_und_text
+                    bild:
+                      - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
+                    ausrichtung: text_bild
+                    text: |-
+                      ### Kostenlose Änderungswünsche
+                      Sie erhalten von uns als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Arbeit. Diese liefern wir garantiert frei von Plagiaten und von Experten auf Qualität geprüft. Falls Sie hierzu Änderungswünsche haben, setzt ihr Autor diese selbstverständlich kostenfrei um.
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Hilfe oder eine wissenschaftliche Texterstellung benötigen, wenden Sie sich gerne an uns. Über '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /kontakt
+                          target: null
+                          rel: null
+                    text: 'unser Kontaktformular'
+                  -
+                    type: text
+                    text: ' erhalten Sie jederzeit eine kostenlose Beratung. Möchten Sie ein Coaching oder eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Mustervorlage für Ihre Bachelorarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: '? Unsere Kundenberater beraten Sie dazu gerne! '
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOSE ANFRAGE SCHICKEN!'
+                    color: '#FF6606'
+                    button_align: justify-center
+                    spacing_top: false
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+    bg_toggle: false
+  -
+    columns_replicator:
+      -
+        single_col: true
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
                   level: 2
                 content:
                   -
@@ -611,8 +733,6 @@ replicator:
         columns_per_row: 0
     remove_spacing: false
     is_full: true
-    bg_toggle: false
-    bg_color: '#F9F9F9'
     border: false
     type: add_section
     enabled: true
@@ -852,6 +972,7 @@ replicator:
     border: false
     type: add_section
     enabled: true
+    bg_toggle: false
   -
     columns_replicator:
       -
@@ -972,8 +1093,6 @@ replicator:
         responsive_columns: 0
     remove_spacing: false
     is_full: true
-    bg_toggle: false
-    bg_color: '#D6D6D6'
     border: false
     type: add_section
     enabled: true
@@ -1064,17 +1183,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        responsive_columns: 0
         columns_per_row: 0
+        responsive_columns: 0
     remove_spacing: false
     is_full: false
     border: false
     type: add_section
     enabled: true
+    bg_toggle: false
   -
     columns_replicator:
       -
-        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -1140,131 +1259,9 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#F2F2F2'
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
-                          hex: '#000'
-                    text: "Mustervorlage für Bachelorarbeit schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/anfrage.png
-                    text: |-
-                      ### Kostenlose Anfrage
-                      Zuerst senden Sie uns eine kostenlose Anfrage. Diese können Sie einfach über unser Anfrageformular stellen. Innerhalb kürzester Zeit kontaktieren Sie anschließend unsere Kundenberater. Diese beraten Sie gerne und erstellen ein unverbindliches Angebot für Sie.
-                    ausrichtung: bild_text
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/termineplanen.png
-                    text: |-
-                      ### Projektmanager & Teillieferungen
-                      Sobald Sie das Angebot annehmen beginnen wir mit der Bearbeitung. Ihr persönlicher Projektmanager legt mehrere Teillieferungstermine zur Abstimmung fest. Ihre Feedbacks zu diesen setzen wir selbstverständlich kostenfrei um!
-                    ausrichtung: text_bild
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
-                    ausrichtung: bild_text
-                    text: |-
-                      ### Abschlusslieferung & Qualitätsgarantie
-                      Sie erhalten die fertige Mustervorlage zu Ihrer Bachelorarbeit nach der Fertigstellung. Vor der Lieferung überprüft ein unabhängiger Fachlektor den gesamten Text im Rahmen unserer Qualitätssicherung. Dieser stammt aus dem jeweiligen Fachbereich und kontrolliert Sprachstil, Satzbau und Inhalt. Unser bewährtes 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Zudem nutzen wir die professionelle Software **Turnitin** für eine tiefgehende Plagiatsprüfung und senden Ihnen die Ergebnisse der Prüfung.
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
-                    ausrichtung: text_bild
-                    text: |-
-                      ### Kostenlose Änderungswünsche
-                      Sie erhalten von uns als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Arbeit. Diese liefern wir garantiert frei von Plagiaten und von Experten auf Qualität geprüft. Falls Sie hierzu Änderungswünsche haben, setzt ihr Autor diese selbstverständlich kostenfrei um.
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Hilfe oder eine wissenschaftliche Texterstellung benötigen, wenden Sie sich gerne an uns. Über '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /kontakt
-                          target: null
-                          rel: null
-                    text: 'unser Kontaktformular'
-                  -
-                    type: text
-                    text: ' erhalten Sie jederzeit eine kostenlose Beratung. Möchten Sie ein Coaching oder eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Mustervorlage für Ihre Bachelorarbeit schreiben lassen'
-                  -
-                    type: text
-                    text: '? Unsere Kundenberater beraten Sie dazu gerne! '
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOSE ANFRAGE SCHICKEN!'
-                    color: '#FF6606'
-                    button_align: justify-center
-                    spacing_top: false
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
         columns_per_row: 0
     remove_spacing: false
-    is_full: false
+    is_full: true
     border: false
     type: add_section
     enabled: true
@@ -1352,8 +1349,6 @@ replicator:
                   values:
                     type: spacer
                     padding-y: 30
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1393,7 +1388,7 @@ replicator:
     bg_toggle: false
     border: false
     type: add_section
-    enabled: false
+    enabled: true
   -
     columns_replicator:
       -
@@ -2863,7 +2858,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665655365
+updated_at: 1668438829
 template: default
 use_meta_keywords: false
 no_index_page: false
