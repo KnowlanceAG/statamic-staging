@@ -547,23 +547,6 @@ replicator:
                   -
                     type: text
                     text: 'Alternativ können Sie während des gesamten Ablaufs Ihrer Bachelor Thesis auch ein professionelles Coaching oder Unterstützung bei der Recherche anfordern.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
               -
                 type: heading
                 attrs:
@@ -577,108 +560,190 @@ replicator:
                       -
                         type: textAlign
                         attrs:
-                          align: center
+                          align: left
                       -
                         type: textColor
                         attrs:
-                          color: 'rgba(68,68,68,var(--tw-text-opacity))'
+                          color: '#000!important'
                           hex: '#000'
-                    text: "Mustervorlage für Bachelorarbeit schreiben\_lassen\_– mithilfe eines\_Ghostwriters? Wie funktioniert die Kooperation?"
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/anfrage.png
-                    text: |-
-                      ### Kostenlose Anfrage
-                      Zuerst senden Sie uns eine kostenlose Anfrage. Diese können Sie einfach über unser Anfrageformular stellen. Innerhalb kürzester Zeit kontaktieren Sie anschließend unsere Kundenberater. Diese beraten Sie gerne und erstellen ein unverbindliches Angebot für Sie.
-                    ausrichtung: bild_text
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/termineplanen.png
-                    text: |-
-                      ### Projektmanager & Teillieferungen
-                      Sobald Sie das Angebot annehmen beginnen wir mit der Bearbeitung. Ihr persönlicher Projektmanager legt mehrere Teillieferungstermine zur Abstimmung fest. Ihre Feedbacks zu diesen setzen wir selbstverständlich kostenfrei um!
-                    ausrichtung: text_bild
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/lieferung-der-mustervorlage.png
-                    ausrichtung: bild_text
-                    text: |-
-                      ### Abschlusslieferung & Qualitätsgarantie
-                      Sie erhalten die fertige Mustervorlage zu Ihrer Bachelorarbeit nach der Fertigstellung. Vor der Lieferung überprüft ein unabhängiger Fachlektor den gesamten Text im Rahmen unserer Qualitätssicherung. Dieser stammt aus dem jeweiligen Fachbereich und kontrolliert Sprachstil, Satzbau und Inhalt. Unser bewährtes 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Zudem nutzen wir die professionelle Software **Turnitin** für eine tiefgehende Plagiatsprüfung und senden Ihnen die Ergebnisse der Prüfung.
-              -
-                type: set
-                attrs:
-                  values:
-                    type: bild_und_text
-                    bild:
-                      - seiten/arbeiten/hausarbeit/feedbackumsetzen.png
-                    ausrichtung: text_bild
-                    text: |-
-                      ### Kostenlose Änderungswünsche
-                      Sie erhalten von uns als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Arbeit. Diese liefern wir garantiert frei von Plagiaten und von Experten auf Qualität geprüft. Falls Sie hierzu Änderungswünsche haben, setzt ihr Autor diese selbstverständlich kostenfrei um.
-              -
-                type: paragraph
-                content:
+                    text: "Mustervorlage für Bachelorarbeit schreiben\_lassen"
                   -
-                    type: text
-                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Hilfe oder eine wissenschaftliche Texterstellung benötigen, wenden Sie sich gerne an uns. Über '
-                  -
-                    type: text
+                    type: hard_break
                     marks:
                       -
                         type: bold
                       -
-                        type: link
+                        type: textAlign
                         attrs:
-                          href: /kontakt
-                          target: null
-                          rel: null
-                    text: 'unser Kontaktformular'
-                  -
-                    type: text
-                    text: ' erhalten Sie jederzeit eine kostenlose Beratung. Möchten Sie ein Coaching oder eine '
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Mustervorlage für Ihre Bachelorarbeit schreiben lassen'
-                  -
-                    type: text
-                    text: '? Unsere Kundenberater beraten Sie dazu gerne! '
+                      -
+                        type: textAlign
+                        attrs:
+                          align: left
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '– Wie funktioniert die Kooperation?'
               -
                 type: set
                 attrs:
                   values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOSE ANFRAGE SCHICKEN!'
-                    color: '#FF6606'
-                    button_align: justify-center
-                    spacing_top: false
+                    type: spacer
+                    padding-y: 15
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
+      -
+        columns_per_row: 4
+        single_col: true
+        grid:
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom_svg_width
+                    svg_file: seiten/so-funktioniert-es/icon-anfrage-orange.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Kostenlose Anfrage'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Zuerst senden Sie uns eine kostenlose Anfrage. Diese können Sie einfach über unser Anfrageformular stellen. Innerhalb kürzester Zeit kontaktieren Sie anschließend unsere Kundenberater. Diese beraten Sie gerne und erstellen ein unverbindliches Angebot für Sie.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom_svg_width
+                    svg_file: seiten/so-funktioniert-es/icon-angebot-orange.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Unverbindliches Angebot'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sobald Sie das Angebot annehmen beginnen wir mit der Bearbeitung. Ihr persönlicher Projektmanager legt mehrere Teillieferungstermine zur Abstimmung fest. Ihre Feedbacks zu diesen setzen wir selbstverständlich kostenfrei um!'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom_svg_width
+                    svg_file: seiten/so-funktioniert-es/icon-auftrag-orange.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Wir schreiben für Sie'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sie erhalten die fertige Mustervorlage zu Ihrer Bachelorarbeit nach der Fertigstellung. Vor der Lieferung überprüft ein unabhängiger Fachlektor den gesamten Text im Rahmen unserer Qualitätssicherung. Dieser stammt aus dem jeweiligen Fachbereich und kontrolliert Sprachstil, Satzbau und Inhalt. Unser bewährtes 4-Augen-Prinzip ist selbstverständlich im Preis inklusive. Zudem nutzen wir die professionelle Software '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Turnitin
+                  -
+                    type: text
+                    text: ' für eine tiefgehende Plagiatsprüfung und senden Ihnen die Ergebnisse der Prüfung.'
+            show_as_card: false
+          -
+            bard:
+              -
+                type: set
+                attrs:
+                  values:
+                    type: custom_svg_width
+                    svg_file: seiten/so-funktioniert-es/icon-lieferung-orange.svg
+                    custom_svg_width: 120
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Finale Lieferung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Sie erhalten von uns als PDF Datei zur Unterstützung bei der Erstellung Ihrer eigenen wissenschaftlichen Arbeit. Diese liefern wir garantiert frei von Plagiaten und von Experten auf Qualität geprüft. Falls Sie hierzu Änderungswünsche haben, setzt ihr Autor diese selbstverständlich kostenfrei um.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
     remove_spacing: false
     is_full: false
     border: false
     type: add_section
     enabled: true
-    bg_toggle: false
   -
     columns_replicator:
       -
@@ -733,6 +798,8 @@ replicator:
         columns_per_row: 0
     remove_spacing: false
     is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
     border: false
     type: add_section
     enabled: true
@@ -967,12 +1034,154 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
+      -
+        single_col: false
+        grid:
+          -
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ghostwriter Bachelorarbeit: Preise, Kosten & wie sie berechnet werden'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Das Schreiben der Bachelorarbeit ist die letzte große Hürde im Studium. Wenden Sie sich an unsere akademischen Ghostwriter, um diese Hürde erfolgreich zu meistern. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Akademische Ghostwriter erstellen einen hochwertigen wissenschaftlichen Entwurf der Bachelorarbeit'
+                  -
+                    type: text
+                    text: '. Anhand dieser Vorlage können Sie Ihre eigene Arbeit deutlich effizienter schreiben.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Die Kosten für das Schreiben lassen einer Bachelorarbeit werden bei unseren Autoren von einigen Faktoren beeinflusst. Einen groben Überblick über unsere Kosten bietet Ihnen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /preise
+                          target: null
+                          rel: null
+                    text: 'unser Preisrechner'
+                  -
+                    type: text
+                    text: '. Für ein individuelles und unverbindliches Kostenangebot können Sie einfach & schnell '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unser Anfrageformular'
+                  -
+                    type: text
+                    text: ' nutzen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: 'Zu den Kostenfaktoren einer Bachelorarbeit gehören:'
+              -
+                type: bullet_list
+                content:
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'die Komplexität des Bachelorarbeit-Themas'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'der Fachbereich (Fachautoren)'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'die Bearbeitungsdauer'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'der Umfang der Bachelorarbeit'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'weitere individuelle Vorgaben'
+                  -
+                    type: list_item
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: 'Umfang statistischer Ergebnisse'
+              -
+                type: set
+                attrs:
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    color: '#FF6606'
+                    spacing_top: false
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
     border: false
     type: add_section
     enabled: true
-    bg_toggle: false
   -
     columns_replicator:
       -
@@ -1093,6 +1302,8 @@ replicator:
         responsive_columns: 0
     remove_spacing: false
     is_full: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
     border: false
     type: add_section
     enabled: true
@@ -1183,17 +1394,17 @@ replicator:
             show_as_card: false
         type: row
         enabled: true
-        columns_per_row: 0
         responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
     border: false
     type: add_section
     enabled: true
-    bg_toggle: false
   -
     columns_replicator:
       -
+        columns_per_row: 2
         single_col: false
         grid:
           -
@@ -1259,9 +1470,10 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
-        columns_per_row: 0
     remove_spacing: false
     is_full: true
+    bg_toggle: false
+    bg_color: '#F2F2F2'
     border: false
     type: add_section
     enabled: true
@@ -1349,27 +1561,9 @@ replicator:
                   values:
                     type: spacer
                     padding-y: 30
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: true
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: false
-        grid:
-          -
-            bard:
               -
                 type: set
                 attrs:
-                  enabled: false
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -1377,15 +1571,18 @@ replicator:
                     color: '#FF6606'
                     spacing_top: false
               -
-                type: paragraph
+                type: set
+                attrs:
+                  values:
+                    type: spacer
+                    padding-y: 30
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
+    remove_spacing: true
+    is_full: false
     border: false
     type: add_section
     enabled: true
@@ -2207,169 +2404,6 @@ replicator:
           -
             bard:
               -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 30
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Ghostwriter Bachelorarbeit: Preise, Kosten & wie sie berechnet werden'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Das Schreiben der Bachelorarbeit ist die letzte große Hürde im Studium. Wenden Sie sich an unsere akademischen Ghostwriter, um diese Hürde erfolgreich zu meistern. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Akademische Ghostwriter erstellen einen hochwertigen wissenschaftlichen Entwurf der Bachelorarbeit'
-                  -
-                    type: text
-                    text: '. Anhand dieser Vorlage können Sie Ihre eigene Arbeit deutlich effizienter schreiben.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Die Kosten für das Schreiben lassen einer Bachelorarbeit werden bei unseren Autoren von einigen Faktoren beeinflusst. Einen groben Überblick über unsere Kosten bietet Ihnen '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /preise
-                          target: null
-                          rel: null
-                    text: 'unser Preisrechner'
-                  -
-                    type: text
-                    text: '. Für ein individuelles und unverbindliches Kostenangebot können Sie einfach & schnell '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /anfrage
-                          target: null
-                          rel: null
-                    text: 'unser Anfrageformular'
-                  -
-                    type: text
-                    text: ' nutzen.'
-              -
-                type: heading
-                attrs:
-                  level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Zu den Kostenfaktoren einer Bachelorarbeit gehören:'
-              -
-                type: bullet_list
-                content:
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'die Komplexität des Bachelorarbeit-Themas'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'der Fachbereich (Fachautoren)'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'die Bearbeitungsdauer'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'der Umfang der Bachelorarbeit'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'weitere individuelle Vorgaben'
-                  -
-                    type: list_item
-                    content:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: 'Umfang statistischer Ergebnisse'
-              -
-                type: set
-                attrs:
-                  values:
-                    type: spacer
-                    padding-y: 20
-              -
-                type: set
-                attrs:
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    color: '#FF6606'
-                    button_align: justify-center
-                    spacing_top: false
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: true
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    columns_replicator:
-      -
-        single_col: true
-        grid:
-          -
-            bard:
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -2858,7 +2892,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1668438829
+updated_at: 1668440854
 template: default
 use_meta_keywords: false
 no_index_page: false
