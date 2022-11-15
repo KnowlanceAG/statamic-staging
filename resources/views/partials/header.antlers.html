@@ -12,4 +12,10 @@
     </div>
   </div>
 </header>
-<div class="hidden md:block">{{ partial src="partials/breadcrumbs"}}</div>
+{{ if breadcrumbs_active || breadcrumbs_active == null }}
+  <div class="hidden md:block">
+    <div class="absolute w-full top-24 z-30">
+      {{ partial src="partials/breadcrumbs"}}
+    </div>
+  </div>
+{{ /if }}
