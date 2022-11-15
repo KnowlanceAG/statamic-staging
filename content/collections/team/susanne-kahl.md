@@ -81,4 +81,5 @@ override_twitter_settings: false
 override_twitter_card_settings: false
 twitter_card_type_page: summary
 show_as_card: false
+breadcrumbs_active: true
 ---

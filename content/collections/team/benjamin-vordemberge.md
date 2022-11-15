@@ -18,4 +18,5 @@ og_image: team/benjamin-vordemberge-gwriters.jpg
 email_address: vordemberge@gwriters.de
 published: true
 phone_number: '+49 30 809332367'
+breadcrumbs_active: true
 ---

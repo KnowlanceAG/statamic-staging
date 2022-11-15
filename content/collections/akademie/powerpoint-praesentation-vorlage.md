@@ -188,4 +188,5 @@ link_title: 'Kolloquium Präsentation'
 og_title: 'Kostenlose Kolloquium-Präsentation Vorlage'
 og_description: 'Kolloquium-Präsentation - laden Sie jetzt unsere kostenlose Vorlage herunter & erstellen Sie eine gelungene Powerpoint Präsentation für die Verteidigung Ihrer wissenschaftlichen Arbeit!'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

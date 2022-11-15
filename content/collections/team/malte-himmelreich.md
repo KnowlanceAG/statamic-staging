@@ -17,4 +17,5 @@ updated_at: 1662388638
 published: true
 phone_number: '+49 30 809332355'
 email_address: himmelreich@gwriters.de
+breadcrumbs_active: true
 ---

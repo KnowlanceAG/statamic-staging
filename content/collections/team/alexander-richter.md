@@ -19,4 +19,5 @@ og_image: team/alexander-richter-gwriters.jpg
 published: true
 phone_number: '+49 30 809332373'
 email_address: assistenz@gwriters.de
+breadcrumbs_active: true
 ---

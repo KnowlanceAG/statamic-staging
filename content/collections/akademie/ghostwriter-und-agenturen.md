@@ -236,4 +236,5 @@ more_templates:
 og_title: 'GWriters • Alle wichtigen Informationen zu Ghostwritern und Agenturen'
 og_description: 'Unterscheiden Sie eine professionelle Ghostwriting Agentur von unseriösen Ghostwritern und Hobbyschreibern. Vertrauen Sie auf Experten!'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

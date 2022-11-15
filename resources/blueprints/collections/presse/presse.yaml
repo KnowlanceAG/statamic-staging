@@ -61,7 +61,6 @@ sections:
         handle: slug
         field:
           type: slug
-          required: true
           localizable: true
           validate:
             - required
@@ -111,6 +110,8 @@ sections:
           type: text
           icon: text
           listable: hidden
+      -
+        import: breadcrubs_active
   post_detail:
     display: 'Beitragsdetail Seite'
     fields:

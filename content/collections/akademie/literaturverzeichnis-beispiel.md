@@ -225,4 +225,5 @@ template: academy-item
 og_title: 'Kostenloses Literaturverzeichnis für Ihre Hausarbeit herunterladen'
 og_description: 'Nutzen Sie einfach und schnell das Literaturverzeichnis Muster von GWriters. Die kostenlose Vorlage spart Ihnen die fehlende Citavi-Lizenz.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

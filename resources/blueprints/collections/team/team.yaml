@@ -53,6 +53,8 @@ sections:
           validate:
             - required
             - 'unique_entry_value:{collection},{id},{site}'
+      -
+        import: breadcrubs_active
   team_detail:
     display: Detail
     fields:

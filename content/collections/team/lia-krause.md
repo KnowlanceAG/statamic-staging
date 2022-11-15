@@ -18,4 +18,5 @@ show_as_card: false
 email_address: krause@gwriters.de
 published: true
 phone_number: '+49 30 809332358'
+breadcrumbs_active: true
 ---
