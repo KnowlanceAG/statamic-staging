@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'edx: online Kurs Plattform'
 size: 15574
 last_modified: 1668448217
 width: 1597
