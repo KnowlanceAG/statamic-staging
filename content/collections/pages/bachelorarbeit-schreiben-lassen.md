@@ -1207,21 +1207,6 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Das Schreiben der Bachelorarbeit ist die letzte große Hürde im Studium. Wenden Sie sich an unsere akademischen Ghostwriter, um diese Hürde erfolgreich zu meistern. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Akademische Ghostwriter erstellen einen hochwertigen wissenschaftlichen Entwurf der Bachelorarbeit'
-                  -
-                    type: text
-                    text: '. Anhand dieser Vorlage können Sie Ihre eigene Arbeit deutlich effizienter schreiben.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
                     text: 'Die Kosten für das Schreiben lassen einer Bachelorarbeit werden bei unseren Autoren von einigen Faktoren beeinflusst. Einen groben Überblick über unsere Kosten bietet Ihnen '
                   -
                     type: text
@@ -1261,6 +1246,19 @@ replicator:
                   -
                     type: text
                     text: 'Zu den Kostenfaktoren einer Bachelorarbeit gehören:'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: laig42v0
+        columns_per_row: 2
+        single_col: true
+        grid:
+          -
+            id: hF87H9lt
+            bard:
               -
                 type: bullet_list
                 content:
@@ -1291,6 +1289,13 @@ replicator:
                           -
                             type: text
                             text: 'die Bearbeitungsdauer'
+            show_as_card: false
+          -
+            id: laig451y
+            bard:
+              -
+                type: bullet_list
+                content:
                   -
                     type: list_item
                     content:
@@ -1318,6 +1323,26 @@ replicator:
                           -
                             type: text
                             text: 'Umfang statistischer Ergebnisse'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: laig6g0e
+        single_col: true
+        grid:
+          -
+            id: hF87H9lt
+            bard:
+              -
+                type: set
+                attrs:
+                  id: LydkGXPt
+                  values:
+                    type: preisrechner
+                    show_calulator: true
+              -
+                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -1978,23 +2003,23 @@ replicator:
                       - seiten/arbeiten/bachelorarbeit-schreiben.jpg
                     ausrichtung: text_bild
                     text: |+
-                      Je nach Fachrichtung und Institution umfasst sie inklusive Inhaltsverzeichnis und Exposé 20-60 Seiten. Oft bestimmen Hochschule oder Dozenten die Anzahl der Wörter und den Aufbau der Arbeit. Neben Themenwahl und Literaturrecherche stehe auf der To Do Liste auch die Anwendung formaler Richtlinien.
+                      Je nach Fachrichtung und Institution umfasst sie inklusive Inhaltsverzeichnis und Exposé 20-60 Seiten. Oft bestimmen Hochschule oder Dozenten den Aufbau der Arbeit. Neben Themenwahl und Literaturrecherche stehe auf der To Do Liste auch die Anwendung formaler Richtlinien.
 
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Insgesamt beläuft sich die dafür vorgesehene Bearbeitungszeit auf bis zu 4 Monate. Vorlagen und Beispiele können Sie vom Lehrinstitut selbst erlangen. '
+                    text: 'Insgesamt beläuft sich die Bearbeitungszeit auf bis zu 4 Monate. Vorlagen und Beispiele können Sie vom Lehrinstitut selbst erlangen. '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Akademisches Ghostwriting ist eine Alternativ'
+                    text: 'Akademisches Ghostwriting ist hierbei sehr vorteilhaft'
                   -
                     type: text
-                    text: 'e, denn Sie können sich von einem Ghostwriter eine Bachelor Thesis schreiben lassen, welche als Orientierungshilfe dient. Außerdem müssen Sie als Student nach Ansprechpartnern als Betreuer der Bachelorarbeit oder zum '
+                    text: ', denn Sie können sich von einem Ghostwriter eine Bachelor Thesis schreiben lassen, welche als Orientierungshilfe dient. Außerdem müssen Sie als Student nach Ansprechpartnern als Betreuer der Bachelorarbeit oder zum '
                   -
                     type: text
                     marks:
@@ -2985,7 +3010,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1668530151
+updated_at: 1668530953
 template: default
 use_meta_keywords: false
 no_index_page: false
