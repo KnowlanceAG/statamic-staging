@@ -264,4 +264,5 @@ more_templates:
 og_title: 'Tipps zum wissenschaftlichen Arbeiten für die erste Hausarbeit'
 og_description: 'Sind Sie Anfänger beim Erstellen einer wissenschaftlichen Arbeit? Hier finden Sie alle wichtigen Informationen im Überblick rund und das Thema!'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

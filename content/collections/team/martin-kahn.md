@@ -19,4 +19,5 @@ og_image: team/martin-kahn-gwriters.jpg
 email_address: kahn@gwriters.de
 published: true
 phone_number: '+49 30 809332363'
+breadcrumbs_active: true
 ---

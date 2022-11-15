@@ -158,6 +158,8 @@ sections:
           type: template
           icon: template
           listable: hidden
+      -
+        import: breadcrubs_active
   kurz_text:
     display: 'Kurz Text'
     fields:

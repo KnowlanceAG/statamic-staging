@@ -169,4 +169,5 @@ meta_description: 'Eine Rezension zum Ghostwriter-Film Anonymous von Roland Emme
 og_title: 'Anonymous (Film) Rezension • GWriters'
 og_description: 'Eine Rezension zum Ghostwriter-Film Anonymous von Roland Emmerich von GWriters.de. Ghostwriter oder Shakespeare – Hier erfahren Sie die Antwort und die wichtigsten Fakten über den Ghostwriter-Film Anonymous'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

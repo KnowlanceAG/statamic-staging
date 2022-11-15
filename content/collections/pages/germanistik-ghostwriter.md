@@ -2597,4 +2597,5 @@ fachrichtungsgruppe: g_geisteswissenschaften
 sitemap_active: true
 alternative_page_title: 'Germanistik Ghostwriter'
 published: true
+breadcrumbs_active: true
 ---

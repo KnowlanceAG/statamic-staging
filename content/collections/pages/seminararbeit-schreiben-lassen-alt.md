@@ -1911,4 +1911,5 @@ og_title: 'GWriters • Mustervorlage für Seminararbeit schreiben lassen'
 og_description: 'Mustervorlage für Ihre Seminararbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_studienarbeiten
+breadcrumbs_active: true
 ---

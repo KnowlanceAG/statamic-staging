@@ -3028,4 +3028,5 @@ sitemap_active: true
 alternative_page_title: 'Seminararbeit schreiben lassen'
 arbeitsgruppe: a_studienarbeiten
 published: true
+breadcrumbs_active: true
 ---

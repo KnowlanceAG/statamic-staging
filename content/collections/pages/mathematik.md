@@ -752,4 +752,5 @@ fachrichtungsgruppe: g_naturwissenschaften
 sitemap_active: true
 alternative_page_title: 'Mathematik Ghostwriter'
 published: true
+breadcrumbs_active: true
 ---

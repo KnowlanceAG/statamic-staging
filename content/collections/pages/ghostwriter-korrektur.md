@@ -304,4 +304,5 @@ og_title: 'Bietet GWriters Korrektur-Dienstleistungen an? • GWriters'
 og_description: 'Übersetzung, Korrektorat und Lektorat Ihrer Hausarbeit, Bachelorarbeit, Masterarbeit oder Doktorarbeit erhalten Sie diskret & qualitativ von GWriters.de.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+breadcrumbs_active: true
 ---

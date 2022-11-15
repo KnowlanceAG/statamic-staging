@@ -497,4 +497,5 @@ twitter_card_type_page: summary
 og_title: 'GWriters • Allgemeine Geschäftsbedingungen'
 og_description: 'Hier finden Sie unsere AGB. GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

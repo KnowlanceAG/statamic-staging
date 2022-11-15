@@ -42,4 +42,5 @@ meta_description: 'In unserem Blog schreiben die akademischen Experten von GWrit
 og_title: 'GWriters.de • Ghostwriter Blog'
 og_description: 'In unserem Blog schreiben die akademischen Experten von GWriters über interessante Themen aus dem Bereich des Ghostwritings und teilen wertvolle Ratschläge und Tipps!'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

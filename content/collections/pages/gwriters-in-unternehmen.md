@@ -161,4 +161,5 @@ twitter_card_type_page: summary
 og_title: 'Wie kann GWriters meinem Unternehmen helfen?'
 og_description: 'Marktanalysen, ansprechende Unternehmenspräsentationen, Unternehmensbücher, Erstellung von individuellen Marketingkonzepten, u.v.m. von GWriters.de.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

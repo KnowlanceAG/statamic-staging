@@ -60,7 +60,6 @@ sections:
         handle: slug
         field:
           type: slug
-          required: true
           localizable: true
           validate:
             - required
@@ -83,6 +82,8 @@ sections:
           icon: toggle
           instructions: 'Langtext und Bild werden nicht angezeigt. Autoren Name bleibt sichtbar.'
           listable: hidden
+      -
+        import: breadcrubs_active
       -
         handle: category
         field:

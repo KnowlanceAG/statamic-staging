@@ -326,4 +326,5 @@ twitter_card_type_page: summary
 og_title: 'Welche Fachrichtungen werden bei GWriters angeboten? • GWriters'
 og_description: 'Wir unterstützen Sie in nahezu allen Fachrichtungen bei Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit. Medizin, Jura, BWL und vieles mehr.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

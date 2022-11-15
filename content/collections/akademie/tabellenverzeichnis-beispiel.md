@@ -446,4 +446,5 @@ link_title: Tabellenverzeichnis
 og_title: 'Kostenloses Tabellenverzeichnis für Ihre Hausarbeit herunterladen'
 og_description: 'Nutzen Sie unser Tabellenverzeichnis Beispiel von akademischen Experten für jede wissenschaftliche Arbeit mit einer Vielzahl von Tabellen ???'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

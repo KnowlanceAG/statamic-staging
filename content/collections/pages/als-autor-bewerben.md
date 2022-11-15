@@ -76,4 +76,5 @@ meta_description: 'Wir vermitteln akademische Freelancer - Bewerben Sie sich als
 og_title: 'GWriters • Als Autor bewerben'
 og_description: 'Wir vermitteln akademische Freelancer - Bewerben Sie sich als Autor, Ghostwriter, Lektor, Korrektor, Übersetzer und/oder Coach.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

@@ -1,0 +1,14 @@
+title: 'Breadcrumbs aktiv'
+fields:
+  -
+    handle: breadcrumbs_active
+    field:
+      default: true
+      display: 'Breadcrumbs aktiv'
+      type: toggle
+      icon: toggle
+      instructions: 'Breadcrumbs aktivieren'
+      listable: hidden
+      instructions_position: above
+      visibility: visible
+      always_save: true

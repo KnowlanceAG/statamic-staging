@@ -620,4 +620,5 @@ content:
       -
         type: text
         text: "\_und anderen akademischen Disziplinen vor."
+breadcrumbs_active: true
 ---

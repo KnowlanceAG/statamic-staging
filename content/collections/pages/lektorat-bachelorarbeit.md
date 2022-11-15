@@ -1456,4 +1456,5 @@ schema_objects: |-
 sitemap_active: true
 alternative_page_title: 'Bachelorarbeit schreiben lassen'
 published: true
+breadcrumbs_active: true
 ---

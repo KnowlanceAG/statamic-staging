@@ -197,4 +197,5 @@ template: academy-item
 og_title: 'Kostenlose Deckblatt Vorlage für Ihre Hausarbeit herunterladen'
 og_description: '➡️➡️➡️ Hier finden Sie die perfekte Deckblatt Vorlage für Ihre eigene Abschlussarbeit, die Sie selber für Ihre Arbeit individualisieren können ✍️.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

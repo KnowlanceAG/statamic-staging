@@ -286,4 +286,5 @@ twitter_card_type_page: summary
 og_title: 'GWriters • Diplom kaufen möglich oder lieber eine Ghostwriter Agentur?'
 og_description: 'Bei GWriters finden Sie akademische Ghostwriter, Lektoren, Korrektoren, Coaches, Übersetzer & alle wichtigen Informationen zum Thema "Diplom kaufen".'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

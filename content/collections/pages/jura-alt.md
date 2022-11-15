@@ -2628,4 +2628,5 @@ og_title: 'GWriters • Jura - Ghostwriter, Lektoren & Coaches'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der Jura – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_geisteswissenschaften
+breadcrumbs_active: true
 ---

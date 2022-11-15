@@ -1419,4 +1419,5 @@ fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'Marketing Ghostwriter'
 published: true
+breadcrumbs_active: true
 ---

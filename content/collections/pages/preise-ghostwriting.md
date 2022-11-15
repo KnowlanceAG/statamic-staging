@@ -236,4 +236,5 @@ twitter_card_type_page: summary
 og_title: 'Wie hoch sind die Preise bei GWriters? • GWriters'
 og_description: 'Preissicherheit bei GWriters.de: Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Ghostwriting: Leistungen, Ablauf, Kosten & Preise.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

@@ -2209,4 +2209,5 @@ og_title: 'Bachelorarbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Mustervorlage für Bachelorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.jpg
 arbeitsgruppe: a_abschlussarbeiten
+breadcrumbs_active: true
 ---

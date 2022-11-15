@@ -248,4 +248,5 @@ more_templates:
 og_title: 'GWriters • Alle wichtigen Informationen zum akademischen Ghostwriting'
 og_description: 'Alles rund um das Thema akademisches Ghostwriting finden Sie jetzt verständlich zusammengefasst in den Beiträgen von unseren akademischen Ghostwritern.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

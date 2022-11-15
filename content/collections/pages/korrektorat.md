@@ -571,4 +571,5 @@ schema_objects: |-
   }
   </script>
 published: true
+breadcrumbs_active: true
 ---

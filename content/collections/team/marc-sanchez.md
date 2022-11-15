@@ -17,4 +17,5 @@ updated_at: 1662388597
 published: true
 phone_number: '+49 30 809332316'
 email_address: sanchez@gwriters.de
+breadcrumbs_active: true
 ---

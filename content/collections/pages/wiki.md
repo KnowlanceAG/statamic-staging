@@ -950,4 +950,5 @@ og_description: 'Ein Wiki über das Thema Ghostwriting, Ghostwriter Agenturen un
 og_image: GWriters-Logo.png
 sitemap_active: true
 published: true
+breadcrumbs_active: true
 ---

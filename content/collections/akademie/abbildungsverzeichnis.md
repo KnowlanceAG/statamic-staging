@@ -211,4 +211,5 @@ meta_description: 'Hier können Sie unser Abbildungsverzeichnis kostenlos herunt
 og_title: 'Kostenloses Abbildungsverzeichnis für Ihre Hausarbeit herunterladen'
 og_description: 'Hier können Sie unser Abbildungsverzeichnis kostenlos herunterladen. Profitieren Sie von unserer Erfahrung und verwenden Sie unsere Vorlage für Ihre wissenschaftliche Arbeit.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

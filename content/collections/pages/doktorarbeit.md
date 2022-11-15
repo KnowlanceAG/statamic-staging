@@ -2871,4 +2871,5 @@ page_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
 alternative_page_title: 'Doktorarbeit schreiben lassen'
 arbeitsgruppe: a_abschlussarbeiten
 published: true
+breadcrumbs_active: true
 ---

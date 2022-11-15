@@ -188,4 +188,5 @@ twitter_card_type_page: summary
 og_title: 'Habe ich Kontakt zu meinem Ghostwriter? • GWriters'
 og_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Ablauf Ihres Ghostwriting Jobs.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

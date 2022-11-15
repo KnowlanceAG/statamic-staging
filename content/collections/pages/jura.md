@@ -2160,4 +2160,5 @@ sitemap_active: true
 alternative_page_title: 'Jura Ghostwriter'
 fachrichtungsgruppe: g_geisteswissenschaften
 published: true
+breadcrumbs_active: true
 ---

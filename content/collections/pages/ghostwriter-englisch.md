@@ -223,4 +223,5 @@ og_title: 'Habt Ihr Autoren für Ausarbeitungen auf Englisch? • GWriters'
 og_description: 'Viele der GWriters.de Freelancer, ob Autoren, Lektoren, Korrektoren, Übersetzer oder Ghostwriter schreiben und publizieren regelmäßig in englischer Sprache.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+breadcrumbs_active: true
 ---

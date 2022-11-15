@@ -136,4 +136,5 @@ twitter_card_type_page: summary
 og_title: 'Welche Texte kann ich durch GWriters schreiben lassen? • GWriters'
 og_description: 'Wissenschaftlich fundierte Texte, Dokumente zur Prüfungsvorbereitung, Skripte und Präsentationen für Dozenten und Unternehmen oder Inhalt für Ihre Webseite.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

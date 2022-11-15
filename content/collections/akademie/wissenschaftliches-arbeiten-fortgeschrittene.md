@@ -245,4 +245,5 @@ more_templates:
 og_title: 'Expertentipps zum wissenschaftlichen Arbeiten für Fortgeschrittene'
 og_description: 'Profi bei wissenschaftlichen Arbeiten, aber immer noch Detailfragen in manchen Situationen? Hier finden Sie die wichtigste Informationen auf einem Blick.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

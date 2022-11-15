@@ -82,4 +82,5 @@ meta_description: 'Falls Sie Hilfe beim Schreiben Ihrer Bachelorarbeit, Masterar
 og_title: 'Nehmen Sie jetzt mit uns Kontakt auf. Wir beraten Sie gerne!'
 og_description: 'Falls Sie Hilfe beim Schreiben Ihrer Bachelorarbeit, Masterarbeit oder Doktorarbeit benötigen, nehmen Sie mit uns Kontakt auf. Wir beraten Sie gerne!'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

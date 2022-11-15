@@ -221,4 +221,5 @@ more_templates:
 og_title: 'GWriters • Expertentipps zum Schreiben Ihrer wissenschaftlichen Arbeit'
 og_description: 'Die Expertentipps von GWriters.de für das Schreiben Ihrer Bachelorarbeit, Seminararbeit oder Masterarbeit von unseren akademischen Ghostwritern.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

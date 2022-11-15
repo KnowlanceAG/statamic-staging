@@ -18,4 +18,5 @@ show_as_card: false
 email_address: barth@gwriters.de
 published: true
 phone_number: '+49 30 809332360'
+breadcrumbs_active: true
 ---

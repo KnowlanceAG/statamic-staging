@@ -19,4 +19,5 @@ og_image: team/boris-jung-gwriters.jpg
 email_address: jung@gwriters.de
 published: true
 phone_number: '+49 30 809332362'
+breadcrumbs_active: true
 ---

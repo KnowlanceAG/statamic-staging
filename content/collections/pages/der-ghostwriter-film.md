@@ -189,4 +189,5 @@ template: with-side-bar
 og_title: 'Der Ghostwriter (Film) Rezension • GWriters'
 og_description: 'Eine Rezension zum Film der Ghostwriter von Roman Polanski bei GWriters.de. Wichtige Fakten und Zusammenfassung über den Film Ghostwriter erfahren Sie bei uns!'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

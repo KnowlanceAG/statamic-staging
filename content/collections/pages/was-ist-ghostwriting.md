@@ -213,4 +213,5 @@ og_title: 'Was ist Ghostwriting? • GWriters'
 og_description: 'Was ist Ghostwriting? Erfahren Sie mehr über Ghostwriting und lassen Sie sich professionell unterstützen.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+breadcrumbs_active: true
 ---

@@ -47,4 +47,5 @@ meta_description: 'Verschiedene Presseberichte über GWriters.de, Ghostwriting i
 og_title: 'GWriters.de & Team in der Presse • GWriters'
 og_description: 'Verschiedene Presseberichte über GWriters.de, Ghostwriting im Allgemeinen und seriöse Ghostwriter Agenturen.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

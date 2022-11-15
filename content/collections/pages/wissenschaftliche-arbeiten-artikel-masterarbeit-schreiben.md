@@ -250,4 +250,5 @@ twitter_card_type_page: summary
 og_title: 'GWriters • Wissenschaftliche Arbeiten und Artikel lesen'
 og_description: 'Wie Sie wissenschaftliche Arbeiten lesen und verstehen - unsere erfahrenen akademischen Experten erläutern Ihnen die besten Tipps und Richtlinien.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

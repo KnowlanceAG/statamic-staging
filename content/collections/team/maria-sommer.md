@@ -17,4 +17,5 @@ updated_at: 1662388510
 published: true
 phone_number: '+49 30 809332327'
 email_address: sommer@gwriters.de
+breadcrumbs_active: true
 ---
