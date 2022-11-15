@@ -763,24 +763,6 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
-      -
-        id: laiep52s
-        single_col: false
-        grid:
-          -
-            id: sidMFKU3
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '8*''Ä_;:P '
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
     remove_spacing: false
     is_full: false
     border: false
@@ -914,10 +896,42 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
+      -
+        id: laif7i2w
+        single_col: false
+        grid:
+          -
+            id: ajJOTRIb
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ihre Ansprechpartner bei GWriters'
+              -
+                type: set
+                attrs:
+                  id: laif3jj1
+                  values:
+                    type: team_liste
+                    in_flow: true
+                    team_mitglieder:
+                      - 982ac98d-c972-46cf-95f4-ae824c87dc40
+                      - a0275a30-5d74-46a4-84d6-acc7e827e95e
+                      - 0443cc18-5f72-486a-91de-9648a8fc0b2f
+                      - 66ef3c00-b587-4f37-a1b1-a937071b5b5d
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#D6D6D6'
+    bg_color: '#F9F9F9'
     border: false
     type: add_section
     enabled: true
@@ -2971,7 +2985,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1668528662
+updated_at: 1668529285
 template: default
 use_meta_keywords: false
 no_index_page: false
