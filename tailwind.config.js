@@ -16,6 +16,7 @@ module.exports = {
         'grid-cols-4',
         'grid-cols-5',
         'grid-cols-6',
+        'sm:px-4',
         'md:grid-cols-8',
         'lg:grid-cols-1',
         'lg:grid-cols-2',
