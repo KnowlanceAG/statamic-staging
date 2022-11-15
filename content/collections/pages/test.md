@@ -4,13 +4,41 @@ published: false
 blueprint: pages
 title: test
 updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1665670234
+updated_at: 1668528614
 replicator:
   -
+    id: laieiq4o
+    breadcrumbs_active: true
+    type: breadcrumbs_element
+    enabled: true
+  -
+    id: CxE0X99M
     bard:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Breadcrumbs Anfang'
       -
         type: set
         attrs:
+          id: laie7683
+          values:
+            type: breadcrumbs_element
+            breadcrumbs_active: true
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Breadcrumbs Ende'
+      -
+        type: paragraph
+      -
+        type: set
+        attrs:
+          id: 3sc2rgVU
           values:
             type: experten_slider
             experts:
@@ -38,6 +66,7 @@ replicator:
       -
         type: set
         attrs:
+          id: 8nwJMAFe
           values:
             type: show_sidebar_mobile
             custom_sidebar_placement: 'on'
@@ -46,6 +75,7 @@ replicator:
       -
         type: set
         attrs:
+          id: bKuv4q9d
           values:
             type: img_text_ce
             bild:
@@ -75,16 +105,20 @@ replicator:
     type: editor
     enabled: true
   -
+    id: o0BSns5z
     columns_replicator:
       -
+        id: nUHgkjro
         columns_per_row: 3
         single_col: false
         grid:
           -
+            id: t5bI0Dc1
             bard:
               -
                 type: set
                 attrs:
+                  id: ShgXjXwU
                   values:
                     type: custom_svg_width
                     svg_file: logo-startseite/hausarbeit-schreiben-lassen.svg
@@ -94,10 +128,12 @@ replicator:
                 type: paragraph
             show_as_card: false
           -
+            id: zl6RLpDC
             bard:
               -
                 type: set
                 attrs:
+                  id: 91XRtTRB
                   values:
                     type: custom_svg_width
                     svg_file: logo-startseite/bachelorarbeit-schreiben-lassen.svg
@@ -106,10 +142,12 @@ replicator:
                 type: paragraph
             show_as_card: false
           -
+            id: oJz7l4qy
             bard:
               -
                 type: set
                 attrs:
+                  id: OtKXKIoi
                   values:
                     type: custom_svg_width
                     svg_file: logo-startseite/doktorarbeit-schreiben-lassen.svg
@@ -126,6 +164,7 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: 7HFvFtfY
     bard:
       -
         type: paragraph
@@ -200,23 +239,28 @@ teaser:
   -
     type: set
     attrs:
+      id: N7ak499q
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: FOK40Zxx
             icon: weisses_svg.svg
             headline: 'Überschrift 1'
             tooltip_infotext: |
               Kurz Text Tooltip Icon Liste 1
           -
+            id: YhS0nqcX
             icon: weisses_svg.svg
             headline: 'Überschrift 2'
             tooltip_infotext: 'Kurz Text Tooltip Icon Liste 2'
           -
+            id: bLOa3SsB
             icon: weisses_svg.svg
             headline: 'Überschrift 3'
             tooltip_infotext: 'Kurz Text Tooltip Icon Liste 3'
           -
+            id: CQyzyJd8
             icon: weisses_svg.svg
             headline: 'Überschrift 4'
             tooltip_infotext: 'Kurz Text Tooltip Icon Liste 41'
@@ -226,5 +270,5 @@ page_title: 'test mit version nummer'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 sitemap_active: true
 template: default
-breadcrumbs_active: true
+breadcrumbs_active: false
 ---
