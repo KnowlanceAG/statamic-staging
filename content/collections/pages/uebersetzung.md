@@ -992,4 +992,5 @@ og_description: 'Akademische Übersetzer, Autoren, Lektoren, Korrektoren, Coache
 og_image: GWriters-Logo.png
 sitemap_active: true
 published: true
+breadcrumbs_active: true
 ---

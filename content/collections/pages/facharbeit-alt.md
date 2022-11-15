@@ -1765,4 +1765,5 @@ og_title: 'GWriters • Mustervorlage für Facharbeit schreiben lassen'
 og_description: 'Mustervorlage für Facharbeit schreiben lassen – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_studienarbeiten
+breadcrumbs_active: true
 ---

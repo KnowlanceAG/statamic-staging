@@ -587,4 +587,5 @@ sitemap_active: true
 alternative_page_title: 'Statistische Analyse durchführen lassen'
 arbeitsgruppe: a_sonstige_arbeiten
 published: true
+breadcrumbs_active: true
 ---

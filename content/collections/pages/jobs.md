@@ -400,4 +400,5 @@ og_title: 'Ghostwriter Jobs bei GWriters'
 og_description: 'Beste Verdienstmöglichkeiten & volle Freiheit bei Ihrem neuen Job als Ghostwriter, Lektor, Korrektor, Übersetzer oder Bearbeiter von akademischen Arbeiten!'
 og_image: GWriters-Logo.png
 sitemap_active: true
+breadcrumbs_active: true
 ---

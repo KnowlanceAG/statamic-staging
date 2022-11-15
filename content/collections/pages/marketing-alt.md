@@ -931,4 +931,5 @@ og_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter im Marketings – ✅ schnell, ✅ diskret und ✅ mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
+breadcrumbs_active: true
 ---

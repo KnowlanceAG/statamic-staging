@@ -1952,4 +1952,5 @@ og_title: 'Masterarbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Mustervorlage für Masterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 arbeitsgruppe: a_abschlussarbeiten
+breadcrumbs_active: true
 ---

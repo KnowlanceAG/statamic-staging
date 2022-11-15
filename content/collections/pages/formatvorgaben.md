@@ -526,4 +526,5 @@ og_title: 'Wie sind die Formatvorgaben bei GWriters? Alles dazu hier'
 og_description: 'Erfahren Sie hier, wie wissenschaftliche Arbeiten bei GWriters.de formatiert werden. Kontaktieren Sie uns um Ihren akademischen Text formatieren zu lassen.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+breadcrumbs_active: true
 ---

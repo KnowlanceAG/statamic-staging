@@ -1030,4 +1030,5 @@ sitemap_active: true
 alternative_page_title: 'Diplomarbeit schreiben lassen'
 arbeitsgruppe: a_abschlussarbeiten
 published: true
+breadcrumbs_active: true
 ---

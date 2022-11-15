@@ -375,4 +375,5 @@ og_title: 'Benötigen Sie einen Lektorat Service? GWriters hilft!'
 og_description: 'Ob Bachelorarbeit, Masterarbeit oder Doktorarbeit. Der professionelle Lektorat Service von GWriters.de hilft Ihnen zeitnah und qualitativ zum Erfolg.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+breadcrumbs_active: true
 ---

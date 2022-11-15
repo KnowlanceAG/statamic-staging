@@ -249,4 +249,5 @@ twitter_card_type_page: summary
 og_title: 'Wie wird die hohe Qualität bei GWriters sichergestellt?'
 og_description: 'Wie sich GWriters.de von dubiosen und umprofessionellen Ghostwritern und Agenturen unterscheidet und die hohe Qualität sicherstellt, erfahren Sie hier.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

@@ -1062,4 +1062,5 @@ og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Exposé schreiben lassen'
 published: true
+breadcrumbs_active: true
 ---

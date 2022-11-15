@@ -655,4 +655,5 @@ meta_description: 'Sie möchten Ihre Bachelorarbeit, Masterarbeit oder Doktorarb
 og_title: 'Alle Vorteile einer seriösen Ghostwriting Agentur • GWriters'
 og_description: 'Sie möchten Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen? Unsere Ghostwriting Agentur bietet Ihnen Preissicherheit und Diskretion.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

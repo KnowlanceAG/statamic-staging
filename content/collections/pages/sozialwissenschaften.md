@@ -1015,4 +1015,5 @@ sitemap_active: true
 alternative_page_title: 'Sozialwissenschaften Ghostwriter'
 fachrichtungsgruppe: g_sozialwissenschaften
 published: true
+breadcrumbs_active: true
 ---

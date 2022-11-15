@@ -206,4 +206,5 @@ og_title: 'Akademisches Ghostwriting & Ghostwriter in Österreich • GWriters.d
 og_description: 'Aufgrund der Hochschulrechts-Novelle ergeben sich wichtige Änderungen für Interessenten aus Österreich, die nach Ghostwritern suchen.'
 og_image: GWriters-Logo.png
 sitemap_active: false
+breadcrumbs_active: true
 ---

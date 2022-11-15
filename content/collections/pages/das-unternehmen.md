@@ -213,4 +213,5 @@ og_description: 'GWriters ist eine schnell wachsende Web-Plattform für die Verm
 og_image: GWriters-Logo.png
 sitemap_active: true
 published: true
+breadcrumbs_active: true
 ---

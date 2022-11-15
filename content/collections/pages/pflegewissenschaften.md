@@ -942,4 +942,5 @@ fachrichtungsgruppe: g_medizinische_fachrichtungen
 sitemap_active: true
 alternative_page_title: 'Pflegewissenschaften Ghostwriter'
 published: true
+breadcrumbs_active: true
 ---

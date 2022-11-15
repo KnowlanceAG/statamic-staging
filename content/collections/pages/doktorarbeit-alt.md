@@ -2137,4 +2137,5 @@ og_description: 'Mustervorlage für Doktorarbeit schreiben lassen & Hilfe vom ak
 og_image: GWriters-Logo.png
 page_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
 arbeitsgruppe: a_abschlussarbeiten
+breadcrumbs_active: true
 ---

@@ -226,4 +226,5 @@ page_title: 'test mit version nummer'
 teaser_bg: seiten/header-so-funktionierts.jpeg
 sitemap_active: true
 template: default
+breadcrumbs_active: true
 ---

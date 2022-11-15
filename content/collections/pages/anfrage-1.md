@@ -114,4 +114,5 @@ og_description: 'Schicken Sie und eine kostenlose Anfrage und erhalten Sie inner
 og_image: GWriters-Logo.png
 sitemap_active: true
 published: true
+breadcrumbs_active: true
 ---

@@ -1410,4 +1410,5 @@ fachrichtungsgruppe: g_sozialwissenschaften
 sitemap_active: true
 alternative_page_title: 'Soziologie Ghostwriter'
 published: true
+breadcrumbs_active: true
 ---

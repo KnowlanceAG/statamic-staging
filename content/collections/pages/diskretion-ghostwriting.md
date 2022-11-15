@@ -163,4 +163,5 @@ template: without-teaser-with-sidebar
 og_title: 'Schweigepflicht und Diskretion beim Ghostwriting • GWriters'
 og_description: 'GWriters.de verpflichtet sich zu absoluter Diskretion und Schweigepflicht über Daten zu Kunden sowie sämtliche Auftragsdetails. Mehr dazu hier.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

@@ -544,4 +544,5 @@ og_description: 'Nutzen Sie dieses Bachelorarbeit Beispiel als Orientierung und 
 og_image: GWriters-Logo.png
 sitemap_active: true
 published: true
+breadcrumbs_active: true
 ---

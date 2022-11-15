@@ -970,4 +970,5 @@ fachrichtungsgruppe: g_naturwissenschaften
 sitemap_active: true
 alternative_page_title: 'Biologie Ghostwriter'
 published: true
+breadcrumbs_active: true
 ---
