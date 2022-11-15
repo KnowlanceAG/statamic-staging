@@ -187,9 +187,7 @@ fields:
               import: experten_slider
         breadcrumbs_element:
           display: 'Breadcrumbs Element'
-          fields:
-            -
-              import: breadcrubs_active
+          fields: {  }
       container: assets
       enable_input_rules: true
       enable_paste_rules: true

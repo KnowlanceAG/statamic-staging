@@ -32,9 +32,7 @@ fields:
               import: sidebar_element
         breadcrumbs_element:
           display: 'Breadcrumbs Element'
-          fields:
-            -
-              import: breadcrubs_active
+          fields: {  }
       display: Replicator
       type: replicator
       icon: replicator
