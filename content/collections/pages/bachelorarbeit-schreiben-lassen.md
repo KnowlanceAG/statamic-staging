@@ -920,9 +920,9 @@ replicator:
                     in_flow: true
                     team_mitglieder:
                       - 982ac98d-c972-46cf-95f4-ae824c87dc40
+                      - 66ef3c00-b587-4f37-a1b1-a937071b5b5d
                       - a0275a30-5d74-46a4-84d6-acc7e827e95e
                       - 0443cc18-5f72-486a-91de-9648a8fc0b2f
-                      - 66ef3c00-b587-4f37-a1b1-a937071b5b5d
             show_as_card: false
         type: row
         enabled: true
@@ -3010,7 +3010,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1668530953
+updated_at: 1668611372
 template: default
 use_meta_keywords: false
 no_index_page: false
