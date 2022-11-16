@@ -571,17 +571,6 @@ replicator:
                     type: text
                     text: 'Alternativ können Sie während des gesamten Ablaufs Ihrer Bachelor Thesis auch ein professionelles Coaching oder Unterstützung bei der Recherche anfordern.'
               -
-                type: set
-                attrs:
-                  id: lah6r378
-                  values:
-                    type: team_liste
-                    in_flow: true
-                    team_mitglieder:
-                      - 982ac98d-c972-46cf-95f4-ae824c87dc40
-              -
-                type: paragraph
-              -
                 type: heading
                 attrs:
                   level: 3
@@ -780,14 +769,14 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: xej6edx8
+    id: HBzKiiRG
     columns_replicator:
       -
-        id: 8j4Apaql
-        single_col: true
+        id: fIQJfNPH
+        single_col: false
         grid:
           -
-            id: lFxlbzr3
+            id: GO5VCMeC
             bard:
               -
                 type: heading
@@ -796,40 +785,144 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Beispiel Bachelorarbeit von unseren Ghostwritern'
+                    text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Laden Sie sich unser Beispiel für eine '
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Unterstützung oder akademisches '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Ghostwriter-Bachelorarbeit jetzt kostenlos herunter'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: Ghostwriting
                   -
                     type: text
-                    text: '. Diese Mustervorlage wurde von einem unserer kompetentesten Ghostwriter verfasst, sodass Sie sich einen Eindruck von unseren Qualifikationen und Qualitätsstandards machen können. So wissen Sie von Anfang an, was Sie erwartet, wenn Sie sich für den ausgezeichneten Service von GWriters entscheiden.'
+                    marks:
+                      -
+                        type: bold
+                    text: ' benötigen, dann senden Sie uns eine '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot und allen wichtigen Informationen bei Ihnen zurück. Auch rufen wir Sie gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: 0ubypp07
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: EllWPGbj
+            bard:
               -
                 type: set
                 attrs:
-                  id: qeGs5Inq
+                  id: OMeALlWB
                   values:
-                    type: example_work
-                    ex_img_right: false
-                    ex_image: seiten/deckblatt-bachelorarbeit-biografiearbeit.jpg
-                    ex_title: 'Biografiearbeit und pädagogische Professionalität'
-                    ex_type: Bachelorarbeit
-                    ex_pages: '31'
-                    ex_zitation: APA-Style
-                    ex_button_link: /assets/downloads/ghostwriting-beispielarbeiten/bachelorarbeit-beispiel-biografiearbeit.pdf
-                    ex_button_text: 'KOSTENLOS HERUNTERLADEN'
-                    ex_color: '#FF6606'
-                    ex_spacing_top: false
-                    ex_fachbereich:
-                      - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
+                    type: phone_cta
+                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
+                    open: 'Mo.-Fr. 9 -18 Uhr'
+            show_as_card: true
+          -
+            id: UjZ9fyjm
+            bard:
+              -
+                type: set
+                attrs:
+                  id: S9HNcMh5
+                  values:
+                    type: spacer
+                    padding-y: 12
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '80,- € pro Normseite.'
+              -
+                type: set
+                attrs:
+                  id: CvzBjDvR
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    button_align: justify-start
+                    spacing_top: true
+              -
+                type: set
+                attrs:
+                  id: DTOsSWP8
+                  values:
+                    type: spacer
+                    padding-y: 10
+            show_as_card: true
+        type: row
+        enabled: true
+        responsive_columns: 0
+      -
+        id: laif7i2w
+        single_col: false
+        grid:
+          -
+            id: ajJOTRIb
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Ihre Ansprechpartner bei GWriters'
+              -
+                type: set
+                attrs:
+                  id: laif3jj1
+                  values:
+                    type: team_liste
+                    in_flow: true
+                    team_mitglieder:
+                      - 982ac98d-c972-46cf-95f4-ae824c87dc40
+                      - 66ef3c00-b587-4f37-a1b1-a937071b5b5d
+                      - a0275a30-5d74-46a4-84d6-acc7e827e95e
+                      - 0443cc18-5f72-486a-91de-9648a8fc0b2f
             show_as_card: false
         type: row
         enabled: true
@@ -1114,21 +1207,6 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Das Schreiben der Bachelorarbeit ist die letzte große Hürde im Studium. Wenden Sie sich an unsere akademischen Ghostwriter, um diese Hürde erfolgreich zu meistern. '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Akademische Ghostwriter erstellen einen hochwertigen wissenschaftlichen Entwurf der Bachelorarbeit'
-                  -
-                    type: text
-                    text: '. Anhand dieser Vorlage können Sie Ihre eigene Arbeit deutlich effizienter schreiben.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
                     text: 'Die Kosten für das Schreiben lassen einer Bachelorarbeit werden bei unseren Autoren von einigen Faktoren beeinflusst. Einen groben Überblick über unsere Kosten bietet Ihnen '
                   -
                     type: text
@@ -1168,6 +1246,19 @@ replicator:
                   -
                     type: text
                     text: 'Zu den Kostenfaktoren einer Bachelorarbeit gehören:'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: laig42v0
+        columns_per_row: 2
+        single_col: true
+        grid:
+          -
+            id: hF87H9lt
+            bard:
               -
                 type: bullet_list
                 content:
@@ -1198,6 +1289,13 @@ replicator:
                           -
                             type: text
                             text: 'die Bearbeitungsdauer'
+            show_as_card: false
+          -
+            id: laig451y
+            bard:
+              -
+                type: bullet_list
+                content:
                   -
                     type: list_item
                     content:
@@ -1229,6 +1327,26 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
+      -
+        id: laig6g0e
+        single_col: true
+        grid:
+          -
+            id: hF87H9lt
+            bard:
+              -
+                type: set
+                attrs:
+                  id: LydkGXPt
+                  values:
+                    type: preisrechner
+                    show_calulator: true
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
         columns_per_row: 0
     remove_spacing: false
     is_full: false
@@ -1236,14 +1354,14 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: HBzKiiRG
+    id: xej6edx8
     columns_replicator:
       -
-        id: fIQJfNPH
-        single_col: false
+        id: 8j4Apaql
+        single_col: true
         grid:
           -
-            id: GO5VCMeC
+            id: lFxlbzr3
             bard:
               -
                 type: heading
@@ -1252,121 +1370,49 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Fordern Sie jetzt kostenlos Ihr unverbindliches Angebot an!'
+                    text: 'Beispiel Bachelorarbeit von unseren Ghostwritern'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Wenn Sie bei Ihrer Bachelorarbeit Unterstützung oder akademisches '
+                    text: 'Laden Sie sich unser Beispiel für eine '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: Ghostwriting
+                    text: 'Ghostwriter-Bachelorarbeit jetzt kostenlos herunter'
                   -
                     type: text
-                    marks:
-                      -
-                        type: bold
-                    text: ' benötigen, dann senden Sie uns eine '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: link
-                        attrs:
-                          href: /anfrage
-                          target: null
-                          rel: null
-                    text: 'unverbindliche Anfrage'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Leistungsangebot und allen wichtigen Informationen bei Ihnen zurück. Auch rufen wir Sie gerne an, falls Sie eine kostenlose telefonische Beratung wünschen.'
+                    text: '. Diese Mustervorlage wurde von einem unserer kompetentesten Ghostwriter verfasst, sodass Sie sich einen Eindruck von unseren Qualifikationen und Qualitätsstandards machen können. So wissen Sie von Anfang an, was Sie erwartet, wenn Sie sich für den ausgezeichneten Service von GWriters entscheiden.'
+              -
+                type: set
+                attrs:
+                  id: qeGs5Inq
+                  values:
+                    type: example_work
+                    ex_img_right: false
+                    ex_image: seiten/deckblatt-bachelorarbeit-biografiearbeit.jpg
+                    ex_title: 'Biografiearbeit und pädagogische Professionalität'
+                    ex_type: Bachelorarbeit
+                    ex_pages: '31'
+                    ex_zitation: APA-Style
+                    ex_button_link: /assets/downloads/ghostwriting-beispielarbeiten/bachelorarbeit-beispiel-biografiearbeit.pdf
+                    ex_button_text: 'KOSTENLOS HERUNTERLADEN'
+                    ex_color: '#FF6606'
+                    ex_spacing_top: false
+                    ex_fachbereich:
+                      - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-      -
-        id: 0ubypp07
-        columns_per_row: 2
-        single_col: false
-        grid:
-          -
-            id: EllWPGbj
-            bard:
-              -
-                type: set
-                attrs:
-                  id: OMeALlWB
-                  values:
-                    type: phone_cta
-                    cta_text: 'Fragen? Rufen Sie uns einfach an:'
-                    open: 'Mo.-Fr. 9 -18 Uhr'
-            show_as_card: true
-          -
-            id: UjZ9fyjm
-            bard:
-              -
-                type: set
-                attrs:
-                  id: S9HNcMh5
-                  values:
-                    type: spacer
-                    padding-y: 12
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Unsere Preise für medizinisches, Jura- oder BWL-Ghostwriting sowie für andere Fachbereiche beginnen ab\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: '80,- € pro Normseite.'
-              -
-                type: set
-                attrs:
-                  id: CvzBjDvR
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    button_align: justify-start
-                    spacing_top: true
-              -
-                type: set
-                attrs:
-                  id: DTOsSWP8
-                  values:
-                    type: spacer
-                    padding-y: 10
-            show_as_card: true
-        type: row
-        enabled: true
-        responsive_columns: 0
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#D6D6D6'
+    bg_color: '#F9F9F9'
     border: false
     type: add_section
     enabled: true
@@ -1957,23 +2003,23 @@ replicator:
                       - seiten/arbeiten/bachelorarbeit-schreiben.jpg
                     ausrichtung: text_bild
                     text: |+
-                      Je nach Fachrichtung und Institution umfasst sie inklusive Inhaltsverzeichnis und Exposé 20-60 Seiten. Oft bestimmen Hochschule oder Dozenten die Anzahl der Wörter und den Aufbau der Arbeit. Neben Themenwahl und Literaturrecherche stehe auf der To Do Liste auch die Anwendung formaler Richtlinien.
+                      Je nach Fachrichtung und Institution umfasst sie inklusive Inhaltsverzeichnis und Exposé 20-60 Seiten. Oft bestimmen Hochschule oder Dozenten den Aufbau der Arbeit. Neben Themenwahl und Literaturrecherche stehe auf der To Do Liste auch die Anwendung formaler Richtlinien.
 
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Insgesamt beläuft sich die dafür vorgesehene Bearbeitungszeit auf bis zu 4 Monate. Vorlagen und Beispiele können Sie vom Lehrinstitut selbst erlangen. '
+                    text: 'Insgesamt beläuft sich die Bearbeitungszeit auf bis zu 4 Monate. Vorlagen und Beispiele können Sie vom Lehrinstitut selbst erlangen. '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Akademisches Ghostwriting ist eine Alternativ'
+                    text: 'Akademisches Ghostwriting ist hierbei sehr vorteilhaft'
                   -
                     type: text
-                    text: 'e, denn Sie können sich von einem Ghostwriter eine Bachelor Thesis schreiben lassen, welche als Orientierungshilfe dient. Außerdem müssen Sie als Student nach Ansprechpartnern als Betreuer der Bachelorarbeit oder zum '
+                    text: ', denn Sie können sich von einem Ghostwriter eine Bachelor Thesis schreiben lassen, welche als Orientierungshilfe dient. Außerdem müssen Sie als Student nach Ansprechpartnern als Betreuer der Bachelorarbeit oder zum '
                   -
                     type: text
                     marks:
@@ -2511,7 +2557,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Komplexität &amp; Bachelorarbeit-Kosten'
+                                text: 'Komplexität & Bachelorarbeit-Kosten'
                         accordion_content:
                           -
                             type: paragraph
@@ -2662,7 +2708,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Bearbeitungsdauer &amp; Bachelorarbeit-Preise'
+                                text: 'Bearbeitungsdauer & Bachelorarbeit-Preise'
                         accordion_content:
                           -
                             type: paragraph
@@ -2963,8 +3009,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1668454555
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1668611446
 template: default
 use_meta_keywords: false
 no_index_page: false
