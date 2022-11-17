@@ -155,19 +155,12 @@ replicator:
                       <p style="font-size:18px" align="center">
                       Bei GWriters finden Sie exakt den <b>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten von einem Ghostwriter eine Arbeit als Mustervorlage für Ihre Bachelorarbeit schreiben lassen? Dann wenden Sie sich an einen kompetenten Partner und sichern sich so Ihren Erfolg! Unsere seriöse Ghostwriting Agentur arbeitet ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren als Autoren.
                       </p>
-              -
-                type: set
-                attrs:
-                  id: QEzclNH8
-                  values:
-                    type: spacer
-                    padding-y: 30
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     border: false
     type: add_section
@@ -254,8 +247,6 @@ replicator:
                       <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
                       <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
                       <!-- ProvenExpert Bewertungssiegel Ende -->
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -2113,7 +2104,7 @@ replicator:
                                 text: Gliederung
                               -
                                 type: text
-                                text: ' einer Bachelorarbeit'
+                                text: ' einer Bachelorarbeit ➞'
                         accordion_content:
                           -
                             type: bullet_list
@@ -2434,7 +2425,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Formatierung einer Bachelorarbeit '
+                                text: 'Formatierung einer Bachelorarbeit ➞'
                         accordion_content:
                           -
                             type: bullet_list
@@ -2557,7 +2548,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Komplexität & Bachelorarbeit-Kosten'
+                                text: 'Komplexität & Bachelorarbeit-Kosten ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -2643,7 +2634,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Fachbereich als Kostenfaktor'
+                                text: 'Fachbereich als Kostenfaktor ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -2708,7 +2699,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Bearbeitungsdauer & Bachelorarbeit-Preise'
+                                text: 'Bearbeitungsdauer & Bachelorarbeit-Preise ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -2742,7 +2733,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Kostenumfang der Bachelorarbeit'
+                                text: 'Kostenumfang der Bachelorarbeit ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -3022,7 +3013,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1668712980
+updated_at: 1668714132
 template: default
 use_meta_keywords: false
 no_index_page: false
