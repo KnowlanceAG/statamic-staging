@@ -2094,17 +2094,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /blog/aufbau-wissenschaftliche-arbeit
-                                      target: null
-                                      rel: null
-                                text: Gliederung
-                              -
-                                type: text
-                                text: ' einer Bachelorarbeit ➞'
+                                text: 'Gliederung einer Bachelorarbeit ➞'
                         accordion_content:
                           -
                             type: bullet_list
@@ -3013,7 +3003,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1668715739
+updated_at: 1668716644
 template: default
 use_meta_keywords: false
 no_index_page: false
