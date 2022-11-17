@@ -39,40 +39,48 @@ teaser:
   -
     type: set
     attrs:
+      id: HxgsT7Z3
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: 2eOCXXha
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: eSl3Pggs
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: BITFwjI7
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
             tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
+            id: BVy3sU8E
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: ln2OsRtr
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: dZRBbnki
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: zfESvAUm
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -82,6 +90,7 @@ teaser:
   -
     type: set
     attrs:
+      id: BWe9UaBC
       values:
         type: spacer
         padding-y: 20
@@ -125,15 +134,19 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
+    id: F1beWuU1
     columns_replicator:
       -
+        id: Nuer2NKN
         single_col: true
         grid:
           -
+            id: nmsSTmW3
             bard:
               -
                 type: set
                 attrs:
+                  id: IJDbgpjz
                   values:
                     type: insert_html
                     html: |-
@@ -143,6 +156,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: g7bhc7wb
                   values:
                     type: spacer
                     padding-y: 30
@@ -157,11 +171,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: Yj9eYDg7
     columns_replicator:
       -
+        id: fPLnawp9
         single_col: false
         grid:
           -
+            id: R0hRjz7U
             bard:
               -
                 type: heading
@@ -217,13 +234,16 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: X10Yuban
         single_col: false
         grid:
           -
+            id: KDs1TJSG
             bard:
               -
                 type: set
                 attrs:
+                  id: HZ6aWDiC
                   values:
                     type: insert_html
                     html: |-
@@ -248,11 +268,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: Y0SrSqGh
     columns_replicator:
       -
+        id: XLg4puY6
         single_col: true
         grid:
           -
+            id: dDHSszev
             bard:
               -
                 type: heading
@@ -384,17 +407,21 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: jAc7tjQS
     columns_replicator:
       -
+        id: dboJoj0P
         columns_per_row: 2
         grid:
           -
+            id: OkE7SScA
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: WGC8dUM3
                   values:
                     type: example_work
                     ex_img_right: false
@@ -413,10 +440,12 @@ replicator:
                 type: paragraph
             show_as_card: false
           -
+            id: rmv0QzQ8
             bard:
               -
                 type: set
                 attrs:
+                  id: 3kl4Q9wP
                   values:
                     type: spacer
                     padding-y: 20
@@ -436,6 +465,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: wt6eHWq7
                   values:
                     type: floating_img
                     dateien:
@@ -489,11 +519,14 @@ replicator:
     enabled: true
     bg_color: '#F7F7F7'
   -
+    id: rLSZXZNv
     columns_replicator:
       -
+        id: i38ITynR
         single_col: true
         grid:
           -
+            id: UeNeURcA
             bard:
               -
                 type: heading
@@ -777,9 +810,11 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: 4hZAjZDA
         single_col: true
         grid:
           -
+            id: BroKSsQH
             bard:
               -
                 type: heading
@@ -792,6 +827,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: eLpIA51f
                   values:
                     type: spacer
                     padding-y: 15
@@ -801,15 +837,18 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: 4vmJPdBb
         columns_per_row: 4
         grid:
           -
+            id: BjjmaTby
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: BWaU941u
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/security.svg
@@ -817,6 +856,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 4e1DzIb7
                   values:
                     type: spacer
                     padding-y: 10
@@ -847,17 +887,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: bAQhT82I
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
           -
+            id: 88egdaWq
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: 4ocmlUlU
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
@@ -865,6 +908,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: R7E1x49Q
                   values:
                     type: spacer
                     padding-y: 10
@@ -892,17 +936,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 4sh8MJ0i
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
           -
+            id: N94Eg5uB
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: 8U6I39wi
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/stopwatch.svg
@@ -910,6 +957,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: mfhi9LRM
                   values:
                     type: spacer
                     padding-y: 10
@@ -949,17 +997,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Olv5iZVU
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
           -
+            id: LIamYARP
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: L75B9Zdr
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/magistrate.svg
@@ -967,6 +1018,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Deokqczt
                   values:
                     type: spacer
                     padding-y: 10
@@ -997,6 +1049,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: eQZmu40G
                   values:
                     type: spacer
                     padding-y: 10
@@ -1011,15 +1064,19 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: FkixQUdl
     columns_replicator:
       -
+        id: TsYmjmW3
         single_col: false
         grid:
           -
+            id: t8xsRXii
             bard:
               -
                 type: set
                 attrs:
+                  id: kyeTZHiI
                   values:
                     type: spacer
                     padding-y: 30
@@ -1061,6 +1118,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 0PmTjNLC
                   values:
                     type: spacer
                     padding-y: 1
@@ -1077,25 +1135,31 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: 37UVFx8G
     columns_replicator:
       -
+        id: yTsKoxCX
         columns_per_row: 2
         grid:
           -
+            id: eVb6qlUu
             bard:
               -
                 type: set
                 attrs:
+                  id: jrs8yFOU
                   values:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo.-Fr. 9:00-18:00'
             show_as_card: true
           -
+            id: sLaOp2Md
             bard:
               -
                 type: set
                 attrs:
+                  id: lQWDm2Jy
                   values:
                     type: spacer
                     padding-y: 12
@@ -1114,6 +1178,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: cQ37b6Ob
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -1123,6 +1188,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: UwNIXEW7
                   values:
                     type: spacer
                     padding-y: 3
@@ -1141,11 +1207,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: DQoz9kFB
     columns_replicator:
       -
+        id: DP7WBgBT
         single_col: true
         grid:
           -
+            id: CSDnD4Am
             bard:
               -
                 type: heading
@@ -1236,6 +1305,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: IkKaY8jn
                   values:
                     type: spacer
                     padding-y: 30
@@ -1262,10 +1332,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 8kSQqaCC
                   values:
                     type: leistungen_uebersicht_4_spaltig
                     grid:
                       -
+                        id: XT0YSRLK
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
@@ -1273,6 +1345,7 @@ replicator:
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
+                        id: H3ICqW7y
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
@@ -1280,6 +1353,7 @@ replicator:
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
+                        id: 8XP5dRyz
                         image:
                           - leistung/icons/secure.svg
                         headline: PLAGIATSPRÜFUNG
@@ -1287,6 +1361,7 @@ replicator:
                         link:
                           - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
                       -
+                        id: 6RKWY2lA
                         image:
                           - leistung/icons/eraser_1.svg
                         headline: KORREKTORAT
@@ -1296,6 +1371,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: tVxm54g4
                   values:
                     type: spacer
                     padding-y: 14
@@ -1421,6 +1497,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: u0q0XRN8
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -1439,11 +1516,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: HaIKUWWd
     columns_replicator:
       -
+        id: 1pA1jCbW
         columns_per_row: 2
         grid:
           -
+            id: Ynaxb45X
             bard:
               -
                 type: heading
@@ -1521,10 +1601,12 @@ replicator:
                 type: paragraph
             show_as_card: false
           -
+            id: N8ACA0ip
             bard:
               -
                 type: set
                 attrs:
+                  id: seZ6qFSR
                   values:
                     type: video
                     video: 'https://www.youtube.com/embed/WH2LPAqKuKE'
@@ -1543,11 +1625,14 @@ replicator:
     enabled: true
     bg_color: '#F2F2F2'
   -
+    id: 2hb2wcaW
     columns_replicator:
       -
+        id: wCvPC1AK
         single_col: true
         grid:
           -
+            id: y2hSWZxZ
             bard:
               -
                 type: heading
@@ -1676,11 +1761,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: pRWPEvQw
     columns_replicator:
       -
+        id: qE7GugaZ
         columns_per_row: 2
         grid:
           -
+            id: 5TZP1HxA
             bard:
               -
                 type: blockquote
@@ -1758,10 +1846,12 @@ replicator:
                                 text: ghostwriter-vergleich.de
             show_as_card: true
           -
+            id: McmsF2RC
             bard:
               -
                 type: set
                 attrs:
+                  id: cbLCXEqm
                   values:
                     type: spacer
                     padding-y: 15
@@ -1792,6 +1882,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: bYZKzeBU
                   values:
                     type: spacer
                     padding-y: 15
@@ -1808,15 +1899,19 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: Vwwe3rUh
     columns_replicator:
       -
+        id: 0TTiTC3b
         single_col: true
         grid:
           -
+            id: FPbX1oOf
             bard:
               -
                 type: set
                 attrs:
+                  id: qB50Xayp
                   values:
                     type: spacer
                     padding-y: 30
@@ -1913,6 +2008,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: oW1zrkL8
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -1923,6 +2019,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: nTEOMTJX
                   values:
                     type: spacer
                     padding-y: 30
@@ -2051,11 +2148,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: VO8dlcYY
     columns_replicator:
       -
+        id: dbEuQq3j
         single_col: true
         grid:
           -
+            id: DpSkGlFs
             bard:
               -
                 type: heading
@@ -2073,6 +2173,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: WbhxAYv0
                   values:
                     type: spacer
                     padding-y: 20
@@ -2082,15 +2183,18 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: KfxqGGw6
         columns_per_row: 3
         grid:
           -
+            id: xNTxelD0
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: Ha3IfbM8
                   values:
                     type: custom_svg_width
                     svg_file: logo-startseite/facharbeit-schreiben-lassen.svg
@@ -2099,6 +2203,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: n1oxqCdT
                   values:
                     type: spacer
                     padding-y: 10
@@ -2148,17 +2253,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: d8i2aVWq
                   values:
                     type: spacer
                     padding-y: 15
             show_as_card: false
           -
+            id: o9Tc4u2u
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: dcCLjh7s
                   values:
                     type: custom_svg_width
                     svg_file: logo-startseite/hausarbeit-schreiben-lassen.svg
@@ -2167,6 +2275,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: jWNezeJd
                   values:
                     type: spacer
                     padding-y: 10
@@ -2216,17 +2325,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: y2Pp7zdr
                   values:
                     type: spacer
                     padding-y: 15
             show_as_card: false
           -
+            id: Pa0wRWlI
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: lxviuxJY
                   values:
                     type: custom_svg_width
                     svg_file: logo-startseite/seminararbeit-schreiben-lassen.svg
@@ -2235,6 +2347,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: uVwBDITZ
                   values:
                     type: spacer
                     padding-y: 10
@@ -2284,6 +2397,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: AGR2YKBg
                   values:
                     type: spacer
                     padding-y: 15
@@ -2293,15 +2407,18 @@ replicator:
         single_col: true
         responsive_columns: 0
       -
+        id: mrJSmbXu
         columns_per_row: 3
         grid:
           -
+            id: LjWVetS4
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: 2xaqf3tr
                   values:
                     type: custom_svg_width
                     svg_file: logo-startseite/bachelorarbeit-schreiben-lassen.svg
@@ -2310,6 +2427,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 6uwuFky6
                   values:
                     type: spacer
                     padding-y: 10
@@ -2359,17 +2477,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: yxJU7zF5
                   values:
                     type: spacer
                     padding-y: 15
             show_as_card: false
           -
+            id: EiHfx40u
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: 6SPzhqg4
                   values:
                     type: custom_svg_width
                     svg_file: logo-startseite/masterarbeit-schreiben-lassen.svg
@@ -2378,6 +2499,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: otpmkKWE
                   values:
                     type: spacer
                     padding-y: 10
@@ -2427,17 +2549,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 9vBxm1aL
                   values:
                     type: spacer
                     padding-y: 15
             show_as_card: false
           -
+            id: ZxifKSYe
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: Qt0On9zS
                   values:
                     type: custom_svg_width
                     svg_file: logo-startseite/doktorarbeit-schreiben-lassen.svg
@@ -2446,6 +2571,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: zCoBsYdL
                   values:
                     type: spacer
                     padding-y: 10
@@ -2495,6 +2621,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: jFyOdAMD
                   values:
                     type: spacer
                     padding-y: 15
@@ -2504,9 +2631,11 @@ replicator:
         single_col: true
         responsive_columns: 0
       -
+        id: hBbrj0bH
         single_col: true
         grid:
           -
+            id: w1VcX40N
             bard:
               -
                 type: heading
@@ -2524,6 +2653,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Ln2SX5dS
                   values:
                     type: spacer
                     padding-y: 20
@@ -2533,15 +2663,18 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: NrlHHGTR
         columns_per_row: 3
         grid:
           -
+            id: 6elPFF4L
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: 3tnOEUz7
                   values:
                     type: custom_svg_width
                     svg_file: logo-startseite/ghostwriter-jura.svg
@@ -2550,6 +2683,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: a2HlKh8n
                   values:
                     type: spacer
                     padding-y: 10
@@ -2609,17 +2743,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: pqBaF9wA
                   values:
                     type: spacer
                     padding-y: 15
             show_as_card: false
           -
+            id: FJIR2Aql
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: 1w4oy5iv
                   values:
                     type: custom_svg_width
                     svg_file: logo-startseite/ghostwriter-bwl.svg
@@ -2628,6 +2765,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 8dPDeJMi
                   values:
                     type: spacer
                     padding-y: 10
@@ -2687,17 +2825,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: HZSoTpnS
                   values:
                     type: spacer
                     padding-y: 15
             show_as_card: false
           -
+            id: ors1CnfK
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: ygfSHYJz
                   values:
                     type: custom_svg_width
                     svg_file: logo-startseite/ghostwriter-medizin.svg
@@ -2706,6 +2847,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: bvThBSn6
                   values:
                     type: spacer
                     padding-y: 10
@@ -2765,6 +2907,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: fXRaNU8o
                   values:
                     type: spacer
                     padding-y: 15
@@ -2774,15 +2917,18 @@ replicator:
         single_col: true
         responsive_columns: 0
       -
+        id: qthaHmcV
         columns_per_row: 3
         grid:
           -
+            id: WNI0D3Bi
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: Ixrdtm20
                   values:
                     type: custom_svg_width
                     svg_file: logo-startseite/ghostwriter-sozialwissenschaften.svg
@@ -2791,6 +2937,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: iVcmVqkc
                   values:
                     type: spacer
                     padding-y: 10
@@ -2850,17 +2997,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: YgiY2b4J
                   values:
                     type: spacer
                     padding-y: 15
             show_as_card: false
           -
+            id: iVjYOJ1Q
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: FGwji8c7
                   values:
                     type: custom_svg_width
                     svg_file: logo-startseite/ghostwriter-psychologie.svg
@@ -2869,6 +3019,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: By18uH5k
                   values:
                     type: spacer
                     padding-y: 10
@@ -2928,17 +3079,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: zaRxGkcb
                   values:
                     type: spacer
                     padding-y: 15
             show_as_card: false
           -
+            id: 7boMiZZY
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: fzlTEaiM
                   values:
                     type: custom_svg_width
                     svg_file: logo-startseite/ghostwriter-zahnmedizin.svg
@@ -2947,6 +3101,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: eKycWklA
                   values:
                     type: spacer
                     padding-y: 10
@@ -3006,6 +3161,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: vvZqucnO
                   values:
                     type: spacer
                     padding-y: 15
@@ -3015,9 +3171,11 @@ replicator:
         single_col: true
         responsive_columns: 0
       -
+        id: mrnJ1afR
         single_col: true
         grid:
           -
+            id: zEKMDPzg
             bard:
               -
                 type: heading
@@ -3035,10 +3193,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: knceuO7c
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: MYvLLWXZ
                         text: Arbeiten
                         eintraege:
                           - 425234fd-eb40-4dab-bb3d-95bbac5948eb
@@ -3051,6 +3211,7 @@ replicator:
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
                           - 5659593d-2756-4e9f-a5b3-b391103d9886
                       -
+                        id: xmr7lNUZ
                         text: Fachrichtungen
                         eintraege:
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
@@ -3091,11 +3252,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: L2S67Dog
     columns_replicator:
       -
+        id: 5kooGTGv
         single_col: true
         grid:
           -
+            id: 4pvYCg2i
             bard:
               -
                 type: heading
@@ -3215,6 +3379,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: LPC4MZ6a
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -3225,6 +3390,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: P00MVnc5
                   values:
                     type: spacer
                     padding-y: 30
@@ -3253,10 +3419,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: uOSpIKOc
                   values:
                     type: accordion_custom_wrapper
                     items:
                       -
+                        id: D93BZskQ
                         headline:
                           -
                             type: heading
@@ -3265,7 +3433,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Was ist ein Ghostwriter?'
+                                text: 'Was ist ein Ghostwriter? ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -3284,6 +3452,7 @@ replicator:
                                 text: 'Ghostwriter sind in der modernen Welt in vielen verschiedenen Bereichen tätig. Auch in der Vergangenheit gab es bereits Ghostwriter, welche für bekannte Personen zum Beispiel Reden verfasst haben. Heute ist Ghostwriting nicht nur bei Reden üblich. Auch für viele Songtexte oder Bücher prominenter Personen werden Ghostwriter eingesetzt. Weiterhin oftmals auch für Unternehmensbücher oder überhaupt für Veröffentlichungen welche im Namen bekannter (juristischer wie auch natürlicher) Personen erfolgen. Dabei steht der Ghostwriter selbst meist im Hintergrund und wird für die Rezipienten auch unbekannt bleiben. Meist ist nicht einmal bekannt, dass überhaupt eine solche Person beauftragt wurde. Lediglich im Bereich von literarischen Werken und Autobiografien prominenter Personen kommt es vor, dass ein Ghostwriter genannt wird. Meist wird dieser dann in den Danksagungen erwähnt oder taucht als Co-Autor der prominenten Person auf.'
                         active: false
                       -
+                        id: nYYYDJ0Y
                         headline:
                           -
                             type: heading
@@ -3292,7 +3461,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Was ist ein "akademischer" Ghostwriter?'
+                                text: 'Was ist ein "akademischer" Ghostwriter? ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -3311,6 +3480,7 @@ replicator:
                                 text: "Die Berufsgruppe des akademischen Ghostwriters wird in der Öffentlichkeit wenig wahrgenommen. Das Phänomen ist jedoch keineswegs eine moderne Erscheinung. Akademisches\_Ghostwriting\_ist so alt wie das System der akademischen Lehre & Bildung selbst. Erwähnenswert ist, dass es sich bei akademischen Ghostwritern häufig um wissenschaftliche Autoren handelt, die auf diesem Wege – zum Teil neben Ihrer Haupttätigkeit – akademische Arbeiten verfassen. Akademische Ghostwriter kommen dabei aus den verschiedensten Fachbereichen und (Forschungs-)Gebieten. Insbesondere in den Rechts- und\_Wirtschaftswissenschaften\_ist akademisches Ghostwriting weit verbreitet."
                         active: false
                       -
+                        id: BlVf3uoN
                         headline:
                           -
                             type: heading
@@ -3319,7 +3489,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Hinter welchen Kulissen verbergen sich Ghostwriter?'
+                                text: 'Hinter welchen Kulissen verbergen sich Ghostwriter? ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -3337,6 +3507,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 52jn8b4c
                   values:
                     type: spacer
                     padding-y: 40
@@ -3370,6 +3541,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: MfzCpctV
                   values:
                     type: blog_entries
                     entries:
@@ -3407,7 +3579,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1667221609
+updated_at: 1668717526
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -3458,6 +3630,5 @@ schema_objects: |-
     }]
   }
   </script>
-published: true
 breadcrumbs_active: true
 ---
