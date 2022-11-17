@@ -163,7 +163,7 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     border: false
     type: add_section
@@ -1144,7 +1144,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Aufgrund '
+                    text: 'Bei GWriters unterstützen unsere Ghostwriter Studenten, die sich eine Mustervorlage für die eigene '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Masterarbeit schreiben lassen '
+                  -
+                    type: text
+                    text: 'möchten. Oft steigen unsere Experten direkt zu Beginn einer Texterstellung, bei der eigentlichen Themenfindung, der Literaturrecherche und dem Aufbau einer Masterarbeit ein. Aufgrund '
                   -
                     type: text
                     marks:
@@ -1165,22 +1174,13 @@ replicator:
                     text: Ghostwriter
                   -
                     type: text
-                    text: ' wissenschaftliche Texterstellungen problemlos zu jedem Zeitpunkt übernehmen. In solchen Fällen steht dann im Leistungszentrum, dass Sie sich als Student von Ghostwritern eine Mustervorlage für die eigene '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Masterarbeit schreiben lassen'
-                  -
-                    type: text
-                    text: '. Oft geschieht dies direkt zu Beginn einer Texterstellung, bei der eigentlichen Themenfindung, der Literaturrecherche und dem Aufbau einer Masterarbeit. '
+                    text: ' wissenschaftliche Texterstellungen problemlos zu jedem Zeitpunkt übernehmen. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Sie können ebenfalls Hilfe während des Schreibprozesses in Anspruch nehmen oder sich bei Teilbereichen helfen lassen. Wir bieten Ihnen darüber hinaus auch Leistungen wie das '
+                    text: 'Sie können unsere Hilfe während des Schreibprozesses in Anspruch nehmen oder sich bei Teilbereichen helfen lassen. Wir bieten Ihnen darüber hinaus auch Leistungen wie das '
                   -
                     type: text
                     marks:
@@ -1201,7 +1201,7 @@ replicator:
                     text: ' und das Korrektorat der Masterarbeit'
                   -
                     type: text
-                    text: ', die bereits durch Sie fertiggestellt wurde.'
+                    text: ', wenn Sie diese bereits selbständige fertiggestellt haben.'
             show_as_card: false
           -
             id: gfuL4CzA
@@ -1628,7 +1628,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Abhilfe schafft hier, neben der Arbeitskorrektur und der Plagiatsprüfung, ein professionelles Coaching für die Masterarbeit. Sie können auch für Mustervorlagen für Ihre '
+                    text: 'Abhilfe schafft hier, neben der Arbeitskorrektur und der Plagiatsprüfung, ein professionelles Coaching für die Masterarbeit. Wenn Sie für Ihre '
                   -
                     type: text
                     marks:
@@ -1648,7 +1648,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ' beauftragen, wobei diese Ghostwriting-Masterarbeit nur als Orientierungshilfe dienen sollte. Unsere Ghostwriter sind mehr als akademisch ausgebildete Autoren. Sie sind '
+                    text: ' beauftragen, erstellten diese Ihnen eine hochqualitative Mustervorlage. Diese "Ghostwriting-Masterarbeit" können Sie anschließend als Orientierungshilfe nutzen. Unsere Ghostwriter sind mehr als akademisch ausgebildete Autoren. Sie sind '
                   -
                     type: text
                     marks:
@@ -1993,7 +1993,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Gliederung einer Masterarbeit'
+                                text: 'Gliederung einer Masterarbeit ➞'
                         accordion_content:
                           -
                             type: bullet_list
@@ -2278,7 +2278,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Formatierung einer Masterarbeit'
+                                text: 'Formatierung einer Masterarbeit ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -2372,6 +2372,97 @@ replicator:
           -
             id: K8GiAu4i
             bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Häufig gestellte Fragen zu Masterarbeit-Ghostwritern'
+              -
+                type: set
+                attrs:
+                  id: lalhlyo3
+                  values:
+                    type: accordion_custom_wrapper
+                    items:
+                      -
+                        id: lalhm02r
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Welche Qualifikation hat mein akademischer Ghostwriter? ➞'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Wir garantieren, dass es sich bei Ihrem Ghostwriter um einen absoluten Experten in Ihrem Fachgebiet handelt. In unserer Agentur setzen wir mindestens einen Masterabschluss voraus. Bei vielen unserer Ghostwriter handelt es sich aber um Doktoren und auch Professoren, die selbst noch in der Wissenschaft aktiv sind.'
+                        active: false
+                      -
+                        id: lalhm7pp
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Wie wird bei GWriters meine Anonymität sichergestellt? ➞'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO/GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts.'
+                        active: false
+                      -
+                        id: lalhm8si
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Was kostet eine Mustervorlage für meine Masterarbeit? ➞'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Eine Mustervorlage für eine 50-seitige Masterarbeit erhalten Sie bereits ab 5000 €. Die Preise pro Seite können aber noch variieren, abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen.'
+                        active: false
+                      -
+                        id: lalhm9y8
+                        headline:
+                          -
+                            type: heading
+                            attrs:
+                              level: 3
+                            content:
+                              -
+                                type: text
+                                text: 'Darf ich die erstellte Mustervorlage als eigene Masterarbeit abgeben? ➞'
+                        accordion_content:
+                          -
+                            type: paragraph
+                            content:
+                              -
+                                type: text
+                                text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Masterarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch.'
+                        active: false
               -
                 type: heading
                 attrs:
@@ -2546,7 +2637,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1668712999
+updated_at: 1668714875
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2559,6 +2650,42 @@ meta_description: 'Masterarbeit schreiben lassen – Akademisches Ghostwriting f
 og_title: 'Masterarbeit schreiben lassen • Ghostwriting von GWriters'
 og_description: 'Masterarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Masterarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 og_image: GWriters-Logo.png
+schema_objects: |-
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "Welche Qualifikationen hat mein akademischer Ghostwriter?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wir garantieren, dass es sich bei Ihrem Ghostwriter um einen absoluten Experten in Ihrem Fachgebiet handelt. In unserer Agentur setzen wir mindestens einen Masterabschluss voraus. Bei vielen unserer Ghostwriter handelt es sich aber um Doktoren und auch Professoren, die selbst noch in der Wissenschaft aktiv sind."
+      }
+    },{
+      "@type": "Question",
+      "name": "Wie wird bei GWriters meine Anonymität sichergestellt?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO/GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts."
+      }
+    },{
+      "@type": "Question",
+      "name": "Was kostet eine Mustervorlage für meine Masterarbeit?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eine Mustervorlage für eine 50-seitige Masterarbeit erhalten Sie bereits ab 5000 €. Die Preise pro Seite können aber noch variieren, abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen."
+      }
+    },{
+      "@type": "Question",
+      "name": "Darf ich die erstellte Mustervorlage als eigene Masterarbeit abgeben?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Masterarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch."
+      }
+    }]
+  }
+  </script>
 sitemap_active: true
 page_title: 'Masterarbeit schreiben lassen • Ghostwriting von GWriters'
 alternative_page_title: 'Masterarbeit schreiben lassen'
