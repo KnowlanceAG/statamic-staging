@@ -2322,4 +2322,5 @@ fachrichtungsgruppe: g_geisteswissenschaften
 sitemap_active: true
 alternative_page_title: 'Kunst Ghostwriter'
 published: true
+breadcrumbs_active: true
 ---

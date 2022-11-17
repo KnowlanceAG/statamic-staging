@@ -1236,4 +1236,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'Wirtschaftsinformatik Ghostwriter'
+breadcrumbs_active: true
 ---

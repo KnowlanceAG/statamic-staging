@@ -1317,4 +1317,5 @@ page_title: 'Examensarbeit schreiben lassen • Ghostwriter von GWriters'
 alternative_page_title: 'Examensarbeit schreiben lassen'
 arbeitsgruppe: a_abschlussarbeiten
 published: true
+breadcrumbs_active: true
 ---

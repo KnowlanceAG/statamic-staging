@@ -137,4 +137,5 @@ template: without-teaser-with-sidebar
 og_title: 'Erstellung von hochwertigen Website Content? • GWriters'
 og_description: 'Sie benötigen qualitativen und professionellen Inhalt für Ihre Branche und Webseite? Das akademische Expertenteam von GWriters.de steht bereit!'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

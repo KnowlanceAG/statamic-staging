@@ -1996,4 +1996,5 @@ fachrichtungsgruppe: g_technische_fachrichtungen
 sitemap_active: true
 alternative_page_title: 'Informatik Ghostwriter'
 published: true
+breadcrumbs_active: true
 ---

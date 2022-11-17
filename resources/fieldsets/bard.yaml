@@ -185,6 +185,9 @@ fields:
           fields:
             -
               import: experten_slider
+        breadcrumbs_element:
+          display: 'Breadcrumbs Element'
+          fields: {  }
       container: assets
       enable_input_rules: true
       enable_paste_rules: true
@@ -193,6 +196,8 @@ fields:
       visibility: visible
       previews: true
       remove_empty_nodes: false
+      always_save: false
+      collapse: false
   -
     handle: show_as_card
     field:

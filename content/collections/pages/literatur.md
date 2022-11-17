@@ -966,4 +966,5 @@ fachrichtungsgruppe: g_geisteswissenschaften
 sitemap_active: true
 alternative_page_title: 'Literatur Ghostwriter'
 published: true
+breadcrumbs_active: true
 ---

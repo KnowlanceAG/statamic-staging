@@ -908,4 +908,5 @@ meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, 
 og_title: 'GWriters • Ghostwriter - Wer und was ist das?'
 og_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Ghostwriting: Leistungen, Ablauf, Kosten & Preise.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

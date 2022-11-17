@@ -328,4 +328,5 @@ og_title: 'Ist Ghostwriting strafbar? Alles dazu auf GWriters'
 og_description: 'Ist Ghostwriting strafbar? Erfahren Sie alles dazu im Artikel und auf GWriters.de - Ihrer Ghostwriter Agentur.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+breadcrumbs_active: true
 ---

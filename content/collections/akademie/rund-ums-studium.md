@@ -286,4 +286,5 @@ more_templates:
 og_title: 'GWriters • Alles rund ums Studium von Ihrem Ghostwriter Service'
 og_description: 'Ob Jura, BWL, Medizin oder etwas anderes - Unsere Ghostwriting Agentur steht Ihnen in jedem Fachbereich professionell zur Seite!'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

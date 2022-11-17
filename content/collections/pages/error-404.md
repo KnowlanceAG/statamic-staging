@@ -73,4 +73,5 @@ og_description: 'Seite wurde nicht gefunden. • GWriters.de'
 og_image: GWriters-Logo.png
 published: true
 sitemap_active: true
+breadcrumbs_active: true
 ---

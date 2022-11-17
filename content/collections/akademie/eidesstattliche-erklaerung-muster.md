@@ -205,4 +205,5 @@ link_title: 'Eidesstattliche Erklärung'
 og_title: 'Kostenlose Eidesstattliche Erklärung für Ihre Hausarbeit herunterladen'
 og_description: 'Nutzen Sie hier kostenlos für Ihre eidesstattliche Erklärung Muster und Vorlagen, die in keiner Abschlussarbeit fehlen dürfen.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

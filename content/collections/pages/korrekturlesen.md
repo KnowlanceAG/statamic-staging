@@ -381,4 +381,5 @@ og_title: 'Korrekturlesen von wissenschaftlichen Texten • GWriters'
 og_description: 'Benötigen Sie einen Textkorrektor für Ihre Abschlussarbeit? GWriters.de bietet Ihnen qualitätsgeprüfte Korrektoren zu fairen Preisen.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+breadcrumbs_active: true
 ---

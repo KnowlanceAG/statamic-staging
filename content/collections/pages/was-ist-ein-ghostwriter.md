@@ -128,4 +128,5 @@ og_title: 'Was ist ein Ghostwriter? • GWriters beantwortet Ihre Fragen'
 og_description: 'Was ist ein Ghostwriter? Erfahren Sie mehr über Ghostwriter und lassen Sie sich professionell unterstützen.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+breadcrumbs_active: true
 ---

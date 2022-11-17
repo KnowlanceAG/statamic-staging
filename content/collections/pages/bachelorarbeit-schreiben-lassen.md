@@ -3062,4 +3062,5 @@ schema_objects: |-
 sitemap_active: true
 alternative_page_title: 'Bachelorarbeit schreiben lassen'
 arbeitsgruppe: a_abschlussarbeiten
+breadcrumbs_active: true
 ---

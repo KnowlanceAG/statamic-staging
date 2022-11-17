@@ -367,4 +367,5 @@ og_description: 'Ihr persönlicher akademischer Lektor für Ihre Bachelorarbeit,
 og_image: GWriters-Logo.png
 sitemap_active: true
 published: true
+breadcrumbs_active: true
 ---

@@ -264,4 +264,5 @@ og_title: 'Warum genau GWriters nutzen? Vorteile unserer Ghostwriting Agentur'
 og_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Ghostwriting: Leistungen, Ablauf, Kosten & Preise.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+breadcrumbs_active: true
 ---

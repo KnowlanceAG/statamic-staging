@@ -222,4 +222,5 @@ og_description: 'In der GWriters Akademie finden Sie wertvolle Ratgeber zum wiss
 og_image: GWriters-Logo.png
 sitemap_active: true
 published: true
+breadcrumbs_active: true
 ---

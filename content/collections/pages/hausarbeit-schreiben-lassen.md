@@ -776,7 +776,7 @@ replicator:
                     vertical_alignment_img: self-center
                     text: |-
                       ### Projektmanager & Teillieferungen
-                      Sie stehen jederzeit in **anonymen Kontakt** zu Ihrem Ghostwriter für die Hausarbeit und behalten die volle Kontrolle über Ihren Auftrag. Teillieferungen dienen dazu, Sie über den **aktuellen Stand der Arbeit** zu informieren und Ihr Feedback kostenlos umzusetzen. 
+                      Sie stehen jederzeit in **anonymen Kontakt** zu Ihrem Ghostwriter für die Hausarbeit und behalten die volle Kontrolle über Ihren Auftrag. Teillieferungen dienen dazu, Sie über den **aktuellen Stand der Arbeit** zu informieren und Ihr Feedback kostenlos umzusetzen.
                     vertical_alignment_text: self-center
                     reverse_columns: text_bild
               -
@@ -1912,4 +1912,5 @@ page_title: 'Hausarbeit schreiben lassen • Ghostwriter von GWriters'
 alternative_page_title: 'Hausarbeit schreiben lassen'
 arbeitsgruppe: a_studienarbeiten
 published: true
+breadcrumbs_active: true
 ---

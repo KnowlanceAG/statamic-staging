@@ -1173,4 +1173,5 @@ og_title: 'GWriters • BWL - Ghostwriter, Lektoren & Coaches'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
+breadcrumbs_active: true
 ---

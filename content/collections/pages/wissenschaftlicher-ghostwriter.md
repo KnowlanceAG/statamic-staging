@@ -382,4 +382,5 @@ og_description: 'Sie möchten eine Mustervorlage für Ihre Bachelorarbeit, Maste
 og_image: GWriters-Logo.png
 sitemap_active: true
 published: true
+breadcrumbs_active: true
 ---

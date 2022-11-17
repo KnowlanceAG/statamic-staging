@@ -264,4 +264,5 @@ schema_objects: |-
     "contentUrl": "https://www.youtube.com/watch?v=yq8cS1V2VAo"
   }
   </script>
+breadcrumbs_active: true
 ---

@@ -203,4 +203,5 @@ og_title: 'Wie ist der Ablauf bei einem redaktionellen Auftrag? • GWriters'
 og_description: 'Erfahren Sie mehr über de Ablauf eines redaktionellen Auftrags bei GWriters.de. Von Anfrage und Angebot bis zum fertigen Text von der Ghostwriter Agentur.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+breadcrumbs_active: true
 ---

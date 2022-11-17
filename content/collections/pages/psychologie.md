@@ -1468,4 +1468,5 @@ sitemap_active: true
 alternative_page_title: 'Ghostwriter Psychologie'
 fachrichtungsgruppe: g_medizinische_fachrichtungen
 published: true
+breadcrumbs_active: true
 ---

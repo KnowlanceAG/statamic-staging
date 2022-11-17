@@ -1047,4 +1047,5 @@ og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'VWL Ghostwriter'
 published: true
+breadcrumbs_active: true
 ---

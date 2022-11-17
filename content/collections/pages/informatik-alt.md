@@ -1808,4 +1808,5 @@ og_title: 'GWriters • Informatik - Ghostwriter, Lektoren & Coaches'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der Informatik – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_technische_fachrichtungen
+breadcrumbs_active: true
 ---

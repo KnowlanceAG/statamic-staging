@@ -279,4 +279,5 @@ og_description: 'Erfahren Sie alles über den Guttenberg Ghostwriter Fall aus de
 og_image: GWriters-Logo.png
 sitemap_active: true
 published: true
+breadcrumbs_active: true
 ---

@@ -40,6 +40,7 @@ module.exports = {
         'bg-green-400',
         'cursor-pointer',
         'px-24',
+        'sm:px-4',
         'sm:px-32',
         'md:px-40',
         'lg:px-24',

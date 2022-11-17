@@ -185,4 +185,5 @@ og_title: 'Welche Motivation haben akademische Ghostwriter? • GWriters'
 og_description: 'Welche Motivation haben akademische Ghostwriter? Alle Antworten von der Ghostwriter Agentur GWriters.de.'
 og_image: GWriters-Logo.png
 sitemap_active: true
+breadcrumbs_active: true
 ---

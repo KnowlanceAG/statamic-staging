@@ -2446,4 +2446,5 @@ page_title: 'Masterarbeit schreiben lassen • Ghostwriting von GWriters'
 alternative_page_title: 'Masterarbeit schreiben lassen'
 arbeitsgruppe: a_abschlussarbeiten
 published: true
+breadcrumbs_active: true
 ---

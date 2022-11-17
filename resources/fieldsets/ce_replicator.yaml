@@ -30,9 +30,15 @@ fields:
           fields:
             -
               import: sidebar_element
+        breadcrumbs_element:
+          display: 'Breadcrumbs Element'
+          fields: {  }
       display: Replicator
       type: replicator
       icon: replicator
       listable: hidden
       instructions: 'Replicator für Content Elemente'
       instructions_position: above
+      visibility: visible
+      always_save: false
+      previews: true

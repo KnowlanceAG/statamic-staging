@@ -204,4 +204,5 @@ og_title: 'Was ist ein akademischer Ghostwriter? • GWriters'
 og_description: 'Akademische Ghostwriter schreiben für Sie seit 2012 hochwertige Unikate - Delegieren Sie Ihr Projekt an den Marktführer in Sachen Ghostwriting ✍🏼🎓'
 og_image: GWriters-Logo.png
 sitemap_active: true
+breadcrumbs_active: true
 ---

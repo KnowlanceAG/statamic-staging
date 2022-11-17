@@ -922,4 +922,5 @@ fachrichtungsgruppe: g_naturwissenschaften
 sitemap_active: true
 alternative_page_title: 'Chemie Ghostwriter'
 published: true
+breadcrumbs_active: true
 ---

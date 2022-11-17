@@ -1285,4 +1285,5 @@ fachrichtungsgruppe: g_medizinische_fachrichtungen
 sitemap_active: true
 alternative_page_title: 'Ghostwriter Medizin'
 published: true
+breadcrumbs_active: true
 ---

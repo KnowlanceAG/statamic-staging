@@ -140,4 +140,5 @@ template: without-teaser-with-sidebar
 og_title: 'Wie lange braucht ein Ghostwriter? • GWriters beantwortet Ihre Fragen'
 og_description: 'Erfahren Sie wie lange ein Ghostwriter bei der Ghostwriting Agentur GWriters.de für Ihre akademische Arbeit benötigt.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

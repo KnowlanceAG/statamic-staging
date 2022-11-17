@@ -19,4 +19,5 @@ og_image: team/sandro-lechner-gwriters.jpg
 published: true
 phone_number: '+49 30 809332329'
 email_address: lechner@gwriters.de
+breadcrumbs_active: true
 ---

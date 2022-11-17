@@ -200,4 +200,5 @@ template: academy-item
 og_title: 'Kostenloses Inhaltsverzeichnis für Ihre Hausarbeit herunterladen'
 og_description: '?Jetzt können Sie mit unserer Inhaltsverzeichnis Vorlage? Ihr Inhaltsverzeichnis automatisch erstellen. Jetzt unsere Vorlage herunterladen ↘️↘️↘️'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

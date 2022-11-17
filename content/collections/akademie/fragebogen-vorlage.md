@@ -153,4 +153,5 @@ template: academy-item
 og_title: 'Kostenlose Fragebogen Vorlage für Ihre Hausarbeit herunterladen'
 og_description: 'Nutzen Sie unsere Fragebogen Vorlage für Ihre Datenerhebung, erstellt von akademischen Experten. Hier finden Sie alle gängigen Fragetypen.'
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

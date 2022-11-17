@@ -129,6 +129,8 @@ sections:
           listable: hidden
           instructions_position: above
       -
+        import: breadcrubs_active
+      -
         handle: parent
         field:
           type: entries

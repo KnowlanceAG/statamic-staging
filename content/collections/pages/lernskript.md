@@ -595,4 +595,5 @@ sitemap_active: true
 alternative_page_title: 'Lernskript schreiben lassen'
 arbeitsgruppe: a_sonstige_arbeiten
 published: true
+breadcrumbs_active: true
 ---

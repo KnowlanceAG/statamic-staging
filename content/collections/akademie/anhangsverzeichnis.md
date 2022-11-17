@@ -151,4 +151,5 @@ template: academy-item
 og_title: 'Kostenloses Anhangsverzeichnis für Ihre Hausarbeit herunterladen'
 og_description: "Verschaffen Sie Ihren Lesern einen\_Überblick über alle Anhänge mit unserem Anhangsverzeichnis Beispiel. Unsere Vorlage - nur einen Klick entfernt."
 og_image: GWriters-Logo.png
+breadcrumbs_active: true
 ---

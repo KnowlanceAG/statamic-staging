@@ -1036,4 +1036,5 @@ sitemap_active: true
 alternative_page_title: 'Magisterarbeit schreiben lassen'
 arbeitsgruppe: a_abschlussarbeiten
 published: true
+breadcrumbs_active: true
 ---

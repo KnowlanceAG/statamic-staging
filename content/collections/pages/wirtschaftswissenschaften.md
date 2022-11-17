@@ -1437,4 +1437,5 @@ sitemap_active: true
 alternative_page_title: 'Wirtschaftswissenschaften Ghostwriter'
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 published: true
+breadcrumbs_active: true
 ---

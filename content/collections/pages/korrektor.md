@@ -294,4 +294,5 @@ og_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Co
 og_image: GWriters-Logo.png
 sitemap_active: true
 published: true
+breadcrumbs_active: true
 ---
