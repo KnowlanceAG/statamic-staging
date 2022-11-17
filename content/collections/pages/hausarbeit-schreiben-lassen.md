@@ -54,40 +54,48 @@ teaser:
   -
     type: set
     attrs:
+      id: LSROzPMJ
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: DIXMISaF
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: aUdjs8x6
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: 3Aec3OE9
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
             tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
+            id: ISQbEurn
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: bZY0N2Vu
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: TNs9M774
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: W8jyG8hP
       values:
         type: button
         button_link: /anfrage
@@ -97,6 +105,7 @@ teaser:
   -
     type: set
     attrs:
+      id: eibDkvGB
       values:
         type: spacer
         padding-y: 20
@@ -140,11 +149,14 @@ teaser:
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
+    id: RVdNn4V0
     columns_replicator:
       -
+        id: a64nElWi
         single_col: true
         grid:
           -
+            id: MmeuPUHU
             bard:
               -
                 type: heading
@@ -279,6 +291,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: ro5hnG4d
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -292,9 +305,11 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: wZlBQfUJ
         single_col: true
         grid:
           -
+            id: a8Q6ORMr
             bard:
               -
                 type: heading
@@ -345,6 +360,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 1UDDfvrq
                   values:
                     type: spacer
                     padding-y: 15
@@ -354,15 +370,18 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: IfrXIjQt
         columns_per_row: 4
         grid:
           -
+            id: cVIZ4ebu
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: jAUtnhwR
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/security.svg
@@ -370,6 +389,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: eig3xmFA
                   values:
                     type: spacer
                     padding-y: 10
@@ -400,17 +420,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 0sNyhjqj
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
           -
+            id: hBf3Ge9z
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: Bc9FWzZ8
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
@@ -418,6 +441,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 4Qykz2N7
                   values:
                     type: spacer
                     padding-y: 10
@@ -448,17 +472,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: tfeemqJd
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
           -
+            id: sqURlPhn
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: N0Q6VLMP
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/stopwatch.svg
@@ -466,6 +493,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 6CEJqZR6
                   values:
                     type: spacer
                     padding-y: 10
@@ -505,17 +533,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: HDFcLZvS
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
           -
+            id: 7AZTyHEy
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: SJtgMwjf
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/magistrate.svg
@@ -523,6 +554,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: NB9Ajcc8
                   values:
                     type: spacer
                     padding-y: 10
@@ -550,6 +582,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: ccpF7pdm
                   values:
                     type: spacer
                     padding-y: 10
@@ -559,9 +592,11 @@ replicator:
         single_col: true
         responsive_columns: 0
       -
+        id: SfHfV1Q0
         single_col: true
         grid:
           -
+            id: c98vQI1L
             bard:
               -
                 type: heading
@@ -580,6 +615,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: MmxCJBkW
                   values:
                     type: video
                     video: 'https://youtu.be/BFHgSZP9rCE'
@@ -594,11 +630,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: wtVzgjkm
     columns_replicator:
       -
+        id: hMvKM06P
         single_col: false
         grid:
           -
+            id: A4qj7Sxk
             bard:
               -
                 type: heading
@@ -626,13 +665,16 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: qDFzwn2y
         columns_per_row: 2
         grid:
           -
+            id: IQgtYglA
             bard:
               -
                 type: set
                 attrs:
+                  id: MijuqzO4
                   values:
                     type: example_work
                     ex_img_right: false
@@ -649,10 +691,12 @@ replicator:
                     ex_spacing_top: false
             show_as_card: false
           -
+            id: SWsjERsD
             bard:
               -
                 type: set
                 attrs:
+                  id: lbwCssMX
                   values:
                     type: spacer
                     padding-y: 20
@@ -672,6 +716,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: ro55j6tD
                   values:
                     type: floating_img
                     dateien:
@@ -727,11 +772,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: coMNGRmL
     columns_replicator:
       -
+        id: 0E6MkNiJ
         single_col: true
         grid:
           -
+            id: Sa9U3HA7
             bard:
               -
                 type: heading
@@ -744,12 +792,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: oqYJf330
                   values:
                     type: spacer
                     padding-y: 10
               -
                 type: set
                 attrs:
+                  id: 0GVM2f9h
                   values:
                     type: img_text_ce
                     bild:
@@ -763,12 +813,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: e0MjxxkB
                   values:
                     type: spacer
                     padding-y: 1
               -
                 type: set
                 attrs:
+                  id: ELTPjpH5
                   values:
                     type: img_text_ce
                     bild:
@@ -782,12 +834,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 0XIs8LcM
                   values:
                     type: spacer
                     padding-y: 1
               -
                 type: set
                 attrs:
+                  id: kfAQiMca
                   values:
                     type: img_text_ce
                     bild:
@@ -801,12 +855,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: SjmsVGks
                   values:
                     type: spacer
                     padding-y: 1
               -
                 type: set
                 attrs:
+                  id: PDNlmpXh
                   values:
                     type: img_text_ce
                     bild:
@@ -841,6 +897,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 0gyBWQFD
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -861,11 +918,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: IPw6W04x
     columns_replicator:
       -
+        id: 9kPkfG64
         single_col: false
         grid:
           -
+            id: YxRXG59h
             bard:
               -
                 type: heading
@@ -920,6 +980,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: DuInvshL
                   values:
                     type: insert_html
                     html: |-
@@ -942,11 +1003,14 @@ replicator:
     enabled: true
     bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
   -
+    id: tsnzyCSu
     columns_replicator:
       -
+        id: MHYLAMpS
         single_col: true
         grid:
           -
+            id: yMkLPIeZ
             bard:
               -
                 type: heading
@@ -970,10 +1034,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: ca0xmIjO
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: J8Ix0COZ
                         text: Fachrichtungen
                         eintraege:
                           - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
@@ -1010,6 +1076,7 @@ replicator:
                           - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
                           - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
                       -
+                        id: 9DP894I4
                         text: Arbeiten
                         eintraege:
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
@@ -1212,11 +1279,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: PsHC6A5u
     columns_replicator:
       -
+        id: Wztx3HgW
         single_col: false
         grid:
           -
+            id: BlNoYIEK
             bard:
               -
                 type: heading
@@ -1259,23 +1329,28 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: aYJRHXgV
         columns_per_row: 2
         grid:
           -
+            id: WGuBQB3l
             bard:
               -
                 type: set
                 attrs:
+                  id: 7gxJVtbA
                   values:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo. - Fr. 9 - 18 Uhr'
             show_as_card: true
           -
+            id: UA8dmSEa
             bard:
               -
                 type: set
                 attrs:
+                  id: yc69B04G
                   values:
                     type: spacer
                     padding-y: 12
@@ -1294,6 +1369,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: XXOo8Plu
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -1303,6 +1379,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: QdwDBlJG
                   values:
                     type: spacer
                     padding-y: 10
@@ -1319,11 +1396,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: NyZtkHjj
     columns_replicator:
       -
+        id: I8BGYmXk
         single_col: true
         grid:
           -
+            id: r1t3dryo
             bard:
               -
                 type: heading
@@ -1336,10 +1416,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 4nXDjL0C
                   values:
                     type: accordion_custom_wrapper
                     items:
                       -
+                        id: HyAjoTDm
                         headline:
                           -
                             type: heading
@@ -1348,7 +1430,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Welche Qualifikationen hat mein akademischer Ghostwriter?'
+                                text: 'Welche Qualifikationen hat mein akademischer Ghostwriter? ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -1358,6 +1440,7 @@ replicator:
                                 text: 'Wir garantieren, dass es sich bei Ihrem Ghostwriter um einen absoluten Experten in Ihrem Fachgebiet handelt. In unserer Agentur setzen wir mindestens einen Masterabschluss voraus. Bei vielen unserer Ghostwriter handelt es sich aber um Doktoren und auch Professoren, die selbst noch in der Wissenschaft aktiv sind.'
                         active: false
                       -
+                        id: bh4wq8yj
                         headline:
                           -
                             type: heading
@@ -1366,7 +1449,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Wie wird bei GWriters meine Anonymität sichergestellt?'
+                                text: 'Wie wird bei GWriters meine Anonymität sichergestellt? ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -1376,6 +1459,7 @@ replicator:
                                 text: 'Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO / GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts.'
                         active: false
                       -
+                        id: tO35Xan9
                         headline:
                           -
                             type: heading
@@ -1384,7 +1468,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Wie viel kostet eine Mustervorlage für eine Hausarbeit?'
+                                text: 'Wie viel kostet eine Mustervorlage für eine Hausarbeit? ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -1394,6 +1478,7 @@ replicator:
                                 text: 'Eine Mustervorlage für eine 10-seitige Hausarbeit erhalten Sie ab 800 Euro. Die Preise pro Seite variieren abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen.'
                         active: false
                       -
+                        id: VccpEOI9
                         headline:
                           -
                             type: heading
@@ -1402,7 +1487,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Hausarbeit schreiben lassen: Welche Vorteile hat ein Ghostwriter?'
+                                text: 'Hausarbeit schreiben lassen: Welche Vorteile hat ein Ghostwriter? ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -1482,6 +1567,7 @@ replicator:
                                 text: .
                         active: false
                       -
+                        id: M6geED0z
                         headline:
                           -
                             type: heading
@@ -1490,7 +1576,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Warum sollten Sie sich bei der wissenschaftlichen Hausarbeit unterstützen lassen?'
+                                text: 'Warum sollten Sie sich bei der wissenschaftlichen Hausarbeit unterstützen lassen? ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -1579,6 +1665,7 @@ replicator:
                                         text: ', der Forschungsfrage oder geben Tipps und Erklärungen zur Prüfung Ihrer Argumentation.'
                         active: false
                       -
+                        id: DeWwtkYa
                         headline:
                           -
                             type: heading
@@ -1587,7 +1674,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Wo kann ich meine Hausarbeit schreiben lassen?'
+                                text: 'Wo kann ich meine Hausarbeit schreiben lassen? ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -1597,6 +1684,7 @@ replicator:
                                 text: 'Ein Ghostwriter kann Ihnen ein Muster für eine Hausarbeit erstellen. Mit seiner Vorlage, die unter anderem Themenfindung, Argumentationsstruktur und Quellenrecherche enthalten kann, fällt Ihnen das Schreiben der Hausarbeit viel leichter. Die Ghostwriter von GWriters sind Akademiker auf dem neuesten Stand der Forschung in ihrem jeweiligen Fachgebiet und erstellen Ihnen gerne die Mustervorlage für Ihre Hausarbeit.'
                         active: false
                       -
+                        id: FUoIkR9C
                         headline:
                           -
                             type: heading
@@ -1605,7 +1693,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Wie lange braucht ein Ghostwriter für eine Hausarbeit?'
+                                text: 'Wie lange braucht ein Ghostwriter für eine Hausarbeit? ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -1644,11 +1732,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: 9uNVU11a
     columns_replicator:
       -
+        id: fjOJ2Ehf
         single_col: true
         grid:
           -
+            id: j5ilNWrF
             bard:
               -
                 type: heading
@@ -1695,6 +1786,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: d1c6ZVQc
                   values:
                     type: blog_entries
                     entries:
@@ -1825,7 +1917,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1666177576
+updated_at: 1668717450
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -1911,6 +2003,5 @@ sitemap_active: true
 page_title: 'Hausarbeit schreiben lassen • Ghostwriter von GWriters'
 alternative_page_title: 'Hausarbeit schreiben lassen'
 arbeitsgruppe: a_studienarbeiten
-published: true
 breadcrumbs_active: true
 ---
