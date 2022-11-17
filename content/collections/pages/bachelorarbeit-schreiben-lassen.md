@@ -2820,6 +2820,20 @@ replicator:
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
               -
+                type: blockquote
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lalge468
+        single_col: false
+        grid:
+          -
+            id: 2kMkNDDv
+            bard:
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -2831,7 +2845,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: left
-                    text: 'Einige unserer Blogartikel zum Thema Bachelorarbeit schreiben lassen'
+                    text: 'Einige unserer Blogartikel zum Thema "Bachelorarbeit schreiben lassen"'
               -
                 type: set
                 attrs:
@@ -2996,8 +3010,6 @@ replicator:
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
-              -
-                type: blockquote
             show_as_card: false
         type: row
         enabled: true
@@ -3010,7 +3022,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1668611446
+updated_at: 1668712980
 template: default
 use_meta_keywords: false
 no_index_page: false
