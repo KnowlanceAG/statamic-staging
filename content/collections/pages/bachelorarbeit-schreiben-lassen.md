@@ -155,19 +155,12 @@ replicator:
                       <p style="font-size:18px" align="center">
                       Bei GWriters finden Sie exakt den <b>akademischen Ghostwriter für Ihre Bachelorarbeit</b>, der zu Ihren individuellen Anforderungen passt. Sie möchten von einem Ghostwriter eine Arbeit als Mustervorlage für Ihre Bachelorarbeit schreiben lassen? Dann wenden Sie sich an einen kompetenten Partner und sichern sich so Ihren Erfolg! Unsere seriöse Ghostwriting Agentur arbeitet ausschließlich mit erfahrenen Akademikern, Doktoren und Professoren als Autoren.
                       </p>
-              -
-                type: set
-                attrs:
-                  id: QEzclNH8
-                  values:
-                    type: spacer
-                    padding-y: 30
             show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: true
+    remove_spacing: false
     is_full: false
     border: false
     type: add_section
@@ -254,8 +247,6 @@ replicator:
                       <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
                       <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
                       <!-- ProvenExpert Bewertungssiegel Ende -->
-              -
-                type: paragraph
             show_as_card: false
         type: row
         enabled: true
@@ -2103,17 +2094,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                marks:
-                                  -
-                                    type: link
-                                    attrs:
-                                      href: /blog/aufbau-wissenschaftliche-arbeit
-                                      target: null
-                                      rel: null
-                                text: Gliederung
-                              -
-                                type: text
-                                text: ' einer Bachelorarbeit'
+                                text: 'Gliederung einer Bachelorarbeit ➞'
                         accordion_content:
                           -
                             type: bullet_list
@@ -2434,7 +2415,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Formatierung einer Bachelorarbeit '
+                                text: 'Formatierung einer Bachelorarbeit ➞'
                         accordion_content:
                           -
                             type: bullet_list
@@ -2557,7 +2538,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Komplexität & Bachelorarbeit-Kosten'
+                                text: 'Komplexität & Bachelorarbeit-Kosten ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -2643,7 +2624,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Fachbereich als Kostenfaktor'
+                                text: 'Fachbereich als Kostenfaktor ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -2708,7 +2689,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Bearbeitungsdauer & Bachelorarbeit-Preise'
+                                text: 'Bearbeitungsdauer & Bachelorarbeit-Preise ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -2742,7 +2723,7 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Kostenumfang der Bachelorarbeit'
+                                text: 'Kostenumfang der Bachelorarbeit ➞'
                         accordion_content:
                           -
                             type: paragraph
@@ -2820,6 +2801,20 @@ replicator:
                           hex: '#000'
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigenes Werk.\_"
               -
+                type: blockquote
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lalge468
+        single_col: false
+        grid:
+          -
+            id: 2kMkNDDv
+            bard:
+              -
                 type: heading
                 attrs:
                   level: 2
@@ -2831,7 +2826,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: left
-                    text: 'Einige unserer Blogartikel zum Thema Bachelorarbeit schreiben lassen'
+                    text: 'Einige unserer Blogartikel zum Thema "Bachelorarbeit schreiben lassen"'
               -
                 type: set
                 attrs:
@@ -2996,8 +2991,6 @@ replicator:
                           target: null
                           rel: null
                     text: '< zurück zur Wiki Übersicht'
-              -
-                type: blockquote
             show_as_card: false
         type: row
         enabled: true
@@ -3010,7 +3003,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1668611446
+updated_at: 1668716672
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3023,42 +3016,6 @@ meta_description: 'Mustervorlage für Bachelorarbeit schreiben lassen & Hilfe vo
 og_title: 'Bachelorarbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Mustervorlage für Bachelorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-schema_objects: |-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [{
-      "@type": "Question",
-      "name": "Welche Qualifikationen hat mein akademischer Ghostwriter?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Wir garantieren, dass es sich bei Ihrem Ghostwriter um einen absoluten Experten in Ihrem Fachgebiet handelt. In unserer Agentur setzen wir mindestens einen Masterabschluss voraus. Bei vielen unserer Ghostwriter handelt es sich aber um Doktoren und auch Professoren, die selbst noch in der Wissenschaft aktiv sind."
-      }
-    },{
-      "@type": "Question",
-      "name": "Wie wird bei GWriters meine Anonymität sichergestellt?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Durch Ihren persönlichen Projektmanager wird Ihre Anonymität zu jeder Zeit gesichert. Niemand außer diesem erfährt Ihren Namen. Er übernimmt die gesamte Kommunikation zwischen Ihnen und Ihrem Ghostwriter und organisiert anonyme Telefonkonferenzen. Darüber hinaus schützen wir alle Ihre Daten gemäß der DSGVO/GDPR und löschen alle auftragsrelevanten Details nach Abschluss Ihres Projekts."
-      }
-    },{
-      "@type": "Question",
-      "name": "Was kostet eine Mustervorlage für meine Hausarbeit?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Eine Mustervorlage für eine 10-seitige Hausarbeit erhalten Sie bereits ab 800 €. Die Preise pro Seite können aber noch variieren, abhängig vom Anspruch des Projekts und etwaiger empirischer Analysen."
-      }
-    },{
-      "@type": "Question",
-      "name": "Darf ich die erstellte Mustervorlage als eigene Hausarbeit abgeben?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen. Eine Mustervorlagen für eine Hausarbeit schreiben zu lassen ist also hinsichtlich der Legalität unproblematisch."
-      }
-    }]
-  }
-  </script>
 sitemap_active: true
 alternative_page_title: 'Bachelorarbeit schreiben lassen'
 arbeitsgruppe: a_abschlussarbeiten
