@@ -23,7 +23,7 @@
                     clip-rule="evenodd" />
             </svg>
             <span
-                class="w-full text-xs font-medium text-gray-550 leading-tight whitespace-nowrap overflow-hidden overflow-ellipsis ">{{
+                class="w-full text-xs font-medium text-gray-550 leading-tight whitespace-nowrap overflow-hidden overflow-ellipsis">{{
                 title }}</span>
         </li>
         {{ else }}
@@ -35,7 +35,7 @@
                     clip-rule="evenodd" />
             </svg>
             <a href="{{ if uri|uri_paginated_index_check }}{{ url }}/page/1{{ else }}{{ url }}{{ /if }}"
-                class="max-w-150px md:max-w-none text-xs font-medium text-gray-550 hover:text-orange-500 leading-tight  whitespace-nowrap overflow-ellipsis overflow-hidden">{{
+                class="max-w-150px md:max-w-none text-xs font-medium text-gray-550 hover:text-orange-500 leading-tight whitespace-nowrap overflow-ellipsis overflow-hidden">{{
                 title }}</a>
         </li>
         {{ /if }}

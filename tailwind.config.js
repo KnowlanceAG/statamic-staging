@@ -48,6 +48,7 @@ module.exports = {
         'rotate-180',
         'lg:block',
         'whitespace-nowrap',
+        'overflow-ellipsis',
         'max-w-150px'
       ]
     }
