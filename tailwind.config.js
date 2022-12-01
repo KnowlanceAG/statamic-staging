@@ -34,6 +34,7 @@ module.exports = {
         'md:w-3/4',
         'md:float-right',
         'md:float-left',
+        'md:max-w-none',
         'md:mx-auto',
         'content-center',
         'bg-green-300',
