@@ -34,6 +34,7 @@ module.exports = {
         'md:w-3/4',
         'md:float-right',
         'md:float-left',
+        'md:max-w-none',
         'md:mx-auto',
         'content-center',
         'bg-green-300',
@@ -46,7 +47,10 @@ module.exports = {
         'lg:px-24',
         '2xl:px-32',
         'rotate-180',
-        'lg:block'
+        'lg:block',
+        'whitespace-nowrap',
+        'overflow-ellipsis',
+        'max-w-150px'
       ]
     }
   },
@@ -106,7 +110,7 @@ module.exports = {
       },
       maxWidth: {
         'max-w-screen': '100vw',
-        'max-w-65px': '65px'
+        '150px': '150px'
       }
     }
   },
