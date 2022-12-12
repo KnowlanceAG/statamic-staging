@@ -39,40 +39,48 @@ teaser:
   -
     type: set
     attrs:
+      id: AtUvhqpd
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: BrjB3d7I
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: kkRoJX8L
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: yJhiAiZF
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: Jkg8ix8i
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: CdKJ1wwW
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: o8GZ8IVf
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: 1xR5pSa4
       values:
         type: button
         button_link: /anfrage
@@ -82,6 +90,7 @@ teaser:
   -
     type: set
     attrs:
+      id: ngCSRE1t
       values:
         type: spacer
         padding-y: 20
@@ -125,11 +134,14 @@ teaser:
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
+    id: ymI1CizZ
     columns_replicator:
       -
+        id: dcmNmM7R
         single_col: true
         grid:
           -
+            id: J9MLZeNg
             bard:
               -
                 type: paragraph
@@ -140,6 +152,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: RH9y1a7c
                   values:
                     type: show_sidebar_mobile
                     custom_sidebar_placement: 'on'
@@ -213,6 +226,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: mfh2sbNl
                   values:
                     type: video
                     video: 'https://youtu.be/ZNiszx4OjkU'
@@ -231,10 +245,12 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: 4NMMUTyn
         columns_per_row: 3
         single_col: true
         grid:
           -
+            id: 9cH96QnO
             bard:
               -
                 type: paragraph
@@ -295,6 +311,7 @@ replicator:
                     text: 'MAXQDA Auswertung'
             show_as_card: false
           -
+            id: O7rGiaX4
             bard:
               -
                 type: paragraph
@@ -364,6 +381,7 @@ replicator:
                     text: Promotionsberatung
             show_as_card: false
           -
+            id: SPnQW6dF
             bard:
               -
                 type: paragraph
@@ -414,9 +432,11 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
+        id: OcxV62Ch
         single_col: true
         grid:
           -
+            id: kFaKCFMk
             bard:
               -
                 type: heading
@@ -429,10 +449,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Kv7UYrh3
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: kHpybcfu
                         text: Fachrichtungen
                         eintraege:
                           - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
@@ -471,6 +493,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: L6FRnu9Y
                   values:
                     type: spacer
                     padding-y: 30
@@ -479,6 +502,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: TA4dUbnb
                   values:
                     type: button
                     button_link: /anfrage
@@ -490,6 +514,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: vnUYNWiu
                   values:
                     type: spacer
                     padding-y: 30
@@ -552,6 +577,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: vyrEykTl
                   values:
                     type: blog_entries
                     entries:
@@ -586,7 +612,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665584055
+updated_at: 1670861096
 meta_title: 'Essay schreiben lassen • Mustervorlage von GWriters'
 meta_description: 'Essay schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
@@ -601,6 +627,5 @@ og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Essay schreiben lassen'
 arbeitsgruppe: a_studienarbeiten
-published: true
 breadcrumbs_active: true
 ---
