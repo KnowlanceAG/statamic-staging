@@ -148,7 +148,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unsere akademischen'
+                    text: 'Unsere akademischen '
                   -
                     type: text
                     marks:
@@ -158,7 +158,7 @@ replicator:
                           href: /ghostwriter
                           target: null
                           rel: null
-                    text: ' Ghostwriter'
+                    text: Ghostwriter
                   -
                     type: text
                     text: ' können auf einen breiten Erfahrungsschatz beim Erstellen von Präsentationen zurückgreifen. Unsere '
@@ -174,20 +174,7 @@ replicator:
                     text: Ghostwriting-Agentur
                   -
                     type: text
-                    text: ' arbeitet mit qualifizierten Autoren zusammen. Sie erstellen tagtäglich Mustervorlagen für Präsentationen und Präsentationslayouts zu verschiedenen Aufgaben. Ob es um die Präsentation von Geschäftsergebnissen in Vertriebsveranstaltungen, Geschäftsideen, Forschungsergebnissen aus einer wissenschaftlichen Arbeit oder Literatur geht, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /
-                          target: null
-                          rel: null
-                    text: 'die Ghostwriter von GWriters stehen Ihnen mit professioneller Unterstützung'
-                  -
-                    type: text
-                    text: ' bei dem Erstellen Ihrer Präsentation zur Seite. '
+                    text: ' arbeitet mit qualifizierten Autoren zusammen. Sie erstellen tagtäglich Mustervorlagen für Präsentationen und Präsentationslayouts zu verschiedenen Aufgaben. Ob es um die Präsentation von Geschäftsergebnissen in Vertriebsveranstaltungen, Geschäftsideen, Forschungsergebnissen aus einer wissenschaftlichen Arbeit oder Literatur geht, die Ghostwriter von GWriters stehen Ihnen mit professioneller Unterstützung bei dem Erstellen Ihrer Präsentation zur Seite. '
               -
                 type: set
                 attrs:
@@ -200,20 +187,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Zudem können auch Präsentationsentwürfe durch '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/gwriters-coaching
-                          target: null
-                          rel: null
-                    text: 'eine professionelle Beratung'
-                  -
-                    type: text
-                    text: ' ergänzt oder überarbeitet werden. Die Visualisierung einer wissenschaftlichen Folienpräsentation sollte verständlich sein und mit wichtigen Inhalten sowie passenden Grafikformaten versehen werden.'
+                    text: 'Zudem können auch Präsentationsentwürfe durch eine professionelle Beratung ergänzt oder überarbeitet werden. Die Visualisierung einer wissenschaftlichen Folienpräsentation sollte verständlich sein und mit wichtigen Inhalten sowie passenden Grafikformaten versehen werden.'
               -
                 type: paragraph
                 content:
@@ -2587,7 +2561,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670861153
+updated_at: 1670877707
 template: default
 meta_title: 'GWriters • professionell Präsentation erstellen lassen'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
