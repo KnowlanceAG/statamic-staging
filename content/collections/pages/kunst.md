@@ -44,40 +44,48 @@ teaser:
   -
     type: set
     attrs:
+      id: 7NjGhsLz
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: HVGkhWOg
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: CAwHOEWX
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: ZewvDeJb
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
             tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
+            id: vpyoCa98
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: SXZxaZCb
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: FmldrXQi
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: 8wtgwZHJ
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -87,6 +95,7 @@ teaser:
   -
     type: set
     attrs:
+      id: r3RCexTm
       values:
         type: spacer
         padding-y: 20
@@ -132,7 +141,7 @@ page_title: 'Kunst Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1667312734
+updated_at: 1670859115
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -141,10 +150,13 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
   -
+    id: oKvDuA4d
     columns_replicator:
       -
+        id: 8IhwYP33
         grid:
           -
+            id: 6jGQT0t5
             bard:
               -
                 type: paragraph
@@ -192,6 +204,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: aFd2tVRN
                   values:
                     type: show_sidebar_mobile
                     custom_sidebar_placement: 'on'
@@ -436,12 +449,6 @@ replicator:
                         attrs:
                           color: 'rgb(255, 102, 2)'
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/gwriters-coaching
-                          target: null
-                          rel: null
                     text: Coachings
                   -
                     type: text
@@ -584,6 +591,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: JlrkTysS
                   values:
                     type: video
                     video: 'https://www.youtube.com/watch?v=4JuNBFwj_2c'
@@ -602,9 +610,11 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: 5VQWjl5W
         columns_per_row: 3
         grid:
           -
+            id: SE19Rlhw
             bard:
               -
                 type: paragraph
@@ -689,6 +699,7 @@ replicator:
                     text: "\_"
             show_as_card: false
           -
+            id: GcSuRlSF
             bard:
               -
                 type: paragraph
@@ -758,6 +769,7 @@ replicator:
                     text: Plagiatsprüfung
             show_as_card: false
           -
+            id: tHn1liH5
             bard:
               -
                 type: paragraph
@@ -807,9 +819,11 @@ replicator:
         single_col: true
         responsive_columns: 0
       -
+        id: ln7LF21u
         single_col: true
         grid:
           -
+            id: 1j6bD98y
             bard:
               -
                 type: heading
@@ -822,10 +836,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 0C6kC5IJ
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: lejsumlU
                         text: Arbeiten
                         eintraege:
                           - 68b88fd1-ec03-4ea8-9292-431555e47744
@@ -1022,6 +1038,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: fsKnmvQ8
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -1095,34 +1112,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: "Das Kunststudium ist inhaltlich sehr praktisch und gleichzeitig sehr flexibel ausgerichtet. Gerade aufgrund dieser starken Praxisausrichtung und auch der hohen zeitlichen Flexibilität erfahren Kunststudenten zum Teil Probleme. Es ist immer schwierig, sich auf verschiedene Themen zu konzentrieren und oftmals kommen sowohl Praxis- als auch Theorieprojekte gleichzeitig zum Tragen. Hier können ebenso die Kunst Ghostwriter von GWriters helfen. Sie kennen die aktuellen Forschungsthemen und sind vor allen Dingen Experten in Sachen der Kunsttheorie. Ohne professionelle Unterstützung eine wissenschaftliche Begleitung zu finden, ist gewöhnlich sehr schwierig. Hier kann GWriters helfen und Sie bei der Durchführung von Projekten beraten, darüber hinaus können Sie aber auch bei GWriters eine Mustervorlage für bspw. Ihre Hausarbeit schreiben lassen. Mehr Informationen zum Kunststudium erfahren Sie\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/kunst-studiengang
-                          target: null
-                          rel: null
-                    text: hier
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                    text: .
+                    text: 'Das Kunststudium ist inhaltlich sehr praktisch und gleichzeitig sehr flexibel ausgerichtet. Gerade aufgrund dieser starken Praxisausrichtung und auch der hohen zeitlichen Flexibilität erfahren Kunststudenten zum Teil Probleme. Es ist immer schwierig, sich auf verschiedene Themen zu konzentrieren und oftmals kommen sowohl Praxis- als auch Theorieprojekte gleichzeitig zum Tragen. Hier können ebenso die Kunst Ghostwriter von GWriters helfen. Sie kennen die aktuellen Forschungsthemen und sind vor allen Dingen Experten in Sachen der Kunsttheorie. Ohne professionelle Unterstützung eine wissenschaftliche Begleitung zu finden, ist gewöhnlich sehr schwierig. Hier kann GWriters helfen und Sie bei der Durchführung von Projekten beraten, darüber hinaus können Sie aber auch bei GWriters eine Mustervorlage für bspw. Ihre Hausarbeit schreiben lassen.'
               -
                 type: heading
                 attrs:
@@ -2184,6 +2174,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: ZuitFRlD
                   values:
                     type: floating_img
                     dateien:
@@ -2209,6 +2200,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: YpsIWhhH
                   values:
                     type: floating_img
                     dateien:
@@ -2321,6 +2313,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_geisteswissenschaften
 sitemap_active: true
 alternative_page_title: 'Kunst Ghostwriter'
-published: true
 breadcrumbs_active: true
 ---
