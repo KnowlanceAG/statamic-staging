@@ -39,40 +39,48 @@ teaser:
   -
     type: set
     attrs:
+      id: Armepn22
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: bwSOHOus
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: BoUarWXB
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: JxxbyBOI
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: NTQ5CyhW
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: Y5DKJJMc
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: TAUKmHnb
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: gHElUN35
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -82,6 +90,7 @@ teaser:
   -
     type: set
     attrs:
+      id: vuiIYA5b
       values:
         type: spacer
         padding-y: 20
@@ -125,10 +134,13 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
+    id: 5weHd3dP
     columns_replicator:
       -
+        id: kOUJNdbx
         grid:
           -
+            id: aAloqnFT
             bard:
               -
                 type: paragraph
@@ -332,10 +344,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: tPsiWGTA
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: wVKl3UqT
                         text: Arbeiten
                         eintraege:
                           - 425234fd-eb40-4dab-bb3d-95bbac5948eb
@@ -354,6 +368,7 @@ replicator:
                           - 52f5092f-800b-4742-8636-a840b9ab1ddb
                           - 2931f444-5e22-4860-8f40-a41821377b93
                       -
+                        id: AwfeBuZM
                         text: Fachrichtungen
                         eintraege:
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
@@ -392,6 +407,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: AKSCvsQb
                   values:
                     type: spacer
                     padding-y: 30
@@ -420,10 +436,12 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: F0yocbmS
         columns_per_row: 2
         single_col: true
         grid:
           -
+            id: jtRPqfsT
             bard:
               -
                 type: heading
@@ -506,6 +524,7 @@ replicator:
                     text: ' für Ihr Projekt aus unserer Datenbank aus. Kriterien bei dieser Wahl sind die akademische Expertise dieser Personen in Eurem Fachbereich, unsere Erfahrung aus der Zusammenarbeit mit diesem Ghostwriter und dessen internes Ranking durch unser Team. Je spezifischer Sie bei Ihrer Anfrage sind, umso besser können unsere Kundenberater Ihrer Anforderungen definieren und die richtigen akademischen Experten für Ihr Projekt auswählen.'
             show_as_card: false
           -
+            id: 9zUDZKPN
             bard:
               -
                 type: heading
@@ -523,6 +542,7 @@ replicator:
                     text: 'Nach der Auswahl des besten Ghostwriters für Sie diskutieren wir mit diesem Ihr Projekt im Detail und schätzen so den benötigten Aufwand ein. Zudem erstellen wir bereits einen vorläufigen Ablaufplan für Ihr Projekt und legen mögliche Teillieferungstermine fest. In der Regel dauert dies nicht mehr als 2 Stunden. In Ausnahmefällen dauert dies bis zu 48 Stunden. In solchen Fällen werden wir Sie aber vorab kontaktieren und Sie um etwas Geduld bitten, während wir durch eine genaue Einschätzung sicherstellen, dass es keine nachträglichen Überraschungen gibt. Anschließend erhalten Sie ein unverbindliches und individuelles Angebot für das akademische Ghostwriting von uns. Das Angebot versteht sich als Festpreis, versteckte Kosten gibt es nicht - das garantieren wir!'
             show_as_card: false
           -
+            id: ApGE9D4g
             bard:
               -
                 type: heading
@@ -553,6 +573,7 @@ replicator:
                     text: '. Wenn Sie damit einverstanden sind, vereinbaren wir zu Auftragsbeginn eine initiale Telefonkonferenz. Zu diesem Zeitpunkt wird außerdem die erste Teilzahlung für den Ghostwriting-Auftrag fällig, die in der Anfragephase mit Ihnen vereinbart wurde. Im Laufe der Bearbeitung erhalten Sie dann zu vereinbarten Zeitpunkten Teillieferungen zu Ihrem Projekt. Bitte nutzen Sie diese Teillieferungen, um Ihr Feedback und Änderungswünsche an den akademischen Ghostwriter zu äußern. Ihr Feedback wird natürlich kostenfrei eingearbeitet.'
             show_as_card: false
           -
+            id: 8xW4ML8g
             bard:
               -
                 type: heading
@@ -573,13 +594,16 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
+        id: 7taGKoPg
         single_col: true
         grid:
           -
+            id: B7OXO6PX
             bard:
               -
                 type: set
                 attrs:
+                  id: 9jgq97fu
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -589,6 +613,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Xg4UlIxa
                   values:
                     type: spacer
                     padding-y: 30
@@ -603,6 +628,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: W11hawJn
                   values:
                     type: video
                     video: 'https://youtu.be/4gPWQpuieE4'
@@ -775,6 +801,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: HS2PdHOB
                   values:
                     type: blog_entries
                     entries:
@@ -794,7 +821,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1666885309
+updated_at: 1670860322
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret!'
 meta_description: 'Was ist Ghostwriting? Akademische Ghostwriter schreiben & Sie erhalten alle Nutzungsrechte ✔️ professionelle Hilfe ✔️ 18.000 zufriedene Kunden seit 2012!'
 use_meta_keywords: false
@@ -808,6 +835,5 @@ og_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret'
 og_description: 'Was ist Ghostwriting? Akademische Ghostwriter schreiben & Sie erhalten alle Nutzungsrechte ✔️ professionelle Hilfe ✔️ 18.000 zufriedene Kunden seit 2012!'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---

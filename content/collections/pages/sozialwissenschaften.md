@@ -37,40 +37,48 @@ teaser:
   -
     type: set
     attrs:
+      id: iZATZGZ8
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: dL2dmsUB
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: 889lYZ0E
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: 5lqAYyWt
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: ZZESzyww
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: iNu00zGw
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: WS9CC7vx
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: 6UoiM5I6
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -80,6 +88,7 @@ teaser:
   -
     type: set
     attrs:
+      id: mgjbYDeS
       values:
         type: spacer
         padding-y: 20
@@ -125,7 +134,7 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665656212
+updated_at: 1670862048
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -134,10 +143,13 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
   -
+    id: THv8PCPd
     columns_replicator:
       -
+        id: BZZyYFXU
         grid:
           -
+            id: kJG7KRRa
             bard:
               -
                 type: paragraph
@@ -187,6 +199,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: T7nJ8Ww9
                   values:
                     type: show_sidebar_mobile
                     custom_sidebar_placement: 'on'
@@ -212,6 +225,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: fHNvtEHL
                   values:
                     type: video
                     video: 'https://youtu.be/MViH0GPsTP0'
@@ -355,9 +369,11 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: U88W3Nt9
         columns_per_row: 3
         grid:
           -
+            id: gMImPVrH
             bard:
               -
                 type: paragraph
@@ -429,6 +445,7 @@ replicator:
                     text: Übersetzung
             show_as_card: false
           -
+            id: gQMGEfSt
             bard:
               -
                 type: paragraph
@@ -498,6 +515,7 @@ replicator:
                     text: Plagiatsprüfung
             show_as_card: false
           -
+            id: VnvRHKYF
             bard:
               -
                 type: paragraph
@@ -547,9 +565,11 @@ replicator:
         single_col: true
         responsive_columns: 0
       -
+        id: zk8iwdIo
         single_col: true
         grid:
           -
+            id: NRUcvMvf
             bard:
               -
                 type: heading
@@ -576,11 +596,14 @@ replicator:
     remove_spacing: false
     border: false
   -
+    id: wn3G4KO2
     columns_replicator:
       -
+        id: 3i4VX4ZI
         single_col: true
         grid:
           -
+            id: VxdfVkrY
             bard:
               -
                 type: heading
@@ -599,6 +622,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: zbix6wf1
                   values:
                     type: example_work
                     ex_img_right: false
@@ -625,10 +649,13 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: FTKFsrtQ
     columns_replicator:
       -
+        id: 3PBuGjMg
         grid:
           -
+            id: 02xhd7pW
             bard:
               -
                 type: heading
@@ -641,10 +668,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: NRG9UCeT
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: Or1QnVQS
                         text: Arbeiten
                         eintraege:
                           - 68b88fd1-ec03-4ea8-9292-431555e47744
@@ -1014,6 +1043,5 @@ og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Sozialwissenschaften Ghostwriter'
 fachrichtungsgruppe: g_sozialwissenschaften
-published: true
 breadcrumbs_active: true
 ---

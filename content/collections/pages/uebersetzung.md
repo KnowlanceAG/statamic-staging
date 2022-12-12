@@ -37,40 +37,48 @@ teaser:
   -
     type: set
     attrs:
+      id: VMzv7F2L
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: qHjx0ebp
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: zvfzF9cG
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz & 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR & garantieren Ihre Anonymität zu 100%.'
           -
+            id: pWlpBRmt
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen & kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: H4Vnnibn
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle & pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
           -
+            id: SOpkBEwM
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: Kn2J2Y12
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: mE1pHadP
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -80,6 +88,7 @@ teaser:
   -
     type: set
     attrs:
+      id: qA6BtD01
       values:
         type: spacer
         padding-y: 20
@@ -123,6 +132,7 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
+    id: jFdDYF8s
     columns-replicator:
       -
         columns_per_row: 1
@@ -977,7 +987,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665567247
+updated_at: 1670860268
 meta_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
 meta_description: 'Akademische Übersetzer, Autoren, Lektoren, Korrektoren, Coaches finden & Informationen zum Thema Übersetzung: Leistungen, Ablauf, Kosten & Preise.'
 use_meta_keywords: false
@@ -991,6 +1001,5 @@ og_title: 'Übersetzung für Ihre akademische Arbeit von GWriters'
 og_description: 'Akademische Übersetzer, Autoren, Lektoren, Korrektoren, Coaches finden & Informationen zum Thema Übersetzung: Leistungen, Ablauf, Kosten & Preise.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---

@@ -39,40 +39,48 @@ teaser:
   -
     type: set
     attrs:
+      id: 5zZ1WZ3h
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: 1lrLWYei
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: E3CwJlCJ
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: EYboGV31
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: bD8deZJs
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: goYQAuVS
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: 8vyBbJ5m
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: DEvrh0dV
       values:
         type: button
         button_link: /anfrage
@@ -82,6 +90,7 @@ teaser:
   -
     type: set
     attrs:
+      id: VLYYpclT
       values:
         type: spacer
         padding-y: 20
@@ -125,11 +134,14 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
+    id: Mk2CSuR9
     columns_replicator:
       -
+        id: 8posA5B7
         single_col: true
         grid:
           -
+            id: ytiVUcaP
             bard:
               -
                 type: paragraph
@@ -159,6 +171,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: PyHGNhCF
                   values:
                     type: show_sidebar_mobile
                     custom_sidebar_placement: 'on'
@@ -223,10 +236,12 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: VaouliJq
         columns_per_row: 3
         single_col: true
         grid:
           -
+            id: Ly3mqaKi
             bard:
               -
                 type: paragraph
@@ -285,6 +300,7 @@ replicator:
                     text: 'MAXQDA Auswertung'
             show_as_card: false
           -
+            id: QQN1we1o
             bard:
               -
                 type: paragraph
@@ -351,6 +367,7 @@ replicator:
                     text: Promotionsberatung
             show_as_card: false
           -
+            id: lHRYnJfp
             bard:
               -
                 type: paragraph
@@ -401,9 +418,11 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
+        id: U4b3et35
         single_col: true
         grid:
           -
+            id: vCCwQ6OK
             bard:
               -
                 type: heading
@@ -416,10 +435,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: AcU0uhO6
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: y03VVjMg
                         text: Fachrichtungen
                         eintraege:
                           - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
@@ -458,6 +479,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: a232GuHx
                   values:
                     type: spacer
                     padding-y: 30
@@ -466,6 +488,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: tkQJ9XXE
                   values:
                     type: button
                     button_link: /anfrage
@@ -478,6 +501,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: FIL3L10F
                   values:
                     type: spacer
                     padding-y: 30
@@ -936,6 +960,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: j28HbtKd
                   values:
                     type: blog_entries
                     entries:
@@ -1013,7 +1038,7 @@ replicator:
     remove_spacing: false
     border: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665584034
+updated_at: 1670861075
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -1029,6 +1054,5 @@ og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Diplomarbeit schreiben lassen'
 arbeitsgruppe: a_abschlussarbeiten
-published: true
 breadcrumbs_active: true
 ---

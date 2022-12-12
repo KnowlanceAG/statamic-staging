@@ -39,40 +39,48 @@ teaser:
   -
     type: set
     attrs:
+      id: 3iNa4SpX
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: THPPNnQC
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: vW1FZa4H
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: D9lfY6A8
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: eeII1jN5
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: hPLitZby
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: Cdc6TxPj
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: sGmYpzgZ
       values:
         type: button
         button_link: /anfrage
@@ -82,6 +90,7 @@ teaser:
   -
     type: set
     attrs:
+      id: WdFNYj8C
       values:
         type: spacer
         padding-y: 20
@@ -125,11 +134,14 @@ teaser:
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
+    id: 6JvtxZjR
     columns_replicator:
       -
+        id: VD0lVbwj
         single_col: true
         grid:
           -
+            id: a8wYPU3O
             bard:
               -
                 type: paragraph
@@ -180,6 +192,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: G7dVdhJm
                   values:
                     type: show_sidebar_mobile
                     custom_sidebar_placement: 'on'
@@ -253,6 +266,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 99QyhFHP
                   values:
                     type: spacer
                     padding-y: 30
@@ -261,6 +275,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: G5dFbEze
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -273,6 +288,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: pTsjnQ0u
                   values:
                     type: spacer
                     padding-y: 30
@@ -290,10 +306,12 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: rRqSvbtD
         columns_per_row: 3
         single_col: true
         grid:
           -
+            id: anREDY8e
             bard:
               -
                 type: paragraph
@@ -352,6 +370,7 @@ replicator:
                     text: 'MAXQDA Auswertung'
             show_as_card: false
           -
+            id: KvK5sDEu
             bard:
               -
                 type: paragraph
@@ -418,6 +437,7 @@ replicator:
                     text: Promotionsberatung
             show_as_card: false
           -
+            id: opxAxwIW
             bard:
               -
                 type: paragraph
@@ -468,9 +488,11 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
+        id: CGrVHkuw
         single_col: true
         grid:
           -
+            id: 003VBKpF
             bard:
               -
                 type: heading
@@ -483,10 +505,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: x2bSI0ST
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: iuk6FeKc
                         text: Fachrichtungen
                         eintraege:
                           - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
@@ -541,6 +565,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: v4NOdW3C
                   values:
                     type: blog_entries
                     entries:
@@ -578,7 +603,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665655333
+updated_at: 1670861131
 template: default
 meta_title: 'Lernskript schreiben lassen • GWriters'
 meta_description: 'Lernskript schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
@@ -594,6 +619,5 @@ og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Lernskript schreiben lassen'
 arbeitsgruppe: a_sonstige_arbeiten
-published: true
 breadcrumbs_active: true
 ---

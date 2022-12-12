@@ -44,40 +44,48 @@ teaser:
   -
     type: set
     attrs:
+      id: FHBp91k2
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: HECfnMpf
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: 7t9Pn3xz
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: 2oW7jZBg
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: qsKJue26
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: LF9hfd4n
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: QpxVp040
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: LIP9B926
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -87,6 +95,7 @@ teaser:
   -
     type: set
     attrs:
+      id: Ryz1R5l1
       values:
         type: spacer
         padding-y: 20
@@ -132,7 +141,7 @@ page_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665656363
+updated_at: 1670861906
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -141,15 +150,19 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
   -
+    id: VDbDrQjH
     columns_replicator:
       -
+        id: X7xwncFY
         single_col: true
         grid:
           -
+            id: G3IpZQID
             bard:
               -
                 type: set
                 attrs:
+                  id: uoivkKkL
                   values:
                     type: insert_html
                     html: |-
@@ -167,11 +180,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: b1LrhsgP
     columns_replicator:
       -
+        id: PNh0uwHV
         single_col: true
         grid:
           -
+            id: d92ZVWKT
             bard:
               -
                 type: heading
@@ -194,10 +210,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: FqnUsDDF
                   values:
                     type: leistungen_uebersicht_4_spaltig
                     grid:
                       -
+                        id: UPCEBymz
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
@@ -205,6 +223,7 @@ replicator:
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
+                        id: SwRPlYb1
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
@@ -212,6 +231,7 @@ replicator:
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
+                        id: zXVDf3e0
                         image:
                           - logo-startseite/icon-plagiat.svg
                         headline: PLAGIATSPRÜFUNG
@@ -219,6 +239,7 @@ replicator:
                         link:
                           - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
                       -
+                        id: aVIdCunZ
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
@@ -228,6 +249,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: MrUkjvO9
                   values:
                     type: button
                     button_text: 'ALLE LEISTUNGEN IM FACHBEREICH BWL'
@@ -248,11 +270,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: D1TngjnM
     columns_replicator:
       -
+        id: VsxtGmqE
         single_col: true
         grid:
           -
+            id: 4xB19Sof
             bard:
               -
                 type: paragraph
@@ -319,11 +344,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: KNJ712CJ
     columns_replicator:
       -
+        id: nyqPHpSV
         single_col: true
         grid:
           -
+            id: kMbKV71o
             bard:
               -
                 type: paragraph
@@ -415,11 +443,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: KU6desbi
     columns_replicator:
       -
+        id: pJMc0wMl
         single_col: true
         grid:
           -
+            id: RY4Hwivx
             bard:
               -
                 type: heading
@@ -482,17 +513,21 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: VU31hpFG
         single_col: false
         grid:
           -
+            id: 0FV3fgeV
             bard:
               -
                 type: set
                 attrs:
+                  id: tydJZ4iJ
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: Wbn8KUkt
                         text: Arbeiten
                         eintraege:
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
@@ -510,6 +545,7 @@ replicator:
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
                       -
+                        id: IcyEd5cw
                         text: Fachrichtungen
                         eintraege:
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
@@ -555,12 +591,15 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: Vzf3o85f
     columns_replicator:
       -
+        id: UznK4RLR
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: x9hjjSI5
             bard:
               -
                 type: heading
@@ -593,10 +632,12 @@ replicator:
                     text: ' etc.) Musterarbeiten. Außerdem kennen akademische Ghostwriter den aktuellen Forschungsstand zu vielen BWL-Themenstellungen und haben auf relevanten Datenbanken Zugriff, wie Fachzeitschriften, Fachartikel etc.'
             show_as_card: false
           -
+            id: KifGK2jM
             bard:
               -
                 type: set
                 attrs:
+                  id: 43Q9cxMl
                   values:
                     type: video
                     video: 'https://youtu.be/PmgIh10dij0'
@@ -605,13 +646,16 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
+        id: AoASYIXl
         single_col: false
         grid:
           -
+            id: 6IOfLEnE
             bard:
               -
                 type: set
                 attrs:
+                  id: EAxkykP9
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -632,11 +676,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: n6OX6wep
     columns_replicator:
       -
+        id: eCNH0OBe
         single_col: true
         grid:
           -
+            id: 4Y6hlzis
             bard:
               -
                 type: heading
@@ -719,6 +766,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: nO2F1RVY
                   values:
                     type: example_work
                     ex_img_right: false
@@ -790,12 +838,15 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: YWzQxnl2
     columns_replicator:
       -
+        id: SjHtvzSx
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: StE9S7ZP
             bard:
               -
                 type: heading
@@ -902,10 +953,12 @@ replicator:
                     text: ' durch das Erstellen einer Mustervorlage, die als Orientierungshilfe genutzt wird.'
             show_as_card: false
           -
+            id: DZ7MWmhN
             bard:
               -
                 type: set
                 attrs:
+                  id: CI1UmfoE
                   values:
                     type: bilder
                     assets:
@@ -923,11 +976,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: I3bes69O
     columns_replicator:
       -
+        id: cF8chN8j
         single_col: true
         grid:
           -
+            id: OSzmY8He
             bard:
               -
                 type: heading
@@ -1029,6 +1085,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 8hIYvANs
                   values:
                     type: bilder
                     assets:
@@ -1073,11 +1130,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: Vb7y9im2
     columns_replicator:
       -
+        id: f3B843KT
         single_col: true
         grid:
           -
+            id: xO1NZvyb
             bard:
               -
                 type: heading
@@ -1129,6 +1189,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: YNZydW4Q
                   values:
                     type: blog_entries
                     entries:
@@ -1285,6 +1346,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'BWL Ghostwriter'
-published: true
 breadcrumbs_active: true
 ---

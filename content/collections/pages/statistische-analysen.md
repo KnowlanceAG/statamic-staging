@@ -39,40 +39,48 @@ teaser:
   -
     type: set
     attrs:
+      id: V86W38fE
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: f6x4UQk1
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: 7ADBEiVD
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: s5PbOjLj
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: mObKndWB
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: xF1ew42C
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: qTsPD1q5
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: EEZeAJuV
       values:
         type: button
         button_link: /anfrage
@@ -82,6 +90,7 @@ teaser:
   -
     type: set
     attrs:
+      id: NDWioOLF
       values:
         type: spacer
         padding-y: 20
@@ -125,11 +134,14 @@ teaser:
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
+    id: PLpNKXQ5
     columns_replicator:
       -
+        id: zemRZTLx
         single_col: true
         grid:
           -
+            id: 7NpijvPS
             bard:
               -
                 type: paragraph
@@ -180,6 +192,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Or97MerJ
                   values:
                     type: show_sidebar_mobile
                     custom_sidebar_placement: 'on'
@@ -264,10 +277,12 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: xWaYsKwX
         columns_per_row: 3
         single_col: true
         grid:
           -
+            id: 0tqpUWTu
             bard:
               -
                 type: paragraph
@@ -326,6 +341,7 @@ replicator:
                     text: 'MAXQDA Auswertung'
             show_as_card: false
           -
+            id: cFpkE05a
             bard:
               -
                 type: paragraph
@@ -392,6 +408,7 @@ replicator:
                     text: Promotionsberatung
             show_as_card: false
           -
+            id: QD98kNvL
             bard:
               -
                 type: paragraph
@@ -442,9 +459,11 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
+        id: H7LEhwDY
         single_col: true
         grid:
           -
+            id: uukGIgFe
             bard:
               -
                 type: heading
@@ -457,10 +476,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: YZdwEAnQ
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: Libczu0Q
                         text: Fachrichtungen
                         eintraege:
                           - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
@@ -499,6 +520,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: sAIlKe6S
                   values:
                     type: spacer
                     padding-y: 30
@@ -507,6 +529,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Pvx9ppAr
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -519,6 +542,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: C25I1gAA
                   values:
                     type: spacer
                     padding-y: 30
@@ -533,6 +557,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Db0u6ESp
                   values:
                     type: blog_entries
                     entries:
@@ -570,7 +595,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665584230
+updated_at: 1670861172
 template: default
 meta_title: 'GWriters • Statistische Analyse durchführen lassen'
 meta_description: 'Statistische Analysen durchführen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität.'
@@ -586,6 +611,5 @@ og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Statistische Analyse durchführen lassen'
 arbeitsgruppe: a_sonstige_arbeiten
-published: true
 breadcrumbs_active: true
 ---

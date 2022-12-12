@@ -37,40 +37,48 @@ teaser:
   -
     type: set
     attrs:
+      id: YCgOhoJz
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: gdupMrlA
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: TS3u8rBE
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz & 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR & garantieren Ihre Anonymität zu 100%.'
           -
+            id: flspIxwE
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen & kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: aqJcfQRi
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle & pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
           -
+            id: xClZVsNN
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: dOxFW55A
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: C7hihBpH
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -80,6 +88,7 @@ teaser:
   -
     type: set
     attrs:
+      id: JxocmHwJ
       values:
         type: spacer
         padding-y: 20
@@ -123,11 +132,14 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
+    id: 928nqwdQ
     columns_replicator:
       -
+        id: VeGUYwOo
         single_col: false
         grid:
           -
+            id: RVekCq7D
             bard:
               -
                 type: paragraph
@@ -204,10 +216,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: VWJQi6CG
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: E1qJDets
                         text: Fachrichtungen
                         eintraege:
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
@@ -254,7 +268,7 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665567580
+updated_at: 1670860191
 template: with-side-bar
 meta_title: 'Plagiatsprüfung - Mehr Sicherheit für Ihre Abschlussarbeit'
 meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Plagiatsprüfung: Leistungen, Ablauf, Kosten & Preise.'
@@ -269,6 +283,5 @@ og_title: 'Plagiatsprüfung - Mehr Sicherheit für Ihre Abschlussarbeit'
 og_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Plagiatsprüfung: Leistungen, Ablauf, Kosten & Preise.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---

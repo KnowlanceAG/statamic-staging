@@ -75,40 +75,48 @@ teaser:
   -
     type: set
     attrs:
+      id: iphBxmHH
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: 3OaAETHi
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: pYmfqTic
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: qtYANEX6
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: VyIBFM2W
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: deGXvrPx
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: 388W64ta
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: p3mjEvgb
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -118,6 +126,7 @@ teaser:
   -
     type: set
     attrs:
+      id: 09H7yoXB
       values:
         type: spacer
         padding-y: 20
@@ -160,11 +169,14 @@ teaser:
         text: '##phone##'
 replicator:
   -
+    id: clpwy3n0
     columns_replicator:
       -
+        id: QMIQDp8w
         single_col: false
         grid:
           -
+            id: psAPxYmR
             bard:
               -
                 type: heading
@@ -273,6 +285,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: peiIohYr
                   values:
                     type: video
                     video: 'https://www.youtube.com/embed/49tTCv9lADg'
@@ -615,7 +628,7 @@ page_title: 'Promotionsberatung zum berufsbegleitenden DBA • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665578724
+updated_at: 1670860614
 meta_title: 'Promotionsberatung zum berufsbegleitenden DBA • GWriters'
 meta_description: 'Bei GWriters.de erhalten Sie eine seriöse Promotionsberatung für Ihren berufsbegleitenden DBA - Profitieren Sie jetzt von unserem Expertenwissen!'
 use_meta_keywords: false
@@ -628,6 +641,5 @@ og_title: 'Promotionsberatung zum berufsbegleitenden DBA • GWriters'
 og_description: 'Bei GWriters.de erhalten Sie eine seriöse Promotionsberatung für Ihren berufsbegleitenden DBA - Profitieren Sie jetzt von unserem Expertenwissen!'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---

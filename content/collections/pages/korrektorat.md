@@ -39,40 +39,48 @@ teaser:
   -
     type: set
     attrs:
+      id: j6WeC2VH
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: BEVJyRnZ
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: GF6MwWE4
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: tGkC2hDn
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: elGfFxDR
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: 2875F7Mn
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: nLZsOHxn
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: XDVI25LE
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -82,6 +90,7 @@ teaser:
   -
     type: set
     attrs:
+      id: 3tbYNa9f
       values:
         type: spacer
         padding-y: 20
@@ -125,11 +134,14 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
+    id: y9mEUol1
     columns_replicator:
       -
+        id: 6B2y3DGg
         single_col: false
         grid:
           -
+            id: 23fGxBVv
             bard:
               -
                 type: paragraph
@@ -209,10 +221,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: eKdASVSG
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: o4nFAJmS
                         text: Fachrichtungen
                         eintraege:
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
@@ -249,6 +263,7 @@ replicator:
                           - f6b25bd5-5d78-4383-94fb-61ced5ca56ed
                           - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
                       -
+                        id: jqmHfucO
                         text: Arbeiten
                         eintraege:
                           - 68b88fd1-ec03-4ea8-9292-431555e47744
@@ -504,6 +519,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: gveku5kR
                   values:
                     type: blog_entries
                     entries:
@@ -522,7 +538,7 @@ replicator:
     border: false
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665583045
+updated_at: 1670860389
 template: with-side-bar
 meta_title: 'Korrektorat von GWriters - Professionell, diskret und akademisch'
 meta_description: 'Akademische Korrektoren, Lektoren, Ghostwriter, Übersetzer, Coaches finden & Informationen zum Thema Korrektorat: Leistungen, Ablauf, Kosten & Preise.'
@@ -570,6 +586,5 @@ schema_objects: |-
     }]
   }
   </script>
-published: true
 breadcrumbs_active: true
 ---

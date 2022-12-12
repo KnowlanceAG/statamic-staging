@@ -39,40 +39,48 @@ teaser:
   -
     type: set
     attrs:
+      id: Pw3XPtdm
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: DGuRRN2w
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: he4AJeKq
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: BPj67XCS
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: Y73xKt8j
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: Q6rNtqKe
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: lpfo7mbp
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: QGIMdJMB
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -82,6 +90,7 @@ teaser:
   -
     type: set
     attrs:
+      id: UxafxlUx
       values:
         type: spacer
         padding-y: 20
@@ -125,6 +134,7 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
+    id: 2Nh0cAhj
     bard:
       -
         type: paragraph
@@ -314,6 +324,7 @@ replicator:
       -
         type: set
         attrs:
+          id: TE2tQfK2
           values:
             type: blog_entries
             entries:
@@ -340,7 +351,7 @@ replicator:
     enabled: true
 parent: 659e7e81-6d07-4eea-9ef2-325e72618036
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665582569
+updated_at: 1670860532
 page_title: 'Lektor gesucht? Wir haben den passenden Lektor für Ihre Abschlussarbeit'
 template: with-side-bar
 meta_title: 'Lektor gesucht? Wir haben den passenden Lektor für Sie!'
@@ -355,6 +366,5 @@ og_title: 'Lektor gesucht? Wir haben den passenden Lektor für Sie!'
 og_description: 'Bachelorarbeit, Masterarbeit oder Doktorarbeit Korrektur lesen lassen? Kein Problem mit der Ghostwriter Agentur GWriters.de. Mehr dazu hier.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---

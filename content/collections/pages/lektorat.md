@@ -39,40 +39,48 @@ teaser:
   -
     type: set
     attrs:
+      id: F126kNil
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: ss2cgTIr
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: Xzk4YTQB
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: YKEsVrpq
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: tWjo9sN4
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: gLfJ6JeD
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: TG2MQP1W
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: 7da7n50F
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -82,6 +90,7 @@ teaser:
   -
     type: set
     attrs:
+      id: oXLMPA7t
       values:
         type: spacer
         padding-y: 20
@@ -125,11 +134,14 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
+    id: tKsKJssn
     columns_replicator:
       -
+        id: 8ZXtf5R8
         single_col: false
         grid:
           -
+            id: gikJL6ad
             bard:
               -
                 type: paragraph
@@ -509,10 +521,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: oQatgEte
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: tSQF6lXX
                         text: Fachrichtungen
                         eintraege:
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
@@ -626,6 +640,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 8sNQh29Q
                   values:
                     type: blog_entries
                     entries:
@@ -645,7 +660,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665582460
+updated_at: 1670860489
 meta_title: 'Lektorat von GWriters - Professionell, diskret und akademisch'
 meta_description: 'Akademische Lektoren, Korrektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Lektorat: Leistungen, Ablauf, Kosten & Preise.'
 use_meta_keywords: false
@@ -659,6 +674,5 @@ og_title: 'Lektorat von GWriters - Professionell, diskret und akademisch'
 og_description: 'Akademische Lektoren, Korrektoren, Ghostwriter, Übersetzer, Coaches finden - Informationen zum Thema Lektorat: Leistungen, Ablauf, Kosten & Preise.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---

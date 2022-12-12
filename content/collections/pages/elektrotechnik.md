@@ -44,40 +44,48 @@ teaser:
   -
     type: set
     attrs:
+      id: ZPN2Avhu
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: PlPJzP47
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: 6z5KjFYH
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: C4m4aMXy
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: ImeCU1Pp
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: 5DyQplut
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: mGO6iCZd
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: R54uQA7W
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -87,6 +95,7 @@ teaser:
   -
     type: set
     attrs:
+      id: QiROegI8
       values:
         type: spacer
         padding-y: 20
@@ -132,7 +141,7 @@ page_title: 'Elektrotechnik Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665570159
+updated_at: 1670861920
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -141,10 +150,13 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
   -
+    id: wjUiL0sz
     columns_replicator:
       -
+        id: GNxfGUX6
         grid:
           -
+            id: NUcfu1HX
             bard:
               -
                 type: paragraph
@@ -246,6 +258,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: EvcSZ180
                   values:
                     type: show_sidebar_mobile
                     custom_sidebar_placement: 'on'
@@ -347,9 +360,11 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: uAKZch1z
         columns_per_row: 3
         grid:
           -
+            id: 42hWuVXs
             bard:
               -
                 type: paragraph
@@ -421,6 +436,7 @@ replicator:
                     text: Übersetzung
             show_as_card: false
           -
+            id: tauFU236
             bard:
               -
                 type: paragraph
@@ -490,6 +506,7 @@ replicator:
                     text: Plagiatsprüfung
             show_as_card: false
           -
+            id: 7joX721s
             bard:
               -
                 type: paragraph
@@ -539,9 +556,11 @@ replicator:
         single_col: true
         responsive_columns: 0
       -
+        id: Cpmeci6y
         single_col: true
         grid:
           -
+            id: rxiYrCqT
             bard:
               -
                 type: heading
@@ -554,10 +573,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 42bOdLVO
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: gW2F2Vg3
                         text: Arbeiten
                         eintraege:
                           - 68b88fd1-ec03-4ea8-9292-431555e47744
@@ -595,6 +616,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Fkcr4TUW
                   values:
                     type: bild_und_text
                     bild:
@@ -606,6 +628,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: YzMrvabf
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -743,6 +766,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_technische_fachrichtungen
 sitemap_active: true
 alternative_page_title: 'Elektrotechnik Ghostwriter'
-published: true
 breadcrumbs_active: true
 ---

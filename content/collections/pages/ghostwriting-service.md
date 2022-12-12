@@ -39,40 +39,48 @@ teaser:
   -
     type: set
     attrs:
+      id: NoI6QKpD
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: NDT7S03J
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: Vb1K4rOE
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: W3Obu20t
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: S5wejcK2
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: Cujo8McC
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: qpSuqSI4
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: 6vbomrcP
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -82,6 +90,7 @@ teaser:
   -
     type: set
     attrs:
+      id: j41gTuNX
       values:
         type: spacer
         padding-y: 20
@@ -124,6 +133,7 @@ teaser:
         text: '##phone##'
 replicator:
   -
+    id: iY0QCToA
     bard:
       -
         type: paragraph
@@ -352,6 +362,7 @@ replicator:
       -
         type: set
         attrs:
+          id: Ajkyugrr
           values:
             type: button
             button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -412,6 +423,7 @@ replicator:
       -
         type: set
         attrs:
+          id: zkkzrerX
           values:
             type: blog_entries
             entries:
@@ -438,7 +450,7 @@ replicator:
     enabled: true
 parent: 0328a685-5f37-4f91-bd4b-79c53adaea8d
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665579132
+updated_at: 1670860337
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -453,7 +465,6 @@ og_title: 'Seriöser und diskreter Ghostwriting Service • GWriters'
 og_description: 'Ghostwriting Service & Ghostwriter Service als Dienstleistung von seriöser und diskreter Ghostwriting Agentur mit über 3.000 Autoren 📃✍🏼🎓'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 page_title: 'Ghostwriting Service'
 breadcrumbs_active: true
 ---

@@ -37,40 +37,48 @@ teaser:
   -
     type: set
     attrs:
+      id: vV3jfZlR
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: Be5J2afO
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: w2rL1qR5
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz & 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR & garantieren Ihre Anonymität zu 100%.'
           -
+            id: 6eJzPBPo
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen & kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: KE604MIP
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle & pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
           -
+            id: aox91dSF
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: sLJTUSZr
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: Uyu1ohGZ
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -80,6 +88,7 @@ teaser:
   -
     type: set
     attrs:
+      id: 6Wbr53Q5
       values:
         type: spacer
         padding-y: 20
@@ -123,11 +132,14 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
+    id: kzKeSAgH
     columns_replicator:
       -
+        id: 2otZwiOh
         single_col: false
         grid:
           -
+            id: 8dmmcJNC
             bard:
               -
                 type: paragraph
@@ -388,10 +400,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: SoXBndbi
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: iWAxBhSS
                         text: Fachrichtungen
                         eintraege:
                           - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
@@ -430,6 +444,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: rPWHB0lh
                   values:
                     type: spacer
                     padding-y: 20
@@ -439,9 +454,11 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: bQciISOw
         single_col: false
         grid:
           -
+            id: JQJMybHB
             bard:
               -
                 type: heading
@@ -460,6 +477,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: T216Zjmc
                   values:
                     type: video
                     video: 'https://www.youtube.com/watch?v=5znG_lDSWRE'
@@ -618,7 +636,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1666879554
+updated_at: 1670860179
 meta_title: 'GWriters • Die Anleitung zur richtigen Formatierung Ihrer Hausarbeit'
 meta_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Formatierung: Leistungen, Kosten, Preise & Ablauf.'
 use_meta_keywords: false
@@ -632,6 +650,5 @@ og_title: 'GWriters • Die Anleitung zur richtigen Formatierung Ihrer Hausarbei
 og_description: 'Akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer, Coaches finden & alles zum Thema Formatierung: Leistungen, Kosten, Preise & Ablauf.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---

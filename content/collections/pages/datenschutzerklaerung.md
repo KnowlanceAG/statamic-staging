@@ -3,7 +3,7 @@ id: 8e94ca0e-e5de-46b9-908e-d086cd76f0c8
 blueprint: pages
 title: Datenschutzerklärung
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1667220526
+updated_at: 1670856498
 page_title: 'GWriters • Datenschutzerklärung'
 meta_title: 'GWriters • Datenschutzerklärung'
 meta_description: 'Unsere Datenschutzerklärung. GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
@@ -15,6 +15,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
   -
+    id: 1bFKlxus
     bard:
       -
         type: heading
@@ -3431,17 +3432,17 @@ replicator:
         content:
           -
             type: text
-            text: 'Die Google Ads Datenverarbeitungsbedingungen (Google Ads Data Processing Terms),welche af die Standardvertragsklauseln verweisen, finden Sie unter '
+            text: 'Die Google Ads Datenverarbeitungsbedingungen (Google Ads Data Processing Terms),welche af die Standardvertragsklauseln verweisen, finden Sie '
           -
             type: text
             marks:
               -
                 type: link
                 attrs:
-                  href: 'https://business.safety.google/intI/de/adsprocessorterms/'
+                  href: 'https://www.google.com/analytics/terms/dpa/dataprocessingamendment_20200816.html'
                   target: _blank
                   rel: 'noopener noreferrer'
-            text: 'https://business.safety.google/intI/de/adsprocessorterms/'
+            text: hier
           -
             type: text
             text: '. Mehr über die Daten, die durch die Verwendung von Google Optimize verarbeitet werden, erfahren Sie in dr Privacy Policy auf '
@@ -5345,6 +5346,5 @@ og_title: 'GWriters • Datenschutzerklärung'
 og_description: 'Unsere Datenschutzerklärung. GWriters ist ein führender internationaler Anbieter für Ghostwriting, Lektorate & Übersetzungen - Telefon: +49 30 809332339 - E-Mail: info@gwriters.de'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---

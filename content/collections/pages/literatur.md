@@ -44,40 +44,48 @@ teaser:
   -
     type: set
     attrs:
+      id: IL7HzcWh
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: OwQISpjr
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: HPnUStfm
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: 5LvBiScz
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: idHPtUZ5
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: QghmKy2R
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: 7wMxu1AM
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: 2G2RDKVp
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -87,6 +95,7 @@ teaser:
   -
     type: set
     attrs:
+      id: ZuWTboS2
       values:
         type: spacer
         padding-y: 20
@@ -132,7 +141,7 @@ page_title: 'Literatur Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665655512
+updated_at: 1670861985
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -141,10 +150,13 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
   -
+    id: WpuCGnSR
     columns_replicator:
       -
+        id: 0zAlZqZG
         grid:
           -
+            id: VrRV1UkI
             bard:
               -
                 type: paragraph
@@ -197,6 +209,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: drG7iEBf
                   values:
                     type: show_sidebar_mobile
                     custom_sidebar_placement: 'on'
@@ -264,9 +277,11 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: Rg8VqllG
         columns_per_row: 3
         grid:
           -
+            id: 8efAL66V
             bard:
               -
                 type: paragraph
@@ -352,6 +367,7 @@ replicator:
                     type: hard_break
             show_as_card: false
           -
+            id: hzNkkIx8
             bard:
               -
                 type: paragraph
@@ -420,6 +436,7 @@ replicator:
                 type: paragraph
             show_as_card: false
           -
+            id: NoDUKw3P
             bard:
               -
                 type: paragraph
@@ -469,9 +486,11 @@ replicator:
         single_col: true
         responsive_columns: 0
       -
+        id: wbEzUZS8
         single_col: true
         grid:
           -
+            id: OXBo76mg
             bard:
               -
                 type: heading
@@ -484,10 +503,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: ukHOZarZ
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: d4ATO9Pv
                         text: Arbeiten
                         eintraege:
                           - 68b88fd1-ec03-4ea8-9292-431555e47744
@@ -682,6 +703,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Ff13N6Ow
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -745,6 +767,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: tChGMOyF
                   values:
                     type: floating_img
                     dateien:
@@ -965,6 +988,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_geisteswissenschaften
 sitemap_active: true
 alternative_page_title: 'Literatur Ghostwriter'
-published: true
 breadcrumbs_active: true
 ---
