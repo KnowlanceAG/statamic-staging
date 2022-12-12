@@ -141,7 +141,7 @@ page_title: 'Germanistik Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670861948
+updated_at: 1670878126
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -314,12 +314,6 @@ replicator:
                         attrs:
                           color: 'rgb(255, 102, 2)'
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/geschichte-studiengang
-                          target: null
-                          rel: null
                     text: 'deutsche Historie'
                   -
                     type: text
@@ -1042,12 +1036,6 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/gwriters-coaching
-                          target: null
-                          rel: null
                     text: "\_begleiten"
                   -
                     type: text
@@ -1104,20 +1092,7 @@ replicator:
                     text: „Linguistik“
                   -
                     type: text
-                    text: "\_wird auch die\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/sprachwissenschaften
-                          target: null
-                          rel: null
-                    text: Sprachwissenschaften
-                  -
-                    type: text
-                    text: "\_verstanden. Hier werden Sie verschiedene Herangehensweisen der menschlichen Sprache bzw. ihre Geschichte, Bedeutung und Struktur untersuchen. In der\_"
+                    text: "\_wird auch die\_Sprachwissenschaften\_verstanden. Hier werden Sie verschiedene Herangehensweisen der menschlichen Sprache bzw. ihre Geschichte, Bedeutung und Struktur untersuchen. In der\_"
                   -
                     type: text
                     marks:
@@ -2007,12 +1982,6 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/geschichte
-                          target: null
-                          rel: null
                     text: Geschichte
                   -
                     type: text
