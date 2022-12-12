@@ -75,40 +75,48 @@ teaser:
   -
     type: set
     attrs:
+      id: pLAUcSMy
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: 1GTxhTxo
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: brySwiiH
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: 6VAR6GWE
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: uUCNJs4P
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: NcPrNucJ
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: e8Mj0hsd
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: zpXnO3Rc
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -118,6 +126,7 @@ teaser:
   -
     type: set
     attrs:
+      id: cOE7GgXI
       values:
         type: spacer
         padding-y: 20
@@ -160,11 +169,14 @@ teaser:
         text: '##phone##'
 replicator:
   -
+    id: rE0L4TYV
     columns_replicator:
       -
+        id: 4I1aZhk2
         single_col: false
         grid:
           -
+            id: bRU1gCXW
             bard:
               -
                 type: heading
@@ -306,6 +318,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: GsEEBSFV
                   values:
                     type: video
                     video: 'https://www.youtube.com/embed/YPxG84otgDw'
@@ -1688,7 +1701,7 @@ page_title: 'Standardisierte Promotionsprogramme neben dem Beruf • GWriters'
 parent: 6dd15231-c8e7-43fe-949e-af68de19ab1b
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665578260
+updated_at: 1670860600
 meta_title: 'Standardisierte Promotionsprogramme neben dem Beruf • GWriters'
 meta_description: 'Finden Sie jetzt das passende standardisierte Promotionsprogramm für Ihre nebenberufliche Promotion und profitieren Sie von unserer Promotionsberatung!'
 use_meta_keywords: false
@@ -1701,6 +1714,5 @@ og_title: 'Standardisierte Promotionsprogramme neben dem Beruf • GWriters'
 og_description: 'Finden Sie jetzt das passende standardisierte Promotionsprogramm für Ihre nebenberufliche Promotion und profitieren Sie von unserer Promotionsberatung!'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---
