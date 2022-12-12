@@ -5,7 +5,7 @@ title: 'Unsere Experten'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665568766
+updated_at: 1670860159
 teaser:
   -
     type: heading
@@ -41,34 +41,41 @@ teaser:
   -
     type: set
     attrs:
+      id: zwDBfXad
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: Y28zv7gx
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: IeCvU0mx
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: BN63xwAU
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: ifRzFlVm
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: i8aLDXjV
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: EBgOeWpe
       values:
         type: spacer
         padding-y: 15
@@ -88,6 +95,7 @@ teaser:
   -
     type: set
     attrs:
+      id: ccnFDj64
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -97,6 +105,7 @@ teaser:
   -
     type: set
     attrs:
+      id: t795Flpm
       values:
         type: spacer
         padding-y: 20
@@ -140,10 +149,13 @@ teaser:
 teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 replicator:
   -
+    id: pqoRX1Xl
     columns_replicator:
       -
+        id: onlpxl18
         grid:
           -
+            id: Zm369yia
             bard:
               -
                 type: heading
@@ -169,12 +181,15 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: I8QX5P4r
         grid:
           -
+            id: Wm9nrOZV
             bard:
               -
                 type: set
                 attrs:
+                  id: SDAQMlks
                   values:
                     type: text_box_alignment
                     bard:
@@ -237,10 +252,12 @@ replicator:
     remove_spacing: false
     border: false
   -
+    id: SQWeYFxS
     bard:
       -
         type: set
         attrs:
+          id: vFuPdZhu
           values:
             type: experts_list
             experts:
@@ -260,6 +277,7 @@ replicator:
     enabled: true
     show_as_card: false
   -
+    id: bEGlEGSZ
     is_full: true
     bg_toggle: true
     bg_image: seiten/unsere-experten/Zeichenflaeche-5.png
@@ -268,13 +286,16 @@ replicator:
     enabled: true
     columns_replicator:
       -
+        id: dxfoIVux
         single_col: false
         grid:
           -
+            id: 3j8sTybt
             bard:
               -
                 type: set
                 attrs:
+                  id: 2OSzUzlD
                   values:
                     type: spacer
                     padding-y: 50
@@ -288,15 +309,19 @@ replicator:
     remove_spacing: false
     border: false
   -
+    id: nJfN73Ia
     columns_replicator:
       -
+        id: EUpGi0v9
         single_col: false
         grid:
           -
+            id: qZ6pIgMT
             bard:
               -
                 type: set
                 attrs:
+                  id: rV0JJn0i
                   values:
                     type: text_box_alignment
                     bard:
@@ -363,6 +388,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: kbKp6efS
                   values:
                     type: spacer
                     padding-y: 30
@@ -372,14 +398,17 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: aEcdJDBT
         columns_per_row: 3
         single_col: false
         grid:
           -
+            id: N1fG1dJd
             bard:
               -
                 type: set
                 attrs:
+                  id: q5xhFqXG
                   values:
                     type: bilder
                     assets:
@@ -406,10 +435,12 @@ replicator:
                     text: 'Geprüfte Qualifikationen unserer Ghostwriter'
             show_as_card: false
           -
+            id: VEbOlQKe
             bard:
               -
                 type: set
                 attrs:
+                  id: tdR3Kbj1
                   values:
                     type: bilder
                     assets:
@@ -436,10 +467,12 @@ replicator:
                     text: 'Schutz Ihrer Daten und 100% Anonymität'
             show_as_card: false
           -
+            id: hdnrmyzL
             bard:
               -
                 type: set
                 attrs:
+                  id: ibE8z7aa
                   values:
                     type: bilder
                     assets:
@@ -469,19 +502,23 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
+        id: R7yFjyap
         single_col: false
         grid:
           -
+            id: ciKvSDB1
             bard:
               -
                 type: set
                 attrs:
+                  id: JlbqIpux
                   values:
                     type: spacer
                     padding-y: 30
               -
                 type: set
                 attrs:
+                  id: gADm1LzX
                   values:
                     type: text_box_alignment
                     bard:
@@ -565,7 +602,7 @@ og_title: 'Unsere Experten • GWriters'
 og_description: 'Bei GWriters setzen wir auf Diskretion und Transparenz! Erfahren Sie hier mehr über unsere akademischen Ghostwriter und wie diese Sie unterstützen.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
+breadcrumbs_active: true
 content:
   -
     type: heading
@@ -620,5 +657,4 @@ content:
       -
         type: text
         text: "\_und anderen akademischen Disziplinen vor."
-breadcrumbs_active: true
 ---
