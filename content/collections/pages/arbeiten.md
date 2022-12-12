@@ -4,7 +4,7 @@ blueprint: pages
 title: Arbeiten
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665570686
+updated_at: 1670861058
 teaser:
   -
     type: heading
@@ -42,40 +42,48 @@ teaser:
   -
     type: set
     attrs:
+      id: hbQmKxqz
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: AQoM0tgF
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: tthgfc0F
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp;amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp;amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: P6k4P2TT
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp;amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: CHC8EkIk
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp;amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp;amp; finaler Form.'
           -
+            id: BQsi0X9Z
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: JgjCC1y6
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: pHRSnRhf
       values:
         type: button
         button_link: /anfrage
@@ -85,6 +93,7 @@ teaser:
   -
     type: set
     attrs:
+      id: kh0YnQms
       values:
         type: spacer
         padding-y: 20
@@ -134,6 +143,7 @@ override_twitter_settings: false
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
+    id: plpW04Vb
     bard:
       -
         type: heading
@@ -763,6 +773,5 @@ og_title: 'Arbeiten • GWriters.de'
 og_description: 'Akademische Ghostwriter von GWriters bieten ihre Leistungen für die verschiedensten Arten von Arbeiten an. 1. Sie schreiben Mustervorlage für wissenschaftliche Arbeiten: Bachelorarbeit, Masterarbeit, Hausarbeit...2...'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---
