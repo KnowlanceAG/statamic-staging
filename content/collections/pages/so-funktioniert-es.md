@@ -5,7 +5,7 @@ title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1667299704
+updated_at: 1670860143
 teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
   -
@@ -42,40 +42,48 @@ teaser:
   -
     type: set
     attrs:
+      id: HuAIV8LM
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: DAUd5tQr
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: XIttscOC
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: OWBN3U29
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: 2InXfi6v
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: 6ZrxluIc
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: Mrp8rIoV
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: GPdFPYMc
       values:
         type: button
         button_link: /anfrage
@@ -85,6 +93,7 @@ teaser:
   -
     type: set
     attrs:
+      id: mDg1Ffdv
       values:
         type: spacer
         padding-y: 20
@@ -134,10 +143,13 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
   -
+    id: oKAxgkW9
     columns_replicator:
       -
+        id: 6SEX8ONG
         grid:
           -
+            id: cCMy2rVk
             bard:
               -
                 type: heading
@@ -160,12 +172,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: HZBUVkgJ
                   values:
                     type: video
                     video: 'https://youtu.be/s_tKRADuNrk'
               -
                 type: set
                 attrs:
+                  id: NaCNFPN9
                   values:
                     type: spacer
                     padding-y: 20
@@ -176,9 +190,11 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: pLnfrZCN
         columns_per_row: 2
         grid:
           -
+            id: bu8wIT1g
             bard:
               -
                 type: paragraph
@@ -193,6 +209,7 @@ replicator:
                     text: 'Der Ablauf bei GWriters ist mit dem Ziel, Ihnen einen schnellst- und bestmögliche Umsetzung Ihres Projekts zu ermöglichen, betont einfach gehalten. Sie als Kunde stellen einfach eine kostenlose Anfrage und erhalten dann innerhalb von wenigen Stunden ein unverbindliches Angebot, individuell abgestimmt auf Ihr Projekt. Sobald Sie diesem Angebot zustimmen, erledigen wir den Rest Sie müssen uns lediglich ein Briefing zu Ihrem Projekt zusenden, welches dem Autor als Grundlage für die zu erstellende Mustervorlage dient und mit dessen Hilfe Sie das Projekt von Anfang an in die von Ihnen gewünschte Richtung steuern können. Sie erhalten dann von uns im Laufe der Zeit mehrere Teillieferung, zu denen Sie sich dann gegebenenfalls zurückmelden oder natürlich auch Änderungswünsche äußern können. Diese werden selbstverständlich direkt umgesetzt und vor der Abschlusslieferung wird jede Arbeit von einem übergeordneten Supervisor aus demselben Fachgebiet noch einmal überprüft, um diese qualifiziert zu beurteilen. Im Anschluss wird dann noch eine professionelle Plagiatsprüfung durchgeführt, sodass Sie sich sicher sein können, ein qualitativ einwandfreies Unikat zu erhalten.'
             show_as_card: false
           -
+            id: nlv0WnwD
             bard:
               -
                 type: paragraph
@@ -216,10 +233,13 @@ replicator:
     remove_spacing: false
     border: false
   -
+    id: Fj2XJZKm
     columns_replicator:
       -
+        id: 0e0e9Qk5
         grid:
           -
+            id: iilWVx72
             bard:
               -
                 type: heading
@@ -248,13 +268,16 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: ErTFcw86
         columns_per_row: 4
         grid:
           -
+            id: Ec4n0pei
             bard:
               -
                 type: set
                 attrs:
+                  id: 5CgZtBdP
                   values:
                     type: bilder
                     assets:
@@ -304,10 +327,12 @@ replicator:
                     text: 'Einfach & unkompliziert online anfragen – Je spezifischer Ihre Anfrage ist, umso besser sind wir in der Lage, Ihnen das bestmögliche individuelle Angebot zu unterbreiten.'
             show_as_card: false
           -
+            id: VXdwGT2M
             bard:
               -
                 type: set
                 attrs:
+                  id: RkjW4nQd
                   values:
                     type: bilder
                     assets:
@@ -356,10 +381,12 @@ replicator:
                     text: 'Auf Basis Ihrer Anfrage wählen wir den für Sie und Ihren Auftrag am besten passenden Autor bzw. Bearbeiter aus und erstellen Ihnen ein individuelles Angebot.'
             show_as_card: false
           -
+            id: QHxqayHI
             bard:
               -
                 type: set
                 attrs:
+                  id: JnBnmzFL
                   values:
                     type: bilder
                     assets:
@@ -408,10 +435,12 @@ replicator:
                     text: 'Sobald Sie unser Angebot angenommen haben, beginnt der Autor mit der Bearbeitung Ihres Auftrages. Wir halten Sie regelmässig auf dem Laufenden und Sie erhalten Zwischenstände der Arbeit zur Prüfung.'
             show_as_card: false
           -
+            id: T00pbmlD
             bard:
               -
                 type: set
                 attrs:
+                  id: UoMH89wJ
                   values:
                     type: bilder
                     assets:
@@ -464,9 +493,11 @@ replicator:
         single_col: false
         responsive_columns: 0
       -
+        id: ZqWl7hYx
         single_col: false
         grid:
           -
+            id: 5CixYmZA
             bard:
               -
                 type: heading
@@ -527,10 +558,13 @@ replicator:
     remove_spacing: false
     border: false
   -
+    id: yENWgiI4
     columns_replicator:
       -
+        id: bLBJmGcq
         grid:
           -
+            id: PyVOwI6O
             bard:
               -
                 type: heading
@@ -1001,6 +1035,5 @@ og_title: 'Wissenschaftliches Ghostwriting bei GWriters • So funktioniert es'
 og_description: 'Möchten Sie Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen? So funktioniert es - in 4 einfachen Schritten.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---
