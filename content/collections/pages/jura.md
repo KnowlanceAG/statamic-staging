@@ -44,40 +44,48 @@ teaser:
   -
     type: set
     attrs:
+      id: Q7uYbH3M
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: WnM2bP0s
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: FbfzJRkY
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: azbI3hPr
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: ifaAQlJt
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: WzfO8qnH
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: t5tLMtDm
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: zGlpKqxF
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -87,6 +95,7 @@ teaser:
   -
     type: set
     attrs:
+      id: BUtaT8aF
       values:
         type: spacer
         padding-y: 20
@@ -134,7 +143,7 @@ page_title: 'Jura Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1666177287
+updated_at: 1670861968
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -143,15 +152,19 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
   -
+    id: PpyvlNPe
     columns_replicator:
       -
+        id: c8GY0uRr
         single_col: true
         grid:
           -
+            id: UEJ5w0MA
             bard:
               -
                 type: set
                 attrs:
+                  id: ENTH7EvL
                   values:
                     type: insert_html
                     html: |-
@@ -168,11 +181,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: 7Y0IMmbI
     columns_replicator:
       -
+        id: lU7PT6Fp
         single_col: false
         grid:
           -
+            id: BoZ3rSGz
             bard:
               -
                 type: heading
@@ -228,13 +244,16 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: ET36VWmY
         single_col: false
         grid:
           -
+            id: j0DgVFrI
             bard:
               -
                 type: set
                 attrs:
+                  id: dCCXxUxP
                   values:
                     type: insert_html
                     html: |-
@@ -259,11 +278,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: jqmfxBP8
     columns_replicator:
       -
+        id: KupvjPor
         single_col: true
         grid:
           -
+            id: vjxs2WZF
             bard:
               -
                 type: heading
@@ -308,11 +330,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: dzL3jGgu
     columns_replicator:
       -
+        id: OCInylBP
         single_col: true
         grid:
           -
+            id: Hz82qJ67
             bard:
               -
                 type: heading
@@ -335,10 +360,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: ZsPOHih9
                   values:
                     type: leistungen_uebersicht_4_spaltig
                     grid:
                       -
+                        id: S99HTQHy
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
@@ -346,6 +373,7 @@ replicator:
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
+                        id: ww5p7PA2
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
@@ -353,6 +381,7 @@ replicator:
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
+                        id: V6BrOkM9
                         image:
                           - logo-startseite/icon-plagiat.svg
                         headline: PLAGIATSPRÜFUNG
@@ -360,6 +389,7 @@ replicator:
                         link:
                           - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
                       -
+                        id: JbsTOPW2
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
@@ -369,6 +399,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: nk6Nyvvp
                   values:
                     type: button
                     button_text: 'ALLE LEISTUNGEN IM FACHBEREICH JURA'
@@ -389,11 +420,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: ka8aWQz1
     columns_replicator:
       -
+        id: jcsfnZT2
         single_col: true
         grid:
           -
+            id: Pv0OohYS
             bard:
               -
                 type: heading
@@ -518,12 +552,15 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: o8yjhty7
     columns_replicator:
       -
+        id: 8gbWagGb
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: CuejRNZX
             bard:
               -
                 type: heading
@@ -580,10 +617,12 @@ replicator:
                     text: '. Somit hat er bereits genaue Kenntnisse der Abläufe einer juristischen Arbeit und kennt alle nötigen Formalien zu Genüge.'
             show_as_card: false
           -
+            id: AzhQCQBl
             bard:
               -
                 type: set
                 attrs:
+                  id: 97zsjxrT
                   values:
                     type: video
                     video: 'https://youtu.be/dK1_IH8Jjak'
@@ -592,13 +631,16 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
+        id: vZnVZu1o
         single_col: false
         grid:
           -
+            id: 4g6fECGR
             bard:
               -
                 type: set
                 attrs:
+                  id: FwoYpbYc
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -620,11 +662,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: W5EXgPr8
     columns_replicator:
       -
+        id: 58cp4D2L
         single_col: true
         grid:
           -
+            id: eGIeRfvX
             bard:
               -
                 type: heading
@@ -706,10 +751,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: qIsNZcLf
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: 9UDk2QZL
                         text: Arbeiten
                         eintraege:
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
@@ -727,6 +774,7 @@ replicator:
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
                       -
+                        id: k0R3RpCn
                         text: Fachrichtungen
                         eintraege:
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
@@ -772,12 +820,15 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: IJu1YDQk
     columns_replicator:
       -
+        id: BaUdVyjh
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: 5u80Zq6l
             bard:
               -
                 type: heading
@@ -912,10 +963,12 @@ replicator:
                     text: '(Master Thesis), Dissertation und Magisterarbeit abgeschlossen. Ein Bachelor-Studium dauert i.d.R. 3 Jahre, qualifiziert jedoch nicht für einen Beruf als Anwalt oder Richter.'
             show_as_card: false
           -
+            id: NQUDEDoG
             bard:
               -
                 type: set
                 attrs:
+                  id: iZgYO2vn
                   values:
                     type: spacer
                     padding-y: 30
@@ -924,6 +977,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: hbyOqhTf
                   values:
                     type: video
                     video: 'https://www.youtube.com/watch?v=hBlLAoJ6m0I'
@@ -941,11 +995,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: HIB48oqB
     columns_replicator:
       -
+        id: 8T13hCWI
         single_col: true
         grid:
           -
+            id: EA1dGch8
             bard:
               -
                 type: heading
@@ -1006,10 +1063,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: MZUlONOX
                   values:
                     type: accordion_wrapper
                     items:
                       -
+                        id: ELUjItjm
                         headline: 'Handelsrecht § 🧾'
                         accordion_content:
                           -
@@ -1044,6 +1103,7 @@ replicator:
                                         text: 'Richtlinien in Deutschland im HGB und in seinen Nebengesetzen'
                         active: false
                       -
+                        id: rbwizWQE
                         headline: 'Europarecht 🌎'
                         accordion_content:
                           -
@@ -1087,6 +1147,7 @@ replicator:
                                         text: 'Sekundärrecht = Richtlinien, Verordnungen'
                         active: false
                       -
+                        id: srUOZJAQ
                         headline: 'Arbeits- und Sozialrecht ⚖'
                         accordion_content:
                           -
@@ -1126,6 +1187,7 @@ replicator:
                                                     text: 'Sozialrecht = Regelung des SGB, Sicherung des Sozialstaatspostulats'
                         active: false
                       -
+                        id: rOOLWZ3T
                         headline: 'Familienrecht 👨‍👩‍👧‍👦'
                         accordion_content:
                           -
@@ -1160,6 +1222,7 @@ replicator:
                                         text: 'Regelung gesetzlicher Vertretungsfunktionen (z. B. Vormundschaft, Pflegeschaft, Betreuung)'
                         active: false
                       -
+                        id: KLJrBJfY
                         headline: 'Erbrecht ✝'
                         accordion_content:
                           -
@@ -1190,6 +1253,7 @@ replicator:
                                                     text: 'Regelung der Verfügungen von Todes Weges'
                         active: false
                       -
+                        id: oSlRdRqZ
                         headline: 'Umweltrecht 🌳🌲🌴'
                         accordion_content:
                           -
@@ -1229,6 +1293,7 @@ replicator:
                                                     text: 'Kernbereich sind Schutzgesetze'
                         active: false
                       -
+                        id: J5PjbdSE
                         headline: 'Steuerrecht 💰'
                         accordion_content:
                           -
@@ -1268,6 +1333,7 @@ replicator:
                                                     text: ' alle Steuergesetze, d.h. auch Gesetze der Steuerverwaltung und der Finanzgerichtsbarkeit'
                         active: false
                       -
+                        id: MW7gRSYs
                         headline: 'Medienrecht ⏏'
                         accordion_content:
                           -
@@ -1293,6 +1359,7 @@ replicator:
                                         text: 'Grundlage ist das GG, insbesondere das Recht der freien Meinungsäußerung'
                         active: false
                       -
+                        id: RKYuYtAt
                         headline: 'Medizinrecht 💊'
                         accordion_content:
                           -
@@ -1332,6 +1399,7 @@ replicator:
                                                     text: 'Medizinrecht i.e.S. = Regelung der Rechtsbeziehungen zwischen Arzt und Patient und zwischen Ärzten untereinander'
                         active: false
                       -
+                        id: D7jHBa1X
                         headline: 'IT-Recht 💻'
                         accordion_content:
                           -
@@ -1461,11 +1529,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: bvMF0mps
     columns_replicator:
       -
+        id: bRWYcBST
         single_col: false
         grid:
           -
+            id: HKUXOmL2
             bard:
               -
                 type: heading
@@ -1513,24 +1584,29 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: AU1nKE7k
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: IFiNOHbN
             bard:
               -
                 type: set
                 attrs:
+                  id: WErs6MaY
                   values:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo.-Fr. 9:00-18:00'
             show_as_card: true
           -
+            id: ez8rQf5k
             bard:
               -
                 type: set
                 attrs:
+                  id: pSP5ANJK
                   values:
                     type: spacer
                     padding-y: 12
@@ -1549,6 +1625,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: vKG8HC0j
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -1558,6 +1635,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: o72SQ7a6
                   values:
                     type: spacer
                     padding-y: 10
@@ -1573,11 +1651,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: T3zypFgw
     columns_replicator:
       -
+        id: 0UZlqSO9
         single_col: true
         grid:
           -
+            id: 25JGJJom
             bard:
               -
                 type: heading
@@ -1701,6 +1782,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: w8ex2UM9
                   values:
                     type: floating_img
                     dateien:
@@ -1757,15 +1839,19 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: TV6yQ2Cs
     columns_replicator:
       -
+        id: Y6WcZlJY
         single_col: true
         grid:
           -
+            id: 7wAOxndL
             bard:
               -
                 type: set
                 attrs:
+                  id: ryh0rGzH
                   values:
                     type: example_work
                     ex_img_right: false
@@ -1792,11 +1878,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: AsUvOZac
     columns_replicator:
       -
+        id: xDEN5TgD
         single_col: true
         grid:
           -
+            id: NeTTbdfH
             bard:
               -
                 type: heading
@@ -1844,12 +1933,15 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: 9jGd5xvR
     columns_replicator:
       -
+        id: t41Usp8D
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: vCcIK9Ci
             bard:
               -
                 type: heading
@@ -1890,11 +1982,13 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: E0fwX6JJ
                   values:
                     type: spacer
                     padding-y: 50
             show_as_card: true
           -
+            id: 8rsof9IX
             bard:
               -
                 type: heading
@@ -1937,11 +2031,14 @@ replicator:
     enabled: true
     bg_color: '#F9F9F9'
   -
+    id: 93qjJLSb
     columns_replicator:
       -
+        id: hH4Q1CpI
         single_col: true
         grid:
           -
+            id: GSGPAl4O
             bard:
               -
                 type: heading
@@ -1983,6 +2080,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: QRjFKGvL
                   values:
                     type: blog_entries
                     entries:
@@ -2159,6 +2257,5 @@ og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Jura Ghostwriter'
 fachrichtungsgruppe: g_geisteswissenschaften
-published: true
 breadcrumbs_active: true
 ---
