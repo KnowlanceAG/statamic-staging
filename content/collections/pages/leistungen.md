@@ -5,7 +5,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665567237
+updated_at: 1670859767
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -49,40 +49,48 @@ teaser:
   -
     type: set
     attrs:
+      id: s6imfVtE
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: xRnNlgjL
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: XWholOdJ
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: Svth5IvQ
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
             tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
+            id: LHTJ28Nu
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: 0Xcp9bsC
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: fH7AqTQz
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: Sj9jNG43
       values:
         type: button
         button_link: /anfrage
@@ -92,6 +100,7 @@ teaser:
   -
     type: set
     attrs:
+      id: RDswvf8D
       values:
         type: spacer
         padding-y: 20
@@ -135,6 +144,7 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
+    id: 4l4pjmOB
     bard:
       -
         type: heading
@@ -155,6 +165,7 @@ replicator:
       -
         type: set
         attrs:
+          id: gRxVC1RT
           values:
             type: text_box_alignment
             bard:
@@ -234,29 +245,7 @@ replicator:
                         type: textAlign
                         attrs:
                           align: left
-                    text: ' effektiv gelöst, indem wir '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/ghostwriting-gwriters-teillieferungen
-                          target: null
-                          rel: null
-                    text: Teillieferungen
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                    text: ' anbieten. Das bedeutet, dass Sie als Kunde wirklich erst dann zahlen, wenn Sie eine Lieferung von uns erhalten. Der Ghostwriter kann indes sicher sein, dass er auch für seine Leistungen entlohnt wird. Somit sind beide Parteien abgesichert und das Risiko ist auf allen Seiten minimiert. Wir garantieren sowohl unseren Ghostwritern als auch unseren Kunden vollste Anonymität. Bei der Auftragserteilung wird Ihnen ein Mitarbeiter von uns als persönlicher Projektmanager zugeteilt und dieser übernimmt für Sie die gesamte Kommunikation mit Ihrem Ghostwriter. So ist Ihr persönlicher Projektmanager auch die einzige Person, die Ihren echten Namen und den echten Namen des Ghostwriters kennt. Des Weiteren erhalten alle Parteien ausschließlich anonymisierte Dateien. Das bedeutet, dass jegliche persönlichen Informationen werden entfernt und es keine Namen in den Unterlagen sichtbar sind. Natürlich berücksichtigt Ihr Ghostwriter auch Ihre spezifischen Formatvorgaben, Literaturanforderungen oder vorgeschriebene Inhalte. Bestenfalls senden Sie uns diese gleich am Anfang der Texterstellung zu. Am Ende wird Ihre Arbeit von einem internen Supervisor lektoriert, der auch gern Ihre spezifischen Formatvorgaben noch einmal berücksichtigt.'
+                    text: ' effektiv gelöst, indem wir Teillieferungen anbieten. Das bedeutet, dass Sie als Kunde wirklich erst dann zahlen, wenn Sie eine Lieferung von uns erhalten. Der Ghostwriter kann indes sicher sein, dass er auch für seine Leistungen entlohnt wird. Somit sind beide Parteien abgesichert und das Risiko ist auf allen Seiten minimiert. Wir garantieren sowohl unseren Ghostwritern als auch unseren Kunden vollste Anonymität. Bei der Auftragserteilung wird Ihnen ein Mitarbeiter von uns als persönlicher Projektmanager zugeteilt und dieser übernimmt für Sie die gesamte Kommunikation mit Ihrem Ghostwriter. So ist Ihr persönlicher Projektmanager auch die einzige Person, die Ihren echten Namen und den echten Namen des Ghostwriters kennt. Des Weiteren erhalten alle Parteien ausschließlich anonymisierte Dateien. Das bedeutet, dass jegliche persönlichen Informationen werden entfernt und es keine Namen in den Unterlagen sichtbar sind. Natürlich berücksichtigt Ihr Ghostwriter auch Ihre spezifischen Formatvorgaben, Literaturanforderungen oder vorgeschriebene Inhalte. Bestenfalls senden Sie uns diese gleich am Anfang der Texterstellung zu. Am Ende wird Ihre Arbeit von einem internen Supervisor lektoriert, der auch gern Ihre spezifischen Formatvorgaben noch einmal berücksichtigt.'
               -
                 type: paragraph
                 content:
@@ -318,16 +307,20 @@ replicator:
     enabled: true
     show_as_card: false
   -
+    id: BOy70T1A
     columns_replicator:
       -
+        id: YGuCa50W
         columns_per_row: 3
         single_col: false
         grid:
           -
+            id: UfYKqIB9
             bard:
               -
                 type: set
                 attrs:
+                  id: kxUcm0mA
                   values:
                     type: bilder
                     assets:
@@ -390,10 +383,12 @@ replicator:
                     text: 'Mehr zum Ghostwriting'
             show_as_card: false
           -
+            id: tokp1Jw1
             bard:
               -
                 type: set
                 attrs:
+                  id: MN1yTnOK
                   values:
                     type: bilder
                     assets:
@@ -456,10 +451,12 @@ replicator:
                     text: 'Mehr zum Lektorat'
             show_as_card: false
           -
+            id: R3wFFUOF
             bard:
               -
                 type: set
                 attrs:
+                  id: QNFR9lTx
                   values:
                     type: bilder
                     assets:
@@ -525,14 +522,17 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
+        id: CULEnw5Q
         columns_per_row: 3
         single_col: false
         grid:
           -
+            id: 2Xnw0Nfy
             bard:
               -
                 type: set
                 attrs:
+                  id: 90Vw07T7
                   values:
                     type: bilder
                     assets:
@@ -600,10 +600,12 @@ replicator:
                     text: 'Mehr zur MAXQDA Auswertung'
             show_as_card: false
           -
+            id: 3qplLunn
             bard:
               -
                 type: set
                 attrs:
+                  id: j96sx3YJ
                   values:
                     type: bilder
                     assets:
@@ -671,10 +673,12 @@ replicator:
                     text: 'Mehr zur Formatierung'
             show_as_card: false
           -
+            id: 7ZeTMht5
             bard:
               -
                 type: set
                 attrs:
+                  id: xHxZ39Rw
                   values:
                     type: bilder
                     assets:
@@ -733,14 +737,17 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
+        id: pj7WPxl3
         columns_per_row: 2
         single_col: true
         grid:
           -
+            id: o9lhudR3
             bard:
               -
                 type: set
                 attrs:
+                  id: FFalHb6v
                   values:
                     type: bilder
                     assets:
@@ -808,10 +815,12 @@ replicator:
                     text: 'Mehr zur Übersetzung'
             show_as_card: false
           -
+            id: Gmhy6j4W
             bard:
               -
                 type: set
                 attrs:
+                  id: e4jcqTrj
                   values:
                     type: bilder
                     assets:
@@ -887,15 +896,19 @@ replicator:
     remove_spacing: true
     border: false
   -
+    id: 5UJ0z0Pg
     columns_replicator:
       -
+        id: 6Iuv1pP1
         single_col: true
         grid:
           -
+            id: L04bfvi6
             bard:
               -
                 type: set
                 attrs:
+                  id: FyfjBdfT
                   values:
                     type: text_box_alignment
                     bard:
@@ -980,6 +993,5 @@ og_title: 'GWriters • Unsere Leistungen und Services'
 og_description: 'Bei GWriters finden Sie akademische Ghostwriter, Lektoren, Korrektoren, Übersetzer & viele andere Experten - Einfach, schnell & sicher!'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---
