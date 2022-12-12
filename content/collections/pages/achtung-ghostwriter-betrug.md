@@ -849,39 +849,7 @@ replicator:
                 attrs:
                   color: 'rgb(68, 68, 68)'
                   hex: '#000'
-            text: 'Achten Sie darauf, dass Sie bei größeren Projekten mit einem Auftragsvolumen über 1000 EUR/CHF die Option haben Ihre Arbeit in '
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /blog/ghostwriting-gwriters-teillieferungen
-                  target: null
-                  rel: null
-            text: Teillieferungen
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: textColor
-                attrs:
-                  color: 'rgb(68, 68, 68)'
-                  hex: '#000'
-            text: ' zu erhalten und mit Raten zu bezahlen. So können Sie sich bereits während des Schreibprozesses selbst ein Bild über die Qualität der Arbeit machen und kaufen nicht die “Katze im Sack”.'
+            text: 'Achten Sie darauf, dass Sie bei größeren Projekten mit einem Auftragsvolumen über 1000 EUR/CHF die Option haben Ihre Arbeit in Teillieferungen zu erhalten und mit Raten zu bezahlen. So können Sie sich bereits während des Schreibprozesses selbst ein Bild über die Qualität der Arbeit machen und kaufen nicht die “Katze im Sack”.'
       -
         type: heading
         attrs:
@@ -2241,7 +2209,7 @@ replicator:
     enabled: true
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670862451
+updated_at: 1670882704
 page_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_description: 'Hier finden Sie aktuelle Informationen zu bekannten Betrüger-Websites im akademischen Ghostwriting. Verlassen Sie sich nur auf seriöse Ghostwriting Agenturen!'
