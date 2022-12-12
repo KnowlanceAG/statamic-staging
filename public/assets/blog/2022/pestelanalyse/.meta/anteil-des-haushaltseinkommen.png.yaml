@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: s
+  caption: 'Anteil der Ausgaben für Energie nach Höhe des Haushaltseinkommens'
 size: 7411
 last_modified: 1670869519
 width: 475
