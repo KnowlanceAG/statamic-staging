@@ -44,40 +44,48 @@ teaser:
   -
     type: set
     attrs:
+      id: s5wL7ma7
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: VVNFOMmI
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: qwaHBYeX
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: kHcFs4Yi
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: FOynD67E
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: jGWNhrPj
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: KXPCOZzQ
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: asfGXaFy
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -87,6 +95,7 @@ teaser:
   -
     type: set
     attrs:
+      id: Qx6EuiOT
       values:
         type: spacer
         padding-y: 20
@@ -132,7 +141,7 @@ page_title: 'Soziale Arbeit Ghostwriter, Lektoren & mehr • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665570241
+updated_at: 1670862041
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -141,10 +150,13 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
   -
+    id: vBPsU95l
     columns_replicator:
       -
+        id: 2boZ8yTb
         grid:
           -
+            id: 2qrAOnhU
             bard:
               -
                 type: paragraph
@@ -246,6 +258,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: A0bq45h0
                   values:
                     type: show_sidebar_mobile
                     custom_sidebar_placement: 'on'
@@ -347,9 +360,11 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: sGipElCm
         columns_per_row: 3
         grid:
           -
+            id: PEHKZDT6
             bard:
               -
                 type: paragraph
@@ -421,6 +436,7 @@ replicator:
                     text: Übersetzung
             show_as_card: false
           -
+            id: 94LZckg8
             bard:
               -
                 type: paragraph
@@ -490,6 +506,7 @@ replicator:
                     text: Plagiatsprüfung
             show_as_card: false
           -
+            id: bnhPX1yt
             bard:
               -
                 type: paragraph
@@ -539,9 +556,11 @@ replicator:
         single_col: true
         responsive_columns: 0
       -
+        id: sNUa6zcE
         single_col: true
         grid:
           -
+            id: 3mKpHoN5
             bard:
               -
                 type: heading
@@ -554,10 +573,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: eF6FnNR9
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: aCxLSzQF
                         text: Arbeiten
                         eintraege:
                           - 68b88fd1-ec03-4ea8-9292-431555e47744
@@ -613,6 +634,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: njMPsxDt
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -642,6 +664,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: C4enz3SK
                   values:
                     type: floating_img
                     dateien:
@@ -878,6 +901,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_sozialwissenschaften
 sitemap_active: true
 alternative_page_title: 'Soziale Arbeit Ghostwriter'
-published: true
 breadcrumbs_active: true
 ---
