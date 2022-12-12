@@ -131,7 +131,7 @@ teaser:
         text: '##phone##'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670861846
+updated_at: 1670861858
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
