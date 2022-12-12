@@ -44,40 +44,48 @@ teaser:
   -
     type: set
     attrs:
+      id: CYOAkSpZ
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: UiAiJxx3
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: N01QlDLT
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: 2ADxy4Dm
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: 7MAyiBhX
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: jJR6dpwG
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: cB8DkbXM
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: MogeOOnM
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -87,6 +95,7 @@ teaser:
   -
     type: set
     attrs:
+      id: jTDN6D1R
       values:
         type: spacer
         padding-y: 20
@@ -132,7 +141,7 @@ page_title: 'Informatik Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665656423
+updated_at: 1670861962
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -141,15 +150,19 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
   -
+    id: Vc1PyfN4
     columns_replicator:
       -
+        id: Y6p5tEcH
         single_col: true
         grid:
           -
+            id: 0fapAofm
             bard:
               -
                 type: set
                 attrs:
+                  id: jyNXVQbc
                   values:
                     type: insert_html
                     html: |-
@@ -166,11 +179,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: YjW3RsZt
     columns_replicator:
       -
+        id: jWJS3UJT
         single_col: false
         grid:
           -
+            id: KfTqJdto
             bard:
               -
                 type: heading
@@ -226,13 +242,16 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: 1wODVg3V
         single_col: false
         grid:
           -
+            id: rr4kmXbx
             bard:
               -
                 type: set
                 attrs:
+                  id: pPa714HJ
                   values:
                     type: insert_html
                     html: |-
@@ -255,11 +274,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: Im2Se2CS
     columns_replicator:
       -
+        id: iE9RzfD4
         single_col: true
         grid:
           -
+            id: HMjGOEna
             bard:
               -
                 type: heading
@@ -340,11 +362,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: nmNPJ8fz
     columns_replicator:
       -
+        id: weXA8hSP
         single_col: true
         grid:
           -
+            id: 93rSTbZP
             bard:
               -
                 type: heading
@@ -367,10 +392,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: JSJXEoNo
                   values:
                     type: leistungen_uebersicht_4_spaltig
                     grid:
                       -
+                        id: 9VMGfyiR
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
@@ -378,6 +405,7 @@ replicator:
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
+                        id: peQlf2hT
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
@@ -385,6 +413,7 @@ replicator:
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
+                        id: I8t8IVhg
                         image:
                           - logo-startseite/icon-plagiat.svg
                         headline: PLAGIATSPRÜFUNG
@@ -392,6 +421,7 @@ replicator:
                         link:
                           - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
                       -
+                        id: 5SbB6yGP
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
@@ -401,6 +431,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: q14Pxw6f
                   values:
                     type: button
                     button_text: 'ALLE LEISTUNGEN IM FACHBEREICH BWL'
@@ -419,11 +450,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: BEwth0y9
     columns_replicator:
       -
+        id: 51VO1Dqm
         single_col: true
         grid:
           -
+            id: ryarPnV4
             bard:
               -
                 type: heading
@@ -496,12 +530,15 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: 9kdb40XN
     columns_replicator:
       -
+        id: sbWkqlFl
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: 567nvbDF
             bard:
               -
                 type: heading
@@ -592,10 +629,12 @@ replicator:
                     text: ' unterstützt der wissenschaftliche Ghostwriter mit einem gezielten Coaching (Betreuung) und einer umfassenden Beratung. Auf diesem Wege wird sowohl die wissenschaftliche Kompetenz des Studenten ausgebaut, als auch die Arbeit selbst optimiert.'
             show_as_card: false
           -
+            id: yfAONt3d
             bard:
               -
                 type: set
                 attrs:
+                  id: iOfJzXdo
                   values:
                     type: video
                     video: 'https://www.youtube.com/watch?v=X6VXkzsv6dA'
@@ -604,13 +643,16 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
+        id: wR83njvt
         single_col: false
         grid:
           -
+            id: hHbBXEgr
             bard:
               -
                 type: set
                 attrs:
+                  id: Fal8Dzmy
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -631,11 +673,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: 17s6sAGb
     columns_replicator:
       -
+        id: 3ejooupX
         single_col: true
         grid:
           -
+            id: KC9aujGw
             bard:
               -
                 type: heading
@@ -651,6 +696,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: qPe6XLgZ
                   values:
                     type: bild_und_text
                     bild:
@@ -683,6 +729,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: aI60nDYf
                   values:
                     type: bild_und_text
                     bild:
@@ -691,10 +738,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 2VMaH6Ld
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: dPG8P96L
                         text: Arbeiten
                         eintraege:
                           - 68b88fd1-ec03-4ea8-9292-431555e47744
@@ -712,6 +761,7 @@ replicator:
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
                       -
+                        id: qllrkOTs
                         text: Fachrichtungen
                         eintraege:
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
@@ -760,6 +810,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: kAlCueeh
                   values:
                     type: bild_und_text
                     bild:
@@ -971,11 +1022,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: mRcvJlFU
     columns_replicator:
       -
+        id: XrzpOZ83
         single_col: false
         grid:
           -
+            id: LonMznlR
             bard:
               -
                 type: heading
@@ -1023,24 +1077,29 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: hSHX01Ei
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: t9aMVfgk
             bard:
               -
                 type: set
                 attrs:
+                  id: SBdeYTIs
                   values:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo.-Fr. 9:00-18:00'
             show_as_card: true
           -
+            id: b8DoaDR6
             bard:
               -
                 type: set
                 attrs:
+                  id: vWcWXHXj
                   values:
                     type: spacer
                     padding-y: 10
@@ -1059,6 +1118,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: IDHTG0Q7
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -1068,6 +1128,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: uXLFZCxz
                   values:
                     type: spacer
                     padding-y: 12
@@ -1083,11 +1144,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: KTIKX22t
     columns_replicator:
       -
+        id: x1Fk7xZl
         single_col: true
         grid:
           -
+            id: REiGiqsl
             bard:
               -
                 type: heading
@@ -1158,6 +1222,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: oioDNVos
                   values:
                     type: floating_img
                     dateien:
@@ -1248,15 +1313,19 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: lpQEmc71
     columns_replicator:
       -
+        id: thszAJX6
         single_col: false
         grid:
           -
+            id: 54nbylgD
             bard:
               -
                 type: set
                 attrs:
+                  id: hc7lAaBP
                   values:
                     type: example_work
                     ex_img_right: false
@@ -1283,11 +1352,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: SrWgO2xJ
     columns_replicator:
       -
+        id: 7XjZvubJ
         single_col: true
         grid:
           -
+            id: 5nqVbAOQ
             bard:
               -
                 type: heading
@@ -1306,6 +1378,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 7cq73HZ2
                   values:
                     type: bild_und_text
                     bild:
@@ -1590,12 +1663,15 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: 3d4gAIcL
     columns_replicator:
       -
+        id: jsWPMr6X
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: nK7RhBoC
             bard:
               -
                 type: heading
@@ -1653,6 +1729,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: bb3kCnNX
                   values:
                     type: spacer
                     padding-y: 10
@@ -1660,6 +1737,7 @@ replicator:
                 type: paragraph
             show_as_card: true
           -
+            id: o1GpioE6
             bard:
               -
                 type: heading
@@ -1697,11 +1775,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: uKlAT4KD
     columns_replicator:
       -
+        id: g0nAWzXU
         single_col: true
         grid:
           -
+            id: MrLZBWsS
             bard:
               -
                 type: heading
@@ -1743,6 +1824,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: dQytb2FS
                   values:
                     type: blog_entries
                     entries:
@@ -1995,6 +2077,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_technische_fachrichtungen
 sitemap_active: true
 alternative_page_title: 'Informatik Ghostwriter'
-published: true
 breadcrumbs_active: true
 ---
