@@ -4,6 +4,7 @@ blueprint: pages
 title: 'Hilfe & FAQ zum Ghostwriting und Ghostwritern'
 replicator:
   -
+    id: FLCjONVG
     bard:
       -
         type: heading
@@ -1202,29 +1203,7 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: 'Nach Auftragserteilung Ihrerseits vereinbaren wir '
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: link
-                attrs:
-                  href: /blog/ghostwriting-gwriters-teillieferungen
-                  target: null
-                  rel: null
-            text: Teillieferungs
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-            text: "- und Abschlusslieferungstermin(e), sodass Sie stets auf dem aktuellen Stand Ihrer Arbeit sind.\_"
+            text: "Nach Auftragserteilung Ihrerseits vereinbaren wir Teillieferungs- und Abschlusslieferungstermin(e), sodass Sie stets auf dem aktuellen Stand Ihrer Arbeit sind.\_"
           -
             type: text
             marks:
@@ -1432,7 +1411,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1667311850
+updated_at: 1670859540
 template: without-teaser-with-sidebar
 use_meta_keywords: false
 no_index_page: false
@@ -1447,6 +1426,5 @@ og_title: 'FAQ • Fragen und Antworten zu unserem Ghostwriting Service'
 og_description: 'Alle Antworten zu Fragen über Ghostwriting oder wie Sie eine Mustervorlage für Ihre Bachelorarbeit oder Masterarbeit schreiben lassen können.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---
