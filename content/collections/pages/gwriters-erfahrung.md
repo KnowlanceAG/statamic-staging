@@ -41,40 +41,48 @@ teaser:
   -
     type: set
     attrs:
+      id: QgaMhJty
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: t65lZaeT
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: kf4CqZhE
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz & 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp;amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: CZNpPKhE
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen & kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: yZaYXD9N
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle & pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp;amp; finaler Form.'
           -
+            id: L2X8cTqm
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Die Mustervorlage für Ihre Arbeit wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: 6f0epzkR
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: JnQiH4Lf
       values:
         type: button
         button_link: /anfrage
@@ -84,6 +92,7 @@ teaser:
   -
     type: set
     attrs:
+      id: 4VbzHvht
       values:
         type: spacer
         padding-y: 20
@@ -132,19 +141,23 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665583374
+updated_at: 1670862446
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
+    id: bkXSNqOq
     columns_replicator:
       -
+        id: N17sx6Qv
         single_col: true
         grid:
           -
+            id: T2lUO6g7
             bard:
               -
                 type: set
                 attrs:
+                  id: MiOTWmY8
                   values:
                     type: insert_html
                     html: |-
@@ -154,6 +167,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 3J4sR65k
                   values:
                     type: spacer
                     padding-y: 30
@@ -168,11 +182,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: y8u7R5Qc
     columns_replicator:
       -
+        id: jCJUUmhZ
         single_col: false
         grid:
           -
+            id: 267LJQ3V
             bard:
               -
                 type: heading
@@ -213,13 +230,16 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: 7zfIpu0L
         single_col: false
         grid:
           -
+            id: jrKpE03Q
             bard:
               -
                 type: set
                 attrs:
+                  id: ZTrGHxcE
                   values:
                     type: insert_html
                     html: |-
@@ -242,11 +262,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: 5T8VvAtH
     columns_replicator:
       -
+        id: 1pbWseVw
         single_col: true
         grid:
           -
+            id: N5bDjIAu
             bard:
               -
                 type: heading
@@ -306,12 +329,15 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: 0YcOlUZn
     columns_replicator:
       -
+        id: GlbF05RP
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: 846QxwUC
             bard:
               -
                 type: heading
@@ -382,10 +408,12 @@ replicator:
                     text: ' gemacht haben. So werden konkrete Details zum Ablauf, zur Auftragsabwicklung und zu unserem hervorragenden Qualitätssicherungsprozess genannt.'
             show_as_card: false
           -
+            id: Fvd35Ej5
             bard:
               -
                 type: set
                 attrs:
+                  id: shkSuGHI
                   values:
                     type: floating_img
                     dateien:
@@ -405,11 +433,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: loOoDyDB
     columns_replicator:
       -
+        id: 6k7TuSPF
         single_col: true
         grid:
           -
+            id: l2ngU8dd
             bard:
               -
                 type: heading
@@ -508,11 +539,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: G12Rrbhk
     columns_replicator:
       -
+        id: FNhv7t5G
         single_col: false
         grid:
           -
+            id: Bky5DFMW
             bard:
               -
                 type: heading
@@ -573,24 +607,29 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: 3YMFQP4C
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: WpaIPutB
             bard:
               -
                 type: set
                 attrs:
+                  id: 3a6b6Lxv
                   values:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo.-Fr. 9:00-18:00'
             show_as_card: true
           -
+            id: jj9QK7mF
             bard:
               -
                 type: set
                 attrs:
+                  id: S80scXNt
                   values:
                     type: spacer
                     padding-y: 12
@@ -609,6 +648,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: WNW8n7T8
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -618,6 +658,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: JmduG4D6
                   values:
                     type: spacer
                     padding-y: 10
@@ -633,12 +674,15 @@ replicator:
     enabled: true
     bg_color: '#D6D6D6'
   -
+    id: ZRQU2F8Y
     columns_replicator:
       -
+        id: 68YOg2rn
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: A42alJZJ
             bard:
               -
                 type: heading
@@ -701,10 +745,12 @@ replicator:
                     text: 'anonyme Telefonkonferenzen mit Ihrem persönlichen Ghostwriter!'
             show_as_card: false
           -
+            id: cuhKuBgl
             bard:
               -
                 type: set
                 attrs:
+                  id: wQ73Rjef
                   values:
                     type: floating_img
                     dateien:
@@ -724,11 +770,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: fZ9blV0f
     columns_replicator:
       -
+        id: 1AC2HSLc
         single_col: false
         grid:
           -
+            id: wkNmDc95
             bard:
               -
                 type: heading
@@ -795,12 +844,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: glzZ9jsP
                   values:
                     type: spacer
                     padding-y: 20
               -
                 type: set
                 attrs:
+                  id: rIoslNw3
                   values:
                     type: floating_img
                     dateien:
@@ -811,6 +862,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: ACyCCeqh
                   values:
                     type: spacer
                     padding-y: 20
@@ -832,12 +884,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: TkWlw2QC
                   values:
                     type: spacer
                     padding-y: 20
               -
                 type: set
                 attrs:
+                  id: XpWcwqFg
                   values:
                     type: floating_img
                     dateien:
@@ -848,6 +902,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: nHbOqFyg
                   values:
                     type: spacer
                     padding-y: 20
@@ -936,6 +991,5 @@ og_title: 'GWriters Erfahrung - erfahrene Ghostwriter für Ihren Erfolg!'
 page_title: 'GWriters Erfahrung - erfahrene Ghostwriter für Ihren Erfolg!'
 meta_description: 'Die GWriters Erfahrung überzeugt selbst unsere anspruchsvollsten Kunden  - erfahrene Ghostwriter unterstützen Sie diskret & seriös bei Ihrem  Projekt!'
 og_description: 'Die GWriters Erfahrung überzeugt selbst unsere anspruchsvollsten Kunden  - erfahrene Ghostwriter unterstützen Sie diskret & seriös bei Ihrem  Projekt!'
-published: true
 breadcrumbs_active: true
 ---
