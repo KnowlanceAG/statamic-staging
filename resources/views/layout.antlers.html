@@ -18,9 +18,9 @@
       {{ /if }}
   {{ /if }}
 
-  <link rel="alternate" hreflang="de-de" href="https://gwriters.de{{ current_uri }}" />
-  <link rel="alternate" hreflang="de-ch" href="https://gwriters.ch{{ current_uri }}" />
-  <link rel="alternate" hreflang="x-default" href="https://gwriters.de{{ current_uri }}" />
+  <link rel="alternate" hreflang="de-de" href="https://gwriters.de{{ current_uri == '/' ? '' : current_uri }}" />
+  <link rel="alternate" hreflang="de-ch" href="https://gwriters.ch{{ current_uri == '/' ? '' : current_uri }}" />
+  <link rel="alternate" hreflang="x-default" href="https://gwriters.de{{ current_uri == '/' ? '' : current_uri }}" />
   {{ if meta_title }}
   {{ elseif page_title }}
     <title>

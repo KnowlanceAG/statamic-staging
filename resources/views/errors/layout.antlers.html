@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="content-language" content="de-DE">
   <meta name="robots" content="noindex">
-  <link rel="alternate" hreflang="de-DE" href="https://gwriters.de{{ current_uri }}" />
-  <link rel="alternate" hreflang="de-CH" href="https://gwriters.ch{{ current_uri }}" />
-  <link rel="alternate" hreflang="x-default" href="https://gwriters.de{{ current_uri }}" />
+  <link rel="alternate" hreflang="de-DE" href="https://gwriters.de{{ current_uri == '/' ? '' : current_uri }}" />
+  <link rel="alternate" hreflang="de-CH" href="https://gwriters.ch{{ current_uri == '/' ? '' : current_uri }}" />
+  <link rel="alternate" hreflang="x-default" href="https://gwriters.de{{ current_uri == '/' ? '' : current_uri }}" />
   {{ if meta_title }}
   {{ elseif page_title }}
     <title>
