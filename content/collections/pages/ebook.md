@@ -39,40 +39,48 @@ teaser:
   -
     type: set
     attrs:
+      id: 91tFcKiZ
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: Rv1O9tqO
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: Z6pPWKoJ
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: EQF4cu7D
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
             tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
+            id: 4Akupkhu
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: kJZRQOa5
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: dM0qiETc
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: gkD47wKP
       values:
         type: button
         button_link: /anfrage
@@ -82,6 +90,7 @@ teaser:
   -
     type: set
     attrs:
+      id: u37CO1GU
       values:
         type: spacer
         padding-y: 20
@@ -125,11 +134,14 @@ teaser:
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
+    id: eLyY0voT
     columns_replicator:
       -
+        id: rsQuLcqe
         single_col: true
         grid:
           -
+            id: 4tmyMPCR
             bard:
               -
                 type: paragraph
@@ -167,6 +179,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: dZWM7SNH
                   values:
                     type: show_sidebar_mobile
                     custom_sidebar_placement: 'on'
@@ -419,10 +432,12 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: S63tfPPE
         columns_per_row: 3
         single_col: true
         grid:
           -
+            id: ldy5sOQQ
             bard:
               -
                 type: paragraph
@@ -481,6 +496,7 @@ replicator:
                     text: 'MAXQDA Auswertung'
             show_as_card: false
           -
+            id: Wj4AyGzG
             bard:
               -
                 type: paragraph
@@ -547,6 +563,7 @@ replicator:
                     text: Promotionsberatung
             show_as_card: false
           -
+            id: UvScu1To
             bard:
               -
                 type: paragraph
@@ -597,9 +614,11 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
+        id: KV2cfLK8
         single_col: true
         grid:
           -
+            id: dLWx6sXo
             bard:
               -
                 type: heading
@@ -652,10 +671,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 8mk5jV41
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: ymmIatoe
                         text: Fachrichtungen
                         eintraege:
                           - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
@@ -694,6 +715,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: OAFKA5Qo
                   values:
                     type: spacer
                     padding-y: 30
@@ -702,6 +724,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 6nfgZFm9
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -714,6 +737,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: y2luyeS8
                   values:
                     type: spacer
                     padding-y: 30
@@ -743,20 +767,7 @@ replicator:
                     text: 'eBook oder ein gedrucktes Buch'
                   -
                     type: text
-                    text: ', entscheiden Sie für sich. So finden Sie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/ghostwriter-ebook-finden
-                          target: null
-                          rel: null
-                    text: 'seriöse Ghostwriter für Ihr eBook'
-                  -
-                    type: text
-                    text: '. '
+                    text: ', entscheiden Sie für sich oder mit Hilfe eines seriösen Ghostwriters für Ihr eBook. '
               -
                 type: heading
                 attrs:
@@ -794,6 +805,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Tdg4VgzH
                   values:
                     type: floating_img
                     dateien:
@@ -816,12 +828,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: qdsGRltE
                   values:
                     type: floating_img
                     dateien:
                       - blog/2022/ghostwriter-fuer-ebooks-finden/ebook-preise.jpg
                     img_size: w-full
-                    float: mx-auto
                     image_options:
                       - no_upscale
               -
@@ -835,10 +847,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: EPvwA9IR
                   values:
                     type: accordion_wrapper
                     items:
                       -
+                        id: 1g0n37Mr
                         headline: 'Erscheinungsform 1: eBooks Text und Bild 📰'
                         accordion_content:
                           -
@@ -849,6 +863,7 @@ replicator:
                                 text: 'Es gibt ganz klassische eBooks mit Text und Bild, die sich an gedruckten Büchern orientieren. Anders als bei Büchern auf Papier sind jedoch häufig Hyperlinks eingebettet. Durch das Anklicken kommen Sie dann z.B. auf Erklärungs- oder weiterführende Seiten. Lesbar sind solche klassischen eBooks auf verschiedenen Geräten: auf dem PC, dem Tablet oder Smartphone oder auf dem eBook-Reader.'
                         active: true
                       -
+                        id: EOYcT8fI
                         headline: 'Erscheinungsform 2: Enhanced eBook 📃'
                         accordion_content:
                           -
@@ -859,6 +874,7 @@ replicator:
                                 text: 'Ein Enhanced eBook wird so ähnlich dargestellt wie das klassische eBook. Allerdings sind hier auch Video- oder Audiodateien eingebettet. Solche Extras können mit dem PC, Tablet oder Smartphone genutzt werden. Die klassischen eBook-Reader beschränken sich auf die Wiedergabe von Buchtexten und Bildern.'
                         active: true
                       -
+                        id: ESS1JRFi
                         headline: 'Erscheinungsform 3: Das eBook mit fixem Layout ▶⏸'
                         accordion_content:
                           -
@@ -899,6 +915,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: D1Jsd8ya
                   values:
                     type: floating_img
                     dateien:
@@ -955,6 +972,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: KG0xb1Wd
                   values:
                     type: floating_img
                     dateien:
@@ -1160,6 +1178,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Z9kinopr
                   values:
                     type: floating_img
                     dateien:
@@ -1183,6 +1202,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 74VOAB03
                   values:
                     type: blog_entries
                     entries:
@@ -1219,7 +1239,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1668116019
+updated_at: 1670859215
 meta_title: 'Ghostwriter eBook schreiben lassen • GWriters'
 meta_description: 'eBook schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
@@ -1234,6 +1254,5 @@ og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'eBook schreiben lassen'
 arbeitsgruppe: a_sonstige_arbeiten
-published: true
 breadcrumbs_active: true
 ---
