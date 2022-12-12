@@ -39,40 +39,48 @@ teaser:
   -
     type: set
     attrs:
+      id: QQz9Negd
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: cg6MkTp0
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: sOZDQEFy
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: SP0HYwcd
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
             tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
+            id: HEQDlqnu
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: rvfOfp6I
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: sCOg3lyT
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: HVVt30RZ
       values:
         type: button
         button_link: /anfrage
@@ -82,6 +90,7 @@ teaser:
   -
     type: set
     attrs:
+      id: mVTDX7XW
       values:
         type: spacer
         padding-y: 20
@@ -125,11 +134,14 @@ teaser:
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
+    id: dVKGqoSm
     columns_replicator:
       -
+        id: 6wzqYR7b
         single_col: true
         grid:
           -
+            id: jN7vHbsh
             bard:
               -
                 type: paragraph
@@ -166,6 +178,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: nDenhdU5
                   values:
                     type: show_sidebar_mobile
                     custom_sidebar_placement: 'on'
@@ -370,31 +383,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Sie wissen nicht, wie die Kooperation mit einem akademischen Ghostwriter funktioniert? Sie beginnen mit einer unverbindlichen Anfrage auf unserer Webseite. Im Anfrageformular geben Sie die Anforderungen an Ihre wissenschaftliche Arbeit an. Sie wählen zuerst das Fach und die Leistungsart aus. Anschließend geben den Zeitraum und den Umfang Ihrer Aufgabenstellung an. Innerhalb von weniger Stunden erhalten Sie ein kostenloses Leistungsangebot, in dem die Kosten, '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/ghostwriting-gwriters-teillieferungen
-                          target: null
-                          rel: null
-                    text: 'Termine für Teillieferungen'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' und Inhaltliche Äußerungen zusammengestellt werden. Zum Thema Ghostwriting-Preise: die voraussichtlichen Kosten können Sie auch separat von unserem Preisrechner berechnen lassen. Die Teillieferungen dienen dazu, Feedbacks bezüglich der Arbeit von Ihnen als Auftraggeber zu erhalten.'
+                    text: 'Sie wissen nicht, wie die Kooperation mit einem akademischen Ghostwriter funktioniert? Sie beginnen mit einer unverbindlichen Anfrage auf unserer Webseite. Im Anfrageformular geben Sie die Anforderungen an Ihre wissenschaftliche Arbeit an. Sie wählen zuerst das Fach und die Leistungsart aus. Anschließend geben den Zeitraum und den Umfang Ihrer Aufgabenstellung an. Innerhalb von weniger Stunden erhalten Sie ein kostenloses Leistungsangebot, in dem die Kosten, Termine für Teillieferungen und Inhaltliche Äußerungen zusammengestellt werden. Zum Thema Ghostwriting-Preise: die voraussichtlichen Kosten können Sie auch separat von unserem Preisrechner berechnen lassen. Die Teillieferungen dienen dazu, Feedbacks bezüglich der Arbeit von Ihnen als Auftraggeber zu erhalten.'
               -
                 type: heading
                 attrs:
@@ -481,10 +470,12 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: Juq3YEOg
         columns_per_row: 3
         single_col: true
         grid:
           -
+            id: EQLaaAx1
             bard:
               -
                 type: paragraph
@@ -543,6 +534,7 @@ replicator:
                     text: 'MAXQDA Auswertung'
             show_as_card: false
           -
+            id: J6fVG3gd
             bard:
               -
                 type: paragraph
@@ -609,6 +601,7 @@ replicator:
                     text: Promotionsberatung
             show_as_card: false
           -
+            id: lQl1J874
             bard:
               -
                 type: paragraph
@@ -659,9 +652,11 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
+        id: AXd938Q1
         single_col: true
         grid:
           -
+            id: eoRwbkdK
             bard:
               -
                 type: heading
@@ -674,10 +669,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: M9r1uN5p
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: u9sAcRVt
                         text: Fachrichtungen
                         eintraege:
                           - 780fbc21-db68-45f0-a0c9-bb6dbb99cb8f
@@ -716,6 +713,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: MUi4Y71J
                   values:
                     type: spacer
                     padding-y: 30
@@ -724,6 +722,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: RUzPuKVG
                   values:
                     type: button
                     button_link: /anfrage
@@ -735,6 +734,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: GU2oUUf2
                   values:
                     type: spacer
                     padding-y: 30
@@ -1221,6 +1221,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: CiKOhjKu
                   values:
                     type: blog_entries
                     entries:
@@ -1299,7 +1300,7 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665584027
+updated_at: 1670859727
 meta_title: 'Examensarbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Examensarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Examensarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 use_meta_keywords: false
@@ -1316,6 +1317,5 @@ sitemap_active: true
 page_title: 'Examensarbeit schreiben lassen • Ghostwriter von GWriters'
 alternative_page_title: 'Examensarbeit schreiben lassen'
 arbeitsgruppe: a_abschlussarbeiten
-published: true
 breadcrumbs_active: true
 ---
