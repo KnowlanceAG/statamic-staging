@@ -42,40 +42,48 @@ teaser:
   -
     type: set
     attrs:
+      id: XHzfH2Ba
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: E2vM1x6j
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: nOjOhaK8
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: pdI1rYsB
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
             tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
+            id: 0hFrTM7S
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: J92vOZs9
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: l68q5OM9
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: 1M2bmX1k
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -85,6 +93,7 @@ teaser:
   -
     type: set
     attrs:
+      id: ddsYV6UN
       values:
         type: spacer
         padding-y: 20
@@ -130,7 +139,7 @@ page_title: 'Medienwissenschaft Ghostwriter & Lektoren • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1667230493
+updated_at: 1670859477
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -139,10 +148,13 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
   -
+    id: IsWT8tVD
     columns_replicator:
       -
+        id: GaIIlp2b
         grid:
           -
+            id: 9LzdIQik
             bard:
               -
                 type: paragraph
@@ -190,6 +202,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: yLbICxNe
                   values:
                     type: show_sidebar_mobile
                     custom_sidebar_placement: 'on'
@@ -355,9 +368,11 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: 5e7XyS14
         columns_per_row: 3
         grid:
           -
+            id: MMI88oDT
             bard:
               -
                 type: paragraph
@@ -443,6 +458,7 @@ replicator:
                     type: hard_break
             show_as_card: false
           -
+            id: xiKpiAyT
             bard:
               -
                 type: paragraph
@@ -511,6 +527,7 @@ replicator:
                 type: paragraph
             show_as_card: false
           -
+            id: v5FJo1I8
             bard:
               -
                 type: paragraph
@@ -560,9 +577,11 @@ replicator:
         single_col: true
         responsive_columns: 0
       -
+        id: bgPUihdD
         single_col: true
         grid:
           -
+            id: KlvEj1CM
             bard:
               -
                 type: heading
@@ -575,10 +594,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: EKKcuOyq
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: XNXWbheR
                         text: Arbeiten
                         eintraege:
                           - 68b88fd1-ec03-4ea8-9292-431555e47744
@@ -600,6 +621,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: SUgqkz9J
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -629,6 +651,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: qkFiywac
                   values:
                     type: floating_img
                     dateien:
@@ -684,39 +707,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Das Studium im Fachbereich der Medienwissenschaften ist neben Fachhochschulen, oftmals nur an Hochschulen möglich. Da es sich bei dem '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/medienwissenschaften-studiengang
-                          target: null
-                          rel: null
-                    text: 'Studiengang Medienwissenschaften'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' nicht um einen betriebswirtschaftlichen Studiengang handelt, findet man diesen Studiengang häufig an philosophischen oder sozialwissenschaftlichen Hochschulen. In Deutschland dauern ein Bachelorstudiengang in der Regelzeit sechs und ein Masterstudiengang vier Semester.'
+                    text: 'Das Studium im Fachbereich der Medienwissenschaften ist neben Fachhochschulen, oftmals nur an Hochschulen möglich. Da es sich bei dem Studiengang Medienwissenschaften nicht um einen betriebswirtschaftlichen Studiengang handelt, findet man diesen Studiengang häufig an philosophischen oder sozialwissenschaftlichen Hochschulen. In Deutschland dauern ein Bachelorstudiengang in der Regelzeit sechs und ein Masterstudiengang vier Semester.'
               -
                 type: paragraph
                 content:
@@ -1236,6 +1227,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'Medienwissenschaften Ghostwriter'
-published: true
 breadcrumbs_active: true
 ---
