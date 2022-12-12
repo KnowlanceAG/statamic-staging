@@ -37,6 +37,7 @@ teaser:
   -
     type: set
     attrs:
+      id: ApQCubKf
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -48,6 +49,7 @@ teaser:
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 replicator:
   -
+    id: 22D4ml6p
     bard:
       -
         type: paragraph
@@ -67,6 +69,7 @@ replicator:
       -
         type: set
         attrs:
+          id: 5xNFbqlh
           values:
             type: bilder
             assets:
@@ -120,20 +123,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Als Hinweis gilt: Die Verteidigung gleicht keiner Rechtfertigung, sondern gilt als Fachgespräch im Bezug auf Ihre wissenschaftlich fundierten Bezugsquellen. Wie sich ein solches Gespräch umsetzen lässt, können Sie in einem '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/gwriters-coaching
-                  target: null
-                  rel: null
-            text: 'professionellen Coaching'
-          -
-            type: text
-            text: ' erfahren.'
+            text: 'Als Hinweis gilt: Die Verteidigung gleicht keiner Rechtfertigung, sondern gilt als Fachgespräch im Bezug auf Ihre wissenschaftlich fundierten Bezugsquellen. Wie sich ein solches Gespräch umsetzen lässt, können Sie in einem professionellen Coaching erfahren.'
       -
         type: heading
         attrs:
@@ -151,7 +141,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656436678
+updated_at: 1670881703
 downloads:
   - akademie/Praesentation.pptx
 from_the_blog:
@@ -171,8 +161,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 more_templates:
   - 56a76afe-cd5a-4ab4-91c3-39b2b98ffe32
   - b609ef85-dc84-4405-93d0-1b92d92ca1a4
