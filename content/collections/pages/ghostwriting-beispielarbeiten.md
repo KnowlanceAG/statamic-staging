@@ -37,40 +37,48 @@ teaser:
   -
     type: set
     attrs:
+      id: Vr9snaUg
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: kMF6jQZE
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: m8Dso00a
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: d0INkxJl
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: Ci5Gdmku
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: 2QtFqwa0
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: j0QRxeMH
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: 96RTHtYe
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -80,6 +88,7 @@ teaser:
   -
     type: set
     attrs:
+      id: xJmH29ky
       values:
         type: spacer
         padding-y: 20
@@ -123,9 +132,10 @@ teaser:
 teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 page_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665571984
+updated_at: 1670862401
 replicator:
   -
+    id: ygwBHZhL
     bard:
       -
         type: paragraph
@@ -499,6 +509,7 @@ replicator:
       -
         type: set
         attrs:
+          id: g0F5UNkU
           values:
             type: example_work
             ex_img_right: true
@@ -516,6 +527,7 @@ replicator:
       -
         type: set
         attrs:
+          id: U9BIn8uK
           values:
             type: example_work
             ex_img_right: false
@@ -534,6 +546,7 @@ replicator:
       -
         type: set
         attrs:
+          id: HZ8gBqDq
           values:
             type: example_work
             ex_img_right: true
@@ -552,6 +565,7 @@ replicator:
       -
         type: set
         attrs:
+          id: d6O40wFe
           values:
             type: example_work
             ex_img_right: false
@@ -570,6 +584,7 @@ replicator:
       -
         type: set
         attrs:
+          id: NnoAipdr
           values:
             type: example_work
             ex_img_right: true
@@ -588,6 +603,7 @@ replicator:
       -
         type: set
         attrs:
+          id: RoLYoJyK
           values:
             type: example_work
             ex_img_right: false
@@ -606,6 +622,7 @@ replicator:
       -
         type: set
         attrs:
+          id: 8oOOVSLa
           values:
             type: example_work
             ex_img_right: true
@@ -624,6 +641,7 @@ replicator:
       -
         type: set
         attrs:
+          id: 4wFBDHxW
           values:
             type: example_work
             ex_img_right: false
@@ -642,6 +660,7 @@ replicator:
       -
         type: set
         attrs:
+          id: 7jxIb4FX
           values:
             type: example_work
             ex_img_right: true
@@ -673,6 +692,5 @@ og_title: 'Ghostwriting Beispielarbeiten - So schreiben unsere Ghostwriter'
 og_description: 'Fach-, Haus- und Seminararbeit Beispiel: Was erwartet Sie beim Ghostwriting? Überzeugen Sie sich jetzt anhand unserer kostenlosen Muster!'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---
