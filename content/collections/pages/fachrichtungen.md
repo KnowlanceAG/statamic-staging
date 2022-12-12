@@ -44,40 +44,48 @@ teaser:
   -
     type: set
     attrs:
+      id: 5tWpslZi
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: iql5KDJG
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: 5bCBncn2
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: G0tKp3Pt
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: 04Xu9US3
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: kwQu9jbo
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: 4xY9tiqd
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: EjllJMK6
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -87,6 +95,7 @@ teaser:
   -
     type: set
     attrs:
+      id: yTpOEVrm
       values:
         type: spacer
         padding-y: 20
@@ -132,7 +141,7 @@ page_title: 'Fachrichtungen • GWriters.de'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665655490
+updated_at: 1670861868
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -141,11 +150,14 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
   -
+    id: qR0Q1nCz
     columns_replicator:
       -
+        id: T13DTl65
         single_col: false
         grid:
           -
+            id: euV2LN9r
             bard:
               -
                 type: heading
@@ -281,9 +293,11 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: kDS1scua
         columns_per_row: 3
         grid:
           -
+            id: Zyd5NWVF
             bard:
               -
                 type: paragraph
@@ -368,6 +382,7 @@ replicator:
                     text: "\_"
             show_as_card: false
           -
+            id: 54i947qn
             bard:
               -
                 type: paragraph
@@ -437,6 +452,7 @@ replicator:
                     text: Plagiatsprüfung
             show_as_card: false
           -
+            id: d1IobJzg
             bard:
               -
                 type: paragraph
@@ -486,9 +502,11 @@ replicator:
         single_col: false
         responsive_columns: 0
       -
+        id: SYR6UWho
         single_col: false
         grid:
           -
+            id: 1X9fBtB8
             bard:
               -
                 type: heading
@@ -501,10 +519,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: MJsm7Ug6
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: rAMWw5cp
                         text: Arbeiten
                         eintraege:
                           - b6ee03ca-ecab-4749-ade4-45ff821b748d
@@ -708,6 +728,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Yo9joXvS
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -907,6 +928,5 @@ og_title: 'Fachrichtungen • GWriters.de'
 og_description: 'Akademische Ghostwriter von GWriters Ihnen in verschiedenen Fachbereichen akademisches Ghostwriting, Schreibunterstützung, Lektorat, Korrektorate und Coachings von erfahrenen & geprüften Ghostwritern ✅'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---
