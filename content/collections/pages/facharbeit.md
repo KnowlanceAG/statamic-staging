@@ -50,40 +50,48 @@ teaser:
   -
     type: set
     attrs:
+      id: y01l8oKU
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: Tu6GpqT4
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: OsaqDccw
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz & 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR & garantieren Ihre Anonymität zu 100%.'
           -
+            id: WFwhWJED
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen & kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig [Teillieferung](/blog/ghostwriting-gwriters-teillieferungen) und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
+            id: MTzosymR
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle & pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter & finaler Form.'
           -
+            id: VOb7jt3E
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: bgO9PswG
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: prTs7Y9C
       values:
         type: button
         button_link: /anfrage
@@ -93,6 +101,7 @@ teaser:
   -
     type: set
     attrs:
+      id: dRKLr574
       values:
         type: spacer
         padding-y: 20
@@ -136,15 +145,19 @@ teaser:
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
+    id: PcGbdtQQ
     columns_replicator:
       -
+        id: YK70m1eY
         single_col: true
         grid:
           -
+            id: SMVZLHAH
             bard:
               -
                 type: set
                 attrs:
+                  id: MdLcHDiO
                   values:
                     type: insert_html
                     html: |-
@@ -154,6 +167,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: BZnsuMRq
                   values:
                     type: spacer
                     padding-y: 30
@@ -168,11 +182,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: pPMzvOb9
     columns_replicator:
       -
+        id: C0oVJJXb
         single_col: false
         grid:
           -
+            id: P5iY2kVS
             bard:
               -
                 type: heading
@@ -225,6 +242,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: G3ZmtjIA
                   values:
                     type: insert_html
                     html: |-
@@ -247,11 +265,14 @@ replicator:
     enabled: true
     bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
   -
+    id: 54htRSge
     columns_replicator:
       -
+        id: 7S7JjixC
         single_col: true
         grid:
           -
+            id: mJwqTa21
             bard:
               -
                 type: heading
@@ -407,9 +428,11 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: QU4RHR3Y
         single_col: true
         grid:
           -
+            id: tePVPSg2
             bard:
               -
                 type: heading
@@ -422,6 +445,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 9YVfw2q1
                   values:
                     type: spacer
                     padding-y: 15
@@ -431,16 +455,19 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: 63lirD2h
         columns_per_row: 4
         single_col: true
         grid:
           -
+            id: lSd1mBVW
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: rEpRtE2Z
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/security.svg
@@ -448,6 +475,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: C89VlGuS
                   values:
                     type: spacer
                     padding-y: 10
@@ -478,17 +506,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Qb5Kpg9p
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
           -
+            id: ja2bnomq
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: lIrUYKoQ
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
@@ -496,6 +527,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: VTq6jJXp
                   values:
                     type: spacer
                     padding-y: 10
@@ -523,17 +555,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 3MonAGz1
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
           -
+            id: MBidNxtl
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: 1Jxa1Wf4
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/stopwatch.svg
@@ -541,6 +576,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: fpsvvdSV
                   values:
                     type: spacer
                     padding-y: 10
@@ -593,17 +629,20 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: BwiTV5fQ
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
           -
+            id: 6YVLoDeH
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: C1q27xyj
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/magistrate.svg
@@ -611,6 +650,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: vcaEIXXp
                   values:
                     type: spacer
                     padding-y: 10
@@ -641,6 +681,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 3HJlrEBr
                   values:
                     type: spacer
                     padding-y: 10
@@ -654,11 +695,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: f46zQaAG
     columns_replicator:
       -
+        id: lQrE8O3j
         single_col: false
         grid:
           -
+            id: tsnbTyMy
             bard:
               -
                 type: heading
@@ -701,24 +745,29 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: QNoXsDrH
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: P4u24eKK
             bard:
               -
                 type: set
                 attrs:
+                  id: FXNwqBj1
                   values:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo.-Fr. 9:00-18:00'
             show_as_card: true
           -
+            id: k7qLUJma
             bard:
               -
                 type: set
                 attrs:
+                  id: 79uDy7sI
                   values:
                     type: spacer
                     padding-y: 12
@@ -737,6 +786,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: CZlMfyvS
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -746,6 +796,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Xh3m8eMP
                   values:
                     type: spacer
                     padding-y: 10
@@ -761,11 +812,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: 6MQ3nXI5
     columns_replicator:
       -
+        id: BXSJYbie
         single_col: true
         grid:
           -
+            id: KXdwLBz7
             bard:
               -
                 type: heading
@@ -987,12 +1041,15 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: Mg0KPaaT
     columns_replicator:
       -
+        id: nO2uk4an
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: dHj1p8i9
             bard:
               -
                 type: heading
@@ -1072,10 +1129,12 @@ replicator:
                     type: hard_break
             show_as_card: false
           -
+            id: Vmo3AtKn
             bard:
               -
                 type: set
                 attrs:
+                  id: Gazks1E4
                   values:
                     type: video
                     video: 'https://youtu.be/OZ8ZEHZkeb0'
@@ -1091,11 +1150,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: tDlT2K86
     columns_replicator:
       -
+        id: 6PTlf6l8
         single_col: true
         grid:
           -
+            id: QqIFjofL
             bard:
               -
                 type: heading
@@ -1113,10 +1175,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 8BCLEz26
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: TQZsubwW
                         text: Fachrichtungen
                         eintraege:
                           - a66a5239-e3b6-4216-9286-fbd0c5b5d98b
@@ -1153,6 +1217,7 @@ replicator:
                           - fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
                           - 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
                       -
+                        id: aWNfIIOo
                         text: Arbeiten
                         eintraege:
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
@@ -1179,11 +1244,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: HDjBP718
     columns_replicator:
       -
+        id: vuDiF3ke
         single_col: true
         grid:
           -
+            id: GxfnzXUv
             bard:
               -
                 type: heading
@@ -1259,6 +1327,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: kJy99kKE
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -1269,6 +1338,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: UUmmr345
                   values:
                     type: spacer
                     padding-y: 40
@@ -1283,11 +1353,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: OK5xBLxq
     columns_replicator:
       -
+        id: 8FhICerE
         single_col: false
         grid:
           -
+            id: xbEkLrxH
             bard:
               -
                 type: heading
@@ -1459,14 +1532,17 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: oNKBGYKE
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: Bbn4j6ai
             bard:
               -
                 type: set
                 attrs:
+                  id: QgMOCdCz
                   values:
                     type: example_work
                     ex_img_right: false
@@ -1484,10 +1560,12 @@ replicator:
                     ex_button_align: justify-start
             show_as_card: false
           -
+            id: BMBC4sAY
             bard:
               -
                 type: set
                 attrs:
+                  id: 7AlGH4XY
                   values:
                     type: spacer
                     padding-y: 20
@@ -1507,6 +1585,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: ahdrsHwl
                   values:
                     type: floating_img
                     dateien:
@@ -1559,11 +1638,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: sWT3euXW
     columns_replicator:
       -
+        id: W0GjtZMM
         single_col: true
         grid:
           -
+            id: 271zeWDZ
             bard:
               -
                 type: heading
@@ -1588,12 +1670,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: ivapQmM2
                   values:
                     type: spacer
                     padding-y: 10
               -
                 type: set
                 attrs:
+                  id: 8k9u60us
                   values:
                     type: img_text_ce
                     bild:
@@ -1607,12 +1691,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: yZL6nGhp
                   values:
                     type: spacer
                     padding-y: 1
               -
                 type: set
                 attrs:
+                  id: xz29HRZf
                   values:
                     type: img_text_ce
                     bild:
@@ -1626,12 +1712,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: i1wUdp1n
                   values:
                     type: spacer
                     padding-y: 1
               -
                 type: set
                 attrs:
+                  id: fPhLpvWF
                   values:
                     type: img_text_ce
                     bild:
@@ -1645,12 +1733,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: MVR4EfJM
                   values:
                     type: spacer
                     padding-y: 1
               -
                 type: set
                 attrs:
+                  id: egtAuYhj
                   values:
                     type: img_text_ce
                     bild:
@@ -1664,12 +1754,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 6PJh5nPo
                   values:
                     type: spacer
                     padding-y: 20
               -
                 type: set
                 attrs:
+                  id: ZC0BIcBn
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -1688,11 +1780,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: xGbQPCU6
     columns_replicator:
       -
+        id: S27nvsp0
         single_col: false
         grid:
           -
+            id: ecipiaB5
             bard:
               -
                 type: heading
@@ -1713,16 +1808,19 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: Df2NZ9te
         columns_per_row: 3
         single_col: false
         grid:
           -
+            id: 7ajSDGSv
             bard:
               -
                 type: paragraph
               -
                 type: set
                 attrs:
+                  id: ddg2aLPV
                   values:
                     type: floating_img
                     dateien:
@@ -1770,15 +1868,18 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: c9he59xH
                   values:
                     type: spacer
                     padding-y: 15
             show_as_card: false
           -
+            id: 3quwwdXE
             bard:
               -
                 type: set
                 attrs:
+                  id: y7OX1WWM
                   values:
                     type: floating_img
                     dateien:
@@ -1826,15 +1927,18 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 3KPdzUN9
                   values:
                     type: spacer
                     padding-y: 15
             show_as_card: false
           -
+            id: ddpJ19z2
             bard:
               -
                 type: set
                 attrs:
+                  id: oqPbXjh5
                   values:
                     type: floating_img
                     dateien:
@@ -1882,6 +1986,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: rk8llpwl
                   values:
                     type: spacer
                     padding-y: 15
@@ -1890,13 +1995,16 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
+        id: YxkRTwGy
         single_col: false
         grid:
           -
+            id: jpxWHLbS
             bard:
               -
                 type: set
                 attrs:
+                  id: f8kLLuTU
                   values:
                     type: spacer
                     padding-y: 30
@@ -1912,11 +2020,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: PfVKXJvY
     columns_replicator:
       -
+        id: 3XwVFv6C
         single_col: true
         grid:
           -
+            id: fhmWVcRO
             bard:
               -
                 type: heading
@@ -2017,11 +2128,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: mfcMgtQM
     columns_replicator:
       -
+        id: HIfe1ylb
         single_col: true
         grid:
           -
+            id: hBFl49om
             bard:
               -
                 type: heading
@@ -2230,11 +2344,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: 8vuU830m
     columns_replicator:
       -
+        id: eBrRoRN9
         single_col: true
         grid:
           -
+            id: fb2YC8tf
             bard:
               -
                 type: heading
@@ -2308,12 +2425,15 @@ replicator:
     enabled: true
     bg_color: '#F9F9F9'
   -
+    id: 52bzwINo
     columns_replicator:
       -
+        id: l5gi4XQV
         columns_per_row: 2
         single_col: true
         grid:
           -
+            id: 0kjTCw4D
             bard:
               -
                 type: heading
@@ -2554,6 +2674,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: g0e6lXgv
                   values:
                     type: spacer
                     padding-y: 48
@@ -2561,6 +2682,7 @@ replicator:
                 type: paragraph
             show_as_card: true
           -
+            id: MeyXFlRs
             bard:
               -
                 type: heading
@@ -2666,11 +2788,14 @@ replicator:
     enabled: true
     bg_color: '#F9F9F9'
   -
+    id: tnjDLp62
     columns_replicator:
       -
+        id: AejMe5zt
         single_col: true
         grid:
           -
+            id: mXx9EdIV
             bard:
               -
                 type: heading
@@ -2712,6 +2837,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: cUfVkgOg
                   values:
                     type: blog_entries
                     entries:
@@ -2821,7 +2947,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665584213
+updated_at: 1670860059
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2873,6 +2999,5 @@ schema_objects: |-
   </script>
 sitemap_active: true
 alternative_page_title: 'Facharbeit schreiben lassen'
-published: true
 breadcrumbs_active: true
 ---
