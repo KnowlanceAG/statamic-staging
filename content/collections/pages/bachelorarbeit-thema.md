@@ -37,40 +37,48 @@ teaser:
   -
     type: set
     attrs:
+      id: triSsedV
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: xRYVLCiR
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: cqAlA9Zy
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: gEzbnB8V
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
-            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
+            tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
+            id: UpvFLsRL
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: vPOXudvR
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: y3Tjlera
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: 1Rfv4zXp
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -80,6 +88,7 @@ teaser:
   -
     type: set
     attrs:
+      id: G9Er5Oo8
       values:
         type: spacer
         padding-y: 20
@@ -123,6 +132,7 @@ teaser:
 teaser_bg: blog/header-so-funktionierts-1024x138.jpg
 replicator:
   -
+    id: 23N0YR7w
     bard:
       -
         type: paragraph
@@ -240,6 +250,7 @@ replicator:
       -
         type: set
         attrs:
+          id: evcVOj7E
           values:
             type: button
             button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -2072,6 +2083,7 @@ replicator:
       -
         type: set
         attrs:
+          id: pjH1fS8d
           values:
             type: button
             button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -2116,6 +2128,7 @@ replicator:
       -
         type: set
         attrs:
+          id: eetmDhiB
           values:
             type: bilder
             assets:
@@ -2209,6 +2222,7 @@ replicator:
       -
         type: set
         attrs:
+          id: onesfuaT
           values:
             type: bilder
             assets:
@@ -2382,6 +2396,7 @@ replicator:
       -
         type: set
         attrs:
+          id: 1I6bJzM8
           values:
             type: bilder
             assets:
@@ -2559,6 +2574,7 @@ replicator:
       -
         type: set
         attrs:
+          id: mS13VcaG
           values:
             type: bilder
             assets:
@@ -2684,6 +2700,7 @@ replicator:
       -
         type: set
         attrs:
+          id: MLilvKFK
           values:
             type: bilder
             assets:
@@ -2729,6 +2746,7 @@ replicator:
       -
         type: set
         attrs:
+          id: Mx9YNNB6
           values:
             type: bilder
             assets:
@@ -2780,6 +2798,7 @@ replicator:
       -
         type: set
         attrs:
+          id: Vxl6hn0l
           values:
             type: button
             button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -2905,6 +2924,7 @@ replicator:
       -
         type: set
         attrs:
+          id: 17xeJFM9
           values:
             type: bilder
             assets:
@@ -3078,6 +3098,7 @@ replicator:
       -
         type: set
         attrs:
+          id: rD7vhzvC
           values:
             type: bilder
             assets:
@@ -3175,6 +3196,7 @@ replicator:
       -
         type: set
         attrs:
+          id: Zv6Gdslo
           values:
             type: bilder
             assets:
@@ -3416,6 +3438,7 @@ replicator:
       -
         type: set
         attrs:
+          id: V1dxkMyr
           values:
             type: bilder
             assets:
@@ -3461,6 +3484,7 @@ replicator:
       -
         type: set
         attrs:
+          id: x8yYvpe0
           values:
             type: bilder
             assets:
@@ -3588,6 +3612,7 @@ replicator:
       -
         type: set
         attrs:
+          id: 0xRgPbX4
           values:
             type: bilder
             assets:
@@ -3629,6 +3654,7 @@ replicator:
       -
         type: set
         attrs:
+          id: B1GWe7Jb
           values:
             type: bilder
             assets:
@@ -3961,7 +3987,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665572129
+updated_at: 1670862462
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -3976,6 +4002,5 @@ og_title: '75 Kostenlose Themenvorschläge für Ihre Bachelorarbeit von GWriters
 og_description: 'Sie haben noch keine Idee für Ihr Bachleorarbeit-Thema im Fachbereich BWL? Wir haben für Sie die aktuellen und wissenschaftlichen BWL-Themen ausgesucht!'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---
