@@ -4,8 +4,8 @@ blueprint: akademie
 title: 'Akademisches Ghostwriting'
 academy_teaser_headline: 'Akademisches Ghostwriting von GWriters'
 academy_teaser_text: 'Finden Sie in dieser Kategorie alles zum akademischen Ghostwriting, angefangen von unseren internen Prozessen, die Ihnen einen reibungslosen Auftragsablauf und jederzeit höchste Qualität Ihrer wissenschaftlichen Arbeit garantiert, bis hin zu interessanten und wissenswerten Informationen über unsere akademischen Ghostwriter und Ghostwriting Erfahrungen.'
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1658842174
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1670882816
 teaser:
   -
     type: heading
@@ -52,11 +52,10 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 template: academy-item-long
 replicator:
   -
+    id: c3H3vBrv
     bard:
       -
         type: heading
@@ -143,20 +142,7 @@ replicator:
             text: 'Video "3 Tage bis zur Abgabe - Ghostwriting im Notfall"'
           -
             type: text
-            text: ' zeigt. Auch wenn der Zeitrahmen knapp ist, schaffen wir es bei GWriters Ihnen jederzeit ein qualitatives Werk zu liefern, das allen akademischen Ansprüchen gerecht wird. Sollten Sie nicht erst zum Ende, sondern bereits zu Beginn Ihres Projekts Unterstützung suchen, dann kann Ihnen einer unserer akademischen Ghostwriter bereits ab der Themenfindung als professioneller Coach zur Seite stehen. Mehr zum möglichen Ablauf eines solchen Coachings finden Sie ebenfalls in hier in unseren '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/gwriters-coaching
-                  target: null
-                  rel: null
-            text: Videos
-          -
-            type: text
-            text: .
+            text: ' zeigt. Auch wenn der Zeitrahmen knapp ist, schaffen wir es bei GWriters Ihnen jederzeit ein qualitatives Werk zu liefern, das allen akademischen Ansprüchen gerecht wird. Sollten Sie nicht erst zum Ende, sondern bereits zu Beginn Ihres Projekts Unterstützung suchen, dann kann Ihnen einer unserer akademischen Ghostwriter bereits ab der Themenfindung als professioneller Coach zur Seite stehen.'
       -
         type: paragraph
         content:
@@ -192,6 +178,7 @@ replicator:
       -
         type: set
         attrs:
+          id: 7csgvW9w
           values:
             type: bilder
             assets:
@@ -200,6 +187,7 @@ replicator:
       -
         type: set
         attrs:
+          id: VXDCi8f9
           values:
             type: blog_entries
             entries:
