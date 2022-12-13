@@ -35,6 +35,7 @@ teaser:
   -
     type: set
     attrs:
+      id: WKplvGAg
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -45,6 +46,7 @@ teaser:
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 replicator:
   -
+    id: bTwmP4C6
     bard:
       -
         type: heading
@@ -98,7 +100,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/literaturrecherche-wissenschaftliche-quellen
+                  href: /blog/literaturrecherche-datenbanken-quellen
                   target: null
                   rel: null
             text: 'einzelnen Schritte der Literaturrecherche'
@@ -167,6 +169,7 @@ replicator:
       -
         type: set
         attrs:
+          id: ufQw4JRq
           values:
             type: bilder
             assets:
@@ -175,6 +178,7 @@ replicator:
       -
         type: set
         attrs:
+          id: ICCFGfmw
           values:
             type: blog_entries
             entries:
@@ -193,8 +197,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1658842332
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1670941000
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -202,8 +206,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'GWriters • Expertentipps zum Schreiben Ihrer wissenschaftlichen Arbeit'
 academy_short_text_headline: 'Expertentipps von GWriters'
 academy_short_text: 'Unsere Expertentipps kommen Ihnen dann gelegen, wenn Sie in unseren anderen Kategorien keine Antworten auf Ihre Fragen finden konnten. Diese können in jeder Phase Ihrer Abschlussarbeit angewandt werden und bieten Ihnen auch in sehr schwierigen Situation zielgerichtete Lösungsmöglichkeiten an.'
