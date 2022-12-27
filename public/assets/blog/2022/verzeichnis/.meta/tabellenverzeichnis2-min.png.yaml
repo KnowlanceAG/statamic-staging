@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'tabellen beschriftung word'
 size: 45336
 last_modified: 1672083753
 width: 1910
