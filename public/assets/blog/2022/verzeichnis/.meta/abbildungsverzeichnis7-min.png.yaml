@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'abbildung word beschriften'
 size: 76433
 last_modified: 1672079613
 width: 1922
