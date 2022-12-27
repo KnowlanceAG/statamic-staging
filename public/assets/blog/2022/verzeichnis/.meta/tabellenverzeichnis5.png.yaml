@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'word tabellenverzeichnis einfügen'
 size: 119006
 last_modified: 1672093750
 width: 1904
