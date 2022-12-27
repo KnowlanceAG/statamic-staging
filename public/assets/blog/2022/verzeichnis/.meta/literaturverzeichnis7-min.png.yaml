@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'automatisches Literaturverzeichnis aktualisieren'
 size: 41920
 last_modified: 1672136300
 width: 1900
