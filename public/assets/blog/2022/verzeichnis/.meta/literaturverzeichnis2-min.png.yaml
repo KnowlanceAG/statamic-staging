@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'automatisches literaturverzeichnis buch'
 size: 41503
 last_modified: 1672133316
 width: 1912
