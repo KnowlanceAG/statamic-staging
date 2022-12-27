@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'word automatisches literaturverzeichnis:'
 size: 42666
 last_modified: 1672133327
 width: 1914
