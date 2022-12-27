@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'literaturverzeichnis automatisch erstellen'
 size: 40728
 last_modified: 1672133312
 width: 1910
