@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'automatisches inhaltsverzeichnis formatieren'
 size: 52898
 last_modified: 1672068967
 width: 1850
