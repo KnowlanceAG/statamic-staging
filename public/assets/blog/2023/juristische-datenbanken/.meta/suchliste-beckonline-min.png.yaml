@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'beck online datenbank'
 size: 60583
 last_modified: 1672914552
 width: 929
