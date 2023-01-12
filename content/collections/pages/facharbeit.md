@@ -860,31 +860,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: ', können Sie ein '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/gwriters-coaching
-                          target: null
-                          rel: null
-                    text: Coaching
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' durch einen '
+                    text: ', können Sie ein Coaching durch einen '
                   -
                     type: text
                     marks:
@@ -2947,7 +2923,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670861113
+updated_at: 1670877420
 template: default
 use_meta_keywords: false
 no_index_page: false

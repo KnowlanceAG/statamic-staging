@@ -698,7 +698,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.maxqda.de/warum-maxqda'
+                          href: 'https://www.maxqda.com/de/warum-maxqda'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: Herstellerseite
@@ -717,7 +717,7 @@ replicator:
     border: false
 parent: c2fb9a07-9fa3-4d2d-b1bd-279deee30ec0
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670860185
+updated_at: 1670878204
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false

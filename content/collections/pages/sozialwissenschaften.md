@@ -134,7 +134,7 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670862048
+updated_at: 1670877809
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -208,20 +208,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Das Studium der Sozialwissenschaften prägt ein hoher Leistungsdruck, ein großer Prüfungsdruck und eine Vielzahl von Klausuren. Sozialwissenschaftler müssen eine Vielzahl von Informationen aufnehmen und aufbereiten können. Gerade hier können Ghostwriter Sozialwissenschaften-Studenten unterstützen. Sie sind in der Lage schnell und umfassend aus einer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/wissenschaftliche-arbeiten
-                          target: null
-                          rel: null
-                    text: 'Vielzahl von Informationen, die relevanten Informationen zu destillieren und diese aufzubereiten'
-                  -
-                    type: text
-                    text: .
+                    text: 'Das Studium der Sozialwissenschaften prägt ein hoher Leistungsdruck, ein großer Prüfungsdruck und eine Vielzahl von Klausuren. Sozialwissenschaftler müssen eine Vielzahl von Informationen aufnehmen und aufbereiten können. Gerade hier können Ghostwriter Sozialwissenschaften-Studenten unterstützen. Sie sind in der Lage schnell und umfassend aus einer Vielzahl von Informationen, die relevanten Informationen zu destillieren und diese aufzubereiten.'
               -
                 type: set
                 attrs:
@@ -248,20 +235,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Im Studium der Sozialwissenschaften gilt interdisziplinäres Denken, da sich hier enge Verbindungen zu den Fachrichtungen Betriebswirtschaftslehre und Volkswirtschaftslehre finden. Vor allem hier können Sozialwissenschaften Ghostwriter Sie zusammen mit anderen unserer Ghostwriter in einem interdisziplinären Team unterstützen. Eine ideale Unterstützung durch einen Ghostwriter kann beispielsweise in Form von '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/gwriters-coaching
-                          target: null
-                          rel: null
-                    text: Coaching
-                  -
-                    type: text
-                    text: ' oder bei der'
+                    text: 'Im Studium der Sozialwissenschaften gilt interdisziplinäres Denken, da sich hier enge Verbindungen zu den Fachrichtungen Betriebswirtschaftslehre und Volkswirtschaftslehre finden. Vor allem hier können Sozialwissenschaften Ghostwriter Sie zusammen mit anderen unserer Ghostwriter in einem interdisziplinären Team unterstützen. Eine ideale Unterstützung durch einen Ghostwriter kann beispielsweise in Form von Coaching oder bei der'
                   -
                     type: text
                     marks:

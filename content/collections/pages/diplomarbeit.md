@@ -1008,7 +1008,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'http://www.ruhr-uni-bochum.de/imperia/md/content/asib/ws08_09/formatierungsvorgaben.pdf'
+                          href: 'https://www.ruhr-uni-bochum.de/imperia/md/content/asib/ws08_09/formatierungsvorgaben.pdf'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
                     text: 'Hilfestellungen zur Formatierung der Diplomarbeit/Masterarbeit - Ruhr Universität Bochum'
@@ -1038,7 +1038,7 @@ replicator:
     remove_spacing: false
     border: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670861075
+updated_at: 1670877613
 template: default
 use_meta_keywords: false
 no_index_page: false

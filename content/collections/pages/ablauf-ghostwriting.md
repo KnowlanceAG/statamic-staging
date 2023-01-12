@@ -4,6 +4,7 @@ blueprint: pages
 title: 'Wie ist der übliche Ablauf bei einem redaktionellen Auftrag?'
 replicator:
   -
+    id: eAucR38r
     bard:
       -
         type: heading
@@ -26,9 +27,10 @@ replicator:
       -
         type: set
         attrs:
+          id: hDrM1CmN
           values:
             type: spacer
-            padding-y: '16'
+            padding-y: 16
       -
         type: paragraph
       -
@@ -91,29 +93,7 @@ replicator:
                 type: textAlign
                 attrs:
                   align: start
-            text: "\_erhalten Sie ein unverbindliches Preisangebot. Wenn Sie uns den Auftrag erteilen, ist eine Anzahlung in Höhe von 50% zu leisten. Mit Auftragsbeginn erhalten Sie einen persönlichen Ansprechpartner in unserem Hause, mit dem Sie zunächst weitere Details der Arbeit sowie der zeitlichen Planung besprechen. Dieser erteilt Ihrem Auftrag auch eine individuelle ID, sodass wir alle Fragen und Absprachen, welche sich im Laufe der Bearbeitung ergeben, eindeutig zu Ihnen zuordnen können. In der Regel erstellen wir dann ein Exposé zur genauen Abstimmung der Gliederung sowie des inhaltlichen Ganges der Arbeit für Sie. Nach finaler Abstimmung folgen dann in Abhängigkeit des Umfangs die vereinbarten "
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-              -
-                type: link
-                attrs:
-                  href: /blog/ghostwriting-gwriters-teillieferungen
-                  target: null
-                  rel: null
-            text: Teillieferungen
-          -
-            type: text
-            marks:
-              -
-                type: textAlign
-                attrs:
-                  align: start
-            text: ', damit Sie stets mit dem aktuellen Stand des Auftrages vertraut sind und jederzeit Hinweise und Wünsche äußern können. Nach diesen Teillieferungen sind entsprechend weitere Teilzahlungen zu leisten. Wann diese Teillieferungen erfolgen sollen, stimmen wir mit Ihnen und Ihrem Autor gemeinsam ab, sodass für alle Parteien die optimalste Lösung gefunden wird.'
+            text: "\_erhalten Sie ein unverbindliches Preisangebot. Wenn Sie uns den Auftrag erteilen, ist eine Anzahlung in Höhe von 50% zu leisten. Mit Auftragsbeginn erhalten Sie einen persönlichen Ansprechpartner in unserem Hause, mit dem Sie zunächst weitere Details der Arbeit sowie der zeitlichen Planung besprechen. Dieser erteilt Ihrem Auftrag auch eine individuelle ID, sodass wir alle Fragen und Absprachen, welche sich im Laufe der Bearbeitung ergeben, eindeutig zu Ihnen zuordnen können. In der Regel erstellen wir dann ein Exposé zur genauen Abstimmung der Gliederung sowie des inhaltlichen Ganges der Arbeit für Sie. Nach finaler Abstimmung folgen dann in Abhängigkeit des Umfangs die vereinbarten Teillieferungen, damit Sie stets mit dem aktuellen Stand des Auftrages vertraut sind und jederzeit Hinweise und Wünsche äußern können. Nach diesen Teillieferungen sind entsprechend weitere Teilzahlungen zu leisten. Wann diese Teillieferungen erfolgen sollen, stimmen wir mit Ihnen und Ihrem Autor gemeinsam ab, sodass für alle Parteien die optimalste Lösung gefunden wird."
       -
         type: paragraph
         content:
@@ -185,8 +165,8 @@ replicator:
     type: editor
     enabled: true
 parent: cba20f34-32b1-472a-b3d9-03aca1df4a07
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655646416
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1670884446
 page_title: 'Wie ist der Ablauf bei einem redaktionellen Auftrag? • GWriters'
 template: without-teaser-with-sidebar
 meta_title: 'Wie ist der Ablauf bei einem redaktionellen Auftrag? • GWriters'
@@ -197,8 +177,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 og_title: 'Wie ist der Ablauf bei einem redaktionellen Auftrag? • GWriters'
 og_description: 'Erfahren Sie mehr über de Ablauf eines redaktionellen Auftrags bei GWriters.de. Von Anfrage und Angebot bis zum fertigen Text von der Ghostwriter Agentur.'
 og_image: GWriters-Logo.png

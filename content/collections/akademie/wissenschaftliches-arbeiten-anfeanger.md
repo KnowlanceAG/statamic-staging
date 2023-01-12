@@ -42,6 +42,7 @@ teaser:
   -
     type: set
     attrs:
+      id: 00Crrws1
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -52,6 +53,7 @@ teaser:
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 replicator:
   -
+    id: mE9gIflF
     bard:
       -
         type: heading
@@ -105,7 +107,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/hausarbeit-formatieren
+                  href: /blog/literaturquellen-richtig-zitieren
                   target: null
                   rel: null
             text: 'richtige Zitieren'
@@ -163,20 +165,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Antworten auf Ihre '
-          -
-            type: text
-            marks:
-              -
-                type: link
-                attrs:
-                  href: /blog/gwriters-coaching
-                  target: null
-                  rel: null
-            text: 'fachbezogenen Fragen'
-          -
-            type: text
-            text: ' erhalten Sie natürlich jederzeit von uns. Diese Kategorie ist für Einsteiger und alle Studenten interessant, die sich noch einmal gewisse Basics ansehen möchten. Ihnen wird dadurch verständlich, auf was es bei den Grundlagen des wissenschaftlichen Schreibens ankommt. Für fortgeschrittene Studenten und Wissenschaftlicher empfehlen wir hingegen unsere nächste Kategorie "'
+            text: 'Antworten auf Ihre fachbezogenen Fragen erhalten Sie natürlich jederzeit von uns. Diese Kategorie ist für Einsteiger und alle Studenten interessant, die sich noch einmal gewisse Basics ansehen möchten. Ihnen wird dadurch verständlich, auf was es bei den Grundlagen des wissenschaftlichen Schreibens ankommt. Für fortgeschrittene Studenten und Wissenschaftlicher empfehlen wir hingegen unsere nächste Kategorie "'
           -
             type: text
             marks:
@@ -193,6 +182,7 @@ replicator:
       -
         type: set
         attrs:
+          id: qumCrE0j
           values:
             type: bilder
             assets:
@@ -201,6 +191,7 @@ replicator:
       -
         type: set
         attrs:
+          id: x2FbIt5a
           values:
             type: blog_entries
             entries:
@@ -237,7 +228,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1656333920
+updated_at: 1670884367
 template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
@@ -245,8 +236,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'Tipps zum wissenschaftlichen Arbeiten für die erste Hausarbeit'
 academy_short_text_headline: 'Wissenschaftliches Arbeiten für Anfänger von Gwriters'
 academy_short_text: 'Mit Hilfe der Materialien, Artikel und Informationen aus unserer GWriters Akademie finden Sie sich schnell in jeden Themenbereich des wissenschaftlichen Schreibens ein. Besonders Anfänger sehen sich bei der ersten Hausarbeit großen Hürden gegenüber. Wir erklären Ihnen alles, was Sie für Ihren Start in ein erfolgreiches akademisches Studium benötigen.'

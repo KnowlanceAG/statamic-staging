@@ -141,7 +141,7 @@ page_title: 'Erziehungswissenschaften Ghostwriter, Lektoren & Coaches • GWrite
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670861926
+updated_at: 1670878009
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -173,7 +173,39 @@ replicator:
                         attrs:
                           color: 'rgb(68, 68, 68)'
                           hex: '#000'
-                    text: "Studenten der Erziehungswissenschaften beschäftigen sich mit zahlreichen wissenschaftlichen Arbeiten und Präsentationen und müssen für diese enorme Mengen an Literatur recherchieren und analysieren. Im Studium werden viele psychologische, statistische und empirische Inhalte behandelt. Im Gegensatz zu anderen Studiengängen, hat Erziehungswissenschaften einen starken Theoriebezug. Daher verursacht folgt aus dem Verfassen von wissenschaftlichen Texten und der Erstellung von Präsentationen ein hoher Zeit- und Arbeitsaufwand benötigt. So kommt es, dass Studenten der Erziehungswissenschaften Ghostwriter häufig\_"
+                    text: 'Studenten der Erziehungswissenschaften beschäftigen sich mit zahlreichen wissenschaftlichen Arbeiten und Präsentationen und müssen für diese enorme Mengen an Literatur recherchieren und analysieren. Im Studium werden viele psychologische, statistische und empirische Inhalte behandelt. Im Gegensatz zu anderen Studiengängen, hat Erziehungswissenschaften einen starken Theoriebezug. Daher verursacht folgt aus dem Verfassen von wissenschaftlichen Texten und der Erstellung von Präsentationen ein hoher Zeit- und Arbeitsaufwand benötigt. So kommt es, dass Studenten der Erziehungswissenschaften '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: 'rgb(68, 68, 68)'
+                          hex: '#000'
+                    text: " häufig\_"
                   -
                     type: text
                     marks:
@@ -1727,12 +1759,6 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /blog/ghostwriter-fachbereiche-besonderheiten
-                          target: null
-                          rel: null
                     text: 'akademisch ausgebildeten Ghostwriter'
                   -
                     type: text

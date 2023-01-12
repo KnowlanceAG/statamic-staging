@@ -35,6 +35,7 @@ teaser:
   -
     type: set
     attrs:
+      id: GFzFFXfr
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -45,6 +46,7 @@ teaser:
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
 replicator:
   -
+    id: h4sk3DEP
     bard:
       -
         type: heading
@@ -157,7 +159,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/empirische-bachelorarbeit-schreiben
+                  href: /blog/empirische-theoretische-bachelorarbeit
                   target: null
                   rel: null
             text: 'empirischen Bachelorarbeit'
@@ -167,6 +169,7 @@ replicator:
       -
         type: set
         attrs:
+          id: GyN1SEIg
           values:
             type: bilder
             assets:
@@ -175,6 +178,7 @@ replicator:
       -
         type: set
         attrs:
+          id: o6NgfNjz
           values:
             type: blog_entries
             entries:
@@ -217,8 +221,8 @@ replicator:
     show_as_card: false
     type: editor
     enabled: true
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1655727929
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1670883159
 template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
@@ -226,8 +230,6 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-override_twitter_card_settings: false
-twitter_card_type_page: summary
 page_title: 'Expertentipps zum wissenschaftlichen Arbeiten für Fortgeschrittene'
 academy_short_text_headline: 'Wissenschaftliches Arbeiten für Fortgeschrittene'
 academy_short_text: 'Diese Kategorie richtet sich vorrangig an Studenten und Doktoranden, die zum Beispiel Antworten auf gewisse Detailfragen zum Literaturverzeichnis oder Zitieren suchen oder einfach zur eigenen Wissensbildung beitragen möchten. Nach der Grundlage des wissenschaftlichen Schreibens sind tiefgreifendere Faktoren wichtig. Diese gehen wir im Folgenden intensiv an.'
