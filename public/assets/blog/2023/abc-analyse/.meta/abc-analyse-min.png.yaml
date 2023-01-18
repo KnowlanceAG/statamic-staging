@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'abc analyse einfach erklärt'
 size: 14522
 last_modified: 1674052604
 width: 512
