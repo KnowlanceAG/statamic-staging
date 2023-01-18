@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'abc analyse beispiel'
 size: 41389
 last_modified: 1674069070
 width: 886
