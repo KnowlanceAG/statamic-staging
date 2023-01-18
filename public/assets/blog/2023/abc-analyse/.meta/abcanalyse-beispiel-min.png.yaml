@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'abc analyse berechnen'
 size: 55939
 last_modified: 1674054723
 width: 1388
