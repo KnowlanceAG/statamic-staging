@@ -3,7 +3,7 @@ id: a016335c-333e-432d-838d-460350d21052
 blueprint: pages
 title: 'Das GWriters Stipendium'
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665571682
+updated_at: 1674127527
 teaser:
   -
     type: heading
@@ -26,6 +26,7 @@ teaser:
   -
     type: set
     attrs:
+      id: I4bTCyZ0
       values:
         type: text_box_alignment
         bard:
@@ -72,6 +73,7 @@ teaser:
   -
     type: set
     attrs:
+      id: riFKdkTS
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -81,13 +83,14 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
+    id: SMHcpE0S
     bard:
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Für das Studienjahr 2023 (Sommersemester 2023 und Wintersemester 2023/2024) vergibt GWriters erneut ein Stipendium für Studierende in Deutschland und in der Schweiz. Dieses private Stipendium hat zum Ziel, besonders begabte und engagierte Studierende bei dem Erreichen ihrer Ziele finanziell zu unterstützen, denn wir vertreten die Philosophie, dass jeder, unabhängig von seinen privaten, finanziellen oder gesellschaftlichen Hintergründen, die Chance auf Bildung verdient.'
+            text: 'Für das Studienjahr 2024 (Sommersemester 2024 und Wintersemester 2024/2025) vergibt GWriters erneut ein Stipendium für Studierende in Deutschland und in der Schweiz. Dieses private Stipendium hat zum Ziel, besonders begabte und engagierte Studierende bei dem Erreichen ihrer Ziele finanziell zu unterstützen, denn wir vertreten die Philosophie, dass jeder, unabhängig von seinen privaten, finanziellen oder gesellschaftlichen Hintergründen, die Chance auf Bildung verdient.'
       -
         type: paragraph
         content:
@@ -107,7 +110,7 @@ replicator:
         content:
           -
             type: text
-            text: 'Die Förderung wird in monatlichen Raten von 400 Euro über einen Zeitraum von 12 Monaten ausgezahlt und ist für die Deckung der Studiengebühren/Semesterbeiträge und Lebenshaltungskosten gedacht. Eine Verlängerung des Förderungszeitraums ist durch erneute Bewerbung im Folgejahr möglich. Beendet wird die Förderung jedoch in jedem Falle mit dem Abschluss des Studiums.'
+            text: 'Die Förderung wird in monatlichen Raten von 500 Euro über einen Zeitraum von 12 Monaten ausgezahlt und ist für die Deckung der Studiengebühren/Semesterbeiträge und Lebenshaltungskosten gedacht. Eine Verlängerung des Förderungszeitraums ist durch erneute Bewerbung im Folgejahr möglich. Beendet wird die Förderung jedoch in jedem Falle mit dem Abschluss des Studiums.'
       -
         type: heading
         attrs:
@@ -321,7 +324,7 @@ replicator:
             marks:
               -
                 type: bold
-            text: 31.12.2022
+            text: 31.12.2023
       -
         type: paragraph
       -
@@ -400,6 +403,5 @@ og_title: 'Das GWriters Stipendium • GWriters.de'
 og_description: 'Ihr Talent verdient Förderung! Unsere Ghostwriting Agentur unterstützt begabte und innovativ denkende Studierende mit unserem neuen GWriters Stipendium.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---
