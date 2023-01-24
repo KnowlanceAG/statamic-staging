@@ -134,7 +134,7 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1674555553
+updated_at: 1674557127
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1218,12 +1218,6 @@ replicator:
                         attrs:
                           color: blue
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: 'https://gwriters.de/blog/methoden-empirische-sozialforschung'
-                          target: null
-                          rel: null
                     text: "\_umfassendes Wissen aus vielen verschiedenen Forschungsbereichen"
                   -
                     type: text
@@ -1580,11 +1574,11 @@ replicator:
     bg_toggle: false
     bg_color: '#F9F9F9'
   -
-    id: lda33hmh
+    id: lda1s77a
     columns_replicator:
       -
-        id: lda33lnk
-        single_col: true
+        id: lda3yxbr
+        single_col: false
         grid:
           -
             id: pU3lc8Fr
@@ -1592,12 +1586,11 @@ replicator:
               -
                 type: set
                 attrs:
-                  id: lda33pz6
+                  id: lda3z7fv
                   values:
                     type: floating_img
                     dateien:
                       - seiten/fachrichtungen/sozialwissenschaften-gehalt-min.png
-                    float: mx-auto
               -
                 type: paragraph
             show_as_card: false
@@ -1605,16 +1598,6 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#F9F9F9'
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: lda1s77a
-    columns_replicator:
       -
         id: lda1s8jc
         single_col: false
@@ -1775,13 +1758,9 @@ replicator:
                     type: text
                     marks:
                       -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
                         type: textColor
                         attrs:
-                          color: '#000!important'
+                          color: black
                           hex: '#000'
                     text: 'Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.'
               -
@@ -1804,9 +1783,9 @@ replicator:
                   values:
                     type: blog_entries
                     entries:
-                      - be1aacde-86af-4b82-9a8b-10b05c6743b5
-                      - e74abe89-2a92-4e81-bb8f-e357cc66776a
-                      - e3607494-f5c6-43c1-833e-69ab509b9846
+                      - 859113ad-ca6c-4fb3-94c8-0c199d20d21a
+                      - b4766d79-74a5-49f3-8705-1f3611f86b95
+                      - dd125003-8750-440f-893a-a2a8a4c025eb
               -
                 type: heading
                 attrs:
