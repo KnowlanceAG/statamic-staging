@@ -135,7 +135,7 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1674551569
+updated_at: 1674551733
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1230,14 +1230,36 @@ replicator:
                     type: text
                     text: "\_mitbringen und dieses auch entsprechend zusammenführen zu können."
               -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lda0s6m8
+    columns_replicator:
+      -
+        id: lda0s8db
+        single_col: false
+        grid:
+          -
+            id: pU3lc8Fr
+            bard:
+              -
                 type: set
                 attrs:
-                  id: 8hIYvANs
+                  id: lda0sdm0
                   values:
-                    type: bilder
-                    assets:
+                    type: floating_img
+                    dateien:
                       - seiten/fachrichtungen/sozialwissenschaften-min.png
-                    has_border: false
               -
                 type: paragraph
             show_as_card: false
@@ -1248,6 +1270,7 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
+    bg_color: '#A8D5EA'
     border: false
     type: add_section
     enabled: true
