@@ -1,6 +1,5 @@
 ---
 id: 41b77eaa-2524-4ef0-b42f-720d7194b538
-published: false
 blueprint: pages
 title: 'Sozialwissenschaften (Dupliziert)'
 teaser:
@@ -135,7 +134,7 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1674552945
+updated_at: 1674552961
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
