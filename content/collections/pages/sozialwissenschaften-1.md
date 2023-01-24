@@ -134,7 +134,7 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1674552961
+updated_at: 1674553067
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -430,7 +430,7 @@ replicator:
     columns_replicator:
       -
         id: ld9zfmj8
-        single_col: false
+        single_col: true
         grid:
           -
             id: 3Ae5xeBt
@@ -707,7 +707,7 @@ replicator:
       -
         id: UznK4RLR
         columns_per_row: 2
-        single_col: false
+        single_col: true
         grid:
           -
             id: x9hjjSI5
@@ -949,7 +949,7 @@ replicator:
       -
         id: SjHtvzSx
         columns_per_row: 2
-        single_col: false
+        single_col: true
         grid:
           -
             id: StE9S7ZP
@@ -1278,7 +1278,7 @@ replicator:
     columns_replicator:
       -
         id: lda0xx1r
-        single_col: false
+        single_col: true
         grid:
           -
             id: pU3lc8Fr
@@ -1456,7 +1456,7 @@ replicator:
     columns_replicator:
       -
         id: lda11ppt
-        single_col: false
+        single_col: true
         grid:
           -
             id: pU3lc8Fr
@@ -1546,7 +1546,7 @@ replicator:
                     type: floating_img
                     dateien:
                       - seiten/fachrichtungen/fu-logo-2x-1fe8a5a6e1a843cb9244b9bf1f886d7d.png
-                    img_size: w-1/4
+                    img_size: w-1/2
               -
                 type: paragraph
             show_as_card: false
@@ -1561,7 +1561,7 @@ replicator:
                     type: floating_img
                     dateien:
                       - seiten/fachrichtungen/goehte-uni-logo.PNG
-                    img_size: w-1/4
+                    img_size: w-1/2
               -
                 type: paragraph
             show_as_card: false
