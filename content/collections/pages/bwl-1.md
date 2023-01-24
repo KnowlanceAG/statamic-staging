@@ -13,8 +13,6 @@ teaser:
         type: text
         marks:
           -
-            type: bold
-          -
             type: textAlign
             attrs:
               align: center
@@ -23,7 +21,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'BWL Ghostwriter'
+        text: 'Ghostwriter Sozialwissenschaften'
   -
     type: paragraph
     content:
@@ -36,12 +34,7 @@ teaser:
             type: textAlign
             attrs:
               align: center
-          -
-            type: textColor
-            attrs:
-              color: 'rgb(68, 68, 68)'
-              hex: '#000'
-        text: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Hilfe durch Experten und akademische Ghostwriter in Sozialwissenschaften– schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -142,7 +135,7 @@ page_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1673955755
+updated_at: 1674547928
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
