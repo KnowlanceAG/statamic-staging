@@ -134,7 +134,7 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1674567612
+updated_at: 1674568706
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -171,6 +171,181 @@ replicator:
     is_full: false
     border: false
     type: add_section
+    enabled: true
+  -
+    id: ldaao1ak
+    columns_replicator:
+      -
+        id: ldaao870
+        single_col: false
+        grid:
+          -
+            id: zAZZkR3y
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Überzeugen Sie sich von der Qualität unseres Ghostwriter'
+                  -
+                    type: hard_break
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: 'Services anhand unserer Kundenstimmen'
+              -
+                type: heading
+                attrs:
+                  level: 4
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: ldaasyyr
+        single_col: false
+        grid:
+          -
+            id: zAZZkR3y
+            bard:
+              -
+                type: set
+                attrs:
+                  id: ldaat51b
+                  values:
+                    type: insert_html
+                    html: |-
+                      <!-- ProvenExpert Bewertungssiegel -->
+                      <div id="pewl"></div>
+                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
+                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+                      <!-- ProvenExpert Bewertungssiegel Ende -->
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: true
+    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+    bg_image_fixed: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: ldaavj13
+    bard:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: "Ein Studium der Sozialwissenschaften ist ein sehr interessantes, vielfältiges und abwechslungsreiches Studium. Das zeigt sich insbesondere darin, dass die Berufschancen danach sehr hoch sind. Aufgrund der hohen Anzahl von Absolventen in dieser Fachrichtung ist für eine sozialwissenschaftliche Karriere ein hervorragender Abschluss besonders wichtig, um sich von konkurrierenden Absolventen abzusetzen. Um die eigenen Chancen auf einen guten Abschluss zu steigern, werden im Fach der Sozialwissenschaften\_"
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /ghostwriter
+                  target: null
+                  rel: null
+            text: 'Ghostwriter beauftragt'
+          -
+            type: text
+            text: ", um professionelle Hilfe zu leisten.\_ Diese sind\_"
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+              -
+                type: link
+                attrs:
+                  href: /experten
+                  target: null
+                  rel: null
+            text: Experten
+          -
+            type: text
+            text: "\_im Bereich Sozialwissenschaften und haben hervorragende\_"
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Erfahrungen im akademischen und beruflichen Bereich'
+          -
+            type: text
+            text: .
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            marks:
+              -
+                type: textColor
+                attrs:
+                  color: '#000!important'
+                  hex: '#000'
+            text: 'Das Studium der Sozialwissenschaften prägt ein hoher Leistungsdruck, ein großer Prüfungsdruck und eine Vielzahl von Klausuren und Projekten. Wissenschaftler aus dem Fachbereich Sozialwissenschaften müssen eine Vielzahl von Informationen aufnehmen und aufbereiten können. Gerade hier können Ghostwriter aus dem Fachbereich Sozialwissenschaften Sie als Student unterstützen. Sie sind in der Lage schnell und umfassend aus einer Vielzahl von Informationen, die relevanten Informationen zu destillieren und diese aufzubereiten.'
+    show_as_card: false
+    type: editor
     enabled: true
   -
     id: b1LrhsgP
@@ -274,187 +449,6 @@ replicator:
             id: 4xB19Sof
             bard:
               -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: "Ein Studium der Sozialwissenschaften ist ein sehr interessantes, vielfältiges und abwechslungsreiches Studium. Das zeigt sich insbesondere darin, dass die Berufschancen danach sehr hoch sind. Aufgrund der hohen Anzahl von Absolventen in dieser Fachrichtung ist für eine sozialwissenschaftliche Karriere ein hervorragender Abschluss besonders wichtig, um sich von konkurrierenden Absolventen abzusetzen. Um die eigenen Chancen auf einen guten Abschluss zu steigern, werden im Fach der Sozialwissenschaften\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriter
-                          target: null
-                          rel: null
-                    text: 'Ghostwriter beauftragt'
-                  -
-                    type: text
-                    text: ", um professionelle Hilfe zu leisten.\_ Diese sind\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /experten
-                          target: null
-                          rel: null
-                    text: Experten
-                  -
-                    type: text
-                    text: "\_im Bereich Sozialwissenschaften und haben hervorragende\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                    text: 'Erfahrungen im akademischen und beruflichen Bereich'
-                  -
-                    type: text
-                    text: .
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: 'Das Studium der Sozialwissenschaften prägt ein hoher Leistungsdruck, ein großer Prüfungsdruck und eine Vielzahl von Klausuren und Projekten. Wissenschaftler aus dem Fachbereich Sozialwissenschaften müssen eine Vielzahl von Informationen aufnehmen und aufbereiten können. Gerade hier können Ghostwriter aus dem Fachbereich Sozialwissenschaften '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: 'Sie als Student'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: ' unterstützen. Sie sind in der Lage schnell und umfassend aus einer Vielzahl von Informationen, die relevanten Informationen zu destillieren und diese aufzubereiten.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: false
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: KNJ712CJ
-    columns_replicator:
-      -
-        id: nyqPHpSV
-        single_col: true
-        grid:
-          -
-            id: kMbKV71o
-            bard:
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: black
-                          hex: '#000'
-                    text: "Wenn Sie bei Ihrer akademischen Arbeit im Studiengang Sozialwissenschaften Unterstützung benötigen, dann können Sie an unsere Agentur gerne sofort eine\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /anfrage
-                          target: null
-                          rel: null
-                    text: 'unverbindliche Anfrage schicken'
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                      -
-                        type: textAlign
-                        attrs:
-                          align: center
-                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne schreiben wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#D6D6D6'
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: KU6desbi
-    columns_replicator:
-      -
-        id: ld9zfmj8
-        single_col: true
-        grid:
-          -
-            id: 3Ae5xeBt
-            bard:
-              -
                 type: heading
                 attrs:
                   level: 2
@@ -467,7 +461,7 @@ replicator:
                       -
                         type: textColor
                         attrs:
-                          color: black
+                          color: '#000!important'
                           hex: '#000'
                     text: 'Wie können Sozialwissenschaften Ghostwriter helfen?'
               -
@@ -637,6 +631,102 @@ replicator:
                   -
                     type: text
                     text: .
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Das Studium der Sozialwissenschaften prägt ein hoher Leistungsdruck, ein großer Prüfungsdruck und eine Vielzahl von Klausuren und Projekten. Wissenschaftler aus dem Fachbereich Sozialwissenschaften müssen eine Vielzahl von Informationen aufnehmen und aufbereiten können. Gerade hier können Ghostwriter aus dem Fachbereich Sozialwissenschaften '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Sie als Student'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ' unterstützen. Sie sind in der Lage schnell und umfassend aus einer Vielzahl von Informationen, die relevanten Informationen zu destillieren und diese aufzubereiten.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: KU6desbi
+    columns_replicator:
+      -
+        id: ld9zfmj8
+        single_col: true
+        grid:
+          -
+            id: 3Ae5xeBt
+            bard:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Wenn Sie bei Ihrer akademischen Arbeit im Studiengang Sozialwissenschaften Unterstützung benötigen, dann können Sie an unsere Agentur gerne sofort eine\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /anfrage
+                          target: null
+                          rel: null
+                    text: 'unverbindliche Anfrage schicken'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne schreiben wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
             show_as_card: false
         type: row
         enabled: true
