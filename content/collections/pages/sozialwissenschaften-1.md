@@ -134,7 +134,7 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1674553198
+updated_at: 1674555553
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1262,6 +1262,7 @@ replicator:
                     img_size: w-3/4
                     image_options:
                       - no_upscale
+                    float: mx-auto
               -
                 type: paragraph
             show_as_card: false
@@ -1571,6 +1572,169 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
+    remove_spacing: false
+    is_full: true
+    border: false
+    type: add_section
+    enabled: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+  -
+    id: lda33hmh
+    columns_replicator:
+      -
+        id: lda33lnk
+        single_col: true
+        grid:
+          -
+            id: pU3lc8Fr
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lda33pz6
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/sozialwissenschaften-gehalt-min.png
+                    float: mx-auto
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lda1s77a
+    columns_replicator:
+      -
+        id: lda1s8jc
+        single_col: false
+        grid:
+          -
+            id: pU3lc8Fr
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Sozialwissenschaften: Berufe & Gehalt'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Ein Berufsbild für Sozialwissenschaftler ist nicht konkret vorgegeben, daher ist es wichtig, sich während des Studiums in einem oder mehreren Fachrichtungen zu vertiefen. Der Studiengang der Sozialwissenschaften gibt Ihnen eine unheimliche Bandbreite, viele Möglichkeiten und viele Chancen nach dem Studium. Denn mit einem Studienfach der Sozialwissenschaften können Sie später im Personalwesen, in der Unternehmensberatung, im Marketing, im Gesundheitswesen, in der Forschung, in der Politik und im Stiftungswesen arbeiten. Wenn man sich die Vergütungen anschaut, die einem später als Arbeiter oder Angestellter im Bereich der Gesellschaftswissenschaften erzielen kann, dann sind es relativ ordentliche Beträge. Das monatliche Bruttoeinkommen liegt zwischen '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: '1.700 und 4.500 Euro'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: '. Besonders gut sind die Verdienstmöglichkeiten in der Unternehmensberatung.'
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Sozialwissenschaften Ghostwriter: Gehalt'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Ebenso verdienen Sozialwissenschaften Ghostwriter sehr gut, da das zusammengesetzte und aktuellen Fragestellungen bzw. aktuelle Wissen von verschiedenen Fachgebieten in Sozialwissenschaften sehr von der Gesellschaft geschätzt wird. Je nach Seitenzahlen der Mustervorlage, Komplexität des Themas und Fristigkeit der Arbeit liegen im Sozialwissenschaften Ghostwriter Preise bei'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ' 90€- 120€ pro Seite'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: '. Im Gegenzug für dieses vergleichsweise hohe Honorar erhalten Ghostwriting Kunden hochqualitative Mustervorlagen für Ihre Hausarbeit, Seminararbeit oder Bachelorarbeit, die von einem erfahrenen Akademiker unter Wahrung aller wissenschaftlicher Standards geschrieben werden.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Akademische Ghostwriter im Bereich der Sozialwissenschaften bringen ein umfassendes Know-How in vielen verschiedenen Feldern und Disziplinen. Genau das zeichnet Ghostwriter aus und darum können Ghostwriter in den Sozialwissenschaften Sie unterstützen. Das ist gleichzeitig aber auch die große Herausforderung für einen Ghostwriter in den Sozialwissenschaften, denn er muss Sie ständig auf diesen vielen verschiedenen Gebieten mit seinem Wissen Up to Date halten, damit Sie als Student ideal davon profitieren können.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
     border: false
