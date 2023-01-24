@@ -134,7 +134,7 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1674566140
+updated_at: 1674566386
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -839,7 +839,7 @@ replicator:
                   id: 43Q9cxMl
                   values:
                     type: video
-                    video: 'https://youtu.be/PmgIh10dij0'
+                    video: 'https://youtu.be/MViH0GPsTP0'
             show_as_card: false
         type: row
         enabled: true
