@@ -135,7 +135,7 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1674549829
+updated_at: 1674551569
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1009,6 +1009,10 @@ replicator:
                           color: black
                           hex: '#000'
                     text: 'Im Unterschied zu anderen Wissenschaften gilt hier der Forschungsstand der Menschen, wie sie sind und wie sie auf einander reagieren. Auch wie sich die Eigenschaften im Laufe der Forschungszeit ändern und weiterentwickeln können. Darüber hinaus können Menschen und ihre Koexistenz aus vielen verschiedenen Perspektiven betrachtet werden.'
+            show_as_card: false
+          -
+            id: DZ7MWmhN
+            bard:
               -
                 type: heading
                 attrs:
@@ -1066,19 +1070,6 @@ replicator:
                     type: text
                     text: "\_in diesem Bereich sehr vielfältig, anspruchsvoll und spannend."
             show_as_card: false
-          -
-            id: DZ7MWmhN
-            bard:
-              -
-                type: set
-                attrs:
-                  id: CI1UmfoE
-                  values:
-                    type: bilder
-                    assets:
-                      - seiten/fachrichtungen/Ghostwriter_BWL_Studium_Aufbau-1.png
-                    has_border: false
-            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
@@ -1106,96 +1097,138 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Inhalte des BWL-Studiums'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'In dem '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'betriebswirtschaftlichen Studium'
-                  -
-                    type: text
-                    text: ' lernen Studenten u.a. Projekte zu managen, betriebliche Abläufe zu analysieren und sie zu steuern. Dabei sind '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Praxiseinheiten
-                  -
-                    type: text
-                    text: ' (Praktika) und '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: Projektarbeiten
-                  -
-                    type: text
-                    text: ' wesentliche Elemente des Studiums, die das erlernte Fachwissen vertiefen und erweitern sollen. Ebenfalls wird der Fremdsprachenkompetenz der Studenten eine hohe Bedeutung zugeschrieben.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Neben der englischen Sprache werden oftmals die spanische, russische, französische oder chinesische Sprache unterrichtet. Die Basis des Fachwissens bilden Grundlagenfächer/Pflichtbereiche wie '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: "Finanzierung, Rechnungswesen, Personalwesen, Produktion und\_"
-                  -
-                    type: text
                     marks:
                       -
                         type: bold
                       -
                         type: textColor
                         attrs:
-                          color: '#000!important'
+                          color: black
                           hex: '#000'
-                    text: Marketing
-                  -
-                    type: text
-                    text: '. Diese Grundlagenfächer werden in höheren Semestern durch Schwerpunkte, die der Student wählt, weiter vertieft.'
+                    text: 'Studium der Sozialwissenschaften-Voraussetzungen:'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Im Detail gehören zu den wesentlichen Elementen eines betriebswirtschaftlichen Studiums die Themen '
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Die hohen Anforderungen an ein Studium in den Sozialwissenschaften zeigen sich bereits am NC. Der NC liegt im oberen Bereich zwischen 1,6 und 2,9 und ohne Vorpraktikum wird eine Zulassung selbst zum Bachelorstudium schwierig. Neben den formalen Zugangsvoraussetzungen sollten Studenten Interesse an Menschen und ihren Lebensumständen zeigen. Eine weitere persönliche Voraussetzung ist, dass Sie eine gefestigte Persönlichkeit aufweisen sollten. Sie sollten ein Interesse an politischen, an sozialwirtschaftlichen und sozialwissenschaftlichen Zusammenhängen zeigen und vor allen Dingen sehr gute Deutschkenntnisse und Interesse am Lesen haben. Denn Sie werden im Studium der Sozialwissenschaften vielfältige Informationen aufnehmen und verarbeiten müssen. Auch '
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Planung (Businessplan, Marketingkonzept), Organisation und Analyse'
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /leistungen/uebersetzung
+                          target: null
+                          rel: null
+                    text: Übersetzungskenntnisse
                   -
                     type: text
-                    text: ' sowie Elemente aus der Soziologie, der Arbeits- und Organisationspsychologie, dem Personalwesen sowie der Rechts- und Politikwissenschaft. '
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: " in der englischen Sprache\_"
+                  -
+                    type: text
+                    text: 'sind notwendig, weil in den Sozialwissenschaften eine Vielzahl der Literatur aus dem angloamerikanischen Raum verwendet wird.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Im Studium gliedert sich die BWL und damit auch die Wissensvermittlung im Regelfall in die „Allgemeine Betriebswirtschaftslehre“ (ABWL) und die „Spezielle Betriebswirtschaftslehre“ (SBWL). Während bei der ABWL die genannten Themen Planung, Organisation und Rechnungswesen im Vordergrund stehen, konzentriert sich die SBWL auf Fragestellungen, die in bestimmten Branchen relevanten werden. Hier können dann die Themenbereiche '
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: "Die Notwendigkeit des interdisziplinären Denkens zeigt sich auch bereits in den Vertiefungsfächern, die im Rahmen eines Studiums der Sozialwissenschaften angeboten und angesprochen werden. Hier finden sich intensive Beziehungen und Verbindungen zum Beispiel zur\_"
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'Marketing, Personal, Controlling und Finanzen oder auch Produktion'
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/bwl
+                          target: null
+                          rel: null
+                    text: Betriebswirtschaftslehre
                   -
                     type: text
-                    text: ' erwähnt werden.'
+                    text: "\_oder zur\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/vwl
+                          target: null
+                          rel: null
+                    text: Volkswirtschaftslehre
+                  -
+                    type: text
+                    text: ". Auch Kontexte im Bereich\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/jura
+                          target: null
+                          rel: null
+                    text: Jura
+                  -
+                    type: text
+                    text: "\_und Rechtswissenschaften können in einem Studium der Sozialwissenschaften eine Rolle spielen. Dies zeigt das Wissen, was ein Sozialwissenschaften Ghostwriter mitbringen muss. Er muss genau die Fähigkeit haben, um interdisziplinär zu denken. Das heißt, er muss"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://gwriters.de/blog/methoden-empirische-sozialforschung'
+                          target: null
+                          rel: null
+                    text: "\_umfassendes Wissen aus vielen verschiedenen Forschungsbereichen"
+                  -
+                    type: text
+                    text: "\_mitbringen und dieses auch entsprechend zusammenführen zu können."
               -
                 type: set
                 attrs:
@@ -1203,35 +1236,10 @@ replicator:
                   values:
                     type: bilder
                     assets:
-                      - seiten/fachrichtungen/BWL-Ghostwriter.png
+                      - seiten/fachrichtungen/sozialwissenschaften-min.png
                     has_border: false
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Jedoch bereiten gerade die Grundlagenfächer '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Mathe, Statistik und Recht'
-                  -
-                    type: text
-                    text: ' sehr vielen Studenten erhebliche Probleme. Sie entscheiden sich nicht selten dazu, Ghostwriter und andere akademische Freelancer zu engagieren um sich optimal auf Prüfungen vorbereiten zu können.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Ghostwriting-Arbeiten dürfen nicht als Prüfungsleistungen verwendet werden'
-                  -
-                    type: text
-                    text: '. Ghostwriter sind jedoch in anderen Fällen, wie beispielsweise bei der Erstellung einer Marktanalyse/eines Businessplans für ein Unternehmen oder das Schreiben eines Buches für eine Privatperson, zulässig.'
             show_as_card: false
         type: row
         enabled: true
