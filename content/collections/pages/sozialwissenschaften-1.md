@@ -2,7 +2,7 @@
 id: 41b77eaa-2524-4ef0-b42f-720d7194b538
 published: false
 blueprint: pages
-title: 'BWL (Dupliziert)'
+title: 'Sozialwissenschaften (Dupliziert)'
 teaser:
   -
     type: heading
@@ -131,11 +131,11 @@ teaser:
               rel: null
         text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
-page_title: 'BWL Ghostwriter, Lektoren & Coaches • GWriters'
+page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1674547928
+updated_at: 1674549829
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -160,8 +160,8 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet BWL. Bei uns finden Sie exakt den 
-                      <b>akademischen Ghostwriter für Ihre BWL Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich BWL in sichere Hände geben und bei einem BWL-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Betriebswirtschaftlern, Doktoren und Professoren arbeitet.
+                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Sozialwissenschaften. Bei uns finden Sie exakt den 
+                      <b>akademischen Ghostwriter für Ihre Sozialwissenschaften Aufgabenstellungen</b>, der Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Sozialwissenschaften in sichere Hände geben und bei einem Sozialwissenschaften-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Sozialwissenschaftenlern, Doktoren und Professoren arbeitet.
                       </p>
             show_as_card: false
         type: row
@@ -213,7 +213,7 @@ replicator:
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre BWL Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        hover_content: 'Lassen Sie Ihre Sozialwissenschaften Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
@@ -221,7 +221,7 @@ replicator:
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (BWL) Korrektheit prüfen.'
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (Sozialwissenschaften) Korrektheit prüfen.'
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
@@ -229,7 +229,7 @@ replicator:
                         image:
                           - logo-startseite/icon-plagiat.svg
                         headline: PLAGIATSPRÜFUNG
-                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich BWL.'
+                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich Sozialwissenschaften.'
                         link:
                           - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
                       -
@@ -237,7 +237,7 @@ replicator:
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
-                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (BWL) Übersetzungen von akademischen Texten, Arbeiten, usw.'
+                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (Sozialwissenschaften) Übersetzungen von akademischen Texten, Arbeiten, usw.'
                         link:
                           - 7cad538c-ad74-4617-825e-bbac46ebf310
               -
@@ -246,7 +246,7 @@ replicator:
                   id: MrUkjvO9
                   values:
                     type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH BWL'
+                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH Sozialwissenschaften'
                     color: '#FF6606'
                     spacing_top: false
               -
@@ -278,27 +278,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'BWL ist unter den Studierenden ein äußerst beliebter Studiengang und ist aus diesem Grund an vielen Hochschulen „überlaufen“. Wer auffallen will, muss immerzu '
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: "Ein Studium der Sozialwissenschaften ist ein sehr interessantes, vielfältiges und abwechslungsreiches Studium. Das zeigt sich insbesondere darin, dass die Berufschancen danach sehr hoch sind. Aufgrund der hohen Anzahl von Absolventen in dieser Fachrichtung ist für eine sozialwissenschaftliche Karriere ein hervorragender Abschluss besonders wichtig, um sich von konkurrierenden Absolventen abzusetzen. Um die eigenen Chancen auf einen guten Abschluss zu steigern, werden im Fach der Sozialwissenschaften\_"
                   -
                     type: text
                     marks:
-                      -
-                        type: bold
-                    text: 'qualitativ hochwertige Ausarbeitungen'
-                  -
-                    type: text
-                    text: " liefern und stets einen sehr guten Notendurchschnitt \_erzielen. Dies zu leisten ist nicht leicht. Gerade, wenn Studierenden neben dem Studium zur Finanzierung der Studiengebühren und ihres Lebensunterhalts arbeiten, kommt zu dem Leistungsdruck ein zusätzlicher Zeitdruck hinzu. "
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Speziell im Bereich der BWL wird aus diesem Grund in diesem Zeitrahmen oftmals die Hilfe unserer\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
                       -
                         type: textColor
                         attrs:
@@ -310,23 +299,52 @@ replicator:
                           href: /ghostwriter
                           target: null
                           rel: null
-                    text: Ghostwriter
+                    text: 'Ghostwriter beauftragt'
                   -
                     type: text
-                    text: "\_benötigt. Unsere Auftraggeber haben in dieser Studienlaufbahn besonders Schwierigkeiten bei der "
+                    text: ", um professionelle Hilfe zu leisten.\_ Diese sind\_"
                   -
                     type: text
                     marks:
                       -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
                         type: link
                         attrs:
-                          href: /bachelorarbeit-thema
+                          href: /experten
                           target: null
                           rel: null
-                    text: Themenfindung
+                    text: Experten
                   -
                     type: text
-                    text: ', Formulierung von Wirtschaftstexten/Fachtexten, Literaturrecherche, Forschungsfrage, beim Ergänzen von Textteilen oder beim Erstellen von Gliederung sein.'
+                    text: "\_im Bereich Sozialwissenschaften und haben hervorragende\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                    text: 'Erfahrungen im akademischen und beruflichen Bereich'
+                  -
+                    type: text
+                    text: .
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Das Studium der Sozialwissenschaften prägt ein hoher Leistungsdruck, ein großer Prüfungsdruck und eine Vielzahl von Klausuren und Projekten. Sozialwissenschaftler müssen eine Vielzahl von Informationen aufnehmen und aufbereiten können. Gerade hier können Ghostwriter Sozialwissenschaften-Studenten unterstützen. Sie sind in der Lage schnell und umfassend aus einer Vielzahl von Informationen, die relevanten Informationen zu destillieren und diese aufzubereiten.'
             show_as_card: false
         type: row
         enabled: true
@@ -349,137 +367,31 @@ replicator:
             bard:
               -
                 type: paragraph
-              -
-                type: blockquote
                 content:
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: center
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                        text: "Wenn Sie bei Ihrer akademischen Arbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit) im Fachgebiet BWL Schwierigkeiten haben und Unterstützung benötigen, dann können Sie uns an unsere Agentur sofort eine\_"
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: center
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                          -
-                            type: link
-                            attrs:
-                              href: /anfrage
-                              target: null
-                              rel: null
-                        text: 'unverbindliche Anfrage schicken'
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: center
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                        text: '. '
-                  -
-                    type: paragraph
-                    content:
-                      -
-                        type: text
-                        marks:
-                          -
-                            type: bold
-                          -
-                            type: textAlign
-                            attrs:
-                              align: center
-                          -
-                            type: textColor
-                            attrs:
-                              color: white
-                              hex: '#fff'
-                        text: 'Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arbeitsarten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    bg_color: '#8A8A8A'
-    border: false
-    type: add_section
-    enabled: true
-  -
-    id: KU6desbi
-    columns_replicator:
-      -
-        id: pJMc0wMl
-        single_col: true
-        grid:
-          -
-            id: RY4Hwivx
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    text: 'Unsere BWL-Ghostwriter'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Jeder unserer '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'ausgewählten Ghostwriter der BWL besitzt tiefgründige Fachkenntnisse'
-                  -
-                    type: text
-                    text: ' und Erfahrungen in seinem Einsatzbereich und kann umfassende Schreiberfahrungen im Erstellen von wissenschaftlichen Arbeiten vorweisen. So ist es uns möglich, unseren Kunden bei den verschiedensten Ausarbeitungen/Texterstellungen umfassenden und individuellen Beistand zu leisten. Dieser variiert nach dem persönlichen Einsatz des Studenten. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "Er kann entweder das\_"
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: "Wenn Sie bei Ihrer akademischen Arbeit im Studiengang Sozialwissenschaften Unterstützung benötigen, dann können Sie an unsere Agentur gerne sofort eine\_"
                   -
                     type: text
                     marks:
                       -
                         type: bold
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
                       -
                         type: textColor
                         attrs:
@@ -488,19 +400,225 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriting
+                          href: /anfrage
                           target: null
                           rel: null
-                    text: Ghostwriting
+                    text: 'unverbindliche Anfrage schicken'
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: "\_einer Musterarbeit für die betriebswirtschaftliche Arbeit"
+                      -
+                        type: textAlign
+                        attrs:
+                          align: center
+                    text: '. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten oder andere Arten von Prüfungsleistungen erstellen, gerne schreiben wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#D6D6D6'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: KU6desbi
+    columns_replicator:
+      -
+        id: ld9zfmj8
+        single_col: false
+        grid:
+          -
+            id: 3Ae5xeBt
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
                   -
                     type: text
-                    text: ' oder verschiedene Teilbereiche von Leistungen in Auftrag geben. So ist es auch üblich, dass der Ghostwriter den Studenten bereits bei der Suche nach der passenden Literatur unterstützt, ihm bei der Texterstellung beratend zur Seite steht oder eine bereits durch den Studenten fertig geschriebene Arbeit lektoriert und korrigiert. Auch ein Coaching und Training ist möglich, um den Studenten in die Lage zu versetzen, zukünftig selbständig wissenschaftliche Themenfelder zu bearbeiten.'
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Wie können Sozialwissenschaften Ghostwriter helfen?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Ghostwriter der Sozialwissenschaften bringen ein umfassendes Know-How mit, sowohl aus praktischer Sicht, weil sie in einer Vielzahl von Themenbereichen tätig sind, als auch über eine umfassende theoretische Basis verfügen, da sie ausgebildete Sozialwissenschaftler sind. Sie arbeiten methodisch und systematisch. Solche Ghostwriter kennen zudem aus ihrer eigenen akademischen Laufbahn alle politischen, sozialwirtschaftlichen und sozialwissenschaftlichen Zusammenhänge im Sozialwissenschaften-Studium.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Im Studiengang der Sozialwissenschaften gilt'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' interdisziplinäres Denken'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ", da sich hier enge Verbindungen zu den Fachrichtungen Betriebswirtschaftslehre und Volkswirtschaftslehre finden. Vor allem hier können Sozialwissenschaften Ghostwriter Sie zusammen mit anderen unserer Ghostwriter in einem interdisziplinären Team unterstützen. Eine ideale Unterstützung durch einen Ghostwriter kann beispielsweise in Form von Coaching oder bei der\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/ghostwriter-abschlussarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Erstellung von akademischen Mustervorlagen'
+                  -
+                    type: text
+                    text: "\_erfolgen, sei es für eine"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/hausarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Hausarbeit
+                  -
+                    type: text
+                    text: ",\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/seminararbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Seminararbeit
+                  -
+                    type: text
+                    text: ",\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/bachelorarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Bachelorarbeit
+                  -
+                    type: text
+                    text: ",\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: Masterarbeit
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' oder '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/doktorarbeit
+                          target: null
+                          rel: null
+                    text: Doktorarbeit
+                  -
+                    type: text
+                    text: .
             show_as_card: false
         type: row
         enabled: true
@@ -598,32 +716,120 @@ replicator:
               -
                 type: heading
                 attrs:
-                  level: 3
+                  level: 2
                 content:
                   -
                     type: text
-                    text: 'Warum sollte man BWL-Ghostwriter beauftragen?'
+                    text: 'Warum sollte man '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: Sozialwissenschaften
+                  -
+                    type: text
+                    text: '-Ghostwriter beauftragen?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Unsere BWL-Ghostwriter sind Betriebswirtschaftlern, zertifizierten Professoren und wissenschaftliche Mitarbeiter im Fachgebiet BWL und VWL. Sie beschäftigen sich tagtäglich mit wissenschaftlichen Arbeiten und methodischen Ansätzen in unserer Ghostwriting-Agentur. Des Weiteren haben Ghostwriter umfassenden Kenntnisse im Umgang mit Forschungsarbeiten. '
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Die Aufgaben eines Ghostwriters in den Sozialwissenschaften sind, Sie in Ihrer Studienzeit zu begleiten oder auch ein Coaching zu zentralen Inhalten im Studium zu geben. Auch Lektorate oder Korrektorate kann ein Ghostwriter in den Sozialwissenschaften ausführen, aber auch die Erstellung von Mustervorlagen für Hausarbeiten, Bachelorarbeiten, Masterarbeiten oder Doktorarbeiten sind Themenstellungen, die einen Ghostwriter in den Sozialwissenschaften betreffen. '
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'BWL-Ghostwriter erstellen für verschiedene Aufgabenstellungen im Fachbereich BWL ('
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Hierzu ist ein '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: 'Abschlussarbeit, Businessplan, Marketingkonzept'
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'fachliches Know-How'
                   -
                     type: text
-                    text: ' etc.) Musterarbeiten. Außerdem kennen akademische Ghostwriter den aktuellen Forschungsstand zu vielen BWL-Themenstellungen und haben auf relevanten Datenbanken Zugriff, wie Fachzeitschriften, Fachartikel etc.'
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' notwendig, aber auch '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'entsprechende Kenntnisse in der englischen Sprache'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: '. Denn eine Vielzahl der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Literatur aus dem angloamerikanischen Raum'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: ' wird in den Sozialwissenschaften verwendet, da viele Studien englischsprachig geprägt sind. Gemeinsam mit dem vorhandenen Fach-Know-how bindet das das runde Paket des Wissens, das ein Ghostwriter in den Sozialwissenschaften mitbringen muss. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Allerdings stellt die Fachrichtung der Sozialwissenschaften Ghostwriter auch immer vor die Herausforderung, ihr Wissen permanent Up to Date zu halten und immer neue Forschungserkenntnisse aufzunehmen.'
+              -
+                type: paragraph
             show_as_card: false
           -
             id: KifGK2jM
@@ -686,77 +892,27 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Allgemeines zur BWL'
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Beispiel Bachelorarbeit in Sozialwissenschaften'
               -
                 type: paragraph
                 content:
-                  -
-                    type: text
-                    text: "Die Betriebswirtschaftslehre (BWL), auch Betriebsökonomie genannt, ist ein Teilgebiet der\_"
                   -
                     type: text
                     marks:
                       -
                         type: textColor
                         attrs:
-                          color: blue
+                          color: black
                           hex: '#000'
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/wirtschaftswissenschaften
-                          target: null
-                          rel: null
-                    text: Wirtschaftswissenschaften
-                  -
-                    type: text
-                    text: "\_(WiWi). Sie ist eng verwandt mit der "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /fachrichtungen/vwl
-                          target: null
-                          rel: null
-                    text: Volkswirtschaftslehre
-                  -
-                    type: text
-                    text: ' ('
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textColor
-                        attrs:
-                          color: blue
-                          hex: '#000'
-                    text: VWL
-                  -
-                    type: text
-                    text: ') und beschäftigt sich mit dem Verständnis von Unternehmen und der Umsetzung und Kontrolle von Vorgängen in Unternehmen; einfach formuliert: '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'die BWL betrachtet Themenstellungen aus der „Maulwurfperspektive“, während die VWL die „Vogelperspektive“ einnimmt.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Ein Betriebswirt oder eine Betriebswirtin analysiert das gegebene betriebswirtschaftliche Umfeld und besondere Ausgangssituationen im Unternehmen und trifft '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Entscheidungen zur Förderung des Unternehmenserfolgs'
-                  -
-                    type: text
-                    text: '. Betriebswirtschaftliche Fachgebiete sind unter Studierenden sehr beliebt. '
+                    text: 'Die folgende Mustervorlage für eine Bachelorarbeit im Studiengang der Sozialwissenschaften zum Thema "Biografiearbeit und pädagogische Professionalität" haben wir speziell für Sie geschrieben. Überzeugen Sie sich daran von den Kompetenzen unserer Ghostwriter im Themenbereich Sozialwissenschaften und entscheiden Sie sich für unseren professionellen Service.'
               -
                 type: set
                 attrs:
@@ -764,63 +920,20 @@ replicator:
                   values:
                     type: example_work
                     ex_img_right: false
-                    ex_image: seiten/besipielarbeit.JPG
-                    ex_title: 'BWL Seminararbeit Beispiel jetzt KOSTENLOS herunterladen!'
-                    ex_type: Seminararbeit
-                    ex_pages: '12'
-                    ex_zitation: 'Harvard Style'
-                    ex_button_link: 'https://gwriters.de/assets/downloads/ghostwriting-beispielarbeiten/Seminararbeit-Beispiel-BWL-Auswirkungen-der-Digitalisierung-auf-die-Wertschopfungskette.pdf'
+                    ex_image: seiten/deckblatt-bachelorarbeit-biografiearbeit.jpg
+                    ex_title: 'Sozialwissenschaften Bachelorarbeit Beispiel jetzt KOSTENLOS herunterladen!'
+                    ex_type: Bachelorarbeit
+                    ex_pages: '31'
+                    ex_zitation: APA-Style
+                    ex_button_link: /assets/downloads/ghostwriting-beispielarbeiten/bachelorarbeit-beispiel-biografiearbeit.pdf
                     ex_button_text: Download
                     ex_spacing_top: false
                     ex_fachbereich:
-                      - 89bfdf0d-d156-4ee5-9575-09e85f7e3655
+                      - 6edcba2a-9fcc-4d8d-80ea-dbc325dc8332
               -
                 type: heading
                 attrs:
                   level: 3
-                content:
-                  -
-                    type: text
-                    text: 'Karriereaussichten nach dem BWL-Studium'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Im Vordergrund eines BWL-Studiengangs steht dabei der Umgang mit Zahlen und die Karriereaussicht, später im '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Management eines Unternehmens'
-                  -
-                    type: text
-                    text: ' arbeiten zu können. Der große Vorteil eines BWL-Studiengangs ist es, dass man sehr generalistisch auf ein breites Aufgabenfeld bzw. Berufsleben in der Wirtschaft vorbereitet wird und damit die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Karrierechancen sehr gut'
-                  -
-                    type: text
-                    text: ' sind.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Um ihre Standardleistungen zu optimieren und sich somit von der Menge hervorzuheben, engagieren einige Studenten der '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'BWL Ghostwriter und Freelancer, die ihnen bei ihrer schriftlichen Ausarbeitung durch die Erstellung von Mustervorlagen zur Seite stehen'
-                  -
-                    type: text
-                    text: '. Zudem wird die erstellte Mustervorlage von unabhängigen Lektoren und Korrekturleser aus dem Fachgebiet BWL überprüft, um Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorzunehmen.'
             show_as_card: false
         type: row
         enabled: true
@@ -849,102 +962,109 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Aufbau eines BWL-Studiums'
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Was sind Sozialwissenschaften?'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Kenntnisse der Betriebswirtschaft kann man durch eine Lehre im kaufmännischen Bereich, ein berufsbegleitendes Studium, '
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Sozialwissenschaften werden auch als Gesellschaftswissenschaften verstanden. Sie bezeichnen wissenschaftliche Disziplinen. Gesellschaftswissenschaftler beobachten das menschliche Denken, Fühlen und Verhalten. Hierbei wird das soziale Zusammenleben unter verschiedenen Menschen analysiert. Denn keine zwei Menschen sind eindeutig gleich. Ein Gesellschaftswissenschaftler befasst sich mit den Meinungen, Einstellungen, Wünschen und Zielen von Menschen. Hier lassen sich vielfältige Zusammenhänge zwischen diesen Aspekten untersuchen.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'ein duales Studium oder durch ein Vollzeitstudium'
-                  -
-                    type: text
-                    text: ' an einer Universität oder Fachhochschule erlangen. '
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Unterschied zwischen anderen Wissenschaften'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'BWL kann deutschlandweit studiert werden, dabei unterscheiden sich die Angebote der Fachhochschulen und Universitäten insbesondere in ihrer inhaltlichen Ausrichtung bei späteren Vertiefungen im Studium. Auch private Hochschulen bieten im BWL-Kontext in den letzten Jahren verstärkt ihre Dienstleistungen an. Hierbei handelt es sich meist um '
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Im Unterschied zu anderen Wissenschaften gilt hier der Forschungsstand der Menschen, wie sie sind und wie sie auf einander reagieren. Auch wie sich die Eigenschaften im Laufe der Forschungszeit ändern und weiterentwickeln können. Darüber hinaus können Menschen und ihre Koexistenz aus vielen verschiedenen Perspektiven betrachtet werden.'
+              -
+                type: heading
+                attrs:
+                  level: 3
+                content:
                   -
                     type: text
                     marks:
                       -
-                        type: bold
-                    text: 'berufsbegleitende Fachbereiche'
-                  -
-                    type: text
-                    text: ', die sich auf ein bestimmtes Themenfeld (z.B. '
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Teildisziplinen von Sozialwissenschaften'
+              -
+                type: paragraph
+                content:
                   -
                     type: text
                     marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Der Begriff Sozialwissenschaften ist ein Oberbegriff für verschiedene Disziplinen, die das gesellschaftlichen Zusammenleben der Menschen analysieren. Hierunter fallen beispielsweise Ethnologie, Psychologie, Politologie und Soziologie. Zum Beispiel ist Soziologie eine Teildisziplin der Sozialwissenschaften. Auch die Soziologen beschäftigen sich mit der Beschreibung, Interpretation und Darstellung von sozialogischen Strukturen, Prozessen und gesellschaftlichen Entwicklungen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Wissenschaftler aus diesem Studienbereich beschäftigen sich nicht nur mit aktuellen Fragestellungen der Gesellschaft. Stattdessen ist das\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
                       -
                         type: link
                         attrs:
-                          href: /fachrichtungen/marketing
+                          href: 'https://gwriters.de/gwriters-akademie/wissenschaftliches-arbeiten-fortgeschrittene'
                           target: null
                           rel: null
-                    text: Marketing
+                    text: 'wissenschaftliche Arbeiten'
                   -
                     type: text
-                    text: ') konzentrieren.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Der BWL-Studienabschluss besteht beim Bachelorstudiengang aus 6 Semestern und kann mit dem Masterstudiengang, bestehend aus 4 Semestern, fortgesetzt werden. Als Examensarbeit zählten ehemals die Magisterarbeit und die Diplomarbeit, nach der Bologna-Reform jedoch die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Bachelorarbeit (Bachelor Thesis)'
-                  -
-                    type: text
-                    text: ' und die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'Masterarbeit (Master Thesis)'
-                  -
-                    type: text
-                    text: '. Optional kann darauf aufbauend die '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /promotionsberatung
-                          target: null
-                          rel: null
-                    text: Promotion
-                  -
-                    type: text
-                    text: ' erfolgen. '
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Dabei können nur Lehrinstitute, die über ein Promotionsrecht verfügen, von ihren Studenten der BWL eine Dissertation schreiben lassen und ihnen einen Doktortitel verleihen. Besonders bei diesem akademischen Grad ist in der BWL Ghostwriting verbreitet. Ein '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: bold
-                    text: 'BWL-Ghostwriter hilft Doktoranden'
-                  -
-                    type: text
-                    text: ' durch das Erstellen einer Mustervorlage, die als Orientierungshilfe genutzt wird.'
+                    text: "\_in diesem Bereich sehr vielfältig, anspruchsvoll und spannend."
             show_as_card: false
           -
             id: DZ7MWmhN
@@ -1337,8 +1457,8 @@ meta_description: 'Hilfe durch Experten und akademische Ghostwriter der BWL – 
 og_title: 'BWL - Ghostwriter, Lektoren & Coaches • GWriters'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der BWL – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
-fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
+fachrichtungsgruppe: g_sozialwissenschaften
 sitemap_active: true
-alternative_page_title: 'BWL Ghostwriter'
+alternative_page_title: 'Sozialwissenschaften Ghostwriter'
 breadcrumbs_active: true
 ---
