@@ -135,7 +135,7 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1674551733
+updated_at: 1674552879
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1270,7 +1270,307 @@ replicator:
     remove_spacing: false
     is_full: true
     bg_toggle: false
-    bg_color: '#A8D5EA'
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lda0xvhx
+    columns_replicator:
+      -
+        id: lda0xx1r
+        single_col: false
+        grid:
+          -
+            id: pU3lc8Fr
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Studieninhalte im Fachbereich Sozialwissenschaften'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: "Die Sozialwissenschaften sind eng mit der Sozialforschung und der praxisbezogenen Lehre verbunden. Der Studiumbereich lässt Studenten Kenntnisse zu verschiedenen gesellschaftswissenschaftlichen Methoden mit theoretischen Kenntnissen kombinieren und schafft durch praktische Berufsübungen die notwendige praktische Erfahrung für Sozialforschung und Berufsprofile. Viele Hochschulen bieten auch ein Verständnis für den Umfang verschiedener Berufsdisziplinen durch verschiedene Themen. Hier besteht die Möglichkeit als, Kernfach Sozialwissenschaften und als Nebenfach\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/erziehungswissenschaften-ghostwriter
+                          target: null
+                          rel: null
+                    text: Erziehungswissenschaften
+                  -
+                    type: text
+                    text: ", Politikwissenschaft, Journalismus oder\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/soziologie
+                          target: null
+                          rel: null
+                    text: Soziologie
+                  -
+                    type: text
+                    text: "\_anzulegen. Die Möglichkeit, zwei Fächer zu kombinieren, ermöglicht eine gute Orientierung für weitere Schwerpunktsetzung in einem Masterstudium."
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: "Allgemein werden in dem Studienfach spezialisierte Fächer wie Philosophie, Pädagogik und Ethnologie behandelt. Die eingebundenen Schwerpunkte können dann später zum Beispiel in den\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/kommunikationswissenschaften
+                          target: null
+                          rel: null
+                    text: Kommunikationswissenschaften
+                  -
+                    type: text
+                    text: ", in den Sozial- oder auch in den Kulturwissenschaften, im\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/marketing
+                          target: null
+                          rel: null
+                    text: Marketing
+                  -
+                    type: text
+                    text: ", im Personalwesen oder in der Betriebswirtschaftslehre gesetzt werden. Genau diese Eigenschaften und dieses Wissen müssen auch Ghostwriter in den Sozialwissenschaften mitbringen. Sie sind auf all diesen\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /blog/forschungsluecke-finden
+                          target: null
+                          rel: null
+                    text: Forschungsfeldern
+                  -
+                    type: text
+                    text: "\_und in allen diesen Bereichen sattelfest. Sozialwissenschaften Ghostwriter verfügen über die notwendigen praktischen und theoretischen Erfahrungen und wissen wo diese Kenntnisse einzusetzen sind."
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Studien-Aufbau Sozialwissenschaften'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Ein Studium auf Bachelor- und Masterabschluss ist möglich, auch ein Studium auf Lehramt ist möglich. Sie schließen den Bachelor in der Regel nach sechs Semestern mit einem Bachelor of Arts oder einem Bachelor of Science ab. Der Masterstudiengang wird in der Regel nach vier Semestern mit einem Master of Arts oder einem Master of Sciences abgeschlossen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lda11o8m
+    columns_replicator:
+      -
+        id: lda11ppt
+        single_col: false
+        grid:
+          -
+            id: pU3lc8Fr
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: 'Wo kann man Sozialwissenschaften studieren?'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: "Zahlreiche Universitäten bieten ein Studium der Sozial-/Gesellschaftswissenschaften an. Insbesondere die\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.fu-berlin.de/einrichtungen/fachbereiche/fb/pol-soz/index.html'
+                          target: _blank
+                          rel: null
+                    text: 'Freie-Universität in Berlin'
+                  -
+                    type: text
+                    text: "\_und die\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: blue
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: 'https://www.uni-frankfurt.de/77163229'
+                          target: _blank
+                          rel: null
+                    text: 'Goethe-Universität in Frankfurt am Main'
+                  -
+                    type: text
+                    text: "\_hat einen sehr guten Ruf in den Gesellschaftswissenschaften. Vor Allem ist die Freie-Universität in Berlin sehr beliebt bei Sozialwissenschaftlern, weil hier ein internationaler Schwerpunkt im Master angeboten wird. Hier haben Sie später exzellente Berufschancen, gerade im Bereich Management und in der Unternehmensberatung."
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lda1390f
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: pU3lc8Fr
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lda13i3m
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/fu-logo-2x-1fe8a5a6e1a843cb9244b9bf1f886d7d.png
+                    img_size: w-1/4
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lda1f6qn
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lda1fa9q
+                  values:
+                    type: floating_img
+                    dateien:
+                      - seiten/fachrichtungen/goehte-uni-logo.PNG
+                    img_size: w-1/4
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: false
     border: false
     type: add_section
     enabled: true
