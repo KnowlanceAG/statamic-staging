@@ -134,7 +134,7 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1674553067
+updated_at: 1674553121
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1259,6 +1259,9 @@ replicator:
                     type: floating_img
                     dateien:
                       - seiten/fachrichtungen/sozialwissenschaften-min.png
+                    img_size: w-3/4
+                    image_options:
+                      - no_upscale
               -
                 type: paragraph
             show_as_card: false
@@ -1533,7 +1536,7 @@ replicator:
       -
         id: lda1390f
         columns_per_row: 2
-        single_col: false
+        single_col: true
         grid:
           -
             id: pU3lc8Fr
