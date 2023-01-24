@@ -134,7 +134,7 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1674553121
+updated_at: 1674553198
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1246,7 +1246,7 @@ replicator:
     columns_replicator:
       -
         id: lda0s8db
-        single_col: false
+        single_col: true
         grid:
           -
             id: pU3lc8Fr
@@ -1549,7 +1549,7 @@ replicator:
                     type: floating_img
                     dateien:
                       - seiten/fachrichtungen/fu-logo-2x-1fe8a5a6e1a843cb9244b9bf1f886d7d.png
-                    img_size: w-1/2
+                    img_size: w-3/4
               -
                 type: paragraph
             show_as_card: false
@@ -1564,7 +1564,7 @@ replicator:
                     type: floating_img
                     dateien:
                       - seiten/fachrichtungen/goehte-uni-logo.PNG
-                    img_size: w-1/2
+                    img_size: w-3/4
               -
                 type: paragraph
             show_as_card: false
