@@ -134,7 +134,7 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1674557127
+updated_at: 1674557219
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1578,7 +1578,7 @@ replicator:
     columns_replicator:
       -
         id: lda3yxbr
-        single_col: false
+        single_col: true
         grid:
           -
             id: pU3lc8Fr
@@ -1600,7 +1600,7 @@ replicator:
         columns_per_row: 0
       -
         id: lda1s8jc
-        single_col: false
+        single_col: true
         grid:
           -
             id: pU3lc8Fr
