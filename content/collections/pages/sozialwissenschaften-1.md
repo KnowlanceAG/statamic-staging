@@ -134,7 +134,7 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1674568706
+updated_at: 1674568855
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -270,82 +270,96 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: ldaavj13
-    bard:
+    id: ldab0ska
+    columns_replicator:
       -
-        type: paragraph
-        content:
+        id: ldab0vjw
+        single_col: true
+        grid:
           -
-            type: text
-            marks:
+            id: zAZZkR3y
+            bard:
               -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: "Ein Studium der Sozialwissenschaften ist ein sehr interessantes, vielfältiges und abwechslungsreiches Studium. Das zeigt sich insbesondere darin, dass die Berufschancen danach sehr hoch sind. Aufgrund der hohen Anzahl von Absolventen in dieser Fachrichtung ist für eine sozialwissenschaftliche Karriere ein hervorragender Abschluss besonders wichtig, um sich von konkurrierenden Absolventen abzusetzen. Um die eigenen Chancen auf einen guten Abschluss zu steigern, werden im Fach der Sozialwissenschaften\_"
-          -
-            type: text
-            marks:
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: "Ein Studium der Sozialwissenschaften ist ein sehr interessantes, vielfältiges und abwechslungsreiches Studium. Das zeigt sich insbesondere darin, dass die Berufschancen danach sehr hoch sind. Aufgrund der hohen Anzahl von Absolventen in dieser Fachrichtung ist für eine sozialwissenschaftliche Karriere ein hervorragender Abschluss besonders wichtig, um sich von konkurrierenden Absolventen abzusetzen. Um die eigenen Chancen auf einen guten Abschluss zu steigern, werden im Fach der Sozialwissenschaften\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriter
+                          target: null
+                          rel: null
+                    text: 'Ghostwriter beauftragt'
+                  -
+                    type: text
+                    text: ", um professionelle Hilfe zu leisten.\_ Diese sind\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                      -
+                        type: link
+                        attrs:
+                          href: /experten
+                          target: null
+                          rel: null
+                    text: Experten
+                  -
+                    type: text
+                    text: "\_im Bereich Sozialwissenschaften und haben hervorragende\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Erfahrungen im akademischen und beruflichen Bereich'
+                  -
+                    type: text
+                    text: .
               -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /ghostwriter
-                  target: null
-                  rel: null
-            text: 'Ghostwriter beauftragt'
-          -
-            type: text
-            text: ", um professionelle Hilfe zu leisten.\_ Diese sind\_"
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-              -
-                type: link
-                attrs:
-                  href: /experten
-                  target: null
-                  rel: null
-            text: Experten
-          -
-            type: text
-            text: "\_im Bereich Sozialwissenschaften und haben hervorragende\_"
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Erfahrungen im akademischen und beruflichen Bereich'
-          -
-            type: text
-            text: .
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            marks:
-              -
-                type: textColor
-                attrs:
-                  color: '#000!important'
-                  hex: '#000'
-            text: 'Das Studium der Sozialwissenschaften prägt ein hoher Leistungsdruck, ein großer Prüfungsdruck und eine Vielzahl von Klausuren und Projekten. Wissenschaftler aus dem Fachbereich Sozialwissenschaften müssen eine Vielzahl von Informationen aufnehmen und aufbereiten können. Gerade hier können Ghostwriter aus dem Fachbereich Sozialwissenschaften Sie als Student unterstützen. Sie sind in der Lage schnell und umfassend aus einer Vielzahl von Informationen, die relevanten Informationen zu destillieren und diese aufzubereiten.'
-    show_as_card: false
-    type: editor
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Das Studium der Sozialwissenschaften prägt ein hoher Leistungsdruck, ein großer Prüfungsdruck und eine Vielzahl von Klausuren und Projekten. Wissenschaftler aus dem Fachbereich Sozialwissenschaften müssen eine Vielzahl von Informationen aufnehmen und aufbereiten können. Gerade hier können Ghostwriter aus dem Fachbereich Sozialwissenschaften Sie als Student unterstützen. Sie sind in der Lage schnell und umfassend aus einer Vielzahl von Informationen, die relevanten Informationen zu destillieren und diese aufzubereiten.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
     enabled: true
   -
     id: b1LrhsgP
@@ -669,14 +683,14 @@ replicator:
     type: add_section
     enabled: true
   -
-    id: KU6desbi
+    id: ldab1sct
     columns_replicator:
       -
-        id: ld9zfmj8
+        id: ldab1v9k
         single_col: true
         grid:
           -
-            id: 3Ae5xeBt
+            id: zAZZkR3y
             bard:
               -
                 type: paragraph
@@ -732,6 +746,14 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: KU6desbi
+    columns_replicator:
       -
         id: VU31hpFG
         single_col: false
