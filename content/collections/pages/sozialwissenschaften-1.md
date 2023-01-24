@@ -135,7 +135,7 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1674566565
+updated_at: 1674567520
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -200,7 +200,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Unsere Leistungen im Fachbereich BWL'
+                    text: 'Unsere Leistungen im Fachbereich Sozialwissenschaften'
               -
                 type: set
                 attrs:
@@ -213,7 +213,7 @@ replicator:
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre Sozialwissenschaften Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        hover_content: 'Lassen Sie Ihre Sozialwissenschaften Arbeit von erfahrenen Sozialwissenschaftlern erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
@@ -249,6 +249,7 @@ replicator:
                     button_text: 'ALLE LEISTUNGEN IM FACHBEREICH Sozialwissenschaften'
                     color: '#FF6606'
                     spacing_top: false
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
               -
                 type: paragraph
             show_as_card: false
@@ -344,7 +345,25 @@ replicator:
                         attrs:
                           color: black
                           hex: '#000'
-                    text: 'Das Studium der Sozialwissenschaften prägt ein hoher Leistungsdruck, ein großer Prüfungsdruck und eine Vielzahl von Klausuren und Projekten. Sozialwissenschaftler müssen eine Vielzahl von Informationen aufnehmen und aufbereiten können. Gerade hier können Ghostwriter Sozialwissenschaften-Studenten unterstützen. Sie sind in der Lage schnell und umfassend aus einer Vielzahl von Informationen, die relevanten Informationen zu destillieren und diese aufzubereiten.'
+                    text: 'Das Studium der Sozialwissenschaften prägt ein hoher Leistungsdruck, ein großer Prüfungsdruck und eine Vielzahl von Klausuren und Projekten. Wissenschaftler aus dem Fachbereich Sozialwissenschaften müssen eine Vielzahl von Informationen aufnehmen und aufbereiten können. Gerade hier können Ghostwriter aus dem Fachbereich Sozialwissenschaften '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Sie als Student'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textColor
+                        attrs:
+                          color: black
+                          hex: '#000'
+                    text: ' unterstützen. Sie sind in der Lage schnell und umfassend aus einer Vielzahl von Informationen, die relevanten Informationen zu destillieren und diese aufzubereiten.'
             show_as_card: false
         type: row
         enabled: true
@@ -1073,7 +1092,7 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
-    remove_spacing: false
+    remove_spacing: true
     is_full: true
     bg_toggle: false
     bg_color: '#F0F0F0'
