@@ -134,7 +134,7 @@ page_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670877809
+updated_at: 1674635028
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -1009,9 +1009,9 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-meta_title: 'GWriters • Sozialwissenschaften - Ghostwriter, Lektoren & Coaches'
-meta_description: 'Sozialwissenschaften studieren? Abschluss und Unterstützung durch Experten und akademische Ghostwriter in Sozialwissenschaften✅🎓'
-og_title: 'GWriters • Sozialwissenschaften - Ghostwriter, Lektoren & Coaches'
+meta_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
+meta_description: 'Sozialwissenschaften Ghostwriter unterstützen Sie als akademische Experten bei Ihrem Abschluss in Sozialwissenschaften ✅ 🎓'
+og_title: 'Sozialwissenschaften Ghostwriter, Lektoren & Coaches • GWriters'
 og_description: 'Sozialwissenschaften studieren? Abschluss und Unterstützung durch Experten und akademische Ghostwriter in Sozialwissenschaften✅🎓'
 og_image: GWriters-Logo.png
 sitemap_active: true
