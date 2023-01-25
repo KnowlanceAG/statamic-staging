@@ -882,9 +882,9 @@ replicator:
 page_title: 'Akademische Ghostwriter gesucht! • GWriters'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1674668218
+updated_at: 1674668392
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
-meta_description: 'Ghostwriter gesucht? Die Nachfrage nach Ghostwriting-Jobs steigt! Ghostwriter-Jobs in allen Fachbereichen ✔️ 18.000 zufriedene Kunden seit 2012 ✔️'
+meta_description: 'Hausarbeit schreiben lassen – akademische Ghostwriter bieten Lektorate, Korrektorate  & Mustervorlagen ✔️ diskret und geprüft auf Qualität & Plagiate!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -892,7 +892,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 og_title: 'GWriters • Akademische Ghostwriter gesucht!'
-og_description: 'Ghostwriter gesucht? Die Nachfrage nach Ghostwriting-Jobs steigt! Ghostwriter-Jobs in allen Fachbereichen ✔️ 18.000 zufriedene Kunden seit 2012 ✔️'
+og_description: 'Hausarbeit schreiben lassen – akademische Ghostwriter bieten Lektorate, Korrektorate  & Mustervorlagen ✔️ diskret und geprüft auf Qualität & Plagiate!'
 og_image: GWriters-Logo.png
 sitemap_active: true
 breadcrumbs_active: true
