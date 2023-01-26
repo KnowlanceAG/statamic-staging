@@ -383,7 +383,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/literaturverzeichnis-automatisch-erstellen
+                  href: /blog/word-automatisches-verzeichnis-erstellen
                   target: null
                   rel: null
             text: Literaturverzeichnis
@@ -3987,7 +3987,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670862462
+updated_at: 1674752283
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
