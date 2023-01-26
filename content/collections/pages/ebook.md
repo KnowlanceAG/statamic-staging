@@ -1020,10 +1020,10 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.epubli.de/'
+                          href: 'https://www.epubli.com/'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
-                    text: epubli.de
+                    text: epubli
                   -
                     type: text
                     text: ' oder '
@@ -1036,7 +1036,7 @@ replicator:
                           href: 'https://tredition.com/'
                           target: _blank
                           rel: 'noopener noreferrer nofollow'
-                    text: tredition.com
+                    text: tredition
                   -
                     type: text
                     text: ', bei denen Sie Ihr eigenes Werk veröffentlichen können. Anbieter wie Buchkodex werben damit, dass Sie ein eigenes eBook innerhalb von 12 Stunden publizieren können. Das geht natürlich nur, wenn das Buch quasi schon geschrieben ist. Zwischen der Buchidee und dem fertigen Manuskript liegt ein längerer Weg. Falls Sie dabei Hilfe benötigen, müssen Sie einen eBook Ghostwriter oder ein entsprechendes Schreibbüro finden.'
@@ -1239,7 +1239,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670861085
+updated_at: 1674751332
 meta_title: 'Ghostwriter eBook schreiben lassen • GWriters'
 meta_description: 'eBook schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
