@@ -143,7 +143,7 @@ page_title: 'Jura Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670861968
+updated_at: 1674668556
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2250,9 +2250,9 @@ replicator:
     type: add_section
     enabled: true
 meta_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Ghostwriter Jura – professionelle Hilfe bei Hausarbeiten, Seminararbeiten, Prüfungen, Praktikum & mehr! 18.000 zufriedene Kunden seit 2012 ✔️'
+meta_description: 'Jura Ghostwriter – Hilfe durch akademische Experten aus dem Fachbereich Jura ✔️ Mehr Zeit für rechtliche Prüfungen, Klausuren & Ihr Praktikum!'
 og_title: 'Jura - Ghostwriter, Lektoren & Coaches • GWriters'
-og_description: 'Ghostwriter Jura – professionelle Hilfe bei Hausarbeiten, Seminararbeiten, Prüfungen, Praktikum & mehr! 18.000 zufriedene Kunden seit 2012 ✔️'
+og_description: 'Jura Ghostwriter – Hilfe durch akademische Experten aus dem Fachbereich Jura ✔️ Mehr Zeit für rechtliche Prüfungen, Klausuren & Ihr Praktikum!'
 og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Jura Ghostwriter'

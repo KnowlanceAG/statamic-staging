@@ -4,6 +4,7 @@ blueprint: pages
 title: 'Akademische Ghostwriter gesucht'
 replicator:
   -
+    id: dWISjS1u
     bard:
       -
         type: heading
@@ -28,6 +29,7 @@ replicator:
       -
         type: set
         attrs:
+          id: zVtw6he3
           values:
             type: spacer
             padding-y: 10
@@ -35,11 +37,14 @@ replicator:
     type: editor
     enabled: true
   -
+    id: uftHdakw
     columns_replicator:
       -
+        id: ajOcqZjB
         columns_per_row: 2
         grid:
           -
+            id: jUoPHVgd
             bard:
               -
                 type: paragraph
@@ -235,6 +240,7 @@ replicator:
                     text: ', Dissertation).'
             show_as_card: false
           -
+            id: qhvDud0w
             bard:
               -
                 type: paragraph
@@ -314,13 +320,16 @@ replicator:
         single_col: false
         responsive_columns: 0
       -
+        id: 1WflMKRb
         single_col: false
         grid:
           -
+            id: uvGDRBMU
             bard:
               -
                 type: set
                 attrs:
+                  id: FWQVasa2
                   values:
                     type: video
                     video: 'https://www.youtube.com/watch?v=D2o98MnO0Ww'
@@ -337,6 +346,7 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: R1m96qzk
     bard:
       -
         type: heading
@@ -429,6 +439,7 @@ replicator:
       -
         type: set
         attrs:
+          id: cbcPKSok
           values:
             type: bild_und_text
             bild:
@@ -443,12 +454,14 @@ replicator:
       -
         type: set
         attrs:
+          id: HMfDJFYx
           values:
             type: spacer
             padding-y: 15
       -
         type: set
         attrs:
+          id: eEvgMyTV
           values:
             type: bild_und_text
             bild:
@@ -463,12 +476,14 @@ replicator:
       -
         type: set
         attrs:
+          id: of4BWSW1
           values:
             type: spacer
             padding-y: 15
       -
         type: set
         attrs:
+          id: 6uGIXGwE
           values:
             type: bild_und_text
             bild:
@@ -488,11 +503,14 @@ replicator:
     type: editor
     enabled: true
   -
+    id: VB9w0bBi
     columns_replicator:
       -
+        id: lre3uxaV
         single_col: false
         grid:
           -
+            id: KEdXwWHB
             bard:
               -
                 type: paragraph
@@ -509,6 +527,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: hSn3zLv1
                   values:
                     type: button
                     button_link: 'entry::e969d0a5-421c-42aa-9b67-0a3859c25797'
@@ -526,6 +545,7 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: zc9UeJUK
     bard:
       -
         type: heading
@@ -623,15 +643,19 @@ replicator:
     type: editor
     enabled: true
   -
+    id: WccHWPSM
     columns_replicator:
       -
+        id: ZAiODhXe
         single_col: false
         grid:
           -
+            id: 3Ts7QA6a
             bard:
               -
                 type: set
                 attrs:
+                  id: 7VVEW2aw
                   values:
                     type: bild_und_text
                     bild:
@@ -641,12 +665,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: OmXRL0Ra
                   values:
                     type: spacer
                     padding-y: 15
               -
                 type: set
                 attrs:
+                  id: Dprgd2RN
                   values:
                     type: bild_und_text
                     bild:
@@ -656,12 +682,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 64scJgw5
                   values:
                     type: spacer
                     padding-y: 15
               -
                 type: set
                 attrs:
+                  id: bN5SgIlv
                   values:
                     type: bild_und_text
                     bild:
@@ -671,12 +699,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Fav49msY
                   values:
                     type: spacer
                     padding-y: 15
               -
                 type: set
                 attrs:
+                  id: lrJz31Sq
                   values:
                     type: bild_und_text
                     bild:
@@ -686,12 +716,14 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: a6kzei1n
                   values:
                     type: spacer
                     padding-y: 15
               -
                 type: set
                 attrs:
+                  id: UKT9Sixo
                   values:
                     type: bild_und_text
                     bild:
@@ -701,6 +733,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: QuVbUj2w
                   values:
                     type: spacer
                     padding-y: 15
@@ -743,6 +776,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: jCdJlUL9
                   values:
                     type: spacer
                     padding-y: 15
@@ -751,6 +785,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: pEjcsN95
                   values:
                     type: spacer
                     padding-y: 15
@@ -847,9 +882,9 @@ replicator:
 page_title: 'Akademische Ghostwriter gesucht! • GWriters'
 template: without-teaser-with-sidebar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1666105832
+updated_at: 1674668392
 meta_title: 'GWriters • Akademische Ghostwriter gesucht!'
-meta_description: 'Akademische Ghostwriter gesucht? Die Nachfrage nach Ghostwriter Jobs steigt! Experten in allen Fachbereichen ✔️ 18.000 zufriedene Kunden seit 2012 ✔️'
+meta_description: 'Hausarbeit schreiben lassen – akademische Ghostwriter bieten Lektorate, Korrektorate  & Mustervorlagen ✔️ diskret und geprüft auf Qualität & Plagiate!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -857,9 +892,8 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 og_title: 'GWriters • Akademische Ghostwriter gesucht!'
-og_description: 'Akademische Ghostwriter gesucht? Die Nachfrage nach Ghostwriter Jobs steigt! Experten in allen Fachbereichen ✔️ 18.000 zufriedene Kunden seit 2012 ✔️'
+og_description: 'Hausarbeit schreiben lassen – akademische Ghostwriter bieten Lektorate, Korrektorate  & Mustervorlagen ✔️ diskret und geprüft auf Qualität & Plagiate!'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
 ---

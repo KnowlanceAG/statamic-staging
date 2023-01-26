@@ -5,15 +5,18 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1667310920
+updated_at: 1674669232
 replicator:
   -
+    id: YmNF1OGN
     columns_replicator:
       -
+        id: i0TQpoVu
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: uGSq4AsJ
             bard:
               -
                 type: heading
@@ -176,10 +179,12 @@ replicator:
                     text: ' mit Google Pay, Apple Pay, Visa, Mastercard, American Express und Sofortüberweisung via Klarna zahlen.'
             show_as_card: false
           -
+            id: zHJTOya3
             bard:
               -
                 type: set
                 attrs:
+                  id: 9yyLLWEC
                   values:
                     type: floating_img
                     dateien:
@@ -198,15 +203,19 @@ replicator:
     remove_spacing: false
     border: false
   -
+    id: GtMnb1kI
     columns_replicator:
       -
+        id: ELwVBNDA
         single_col: false
         grid:
           -
+            id: xy6yhhfb
             bard:
               -
                 type: set
                 attrs:
+                  id: rUvX2W8i
                   values:
                     type: preisrechner
                     show_calulator: true
@@ -225,15 +234,19 @@ replicator:
     remove_spacing: false
     border: false
   -
+    id: 1io9xHCB
     columns_replicator:
       -
+        id: zfSGMhos
         single_col: false
         grid:
           -
+            id: wG8gARnB
             bard:
               -
                 type: set
                 attrs:
+                  id: KyNo1jsB
                   values:
                     type: text_box_alignment
                     bard:
@@ -263,6 +276,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: yuSr2LYK
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -280,11 +294,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: VvunKODE
     columns_replicator:
       -
+        id: zux2NyCK
         single_col: false
         grid:
           -
+            id: Z8HXZ3AT
             bard:
               -
                 type: heading
@@ -380,9 +397,11 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: 6Nf8SpYb
         single_col: false
         grid:
           -
+            id: dVUFMlIS
             bard:
               -
                 type: heading
@@ -408,14 +427,17 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: i1FUFySI
         columns_per_row: 3
         single_col: false
         grid:
           -
+            id: ic7f6pX1
             bard:
               -
                 type: set
                 attrs:
+                  id: G9qhynGW
                   values:
                     type: floating_img
                     img_size: w-1/4
@@ -445,6 +467,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: uuuW3dsJ
                   values:
                     type: text_box_alignment
                     bard:
@@ -468,10 +491,12 @@ replicator:
                     column_count: false
             show_as_card: false
           -
+            id: THhihyPa
             bard:
               -
                 type: set
                 attrs:
+                  id: kKqlo7SV
                   values:
                     type: floating_img
                     dateien:
@@ -501,6 +526,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: WBnJczkU
                   values:
                     type: text_box_alignment
                     bard:
@@ -527,10 +553,12 @@ replicator:
                     column_count: false
             show_as_card: false
           -
+            id: WxHbUlaH
             bard:
               -
                 type: set
                 attrs:
+                  id: lnvOs5rg
                   values:
                     type: floating_img
                     dateien:
@@ -575,10 +603,12 @@ replicator:
                     text: 'Ihr persönlicher Projektmanager steht Ihnen während des gesamten Schreibprozesses jederzeit unterstützend zur Verfügung. Wir gehen individuell auf jeden Ihrer Wünsche ein, damit Sie zu jeder Zeit ein gutes Gefühl haben.'
             show_as_card: false
           -
+            id: pRa80JXY
             bard:
               -
                 type: set
                 attrs:
+                  id: 2rKTuwbJ
                   values:
                     type: floating_img
                     dateien:
@@ -623,10 +653,12 @@ replicator:
                     text: 'Sie erhalten von uns je nach Auftragsgröße 2-5 Zwischenstände zugeschickt, sodass Sie gerne Feedback geben und die Schreibarbeit so selbst in die von Ihnen gewünschte Richtung steuern können. Auch nach Auftragsabschluss sind wir weiterhin für Sie da.'
             show_as_card: false
           -
+            id: nzYXNGyd
             bard:
               -
                 type: set
                 attrs:
+                  id: drrOFHCK
                   values:
                     type: floating_img
                     dateien:
@@ -661,10 +693,12 @@ replicator:
                     text: 'Vor der Abschlusslieferung wird die Mustervorlage für Ihre Abschlussarbeit durch einen übergeordneten Supervisor aus Ihrem Fachgebiet auf Rechtschreibung, Grammatik, Hyphenation, inhaltliche Richtigkeit und Wissenschaftlichkeit geprüft, für Ihren Erfolg!'
             show_as_card: false
           -
+            id: M7ssxjW4
             bard:
               -
                 type: set
                 attrs:
+                  id: NShYvfNu
                   values:
                     type: floating_img
                     dateien:
@@ -694,6 +728,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 2AJknTZX
                   values:
                     type: text_box_alignment
                     bard:
@@ -715,15 +750,19 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: MDYU9G4E
     columns_replicator:
       -
+        id: yCeCN8Bi
         single_col: false
         grid:
           -
+            id: 3vXS1Kr8
             bard:
               -
                 type: set
                 attrs:
+                  id: QSSIWMML
                   values:
                     type: text_box_alignment
                     bard:
@@ -772,10 +811,12 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: pmwDAQC0
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: hIt0mAFa
             bard:
               -
                 type: paragraph
@@ -811,6 +852,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: EU7m1Le1
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -821,6 +863,7 @@ replicator:
                 type: paragraph
             show_as_card: true
           -
+            id: 5T3WIkv3
             bard:
               -
                 type: paragraph
@@ -841,6 +884,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: y2O3Yv05
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -859,11 +903,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: RrqWb8C0
     columns_replicator:
       -
+        id: yuln3lQE
         single_col: false
         grid:
           -
+            id: TMgyN3hK
             bard:
               -
                 type: heading
@@ -879,14 +926,17 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: BrQRLzy2
         columns_per_row: 4
         single_col: false
         grid:
           -
+            id: XcmVvwtp
             bard:
               -
                 type: set
                 attrs:
+                  id: yuvYLrSt
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/security.svg
@@ -894,6 +944,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: VWrOzdgi
                   values:
                     type: spacer
                     padding-y: 10
@@ -924,15 +975,18 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: hGlHw7NU
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
           -
+            id: nWDF2vYt
             bard:
               -
                 type: set
                 attrs:
+                  id: kdVyLWLh
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/icon-kostenloses-feedback.svg
@@ -940,6 +994,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Au30mdLH
                   values:
                     type: spacer
                     padding-y: 10
@@ -967,15 +1022,18 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 901ENILQ
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
           -
+            id: NfHnsxTO
             bard:
               -
                 type: set
                 attrs:
+                  id: fJk84K5r
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/stopwatch.svg
@@ -983,6 +1041,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: QpEimugQ
                   values:
                     type: spacer
                     padding-y: 10
@@ -1022,15 +1081,18 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: 8BAjUWlI
                   values:
                     type: spacer
                     padding-y: 10
             show_as_card: false
           -
+            id: 2NumTPHs
             bard:
               -
                 type: set
                 attrs:
+                  id: rLGuIpw0
                   values:
                     type: custom_svg_width
                     svg_file: leistung/icons/magistrate.svg
@@ -1038,6 +1100,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: MlakuUVf
                   values:
                     type: spacer
                     padding-y: 10
@@ -1068,6 +1131,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: YsiMhPuO
                   values:
                     type: spacer
                     padding-y: 10
@@ -1076,9 +1140,11 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
+        id: CSD006A9
         single_col: false
         grid:
           -
+            id: 14Ah9JWh
             bard:
               -
                 type: heading
@@ -1101,6 +1167,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: pGarXQfM
                   values:
                     type: text_box_alignment
                     bard:
@@ -1139,17 +1206,21 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: 6yKUxBxe
         single_col: false
         grid:
           -
+            id: eYnWC9Vc
             bard:
               -
                 type: set
                 attrs:
+                  id: Za9ppTAK
                   values:
                     type: accordion_wrapper
                     items:
                       -
+                        id: AVNg3N15
                         headline: 'Mustervorlage für Seminararbeit'
                         accordion_content:
                           -
@@ -1429,10 +1500,11 @@ replicator:
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
                                                   hex: '#000'
-                                            text: 'ab 80,- € pro Normseite'
+                                            text: 'ab 85,- € pro Normseite'
                           -
                             type: set
                             attrs:
+                              id: 8QB2FzaA
                               values:
                                 type: button
                                 button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -1441,6 +1513,7 @@ replicator:
                                 spacing_top: true
                         active: true
                       -
+                        id: DIz2WANv
                         headline: 'Mustervorlage für Bachelorarbeit'
                         accordion_content:
                           -
@@ -1720,10 +1793,11 @@ replicator:
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
                                                   hex: '#000'
-                                            text: 'ab 80,- € pro Normseite'
+                                            text: 'ab 90,- € pro Normseite'
                           -
                             type: set
                             attrs:
+                              id: PdiUigDL
                               values:
                                 type: button
                                 button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -1732,6 +1806,7 @@ replicator:
                                 button_align: justify-end
                         active: true
                       -
+                        id: 3GB1kMvH
                         headline: 'Mustervorlage für Masterarbeit'
                         accordion_content:
                           -
@@ -2011,10 +2086,11 @@ replicator:
                                                 attrs:
                                                   color: 'rgb(51, 51, 51)'
                                                   hex: '#000'
-                                            text: 'ab 80,- € pro Normseite'
+                                            text: 'ab 95,- € pro Normseite'
                           -
                             type: set
                             attrs:
+                              id: M4ywKdsG
                               values:
                                 type: button
                                 button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -2028,9 +2104,11 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: R3guzEkb
         single_col: false
         grid:
           -
+            id: y9qFHBKd
             bard:
               -
                 type: heading
@@ -2540,10 +2618,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: eir8x2l4
                   values:
                     type: accordion_custom_wrapper
                     items:
                       -
+                        id: T3EwA2UK
                         headline:
                           -
                             type: heading
@@ -2598,6 +2678,7 @@ replicator:
                                 text: '. Die Kosten sind höher als wenn Sie eine Billig-Agentur engagieren, die solch einen hochklassigen Service nicht garnieren kann.'
                         active: false
                       -
+                        id: tpsziIId
                         headline:
                           -
                             type: heading
@@ -2670,6 +2751,7 @@ replicator:
                                 text: 'nämlich sehr wohl bewusst und können sich auf ihr Team von akademischen Ghostwritern verlassen.'
                         active: false
                       -
+                        id: Rp2gFlQ8
                         headline:
                           -
                             type: heading
@@ -2700,6 +2782,7 @@ replicator:
                                 text: 'Auch sollten man sicher gehen, dass ein Ghostwriter mit der Aufgabe betraut wurde, der reichlich Erfahrung im gefragten Fachgebiet mitbringt. Daher gilt als Faustregel, nicht nur auf den Preis, sondern auch darauf zu achten, ob die Aufgabe in gute Hände gelegt wird.'
                         active: false
                       -
+                        id: DZHm64GJ
                         headline:
                           -
                             type: heading
@@ -2718,6 +2801,7 @@ replicator:
                                 text: 'Auch wenn wir jederzeit versuchen, Ihnen den Service unserer Ghostwriter günstig – und zwar so günstig wie möglich – zu bieten, bieten wir keinen Billig-Tarif auf Kosten der Qualität unserer Arbeit an. Denn als eine der führenden Ghostwriting Agenturen im deutschsprachigen Raum ist es für uns von höchster Priorität, Ihnen jederzeit höchste Qualität von akademischen Experten liefern zu können.'
                         active: false
                       -
+                        id: V3UkR2iH
                         headline:
                           -
                             type: heading
@@ -2749,6 +2833,7 @@ replicator:
                                 text: ', liegt zwischen €800 – €1600. Natürlich variieren die Ghostwriter Preise hier aber auch stark abhängig von der geforderten Anzahl der Textseiten, dem Schwierigkeitsgrad Themas, dem Fachbereich und dem zur Verfügung stehenden Bearbeitungszeitraum. In jedem Fall werden wir jedoch versuchen, eine für Sie möglichst kostengünstige und zugleich hochqualitative Lösung zu finden.'
                         active: false
                       -
+                        id: hURJSbNI
                         headline:
                           -
                             type: heading
@@ -2779,6 +2864,7 @@ replicator:
                                 text: 'der durch uns erstellten Mustervorlage für Ihre Abschlussarbeit (Hausarbeit, Seminararbeit, Bachelorarbeit, Masterarbeit o.ä.) immer im Pauschalpreis inklusive. Diese werden von einem übergeordneten Supervisor durchgeführt, der den entsprechenden fachlichen Hintergrund wie Ihr Ghostwriter hat und somit Ihre Arbeit inhaltlich und äußerlich überprüfen und ihr den letzten Schliff geben kann.'
                         active: false
                       -
+                        id: LkmttGQO
                         headline:
                           -
                             type: heading
@@ -2909,6 +2995,5 @@ schema_objects: |-
     }]
   }
   </script>
-published: true
 breadcrumbs_active: true
 ---
