@@ -38,6 +38,12 @@ export const qualityLevel = {
   Academic: 1.18
 }
 
+export const qualityDescription = {
+  Economy: 'Blog Artikel, SEO Texte etc.',
+  Business: 'Ratgeber, Sachbücher, Biografien etc.',
+  Academic: 'Wissenschaftliche Arbeiten'
+}
+
 export const timeType = [{ Tage: 1 }, { Wochen: 7 }, { Monate: 30 }]
 
 export const pagesPerDay = [
@@ -63,6 +69,7 @@ export const options = {
   service,
   specialField,
   qualityLevel,
+  qualityDescription,
   timeType,
   pagesPerDay,
   pageFactor

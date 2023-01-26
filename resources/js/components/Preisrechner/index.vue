@@ -46,7 +46,7 @@
                     :key="qualityLevel"
                     :value="qualityLevel"
                 >
-                    {{ qualityLevel }}
+                    {{ qualityLevel }} - {{ options.qualityDescription[qualityLevel] }}
                 </option>
              </select>
         </div>
@@ -101,10 +101,12 @@
       </div>
       <div>
         <p class="text-xs leading-5">
-            Die angezeigte Preiskalkulation dient zur Vermittlung einer groben
-            Preisvorstellung. Ein individuelles &amp; unverbindliches
-            Preisangebot erhalten Sie innerhalb weniger Stunden über das
-            nebenstehend verlinkte Anfrageformular, per Mail oder Telefon.
+            Die angezeigte Preiskalkulation für die Qualitätsstufe "Academic"
+            dient zur Vermittlung einer groben Preisvorstellung und beruht auf
+            einer literaturbasierten Arbeit ohne eigene Forschung.
+            Ein individuelles &amp; unverbindliches Preisangebot erhalten Sie
+            innerhalb weniger Stunden über das nebenstehend verlinkte Anfrageformular,
+            per Mail oder Telefon.
         </p>
       </div>
       <div>
