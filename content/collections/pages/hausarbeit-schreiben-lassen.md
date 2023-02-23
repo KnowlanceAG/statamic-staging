@@ -146,7 +146,7 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
+teaser_bg: seiten/arbeiten/gwriters_essay_hausarbeit_facharbeit_seminararbeit-schreiben-lassen_2.jpg
 replicator:
   -
     id: RVdNn4V0
@@ -1917,7 +1917,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670861122
+updated_at: 1677176609
 template: default
 use_meta_keywords: false
 no_index_page: false
