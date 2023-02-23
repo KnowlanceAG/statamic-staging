@@ -3121,7 +3121,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1677176734
+updated_at: 1677178035
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3131,7 +3131,7 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 meta_title: 'Seminararbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Mustervorlage für Ihre Seminararbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – diskret und geprüft auf Qualität & Plagiate.'
-og_title: 'Seminararbeit schreiben lassen • Mustervorlage von GWriters'
+og_title: 'Seminararbeit schreiben lassen • Ghostwriter von GWriters'
 og_description: 'Mustervorlage für Ihre Seminararbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 schema_objects: |-
