@@ -136,7 +136,7 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
+teaser_bg: seiten/arbeiten/gwriters_essay_hausarbeit_facharbeit_seminararbeit-schreiben-lassen_1.jpg
 replicator:
   -
     id: bX4e3QRl
@@ -3121,7 +3121,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670861163
+updated_at: 1677176711
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3129,7 +3129,7 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-meta_title: 'Seminararbeit schreiben lassen • Mustervorlage von GWriters'
+meta_title: 'Seminararbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Mustervorlage für Ihre Seminararbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – diskret und geprüft auf Qualität & Plagiate.'
 og_title: 'Seminararbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Mustervorlage für Ihre Seminararbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – diskret und geprüft auf Qualität & Plagiate.'
@@ -3171,7 +3171,8 @@ schema_objects: |-
   }
   </script>
 sitemap_active: true
-alternative_page_title: 'Seminararbeit schreiben lassen'
+alternative_page_title: 'Seminararbeit schreiben lassen • Ghostwriter von GWriters'
 arbeitsgruppe: a_studienarbeiten
 breadcrumbs_active: true
+page_title: 'Seminararbeit schreiben lassen • Ghostwriter von GWriters'
 ---
