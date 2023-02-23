@@ -136,7 +136,7 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
+teaser_bg: seiten/arbeiten/gwriters_bachelor-master-diplom-examen_1.jpg
 replicator:
   -
     id: 9dx3oCQT
@@ -2637,7 +2637,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670861145
+updated_at: 1677176958
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2645,7 +2645,7 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-meta_title: 'Masterarbeit schreiben lassen • Ghostwriting von GWriters'
+meta_title: 'Masterarbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Masterarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Masterarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
 og_title: 'Masterarbeit schreiben lassen • Ghostwriting von GWriters'
 og_description: 'Masterarbeit schreiben lassen – Akademisches Ghostwriting für Ihre Masterarbeit ✔️ über 3.000 Ghostwriter ✔️ 18.000 zufriedene Kunden ✔️ seit 2012.'
@@ -2687,8 +2687,8 @@ schema_objects: |-
   }
   </script>
 sitemap_active: true
-page_title: 'Masterarbeit schreiben lassen • Ghostwriting von GWriters'
-alternative_page_title: 'Masterarbeit schreiben lassen'
+page_title: 'Masterarbeit schreiben lassen • Ghostwriter von GWriters'
+alternative_page_title: 'Masterarbeit schreiben lassen • Ghostwriter von GWriters'
 arbeitsgruppe: a_abschlussarbeiten
 breadcrumbs_active: true
 ---
