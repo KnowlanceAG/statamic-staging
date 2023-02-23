@@ -131,7 +131,7 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/header-so-funktionierts.jpeg
+teaser_bg: leistung/gwriters_ghostwriting_leistungen.jpg
 replicator:
   -
     id: 5weHd3dP
@@ -821,7 +821,7 @@ replicator:
 parent: 849140c8-c582-4340-a2bc-446126149c9f
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1674668875
+updated_at: 1677176489
 meta_title: 'Akademisches Ghostwriting von GWriters - sicher und diskret!'
 meta_description: 'Ghostwriting - Akademische Ghostwriter schreiben wissenschaftliche Artikel, Manuskripte und Arbeiten mit Qualität ✔️ 18.000 zufriedene Kunden seit 2012!'
 use_meta_keywords: false
