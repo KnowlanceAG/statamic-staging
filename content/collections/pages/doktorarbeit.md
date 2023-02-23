@@ -136,7 +136,7 @@ teaser:
               target: null
               rel: null
         text: '##phone##'
-teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
+teaser_bg: seiten/arbeiten/gwriters_bachelor-master-diplom-examen_2.jpg
 replicator:
   -
     id: ec5xCRCG
@@ -2850,7 +2850,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1674665404
+updated_at: 1677177064
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2858,14 +2858,14 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-meta_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
+meta_title: 'Doktorarbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Dissertation schreiben lassen - akademische Ghostwriter helfen schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Dissertation schreiben lassen - akademische Ghostwriter helfen schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-page_title: 'Doktorarbeit schreiben lassen • Mustervorlage von GWriters'
-alternative_page_title: 'Doktorarbeit schreiben lassen'
+page_title: 'Doktorarbeit schreiben lassen • Ghostwriter von GWriters'
+alternative_page_title: 'Doktorarbeit schreiben lassen • Ghostwriter von GWriters'
 arbeitsgruppe: a_abschlussarbeiten
 breadcrumbs_active: true
 ---
