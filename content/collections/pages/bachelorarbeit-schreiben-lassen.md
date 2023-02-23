@@ -1,7 +1,7 @@
 ---
 id: 68b88fd1-ec03-4ea8-9292-431555e47744
 blueprint: pages
-title: Bachelorarbeit
+title: 'Bachelorarbeit schreiben lassen • Ghostwriter von GWriters'
 teaser:
   -
     type: heading
@@ -3003,7 +3003,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670861067
+updated_at: 1677176801
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3011,13 +3011,14 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-meta_title: 'Bachelorarbeit schreiben lassen • Mustervorlage von GWriters'
+meta_title: 'Bachelorarbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Mustervorlage für Bachelorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_title: 'Bachelorarbeit schreiben lassen • Mustervorlage von GWriters'
 og_description: 'Mustervorlage für Bachelorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-alternative_page_title: 'Bachelorarbeit schreiben lassen'
+alternative_page_title: 'Bachelorarbeit schreiben lassen • Ghostwriter von GWriters'
 arbeitsgruppe: a_abschlussarbeiten
 breadcrumbs_active: true
+page_title: 'Bachelorarbeit schreiben lassen • Ghostwriter von GWriters'
 ---
