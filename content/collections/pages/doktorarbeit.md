@@ -38,8 +38,8 @@ teaser:
           -
             type: textColor
             attrs:
-              color: orange-500
-              hex: '#ff6606'
+              color: black
+              hex: '#000'
         text: 'Mustervorlagen von akademischen Ghostwritern für Ihre Dissertation'
   -
     type: set
@@ -58,7 +58,7 @@ teaser:
           -
             id: OwUlgdUU
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
-            headline: '<p style="color:#FF6606;">Datenschutz &amp; 100% Anonymität</p>'
+            headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
             id: iFp2ohyv
@@ -2850,7 +2850,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1677231179
+updated_at: 1677231280
 template: default
 use_meta_keywords: false
 no_index_page: false
