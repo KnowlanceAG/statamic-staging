@@ -3003,7 +3003,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1677236432
+updated_at: 1677237803
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3017,8 +3017,8 @@ og_title: 'Bachelorarbeit schreiben lassen • Ghostwriter von GWriters'
 og_description: 'Mustervorlage für Bachelorarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-alternative_page_title: 'Bachelorarbeit schreiben lassen • Ghostwriter von GWriters'
+alternative_page_title: Bachelorarbeit
 arbeitsgruppe: a_abschlussarbeiten
 breadcrumbs_active: true
-page_title: 'Bachelorarbeit schreiben lassen • Ghostwriter von GWriters'
+page_title: Bachelorarbeit
 ---
