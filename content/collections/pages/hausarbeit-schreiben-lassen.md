@@ -1917,7 +1917,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1677177948
+updated_at: 1677240232
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2000,8 +2000,8 @@ schema_objects: |-
   }
   </script>
 sitemap_active: true
-page_title: 'Hausarbeit schreiben lassen | Ghostwriter von GWriters'
-alternative_page_title: 'Hausarbeit schreiben lassen | Ghostwriter von GWriters'
+page_title: 'Hausarbeit schreiben lassen'
+alternative_page_title: 'Hausarbeit schreiben lassen'
 arbeitsgruppe: a_studienarbeiten
 breadcrumbs_active: true
 ---
