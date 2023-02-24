@@ -2850,7 +2850,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1677231525
+updated_at: 1677236068
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -2864,8 +2864,7 @@ og_title: 'Doktorarbeit schreiben lassen • Ghostwriter von GWriters'
 og_description: 'Dissertation schreiben lassen - akademische Ghostwriter helfen schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-page_title: 'Doktorarbeit schreiben lassen • Ghostwriter von GWriters'
-alternative_page_title: 'Doktorarbeit schreiben lassen'
+page_title: 'Doktorarbeit schreiben lassen'
 arbeitsgruppe: a_abschlussarbeiten
 breadcrumbs_active: true
 ---
