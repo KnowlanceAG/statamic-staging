@@ -1045,7 +1045,7 @@ replicator:
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1677178002
+updated_at: 1677240239
 meta_title: 'Magisterarbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Magisterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Plagiate.'
 use_meta_keywords: false
@@ -1058,8 +1058,8 @@ og_title: 'Magisterarbeit schreiben lassen • Ghostwriter von GWriters'
 og_description: 'Magisterarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
-alternative_page_title: 'Magisterarbeit schreiben lassen • Ghostwriter von GWriters'
+alternative_page_title: 'Magisterarbeit schreiben lassen'
 arbeitsgruppe: a_abschlussarbeiten
 breadcrumbs_active: true
-page_title: 'Magisterarbeit schreiben lassen • Ghostwriter von GWriters'
+page_title: 'Magisterarbeit schreiben lassen'
 ---
