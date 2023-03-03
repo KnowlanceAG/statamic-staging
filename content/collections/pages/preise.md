@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1677856203
+updated_at: 1677856801
 replicator:
   -
     id: VvunKODE
@@ -544,6 +544,126 @@ replicator:
         enabled: true
         responsive_columns: 0
         columns_per_row: 0
+      -
+        id: lesobz8b
+        columns_per_row: 8
+        single_col: false
+        grid:
+          -
+            id: 2fcptLJm
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lesodi43
+                  values:
+                    type: custom_svg_width
+                    svg_file: paymentprovider/Mastercard-logo.svg
+                    custom_svg_width: 65
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lesocyfy
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lesoe9w7
+                  values:
+                    type: custom_svg_width
+                    svg_file: paymentprovider/Klarna_Payment_Badge.svg
+                    custom_svg_width: 85
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lesoek58
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lesoev84
+                  values:
+                    type: custom_svg_width
+                    svg_file: paymentprovider/sofort-logo-vector.svg
+                    custom_svg_width: 65
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lesofcq9
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lesoffy9
+                  values:
+                    type: custom_svg_width
+                    svg_file: paymentprovider/PayPal.svg
+                    custom_svg_width: 150
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lesohfrk
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lesohi6e
+                  values:
+                    type: custom_svg_width
+                    svg_file: paymentprovider/Google_Pay_Logo_(2020).svg
+                    custom_svg_width: 150
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lesoi5lz
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lesoiaa9
+                  values:
+                    type: custom_svg_width
+                    svg_file: paymentprovider/Visa_2021.svg
+                    custom_svg_width: 100
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lesoj0pz
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lesok4tm
+                  values:
+                    type: custom_svg_width
+                    svg_file: paymentprovider/American_Express_logo_2018.svg
+                    custom_svg_width: 50
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lesol603
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lesol96l
+                  values:
+                    type: custom_svg_width
+                    svg_file: paymentprovider/Apple_Pay_logo.svg
+                    custom_svg_width: 105
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
     is_full: true
     bg_toggle: false
     bg_color: '#F9F9F9'
