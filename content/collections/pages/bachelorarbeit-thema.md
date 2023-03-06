@@ -1,7 +1,7 @@
 ---
 id: c7bc4fcc-032f-46aa-bab7-2a78b0e21aaf
 blueprint: pages
-title: 'Bachelorarbeit-Thema BWL: 75 Vorschläge'
+title: 'Bachelorarbeit in BWL 2023: 75 Kostenlose Themenvorschläge'
 teaser:
   -
     type: heading
@@ -20,7 +20,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Bachelorarbeit-Thema BWL: 75 Vorschläge'
+        text: 'Bachelorarbeit in BWL 2023: 75 kostenlose Themenvorschläge'
   -
     type: paragraph
     content:
@@ -383,7 +383,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/literaturverzeichnis-automatisch-erstellen
+                  href: /blog/word-automatisches-verzeichnis-erstellen
                   target: null
                   rel: null
             text: Literaturverzeichnis
@@ -3987,7 +3987,7 @@ replicator:
     type: editor
     enabled: true
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670862462
+updated_at: 1677175619
 template: with-side-bar
 use_meta_keywords: false
 no_index_page: false
@@ -3995,8 +3995,8 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-page_title: '75 Kostenlose Themenvorschläge für Ihre Bachelorarbeit von GWriters'
-meta_title: '75 Kostenlose Themenvorschläge für Ihre Bachelorarbeit von GWriters'
+page_title: 'Bachelorarbeit in BWL 2023: 75 Kostenlose Themenvorschläge'
+meta_title: 'Bachelorarbeit in BWL 2023: 75 Kostenlose Themenvorschläge'
 meta_description: 'Sie haben noch keine Idee für Ihr Bachleorarbeit-Thema im Fachbereich BWL? Wir haben für Sie die aktuellen und wissenschaftlichen BWL-Themen ausgesucht!'
 og_title: '75 Kostenlose Themenvorschläge für Ihre Bachelorarbeit von GWriters'
 og_description: 'Sie haben noch keine Idee für Ihr Bachleorarbeit-Thema im Fachbereich BWL? Wir haben für Sie die aktuellen und wissenschaftlichen BWL-Themen ausgesucht!'

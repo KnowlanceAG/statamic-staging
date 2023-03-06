@@ -1038,7 +1038,7 @@ replicator:
     remove_spacing: false
     border: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670877613
+updated_at: 1677240200
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -1046,13 +1046,14 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-meta_title: 'Diplomarbeit schreiben lassen • Mustervorlage von GWriters'
+meta_title: 'Diplomarbeit schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Diplomarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
-og_title: 'Diplomarbeit schreiben lassen • Mustervorlage von GWriters'
+og_title: 'Diplomarbeit schreiben lassen • Ghostwriter von GWriters'
 og_description: 'Diplomarbeit schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
 alternative_page_title: 'Diplomarbeit schreiben lassen'
 arbeitsgruppe: a_abschlussarbeiten
 breadcrumbs_active: true
+page_title: 'Diplomarbeit schreiben lassen'
 ---

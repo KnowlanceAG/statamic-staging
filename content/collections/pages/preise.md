@@ -5,18 +5,17 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1674669232
+updated_at: 1677856853
 replicator:
   -
-    id: YmNF1OGN
+    id: VvunKODE
     columns_replicator:
       -
-        id: i0TQpoVu
-        columns_per_row: 2
+        id: leso8gen
         single_col: false
         grid:
           -
-            id: uGSq4AsJ
+            id: 4U7AG0w4
             bard:
               -
                 type: heading
@@ -26,6 +25,19 @@ replicator:
                   -
                     type: text
                     text: 'Unsere Ghostwriter Preise'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: leso809e
+        columns_per_row: 2
+        single_col: false
+        grid:
+          -
+            id: 4U7AG0w4
+            bard:
               -
                 type: paragraph
                 content:
@@ -95,6 +107,10 @@ replicator:
                   -
                     type: text
                     text: ' inkl. Leerzeichen) an.'
+            show_as_card: false
+          -
+            id: leso83yd
+            bard:
               -
                 type: paragraph
                 content:
@@ -178,254 +194,9 @@ replicator:
                     type: text
                     text: ' mit Google Pay, Apple Pay, Visa, Mastercard, American Express und Sofortüberweisung via Klarna zahlen.'
             show_as_card: false
-          -
-            id: zHJTOya3
-            bard:
-              -
-                type: set
-                attrs:
-                  id: 9yyLLWEC
-                  values:
-                    type: floating_img
-                    dateien:
-                      - preise/zahlungsmoeglichkeiten.png
-                    img_size: w-3/4
-                    float: mx-auto
-                    image_options:
-                      - no_upscale
-            show_as_card: false
         type: row
         enabled: true
         responsive_columns: 0
-    is_full: false
-    type: add_section
-    enabled: true
-    remove_spacing: false
-    border: false
-  -
-    id: GtMnb1kI
-    columns_replicator:
-      -
-        id: ELwVBNDA
-        single_col: false
-        grid:
-          -
-            id: xy6yhhfb
-            bard:
-              -
-                type: set
-                attrs:
-                  id: rUvX2W8i
-                  values:
-                    type: preisrechner
-                    show_calulator: true
-              -
-                type: paragraph
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    is_full: true
-    bg_toggle: false
-    bg_color: '#F9F9F9'
-    type: add_section
-    enabled: true
-    remove_spacing: false
-    border: false
-  -
-    id: 1io9xHCB
-    columns_replicator:
-      -
-        id: zfSGMhos
-        single_col: false
-        grid:
-          -
-            id: wG8gARnB
-            bard:
-              -
-                type: set
-                attrs:
-                  id: KyNo1jsB
-                  values:
-                    type: text_box_alignment
-                    bard:
-                      -
-                        type: paragraph
-                        content:
-                          -
-                            type: text
-                            text: "Für ein verbindliches Angebot senden Sie uns bitte eine\_"
-                          -
-                            type: text
-                            marks:
-                              -
-                                type: bold
-                              -
-                                type: link
-                                attrs:
-                                  href: /anfrage
-                                  target: null
-                                  rel: null
-                            text: Anfrage
-                          -
-                            type: text
-                            text: "\_und wir melden uns innerhalb von 24 Stunden zurück. Ihre Daten werden selbstverständlich streng vertraulich behandelt und nicht an Dritte weitergegeben."
-                    text_ausrichtung: text-center
-                    column_count: false
-              -
-                type: set
-                attrs:
-                  id: yuSr2LYK
-                  values:
-                    type: button
-                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
-                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
-                    spacing_top: false
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: false
-    border: true
-    type: add_section
-    enabled: true
-  -
-    id: VvunKODE
-    columns_replicator:
-      -
-        id: zux2NyCK
-        single_col: false
-        grid:
-          -
-            id: Z8HXZ3AT
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: start
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'Ghostwriter Kosten: Faktoren & Zusammensetzung'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: "In den vergangenen Jahren konnten wir reichhaltige Erfahrungen im\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting
-                          target: null
-                          rel: null
-                    text: 'akademischen Ghostwriting'
-                  -
-                    type: text
-                    text: "\_sammeln. Deshalb sind wir uns bewusst, dass sowohl die Seriosität einer "
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /ghostwriting/ghostwriting-agentur
-                          target: null
-                          rel: null
-                    text: 'Ghostwriting Agentur'
-                  -
-                    type: text
-                    text: ' als auch durchgängige Transparenz im Hinblick auf den Ghostwriting Service und die Preise für viele Kunden im Mittelpunkt stehen.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Wenn Sie sich bei '
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /
-                          target: null
-                          rel: null
-                    text: GWriters
-                  -
-                    type: text
-                    text: " eine Mustervorlage für Ihre Hausarbeit, Seminararbeit, Bachelorarbeit oder\_"
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
-                          href: /arbeiten/masterarbeit-schreiben-lassen
-                          target: null
-                          rel: null
-                    text: 'Masterarbeit schreiben lassen'
-                  -
-                    type: text
-                    text: ', erwartet Sie jederzeit höchste Qualität auf akademischem Niveau zu fairen Preisen. Dies garantieren wir durch unsere kompromisslose Qualitätssicherung, die selbstverständlich in jedem Preis-Angebot inklusive ist.'
-              -
-                type: paragraph
-                content:
-                  -
-                    type: text
-                    text: 'Angemessene und faire Kostenkalkulationen für alle Arten von Ghostwriting gehören zu den tragenden Elementen unserer Unternehmensphilosophie. Die von seriösen und zuverlässigen Ghostwriter-Agenturen angestrebte Qualität zu fairen Preisen beruht darauf, dass keine Pauschalpreise verwendet werden, sondern die Ghostwriter Kosten für jeden Auftrag individuell kalkuliert werden. Differenzierte Serviceangebote stellen sicher, dass Sie als Kunde nur für das bezahlen, was Sie auch wirklich wünschen.'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-      -
-        id: 6Nf8SpYb
-        single_col: false
-        grid:
-          -
-            id: dVUFMlIS
-            bard:
-              -
-                type: heading
-                attrs:
-                  level: 2
-                content:
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: textAlign
-                        attrs:
-                          align: left
-                      -
-                        type: textColor
-                        attrs:
-                          color: 'rgb(68, 68, 68)'
-                          hex: '#000'
-                    text: 'In unseren Preisen enthalten sind:'
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
       -
         id: i1FUFySI
         columns_per_row: 3
@@ -744,6 +515,325 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: GtMnb1kI
+    columns_replicator:
+      -
+        id: ELwVBNDA
+        single_col: false
+        grid:
+          -
+            id: xy6yhhfb
+            bard:
+              -
+                type: set
+                attrs:
+                  id: rUvX2W8i
+                  values:
+                    type: preisrechner
+                    show_calulator: true
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lesobz8b
+        columns_per_row: 8
+        single_col: false
+        grid:
+          -
+            id: 2fcptLJm
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lesodi43
+                  values:
+                    type: custom_svg_width
+                    svg_file: paymentprovider/Mastercard-logo.svg
+                    custom_svg_width: 65
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lesocyfy
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lesoe9w7
+                  values:
+                    type: custom_svg_width
+                    svg_file: paymentprovider/Klarna_Payment_Badge.svg
+                    custom_svg_width: 85
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lesoek58
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lesoev84
+                  values:
+                    type: custom_svg_width
+                    svg_file: paymentprovider/sofort-logo-vector.svg
+                    custom_svg_width: 65
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lesofcq9
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lesoffy9
+                  values:
+                    type: custom_svg_width
+                    svg_file: paymentprovider/PayPal.svg
+                    custom_svg_width: 150
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lesohfrk
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lesohi6e
+                  values:
+                    type: custom_svg_width
+                    svg_file: paymentprovider/Google_Pay_Logo_(2020).svg
+                    custom_svg_width: 150
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lesoi5lz
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lesoiaa9
+                  values:
+                    type: custom_svg_width
+                    svg_file: paymentprovider/Visa_2021.svg
+                    custom_svg_width: 100
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lesoj0pz
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lesok4tm
+                  values:
+                    type: custom_svg_width
+                    svg_file: paymentprovider/American_Express_logo_2018.svg
+                    custom_svg_width: 50
+              -
+                type: paragraph
+            show_as_card: false
+          -
+            id: lesol603
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lesol96l
+                  values:
+                    type: custom_svg_width
+                    svg_file: paymentprovider/Apple_Pay_logo.svg
+                    custom_svg_width: 105
+              -
+                type: paragraph
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    type: add_section
+    enabled: true
+    remove_spacing: false
+    border: false
+  -
+    id: 1io9xHCB
+    columns_replicator:
+      -
+        id: zfSGMhos
+        single_col: false
+        grid:
+          -
+            id: wG8gARnB
+            bard:
+              -
+                type: set
+                attrs:
+                  id: KyNo1jsB
+                  values:
+                    type: text_box_alignment
+                    bard:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: "Für ein verbindliches Angebot senden Sie uns bitte eine\_"
+                          -
+                            type: text
+                            marks:
+                              -
+                                type: bold
+                              -
+                                type: link
+                                attrs:
+                                  href: /anfrage
+                                  target: null
+                                  rel: null
+                            text: Anfrage
+                          -
+                            type: text
+                            text: "\_und wir melden uns innerhalb von 24 Stunden zurück. Ihre Daten werden selbstverständlich streng vertraulich behandelt und nicht an Dritte weitergegeben."
+                    text_ausrichtung: text-center
+                    column_count: false
+              -
+                type: set
+                attrs:
+                  id: yuSr2LYK
+                  values:
+                    type: button
+                    button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
+                    button_text: 'JETZT KOSTENLOS ANFRAGEN'
+                    spacing_top: false
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    border: true
+    type: add_section
+    enabled: true
+  -
+    id: leso6n20
+    columns_replicator:
+      -
+        id: leso6odb
+        single_col: false
+        grid:
+          -
+            id: YCcIPUFv
+            bard:
+              -
+                type: heading
+                attrs:
+                  level: 2
+                content:
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: textAlign
+                        attrs:
+                          align: start
+                      -
+                        type: textColor
+                        attrs:
+                          color: '#000!important'
+                          hex: '#000'
+                    text: 'Ghostwriter Kosten: Faktoren & Zusammensetzung'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "In den vergangenen Jahren konnten wir reichhaltige Erfahrungen im\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting
+                          target: null
+                          rel: null
+                    text: 'akademischen Ghostwriting'
+                  -
+                    type: text
+                    text: "\_sammeln. Deshalb sind wir uns bewusst, dass sowohl die Seriosität einer "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /ghostwriting/ghostwriting-agentur
+                          target: null
+                          rel: null
+                    text: 'Ghostwriting Agentur'
+                  -
+                    type: text
+                    text: ' als auch durchgängige Transparenz im Hinblick auf den Ghostwriting Service und die Preise für viele Kunden im Mittelpunkt stehen.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Wenn Sie sich bei '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /
+                          target: null
+                          rel: null
+                    text: GWriters
+                  -
+                    type: text
+                    text: " eine Mustervorlage für Ihre Hausarbeit, Seminararbeit, Bachelorarbeit oder\_"
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /arbeiten/masterarbeit-schreiben-lassen
+                          target: null
+                          rel: null
+                    text: 'Masterarbeit schreiben lassen'
+                  -
+                    type: text
+                    text: ', erwartet Sie jederzeit höchste Qualität auf akademischem Niveau zu fairen Preisen. Dies garantieren wir durch unsere kompromisslose Qualitätssicherung, die selbstverständlich in jedem Preis-Angebot inklusive ist.'
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Angemessene und faire Kostenkalkulationen für alle Arten von Ghostwriting gehören zu den tragenden Elementen unserer Unternehmensphilosophie. Die von seriösen und zuverlässigen Ghostwriter-Agenturen angestrebte Qualität zu fairen Preisen beruht darauf, dass keine Pauschalpreise verwendet werden, sondern die Ghostwriter Kosten für jeden Auftrag individuell kalkuliert werden. Differenzierte Serviceangebote stellen sicher, dass Sie als Kunde nur für das bezahlen, was Sie auch wirklich wünschen.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
     border: false
