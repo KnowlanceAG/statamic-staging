@@ -3,8 +3,8 @@ id: d118c7b2-141d-4bac-972d-c1502381a340
 blueprint: pages
 title: Arbeiten
 template: with-side-bar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670861058
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1678271672
 teaser:
   -
     type: heading
@@ -56,17 +56,17 @@ teaser:
           -
             id: tthgfc0F
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
-            headline: 'Datenschutz &amp;amp; 100% Anonymität'
+            headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp;amp; garantieren Ihre Anonymität zu 100%.'
           -
             id: P6k4P2TT
             icon: logo-startseite/icon-teillieferung.svg
-            headline: 'Teillieferungen &amp;amp; kostenlose Änderungen'
+            headline: 'Teillieferungen &amp; kostenlose Änderungen'
             tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferungen und wir setzen Ihre Feedbacks kostenfrei um. So können Sie jederzeit Einfluss auf Ihr Projekt nehmen.'
           -
             id: CHC8EkIk
             icon: logo-startseite/icon-schnelle-lieferung2.svg
-            headline: 'Schnelle &amp;amp; pünktliche Lieferung'
+            headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp;amp; finaler Form.'
           -
             id: BQsi0X9Z
