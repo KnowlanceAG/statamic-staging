@@ -2,11 +2,13 @@ title: Anfrage
 honeypot: emails
 email:
   -
+    id: 7QFEyPWd
     to: service@gwriters.de
     subject: Kundenanfrage
     html: mail-templates/mail-default_anfrage
     from: service@gwriters.de
   -
+    id: YMjlWKkB
     to: '{{ e_mail_adresse }}'
     from: service@gwriters.de
     subject: 'Anfrage gwriters.de'

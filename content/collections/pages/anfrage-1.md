@@ -3,10 +3,11 @@ id: fb7f2840-5af4-40d9-b494-39fb8921a8d8
 blueprint: pages
 title: 'Anfrage (alt)'
 template: without-teaser-with-sidebar
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665504324
+updated_by: 790b1007-849c-4144-9e78-237388f0c603
+updated_at: 1678197946
 replicator:
   -
+    id: fAz8bYoO
     bard:
       -
         type: heading
@@ -94,6 +95,7 @@ replicator:
       -
         type: set
         attrs:
+          id: uA1KlJSw
           values:
             type: form
             form: anfrage
@@ -113,6 +115,6 @@ og_title: 'Kostenlose Anfrage • GWriters.de'
 og_description: 'Schicken Sie und eine kostenlose Anfrage und erhalten Sie innerhalb kürzester Zeit ein individuelles Angebot und unverbindliche Beratung durch einen unserer Experten!'
 og_image: GWriters-Logo.png
 sitemap_active: true
-published: true
 breadcrumbs_active: true
+alternative_page_title: Anfrage
 ---
