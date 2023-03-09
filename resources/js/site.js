@@ -322,12 +322,40 @@ if (document.querySelector('.expert-slider')) {
   })
 }
 
+const handleUTM = () => {
+  const utmSearchKeys = [
+    'utm_medium',
+    'utm_source',
+    'utm_campaign',
+    'utm_content',
+    'utm_term'
+  ]
+
+  const params = new URLSearchParams(window.location.search)
+  const paramsMap = new Map()
+  for (const [key, value] of params.entries()) {
+    if (utmSearchKeys.includes(key)) {
+      paramsMap.set(key, value)
+    }
+  }
+
+  const paramsSet = Array.from(paramsMap, ([key, value]) => ({
+    key,
+    value,
+  }))
+
+  if (paramsSet.length) {
+    localStorage.setItem('utm', JSON.stringify(paramsSet))
+  }
+}
+
 const ready = callback => {
   if (document.readyState != 'loading') callback()
   else document.addEventListener('DOMContentLoaded', callback)
 }
 
 ready(() => {
+  handleUTM()
   addMenuHandler()
   lazzyVideo()
   tabToggle()

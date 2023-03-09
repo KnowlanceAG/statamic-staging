@@ -257,9 +257,16 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
         if (actionUrl) {
           this.initButtonSpinner()
           const formURL = new URL(actionUrl)
-          const source = document.querySelector('[name="gw_source"]')
+          const formData = new FormData(this.$refs.form)
+
+          // add utm data from localStorage #14116
+          const utm = JSON.parse(localStorage.getItem('utm') || '[]')
+          for (const entry of utm) {
+            formData.append(entry.key, entry.value)
+          }
 
           // added affiliate as source
+          const source = document.querySelector('[name="gw_source"]')
           const sourceValue = isIFrame ? 'Affiliate' : window.location.hostname
           source.setAttribute('value', sourceValue)
           const formOrigin = formURL.origin
@@ -269,7 +276,7 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
                 'X-Requested-With': 'XMLHttpRequest',
               },
               method: 'POST',
-              body: new FormData(this.$refs.form),
+              body: formData,
             })
             .then((res) => res.json())
             .then((json) => {

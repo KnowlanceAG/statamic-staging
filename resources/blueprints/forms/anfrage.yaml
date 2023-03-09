@@ -176,3 +176,63 @@ sections:
           icon: text
           instructions: 'Request IP'
           listable: hidden
+      -
+        handle: utm_medium
+        field:
+          input_type: hidden
+          antlers: false
+          display: utm_medium
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: hidden
+          always_save: false
+      -
+        handle: utm_source
+        field:
+          input_type: hidden
+          antlers: false
+          display: utm_source
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: hidden
+          always_save: false
+      -
+        handle: utm_campaign
+        field:
+          input_type: hidden
+          antlers: false
+          display: utm_campaign
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: hidden
+          always_save: false
+      -
+        handle: utm_content
+        field:
+          input_type: hidden
+          antlers: false
+          display: utm_content
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: hidden
+          always_save: false
+      -
+        handle: utm_term
+        field:
+          input_type: hidden
+          antlers: false
+          display: utm_term
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: hidden
+          always_save: false
