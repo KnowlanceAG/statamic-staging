@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Studenplan BWL'
 size: 21554
 last_modified: 1678267991
 width: 602

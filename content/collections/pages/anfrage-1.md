@@ -1,10 +1,10 @@
 ---
 id: fb7f2840-5af4-40d9-b494-39fb8921a8d8
 blueprint: pages
-title: 'Anfrage (alt)'
+title: Anfrage
 template: without-teaser-with-sidebar
-updated_by: 790b1007-849c-4144-9e78-237388f0c603
-updated_at: 1678197946
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1678284352
 replicator:
   -
     id: fAz8bYoO
