@@ -285,6 +285,7 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
                 this.sending = false
                 this.$refs.form.reset()
                 localStorage.removeItem('utm') // #14116
+                localStorage.removeItem('utm_time') // #14116
                 window.location.assign('/anfrage-abgesendet')
               }
               if (json['error']) {
