@@ -35,10 +35,10 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
             {{ partial:content/form_element marginTopNone="true" fullWidth="true" }}
           {{ /fields }}
         </div>
-        {{ else }}
-          {{ fields where="handle:fachrichtung" }}
-            {{ partial:content/form_element marginTopNone="true" }}
-          {{ /fields }}
+      {{ else }}
+        {{ fields where="handle:fachrichtung" }}
+          {{ partial:content/form_element marginTopNone="true" }}
+        {{ /fields }}
       {{ /if }}
       {{ fields where="handle:arbeitsthema_spezifikationen_usw" }}
         {{ partial:content/form_element }}
@@ -86,11 +86,11 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
         {{ partial:content/form_element cls="hidden"}}
       {{ /fields }}
 
-      {{ else }}
-        {{ fields }}
-          {{ if handle !== 'req_ip' && handle !== 'gw_source' }}
-            {{ partial:content/form_element }}
-          {{ /if }}
+    {{ else }}
+      {{ fields }}
+        {{ if handle !== 'req_ip' && handle !== 'gw_source' }}
+          {{ partial:content/form_element }}
+        {{ /if }}
       {{ /fields }}
     {{ /if }}
 
@@ -104,14 +104,12 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
       <button
         class="relative bg-orange-500 hover:bg-orange-700 px-10 py-3 mt-8 inline-block text-white font-300 uppercase rounded-sm hover:transition-colors hover:duration-200 hover:bg-opacity-95"
         type="submit">
-
         <span id="submit-button-text">
           {{ if form.handle == 'autorenbewerbung' }} Bewerbung absenden {{ elseif
             form.handle == 'anfrage' }}
             Anfrage absenden {{ else }}
             Absenden {{ /if }}
         </span>
-
         <span id="submit-button-spinner" class="opacity-0">
           <div class="spinner absolute left-0 right-0 top-4">
             <div class="bounce1"></div>
@@ -119,7 +117,6 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
             <div class="bounce3"></div>
           </div>
         </span>
-
       </button>
     </div>
   </div>
@@ -170,7 +167,7 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
   if (hiddenInputs.length) {
     function httpGetAsync(theUrl, callback) {
       const xmlHttp = new XMLHttpRequest();
-      xmlHttp.onreadystatechange = function() {
+      xmlHttp.onreadystatechange = function () {
         if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
           try {
             const token = JSON.parse(xmlHttp.responseText);
@@ -187,7 +184,7 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
     function setToken(token) {
       document
         .querySelectorAll(selector)
-        .forEach(function(item) {
+        .forEach(function (item) {
           item.value = token;
         });
     }
@@ -272,12 +269,12 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
           const formOrigin = formURL.origin
           const submissionURL = formOrigin + route + form.dataset.submissionType
           fetch(submissionURL, {
-              headers: {
-                'X-Requested-With': 'XMLHttpRequest',
-              },
-              method: 'POST',
-              body: formData,
-            })
+            headers: {
+              'X-Requested-With': 'XMLHttpRequest',
+            },
+            method: 'POST',
+            body: formData,
+          })
             .then((res) => res.json())
             .then((json) => {
               if (json['success']) {
