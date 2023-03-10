@@ -2,6 +2,13 @@ import 'alpinejs'
 import './components/cookieconsent/dist/cookieconsent.js'
 import { tns } from "tiny-slider"
 
+// utm consts
+  const utmGraceMs = 259200000 // 72 hours
+  const utmSearchKeys = [
+    'utm_medium',
+    'utm_source'
+  ]
+
 //  nav consts
 const body = document.querySelector('.body')
 const overlayer = document.querySelector('.menu-overlayer')
@@ -322,14 +329,21 @@ if (document.querySelector('.expert-slider')) {
   })
 }
 
+/**
+ * Add utm data to localStorage #14116
+ */
 const handleUTM = () => {
-  const utmSearchKeys = [
-    'utm_medium',
-    'utm_source',
-    'utm_campaign',
-    'utm_content',
-    'utm_term'
-  ]
+  const now = Date.now()
+  const lastData = localStorage.getItem('utm_time')
+
+  if (!lastData && localStorage.getItem('utm')) {
+    localStorage.setItem('utm_time', now)
+  }
+
+  if (lastData && lastData <= now - utmGraceMs) {
+    localStorage.removeItem('utm_time')
+    localStorage.removeItem('utm')
+  }
 
   const params = new URLSearchParams(window.location.search)
   const paramsMap = new Map()
@@ -345,6 +359,7 @@ const handleUTM = () => {
   }))
 
   if (paramsSet.length) {
+    localStorage.setItem('utm_time', now)
     localStorage.setItem('utm', JSON.stringify(paramsSet))
   }
 }
