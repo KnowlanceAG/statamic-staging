@@ -140,8 +140,8 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670862446
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1678733695
 teaser_bg: seiten/arbeiten/header-so-funktionierts.jpg.jpg
 replicator:
   -
@@ -992,4 +992,5 @@ page_title: 'GWriters Erfahrung - erfahrene Ghostwriter für Ihren Erfolg!'
 meta_description: 'Die GWriters Erfahrung überzeugt selbst unsere anspruchsvollsten Kunden  - erfahrene Ghostwriter unterstützen Sie diskret & seriös bei Ihrem  Projekt!'
 og_description: 'Die GWriters Erfahrung überzeugt selbst unsere anspruchsvollsten Kunden  - erfahrene Ghostwriter unterstützen Sie diskret & seriös bei Ihrem  Projekt!'
 breadcrumbs_active: true
+og_image: blog/2017/erfahrungsbericht-zur-arbeit-als-ghostwriter-bei-gwriters/erfahrungsbericht-ghostwriter-gwriters.jpg
 ---
