@@ -2,6 +2,13 @@ import 'alpinejs'
 import './components/cookieconsent/dist/cookieconsent.js'
 import { tns } from "tiny-slider"
 
+// utm consts
+  const utmGraceMs = 259200000 // 72 hours
+  const utmSearchKeys = [
+    'utm_medium',
+    'utm_source'
+  ]
+
 //  nav consts
 const body = document.querySelector('.body')
 const overlayer = document.querySelector('.menu-overlayer')
@@ -322,12 +329,48 @@ if (document.querySelector('.expert-slider')) {
   })
 }
 
+/**
+ * Add utm data to localStorage #14116
+ */
+const handleUTM = () => {
+  const now = Date.now()
+  const lastData = localStorage.getItem('utm_time')
+
+  if (!lastData && localStorage.getItem('utm')) {
+    localStorage.setItem('utm_time', now)
+  }
+
+  if (lastData && lastData <= now - utmGraceMs) {
+    localStorage.removeItem('utm_time')
+    localStorage.removeItem('utm')
+  }
+
+  const params = new URLSearchParams(window.location.search)
+  const paramsMap = new Map()
+  for (const [key, value] of params.entries()) {
+    if (utmSearchKeys.includes(key)) {
+      paramsMap.set(key, value)
+    }
+  }
+
+  const paramsSet = Array.from(paramsMap, ([key, value]) => ({
+    key,
+    value,
+  }))
+
+  if (paramsSet.length) {
+    localStorage.setItem('utm_time', now)
+    localStorage.setItem('utm', JSON.stringify(paramsSet))
+  }
+}
+
 const ready = callback => {
   if (document.readyState != 'loading') callback()
   else document.addEventListener('DOMContentLoaded', callback)
 }
 
 ready(() => {
+  handleUTM()
   addMenuHandler()
   lazzyVideo()
   tabToggle()
