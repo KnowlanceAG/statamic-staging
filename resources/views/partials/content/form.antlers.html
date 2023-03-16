@@ -253,6 +253,12 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
         const route = '/!/cpssg/forms/'
         if (actionUrl) {
           this.initButtonSpinner()
+
+          // added affiliate as source
+          const source = document.querySelector('[name="gw_source"]')
+          const sourceValue = isIFrame ? 'Affiliate' : window.location.hostname
+          source.setAttribute('value', sourceValue)
+
           const formURL = new URL(actionUrl)
           const formData = new FormData(this.$refs.form)
 
@@ -262,10 +268,7 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
             formData.append(entry.key, entry.value)
           }
 
-          // added affiliate as source
-          const source = document.querySelector('[name="gw_source"]')
-          const sourceValue = isIFrame ? 'Affiliate' : window.location.hostname
-          source.setAttribute('value', sourceValue)
+
           const formOrigin = formURL.origin
           const submissionURL = formOrigin + route + form.dataset.submissionType
           fetch(submissionURL, {
