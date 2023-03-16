@@ -263,7 +263,6 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
           }
 
           // added affiliate as source
-          const source = document.querySelector('[name="gw_source"]')
           const sourceValue = isIFrame ? 'Affiliate' : window.location.hostname
           formData.append('gw_source', sourceValue)
 
