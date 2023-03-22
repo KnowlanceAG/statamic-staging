@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'anzahl veganer Restaurants'
+  caption: '(Quelle: eigene Darstellung in Anlehnung Statista, 2023: https://de.statista.com/statistik/daten/studie/381076/umfrage/anzahl-veganer-gastronomiebetriebe-in-deutschland/?locale=de)'
 size: 8371
 last_modified: 1679500255
 width: 474
