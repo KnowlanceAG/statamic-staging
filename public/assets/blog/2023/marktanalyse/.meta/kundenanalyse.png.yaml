@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'marktanalyse beispiel: Kundenanalyse'
 size: 12573
 last_modified: 1679431938
 width: 311
