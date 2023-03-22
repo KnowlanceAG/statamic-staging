@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'marktanalyse durchführen'
 size: 32465
 last_modified: 1679419395
 width: 1563
