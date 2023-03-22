@@ -1,4 +1,6 @@
-data: {  }
+data:
+  alt: 'Zielgruppe: Konsument:innen von Fleischersatzprodukten in Deutschland'
+  caption: 'Zielgruppe: Konsument:innen von Fleischersatzprodukten in Deutschland (Quelle: eigene Darstellung in Anlehnung an Statista, 2022)'
 size: 10211
 last_modified: 1679500288
 width: 478
