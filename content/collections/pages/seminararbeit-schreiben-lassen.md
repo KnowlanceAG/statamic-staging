@@ -932,7 +932,7 @@ replicator:
                         attrs:
                           color: '#000!important'
                           hex: '#000'
-                    text: 'Turnitin '
+                    text: 'Copyleaks '
                   -
                     type: text
                     marks:
@@ -1506,7 +1506,7 @@ replicator:
                     vertical_alignment_img: self-center
                     text: |-
                       ### Abschlusslieferung & Qualitätsgarantie
-                      Nachdem die Verschriftlichung abgeschlossen ist, wird Ihre Mustervorlage von einem unabhängigen Lektor kontrolliert und mit Hilfe der Software **Turnitin** auf Plagiate geprüft. Anschließend wird Ihre Mustervorlage zum vereinbarten Termin an Sie geliefert. Unsere Ghostwriter vereinfachen somit das Schreiben Ihrer Seminararbeit, da Sie diese aufbauend auf der Mustervorlage schnell & einfach fertigstellen können.
+                      Nachdem die Verschriftlichung abgeschlossen ist, wird Ihre Mustervorlage von einem unabhängigen Lektor kontrolliert und mit Hilfe der Software **Copyleaks** auf Plagiate geprüft. Anschließend wird Ihre Mustervorlage zum vereinbarten Termin an Sie geliefert. Unsere Ghostwriter vereinfachen somit das Schreiben Ihrer Seminararbeit, da Sie diese aufbauend auf der Mustervorlage schnell & einfach fertigstellen können.
                     vertical_alignment_text: self-center
                     reverse_columns: text_bild
               -
@@ -3121,7 +3121,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1677240446
+updated_at: 1679569791
 template: default
 use_meta_keywords: false
 no_index_page: false
