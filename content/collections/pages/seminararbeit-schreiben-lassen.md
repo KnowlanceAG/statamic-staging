@@ -3121,7 +3121,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1680522950
+updated_at: 1680523075
 template: default
 use_meta_keywords: false
 no_index_page: false
@@ -3171,7 +3171,7 @@ schema_objects: |-
   }
   </script>
 sitemap_active: true
+alternative_page_title: 'Seminararbeit schreiben lassen'
 arbeitsgruppe: a_studienarbeiten
 breadcrumbs_active: true
-page_title: 'Seminararbeit schreiben lassen'
 ---
