@@ -131,7 +131,7 @@ teaser:
         text: '##phone##'
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670861858
+updated_at: 1680523974
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
   -
@@ -1072,7 +1072,7 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-meta_title: 'Exposé schreiben lassen • GWriters von Mustervorlage'
+meta_title: 'Exposé schreiben lassen • Ghostwriter von GWriters'
 meta_description: 'Mustervorlage für Exposé schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
 no_index_page: false
@@ -1081,8 +1081,7 @@ sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
 template: default
-page_title: 'Exposé schreiben lassen • Mustervorlage von GWriters'
-og_title: 'GWriters • Mustervorlage für Exposé schreiben lassen'
+og_title: 'Exposé schreiben lassen • Ghostwriter von GWriters'
 og_description: 'Mustervorlage für Exposé schreiben lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true
