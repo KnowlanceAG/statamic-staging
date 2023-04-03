@@ -130,11 +130,10 @@ teaser:
               rel: null
         text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
-page_title: 'Mathematik Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670877481
+updated_at: 1680539267
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -766,9 +765,9 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-meta_title: 'GWriters • Mathematik - Ghostwriter, Lektoren & Coaches'
+meta_title: 'Mathematik Ghostwriter, Lektoren & Coaches • GWriters.de'
 meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Mathematik – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-og_title: 'GWriters • Mathematik - Ghostwriter, Lektoren & Coaches'
+og_title: 'Mathematik Ghostwriter, Lektoren & Coaches • GWriters.de'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der Mathematik – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_naturwissenschaften
