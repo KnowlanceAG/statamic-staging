@@ -37,40 +37,48 @@ teaser:
   -
     type: set
     attrs:
+      id: l2m6DbQ4
       values:
         type: spacer
         padding-y: 10
   -
     type: set
     attrs:
+      id: CNPWi54b
       values:
         type: teaser_icon_columns
         columns:
           -
+            id: mQ88nRvs
             icon: logo-startseite/icon-datenschutz-anonymitaet.svg
             headline: 'Datenschutz &amp; 100% Anonymität'
             tooltip_infotext: 'Wir schützen Ihre Daten streng gemäß der Vorschriften von DSGVO/GDPR &amp; garantieren Ihre Anonymität zu 100%.'
           -
+            id: LKE2TtTB
             icon: logo-startseite/icon-teillieferung.svg
             headline: 'Teillieferungen &amp; kostenlose Änderungen'
             tooltip_infotext: 'Sie erhalten von uns regelmäßig Teillieferung und wir setzen Ihre Feedback kostenfrei um. So können Sie jederzeit Einfluss auf den Prozess nehmen.'
           -
+            id: LrthlKKW
             icon: logo-startseite/icon-schnelle-lieferung2.svg
             headline: 'Schnelle &amp; pünktliche Lieferung'
             tooltip_infotext: 'Wir respektieren Ihre Deadlines! Sie erhalten Ihre bestellte Mustervorlage zum vereinbarten Datum in lektorierter &amp; finaler Form.'
           -
+            id: EfWM8mB2
             icon: logo-startseite/icon-akademische-qualitaet4.svg
             headline: 'Top-Qualität von akademischen Experten'
             tooltip_infotext: 'Ihre Mustervorlage wird von akademischen Experten auf höchstem Niveau erstellt, die oft selbst als Doktoren oder Professoren beschäftigt sind.'
   -
     type: set
     attrs:
+      id: gsxsOoOv
       values:
         type: spacer
         padding-y: 15
   -
     type: set
     attrs:
+      id: UdbWGKrK
       values:
         type: button
         button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -80,6 +88,7 @@ teaser:
   -
     type: set
     attrs:
+      id: iRzy8FbO
       values:
         type: spacer
         padding-y: 20
@@ -121,11 +130,10 @@ teaser:
               rel: null
         text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
-page_title: 'Marketing Ghostwriter, Lektoren & Coaches • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1665671009
+updated_at: 1680537421
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -134,15 +142,19 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 replicator:
   -
+    id: OxsSnnCP
     columns_replicator:
       -
+        id: hR0OVC6z
         single_col: true
         grid:
           -
+            id: jLs8Yoz4
             bard:
               -
                 type: set
                 attrs:
+                  id: 2QngBan8
                   values:
                     type: insert_html
                     html: |-
@@ -159,11 +171,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: ZZrOYv90
     columns_replicator:
       -
+        id: cIEdB0Di
         single_col: false
         grid:
           -
+            id: ZL4KgbAo
             bard:
               -
                 type: heading
@@ -219,13 +234,16 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: 7P0lHYN0
         single_col: false
         grid:
           -
+            id: tbobuQgY
             bard:
               -
                 type: set
                 attrs:
+                  id: sxFocS8m
                   values:
                     type: insert_html
                     html: |-
@@ -250,11 +268,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: DLUxdJfD
     columns_replicator:
       -
+        id: 3ZHLzKSO
         single_col: true
         grid:
           -
+            id: qbMe91eG
             bard:
               -
                 type: heading
@@ -484,11 +505,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: R1qF8b9R
     columns_replicator:
       -
+        id: GqSCg3DB
         single_col: true
         grid:
           -
+            id: t0YhfK3z
             bard:
               -
                 type: heading
@@ -511,10 +535,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: VMPMKZv3
                   values:
                     type: leistungen_uebersicht_4_spaltig
                     grid:
                       -
+                        id: PovAY3Ae
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
@@ -522,6 +548,7 @@ replicator:
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
+                        id: SFVnxGJT
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
@@ -529,6 +556,7 @@ replicator:
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
+                        id: pizTTWpY
                         image:
                           - logo-startseite/icon-plagiat.svg
                         headline: PLAGIATSPRÜFUNG
@@ -536,6 +564,7 @@ replicator:
                         link:
                           - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
                       -
+                        id: 4B4tBZnC
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
@@ -545,6 +574,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: bJ07w3FA
                   values:
                     type: button
                     button_text: 'ALLE LEISTUNGEN IM FACHBEREICH MARKETING'
@@ -565,11 +595,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: rGrU4nAN
     columns_replicator:
       -
+        id: AopyL3P7
         single_col: true
         grid:
           -
+            id: 7XfC7K0P
             bard:
               -
                 type: heading
@@ -649,12 +682,15 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: BoQJu8zT
     columns_replicator:
       -
+        id: PmlPCKq3
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: USWzhsqf
             bard:
               -
                 type: heading
@@ -707,10 +743,12 @@ replicator:
                     text: ' erhalten. Die Teillieferungen dienen dafür um Ihre Änderungswünsche umsetzen zu können.'
             show_as_card: false
           -
+            id: b2oi0sJd
             bard:
               -
                 type: set
                 attrs:
+                  id: XKlImNT1
                   values:
                     type: video
                     video: 'https://youtu.be/bf0mZznnTlk'
@@ -719,13 +757,16 @@ replicator:
         enabled: true
         responsive_columns: 0
       -
+        id: yEg93BQn
         single_col: false
         grid:
           -
+            id: swNPihqS
             bard:
               -
                 type: set
                 attrs:
+                  id: UuQfvA68
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -745,11 +786,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: zLtaG1KJ
     columns_replicator:
       -
+        id: 69uxm3NA
         single_col: true
         grid:
           -
+            id: VYYMGyw2
             bard:
               -
                 type: heading
@@ -870,10 +914,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: n7na1PgQ
                   values:
                     type: link_liste
                     raster:
                       -
+                        id: Dgfn2YKt
                         text: Arbeiten
                         eintraege:
                           - 99cd8e42-b21c-4cea-a162-a9454db2375f
@@ -891,6 +937,7 @@ replicator:
                           - 2931f444-5e22-4860-8f40-a41821377b93
                           - 0481728e-d2e2-4b99-9a9e-8e5bca901d14
                       -
+                        id: UdFRbk4R
                         text: Fachrichtungen
                         eintraege:
                           - 1390d32b-dd5d-49d2-85ff-21833c97c8ed
@@ -936,11 +983,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: 67vryRAo
     columns_replicator:
       -
+        id: htE3tXuI
         single_col: false
         grid:
           -
+            id: yLqStvKI
             bard:
               -
                 type: heading
@@ -988,24 +1038,29 @@ replicator:
         responsive_columns: 0
         columns_per_row: 0
       -
+        id: Rge47r7Q
         columns_per_row: 2
         single_col: false
         grid:
           -
+            id: hD9aPrti
             bard:
               -
                 type: set
                 attrs:
+                  id: VG5hL8VX
                   values:
                     type: phone_cta
                     cta_text: 'Fragen? Rufen Sie uns einfach an:'
                     open: 'Mo.-Fr. 9:00-18:00'
             show_as_card: true
           -
+            id: 6EIxltBn
             bard:
               -
                 type: set
                 attrs:
+                  id: OmzbXXb9
                   values:
                     type: spacer
                     padding-y: 10
@@ -1024,6 +1079,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: Wwe91ueO
                   values:
                     type: button
                     button_link: 'entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf'
@@ -1033,6 +1089,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: anKLYlOL
                   values:
                     type: spacer
                     padding-y: 12
@@ -1048,11 +1105,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: nA9GyQGt
     columns_replicator:
       -
+        id: AR1wFhqg
         single_col: true
         grid:
           -
+            id: o8bXj0Px
             bard:
               -
                 type: heading
@@ -1068,6 +1128,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: gyQAenOV
                   values:
                     type: bild_und_text
                     bild:
@@ -1097,11 +1158,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: q4DRioyW
     columns_replicator:
       -
+        id: WxYinSYX
         single_col: false
         grid:
           -
+            id: mNJlyMYT
             bard:
               -
                 type: heading
@@ -1119,6 +1183,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: NLnz7bii
                   values:
                     type: experten_slider
                     experts:
@@ -1140,11 +1205,14 @@ replicator:
     type: add_section
     enabled: true
   -
+    id: qln9NlIp
     columns_replicator:
       -
+        id: njdzSNmX
         single_col: true
         grid:
           -
+            id: il3URnBE
             bard:
               -
                 type: heading
@@ -1191,10 +1259,12 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: yM3ewfZq
                   values:
                     type: accordion_wrapper
                     items:
                       -
+                        id: crhigYQ2
                         headline: 'Studiendauer ⏱'
                         accordion_content:
                           -
@@ -1205,6 +1275,7 @@ replicator:
                                 text: 'Bei einem kurzen Blick auf den Aufbau des Marketing Studiums sieht man, dass die Regelstudienzeit im Bachelorstudium in der Regel bei sechs bis sieben Semestern liegt, während ein Master in diesem Fachbereich drei bis fünf Semester in Anspruch nimmt. Wie bereits angemerkt, liegt der NC nicht so hoch wie in anderen Studienfächern, was die Suche nach einem Studienplatz deutlich erleichtert. Studenten erhalten im Grundstudium zu Beginn einen Überblick über alle notwendigen Grundlagen und Fachthemen des Studiums und des Themas Marketing.'
                         active: false
                       -
+                        id: GjRItAWF
                         headline: 'Vertiefungsfächer 🔀'
                         accordion_content:
                           -
@@ -1277,6 +1348,7 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: ATQz3QCN
                   values:
                     type: blog_entries
                     entries:
@@ -1418,6 +1490,5 @@ og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_wirtschaftliche_fachbereiche
 sitemap_active: true
 alternative_page_title: 'Marketing Ghostwriter'
-published: true
 breadcrumbs_active: true
 ---
