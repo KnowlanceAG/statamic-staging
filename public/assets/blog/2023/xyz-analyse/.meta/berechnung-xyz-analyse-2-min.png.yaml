@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'xyz analyse beispiel excel'
 size: 27370
 last_modified: 1680619504
 width: 603
