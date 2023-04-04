@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Variationskoeffizient XYZ Analyse'
 size: 5568
 last_modified: 1680627016
 width: 840
