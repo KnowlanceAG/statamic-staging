@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'abc und xyz analyse beispiel'
 size: 24041
 last_modified: 1680619512
 width: 602
