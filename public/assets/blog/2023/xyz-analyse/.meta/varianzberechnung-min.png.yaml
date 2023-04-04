@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'xyz Analyse Formel'
 size: 4714
 last_modified: 1680619510
 width: 219
