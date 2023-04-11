@@ -137,11 +137,10 @@ teaser:
               rel: null
         text: '##phone##'
 teaser_bg: seiten/header-so-funktionierts.jpeg
-page_title: 'Soziale Arbeit Ghostwriter, Lektoren & mehr • GWriters'
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670862041
+updated_at: 1680539465
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -893,9 +892,9 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
-meta_title: 'GWriters • Soziale Arbeit - Ghostwriter, Lektoren & mehr'
+meta_title: 'Soziale Arbeit - Ghostwriter, Lektoren & mehr • GWriters.de'
 meta_description: 'Hilfe durch Experten und akademische Ghostwriter der Sozialen Arbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
-og_title: 'GWriters • Soziale Arbeit - Ghostwriter, Lektoren & mehr'
+og_title: 'Soziale Arbeit - Ghostwriter, Lektoren & mehr • GWriters.de'
 og_description: 'Hilfe durch Experten und akademische Ghostwriter der Sozialen Arbeit – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 fachrichtungsgruppe: g_sozialwissenschaften

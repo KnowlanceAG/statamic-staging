@@ -2561,9 +2561,9 @@ replicator:
     border: false
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1670877707
+updated_at: 1680522866
 template: default
-meta_title: 'GWriters • professionell Präsentation erstellen lassen'
+meta_title: 'Professionelle Präsentation erstellen lassen • GWriters'
 meta_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 use_meta_keywords: false
 no_index_page: false
@@ -2571,7 +2571,7 @@ no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
 override_twitter_settings: false
-og_title: 'GWriters • professionell Präsentation erstellen lassen'
+og_title: 'Professionelle Präsentation erstellen lassen • GWriters'
 og_description: 'Präsentationen erstellen lassen & Hilfe vom akademischen Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
 og_image: GWriters-Logo.png
 sitemap_active: true

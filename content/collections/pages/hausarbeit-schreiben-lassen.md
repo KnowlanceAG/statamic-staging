@@ -849,7 +849,7 @@ replicator:
                     vertical_alignment_img: self-center
                     text: |-
                       ### Abschlusslieferung & Qualitätsgarantie
-                      Sie erhalten die fertige Mustervorlage zu Ihrer Hausarbeit zum vereinbarten Termin. Vorab wird diese von einem **unabhängigen Lektor aus Ihrem Fachbereich Korrektur gelesen**. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Unser bewährtes Vier-Augen-Prinzip ist selbstverständlich im Preis enthalten. Darüber hinaus wird Ihre Hausarbeit mit der Plagiatserkennungssoftware **Turnitin** auf Ungereimtheiten und Gefahren hin überprüft.
+                      Sie erhalten die fertige Mustervorlage zu Ihrer Hausarbeit zum vereinbarten Termin. Vorab wird diese von einem **unabhängigen Lektor aus Ihrem Fachbereich Korrektur gelesen**. Hier werden Verbesserungen an Sprachstil, Satzbau, Fachbegriffen und Inhalt vorgenommen. Unser bewährtes Vier-Augen-Prinzip ist selbstverständlich im Preis enthalten. Darüber hinaus wird Ihre Hausarbeit mit der Plagiatserkennungssoftware **Copyleaks** auf Ungereimtheiten und Gefahren hin überprüft.
                     vertical_alignment_text: self-center
                     reverse_columns: bild_text
               -
@@ -1524,7 +1524,7 @@ replicator:
                                 marks:
                                   -
                                     type: bold
-                                text: 'Turnitin '
+                                text: 'Copyleaks '
                               -
                                 type: text
                                 text: 'und überprüfen damit die Einhaltung aller Vorgaben an Quellen und die Zitationen.'
@@ -1917,7 +1917,7 @@ replicator:
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1677240431
+updated_at: 1679570399
 template: default
 use_meta_keywords: false
 no_index_page: false
