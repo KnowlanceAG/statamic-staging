@@ -24,7 +24,7 @@
         @isset($sources)
         onload="
             this.onload=null;
-            var imgWidth = this.getBoundingClientRect().width;
+            var imgWidth = this.getBoundingClientRect().width || 750;
             this.parentNode.querySelectorAll('source')
                 .forEach(function (source) {
                     source.sizes=Math.ceil(imgWidth/window.innerWidth*100)+'vw';
