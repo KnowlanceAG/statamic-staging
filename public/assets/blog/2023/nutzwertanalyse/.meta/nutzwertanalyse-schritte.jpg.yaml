@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'nutzwertanalyse einfach erklärt'
 size: 42499
 last_modified: 1681479797
 width: 755
