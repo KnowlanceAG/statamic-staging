@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Nutzwertanalyse quelle'
 size: 51587
 last_modified: 1681436003
 width: 370
