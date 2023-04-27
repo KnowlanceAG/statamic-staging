@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'sekundäranalyse beispiel'
 size: 288616
 last_modified: 1682554990
 width: 1404
