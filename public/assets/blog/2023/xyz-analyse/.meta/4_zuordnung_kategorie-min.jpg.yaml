@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'xyz analyse berechnen Kategoriezuordnung'
 size: 39810
 last_modified: 1682690965
 width: 835
