@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'xyz analyse beispiel mit lösung'
 size: 44571
 last_modified: 1682687875
 width: 672
