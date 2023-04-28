@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Standardabweichung xzy analyse'
 size: 23662
 last_modified: 1682697627
 width: 1271
