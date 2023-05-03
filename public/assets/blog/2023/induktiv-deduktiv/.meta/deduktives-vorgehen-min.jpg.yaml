@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'deduktion beispiel'
 size: 56306
 last_modified: 1683134941
 width: 750
