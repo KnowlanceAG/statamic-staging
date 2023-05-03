@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'induktiv deduktiv beispiel'
 size: 49303
 last_modified: 1683134945
 width: 750
