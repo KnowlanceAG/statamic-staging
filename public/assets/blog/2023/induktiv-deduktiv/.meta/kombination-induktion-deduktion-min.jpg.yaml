@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'induktiv deduktiv kombination'
 size: 65685
 last_modified: 1683136062
 width: 750
