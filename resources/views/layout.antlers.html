@@ -61,7 +61,7 @@
       {{ if canonical_url }}
         <link rel="canonical" href="{{ canonical_url }}">
         <meta property="og:url" content="{{ canonical_url }}">
-      {{ elseif current_uri | starts_with:/presse || current_uri | starts_with:/blog || current_uri | starts_with:/author }}
+      {{ elseif current_uri | starts_with:/presse || current_uri | starts_with:/blog }}
         <meta property="og:url" content="{{ current_url }}">
         {{ if current_uri | not_paginated_page }}
           <link rel="canonical" href="{{ current_url }}">
@@ -95,6 +95,13 @@
         {{ aardvark-seo:graph }}
       {{ /if }}
     {{ /seo_data }}
+    {{ elseif author_slug && current_uri | starts_with:/author  }}
+      <meta property="og:url" content="{{ current_url }}">
+      <meta property="og:type" content="website">
+      <meta property="og:locale" content="{{ site:locale | lower }}">
+    {{ if current_uri | not_paginated_page }}
+      <link rel="canonical" href="{{ current_url }}">
+    {{ /if }}
   {{ /if }}
   {{ partial src="partials/analytics_header" }}
 </head>
