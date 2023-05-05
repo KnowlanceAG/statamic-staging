@@ -57,6 +57,19 @@ module.exports = {
   important: true,
   theme: {
     extend: {
+      animation: {
+        'fade-in': 'fadeIn 0.5s ease-out',
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': {
+            opacity: '0',
+          },
+          '100%': {
+            opacity: '1',
+          },
+        },
+      },
       screens: {
         'prelg': '1142px',
       },
@@ -92,6 +105,7 @@ module.exports = {
       fontSize: {
         '2xl': '1.65rem',
         '5xl': '2.75rem',
+        tiny: ['9px', '18px'],
         xs: ['13px', '26px'],
         sm: ['15px', '28px'],
         base: ['16px', '28px'],
@@ -111,10 +125,18 @@ module.exports = {
       maxWidth: {
         'max-w-screen': '100vw',
         '150px': '150px'
+      },
+      zIndex: {
+        '55': '55',
+        '60': '60',
       }
     }
   },
-  variants: {},
+  variants: {
+    extend: {
+      visibility: ['group-hover', 'group-focus']
+    }
+  },
   plugins: [
     require('tailwind-scrollbar-hide')
   ]
