@@ -1,4 +1,12 @@
-<header class="px-4 flex max-w-screen border-b border-gray-300 bg-white shadow-sm h-24 fixed z-50 top-0 inset-x-0">
+<header>
+<div id="menuUpperRow" class="px-4 flex max-w-screen border-b border-gray-300 bg-orange-500 text-white absolute h-12 z-50 top-0 inset-x-0">
+  <div class="container mx-auto max-w-screen-xl self-center">
+    <div class="flex flex-auto justify-between">
+      TELEFONNUMMERN
+    </div>
+  </div>
+</div>
+<div id="menuLowerRow" class="px-4 flex max-w-screen border-b border-gray-300 bg-white flexible shadow-sm h-24 z-50 inset-x-0">
   <div class="container mx-auto max-w-screen-xl self-center">
     <div class="flex flex-auto justify-between">
       {{ page_logo:image }}
@@ -10,6 +18,7 @@
       {{ partial src="partials/menu" }}
     </div>
   </div>
+</div>
 </header>
 {{ if breadcrumbs_active }}
 <div class="absolute w-full top-28 z-30">
