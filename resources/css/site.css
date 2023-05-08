@@ -204,6 +204,14 @@ table {
     @apply absolute top-12;
   }
 }
+.phone-entry {
+  &:hover {
+    svg {
+      @apply text-orange-500;
+    }
+  }
+}
+
 
 .menu-desktop,
 .menu-mobile {

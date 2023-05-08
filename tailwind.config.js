@@ -56,6 +56,15 @@ module.exports = {
   },
   important: true,
   theme: {
+    borderWidth: {
+      DEFAULT: '1px',
+      '0': '0',
+      '2': '2px',
+      '3': '3px',
+      '4': '4px',
+      '6': '6px',
+      '8': '8px',
+    },
     extend: {
       animation: {
         'fade-in': 'fadeIn 0.5s ease-out',
@@ -134,7 +143,8 @@ module.exports = {
   },
   variants: {
     extend: {
-      visibility: ['group-hover', 'group-focus']
+      visibility: ['group-hover', 'group-focus'],
+      borderRadius: ['last']
     }
   },
   plugins: [
