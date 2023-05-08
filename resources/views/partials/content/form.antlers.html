@@ -70,6 +70,28 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
       {{ fields where="handle:telefon" }}
         {{ partial:content/form_element }}
       {{ /fields }}
+      {{ fields where="handle:callback_needed" }}
+        <div class="flex space-y-4 md:col-span-12">
+          <div class="flex items-center">
+            <button type="button" id="callbackbutton" class="bg-gray-300 relative inline-flex h-6 w-11 flex-shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2" role="switch" aria-checked="false" aria-labelledby="annual-billing-label">
+              <span aria-hidden="true" class="translate-x-0 pointer-events-none inline-block h-5 w-5 transform rounded-full bg-white shadow ring-0 transition duration-200 ease-in-out"></span>
+            </button>
+            <span class="ml-3 text-sm text-gray-600">
+              Wünschen Sie einen Telefontermin? Wir rufen Sie gerne zurück!
+            </span>
+          </div>
+        </div>
+        {{ partial:content/form_element cls="hidden"}}
+      {{ /fields }}
+      {{ fields where="handle:callback_date" }}
+        {{ partial:content/form_element cls="hidden" }}
+      {{ /fields }}
+      {{ fields where="handle:callback_time_from" }}
+        {{ partial:content/form_element cls="hidden" }}
+      {{ /fields }}
+      {{ fields where="handle:callback_time_to" }}
+        {{ partial:content/form_element cls="hidden" }}
+      {{ /fields }}
 
       <!-- Promocode -->
       {{ fields where="handle:promocode" }}
@@ -141,6 +163,33 @@ x-ref="form" x-data="sending()" data-submission-type="{ form:handle }"
   if (promobutton) {
     promobutton.addEventListener('click', enablePromocode)
   }
+
+  const callbackbutton = document.querySelector('#callbackbutton')
+
+  const enableCallback = () => {
+    const callbackNeeded = document.querySelector('#callback_needed input[type="checkbox"]')
+    callbackNeeded.checked = !callbackNeeded.checked
+
+    callbackbutton.classList.toggle('bg-gray-200')
+    callbackbutton.classList.toggle('bg-orange-500')
+    const knob = callbackbutton.querySelector('span')
+    if (knob) {
+      knob.classList.toggle('translate-x-0')
+      knob.classList.toggle('translate-x-5')
+    }
+
+    const callbackDate = document.querySelector('#callback_date')
+    if (callbackDate) callbackDate.classList.toggle('hidden')
+    const callbackTimeFrom = document.querySelector('#callback_time_from')
+    if (callbackTimeFrom) callbackTimeFrom.classList.toggle('hidden')
+    const callbackTimeTo = document.querySelector('#callback_time_to')
+    if (callbackTimeTo) callbackTimeTo.classList.toggle('hidden')
+  }
+
+  if (callbackbutton) {
+    callbackbutton.addEventListener('click', enableCallback)
+  }
+
 
   const actionUrl =
     "{{ config:cpssg:dynamic_site_url }}/!/forms/{{ form:handle }}"
