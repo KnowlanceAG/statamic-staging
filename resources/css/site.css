@@ -207,7 +207,7 @@ table {
 .phone-entry {
   &:hover {
     svg {
-      @apply text-orange-500;
+      fill: #fff !important;
     }
   }
 }

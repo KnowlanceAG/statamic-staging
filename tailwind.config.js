@@ -144,6 +144,7 @@ module.exports = {
   variants: {
     extend: {
       visibility: ['group-hover', 'group-focus'],
+      pointerEvents: ['group-hover', 'group-focus'],
       borderRadius: ['last']
     }
   },

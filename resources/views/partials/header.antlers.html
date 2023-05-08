@@ -5,7 +5,7 @@
     <ul class="h-full my-auto">
       <li class="group text-xs flex flex-col">
         <div class="absolute z-60 top-3 pl-2 flex group-hover:text-gray-900">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="fill-current text-white self-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="fill-current text-white group-hover:text-orange-500 self-center">
             <g transform="rotate(90 12 12)">
               <path d="M4.05 21q-.45 0-.75-.3t-.3-.75V15.9q0-.35.225-.613t.575-.337l3.45-.7q.35-.05.713.063t.587.337L10.9 17q1.9-1.15 3.475-2.725T17 10.9l-2.4-2.45q-.225-.225-.288-.513T14.3 7.3l.65-3.5q.05-.35.325-.575T15.9 3h4.05q.45 0 .75.3t.3.75q0 3.225-1.438 6.288t-3.8 5.425q-2.362 2.362-5.425 3.8T4.05 21Z"/>
             </g>
@@ -22,12 +22,12 @@
         {{ collection:team as="teamMember" status:is="published" publish_phone:is="true" phone_number:exists="true" sort="title:asc" }}
           {{ if no_results }}
             {{ else }}
-            <ul id="phoneList" class="absolute bg-gray-500 top-0 pt-12 z-55 border-3 border-orange-500 border-t-0 rounded-br-lg rounded-bl-lg cursor-pointer invisible group-focus:visible group-hover:visible divide-y divide-gray-700">
+            <ul id="phoneList" class="absolute bg-gray-200 top-0 pt-12 z-55 border-3 border-orange-500 border-t-0 rounded-br-lg rounded-bl-lg transition duration-300 cursor-pointer opacity-0 group-focus:opacity-100 group-hover:opacity-100 pointer-events-none group-focus:pointer-events-auto group-hover:pointer-events-auto divide-y divide-gray-300">
               {{ teamMember }}
                   <li class="hover:bg-orange-500 text-gray-900 hover:text-white transition duration-300 last:rounded-br last:rounded-bl">
-                    <a target="_blank" rel="noopener noreferrer" href="tel:{{ phone_number }}" class="cursor-pointer flex w-full h-10">
-                      <div class="px-2 flex self-center phone-entry">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="fill-current text-white self-center">
+                    <a target="_blank" rel="noopener noreferrer" href="tel:{{ phone_number }}" class="cursor-pointer phone-entry flex w-full h-10">
+                      <div class="px-2 flex self-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="fill-current text-white group-hover:text-orange-500 self-center">
                           <g transform="rotate(90 12 12)">
                             <path d="M4.05 21q-.45 0-.75-.3t-.3-.75V15.9q0-.35.225-.613t.575-.337l3.45-.7q.35-.05.713.063t.587.337L10.9 17q1.9-1.15 3.475-2.725T17 10.9l-2.4-2.45q-.225-.225-.288-.513T14.3 7.3l.65-3.5q.05-.35.325-.575T15.9 3h4.05q.45 0 .75.3t.3.75q0 3.225-1.438 6.288t-3.8 5.425q-2.362 2.362-5.425 3.8T4.05 21Z"/>
                           </g>
