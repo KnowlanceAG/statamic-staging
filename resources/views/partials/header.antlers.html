@@ -14,22 +14,23 @@
               clip-rule="evenodd" />
           </svg>
         </div>
-        <ul id="phoneList" class="invisible group-focus:visible group-hover:visible animate-fade-in	absolute top-0 pt-12 w-72 z-55 bg-gray-700 p-2">
-          <li class="">
-            <a target="_blank" rel="noopener noreferrer" href="tel:+493052014263" class="awb-menu__sub-a">
-              <span class="awb-menu__i awb-menu__i_sub fusion-megamenu-icon">
-                <i class="glyphicon fa-phone-alt fas" aria-hidden="true"></i>
-              </span>+49 30 1234 23454 (Max Mustermann)
-            </a>
-          </li>
-          <li class="">
-            <a target="_blank" rel="noopener noreferrer" href="tel:+493052014263" class="awb-menu__sub-a">
-              <span class="awb-menu__i awb-menu__i_sub fusion-megamenu-icon">
-                <i class="glyphicon fa-phone-alt fas" aria-hidden="true"></i>
-              </span>+49 30 1234 23454 (Max Mustermann)
-            </a>
-          </li>
-        </ul>
+        {{ collection:team as="teamMember" status:is="published" publish_phone:is="true" phone_number:exists="true" sort="title:asc" }}
+          {{ if no_results }}
+            {{ else }}
+            <ul id="phoneList" class="invisible group-focus:visible group-hover:visible animate-fade-in	absolute top-0 pt-12 w-80 z-55 bg-gray-700 p-2">
+              {{ teamMember }}
+                  <li class="">
+                    <a target="_blank" rel="noopener noreferrer" href="tel:+493052014263" class="awb-menu__sub-a">
+                      <span class="awb-menu__i awb-menu__i_sub fusion-megamenu-icon">
+                        <i class="glyphicon fa-phone-alt fas" aria-hidden="true"></i>
+                      </span>{{ phone_number }} ({{ title }})
+                    </a>
+                  </li>
+              {{ /teamMember }}
+            </ul>
+          {{ /if }}
+
+        {{ /collection:team }}
       </li>
     </ul>
   </div>
