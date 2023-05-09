@@ -22,7 +22,7 @@ teaser:
             attrs:
               color: orange-500
               hex: '#ff6606'
-        text: 'Jura Ghostwriter'
+        text: 'Anglistik Ghostwriter'
   -
     type: paragraph
     content:
@@ -40,7 +40,7 @@ teaser:
             attrs:
               color: '#000!important'
               hex: '#000'
-        text: 'Hilfe durch Experten und akademische Jura Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+        text: 'Hilfe durch Experten und akademische Anglistik Ghostwriter – schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
   -
     type: set
     attrs:
@@ -141,8 +141,8 @@ teaser:
 teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1680537188
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1683655793
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -167,7 +167,7 @@ replicator:
                   values:
                     type: insert_html
                     html: |-
-                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Jura. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Jura Aufgabenstellungen</b>, der perfekt zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Jura in sichere Hände geben und bei einem Jura-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Juristen, Doktoren und Professoren arbeitet.
+                      <p style="font-size:18px" align="center"> Bei GWriters erhalten Sie kompetente Unterstützung im Fachgebiet Anglistik. Bei uns finden Sie exakt den <b>akademischen Ghostwriter für Ihre Anglistik Texte</b>, der perfekt zu Ihren individuellen Anforderungen passt. Sie möchten Ihr akademisches Projekt im Fachbereich Anglistik in sichere Hände geben und bei einem Anglistik-Ghostwriter eine Mustervorlage für Ihre wissenschaftliche Arbeit schreiben lassen? Dann wenden Sie sich an eine seriöse Ghostwriting Agentur, die ausschließlich mit erfahrenen Anglisten, Doktoren und Professoren arbeitet.
                       </p>
             show_as_card: false
         type: row
