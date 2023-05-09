@@ -118,6 +118,12 @@
 
   {{ cookie_notice }}
   {{ aardvark-seo:footer }}
+
+  {{ if rating_widget_footer && current_uri | not_article_page }}
+    {{ rating_widget_footer }}
+      {{ widget_code_html }}
+    {{ /rating_widget_footer }}
+  {{ /if }}
 </body>
 
 </html>
