@@ -10,7 +10,8 @@ class NotArticlePage extends Modifier
 
     protected static $handle = 'not_article_page';
 
-    private $pattern = '/\/(presse|blog)\/[\-a-zA-Z0-9]+[\/]?$/';
+    private $pattern = '/\/blog\/[\-a-zA-Z0-9]+[\/]?$/';
+    // private $pattern = '/\/(presse|blog)\/[\-a-zA-Z0-9]+[\/]?$/';
 
     /**
      * Check if url is not a pagination page.
