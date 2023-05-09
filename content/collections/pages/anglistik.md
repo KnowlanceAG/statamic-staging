@@ -142,7 +142,7 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1683665444
+updated_at: 1683665878
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -2014,7 +2014,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Welche Probleme und Herausforderungen stellen sich Studenten der Anglistik?'
+                    text: 'Welche Herausforderungen stellen sich Studenten der Anglistik?'
               -
                 type: paragraph
                 content:
@@ -2375,13 +2375,13 @@ replicator:
     border: false
     type: add_section
     enabled: true
-meta_title: 'Jura Ghostwriter, Lektoren & Coaches • GWriters'
-meta_description: 'Jura Ghostwriter – Hilfe durch akademische Experten aus dem Fachbereich Jura ✔️ Mehr Zeit für rechtliche Prüfungen, Klausuren & Ihr Praktikum!'
-og_title: 'Jura Ghostwriter, Lektoren & Coaches • GWriters'
-og_description: 'Jura Ghostwriter – Hilfe durch akademische Experten aus dem Fachbereich Jura ✔️ Mehr Zeit für rechtliche Prüfungen, Klausuren & Ihr Praktikum!'
+meta_title: 'Anglistik Ghostwriter, Lektoren & Coaches • GWriters'
+meta_description: 'Anglistik Ghostwriter – Hilfe durch akademische Experten aus dem Fachbereich Anglistik✔️ Mehr Zeit für rechtliche Prüfungen, Klausuren & Ihr Praktikum!'
+og_title: 'Anglistik Ghostwriter, Lektoren & Coaches • GWriters'
+og_description: 'Anglistik Ghostwriter – Hilfe durch akademische Experten aus dem Fachbereich Anglistik✔️ Mehr Zeit für rechtliche Prüfungen, Klausuren & Ihr Praktikum!'
 og_image: GWriters-Logo.png
 sitemap_active: true
-alternative_page_title: 'Jura Ghostwriter'
+alternative_page_title: 'Anglistik Ghostwriter'
 fachrichtungsgruppe: g_geisteswissenschaften
 breadcrumbs_active: true
 ---
