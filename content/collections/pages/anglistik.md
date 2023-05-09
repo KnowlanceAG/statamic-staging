@@ -142,7 +142,7 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1683665344
+updated_at: 1683665444
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -605,7 +605,7 @@ replicator:
                   id: lhgqiwn4
                   values:
                     type: spacer
-                    padding-y: 20
+                    padding-y: 30
               -
                 type: paragraph
               -
