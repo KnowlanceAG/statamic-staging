@@ -2,7 +2,7 @@
 id: 24308319-8d41-41a9-ad35-e9cf2ceba726
 published: false
 blueprint: pages
-title: 'Jura (Dupliziert)'
+title: Anglistik
 teaser:
   -
     type: heading
@@ -143,7 +143,7 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1683655836
+updated_at: 1683655856
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
