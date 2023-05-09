@@ -198,6 +198,21 @@ table {
   }
 }
 
+#menuLowerRow {
+  @apply fixed top-0;
+  &.flexible {
+    @apply absolute top-12;
+  }
+}
+.phone-entry {
+  &:hover {
+    svg {
+      fill: #fff !important;
+    }
+  }
+}
+
+
 .menu-desktop,
 .menu-mobile {
   font-family: Montserrat, Helvetica, Arial, sans-serif;

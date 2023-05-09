@@ -1,4 +1,50 @@
-<header class="px-4 flex max-w-screen border-b border-gray-300 bg-white shadow-sm h-24 fixed z-50 top-0 inset-x-0">
+<header>
+<div id="menuUpperRow" class="px-4 flex max-w-screen border-b border-gray-300 bg-orange-500 text-white absolute h-12 z-55 top-0 inset-x-0">
+  <div class="container mx-auto max-w-screen-xl self-center">
+
+    <ul class="h-full my-auto">
+      <li class="group text-xs flex flex-col">
+        <div class="absolute z-60 top-3 pl-2 flex group-hover:text-gray-900">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="fill-current text-white group-hover:text-orange-500 self-center">
+            <g transform="rotate(90 12 12)">
+              <path d="M4.05 21q-.45 0-.75-.3t-.3-.75V15.9q0-.35.225-.613t.575-.337l3.45-.7q.35-.05.713.063t.587.337L10.9 17q1.9-1.15 3.475-2.725T17 10.9l-2.4-2.45q-.225-.225-.288-.513T14.3 7.3l.65-3.5q.05-.35.325-.575T15.9 3h4.05q.45 0 .75.3t.3.75q0 3.225-1.438 6.288t-3.8 5.425q-2.362 2.362-5.425 3.8T4.05 21Z"/>
+            </g>
+          </svg>
+          <a href="tel:{{ localized_contact_data:phone_de_DE }}" class="visible-de text-white group-hover:text-gray-900 pl-2">{{ localized_contact_data:phone_de_DE }}</a>
+          <a href="tel:{{ localized_contact_data:phone_de_CH }}" class="visible-ch text-white group-hover:text-gray-900 pl-2">{{ localized_contact_data:phone_de_CH }}</a>
+          <span class="bg-orange-700 group-hover:bg-orange-500 group-hover:text-white text-tiny self-center rounded ml-2 pl-1 pr-1">{{ opening_times:oeffnungszeiten }}</span>
+          <svg xmlns="http://www.w3.org/2000/svg" class="ml-2 pt-1.5 h-5 w-5t" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd"
+              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+              clip-rule="evenodd" />
+          </svg>
+        </div>
+        {{ collection:team as="teamMember" status:is="published" publish_phone:is="true" phone_number:exists="true" sort="title:asc" }}
+          {{ if no_results }}
+            {{ else }}
+            <ul id="phoneList" class="absolute bg-gray-200 top-0 pt-12 z-55 border-3 border-orange-500 border-t-0 rounded-br-lg rounded-bl-lg transition duration-300 cursor-pointer opacity-0 group-focus:opacity-100 group-hover:opacity-100 pointer-events-none group-focus:pointer-events-auto group-hover:pointer-events-auto divide-y divide-gray-300">
+              {{ teamMember }}
+                  <li class="hover:bg-orange-500 text-gray-900 hover:text-white transition duration-300 last:rounded-br last:rounded-bl">
+                    <a target="_blank" rel="noopener noreferrer" href="tel:{{ phone_number }}" class="cursor-pointer phone-entry flex w-full h-10">
+                      <div class="px-2 flex self-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="fill-current text-white group-hover:text-orange-500 self-center">
+                          <g transform="rotate(90 12 12)">
+                            <path d="M4.05 21q-.45 0-.75-.3t-.3-.75V15.9q0-.35.225-.613t.575-.337l3.45-.7q.35-.05.713.063t.587.337L10.9 17q1.9-1.15 3.475-2.725T17 10.9l-2.4-2.45q-.225-.225-.288-.513T14.3 7.3l.65-3.5q.05-.35.325-.575T15.9 3h4.05q.45 0 .75.3t.3.75q0 3.225-1.438 6.288t-3.8 5.425q-2.362 2.362-5.425 3.8T4.05 21Z"/>
+                          </g>
+                        </svg>
+                        <span class="pl-2">{{ phone_number }} ({{ title }})</span>
+                      </div>
+                    </a>
+                  </li>
+              {{ /teamMember }}
+            </ul>
+          {{ /if }}
+        {{ /collection:team }}
+      </li>
+    </ul>
+  </div>
+</div>
+<div id="menuLowerRow" class="px-4 flex max-w-screen border-b border-gray-300 bg-white flexible shadow-sm h-24 z-50 inset-x-0">
   <div class="container mx-auto max-w-screen-xl self-center">
     <div class="flex flex-auto justify-between">
       {{ page_logo:image }}
@@ -10,6 +56,7 @@
       {{ partial src="partials/menu" }}
     </div>
   </div>
+</div>
 </header>
 {{ if breadcrumbs_active }}
 <div class="absolute w-full top-28 z-30">

@@ -19,4 +19,5 @@ show_as_card: false
 phone_number: '+49 30 809332318'
 email_address: berger@gwriters.de
 breadcrumbs_active: true
+publish_phone: true
 ---

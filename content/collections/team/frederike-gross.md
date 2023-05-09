@@ -18,4 +18,5 @@ published: true
 phone_number: '+49 30 809332332'
 email_address: gross@gwriters.de
 breadcrumbs_active: true
+publish_phone: true
 ---

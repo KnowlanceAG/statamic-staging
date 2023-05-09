@@ -19,4 +19,5 @@ published: true
 phone_number: '+49 30 809332372'
 email_address: assistenz@gwriters.de
 breadcrumbs_active: true
+publish_phone: true
 ---

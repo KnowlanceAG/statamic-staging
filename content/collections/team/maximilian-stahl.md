@@ -19,4 +19,5 @@ email_address: stahl@gwriters.de
 published: true
 phone_number: '+49 30 809332357'
 breadcrumbs_active: true
+publish_phone: true
 ---

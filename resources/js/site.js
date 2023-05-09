@@ -113,6 +113,19 @@ const addMenuHandler = () => {
   addMobileMenuHandler()
 }
 
+const handleMenuScroll = () => {
+  const upperRow = document.querySelector('#menuUpperRow')
+  const lowerRow = document.querySelector('#menuLowerRow')
+  if (!upperRow || !lowerRow) return
+  window.addEventListener('scroll', () => {
+    if (upperRow.getBoundingClientRect().bottom < 0) {
+      lowerRow.classList.remove('flexible')
+    } else {
+      lowerRow.classList.add('flexible')
+    }
+  })
+}
+
 // END Menu
 
 function lazzyVideo () {
@@ -371,6 +384,7 @@ const ready = callback => {
 
 ready(() => {
   handleUTM()
+  handleMenuScroll()
   addMenuHandler()
   lazzyVideo()
   tabToggle()
