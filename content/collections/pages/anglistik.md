@@ -142,7 +142,7 @@ teaser_bg: seiten/header-so-funktionierts.jpeg
 parent: b697ed65-5a72-4cf2-b1e9-6e3776ace14c
 template: default
 updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1683664265
+updated_at: 1683665344
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -397,7 +397,7 @@ replicator:
                         image:
                           - leistung/icon-ghostwriting.svg
                         headline: GHOSTWRITING
-                        hover_content: 'Lassen Sie Ihre Jura Arbeit von erfahrenen Autoren erstellen - schnell, diskret und mehrfach geprüft auf Qualität & Plagiate.'
+                        hover_content: 'Erfahrene Autoren erstellen Ihre Anglistik-Arbeit schnell, diskret und gewissenhaft geprüft auf Qualität und Plagiate.'
                         link:
                           - 0328a685-5f37-4f91-bd4b-79c53adaea8d
                       -
@@ -405,7 +405,7 @@ replicator:
                         image:
                           - leistung/icon-lektorat.svg
                         headline: LEKTORAT
-                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche & fachliche (Jura) Korrektheit prüfen.'
+                        hover_content: 'Lassen Sie Ihre Arbeit nicht nur auf sprachliche Fehler korrigieren, sondern auch auf wissenschaftliche und fachliche Richtigkeit im Bereich Anglistik prüfen.'
                         link:
                           - 659e7e81-6d07-4eea-9ef2-325e72618036
                       -
@@ -413,7 +413,7 @@ replicator:
                         image:
                           - logo-startseite/icon-plagiat.svg
                         headline: PLAGIATSPRÜFUNG
-                        hover_content: 'Schliessen Sie Flüchtigkeitsfehler bei der Zitation oder andere böse Überraschungen aus & beauftragen Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich Jura.'
+                        hover_content: 'Vermeiden Sie Fehler bei der Zitierung und andere unerwünschte Überraschungen, indem Sie eine Plagiatsprüfung Ihrer wissenschaftlichen Texte im Fachbereich Anglistik in Auftrag geben.'
                         link:
                           - fcace45e-9b8e-4a54-a74a-4d1a09a0cfc8
                       -
@@ -421,7 +421,7 @@ replicator:
                         image:
                           - logo-startseite/icon-uebersetzung.svg
                         headline: ÜBERSETZUNG
-                        hover_content: 'Überwinden Sie sprachliche Barrieren: Unser Team erstellt hochwertige, fachspezifische (Jura) Übersetzungen von akademischen Texten, Arbeiten, usw.'
+                        hover_content: 'Beseitigen Sie sprachliche Hürden: Unser Team bietet hochwertige, fachspezifische (Anglistik) Übersetzungen von akademischen Texten und Arbeiten an.'
                         link:
                           - 7cad538c-ad74-4617-825e-bbac46ebf310
               -
@@ -430,7 +430,7 @@ replicator:
                   id: nk6Nyvvp
                   values:
                     type: button
-                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH JURA'
+                    button_text: 'ALLE LEISTUNGEN IM FACHBEREICH ANGLISTIK'
                     color: '#FF6606'
                     spacing_top: false
                     button_link: 'entry::849140c8-c582-4340-a2bc-446126149c9f'
@@ -473,13 +473,37 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriting in der Anglistik hat eine große Bedeutung, da das Studium hohe Ansprüche an die Sprach- und Fachkompetenz stellt. Anglistik wird vorwiegend auf Englisch gelehrt, was hohe Anforderungen an das Sprachverständnis und damit auch eine doppelte Belastung mit sich bringt: es geht nicht nur darum, die Thematik zu verstehen, sondern man muss diese auch auf Englisch erfassen und ebenso englischsprachige Texte verfassen.'
+                    text: 'Ghostwriting in der Anglistik hat eine große Bedeutung, da das Studium hohe Ansprüche an die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Sprach- und Fachkompetenz'
+                  -
+                    type: text
+                    text: ' stellt. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Anglistik wird vorwiegend auf Englisch gelehr'
+                  -
+                    type: text
+                    text: 't, was hohe Anforderungen an das Sprachverständnis und damit auch eine doppelte Belastung mit sich bringt: es geht nicht nur darum, die Thematik zu verstehen, sondern man muss diese auch auf Englisch erfassen und ebenso englischsprachige Texte verfassen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Sehr gute Englischkenntnisse und ein allgemeines Interesse an der englischen Sprache ist damit unbedingte Voraussetzung für ein Anglistik-Studium. Daher rührt auch die enge Verbindung von Anglistik zum Fachgebiet der Kulturwissenschaften. Es geht dabei aber nicht nur, um das Verstehen von englischem Text, sondern auch um das Schreiben von englischem Text.'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Sehr gute Englischkenntnisse und ein allgemeines Interesse an der englischen Sprache ist damit unbedingte Voraussetzung für ein Anglistik-Studium'
+                  -
+                    type: text
+                    text: '. Daher rührt auch die enge Verbindung von Anglistik zum Fachgebiet der Kulturwissenschaften. Es geht dabei aber nicht nur, um das Verstehen von englischem Text, sondern auch um das Schreiben von englischem Text.'
               -
                 type: paragraph
                 content:
@@ -561,7 +585,7 @@ replicator:
                           href: /anfrage-1
                           target: null
                           rel: null
-                    text: Hier
+                    text: Anfrage-Button
                   -
                     type: text
                     text: ' können Sie sich ein Angebot schicken lassen.'
@@ -578,11 +602,21 @@ replicator:
               -
                 type: set
                 attrs:
+                  id: lhgqiwn4
+                  values:
+                    type: spacer
+                    padding-y: 20
+              -
+                type: paragraph
+              -
+                type: set
+                attrs:
                   id: lhgno7dz
                   values:
                     type: floating_img
                     dateien:
                       - seiten/fachrichtungen/anglistik-ghostwriter-min.png
+                    img_size: w-full
               -
                 type: paragraph
             show_as_card: false
@@ -783,13 +817,34 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Akademische Ghostwriter in der Anglistik bringen jahrelange Erfahrung mit der englischsprachigen Literatur und Kultur mit und haben in vielen Fällen einige Jahre im Ausland verbracht bzw. sind dort aufgewachsen. So zeigen diese nicht nur eine fachliche, sondern auch eine persönliche Nähe zur englischen Sprache. Damit besetzen akademische Ghostwriter in der Anglistik die Inhalte, die ein Studium der Anglistik erfordert.'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Akademische Ghostwriter in der Anglistik bringen jahrelange Erfahrung mit der englischsprachigen Literatur und Kultur mit und haben in vielen Fällen einige Jahre im Ausland verbracht bzw. sind dort aufgewachsen'
+                  -
+                    type: text
+                    text: '. So zeigen diese nicht nur eine fachliche, sondern auch eine persönliche Nähe zur englischen Sprache. Damit besetzen akademische Ghostwriter in der Anglistik die Inhalte, die ein Studium der Anglistik erfordert.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Ein Anglistik-Studium besteht im Regelfall aus drei Teilen: dem Umgang mit der englischsprachigen Literatur und Kultur, die linguistische Auseinandersetzung mit Merkmalen der englischen Sprachen und deren Varietäten und die Auseinandersetzung mit der englischen Kultur. In diesen drei Bereichen sind Ghostwriter in der Anglistik Experten und haben einschlägige Qualifikationen z.B. in Form eines Masterabschlusses – häufig als Master of Education – oder einer Promotion aufzuweisen.'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Ein Anglistik-Studium besteht im Regelfall aus drei Teilen: dem Umgang mit der englischsprachigen Literatur und Kultur, die linguistische Auseinandersetzung mit Merkmalen der englischen Sprachen'
+                  -
+                    type: text
+                    text: ' und deren Varietäten und die Auseinandersetzung mit der englischen Kultur. In diesen drei Bereichen sind Ghostwriter in der Anglistik Experten und haben einschlägige Qualifikationen z.B. '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'in Form eines Masterabschlusses – häufig als Master of Education – oder einer Promotion'
+                  -
+                    type: text
+                    text: ' aufzuweisen.'
             show_as_card: false
           -
             id: NQUDEDoG
@@ -806,7 +861,34 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Auch Zusatzqualifikationen in diesem Fachbereich bringen akademische Ghostwriter in der Anglistik mit: viele akademische Ghostwriter, die Anglistik besetzen, sind Journalisten, Lektoren oder sind als Sprachdozenten tätig.'
+                    text: 'Auch Zusatzqualifikationen in diesem Fachbereich bringen akademische Ghostwriter in der Anglistik mit: viele akademische Ghostwriter, die Anglistik besetzen, sind '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Journalisten
+                  -
+                    type: text
+                    text: ', '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Lektoren '
+                  -
+                    type: text
+                    text: 'oder sind als '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Sprachdozenten
+                  -
+                    type: text
+                    text: ' tätig.'
               -
                 type: paragraph
                 content:
@@ -873,6 +955,9 @@ replicator:
                         content:
                           -
                             type: text
+                            marks:
+                              -
+                                type: bold
                             text: 'Classroom Disclosure, im'
                   -
                     type: list_item
@@ -882,6 +967,9 @@ replicator:
                         content:
                           -
                             type: text
+                            marks:
+                              -
+                                type: bold
                             text: 'Bereich Language Teaching,'
                   -
                     type: list_item
@@ -891,6 +979,9 @@ replicator:
                         content:
                           -
                             type: text
+                            marks:
+                              -
+                                type: bold
                             text: 'im Language Integrated Learning, im'
                   -
                     type: list_item
@@ -900,6 +991,9 @@ replicator:
                         content:
                           -
                             type: text
+                            marks:
+                              -
+                                type: bold
                             text: 'Intercultural Learning und Teaching sowie'
                   -
                     type: list_item
@@ -909,6 +1003,9 @@ replicator:
                         content:
                           -
                             type: text
+                            marks:
+                              -
+                                type: bold
                             text: 'in der Durchführung von Writing-Workshops und'
                   -
                     type: list_item
@@ -918,6 +1015,9 @@ replicator:
                         content:
                           -
                             type: text
+                            marks:
+                              -
+                                type: bold
                             text: 'beim Zugriff auf wichtige kostenpflichtige Datenbanken.'
               -
                 type: heading
@@ -947,6 +1047,9 @@ replicator:
                         content:
                           -
                             type: text
+                            marks:
+                              -
+                                type: bold
                             text: 'Kulturwissenschaft – den sog. Cultural Studies,'
                   -
                     type: list_item
@@ -956,6 +1059,9 @@ replicator:
                         content:
                           -
                             type: text
+                            marks:
+                              -
+                                type: bold
                             text: 'der Sprachwissenschaft – den sog. Linguistics sowie'
                   -
                     type: list_item
@@ -965,6 +1071,9 @@ replicator:
                         content:
                           -
                             type: text
+                            marks:
+                              -
+                                type: bold
                             text: 'der Literaturwissenschaft – den sog. Literatry Studies'
               -
                 type: paragraph
@@ -977,13 +1086,55 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Während beim Anglistik studieren in den Anfangssemester eher die Sprachwissenschaft im Fokus steht und ein grundlegendes Sprachtraining mit Blick auf Grammatik, Vokabular und Aussprache bestimmend ist, werden die höheren Semester geprägt durch die kritische Auseinandersetzung mit Kultur, Sprache sowie Literatur aus dem anglophonen Sprachraum. Dementsprechend werden dann hier auch andere Leistungen angefragt als zu Beginn des Studiums.'
+                    text: 'Während beim Anglistik studieren in den '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Anfangssemester
+                  -
+                    type: text
+                    text: ' eher die'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' Sprachwissenschaft '
+                  -
+                    type: text
+                    text: 'im Fokus steht und ein grundlegendes Sprachtraining mit Blick auf Grammatik, Vokabular und Aussprache bestimmend ist, werden die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'höheren Semester'
+                  -
+                    type: text
+                    text: ' geprägt durch die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'kritische Auseinandersetzung mit Kultur, Sprache sowie Literatur aus dem anglophonen Sprachraum'
+                  -
+                    type: text
+                    text: '. Dementsprechend werden dann hier auch andere Leistungen angefragt als zu Beginn des Studiums.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Inhaltlich geht es primär um die Erstellung von Seminararbeiten, die Erstellung von Essays sowie die Ausarbeitung von akademischen Arbeiten in Form größerer Textleistungen. Die Erstellung von Texten spielt beim Anglistik studieren eine sehr wichtige Rolle.'
+                    text: 'Inhaltlich geht es primär um die Erstellung von Seminararbeiten, die Erstellung von Essays sowie die Ausarbeitung von akademischen Arbeiten in Form größerer Textleistungen.'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' Die Erstellung von Texten spielt beim Anglistik studieren eine sehr wichtige Rolle.'
             show_as_card: false
         type: row
         enabled: true
@@ -1020,7 +1171,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Jura Ghostwriter suchen, dann können Sie an unsere Ghostwriting-Agentur gerne sofort eine\_"
+                    text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Anglistik Ghostwriter suchen, dann können Sie an unsere Ghostwriting-Agentur gerne sofort eine\_"
                   -
                     type: text
                     marks:
@@ -1136,7 +1287,7 @@ replicator:
                     marks:
                       -
                         type: bold
-                    text: 'Welche aktuellen Forschungsprojekte und -aktivitäten betreibenl Ghostwriter in der Anglistik?'
+                    text: 'Welche aktuellen Forschungsprojekte betreiben Ghostwriter in der Anglistik?'
               -
                 type: paragraph
                 content:
@@ -1653,13 +1804,31 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwriter in der Anglistik können durch die Unterstützung von Forschung sowie akademischer Arbeiten – z.B. in der Begleitung von Studenten bei der Erstellung wissenschaftlicher Arbeiten – zur Wissenserweiterung beitragen.'
+                    text: 'Ghostwriter in der Anglistik können durch die Unterstützung von Forschung sowie akademischer Arbeiten – z.B. i'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'n der Begleitung von Studenten bei der Erstellung wissenschaftlicher Arbeiten'
+                  -
+                    type: text
+                    text: ' – zur Wissenserweiterung beitragen.'
               -
                 type: paragraph
                 content:
                   -
                     type: text
-                    text: 'Des Weiteren können Ghostwriter in der Anglistik die Anglistik-Studium Inhalte in ihren Publikationen abbilden, indem sie fachspezifische Texte z.B. in Form von Lehrbüchern, Essays, Artikeln in Papers oder in Form der Publikation von Herausgeberwerken publizieren. So helfen akademische Ghostwriter Fachinformationen zu vermitteln und diese auch einem breiten Publikum zur Verfügung zu stellen. Dies erfolgt mit dem Ziel, die Anglistik in der Öffentlichkeit bekannter zu machen und auch neue Studenten für das Fachgebiet zu gewinnen.'
+                    text: 'Des Weiteren können Ghostwriter in der Anglistik die Anglistik-Studium Inhalte in ihren Publikationen abbilden, indem sie fachspezifische Texte z.B.'
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: ' in Form von Lehrbüchern, Essays, Artikeln in Papers oder in Form der Publikation von Herausgeberwerken'
+                  -
+                    type: text
+                    text: ' publizieren. So helfen akademische Ghostwriter Fachinformationen zu vermitteln und diese auch einem breiten Publikum zur Verfügung zu stellen. Dies erfolgt mit dem Ziel, die Anglistik in der Öffentlichkeit bekannter zu machen und auch neue Studenten für das Fachgebiet zu gewinnen.'
             show_as_card: false
         type: row
         enabled: true
@@ -1697,7 +1866,55 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ghostwritern in der Anglistik arbeiten eng mit Forschern in anderen Fachgebieten zusammen. Dies gilt insbesondere mit Forschern, die im Bereich der Literaturwissenschaften, der Germanistik oder der Amerikanistik tätig sind. Der Ghostwriter Anglistik kann so sein eigenes Wissen erweitern, aber auch Impulse in anderen Forschungsgebieten geben.'
+                    text: 'Ghostwritern in der Anglistik arbeiten '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'eng mit Forschern in anderen Fachgebieten zusammen'
+                  -
+                    type: text
+                    text: '. Dies gilt insbesondere mit Forschern, die im Bereich der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/literatur
+                          target: null
+                          rel: null
+                    text: Literaturwissenschaften
+                  -
+                    type: text
+                    text: ', der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                      -
+                        type: link
+                        attrs:
+                          href: /fachrichtungen/germanistik-ghostwriter
+                          target: null
+                          rel: null
+                    text: Germanistik
+                  -
+                    type: text
+                    text: ' oder der '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: Amerikanistik
+                  -
+                    type: text
+                    text: ' tätig sind. Der Ghostwriter Anglistik kann so sein eigenes Wissen erweitern, aber auch Impulse in anderen Forschungsgebieten geben.'
               -
                 type: heading
                 attrs:
@@ -1728,7 +1945,16 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Auch das umfangreiche Fachwissen muss beim akademischen Ghostwriter vorhanden sein. Dies muss ein Wissen über englische Sprache, die englische Kultur sowie die englische Kultur und die betreffende Geschichte sein. Der akademische Ghostwriter muss die einzelnen kulturellen Strömungen und kulturellen Unterschiede kennen und ihre Wirkungen im sprachlichen Kontext interpretieren können. Ein tiefes Verständnis fremdsprachlicher Kulturen zeichnet demnach einen akademische Ghostwriter in der Anglistik aus.'
+                    text: 'Auch das umfangreiche Fachwissen muss beim akademischen Ghostwriter vorhanden sein. Dies muss ein '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Wissen über englische Sprache, die englische Kultur sowie die englische Kultur und die betreffende Geschichte'
+                  -
+                    type: text
+                    text: ' sein. Der akademische Ghostwriter muss die einzelnen kulturellen Strömungen und kulturellen Unterschiede kennen und ihre Wirkungen im sprachlichen Kontext interpretieren können. Ein tiefes Verständnis fremdsprachlicher Kulturen zeichnet demnach einen akademische Ghostwriter in der Anglistik aus.'
               -
                 type: paragraph
                 content:
@@ -1794,7 +2020,22 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Zeiteinhaltung, die Erfassung von Fachwissen und die Umsetzung dieses Wissens in englische Sprache ist Kerninhalt der Anglistik. Hinzu kommt die Analyse englischsprachiger Texte sowie die Optimierung des Textverständnisses. All dies sind die zentralen Herausforderungen, vor den Studenten der Anglistik stehen. Viele Studenten in diesem Fachbereich Schwierigkeiten beim Verfassen einer wissenschaftlichen Arbeit haben, insbesondere bei der Abschlussarbeit, weil Texte in einer Fremdsprache nicht nur verstanden, sondern auch verfasst werden müssen.'
+                    marks:
+                      -
+                        type: bold
+                    text: 'Zeiteinhaltung, die Erfassung von Fachwissen und die Umsetzung dieses Wissens in englische Sprache ist Kerninhalt der Anglistik'
+                  -
+                    type: text
+                    text: '. Hinzu kommt die '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: 'Analyse englischsprachiger Texte sowie die Optimierung des Textverständnisses'
+                  -
+                    type: text
+                    text: '. All dies sind die zentralen Herausforderungen, vor den Studenten der Anglistik stehen. Viele Studenten in diesem Fachbereich Schwierigkeiten beim Verfassen einer wissenschaftlichen Arbeit haben, insbesondere bei der Abschlussarbeit, weil Texte in einer Fremdsprache nicht nur verstanden, sondern auch verfasst werden müssen.'
               -
                 type: heading
                 attrs:
